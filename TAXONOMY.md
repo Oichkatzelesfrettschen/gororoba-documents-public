@@ -1,6 +1,6 @@
 # Taxonomy
 
-Taxonomy version 1. This file is the filing vocabulary for gororoba-documents-public and for its private sibling
+Taxonomy version 2. This file is the filing vocabulary for gororoba-documents-public and for its private sibling
 gororoba-documents-private. Both repositories file every document at `<field>/<subject>/<file>`, using the fields and
 subjects below. A subject folder exists in a repository only while that repository holds a file in it, so a
 private-only subject has no public folder.
@@ -27,6 +27,7 @@ private-only subject has no public folder.
 | `computer-science` | Algorithms, complexity, languages, software, formal verification and learning systems. |
 | `statistics` | Estimation, testing, inferential methodology and research reliability. |
 | `engineering` | Engineered devices, signal processing, estimation and control of physical plants, manufacturing, system architecture. |
+| `user_documentation` | Documents the owner authored in the workspace repositories: manuscripts, synthesis reports, cover letters and generated figures. Private-only: gororoba-documents-public holds no file in this field. |
 
 A mathematical structure studied without a physical question belongs in mathematics, even when the work is posted
 under math-ph or hep-th. A quantum algorithm or compiler belongs in computer science; the device that runs it
@@ -112,6 +113,16 @@ When subjects overlap, apply this precedence:
 | `manufacturing` | Manufacturing and materials-processing capabilities and procedures. |
 | `systems` | Engineering architecture and integration, digital twins, infrastructure. |
 
+### user_documentation
+
+Private-only field. gororoba-documents-private files the owner's own documents here; the public repository carries no
+`user_documentation` folder.
+
+| Subject | Scope |
+|---|---|
+| `manuscripts` | Papers, synthesis and formalism documents, cover letters. |
+| `figures` | Plots and dependency graphs. |
+
 ## Kinds
 
 The manifest's `kind` column records the publication kind; kinds do not appear in paths.
@@ -125,6 +136,7 @@ The manifest's `kind` column records the publication kind; kinds do not appear i
 | `thesis` | Master's or doctoral thesis. |
 | `report` | Technical or design report, white paper, manual, documentation, roadmap, reconstruction binder. |
 | `patent` | Patent or patent application. |
+| `figure` | A generated plot, chart or graph. |
 
 ## Filenames
 
