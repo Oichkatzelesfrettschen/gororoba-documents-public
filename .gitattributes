@@ -1,0 +1,2 @@
+# Files keep their exact bytes: manifest.tsv binds each path to the sha256 of the bytes as acquired.
+* -text
