@@ -1,6 +1,6 @@
 # Taxonomy
 
-Taxonomy version 2. This file is the filing vocabulary for gororoba-documents-public and for its private sibling
+Taxonomy version 3. This file is the filing vocabulary for gororoba-documents-public and for its private sibling
 gororoba-documents-private. Both repositories file every document at `<field>/<subject>/<file>`, using the fields and
 subjects below. A subject folder exists in a repository only while that repository holds a file in it, so a
 private-only subject has no public folder.
@@ -151,15 +151,8 @@ The manifest's `kind` column records the publication kind; kinds do not appear i
 - Distinct bytes of one work, such as two arXiv versions or a preprint and its journal version, stay distinct files
   with distinct names.
 
-## Growth
+## Adding a subject
 
-- **Target size.** A subject holds roughly 5 to 60 distinct works across both repositories; a PDF and its
-  transcription count as one work.
-- **Split review.** A subject above 80 works gets a split review: identify at least two stable clusters of ten or
-  more works each, write their scope rules, and move their files in one commit per repository. `cayley-dickson`
-  is above that bound.
-- **Merge review.** A subject below 3 works across two reviews gets a merge review. A subject whose scope is
-  distinct stays, with that exception recorded here.
-- **Adding a subject.** Show the retrieval need with the files that fail the existing scopes, write the slug and its
-  scope rule into this file, raise the taxonomy version, then move the files. The owner approves every change to
-  this vocabulary before files move.
+A subject holds every work its scope rule covers, whatever the count. A new subject enters only for works that fail
+every existing scope: write the slug and its scope rule into this file, raise the taxonomy version, then move the
+files. The owner approves every change to this vocabulary before files move.

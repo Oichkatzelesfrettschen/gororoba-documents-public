@@ -13,7 +13,7 @@ NonCommercial, NoDerivatives and ShareAlike terms.
 ## Layout
 
 Every document sits at `<field>/<subject>/<file>`. [TAXONOMY.md](TAXONOMY.md) holds the fields, the subject slugs
-with their scope rules and precedence, the kinds, the filename rules and the growth procedure. The private sibling
+with their scope rules and precedence, the kinds, the filename rules and the rule for adding a subject. The private sibling
 gororoba-documents-private files its documents under the same vocabulary. A Markdown transcription sits beside the
 PDF it transcribes, under the same stem with `.md`.
 
