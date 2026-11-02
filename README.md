@@ -41,5 +41,5 @@ updates the file's manifest row:
   `"$PYTHON" scripts/source_reading_copies.py --locate
   ../gororoba-documents-public ../gororoba-documents-private` refreshes the
   links of `docs/sources/reading-copies.md`.
-- gororoba-open: `repo-utilities document-cache --restore` relinks the
-  `data/papers/` paths that `data/papers/document_cache.tsv` records.
+- gororoba-open: cites documents by their `manifest.tsv` sha256, and their
+  bytes live only in the documents repositories.
