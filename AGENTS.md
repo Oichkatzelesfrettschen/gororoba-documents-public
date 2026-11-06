@@ -3,6 +3,11 @@
 This repository is public. Every push publishes its files, and a published
 file stays cached and indexed after removal.
 
+The workspace guide, `AGENTS.md` in the directory above this checkout (kept in gororoba-infrastructure as
+`workspace/AGENTS.md`), holds the rules shared by every gororoba repository: ownership, the boundaries between
+repositories, shared checkouts, the review order and the pull-request shape. Read it together with this file;
+this file governs where the two differ.
+
 - A file enters here only when its license permits redistribution of the
   exact bytes: any Creative Commons license (NonCommercial and NoDerivatives
   included), CC0, a documented public-domain status, or another license that
