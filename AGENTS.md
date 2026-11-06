@@ -26,6 +26,10 @@ this file governs where the two differ.
   the file's manifest row in the same commit. A PDF's or source archive's bytes never change, and a corrected
   copy enters under a new name with its own row; a transcription is a derived file that revises in place, its
   manifest row replaced in the same commit, and git keeps every earlier version.
+- After a transcription changes, run the display-math lint from gororoba-infrastructure
+  (`python -m transcribe lint --workspace ..`, README "Display-math lint"): its fixable findings print
+  the same equation and `--write` files them with their manifest rows; an advisory finding needs the
+  page image or the authors' LaTeX.
 - The transcription of a PDF under a NoDerivatives license lives in gororoba-documents-private at the
   PDF's own `<field>/<subject>/` path, because its corrections, transcriber's notes and figure descriptions
   go beyond a format shift; the PDF stays here, and the transcription's header names its sha256.
