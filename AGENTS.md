@@ -18,8 +18,12 @@ file stays cached and indexed after removal.
   settle the rights of the exact bytes, then place it at `<field>/<subject>/<file>` with its kind in the
   manifest's `kind` column, and a transcription beside its PDF. A change to the vocabulary waits for the
   owner's approval and raises the taxonomy version. Consumers resolve files by sha256, so a move updates
-  the file's manifest row in the same commit; a file's bytes never change, and a corrected copy enters
-  under a new name with its own row.
+  the file's manifest row in the same commit. A PDF's or source archive's bytes never change, and a corrected
+  copy enters under a new name with its own row; a transcription is a derived file that revises in place, its
+  manifest row replaced in the same commit, and git keeps every earlier version.
+- The transcription of a PDF under a NoDerivatives license lives in gororoba-documents-private at the
+  PDF's own `<field>/<subject>/` path, because its corrections, transcriber's notes and figure descriptions
+  go beyond a format shift; the PDF stays here, and the transcription's header names its sha256.
 - Write committed text without emoji, in American English, with no local
   absolute paths.
 - Land changes on `main` through `git push origin main:main`.

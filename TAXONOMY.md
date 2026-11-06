@@ -154,7 +154,9 @@ The manifest's `kind` column records the publication kind; kinds do not appear i
   is renamed. A name that is truthful stays.
 - Names use only letters, digits, `.`, `_` and `-`, and are unique within their folder regardless of case.
 - A Markdown transcription sits beside its PDF under the same stem with `.md`, and starts with its source URL, the
-  PDF's sha256 and its license line.
+  PDF's sha256 and its license line. A transcription revises in place with its manifest row replaced in the same
+  commit. The transcription of a public PDF under a NoDerivatives license sits at the same path in the private
+  repository.
 - Distinct bytes of one work, such as two arXiv versions or a preprint and its journal version, stay distinct files
   with distinct names.
 
