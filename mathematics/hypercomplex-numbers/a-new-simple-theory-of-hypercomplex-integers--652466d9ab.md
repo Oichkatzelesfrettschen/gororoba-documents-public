@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: 652466d9ab54fb3981ab2fb89667c5996af03f8c633c424b2a4309cd77aeeefe
 License: public domain (L. E. Dickson, J. Math. Pures Appl. 9e serie 2 (1923); Dickson died 1954)
+Language: eng
+Fidelity: machine (failed: characters)
 
 # Transcription of a-new-simple-theory-of-hypercomplex-integers--652466d9ab.pdf
 

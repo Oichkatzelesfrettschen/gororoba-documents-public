@@ -1,6 +1,8 @@
 Source: https://arxiv.org/abs/2401.08346v2
 PDF sha256: 2b81fcfabc5fea202d9f5e5680f4f58433fadbe75e2d6af0df418411168ee61c
 License: http://creativecommons.org/licenses/by/4.0/
+Language: eng
+Fidelity: machine (failed: characters)
 
 # Transcription of anninos_2024_graviton_photon_expanding.pdf
 

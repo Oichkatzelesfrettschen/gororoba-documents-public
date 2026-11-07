@@ -1,6 +1,8 @@
 Source: https://arxiv.org/abs/2512.21457v1
 PDF sha256: ede423b0afc61996c623894b731cfac97c404768cf7ca6c7837788d51d4850b8
 License: http://creativecommons.org/licenses/by/4.0/
+Language: eng
+Fidelity: machine (failed: characters)
 
 # Transcription of abed_2025_dark_higgs_hidden_sector.pdf
 

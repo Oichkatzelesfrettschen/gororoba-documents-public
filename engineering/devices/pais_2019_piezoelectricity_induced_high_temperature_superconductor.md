@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: 55a5de728424cbe755f0cc4ef02f6249afba6c3c89f3978d16658d3e959109ff
 License: public domain: United States patent document
+Language: eng
+Fidelity: machine-gated
 
 # Transcription of pais_2019_piezoelectricity_induced_high_temperature_superconductor.pdf
 

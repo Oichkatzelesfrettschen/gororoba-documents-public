@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: ec54995bdd318e1ea5c7bb385962aebd77244d0b96b20dae7f5766fa600cb9c5
 License: https://creativecommons.org/licenses/by-sa/3.0/
+Language: eng
+Fidelity: machine (failed: characters)
 
 # Transcription of lehman_2017_mathematics_for_computer_science.pdf
 

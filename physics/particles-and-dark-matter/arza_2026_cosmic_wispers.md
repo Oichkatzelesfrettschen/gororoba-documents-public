@@ -1,6 +1,8 @@
 Source: https://arxiv.org/abs/2603.03433v1
 PDF sha256: 684c99af204a4f52bf1cd25650ae4ccec1d65f269fd9591556fcfb14a07dfa2c
 License: http://creativecommons.org/licenses/by/4.0/
+Language: eng
+Fidelity: machine (failed: characters)
 
 # Transcription of arza_2026_cosmic_wispers.pdf
 

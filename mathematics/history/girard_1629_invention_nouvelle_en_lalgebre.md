@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: 5c66abc1b9a440ce59d9abef465066ade7fc10a03d6cb29591f9f80ab98684ee
 License: public domain (A. Girard, Invention nouvelle en l'algebre (1629); Girard died 1632)
+Language: fra
+Fidelity: machine (failed: second-reader)
 
 # Transcription of girard_1629_invention_nouvelle_en_lalgebre.pdf
 

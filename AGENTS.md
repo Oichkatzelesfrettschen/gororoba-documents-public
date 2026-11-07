@@ -29,7 +29,10 @@ this file governs where the two differ.
 - After a transcription changes, run the display-math lint from gororoba-infrastructure
   (`python -m transcribe lint --workspace ..`, README "Display-math lint"): its fixable findings print
   the same equation and `--write` files them with their manifest rows; an advisory finding needs the
-  page image or the authors' LaTeX.
+  page image or the authors' LaTeX. Then run the verification gate (`python -m transcribe verify
+  --workspace .. --plans .cache/ocrsearch/full.jsonl --cache .cache/ocrsearch/cache --write`, README
+  "Fidelity status"), which derives the header's `Fidelity:` line from the transcription's evidence and adds
+  its `Language:` line where absent.
 - The transcription of a PDF under a NoDerivatives license lives in gororoba-documents-private at the
   PDF's own `<field>/<subject>/` path, because its corrections, transcriber's notes and figure descriptions
   go beyond a format shift; the PDF stays here, and the transcription's header names its sha256.

@@ -1,6 +1,8 @@
 Source: https://arxiv.org/abs/2510.09864v1
 PDF sha256: bb11ec81920f9527c95f72b97cc52d9ede26e412560f654845cd3518a06a7955
 License: http://creativecommons.org/licenses/by/4.0/
+Language: eng
+Fidelity: machine (failed: characters)
 
 # Transcription of arxiv_2510.09864_cms_2025_discovery_suppressed_oo_collisions.pdf
 

@@ -1,6 +1,8 @@
 Source: https://journals.plos.org/plosone/article/file
 PDF sha256: 88517f27aa350f844b2aa7db2e622562b662152bc46af2ec9ab488cfbf0cceb5
 License: CC-BY
+Language: eng
+Fidelity: machine (failed: characters)
 
 # Transcription of deyle_2011_generalized_theorems_nonlinear_state_space.pdf
 

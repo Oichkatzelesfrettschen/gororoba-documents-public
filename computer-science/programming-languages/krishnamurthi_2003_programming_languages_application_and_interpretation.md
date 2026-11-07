@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: 1bf8e9ed3775f245aaa56fd7cd0d00b798aad982b32b1c90152289ebb925a784
 License: https://creativecommons.org/licenses/by-nc-sa/3.0/us/
+Language: eng
+Fidelity: machine (failed: characters)
 
 # Transcription of krishnamurthi_2003_programming_languages_application_and_interpretation.pdf
 

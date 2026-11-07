@@ -1,6 +1,8 @@
 Source: https://arxiv.org/abs/2601.18433v1
 PDF sha256: 74111b6e4be468583efae99f8700c5f5427b50fd46e41945dd90a84175809289
 License: http://creativecommons.org/licenses/by/4.0/
+Language: eng
+Fidelity: machine (failed: characters)
 
 # Transcription of arxiv_2601.18433v1_clifford_split_octonion_conformal_space.pdf
 

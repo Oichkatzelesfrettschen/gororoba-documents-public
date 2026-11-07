@@ -1,6 +1,8 @@
 Source: https://link.springer.com/content/pdf/10.12942/lrr-2014-3.pdf
 PDF sha256: 1399594d7ca2293f30a9b4140a2bd8e520759a81f6d7313d21162b53d19eef2c
 License: CC-BY
+Language: eng
+Fidelity: machine-gated
 
 # Transcription of postnov_2014_evolution_compact_binary_star_systems.pdf
 

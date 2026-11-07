@@ -1,6 +1,8 @@
 Source: https://content.openalex.org/works/W3015156746.pdf
 PDF sha256: 4a486aa7200bc7c209160db7ae9d7084c26bf5f2cc219dcfcc84e1436caa2120
 License: CC-BY
+Language: eng
+Fidelity: machine-gated
 
 # Transcription of staples_2020_statistical_models_capture_dynamics_magnetopause.pdf
 

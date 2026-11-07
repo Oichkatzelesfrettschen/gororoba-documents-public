@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: 2992da2b99ccfc9efeb46e9e81c73e21fb1f21f637a8594047fc4d6a06e930a2
 License: public domain (R. Bombelli, L'Algebra (1572); Bombelli died 1572)
+Language: ita
+Fidelity: machine (failed: second-reader)
 
 # Transcription of bombelli_1572_lalgebra_parte_maggiore_dellarimetica.pdf
 

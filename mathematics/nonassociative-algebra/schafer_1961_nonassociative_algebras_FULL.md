@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: 6a4fa6fa366ff88268f004bbf41012687c6f5f74a6107d488156720e7504a3ce
 License: Project Gutenberg License (US public domain text)
+Language: eng
+Fidelity: machine-gated
 
 # Transcription of schafer_1961_nonassociative_algebras_FULL.pdf
 

@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: 08709a87567d8311d6fd29c4f4a5386801153e71450e628c4a5a5d7e85feda8b
 License: https://creativecommons.org/licenses/by-sa/4.0/
+Language: eng
+Fidelity: machine-gated
 
 # Transcription of abelson_sussman_1996_structure_and_interpretation_of_computer_programs.pdf
 

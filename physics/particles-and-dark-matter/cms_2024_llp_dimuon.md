@@ -1,6 +1,8 @@
 Source: https://arxiv.org/abs/2402.14491v2
 PDF sha256: 198188582676e446eaa04f85ffa955b8d339a874c5bde0b1b22295b4d71975de
 License: http://creativecommons.org/licenses/by/4.0/
+Language: eng
+Fidelity: machine-gated
 
 # Transcription of cms_2024_llp_dimuon.pdf
 

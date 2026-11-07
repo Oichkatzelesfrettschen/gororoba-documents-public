@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: 56b324ddb8e734bfb8a9e665192b699a70a5125d98ebf8b2aaa568e36f368f50
 License: public domain (L. Euler, Elementa doctrinae solidorum (1758); Euler died 1783)
+Language: lat
+Fidelity: machine (failed: second-reader)
 
 # Transcription of euler_1758_E230_elementa_doctrinae_solidorum.pdf
 

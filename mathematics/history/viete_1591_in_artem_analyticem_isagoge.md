@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: f538b5979874171c1ff5d135f867ecd775ac561321bcfc968cf8ede26883f713
 License: public domain (F. Viete, In artem analyticem isagoge (1591); Viete died 1603)
+Language: lat
+Fidelity: machine (failed: second-reader)
 
 # Transcription of viete_1591_in_artem_analyticem_isagoge.pdf
 

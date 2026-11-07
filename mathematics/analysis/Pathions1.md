@@ -1,6 +1,8 @@
 Source: https://doi.org/10.36227/techrxiv.19425989.v1
 PDF sha256: 035dd224affcf76e3a8a6aed64dae226231c87ef353718f6de1e2e2e46ab15a8
 License: https://creativecommons.org/licenses/by/4.0/
+Language: eng
+Fidelity: machine (failed: characters)
 
 # Transcription of Pathions1.pdf
 

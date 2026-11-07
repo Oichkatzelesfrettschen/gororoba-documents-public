@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: 347dc47b5e72a92ed13e2ebc560c6568d8eb74b259da288d54d89b398eea15da
 License: public domain (Philosophical Magazine vol. 33, published 1848; contributors died before 1955)
+Language: eng
+Fidelity: machine (failed: characters, second-reader)
 
 # Transcription of cockle_1848_philosophical_magazine_vol33_containing_functions_resembling_quaternions.pdf
 

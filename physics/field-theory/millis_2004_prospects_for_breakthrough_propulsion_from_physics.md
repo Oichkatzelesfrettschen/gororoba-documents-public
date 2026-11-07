@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: 4307019595199b745fd876a31faad1bb25398e7896a5bffbbef5c8585eb65b6e
 License: public domain: 17 U.S.C. 105
+Language: eng
+Fidelity: machine-gated
 
 # Transcription of millis_2004_prospects_for_breakthrough_propulsion_from_physics.pdf
 

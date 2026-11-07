@@ -1,6 +1,8 @@
 Source: https://arxiv.org/abs/2205.08582v2
 PDF sha256: 1015f0fe92efe4b5a221de272e3e49104a9aca33add9ad8e1075c9f4af537fab
 License: http://creativecommons.org/licenses/by/4.0/
+Language: eng
+Fidelity: machine-gated
 
 # Transcription of cms_2022_llp_muon_pairs.pdf
 

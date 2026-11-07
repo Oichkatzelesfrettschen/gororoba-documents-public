@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: e383f51a5278b4a0e7c365030df569a723b8c9de59ae29828ccbba2c03d400a8
 License: public domain: United States patent document
+Language: eng
+Fidelity: machine-gated
 
 # Transcription of tesla_1900_system_of_transmission_of_electrical_energy_us645576.pdf
 

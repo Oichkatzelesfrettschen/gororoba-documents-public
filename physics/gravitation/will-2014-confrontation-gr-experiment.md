@@ -1,6 +1,8 @@
 Source: https://inspirehep.net/files/5b30018625fd0245ba3ae64f462b86f8
 PDF sha256: 9b59dbea38f7f8d5cb1846b1ca7a8484a9de4c35d0bbc1a39022eaf21dc45456
 License: http://creativecommons.org/licenses/by-nc/3.0/de/
+Language: eng
+Fidelity: machine (failed: characters)
 
 # Transcription of will-2014-confrontation-gr-experiment.pdf
 

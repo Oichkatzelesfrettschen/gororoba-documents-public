@@ -1,6 +1,8 @@
 Source: https://arxiv.org/abs/2504.08304v2
 PDF sha256: bb8dc5ecb1adf2b0ece1230d446893911b8ca0722af81168c571e0de231aa6ef
 License: http://creativecommons.org/licenses/by/4.0/
+Language: eng
+Fidelity: machine (failed: characters)
 
 # Transcription of kanemura_2025_asteroid_mass_soliton.pdf
 

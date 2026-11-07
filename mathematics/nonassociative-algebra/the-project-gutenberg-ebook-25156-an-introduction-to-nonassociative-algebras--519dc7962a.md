@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: 519dc7962a712f2f043f4061167a91ddd93d04ee1fc9635da6311cb9b9b06926
 License: Project Gutenberg License (US public domain text)
+Language: eng
+Fidelity: machine (failed: characters)
 
 # Transcription of the-project-gutenberg-ebook-25156-an-introduction-to-nonassociative-algebras--519dc7962a.pdf
 

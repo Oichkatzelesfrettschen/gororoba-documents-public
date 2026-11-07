@@ -1,6 +1,8 @@
 Source: https://arxiv.org/abs/2408.00873v2
 PDF sha256: 3eb55e4fd14067a510d6c5053ea318bd299eabd0e39045cdbff88d2765373268
 License: http://creativecommons.org/licenses/by/4.0/
+Language: eng
+Fidelity: machine-gated
 
 # Transcription of arxiv_2408.00873_baco2_honeycomb_thermal_scaling.pdf
 

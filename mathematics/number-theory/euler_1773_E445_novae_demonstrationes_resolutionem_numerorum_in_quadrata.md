@@ -1,6 +1,8 @@
 Source: http://eulerarchive.maa.org/docs/originals/E445.pdf
 PDF sha256: d8f0eb52309f34b20bc5687a0d97ba4123c8385490b2885bb3deebdab50235a8
 License: public domain (L. Euler, Acta Eruditorum 1773; Euler died 1783)
+Language: lat
+Fidelity: machine (failed: characters, second-reader)
 
 # Transcription of euler_1773_E445_novae_demonstrationes_resolutionem_numerorum_in_quadrata.pdf
 

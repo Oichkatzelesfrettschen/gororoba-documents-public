@@ -1,6 +1,8 @@
 Source: https://www.nrl.navy.mil/ppd/plasma-formulary/
 PDF sha256: 037290d47c8ff043cad3c846dba42f7233037a7c9077f61343564472d8ccf31b
 License: public domain in the United States (17 U.S.C. 105, a work of the United States Government)
+Language: eng
+Fidelity: machine-gated
 
 # Transcription of richardson_2019_nrl_plasma_formulary.pdf
 

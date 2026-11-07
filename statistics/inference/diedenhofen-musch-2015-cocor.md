@@ -1,6 +1,8 @@
 Source: https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0121945&type=printable
 PDF sha256: a21fcdad41b5a9e04b765949e02d7c8bec8229faf5f2059e10758a8ee85d933d
 License: https://creativecommons.org/licenses/by/4.0/
+Language: eng
+Fidelity: machine-gated
 
 # Transcription of diedenhofen-musch-2015-cocor.pdf
 

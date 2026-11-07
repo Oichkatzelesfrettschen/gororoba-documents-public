@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: 83dbbf3ca24e85f76407e7b6b0994ef600b075500b491af8694e715342255090
 License: public domain (G. Cardano, Ars Magna (1545); Cardano died 1576)
+Language: lat
+Fidelity: machine (failed: characters, second-reader)
 
 # Transcription of cardano_1545_artis_magnae_sive_de_regulis_algebraicis.pdf
 

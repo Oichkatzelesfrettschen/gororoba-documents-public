@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: e2c62c5f18f0ee11e595eb46eaa2b3b074bc9a1a3d301c5d08fc898c7040f3f6
 License: public domain (L. E. Dickson, Annals of Math. 20 (1919); JSTOR Early Journal Content)
+Language: eng
+Fidelity: machine (failed: characters)
 
 # Transcription of dickson_1919_quaternions_generalization_eight_square.pdf
 

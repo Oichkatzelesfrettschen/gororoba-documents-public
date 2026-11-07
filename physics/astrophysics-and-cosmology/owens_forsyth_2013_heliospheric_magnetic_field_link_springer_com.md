@@ -1,6 +1,8 @@
 Source: https://doi.org/10.12942/lrsp-2013-5
 PDF sha256: 88a36178bf72fb4e4fc76c71e4571b09d63a3357e3645bc258ea916da94373ed
 License: http://creativecommons.org/licenses/by-nc/3.0/de/
+Language: eng
+Fidelity: machine-gated
 
 # Transcription of owens_forsyth_2013_heliospheric_magnetic_field_link_springer_com.pdf
 

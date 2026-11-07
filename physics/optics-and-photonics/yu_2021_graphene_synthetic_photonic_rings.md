@@ -1,6 +1,8 @@
 Source: https://doi.org/10.1038/s42005-021-00719-9
 PDF sha256: 4594a252613b9e9a879c1568459fb8d850c2df798c8cf7bf3274de9109c6d4ec
 License: https://creativecommons.org/licenses/by/4.0
+Language: eng
+Fidelity: machine (failed: characters)
 
 # Transcription of yu_2021_graphene_synthetic_photonic_rings.pdf
 

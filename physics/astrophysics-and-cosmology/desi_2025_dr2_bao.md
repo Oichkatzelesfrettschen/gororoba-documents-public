@@ -1,6 +1,8 @@
 Source: https://arxiv.org/abs/2503.14738v3
 PDF sha256: 1e82f26e4cc3901b16168cd147f252bfa804f9c3caad3f4f7e3532640d237841
 License: http://creativecommons.org/licenses/by/4.0/
+Language: eng
+Fidelity: machine (failed: characters)
 
 # Transcription of desi_2025_dr2_bao.pdf
 

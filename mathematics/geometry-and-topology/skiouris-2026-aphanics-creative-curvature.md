@@ -1,6 +1,8 @@
 Source: https://zenodo.org/records/22032281
 PDF sha256: 3a21bfd18bbd608a14c09230595a15e4f87e4aa55a7bfcc636d7b769aeb8c549
 License: CC-BY-4.0
+Language: eng
+Fidelity: machine (failed: characters)
 
 # Transcription of skiouris-2026-aphanics-creative-curvature.pdf
 

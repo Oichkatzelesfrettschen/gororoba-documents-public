@@ -1,6 +1,8 @@
 Source: https://annas-archive.gl/md5/5c03dc8a5d3f840b4d7f18def1d16a05
 PDF sha256: de0333ee5c62027a264337dbd6bcb351f1806bf901fc77d2f416e6b31a3fcfcf
 License: public domain (L. E. Dickson, Duke Math. J. 1 (1935) 113-125, published in the United States in 1935, copyright not renewed)
+Language: eng
+Fidelity: machine-gated
 
 # Transcription of dickson_1935_linear_algebras_with_associativity_not_assumed.pdf
 

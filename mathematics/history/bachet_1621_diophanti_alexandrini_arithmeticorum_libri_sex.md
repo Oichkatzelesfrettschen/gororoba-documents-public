@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: 9f5bd987ec1f745ae8e2ffe6c8be2d50da3d185bd8a4359aaa5728fcda674cce
 License: public domain (C.-G. Bachet, Diophanti Arithmeticorum libri sex (1621); Bachet died 1638)
+Language: lat+grc
+Fidelity: machine (failed: second-reader)
 
 # Transcription of bachet_1621_diophanti_alexandrini_arithmeticorum_libri_sex.pdf
 

@@ -1,6 +1,8 @@
 Source: https://doi.org/10.3390/math3041192
 PDF sha256: 808f3e5edcd4341ac0904e7b313472cf030c7c0cbd7993ec473aedaa8e59cec5
 License: https://creativecommons.org/licenses/by/4.0/
+Language: eng
+Fidelity: machine (failed: characters)
 
 # Transcription of saniga_2015_cd_to_combinatorial_grassmannians.pdf
 

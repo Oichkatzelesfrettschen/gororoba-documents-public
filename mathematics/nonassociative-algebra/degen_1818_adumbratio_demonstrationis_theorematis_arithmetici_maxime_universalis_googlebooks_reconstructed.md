@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: 6190e153c2b6345195ea794fc1b685802e5c28b3d2521f9aa9538b6c915a8b1f
 License: public domain (C. F. Degen, Adumbratio demonstrationis (1818); Degen died 1825)
+Language: lat
+Fidelity: machine-gated
 
 # Transcription of degen_1818_adumbratio_demonstrationis_theorematis_arithmetici_maxime_universalis_googlebooks_reconstructed.pdf
 

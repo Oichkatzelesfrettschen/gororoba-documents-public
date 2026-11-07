@@ -1,6 +1,8 @@
 Source: https://arxiv.org/abs/1308.0729v1
 PDF sha256: 05a533d30addb060a89fba1d1bef15d1f6f115c1f01c8b7f6ed3b2660608179a
 License: http://creativecommons.org/licenses/by-nc-sa/3.0/
+Language: eng
+Fidelity: machine (failed: characters, second-reader)
 
 # Transcription of hott_original.pdf
 

@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: 897435f9d4e45c3a161f3d0657194d4c137d22468d2d771d48e5542219542d4e
 License: public domain (J. H. M. Wedderburn, Trans. AMS 15 (1914); JSTOR Early Journal Content)
+Language: eng
+Fidelity: machine-gated
 
 # Transcription of wedderburn_1914_primitive_algebra_TAMS_vol15.pdf
 

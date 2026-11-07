@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: 0fdf9e7ed5dda3f90f0bdf2814187950a894614aabc2531fdb34889cdb3a7687
 License: public domain (Philosophical Magazine vol. 34, published 1849; contributors died before 1955)
+Language: eng
+Fidelity: machine (failed: characters, second-reader)
 
 # Transcription of cockle_1849_philosophical_magazine_vol34_containing_new_imaginary_in_algebra.pdf
 

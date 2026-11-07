@@ -1,6 +1,8 @@
 Source: https://arxiv.org/abs/2111.03634
 PDF sha256: 3e616e77962260040e3def02a4d7aac3152ee62a76fa8d5a8262b64b34c96ed9
 License: https://creativecommons.org/licenses/by/4.0/
+Language: eng
+Fidelity: machine (failed: characters, second-reader)
 
 # Transcription of arxiv_2111.03634_abbott_et_al_2021_gwtc3_population_properties.pdf
 

@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: 13e89083e3c0b214c9f301ec30f6754a93839a2d408157b84eac23836e2701d3
 License: public domain (published 1798; author A.-M. Legendre died 1833)
+Language: fra
+Fidelity: machine (failed: characters, second-reader)
 
 # Transcription of legendre_1798_essai_sur_la_theorie_des_nombres.pdf
 

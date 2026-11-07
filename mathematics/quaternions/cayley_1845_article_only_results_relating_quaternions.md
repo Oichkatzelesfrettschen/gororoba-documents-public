@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: 232d95aa0a5846643da276d6daa62ff97ea379c57487359f9b1dd7d3f9de39bc
 License: public domain (A. Cayley, Collected Mathematical Papers vol. 1 (1889); Cayley died 1895)
+Language: eng
+Fidelity: machine-gated
 
 # Transcription of cayley_1845_article_only_results_relating_quaternions.pdf
 

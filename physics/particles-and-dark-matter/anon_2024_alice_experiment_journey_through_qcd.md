@@ -1,6 +1,8 @@
 Source: https://doi.org/10.1140/epjc/s10052-024-12935-y
 PDF sha256: 2ee2e52848809bb3fea58ae767b692d66101a0364c9f2f53e6b74cff5129b590
 License: CC-BY-4.0
+Language: eng
+Fidelity: machine (failed: characters)
 
 # Transcription of anon_2024_alice_experiment_journey_through_qcd.pdf
 

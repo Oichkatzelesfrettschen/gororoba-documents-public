@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: 0fe6c371a3d739cc6771b2c87d77ed966aa08eb55e3904a3ab61cdc7dc92080f
 License: public domain (PNAS vol. 7, published in the United States in 1921)
+Language: eng
+Fidelity: machine-gated
 
 # Transcription of dickson_1921_article_only_quaternions_their_generalizations.pdf
 

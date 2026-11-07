@@ -1,6 +1,8 @@
 Source: see manifest row of the PDF
 PDF sha256: b747049f7317f3e1175e231d162c2f6e821cb8cc6074592181c8ca5f531b070e
 License: public domain (Philosophical Magazine vol. 27, published 1845; contributors died before 1955)
+Language: eng
+Fidelity: machine (failed: characters, second-reader)
 
 # Transcription of cayley_1845_philosophical_magazine_vol27_containing_results_relating_quaternions.pdf
 

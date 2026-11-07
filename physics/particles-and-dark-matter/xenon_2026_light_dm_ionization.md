@@ -1,6 +1,8 @@
 Source: https://arxiv.org/abs/2601.11296v1
 PDF sha256: 3b61a26b18468867700b36730907d9221cfed6d291338d7c4906ae59cc355269
 License: http://creativecommons.org/licenses/by/4.0/
+Language: eng
+Fidelity: machine-gated
 
 # Transcription of xenon_2026_light_dm_ionization.pdf
 

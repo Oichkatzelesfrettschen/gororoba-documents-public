@@ -1,6 +1,8 @@
 Source: https://doi.org/10.12988/astp.2015.5881
 PDF sha256: 1e71b999600e924823852e7d8924f8c84ad09583e6c74caff61cb74f497c638f
 License: https://creativecommons.org/licenses/by/4.0/
+Language: eng
+Fidelity: machine-gated
 
 # Transcription of winters-hilt-2015-feynman-cayley-path-integrals.pdf
 
