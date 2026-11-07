@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 6cc8d24bb6cfa4563dc0086cdf8d8ffd0292ebfbe9a4e77c27c39cf8723c2739
 License: public domain (W. R. Hamilton, Elements of Quaternions (1866); Hamilton died 1865)
 Language: eng
-Fidelity: machine (failed: characters)
+Fidelity: machine-gated
 
 # Transcription of hamilton_1866_elements_of_quaternions.pdf
 

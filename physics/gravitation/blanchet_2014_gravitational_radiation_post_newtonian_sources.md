@@ -2,7 +2,7 @@ Source: https://link.springer.com/content/pdf/10.12942/lrr-2014-2.pdf
 PDF sha256: 62362a29389997d4b2d7e90f54a12c5daa9c33cd71a3c4fb5da396d4b41278fb
 License: CC-BY-4.0
 Language: eng
-Fidelity: machine (failed: characters)
+Fidelity: machine-gated
 
 # Transcription of blanchet_2014_gravitational_radiation_post_newtonian_sources.pdf
 

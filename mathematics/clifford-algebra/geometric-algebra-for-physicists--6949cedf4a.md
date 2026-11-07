@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 6949cedf4a2baace787c63991958e7cfba7d0ffe892f7e45c8575e3183a74743
 License: https://creativecommons.org/licenses/by-sa/4.0/
 Language: eng
-Fidelity: machine (failed: characters)
+Fidelity: machine-gated
 
 # Transcription of geometric-algebra-for-physicists--6949cedf4a.pdf
 

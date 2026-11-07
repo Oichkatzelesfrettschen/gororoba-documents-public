@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 3d66fa490c393a27451b9c1f3e3aef1e5b40dbb5f626280b182f1b0e62eebaef
 License: public domain (W. R. Hamilton, Lectures on Quaternions (1853); Hamilton died 1865)
 Language: eng
-Fidelity: machine (failed: characters, second-reader)
+Fidelity: machine (failed: second-reader)
 
 # Transcription of hamilton_1853_lectures_on_quaternions.pdf
 

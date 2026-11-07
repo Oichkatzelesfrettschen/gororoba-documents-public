@@ -2,7 +2,7 @@ Source: https://arxiv.org/abs/2404.12637v1
 PDF sha256: 6444d12e97ac3641fd29dfd2c56147e2601b8f32ad7ebd640a406e8cdcd6fb3c
 License: http://creativecommons.org/licenses/by/4.0/
 Language: eng
-Fidelity: machine (failed: characters)
+Fidelity: machine-gated
 
 # Transcription of arxiv_2404.12637_ymn6sn6_topological_magnon_frustration.pdf
 

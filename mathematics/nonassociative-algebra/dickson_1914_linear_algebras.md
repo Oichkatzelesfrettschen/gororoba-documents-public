@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 4f8311c70a752cbb1f244c1b7deab52f49fe8bbad207d206391a532254cafa53
 License: public domain (L. E. Dickson, Linear Algebras, Cambridge Tracts 16 (1914); Dickson died 1954)
 Language: eng
-Fidelity: machine (failed: characters)
+Fidelity: machine-gated
 
 # Transcription of dickson_1914_linear_algebras.pdf
 

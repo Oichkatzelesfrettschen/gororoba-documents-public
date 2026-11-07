@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: ecad36c4cccf71b71a54ed0023d85bfade2f3bd2f5330db65a7cea7fb7b282e8
 License: public domain (A. Hurwitz, Nachr. Ges. Wiss. Goettingen (1898); Hurwitz died 1919)
 Language: deu
-Fidelity: machine (failed: characters)
+Fidelity: machine-gated
 
 # Transcription of hurwitz_1898_composition_quadratischen_formen.pdf
 

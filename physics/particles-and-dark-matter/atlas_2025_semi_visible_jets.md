@@ -2,7 +2,7 @@ Source: https://arxiv.org/abs/2505.01634v2
 PDF sha256: fc62f65f15e43ebe19b3301405332c8e88d916d30ab591e64aab8e759e93ecb2
 License: http://creativecommons.org/licenses/by/4.0/
 Language: eng
-Fidelity: machine (failed: characters)
+Fidelity: machine-gated
 
 # Transcription of atlas_2025_semi_visible_jets.pdf
 

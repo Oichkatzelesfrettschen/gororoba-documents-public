@@ -2,7 +2,7 @@ Source: https://doi.org/10.21203/rs.3.rs-3109229/v1
 PDF sha256: 214bc5a04bb062db22defaf265521e6735982a3349047e4f362735a37667c164
 License: https://creativecommons.org/licenses/by/4.0/
 Language: eng
-Fidelity: machine (failed: characters)
+Fidelity: machine-gated
 
 # Transcription of researchsquare_2023_rs-3109229_metamaterial_perfect_absorber.pdf
 

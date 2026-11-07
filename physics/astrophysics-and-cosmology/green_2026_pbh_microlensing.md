@@ -2,7 +2,7 @@ Source: https://arxiv.org/abs/2602.15974v1
 PDF sha256: b80b346b18b1f56cb8a242aae73875c006cea49f259b7faafc5b6b14ac702ecb
 License: http://creativecommons.org/licenses/by/4.0/
 Language: eng
-Fidelity: machine (failed: characters)
+Fidelity: machine-gated
 
 # Transcription of green_2026_pbh_microlensing.pdf
 
