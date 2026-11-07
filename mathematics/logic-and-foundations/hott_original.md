@@ -26,7 +26,7 @@ Univalent Foundations of Mathematics
 <math>\Sigma</math>: <math>\Pi \Sigma \lambda \Sigma = \Pi \Sigma \Pi \Sigma \Pi \Sigma \Pi \Sigma \Pi \times \Sigma \times = \Pi \lambda \Pi \simeq \Pi \simeq \lambda</math>
 <math>\simeq \lambda \simeq \lambda \simeq \lambda</math> <math>\Pi \simeq \Sigma</math> <math>\Sigma</math> <math>\lambda \Sigma \Pi</math>
 <math>\sim</math> <math>|</math> <math>\sim</math> <math>\lambda</math> <math>\sim</math>
-<math>\Sigma</math>FI<math>\Sigma 	imes \Sigma 	imes \Sigma \Pi \lambda \Pi \Sigma \Pi \Sigma \Pi \Sigma \Pi \Sigma 	imes \Sigma = \Pi \simeq \Pi \simeq \Pi \simeq \lambda \Sigma \Omega</math>
+<math>\Sigma</math>FI<math>\Sigma \times \Sigma \times \Sigma \Pi \lambda \Pi \Sigma \Pi \Sigma \Pi \Sigma \Pi \Sigma \times \Sigma = \Pi \simeq \Pi \simeq \Pi \simeq \lambda \Sigma \Omega</math>
 <math>\simeq \times \simeq \Pi \simeq \Pi \simeq \times \Sigma \simeq \times \simeq \times \simeq \times \simeq \lambda \Pi \simeq \times \Sigma \lambda \Sigma \lambda \Sigma \times \Pi</math>
 <math>\Pi \Sigma \lambda \Sigma \lambda \Sigma \lambda \Pi \lambda \Pi \Sigma \Pi \Sigma \Pi \Sigma \Pi \Sigma \Sigma \Sigma \Pi \simeq \Pi \simeq \Pi \simeq \lambda</math>
 <math>\times \simeq |1 \simeq 11 \simeq \times \Sigma</math>
@@ -35,7 +35,7 @@ Univalent Foundations of Mathematics
 <math>\Sigma \lambda \Sigma \lambda \times \Sigma \Pi \Sigma \Pi</math>
 <math>\simeq \chi || \sim || \sim ||</math>
 <math>\Pi\Sigma = \Sigma \times \Sigma \simeq \times \Pi \Sigma \simeq \Sigma = \Sigma \Pi \Sigma \lambda \Pi \simeq \Pi \simeq \Pi = \simeq \times \simeq \lambda \Sigma</math>
-<math>	op 	imes 	op 	op</math> The Univalent Foundations Program <math>	op 	op</math>
+<math>\top \times \top \top</math> The Univalent Foundations Program <math>\top \top</math>
 INSTITUTE FOR ADVANCED STUDY
 <math>\prod \sum_{i}</math>
 <math>\simeq \Sigma \simeq \Pi \lambda \Pi \Sigma \simeq \Sigma \simeq \Sigma \lambda \Sigma \Pi \Sigma \Pi \times \Pi \simeq \simeq</math>
@@ -143,7 +143,7 @@ X
 П
 <math>\simeq \Sigma \lambda \Sigma</math>
 <math display="block">\begin{array}{c} -\Pi \\ -\Pi \\ \lambda \cong \Sigma \\ \Pi \cong \Pi \\ \Lambda \cong \Sigma \\ \lambda \cong \lambda \\ \Pi \cong \Sigma \\ \Pi \cong \Sigma \\ \Pi \end{array}</math>
-<math>\Pi \overline{	imes} \Pi</math>
+<math>\Pi \overline{\times} \Pi</math>
 <math display="block">
 \begin{array}{ccccc}
 \Pi \simeq \Pi \lambda \Pi \overset{\sim}{\simeq} \Pi \Sigma \Pi \Sigma \Pi \Sigma \Pi \Sigma \overset{\sim}{\simeq} \lambda \Pi \overset{\sim}{\simeq} \times \\

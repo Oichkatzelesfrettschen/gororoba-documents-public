@@ -4690,7 +4690,7 @@ formula <math>C_{54}</math> <math>\begin{cases} H_{42} \\ Cl_{10} \end{cases}</m
 
 Royal Society.
 63
-compound ether <math>C_{58}</math> <math>\left\{ egin{array}{l} H_{46} \\ Cl_{19} \end{array} O_4 \right\}</math>. The analyses of these substances are
+compound ether <math>C_{58}</math> <math>\left\{ \begin{array}{l} H_{46} \\ Cl_{19} \end{array} O_4 \right\}</math>. The analyses of these substances are
 given.
 When distilled in a pure state, the cerotic acid is volatile. When
 mixed with other waxy matters, however, it passes by distillation
@@ -4836,10 +4836,7 @@ mula C<sub>54</sub> H<sub>54</sub>. This formula is determined with precision by
 tion of chlorine on the substance, which gives rise to a series of
 products of substitution, of which several were analysed, namely the
 substances
-<math>\mathrm{C}_{54}\left\{egin{array}{l} \mathrm{H}_{35} \ \mathrm{Cl}_{19} \end{array}
-ight., \quad \mathrm{C}_{54}\left\{egin{array}{l} \mathrm{H}_{33} \ \mathrm{Cl}_{21} \end{array}
-ight., \quad \mathrm{C}_{54}\left\{egin{array}{l} \mathrm{H}_{32} \ \mathrm{Cl}_{22} \end{array}
-ight.</math>
+<math>\mathrm{C}_{54}\left\{\begin{array}{l} \mathrm{H}_{35} \ \mathrm{Cl}_{19} \end{array}\right., \quad \mathrm{C}_{54}\left\{\begin{array}{l} \mathrm{H}_{33} \ \mathrm{Cl}_{21} \end{array}\right., \quad \mathrm{C}_{54}\left\{\begin{array}{l} \mathrm{H}_{32} \ \mathrm{Cl}_{22} \end{array}\right.</math>
 The density of the vapour of cerotine cannot be taken, as, by di-
 stillation, it is decomposed. The experiment was made of distilling
 and redistilling the substance in a sealed tube, in which cases it
@@ -25545,7 +25542,7 @@ Hydrogen . 14.08 14.25 11.14.26 20 Oxygen . 4.37 3.99 4.15 100.00 100.00
 mineral security of the second
 These numbers give the formula C<sub>54</sub> H<sub>56</sub> O<sub>2</sub>.
 Atomic weight. Calculated in 100 parts.
-<math>egin{array}{cccc} C_{54} & . & . & . \\ H_{56} & . & . & . \\ O_2 & . & . & . \end{array}</math>
+<math>\begin{array}{cccc} C_{54} & . & . & . \\ H_{56} & . & . & . \\ O_2 & . & . & . \end{array}</math>
 . 324
 81.81
 56
@@ -26056,7 +26053,7 @@ an asteroich sail
 100.00 100.00
 (0 0111171111111111111111111111111111111
 of the contract of
-The formula <math>C_{54} igg\{ egin{matrix} H_{33} \ Cl_{21} \end{matrix}</math> requires
+The formula <math>C_{54} \bigg\{ \begin{matrix} H_{33} \ Cl_{21} \end{matrix}</math> requires
 and the second second
 7000701
 C<sub>54</sub> . H<sub>33</sub> .
@@ -26096,8 +26093,7 @@ Notwithstanding that between these and the last analyses
 the action of the chlorine had been prolonged for a consider-
 able time, the formula shows a difference of only one equiva-
 lent of chlorine.
-The formula <math>C_{54} \left\{ egin{array}{l} H_{32} \\ Cl_{22} \end{array} 
-ight.</math> requires
+The formula <math>C_{54} \left\{ \begin{array}{l} H_{32} \\ Cl_{22} \end{array} \right.</math> requires
 <math>\begin{array}{cccccccccccccccccccccccccccccccccccc</math>
 These analyses determine with certainty the ratio of the
 hydrogen to the carbon in the cerotene, and leave no doubt

@@ -4205,8 +4205,7 @@ STAR
 horizontal axis for better
 1
 visibility. (Bottom) Centrality
-<math>\sqrt{s_{_{
-m NN}}}</math> (GeV)
+<math>\sqrt{s_{_{\rm NN}}}</math> (GeV)
 Au-Au 20-50%
 dependence of the hyperon
 0.5
@@ -4224,22 +4223,17 @@ with STAR data and two
 10<sup>4</sup>
 10
 hydrodynamic
-<math>\sqrt{s_{_{
-m NN}}}</math> (GeV)
+<math>\sqrt{s_{_{\rm NN}}}</math> (GeV)
 calculations [361]
 <u>×10<sup>-3</sup></u>
-<math>\langle P_{_{
-m Z}} \sin(2\phi</math> - <math>2\Psi_{_{
-m Z}}) 
-angle</math>
+<math>\langle P_{_{\rm Z}} \sin(2\phi</math> - <math>2\Psi_{_{\rm Z}}) \rangle</math>
 Pb-Pb <math>\sqrt{s_{NN}}</math> = 5.02 TeV
 • ALICE <math>(\Lambda + \overline{\Lambda})</math>
 6
 ■ I AMPT + MUSIC (S quark)
 AMPT + MUSIC (Λ)
 Au-Au <math>\sqrt{s_{NN}}</math> = 200 GeV
-<math>
-Arr</math> STAR <math>\times</math> 0.856 (<math>\Lambda</math> + <math>\overline{\Lambda}</math>)
+<math>\rArr</math> STAR <math>\times</math> 0.856 (<math>\Lambda</math> + <math>\overline{\Lambda}</math>)
 STAR, PRL, 123, 132301 (2019)
 2
 -

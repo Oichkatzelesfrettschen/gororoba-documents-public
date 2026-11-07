@@ -905,7 +905,7 @@ Calculated <math>\tau = 1.139 \text{ ns}</math>
 <math>10^{-1}</math>
 <math>10^{-2}</math>
 generated scalar
-<math>e^{-t/	au}</math> fit with <math>	au=</math> 1.079 <math>\pm</math> 0.0078 ns
+<math>e^{-t/\tau}</math> fit with <math>\tau=</math> 1.079 <math>\pm</math> 0.0078 ns
 <math>10^{-3}</math>
 10
 2

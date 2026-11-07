@@ -1150,7 +1150,7 @@ où les deux facteurs sont égaux, soit au cas où l'un des deux est égal
 elle se conclut de ce que <math>H \times 1</math> est <math>H</math>, ainsi que <math>1 \times H</math>. Donc le produit <math>A \times B</math> est toujours égal au produit <math>B \times A</math>.
 .' IL On suppose ordinairement qu'en multipliant un nombre donné C
 par un autre nombre N qui est lui-même le produit de deux facteurs
-<math>oldsymbol{A}</math> et <math>oldsymbol{B}</math>, il revient au même de multiplier <math>oldsymbol{C}</math> par <math>oldsymbol{N}</math> tout d'un coup, ou
+<math>\boldsymbol{A}</math> et <math>\boldsymbol{B}</math>, il revient au même de multiplier <math>\boldsymbol{C}</math> par <math>\boldsymbol{N}</math> tout d'un coup, ou
 bien de multiplier <math>C</math> par <math>A</math>, ensuite le produit par <math>B</math>.
 Pour démontrer cette proposition, j'observe d'abord que le produit AB
 n'est autre chose que <math>A + A + etc.</math>, le nombre de ces termes

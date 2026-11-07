@@ -3529,8 +3529,7 @@ tation round <math>\gamma</math> from <math>\alpha</math> to <math>\beta</math> 
 edges of a right solid, then
 <math>(C-D)(B-D)(A-D) = \pm</math> volume of solid,
 according as the rotation round the edge DA from DB towards DC is di-
-rected to the right hand or to the left; examples from the unit-cube, <math>k 
-ightharpoonup j</math>
+rected to the right hand or to the left; examples from the unit-cube, <math>k \rightharpoonup j</math>
 <math>\times i = -1</math>, <math>kji = +1</math>, <math>ijk = -1</math>, . . Articles 201 to 210; Pages 203 to 208.
 § xl. More general cases, where <math>\alpha</math>, <math>\beta</math>, <math>\gamma</math> are neither coplanar, nor rectangular;
 each of the two symbols, <math>\beta a^{-1} \cdot \gamma</math>, <math>\beta \cdot a^{-1} \gamma</math>, represents a determined
@@ -8905,7 +8904,7 @@ this view, the transversor in the present question is seen to be a
 line in the direction of -k, so that it may conveniently be de-
 noted by the symbol <math>-k</math>, as is exhibited in figure 14.
 Fig. 14.
-<math>{f z}</math>
+<math>{\bf z}</math>
 i
 We may then write also,
 <math>j \times i = -k</math>:
@@ -11189,8 +11188,7 @@ manner that the rectangle con-
 Fig. 24.
 structed with those lengths for
 its sides is equal in area to the
-<math>{
-m F}</math>
+<math>{\rm F}</math>
 C
 square described upon the unit
 of length. For example, if
@@ -14700,8 +14698,7 @@ meet in a point L upon
 the surface of the sphere.
 U
 On the great circle PQL
-<math>{
-m M}</math> <math>></math>
+<math>{\rm M}</math> <math>></math>
 take a new point K, so
 as to satisfy the equa-
 rq
@@ -21321,8 +21318,7 @@ gular spherical hexagon:
 or at least of one which
 R1
 will be at once equi-
-<math>_{
-m T_2}</math>
+<math>_{\rm T_2}</math>
 lateral and equiangular.
 Draw also the six suc-
 Q
@@ -32777,9 +32773,7 @@ Sq being a pure imaginary scalar (compare 637, 640), namely,
 <math>Sq = \pm \sqrt{-1}\sqrt{T\beta}</math>, giving <math>Sq^2 = -T\beta = \frac{1}{2}\alpha^2</math>;
 and Vq a mixed imaginary vector, of the form
 <math>Vq = \rho' + \sqrt{-1} \rho''</math>;
-while <math>
-ho'</math> and <math>
-ho''</math> are two real and rectangular and equally long vec-
+while <math>\rho'</math> and <math>\rho''</math> are two real and rectangular and equally long vec-
 tors, namely,
 
 ## PDF page 795
@@ -34940,7 +34934,7 @@ demy some results, obtained by the quaternion analysis, re-
 specting the inscription of gauche polygons in surfaces of the
 second order.
 If it be required to inscribe a rectilinear polygon P, P1,
-<math>P_2 	ext{...} P_{n-1}</math> in such a surface, under the conditions that its <math>n</math>
+<math>P_2 \text{...} P_{n-1}</math> in such a surface, under the conditions that its <math>n</math>
 successive sides, PP<sub>1</sub>, P<sub>1</sub> P<sub>2</sub>, ... P<sub>n-1</sub> P, shall pass respectively
 through n given points, <math>A_1, A_2, \ldots A_n</math>, the analysis of Sir W.
 R. H. conducts to one, or to two real right lines, as contain-
@@ -35077,7 +35071,7 @@ enveloped by the last side P2m P are a real inscribed ellipsoid
 (E'), and a real exscribed hyperboloid of two sheets (E"); and
 these three surfaces (E) (E') (E") touch each other at the two
 real† points B, B', which are the first corners of two inscribed
-polygons <math>BB_1 	ext{...} B_{2m-1}</math> and <math>B'B'_1 	ext{...} B'_{2m-1}</math>, whose <math>2m</math> sides pass
+polygons <math>BB_1 \text{...} B_{2m-1}</math> and <math>B'B'_1 \text{...} B'_{2m-1}</math>, whose <math>2m</math> sides pass
 * It will be seen below that this contact may become quadruple, namely,
 for the case of an even-sided polygon, in accordance with an acute remark
 which was made in 1849 by Arthur Cayley, Esq., in a letter to the Rev.

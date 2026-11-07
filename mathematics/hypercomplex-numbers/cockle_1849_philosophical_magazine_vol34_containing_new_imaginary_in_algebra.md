@@ -19549,7 +19549,7 @@ This is the first annual report upon the meteorology of En-
 gland. May it be followed by many, more ably conducted
 and more valuable to meteorology!
 XXXIX. On the decomposition of Functions into Conjugate
-Factors; with some consequences deducible therefrom. By <math>{f J.}</math>
+Factors; with some consequences deducible therefrom. By <math>{\bf J.}</math>
 R. Young, Professor of Mathematics, Belfast College*.
 THINK that by decomposing a function of an even de-
 gree into its constituent conjugate factors, some interest-

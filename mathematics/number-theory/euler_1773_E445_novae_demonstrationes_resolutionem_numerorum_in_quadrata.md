@@ -664,7 +664,7 @@ tur; ibidem ergo etiam (quia c vnitatem denotare porest)
 occurret <math>mb+n</math>, hincque adeo omnes istae formulae:
 <math>ma + n; mb + n; mc + n; md + n</math> etc.
 quae quum omnes asse invicem diversae et numero sint
-<math>rac{1}{2}</math> ( <math>N-r</math> ) , his tota classis non-residuorum exhaurietur ;
+<math>\frac{1}{2}</math> ( <math>N-r</math> ) , his tota classis non-residuorum exhaurietur ;
 quatenus scilicet diuisae per N infra N deprimuntur.
 4º. In eadem vero etiam classe occurere debent
 omnia producta horum numerorum in quemlibet numerum,
@@ -683,8 +683,7 @@ Hoc
 ) 67 ( See-
 Hoe discriment ponatur brevitatis gratia <math>\equiv \omega</math> , quod vti-
 greeze psimi dinisorem N erit primum, si modo pro d
-non, affame ut vintas, quia <math>d-{
-m r}</math> est <math>{<\!\!\!<\!\!\!\!<\!\!\!\!<\!\!\!\!\!<\!\!\!\!>}\, N</math>, atque etiam
+non, affame ut vintas, quia <math>d-{\rm r}</math> est <math>{<\!\!\!<\!\!\!\!<\!\!\!\!<\!\!\!\!\!<\!\!\!\!>}\, N</math>, atque etiam
 primeas w primus ad N.
 Quodsi igitur in classe non-residorum conti-
 neathr numerus <math>\alpha</math>, ibidem quoque occurret <math>\alpha + \omega</math>, atque

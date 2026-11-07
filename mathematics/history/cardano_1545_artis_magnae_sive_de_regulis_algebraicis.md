@@ -2348,7 +2348,7 @@ rei & quantitatibus.
 E
 REGULA.
 Positam rem quantamcunce libuerit, minuemus
-<math>{f B}</math>
+<math>{\bf B}</math>
 ex numero rerum, & ducemus eam in residuum, pro
 ductum dividemus cum numero quantitatum, quod exit est quantita
 . 2. 2.

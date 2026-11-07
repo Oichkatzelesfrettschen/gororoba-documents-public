@@ -7351,8 +7351,7 @@ GW190707_093326
 1.0
 <math>m_1 \, (M_\odot)</math>
 q
-<math>\chi_{
-m eff}</math>
+<math>\chi_{\rm eff}</math>
 FIG. 28. Posterior distributions (black) for binary black hole events weighted by the population results from Power Law+Peak (blue)
 and FLEXIBLE MIXTURES (orange).
 011048-50
@@ -7452,8 +7451,7 @@ GW200202_154313
 1.0
 <math>m_1 \, (M_\odot)</math>
 q
-<math>\chi_{
-m eff}</math>
+<math>\chi_{\rm eff}</math>
 FIG. 28. (Continued).
 011048-51
 

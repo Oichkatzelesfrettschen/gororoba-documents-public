@@ -449,8 +449,7 @@ where <math>z_1, \dots, z_n</math> are linear in <math>x_1, \dots, x_n</math> an
 <math>z_i = a_{i1}y_1 + \cdots + a_{in}y_n</math>  <math>(i = 1, \dots, n),</math>
 (9)
 where the <math>a_{ij}</math> are linear functions of <math>x_1, \dots, x_n</math>. We employ the matrices
-<math>A = \left( egin{array}{cccc} a_{11} & a_{12} & \cdots & a_{1n} \ a_{21} & a_{22} & \cdots & a_{2n} \ & \ddots & \ddots & \ddots & \ddots \end{array} 
-ight), \qquad A' = \left( egin{array}{cccc} a_{11} & a_{21} & \cdots & a_{n1} \ a_{12} & a_{22} & \cdots & a_{n2} \ & \ddots & \ddots & \ddots & \ddots</math>
+<math>A = \left( \begin{array}{cccc} a_{11} & a_{12} & \cdots & a_{1n} \ a_{21} & a_{22} & \cdots & a_{2n} \ & \ddots & \ddots & \ddots & \ddots \end{array} \right), \qquad A' = \left( \begin{array}{cccc} a_{11} & a_{21} & \cdots & a_{n1} \ a_{12} & a_{22} & \cdots & a_{n2} \ & \ddots & \ddots & \ddots & \ddots</math>
 where <math>A'</math> is derived from <math>A</math> by the interchange of its rows and columns,
 and is called the conjugate (or transposed) of A. In case the diagonal
 elements <math>a_{ii}</math> all equal a and the elements not in the diagonal are all zero,

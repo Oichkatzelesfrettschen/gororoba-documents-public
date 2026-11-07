@@ -5276,10 +5276,7 @@ double-det.
 (1991bg-like SN)
 supra-Ch. SN
 1.0 -
-<math>{
-m M}_{
-m don}</math> <math>{
-m [M}_{\odot}</math>
+<math>{\rm M}_{\rm don}</math> <math>{\rm [M}_{\odot}</math>
 MonMace
 0.8 -
 complete mergers

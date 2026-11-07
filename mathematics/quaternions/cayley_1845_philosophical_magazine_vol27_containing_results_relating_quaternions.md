@@ -7764,7 +7764,7 @@ noilison Communicated by T.S. Davies, Esq., F.R.S., F.S.A.of oil T
 eleven terms, so that, by the notation of p. 114 of vol. 1. * of
 the Mathematician, (21) and (31), respectively, become lade
 <math>f^3(10) = 0</math> (6.) and <math>f^4(10) = 0</math> (1.) Now I have shown, at paragraph 6 of that page, how, by means of a quadratic, which we shall here represent by muloy
-<math>	heta_{10}^{\circ 2}(z_{10})=0</math>, . . . . . . . . . . . . . . . . . . .
+<math>\theta_{10}^{\circ 2}(z_{10})=0</math>, . . . . . . . . . . . . . . . . . . .
 and four base+ quadratics which may, respectively, be denoted
 by
 <math>\mathbf{J}_{\mathbf{S}}^{(2)} = 0</math> . (c.) . (d.) . (d.) . (d.) . (d.) . (e.)
@@ -11289,9 +11289,7 @@ nicotine and coniine, i. e. by treating the product of the ac-
 tion of fuming nitric acid upon the above hydrocarbons with
 sulphuret of ammonium. We should have-
 C<sub>10</sub> H<sub>6</sub> unknown.
-<math>egin{aligned} \mathbf{C}_{10} & \left\{ egin{aligned} \mathbf{H}_5 \\ \mathbf{NO}_4 \end{aligned} 
-ight\} & \mathrm{unknown.} \\ \mathbf{C}_{10} & \left\{ egin{aligned} \mathbf{H}_5 \\ \mathbf{NH}_2 \end{aligned} 
-ight\} & \mathrm{nicotine.} \end{aligned}</math>
+<math>\begin{aligned} \mathbf{C}_{10} & \left\{ \begin{aligned} \mathbf{H}_5 \\ \mathbf{NO}_4 \end{aligned} \right\} & \mathrm{unknown.} \\ \mathbf{C}_{10} & \left\{ \begin{aligned} \mathbf{H}_5 \\ \mathbf{NH}_2 \end{aligned} \right\} & \mathrm{nicotine.} \end{aligned}</math>
 C<sub>16</sub> H<sub>15</sub> unknown.
 <math>C_{16} \left\{ \begin{array}{c} H_{14} \\ NO_4 \end{array} \right\}</math> unknown.
 <math>C_{16}\left\{\begin{matrix} H_{14} \\ NH_2 \end{matrix}\right\} = \text{coniine.}</math>
@@ -11908,11 +11906,9 @@ Bromanisole ..... <math>C_{14} \begin{Bmatrix} H_7 \\ Br \end{Bmatrix} O_2</math
 Bromophenole .....
 <math display="block">\left\{ \mathbf{C}_{12} \left\{ \mathbf{H}_5 \\ \mathbf{Br} \right\} \mathbf{O}_2 \right\}</math>
 Bromophenasic acid.....
-<math>C_{14}\left\{ egin{array}{l} H_6 \\ Br_9 \end{array} 
-ight\} O_2</math>
+<math>C_{14}\left\{ \begin{array}{l} H_6 \\ Br_9 \end{array} \right\} O_2</math>
 Dichlorophenole ......
-<math>C_{12}\left\{ egin{array}{c} H_4 \\ Cl_2 \end{array} 
-ight\} O_2</math>
+<math>C_{12}\left\{ \begin{array}{c} H_4 \\ Cl_2 \end{array} \right\} O_2</math>
 Dibromanisole .....
 Chlorophenissic acid ...
 Trichlorophenole ......
@@ -11940,8 +11936,7 @@ Toluole .....
 <math>C_{14} H_s</math>
 C12 H6
 Benzole.....
-<math>\mathrm{C}_{12}\!\left\{ egin{matrix} \mathrm{H}_5 \ \mathrm{SO}_2 \end{smallmatrix} 
-ight\}</math>
+<math>\mathrm{C}_{12}\!\left\{ \begin{matrix} \mathrm{H}_5 \ \mathrm{SO}_2 \end{smallmatrix} \right\}</math>
 Sulphobenzide .....
 Sulphotoluide .....
 (?)
@@ -11962,8 +11957,7 @@ Chlorbenzide <math>C_{12} \left\{ \begin{array}{l} H_3 \\ Cl_3 \end{array} \righ
 Nitrotoluide ...... <math>C_{14} \left\{ \begin{array}{l} H_7 \\ NO_4 \end{array} \right\}</math>
 Nitrobenzide..... <math>C_{12} \begin{Bmatrix} H_5 \\ NO_4 \end{Bmatrix}</math>
 Binitrotoluide ...... <math>C_{14} \begin{Bmatrix} H_6 \\ 2NO \end{Bmatrix}</math>
-<math>C_{12}\left\{rac{H_4}{2NO_4}
-ight\}</math>
+<math>C_{12}\left\{\frac{H_4}{2NO_4}\right\}</math>
 Binitrobenzide .....
 Azobenzide .....
 <math>C_{12} \stackrel{.}{H}_5 \stackrel{.}{N} C_{12} \stackrel{.}{H}_7 \stackrel{.}{N}</math>
@@ -14768,8 +14762,7 @@ calrn
 calm
 calm
 calm
-<math>_{
-m calm}</math>
+<math>_{\rm calm}</math>
 calm
 calm
 calm

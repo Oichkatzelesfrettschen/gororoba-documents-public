@@ -943,9 +943,7 @@ sub-algebras are not.
 Cayley's eight unit generalization of real qua-
 14.
 <b>ternions.</b> Cayley* gave the real algebra with the units 1, <math>e_1, ..., e_7</math>:
-<math>\left. egin{aligned} e_i^{\ 2} = -1, & e_i e_j = -e_j e_i & (i,j=1,\,...,\,7\,;\,\,i 
-eq j) \\ e_1 e_2 = e_3, & e_1 e_4 = e_5, & e_1 e_6 = e_7, & e_2 e_5 = e_7 \end{aligned} 
-ight.</math>
+<math>\left. \begin{aligned} e_i^{\ 2} = -1, & e_i e_j = -e_j e_i & (i,j=1,\,...,\,7\,;\,\,i \neq j) \\ e_1 e_2 = e_3, & e_1 e_4 = e_5, & e_1 e_6 = e_7, & e_2 e_5 = e_7 \end{aligned} \right.</math>
 (37),
 <math>e_2e_4 = -e_6</math>, <math>e_3e_4 = e_7</math>, <math>e_3e_5 = e_6</math>
 together with 14 equations obtained from the last 7 by permuting
@@ -1884,7 +1882,7 @@ theorem is an amplification of that by Cartan, l. c., p. 19.
 
 36
 THE SUB-ALGEBRAS <math>\Sigma_i</math>
-<math>\epsilon_{lpha}\eta=\eta\,\epsilon_{eta}=\eta,\quad \epsilon_{\gamma}\eta'=\eta'\,\epsilon_{eta}=\eta',</math>
+<math>\epsilon_{\alpha}\eta=\eta\,\epsilon_{\beta}=\eta,\quad \epsilon_{\gamma}\eta'=\eta'\,\epsilon_{\beta}=\eta',</math>
 We have
 <math>\epsilon_{\alpha}\eta\eta' = \eta\eta' = \eta\eta'\epsilon_{\delta}, \quad \eta\eta' = (\eta\epsilon_{\delta})(\epsilon_{\gamma}\eta') = \eta(\epsilon_{\delta}\epsilon_{\gamma})\eta'.</math>
 Hence, if <math>\beta \neq \gamma</math>, <math>\eta \eta' = 0</math> since <math>\epsilon_{\beta} \epsilon_{\gamma} = 0</math>. If <math>\beta = \gamma</math> and <math>\eta \eta' \neq 0</math>, then <math>\eta \eta'</math> is
@@ -2272,8 +2270,7 @@ Let <math>\zeta_1, ..., \zeta_n</math> be the units thus arranged. Let <math>n_{
 units <math>\eta</math> of character <math>(\alpha, \beta)</math> and set
 <math display="block">n_{\beta}=1+n_{1\beta}+n_{2\beta}+\ldots+n_{h\beta}.</math>
 The characteristic determinant of <math>z = z_1 \zeta_1 + ... + z_n \zeta_n</math> is (40):
-<math>\delta\left(\omega
-ight) \equiv egin{array}{cccc} \Sigma z_{i} \gamma_{i11} - \omega & \Sigma z_{i} \gamma_{i21} \dots \Sigma z_{i} \gamma_{in1} & & & & \\ & \dots & \dots & & & & \\ \Sigma z_{i} \gamma_{i1n} & \Sigma z_{i} \gamma_{i2n} \dots \Sigma z_{i} \gamma_{inn} - \omega & & & \\ \end{array}</math>
+<math>\delta\left(\omega\right) \equiv \begin{array}{cccc} \Sigma z_{i} \gamma_{i11} - \omega & \Sigma z_{i} \gamma_{i21} \dots \Sigma z_{i} \gamma_{in1} & & & & \\ & \dots & \dots & & & & \\ \Sigma z_{i} \gamma_{i1n} & \Sigma z_{i} \gamma_{i2n} \dots \Sigma z_{i} \gamma_{inn} - \omega & & & \\ \end{array}</math>
 (72).
 The elements which lie simultaneously in one of the first <math>n_1</math> rows and
 last <math>n - n_1</math> columns are zero, since

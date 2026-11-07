@@ -4509,7 +4509,7 @@ becoming thus the two dia-
 E
 gonals of such a figure, and
 consequently bisecting each
-<math>{f B}</math>
+<math>{\bf B}</math>
 other, in some point E.
 Conversely, if the two equa-
 D
@@ -8383,7 +8383,7 @@ supposed to be rational and integral, and homogeneous of the <math>p^{th}</math>
 dimension, then the point P has for its locus a surface of the pth order,
 whereof <math>f = 0</math> may be said (comp. 56) to be the local equation.
 For
-if we substitute instead of the co-ordinates <math>x 	ext{...} w</math>, expressions of the
+if we substitute instead of the co-ordinates <math>x \text{...} w</math>, expressions of the
 forms,
 <math>x = tx_0 + ux_1, \dots \quad w = tw_0 + uw_1,</math>
 to indicate (82) that P is collinear with two given points, Po, P1, the
@@ -12249,7 +12249,7 @@ and therefore in particular (by 188),
 IX. . . <math>Sq = S(Tq.Uq) = Tq.SUq.</math>
 Also because <math>SKq = Sq</math>, by IV., while <math>KUq = U \frac{1}{q}</math>, by 158,
 we have the general equation,
-<math>X 	ext{...} SUq = SU \frac{1}{a}</math>; or <math>X' 	ext{...} SU \frac{\beta}{a} = SU \frac{\alpha}{\beta}</math>;
+<math>X \text{...} SUq = SU \frac{1}{a}</math>; or <math>X' \text{...} SU \frac{\beta}{a} = SU \frac{\alpha}{\beta}</math>;
 whence, by IX.,
 XI. . . <math>Sq = Tq . SU \frac{1}{a}</math>; or XI'. . . <math>S \frac{\beta}{a} = T \frac{\beta}{a} . SU \frac{\alpha}{\beta}</math>;
 and therefore also, by 190, (V.), since <math>Tq.T\frac{1}{q}=1</math>,
@@ -16234,7 +16234,7 @@ Quaternion involves, as we have seen, a reference to Tridimensional SPACE.
 267
 CHAP. II. GEOMETRICAL EXISTENCE OF REAL ROOTS.
 249. Supposing that the <math>m-1</math> last of the <math>n-1</math> given quater-
-nions <math>q' 	ext{...} q^{(n-1)}</math> vanish, but that the <math>n-m</math> first of them are actual,
+nions <math>q' \text{...} q^{(n-1)}</math> vanish, but that the <math>n-m</math> first of them are actual,
 where m may be any whole number from 1 to <math>n-1</math>, and introduc-
 ing a new real, known, complanar, and actual quaternion <math>q_0</math>, which
 satisfies the condition,
@@ -17536,7 +17536,7 @@ all being in one common plane. And
 then (interchanging accents) the
 B
 theorem comes to be thus stated:
-<math>{f D}</math>
+<math>{\bf D}</math>
 If A', B', C' be any three points
 (comp. Fig. 62) on the sides BC,
 CA, AB of any plane triangle, or on
@@ -25321,8 +25321,7 @@ BOOK III.
 ELEMENTS OF QUATERNIONS.
 have real and unequal roots <math>C_1</math>, <math>C_2</math>; for if we then write,
 XVIII... <math>\Phi_1 = \Phi + C_1</math>, <math>\Phi_2 = \Phi + C_2</math>,
-the line <math>\Phi_{
-ho}</math> will generally have for its locus a given plane, and there will be two real
+the line <math>\Phi_{\rho}</math> will generally have for its locus a given plane, and there will be two real
 and distinct directions <math>\rho_1</math> and <math>\rho_2</math> in that plane, for one of which <math>\Phi_1\rho_1=0</math>, while
 <math>\Phi_2 \rho_2 = 0</math> for the other, so that each satisfies XVI., or I.; and these are precisely the
 fixed directions of <math>\Psi_{1}\rho</math> and <math>\Psi_{2}\rho</math>, if <math>\Psi_{1}</math> and <math>\Psi_{2}</math> be formed from <math>\Psi</math> by changing <math>\Phi</math> to
@@ -27007,9 +27006,7 @@ the vector 7 being treated as the only variable in III., and in like
 manner v as the only variable in IV., when once the curve PQ is
 given, and the point P is selected.
 It is permitted, however, to express these last equations under other forms;
-for example, we may replace <math>
-ho'</math> by d<math>
-ho</math>, and thus write, for the same tangent line and
+for example, we may replace <math>\rho'</math> by d<math>\rho</math>, and thus write, for the same tangent line and
 normal plane,
 V... <math>V(\tau - \rho) d\rho = 0</math>; VI... <math>S(v - \rho) d\rho = 0</math>;
 where the vector differential do may represent any line, parallel to the tangent to
@@ -29723,7 +29720,7 @@ VI. . . <math>\tau'</math> = vector of curvature (389, (4.);
 <math>V... \tau = unit tangent;</math>
 VII. . . <math>\nu = \tau \tau' = -\tau' \tau = \tau' \tau^{-1} = binormal \text{ (comp. 379, (4.))};</math>
 and
-<math>	au</math> being a line drawn in the direction of a conceived motion along the curve, in virtue
+<math>\tau</math> being a line drawn in the direction of a conceived motion along the curve, in virtue
 of which the arc (s) increases; while <math>\tau'</math> is directed towards the centre of curvature,
 or of the osculating circle, of which centre K the vector is now,
 VIII. . . ok = <math>\kappa = \rho - \tau'^{-1} = \rho + r^2\tau' = \rho + rU\tau'</math>.
@@ -30676,8 +30673,7 @@ XCIX. . . Square of Second Curvature = <math>r^{-2} = Tr^{-2}</math>
 (1, 2, 3)
 <math display="block">=r^2\mathrm{S}\tau\nu'\tau''-r^{-2}r'^2=r^2\mathrm{T}\tau''^2-r^{-2}-r^{-2}-r^{-2}r'^2=R^{-2}\left(r^4\mathrm{T}\tau''^2-1\right)</math>
 (4, 5, 6)
-<math>=R^{-2}r^{4}\mathrm{T}
-u'^{2}=R^{-2}\mathrm{T}\kappa'^{2}=R^{-2}\tan^{2}\angle 	au	au''</math>
+<math>=R^{-2}r^{4}\mathrm{T}\nu'^{2}=R^{-2}\mathrm{T}\kappa'^{2}=R^{-2}\tan^{2}\angle \tau\tau''</math>
 (7, 8, 9);
 while the important vector <math>\tau''</math>, besides its two original forms VI., admits of the fol-
 lowing among other expressions (comp. XX. XXI.):
@@ -35056,7 +35052,7 @@ this tangent <math>\tau</math> admits therefore (355) of two real and rectangula
 in general of more: opposite directions being not here counted as distinct. Hence, as
 is indeed well known, through each point of any surface there pass generally two lines
 of curvature: and these two curves intersect each other at right angles.
-(3.) A construction for the two rectangular directions of <math>	au</math> can easily be assigned
+(3.) A construction for the two rectangular directions of <math>\tau</math> can easily be assigned
 as follows. Assuming, as we may, that the length of the tangent <math>\tau</math> varies with its
 direction, according to the law,
 VII. . . <math>S\tau\phi\tau=1</math>,
@@ -39397,7 +39393,7 @@ the directions of the two latter vibrations may be in general determined, as bei
 also perpendicular respectively to the incident and reflected rays, <math>\rho</math> and <math>\rho''</math>: and then
 the relative intensities (Tr2, Tr'2, Tr"2) of the three lights may be diduced from the
 relative amplitudes <math>(T\tau, T\tau', T\tau'')</math> of the three vibrations, which may them elves be
-found from the three complanar directions, by a simple resolution of one line <math>	au'</math> into
+found from the three complanar directions, by a simple resolution of one line <math>\tau'</math> into
 two others, of which it is the vector sum, as if the vibrations were forces.
 (9.) The equations II'. IV'. V. and XIII'. enable us to express the four vectors, .
 <math>\mu'(=\rho+\nu)</math>, <math>\iota(=\rho-\nu^{-1}\mathrm{S}\nu\rho)</math>, <math>\rho''(=\rho-2\nu^{-1}\mathrm{S}\nu\rho)</math>, and <math>\rho'(=\rho+\tau-\nu')</math>, in terms

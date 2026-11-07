@@ -93,9 +93,7 @@ schieden 1).
 Zur Erleichterung der Darstellung bediene ich mich der wohl
 auf Cayley<sup>2</sup>) zurückzuführenden Rechnung mit linearen Transfor-
 mationen. Bezeichnet
-<math>A = \left[ egin{array}{ccccc} a_{11}, \ a_{22}, \ \ldots \ a_{2n} \ \ldots \ \ldots \ \end{array} 
-ight] \ a_{21}, \ a_{22}, \ \ldots \ a_{2n} \ \end{array} 
-ight]</math>
+<math>A = \left[ \begin{array}{ccccc} a_{11}, \ a_{22}, \ \ldots \ a_{2n} \ \ldots \ \ldots \ \end{array} \right] \ a_{21}, \ a_{22}, \ \ldots \ a_{2n} \ \end{array} \right]</math>
 (3)
 oder kürzer <math>A = (a_{\alpha\beta})</math> eine solche Transformation, so möge unter
 <math>A'</math> diejenige Transformation verstanden werden, welche aus <math>A</math> durch

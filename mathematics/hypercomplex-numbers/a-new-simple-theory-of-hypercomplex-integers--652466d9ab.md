@@ -614,7 +614,7 @@ bers of any (maximal) system of integers of a rationally reducible
 algebra constitute a (maximal) system of integers of the first (or
 second) component algebra. Conversely, given a (maximal) system
 [X] of integers x of an algebra a and a (maximal) system [X] of
-integers <math>{f X}</math> of another algebra <math>{f A},</math> if we add every number <math>x</math> to every
+integers <math>{\bf X}</math> of another algebra <math>{\bf A},</math> if we add every number <math>x</math> to every
 number X, we obtain sums forming a (maximal) system of inte-
 gers of the direct sum <math>a + A</math>.
 By Theorem IV, R implies that the coefficients of the right-hand
@@ -1359,8 +1359,7 @@ Consider any number z of the algebra. Then
 <math>z = x + y,</math> <math>x = \sum_{k,\lambda,\alpha} x_{\lambda\alpha}^k e_{\lambda\alpha}^k,</math> <math>y = \sum_{\rho,\lambda,\beta} y_{\lambda\beta}^\rho w_{\lambda\beta}^\rho.</math>
 The right-hand characteristic determinant <math>\delta(\omega)</math> of z is known to be a
 product of powers of the determinants
-<math>\mathbf{D}_i(\boldsymbol{\omega}) = \left[ egin{array}{ccccc} x_{11}^i & \cdots & x_{12}^i & \cdots & x_{1p_i}^i \\ \cdots & \cdots & \cdots & \cdots \\ x_{p_{i1}}^i & x_{p_{i2}}^i & \cdots & x_{p_{imi}}^i - \boldsymbol{\omega} \end{array} 
-ight],</math>
+<math>\mathbf{D}_i(\boldsymbol{\omega}) = \left[ \begin{array}{ccccc} x_{11}^i & \cdots & x_{12}^i & \cdots & x_{1p_i}^i \\ \cdots & \cdots & \cdots & \cdots \\ x_{p_{i1}}^i & x_{p_{i2}}^i & \cdots & x_{p_{imi}}^i - \boldsymbol{\omega} \end{array} \right],</math>
 which involve no coordinate of <math>y</math>. Hence <math>z</math> is an integer if and only
 (1) CARTAN, loc. cit., B. 51; Dickson, loc. cit., p. 54.
 
