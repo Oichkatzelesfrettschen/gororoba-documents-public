@@ -8,7 +8,7 @@ Fidelity: machine (failed: characters)
 
 Transcription of `researchsquare_2023_rs-3109229_metamaterial_perfect_absorber.pdf` in this directory, 14 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 14 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-13 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 14 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-13 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -147,23 +147,26 @@ A(ω ) = 1 − (R(ω ) + T (ω ))
 (1)
 
 We calculate the absorption coefficients of MPA as
-Zin − Z0 2
+∣
+∣
+∣ Zin − Z0 ∣2
+∣
+A(ω ) = 1 − R(ω ) = 1 − ∣∣
 (2)
-Zin + Z0
+Zin + Z0 ∣
 where Zin is the impedance of MPA, which depends on its effective permittivity and permeability. The
 effective permittivity and permeability are the function of electric and magnetic responses of MPA at the
 resonance frequencies. In terms of S- parameters, Zin is calculated as
-A(ω ) = 1 − R(ω ) = 1 −
 
 Zin =
 
-r
+√
 
 µ
 =
 ε
 
-s
+√
 
 2
 (1 + S11 )2 − S21
@@ -173,34 +176,49 @@ s
 (3)
 
 the equation for absorption coefficient in terms of S-parameters is
-r
-
-A(ω ) = 1 − r
-
+∣√
+∣2
 2
-(1+S11 )2 −S21
-2 − Z0
+∣ (1+S11 )2 −S21
+∣
+∣
+∣
+−
+Z
+0
 2
-(1−S11 ) −S21
-
 2
-
+∣ (1−S11 ) −S21
+∣
+∣
+∣
+A(ω ) = 1 − ∣ √
+∣
 2
-(1+S11 )2 −S21
-2 + Z0
 2
-(1−S11 ) −S21
+∣ (1+S11 ) −S21 + Z ∣
+∣ (1−S )2 −S2
+0∣
+11
 
 (4)
 
+21
+
 by simpyfing equation (4), we get
-p
+
+∣√
+∣
+∣ (1 + S )2 − Z √(1 − S )2 ∣2
+∣
+11
+0
+11 ∣
+√
+A(ω ) = 1 − ∣ √
+∣
 2
-(1 + S11 )2 − Z0 (1 − S11 )2
-p
-A(ω ) = 1 − p
-(1 + S11 )2 + Z0 (1 − S11 )2
-p
+∣ (1 + S11 ) + Z0 (1 − S11 )2 ∣
 
 (5)
 
@@ -233,7 +251,7 @@ The inductance of each metallic resonator (L1 , L2 , L3 , & L4 ) is calculated u
 
 L = µ0 µr
 
-
+(
 
 2l
 tm + w 1
@@ -244,7 +262,7 @@ tm + w
 l
 2
 
-
+)
 
 (6)
 

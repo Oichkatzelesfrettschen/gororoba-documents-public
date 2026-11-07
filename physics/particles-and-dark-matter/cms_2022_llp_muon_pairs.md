@@ -8,7 +8,7 @@ Fidelity: machine-gated
 
 Transcription of `cms_2022_llp_muon_pairs.pdf` in this directory, 54 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 2, 36 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1, 3-35, 37-54 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 2, 36 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1, 3-35, 37-54 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -532,7 +532,7 @@ TMS muon candidates are further required to satisfy the following criteria:
 • be isolated from other activity in the event.
 The first two requirements reject poorly measured muons and misidentified hadrons. The
 isolation requirement suppresses copious background from dijet and multijet events. Specifically, we
-p calculate the sum of the pT of other tracks reconstructed within a cone of radius
+√ calculate the sum of the pT of other tracks reconstructed within a cone of radius
 
 ∆R = (∆η )2 + (∆ϕ)2 centered on the direction of the TMS muon track. Both the pT of the
 muon track itself and the pT of the track of any other muon forming a dimuon (if it lies within

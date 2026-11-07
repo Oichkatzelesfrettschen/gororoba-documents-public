@@ -8,7 +8,7 @@ Fidelity: machine (failed: characters)
 
 Transcription of `saniga_2015_cd_to_combinatorial_grassmannians.pdf` in this directory, 30 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 21 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-20, 22-30 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 21 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-20, 22-30 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -44,7 +44,7 @@ observe that the multiplication table of its imaginary units ea , 1 ≤ a ≤ 2N
 in the properties of the projective space PG(N − 1, 2) if these imaginary units are regarded
 as points and distinguished triads of them {ea , eb , ec }, 1 ≤ a < b < c ≤ 2N − 1 and
 ea eb = ±ec , as lines. This projective space is seen to feature two distinct kinds of lines
-according as a + b = c or a + b 6= c. Consequently, it also exhibits (at least two)
+according as a + b = c or a + b ̸= c. Consequently, it also exhibits (at least two)
 different types of points in dependence on how many lines of either kind pass through
 each of them. In order to account for such partition of the PG(N − 1, 2), the concept of
 Veldkamp space of a finite point-line incidence structure is employed. The corresponding
@@ -116,8 +116,7 @@ also follow this tradition here. All the multiplication tables we made use of we
 Jörg Arndt; the computer program is named cayley-dickson-demo.cc and is freely available from his
 web-site [5].
 Employing such a multiplication table of AN , N ≥ 2, it can be verified that the 2N − 1 imaginaries
-
-N
+(N )
 ea , 1 ≤ a ≤ 2N − 1, form 2 2−1 /3 distinguished sets each of which comprises three different units
 {ea , eb , ec } that satisfy the equation:
 ea eb = ±ec
@@ -138,7 +137,7 @@ Mathematics 2015, 3
 
 ordered in such a way that a < b < c. Then, for N ≥ 3, we can naturally speak about two different kinds
 of triples and, hence, two distinct kinds of lines of the associated 2N -nionic PG(N − 1, 2), according as
-a + b = c or a + b 6= c; in what follows a line of the former kind will be called ordinary and that of the
+a + b = c or a + b ̸= c; in what follows a line of the former kind will be called ordinary and that of the
 latter kind defective. This stratification of the line-set of the PG(N − 1, 2) induces a similar partition of
 the point-set of the latter space into several types, where a point of a given type is characterized by the
 same number of lines of either kind that pass through it.
@@ -155,8 +154,10 @@ structures called configurations [9]. A (vr , bk )-configuration is a C where: (
 (2) every line has k points and every point is on r lines; and (3) two distinct lines intersect in at most one
 point and every two distinct points are joined by at most one line; a configuration where v = b and r = k
 is called symmetric (or balanced), and usually denoted as a (vr )-configuration. A (vr , bk )-configuration
-
-
+)
+)
+(
+(
 is called a binomial configuration. Next, we define a geometric
 and b = r+k−1
 with v = r+k−1
@@ -190,10 +191,9 @@ Mathematics 2015, 3
 
 1195
 
-
-
-
-N +1
+((
+)
+(N +1) )
 N +1
 properties of the generic CN ∼
 -configuration are outlined and its isomorphism
@@ -2306,7 +2306,7 @@ Mathematics 2015, 3
 1214
 
 a type-two hyperplane and its core consists of two points that are at maximum distance from each other;
-
+( )
 = 15 × 6/2 = 45 Veldkamp lines of this type and they correspond to defective lines
 there are 10
 2
@@ -2322,7 +2322,7 @@ for each line of our (154 , 203 )-configuration there are three points at maximu
 are 20 × 3 = 60 Veldkamp lines of this type, having their twins in ordinary lines of PG(4, 2) of type
 {α, β, γ}. Finally, we meet a type-V Veldkamp line, sketched in Figure 16e, which is endowed with
 two hyperplanes of type three and a single one of type two, and whose core is isomorphic to the Pasch
-
+()
 configuration; hence, we have 62 = 15 Veldkamp lines of this type, being all representatives of ordinary
 lines of PG(4, 2) of type {β, γ, γ}.
 Before embarking on the final case to be dealt with in detail, it is worth having a closer look at
@@ -2432,18 +2432,19 @@ Figure 18. A “generalized Desargues” view of the (215 , 353 )-configuration.
 Mathematics 2015, 3
 6. 2N -Nions and a
 
-
-
 1217
-
 
-
--Configuration
-
+((
+)
 N +1
-, N3+1 3
 2
+
+(N +1) )
+-Configuration
+,
+3
 N −1
+3
 
 At this point it is quite easy to spot the general pattern. If one also includes the trivial cases
 of complex numbers (N = 1), where the relevant geometry is just a single point, that is, the
@@ -2458,10 +2459,10 @@ N being a positive integer,
 (154 , 203 ),
 (215 , 353 ),
 ...,
-
-
-
-
+((
+)
+(
+))
 N +1
 N +1
 ,
@@ -2473,7 +2474,8 @@ N −1
 ....
 It is curious to notice that the first entry represents a triangular number, while the second one is
 a tetrahedral number, or triangular pyramidal number. In other words, we get a nested sequence of
- r+k−1
+) (r+k−1)
+(
 )-configurations with r = N − 1 and k = 3, whose properties have very
 ,
 binomial ( r+k−1
@@ -2496,11 +2498,18 @@ O
 
 64 ...
 
-
-
-Figure 19. A nested hierarchy of finite N 2+1 N −1 , N3+1 3 -configurations of 2N -nions for
+(N +1) )
+-configurations of 2N -nions for
+,
+Figure 19. A nested hierarchy of finite
+3
+2
+3
+N −1
 1 ≤ N ≤ 5 when embedded in the Cayley-Salmon configuration (N = 5).
-
+((
+)
+N +1
 
 ## PDF page 27
 
@@ -2509,12 +2518,11 @@ Mathematics 2015, 3
 1218
 
 A particular character
-of this nesting
+this nesting
 is reflected in the structure of geometric hyperplanes.
-
-
-
-N +1
+(( of
+)
+(N +1) )
 N +1
 , 3 3 -configuration by CN , we can express the types of geometric
 Denoting our generic
@@ -2577,19 +2585,19 @@ pairs of them are on a line, aka C2 ; the two lines form a geometric hyperplane 
 points of perspectivity of six pairs of them lie on a Pasch configuration, alias C3 ; the line and the Pasch
 configuration form a geometric hyperplane of C6 . Generalizing these observations, we conjecture that
 for any N ≥ 4, CN can be regarded as N − 2 triangles that are in perspective from a line in such a way
-
+)
+(
 that the points of perspectivity of N 2−2 pairs of them form the configuration isomorphic to CN −3 , where
 the latter and the axis of perspectivity form a geometric hyperplane of CN .
 Next, we invoke the concept of combinatorial Grassmannian (see, for example, [22,23]). Briefly,
 a combinatorial Grassmannian Gk (|X|), where k is a positive integer and X is a finite set, is a point-line
 incidence structure whose points are k-element subsets of X and whose lines are (k + 1)-element subsets
 of X, incidence
-being inclusion.
+inclusion.
 It is known [22] that if |X| = N + 1 and k = 2, G2 (N + 1) is
-
-
-
-N +1
+(( being
+(N +1) )
+)
 N +1
 , 3 3 -configuration; in particular, G2 (4) is the Pasch configuration, G2 (5)
 a binomial
@@ -2597,8 +2605,10 @@ a binomial
 N −1
 is the Desargues configuration and G2 (N + 1)’s with N ≥ 5 are called generalized Desargues
 configurations. Now, from our detailed examination of the four cases it follows that C3 , C4 , C5 , C6 , . . . , CN
-
-
+)
+)
+(
+(
 are endowed with 1, 5, 15, 35, . . . , N4+1 Pasch configurations. And as N 4+1 is also the number of Pasch
 configurations in G2 (N + 1), N ≥ 3, we are also naturally led to conjecture that CN ∼
 = G2 (N + 1). From
@@ -2642,7 +2652,7 @@ Mathematics 2015, 3
 
 Figure 20. Left: A diagrammatical proof of the isomorphism between C5 and G2 (6). The
 points of C5 are labeled by pairs of elements from the set {1, 2, . . . , 6} in such a way that each
-line of the configuration is indeed of the form {{a, b}, {a, c}, {b, c}}, a 6= b 6= c 6= a. Right:
+line of the configuration is indeed of the form {{a, b}, {a, c}, {b, c}}, a ̸= b ̸= c ̸= a. Right:
 A pictorial illustration of C6 ∼
 = G2 (7). Here, the labels of six additional points are only
 depicted, the rest of the labeling being identical to that shown in the left-hand side figure.
@@ -2652,12 +2662,10 @@ AN , 3 ≤ N ≤ 6, has been found that admits generalization to any higher-dime
 started with an observation that the multiplication properties of imaginary units of the algebra AN are
 encoded in the structure of the projective space PG(N − 1, 2). Next, this space was shown to possess
 a refined structure stemming from particular properties of triples of imaginary units forming its lines.
-To account for this refinement, we employed the concept of Veldkamp
+To account for this refinement, we employed the (concept of Veldkamp
 space of point-line incidence
-
-
-N +1
-N +1
+(N +1)
+(N +1) )
 structure and found out the latter to be a binomial
 , 3 3 -configuration CN ; in particular,
 2
@@ -2683,7 +2691,8 @@ Mathematics 2015, 3
 Veldkamp-space-based approach will be able to shed a novel, unexpected light at this issue as it is only
 starting with N = 4 when CN is found to feature a “generalized Desargues property” in the sense that
 it can be interpreted as N − 2 triangles that are in perspective from a line in such a way that the points
-
+)
+(
 of perspectivity of N 2−2 pairs of them form the configuration isomorphic to CN −3 . Or, in a slightly
 different form, it is only for N ≥ 4 when CN contains Desargues configurations, these occurring as
 components of its geometric hyperplanes at that.
@@ -2744,7 +2753,7 @@ Switzerland, 2013.
 14. Saniga, M.; Planat, M.; Pracna, P.; Havlicek, H. The Veldkamp space of two-qubits. SIGMA 2007,
 3, doi:10.3842/SIGMA.2007.075.
 15. Fisher, J.C.; Fuller, N. The Complete Pascal Figure Graphically Presented. Available online:
-http://www.math.uregina.ca/efisher/Norma/paper.html (accessed on 14 May 2014).
+http://www.math.uregina.ca/˜fisher/Norma/paper.html (accessed on 14 May 2014).
 16. Lord, E. Symmetry and Pattern in Projective Geometry; Springer: Heidelberg, Germany, 2013.
 17. Conway, J.; Ryba, A. The Pascal mysticum demystified. Math. Intell. 2012, 34, 4–8.
 18. Boben, M.; Gévay, G.; Pisanski, T. Danzer’s configuration revisited. Adv. Geom. 2015, 15,
@@ -2752,12 +2761,9 @@ http://www.math.uregina.ca/efisher/Norma/paper.html (accessed on 14 May 2014).
 19. Arndt, J. TMP-Zero-Divisors, Available online: http://jjj.de/tmp-zero-divisors/mult-table-64-ions.txt
 (accessed on 30 January 2014).
 20. Prażmowska, M.; Pra
-K. Binomial
-Configurations Which Contain Complete Graphs:
- żmowski,
-
-
-n+1
+K. Binomial Configurations Which Contain Complete Graphs:
+((żmowski,
+) (n+1) )
 n+1
 -Configuration. 2014, arXiv:1404.4064. Available online:
 Kn -Subgraphs of a
@@ -2769,6 +2775,7 @@ http://arxiv.org/abs/1404.4064 (accessed on 17 May 2014).
 Demonstr. Math. 2006, 39, 887–906.
 23. Prażmowska, M.; Prażmowski, K. A generalization of Desargues and Veronese configurations.
 Serdica Math. J. 2006, 32, 185–208.
-c 2015 by the authors; licensee MDPI, Basel, Switzerland. This article is an open access article
+c
+⃝ 2015 by the authors; licensee MDPI, Basel, Switzerland. This article is an open access article
 distributed under the terms and conditions of the Creative Commons Attribution license
 (http://creativecommons.org/licenses/by/4.0/).

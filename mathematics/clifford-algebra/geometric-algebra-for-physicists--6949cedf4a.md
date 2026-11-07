@@ -8,7 +8,7 @@ Fidelity: machine (failed: characters)
 
 Transcription of `geometric-algebra-for-physicists--6949cedf4a.pdf` in this directory, 131 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 1-2, 10, 100, 122, 130 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 3-9, 11-99, 101-121, 123-129, 131 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 1-2, 10, 100, 122, 130 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 3-9, 11-99, 101-121, 123-129, 131 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -752,10 +752,10 @@ General interior product between a k-vector and a vector
 v · (w1 ∧ w2 ∧ · · · ∧ wk ) =
 
 k
-X
+∑
 i=1
 k
-X
+∑
 
 wi+1 ∧ wi+2 ∧ · · · ∧ wi−1 (wi · v)
 (1.28)
@@ -1290,14 +1290,13 @@ expression, but leaves it untouched otherwise:
 Equation 1.3
 
 Multivector reverse
-e=1
-1
-eei = ei
-ef
+1̃ = 1
+e˜i = ei
+e˜
 ij = eji = −eij
-eg
+e˜
 ijk = ekji = −eijk
-eg
+e˜
 ijkl = elkji = −eijkl
 ···
 
@@ -1305,7 +1304,7 @@ ijkl = elkji = −eijkl
 
 π
 If we apply the reverse operation on the even multivector z = a + be12 , we get:
-ze = a + be21 = a − be12 .
+z̃ = a + be21 = a − be12 .
 
 (1.75)
 
@@ -1319,7 +1318,7 @@ This works out because the series expansion of the exponential,
 exp(iα) =
 
 ∞
-X
+∑
 (iα)k
 k=0
 
@@ -1333,14 +1332,12 @@ k!
 
 splits into two parts: The even ones that are real-valued because i2n = (−1)n , and the
 odd ones that are imaginary-values because i2n+1 = (−1)n i:
-!
-!
-∞
-∞
-X
-X
-(−1)l α2l+1
-(−1)l α2l
+)
+(∞
+)
+(∞
+∑ (−1)l α2l+1
+∑ (−1)l α2l
 +i
 (1.78)
 exp(iα) =
@@ -1361,7 +1358,7 @@ exp(e12 α) = cos(α) + e12 sin(α).
 π
 
 This bivector exponetial follows the exact same rules as the normal complex exponential:
-^
+˜
 exp(e
 12 α) = exp(−e12 α)
 (1.80)
@@ -1376,10 +1373,10 @@ the complex plane. For instance, we might write down the formula
 x(t) = x0 eiωt
 with
 
-
+(
 x0 =
 
-
+)
 1
 −i
 
@@ -1389,8 +1386,8 @@ x0 =
 
 to encode two-dimensional rotational motion with the angular frequency ω. The resulting
 expression would then be
-
-
+(
+)
 cos(ωt) + i sin(ωt)
 x(t) =
 .
@@ -1399,8 +1396,8 @@ sin(ωt) − i cos(ωt)
 This way of writing down oscillations is pretty ubiquitous in theoretical physics. When
 we do this, there is an implicit convention to only interpret the real part as something
 physical and to throw the imaginary part away. Therefore, we actually ought to write
-
-
+(
+)
 cos(ωt)
 x(t) =
 .
@@ -1996,7 +1993,7 @@ n ∧ m = sin(θ/2)B
 where
 
 n∧m
-B=p
+B=√
 −(n ∧ m)2
 
 (2.37)
@@ -2019,16 +2016,16 @@ a real and an imaginary part:
 exp(iθ/2) =
 
 ∞ k
-X
+∑
 i (θ/2)k
 k=0
 ∞ 2l
-X
+∑
 
 k!
 
 ∞
-i (θ/2)2l X i2l+1 (θ/2)2l+1
+i (θ/2)2l ∑ i2l+1 (θ/2)2l+1
 +
 =
 (2l!)
@@ -2039,7 +2036,7 @@ l=0
 =
 
 ∞
-X
+∑
 (−1)l (θ/2)2l
 l=0
 
@@ -2050,7 +2047,7 @@ l=0
 (2.40)
 
 ∞
-X
+∑
 (−1)l (θ/2)2l
 l=0
 
@@ -2135,8 +2132,8 @@ has the exact same effect on vectors:
 To understand this better, we take a look at the simplest pair of rotors where this peculiarity arises - R = +1 and R′ = −1. Obviously, R = 1 corresponds to a rotation by an
 angle of zero, exp(0) = 1. The second rotor, R′ = −1 however, corresponds to a rotation
 by τ = 360◦ :
-
-
+)
+(
 B
 ′
 τ = cos(τ /2) + B sin(τ /2)
@@ -2145,8 +2142,8 @@ R = exp
 (2.51)
 = −1.
 If we were to rotate by 2τ = 720◦ , we would obtain the original rotor again:
-
-
+(
+)
 B
 exp
 2τ = cos(2τ /2) + B sin(2τ /2)
@@ -2251,7 +2248,7 @@ This means that the infinitesimal rotor transformation law is
 M ′ = R̃M R = (1 − Θ/2)M (1 + Θ/2)
 Θ Θ
 ≈M +M − M
- 2 2
+[ 2 ]2
 Θ
 = M + M,
 2
@@ -2262,8 +2259,8 @@ This is the infinitesimal rotor transformation law for a multivector,
 Equation 2.10
 
 Infinitesimal rotor transformation law
-
-
+[
+]
 Θ
 R̃M R ≈ M + M,
 2
@@ -2281,8 +2278,8 @@ of complex numbers could be generalized to three dimensions.
 ## PDF page 46
 
 If M is a vector, M = x, this commutator can also be expressed as:
-
-
+]
+[
 1
 Θ
 = (xΘ − Θx) = x · Θ.
@@ -2296,8 +2293,8 @@ We are going to use the commutator notation [x, B/2] when we want to emphasize t
 we are dealing with an infinitesimal rotation - it is independent of the grade of the object
 being rotated. For instance, if we wanted to rotate a bivector C, we can equivalently
 write
-
-
+[
+]
 Θ
 ′
 C = C + C,
@@ -2305,8 +2302,8 @@ C = C + C,
 (2.61)
 2
 The translation of this commutator would be:
-
-
+[
+]
 Θ
 C,
 = ⟨CΘ⟩2 ,
@@ -2414,14 +2411,14 @@ ẋ = (R̃x0 R)·
 Θ̇
 = − R̃x0 R + R̃x0 R
 2
-" 2
-#
+[ 2
+]
 Θ̇
 = R̃x0 R,
 ,
 2
-
-
+[
+]
 Ω
 = x,
 2
@@ -2436,8 +2433,8 @@ angular velocity Ω around the origin is
 Equation 2.11
 
 Rotation velocity
-
-
+[
+]
 Ω
 ẋ = x,
 2
@@ -2449,34 +2446,33 @@ This formula should make perfect intuitive sense - the angular velocity bivector
 be viewed as a generator acting on x.
 We can even go one step further and find the centripetal acceleration by taking
 another time derivative:
-
-
+]
+[
 Ω
 ẍ = ẋ,
 2
-
-
-
+[[
+]
+]
 Ω Ω
 (2.76)
 = x,
 ,
 2
 2
-
-1
+)
+1( 2
 =
-xΩ2 − ΩxΩ − ΩxΩ + Ω2 x
+xΩ − ΩxΩ − ΩxΩ + Ω2 x
 4
 The quantity Ω2 is a negative scalar. Therefore, it commutes with everything, and we
 can write:
 Equation 2.12
 
 Centripetal acceleration
+)
+1( 2
 ẍ =
-
-
-1 2
 Ω x − ΩxΩ
 2
 
@@ -2748,14 +2744,14 @@ a·b=
 
 If we want to write the interior and exterior derivative this way, we need to use the overdot
 notation:
-
-1
+)
+1(
 ∂a + ȧ∂˙
 ∂·a=
 2
 (2.102)
-
-1
+)
+1(
 ∂a − ȧ∂˙ .
 ∂∧a=
 2
@@ -2765,12 +2761,12 @@ notation:
 Pauli matrices
 
 In quantum mechanics, we define the Pauli matrices,
-
-
-
-
-
-
+(
+)
+(
+)
+(
+)
 0 1
 0 −i
 1 0
@@ -2805,8 +2801,8 @@ the same way. The matrix product between Pauli matrices takes the role of the ge
 product. Mathematically, we say that the Pauli matrices σi are a representation of the
 geometric algebra of space Cl(3) - any calculation we can perform in Cl(3) can also be
 done with Pauli matrices if we make the substitutions
-
-
+(
+)
 1 0
 1→
 0 1
@@ -2814,11 +2810,11 @@ ei → σi
 eij → σi σj
 
 (2.106)
-
+(
 
 e123 → σ123 =
 
-
+)
 i 0
 .
 0 i
@@ -2834,24 +2830,25 @@ rotor generated by the rotation bivector
 ## PDF page 54
 
 would have the Pauli matrix representation
+(
+)
 R = exp Θ12 σ1 σ2 + Θ23 σ2 σ3 + Θ31 σ3 σ1
-
-
+(
+)
 iΘ12
 iΘ23 + Θ31
 = exp
 iΘ23 − Θ31
 −iΘ12
 
-
 (2.108)
 
 The representation of the reverse M̃ of a multivector M is just the hermitean conjugate
 of its representation M † . It leaves the scalar and the basis vectors invariant, but it flips
 around the order of the matrix product. This is exactly what we want.
 The matrix representation of a vector v would be:
-
-
+(
+)
 v3
 v 1 − iv 2
 i
@@ -2995,7 +2992,8 @@ v = v i ei .
 Remember that vectors v i are rank-1 tensors. Similarly, a bivector B can be written as
 B=
 
-
+(
+)
 1 ij
 B ei ∧ ej = B 12 e12 + B 23 e23 + B 31 e31 .
 2!
@@ -3114,12 +3112,12 @@ v i = v · ei = ⟨vei ⟩ .
 
 Intuitively, we might expect that this extends to arbitrary k-vectors. For instance, for
 bivectors, we might try to write
+⟨
+⟩
 B ij = B · (ei ∧ ej ) = B(ei ∧ ej )
-57
-
 (INCORRECT!).
-
 (3.17)
+57
 
 ## PDF page 59
 
@@ -3133,14 +3131,16 @@ The solution is to dot the bivector with the inverse of the basis bivectors:
 
 Note that the inverse operation (· · · )−1 implicitly swaps upstairs and downstairs indices.
 Hence, we obtain the correct tensor components by writing
+⟨
+⟩
 B ij = B · (eij )−1 = B(ei ∧ ej )−1
-
 (3.19)
-
 The generalized formula for the components of a k-vector X of arbitrary grade is:
 Equation 3.2
 
 Tensor components of a k-vector
+⟨
+⟩
 X i1 i2 ·ik = X (ei1 ∧ ei2 ∧ · · · ∧ eik )−1 .
 
 (3.20)
@@ -3206,12 +3206,11 @@ of all, we define the symmetrization of Z as:
 Equation 3.3
 
 Symmetrization of a tensor
-
+)
+1 ( i1 i2 ···ik
 Z (i1 i2 ···ik ) =
-
-
-1
-Z i1 i2 ···ik + all permutations of i1 i2 · · · ik .
+Z
++ all permutations of i1 i2 · · · ik .
 k!
 
 (3.23)
@@ -3222,9 +3221,9 @@ symmetric, as all antisymmetries have been “leveled out” by the sum over all
 instance, the symmetrization of a rank-3 tensor Z ijk would read
 Z (ijk) =
 
-
-1
-Z ijk + Z kij + Z jki + Z kji + Z jik + Z ikj .
+)
+1 ( ijk
+Z + Z kij + Z jki + Z kji + Z jik + Z ikj .
 3!
 
 (3.24)
@@ -3235,9 +3234,10 @@ Z [i1 i2 ···ik ] =
 
 Antisymmetrization of a tensor
 
-
-1
-Z i1 i2 ···ik + all other even permutations − all odd permutations
+)
+1 ( i1 i2 ···ik
+Z
++ all other even permutations − all odd permutations
 k!
 (3.25)
 π
@@ -3253,9 +3253,9 @@ become odd, and the previously odd permutations will become even. We can say tha
 have “averaged out” all symmetric parts of the tensor. For instance, the antisymmetrization of a rank-3 tensor would read
 Z [ijk] =
 
-
-1
-Z ijk + Z kij + Z jki − Z kji − Z ikj − Z jik
+)
+1 ( ijk
+Z + Z kij + Z jki − Z kji − Z ikj − Z jik
 3!
 
 (3.26)
@@ -3367,12 +3367,13 @@ The second one can be sandwiched on top of the first one:
 
 M is antisymmetric over all indices. However, the two partial derivatives commute with
 each other. Thus, the index contraction is equal to zero:
-
+(
+)
 1
 ∂i2 ∂i1 M i1 i2 ··· = ∂i2 ∂i1 M i1 i2 − M i2 i1
 2
-
-1
+)
+1(
 =
 ∂i2 ∂i1 M i1 i2 − ∂i1 ∂i2 M i2 i1
 2
@@ -3384,8 +3385,8 @@ each other. Thus, the index contraction is equal to zero:
 
 We now rename the indices in the second term - we can do that because they are dummy
 indices:
-
-1
+)
+1(
 ∂i2 ∂i1 M i1 i2 − ∂i2 ∂i1 M i1 i2
 =
 2
@@ -3610,7 +3611,8 @@ The normal formalism is somewhat different. Instead of rotors, we use rotations
 matrices M = M ij . They are linear maps mapping vectors to other vectors:
 v ′i = M ij v j .
 Those matrices can also be written as matrix exponentials:
-
+(
+)
 M = exp Ti θi ,
 where
 
@@ -3714,13 +3716,15 @@ Equation 3.11
 
 Tensor transformation law
 
-
+(
+)
 T ′ i1 i2 ···ik ik+1 ···ik+l = M i1j1 M i2j2 · · · M ikjk M −1 i
 
 jk+1
 k+1
 
-
+(
+)
 · · · M −1 i
 
 jk+l
@@ -3744,7 +3748,8 @@ T ′ijk = M il M jm M kn T lmn ,
 would transform like
 the tensor transformation law for a rank (3, 0) tensor. However, if we pulled down one
 of the indices (T ijk ), we’d have use the inverse for it:
-n
+(
+)n
 T ′ ij k = M il M jm M −1 k T lmn .
 (3.76)
 
@@ -3837,7 +3842,7 @@ STA basis vector squares
 
 This means that an arbitrary vector a = aµ γµ will square to:
 a2 = (a0 )2 (γ 0 )2 + (a1 )2 (γ1 )2 + (a2 )2 (γ2 )2 + (a3 )2 (γ3 )2
-X
+∑
 = (a0 )2 −
 (ai )2 .
 
@@ -4151,13 +4156,13 @@ p2 = m2 U 2 = m2 .
 (4.27)
 In fact, this is how mass is defined
 in special relativity - mass is the time-length of the
-p
+√
 momentum four-vector m = p2 .
 Warning 4.1
 Unfortunately, there is a bad habit among physicists to refer to the energy p0 as
 the “mass”, which is supposedly increasing
 while the object speeds up. This is not
-p
+√
 the case - the actual mass is m = p2 . It does not change when we accelerate the
 object.
 !
@@ -4187,9 +4192,9 @@ What we do will do instead is parametrize paths by proper time. Proper time T is
 defined as the time that has passed from the point of view of the object whose trajectory
 we are trying to describe. If we parametrize the trajectory by some other parameter x(λ),
 the proper time passing for the object between the points λ1 , λ2 is:
-
-2
-Z λ2
+(
+)2
+∫ λ2
 dx(λ)
 dλ
 .
@@ -4198,12 +4203,12 @@ T =
 dλ
 λ1
 If we however parametrize the trajectory by T straightaway, i.e. x(T ), we get
-
+(
 
 dx(T )
 dT
 
-2
+)2
 =1
 
 (4.30)
@@ -4357,14 +4362,14 @@ A note on the Dirac gamma matrices
 
 Those who have already studied the Dirac equation will have probably recognized the
 notation we have introduced in this section. The Dirac gamma matrices are conventionally defined in terms of the Pauli matrices σi as
-
-
+(
+)
 0 12×2
 γ0 =
 12×2
 0
-
-
+)
+(
 (4.38)
 0 −σi
 .
@@ -4471,14 +4476,14 @@ spatial bivector eij is the STA bivector −γij = γji , which generates positi
 !
 Generally speaking, the STA equivalent of a Cl(3) rotation around some bivector eij
 by an angle of θ
-e 
+(e )
 ij
 R = exp
 θ = cos(θ/2) + eji sin(θ/2)
 (4.44)
 2
 is
- γ 
+( γ )
 ij
 (4.45)
 R = exp − θ = cos(θ/2) − γij sin(θ/2).
@@ -4514,7 +4519,7 @@ Contrary to the circular bivectors, the hyperbolic bivectors square to +1. For i
 
 This means that the power expansion of a bivector exponential now resolves to
 ∞
-γ  X
+(γ ) ∑
 (γ0i η/2)n
 0i
 η =
@@ -4523,32 +4528,30 @@ R = exp
 n!
 n=0
 ∞
-X
+∑
 
 (η/2)n
 n!
 n=0
-!
+(
+)
+(∞
+)
 ∞
-X
+∑
+∑ (η/2)2n+1
 (η/2)2n
 =
 + γ0i
 (2n)!
+(2n + 1)!
+n=0
 n=0
 =
 
 (γ0i )n
 
 (4.48)
-∞
-X
-(η/2)2n+1
-n=0
-
-!
-
-(2n + 1)!
 
 = cosh(η/2) + γ0i sinh(η/2),
 where cosh and sinh are the hyperbolic trigonometric functions (see Figure 4.4). They
@@ -4562,7 +4565,7 @@ boosted by the hyperbolic rotor
 Equation 4.6
 
 Hyperbolic rotation
-γ 
+(γ )
 03
 η = cosh(η/2) + γ03 sinh η/2.
 R = exp
@@ -4701,7 +4704,7 @@ a · b = cos(θ)
 (4.56)
 a ∧ b = sin(θ)B,
 where B is the unit bivector describing the plane of rotation in which A and B lie:
-B=p
+B=√
 
 a∧b
 
@@ -4734,7 +4737,7 @@ U1 ∧ U2 = sinh(η)C,
 where
 
 U1 ∧ U2
-C=p
+C=√
 (U1 ∧ U2 )2
 
 84
@@ -4836,8 +4839,8 @@ U ′2 = (U + AdT )2
 2
 (dT )2
 = U 2 + 2U
-| ·{zAdT} + A
-| {z }
+⏟ ·⏞⏞AdT⏟ + A
+⏟ ⏞⏞ ⏟
 (4.68)
 0
 O(dT 2 )
@@ -4888,14 +4891,14 @@ It is easy to check that they are orthogonal to each other. The prescription A =
 works for all U .
 We now remind ourselves that an expression like a · U is basically just an infinitesimal
 hyperbolic rotation along the hyperbolic bivector a = aγ30 :
-h ai
+[ a]
 ,
 (4.73)
 a · U = − U,
 2
 Therefore, a 4-vector U infinitesimally accelerated in the direction of a for a time dT
 reads
-h ai
+[ a]
 ′
 .
 (4.74)
@@ -4909,10 +4912,10 @@ U (T ) = R̃(T )U R(T )
 (4.75)
 
 with
- a 
+( a )
 R(T ) = exp − T
- a2 
-a 
+( a2 )
+(a )
 = cosh T + γ03 sinh T .
 2
 2
@@ -4982,7 +4985,7 @@ f = mA.
 
 Relativistic angular momentum
 In three dimensions, the expression for the angular momentum bivector of a system is
-X
+∑
 IL =
 x(a) ∧ p(a) .
 (4.84)
@@ -4993,8 +4996,8 @@ can effortlessly generalize this expression to four dimensions:
 Equation 4.14
 
 Relativistic angular momentum
-X
-X
+∑
+∑
 L=
 p(a) ∧ x(a) = −
 x(a) ∧ p(a)
@@ -5023,14 +5026,14 @@ call them hyperbolic momentum7 . They represent the position of the center of ma
 of the system at the time t = 0. To see why, we remind ourselves that the hyperbolic
 components of L are formed from the wedge of the time components of x and the space
 components of p, and vice versa:
-X
+∑
 xi(a) p0(a) − x0(a) pi(a)
 (4.87)
 N i = Li0 =
 a
 
 For a slow (non-relativistic) object, x0 = t and p0 = m. We therefore obtain
-X
+∑
 N i = Li0 =
 m(a) xi(a) − tpi(a)
 
@@ -5040,22 +5043,22 @@ a
 
 We see that at t = 0, this is just the expression for the center of mass of the system
 multiplied by the total mass8 :
-X
-1 X
+∑
+1 ∑
 m(a) xi(a)
 (4.89)
 m(a) xi(a) =
 N i = M (xCoM )i = M
 M a
 a
-P
+∑
 where M = a m(a) is the total mass of the system.
 However, when the total momentum of the system is not equal to zero, the center
 of mass will move over time. In fact, the time derivative of M xCoM is just the total
 momentum of the system:
-X
-X
-X
+∑
+∑
+∑
 i
 m(a) ẋi(a) =
 m(a) v(a)
@@ -5071,7 +5074,7 @@ a
 
 So in order to calculate the “original” (t = 0) center of mass, we subtract the total
 momentum times the time from the current center of mass:
-X
+∑
 N i = M xiCoM,t=0 = M xiCoM − t
 pi(a)
 (4.91)
@@ -5079,7 +5082,7 @@ a
 
 =
 
-X
+∑
 
 m(a) xi(a) − tpi(a) ,
 
@@ -5343,8 +5346,8 @@ Hence, the rotor describing an acceleration a which lasts for a proper time T is
 Equation 4.18
 
 Relativistic acceleration rotor
-
-
+(
+)
 aT
 R(T ) = exp −
 .
@@ -5388,7 +5391,7 @@ Therefore, our geoemtric derivative is written:
 ∂ = γ ∂µ = γ0 ∂0 −
 
 3
-X
+∑
 
 γi ∂i .
 
@@ -6271,16 +6274,16 @@ solutions Gy (x) to the equation
 (5.61)
 
 Then, the solution to j will be given by:
-Z
+∫
 A(x) = d3 y j(y)Gy (x)
 
 (5.62)
 
 We can show that this is a solution by inserting it into the electrostatic equation:
-Z
+∫
 2
 −∂ A(x) = d3 y j(y)(−∂ 2 Gy (x))
-Z
+∫
 (5.63)
 = d3 y j(y)δ (3) (x − y)
 = j(x)
@@ -6310,7 +6313,7 @@ by
 Equation 5.12
 
 Solution of the electrostatic equation
-Z
+∫
 1
 j(y)
 A(x) =
@@ -6322,7 +6325,7 @@ d3 y
 π
 
 If we want to find the corresponding electromagnetic field, we take the exterior derivative:
-Z
+∫
 1
 j(y)
 F (x) =
@@ -6332,8 +6335,8 @@ d3 y ∂ ∧
 2τ
 |x − y|
 We now simplify the integrand. First, we evaluate:
- 
- 
+( )
+( )
 1
 1
 d |r|
@@ -6343,7 +6346,7 @@ d|r|
 i
 dr
 d|r| dri
- 
+( )
 √
 1
 d |r|
@@ -6382,7 +6385,7 @@ We therefore obtain the law
 Equation 5.13
 
 Solution of the electrostatic equation in EM bivector form
-Z
+∫
 1
 r ∧ j(y)
 F (x) = −
@@ -6608,15 +6611,15 @@ q
 f
 = F ·U
 U̇ =
-m hm
-i
+m [m
+]
 q
 (5.85)
 =
 F, U
 2m
-h
-q i
+[
+q ]
 F .
 = − U,
 2m
@@ -6635,8 +6638,8 @@ is opposite to the rotation the bivectors F consists of generate. See Figure 5.6
 an illustration.
 !
 Integrating (5.3.2) yields the rotor
- q
-
+( q
+)
 L(T ) = exp −
 FT
 2m
@@ -6649,21 +6652,21 @@ U (T ) = L̃(T )U0 L(T ).
 
 If F only has a hyperbolic part (F = E = E i σi = E i γi0 ), this will lead to uniform
 acceleration:
-
- q
+)
+( q
 FT
 L(T ) = exp −
- 2m
-
+( 2m
+)
 q
 = exp −
 ET
 (5.88)
 2m
- q
-
-
-
+( q
+)
+(
+)
 E
 q
 = cosh
@@ -6675,10 +6678,10 @@ sinh
 2m
 such that, if we apply this rotor to an initially still-standing (U = γ0 ) object:
 U (T ) = L̃(T )U L(T )
- q
-
- q
- Ei
+( q
+)
+( q
+) Ei
 = cosh
 |E|T γ0 + sinh
 |E|T
@@ -6706,21 +6709,21 @@ particle. Magnetic fields are circular bivectors and thus circularly rotate the 
 of the particle.
 On the other hand, if F is purely circular (F = IB ij σij ), the particle will be forced
 onto a cyclotron motion trajectory:
-
- q
+)
+( q
 FT
 L(T ) = exp −
-
- 2m
+)
+( 2m
 q
 IBT
 = exp −
 (5.90)
 2m
-
- q
- IB
- q
+)
+( q
+) IB
+( q
 |IB|T − sin
 |IB|T
 .
@@ -6731,11 +6734,11 @@ IBT
 For instance, if IB = Bσ12 and the initial object is moving along the z axis:
 1
 (5γ0 + 4γ3 )
-3
- 
-
-
- 
+3(
+( (
+)
+(
+) ))
 1
 q|IB|T
 q|IB|T
@@ -6802,7 +6805,7 @@ Definition of a complex matrix representation
 
 Mathematically, an n-dimensional complex matrix representation is defined as a
 bijection that assigns a complex n × n matrix to every multivector:
-ρ : Cl(p, q) 7→ Mat(n × n, C)
+ρ : Cl(p, q) ↦→ Mat(n × n, C)
 
 (7.1)
 
@@ -6831,18 +6834,18 @@ Equation 7.2
 
 Pauli matrix representation
 ρ : Cl(3) → Mat(2 × 2, C)
-
-
+(
+)
 0 1
 ρ(e1 ) =
 1 0
-
-
+(
+)
 0 −i
 ρ(e2 ) =
 i 0
-
-
+(
+)
 1 0
 ρ(e3 ) =
 0 −1
@@ -6858,24 +6861,24 @@ Using the isomorphism property, we can determine the matrices belonging to the o
 
 basis k-vectors:
 
-
+(
 
-
+)
 i 0
 ρ(e12 ) = ρ(e1 )ρ(e2 ) =
 0 −i
-
-
+(
+)
 0 i
 ρ(e23 ) = ρ(e2 )ρ(e3 ) =
 i 0
-
-
+(
+)
 0 1
 ρ(e31 ) = ρ(e3 )ρ(e1 ) =
 −1 0
-
-
+(
+)
 i 0
 ρ(I) = ρ(e1 )ρ(e2 )ρ(e3 ) =
 0 i
@@ -6913,20 +6916,20 @@ Re tr(ρ(M ))
 (7.9)
 π
 
-We can now do calculations with the complex 2x2 matrices as if they were3D mul
+We can now do calculations with the complex 2x2 matrices as if they were(3D mul)
 i 0
 tivectors. In fact, you shouldn’t think of e.g. the bivector e12 and the matrix
 0 −i
 as two separate things - the matrix is simply a different way to write the multivector
 e12 . Therefore, once we have chosen a specific matrix representation, we will treat a
 multivector M and its matrix representation ρ(M ) as the same thing and write e.g.
-
-
+(
+)
 1 0
 e3 =
 0 −i
-
-
+(
+)
 (7.10)
 i 0
 e12 =
@@ -6938,7 +6941,7 @@ e12 =
 
 We see that the Pauli matrices are just a way of doing calculations with 3D multivectors using matrices. There is, however, an open question: In quantum mechanics, Pauli
 matrices are mainly used to operate on spin states - also called spinors - like
- 
+( )
 a
 |ψ⟩ =
 ,
@@ -7013,8 +7016,8 @@ i 0
 Warning 7.1
 Some authors also use a slightly different representation in which γ0 is represented
 by the matrix
-
-
+(
+)
 I2×2
 0
 (7.13)

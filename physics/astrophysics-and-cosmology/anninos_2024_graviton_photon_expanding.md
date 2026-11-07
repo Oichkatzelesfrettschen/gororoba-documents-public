@@ -8,7 +8,7 @@ Fidelity: machine (failed: characters)
 
 Transcription of `anninos_2024_graviton_photon_expanding.pdf` in this directory, 27 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 25 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-24, 26-27 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 25 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-24, 26-27 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -128,7 +128,7 @@ where the flat-space metric is given by ηµν = (−1, 1, 1, 1). In the standar
 (TT), or Lorenz, gauge, if the wave is assumed to be propagating in the z-direction, then
 hµν = hµν (z, t) and the two independent polarizations of the GW are h11 = −h22 and h12 = h21 .2
 In this situation the linearized gravitational wave equation is
-hµν = −16πGTµν .
+□hµν = −16πGTµν .
 
 (2.2)
 
@@ -194,11 +194,11 @@ b(z, t) = Beiωr (z−η) e−iωs (z+η) ,
 with ωr ≫ ωs . The product decomposition allows us to find the beat frequency between the
 GW and the EMW, which is represented by the frequency of the slow component, ωs . One
 finds for the system (2.5)-(2.6)
-
-
-
-
-p
+)
+)
+(
+(
+√
 z+t+φ
 z+t+φ
 ; bs = A B0 cos
@@ -230,8 +230,8 @@ B0
 ωs
 
 is the mixing length of the Gertsenshtein mechanism. In cgs units
-
-
+(
+)
 1 Gauss
 2c2
 ≈ 2Mpc
@@ -272,7 +272,7 @@ h(t, z)
 2
 a(t) 
 a(t)
-γbij =
+γ̂ij =
 h(t, z)
 a2 (t)(1 + f (t, z))
 0  ,
@@ -289,14 +289,12 @@ a3 (t)
 where R(r) = 1 + κr2 /4, κ = −1, 0, + 1 for open, flat, and closed spacetimes respectively,
 r is related to the usual radius via r = r/(1 + κr 2 /4), and h(t, z) and f (t, z) are first order
 (gravitational wave) perturbations. The ai (t) are constrained such that the determinant of the
-conformal metric γbij is unity (|b
-γ | = 1), while a(t) is the conformal factor which, for the case of
+conformal metric γ̂ij is unity (|γ̂| = 1), while a(t) is the conformal factor which, for the case of
 matter dominated isotropic cosmologies takes the familiar form a(t) ∝ t2/3 .
-
 In order to simplify our analysis, however, we consider only cross-polarized gravity waves
 and set f = 0 throughout. Further simplifications are made by adopting a geodesic slicing
 condition (unit lapse α = 1, zero shift β i in the 3+1 convention), isotropic background (constant
-R
+∫
 and equal ai ), and (later) a conformal time coordinate η = dt/a(t).
 The total stress energy tensor is a linear combination of matter (perfect fluid plus cosmo-
 
@@ -370,7 +368,7 @@ to the field equations from curvature it is important to keep spatial derivative
 complete derivation of the second order PDEs due to the 3D nature of the metric and use
 of Cartesian coordinates. For this purpose we evaluate the following second order differential
 representation of Maxwell’s equations
-F ab + g be ∇d ∇e F da + g ae ∇d ∇e F bd = 0 ,
+□F ab + g be ∇d ∇e F da + g ae ∇d ∇e F bd = 0 ,
 
 (2.19)
 
@@ -429,7 +427,7 @@ in [11] when B0 = 0.
 The above equations simplify considerably when rewritten in conformal time η ≡
 giving
 
-R
+∫
 
 dt/a(t),
 
@@ -520,8 +518,8 @@ b(z, η) = Beiωr (z−η) e−iωs (z+η) .
 (3.29)
 
 Substituting the expression for h into the first of (3.28) gives
-
-
+[
+]
 A −4ωr ωs + 2iγ(ωr + ωs ) − 2iaH(ωr + ωs ) + γ 2 − 2aHγ e−γη = −4BB0 a−2 .
 
 (3.30)
@@ -556,9 +554,9 @@ Substituting the anzatz for b into the second of (3.28) gives
 or
 
 Eliminating A/B from the above two equations yields a quadratic equation with solutions
-s
-"
-#
+√
+[
+]
 (aH)2
 B02 ωr2a−2
 ωs = −
@@ -675,7 +673,8 @@ satisfy both the GW and EMW equations to order H 2 k̂ 4 /B02 ≪ 1 in the long 
 k ≡ k̂H ≪ aH; here we have had to additionally impose the condition that B0 ≪ Λa2 = Ha2
 for de Sitter (see (2.25)).
 For a less restrictive condition on the wavelength, the ansatz
-!
+)
+(
 k̂h0 B0 c2
 ε2 ,
 +
@@ -688,7 +687,7 @@ h = h0 + B0 c1 +
 which reduces to the previous when B0 = 0, leads to h = b = 0 to order ε2 , which of course
 precludes any oscillations, including waves of the type (3.29).4
 We therefore conclude that the Gertsenshtein effect is inoperable in de Sitter space at late
-times Hη / 1.
+times Hη ⪅ 1.
 4
 
 Note that solutions (3.29) are separable; we merely wrote them in a way to emphasize their wavelike
@@ -760,16 +759,16 @@ Inserting these expressions into (4.45) and equating powers of η leads to four 
 five constants. After some algebra we find
 B0 h0
 (1 + κ) ,
-2
-
+2(
+)
 1−κ
 b1
 2 2
 − 2B0 η0 ,
 =
 3B0 1 + κ
-
-
+(
+)
 b1
 5
 2 2
@@ -777,8 +776,8 @@ b1
 B0 η0 (1 + κ) − κ − 2 ,
 18
 2
-
-
+(
+)
 2
 (1 − κ)
 1 2 2
@@ -899,8 +898,8 @@ A
 η
 
 Inserting this into (4.51) yields, for any n, m,
-
-
+(
+)
 2i(m + 1)
 m(m + 1)
 −4ωr ωs −
@@ -908,8 +907,8 @@ m(m + 1)
 −κ
 η
 η2
-
-
+)
+(
 4B02 η02 k 2 (ωr2 + κ)
 2in(ωr + ωs ) n(n − 1)
 +
@@ -954,10 +953,10 @@ results in the quadratic
 
 (4.57)
 
-s
-"
-#
-
+√
+[
+]]
+[
 2B02 η02 (ωr2 + κ)
 κ
 1± 1+8 1+
@@ -1092,9 +1091,9 @@ A
 
 Note that in this case m = −2 causes the imaginary part to vanish and gives the correct asymptotic behavior for the decoupled solution. Eq. (4.52) for b is unchanged, and so eliminating
 B/A as before gives for m = −2
-
-
-
+)(
+)
+(
 2n(ωr + ωs ) n(n − 1)
 4B02 k 4 η04 (ωr2 + κ)
 2
@@ -1126,8 +1125,8 @@ RD case:
 If we additionally set n = 0, the remaining imaginary term vanishes, as well as the n(n − 1)
 term, and the coupling term can be retained to derive a time-dependent mixing frequency. In
 this case the resulting quadratic becomes
-
-
+)
+(
 2κ 2B02 η04 (ωr2 + κ)
 4ωr
 2
@@ -1153,21 +1152,21 @@ with solutions
 ωs =
 8ωr
 
-"
+[(
 
 2
 κ− 2
 η
 
-
+)
 
 2
 ± 2
 η
 
-r
+√
 
-#
+]
 9
 1 + 4B02 η04 (ωr2 + κ) + 3κη 2 + κ2 η 4 .
 4
@@ -1177,9 +1176,9 @@ r
 We point out three particularly interesting limits in this expression. In the limit of zero
 curvature κ → 0:
 
-
-
-q
+[
+]
+√
 1
 2 4 2
 1 ± 1 + 4B0 η0 ωr ;
@@ -1226,16 +1225,16 @@ temperatures and above reionization (the ”dark ages”) one can model the pres
 particles in a somewhat ad hoc fashion similarly to the procedure in Domcke and Garcia2
 Cely [19] by adding a term (ωp0
 /a)b (in conformal time) to the LHS of the second of the wave
-p
+√
 eqs. (4.45). Here, ωp0 ≡ e2 ne0 /me is today’s value of the plasma frequency. For the current
 
-value of B0 . 10−9 G, our requirement that B02 ≪ ρ0 for a RD or MD universe is easily met,
+value of B0 ≲ 10−9 G, our requirement that B02 ≪ ρ0 for a RD or MD universe is easily met,
 
 as is the constraint that kη ≫ 1 for EMWs. Then, repeating the above derivation for the MD
 case, the solution becomes
 
 
-s
+√
 4 4
 ω
 η
@@ -1264,9 +1263,9 @@ where ω 2p ≡ ωp0
 
 In the case that spatial curvature is negligible, and ignoring all but the frequency-dependent
 terms appropriate for the high frequency limit, (4.73 reduces to
-s
-"
-#
+√
+[
+]
 2 2
 ω 2p
 16B ω
@@ -1278,7 +1277,7 @@ a ωp
 (4.74)
 
 When the second term under the radical dominates, this expression becomes our previous result
-ωs = B0 /2a. For ωp0 ∼ 1 Hz, as in [19], that takes place when ωr & 10 MeV. Below these
+ωs = B0 /2a. For ωp0 ∼ 1 Hz, as in [19], that takes place when ωr ≳ 10 MeV. Below these
 19
 
 ## PDF page 20
@@ -1323,7 +1322,7 @@ As discussed in §4.2, the RD and MD cases have a limited domain of validity, af
 model becomes curvature dominated. For the CD regime, the Friedmann equation in conformal
 time (2.25) becomes simply
 
- 2
+( )2
 ȧ
 = −κ,
 a
@@ -1335,9 +1334,10 @@ damping term by the constant H ≡ ȧ/a. Perhaps not surprisingly, equations (2
 can then be satisfied by the same ansatz (3.29) we employed in the de Sitter case, which is
 applicable to both positive and negative curvature.
 Substituting the expressions (3.29) into (2.23) and (2.24), we find from the GW equation
-
-
-
+)
+[
+]
+(
 A −4ωr ωs + 2i(ωr + ωs )(γ − H) − 2Hγ + γ 2 − κ = −B 4B0 a−2 eγη ,
 20
 
@@ -1346,8 +1346,8 @@ A −4ωr ωs + 2i(ωr + ωs )(γ − H) − 2Hγ + γ 2 − κ = −B 4B0 a−2
 ## PDF page 21
 
 and from the EMW equation
-
-
+[
+]
 AB0 (ωr − ωs )2 + κ = −B (2κ − 4ωr ωs ) eγη .
 
 (5.78)
@@ -1365,9 +1365,9 @@ B02
 (ωr − ωs )2 − 1
 2a2 ωr ωs
 This is a quadratic equation for ωs and with (ωr + ωs )2 ≈ ωr2 , yields
-"
-#
-r
+[
+]
+√
 4B02 (ωr2 − 1)
 1
 ωs =
@@ -1391,7 +1391,8 @@ oscillations.
 
 For the κ = +1 case, H = ±i. In order for the imaginary part of (5.77) to vanish, one
 must take γ = 0, leaving
-
+(
+)
 A [−4ωr ωs − 1 ± 2(ωr + ωs )] = −B 4B0 a−2 eγη .
 21
 
@@ -1417,9 +1418,9 @@ Assuming again that ωr ≫ ωs , we get the quadratic dispersion relationship
 a2
 
 which can be solved for ωs to get
-"
-#
-r
+[
+]
+√
 2
 2
 16B
@@ -1481,7 +1482,7 @@ frequency (within the coherence length of Gertsenshtein mixing). Such effects ar
 coupling to GWs occur through the spacetime geometry, not its matter content. For radiationdominated models we do not expect the Gerstenshtein effect to operate at all, due to Thomson
 scattering of EMWs off electrons.
 Turning to regimes where the GE operates without plasma dissipation, and given that
-today’s intergalactic magnetic field . 10−9 G implies that the mixing length for gravitonphoton conversion is & 105 Hubble radii, we should confront the question raised at the start of
+today’s intergalactic magnetic field ≲ 10−9 G implies that the mixing length for gravitonphoton conversion is ≳ 105 Hubble radii, we should confront the question raised at the start of
 this paper: Does a “cosmological” Gertsenshtein effect have any observable consequences?
 Initially, one might hope that it does. Presumably, the cosmological magnetic field was
 much larger in the early universe than it is today, and the Gertsenshtein effect (or similar mixing

@@ -8,7 +8,7 @@ Fidelity: machine-gated
 
 Transcription of `postnov_2014_evolution_compact_binary_star_systems.pdf` in this directory, 166 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 6, 75 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-5, 7-74, 76-166 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 6, 75 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-5, 7-74, 76-166 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -430,9 +430,9 @@ The Evolution of Compact Binary Star Systems
 could be limited by pulsations, though, the upper mass limit remains undefined [703] and masses
 up to ≃ 1000 𝑀⊙ are often inferred in theoretical studies.
 The initial mass function (IMF) of main-sequence stars can be approximated by a power-law
-𝑑𝑁/𝑑𝑀 ∼ 𝑀 −𝛽 [669] and most simply may be presented taking 𝛽 ≈ 1.3 for 0.07 . 𝑀/𝑀⊙ . 0.5
-and 𝛽 ≈ 2.3 for 𝑀/𝑀⊙ & 0.5 [830]. Note, there are also claims that for the most massive stars
-(𝑀 & 7 𝑀⊙ ) the IMF is much steeper – up to 𝛽 = 3.8 ± 0.5, see [403] and references therein.
+𝑑𝑁/𝑑𝑀 ∼ 𝑀 −𝛽 [669] and most simply may be presented taking 𝛽 ≈ 1.3 for 0.07 ≲ 𝑀/𝑀⊙ ≲ 0.5
+and 𝛽 ≈ 2.3 for 𝑀/𝑀⊙ ≳ 0.5 [830]. Note, there are also claims that for the most massive stars
+(𝑀 ≳ 7 𝑀⊙ ) the IMF is much steeper – up to 𝛽 = 3.8 ± 0.5, see [403] and references therein.
 Estimates of the current star-formation rate (SFR) in the Galaxy differ depending on the method,
 but most at present converge to ≃ 2𝑀⊙ yr−1 [108, 353, 537]. This implies that in the past the
 Galactic SFR was much higher. For the most recent review of observations and models pertinent
@@ -538,7 +538,7 @@ BH
 ∼ 10
 
 not consider them below as a special class.
-If 𝑀0 & 𝑀mas (or 8 – 12 𝑀⊙ ), thermonuclear evolution proceeds until iron-peak elements
+If 𝑀0 ≳ 𝑀mas (or 8 – 12 𝑀⊙ ), thermonuclear evolution proceeds until iron-peak elements
 are produced in the core. Iron cores are subject to instabilities (neutronization, nuclei photodisintegration), that lead to gravitational collapse. The core collapse of massive stars results in
 the formation of a neutron star or, for very massive stars, a black hole9 and is associated with the
 brightest astronomical phenomena such as supernova explosions (of type II, Ib, or Ib/c, according
@@ -569,7 +569,7 @@ that these models are very important for deriving physical parameters of the sta
 For a more detailed introduction to the physics and evolution of stars, the reader is referred to
 the classical fundamental textbook [121] and to several more modern ones [612, 51, 53, 171, 297,
 298]. Formation and physics of compact objects is described in more detail in the monographs [691,
-53]. For recent studies and reviews of the evolution of massive stars and the mechanisms of core9 Pair-creation instability in the oxygen cores of slowly rotating 𝑀 ≈ (140 – 260) 𝑀 and metallicity 𝑍 . 𝑍 /3
+53]. For recent studies and reviews of the evolution of massive stars and the mechanisms of core9 Pair-creation instability in the oxygen cores of slowly rotating 𝑀 ≈ (140 – 260) 𝑀 and metallicity 𝑍 ≲ 𝑍 /3
 ⊙
 ⊙
 0
@@ -629,7 +629,7 @@ limit is even more uncertain for the BH progenitors. For example, the presence o
 (neutron star with an extremely large magnetic field) in the open cluster Westerlund 1 means
 that it descends from a star that is more massive than the currently-observed most-massive mainsequence cluster stars (because for a massive star the duration of the main-sequence stage is
 inversely proportional to its mass squared). The most massive main-sequence stars in this stellar
-cluster are found to have masses as high as 40 𝑀⊙ , suggesting 𝑀pre−BH & 40 𝑀⊙ [643]. On the
+cluster are found to have masses as high as 40 𝑀⊙ , suggesting 𝑀pre−BH ≳ 40 𝑀⊙ [643]. On the
 other hand, it was speculated, based on the properties of X-ray sources, that in the initial mass
 range (20 – 50) 𝑀⊙ the mass of pre-BHs may vary depending on such poorly-known parameters as
 rotation or magnetic fields [176].
@@ -836,7 +836,7 @@ system can be evaluated:
 𝜔˙ = 3
 𝑃b
 (1 − 𝑒2 )
-The high value of the derived total mass of a system (& 2.5 𝑀⊙ ) suggests the presence of another
+The high value of the derived total mass of a system (≳ 2.5 𝑀⊙ ) suggests the presence of another
 NS or even a BH.11
 If the masses of components, binary period, and eccentricity of a compact binary system are
 known, it is easy to calculate the time it takes for the binary companions to coalesce due to GW
@@ -1369,7 +1369,7 @@ CXOU J123030.3+413853
 
 ?
 
-& 14.5
+≳ 14.5
 
 ?
 
@@ -1857,7 +1857,7 @@ yr)
 𝑀⊙
 As noted above, gravitational radiation from the binary depends on the chirp mass ℳ, which can
 also be written as ℳ ≡ 𝑀 𝜂 3/5 , where 𝜂 is the dimensionless ratio 𝜂 = 𝜇/𝑀 . Since 𝜂 ≤ 1/4, one
-has ℳ . 0.435𝑀 . For example, for two NSs with equal masses 𝑀1 = 𝑀2 = 1.4 𝑀⊙ , the chirp
+has ℳ ≲ 0.435𝑀 . For example, for two NSs with equal masses 𝑀1 = 𝑀2 = 1.4 𝑀⊙ , the chirp
 mass is ℳ ≈ 1.22 𝑀⊙ . This explains the choice of normalization in Eq. (29).
 
 Orbital period (h)
@@ -2086,7 +2086,7 @@ modeling):
 (35)
 𝑎
 1+𝑞
-which is accurate to . 2% for 0 < 𝑞 . 0.8.
+which is accurate to ≲ 2% for 0 < 𝑞 ≲ 0.8.
 In close binaries, the zero-age main sequence (ZAMS) mass ceases to be the sole parameter
 determining stellar evolution. The nature of compact remnants of close binary components also
 
@@ -2113,7 +2113,7 @@ the donor (radiative vs. convective), its relative mass, reaction of accretor et
 and Section 3.3.
 In cases A and B of mass exchange the remnants of stars with initial masses lower than
 (2.3 – 2.8) 𝑀⊙ are degenerate He WD – a type of objects not produced by single stars.16
-In cases A and B of mass exchange the remnants of stars with initial mass & 2.5 𝑀⊙ are helium
+In cases A and B of mass exchange the remnants of stars with initial mass ≳ 2.5 𝑀⊙ are helium
 stars.
 If the mass of the helium remnant star does not exceed ≃ 0.8 𝑀⊙ , after exhaustion of the He
 in the core it does not expand, but transforms directly into a WD of the same mass [300]. Helium
@@ -2152,7 +2152,7 @@ parts of Eq. (17) by time 𝑡 and exclude 𝑑Ω/𝑑𝑡 with the help of Kepl
 Living Reviews in Relativity
 http://www.livingreviews.org/lrr-2014-3
 
-0 . 0.95 𝑀⊙ exceeds the age of the universe.
+0 ≲ 0.95 𝑀⊙ exceeds the age of the universe.
 
 ## PDF page 29
 
@@ -2209,7 +2209,7 @@ Konstantin A. Postnov and Lev R. Yungelson
 
 Figure 6: Relation between ZAMS masses of stars 𝑀𝑖 and their masses at TAMS (solid line), masses of
 helium stars (dashed line), masses of He WD (dash-dotted line), masses of CO and ONe WD (dotted line).
-For stars with 𝑀𝑖 . 5 𝑀⊙ we plot the upper limit of WD masses for case B of mass exchange. After [791].
+For stars with 𝑀𝑖 ≲ 5 𝑀⊙ we plot the upper limit of WD masses for case B of mass exchange. After [791].
 
 3.3.1
 
@@ -2307,7 +2307,7 @@ the mass-losing star, since mass loss happens in the vicinity of the accretor. T
 all matter in excess of accretion rate can be expelled from the system, thus avoiding the formation
 of a common envelope, will only hold if the liberated accretion energy of the matter falling from
 the Roche lobe radius of the accretor star to its surface is sufficient to expel the matter from the
-Roche-lobe surface around the accretor, i.e., 𝑀˙ d . 𝑀˙ dmax = 𝑀˙ Edd (𝑟L,a /𝑟a ), where 𝑟a is the radius
+Roche-lobe surface around the accretor, i.e., 𝑀˙ d ≲ 𝑀˙ dmax = 𝑀˙ Edd (𝑟L,a /𝑟a ), where 𝑟a is the radius
 of the accretor [364].
 The orbital momentum loss can be written as
 𝑀˙ 2
@@ -2584,7 +2584,7 @@ object along with flux freezing and dynamo action can grow the WD’s magnetic f
 strengths during collapse. Further, magnetar generates outflow of the matter and formation of a
 pulsar wind nebula, which may be observed as a radio-source for a few month [592].
 We also note the hypothesis of Pfahl et al. [583], based on observations of high-mass X-ray
-binaries with long orbital periods (& 30 d) and low eccentricities (𝑒 < 0.2), that rapidly rotating
+binaries with long orbital periods (≳ 30 d) and low eccentricities (𝑒 < 0.2), that rapidly rotating
 precollapse cores may produce neutron stars with relatively small kicks, and vice versa for slowly
 rotating cores. Then, large kicks would be a feature of stars that retained deep convective envelopes
 long enough to allow a strong magnetic torque, generated by differential rotation between the core
@@ -2694,7 +2694,7 @@ If 𝑉f < 𝑉i , the semi-major axis of the system becomes smaller than the or
 than before, i.e. it has a greater
 √
 negative total energy than the original binary. If 𝑉i < 𝑉f < 2𝑉i , the system remains bound, but
-𝑎f > 𝑎i . For small and moderate kicks 𝑤 & 𝑉i , the probabilities for the system to become more or
+𝑎f > 𝑎i . For small and moderate kicks 𝑤 ≳ 𝑉i , the probabilities for the system to become more or
 less bound are approximately equal.
 In general, the binary system loses some fraction of its mass Δ𝑀 . In the absence of the kick, the
 system remains bound if Δ𝑀 < 𝑀/2 and gets disrupted if Δ𝑀 ≥ 𝑀/2 (see Section 3.4). Clearly,
@@ -2801,7 +2801,7 @@ the more massive star should shrink in response to the conservative mass exchang
 components. This further increases the mass loss rate from the Roche-lobe filling star leading
 to dynamical mass loss and eventual formation of a common envelope. If the star is completely
 convective or completely degenerate, dynamically-unstable mass loss occurs if the mass ratio of
-components (donor to accretor) is & 2/3.
+components (donor to accretor) is ≳ 2/3.
 In a more realistic case when the star is not completely convective and has a radiative core,
 certain insight may be gained by the analyses of composite polytropic models. Conditions for
 the onset of dynamical mass loss become less rigorous [555, 283, 722]: the contraction of a star
@@ -2868,7 +2868,7 @@ approximated, e.g., by Eqs. (34) or (35). From Eq. (56) one derives
 𝑚
 
 )︂−1
-.
+≲
 
 𝑀𝑐 𝑚
 ,
@@ -3047,7 +3047,7 @@ the outcome of CE must be found from a solution of an equation
 Formulations of the common envelope equation different from Eq. (56) are found in the literature
 (see, e.g., [139] for a review); 𝑎f /𝑎i similar to the values produced by Eq. (56) are then obtained
 for different 𝛼ce 𝜆 values.
-Common envelope events are expected to be rare (. 0.1 yr−1 [791]) and short-lasting (∼ years).
+Common envelope events are expected to be rare (≲ 0.1 yr−1 [791]) and short-lasting (∼ years).
 Thus, the binaries at the CE-stage itself are difficult to observe, despite energy being released at
 this stage comparable to the binding energy of a star, and the evidence for them comes from the
 very existence of compact object binaries, as described above in Section 3.6.1. Recently, it was
@@ -3085,7 +3085,7 @@ Evolutionary Scenario for Compact Binaries with Neutron Star or Black Hole Compo
 Compact binaries with neutron stars
 
 Compact binaries with NS and BH components are descendants of initially massive binaries with
-𝑀1 & 8 𝑀⊙ . The scenario of the evolution of massive binaries from a pair of main-sequence stars
+𝑀1 ≳ 8 𝑀⊙ . The scenario of the evolution of massive binaries from a pair of main-sequence stars
 to a relativistic binary consisting of NSs or BHs produced by core-collapse SN was independently
 elaborated by Tutukov and Yungelson [782, 472]20 and van den Heuvel et al. [801, 201]. This
 scenario is fully confirmed by more than 30 years of astronomical observations and is now considered
@@ -3282,7 +3282,7 @@ Ejecta
 ∼ 1051 ergs
 rich in heavy elements (Fe, Si, O)
 
-. 1050 ergs
+≲ 1050 ergs
 few heavy elements
 
 Neutron Star Properties
@@ -3405,7 +3405,7 @@ found in the literature, e.g., [787, 788, 430, 607, 19, 135, 834, 34, 294, 314, 
 to close binaries, that have components massive enough to produce ECSN or core-collapse SN, but
 not so massive that the loss of the hydrogen envelope by stellar wind and an associated widening
 of the orbit via the Jeans mode of mass ejection may prevent RLOF by the primary. This limits
-the relevant mass range by 𝑀1 . (40 – 50) 𝑀⊙ [470, 807].
+the relevant mass range by 𝑀1 ≲ (40 – 50) 𝑀⊙ [470, 807].
 There also exists a population of NSs accompanied by low-mass [∼ (1 – 2) 𝑀⊙ ] companions.
 A scenario similar to the one presented in Figure 7 may be sketched for them too, with the
 difference that the secondary component stably transfers mass onto the companion (see, e.g.,
@@ -3662,7 +3662,7 @@ or in terms of 𝑞:
 1 − 1.
 Inserting 𝑚1 = 10 in the above two equations yields the appropriate mass ratio range 0.25 <
 𝑞 < 0.69, i.e., 20% of the binaries for Kuiper’s mass-ratio distribution. So we conclude that the
-birth rate of binaries that can potentially produce a NS binary system is . 0.2 × 1/125 yr−1 ≃
+birth rate of binaries that can potentially produce a NS binary system is ≲ 0.2 × 1/125 yr−1 ≃
 1/600 yr−1 .
 Of course, this is a very crude upper limit – we have not taken into account the evolution of the
 binary separation, ignored initial binary eccentricities, non-conservative mass loss, etc. However,
@@ -3823,7 +3823,7 @@ The Evolution of Compact Binary Star Systems
 
 (RSG) of massive star evolution. In this scenario, unlike, e.g., Voss and Tauris’ assumptions [815],
 the allowance for the enhanced mass loss at the Luminous Blue Variable (LBV) phase of evolution
-for stars with an initial mass & 30 – 40 𝑀⊙ leads to a significant orbital increase and hence the
+for stars with an initial mass ≳ 30 – 40 𝑀⊙ leads to a significant orbital increase and hence the
 avoidance of the second Roche-lobe overflow and spiral-in process in the common envelope, which
 completely precludes the formation of close BH binary systems merging within the Hubble time.
 The Brussels code also takes into account the time evolution of Galactic metallicity enrichment
@@ -3951,7 +3951,7 @@ attempt to take into account only bright galaxies from Tully’s catalog of near
 and the use of the LEDA database of galaxies to estimate the detection rate of supernovae explosions [27]). In this context, a complete study of galaxies within 100 Mpc was done by Kopparapu et
 al. [376]. Based on their results, Abadie et al. [2] derived the approximate formula for the number
 of the equivalent Milky-Way-type galaxies within large volumes, which is applicable for distances
-& 30 Mpc:
+≳ 30 Mpc:
 (︂
 )︂3
 4𝜋 𝐷hor
@@ -4073,10 +4073,10 @@ change. While awaiting for detailed evolutionary calculations of different cases
 with “new” physics,28 we present the currently-accepted scheme of the evolution of binaries leading
 to the formation of compact binary systems with WD components.
 For stars with radiative envelopes, to the first approximation, the mass transfer from 𝑀1 to
-𝑀2 is stable for binary mass ratios 𝑞 = 𝑀2 /𝑀1 . 1.2; for 1.2 . 𝑞 . 2 it proceeds in the thermal
+𝑀2 is stable for binary mass ratios 𝑞 = 𝑀2 /𝑀1 ≲ 1.2; for 1.2 ≲ 𝑞 ≲ 2 it proceeds in the thermal
 2
 time scale
-√︀ of the donor, 𝑡𝐾𝐻 = 𝐺𝑀 /𝑅𝐿; for 𝑞 & 2 it proceeds in the dynamical time scale
+√︀ of the donor, 𝑡𝐾𝐻 = 𝐺𝑀 /𝑅𝐿; for 𝑞 ≳ 2 it proceeds in the dynamical time scale
 3
 𝑡𝑑 = 𝑅 /𝐺𝑀 . The mass loss occurs in the dynamical time scale, 𝑀˙ ∼ 𝑀/𝑡𝑑 , if the donor
 has a deep convective envelope or if it is degenerate and conditions for stable mass exchange
@@ -4092,7 +4092,7 @@ by the donor, the overwhelming majority (∼ 90%) of close binaries pass in thei
 one to four common envelope stages.
 An “initial donor mass – donor radius at RLOF” diagram showing descendants of stars after
 mass-loss in close binaries is presented above in Figure 5. We remind here that solar metallicity
-stars with 𝑀 . 0.95 𝑀⊙ do not evolve past the core-hydrogen burning stage in the Hubble time.
+stars with 𝑀 ≲ 0.95 𝑀⊙ do not evolve past the core-hydrogen burning stage in the Hubble time.
 
 7.1
 
@@ -4234,15 +4234,15 @@ Post-common envelope binaries
 
 We recall, for convenience, that in stars with solar metallicity with a ZAMS mass below (2.3 – 2.8)𝑀⊙ ,
 helium cores are degenerate, and if these stars overflow the Roche lobe prior to He core ignition,
-they produce 𝑀 . 0.47 𝑀⊙ helium white dwarfs. Binaries with non-degenerate He-core donors
-(𝑀 & (2.3 – 2.8) 𝑀⊙ ) first form a close He-star + MS-star pair that can be observed as a subdwarf
+they produce 𝑀 ≲ 0.47 𝑀⊙ helium white dwarfs. Binaries with non-degenerate He-core donors
+(𝑀 ≳ (2.3 – 2.8) 𝑀⊙ ) first form a close He-star + MS-star pair that can be observed as a subdwarf
 (sdB or sdO) star with a MS companion [786]. The minimum mass of He-burning stars is close to
 0.33 𝑀⊙ [301]. The binary hypothesis for the origin of hot subdwarf stars was first suggested by
 Mengel et al. [478], but it envisioned a stable Roche lobe overflow. Apparently, there exist populations of close sdB/sdO stars formed via common envelopes and of wide systems with A-F type
 companions to subdwarfs, which may be post-stable-mass-exchange stars; similarly, the merger
 products and genuinely single stars can be found among sdB/sdO stars. For the overview of properties of sdB/sdO stellar binaries, models of the population and current state of the problem of the
 origin of these stars see, e.g., [667, 251, 668, 268, 267, 7, 879, 205, 273, 232, 510, 245, 227, 128, 233].
-When a He-star with mass . 2.3 𝑀⊙ completes its evolution, a pair harboring a CO white dwarf
+When a He-star with mass ≲ 2.3 𝑀⊙ completes its evolution, a pair harboring a CO white dwarf
 and an MS-star appears. A large number of post-common envelope binaries or “WD + MS stars”
 is known (see, e.g., SDSS-sample and its analysis in [507, 887]). The most recent population synthesis model of this class of binaries was published by Toonen and Nelemans [765]. Of course,
 the WD + MS population is dominated by systems with low-mass MS-stars. Population synthesis
@@ -4253,10 +4253,10 @@ reasonable agreement with above-mentioned observations.
 Cataclysmic variables
 
 If after the first common-envelope stage the orbital separation of the binary 𝑎 ≃ several 𝑅⊙ and the
-WD has a low-mass (. 1.4 𝑀⊙ ) main-sequence companion, the latter can overflow its Roche lobe
+WD has a low-mass (≲ 1.4 𝑀⊙ ) main-sequence companion, the latter can overflow its Roche lobe
 during the hydrogen-burning stage or very shortly after it, because of loss of angular momentum by
 a magnetically-coupled stellar wind and/or GW radiation, see Sections 3.1.4 and 3.1.5. If the mass
-ratio of the components allows them to avoid merging in the CE (𝑞 . 1.2), a cataclysmic variable
+ratio of the components allows them to avoid merging in the CE (𝑞 ≲ 1.2), a cataclysmic variable
 (CV) can form. Variability of these stars can be due to thermal-viscous instability of accretion disks
 [546] and/or unstable burning of accreted hydrogen on the WD surface [481, 482, 656, 736, 737, 739];
 see Warner’s monograph [821] for a comprehensive review of CVs in general, [409] for a review
@@ -4270,7 +4270,7 @@ regimes on mass and accretion rate for CO WD from Nomoto’s paper [535]. The st
 limits found in this paper, by stability analysis of a steady-burning WD, within factor ≃ 2 agree
 with those obtained in a similar way, e.g., by Shen and Bildsten [696] and with the results of
 time-dependent calculations by Wolf et al. [843] (see Figure 9 in the latter paper.)
-Binaries with WDs and similar systems with subgiants (𝑀 . 2 𝑀⊙ ) that steadily burn accreted
+Binaries with WDs and similar systems with subgiants (𝑀 ≲ 2 𝑀⊙ ) that steadily burn accreted
 hydrogen are usually identified with supersoft X-ray sources (SSS) [800]. Note, however, that the
 actual fraction of the stable burning stage when these stars can be observed as SSS is still a matter
 
@@ -4284,7 +4284,7 @@ The Evolution of Compact Binary Star Systems
 61
 
 Figure 10: Limits of different burning regimes of accreted hydrogen onto a CO WD as a function of mass
-of the WD and accretion rate 𝑀˙ [535]. If 𝑀˙ stable . 𝑀˙ . 𝑀˙ RG , hydrogen burns steadily. If 𝑀˙ . 𝑀˙ stable , Hburning shells are thermally unstable; with decrease of 𝑀˙ the strength of flashes increases. For 𝑀˙ & 𝑀˙ RG ,
+of the WD and accretion rate 𝑀˙ [535]. If 𝑀˙ stable ≲ 𝑀˙ ≲ 𝑀˙ RG , hydrogen burns steadily. If 𝑀˙ ≲ 𝑀˙ stable , Hburning shells are thermally unstable; with decrease of 𝑀˙ the strength of flashes increases. For 𝑀˙ ≳ 𝑀˙ RG ,
 hydrogen burns steadily but the excess of unburnt matter forms an extended red-giant–sized envelope. In
 the latter case white dwarfs may lose matter by wind or due to Roche lobe overflow. A dotted line shows
 the Eddington accretion rate 𝑀˙ Edd as a function of 𝑀WD . The dashed lines are the loci of the hydrogen
@@ -4316,7 +4316,7 @@ http://www.livingreviews.org/lrr-2014-3
 
 Konstantin A. Postnov and Lev R. Yungelson
 
-As noted by G. Dubus (private communication) at 𝑞 . 0.02, which may be attained in the
+As noted by G. Dubus (private communication) at 𝑞 ≲ 0.02, which may be attained in the
 Hubble time, the conventional picture of mass exchange may become invalid: the circularization
 radius (the minimum radius of the accretion disk defined by the specific angular momentum of the
 matter at the 𝐿1 point and its interaction with the donor) exceeds the outer radius of the disk
@@ -4336,7 +4336,7 @@ components as given by Eqs. (56) and (59) – in a merger, if at the end of comm
 the radius of one of components becomes larger than its Roche-lobe radius, or in the formation
 of a detached system otherwise. However, as was speculated by Livio and Riess [437] after the
 first detection of SN Ia with hydrogen in the spectrum (SN 2002ic [264]), there is a very small
-probability (. 1%) that WD merges with the core of an AGB star when part of the AGB envelope
+probability (≲ 1%) that WD merges with the core of an AGB star when part of the AGB envelope
 (common envelope) is still not ejected. These considerations are corroborated by results of 1D
 [313, 341] and 3-D simulations, [571] which show that only a fraction of the common envelope is
 ejected in the dynamical time scale, and the rest of the matter remains in the vicinity of the close
@@ -4399,17 +4399,17 @@ branch, see Section 7.3.2 and discussion of Figure 18) or the formation of an R 
 an extended helium envelope [825, 306, 885, 480], which will also end its evolution as a single WD
 (not shown in Figure 9). White dwarfs produced by the merger process may be hidden among
 single WDs without traces of H or He, like those with oxygen-rich atmospheres [222].
-If the donor has a non-degenerate He-core (ZAMS mass 𝑀ZAMS & (2.3 – 2.8) 𝑀⊙ ) and the
+If the donor has a non-degenerate He-core (ZAMS mass 𝑀ZAMS ≳ (2.3 – 2.8) 𝑀⊙ ) and the
 system does not merge, after the second CE-stage a helium star + WD system can arise (the “Nondegenerate He-core” branch of evolution shown to the right in Figure 9). From the point of GW
-detection, low-mass He-stars (𝑀He . 0.8 𝑀⊙ for 𝑍 = 0.02) can be important. The lifetime of Heremnants of the close binary components can be as long as that of their main-sequence progenitors
+detection, low-mass He-stars (𝑀He ≲ 0.8 𝑀⊙ for 𝑍 = 0.02) can be important. The lifetime of Heremnants of the close binary components can be as long as that of their main-sequence progenitors
 [301]:
 −3.7
 𝑡He ≈ 107.15 𝑚He
 yr
 (68)
 (𝑚He is the mass in solar units). These stars expand only slightly at the core-helium burning
-stage. If the separation of components is sufficiently small (𝑃orb . (120 – 140) min), AML via
-GWR may bring He-star to RLOF, while He is still burning in its core. If 𝑀He /𝑀WD . 2, a stable
+stage. If the separation of components is sufficiently small (𝑃orb ≲ (120 – 140) min), AML via
+GWR may bring He-star to RLOF, while He is still burning in its core. If 𝑀He /𝑀WD ≲ 2, a stable
 mass exchange is possible [674, 819]. A detailed study of the evolution of semidetached low-mass
 He-stars with WD companions may be found in [870], see also Section 9. These stars overfill their
 Roche lobes at orbital periods ranging from 16 to 50 min and first evolve to shorter periods with
@@ -4465,7 +4465,7 @@ The Evolution of Compact Binary Star Systems
 
 10
 
-R/R ¯ (M =1.4M ¯)
+R/R ⊙ (M =1.4M ⊙)
 
 0
 
@@ -4489,15 +4489,15 @@ R/R ¯ (M =1.4M ¯)
 
 -4
 
-0.5 M ¯
+0.5 M ⊙
 
-1.4 M ¯
+1.4 M ⊙
 
 HST limits
 
-1.0 M ¯
+1.0 M ⊙
 
-3.0 M ¯
+3.0 M ⊙
 
 C MS
 V471 Tau
@@ -4703,7 +4703,7 @@ allowing a stable mass exchange (see the discussion in [257, 873]). The strong w
 the mass-loss rate drops below 𝑀˙ RG . However, even in this regime of steady accretion WD must
 lose mass via a strong wind, since its surface is hot ((1 – 3) × 105 K) and, hence, the efficiency of
 mass capture by the accretor is < 1. It drops further in the flaring regime, when the expanding
-envelope of the WD may exceed the corresponding Roche lobe radius [303]. Finally, at 𝑀˙ accr .
+envelope of the WD may exceed the corresponding Roche lobe radius [303]. Finally, at 𝑀˙ accr ≲
 10−8 𝑀⊙ yr−1 all accumulated mass is lost in novae explosions [613, 859].
 We note parenthetically that it was suggested that WD losing mass in the regime of opticallythick winds (also called “Rapidly Accreting White Dwarfs”, RAWD) may be observable as lowluminosity Wolf–Rayet stars, possibly as WR nuclei of planetary nebulae or as V Sge type cataclysmic binaries with numerous emission lines of highly ionized species in their spectra, see [414]
 and references therein. In principle, RAWDs can exist and can be observed in nearby elliptical
@@ -5048,8 +5048,8 @@ Merger of white dwarfs and the double-degenerate scenario for SN Ia
 
 A compelling scenario for the accumulation of 𝑀Ch involves two CO WDs in a close binary system
 that can merge in the Hubble time due to the orbital angular momentum loss via GWR [784, 785,
-300, 825]. Theoretical models suggested that a proper candidate WD pair with total mass & 𝑀Ch
-may be found among about 1000 field WDs with stellar magnitudes 𝑉 . 16 – 17 [520]. This
+300, 825]. Theoretical models suggested that a proper candidate WD pair with total mass ≳ 𝑀Ch
+may be found among about 1000 field WDs with stellar magnitudes 𝑉 ≲ 16 – 17 [520]. This
 number of (super)Chandrasekhar merging pairs also appeared sufficient to obtain the observed
 rate of SNe Ia in a Milky-Way—like galaxy. It was speculated in [784], that, due to the fact
 that degenerate dwarfs expand with mass loss (𝑅 ∝ 𝑀 −1/3 ), if the mass ratio of components is
@@ -5068,7 +5068,7 @@ a few orbital periods) and it was suggested that the lighter of the two dwarfs t
 “heavy disc” or “envelope” from which matter accretes onto the central object. This inference was
 confirmed by SPH calculations of Benz et al. [42] and many other studies. However, it was shown
 for 1D non-rotating models that the central C-ignition and SN Ia explosion are possible only for an
-accretion rate onto the central object 𝑀˙ a . (0.1 – 0.2)𝑀˙ Edd [533], while it was expected that in the
+accretion rate onto the central object 𝑀˙ a ≲ (0.1 – 0.2)𝑀˙ Edd [533], while it was expected that in the
 merger products of dwarf binaries 𝑀˙ a is close to 𝑀˙ Edd ∼ 10−5 𝑀⊙ yr−1 because of high viscosity
 in the transition layer between the core and the disk [489]. For such a high 𝑀˙ a , nuclear burning will
 start at the core edge and propagate inward. If this is not the case, an off-center ignition may be due
@@ -5248,7 +5248,7 @@ used, e.g., by Fink et al. [199]. Nevertheless, it is quite possible that the pr
 DD-scenario may be pairs of CO-accretors and helium or hybrid donors.
 Currently, systems with direct impact are the best studied (Figure 17). As found by Guillochon
 et al. [255] and later explored in more detail by Dan et al. [130, 128], in the direct impact systems
-He detonations in the torus of the accreted He with mass . 0.1 𝑀⊙ can occur several orbits before
+He detonations in the torus of the accreted He with mass ≲ 0.1 𝑀⊙ can occur several orbits before
 merging, if the nuclear timescale 𝜏3𝛼 becomes shorter than the local dynamical timescale 𝜏dyn . If
 the subsequent shock compression is strong enough, the second detonation may follow in the CO
 
@@ -5359,7 +5359,7 @@ this material is ejected from the binary system and sweeps up the surrounding in
 the ones found in some SN Ia.
 As mentioned above, the merger of CO WD pairs with 𝑀tot ≥ 𝑀Ch may result in SN Ia if
 certain conditions on the accretion rate at the core/envelope interface are fulfilled [589, 767, 863].
-According to Dan et al. [128], the merging CO WDs detonate only if 𝑀tot & 2.1 𝑀⊙ . Then they
+According to Dan et al. [128], the merging CO WDs detonate only if 𝑀tot ≳ 2.1 𝑀⊙ . Then they
 may be identified with super-Chandrasekhar SN Ia. However, we note that the consideration of
 abundances of elements synthesized in SNe Ia places certain constraints on the exploding object
 mass. For instance, the solar abundance of Mn is consistent with the assumption that about 50%
@@ -5532,7 +5532,7 @@ UVES spectrograph at the ESO VLT (see [501, 373, 502] for the design of the proj
 the latest summary of its results). The project was aimed at discovering DDs as potential progenitors of SN Ia, but brought, as a by-product, an immense wealth of data on physical parameters,
 kinematics etc. of white dwarfs and subdwarfs, see e.g., [373, 372, 186, 230, 573, 814, 339, 229].
 Theoretical models predicted that it can be necessary to search for binarity of up to 1000 field
-WDs with stellar magnitude 𝑉 . 16 – 17 to find a WD with a mass close to 𝑀Ch [520]. More than
+WDs with stellar magnitude 𝑉 ≲ 16 – 17 to find a WD with a mass close to 𝑀Ch [520]. More than
 1000 white dwarfs and pre-white dwarfs were observed (practically all white dwarfs brighter than
 𝑉 ≈ 16.5, available for observations from the ESO site in Chile). SPY increased the number of
 detected DDs tremendously to more than 150. Their system parameters are continuously determined from follow-up observations. As well, among the objects detected by SPY there appeared a
@@ -5569,7 +5569,7 @@ PN G135.9+55.9 = TS01, first detected as the nucleus of a planetary nebula (PN) 
 binarity was discovered. A study of its parameters led to a total mass estimate possibly exceeding
 𝑀Ch [740, 768]. Another remarkable system is V458 Vul (Nova Vul 2007 No. 1) – the nucleus
 of a planetary nebula with a massive WD companion, which exploded as a nova in 2007. Masses
-of components are estimated to be 0.58 𝑀⊙ and & 𝑀⊙ [650, 120]. A high mass of PN in this
+of components are estimated to be 0.58 𝑀⊙ and ≳ 𝑀⊙ [650, 120]. A high mass of PN in this
 system (∼ 0.2) 𝑀⊙ points to its formation via ejection of a common envelope about 14 000 yr ago
 [833]. Components of the system will merge due to the orbital angular momentum loss via GWR
 in ∼ 107 yr. By this time, the current nucleus of PN will turn into a WD. Mass exchange after
@@ -5596,7 +5596,7 @@ known to date [808]. Estimated masses of components are 𝑀sdB = 0.44 – 0.48 
 transformation into a WD, and stable mass transfer onto the WD upon RLOF may be expected.
 Thus, this system is a potential precursor to an AM CVn star.
 The most numerous population (58 objects) in Figure 19 is of extremely low mass white dwarfs
-(ELM) – helium white dwarfs with 𝑀 . 0.25 𝑀⊙ found in a targeted spectroscopic survey (see
+(ELM) – helium white dwarfs with 𝑀 ≲ 0.25 𝑀⊙ found in a targeted spectroscopic survey (see
 [72] for a summary of results; data for the plot taken from this paper and [360, 241]. Most of them
 have unseen heavier companions, most probably another WDs, while in some cases even NSs are
 suspected. Some may have brown-dwarf companions. About half of ELM WD will merge with their
@@ -5655,7 +5655,7 @@ As shown in the flowchart in Figure 9 and mentioned above, there are several way
 a semidetached system in which a WD stably accretes matter from another WD or a helium
 star. This happens due to orbital angular momentum losses via GWR, since for the WD binary,
 orbital angular momentum loss is the only driver of orbital evolution, and low-mass helium stars
-(𝑀 . 0.8 𝑀⊙ ) almost do not expand in the course of core He-burning. These stars, also referred
+(𝑀 ≲ 0.8 𝑀⊙ ) almost do not expand in the course of core He-burning. These stars, also referred
 to as “interacting double-degenerates” (IDD), are observationally identified with the ultra-shortperiod cataclysmic variables (𝑃orb = (5 – 65) min) of the AM CVn class. We shall use below both
 the terms “AM CVn stars” and “IDD”. A distinctive peculiarity of AM CVn stars is the absence
 of signs of hydrogen in their spectra (with one possible exception), which suggests that donor stars
@@ -5679,7 +5679,7 @@ The Evolution of Compact Binary Star Systems
 
 83
 
-the observed AM CVn-stars, especially 𝑃orb . 25 min, is much lower than the birth rate in the
+the observed AM CVn-stars, especially 𝑃orb ≲ 25 min, is much lower than the birth rate in the
 “double-degenerate” and “helium-star” channels; below we shall neglect it.
 Schematically, the tracks of three families of AM CVn stars are shown in Figure 21 and compared to the track for an “ordinary” CV.
 
@@ -5843,7 +5843,7 @@ ES Ceti with the shortest 𝑃orb = 5.4 min has the highest 𝑀˙ = 2.5 × 10�
 longest orbital period system GP Com (46.5 min) has the lowest 𝑀˙ = (3 – 4) × 10−11 𝑀⊙ yr−1 .
 About 1/3 of AM CVn stars demonstrate outbursts [623]. The properties of an outburst are well
 described by the thermal-viscous disk instability model, see [379] and references therein. Crudely,
-disks are unstable for mass accretion rates 10−12 . 𝑀˙ accr . 10−9 𝑀⊙ yr−1 .
+disks are unstable for mass accretion rates 10−12 ≲ 𝑀˙ accr ≲ 10−9 𝑀⊙ yr−1 .
 However, we should note that the time span between the formation of a pair of WDs and their
 contact may range from several Myr to several Gyr [790, 518]. This means that the approximation of
 zero-temperature white dwarfs is not always valid. 𝑇𝑐 of WD at the onset of mass transfer may be as
@@ -5940,7 +5940,7 @@ only member of the AM CVn class of binaries with a suspected presence of hydroge
 
 Precursors of He-star components of AM CVn stars with initial mass ≈ (0.35 – 0.80) 𝑀⊙ are
 𝑀ZAMS ≈ (2 – 5) 𝑀⊙ red giants with non-degenerate helium cores (Figure 9). Helium stars with
-𝑀 . 0.80 𝑀⊙ almost do not expand in the course of evolution (by less than 30% [552]). Their
+𝑀 ≲ 0.80 𝑀⊙ almost do not expand in the course of evolution (by less than 30% [552]). Their
 lifetimes are comparable to the main-sequence lifetimes of their precursors (Eq. 68) and the orbital
 angular momentum loss via gravitational waves radiation may bring them to RLOF before the
 exhaustion of He in their cores [674, 302, 790]. Mass transfer proceeds steadily if the initial mass
@@ -6397,7 +6397,7 @@ may be simulated by computation of the distribution of binaries over Δ𝑓 = 1/
 signal. In Figure 33 the number of systems per bin is plotted. The assumed integration time is
 𝑇 = 1 yr. Semidetached WD binaries, which are less numerous than their detached cousins and
 have lower strain amplitude, dominate the number of systems per bin in the frequency interval
-−3.4 . log 𝑓 (Hz) . −3.0 producing a peak there, see also Figure 33.
+−3.4 ≲ log 𝑓 (Hz) ≲ −3.0 producing a peak there, see also Figure 33.
 Results presented below may be, to some extent, considered as an illustration of the signal
 detected by a space-born detector, since they are model-dependent and “LISA-oriented”, but they
 show, at least qualitatively, the features of the signal detected by any space-based GW antenna.
@@ -6987,8 +6987,8 @@ Konstantin A. Postnov and Lev R. Yungelson
 (E-ELT),34 the 30-m US telescope (TMT),35 the James Webb Space Telescope (JWST).36 The
 ESA GAIA mission will also be very helpful in localization of the sources. Resolved LISA sources
 are expected to be most numerous in the 𝐾-band, and a significant fraction of them will have
-𝐾 . 29 (Figure 38), within reach of the future facilities, whilst current instruments are mostly
-limited by 𝐾 . (20 – 21) [509].
+𝐾 ≲ 29 (Figure 38), within reach of the future facilities, whilst current instruments are mostly
+limited by 𝐾 ≲ (20 – 21) [509].
 The most severe “astronomical” problems concerning “verification binaries” are their distances,
 which for most systems are only estimates, and poorly constrained component masses. Some
 features of “verification binaries” and prospects of detection of new objects in wide-field surveys
@@ -7072,7 +7072,7 @@ Most AM CVn systems experience a short (106 – 107 yr) “direct impact” stag
 of mass-transfer [281, 518, 464]. Hence, in modeling the X-ray emission from AM CVn systems
 one has to distinguish two cases: the direct impact and disc accretion.
 37 This is true for long-period systems, but becomes an oversimplification at shorter periods and for 𝑃
-orb . 40 min,
+orb ≲ 40 min,
 heating of the WD by accretion has to be taken into account [49].
 
 Living Reviews in Relativity
@@ -8246,7 +8246,7 @@ University Press, Cambridge; New York, 2013). [ADS]. (Cited on page 11.)
 [299] Iben Jr, I. and Livio, M., “Common envelopes in binary star evolution”, Publ. Astron. Soc. Pac.,
 105, 1373–1406 (1993). [ADS]. (Cited on page 39.)
 [300] Iben Jr, I. and Tutukov, A. V., “Supernovae of type I as end products of the evolution of binaries
-with components of moderate initial mass (𝑀 . 9𝑀⊙ )”, Astrophys. J. Suppl. Ser., 54, 335–372
+with components of moderate initial mass (𝑀 ≲ 9𝑀⊙ )”, Astrophys. J. Suppl. Ser., 54, 335–372
 (1984). [DOI], [ADS]. (Cited on pages 28, 72, and 79.)
 [301] Iben Jr, I. and Tutukov, A. V., “On the evolution of close binaries with components of initial mass
 between 3 solar masses and 12 solar masses”, Astrophys. J. Suppl. Ser., 58, 661–710 (1985). (Cited

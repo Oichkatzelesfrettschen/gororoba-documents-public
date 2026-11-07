@@ -8,7 +8,7 @@ Fidelity: machine (failed: characters)
 
 Transcription of `Pathions1.pdf` in this directory, 24 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 12-13, 20-23 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-11, 14-19, 24 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 12-13, 20-23 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-11, 14-19, 24 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -62,11 +62,11 @@ visualized. For instance, in 1918, war veteran Gaston Julia published his trailb
 on iterative equations (e.g. self-mappings). The result is the Julia set [4, 5], which is a set of
 vertices along an input grid in nD space that satisfy one particular mathematical criterion.
 This criterion is that, for each nD input vertex A, the magnitude
-v
-u n−1
-uX
-p
-ℓ = A0 A0 + A1 A1 + ... + A(n−1) A(n−1) = t
+‾
+│ n−1
+│∑
+√
+ℓ = A0 A0 + A1 A1 + ... + A(n−1) A(n−1) = ⎷
 A2i
 (1)
 i=0
@@ -153,25 +153,25 @@ Definition of a few useful functions in nD
 
 In this paper, we treat each nD vertex A as consisting of a 1D scalar A0 and an (n − 1)D
 vector (A1 , ..., A(n−1) ). The magnitude measures are:
-v
-u n−1
-uX
-p
+‾
+│ n−1
+│∑
+√
 (4)
 A2i ,
-ℓs = A0 A0 + A1 A1 + ... + A(n−1) A(n−1) = t
+ℓs = A0 A0 + A1 A1 + ... + A(n−1) A(n−1) = ⎷
 i=0
 
 ℓv =
 
-p
+√
 
 A1 A1 + ... + A(n−1) A(n−1)
 
-v
-u n−1
-uX
-=t
+‾
+│ n−1
+│∑
+=⎷
 A2 .
 i
 
@@ -202,7 +202,7 @@ sin() etc. are the familiar 1D real-valued functions. The C = log(A) function ca
 
 inverse of the exponentiation of base e:
 C0 = log(ℓs ),
- 
+( )
 A1
 A0
 C1 =
@@ -211,7 +211,7 @@ arccos
 ℓv
 ℓs
 ...
- 
+( )
 A(n−1)
 A0
 arccos
@@ -259,7 +259,7 @@ exp(A0 ) sin(ℓv ),
 (9)
 
 C0 = log(ℓs ),
- 
+( )
 A1
 A0
 arccos
@@ -267,7 +267,7 @@ arccos
 C1 =
 ℓv
 ℓs
- 
+( )
 A2
 A0
 C2 =
@@ -275,7 +275,7 @@ arccos
 ,
 ℓv
 ℓs
- 
+( )
 A3
 A0
 C3 =
@@ -283,7 +283,7 @@ arccos
 ,
 ℓv
 ℓs
- 
+( )
 A4
 A0
 arccos
@@ -441,25 +441,25 @@ There is a pow() function of time complexity O(n) that can replace many sequenti
 and again). This makes for set calculation that is even faster than the new multiplication
 operator, especially for large β.
 The magnitude measures are:
-v
-u n−1
-uX
-p
+‾
+│ n−1
+│∑
+√
 A2i ,
 (16)
-ℓs = A0 A0 + A1 A1 + ... + A(n−1) A(n−1) = t
+ℓs = A0 A0 + A1 A1 + ... + A(n−1) A(n−1) = ⎷
 i=0
 
 ℓv =
 
-p
+√
 
 A1 A1 + ... + A(n−1) A(n−1)
 
-v
-u n−1
-uX
-=t
+‾
+│ n−1
+│∑
+=⎷
 A2 .
 i
 
@@ -468,13 +468,13 @@ i
 i=1
 
 Where θ represents an angle in radians:
-
+(
 θ = β arccos
 
 A0
 ℓs
 
-
+)
 ,
 
 (18)
@@ -573,7 +573,7 @@ the surface. Finally, if none of the vertices correspond to a value less than th
 then the box is outside the set. Count the boxes accordingly, and use the marched cube side
 length ℓbox to gather the box-counting dimension:
 log(count(ℓbox ))
-  .
+( ) .
 ℓbox →0
 1
 log ℓbox

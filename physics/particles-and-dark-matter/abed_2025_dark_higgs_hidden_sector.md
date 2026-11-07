@@ -8,7 +8,7 @@ Fidelity: machine (failed: characters)
 
 Transcription of `abed_2025_dark_higgs_hidden_sector.pdf` in this directory, 25 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 21, 25 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-20, 22-24 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 21, 25 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-20, 22-24 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -204,8 +204,8 @@ ĥ2 . Its theoretical prediction is given by [14, 15]
 Ωĥ2 = √
 
 1.07 × 109 xf GeV−1
-
- ,
+[
+] ,
 g∗ mPl aeff + 3(beff − aeff /4)/xf
 5
 
@@ -213,7 +213,8 @@ g∗ mPl aeff + 3(beff − aeff /4)/xf
 
 xf
 
-
+(
+)
 0.191 aeff + 6beff /xf M1 mPl
 ,
 = ln
@@ -297,26 +298,31 @@ Z-boson, and fermion N1,2,3 exchange. Neglecting the electron mass, the total cr
 ## PDF page 8
 
 is given by [17]
-
-
-gL4 + gL2 gR2 β 3 s
+(
+( 4
+)
+)
+gL + gL2 gR2 β 3 s
 πα2 β 3
 α gL2 + gL gR β 3
 σe+ e− →H + H − =
 +
 +
-2
+(
+)2
 3s
 12
 s − m2Z
 96π s − m2Z
-! "
-#
-X |Y1k |4
+(
+) [
+]
+∑ |Y1k |4
 wk + β
 α
 gL2
-
+(
+)
 +
 wk ln
 − 2β +
@@ -333,19 +339,20 @@ m
 k −β
 Z
 k
-
-
-X
- wk + β
-2
+]
+[
+∑
+) wk + β
+( 2
 2
 2
 − 2β wk
 |Y1k | wk − β ln
 wk − β
 k
-!
-wj2 − β 2 wj + β
+(
+)
+∑ |Y1j Y1k |2 wj2 − β 2 wj + β
 wk2 − β 2 wk + β
 ln
 +
@@ -355,10 +362,8 @@ ln
 64π s
 wj − w k wj − β wk − w j wk − β
 j, k>j
-p
+√
 where j, k = 1, 2, 3, s = (p+ + p− )2 , α = e2 /(4π), β = 1 − 4m2H /s, and
-X |Y1j Y1k |2
-
 wk = 1 +
 
 (2)
@@ -419,7 +424,7 @@ on the parameter space at the 90% CL. In addition, cosmological observations fro
 
 Planck satellite, baryon acoustic oscillations (BAO), measurements of H(z), and Type Ia
 supernovae yield a stringent 2σ upper bound on the sum of neutrino masses,
-X
+∑
 mi < 0.12 eV.
 i
 
@@ -442,8 +447,8 @@ and BR(τ → µγ) < 4.4 × 10−8 [25], with the most stringent constraint ari
 The corresponding expressions within the scotogenic framework can be found in Ref. [23].
 The flavor-conserving counterparts of these processes contribute to the anomalous magnetic
 moments of charged leptons, leading to [26]
- 2
-−m2ℓi X
+( 2)
+−m2ℓi ∑
 Mk
 2
 ∆aℓi =
@@ -599,7 +604,7 @@ This fit imposes the condition
 
 at the 90% confidence level. In addition, cosmological observations from the Planck satellite,
 baryon acoustic oscillation (BAO) data, measurements of H(z), and Type Ia supernovae
-P
+∑
 constrain the sum of neutrino masses to
 mi < 0.12 eV at the 2σ level. Constraints from
 13
@@ -632,8 +637,8 @@ ms m2b
 0.9 × 8π vh2
 2
 
-
-3/2
+(
+)3/2
 4m2b
 .
 1− 2
@@ -770,7 +775,7 @@ is defined as
 Ltruth
 xyz =
 
-p
+√
 ∆x2 + ∆y 2 + ∆z 2 ,
 
 (7)

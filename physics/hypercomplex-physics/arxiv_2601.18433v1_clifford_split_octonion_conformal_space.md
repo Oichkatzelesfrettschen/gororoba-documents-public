@@ -8,7 +8,7 @@ Fidelity: machine (failed: characters)
 
 Transcription of `arxiv_2601.18433v1_clifford_split_octonion_conformal_space.pdf` in this directory, 162 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 2, 4, 8, 10, 13-14, 142, 153, 162 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1, 3, 5-7, 9, 11-12, 15-141, 143-152, 154-161 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 2, 4, 8, 10, 13-14, 142, 153, 162 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1, 3, 5-7, 9, 11-12, 15-141, 143-152, 154-161 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -267,9 +267,9 @@ Basis of 𝔰𝔲(2, 2)  𝔰𝔬(4, 2) . . . . . . . . . . . . . . . . . . . .
 2.4.3 Adjustment of Notation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 2.5 Appendix: A Mnemonic Matrix Rule for (Split) Octonionic
 Multiplication . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-2.6 Appendix: Realization of the Conformal
+2.6 Appendix: Realization( of the Conformal
 Group
-
+)
 U(2, 2)  SU(2, 2)
  SO(4, 2) × U(1) in the
 Clifford Algebra 𝔠𝔩(4, 2) and its Action on Spinors . . . . . . . . . . . . . . .
@@ -294,9 +294,11 @@ Realization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 3.1 Invariant Bilinear Form in the Space of 𝔠𝔩(4, 2) Spinors . . . . . . . . . . 63
 3.2 Isomorphism of 𝔠𝔩(4, 1) with the Even Part of 𝔠𝔩(4, 2): 4 × 4
 Matrix Realization of 𝔰𝔲(2, 2)  𝔰𝔬(4, 2) . . . . . . . . . . . . . . . . . . . . . . 67
-3.3 Positive Energy Ladder Representations
+3.3 Positive Energy Ladder
+Representations
 of
-
+(
+)
 𝔲(2, 2)  𝔰𝔲(2, 2)  𝔰𝔬(4, 2) ⊕ 𝔲(1) ⊂ 𝔠𝔩(4, 2)
 Describing Massless Particles of Any Helicity . . . . . . . . . . . . . . . . . . 70
 3.4 Complex Analytic Picture: Globally Conformal Invariant Vertex
@@ -655,7 +657,8 @@ framework formulated in terms of dS UIRs.
 2. Chap. 2 constructs an explicit Majorana representation of the conformal Clifford
 algebra 𝔠𝔩(4, 2) using split-octonions, providing a geometrically transparent
 framework for the internal symmetries of the conformal Lie algebra 𝔲(2, 2):
-
+(
+)
 𝔲(2, 2)  𝔰𝔲(2, 2)  𝔰𝔬(4, 2) ⊕ 𝔲(1) ⊂ 𝔠𝔩(4, 2) .
 It introduces a unitary transformation to the chiral basis, in which the Cartan
 elements of the maximal compact subalgebra of 𝔰𝔲(2, 2) are diagonal simultaneously with the 𝔲(1) generator defined by the 𝔠𝔩(4, 2) volume form, and
@@ -713,7 +716,7 @@ interpretation of ‘1’ depends on the specific context in which it appears.
 quaternionic or octonionic conjugation and, depending on context — particularly
 in matrix representations — also the Hermitian conjugate; for a matrix 𝔐, one
 has:
-⊤
+( )⊤
 𝔐∗ = 𝔐 ,
 where ‘⊤ ’ denotes transposition.
 4. We adopt the following conventions for the split-octonion units and their associated indices:
@@ -744,25 +747,29 @@ and/or 𝜇, respectively, as:
 We denote any subset of indices 𝜈 and/or 𝜇, typically 1, 2, 3, 4, by 𝑖, 𝑗. Nevertheless, each symbol should be interpreted according to its context. This dual
 interpretation is discussed in Sect. 2.2, Eqs. (2.60)-(2.62).
 5. In the context of the chiral representation, we denote:
-𝑎 ± and/or 𝑏 ± = 1c𝒌 ± , c
-05± , c
-12± , c
+𝑎 ± and/or 𝑏 ± = 1ˆ𝒌 ± , ˆ
+05± , ˆ
+12± , ˆ
 34± .
 For clarity and conciseness, we shall, where appropriate, employ a simplified
 numeric labeling in Chaps. 3 and 4 as:
-
-𝑎 := 𝑎 + = 1 := 1c𝒌 + ,
+(
+)
+𝑎 := 𝑎 + = 1 := 1ˆ𝒌 + ,
 
-
-2 := c
+(
+)
+2 := ˆ
 05+ ,
 
-
-3 := c
+(
+)
+3 := ˆ
 12+ ,
 
-
-4 := c
+(
+)
+4 := ˆ
 34+ .
 
 Note that 𝑎, 𝑏 have a fundamentally different meaning from 𝑖, 𝑗.
@@ -784,18 +791,18 @@ assembled from finite-dimensional matrix blocks (typically 2 × 2 or 4 × 4). To
 describe such objects unambiguously, we use the following notation:
 a. Direct-sum notation: For any ordered list of matrices (𝑀1 , 𝑀2 , . . . , 𝑀𝑛 ),
 we write:
-Ê
-
+⨁(
+)
 𝑀1 + 𝑀2 + · · · + 𝑀𝑛 := 𝑀1 ⊕ 𝑀2 ⊕ · · · ⊕ 𝑀𝑛 ,
 (1.2)
 for the block-diagonal matrix whose diagonal blocks, in the order listed, are
 𝑀1 , 𝑀2 , . . . , 𝑀𝑛 . For example:
 
-Ê
+⨁(
 
 𝑀1 + 𝑀2 + 𝑀3 + 𝑀4
 
-
+)
 
 𝑀1 0 0 0
 ©
@@ -808,23 +815,23 @@ for the block-diagonal matrix whose diagonal blocks, in the order listed, are
 (1.3)
 
 A minus sign in the list indicates
-É literal multiplication of
- the corresponding
+⨁ ( literal multiplication of
+) the corresponding
 block by −1; for instance,
 𝑀1 − 𝑀2 + 𝑀3 + 𝑀4 places −𝑀2 in the
 second block. This convention allows expressions such as:
-Ê
-
+⨁(
+)
 (1.4)
 𝑆1 ( 𝚥ℓ) + 𝑆 𝚥 ℓ − 𝑆𝚤 (ℓ𝒌 ) + 𝑆𝒌 (ℓ𝚤)
 to be written compactly and without ambiguity.
 b. Commutativity up to isomorphism: For finite-dimensional matrices 𝑀 and
 𝑁, the direct sum is not strictly commutative as a matrix identity. The two
 block arrangements differ only by a permutation of components, so that:
-Ê
-Ê
-
-
+⨁(
+⨁(
+)
+)
 𝑀 + 𝑁 := 𝑀 ⊕ 𝑁  𝑁 ⊕ 𝑀 =:
 𝑁+𝑀 ,
 (1.5)
@@ -832,10 +839,10 @@ where “” denotes isomorphism via conjugation by an appropriate permutation 
 In the present context, however, the blocks are arranged such that their order
 does not affect the resulting operator. That is, for the matrices considered
 here, the direct sum is literally commutative:
-Ê
-Ê
-
-
+⨁(
+⨁(
+)
+)
 𝑀 + 𝑁 := 𝑀 ⊕ 𝑁 = 𝑁 ⊕ 𝑀 =:
 𝑁+𝑀 .
 (1.6)
@@ -895,8 +902,8 @@ characterized by a curvature radius 𝑅, which sets the fundamental length scal
 the spacetime and governs both its geometric and group-theoretic properties.
 The dS manifold admits a convenient representation as a hyperboloid embedded
 in a 4 + 1-dimensional Minkowski spacetime R4,1 , and is defined by:
-n
-o
+{
+}
 dS := 𝑥 = (𝑥 𝛼 ) ∈ R4,1 ; (𝑥) 2 := 𝑥 · 𝑥 = 𝜂 𝛼𝛽 𝑥 𝛼 𝑥 𝛽 = 𝑅 2 ,
 (1.7)
 where 𝛼, 𝛽 = 0, 1, 2, 3, 4, the coordinates 𝑥 𝛼 are Cartesian, and the ambient
@@ -974,13 +981,19 @@ where the 𝑊 𝛼 , as the dS counterpart of the Pauli-Lubanski operator, is g
 eigenvalues assumed by the Casimir operators can be utilized to classify UIRs of the
 dS group. In the Dixmier notation [93], these eigenvalues are expressed in terms of
 two dS-invariant parameters, 𝑝 ∈ Z ≥0 /2 and 𝑞 ∈ C, as follows:
+⟨
+
+⟩
 C2𝔰𝔭(2,2) = −𝑝( 𝑝 + 1) − (𝑞 + 1) (𝑞 − 2) ,
 
 (1.13)
 
+⟩
 C4𝔰𝔭(2,2) = −𝑝( 𝑝 + 1)𝑞(𝑞 − 1) .
 
 (1.14)
+
+⟨
 
 Thus, the pair of dS-invariant parameters ( 𝑝, 𝑞) provides a complete characterization
 of the UIRs of the dS group. The classification naturally decomposes according to
@@ -1191,8 +1204,13 @@ Remark 1.6 For later reference — and by including the scalar (zero-helicity; �
 massless case (1.17) — the eigenvalues of the quadratic Casimir of the dS Lie
 algebra 𝔰𝔭(2, 2) associated with the dS massless UIRs, with helicity 𝜆 = ±𝑠 =
 0, ± 12 , ±1, ± 23 , . . . , are:
-
-
+⟨
+
+⟩
+(
+)
+(
+)
 C2𝔰𝔭(2,2) 𝑝=𝑠=𝑞 = −2 𝑠2 − 1 = −2 𝜆2 − 1 .
 
 (1.20)
@@ -1217,7 +1235,8 @@ multiplications retain internal coherence. By exploiting left multiplication by 
 a real-matrix representation of 𝔠𝔩(4, 2) that is both geometrically transparent and
 ideally suited to the Majorana formalism. This construction provides a unified algebraic framework for the internal symmetries of the conformal Lie algebra 𝔲(2, 2)
 and naturally realizes the embedding chain:
-
+(
+)
 𝔲(2, 2)  𝔰𝔲(2, 2)  𝔰𝔬(4, 2) ⊕ 𝔲(1) ⊂ 𝔠𝔩(4, 2) ,
 where the 𝔠𝔩(4, 2) pseudoscalar (volume form) generates the 𝔲(1) center of 𝔲(2, 2).
 Building on this foundation, the chapter investigates the complex structure inherent in 𝔠𝔩(4, 2) and its action on spinor space, using the simpler 𝔠𝔩(2) case as an
@@ -1272,8 +1291,8 @@ for all 𝑥 ∈ 𝔄. From the above, it is clear that 𝑁 ( 1) = 1. Subsequen
 Considering the above, one can readily verify the following identity:
 ⟨𝑥, 𝑦⟩ =
 
-
-1
+)
+1(
 𝑁 (𝑥 + 𝑦) − 𝑁 (𝑥) − 𝑁 (𝑦) ,
 2
 
@@ -1296,8 +1315,8 @@ property (2.2), it follows that:
 again, for all 𝑥, 𝑦, 𝑧 ∈ 𝔄. The identity (2.4) then immediately yields:
 ⟨𝑥, 𝑦⟩⟨𝑧, 𝑤⟩ =
 
-
-1
+)
+1(
 ⟨𝑥𝑧, 𝑦𝑤⟩ + ⟨𝑥𝑤, 𝑦𝑧⟩ ,
 2
 
@@ -1307,7 +1326,8 @@ for all 𝑥, 𝑦, 𝑧, 𝑤 ∈ 𝔄. To establish the latter identity, using
 expand the right-hand side:
 ⟨𝑥𝑧, 𝑦𝑤⟩ + ⟨𝑥𝑤, 𝑦𝑧⟩ = ⟨𝑥(𝑧 + 𝑤), 𝑦(𝑧 + 𝑤)⟩ − ⟨𝑥𝑧, 𝑦𝑧⟩ − ⟨𝑥𝑤, 𝑦𝑤⟩
 = 𝑁 (𝑧 + 𝑤)⟨𝑥, 𝑦⟩ − 𝑁 (𝑧)⟨𝑥, 𝑦⟩ − 𝑁 (𝑤)⟨𝑥, 𝑦⟩
-
+(
+)
 = ⟨𝑥, 𝑦⟩ 𝑁 (𝑧 + 𝑤) − 𝑁 (𝑧) − 𝑁 (𝑤) = 2⟨𝑥, 𝑦⟩⟨𝑧, 𝑤⟩ .
 
 (2.6)
@@ -1316,15 +1336,17 @@ On the other hand, substituting 𝑦 by 1 and 𝑧 by 𝑥 into Eq. (2.5), and a
 (2.4), we obtain:
 ⟨𝑥, 1⟩⟨𝑥, 𝑤⟩ =
 
-
-1 2
+)
+1( 2
 ⟨𝑥 , 𝑤⟩ + 𝑁 (𝑥)⟨𝑤, 1⟩ ,
 2
 
 (2.7)
 
 or equivalently:
-𝑥 2 + 𝑁 (𝑥) 1 − 2⟨𝑥, 1⟩ 𝑥 , 𝑤 = 0 .
+⟩
+⟨ 2
+𝑥 + 𝑁 (𝑥) 1 − 2⟨𝑥, 1⟩ 𝑥 , 𝑤 = 0 .
 
 (2.8)
 
@@ -1332,7 +1354,8 @@ Then, the nondegeneracy of the bilinear form ⟨·, ·⟩ ensures that every ele
 the composition algebra 𝔄 satisfies the following second-order equation:
 𝑥 2 − Tr(𝑥) 𝑥 + 𝑁 (𝑥) 1 = 0 ,
 where Tr(𝑥) denotes the trace in the composition algebra 𝔄, defined by:
-
+(
+)
 Tr(𝑥) = 2⟨𝑥, 1⟩ ∈ R .
 
 (2.9)
@@ -1399,18 +1422,23 @@ While the first three identities follow almost immediately from the relations me
 (𝑥𝑦) ∗ = Tr(𝑥𝑦) 1 − 𝑥𝑦
 
 = 4⟨𝑦, 1⟩⟨𝑥, 1⟩ 1 − 2⟨𝑦, 𝑥⟩ 1 − 𝑥𝑦
-
-
+(
+)
 = Tr(𝑦)Tr(𝑥) 1 − 𝑁 (𝑦 + 𝑥) − 𝑁 (𝑦) − 𝑁 (𝑥) 1 − 𝑥𝑦
-
+(
+)
 = Tr(𝑦)Tr(𝑥) 1 − (𝑦 + 𝑥) (𝑦 + 𝑥) ∗ − 𝑦𝑦 ∗ − 𝑥𝑥 ∗ 1 − 𝑥𝑦
-
-= Tr(𝑦)Tr(𝑥) 1 − 𝑥 𝑦 ∗ + 𝑦 − 𝑦𝑥 ∗
-
-
+( ∗
+)
+= Tr(𝑦)Tr(𝑥) 1 − 𝑥 𝑦 + 𝑦 − 𝑦𝑥 ∗
+(
+)
+(
+)
 = Tr(𝑦)Tr(𝑥) 1 − 𝑥 Tr(𝑦) 1 − 𝑦 Tr(𝑥) 1 − 𝑥
-
-
+(
+)(
+)
 = Tr(𝑦) 1 − 𝑦 Tr(𝑥) 1 − 𝑥 = 𝑦 ∗ 𝑥 ∗ .
 
 (2.19)
@@ -1441,6 +1469,8 @@ their real components 𝑧 0 , 𝑧1 ∈ R. The real and imaginary units are den
 forms a (commutative and associative) composition algebra over the real numbers
 when equipped with:
 1. Real bilinear form:
+⟨
+⟩
 ⟨𝑧, 𝑤⟩ = 𝑧0 + i𝑧 1 , 𝑤0 + i𝑤1 = 𝑧0 𝑤0 + 𝑧 1 𝑤1 ,
 
 (2.20)
@@ -1451,10 +1481,12 @@ quadratic norm 𝑁 (𝑧) = (𝑧 0 ) 2 + (𝑧 1 ) 2 . Moreover, considering E
 𝑧 = 𝑧0 + i𝑧 1 = 𝑧0 − i𝑧 1 ,
 where the ‘ ’ symbol denotes the complex conjugate.
 2. Multiplication operation:
-
-
-
-
+(
+)(
+) (
+)
+(
+)
 𝑧𝑤 = 𝑧0 + i𝑧 1 𝑤0 + i𝑤1 = 𝑧0 𝑤0 − 𝑧 1 𝑤1 + i 𝑧 0 𝑤1 + 𝑧 1 𝑤0 ,
 
 (2.21)
@@ -1470,15 +1502,14 @@ composition property:
 (2.23)
 
 To explicitly verify this, observe that:
-2
-
-2
-+ 𝑧 0 𝑤1 + 𝑧 1 𝑤0
-
-
+(
+)2 (
+)2
+𝑁 (𝑧𝑤) = 𝑧0 𝑤0 − 𝑧 1 𝑤1 + 𝑧 0 𝑤1 + 𝑧 1 𝑤0
+(
+)(
+)
 = (𝑧0 ) 2 + (𝑧 1 ) 2 (𝑤0 ) 2 + (𝑤1 ) 2 = 𝑁 (𝑧)𝑁 (𝑤) .
-
-𝑁 (𝑧𝑤) = 𝑧0 𝑤0 − 𝑧 1 𝑤1
 
 (2.24)
 
@@ -1493,9 +1524,9 @@ quaternions are defined as numbers of the form:
 
 24 Majorana Representation of the Conformal Clifford Algebra 𝔠𝔩 (4, 2) and its Chiral Counterpart
 
-n
+{
 H = 𝑞 = 1𝑞 0 + 𝚤𝑞 1 + 𝚥𝑞 2 + 𝒌𝑞 3
-o
+}
 =: 𝑞 0 + 𝚤𝑞 1 + 𝚥𝑞 2 + 𝒌𝑞 3 ; 𝑞 0 , 𝑞 1 , 𝑞 2 , 𝑞 3 ∈ R ,
 
 (2.25)
@@ -1520,21 +1551,21 @@ rules:
 (2.28)
 
 Then, the multiplication of two quaternions 𝑞 and 𝑝 reads as:
-
-
-
+(
+)(
+)
 𝑞 𝑝 = 1𝑞 0 + 𝚤𝑞 1 + 𝚥𝑞 2 + 𝒌𝑞 3 1 𝑝 0 + 𝚤 𝑝 1 + 𝚥 𝑝 2 + 𝒌 𝑝 3
-
-
+(
+)
 = 1 𝑞0 𝑝0 − 𝑞1 𝑝1 − 𝑞2 𝑝2 − 𝑞3 𝑝3
-
-
+(
+)
 + 𝚤 𝑞0 𝑝1 + 𝑞1 𝑝0 + 𝑞2 𝑝3 − 𝑞3 𝑝2
-
-
+(
+)
 + 𝚥 𝑞0 𝑝2 + 𝑞2 𝑝0 + 𝑞3 𝑝1 − 𝑞1 𝑝3
-
-
+(
+)
 + 𝒌 𝑞0 𝑝3 + 𝑞3 𝑝0 + 𝑞1 𝑝2 − 𝑞2 𝑝1 ,
 
 (2.29)
@@ -1548,28 +1579,13 @@ Under the conjugation, the imaginary units of the quaternion behave as:
 
 ( 𝒌) ∗ = −𝒌 ,
 
-( 1) ∗ = 1 =: 1 . (2.30)
-
 and, of course,
 
+( 1) ∗ = 1 =: 1 . (2.30)
+
 Then, the squared norm of a quaternion 𝑞 is given by:
-𝑁 (𝑞) = 𝑞 ∗ 𝑞 = 𝑞𝑞 ∗ = 𝑞 0
-
-2
-
-+ 𝑞1
-
-2
-
-+ 𝑞2
-
-2
-
-+ 𝑞3
-
-2
-
-,
+( )2 ( )2 ( )2 ( )2
+𝑁 (𝑞) = 𝑞 ∗ 𝑞 = 𝑞𝑞 ∗ = 𝑞 0 + 𝑞 1 + 𝑞 2 + 𝑞 3 ,
 
 (2.31)
 
@@ -1598,7 +1614,7 @@ imaginary unit ℓ. The defining property of this unit distinguishes the octonio
 from their split counterpart OS :
 
 
-n
+{
  −1 =: −1
 
 O (S) = 𝑜 = 𝑞 + ℓ 𝑝 ; 𝑞, 𝑝 ∈ H , and (ℓ) 2 =
@@ -1606,7 +1622,7 @@ O (S) = 𝑜 = 𝑞 + ℓ 𝑝 ; 𝑞, 𝑝 ∈ H , and (ℓ) 2 =
  +1 =: +1
 
 
-for 𝑜 ∈ O o
+for 𝑜 ∈ O }
 ,
 
 (2.33)
@@ -1619,19 +1635,24 @@ imprecisely) referred to as an imaginary unit, by abuse of notation.
 The (split)-octonion algebras are endowed with the following operations for all
 𝑞 1 , 𝑝 1 , 𝑞 2 , 𝑝 2 ∈ H:
 1. Addition:
-
-
-
-
+(
+
+) (
+) (
+)
+(
+)
 𝑞1 + ℓ 𝑝1 + 𝑞2 + ℓ 𝑝2 = 𝑞1 + 𝑞2 + ℓ 𝑝1 + 𝑝2 .
 
 (2.34)
 
 2. Multiplication: Obeying the norm composition property (2.2), the product of
 two octonions reads as:1
-
-
-
+(
+)(
+)
+(
+)
 𝑞 1 + ℓ 𝑝 1 𝑞 2 + ℓ 𝑝 2 = 𝑞 1 𝑞 2 + (ℓ) 2 𝑝 2 𝑝 ∗1 + ℓ 𝑞 ∗1 𝑝 2 + 𝑞 2 𝑝 1 .
 (2.35)
 3. Conjugation:
@@ -1693,10 +1714,13 @@ are preserved when elements are repeated. In particular:
 
 for all 𝒏, 𝑜 ∈ O (S) . Furthermore, the (split) octonions adhere to the key left, right,
 and central Ruth Moufang identities [82], which are given respectively as:
-
+(
+)
 𝑜 𝒎 (𝑜 𝒏) = (𝑜 𝒎 𝑜)𝒏 ,
 (2.43)
-
+(
+
+)
 (𝒎 𝑜) 𝒏 𝑜 = 𝒎(𝑜 𝒏 𝑜) ,
 
 (2.44)
@@ -1709,7 +1733,8 @@ for all 𝒎, 𝒏, 𝑜 ∈ O (S) .
 By invoking the quaternion imaginary units 𝚤, 𝚥, and 𝒌, let us revisit the (split)
 octonion definition (2.33). The structure naturally extends to include seven distinct
 imaginary units, which we can explicitly enumerate as:
-
+(
+)
 𝚤, 𝚥, 𝒌, ℓ, ℓ𝚤, 𝚥ℓ = −ℓ 𝚥 , ℓ𝒌 .
 (2.46)
 
@@ -1899,7 +1924,8 @@ of the product of the three basic elements 𝚤, 𝚥, and ℓ.
 Remark 2.2 Analogous to the identities given in Eq. (2.41)-(2.45), any pairs of
 different imaginary split-octonion units generate an 8-dimensional associative group:
 1. The pair (𝚤, 𝚥) generates the quaternion subalgebra:
-
+{
+}
 ± 𝚤, ± 𝚥, ±𝒌, ±1 ,
 
 (2.48)
@@ -1915,23 +1941,27 @@ which is associative by construction. For example:
 
 28 Majorana Representation of the Conformal Clifford Algebra 𝔠𝔩 (4, 2) and its Chiral Counterpart
 
-
+{
 
+}
 ± 𝚤, ± 𝚥ℓ, ±ℓ𝒌, ±1 ,
 
 (2.50)
 
 which is again associative. For instance:
-
-
+(
+) (
+)
 𝚤 ( 𝚥ℓ) (ℓ𝒌) = 𝚤( 𝚥ℓ) (ℓ𝒌) .
 
 (2.51)
 
 Note: Three imaginary units are said to be independent if they do not belong to an
 associative subalgebra of the Moufang loop of OS units. For example, the aforementioned three basic elements 𝚤, 𝚥, and ℓ are independent as:
-
-
+(
+)
+(
+)
 (𝚤) ( 𝚥) ℓ ≠ 𝚤 ( 𝚥) (ℓ) .
 (2.52)
 □
@@ -1939,19 +1969,23 @@ Remark 2.3 As an extension of Moufang’s theorem (see Ref. [98]), the loop gene
 “modified” associative finite subalgebra. The corresponding “modified” associative
 law differs from the standard one by an overall sign, which encodes the nonassociative (in the usual sense) character of the three independent units. For instance, the
 nonequality in Eq. (2.52) explicitly reads:
-
-
+(
+)
+(
+)
 (𝚤) ( 𝚥) ℓ = −𝚤 ( 𝚥) (ℓ) .
 (2.53)
 Thus, for any triple of independent (and therefore nonassociative) imaginary splitoctonion units, Moufang’s theorem guarantees that seemingly nonintuitive identities
 can be derived systematically via the “modified” associative law. As a further illustrative case, let us examine the independent generators ℓ, 𝒌, and 𝚤:
-
-
+(
+)
+(
+)
 (ℓ) ( 𝒌) 𝚤 = −ℓ ( 𝒌) (𝚤) = −ℓ 𝚥 = 𝚥ℓ ,
 (2.54)
-|
-{z
-}
+⏟
+⏞⏞
+⏟
 by “modified” associative law
 
 which is fully consistent with the multiplication table in (2.47).
@@ -2026,11 +2060,12 @@ Remark 2.3, we get:
 alternativity. Indeed, any pair of split-octonion units generates an associative subalgebra — a direct consequence of Remark 2.2. Therefore:
 𝒎(𝒎 𝑜) = (𝒎 𝒎) 𝑜 = 𝒎 2 𝑜 .
 This identity generalizes straightforwardly to repeated multiplications:
-
-
-
+(
+)
+(
+)
 𝒎 . . . 𝒎(𝒎 𝑜) . . . = 𝒎 𝑟 𝑜 .
-| {z }
+⏟ ⏞⏞ ⏟
 
 (2.58)
 
@@ -2066,16 +2101,16 @@ representing a Dirac-Majorana spinor. Readers should always interpret each symbo
 according to its position in (2.60). More specifically:
 1. On the right-hand side of (2.60), the symbols 𝐴 and 𝑥 are to be interpreted
 strictly as elements of the split-octonion algebra:
-n
-o
-
+{
+{
+}}
 𝑥 ∈ OS = Span 𝐴 ; 𝐴 = 1, 𝒌, 𝜈, with 𝜈 ∈ 𝚤, 𝚥, ℓ𝚤, 𝚥ℓ, ℓ𝒌, ℓ . (2.61)
 2. On the left-hand side of (2.60), by contrast, 𝐴 solely plays the role of an index
 labelling the associated 8 × 8 matrix operator 𝐿 𝐴; no octonionic interpretation is attached to 𝐴 in this position. Correspondingly, 𝑥 is interpreted as an
 8-component Dirac-Majorana spinor, obtained by identifying OS  R8 with respect to the basis above. Each 𝐿 𝐴 acts linearly on this spinor space. Accordingly,
 the operators 𝐿 𝐴 can be enumerated as:
-n
-o
+{
+}
 𝐿 𝐴 = 𝐿 1 , 𝐿 𝒌 , 𝐿 𝜈 , with 𝜈 ∈ 0 := 𝚤, 5 := 𝚥, 1 := ℓ𝚤, 2 := 𝚥ℓ, 3 := ℓ𝒌, 4 := ℓ .
 (2.62)
 Remark 2.4 We emphasize that the map 𝐴 ↦−→ 𝐿 𝐴 is not an algebra homomorphism. While the product 𝐴 ⋄ 𝐵 := 𝐴𝐵, with 𝐴, 𝐵 = 1, 𝒌, 𝜈 ∈ {𝚤, 𝚥, ℓ𝚤, 𝚥ℓ, ℓ𝒌 , ℓ},
@@ -2088,8 +2123,10 @@ nonassociativity of the split-octonions, expressions of the form:
 = 𝐿 𝐴 (𝐿 𝐵 𝐿 𝐶 ) 𝑥
 ..
 .
-
-
+(
+)
+(
+)
 = 𝐿 𝐴 𝐿 𝐵 (𝐿 𝐶 𝑥) = 𝐴 𝐵(𝐶 𝑥)
 
 (2.63)
@@ -2111,11 +2148,12 @@ following anticommutation relations:
 2.2 Conformal Clifford Algebra 𝔠𝔩 (4, 2) Generated by Left Multiplication of Imaginary Split-Octonion Units
 31
 
-
+{
 
+}
 𝑚𝜇, 𝑚𝜈 𝑥 = 𝑚𝜇𝑚𝜈 𝑥 + 𝑚𝜈 𝑚𝜇 𝑥
 = 𝜇(𝜈 𝑥) + 𝜈(𝜇 𝑥)
-(
+{
 𝜇(𝜈 𝑥) − 𝜇(𝜈 𝑥) = 0
 =
 2𝜇2 𝑥
@@ -2141,52 +2179,58 @@ can be expressed as a direct sum of either (only) 2 × 2 symmetric matrices 𝑆
 1. The four generators 𝑚 𝑖 , with 𝑖 = ℓ𝚤, 𝚥ℓ, ℓ𝒌 , ℓ (or more conveniently, as indices,
 𝑖 = 1, 2, 3, 4), each satisfying (according to Proposition 2.1, Remark 2.4, and
 Table (2.47)):
-
+(
+)
 (𝑚 𝑖 ) 2 𝑥 = (𝑚 𝑖 𝑚 𝑖 ) 𝑥 = 𝑖 𝑖(𝑥) = (𝑖) 2 𝑥 = +1 𝑥 ,
 (2.65)
 can be expressed in terms of the 2 × 2 symmetric matrices 𝑆 𝐴𝐵 as follows:
-Ê
-
-
+⨁(
+)
+(
+)
 𝑚 1 𝑥 := 𝑚 ℓ𝚤 𝑥 = ℓ𝚤 𝑥 =
 𝑆1 (ℓ𝚤) − 𝑆𝚤 ℓ − 𝑆 𝚥 (ℓ𝒌 ) − 𝑆𝒌 ( 𝚥ℓ) 𝑥 ,
-Ê
+⨁
 (𝑆11 − 𝑆04 − 𝑆53 − 𝑆𝒌2 ) 𝑥 ,
 (2.66)
 =
-Ê
-
-
+⨁(
+)
+(
+)
 𝑚 2 𝑥 := 𝑚 𝚥ℓ 𝑥 = 𝚥ℓ 𝑥 =
 𝑆1 ( 𝚥ℓ) + 𝑆 𝚥 ℓ − 𝑆𝚤 (ℓ𝒌 ) + 𝑆𝒌 (ℓ𝚤) 𝑥 ,
-Ê
+⨁
 (𝑆12 + 𝑆54 − 𝑆03 + 𝑆𝒌1 ) 𝑥 ,
 (2.67)
 =
-Ê
-
-
+⨁(
+)
+(
+)
 𝑚 3 𝑥 := 𝑚 ℓ𝒌 𝑥 = ℓ𝒌 𝑥 =
 𝑆1 (ℓ𝒌 ) − 𝑆𝒌 ℓ + 𝑆 𝚥 (ℓ𝚤) + 𝑆𝚤 ( 𝚥ℓ) 𝑥 ,
-Ê
+⨁
 (𝑆13 − 𝑆𝒌4 + 𝑆51 + 𝑆02 ) 𝑥 ,
 (2.68)
 =
-Ê
-
-
+⨁(
+(
+)
+)
 𝑚 4 𝑥 := 𝑚 ℓ 𝑥 = ℓ 𝑥 =
 𝑆1ℓ + 𝑆𝚤 (ℓ𝚤) − 𝑆 𝚥 ( 𝚥ℓ) + 𝑆𝒌 (ℓ𝒌 ) 𝑥 ,
-Ê
+⨁
 (𝑆14 + 𝑆01 − 𝑆52 + 𝑆𝒌3 ) 𝑥 ,
 (2.69)
 =
 where 𝑥 ∈ Span{ 𝐴} (see Eqs. (2.60)-(2.62)), for the convention
 Sect. 1.2.5.2, and:
-
+(
+)
 𝑆 𝐴𝐵 𝑥 = 𝑆 𝐵𝐴 𝑥 := 𝐴 𝛿 𝐵𝑥 + 𝐵 𝛿 𝐴𝑥 ,
 
-É
+⨁
 
 (. . . ), see
 (2.70)
@@ -2203,30 +2247,33 @@ easily verified by substituting 𝑥 with any of the split-octonion units (and i
 with all of them) and consulting the multiplication table (2.47).
 2. The two remaining generators 𝑚 0 and 𝑚 5 , each satisfying (𝑚 0 ) 2 = (𝑚 5 ) 2 = −1,
 can be written in terms of 2 × 2 antisymmetric matrices 𝐸 𝐴𝐵 as follows:
-Ê
-
-
+⨁(
+(
+)
+)
 𝑚 0 𝑥 := 𝑚𝚤 𝑥 = 𝚤 𝑥 =
 𝐸𝚤1 + 𝐸 𝒌 𝚥 + 𝐸 ℓ (ℓ𝚤) + 𝐸 (ℓ𝒌 ) ( 𝚥ℓ) 𝑥
-Ê
+⨁
 (𝐸 01 + 𝐸 𝒌5 + 𝐸 41 + 𝐸 32 ) 𝑥 ,
 =
 (2.71)
-Ê
-
-
+⨁(
+(
+)
+)
 𝑚 5 𝑥 := 𝑚 𝚥 𝑥 = 𝚥 𝑥 =
 𝐸 𝚥1 + 𝐸𝚤𝒌 − 𝐸 (ℓ𝚤) (ℓ𝒌 ) + 𝐸 ( 𝚥ℓ)ℓ 𝑥
-Ê
+⨁
 (𝐸 51 + 𝐸 0𝒌 − 𝐸 13 + 𝐸 24 ) 𝑥 ,
 =
 (2.72)
 where, again, 𝑥 ∈ Span{ 𝐴} (see Eqs. (2.60)-(2.62)), for the convention
 see Sect. 1.2.5.2, and:
-
+(
+)
 𝐸 𝐴𝐵 𝑥 = −𝐸 𝐵𝐴 𝑥 := 𝐴 𝛿 𝐵𝑥 − 𝐵 𝛿 𝐴𝑥 ,
 
-É
+⨁
 
 (. . . ),
 
@@ -2279,14 +2326,15 @@ We also notice that the following relations hold:
 (2.80)
 □
 
-Remark 2.6 From the above
-discussion, it is straightforward to verify that the map
+Remark 2.6 From
+discussion, it is straightforward to verify that the map( the above
+)
 ping 𝜈 ↦−→ 𝐿 𝜈 =: 𝑚 𝜈 does not respect the Cayley conjugation (2.12). While according to (2.12), 𝜈 ∗ = −𝜈 for all 𝜈 = 𝚤, 𝚥, ℓ𝚤, 𝚥ℓ, ℓ𝒌 , ℓ (as indices 𝜈 = 0, 5, 1, 2, 3, 4;
 see Eqs. (2.60)-(2.62)), only matrices 𝑚 0 and 𝑚 5 are anti-Hermitian; specifically, we
 have:
-
-
-⊤
+)
+( ( )
+⊤
 (2.81)
 𝑚 0∗ = 𝑚 0 = 𝑚 0⊤ = −𝑚 0 , 𝑚 5∗ = −𝑚 5 , while 𝑚 𝑖∗ = 𝑚 𝑖 ,
 for all 𝑖 = 1, 2, 3, 4. Equivalently, in a more concise form:
@@ -2296,13 +2344,14 @@ for all 𝑖 = 1, 2, 3, 4. Equivalently, in a more concise form:
 □
 
 Let us introduce the following skewsymmetric product:
-
-
-1
+]
+(
+)
+1[
 𝑚 𝜇𝜈 𝑥 = −𝑚 𝜈 𝜇 𝑥 := 𝑚 𝜇 , 𝑚 𝜈 𝑥
 2
-
-1
+)
+1(
 = 𝜇(𝜈 𝑥) − 𝜈(𝜇 𝑥)
 2
 = 𝜇(𝜈 𝑥) (from Proposition 2.1)
@@ -2314,10 +2363,11 @@ where 𝑥 ∈ Span{ 𝐴} and 𝜇, 𝜈 = 𝚤, 𝚥, ℓ𝚤, 𝚥ℓ, ℓ�
 0, 5, 1, 2, 3, 4 (see Eqs. (2.60)-(2.62)), such that 𝜇 ≠ 𝜈 since 𝑚 𝜇𝜇 = 0. These 15
 operators 𝑚 𝜇𝜈 span the 8-dimensional realization of the isometry Lie algebra associated with the Clifford algebra 𝔠𝔩(4, 2), namely, 𝔰𝔲(2, 2)  𝔰𝔬(4, 2).2 Specifically,
 the generators 𝑚 𝜇𝜈 satisfy the following commutation relations:
-
+[
 
-
-
+]
+(
+)
 𝑚 𝜇𝜈 , 𝑚 𝜆𝜎 𝑥 = 2 𝜂 𝜈𝜆 𝑚 𝜇 𝜎 − 𝜂 𝜇𝜆 𝑚 𝜈 𝜎 − 𝜂 𝜈 𝜎 𝑚 𝜇𝜆 + 𝜂 𝜇 𝜎 𝑚 𝜈𝜆 𝑥 ,
 
 (2.84)
@@ -2334,19 +2384,19 @@ representation of the Lie algebra 𝔰𝔲(2, 2)  𝔰𝔬(4, 2) within the Cli
 
 The above commutation relation can be readily verified by extending Proposition 2.1
 and referring to the multiplication table (2.47):
-
-
+[
+]
 𝑚 𝜇𝜈 , 𝑚 𝜆𝜎 𝑥 = 𝑚 𝜇𝜈 𝑚 𝜆𝜎 𝑥 − 𝑚 𝜆𝜎 𝑚 𝜇𝜈 𝑥
 = 𝑚 𝜇 𝑚 𝜈 𝑚𝜆 𝑚 𝜎 𝑥 − 𝑚𝜆 𝑚 𝜎 𝑚 𝜇 𝑚 𝜈 𝑥
-
-
-
-
+( (
+( (
+))
+))
 = 𝜇 𝜈 𝜆(𝜎 𝑥) − 𝜆 𝜎 𝜇(𝜈 𝑥)
-
-
-
-
+( (
+( (
+))
+))
 
 
 𝜇
@@ -2365,9 +2415,12 @@ for 𝜇 ≠ 𝜈 ≠ 𝜆 ≠ 𝜎
 
 
 
-
-
-
+(
+)
+(
+)
+(
+)
 
 
 𝜈 2 𝜇(𝜎 𝑥) + 𝜈 2 𝜇(𝜎 𝑥) = 2𝜈 2 𝜇(𝜎 𝑥)
@@ -2377,17 +2430,23 @@ for 𝜇 ≠ 𝜈 = 𝜆 ≠ 𝜎
 
 
 
-
-
-
+(
+)
+(
+)
+(
+)
 = −𝜇2 𝜈(𝜎 𝑥) − 𝜇2 𝜈(𝜎 𝑥) = −2𝜇2 𝜈(𝜎 𝑥)
 for 𝜈 ≠ 𝜇 = 𝜆 ≠ 𝜎
 
 
 
-
-
-
+(
+)
+(
+)
+(
+)
 
 
 
@@ -2398,20 +2457,29 @@ for 𝜇 ≠ 𝜈 = 𝜎 ≠ 𝜆
 
 
 
- 𝜇2 𝜈(𝜆 𝑥)  + 𝜇2 𝜈(𝜆 𝑥)  = 2𝜇2 𝜈(𝜆 𝑥) 
+ 𝜇2 ( 𝜈(𝜆 𝑥) ) + 𝜇2 ( 𝜈(𝜆 𝑥) ) = 2𝜇2 ( 𝜈(𝜆 𝑥) )
 for 𝜈 ≠ 𝜇 = 𝜎 ≠ 𝜆
 
-
-
-
-
+(
+)
+(
+)
+(
+)
+(
+)
 = 2𝜂 𝜈𝜆 𝜇(𝜎 𝑥) − 2𝜂 𝜇𝜆 𝜈(𝜎 𝑥) − 2𝜂 𝜈 𝜎 𝜇(𝜆 𝑥) + 2𝜂 𝜇 𝜎 𝜈(𝜆 𝑥)
-
-
-
-
+(
+)
+(
+)
+(
+)
+(
+)
 = 2𝜂 𝜈𝜆 𝑚 𝜇 𝑚 𝜎 𝑥 − 2𝜂 𝜇𝜆 𝑚 𝜈 𝑚 𝜎 𝑥 − 2𝜂 𝜈 𝜎 𝑚 𝜇 𝑚 𝜆 𝑥 + 2𝜂 𝜇 𝜎 𝑚 𝜈 𝑚 𝜆 𝑥
-
+)
+(
 = 2 𝜂 𝜈𝜆 𝑚 𝜇 𝜎 − 𝜂 𝜇𝜆 𝑚 𝜈 𝜎 − 𝜂 𝜈 𝜎 𝑚 𝜇𝜆 + 𝜂 𝜇 𝜎 𝑚 𝜈𝜆 𝑥 .
 (2.85)
 Remark 2.7 The generators 𝑚 𝜇𝜈 are orthogonal, under the trace product, to all 𝐿 𝐴:
@@ -2435,9 +2503,11 @@ Remark 2.8 The matrices 𝑚 𝑖 , with 𝑖 = ℓ𝚤, 𝚥ℓ, ℓ𝒌 , ℓ 
 algebra are given by:
 𝑚𝑖 𝑗
 
-
-
-1
+(
+
+]
+)
+1[
 = −𝑚 𝑗𝑖 := 𝑚 𝑖 , 𝑚 𝑗 = 𝑚 𝑖 𝑚 𝑗 ,
 2
 
@@ -2445,9 +2515,10 @@ algebra are given by:
 
 where 𝑖, 𝑗 = 1, 2, 3, 4, while 𝑖 ≠ 𝑗 (since 𝑚 𝑖𝑖 = 0). They satisfy the following
 commutation relations:
-
-
-
+[
+]
+(
+)
 𝑚 𝑖 𝑗 , 𝑚 𝑙𝑘 = 2 𝜂 𝑗𝑙 𝑚 𝑖𝑘 − 𝜂𝑖𝑙 𝑚 𝑗 𝑘 − 𝜂 𝑗 𝑘 𝑚 𝑖𝑙 + 𝜂𝑖𝑘 𝑚 𝑗𝑙 ,
 (2.90)
 
@@ -2459,12 +2530,15 @@ commutation relations:
 where the metric 𝜂𝑖 𝑗 has signature (+, +, +, +), corresponding to the 4-dimensional
 Euclidean space R4 . Additionally, employing Proposition 2.1, Remark 2.4, and the
 multiplication table (2.47), it is straightforward to verify that:
-
- 
-2
-2
-
-
+)
+( (
+( )2
+(
+)2
+(
+)
+(
+))
 𝑚 𝑖 𝑗 𝑥 = 𝑚 𝑖 𝑚 𝑗 𝑥 = 𝑚 𝑖 𝑚 𝑗 𝑚 𝑖 𝑚 𝑗 𝑥 = 𝑖 𝑗 𝑖 ( 𝑗 𝑥)
 = −𝜂𝑖𝑖 𝜂 𝑗 𝑗 𝑥 = −1 𝑥 ,
 (2.91)
@@ -2474,18 +2548,19 @@ where again 𝑖, 𝑗 = 1, 2, 3, 4, while 𝑖 ≠ 𝑗.
 
 Remark 2.9 It is remarkable that, while the product of any three independent imaginary OS units is generally nonassociative, the product of all six 𝜈 = 𝚤, 𝚥, ℓ𝚤, 𝚥ℓ, ℓ𝒌 , ℓ
 is associative; that is:
-!
- 
-
-
-
-
+( (
+))
+( (
+( ) ((
+)(
+))
+))
 = 𝚤 𝚥 (ℓ𝚤) ( 𝚥ℓ) (ℓ𝒌)ℓ = . . . = −𝒌 .
 (2.92)
 𝚤 𝚥 ℓ𝚤 𝚥ℓ ℓ𝒌 (ℓ)
 It defines the real 𝔠𝔩(4, 2) pseudoscalar (or volume form) 𝑀 (4, 2):
-
-
+(
+)
 𝐿 𝚤 𝐿 𝚥 𝐿 ℓ𝚤 𝐿 𝚥ℓ 𝐿 ℓ𝒌 𝐿 ℓ =: 𝑚 0 𝑚 5 𝑚 1 𝑚 2 𝑚 3 𝑚 4 = 𝐿 −𝒌 =: 𝑀 (4, 2) = 𝐸 .
 
 (2.93)
@@ -2496,7 +2571,8 @@ is associative — was first made in Cohl Furey’s dissertation [99].
 2. The sign in Eq. (2.92) (or (2.93)) defines an orientation in R4,2 . This orientation
 is reversed by any odd permutation of the elements and preserved by any even
 permutation.
-
+(
+)
 3. Since 𝐸 2 = 𝑀 2 (4, 2) = −1, the 𝔠𝔩(4, 2) pseudoscalar defines a complex structure on the 8-dimensional spinor space, a topic we will explore in more detail
 later.
 4. There are three pairs of OS units whose product equals −𝒌, specifically (ℓ𝚤) ( 𝚥ℓ) =
@@ -2516,43 +2592,50 @@ We observe that the 𝔠𝔩(4, 2) pseudoscalar (volume form) 𝐸 = 𝑀 (4, 2)
 36 Majorana Representation of the Conformal Clifford Algebra 𝔠𝔩 (4, 2) and its Chiral Counterpart
 2
 
-
+(
+)
 𝔲(2, 2)  𝔰𝔲(2, 2)  𝔰𝔬(4, 2) ⊕ 𝔲(1) ⊂ 𝔠𝔩(4, 2) ,
 (2.94)
-
+(
+)
 meaning that it commutes with every generator 𝑚 𝜇𝜈 = −𝑚 𝜈 𝜇 of 𝔰𝔲(2, 2) 
 𝔰𝔬(4, 2):
-
-
-
+[
+]
+(
+)
 𝑚 𝜇𝜈 = 𝑚 𝜇 𝑚 𝜈 , 𝐸 = 0 ,
 (2.95)
 for all 𝜇, 𝜈 = 0, 5, 1, 2, 3, 4 (see Eqs. (2.60)-(2.62)); to verify this commutation
 relation, using Proposition 2.1, it suffices to follow a procedure analogous to that
-described in Eq. (2.85). Thus, any representation space
- 𝔖 of 𝔰𝔲(2, 2)  𝔰𝔬(4, 2),
+described in Eq. (2.85). Thus, any representation
+space
+(
+) 𝔖 of 𝔰𝔲(2, 2)  𝔰𝔬(4, 2),
 spanned by the fifteen 8 × 8 matrices 𝑚 𝜇𝜈 = −𝑚 𝜈 𝜇 , necessarily decomposes into
 eigenspaces of 𝐸.
 As an anti-Hermitian — and in particular real skewsymmetric — matrix, the
 𝔠𝔩(4, 2) volume form 𝐸 = 𝑀 (4, 2) reads as:
- 
-!
-  
-!
-
-
+( (
+( (
+))
+))
+( (
+( (
+))
+))
 𝐸 𝑥 = 𝑚 0 𝑚 5 𝑚 1 𝑚 2 𝑚 3 (𝑚 4 𝑥)
 = 𝚤 𝚥 ℓ𝚤 𝚥ℓ ℓ𝒌 (ℓ 𝑥)
 =
 
-Ê
+⨁
 
 (𝐸 1𝒌 + 𝐸 05 + 𝐸 12 + 𝐸 34 ) 𝑥 , (2.96)
 
 where 𝑥 ∈ Span{ 𝐴} (see Eqs. (2.60)-(2.62)). For the convention
 1.2.5.2.
 
-É
+⨁
 
 (. . . ), see Sect.
 
@@ -2563,32 +2646,39 @@ table (2.47), one may employ a more refined approach by invoking the associativi
 property established in Remark (2.9); this second approch will be of particular utility
 in subsequent arguments. Specifically, by means of the associativity property (2.92),
 Eq. (2.96) can be recast in the following form:
- 
-!
-  
-!
-
-
+( (
+( (
+))
+))
+( (
+( (
+))
+))
 𝐸 𝑥 = 𝑚 0 𝑚 5 𝑚 1 𝑚 2 𝑚 3 (𝑚 4 𝑥)
 = 𝚤 𝚥 ℓ𝚤 𝚥ℓ ℓ𝒌 (ℓ 𝑥)
-"
+[ ( (
 
-  
-!#
-
+(
+
+(
+
 = 𝚤 𝚥 ℓ𝚤 𝚥ℓ ℓ𝒌 (ℓ)
+
+))
+
+))]
 𝑥
 
 (as discussed below!)
 
 = −𝒌𝑥
-Ê
+⨁
 (𝐸 1𝒌 + 𝐸 05 + 𝐸 12 + 𝐸 34 ) 𝑥 , (2.97)
 =
 again, for 𝑥 ∈ Span{ 𝐴} (see Eqs. (2.60)-(2.62)). The passage to the second line
-is immediate when choosing 𝑥 = 1. To further
+is immediate when choosing 𝑥 = 1( . To further
 illustrate its validity, let us instead
-
+)
 consider the nontrivial case 𝑥 = 𝒌 = 𝚤 𝚥 . Then, we obtain:
 
 ## PDF page 51
@@ -2596,43 +2686,53 @@ consider the nontrivial case 𝑥 = 𝒌 = 𝚤 𝚥 . Then, we obtain:
 2.3 Diagonalizing the Complex Structure of 𝔠𝔩 (4, 2) in Spinor Space: Insight from the 𝔠𝔩 (2) Case
 37
 
-
+(
 
-
+(
+
+(
+
+(
 
 𝐸 (𝚤 𝚥) = 𝑚 0 𝑚 5 𝑚 1 𝑚 2 𝑚 3 (𝑚 4 (𝚤 𝚥))
-|{z}
+⏟⏞⏞⏟
 
-
+))
 
-!
+))
 
-" 
-# !
-
-
+[ (
+)] )
+( (
+))
 = 𝚤 𝚥 ℓ𝚤 𝚥ℓ ℓ𝒌 ℓ (𝚤 𝚥)
+(
 
 =𝑥
 
-"
+(
 by Remarks 2.9 and 2.1
-by Remark 2.9
-by quaternion associativity and Remark 2.1
 
 =𝚤 𝚥
 
-# !
- 
-
+[
+
+)] )
+( (
+(
+))
 (𝚤 𝚥) ℓ𝚤 𝚥ℓ ℓ𝒌 (ℓ)
 
+by Remark 2.9
+
+(
+)
 = 𝚤 𝚥 [−𝒌]
 
-
+by quaternion associativity and Remark 2.1
 
 = − 𝒌 (𝚤 𝚥) .
-|{z}
+⏟⏞⏞⏟
 
 (2.98)
 
@@ -2655,19 +2755,26 @@ splits into two 4-dimensional chiral subspaces:
 
 (2.100)
 
-
+(
+)
 where the complex-conjugate semispinor chiral subspaces 𝔖± = 𝔖∓ consist of
 eigenvectors of 𝐸 with eigenvalues ±i, respectively; this point will be discussed
 explicitly later.
-Remark 2.11 Completing the discussion begun by Eq. (2.95), note first
+Remark 2.11 Completing the discussion begun by Eq. (2.95),
+note first
 that the
-
-pseudoscalar 𝐸 lies in the center of 𝔲(2, 2)  𝔰𝔲(2, 2)  𝔰𝔬(4,
+(
+)
+pseudoscalar 𝐸 lies in the center of 𝔲(2, 2)  𝔰𝔲(2,
+2)
+
+𝔰𝔬(4,
 2)
 ⊕
 𝔲(1).
 In
-
+(
+)
 particular, it commutes with every generator 𝑚 𝜇𝜈 = −𝑚 𝜈 𝜇 of 𝔰𝔲(2, 2). As a
 4 It is perhaps worthwhile noting that a real skewsymmetric matrix, such as 𝐸 (that is, 𝐸 ⊤ = −𝐸),
 
@@ -2711,13 +2818,13 @@ representation of 𝔲(2, 2).
 In the sequel, we will systematically present the similarity transformation that
 simultaneously diagonalizes the 𝔲(1) generator 𝐸 (2.96) along with a traceorthogonal basis5 of the Cartan elements of the maximal compact Lie subalgebra
 𝔰𝔬(2) ⊕ 𝔰𝔬(4) ⊂ 𝔰𝔬(4, 2):6
-Ê
+⨁
 (𝐸 𝒌 1 − 𝐸 05 + 𝐸 12 + 𝐸 34 ) 𝑥 ,
 𝑚 05 𝑥 = 𝑚 0 (𝑚 5 𝑥) = 𝚤( 𝚥 𝑥) =
 (2.101)
 𝑚 12 𝑥 = 𝑚 1 (𝑚 2 𝑥) = ℓ𝚤( 𝚥ℓ 𝑥) =
 
-Ê
+⨁
 
 (𝐸 1𝒌 − 𝐸 05 + 𝐸 12 − 𝐸 34 ) 𝑥 ,
 
@@ -2725,7 +2832,7 @@ simultaneously diagonalizes the 𝔲(1) generator 𝐸 (2.96) along with a trace
 
 𝑚 34 𝑥 = 𝑚 3 (𝑚 4 𝑥) = ℓ𝒌 (ℓ 𝑥) =
 
-Ê
+⨁
 
 (𝐸 1𝒌 − 𝐸 05 − 𝐸 12 + 𝐸 34 ) 𝑥 ,
 
@@ -2734,7 +2841,7 @@ simultaneously diagonalizes the 𝔲(1) generator 𝐸 (2.96) along with a trace
 where 𝑥 ∈ Span{ 𝐴} (see Eqs. (2.60)-(2.62)). Again, for the convention
 Sect. 1.2.5.2. Note that:
 
-É
+⨁
 
 (. . . ), see
 
@@ -2742,18 +2849,19 @@ Sect. 1.2.5.2. Note that:
 each) of the split-octonion units and referring to the multiplication table (2.47).
 2. The product of the three Cartan elements (2.101)-(2.103) reconstructs the Clifford pseudoscalar (2.96), which serves as the generator of the 𝔲(1) center of
 𝔲(2, 2).
-2
+(
+)2
 3. Since the matrices 𝑚 𝜇𝜈 (2.101)-(2.103) are skewsymmetric, with 𝑚 𝜇𝜈 = −1,7
 they have pure imaginary eigenvalues.
 4. These matrices can be diagonalized simultaneously with the complex structure
 𝐸 (2.96), in a complex chiral basis, since:
-
-
-
-
-
- 
-
+[
+[
+]
+[
+]
+] [
+]
 𝑚 05 , 𝑚 12 = 𝑚 12 , 𝑚 34 = · · · = 𝑚 05 , 𝐸 = · · · = 𝑚 34 , 𝐸 = 0 . (2.104)
 We shall discuss this diagonalization procedure in detail in the next section.
 
@@ -2773,38 +2881,38 @@ conveniently 𝐴, 𝐵 = 1, 𝒌, 0, 5, 1, 2, 3, 4 (see Eqs. (2.60)-(2.62)), th
 diagonalization problem of 𝐸, 𝑚 05 , 𝑚 12 , and 𝑚 34 reduces to a 2-dimensional case
 within the framework of the Clifford algebra 𝔠𝔩(2) := 𝔠𝔩(2, 0).8 The 𝔠𝔩(2) Majorana
 (or real) basis {𝑚 1 , 𝑚 2 } and the chiral one {𝜎1 , 𝜎2 } can be chosen, respectively, as:
-
+(
 𝑚 1 = 𝜎3 =
 
-
+)
 1 0
 ,
 0 −1
 
-
+(
 𝑚 2 = 𝜎1 =
 =⇒
 
 01
 10
 
-
+)
 
-
-
+(
+)
 0 1
 ,
 𝜖 = 𝑀 (2) := 𝑚 1 𝑚 2 = i𝜎2 =
 −1 0
-|
-{z
-}
+⏟
+⏞⏞
+⏟
 
 (2.105)
 
 corresponding volume form
 
-
+(
 𝜎1 ,
 
 𝜎2 = −i𝜖
@@ -2812,13 +2920,13 @@ corresponding volume form
 =⇒
 
 𝜔(2) := 𝜎1 𝜎2
-|
-{z
-}
+⏟
+⏞⏞
+⏟
 
 = i𝜎3 =
 
-
+)
 i 0
 .
 0 −i
@@ -2853,10 +2961,10 @@ it follows that:
 𝑗
 
 for all 𝑛 ∈ N. Using these properties, the matrix exponential of any Pauli matrix takes the form:
-!
-!
-∞
-∞
+(∞
+)
+(∞
+)
 ∞
 ∑︁ (−i𝜃 ) 2𝑘
 ∑︁ (−i𝜃 ) 2𝑘+1
@@ -2881,11 +2989,11 @@ which is valid for any 𝑗 = 1, 2, 3 and 𝜃 ∈ R.
 
 𝜋
 
-
-1
+)
+1(
 1 − i𝜎1 − 𝜖 − i𝜎3
-2
-
+2(
+)
 1 1 − i −1 − i
 =
 ,
@@ -2906,8 +3014,8 @@ where, in the present context, the superscript ‘∗ ’ denotes the Hermitian 
 defined as 𝑉 ∗ = 𝑉 = 𝑉 ⊤ , with the ‘ ’ symbol representing the complex conjugate,
 ⊤
 and the superscript
- +  ‘ ’ indicating the transpose.
- +
+( + ) ‘ ’ indicating the transpose.
+( +)
 𝜉
 𝜓
 Let 𝜉 = − denote the Majorana (real) spinors, and 𝜓 = − = 𝑉 𝜉 the chiral
@@ -2915,14 +3023,15 @@ Let 𝜉 = − denote the Majorana (real) spinors, and 𝜓 = − = 𝑉 𝜉 th
 𝜓
 spinors in the context of the 𝔠𝔩(2). We then observe that the right- and left-handed
 components, denoted by 𝜓 ± , of the chiral spinor satisfy:
-
-1 ± 𝜎3 
+(
+1 ± 𝜎3 )
 𝜓,
 (2.109)
 𝜓± =
 2
 and, more importantly:
-
+(
+)
 𝜔(2) 𝜓 ± = i𝜎3 𝜓 ± = ±i𝜓 ± .
 
 (2.110)
@@ -2956,8 +3065,8 @@ Eq. (2.111) : 𝜓 𝑐 = 𝐶 𝜓
 
 =⇒
 
-⊤
-
+)⊤
+(
 𝜓𝑉𝑐 = 𝐶𝑉 𝜓 𝑉 = 𝐶𝑉 𝑉 𝜓 = 𝐶𝑉 𝑉 −1 𝜓 .
 (2.113)
 
@@ -2968,15 +3077,18 @@ Eq. (2.111) : 𝜓 𝑐 = 𝐶 𝜓
 
 On the other hand, as previously mentioned, the reality condition of the Majorana
 spinor 𝜉 ensures that under any unitary transformation 𝜓 = 𝑉 𝜉, we have:
-
-
-
+)
+(
+)
+(
+)
+(
 =⇒ 𝜓𝑉𝑐 = 𝑉 𝐶 𝜓 .
 𝜓 𝑐 = 𝐶 𝜓 = 𝜓 , and similarly 𝜓𝑉𝑐 = 𝜓𝑉 = 𝑉 𝜓
 (2.114)
 Equating the two expressions for 𝜓𝑉𝑐 , we obtain:
-
-⊤
+(
+)⊤
 𝐶𝑉 𝑉 −1 𝜓 = 𝑉 𝐶 𝜓 .
 
 (2.115)
@@ -3009,8 +3121,8 @@ which is consistent with the structure of the Majorana spinor under the new basi
 Notably, for any 𝜚 ∈ C satisfying 𝜚 𝜚 = 1, the matrix 𝑈 = 𝜚𝑉 retains the same
 intertwining properties as 𝑉 in Eqs. (2.107) and (2.108). Choosing 𝜚 = 𝑒 i 𝜋/4 , we
 obtain:
-
-    +
+(
+) ( ) ( +)
 1 1 −i 𝜉 +
 𝜓
 i 𝜋4
@@ -3022,8 +3134,8 @@ i
 𝜉
 2
 with:
-
-1
+)
+1 (
 𝜓 ± = √ 𝜉 + ∓ i𝜉 − ,
 2
 
@@ -3032,7 +3144,8 @@ and 𝐶𝑈 = 𝑈𝑈 ⊤ = 𝜎1 .
 (2.120)
 
 More generally, the involutivity property (𝜓 𝑐 ) 𝑐 = 𝜓 implies that the charge conjugation matrix must satisfy 𝐶𝐶 = 1.
-
+(
+)
 Remark 2.12 The reduced U(1) representation 𝑒 i𝜑 ∈ U(1), 𝜉 ± ↦−→ 𝑒 ±i𝜑/2 𝜉 ± corresponds to a real rotation in the (𝜎1 , 𝜎2 )-plane:
 𝑒
 
@@ -3042,13 +3155,13 @@ i𝜎3 𝜑2
 
 −i𝜎3 𝜑2
 
-
+)
 0 𝑒 i𝜑
 = −i𝜑
 = cos 𝜑 𝜎1 − sin 𝜑 𝜎2 ,
 𝑒
 0
-
+(
 
 (2.121)
 
@@ -3062,9 +3175,9 @@ i𝜎3 𝜑2
 
 𝑒 i𝜎3 2 𝜎2 𝑒 −i𝜎3 2 =
 
-
+(
 
-
+)
 −i𝑒 i𝜑
 = sin 𝜑 𝜎1 + cos 𝜑 𝜎2 .
 i𝑒 −i𝜑 0
@@ -3094,7 +3207,8 @@ Cartan Basis of 𝖘𝖚(2, 2)  𝖘𝖔(4, 2)
 Outline of this section: Diagonalizing the complex structure generated by the volume
 form 𝐸 = 𝑀 (4, 2) (2.96) of 𝔠𝔩(4, 2), we split the spinor space 𝔖 ( R8 ) into two
 complex conjugate, chiral subspaces 𝔖+ and 𝔖− , each carrying a 4-dimensional
-(complex) irreducible representation (IR) of the conformal Lie algebra 𝔰𝔲(2, 2) 
+(complex)
+( irreducible) representation (IR) of the conformal Lie algebra 𝔰𝔲(2, 2) 
 𝔰𝔬(4, 2) ⊂ 𝔠𝔩(4, 2) and thus also the corresponding IR of 𝔲(2, 2); see Remark
 2.11 for this latter point, while a more systematic discussion of these representations
 will be given in the next chapter. The resulting chiral basis of 8 × 8 complex matrices
@@ -3118,16 +3232,17 @@ can be further restricted by diagonalizing a Cartan basis among the 𝔰𝔲(2, 
 𝔰𝔬(4, 2) generators:
 Γ𝜇𝜈 :=
 
-
-1
+]
+1[
 Γ𝜇 , Γ𝜈 ,
 2
 
 (2.125)
 
 where 𝜇, 𝜈 = 0, 5, 1, 2, 3, 4 (see Eq. (2.60)-(2.62)). There are two types of such bases:
-
-1. One, that belongs to the Lie algebra 𝔰𝔬(2) ⊕ 𝔰𝔬(4)  𝔲(1) ⊕ 𝔰𝔲(2) ⊕ 𝔰𝔲(2)
+(
+)
+1. One, that belongs to the Lie algebra (𝔰𝔬(2) ⊕ 𝔰𝔬(4))  𝔲(1) ⊕ 𝔰𝔲(2) ⊕ 𝔰𝔲(2)
 of the maximal compact subgroup S U(2) × U(2) of SU(2, 2).
 2. Another one that involves generators like Γ03 and Γ45 on noncompact boost
 transformations.
@@ -3144,32 +3259,36 @@ Let us begin by noting that the product of each pair of the real matrices 𝑚 0
 and 𝑚 34 gives rise to the (Hermitian) volume forms of either 𝔠𝔩(2, 2) or 𝔠𝔩(4, 0).
 These volume forms are diagonal and commute with each individual 𝐸 𝐴𝐵 appearing
 in (2.96) and (2.101)-(2.103). Indeed, we have:
-
-
- Ê
+( (
+(
+)
+)) ⨁
 𝑀12 (2, 2) 𝑥 = 𝑚 05 (𝑚 12 𝑥) = 𝚤 𝚥 ℓ𝚤( 𝚥ℓ 𝑥) =
 ( 11𝒌 − 105 − 112 + 134 ) 𝑥 ,
 (2.126)
-
-
- Ê
+( (
+(
+)
+)) ⨁
 𝑀34 (2, 2) 𝑥 = 𝑚 05 (𝑚 34 𝑥) = 𝚤 𝚥 ℓ𝒌 (ℓ 𝑥) =
 ( 11𝒌 − 105 + 112 − 134 ) 𝑥 ,
 (2.127)
-
-
- Ê
+( (
+(
+)
+)) ⨁
 𝑀 (4, 0) 𝑥 = 𝑚 12 (𝑚 43 𝑥) = ℓ𝚤 𝚥ℓ ℓ(ℓ𝒌 𝑥) =
 ( 11𝒌 + 105 − 112 − 134 ) 𝑥 ,
 (2.128)
-where 𝑥 ∈ Span{ 𝐴} (see Eqs. (2.60)-(2.62)) and the 1 𝐴𝐵Érepresents the unit 2 × 2
+where 𝑥 ∈ Span{ 𝐴} (see Eqs. (2.60)-(2.62)) and the 1 𝐴𝐵⨁represents the unit 2 × 2
 matrices defined in Eq. (2.77). Again, for the convention
 (. . . ), see Sect. 1.2.5.2.
 The above results can be verified by substituting 𝑥 with any of the split-octonion
 units (and in fact with all of them) and consulting the multiplication table (2.47).
 Regarding the above construction, we observe that:
 1. The following relation holds:
-
+(
+)
 𝑀 (4, 0) 𝑥 = 𝑀12 (2, 2) 𝑀34 (2, 2) 𝑥 .
 
 (2.129)
@@ -3177,20 +3296,21 @@ Regarding the above construction, we observe that:
 To verify this relation, it is sufficient — by Proposition 2.1 — to follow a
 procedure analogous to that in Eq. (2.85).
 2. The Lorentz 𝔠𝔩(3, 1) volume form is:
-
-
-
+( (
+(
+)
+))
 𝐸 𝐿 𝑥 = 𝑀 (3, 1) 𝑥 = 𝑚 03 (𝑚 12 𝑥) = 𝚤 ℓ𝒌 ℓ𝚤( 𝚥ℓ 𝑥)
-Ê
+⨁
 =
 (𝐸 11 − 𝐸 04 + 𝐸 53 − 𝐸 2𝒌 ) 𝑥 , (2.130)
 where, once again, it can be verified by substituting 𝑥 with any of the splitoctonion units (see Eqs. (2.60)-(2.62)) and consulting the multiplication table
 (2.47). We observe that the aforementioned volume forms 𝑀12 (2, 2) and 𝑀 (4, 0)
 do not commute with the Lorentz one 𝑀 (3, 1):
-
-
-
-
+[
+]
+[
+]
 𝑀12 (2, 2), 𝑀 (3, 1) 𝑥 ≠ 0 , and 𝑀 (4, 0), 𝑀 (3, 1) 𝑥 ≠ 0 .
 (2.131)
 Once again, verification of these results reduces — by Proposition 2.1 — to
@@ -3204,37 +3324,43 @@ following a procedure analogous to that in Eq. (2.85).
 Happily, there exists a third-order10 diagonal element 𝐷 ∈ 𝔠𝔩(4, 2) that anticommutes with the Cartan elements 𝑚 05 , 𝑚 12 , and 𝑚 34 of the maximal compact
 Lie subalgebra 𝔰𝔬(2) ⊕ 𝔰𝔬(4) ⊂ 𝔰𝔬(4, 2), and consequently commutes with the
 fourth-order diagonal volume forms given in Eq. (2.126)-(2.128):
-
- Ê
+(
+)
+(
+) ⨁
 𝐷 𝑥 = 𝑚 5 𝑚 4 (𝑚 2 𝑥) = 𝚥 ℓ ( 𝚥ℓ 𝑥) =
 (𝐷 1𝒌 − 𝐷 05 − 𝐷 12 − 𝐷 34 ) 𝑥
-Ê
+⨁
 =
 ( 11,5,2,4 − 1𝒌,0,1,3 ) 𝑥
 ,
-|
-{z
-}
+⏟
+⏞⏞
+⏟
 as a by-product of Sect. 1.2.5.2 (see Eq. (1.6))
 
 (2.132)
 such that:
-
+{
 
-
+[
 
-
-
-
+}
+{
+}
+{
+}
+{
+}
 𝐷, 𝑚 05 𝑥 = 𝐷, 𝑚 12 𝑥 = 𝐷, 𝑚 34 𝑥 = 𝐷, 𝐸 𝑥 = 0 ,
 
 (2.133)
 
-
-
-
-
-
+]
+[
+]
+[
+]
 𝐷, 𝑀12 (2, 2) 𝑥 = 𝐷, 𝑀34 (2, 2) 𝑥 = 𝐷, 𝑀 (2, 2) 𝑥 = 0 ,
 
 (2.134)
@@ -3249,14 +3375,14 @@ Remark 2.14 In connection with the above, we note that:
 1. The representation of (2.132) as a sum of 2 × 2 diagonal matrices 𝐷 𝐴𝐵 is not
 unique. Actually, as a by-product of the discussion in Sect. 1.2.5.2 (in particular,
 Eq. (1.6)), we may write, for instance:
-Ê
- Ê
-
+⨁(
+) ⨁(
+)
 𝐷 1𝒌 − 𝐷 05 =
 𝐷 10 − 𝐷 𝒌5 ,
-Ê
- Ê
-
+⨁(
+) ⨁(
+)
 𝐷 12 + 𝐷 34 =
 𝐷 14 − 𝐷 23 , etc.
 (2.135)
@@ -3267,7 +3393,7 @@ consisting of all possible products of its distinct anticommuting generators �
 basis elements can be systematically arranged according to the standard grading of the associated
 Grassmann algebra Λ⊗ = Λ0 ⊕ Λ1 ⊕ · · · ⊕ Λ𝑛 , where each subspace Λ 𝑘 consists of all products
 of exactly 𝑘 distinct generators 𝑚, while Λ0 corresponds to the identity element
-1 (i.e., no 𝑚 
+1 (i.e., no 𝑚( )
 𝑛
 𝑘
 generators at all). The dimension of Λ is given by the binomial coefficient
@@ -3301,8 +3427,8 @@ where 𝐸 generates the 𝔲(1) center of 𝔲(2, 2), and 𝑚 05 , 𝑚 12 , a
 1. Each operator can be expressed as a direct sum of four 2 × 2 skewsymmetric
 blocks ±𝐸 𝐴𝐵 , with the same set of index pairs 𝐴, 𝐵 = 1, 𝒌, 𝚤, 𝚥, ℓ𝚤, 𝚥ℓ, ℓ𝒌, ℓ or
 more conveniently 𝐴, 𝐵 = 1, 𝒌, 0, 5, 1, 2, 3, 4 (see Eqs. (2.60)-(2.62)). That is:
-Ê
-Ê
+⨁
+⨁
 ±𝐸 𝐴𝐵 , . . . ,
 (2.137)
 ±𝐸 𝐴𝐵 , 𝑚 05 =
@@ -3313,16 +3439,16 @@ more conveniently 𝐴, 𝐵 = 1, 𝒌, 0, 5, 1, 2, 3, 4 (see Eqs. (2.60)-(2.62)
 
 where each block acts independently.
 2. The joint eigenspace of a given quadruple of eigenvalues (𝜇 𝐸 , 𝜇05 , 𝜇12 , 𝜇34 ):
-n
+{
 E(𝜇 𝐸 , 𝜇1 , 𝜇2 , 𝜇3 ) := 𝑣 ∈ 𝔖 ; 𝐸𝑣 = 𝜇 𝐸 𝑣 , 𝑚 05 𝑣 = 𝜇05 𝑣 ,
-o
+}
 𝑚 12 𝑣 = 𝜇12 𝑣 , 𝑚 34 𝑣 = 𝜇34 𝑣 ,
 (2.138)
 is then 2-dimensional over R (see footnote 4). Indeed, each 2 × 2 block 𝐸 𝐴𝐵
 corresponds to exactly one eigenvalue quadruple and the 2-dimensionality arises
 because each block is spanned by two independent vectors, for example:
- 
- 
+( )
+( )
 1
 1
 𝑣1 =
@@ -3362,8 +3488,8 @@ occur for the nontrivial 2 × 2 blocks under consideration. Therefore, 𝐷 auto
 generates a second independent vector in each joint eigenspace, completely resolving
 the intrinsic twofold degeneracy. Concretely, 𝐷 acts like a Pauli-𝜎3 operator within
 each 2 × 2 block, splitting the two states into eigenvectors with distinct eigenvalues:
-
-   
+(
+)( ) ( )
 1 0 1
 1
 𝐷 𝐴𝐵 𝑣1 =
@@ -3372,8 +3498,8 @@ each 2 × 2 block, splitting the two states into eigenvectors with distinct eige
 (2.141)
 0 −1 1
 −1
-
-   
+(
+)( ) ( )
 1 0
 1
 1
@@ -3387,8 +3513,8 @@ In addition, 𝐷 commutes (see Eq. (2.134)) with all fourth-order volume forms
 𝑀12 (2, 2) (2.126), 𝑀34 (2, 2) (2.127), and 𝑀 (4, 0) (2.128), ensuring that it preserves
 the previously obtained block decomposition.
 Accordingly, after including 𝐷, the extended set of (anti)commuting operators:
-o
-n
+}
+{
 𝐸, 𝑚 05 , 𝑚 12 , 𝑚 34 , 𝐷
 (2.143)
 provides a complete, nondegenerate labeling of the spinor basis of 𝔖.
@@ -3398,8 +3524,8 @@ provides a complete, nondegenerate labeling of the spinor basis of 𝔖.
 Proposition 2.2 The operators 𝐸 (2.96), 𝐷 (2.132), and their product 𝑆 := 𝐷 𝐸
 obey the same multiplication laws as their 2 × 2 matrix components (see Remark
 2.5):
-Ê
-
+⨁(
+)
 𝑆 = 𝐷 𝐸 = −𝐸 𝐷 =
 𝑆1𝒌 − 𝑆05 − 𝑆12 − 𝑆34 ,
 (2.144)
@@ -3418,19 +3544,23 @@ Proof Let us rewrite the above identities explicitly, one by one, by substitutin
 operators 𝐸 (2.96) and 𝐷 (2.132) as they act from the left on 𝑥 ∈ Span{ 𝐴} (see Eqs.
 (2.60)-(2.62)):
 1. We begin with Eq. (2.144):
-" "
+[ [
 
-"
+[
 
-
+(
 
-
+(
+
+(
+
+(
 
 𝑆 𝑥 = 𝐷 (𝐸 𝑥) = 𝑚 5 𝑚 4 𝑚 2 𝑚 0 𝑚 5 𝑚 1 𝑚 2 𝑚 3 (𝑚 4 𝑥)
 
-
+))
 
-! # # #
+)) ] ] ]
 .
 
 (2.146)
@@ -3442,24 +3572,28 @@ operators 𝐸 (2.96) and 𝐷 (2.132) as they act from the left on 𝑥 ∈ Spa
 
 Applying Proposition 2.1 in the same way as Eq. (2.85), and consulting with the
 miltiplication table (2.47), we find:
-
-
+(
+)
+(
+)
 𝑆 𝑥 = 𝐷 (𝐸 𝑥) = −𝑚 0 𝑚 1 (𝑚 3 𝑥) = −𝚤 ℓ𝚤(ℓ𝒌 𝑥)
-Ê
+⨁
 =
 (𝑆1𝒌 − 𝑆05 − 𝑆12 − 𝑆34 ) 𝑥 .
 (2.147)
 For the convention
 obtain:
 
-É
+⨁
 
 (. . . ), see Sect. 1.2.5.2. Following a similar procedure, we
 
-
-
+(
+)
+(
+)
 𝑆 𝑥 = −𝐸 (𝐷 𝑥) = −𝑚 0 𝑚 1 (𝑚 3 𝑥) = −𝚤 ℓ𝚤(ℓ𝒌 𝑥)
-Ê
+⨁
 =
 (𝑆1𝒌 − 𝑆05 − 𝑆12 − 𝑆34 ) 𝑥 .
 
@@ -3467,32 +3601,24 @@ obtain:
 
 Therefore, Eq. (2.144) follows.
 2. Proceeding analogously, we find 𝐷 𝑆 = −𝑆 𝐷 = 𝐸; in particular:
- 
-!
-
+( (
+))
+( (
+))
 𝐷 (𝑆 𝑥) = −𝑚 5 𝑚 4 𝑚 2 𝑚 0 𝑚 1 (𝑚 3 𝑥)
-
+(
 
-!
+(
 
-
+(
 
-
-
-
-
-−𝑆(𝐷 𝑥) = 𝑚 0 𝑚 1 𝑚 3 𝑚 5 𝑚 4 (𝑚 2 𝑥)
-
-
-
-
-
-
-
-
+(
 
 = 𝑚 0 𝑚 5 𝑚 1 𝑚 2 𝑚 3 (𝑚 4 𝑥)
 
+))
+
+))
 = 𝐸𝑥,
 
 (2.149)
@@ -3502,12 +3628,31 @@ Therefore, Eq. (2.144) follows.
 (2.150)
 
 and:
-
+(
+
+(
+
+(
+
+(
+
+))
+
+(
+
+(
+
+))
+
+−𝑆(𝐷 𝑥) = 𝑚 0 𝑚 1 𝑚 3 𝑚 5 𝑚 4 (𝑚 2 𝑥)
+(
+
+(
 
 = 𝑚 0 𝑚 5 𝑚 1 𝑚 2 𝑚 3 (𝑚 4 𝑥)
 
-!
-!
+))
+))
 
 3. Lastly, by a similar argument, the second identity in Eq. (2.145) follows trivially:
 𝐷 (𝐷 𝑥) = 𝑆(𝑆 𝑥) = 18 = −𝐸 (𝐸 𝑥) .
@@ -3546,7 +3691,8 @@ explicitly reads as:
 ( 1 − i𝑆 − 𝐸 − i𝐷) ,
 2
 
- 1
+(
+) 1
 𝑉 ∗ = 𝑉 −1 = ( 1 + i𝑆 + 𝐸 + i𝐷) = −𝑉 2
 2
 
@@ -3565,9 +3711,10 @@ Note that the phase factor is chosen as 𝜚 = 𝑒 i 𝜋/4 so that the corresp
 To achieve our goal of simultaneous diagonalization of the aforementioned operators, there are two (semi)equivalent approaches:
 −1 ,
 1. First, we transform the operators and let the conjugated versions 𝑈𝐸𝑈
-
+{
 −1
 𝑈𝑚 05𝑈 , . . . act on the original Majorana (real) basis 𝐴 = 1, 𝒌, 𝜈 ∈ 0 :=
+}
 𝚤, 5 := 𝚥, 1 := ℓ𝚤, 2 := 𝚥ℓ, 3 := ℓ𝒌 , 4 := ℓ .
 2. Second, we leave the operators in their original form but instead transform the
 basis, working with 𝑈 −1 𝐴, i.e., the chiral basis.
@@ -3578,9 +3725,11 @@ we present both approaches explicitly, beginning with the first.
 
 2.4.1 Operator Transformation in the Majorana Basis
 Under the linear operator 𝑈, the volume form 𝑀 (4, 2) = 𝐸 (2.96) transforms as:
-
+(
+)
 𝜔(4, 2) = 𝑈 𝑀 (4, 2) 𝑈 −1 = 𝑉 𝑀 (4, 2) 𝑉 −1
-
+(
+)
 = 𝑈 𝐸 𝑈 −1 = 𝑉 𝐸 𝑉 −1
 𝜋
 
@@ -3607,8 +3756,9 @@ To obtain the above result, we consider the left multiplication on the split-oct
 units and invoke Proposition 2.2. Under the action of 𝜔(4, 2) on the split-octonion
 units — namely, on the Majorana basis — the operator assumes the diagonal matrix
 form (up to a factor of ‘i’) given in Eq. (2.132):
-Ê
-
+⨁
+)
+(
 𝜔(4, 2) 𝑥 = 𝑈 𝐸 𝑈 −1 𝑥 = i𝐷 𝑥 = i
 (𝐷 1𝒌 − 𝐷 05 − 𝐷 12 − 𝐷 34 ) 𝑥 , (2.155)
 
@@ -3617,7 +3767,7 @@ form (up to a factor of ‘i’) given in Eq. (2.132):
 2.4 Unitary Transformation from Real to a Diagonal Compact Cartan Basis of 𝔰𝔲 (2, 2)  𝔰𝔬 (4, 2)
 49
 
-É
+⨁
 where 𝑥 ∈ Span{ 𝐴} (see Eqs. (2.60)-(2.62)). For the convention
 (. . . ), refer to
 Sect. 1.2.5.2.
@@ -3629,7 +3779,8 @@ from the left on 𝑥 ∈ Span{ 𝐴} (see Eqs. (2.60)-(2.62)), and then invokin
 2.1 together with an argument analogous to that in Eq. (2.85); see also the proof
 of Proposition 2.2. With these observations in hand and using Proposition 2.2, we
 obtain:
-
+(
+)
 Γ𝜇′ = 𝑈 𝑚 𝜇′ 𝑈 −1 = 𝑉 𝑚 𝜇′ 𝑉 −1
 𝜋
 
@@ -3645,20 +3796,20 @@ obtain:
 = 𝑚 𝜇′ 𝑒 2 𝐸
 = 𝑚 𝜇′ 𝐸 ,
 
-𝜇′ = 5, 4, 2 ,
-
 for
 
+𝜇′ = 5, 4, 2 ,
+
+(2.156)
+
+(
+)
 Γ𝜈 ′ = 𝑈 𝑚 𝜈 ′ 𝑈 −1 = 𝑉 𝑚 𝜈 ′ 𝑉 −1
 𝜋
 
 𝜋
 
 𝜋
-
-(2.156)
-
-
 
 𝜋
 
@@ -3673,19 +3824,19 @@ for
 = 12 𝑚 𝜈 ′ (1 + 𝐸) (i𝐷) (1 + 𝐸)
 = i𝑚 𝜈 ′ 𝐷 ,
 
-𝜈 ′ = 0, 1, 3 ,
-
 for
+
+𝜈 ′ = 0, 1, 3 ,
 
 (2.157)
 
 and:
+(
+)
 Γ𝜇′ 𝜈 ′ = 𝑈 𝑚 𝜇′ 𝜈 ′ 𝑈 −1 = 𝑉 𝑚 𝜇′ 𝜈 ′ 𝑉 −1
 𝜋
 
 𝜋
-
-
 
 𝜋
 
@@ -3713,7 +3864,8 @@ and
 (2.158)
 
 but, when 𝜇′ and 𝜈 ′ simultaneously belong to either 0, 1, 3 or 5, 4, 2, we have:
-
+)
+(
 Γ𝜇′ 𝜈 ′ = 𝑈 𝑚 𝜇′ 𝜈 ′ 𝑈 −1 = 𝑉 𝑚 𝜇′ 𝜈 ′ 𝑉 −1
 𝜋
 
@@ -3746,87 +3898,83 @@ one verifies that the transformed versions of the skew-symmetric Cartan matrices
 2
 
 respectively, the following diagonal forms:
+( (
+)
+(
+(
+))
+−1 )
 Γ05 𝑥 = 𝑈 𝑚 05 𝑈
-
-−1 
-
-Γ12 𝑥 = 𝑈 𝑚 12 𝑈
-
-−1 
-
-Γ34 𝑥 = 𝑈 𝑚 34 𝑈
-
-−1 
-
-
-
-
-
-
-
-
-
 𝑥 = i𝑚 05 𝑆 𝑥 = −i𝑚 0 𝑚 5 𝑚 0 𝑚 1 (𝑚 3 𝑥)
-
+(
+)
 = −i𝑚 5 𝑚 1 (𝑚 3 𝑥)
-
+(
+)
 = −i 𝚥 ℓ𝚤 (ℓ𝒌 𝑥)
-Ê
-
+⨁(
+)
 =i
 − 𝐷 1𝒌 + 𝐷 05 − 𝐷 12 − 𝐷 34 𝑥 ,
 (2.160)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+)
+( (
+(
+))
+(
+−1 )
+Γ12 𝑥 = 𝑈 𝑚 12 𝑈
 𝑥 = i𝑚 12 𝑆 𝑥 = −i𝑚 1 𝑚 2 𝑚 0 𝑚 1 (𝑚 3 𝑥)
-
+(
+)
 = −i𝑚 2 𝑚 0 (𝑚 3 𝑥)
-
+(
+)
 = −i 𝚥ℓ 𝚤 (ℓ𝒌 𝑥)
-Ê
-
+⨁(
+)
 =i
 𝐷 1𝒌 + 𝐷 05 − 𝐷 12 + 𝐷 34 𝑥 , (2.161)
-
-
+( (
+)
+(
+(
+))
+−1 )
+Γ34 𝑥 = 𝑈 𝑚 34 𝑈
 𝑥 = i𝑚 34 𝑆 𝑥 = −i𝑚 3 𝑚 4 𝑚 0 𝑚 1 (𝑚 3 𝑥)
-
+(
+)
 = i𝑚 4 𝑚 0 (𝑚 1 𝑥)
-
+(
+)
 = iℓ 𝚤 (ℓ𝚤 𝑥)
-Ê
-
+⨁(
+)
 =i
 𝐷 1𝒌 + 𝐷 05 + 𝐷 12 − 𝐷 34 𝑥 , (2.162)
-
-É
+⨁
 where 𝑥 ∈ Span{ 𝐴} (see Eqs. (2.60)-(2.62)). Again, for the convention
 (. . . ), see
 Sect. 1.2.5.2.
 Moreover, one can show that the product of these diagonal matrices reproduces
 𝜔(4, 2) (2.154):
-
-
+(
+)
+(
+)
 Γ05 Γ12 Γ34 𝑥 = 𝑈 𝐸 𝑈 −1 𝑥 = 𝜔(4, 2) 𝑥 ,
 (2.163)
 and, utilizing the standard properties (2.11) and (2.13) of the trace, that the four 8 × 8
 matrices (2.155) and (2.160)-(2.162) are trace orthogonal:
-
-
-
-
+(
+)
+(
+)
+(
+)
+(
+)
 𝑇 Γ05 Γ12 = 𝑇 Γ05 Γ34 = 𝑇 Γ12 Γ34 = · · · = 𝑇 Γ12 𝐷 = 0 .
 (2.164)
 We observe further that the diagonal volume forms (2.126)-(2.128) of the Clifford
@@ -3841,99 +3989,112 @@ under the similarity transformation.
 2.4.2 Changing the Basis: From Majorana to Chiral
 Now, we turn to the second approach, namely, keeping the operators in their original
 form while transforming the basis, that is, working with:
-𝑛c
-
-1𝒌 +
-
-
+)
 1
 = 𝑈 −1 1 = √ ( 1 + i𝒌) ,
 2
 
-𝑛c
+𝑛ˆ
 
 1𝒌 −
 
-
-1
-= 𝑈 −1 𝒌 = √ ( 1 − i𝒌) = 𝑛 c ,
-1𝒌 +
-2
-(2.165)
+(
 
-𝑛b
-
-
+)
 1
 = i𝑈 −1 𝚥 = √ (𝚤 + i 𝚥) ,
 2
 
-𝑛b
+𝑛ˆ
 
-05 −
+(
 
-
-1
-= i𝑈 −1 𝚤 = √ (𝚤 − i 𝚥) = 𝑛 b ,
-05+
-2
-(2.166)
-
-𝑛b
-
-
+)
 1
 = i𝑈 −1 𝚥ℓ = √ (ℓ𝚤 + i 𝚥ℓ) ,
 2
 
-𝑛b
+𝑛ˆ
 
-
-1
-= i𝑈 −1 ℓ𝚤 = √ (ℓ𝚤 − i 𝚥ℓ) = 𝑛 b ,
-12+
-2
-(2.167)
+(
 
-𝑛b
-
-
+)
 1
 = i𝑈 −1 ℓ = √ (ℓ𝒌 + iℓ) ,
 2
 
-𝑛b
+𝑛ˆ
 
-
-1
-= i𝑈 −1 ℓ𝒌 = √ (ℓ𝒌 − iℓ) = 𝑛 b .
-34+
-2
-(2.168)
+𝑛ˆ
+
+1𝒌 +
+
+𝑛ˆ
+
+(
+
+(
 
 05+
 
+𝑛ˆ
+
+(
+
 12+
+
+𝑛ˆ
 
 34+
 
+(
+
+05 −
+
 12 −
+
+(
 
 34 −
 
+)
+1
+= 𝑈 −1 𝒌 = √ ( 1 − i𝒌) = 𝑛 ˆ ,
+1𝒌 +
+2
+(2.165)
+)
+1
+= i𝑈 −1 𝚤 = √ (𝚤 − i 𝚥) = 𝑛 ˆ ,
+05+
+2
+(2.166)
+)
+1
+= i𝑈 −1 ℓ𝚤 = √ (ℓ𝚤 − i 𝚥ℓ) = 𝑛 ˆ ,
+12+
+2
+(2.167)
+
+)
+1
+= i𝑈 −1 ℓ𝒌 = √ (ℓ𝒌 − iℓ) = 𝑛 ˆ .
+34+
+2
+(2.168)
 𝜋
 
 To drive the above results, it suffices to substitute 𝑈 = 𝑒 i 4 𝑉, taking into account
-Eqs. (2.152), (2.144), (2.132), and (2.96). For the complex rescaling of 𝑛 b , 𝑛 b ,
+Eqs. (2.152), (2.144), (2.132), and (2.96). For the complex rescaling of 𝑛 ˆ , 𝑛 ˆ ,
 05± 12±
-and 𝑛 b by ‘i’, see Remark 2.16.
+and 𝑛 ˆ by ‘i’, see Remark 2.16.
 34±
 The above transformed basis spans the chiral space 𝔖, which, by construction,
 decomposes into two complex-conjugate semispinor chiral subspaces 𝔖± :
-n
-o
+{
+}
 (2.169)
-𝔖± = Span 𝑛 𝑎± ; 𝑛 c , 𝑛 b , 𝑛 b , 𝑛 b , 𝔖± = 𝔖∓ .
+𝔖± = Span 𝑛 𝑎± ; 𝑛 ˆ , 𝑛 ˆ , 𝑛 ˆ , 𝑛 ˆ , 𝔖± = 𝔖∓ .
 1𝒌 ±
 
 05±
@@ -3945,10 +4106,12 @@ o
 Notably, each chiral subspace is totally isotropic; that is, for all 𝑛 𝑎± , 𝑛𝑏 ∈ 𝔖± , the
 ±
 bilinear form defined in (2.3) satisfies:
+⟩
+⟨
+⟩
+⟨
 𝑛 𝑎+ , 𝑛 𝑏+ = 0 = 𝑛 𝑎 − , 𝑛 𝑏 − ,
-
 (2.170)
-
 so that every vector has zero norm and all vectors within the same subspace are mutually orthogonal. It is important to emphasize that this property holds independently
 for 𝔖+ and 𝔖− , while in general the bilinear form between vectors from different
 subspaces does not need to vanish. Actually, explicit calculations show that:11
@@ -3964,235 +4127,257 @@ norm differs from that with respect to which the similarity transformation 𝑈 
 52 Majorana Representation of the Conformal Clifford Algebra 𝔠𝔩 (4, 2) and its Chiral Counterpart
 2
 
-𝑛c , 𝑛c
+𝑛ˆ , 𝑛ˆ
 
-1𝒌 +
+⟩
 
-= 𝑁 𝑛c
-
-
-
-= 𝑛 c 𝑛∗c =
-
+(
+)
 1
-(1 + i𝒌) (1 − i𝒌) = 0 ,
-2
+= 𝑁 𝑛 ˆ = 𝑛 ˆ 𝑛∗ˆ = (1 + i𝒌) (1 − i𝒌) = 0 ,
+1𝒌 +
+1𝒌 + 1𝒌 + 2
 
 (2.171)
 
-𝑛b , 𝑛b
+⟨
 
-= 𝑁 𝑛b
+⟩
 
-
-
+(
+)
 1
-= 𝑛 b 𝑛∗b = − (𝚤 + i 𝚥) (𝚤 + i 𝚥) = 0 ,
+= 𝑁 𝑛 ˆ = 𝑛 ˆ 𝑛∗ˆ = − (𝚤 + i 𝚥) (𝚤 + i 𝚥) = 0 ,
+05+
 05+ 05+
 2
 
 (2.172)
 
-1𝒌 +
-
-05+
+⟨
 
 1𝒌 +
 
+1𝒌 +
+
+𝑛ˆ , 𝑛ˆ
 05+
 
 05+
 
-1𝒌 + 1𝒌 +
+𝑛ˆ , 𝑛ˆ
 
-𝑛b , 𝑛b
+⟩
 
-= 𝑁 𝑛b
-
-
-
-12+
-
+(
+)
 1
-= 𝑛 b 𝑛∗b = − (ℓ𝚤 + i 𝚥ℓ) (ℓ𝚤 + i 𝚥ℓ) = 0 ,
+= 𝑁 𝑛 ˆ = 𝑛 ˆ 𝑛∗ˆ = − (ℓ𝚤 + i 𝚥ℓ) (ℓ𝚤 + i 𝚥ℓ) = 0 ,
+12+
 12+ 12+
 2
 
 (2.173)
 
-𝑛b , 𝑛b
+⟨
 
-= 𝑁 𝑛b
+⟩
 
-
-
+(
+)
 1
-= 𝑛 b 𝑛∗b = − (ℓ𝒌 + iℓ) (ℓ𝒌 + iℓ) = 0 ,
+= 𝑁 𝑛 ˆ = 𝑛 ˆ 𝑛∗ˆ = − (ℓ𝒌 + iℓ) (ℓ𝒌 + iℓ) = 0 ,
+34+
 34+ 34+
 2
 
 (2.174)
 
-12+
-
-34+
+⟨
 
 12+
 
+12+
+
+𝑛ˆ , 𝑛ˆ
 34+
 
 34+
 
 moreover, employing Eq. (2.3), we have:
-𝑛c , 𝑛b
+⟨
+
+⟨
+
+⟩
+
+𝑛ˆ , 𝑛ˆ
 1𝒌 +
 
 05+
 
-
-
-
-1
-𝑁 𝑛b + 𝑛b − 𝑁 𝑛b − 𝑁 𝑛b
-12+
-12+
-05+
-05+
-2
-
-1
-= 𝑁 𝑛b + 𝑛b
-12+
-05+
-2
-
-∗
-1
-= 𝑛b + 𝑛b 𝑛b + 𝑛b
-12+
-05+
-05+
-2 12+
-
-
-1
-= − (ℓ𝚤 + 𝚤) + i( 𝚥ℓ + 𝚥) (ℓ𝚤 + 𝚤) + i( 𝚥ℓ + 𝚥) = 0 ,
-4
-
-(2.175)
-
-=
-
-𝑛b , 𝑛b
+𝑛ˆ , 𝑛ˆ
 12+
 
-
-
-
-1
-𝑁 𝑛c + 𝑛b − 𝑁 𝑛c − 𝑁 𝑛b
+⟩
+
+05+
+
+)
+(
+)
+(
+))
+1( (
+𝑁 𝑛ˆ + 𝑛ˆ − 𝑁 𝑛ˆ − 𝑁 𝑛ˆ
 05+
 05+
 1𝒌 +
 1𝒌 +
 2
-
-1
-= 𝑁 𝑛c + 𝑛b
+)
+1 (
+= 𝑁 𝑛ˆ + 𝑛ˆ
 05+
 1𝒌 +
 2
-
-∗
-1
-= 𝑛c + 𝑛b 𝑛c + 𝑛b
+)(
+)∗
+1(
+= 𝑛ˆ + 𝑛ˆ 𝑛ˆ + 𝑛ˆ
 05+
 05+
 1𝒌 +
 2 1𝒌 +
-
-
-1
+)(
+)
+1(
 = ( 1 + 𝚤) + i( 𝒌 + 𝚥) ( 1 − 𝚤) − i( 𝒌 + 𝚥) = 0 ,
 4
 =
 
+)
+(
+)
+(
+))
+1( (
+𝑁 𝑛ˆ + 𝑛ˆ − 𝑁 𝑛ˆ − 𝑁 𝑛ˆ
+12+
+12+
 05+
+05+
+2
+)
+1 (
+= 𝑁 𝑛ˆ + 𝑛ˆ
+12+
+05+
+2
+(
+)(
+)∗
+1
+= 𝑛ˆ + 𝑛ˆ 𝑛ˆ + 𝑛ˆ
+12+
+05+
+05+
+2 12+
+)(
+)
+1(
+= − (ℓ𝚤 + 𝚤) + i( 𝚥ℓ + 𝚥) (ℓ𝚤 + 𝚤) + i( 𝚥ℓ + 𝚥) = 0 ,
+4
 
-(2.176)
+=
 
 and so forth:
-𝑛b , 𝑛b
+⟨
+⟩ ⟨
+⟩ ⟨
+⟩ ⟨
+⟩
+𝑛 ˆ , 𝑛 ˆ = 𝑛 ˆ , 𝑛 ˆ = 𝑛ˆ , 𝑛 ˆ = 𝑛ˆ , 𝑛 ˆ = · · · = 0 .
+34+
+
+(2.175)
+
 34+
 
 05+
 
-= 𝑛b , 𝑛b
-34+
-
 12+
 
-= 𝑛c , 𝑛 b
 1𝒌 +
 
 12+
 
-= 𝑛c , 𝑛 b
 1𝒌 +
 
 34+
 
-= ··· = 0.
+(2.176)
 
 (2.177)
 
 As naturally expected, the set of basis vectors {𝑛 𝑎− } satisfies orthogonality relations
 analogous to those of its complex-conjugate counterpart {𝑛 𝑎+ }:
-𝑛c , 𝑛c
-1𝒌 −
+⟨
 
-𝑛b , 𝑛b
-34 −
+⟨
 
-05 −
-
-1𝒌 −
-
-= 𝑛b , 𝑛b
-05 −
-
-= 𝑛b , 𝑛b
-34 −
-
-12 −
-
-05 −
-
-= 𝑛b , 𝑛b
-12 −
-
-= 𝑛c , 𝑛 b
-1𝒌 −
-
-12 −
-
-12 −
-
-= 𝑛b , 𝑛b
-34 −
-
-= 𝑛c , 𝑛 b
-1𝒌 −
-
-34 −
-
-= 0,
+⟨
+⟩ ⟨
+⟩ ⟨
+⟩
+= 𝑛ˆ , 𝑛ˆ = 𝑛ˆ , 𝑛ˆ = 𝑛ˆ , 𝑛ˆ = 0,
 
 (2.178)
 
-= ··· = 0.
+⟨
+⟩ ⟨
+⟩ ⟨
+⟩
+= 𝑛 ˆ , 𝑛 ˆ = 𝑛ˆ , 𝑛 ˆ = 𝑛ˆ , 𝑛 ˆ = · · · = 0 .
 
 (2.179)
+
+𝑛ˆ , 𝑛ˆ
+1𝒌 −
+
+1𝒌 −
+
+𝑛ˆ , 𝑛ˆ
+
+⟩
+
+34 −
+
+05 −
+
+⟩
+
+05 −
+
+34 −
+
+12 −
+
+12 −
+
+05 −
+
+1𝒌 −
+
+12 −
+
+12 −
+
+34 −
+
+1𝒌 −
+
+34 −
 
 34 −
 
@@ -4202,83 +4387,104 @@ analogous to those of its complex-conjugate counterpart {𝑛 𝑎+ }:
 53
 
 In this construction, the only nonzero inner products are (see again Eq. (2.3)):
-𝑛c , 𝑛c
+⟨
+
+𝑛ˆ , 𝑛ˆ
 1𝒌 −
 
 1𝒌 +
 
-
-
-
-1
-𝑁 𝑛c + 𝑛c − 𝑁 𝑛c − 𝑁 𝑛c
+⟨
+
+⟩
+
+)
+(
+)
+(
+))
+1( (
+𝑁 𝑛ˆ + 𝑛ˆ − 𝑁 𝑛ˆ − 𝑁 𝑛ˆ
 1𝒌 −
 1𝒌 +
 1𝒌 −
 1𝒌 +
 2
-
-1
-= 𝑁 𝑛c + 𝑛c
+)
+1 (
+= 𝑁 𝑛ˆ + 𝑛ˆ
 1𝒌 +
 1𝒌 −
 2
-
-∗
-1
-= 𝑛c + 𝑛c 𝑛c + 𝑛c
+)(
+)∗
+1(
+= 𝑛ˆ + 𝑛ˆ 𝑛ˆ + 𝑛ˆ
 1𝒌 + 1𝒌 −
 1𝒌 +
 2 1𝒌 −
-
-
-1
+)(
+)
+1(
 = ( 1 + 1) + i(−𝒌 + 𝒌) ( 1 + 1) + i( 𝒌 − 𝒌) = 1 ,
 4
 =
 
-𝑛b , 𝑛b
+𝑛ˆ , 𝑛ˆ
 05 −
+
+⟨
+
+⟨
 
 05+
 
-𝑛b , 𝑛b
+𝑛ˆ , 𝑛ˆ
 12 −
+
+⟩
 
 12+
 
-𝑛b , 𝑛b
+𝑛ˆ , 𝑛ˆ
 34 −
+
+⟩
 
 34+
 
-
-
-
-1
-𝑁 𝑛b + 𝑛b − 𝑁 𝑛b − 𝑁 𝑛b
+⟩
+
+)
+(
+)
+(
+))
+1( (
+𝑁 𝑛ˆ + 𝑛ˆ − 𝑁 𝑛ˆ − 𝑁 𝑛ˆ
 05 −
 05+
 05 −
 05+
 2
-
+(
+)
 1
-= 𝑁 𝑛b + 𝑛b
+= 𝑁 𝑛ˆ + 𝑛ˆ
 05 −
 05+
 2
-
-∗
-1
-= 𝑛b + 𝑛b 𝑛b + 𝑛b
+)(
+)∗
+1(
+= 𝑛ˆ + 𝑛ˆ 𝑛ˆ + 𝑛ˆ
 05+
 05 −
 05+
 2 05−
-
-
-1
+)(
+)
+1(
 = (𝚤 + 𝚤) + i(0) − (𝚤 + 𝚤) + i(0) = 1 ,
 4
 
@@ -4286,26 +4492,28 @@ In this construction, the only nonzero inner products are (see again Eq. (2.3)):
 
 =
 
-
-
-
-1
-𝑁 𝑛b + 𝑛b − 𝑁 𝑛b − 𝑁 𝑛b
+)
+(
+)
+(
+))
+1( (
+𝑁 𝑛ˆ + 𝑛ˆ − 𝑁 𝑛ˆ − 𝑁 𝑛ˆ
 12 −
 12+
 12 −
 12+
 2
-
-1
-= 𝑁 𝑛b + 𝑛b
+)
+1 (
+= 𝑁 𝑛ˆ + 𝑛ˆ
 12 −
 12+
 2
-
-∗
-1
-= 𝑛b + 𝑛b 𝑛b + 𝑛b
+)(
+)∗
+1(
+= 𝑛ˆ + 𝑛ˆ 𝑛ˆ + 𝑛ˆ
 12
 12
 12
@@ -4315,9 +4523,9 @@ In this construction, the only nonzero inner products are (see again Eq. (2.3)):
 −
 +
 2
-
-
-1
+)(
+)
+1(
 = 2ℓ𝚤 + i(0) − 2ℓ𝚤 + i(0) = −1 ,
 4
 
@@ -4325,33 +4533,36 @@ In this construction, the only nonzero inner products are (see again Eq. (2.3)):
 
 =
 
-
-
-
-1
-𝑁 𝑛b + 𝑛b − 𝑁 𝑛b − 𝑁 𝑛b
+)
+(
+)
+(
+))
+1( (
+𝑁 𝑛ˆ + 𝑛ˆ − 𝑁 𝑛ˆ − 𝑁 𝑛ˆ
 34 −
 34+
 34 −
 34+
 2
-
+(
+)
 1
-= 𝑁 𝑛b + 𝑛b
+= 𝑁 𝑛ˆ + 𝑛ˆ
 34 −
 34+
 2
-
-∗
-1
-= 𝑛b + 𝑛b 𝑛b + 𝑛b
+)(
+)∗
+1(
+= 𝑛ˆ + 𝑛ˆ 𝑛ˆ + 𝑛ˆ
 34+
 34 −
 34+
 2 34−
-
-
-1
+)(
+)
+1(
 = 2ℓ𝒌 + i(0) − 2ℓ𝒌 + i(0) = −1 .
 4
 
@@ -4362,7 +4573,7 @@ In this construction, the only nonzero inner products are (see again Eq. (2.3)):
 (2.183)
 
 Remark 2.16 In light of the foregoing discussion, it is worth emphasizing that the
-complex rescaling of the null vectors 𝑛 b , 𝑛 b , and 𝑛 b by the factor ‘i’ is prescribed
+complex rescaling of the null vectors 𝑛 ˆ , 𝑛 ˆ , and 𝑛 ˆ by the factor ‘i’ is prescribed
 34±
 05± 12±
 in such a way as to ensure the validity of the identities (2.180)-(2.183). This rescaling
@@ -4379,36 +4590,39 @@ Taking the above into account, we now examine the matrix realization of the 𝔲
 generator 𝐸 (2.96) of the conformal Lie algebra 𝔲(2, 2)  𝔰𝔲(2, 2) ⊕ 𝔲(1), expressed
 with respect to the chiral basis. This yields a form analogous to 𝜔(4, 2) (2.155), but
 with a different interpretation of the indices:
-Ê
-
+⨁(
+)
 𝐸𝑦=i
-𝐷 1c𝒌 + 1c𝒌 − + 𝐷 05
-b + 34
-b − 𝑦 =: i𝐷 𝑦 = 𝜔(4, 2) 𝑦 ,
-b + 05
-b − + 𝐷 12
-b + 12
-b − + 𝐷 34
-|
-{z
-}
+𝐷 1ˆ𝒌 + 1ˆ𝒌 − + 𝐷 05
+ˆ + 34
+ˆ − 𝑦 =: i𝐷 𝑦 = 𝜔(4, 2) 𝑦 ,
+ˆ + 05
+ˆ − + 𝐷 12
+ˆ + 12
+ˆ − + 𝐷 34
+⏟
+⏞⏞
+⏟
 by abuse of notation!
 
 (2.184)
-É
+⨁
 
 where 𝑦 ∈ Span{𝑛 𝑎± }. For the convention
 (. . . ), see Sect. 1.2.5.2. This result
 can be easily checked by substituting 𝑦 with any of the zero-norm basis vectors 𝑛 𝑎±
 (in fact, by substituting each one individually). Just to clarify the point, let us set
-𝑦 = 𝑛 b . Then, employing Eqs. (2.166), (2.154), and (2.155), we obtain:
+𝑦 = 𝑛 ˆ . Then, employing Eqs. (2.166), (2.154), and (2.155), we obtain:
 05+
 
-
-
-
-
-𝐸 𝑛 b = 𝐸 i𝑈 −1 𝚥 = i𝑈 −1 𝑈 𝐸 𝑈 −1 𝚥 = i𝑈 −1 i 𝚥 = i 𝑛 b ,
+(
+)
+(
+)
+( )
+(
+)
+𝐸 𝑛 ˆ = 𝐸 i𝑈 −1 𝚥 = i𝑈 −1 𝑈 𝐸 𝑈 −1 𝚥 = i𝑈 −1 i 𝚥 = i 𝑛 ˆ ,
 05+
 
 05+
@@ -4426,38 +4640,38 @@ Similarly, one verifies that the skewsymmetric Cartan matrices 𝑚 05 , 𝑚 12
 (see Eqs. (2.101)-(2.103)) in their original forms assume the following diagonal
 representations in the chiral basis, analogous to those in Eqs. (2.160)-(2.162), but
 with a different interpretation of the indices:
-Ê
-
+⨁(
+)
 𝑚 05 𝑦 = i
-− 𝐷 1c𝒌 + 1c𝒌 − − 𝐷 05
+− 𝐷 1ˆ𝒌 + 1ˆ𝒌 − − 𝐷 05
 =: Γ05 𝑦
 ,
-b + 05
-b − + 𝐷 12
-b + 12
-b − + 𝐷 34
-b + 34
-b− 𝑦
-| {z }
+ˆ + 05
+ˆ − + 𝐷 12
+ˆ + 12
+ˆ − + 𝐷 34
+ˆ + 34
+ˆ− 𝑦
+⏟ ⏞⏞ ⏟
 by abuse of notation!
 
 (2.187)
 
 𝑚 12 𝑦 = i
 
-Ê
+⨁(
 
-
-𝐷 1c𝒌 + 1c𝒌 − − 𝐷 b
-b − + 𝐷 12
-b+ b
-b + 34
-b− 𝑦
+)
+𝐷 1ˆ𝒌 + 1ˆ𝒌 − − 𝐷 ˆ
+ˆ − + 𝐷 12
+ˆ+ ˆ
+ˆ + 34
+ˆ− 𝑦
 12 − − 𝐷 34
 05+ 05
 
 =: Γ12 𝑦
-| {z }
+⏟ ⏞⏞ ⏟
 
 ,
 
@@ -4467,19 +4681,19 @@ by abuse of notation!
 
 𝑚 34 𝑦 = i
 
-Ê
+⨁(
 
-
-𝐷 1c𝒌 + 1c𝒌 − − 𝐷 b
-b − − 𝐷 12
-b+ b
-b + 34
-b− 𝑦
+)
+𝐷 1ˆ𝒌 + 1ˆ𝒌 − − 𝐷 ˆ
+ˆ − − 𝐷 12
+ˆ+ ˆ
+ˆ + 34
+ˆ− 𝑦
 12 − + 𝐷 34
 05+ 05
 
 =: Γ34 𝑦
-| {z }
+⏟ ⏞⏞ ⏟
 
 ,
 
@@ -4492,16 +4706,16 @@ by abuse of notation!
 2.4 Unitary Transformation from Real to a Diagonal Compact Cartan Basis of 𝔰𝔲 (2, 2)  𝔰𝔬 (4, 2)
 55
 
-É
+⨁
 where 𝑦 ∈ Span{𝑛 𝑎± } and see Sect. 1.2.5.2 for the convention on
 (. . . ). These
 relations can be readily verified by following the same procedure outlined above (see
 Eq. (2.185)).
 With the above in mind, and analogously to the 𝔠𝔩(2) case (see Sect. 2.3.1), the
 following relations hold for the chiral spinor 𝜓:
-
- +
-
+)
+( +)
+(
 1±𝐷
 𝜓
 𝜓 = 𝜓±
@@ -4551,42 +4765,42 @@ yields:
 2.4.3 Adjustment of Notation
 From this point forward, we adopt the compact chiral basis of isotropic vectors,
 defined as:
-𝜉 1 1 + 𝜉 𝒌 𝒌 = 𝜓 1𝒌 + 𝑛 c + 𝜓 1𝒌 − 𝑛 c ,
-c
+𝜉 1 1 + 𝜉 𝒌 𝒌 = 𝜓 1𝒌 + 𝑛 ˆ + 𝜓 1𝒌 − 𝑛 ˆ ,
+ˆ
 
 where
 
 1𝒌 +
 
-c
+ˆ
 
 1𝒌 −
 
 1
-𝑛 c = √ ( 1 ± i𝒌) ,
+𝑛 ˆ = √ ( 1 ± i𝒌) ,
 1𝒌 ±
 2
 
-
-1
-c
+)
+1 (
+ˆ
 𝜓 1𝒌 ± = √ 𝜉 1 ∓ i𝜉 𝒌 ,
 2
 
 (2.194)
 
-
-1
-b
+)
+1 (
+ˆ
 𝜓 12± = √ 𝜉 1 ∓ i𝜉 2 ,
 2
 
 (2.195)
 
-𝜉 1 ℓ𝚤 + 𝜉 2 𝚥ℓ = 𝜓 12+ 𝑛 b + 𝜓 12− 𝑛 b ,
-b
+𝜉 1 ℓ𝚤 + 𝜉 2 𝚥ℓ = 𝜓 12+ 𝑛 ˆ + 𝜓 12− 𝑛 ˆ ,
+ˆ
 
-b
+ˆ
 
 12+
 
@@ -4595,23 +4809,23 @@ where
 12 −
 
 1
-𝑛 b = √ (ℓ𝚤 ± i 𝚥ℓ) ,
+𝑛 ˆ = √ (ℓ𝚤 ± i 𝚥ℓ) ,
 12±
 2
 
-and similar expression for 𝑛 b , 𝑛 b , 𝜓 05± , and 𝜓 34± . Again, the vectors 𝑛 𝑎+ ,
-b
+and similar expression for 𝑛 ˆ , 𝑛 ˆ , 𝜓 05± , and 𝜓 34± . Again, the vectors 𝑛 𝑎+ ,
+ˆ
 
 05±
 
 34±
 
-b
+ˆ
 
-with 𝑎 + = 1c𝒌 + , c
-05+ , c
-12+ , c
-34+ , form an isotropic basis consisting of eigenvec
+with 𝑎 + = 1ˆ𝒌 + , ˆ
+05+ , ˆ
+12+ , ˆ
+34+ , form an isotropic basis consisting( of eigenvec)
 tors of 𝜔(4, 2) with eigenvalue +i. Their complex conjugates 𝑛 𝑎− = 𝑛 𝑎+ , with
 
 ## PDF page 70
@@ -4619,34 +4833,39 @@ tors of 𝜔(4, 2) with eigenvalue +i. Their complex conjugates 𝑛 𝑎− = �
 56 Majorana Representation of the Conformal Clifford Algebra 𝔠𝔩 (4, 2) and its Chiral Counterpart
 2
 
-𝑎 − = 1c𝒌 − , c
-05− , c
-12− , c
+𝑎 − = 1ˆ𝒌 − , ˆ
+05− , ˆ
+12− , ˆ
 34− , correspondingly form an isotropic basis with eigenvalue
 −i. That is:
 (𝜔(4, 2) ∓ i1) 𝑛 𝑎± = 0 ,
 
 (2.196)
 
-
+⟩
+( )
 𝑛 𝑎± , 𝑛 𝑎± = 𝑁 𝑛 𝑎± = 𝑛 𝑎± 𝑛∗𝑎± = 0 ,
 
 (2.197)
 
+where:
+⟨
+
+⟨
+
+⟩
 𝑛 𝑎− , 𝑛𝑏+ = 𝜖 𝑎 𝛿 𝑎𝑏 ,
 
 (2.198)
 
-where:
-
-with 𝜖 c = 𝜖 b = 1 = −𝜖 b = −𝜖 b .
+with 𝜖 ˆ = 𝜖 ˆ = 1 = −𝜖 ˆ = −𝜖 ˆ .
 1𝒌
 
 05
 
-34
-
 12
+
+34
 
 2.5 Appendix: A Mnemonic Matrix Rule for (Split) Octonionic
 Multiplication
@@ -4662,24 +4881,21 @@ recently outlined in Ref. [101]. We consider a (split) octonion expressed in Cay
 
 The multiplication of two (split) octonions is given by Eq. (2.35); for convenience,
 we reproduce it here:
-
-
-
+(
+)(
+)
+(
+)
 𝑞 1 + ℓ 𝑝 1 𝑞 2 + ℓ 𝑝 2 = 𝑞 1 𝑞 2 + (ℓ) 2 𝑝 2 𝑝 ∗1 + ℓ 𝑞 ∗1 𝑝 2 + 𝑞 2 𝑝 1 .
 (2.200)
 To each octonion, we associate the matrix:
-𝑞
-
-(ℓ) 2 𝑝 ∗
-
-𝑝
-
-𝑞∗
-
+(
+)
+𝑞 (ℓ) 2 𝑝 ∗
 𝑀 (𝑜) =
-
-!
 .
+𝑝
+𝑞∗
 
 (2.201)
 
@@ -4717,7 +4933,9 @@ products are replaced by their adjoint counterparts, thereby recovering Eq. (2.2
 
 2.6 Appendix: Realization of the Conformal Group U(2, 2)  SU(2, 2)
 
-
+(
+
+)
  SO(4, 2) ×U(1) in the Clifford Algebra 𝔠𝔩 (4, 2) and its Action on
 
 Inspection of Eq. (2.202) reveals a clear mnemonic pattern: in each block of the
@@ -4773,16 +4991,18 @@ reversed order. The matrix representation 𝑀 (𝑜) thus provides a compact an
 mnemonic for the non-associative octonionic product, offering a clear framework
 for navigating the inherent non-associativity.
 
-2.6 Appendix: Realization of the Conformal
+2.6 Appendix: Realization
 Group
-
+( of the Conformal
+)
 U(2, 2)  SU(2, 2)  SO(4, 2) × U(1) in the Clifford
 Algebra 𝖈𝖑(4, 2) and its Action on Spinors
-Using the Clifford-algebraic framework developed in this chapter,
- the unitaryconformal group U(2, 2) — equivalently SU(2, 2)  SO(4, 2) × U(1) — admits a concrete realization in the real Clifford algebra 𝔠𝔩(4, 2), specifically within
+Using the Clifford-algebraic framework developed ( in this chapter,
+) the unitaryconformal group U(2, 2) — equivalently SU(2, 2)  SO(4, 2) × U(1) — admits a concrete realization in the real Clifford algebra 𝔠𝔩(4, 2), specifically within
 its even subalgebra 𝔠𝔩 even (4, 2). In this realization, the bivectors of the even subalgebra generate the conformal Lie algebra 𝔰𝔲(2, 2)  𝔰𝔬(4, 2), while the Clifford
-pseudoscalar (volume element) provides the
- 1-dimensional central 𝔲(1) component,
+pseudoscalar (volume element)
+( provides the
+) 1-dimensional central 𝔲(1) component,
 so that 𝔲(2, 2)  𝔰𝔲(2, 2)  𝔰𝔬(4, 2) ⊕ 𝔲(1). This unified Clifford-algebraic
 setting naturally produces both the conformal Lorentz group SO(4, 2) and its spin
 representation SU(2, 2) directly from the Clifford algebra’s multiplicative structure,
@@ -4790,9 +5010,9 @@ with the central U(1) factor realized as internal phase rotations generated by t
 pseudoscalar. In this way, the full U(2, 2) group emerges naturally from the Cliffordalgebraic framework. We clarify this construction here.
 To clarify the underlying structure, we present a step-by-step derivation leading
 to the explicit construction. The even Clifford subalgebra 𝔠𝔩 even (4, 2) is given by:
-n
+{
 𝔠𝔩 even (4, 2) = Span 1 , 𝑚 𝜇𝜈 := 𝑚 𝜇 𝑚 𝜈 , 𝑚 𝜇 𝑚 𝜈 𝑚 𝜚 𝑚 𝜎 , 𝐸 := 𝑚 0 𝑚 5 𝑚 1 𝑚 2 𝑚 3 𝑚 4
-o
+}
 ;0≤𝜇<𝜈<𝜚<𝜎≤5 ,
 (2.207)
 
@@ -4802,17 +5022,19 @@ o
 2
 
 such that:
-1. The 6 operators 𝑚 𝜇 represent left multiplication by the 6 imaginary split
+1. The 6 operators 𝑚 𝜇 represent left multiplication by the 6 imaginary split{
+}
 octonion units 0 := 𝚤, 5 := 𝚥, 1 := ℓ𝚤, 2 := 𝚥ℓ, 3 := ℓ𝒌, 4 := ℓ , as defined
 in Eqs. (2.60)-(2.62), and they satisfy the Clifford anticommutation relations
 (2.64).
-
-
+[
+]
 2. The Lie algebra generated by the 15 bivectors 𝑚 𝜇𝜈 := 12 𝑚 𝜇 , 𝑚 𝜈 = 𝑚 𝜇 𝑚 𝜈
 coincides with the conformal Lie algebra 𝔰𝔲(2, 2)  𝔰𝔬(4, 2) (see Eq. (2.85)).
 We therefore identify the Lie algebra 𝔰𝔲(2, 2)  𝔰𝔬(4, 2) as embedded in the
 even Clifford subalgebra 𝔠𝔩 even (4, 2) via:
-
+{
+}
 𝔰𝔲(2, 2) ↩→ Span 𝑚 𝜇𝜈 ⊂ 𝔠𝔩 even (4, 2) .
 (2.208)
 Each 𝑚 𝜇𝜈 acts on the real 8-dimensional spinor space 𝔖 = Span{ 𝐴} through
@@ -4832,8 +5054,9 @@ linear combination of the bivectors 𝑚 𝜇𝜈 and the pseudoscalar 𝐸:12
 (2.210)
 U(2, 2) ∋ ˜
 𝑅(𝑋, 𝜔0 𝐸) = 𝑒 2 𝑋+𝜔0 𝐸 ,
-
-Í
+(
+)
+∑
 with 𝑋 ∈ 𝔰𝔲(2, 2)  𝔰𝔬(4, 2) = 𝜇<𝜈 𝜔 𝜇𝜈 𝑚 𝜇𝜈 , while 𝜔 𝜇𝜈 , 𝜔0 ∈ R. Since 𝐸
 commutes with all 𝑚 𝜇𝜈 , this expression factorizes:13
 1
@@ -4858,39 +5081,42 @@ Clifford algebra, bivectors generate rotations and boosts with twice the physica
 
 on vectors; including ‘ 12 ’ adjusts this so that 𝑒 2 𝑋 gives the proper single-angle rotation on spinors,
 as required by the double-cover relation Spin(4, 2)  SU(2, 2).
-
-
+[
+]
 13 For matrices or Lie algebra elements 𝑀 and 𝑁 , 𝑒 𝑀+𝑁 = 𝑒 𝑀 𝑒 𝑁 if 𝑀, 𝑁 = 0; otherwise
 𝑒 𝑀 𝑒 𝑁 = 𝑒 𝐿 with 𝐿 given by the Baker-Campbell-Hausdorff series.
 
 ## PDF page 73
 
 2.6 Appendix: Realization of the Conformal Group U(2, 2)  SU(2, 2)
-∞
-∑︁
-1
-1
-𝑒 2 𝑋+𝜔0 𝐸 = 𝑒 2 𝑋 𝑒 𝜔0 𝐸 =
 
-𝑛 ∞
-1
-∑︁
-2𝑋
-𝑛!
+(
 
-𝑛=0
-
-
+)
  SO(4, 2) ×U(1) in the Clifford Algebra 𝔠𝔩 (4, 2) and its Action on
 
-𝜔0 𝐸
-𝑚!
-𝑚=0
+∞ ( 1 )𝑛 ∞
+∑︁
+∑︁ (𝜔0 𝐸 ) 𝑚
+1
+1
+𝑋+𝜔0 𝐸
+𝑋 𝜔0 𝐸
+2𝑋
+2
+2
+=𝑒 𝑒
+=
+𝑒
+.
 
-𝑚
+𝑛!
+𝑛=0
+
 (2.212)
 
-.
+𝑚!
+𝑚=0
 
 Each term in this series is a product of an even number of Clifford generators and
 therefore belongs to the even subalgebra 𝔠𝔩 even (4, 2). Moreover, since 𝔠𝔩 even (4, 2)
@@ -4936,11 +5162,14 @@ central element can be computed explicitly:
 
 so that 𝜔0 plays the role of the internal U(1) phase angle.
 b. Similarly,
- 𝑛 invoking Proposition 2.1 and Remark 2.4, all powers of the form
+(
+) 𝑛 invoking Proposition 2.1 and Remark 2.4, all powers of the form
 𝑚 𝜇 𝑚 𝜈 are well-defined and unambiguous. Exploiting this property, together with the fact that each bivector 𝑚 𝜇𝜈 = 𝑚 𝜇 𝑚 𝜈 squares to:14
+(
+
 𝑚 𝜇𝜈
 
-2
+)2
 
 = −𝜂 𝜇𝜇 𝜂 𝜈𝜈 1 = ±1 ,
 
@@ -4967,13 +5196,17 @@ the exponential of the bivector component admits the power series expansion:
 2
 2
 
-𝑚 𝜇𝜈
-
-2
+(
 
 𝑚 𝜇𝜈
 
-2
+)2
+
+(
+
+𝑚 𝜇𝜈
+
+)2
 
 = −1
 ,
@@ -5019,15 +5252,15 @@ of operator composition, which holds by construction as explained in Remark
 Remark 2.17 For a more tangible visualization of the SU(2, 2) group structure, we
 conclude this appendix by exhibiting a 2 × 2-matrix realization of SU(2, 2) in terms
 of complex quaternionic components:
-
- 
+{
+( )
 𝑎𝑏
 SU(2, 2) = 𝑔 =
 ; det(𝑔) = 1 , 𝐽 𝑔 † 𝐽 = 𝑔 −1 ,
 𝑐𝑑
-
-
-
+(
+)
+}
 1 0
 with 𝐽 = 2
 and 𝑎, 𝑏, 𝑐, 𝑑 ∈ H ⊗ C  Mat(2, C) .
@@ -5040,8 +5273,9 @@ to Ref. [37].
 2.7 Appendix: Maximal Compact Subalgebra of
 𝖘𝖚(2, 2)  𝖘𝖔(4, 2)
 The maximal compact subalgebra of 𝔰𝔲(2, 2) is given by:
-o
- n
+}
+(
+) {
 𝔰 𝔲(2) ⊕ 𝔲(2) = (𝑋, 𝑌 ) ∈ 𝔲(2) ⊕ 𝔲(2) ; Tr(𝑋 + 𝑌 ) = Tr(𝑋) + Tr(𝑌 ) = 0 .
 (2.219)
 Each 𝔲(2) factor admits the decomposition:
@@ -5070,10 +5304,12 @@ Accordingly, the maximal compact subalgebra of 𝔰𝔲(2, 2) reads as:
 2.8 Appendix: Diagonal Inner Products of Real Matrices Representing Imaginary Split-Octonion Units
 61
 
-
+(
+)
 𝔰 𝔲(2) ⊕ 𝔲(2)  𝔰𝔲(2) ⊕ 𝔰𝔲(2) ⊕ 𝔲(1) ,
 or, equivalently, in terms of real Lie algebras:
-
+(
+)
 𝔰 𝔲(2) ⊕ 𝔲(2)  𝔰𝔬(4) ⊕ 𝔰𝔬(2) .
 
 (2.223)
@@ -5081,8 +5317,9 @@ or, equivalently, in terms of real Lie algebras:
 (2.224)
 
 At the group level, the corresponding maximal compact subgroup of SU(2, 2) is:
-o
- n
+}
+(
+) {
 𝑆 U(2) × U(2) = (𝑔 𝐿 , 𝑔 𝑅 ) ∈ U(2) × U(2) ; det(𝑔 𝐿 𝑔 𝑅 ) = det(𝑔 𝐿 ) det(𝑔 𝑅 ) = 1 .
 (2.225)
 Each factor admits the local decomposition:
@@ -5107,7 +5344,8 @@ where 𝑒 i𝜃𝐿 and 𝑒 i𝜃𝑅 denote the phase rotations associated wi
 respectively. This condition removes the overall (diagonal) combination of the two
 U(1) phases, leaving a single residual U(1) generated by the relative phase 𝑒 i( 𝜃𝐿 − 𝜃𝑅 ) .
 Accounting for this shared central identification yields the global structure:
- SU(2) 𝐿 × SU(2) 𝑅 × U(1)
+(
+) SU(2) 𝐿 × SU(2) 𝑅 × U(1)
 ,
 𝑆 U(2) × U(2) 
 Z2
@@ -5119,7 +5357,8 @@ on all representations and enforces the determinant constraint globally.
 
 2.8 Appendix: Diagonal Inner Products of Real Matrices
 Representing Imaginary Split-Octonion Units
-
+{
+}
 Proposition 2.3 The product 𝑚 𝜇 𝑚 𝜈 𝑚 𝜆 , where 𝜇, 𝜈, 𝜆 ∈ 𝚤, 𝚥, ℓ𝚤, 𝚥ℓ, ℓ𝒌 , ℓ , is a
 diagonal 8×8 matrix iff (𝜇, 𝜈, 𝜆) is an associative triple belonging to a split-octonion
 subalgebra such that their product is the unit octonion:
@@ -5143,9 +5382,9 @@ identity, up to a sign (see Remark 2.3):
 𝑚 𝜈 (𝑚 𝜆 𝑥)
 
 = 𝜈(𝜆 𝑥) = (𝜈 𝜆) 𝑥 =
-|
-{z
-}
+⏟
+⏞⏞
+⏟
 
 (𝑚 𝜈 𝑚 𝜆 ) 𝑥 .
 
@@ -5154,13 +5393,15 @@ identity, up to a sign (see Remark 2.3):
 clarification omitted henceforth for simplicity!
 
 Expanding this relation, again up to a sign, we obtain:
-
-
+(
+)
+(
+)
 𝑚 𝜇 𝑚 𝜈 (𝑚 𝜆 𝑥) = 𝑚 𝜇 (𝑚 𝜈 𝑚 𝜆 ) 𝑥 =
 (𝑚 𝜇 𝑚 𝜈 𝑚 𝜆 ) 𝑥 = 𝑥
-|
-{z
-}
+⏟
+⏞⏞
+⏟
 
 .
 
@@ -5172,17 +5413,21 @@ This proves the proposition (=⇒) and also tells us that the diagonal elements 
 the matrix 𝑚 𝜇 𝑚 𝜈 𝑚 𝜆 are 1, up to a sign. The inverse statement (⇐=) of the above,
 however, follows from Moufang’s theorem (see Remark 2.2).
 Here are two examples that differ from 𝐷 = 𝑚 𝚥 𝑚 ℓ 𝑚 𝚥ℓ = 𝑚 5 𝑚 4 𝑚 2 (2.132):
-
- Ê
+(
+)
+(
+) ⨁
 𝐷 ′ 𝑥 = 𝑚 0 𝑚 2 (𝑚 3 𝑥) = 𝚤 𝚥ℓ(ℓ𝒌 𝑥) =
 (𝐷 1𝒌 + 𝐷 05 − 𝐷 12 + 𝐷 34 ) 𝑥 , (2.232)
-
- Ê
+(
+)
+(
+) ⨁
 𝐷 ′′ 𝑥 = 𝑚 5 𝑚 1 (𝑚 3 𝑥) = 𝚥 ℓ𝚤(ℓ𝒌 𝑥) =
 (𝐷 1𝒌 − 𝐷 05 + 𝐷 12 + 𝐷 34 ) 𝑥 ,
 (2.233)
 where
-É 𝑥 ∈ Span{ 𝐴} (see Eqs. (2.60)-(2.62)) and see Sect. 1.2.5.2 for the convention
+⨁ 𝑥 ∈ Span{ 𝐴} (see Eqs. (2.60)-(2.62)) and see Sect. 1.2.5.2 for the convention
 on
 (. . . ).
 □
@@ -5196,12 +5441,14 @@ Ladder Representation of 𝖚(2, 2) as a Quantized
 
 Abstract This chapter develops a rigorous framework for positive-energy ladder
 representations of the conformal Lie algebra:
-
+(
+)
 𝔲(2, 2)  𝔰𝔲(2, 2)  𝔰𝔬(4, 2) ⊕ 𝔲(1) ⊂ 𝔠𝔩(4, 2) ,
 realized as quantized models of massless fields with arbitrary helicity in 4dimensional Minkowski, de Sitter (dS), and anti-dS spacetimes. The construction is
-founded on an invariant bilinear form in the Majorana-spinor space of 𝔠𝔩(4, 2), establishing the geometric basis for the representation
+founded on an invariant bilinear form in the Majorana-spinor space of 𝔠𝔩(4, 2), establishing the geometric basis
 theory. Through the isomorphism
-
+( for the representation
+)
 𝔠𝔩 even (4, 2)  𝔠𝔩(4, 1) ⊃ 𝔰𝔲(2, 2) , an explicit 4 × 4 matrix realization is introduced, encoding conformal symmetry in a computationally tractable spinorial form.
 This provides the foundation for the systematic construction of ladder operators,
 spectral analysis, and conformally covariant field operators.
@@ -5235,7 +5482,8 @@ space of 𝔠𝔩(4, 2) spinors, spanned by the split-octonion units, naturally 
 structure of a composition algebra — nonassociative but alternative. In particular,
 it can be equipped with a real-valued trace, a Cayley-Dickson conjugation, a factorizable quadratic norm 𝑁 (𝜉), and an associated nondegenerate symmetric bilinear
 form ⟨𝜉, 𝜂⟩ such that:
-
+(
+)
 𝑁 (𝜉) = 𝜉𝜉 ∗ = 𝜉 ∗ 𝜉
 = (𝜉1 ) 2 + (𝜉𝒌 ) 2 + (𝜉0 ) 2 + (𝜉5 ) 2 − (𝜉1 ) 2 − (𝜉2 ) 2 − (𝜉3 ) 2 − (𝜉4 ) 2 ,
 
@@ -5243,21 +5491,21 @@ form ⟨𝜉, 𝜂⟩ such that:
 
 where 𝜉 = 𝜉 1 1 + 𝜉 𝒌 𝒌 + 𝜉 0 𝚤 + 𝜉 5 𝚥 + 𝜉 1 ℓ𝚤 + 𝜉 2 𝚥ℓ + 𝜉 3 ℓ𝒌 + 𝜉 4 ℓ ∈ OS , while the star
 ‘∗ ’ changes the sign of the imaginary OS units, and according to Eq. (2.3):
-
-1
+)
+1(
 𝑁 (𝜉 + 𝜂) − 𝑁 (𝜉) − 𝑁 (𝜂)
 2
-
-1
-= 𝜉𝜂∗ + 𝜂𝜉 ∗
+)
+1( ∗
+= 𝜉𝜂 + 𝜂𝜉 ∗
 2
 = 𝜉1 𝜂1 + 𝜉𝒌 𝜂𝒌 + 𝜉0 𝜂0 + 𝜉5 𝜂5 − 𝜉1 𝜂1 − 𝜉2 𝜂2 − 𝜉3 𝜂3 − 𝜉4 𝜂4 . (3.2)
 
 ⟨𝜉, 𝜂⟩ = ⟨𝜂, 𝜉⟩ =
 
 Recall
-that, throughout this work, we employ the simplified index notation 𝜈 ∈
-
+that, throughout this work, we employ the }simplified index notation 𝜈 ∈
+{
 0 := 𝚤, 5 := 𝚥, 1 := ℓ𝚤, 2 := 𝚥ℓ, 3 := ℓ𝒌, 4 := ℓ . This construction yields two
 inequivalent 8-dimensional spinor representations of Spin(4, 4), arising from left
 and right multiplication by split-octonion units, together with a third 8-dimensional
@@ -5266,7 +5514,8 @@ form, which manifests the triality symmetry of the Lie algebra 𝐷 4 (see Refs.
 103], for more details).
 We now reproduce the inner product (3.2) in the chiral (complex) basis of the
 generators Γ𝜈 of 𝔠𝔩(4, 2). The basis generators satisfy the anticommutation relations:
-
+{
+}
 Γ𝜇 , Γ𝜈 = 2𝜂 𝜇𝜈 ,
 (3.3)
 which follow directly from Eq. (2.64). Their behaviour under Hermitian conjugation
@@ -5316,14 +5565,14 @@ a unitary element 𝐵 of 𝔠𝔩(4, 2) satisfying:
 Γ12 𝐵 = 𝐵 Γ12 ,
 Γ34 𝐵 = 𝐵 Γ34 ,
 ⇓
-
+[
 
-
+]
 𝐵, 𝜔(4, 2) = 0 .
 
 (3.5)
 
-
+{ }
 Recall that 𝜔(4, 2) is the 𝔠𝔩(4, 2) volume form in the basis Γ𝜈 (see Eq. (2.163)),
 while the bivector generators Γ𝜇𝜈 are defined in Eq. (2.125).
 Remark 3.1 In the chiral basis of 𝔠𝔩(4, 2), the Clifford generators Γ𝜈 are not all antiHermitian with respect to ordinary Hermitian conjugation (see Eq. (3.4)); this reflects
@@ -5336,14 +5585,10 @@ operators.1 Indeed, with respect to the standard inner product:
 (3.6)
 
 one finds:
+( ∗ )∗
 ∗
 ⟨𝜓, Γ𝜇𝜈 𝜙⟩std = 𝜓 ∗ Γ𝜇𝜈 𝜙 = Γ𝜇𝜈
-𝜓
-
-∗
-
-∗
-𝜙 = ⟨Γ𝜇𝜈
+𝜓 𝜙 = ⟨Γ𝜇𝜈
 𝜓, 𝜙⟩std = ⟨±Γ𝜇𝜈 𝜓, 𝜙⟩std ,
 
 (3.7)
@@ -5385,8 +5630,10 @@ algebra be anti-Hermitian with respect to the chosen inner product, ensuring tha
 3 Ladder Representation of 𝔲 (2, 2) as a Quantized 4-dimensional Realization
 
 with respect to which the generators Γ𝜇𝜈 act anti-Hermitian. Indeed:
-∗
-∗ 
+(
+(
+)∗
+∗ )
 ⟨𝜓, Γ𝜇𝜈 𝜙⟩ 𝐵 = 𝜓 ∗ 𝐵 Γ𝜇𝜈 𝜙 = 𝜓 ∗ − Γ𝜇𝜈
 𝐵 𝜙 = − Γ𝜇𝜈 𝜓 𝐵 𝜙 = ⟨−Γ𝜇𝜈 𝜓, 𝜙⟩ 𝐵 ,
 (3.9)
@@ -5408,39 +5655,43 @@ Remarkably, there exists such a Hermitian unitary 𝐵 ∈ 𝔠𝔩(4, 2) determ
 the above properties up to sign. It turns out that the resulting 𝐵 coincides with the
 𝔠𝔩(4, 0) pseudo scalar:
 𝐵 = 𝑀 (4, 0) = 𝑚 12 𝑚 43 = 𝑈 𝑚 12 𝑚 43 𝑈 −1 = 𝑈 𝑚 12 𝑈 𝑈 −1 𝑚 43 𝑈 −1 = Γ12 Γ43 .
-|
-{z
-}
+⏟
+⏞⏞
+⏟
 since [𝑚12 𝑚43 , 𝑈 ] = 0
 
 (3.10)
-
-
+[
+]
 The commutation relation 𝑚 12 𝑚 43 , 𝑈 = 0 can be verified straightforwardly by
 substituting the explicit form of the unitary transformation 𝑈 from Eq. (2.152),
 making use of Eqs. (2.96), (2.132), and (2.148), and referring to Proposition 2.1.
 Then, the Hermitian unitary operator 𝐵 admits a diagonal form both in the Majorana
 basis (see Eq. (2.128)):
-
- Ê
+(
+)
+(
+) ⨁
 𝐵 𝑥 = 𝐵∗ 𝑥 = 𝑚 12 (𝑚 43 𝑥) = Γ12 Γ43 𝑥 =
 ( 11,𝒌,5,0 − 12,1,4,3 ) 𝑥 , (3.11)
 and in the compact chiral basis (following the procedure described in Eq. (2.185)):
-
- Ê
-
+(
+)
+(
+) ⨁(
+)
 𝐵 𝑦 = 𝐵∗ 𝑦 = 𝑚 12 (𝑚 43 𝑦) = Γ12 Γ43 𝑦 =
-11c𝒌 + ,1c𝒌 − , b
+11ˆ𝒌 + ,1ˆ𝒌 − , ˆ
 − 112
-b +, b
-b− 𝑦 ,
-12 − , b
+ˆ +, ˆ
+ˆ− 𝑦 ,
+12 − , ˆ
 34+ , 34
-05+ , b
+05+ , ˆ
 05 −
 (3.12)
 where 𝑥 ∈ Span{ 𝐴} (see Eqs. (2.60)-(2.62)), 𝑦 ∈ Span{𝑛 𝑎± } (see Eq. (2.169) and
-É
+⨁
 Sect. 2.4.3), and consult Sect. 1.2.5.2 for the convention concerning
 (. . . ). We
 observe that:
@@ -5464,64 +5715,65 @@ form (3.11) reproduces the scalar product (3.2):
 
 (3.14)
 
-
+{
+}
 where 𝐴, 𝐵 = 1, 𝒌, 𝜈 ∈ 0 := 𝚤, 5 := 𝚥, 1 := ℓ𝚤, 2 := 𝚥ℓ, 3 := ℓ𝒌, 4 := ℓ
 (see Eq. (2.60)-(2.62)). Similarly, in the space of 4-component pure chiral spinors3
-c
-b
-b
-b
-𝜓 + = 𝜓 1𝒌 + 𝑛 c + 𝜓 05+ 𝑛 b + 𝜓 12+ 𝑛 b + 𝜓 34+ 𝑛 b displayed in the compact chiral
+ˆ
+ˆ
+ˆ
+ˆ
+𝜓 + = 𝜓 1𝒌 + 𝑛 ˆ + 𝜓 05+ 𝑛 ˆ + 𝜓 12+ 𝑛 ˆ + 𝜓 34+ 𝑛 ˆ displayed in the compact chiral
 34+
 12+
 05+
 1𝒌 +
 basis (see Sect. 2.4.3), where:
- √
-
-c
-c
+( √
+)
+ˆ
+ˆ
 𝜓 1𝒌 + := 2 𝜓 1𝒌 + = 𝜉 1 − i𝜉 𝒌 ,
-
- √
-b
-b
+)
+( √
+ˆ
+ˆ
 𝜓 05+ := 2 𝜓 05+ = 𝜉 0 − i𝜉 5 ,
- √
-
-b
-b
+( √
+)
+ˆ
+ˆ
 𝜓 12+ := 2 𝜓 12+ = 𝜉 1 − i𝜉 2 ,
-
- √
-b
-b
+)
+( √
+ˆ
+ˆ
 𝜓 34+ := 2 𝜓 34+ = 𝜉 3 − i𝜉 4 ,
 (3.15)
 the Hermitian form (3.12) also allows us to reproduce the quadratic norm (3.1):
-b + 05+
-b + 12+
-b + 34+
-𝜓 𝑎+ 𝐵 𝑎+ 𝑏+ 𝜓 𝑏+ = 𝜓 1c𝒌 + 𝜓 1𝒌 + + 𝜓 05
+ˆ + 05+
+ˆ + 12+
+ˆ + 34+
+𝜓 𝑎+ 𝐵 𝑎+ 𝑏+ 𝜓 𝑏+ = 𝜓 1ˆ𝒌 + 𝜓 1𝒌 + + 𝜓 05
 𝜓 − 𝜓 34
 𝜓
 𝜓 − 𝜓 12
-c
+ˆ
 
-b
+ˆ
 
-b
+ˆ
 
-b
+ˆ
 
 = 𝜉12 + (𝜉𝒌 ) 2 + (𝜉0 ) 2 + (𝜉5 ) 2 − (𝜉1 ) 2 − (𝜉2 ) 2 − (𝜉3 ) 2 − (𝜉4 ) 2
 = 𝜉𝜉 ∗ = 𝜉 ∗ 𝜉 = 𝑁 (𝜉) = ⟨𝜉, 𝜉⟩ ,
 
 (3.16)
 
-c+ , while 𝜓 stands for the complex conjugate of 𝜓.
-where 𝑎 + , 𝑏 + = 1c𝒌 + , c
-05+ , c
+ˆ+ , while 𝜓 stands for the complex conjugate of 𝜓.
+where 𝑎 + , 𝑏 + = 1ˆ𝒌 + , ˆ
+05+ , ˆ
 12+ , 34
 
 3.2 Isomorphism of 𝖈𝖑(4, 1) with the Even Part of 𝖈𝖑(4, 2): 4 × 4
@@ -5570,10 +5822,10 @@ that is:
 (3.19)
 
 where we recall that in the chiral (complex) basis (2.169) (see also Eqs. (2.165)(2.168)):
-n
-o
-
-𝔖 = Span 𝑛 𝑎± ; 𝑛 𝑎± = 𝑛 c , 𝑛 b , 𝑛 b , 𝑛 b , and 𝔖+ = Span 𝑛 𝑎+ , (3.20)
+{
+}
+{ }
+𝔖 = Span 𝑛 𝑎± ; 𝑛 𝑎± = 𝑛 ˆ , 𝑛 ˆ , 𝑛 ˆ , 𝑛 ˆ , and 𝔖+ = Span 𝑛 𝑎+ , (3.20)
 1𝒌 ±
 
 05±
@@ -5584,8 +5836,10 @@ o
 
 and in the Majorana (real) basis (2.60)-(2.62) (for connection with the above basis,
 see again Eqs. (2.165)-(2.168)):
-
-
+{
+}
+{
+}
 𝔖 = Span 𝐴 : 𝐴 = 1, 𝒌, 0, 5, 1, 2, 3, 4 , and 𝔖+ = Span 1, 5, 2, 4 .
 (3.21)
 Moreover, for the definitions of 𝐷 in the chiral (complex) and Majorana (real) bases,
@@ -5593,11 +5847,12 @@ respectively, see Eqs. (2.184) and (2.132).
 Remark 3.2 Some remarks on the map Γ 𝛼5 ↦−→ 𝛾 𝛼 (3.17) are as follows:
 1. The above realization of the generators 𝛾 𝛼 of the dS Clifford algebra 𝔠𝔩(4, 1) 
 𝔠𝔩 even (4, 2) follows from the identities:
-
-
-
- 
-
+{
+} {
+}
+[
+] [
+]
 Γ 𝛼5 , Γ𝛽5 = Γ 𝛼 , Γ𝛽 = 2𝜂 𝛼𝛽 , and Γ 𝛼5 , Γ𝛽5 = Γ 𝛼 , Γ𝛽 ,
 (3.22)
 where 𝜂 𝛼𝛽 = diag(−, +, +, +, +), with 𝛼, 𝛽 = 0, 1, 2, 3, 4. These relations show
@@ -5637,7 +5892,7 @@ w(4, 1) 𝑦 := 𝛾05 𝛾15 𝛾25 𝛾35 𝛾45 𝑦
 (3.24)
 
 where 𝑦 ∈ Span{𝑛 𝑎± } and 1 is the unit operator in the totally isotropic space 𝔖+
-spanned by the null vectors 𝑛 c , 𝑛 b , 𝑛 b , 𝑛 b .
+spanned by the null vectors 𝑛 ˆ , 𝑛 ˆ , 𝑛 ˆ , 𝑛 ˆ .
 1𝒌 + 05+ 12+ 34+
 The significance of this result, and in particular the sense in which it constitutes a
 genuine benefit of the present realization, merits a brief clarification. In general,
@@ -5653,38 +5908,39 @@ imposed by hand.
 We proceed to displaying the 4 × 4-matrix realization of the relevant physical
 operators of 𝔠𝔩 even (4, 2) ⊃ 𝔰𝔬(4, 2) ⊃ 𝔰𝔬(4, 1). To begin with, the 4-dimensional
 projection of the Hermitian form 𝐵 (see Eq. (3.11) and (3.12)) is:
-Ê
+⨁
 B 𝑥 := 𝐵 𝐷 + 𝑥 =
 ( 115 − 124 ) 𝐷 + 𝑥 ,
 (3.25)
 B 𝑦 := 𝐵 𝐷 + 𝑦 =
 
-Ê
+⨁(
 
-11c𝒌 + 05
-b + 34
-b + 𝐷+ 𝑦 ,
-b + − 112
-
+11ˆ𝒌 + 05
+ˆ + 34
+ˆ + 𝐷+ 𝑦 ,
+ˆ + − 112
+)
 
 (3.26)
 
 in the Majorana 𝑥 ∈ Span{ 𝐴} (see Eqs. (2.60)-(2.62)) and chiral 𝑦 ∈ Span{𝑛 𝑎± }
-É
+⨁
 bases, respectively. Sect. 1.2.5.2 provides the convention for (. . . ). The (diagonal)
 Cartan elements of the maximal compact subalgebra 𝔰𝔬(2) ⊕ 𝔰𝔬(4) of the 𝔰𝔬(4, 2)
 — specifically, in the chiral basis — are obtained respectively by projecting (2.187),
 (2.188), and (2.189):
-Ê
-
-
+⨁(
+)
+(
+)
 𝛾05 𝑦 = Γ05 𝐷 + 𝑦 = i
 𝐷 12
 (3.27)
-c𝒌 + + 𝐷 34
-b + 𝐷 + 𝑦 = −iB 𝑦 ,
-b + 05
-b +1
+ˆ𝒌 + + 𝐷 34
+ˆ + 𝐷 + 𝑦 = −iB 𝑦 ,
+ˆ + 05
+ˆ +1
 4 Note that 𝜔 (4, 2) can be identified with the third-order Casimir invariant of 𝔰𝔬 (4, 2).
 
 ## PDF page 84
@@ -5695,45 +5951,46 @@ b +1
 
 𝛾12 𝑦 = Γ12 𝐷 + 𝑦 = i
 
-Ê
-
-
-𝐷 1c𝒌 + b
-+ 𝐷b
-12+ b
-34+ 𝐷 + 𝑦 ,
-05+
-
-(3.28)
+⨁(
 
 𝛾34 𝑦 = Γ34 𝐷 + 𝑦 = i
 
-Ê
+⨁(
 
-
-𝐷 1c𝒌 + b
+)
+𝐷 1ˆ𝒌 + ˆ
++ 𝐷ˆ
+12+ ˆ
+34+ 𝐷 + 𝑦 ,
+05+
+)
+𝐷 1ˆ𝒌 + ˆ
 − 𝐷 12
-b+ b
+ˆ+ ˆ
 34+ 𝐷 + 𝑦 ,
 05+
 
-(3.29)
-
 reproducing 𝜔(4, 2) = i1 (see Eq. (2.163)) and similar to Eq. (3.12):
-Ê
-
+⨁(
+)
 B 𝑦 = 𝛾12 𝛾43 𝑦 = Γ12 Γ43 𝐷 + 𝑦 =
-11c𝒌 + 05
-b + 34
-b + 𝐷+ 𝑦 .
-b + − 112
+11ˆ𝒌 + 05
+ˆ + 34
+ˆ + 𝐷+ 𝑦 .
+ˆ + − 112
+
+(3.28)
+
+(3.29)
 
 (3.30)
 
 Remark 3.3 The inner product (3.16) couples the 4-dimensional
-pure conformal
-
-
+pure
+)
+( conformal
+)
+(
 chiral spinors 𝜓 + in 𝔖+ to their complex conjugate 𝜓 − = 𝜓 + in 𝔖− = 𝔖+ ; the
 4-dimensional representations of 𝔰𝔬(4, 1) ⊂ 𝔰𝔬(4, 2) in the chiral subspaces 𝔖+ and
 𝔖− are equivalent. The covariant transformation of charge conjugation 𝜓 ↦−→ 𝜓 𝑐
@@ -5746,7 +6003,7 @@ Eq. (2.156) ;
 
 Γ5 𝑥 = 𝑚 5 𝐸 𝑥 = 𝑚 0 𝑚 1 𝑚 2 𝑚 3 𝑚 4 𝑥 =
 
-Ê
+⨁
 
 (3.31)
 
@@ -5757,9 +6014,11 @@ Note that i𝐷 and Γ5 generate a 𝔰𝔲(2) Lie algebra.
 
 □
 
-3.3 Positive Energy Ladder Representations
+3.3 Positive Energy Ladder
+Representations
 of
-
+(
+)
 𝖚(2, 2)  𝖘𝖚(2, 2)  𝖘𝖔(4, 2) ⊕ 𝖚(1) ⊂ 𝖈𝖑(4, 2) Describing
 Massless Particles of Any Helicity
 We now present an updated treatment of the 1969 construction [13] of irreducible
@@ -5769,22 +6028,22 @@ An intermediate step toward this construction was given in Ref. [106], where the
 algebra 𝔲(2, 2) was embedded in 𝔠𝔩(4, 1).
 The idea is to view the components of the conformal chiral semispinors 𝜓 + ,
 denoted here by 𝜑 and its Dirac conjugate 𝜑
-e = 𝜑∗ B, as bosonic creation and annihi5
+˜ = 𝜑∗ B, as bosonic creation and annihi5
 lation operators. More precisely, we postulate that 𝜑 ∈ 𝔖+ and 𝜑
-e ∈ 𝔖− satisfy the
+˜ ∈ 𝔖− satisfy the
 canonical commutation relations:
- 𝑎 𝑎′ 
- 𝑎
-
-
-
+[ 𝑎 𝑎′ ]
+[ 𝑎
+]
+[
+]
 𝜑 ,𝜑
 = 0,
 𝜑 ,𝜑
-e𝑎′ = 𝛿 𝑎𝑎′ ,
+˜𝑎′ = 𝛿 𝑎𝑎′ ,
 𝜑
-e𝑎 , 𝜑
-e𝑎′ = 0 ,
+˜𝑎 , 𝜑
+˜𝑎′ = 0 ,
 (3.33)
 5 See Ref. [13] for references to earlier work on such representations, including the 1962 book by B.
 
@@ -5792,47 +6051,52 @@ Kursunoglu, which is now recognized as a key reference in the field alongside mo
 
 ## PDF page 85
 
-
+(
+)
 3.3 Positive Energy Ladder Representations of 𝔲 (2, 2)  𝔰𝔲 (2, 2)  𝔰𝔬 (4, 2) ⊕𝔲 (1) ⊂ 𝔠𝔩 (4, 2) Describing Massless Particles of Any Helici
 
-where 𝜑
-e𝑎′ = 𝜑∗𝑏 B𝑏𝑎′ , with 𝑎, 𝑎 ′ , 𝑏 = 1c𝒌 + , c
-05+ , c
-12+ , c
+where
+𝜑
+˜𝑎′ )= 𝜑∗𝑏 B𝑏𝑎′ , with 𝑎, 𝑎 ′ , 𝑏 = 1ˆ𝒌 + , ˆ
+05+ , ˆ
+12+ , ˆ
 34+ (see Sect. 2.4.3), and
+(
 B = 𝐵 𝐷 + is the 4-dimensional (reduced) Hermitian form (3.26).
 One can construct two series of unitary irreducible representations (UIRs) of the
 𝔲(2, 2) Lie algebra with the “second-quantized” ladder operators:
 𝐽 𝜇𝜈 =
 
-
-1
+)
+1(
 𝜑
-e 𝛾 𝜇𝜈 𝜑 ,
+˜ 𝛾 𝜇𝜈 𝜑 ,
 2
 
 or, more explicitly,
 
 𝐽 𝜇𝜈 =
 
-
-1 
+)
+1 (
 𝜑
-e𝑎 (𝛾 𝜇𝜈 ) 𝑏𝑎 𝜑 𝑏 ,
+˜𝑎 (𝛾 𝜇𝜈 ) 𝑏𝑎 𝜑 𝑏 ,
 2
 
 (3.34)
 
-where 𝑎, 𝑏 = 1c𝒌 + , c
-05+ , c
-12+ , c
+where 𝑎, 𝑏 = 1ˆ𝒌 + , ˆ
+05+ , ˆ
+12+ , ˆ
 34+ , while 𝜇, 𝜈 = 0, 5, 1, 2, 3, 4, 𝛾 𝜇𝜈 = −𝛾 𝜈 𝜇 , and:
-
+(
+)
 𝛾𝑖5 =: 𝛾𝑖 = Γ𝑖5 𝐷 + ,
 
 and
 
-
+(
+)
 𝛾05 =: 𝛾 0 = Γ05 𝐷 + ,
 
 (3.35)
@@ -5849,14 +6113,16 @@ and
 where 𝑖, 𝑗 = 1, 2, 3, 4.
 Remark 3.4 The bilinear operators 𝐽 𝜇𝜈 introduced in Eq. (3.34) furnish an explicit
 realization of the Lie algebra 𝔰𝔲(2, 2)  𝔰𝔬(4, 2) acting on the spinor space:6
-e 𝛾 𝜇𝜈 𝜑
+˜ 𝛾 𝜇𝜈 𝜑
 1. Algebra closure and commutation relations: The bilinears 𝐽 𝜇𝜈 = 12 𝜑
 form a closed representation of the Lie algebra 𝔰𝔬(4, 2), as they satisfy the same
 commutation relations as the matrix-valued generators 21 𝛾 𝜇𝜈 :
 
 6 It is important to note that the Lie algebra 𝔲 (2, 2)  𝔰𝔲 (2, 2)
 
-
+(
+
+)
  𝔰𝔬 (4, 2) ⊕ 𝔲 (1) ⊂ 𝔠𝔩 (4, 2)
 contains, in addition to the “second-quantized” conformal generators 𝐽𝜇𝜈 ∈ 𝔰𝔲 (2, 2)  𝔰𝔬 (4, 2),
 a central 𝔲 (1) generator, which commutes with all elements of the algebra. In the setting involving
@@ -5869,52 +6135,52 @@ discussion of this point will be given later; see Eq. (3.64) and the subsequent 
 
 72
 
-
+[
 
- 1
-
+] 1[
+]
 𝐽 𝜇𝜈 , 𝐽𝜆𝜎 =
 𝜑
-e𝑎 (𝛾 𝜇𝜈 ) 𝑏𝑎 𝜑 𝑏 , 𝜑
-e𝑐 (𝛾𝜆𝜎 ) 𝑑𝑐 𝜑 𝑑
+˜𝑎 (𝛾 𝜇𝜈 ) 𝑏𝑎 𝜑 𝑏 , 𝜑
+˜𝑐 (𝛾𝜆𝜎 ) 𝑑𝑐 𝜑 𝑑
 4
-
-
-
-1
+[
+]
+]
+1[
 1
 = 𝜑
-e𝑎 (𝛾 𝜇𝜈 ) 𝑏𝑎 𝜑 𝑏 , 𝜑
-e𝑐 (𝛾𝜆𝜎 ) 𝑑𝑐 𝜑 𝑑 +
+˜𝑎 (𝛾 𝜇𝜈 ) 𝑏𝑎 𝜑 𝑏 , 𝜑
+˜𝑐 (𝛾𝜆𝜎 ) 𝑑𝑐 𝜑 𝑑 +
 𝜑
-e𝑎 (𝛾 𝜇𝜈 ) 𝑏𝑎 , 𝜑
-e𝑐 (𝛾𝜆𝜎 ) 𝑑𝑐 𝜑 𝑏 𝜑 𝑑
+˜𝑎 (𝛾 𝜇𝜈 ) 𝑏𝑎 , 𝜑
+˜𝑐 (𝛾𝜆𝜎 ) 𝑑𝑐 𝜑 𝑏 𝜑 𝑑
 4
-4|
-|
-{z
-}
-{z
-}
+4⏟
+⏟
+⏞⏞
+⏟
+⏞⏞
+⏟
 =0
 
 = 𝛿𝑐𝑏 (𝛾𝜆𝜎 ) 𝑑𝑐
 
-
- 1
-
-
+[
+] 1
+[
+]
 1
-e𝑐 (𝛾𝜆𝜎 ) 𝑑𝑐 𝜑
-e𝑎 (𝛾 𝜇𝜈 ) 𝑏𝑎 𝜑 𝑏 , 𝜑 𝑑 + 𝜑
-e𝑐 (𝛾𝜆𝜎 ) 𝑑𝑐 𝜑
-e𝑎 (𝛾 𝜇𝜈 ) 𝑏𝑎 , 𝜑 𝑑 𝜑 𝑏
+˜𝑐 (𝛾𝜆𝜎 ) 𝑑𝑐 𝜑
+˜𝑎 (𝛾 𝜇𝜈 ) 𝑏𝑎 𝜑 𝑏 , 𝜑 𝑑 + 𝜑
+˜𝑐 (𝛾𝜆𝜎 ) 𝑑𝑐 𝜑
+˜𝑎 (𝛾 𝜇𝜈 ) 𝑏𝑎 , 𝜑 𝑑 𝜑 𝑏
 + 𝜑
 4
-| {z } 4
-|
-{z
-}
+⏟ ⏞⏞ ⏟ 4
+⏟
+⏞⏞
+⏟
 =0
 
 =
@@ -5923,28 +6189,29 @@ e𝑎 (𝛾 𝜇𝜈 ) 𝑏𝑎 , 𝜑 𝑑 𝜑 𝑏
 
 1
 𝜑
-e (𝛾 𝜇𝜈 ) 𝑏𝑎 (𝛾𝜆𝜎 ) 𝑑𝑏 − (𝛾𝜆𝜎 ) 𝑏𝑎 (𝛾 𝜇𝜈 ) 𝑑𝑏 𝜑 𝑑
+˜ (𝛾 𝜇𝜈 ) 𝑏𝑎 (𝛾𝜆𝜎 ) 𝑑𝑏 − (𝛾𝜆𝜎 ) 𝑏𝑎 (𝛾 𝜇𝜈 ) 𝑑𝑏 𝜑 𝑑
 4 𝑎
-|
-{z
-}
-
+⏟
+⏞⏞
+⏟
+(
 
-
+)
 
 by reassigning the dummy indices
 
-
-1 
+]
+1 [
 = 𝜑
-e 𝛾 𝜇𝜈 , 𝛾𝜆𝜎 𝜑
+˜ 𝛾 𝜇𝜈 , 𝛾𝜆𝜎 𝜑
 4
-
-1
-e 𝜂 𝜈𝜆 𝛾 𝜇 𝜎 − 𝜂 𝜇𝜆 𝛾 𝜈 𝜎 − 𝜂 𝜈 𝜎 𝛾 𝜇𝜆 + 𝜂 𝜇 𝜎 𝛾 𝜈𝜆 𝜑
+)
+1 (
+˜ 𝜂 𝜈𝜆 𝛾 𝜇 𝜎 − 𝜂 𝜇𝜆 𝛾 𝜈 𝜎 − 𝜂 𝜈 𝜎 𝛾 𝜇𝜆 + 𝜂 𝜇 𝜎 𝛾 𝜈𝜆 𝜑
 = 𝜑
 2
-
+(
+)
 = 𝜂 𝜈𝜆 𝐽 𝜇 𝜎 − 𝜂 𝜇𝜆 𝐽𝜈 𝜎 − 𝜂 𝜈 𝜎 𝐽 𝜇𝜆 + 𝜂 𝜇 𝜎 𝐽𝜈𝜆 ,
 
 (3.37)
@@ -5956,32 +6223,41 @@ identity above, we make use of the following formula:
 (3.38)
 
 2. Chirality preservation: The full set {𝛾 𝜇𝜈 } preserves chirality, since each 𝛾 𝜇𝜈
-
-
+[
+]
 commutes with the “chirality matrix” 𝜔(4, 2), that is 𝛾 𝜇𝜈 , 𝜔(4, 2) = 0 (see also
 Eqs. (2.186) and (2.190)). Specifically, we have:
-
-
-
+(
+)
+(
+)
+(
+)
 𝜔(4, 2) 𝛾 𝜇𝜈 𝜑 = 𝛾 𝜇𝜈 𝜔(4, 2)𝜑 = +i 𝛾 𝜇𝜈 𝜑 ,
 (3.39)
-
-
-
+(
+
+)
+(
+)
+(
+)
 𝜑
-e 𝛾 𝜇𝜈 𝜔(4, 2) = 𝜑
-e 𝜔(4, 2) 𝛾 𝜇𝜈 = −i 𝜑
-e 𝛾 𝜇𝜈 ,
+˜ 𝛾 𝜇𝜈 𝜔(4, 2) = 𝜑
+˜ 𝜔(4, 2) 𝛾 𝜇𝜈 = −i 𝜑
+˜ 𝛾 𝜇𝜈 ,
 
 (3.40)
 
-
-
+(
+)
+(
+)
 meaning that each chiral subspace 𝔖+ = Span{𝜑} or 𝔖− = Span{ 𝜑
-e}
+˜}
 is invariant under the action of 𝛾 𝜇𝜈 . Therefore, the bilinear operators 𝐽 𝜇𝜈 =
 1
-e 𝛾 𝜇𝜈 𝜑) are well-defined on each chiral subspace, in the sense that 𝛾 𝜇𝜈 does not
+˜ 𝛾 𝜇𝜈 𝜑) are well-defined on each chiral subspace, in the sense that 𝛾 𝜇𝜈 does not
 2 (𝜑
 mix the chiralities, yielding a closed representation of 𝔰𝔬(4, 2) on each subspace.
 3. Faithfulness of the chiral spinor representation: The chiral spinor representation
@@ -5994,7 +6270,8 @@ Mat(4, C) and has complex dimension 16.
 
 ## PDF page 87
 
-
+(
+)
 3.3 Positive Energy Ladder Representations of 𝔲 (2, 2)  𝔰𝔲 (2, 2)  𝔰𝔬 (4, 2) ⊕𝔲 (1) ⊂ 𝔠𝔩 (4, 2) Describing Massless Particles of Any Helici
 
 b. The 15 antisymmetric matrices 𝛾 𝜇𝜈 , obtained by restricting to a fixed chiral subspace, are linearly independent and satisfy the 𝔰𝔬(4, 2) Lie algebra
@@ -6008,7 +6285,7 @@ Note: This key fact will be illustrated explicitly in the realization presented 
 Eqs. (3.99)-(3.114).
 Note: If the chiral spinor representation on either 𝔖+ or 𝔖− were not faithful, then
 distinct elements of 𝔰𝔬(4, 2) could act identically on the corresponding subspace.
-e 𝛾 𝜇𝜈 𝜑) would generate only a smaller algebra
+˜ 𝛾 𝜇𝜈 𝜑) would generate only a smaller algebra
 In that case, the bilinears 𝐽 𝜇𝜈 = 21 ( 𝜑
 — either the quotient of 𝔰𝔬(4, 2) by the kernel of the representation, or, in certain
 realizations, a proper subalgebra corresponding to a restricted set of generators.
@@ -6017,19 +6294,21 @@ representation would effectively “forget” that portion of the algebraic stru
 □
 From now on, we focus on a series of the U(2, 2) representations characterized by
 7
-a lowest weight state, treated as a “Fock vacuum” |0SO(4)
- ⟩ that transforms as a singlet
+a lowest weight state, treated as a “Fock vacuum”
+|0SO(4)
+(
+) ⟩ that transforms as a singlet
 under the maximal compact subgroup S U(2) × U(2)  SO(4) × U(1) of SU(2, 2),
 more specifically under the SO(4) factor, and such that the conformal Hamiltonian
 𝐻 8 (i.e., the U(1) generator of the subgroup) is bounded from below:
 𝐻 := i𝐽05 =
 
- 1
-
-1
+) 1(
+)
+1(
 𝜑
-e i𝛾05 𝜑 = 𝜑
-e i𝛾 0 𝜑 ⩾ 1 ,
+˜ i𝛾05 𝜑 = 𝜑
+˜ i𝛾 0 𝜑 ⩾ 1 ,
 2
 2
 
@@ -6040,7 +6319,7 @@ and
 The identification of |0SO(4) ⟩ with a “Fock vacuum” presupposes singling out the
 creation and annihilation:
 P+ 𝜑 |0SO(4) ⟩ = 0 = 𝜑
-e P− |0SO(4) ⟩ ,
+˜ P− |0SO(4) ⟩ ,
 
 where
 
@@ -6127,20 +6406,21 @@ and
 
 where 𝑖 = 1, 2, 3, 4.
 Proposition 3.1 With the above in mind, and under the aforementioned convention
-— namely, the basis ordered as 𝑛 c , 𝑛 b , 𝑛 b , 𝑛 b — we introduce the following
+— namely, the basis ordered as 𝑛 ˆ , 𝑛 ˆ , 𝑛 ˆ , 𝑛 ˆ — we introduce the following
 1𝒌 + 05+ 12+ 34+
 4 × 4 matrix representations for the 𝛾-matrices:
-
-
-
+(
+)
+(
+)
 𝜎 0
 𝛾0 = −𝛾 0 := −𝛾05 = i𝜎3 ⊗ 𝜎0 = i 0
 = iB ,
 (3.47)
 0 −𝜎0
-
+(
 
-
+)
 0 E𝑖
 𝛾𝑖 := 𝛾𝑖5 = ∗
 ,
@@ -6151,26 +6431,26 @@ E𝑖 0
 (3.48)
 
 where:
-
+(
 
-
+)
 01
 E1 = i𝜎1 = i
 ,
 10
-
-
+(
+)
 0 −i
 E2 = i𝜎2 = i
 ,
 i 0
-
-
+(
+)
 1 0
 E3 = i𝜎3 = i
 ,
 0 −1
- 
+( )
 10
 E4 = 𝜎0 =
 = 12 ,
@@ -6183,7 +6463,8 @@ quaternionic algebra — sometimes referred to as the “opposite” or “conju
 
 ## PDF page 89
 
-
+(
+)
 3.3 Positive Energy Ladder Representations of 𝔲 (2, 2)  𝔰𝔲 (2, 2)  𝔰𝔬 (4, 2) ⊕𝔲 (1) ⊂ 𝔠𝔩 (4, 2) Describing Massless Particles of Any Helici
 
 overall sign flip compared to the standard quaternion multiplication rules; this reversal, highlighted below using quotation marks (‘−’). This subtle modification leads
@@ -6203,7 +6484,7 @@ E3∗ = −E3 , E4∗ = E4 .
 
 Correspondingly, the 8 × 8 Γ-matrices are set to be:
 Γ0 = 𝜎1 ⊗ 𝛾 0 ,
-
+)
 0 −1
 𝜖 =
 ,
@@ -6221,7 +6502,7 @@ Correspondingly, the 8 × 8 Γ-matrices are set to be:
 
 ∗
 
-
+(
 
 (3.51)
 
@@ -6233,26 +6514,26 @@ Proof (consistency check). The consistency of the above setup is ensured by the
 fact that all algebraic relations within each realization — namely, among the 𝛾 and
 among the Γ matrices — are explicitly satisfied. For example:
 1. Recalling that the basis used in the matrix representations (3.47) and (3.48) is
-ordered as 𝑛 c , 𝑛 b , 𝑛 b , 𝑛 b , one readily verifies that the matrix realization of
+ordered as 𝑛 ˆ , 𝑛 ˆ , 𝑛 ˆ , 𝑛 ˆ , one readily verifies that the matrix realization of
 1𝒌 + 05+ 12+ 34+
 𝛾05 in (3.47) precisely coincides with that given in (3.27).
 2. The matrix representations given in (3.47) and (3.48) for 𝛾0 := −𝛾05 and 𝛾𝑖 := 𝛾𝑖5
 (𝑖 = 1, 2, 3, 4) satisfy the commutation relations of the Lie algebra 𝔰𝔲(2, 2) 
 𝔰𝔬(4, 2) — more specifically, those of the subalgebra 𝔰𝔬(4, 1) ⊂ 𝔰𝔬(4, 2); for
 instance, we have:
-
-
-
-
+(
+)
+[
+]
 E 0
 𝛾15 , 𝛾25 = 2 3
 = 2𝛾12 , (see Eq. (3.28)) ,
 (3.52)
 0 E3
-
-
-
-
+(
+)
+[
+]
 E 0
 𝛾35 , 𝛾45 = 2 3
 = 2𝛾34 , (see Eq. (3.29)) .
@@ -6266,20 +6547,20 @@ E 0
 
 76
 
-
+(
 w(4, 1) = 𝛾05 𝛾12 𝛾34 = −i
 
 𝜎0 0
 0 −𝜎0
 
-
+)(
 
 E3 0
 0 E3
 
-
+)(
 
-
+)
 E3 0
 = i14 ,
 0 −E3
@@ -6296,7 +6577,8 @@ or similarly considering the realization given in (3.51):
 which is compatible with (3.24).
 4. The Γ-matrices (3.51) satisfy the anticommutation relations of the Clifford algebra
 𝔠𝔩(4, 2), namely:
-
+{
+}
 Γ𝜇 , Γ𝜈 = 2𝜂 𝜇𝜈 1 ,
 (3.56)
 where, as before, the indices run over 𝜇, 𝜈 = 0, 5, 1, 2, 3, 4, and the metric is
@@ -6309,42 +6591,47 @@ where, as before, the indices run over 𝜇, 𝜈 = 0, 5, 1, 2, 3, 4, and the me
 and
 
 □
-In the B-diagonal basis, ordered as 𝑛 c , 𝑛 b , 𝑛 b , 𝑛 b (see Eq. (3.47)), we
+In the B-diagonal basis, ordered as 𝑛 ˆ , 𝑛 ˆ , 𝑛 ˆ , 𝑛 ˆ (see Eq. (3.47)), we
 1𝒌 + 05+ 12+ 34+
 implement (3.42) by introducing two types of creation and annihilation operators 𝔞
 (resp. 𝔞 ∗ ) and 𝔟 (resp. 𝔟∗ ):
- 
-
+( )
+(
+)
 𝔞
 𝜑 = ∗ , and 𝜑
-e = 𝜑∗ B = 𝔞 ∗ −𝔟 ,
+˜ = 𝜑∗ B = 𝔞 ∗ −𝔟 ,
 (3.58)
 𝔟
 where:9
-
+(
+)
 𝔞 = 𝔞 𝐴 ; 𝐴 = 1, 2 ,
 
 and
 
-
+(
+)
 𝔞 ∗ = 𝔞 ∗𝐴 ; 𝐴 = 1, 2 ,
 
 (3.59)
 
-
+(
+)
 𝔟 = 𝔟 𝐵 ; 𝐵 = 1, 2 ,
 
 and
 
-
+(
+)
 𝔟∗ = 𝔟∗𝐵 ; 𝐵 = 1, 2 ,
 
 (3.60)
 
 such that the nonvanishing canonical commutation relations, consistent with those
 in Eq. (3.33), are:
- 𝐴′ ∗ 
- 𝐵′ ∗ 
+[ 𝐴′ ∗ ]
+[ 𝐵′ ∗ ]
 ′
 𝐵′
 𝔞 , 𝔞 𝐴 = 𝛿 𝐴𝐴 ,
@@ -6358,8 +6645,10 @@ Moreover, consistent with Eq. (3.42), we have:
 
 (3.62)
 
-On this basis, the conformal Hamiltonian 𝐻 (3.41)
- — namely, the U(1) generator
+On this basis, the conformal Hamiltonian
+𝐻 (3.41)
+(
+) — namely, the U(1) generator
 of the maximal compact subgroup S U(2) × U(2)  SO(4) × U(1) of SU(2, 2) —
 9 It is clear that the index 𝐴 here must be distinguished from the one previously used to label the
 
@@ -6367,41 +6656,43 @@ set of split-octonion units (see Eqa. (2.60)-(2.62)).
 
 ## PDF page 91
 
-
+(
+)
 3.3 Positive Energy Ladder Representations of 𝔲 (2, 2)  𝔰𝔲 (2, 2)  𝔰𝔬 (4, 2) ⊕𝔲 (1) ⊂ 𝔠𝔩 (4, 2) Describing Massless Particles of Any Helici
 
 takes the explicit form:
 𝐻 = i𝐽05 =
 
- 1
- 1
-
-1
+) 1(
+) 1(
+)
+1(
 𝜑
-e i𝛾05 𝜑 = 𝜑
-e i𝛾 0 𝜑 = 𝔞 ∗ 𝔞 + 𝔟 𝔟∗
+˜ i𝛾05 𝜑 = 𝜑
+˜ i𝛾 0 𝜑 = 𝔞 ∗ 𝔞 + 𝔟 𝔟∗
 2
 2
 2
-
-1
+)
+1(
 = 𝔞 1∗ 𝔞 1 + 𝔞 2∗ 𝔞 2 + 𝔟1 𝔟∗1 + 𝔟2 𝔟∗2 , (3.63)
 2
 
 which explicitly satisfies (𝐻 − 1) |0SO(4) ⟩ = 0.
-For an irreducible representation (IR) of U(2, 2), the Lie algebra 𝔲(2, 2) 
+For an
+( irreducible) representation (IR) of U(2, 2), the Lie algebra 𝔲(2, 2) 
 𝔰𝔲(2, 2)  𝔰𝔬(4, 2) ⊕ 𝔲(1) includes, in addition to the conformal generators
 𝐽 𝜇𝜈 ∈ 𝔰𝔲(2, 2)  𝔰𝔬(4, 2), a central 𝔲(1) generator which commutes with all elements of the algebra. We denote this central element by C1 , which takes the explicit
 form:10
 C1 = 𝜑
-e 𝜑 = 𝔞 ∗ 𝔞 − 𝔟 𝔟∗ = 𝔞 ∗ 𝔞 − (𝔟∗ 𝔟 + 2) .
+˜ 𝜑 = 𝔞 ∗ 𝔞 − 𝔟 𝔟∗ = 𝔞 ∗ 𝔞 − (𝔟∗ 𝔟 + 2) .
 
 (3.64)
 
 Following steps analogous to those used in deriving Eq. (3.37), one readily verifies
 that:
-
-
+[
+]
 𝐽 𝜇𝜈 , C1 = 0 ,
 (3.65)
 for all 𝜇, 𝜈 = 0, 5, 1, 2, 3, 4. It is important to emphasize that the “second-quantized”
@@ -6413,15 +6704,15 @@ well-defined spectrum. Since the bosonic operators 𝑁𝔞 := 𝔞 ∗ 𝔞 and
 act on the Fock space, are number operators with non-negative integer eigenvalues,
 their difference has integer eigenvalues in the Fock space realization. Thus, we can
 write:
-n
-o
+{
+}
 1
 (3.66)
 𝔞 ∗ 𝔞 − 𝔟∗ 𝔟 =: 2𝜆 , with 𝜆 ∈ Z = 0, ± 12 , ±1, . . . .
 2
 Substituting into Eq. (3.64), we obtain:
 C1 = 𝜑
-e 𝜑 = 𝔞 ∗ 𝔞 − 𝔟 𝔟∗ = 𝔞 ∗ 𝔞 − 𝔟∗ 𝔟 − 2 =: 2(𝜆 − 1) ∈ Z .
+˜ 𝜑 = 𝔞 ∗ 𝔞 − 𝔟 𝔟∗ = 𝔞 ∗ 𝔞 − 𝔟∗ 𝔟 − 2 =: 2(𝜆 − 1) ∈ Z .
 
 (3.67)
 
@@ -6432,12 +6723,12 @@ analog of helicity — characterizing massless conformal particles in 4 dimensio
 
 10 At this point, it is important to emphasize a subtle but significant detail:
 
-
+[
 
- 
- 
- 
-
+] [
+] [
+] [
+]
 𝔟, 𝔟∗ = 𝔟1 + 𝔟2 , 𝔟∗1 + 𝔟∗2 = 𝔟1 , 𝔟∗1 + 𝔟2 , 𝔟∗2 = 2 .
 
 ## PDF page 92
@@ -6499,7 +6790,7 @@ and:
 C2𝔰𝔲 (2,2) = − 𝐽 𝜇𝜈 𝐽 𝜇𝜈 = − 𝐽 𝛼𝛽 𝐽 𝛼𝛽 −𝐽 𝛼5 𝐽 𝛼5 = −3(𝜆2 − 1) ,
 2
 2
-| {z }
+⏟ ⏞⏞ ⏟
 
 (3.72)
 
@@ -6510,7 +6801,8 @@ C2𝔰𝔲 (2,2) = − 𝐽 𝜇𝜈 𝐽 𝜇𝜈 = − 𝐽 𝛼𝛽 𝐽 𝛼
 where 𝛼, 𝛽 = 0, 1, 2, 3, 4 and 𝜇, 𝜈 = 0, 5, 1, 2, 3, 4.
 
 11 The presence of ‘i’ in the exponent, together with the Hermiticity of
-∗
+(
+)∗
 
 representation 𝑈 ( 𝜃 ) is unitary; 𝑈 ( 𝜃 ) 𝑈 ( 𝜃 )
 
@@ -6520,7 +6812,8 @@ C1 , ensures that the
 
 ## PDF page 93
 
-
+(
+)
 3.3 Positive Energy Ladder Representations of 𝔲 (2, 2)  𝔰𝔲 (2, 2)  𝔰𝔬 (4, 2) ⊕𝔲 (1) ⊂ 𝔠𝔩 (4, 2) Describing Massless Particles of Any Helici
 
 This proposition reflects a general feature of IRs, where Casimir operators act as
@@ -6533,8 +6826,8 @@ proof rests on the following essential tensor identity:
 
 (3.73)
 
-
-
+[
+]
 where A and B are constants to be determined and 𝛾 𝜇𝜈 = 12 𝛾 𝜇 , 𝛾 𝜈 . Let us first
 justify the validity of this ansatz.
 In even-dimensional spaces of dimension d (as in our case, d = 6), the Dirac
@@ -6542,13 +6835,13 @@ spinor representation has dimension 𝑁 = 2d/2 , so the space of all 𝑁 × �
 acting on spinors has dimension 𝑁 2 = 2d . The corresponding Clifford algebra
 provides a natural basis for this matrix space. Strictly speaking, it consists of the
 antisymmetrized products of gamma matrices:
-n
-o
+{
+}
 1, 𝛾 𝜇 , 𝛾 𝜇𝜈 , 𝛾 𝜇𝜈𝜌 , . . . , 𝛾 𝜇1 ...𝜇d ,
 (3.74)
-which are linearly independent and span the entire space of operatorsÍ
+which are linearly independent and span the entire space of operators∑
 on spinor
- space;
+( ) space;
 one observes that the number of independent elements in this set is d𝑘=0 d𝑘 = 2d =
 𝑁 2 , exactly matching the dimension of the matrix space. Consequently, any matrix
 𝑀 acting on spinors can be expressed as a linear combination of the corresponding
@@ -6615,7 +6908,8 @@ With the expansion (3.73) established, we now aim to determine the constants A
 and B. To this end, we make use of standard trace identities of the Clifford algebra in
 d dimensions (applicable to both odd and even d; here d = 6). The general identity
 in d dimensions, for spinors of dimension 𝑁 (here 𝑁 = 413 ), reads:
-
+(
+)
 d(d − 1)
 ,
 Tr 𝛾 𝜇𝜈 𝛾 𝜇𝜈 = 𝑁
@@ -6632,7 +6926,8 @@ with
 (3.81)
 
 where for 𝔰𝔬(4, 2), with d = 6 and 𝑁 = 4, is:
-
+(
+)
 6×5
 Tr 𝛾 𝜇𝜈 𝛾 𝜇𝜈 = 4
 = 60 ,
@@ -6652,8 +6947,10 @@ Keeping this in mind, let us proceed by taking two traces of (3.73):
 
 2. Contract 𝑎 = 𝑏, 𝑐 = 𝑑:
 
-
-
+)
+(
+)
+(
 since Tr 𝛾 𝜇𝜈 = Tr 21 [𝛾 𝜇 , 𝛾 𝜈 ] = 0 (see Eqs. (2.11) and (2.13)).
 Accordingly, we obtain A = 4 and B = −1, and hence:
 (𝛾 𝜇𝜈 ) 𝑏𝑎 (𝛾 𝜇𝜈 ) 𝑑𝑐 = 4 𝛿 𝑑𝑎 𝛿 𝑏𝑐 − 𝛿 𝑏𝑎 𝛿 𝑑𝑐 .
@@ -6668,7 +6965,8 @@ now in a position to establish Eq. (3.72) rigorously:
 
 ## PDF page 95
 
-
+(
+)
 3.3 Positive Energy Ladder Representations of 𝔲 (2, 2)  𝔰𝔲 (2, 2)  𝔰𝔬 (4, 2) ⊕𝔲 (1) ⊂ 𝔠𝔩 (4, 2) Describing Massless Particles of Any Helici
 
 − C2𝔰𝔲 (2,2) =
@@ -6679,84 +6977,83 @@ now in a position to establish Eq. (3.72) rigorously:
 𝐽 𝜇𝜈 𝐽 𝜇𝜈
 2
 0≤ 𝜇<𝜈 ≤5
-
-
-1
+)
+1 ( 𝜇𝜈 ) (
 𝜑
-e 𝛾 𝜇𝜈 𝜑 𝜑
-e 𝛾 𝜇𝜈 𝜑
+˜𝛾 𝜑 𝜑
+˜ 𝛾 𝜇𝜈 𝜑
 4
-
-
-1
+)(
+)
+1(
 𝜑
-e𝑎 (𝛾 𝜇𝜈 ) 𝑏𝑎 𝜑 𝑏 𝜑
-e𝑐 (𝛾 𝜇𝜈 ) 𝑑𝑐 𝜑 𝑑
+˜𝑎 (𝛾 𝜇𝜈 ) 𝑏𝑎 𝜑 𝑏 𝜑
+˜𝑐 (𝛾 𝜇𝜈 ) 𝑑𝑐 𝜑 𝑑
 =
 4
-
-
-
-
+)
+(
+)(
+)(
 1
 = 𝜑
-e𝑎 𝜑 𝑏 𝜑
-e𝑐 𝜑 𝑑 𝛿 𝑑𝑎 𝛿 𝑏𝑐 − 𝛿 𝑏𝑎 𝛿 𝑑𝑐
+˜𝑎 𝜑 𝑏 𝜑
+˜𝑐 𝜑 𝑑 𝛿 𝑑𝑎 𝛿 𝑏𝑐 − 𝛿 𝑏𝑎 𝛿 𝑑𝑐
 4
-
- 1
-e𝑎 𝜑 𝑎 ) ( 𝜑
-e𝑐 𝜑 𝑐 )
+(
+) 1
+˜𝑎 𝜑 𝑎 ) ( 𝜑
+˜𝑐 𝜑 𝑐 )
 = 𝜑
-e𝑎 𝜑 𝑏 𝜑
-e𝑏 𝜑 𝑎 − ( 𝜑
+˜𝑎 𝜑 𝑏 𝜑
+˜𝑏 𝜑 𝑎 − ( 𝜑
 4
-
-
-
-
+(
+)
+[
+]
 1
 = 𝜑
-e𝑎 𝜑
-e𝑏 𝜑 𝑏 𝜑 𝑎 + 𝜑
-e𝑎 𝜑 𝑏 , 𝜑
-e𝑏 𝜑 𝑎 − ( 𝜑
-e𝑎 𝜑 𝑎 ) ( 𝜑
-e𝑐 𝜑 𝑐 )
+˜𝑎 𝜑
+˜𝑏 𝜑 𝑏 𝜑 𝑎 + 𝜑
+˜𝑎 𝜑 𝑏 , 𝜑
+˜𝑏 𝜑 𝑎 − ( 𝜑
+˜𝑎 𝜑 𝑎 ) ( 𝜑
+˜𝑐 𝜑 𝑐 )
 4
-| {z }
+⏟ ⏞⏞ ⏟
 =
 
 = 𝛿𝑏𝑏 = 4
 
-
-
+[
+]
 1
 = 𝜑
-e𝑏 𝜑 𝑏 ( 𝜑
-e𝑎 𝜑 𝑎 ) + 𝜑
-e𝑏 𝜑
-e𝑎 , 𝜑 𝑏 𝜑 𝑎 + 4 ( 𝜑
-e𝑎 𝜑 𝑎 ) − ( 𝜑
-e𝑎 𝜑 𝑎 ) ( 𝜑
-e𝑐 𝜑 𝑐 )
+˜𝑏 𝜑 𝑏 ( 𝜑
+˜𝑎 𝜑 𝑎 ) + 𝜑
+˜𝑏 𝜑
+˜𝑎 , 𝜑 𝑏 𝜑 𝑎 + 4 ( 𝜑
+˜𝑎 𝜑 𝑎 ) − ( 𝜑
+˜𝑎 𝜑 𝑎 ) ( 𝜑
+˜𝑐 𝜑 𝑐 )
 4
-| {z }
-
+⏟ ⏞⏞ ⏟
+(
 
-
+)
 
 = − 𝛿𝑎𝑏
 
-3
+3(
 
-
+)
 
 𝜑
-e𝑏 𝜑 𝑏 ( 𝜑
-e𝑎 𝜑 𝑎 ) + 3 ( 𝜑
-e𝑎 𝜑 𝑎 )
-
+˜𝑏 𝜑 𝑏 ( 𝜑
+˜𝑎 𝜑 𝑎 ) + 3 ( 𝜑
+˜𝑎 𝜑 𝑎 )
+)
 1
 2
 = 3 (C1 ) + C1 = 3(𝜆2 − 1) .
@@ -6764,7 +7061,7 @@ e𝑎 𝜑 𝑎 )
 
 =
 
-4
+4(
 
 (3.85)
 
@@ -6773,16 +7070,16 @@ stated in the proposition, namely Eq. (3.71). To begin, and in analogy with expr
 (3.34), we express 𝐽 𝛼𝛽 in terms of spinor bilinears as:
 𝐽 𝛼𝛽 =
 
-
-1
+)
+1(
 𝜑
-e 𝛾 𝛼𝛽 𝜑 ,
+˜ 𝛾 𝛼𝛽 𝜑 ,
 2
 
 𝛾 𝛼𝛽 =
 
-
-1
+]
+1[
 𝛾 𝛼 , 𝛾𝛽 .
 2
 
@@ -6840,40 +7137,40 @@ Then, the proof of Eq. (3.71) proceeds as follows:
 𝐽 𝛼𝛽 𝐽 𝛼𝛽
 2
 0≤ 𝛼<𝛽≤4
-
-1  𝛼𝛽  
+)
+1 ( 𝛼𝛽 ) (
 𝜑
-e𝛾 𝜑 𝜑
-e 𝛾 𝛼𝛽 𝜑
+˜𝛾 𝜑 𝜑
+˜ 𝛾 𝛼𝛽 𝜑
 =
 4
-
-
-1
+)
+)(
+1(
 =
 𝜑
-e𝑎 (𝛾 𝛼𝛽 ) 𝑏𝑎 𝜑 𝑏 𝜑
-e𝑐 (𝛾 𝛼𝛽 ) 𝑑𝑐 𝜑 𝑑
+˜𝑎 (𝛾 𝛼𝛽 ) 𝑏𝑎 𝜑 𝑏 𝜑
+˜𝑐 (𝛾 𝛼𝛽 ) 𝑑𝑐 𝜑 𝑑
 4
-
-
-
-2
+)
+)(
+)(
+2(
 1 𝑎 𝑐
 𝑏
 𝑑
 𝑎 𝑐
 =
 𝜑
-e𝑎 𝜑
+˜𝑎 𝜑
 𝜑
-e𝑐 𝜑
+˜𝑐 𝜑
 𝛿𝑑 𝛿𝑏 − 𝛿𝑏 𝛿𝑑
 3
 4
 (following analogous steps to those in Eq. (3.85))
-
-
+(
+)
 2
 1
 2
@@ -6886,10 +7183,10 @@ e𝑐 𝜑
 following expansion:
 𝐽 𝛼5 =
 
-
-1
+)
+1(
 𝜑
-e 𝛾 𝛼5 𝜑 ,
+˜ 𝛾 𝛼5 𝜑 ,
 2
 
 (3.92)
@@ -6906,7 +7203,8 @@ we take two independent traces of Eq. (3.93):
 
 ## PDF page 97
 
-
+(
+)
 3.3 Positive Energy Ladder Representations of 𝔲 (2, 2)  𝔰𝔲 (2, 2)  𝔰𝔬 (4, 2) ⊕𝔲 (1) ⊂ 𝔠𝔩 (4, 2) Describing Massless Particles of Any Helici
 
 20 = 16A ′′ + 4B ′′ ,
@@ -6915,11 +7213,15 @@ we take two independent traces of Eq. (3.93):
 
 where, to obtain the left-hand side, we have used Eq. (2.13) together with the
 results established earlier in this proof; that is:
-
-
+(
+)
+(
+)
 Tr 𝛾 𝛼5 𝛾 𝛼5 = Tr 𝛾 𝜇𝜈 𝛾 𝜇𝜈 − 𝛾 𝛼𝛽 𝛾 𝛼𝛽
-
-
+(
+)
+(
+)
 = Tr 𝛾 𝜇𝜈 𝛾 𝜇𝜈 − Tr 𝛾 𝛼𝛽 𝛾 𝛼𝛽 = 60 − 40 = 20 ,
 (3.95)
 with 0 ≤ 𝜇 < 𝜈 ≤ 5 and 0 ≤ 𝛼 < 𝛽 ≤ 4.
@@ -6944,33 +7246,33 @@ The proof of Eq. (3.70) then unfolds as follows:
 ∑︁
 𝛼=0
 
-
-1  𝛼5 
+)
+1 ( 𝛼5 ) (
 𝜑
-e𝛾 𝜑 𝜑
-e 𝛾 𝛼5 𝜑
+˜𝛾 𝜑 𝜑
+˜ 𝛾 𝛼5 𝜑
 4
-
-
-1
+)(
+)
+1(
 𝜑
-e𝑎 (𝛾 𝛼5 ) 𝑏𝑎 𝜑 𝑏 𝜑
-e𝑐 (𝛾 𝛼5 ) 𝑑𝑐 𝜑 𝑑
+˜𝑎 (𝛾 𝛼5 ) 𝑏𝑎 𝜑 𝑏 𝜑
+˜𝑐 (𝛾 𝛼5 ) 𝑑𝑐 𝜑 𝑑
 =
 4
-
-
-
-1
+)
+)(
+)(
+1(
 1 𝑎 𝑐
 𝑏
 𝑑
 𝑎 𝑐
 =
 𝜑
-e𝑎 𝜑
+˜𝑎 𝜑
 𝜑
-e𝑐 𝜑
+˜𝑐 𝜑
 𝛿𝑑 𝛿𝑏 − 𝛿𝑏 𝛿𝑑
 3
 4
@@ -6978,8 +7280,8 @@ e𝑐 𝜑
 𝐽 𝛼5 𝐽 𝛼5 =
 
 (following analogous steps to those in Eq. (3.85))
-
-
+(
+)
 1
 1
 2
@@ -7006,71 +7308,81 @@ dS symmetry. This picture will be clarified further in the sequel.
 3 Ladder Representation of 𝔲 (2, 2) as a Quantized 4-dimensional Realization
 
 We now revisit the “second-quantized” ladder generators of the 𝔰𝔲(2, 2) Lie
-e 𝛾 𝜇𝜈 𝜑) (3.34), by providing an explicit and consistent
+˜ 𝛾 𝜇𝜈 𝜑) (3.34), by providing an explicit and consistent
 algebra, defined by 𝐽 𝜇𝜈 = 12 ( 𝜑
 matrix realization of these generators. To this end, we employ Eq. (3.36), along with
 the matrix representation of the 𝛾-matrices given in Proposition 3.1. Our analysis
 begins with the elements of the (diagonal) Cartan subalgebra:
-
- 
-
- E1 E2∗ 0
+(
+)( )
+(
+)
+( ∗
+) E1 E2∗ 0
 𝔞
-∗
 2 𝐽12 = 𝜑
-e 𝛾12 𝜑 = 𝜑
-e 𝛾15 𝛾25 𝜑 = 𝔞 −𝔟
+˜ 𝛾12 𝜑 = 𝜑
+˜ 𝛾15 𝛾25 𝜑 = 𝔞 −𝔟
 0 E1∗ E2 𝔟∗
-
-
+(
+)
+(
+)
 = 𝔞 ∗ E1 E2∗ 𝔞 − 𝔟 E1∗ E2 𝔟∗
-
+)
+(
 = i 𝔞 1∗ 𝔞 1 − 𝔞 2∗ 𝔞 2 −𝔟1 𝔟∗1 + 𝔟2 𝔟∗2 = i(𝐻1 + 𝐻3 ) ,
-| {z } | {z }
+⏟ ⏞⏞ ⏟ ⏟ ⏞⏞ ⏟
 =: 𝐻1
 
 =: 𝐻3
 
 (3.99)
-
- 
-
- E3 E4∗ 0
+(
+)( )
+(
+)
+(
+) E3 E4∗ 0
 𝔞
 2 𝐽34 = 𝜑
-e 𝛾34 𝜑 = 𝜑
-e 𝛾35 𝛾45 𝜑 = 𝔞 ∗ −𝔟
+˜ 𝛾34 𝜑 = 𝜑
+˜ 𝛾35 𝛾45 𝜑 = 𝔞 ∗ −𝔟
 0 E3∗ E4 𝔟∗
-
-
+(
+)
+(
+)
 = 𝔞 ∗ E3 E4∗ 𝔞 − 𝔟 E3∗ E4 𝔟∗
-
+)
+(
 = i 𝔞 1∗ 𝔞 1 − 𝔞 2∗ 𝔞 2 + 𝔟1 𝔟∗1 − 𝔟2 𝔟∗2 = i(𝐻1 − 𝐻3 ) ,
-| {z } | {z }
+⏟ ⏞⏞ ⏟ ⏟ ⏞⏞ ⏟
 =: 𝐻1
 
 =: −𝐻3
 
 (3.100)
-
- 
- −i𝜎0 0
+(
+)( )
+(
+) −i𝜎0 0
 𝔞
-0 i𝜎0 𝔟∗
-
-= −i 𝔞 ∗ 𝔞 + 𝔟𝔟∗
-
 2 𝐽05 = 𝜑
-e 𝛾05 𝜑 = 𝔞 ∗ −𝔟
-
-
+˜ 𝛾05 𝜑 = 𝔞 ∗ −𝔟
+0 i𝜎0 𝔟∗
+(
+)
+= −i 𝔞 ∗ 𝔞 + 𝔟𝔟∗
+(
+)
 = −i 𝔞 1∗ 𝔞 1 + 𝔞 2∗ 𝔞 2 + 𝔟1 𝔟∗1 +𝔟2 𝔟∗2 = −i(𝐻1 + 2𝐻2 + 𝐻3 ) , (3.101)
-| {z }
+⏟ ⏞⏞ ⏟
 =: 𝐻2
 
 where we recall that:
- ∗
- 1
+( ∗)
+( 1)
 𝔟
 𝔞
 ∗
@@ -7080,183 +7392,195 @@ where we recall that:
 
 and
 
-
+(
+)
 𝔞 ∗ := 𝔞 1∗ 𝔞 2∗ ,
 
-
+)
+(
 𝔟 := 𝔟1 𝔟2 .
 
 (3.102)
 
 Next, we turn our attention to the remaining elements of the algebra:
-
- 
-
- 0 −iE1 𝔞
+(
+)( )
+(
+)
+(
+) 0 −iE1 𝔞
 2 𝐽01 = 𝜑
-e 𝛾01 𝜑 = 𝜑
-e 𝛾05 𝛾15 𝜑 = 𝔞 ∗ −𝔟
+˜ 𝛾01 𝜑 = 𝜑
+˜ 𝛾05 𝛾15 𝜑 = 𝔞 ∗ −𝔟
 iE1∗ 0
 𝔟∗
-
-= −i 𝔟 E1∗ 𝔞 + 𝔞 ∗ E1 𝔟∗
+( ∗
+)
+= −i 𝔟 E1 𝔞 + 𝔞 ∗ E1 𝔟∗
 = −𝔟2 𝔞 1 − 𝔟1 𝔞 2 + 𝔞 2∗ 𝔟∗1 + 𝔞 1∗ 𝔟∗2 ,
 
 (3.103)
 
 ## PDF page 99
 
-
+(
+)
 3.3 Positive Energy Ladder Representations of 𝔲 (2, 2)  𝔰𝔲 (2, 2)  𝔰𝔬 (4, 2) ⊕𝔲 (1) ⊂ 𝔠𝔩 (4, 2) Describing Massless Particles of Any Helici
 
-
-
+(
+)( )
+(
+)
+(
+) 0 −iE2 𝔞
 2 𝐽02 = 𝜑
-e 𝛾02 𝜑 = 𝜑
-e 𝛾05 𝛾25 𝜑 = 𝔞 ∗ −𝔟
-
-
-
- 
-𝔞
-𝔟∗
-∗
-
-0 −iE2
+˜ 𝛾02 𝜑 = 𝜑
+˜ 𝛾05 𝛾25 𝜑 = 𝔞 ∗ −𝔟
 iE2∗ 0
-
-= −i 𝔟 E2∗ 𝔞 + 𝔞 ∗ E2 𝔟
-
-
+𝔟∗
+)
+( ∗
+= −i 𝔟 E2 𝔞 + 𝔞 ∗ E2 𝔟∗
+(
+)
 = −i 𝔟2 𝔞 1 − 𝔟1 𝔞 2 − 𝔞 2∗ 𝔟∗1 + 𝔞 1∗ 𝔟∗2 ,
 
+(
+
 2 𝐽03 = 𝜑
-e 𝛾03 𝜑 = 𝜑
-e 𝛾05 𝛾35
+˜ 𝛾03 𝜑 = 𝜑
+˜ 𝛾05 𝛾35
 
-
-
-𝜑 = 𝔞 ∗ −𝔟
-
-
-
-
-
- 
-𝔞
-𝔟∗
-∗
-
-0 −iE3
-iE3∗ 0
-
-= −i 𝔟 E3∗ 𝔞 + 𝔞 ∗ E3 𝔟
-
-= −𝔟1 𝔞 1 + 𝔟2 𝔞 2 + 𝔞 1∗ 𝔟∗1 − 𝔞 2∗ 𝔟∗2 ,
-
-
+(
 
 2 𝐽04 = 𝜑
-e 𝛾04 𝜑 = 𝜑
-e 𝛾05 𝛾45 𝜑 =
+˜ 𝛾04 𝜑 = 𝜑
+˜ 𝛾05 𝛾45
 
-𝔞 ∗ −𝔟
+)
 
-
-
-
+)
 
 (3.104)
 
+(
+)( )
+( ∗
+) 0 −iE3 𝔞
+𝔞
+−𝔟
+𝜑=
+iE3∗ 0
+𝔟∗
+( ∗
+)
+= −i 𝔟 E3 𝔞 + 𝔞 ∗ E3 𝔟∗
+= −𝔟1 𝔞 1 + 𝔟2 𝔞 2 + 𝔞 1∗ 𝔟∗1 − 𝔞 2∗ 𝔟∗2 ,
+
 (3.105)
 
- 
-𝔞
-𝔟∗
-∗
-
-0 −iE4
+)( )
+(
+( ∗
+) 0 −iE4 𝔞
+𝜑 = 𝔞 −𝔟
 iE4∗ 0
-
-= −i 𝔟 E4∗ 𝔞 + 𝔞 ∗ E4 𝔟
-
-
+𝔟∗
+( ∗
+)
+= −i 𝔟 E4 𝔞 + 𝔞 ∗ E4 𝔟∗
+(
+)
 = −i 𝔟1 𝔞 1 + 𝔟2 𝔞 2 + 𝔞 1∗ 𝔟∗1 + 𝔞 2∗ 𝔟∗2 ,
 
 (3.106)
 
-
- 
-
- E1 E3∗ 0
+(
+)( )
+(
+)
+(
+) E1 E3∗ 0
 𝔞
 2 𝐽13 = 𝜑
-e 𝛾13 𝜑 = 𝜑
-e 𝛾15 𝛾35 𝜑 = 𝔞 ∗ −𝔟
+˜ 𝛾13 𝜑 = 𝜑
+˜ 𝛾15 𝛾35 𝜑 = 𝔞 ∗ −𝔟
 0 E1∗ E3 𝔟∗
-
-
+(
+)
+(
+)
 = 𝔞 ∗ E1 E3∗ 𝔞 − 𝔟 E1∗ E3 𝔟∗
-= 𝔞 2∗ 𝔞 1 − 𝔞 1∗ 𝔞 2 − 𝔟2 𝔟∗1 + 𝔟1 𝔟∗2 ,
+
+(
 
 2 𝐽14 = 𝜑
-e 𝛾14 𝜑 = 𝜑
-e 𝛾15 𝛾45
+˜ 𝛾14 𝜑 = 𝜑
+˜ 𝛾15 𝛾45
 
-
+)
+
+= 𝔞 2∗ 𝔞 1 − 𝔞 1∗ 𝔞 2 − 𝔟2 𝔟∗1 + 𝔟1 𝔟∗2 ,
 
 (3.107)
 
-
- 
- E1 E4∗ 0
+(
+)( )
+( ∗
+) E1 E4∗ 0
 𝔞
-𝜑=
+𝜑 = 𝔞 −𝔟
 0 E1∗ E4 𝔟∗
-
-
+(
+)
+(
+)
 = 𝔞 ∗ E1 E4∗ 𝔞 − 𝔟 E1∗ E4 𝔟∗
-𝔞 ∗ −𝔟
-
-
+(
+)
 = i 𝔞 2∗ 𝔞 1 + 𝔞 1∗ 𝔞 2 + 𝔟2 𝔟∗1 + 𝔟1 𝔟∗2 ,
 
+(3.108)
+
+(
+)
 2 𝐽15 = 𝜑
-e 𝛾15 𝜑 = 𝔞 ∗ −𝔟
+˜ 𝛾15 𝜑 = 𝔞 ∗ −𝔟
 
-
-
-
+(
 
 0 E1
 E1∗ 0
 
-(3.108)
-
- 
+)( )
 𝔞
 𝔟∗
 
 = −𝔟 E1∗ 𝔞 + 𝔞 ∗ E1 𝔟∗
-
+(
+)
 = i 𝔟2 𝔞 1 + 𝔟1 𝔞 2 + 𝔞 2∗ 𝔟∗1 + 𝔞 1∗ 𝔟∗2 ,
-
-(3.109)
-
-
- 
-
- E2 E3∗ 0
+(
+)( )
+(
+)
+(
+) E2 E3∗ 0
 𝔞
 2 𝐽23 = 𝜑
-e 𝛾23 𝜑 = 𝜑
-e 𝛾25 𝛾35 𝜑 = 𝔞 ∗ −𝔟
+˜ 𝛾23 𝜑 = 𝜑
+˜ 𝛾25 𝛾35 𝜑 = 𝔞 ∗ −𝔟
 0 E2∗ E3 𝔟∗
-
-
+)
+(
+)
+(
 = 𝔞 ∗ E2 E3∗ 𝔞 − 𝔟 E2∗ E3 𝔟∗
-
+(
+)
 = i 𝔞 2∗ 𝔞 1 + 𝔞 1∗ 𝔞 2 − 𝔟2 𝔟∗1 − 𝔟1 𝔟∗2 ,
+
+(3.109)
 
 (3.110)
 
@@ -7266,74 +7590,77 @@ e 𝛾25 𝛾35 𝜑 = 𝔞 ∗ −𝔟
 
 3 Ladder Representation of 𝔲 (2, 2) as a Quantized 4-dimensional Realization
 
-
- 
-
- E2 E4∗ 0
+(
+)( )
+(
+)
+(
+) E2 E4∗ 0
 𝔞
 2 𝐽24 = 𝜑
-e 𝛾24 𝜑 = 𝜑
-e 𝛾25 𝛾45 𝜑 = 𝔞 ∗ −𝔟
+˜ 𝛾24 𝜑 = 𝜑
+˜ 𝛾25 𝛾45 𝜑 = 𝔞 ∗ −𝔟
 0 E2∗ E4 𝔟∗
-
-
+(
+)
+(
+)
 = 𝔞 ∗ E2 E4∗ 𝔞 − 𝔟 E2∗ E4 𝔟∗
 = −𝔞 2∗ 𝔞 1 + 𝔞 1∗ 𝔞 2 − 𝔟2 𝔟∗1 + 𝔟1 𝔟∗2 ,
 
+(
+)
 2 𝐽25 = 𝜑
-e 𝛾25 𝜑 = 𝔞 ∗ −𝔟
+˜ 𝛾25 𝜑 = 𝔞 ∗ −𝔟
 
-
-
-
+(
 
 0 E2
 E2∗ 0
 
 (3.111)
 
- 
+)( )
 𝔞
 𝔟∗
 
 = −𝔟 E2∗ 𝔞 + 𝔞 ∗ E2 𝔟∗
 = −𝔟2 𝔞 1 + 𝔟1 𝔞 2 − 𝔞 2∗ 𝔟∗1 + 𝔞 1∗ 𝔟∗2 ,
 
+(
+)
 2 𝐽35 = 𝜑
-e 𝛾35 𝜑 =
+˜ 𝛾35 𝜑 = 𝔞 ∗ −𝔟
 
-𝔞 ∗ −𝔟
-
-
-
-
+(
 
 0 E3
 E3∗ 0
 
-(3.112)
-
- 
+)( )
 𝔞
 𝔟∗
 
 = −𝔟 E3∗ 𝔞 + 𝔞 ∗ E3 𝔟∗
-
+(
+)
 = i 𝔟1 𝔞 1 − 𝔟2 𝔞 2 + 𝔞 1∗ 𝔟∗1 − 𝔞 2∗ 𝔟∗2 ,
 
+(
+)
 2 𝐽45 = 𝜑
-e 𝛾45 𝜑 = 𝔞 ∗ −𝔟
+˜ 𝛾45 𝜑 = 𝔞 ∗ −𝔟
 
-
+(
 
-
+(3.112)
 
 0 E4
 E4∗ 0
 
 (3.113)
 
- 
+)( )
 𝔞
 𝔟∗
 
@@ -7350,7 +7677,7 @@ The above results render the anti-Hermitian nature of 𝐽 𝜇𝜈 manifest:
 To define the unitary ladder representations of 𝔲(2, 2)  𝔰𝔲(2, 2) ⊕ 𝔲(1), we
 introduce the standars Chevalley-Cartan basis of 𝔰𝔲(2, 2):
 𝐸𝑎 = 𝜑
-e𝑎 𝜑 𝑎+1 ;
+˜𝑎 𝜑 𝑎+1 ;
 
 𝐸 1 = 𝔞 1∗ 𝔞 2 ,
 
@@ -7361,7 +7688,7 @@ e𝑎 𝜑 𝑎+1 ;
 (3.116)
 
 𝐹𝑎 = 𝜑
-e𝑎+1 𝜑 𝑎 ;
+˜𝑎+1 𝜑 𝑎 ;
 
 𝐹1 = 𝔞 2∗ 𝔞 1 ,
 
@@ -7372,11 +7699,11 @@ e𝑎+1 𝜑 𝑎 ;
 (3.117)
 
 𝐻 𝑎 = [𝐸 𝑎 , 𝐹𝑎 ] = 𝜑
-e𝑎 𝜑 𝑎 − 𝜑
-e𝑎+1 𝜑 𝑎+1 ;
-|
-{z
-}
+˜𝑎 𝜑 𝑎 − 𝜑
+˜𝑎+1 𝜑 𝑎+1 ;
+⏟
+⏞⏞
+⏟
 by Eq. (3.38)
 
 𝐻1 = 𝔞 1∗ 𝔞 1 − 𝔞 2∗ 𝔞 2 ,
@@ -7390,7 +7717,8 @@ Cartan operators of 𝔰𝔲(2, 2), respectively. We actually observe that:
 
 ## PDF page 101
 
-
+(
+)
 3.3 Positive Energy Ladder Representations of 𝔲 (2, 2)  𝔰𝔲 (2, 2)  𝔰𝔬 (4, 2) ⊕𝔲 (1) ⊂ 𝔠𝔩 (4, 2) Describing Massless Particles of Any Helici
 
 [𝐻 𝑎 , 𝐻𝑏 ] = 0 ,
@@ -7441,7 +7769,8 @@ Note that 𝐴 𝑎𝑏 is called the Cartan matrix of the algebra:
 Remark 3.7 In the Chevalley-Cartan basis of 𝔰𝔲(2, 2) introduced above, it is manifest that the central 𝔲(1) generator C1 = 𝔞 ∗ 𝔞 − 𝔟 𝔟∗ (3.64) of the full 𝔲(2, 2) algebra
 lies outside the 𝔰𝔲(2, 2) subalgebra, since it cannot be expressed as a linear combination of the Chevalley-Cartan generators of 𝔰𝔲(2, 2).
 □
-
+(
+)
 Remark 3.8 The maximal compact subalgebra 𝔰 𝔲(2) ⊕ 𝔲(2)  𝔰𝔲(2) ⊕ 𝔰𝔲(2) ⊕
 𝔲(1) of 𝔰𝔲(2, 2) (see Appendix 2.7) can be explicitly realized by the following set
 of generators:
@@ -7463,7 +7792,7 @@ Schwinger realization [108]):
 𝐽−( 𝐿) := 𝐹1 = 𝔞 2∗ 𝔞 1 ,
 
 
- 𝐽 ( 𝐿) := 1 𝐻1 = 1 𝔞 ∗ 𝔞 1 − 𝔞 ∗ 𝔞 2  .
+ 𝐽 ( 𝐿) := 1 𝐻1 = 1 (𝔞 ∗ 𝔞 1 − 𝔞 ∗ 𝔞 2 ) .
 2
 2
  3
@@ -7473,11 +7802,11 @@ Schwinger realization [108]):
 (3.124)
 
 These satisfy the standard 𝔰𝔲(2) commutation relations:
- ( 𝐿) ( 𝐿) 
+[ ( 𝐿) ( 𝐿) ]
 𝐽3 , 𝐽±
 = ±𝐽±(𝐿) ,
 
- (𝐿) (𝐿) 
+[ (𝐿) (𝐿) ]
 𝐽+ , 𝐽−
 = 2𝐽3(𝐿) .
 
@@ -7486,9 +7815,10 @@ These satisfy the standard 𝔰𝔲(2) commutation relations:
 The corresponding quadratic Casimir form is:
 𝐽+(𝐿) 𝐽−(𝐿) + 𝐽−(𝐿) 𝐽+(𝐿)
 2
-
-
-1 ∗ 1
+)
+(
+)
+1( ∗ 1
 = 𝔞 1 𝔞 + 𝔞 2∗ 𝔞 2 𝔞 1∗ 𝔞 1 + 𝔞 2∗ 𝔞 2 + 2
 4
 =: j 𝐿 (j 𝐿 + 1) ,
@@ -7510,7 +7840,7 @@ with j 𝐿 ∈ 12 Z ≥0 .
 𝐽−(𝑅) := 𝐹3 = −𝔟2 𝔟∗1 ,
 
 
- 𝐽 (𝑅) := 1 𝐻3 = − 1 𝔟1 𝔟∗ − 𝔟2 𝔟∗  .
+ 𝐽 (𝑅) := 1 𝐻3 = − 1 (𝔟1 𝔟∗ − 𝔟2 𝔟∗ ) .
 2
 2
  3
@@ -7520,20 +7850,20 @@ with j 𝐿 ∈ 12 Z ≥0 .
 (3.127)
 
 These also satisfy the canonical 𝔰𝔲(2) commutation relations:
- (𝑅) (𝑅) 
+[ (𝑅) (𝑅) ]
 𝐽3 , 𝐽±
 = ±𝐽±(𝑅) ,
 
- (𝑅) (𝑅) 
+[ (𝑅) (𝑅) ]
 𝐽+ , 𝐽−
 = 2𝐽3(𝑅) .
 
 (3.128)
 
 The corresponding quadratic Casimir form is:
-
-
-1 ∗ 1
+)(
+)
+1( ∗ 1
 𝔟1 𝔟 + 𝔟∗2 𝔟2 𝔟∗1 𝔟1 + 𝔟∗2 𝔟2 + 2
 4
 =: j𝑅 (j𝑅 + 1) ,
@@ -7548,9 +7878,9 @@ j𝑅 ∈ 12 Z ≥0 .
 the conformal Hamiltonian 𝐻 (3.63):
 𝐻 :=
 
-
- 1
-1
+)
+) 1(
+1(
 𝐻1 + 2𝐻2 + 𝐻3 = 𝔞 1∗ 𝔞 1 + 𝔞 2∗ 𝔞 2 + 𝔟1 𝔟∗1 + 𝔟2 𝔟∗2 .
 2
 2
@@ -7558,19 +7888,20 @@ the conformal Hamiltonian 𝐻 (3.63):
 (3.130)
 
 This central element commutes with all the 𝔰𝔲(2) 𝐿 and 𝔰𝔲(2) 𝑅 generators:
-
+[
 
- 
- 
- 
-
+] [
+] [
+] [
+]
 𝐻, 𝐽±( 𝐿) = 𝐻, 𝐽3(𝐿) = 𝐻, 𝐽±(𝑅) = 𝐻, 𝐽3(𝑅) = 0 .
 
 (3.131)
 
 ## PDF page 103
 
-
+(
+)
 3.3 Positive Energy Ladder Representations of 𝔲 (2, 2)  𝔰𝔲 (2, 2)  𝔰𝔬 (4, 2) ⊕𝔲 (1) ⊂ 𝔠𝔩 (4, 2) Describing Massless Particles of Any Helici
 
 □
@@ -7584,14 +7915,17 @@ a weight vector defined by:
 with weight components W = (W1 , W2 , W3 ) corresponding to the Cartan generators 𝐻1 , 𝐻2 , and 𝐻3 ; since the Cartan elements commute, they are simultaneously
 diagonalizable, and thus admit a common eigenbasis. Consider the action of 𝐹𝑏 on
 |W⟩. Using the commutation relation [𝐻 𝑎 , 𝐹𝑏 ] = −𝐴 𝑎𝑏 𝐹𝑏 , we find:
-
-
+(
+) (
+)
 𝐻 𝑎 𝐹𝑏 |W⟩ = [𝐻 𝑎 , 𝐹𝑏 ] + 𝐹𝑏 𝐻 𝑎 |W⟩
 (3.133)
-
+(
+)
 = − 𝐴 𝑎𝑏 𝐹𝑏 + W𝑎 𝐹𝑏 |W⟩
 (3.134)
-
+(
+)
 = W𝑎 − 𝐴 𝑎𝑏 𝐹𝑏 |W⟩ .
 (3.135)
 This shows that 𝐹𝑏 |W⟩ is again a weight vector, whose weight component is shifted
@@ -7607,9 +7941,10 @@ W𝑎 − 𝐴 𝑎𝑏 .
 Equivalently, the total weight vector transforms as:
 𝐹𝑏 |W⟩
 
-↦−→
-
+⟩
 W − 𝛼𝑏 ,
+
+↦−→
 
 (3.137)
 
@@ -7617,8 +7952,8 @@ where the simple root 𝛼𝑏 is given by the 𝑏-th column of the Cartan matr
 explicitly, 𝛼1 = (2, −1, 0) ⊤ , 𝛼2 = (−1, 2, −1) ⊤ , and 𝛼3 = (0, −1, 2) ⊤ .
 Similarly, the operator 𝐸 𝑏 acts as a raising operator, shifting the weight vector
 upward by the corresponding simple root:
+⟩
 𝐸 𝑏 |W⟩ ∝ W + 𝛼𝑏 ,
-
 (3.138)
 □
 
@@ -7626,11 +7961,11 @@ where 𝛼𝑏 is the simple root associated with 𝐸 𝑏 .
 
 Given the above, we define the lowest weight state |LW𝜆 ⟩ of the UPEIR of 𝔰𝔲(2, 2)
 (with a given helicity 𝜆) as:
-
-
+(
+)
 |LW𝜆 ⟩ =: |LW𝜆≥0 ⟩ = (𝔞 2∗ ) 2𝜆 |0SO(4) ⟩ , for 𝜆 ≥ 0 ,
-
-
+(
+)
 |LW𝜆 ⟩ =: |LW𝜆<0 ⟩ = (𝔟∗1 ) −2𝜆 |0SO(4) ⟩ , for 𝜆 < 0 .
 (3.139)
 This state is annihilated by all lowering operators 𝐹𝑎 (see Eqs. (3.61) and (3.62)):
@@ -7702,7 +8037,8 @@ state |LW𝜆 ⟩, uniquely characterized (up to the helicity sign) by the lowes
 energy E◦ . This iterative construction naturally endows H𝜆(1) with a hierarchical
 structure, since the action of the raising operators 𝐸 𝑎 increases the eigenvalue of the
 conformal Hamiltonian 𝐻 in discrete steps (see Remark 3.9). Consequently, H𝜆(1)
-
+(
+)
 is foliated into the finite-dimensional15 eigenspaces HE(1) := ker(𝐻 − E ) ⊂ H𝜆(1)
 of the conformal Hamiltonian 𝐻, each satisfying:
 14 In the special case of a free massless scalar field (helicity 𝜆 = 0), the lowest weight state is
@@ -7713,7 +8049,8 @@ to (3.41), indicating that the lowest conformal energy (or dimension) is E◦ = 
 
 ## PDF page 105
 
-
+(
+)
 3.3 Positive Energy Ladder Representations of 𝔲 (2, 2)  𝔰𝔲 (2, 2)  𝔰𝔬 (4, 2) ⊕𝔲 (1) ⊂ 𝔠𝔩 (4, 2) Describing Massless Particles of Any Helici
 
 (𝐻 − E )|𝑊⟩ = 0 ,
@@ -7723,8 +8060,8 @@ for all
 |𝑊⟩ ∈ HE(1) ,
 
 where the spectrum of 𝐻 in this representation is given by:
-n
-o
+{
+}
 E = |𝜆| + 𝑛 ; 𝑛 = 1, 2, 3, . . . ,
 
 (3.145)
@@ -7738,12 +8075,15 @@ H𝜆(1) of a free massless conformal field of definite helicity 𝜆 ∈ 12 Z �
 characterized by the lowest eigenvalue E◦ of the conformal Hamiltonian (up to the
 sign of the helicity parameter 𝜆), just as its lowest weight state |LW𝜆 ⟩ is. This point
 is discussed further in Remark 3.12.
-
+(
+)
 Remark 3.11 It is important to emphasize that each eigenspace HE(1) ⊂ H𝜆(1)
 is not invariant under the full conformal Lie algebra 𝔰𝔲(2, 2); rather, it is invariant
-under the subalgebra 𝔰𝔬(4). This is because the conformal Hamiltonian
+under the subalgebra 𝔰𝔬(4). This is because the conformal
+Hamiltonian
 𝐻 generates
-
+(
+)
 the 𝔲(1) center of the maximal compact subalgebra 𝔰 𝔲(2) ⊕ 𝔲(2)  𝔰𝔬(4) ⊕ 𝔲(1),
 and therefore commutes with the 𝔰𝔬(4) generators but not with the entire algebra
 𝔰𝔲(2, 2). Consequently, the action of 𝔰𝔬(4) preserves each eigenspace HE(1) of
@@ -7762,18 +8102,18 @@ C2𝔰𝔬 (4) = C2𝔰𝔲 (2) 𝐿 + C2𝔰𝔲 (2) 𝑅
 = 𝔞 ∗ 𝔞(𝔞 ∗ 𝔞 + 2) + 𝔟∗ 𝔟(𝔟∗ 𝔟 + 2)
 4
 4
-
-1 ∗
+)
+1( ∗
 ∗ 2
 =
 (𝔞 𝔞 + 𝔟𝔟 ) + (𝔞 ∗ 𝔞 − 𝔟𝔟∗ ) (𝔞 ∗ 𝔞 − 𝔟𝔟∗ + 4)
-8 | {z } |
-{z
-}
+8 ⏟ ⏞⏞ ⏟ ⏟
+⏞⏞
+⏟
 = 4𝐻 2
 
-
-1
+)
+1(
 = E 2 + 𝜆2 − 1 ,
 2
 
@@ -7782,14 +8122,17 @@ C2𝔰𝔬 (4) = C2𝔰𝔲 (2) 𝐿 + C2𝔰𝔲 (2) 𝑅
 (3.147)
 
 hence:
- 1
-
+) 1(
+)
 = j 𝐿 (j 𝐿 + 1) + j𝑅 (j𝑅 + 1) = E 2 + 𝜆2 − 1 ≥ |𝜆| (|𝜆| + 1) . (3.148)
 2
-
+(
+)
 From the above relation, it follows that j 𝐿 , j𝑅 ∈ 21 Z ≥0 satisfy the bound (see
 Appendix 3.6):
 C2𝔰𝔬 (4)
+
+(
 
 ## PDF page 106
 
@@ -7803,7 +8146,8 @@ j𝐿 , j𝑅 ≤ E − 1 .
 
 Note that the dimension of the eigenspace HE(1) ⊂ H𝜆(1) of 𝐻, which carries a
 representation of 𝔰𝔬(4) and corresponds to the eigenvalue E , is given by:
-
+(
+)
 d HE(1) = (2j 𝐿 + 1) (2j𝑅 + 1) .
 
 (3.150)
@@ -7812,9 +8156,9 @@ Remark 3.12 Taking all of the above into account, the states within each 𝔰�
 UPEIR space H𝜆(1) are labeled by three (half-)integers: E , which labels the 𝔰𝔬(4)invariant eigenspaces HE(1) of the conformal Hamiltonian 𝐻 that foliate the full
 Hilbert space H𝜆(1) ; and j 𝐿 and j𝑅 , which label the states within each such
 eigenspace HE(1) , corresponding to a finite-dimensional (generally reducible) representation of 𝔰𝔬(4):
-n
+{
 H𝜆(1) = Span |E , j 𝐿 , j𝑅 ⟩ ; E = |𝜆| + 1, |𝜆| + 2, . . . ,
-o
+}
 (3.151)
 j 𝐿 , j𝑅 ∈ 21 Z ≥0 ≤ E − 1 .
 In this context, by construction, the 𝔰𝔲(2, 2) UPEIR space is fully generated by
@@ -7849,13 +8193,16 @@ For a given E◦ (and hence a fixed |𝜆|), this equation — consistent with R
 
 ## PDF page 107
 
-
+(
+)
 3.3 Positive Energy Ladder Representations of 𝔲 (2, 2)  𝔰𝔲 (2, 2)  𝔰𝔬 (4, 2) ⊕𝔲 (1) ⊂ 𝔠𝔩 (4, 2) Describing Massless Particles of Any Helici
 
+⟩
 |E◦ , j 𝐿 , j𝑅 ⟩ = |E◦ , E◦ − 1, 0⟩ = |𝜆| + 1, |𝜆|, 0 ,
 
 (3.155)
 
+⟩
 |E◦ , j 𝐿 , j𝑅 ⟩ = |E◦ , 0, E◦ − 1⟩ = |𝜆| + 1, 0, |𝜆| ,
 
 (3.156)
@@ -7914,11 +8261,13 @@ restricts to the dS case, see Appendix 3.7.
 Remark 3.13 From the construction above, one immediately observes a key identity
 that will prove useful in the sequel. Specifically, for any helicity parameter 𝜆 in the
 lowest weight state, one has:
-
+(
+)
 E◦ − j 𝐿 + j 𝑅 = 1 .
 (3.159)
 This relation naturally extends to all descendant states as:
-
+(
+)
 E − j 𝐿 + j𝑅 ∈ Z>0 .
 
 (3.160)
@@ -7938,7 +8287,7 @@ Remark 3.14 In this setting, the corresponding ladder representations of the ext
 of the UPEIRs H𝜆(1) =: CE>◦ ,j ,j of 𝔰𝔲(2, 2), each specified by a fixed helicity
 𝐿 𝑅
 𝜆 ∈ 21 Z:
-Ê
+⨁
 H𝜆(1) .
 (3.161)
 H (1) =
@@ -7949,10 +8298,10 @@ The additional 𝔲(1) generator endows H (1) with a natural 𝔲(1)-grading by 
 and coherently couples the graded sectors into a single IR of 𝔲(2, 2). States in the
 𝔲(2, 2) 1-particle space H (1) are therefore labelled by the helicity 𝜆 together with
 the usual energy and spin quantum numbers:
-n
+{
 H (1) = Span |𝜆, E , j 𝐿 , j𝑅 ⟩ ; 𝜆 ∈ 12 Z ,
 E = |𝜆| + 1, |𝜆| + 2, . . . ,
-o
+}
 j 𝐿 , j𝑅 ∈ 12 Z ≥0 ≤ E − 1 .
 
 (3.162)
@@ -7962,10 +8311,11 @@ The momentum generator 𝑝 𝜇¤ ( 𝜇¤ = 0, 1, 2, 3) of the Poincaré subal
 is verified to have zero square, thus corresponding to massless particles:
 𝑝 𝜇¤ :=
 
-
+(
+)
 1
 𝜑
-e 𝛾 1 + 𝛾4 𝜑
+˜ 𝛾 1 + 𝛾4 𝜑
 2 𝜇¤
 
 =⇒
@@ -7981,10 +8331,12 @@ providing a unified treatment of both dS and Minkowski cases.
 Proposition 3.3 Let us introduce the complex translation operators 𝑇𝑖 and the special conformal generators 𝐶𝑖 , both naturally suited to the ladder formalism and
 characterized by a vanishing four-square:
 𝑇𝑖 = 𝜑
-e P+ 𝛾 𝑖 P − 𝜑 = 𝔞 ∗ E 𝑖 𝔟 ∗ ,
+˜ P+ 𝛾 𝑖 P − 𝜑 = 𝔞 ∗ E 𝑖 𝔟 ∗ ,
 𝐶𝑖
 
-
+(
+
+)
 = 𝑇𝑖∗ = 𝔟 E𝑖∗ 𝔞 ,
 
 (3.164)
@@ -7994,8 +8346,11 @@ where 𝑖 = 1, 2, 3, 4 and the operators E𝑖 are defined in Eq. (3.49). They 
 
 ## PDF page 109
 
-
+(
+)
 3.3 Positive Energy Ladder Representations of 𝔲 (2, 2)  𝔰𝔲 (2, 2)  𝔰𝔬 (4, 2) ⊕𝔲 (1) ⊂ 𝔠𝔩 (4, 2) Describing Massless Particles of Any Helici
+
+(
 𝑖
 
 𝑇 𝑇𝑖
@@ -8005,7 +8360,7 @@ where 𝑖 = 1, 2, 3, 4 and the operators E𝑖 are defined in Eq. (3.49). They 
 4
 ∑︁
 
-!
+)
 𝑖
 
 𝑇 𝑇𝑖 = 0 = 𝐶 𝑖 𝐶𝑖 .
@@ -8019,10 +8374,10 @@ conformal generators 𝐶𝑖 .
 Proof — Step I (the role of 𝜖 = i𝜎2 as a spinor metric). In 2-component spinor
 formalism, the antisymmetric tensor 𝜖 𝐴𝐵 (𝜖 𝐴𝐵 = −𝜖 𝐵𝐴, with 𝐴, 𝐵 = 1, 2) — given
 explicitly by:
-
-
-
-
+(
+)
+(
+)
 0 1
 0 −1
 𝐴𝐵
@@ -8044,7 +8399,7 @@ Thus, if 𝜓 𝐴 =
 
 (3.168)
 
-  1  2 
+) ( 1) ( 2 )
 𝜓
 𝜓
 =
@@ -8054,11 +8409,11 @@ Thus, if 𝜓 𝐴 =
 
 (3.169)
 
- 1
+( 1)
 𝜓
 , then:
 𝜓2
-
+(
 
 0 1
 𝜓 𝐴 = 𝜖 𝐴𝐵 𝜓 =
@@ -8092,13 +8447,13 @@ thereby ensuring that spinor index raising and lowering, as well as Lorentzinvar
 
 3 Ladder Representation of 𝔲 (2, 2) as a Quantized 4-dimensional Realization
 
- 
+( )
 01
 3. Why 𝜎1 and 𝜎3 fail: The other Pauli matrices, namely 𝜎1 =
 and
 10
-
-
+(
+)
 1 0
 𝜎3 =
 are symmetric and do not yield antisymmetric spinor bilinears.
@@ -8111,12 +8466,12 @@ For instance:
 which is symmetric, violating the required antisymmetry for fermionic contractions. Moreover, these matrices are not invariant under SL(2, C) transformations
 and hence do not define Lorentz-invariant inner products on spinor space.
 — Step II ((E𝑖 ) 𝐵𝐴 and (E𝑖 ) 𝐴𝐵 ). Recall that the Pauli matrices and 𝜎0 read as:
- 
-
-
-
-
- 
+( )
+(
+)
+(
+)
+( )
 01
 0 −i
 1 0
@@ -8132,7 +8487,7 @@ i 0
 01
 (3.172)
 Then, the associated mixed-index tensors (“conjugate” quaternions) (E𝑖 ) 𝐵𝐴 are:
-(
+{
 (E𝑖 ) 𝐵𝐴 :=
 
 i(𝜎𝑖 ) 𝐵𝐴 ,
@@ -8185,30 +8540,31 @@ Using the spinor metric 𝜖, we immediately deduce the second essential expansi
 
 ## PDF page 111
 
-
+(
+)
 3.3 Positive Energy Ladder Representations of 𝔲 (2, 2)  𝔰𝔲 (2, 2)  𝔰𝔬 (4, 2) ⊕𝔲 (1) ⊂ 𝔠𝔩 (4, 2) Describing Massless Particles of Any Helici
 
-
-
-
+(
+)(
+)
 ¤
 𝐶¤
 (E𝑖 ) 𝐴𝐵 (E 𝑖∗ )𝐶𝐷 = 𝜖 𝐴𝐵 (E𝑖 ) 𝐵𝐵¤ 𝜖𝐶 𝐶¤ (E 𝑖∗ ) 𝐷
-
-
-
+(
+)(
+)
 ¤
 𝐵 𝐶¤
 = 𝜖 𝐴𝐵 𝜖𝐶 𝐶¤ 2 𝛿 𝐷
 𝛿 𝐵¤
-
-
-
+(
+)(
+)
 ¤
 𝐵
 = 𝜖 𝐴𝐵 𝜖𝐶 𝐵¤ 2 𝛿 𝐷
- 
-
+( )(
+)
 𝐵
 𝐵
 .
@@ -8249,17 +8605,17 @@ We find A ′ = −B ′ = 2, and hence we have:
 (3.183)
 
 Again employing the spinor metric 𝜖, we find the fourth expansion:
-
-
-
+(
+)(
+)
 ¤
 ¤
 𝐷
 (E𝑖 ) 𝐴𝐵 (E 𝑖 ) 𝐶𝐷 = 𝜖 𝐴𝐵 (E𝑖 ) 𝐵𝐵¤ 𝜖 𝐶 𝐶 (E 𝑖 )𝐶
 ¤
-
-
-
+(
+)(
+)
 ¤
 ¤
 𝐵 𝐷
@@ -8281,7 +8637,7 @@ The latter equality, namely 𝜖 𝐴𝐵 𝜖 𝐶𝐷 − 𝜖 𝐴𝐷 𝜖 �
 clarification. Let us compute both sides for specific (nontrivial) values:
 1. 𝐴 = 2, 𝐵 = 1, 𝐶 = 1, 𝐷 = 2:
 𝜖 21 𝜖 12 − 𝜖 22 𝜖 11 = 𝜖 21 𝜖 12 ,
-| {z }
+⏟ ⏞⏞ ⏟
 
 checked!
 
@@ -8295,7 +8651,7 @@ checked!
 
 2. 𝐴 = 2, 𝐵 = 2, 𝐶 = 1, 𝐷 = 1:
 𝜖 22 𝜖 11 − 𝜖 21 𝜖 12 = 𝜖 21 𝜖 21 ,
-| {z }
+⏟ ⏞⏞ ⏟
 =0
 
 ## PDF page 112
@@ -8306,37 +8662,39 @@ checked!
 
 — Step IV (proof of Eq. (3.166)). Taking into account all preceding results —
 particularly Eq. (3.184) — we conclude that:
-
+(
+)
 𝑇 𝑖 𝑇𝑖 = 𝔞 ∗ E 𝑖 𝔟∗ (𝔞 ∗ E𝑖 𝔟∗ )
-
-
-
+(
+)(
+)
 ∗
 = 𝔞 ∗𝐴 (E 𝑖 ) 𝐴𝐵 𝔟∗𝐵 𝔞𝐶
 (E𝑖 ) 𝐶𝐷 𝔟∗𝐷
- ∗ ∗   𝐴𝐶 𝐵𝐷 
+(
+) ( ∗ ∗ ) ( 𝐴𝐶 𝐵𝐷 )
 = 𝔞 ∗𝐴 𝔟∗𝐵 𝔞𝐶
 𝔟𝐷 2 𝜖 𝜖
-
-
-
+(
+)(
+)
 ∗
 = 2 𝔞 ∗𝐴 𝜖 𝐴𝐶 𝔞𝐶
 𝔟∗𝐵 𝜖 𝐵𝐷 𝔟∗𝐷
-
-
+(
+)
 = 2 𝔞 1∗ 𝜖 11 𝔞 1∗ + 𝔞 1∗ 𝜖 12 𝔞 2∗ + 𝔞 2∗ 𝜖 21 𝔞 1∗ + 𝔞 2∗ 𝜖 22 𝔞 2∗ (. . . ) = 0 .
 (3.187)
-|
-{z
-} |{z}
+⏟
+⏞⏞
+⏟ ⏟⏞⏞⏟
 =0
 
 =0
 
 □
 Proposition 3.4 Let 𝐽 𝜇𝜈 = 12 ( 𝜑
-e 𝛾 𝜇𝜈 𝜑) denote the “second-quantized” generators
+˜ 𝛾 𝜇𝜈 𝜑) denote the “second-quantized” generators
 of the Lie algebra 𝔰𝔲(2, 2)  𝔰𝔬(4, 2), as defined in Eqs. (3.99)-(3.114). By taking suitable linear combinations of these generators, we construct an alternative
 (Schwinger [108]) realization of the Lie algebra that is naturally adapted to the
 so-called conformal compact basis:16
@@ -8354,36 +8712,41 @@ angular momentum-like operators ; 𝐽𝑖 𝑗 , 𝑖, 𝑗 = 1, 2, 3, 4 .
 
 These operators generate a closed realization of the Lie algebra 𝔰𝔲(2, 2)  𝔰𝔬(4, 2),
 satisfying the canonical commutation relations:
-
-
+[
+]
 𝐻, 𝐽𝑖 𝑗 = 0 ,
 (3.192)
-!
+(
+)
 4
-
-
-
-1 ∑︁ 
+[
+]
+]
+1 ∑︁ [
 𝐶𝑖 , 𝑇 𝑗 = 2𝐻 𝛿𝑖 𝑗 − 2𝐽𝑖 𝑗 ,
 =⇒ 𝐻 =
 𝐶𝑖 , 𝑇𝑖 ,
 (3.193)
 8 𝑖=1
-
-
-
-
-
-
+(
+)
+[
+]
+(
+)
+(
+)
 𝐻, 𝑇𝑖 = 𝑇𝑖 ,
 =⇒ 𝐻 𝑇𝑖 |W⟩ = 𝑇𝑖 𝐻|W⟩ + 𝑇𝑖 |W⟩ ,
 (3.194)
-
-
-
-
-
-
+(
+)
+[
+]
+(
+)
+(
+)
 𝐻, 𝐶𝑖 = − 𝐶𝑖 ,
 =⇒ 𝐻 𝐶𝑖 |W⟩ = 𝐶𝑖 𝐻|W⟩ − 𝐶𝑖 |W⟩ .
 (3.195)
@@ -8392,11 +8755,12 @@ satisfying the canonical commutation relations:
 
 𝐶𝑖
 
-
-= − ( 𝐽𝑖5 − i𝐽0𝑖 ) = 𝑇𝑖∗
+(
 
-
-= ( 𝐽𝑖5 + i𝐽0𝑖 ) ∗ ,
+)
+(
+)
+= − ( 𝐽𝑖5 − i𝐽0𝑖 ) = 𝑇𝑖∗ = ( 𝐽𝑖5 + i𝐽0𝑖 ) ∗ ,
 
 which follows directly from the anti-Hermitian property (3.115) of the generators 𝐽𝜇𝜈 . This identity
 reflects the underlying symmetry (3.165) between the operators 𝐶𝑖 and 𝑇𝑖 , and will play a key role
@@ -8404,7 +8768,8 @@ in the structure of the corresponding Lie algebra representations.
 
 ## PDF page 113
 
-
+(
+)
 3.3 Positive Energy Ladder Representations of 𝔲 (2, 2)  𝔰𝔲 (2, 2)  𝔰𝔬 (4, 2) ⊕𝔲 (1) ⊂ 𝔠𝔩 (4, 2) Describing Massless Particles of Any Helici
 
 In this representation of 𝔰𝔲(2, 2)  𝔰𝔬(4, 2), the generators 𝑇𝑖 and 𝐶𝑖 act by construction as ladder operators, raising and lowering the eigenvalues of the conformal
@@ -8447,51 +8812,51 @@ and 𝑇 𝑗 :
 
 100
 
-
+[
 
 3 Ladder Representation of 𝔲 (2, 2) as a Quantized 4-dimensional Realization
 
- 
-
+] [
+]
 𝐶𝑖 , 𝑇 𝑗 = 𝔟 𝐴 (E𝑖∗ ) 𝐴𝐵 𝔞 𝐵 , 𝔞 ∗𝐸 (E 𝑗 ) 𝐸𝐷 𝔟∗𝐷
-
-
-
-
+[
+]
+[
+]
 = 𝔟 𝐴 (E𝑖∗ ) 𝐴𝐵 𝔞 𝐵 , 𝔞 ∗𝐸 (E 𝑗 ) 𝐸𝐷 𝔟∗𝐷 + 𝔟 𝐴, 𝔞 ∗𝐸 (E 𝑗 ) 𝐸𝐷 (E𝑖∗ ) 𝐴𝐵 𝔞 𝐵 𝔟∗𝐷
-|
-{z
-}
-|
-{z
-}
+⏟
+⏞⏞
+⏟
+⏟
+⏞⏞
+⏟
 𝐵 ( E ) 𝐸𝐷
 = ( E𝑖∗ ) 𝐴𝐵 𝛿𝐸
 𝑗
 
 + 𝔞 ∗𝐸 (E 𝑗 ) 𝐸𝐷 𝔟 𝐴
 
-
+[
 
 =0
 
 (E𝑖∗ ) 𝐴𝐵 𝔞 𝐵 , 𝔟∗𝐷
 
-|
+⏟
 
-{z
+⏞⏞
 
-
+]
 
 + 𝔞 ∗𝐸 (E 𝑗 ) 𝐸𝐷
 
-}
+⏟
 
 =0
 
- 𝐴 ∗ ∗
+[ 𝐴 ∗] ∗
 𝔟 , 𝔟 𝐷 (E𝑖 ) 𝐴𝐵 𝔞 𝐵
-| {z }
+⏟ ⏞⏞ ⏟
 𝐴
 = 𝛿𝐷
 
@@ -8565,7 +8930,8 @@ under the maximal compact subgroup generated by 𝐽𝑖 𝑗 .
 Vertex Algebra
 In terms of the homogeneous coordinates R4,2 ∋ 𝜁 = (𝜁 𝜇 ; 𝜇 = 0, 5, 1, 2, 3, 4) over
 the Dirac quadric 𝑄 [23]:
-!
+(
+)
 4
 ∑︁
 𝑖
@@ -8605,8 +8971,11 @@ are defined by [109]:
 One notes that:
 𝜁𝑖 = 𝜁 𝑖
 
-
+(
+
+)
 =⇒ 𝑧𝑖 = 𝑧𝑖 ,
+
 𝜁 𝑘 = −𝜁 𝑘 ,
 
 for
@@ -8625,7 +8994,7 @@ for 𝑖 = 1, . . . , 4 ,
 ∈ R,
 𝑧𝑗
 𝜁𝑗
-
+(
 𝑧 · 𝑧 :=
 
 4
@@ -8633,7 +9002,7 @@ for 𝑖 = 1, . . . , 4 ,
 
 (3.207)
 
-!
+)
 𝑧𝑖 𝑧𝑖 = 1 ,
 
 (3.208)
@@ -8649,6 +9018,8 @@ ary of the associated Hermitian symmetric domain is recalled in Appendix 3.8.
 3 Ladder Representation of 𝔲 (2, 2) as a Quantized 4-dimensional Realization
 
 102
+
+(
 2
 
 (𝑧) = 𝑧 · 𝑧 :=
@@ -8656,7 +9027,7 @@ ary of the associated Hermitian symmetric domain is recalled in Appendix 3.8.
 4
 ∑︁
 
-!
+)
 𝑖
 
 𝑧 𝑧𝑖 =
@@ -8695,7 +9066,7 @@ Z2
 
 (3.210)
 
-
+)
 1 − (𝑥) 2
 ⃗𝑥
 , 𝑧4 =
@@ -8710,7 +9081,7 @@ Z2
 𝑀 compact 
 
 which explicitly reads as:
-
+(
 𝑔𝑐 (𝑥 ∈ 𝑀) = 𝑧 = ⃗𝑧 =
 
 where ⃗𝑧 = (𝑧1 , 𝑧2 , 𝑧3 ), ⃗𝑥 = (𝑥 1 , 𝑥 2 , 𝑥 3 ), (𝑥) 2 = 𝑥 𝜇¤ 𝑥 𝜇¤ = (⃗𝑥 ) 2 − (𝑥 0 ) 2 , and:
@@ -8724,7 +9095,8 @@ where ⃗𝑧 = (𝑧1 , 𝑧2 , 𝑧3 ), ⃗𝑥 = (𝑥 1 , 𝑥 2 , 𝑥 3 ),
 
 With the above definition, one checks that 𝑧 · 𝑧 = 1 and (𝑧) 2 = 𝑒 2i𝜏 . Moreover, we
 observe that:
-!
+(
+)
 4
 ∑︁
 (d𝑥) 2
@@ -8736,18 +9108,14 @@ d𝑧 d𝑧 𝑖 = 2
 (3.213)
 Ω (𝑥)
 𝑖=1
-
-(𝑧 − 𝑢) 2 = 𝑔𝑐 (𝑥) − 𝑔𝑐 (𝑦)
-|{z} |{z}
-=: 𝑧
-
-2
-
-=
-
+)2
+(
 (𝑥 − 𝑦) 2
 .
+(𝑧 − 𝑢) 2 = 𝑔𝑐 (𝑥) − 𝑔𝑐 (𝑦) =
 Ω(𝑥) Ω(𝑦)
+⏟⏞⏞⏟ ⏟⏞⏞⏟
+=: 𝑧
 
 (3.214)
 
@@ -8784,8 +9152,8 @@ where 𝜙 is a relativistic quantum field and |0
 vacuum vector, arises as the boundary value (𝑦 → 0) — in the distributional
 sense — of an analytic (ket-)vector-valued function defined in the forward tube
 𝔗+:
-n
-o
+{
+}
 ˆ + i𝑦)|0U(2,2) ⟩ , for (𝑥 + i𝑦) ∈ 𝔗 + = 𝑥 + i𝑦 ; 𝑥, 𝑦 ∈ R3,1 , 𝑦 0 > |⃗𝑦| ,
 𝜙(𝑥
 
@@ -8818,14 +9186,14 @@ is regular (holomorphic) on the forward tube 𝔗 + and maps it into:
 (3.217)
 
 which explicitly reads:
-
+{
 
 precompact
 
 𝑔𝑐 (𝔗 + ) = 𝔗 +
 
-
-1
+)}
+1(
 22
 = 𝑧 ∈ C ; (𝑧) < 1, 𝑧 · 𝑧 <
 . (3.218)
@@ -8866,10 +9234,10 @@ the set itself is not compact, its closure is compact, and the set is therefore 
 are each invariant under real confor+
 mal transformations20 [112]. The closure 𝑀 compact of the precompact image of 𝑀
 in 𝐸 C has the form:
-(
-!
+{
+( 4
 )
-4
+}
 ∑︁
 𝑀 compact = 𝑧 = 𝑟𝑒 i𝜏 ; 𝑟 = (𝑟 𝑖 , 𝑖 = 1, . . . , 4) ∈ R4 , 𝜏 ∈ R , (𝑟) 2 =
 (𝑟 𝑖 ) 2 = 1
@@ -8891,8 +9259,8 @@ By the Wightman axioms, the state ˆ
 𝜙(𝑥)|0U(2,2) ⟩ defines a vector-valued tempered
 distribution on R3,1 . In particular, its Fourier transform exists in the sense of tempered
 distributions and has support contained in the closed forward light cone:
-n
-o
+{
+}
 𝑉+ := 𝑝 ∈ R3,1 ; 𝑝 0 ≥ 0 , ( 𝑝 0 ) 2 − (⃗𝑝 ) 2 ≥ 0 .
 (3.220)
 This is the content of the spectrum condition, which follows from energy positivity
@@ -8930,26 +9298,29 @@ Since 𝑝 0 ≥ |⃗𝑝 | ≥ 0 and 𝑦 0 > |⃗𝑦|, and by Cauchy-Schwarz 
 
 (3.222)
 
-we have:
-Im 𝑝 𝜇¤ 𝑧 𝜇¤
-
-
-
-
-≤ −𝑝 0 𝑦 0 + |⃗𝑝 | |⃗𝑦| ≤ − 𝑝 0 𝑦 0 − |⃗𝑦| ≤ 0 ,
-|{z} | {z }
-≥0
+(
+)
+(
+)
+Im 𝑝 𝜇¤ 𝑧 𝜇¤ ≤ −𝑝 0 𝑦 0 + |⃗𝑝 | |⃗𝑦| ≤ − 𝑝 0 𝑦 0 − |⃗𝑦| ≤ 0 ,
+⏟⏞⏞⏟ ⏟ ⏞⏞ ⏟
 
 (3.223)
+
+we have:
+
+≥0
 
 >0
 
 20 Without assuming conformal invariance of underlying QFT (a fact noted earlier by V. Glaser,
 
 unpublished), 𝔗 precompact
-is a homogeneous space of the conformal group;
+is a homogeneous space of the conformal
+group;
 +
- the stabilizer subgroup
+(
+) the stabilizer subgroup
 of 𝑧 = 0 ∈ 𝔗 precompact
 is the maximal compact subgroup S U(2) × U(2) ⊂ SU(2, 2).
 +
@@ -8959,15 +9330,14 @@ is the maximal compact subgroup S U(2) × U(2) ⊂ SU(2, 2).
 3.4 Complex Analytic Picture: Globally Conformal Invariant Vertex Algebra
 𝜇¤
 
-105
-
 𝜇¤
 
+105
 𝜇¤
 
 which ensures that the exponential factor 𝑒 −i 𝑝𝜇¤ 𝑧 = 𝑒 −i 𝑝𝜇¤ 𝑥 𝑒 𝑝𝜇¤ 𝑦 decays exponentially
-in 𝑝. As a result, the integral converges for all 𝑧 ∈ 𝔗 + , where
-
+in 𝑝. As a result, the} integral converges for all 𝑧 ∈ 𝔗 + , where
+{
 U(2,2)
 ˆ
 𝔗 + := 𝑧 ∈ C4 ; Im 𝑧 = 𝑦, 𝑦 0 > |⃗𝑦| . Thus, 𝜙(𝑧)|0
@@ -9012,8 +9382,8 @@ U(2,2)
 — Step II (the proof of 2). The proof of the second item follows from a direct
 calculation [109, 113]. As an illustration, let us focus on the first part of the statement
 — namely, the regularity of the conformal map:
-
-
+)
+(
 1 − (𝑤) 2
 1 + (𝑤) 2
 ⃗𝑤
@@ -9026,7 +9396,8 @@ calculation [109, 113]. As an illustration, let us focus on the first part of th
 2
 (3.225)
 
-
+{
+}
 on the forward tube 𝔗 + = 𝑤 := 𝑥 + i𝑦 ; 𝑥, 𝑦 ∈ R3,1 , 𝑦 0 > |⃗𝑦| . The map 𝑔𝑐 is
 regular (holomorphic) on 𝔗 + provided that its denominator never vanishes there;
 in other words, regularity of 𝑔𝑐 on the forward tube requires that Ω(𝑤) ≠ 0 for all
@@ -9056,17 +9427,15 @@ Re Ω(𝑤) =
 
 =⇒
 
-(𝑥) 2 = − 1 + 𝑦 0
-
-2
-
-+ |⃗𝑦| 2 ,
-
+(
+)2
+(𝑥) 2 = − 1 + 𝑦 0 + |⃗𝑦| 2 ,
+(
+)
 ⇓ since 𝑦 0 > |⃗𝑦| ≥ 0
 (𝑥 0 ) 2 > |⃗𝑥 | 2 ≥ 0 ,
-and:
 
-
+and:
 
 (3.227)
 
@@ -9083,13 +9452,15 @@ Im Ω(𝑤) = 𝑥 0 − 𝑥 · 𝑦 = 0
 =⇒
 
 ⇓
-0
+0(
 
-
+)
 𝑥 1 + 𝑦 0 = ⃗𝑥 · ⃗𝑦
-
+(
+)
 ⇓ by Cauchy-Schwarz inequality (3.222)
-
+(
+)
 − |⃗𝑥 | |⃗𝑦| ≤ 𝑥 0 1 + 𝑦 0 ≤ |⃗𝑥 | |⃗𝑦| .
 (3.228)
 The latter inequality evidently contradicts the conditions 𝑦 0 > |⃗𝑦| ≥ 0 and
@@ -9113,7 +9484,7 @@ where, in accord with the notational conventions established in Proposition 3.1,
 symbols E ∗𝑗 ( 𝑗 = 1, 2, 3) denote the standard imaginary quaternionic units, which
 satisfy (E ∗𝑗 ) 2 = E1∗ E2∗ E3∗ = −E4∗ = −1. The scalar i ∈ C, representing the complex
 imaginary unit with i2 = −1, is assumed to commute with all E ∗𝑗 ( 𝑗 = 1, 2, 3, 4), i.e.,
- ∗
+[ ∗]
 i, E 𝑗 = 0. On this basis, by multiplying both the numerator and the denominator
 1+𝔯
 of (1 + 𝔯)/(1 − 𝔯) by 1 + 𝔯 = 1 + 𝑥 𝑗 E ∗𝑗 − i𝑥 0 ,21 one verifies that 𝑧 := 𝑧 𝑗 E ∗𝑗 = 1−𝔯
@@ -9125,9 +9496,9 @@ that 𝑧 · 𝑧 = 1 and (𝑧) 2 = 𝑒 2i𝜏 , which together justify 𝑧 :
 ˆ
 Remark 3.15 Importantly, the corresponding bra-vector-valued function ⟨0U(2,2) | 𝜙(𝑥)
 is analytic in the backward tube 𝔗 − — complex conjugate to 𝔗 + :
-
- n
-o
+(
+) {
+}
 ⟨0U(2,2) | ˆ
 𝜙(𝑥 + i𝑦) , is analytic in 𝔗 − = 𝔗 + = 𝑥 + i𝑦 ; 𝑥, 𝑦 ∈ R4 , 𝑦 0 < −|⃗𝑦| .
 (3.230)
@@ -9219,10 +9590,10 @@ Proof — Step I (interchanging the tubes). Let 𝑧 ∈ 𝔗 precompact
 (3.236)
 
 We need to show:
-𝑧∗ = 
+𝑧∗ = (
 
 𝑔𝑐 (𝑥 + i𝑦)
- 2 = 𝑔𝑐 (𝑥 − i𝑦) ,
+) 2 = 𝑔𝑐 (𝑥 − i𝑦) ,
 𝑔𝑐 (𝑥 + i𝑦)
 
 (3.237)
@@ -9231,8 +9602,8 @@ where, by construction, (𝑥 − i𝑦) ∈ 𝔗 + = 𝔗 − , and hence 𝑔�
 . This
 −
 follows from a direct computation using the explicit form:
-
-
+)
+(
 ⃗𝑥 ± i⃗𝑦 1 − (𝑥 ± i𝑦) 2
 𝑔𝑐 (𝑥 ± i𝑦) =
 ,
@@ -9261,10 +9632,10 @@ Euclidean spaces, i.e., (⃗𝑥 , 𝑥4 ) ↦−→ (⃗𝑧, 𝑧 4 ), then th
 same functional form as (3.211):
 𝑔𝑐−1 (𝑧) = 𝑥 =
 
-
+(
 ⃗𝑥 =
 
-
+)
 1 − (𝑧) 2
 ⃗𝑧
 , 𝑥4 =
@@ -9279,7 +9650,8 @@ same functional form as (3.211):
 where Ω(𝑧) = 1+(𝑧)
 + 𝑧 4 . We actually have:
 2
-
+(
+)
 𝑔𝑐−1 𝑔𝑐 (𝑥) = 𝑥 .
 
 (3.240)
@@ -9291,7 +9663,7 @@ We now reformulate the theory of the free massless scalar field 𝜙(𝑥),
 whose two-point
 3,1
 function in Minkowski spacetime 𝑀  R is given by:
-∫ −i ⃗𝑝 ·⃗𝑥 − | ⃗𝑝 | 𝑥 0 
+∫ −i ( ⃗𝑝 ·⃗𝑥 − | ⃗𝑝 | 𝑥 0 )
 12
 12
 𝑒
@@ -9300,7 +9672,8 @@ function in Minkowski spacetime 𝑀  R is given by:
 ˆ 2 )⟩0 =
 d3 ⃗𝑝 ,
 ⟨𝜙(𝑥
- =
+(
+) =
 3
 0
 2
@@ -9321,8 +9694,8 @@ where 𝑥12 = 𝑥1 − 𝑥 2 (that is, 𝑥12
 𝑝 1 + 𝑝 2 + 𝑝 3 is the energy of a free massless scalar field. We reinterpret this
 theory in terms of a conformal vertex operator:
 
-
-2𝜋 ˆ
+)
+2𝜋 ˆ (
 ˆ
 𝜙(𝑧) :=
 𝜙 𝑥 = 𝑔𝑐 (𝑧) ,
@@ -9355,7 +9728,8 @@ transformation rule ensures that correlation functions and the action remain con
 invariance. For a∫free, massless scalar field in 4-dimensional spacetime, conformal invariance of
 the kinetic term 𝑑 4 𝑥 (𝜕𝜇¤ ˆ
 𝜙) 2 fixes E = 1; see also footnote 14. In our case, the field 𝜙ˆ (𝑧) :=
-
+(
+)
 2𝜋 ˆ
 ˆ
 Ω(𝑧) 𝜙 𝑔𝑐 (𝑧) is defined as a conformally rescaled version of the free scalar field 𝜙 ( 𝑥 ), where
@@ -9377,14 +9751,16 @@ the same form as (3.241), up to a conformally invariant factor. Specifically, by
 starting from the original two-point function (3.241) and considering the conformal
 transformation (3.239) together with the corresponding conformal distance relation
 (analogous to (3.214)), we obtain:
-
-
+⟨ (
+)⟩
+) (
 𝜙ˆ 𝑥1 = 𝑔𝑐 (𝑧) 𝜙ˆ 𝑥2 = 𝑔𝑐 (𝑢) 0 =
 =
 
 1
 1
-
+(
+)
 (2𝜋) 2 𝑔𝑐 (𝑧) − 𝑔𝑐 (𝑢) 2
 1 Ω(𝑧) Ω(𝑢)
 .
@@ -9392,20 +9768,21 @@ transformation (3.239) together with the corresponding conformal distance relati
 
 (3.243)
 
-
+(
+)
 2𝜋 ˆ
 Then, to obtain the two-point function of the rescaled field ˆ
 𝜙(𝑧) = Ω(𝑧)
 𝜙 𝑔𝑐 (𝑧) ,
 we multiply the above expression by the corresponding factors:
-
-
-
-
-
+)(
+)
+(
+)⟩
+) (
+2𝜋 ⟨ ˆ (
 2𝜋
-2𝜋
-𝜙ˆ 𝑔𝑐 (𝑧) 𝜙ˆ 𝑔𝑐 (𝑢) 0
+𝜙 𝑔𝑐 (𝑧) 𝜙ˆ 𝑔𝑐 (𝑢) 0
 𝑾 (𝑧, 𝑢) := ⟨0U(2,2) | ˆ
 𝜙(𝑧) ˆ
 𝜙(𝑢)|0U(2,2) ⟩ =
@@ -9442,7 +9819,7 @@ Proposition 3.6 The conformal conjugation map (3.233) extends naturally to field
 (1)
 operators and to vectors in the Hilbert space H𝜆=0
 of zero-helicity, massless oneparticle states, by defining:
-∗
+)∗
 1 ˆ ∗
 ˆ
 𝜙(𝑧)
@@ -9450,15 +9827,19 @@ of zero-helicity, massless oneparticle states, by defining:
 𝜙(𝑧 ) .
 (3.245)
 (𝑧) 2
-∗
+(
+)∗
 Proof To derive (3.245), we interpret the conjugated operator ˆ
 𝜙(𝑧) as arising
 from ˆ
 𝜙(𝑧) via the conformal inversion.
 — Step I (conformal inversion and Weyl scaling). Conformal inversion reads
 as:
-∗
-∗
+(
+
+)∗
+(
+)∗
 U(2,2)
 ˆ
 ˆ
@@ -9468,15 +9849,17 @@ U(2,2)
 
 where
 
+(
+
 ## PDF page 124
 
 3 Ladder Representation of 𝔲 (2, 2) as a Quantized 4-dimensional Realization
 
 110
 
-𝑧
-
 ↦−→
+
+𝑧
 
 𝑧˘ :=
 
@@ -9498,7 +9881,7 @@ of complex conjugation with conformal inversion:
 
 The inversion
 map (3.246) is conformal in the sense that the squared line element
-Í
+∑
 (d𝑧) 2 = 4𝑖=1 d𝑧 𝑖 d𝑧 𝑖 is rescaled by a Weyl factor. This can be seen by explicitly
 computing the differential of 𝑧˘𝑖 :
 𝑧˘𝑖 =
@@ -9513,19 +9896,19 @@ d𝑧˘𝑖 =
 d𝑧 𝑖
 𝑧𝑖 d(𝑧) 2
 −
-2 ,
+( 2)2 ,
 (𝑧) 2
-(𝑧) 2
+(𝑧)
 
 (3.248)
 
-Í
-Í
+∑
+∑
 where 𝑖 = 1, 2, 3, 4. Since (𝑧) 2 = 4𝑗=1 𝑧 𝑗 𝑧 𝑗 , it follows that d(𝑧) 2 = 2 4𝑗=1 𝑧 𝑗 d𝑧 𝑗 .
 Substituting this into (3.248) yields:
-!
-Í
-𝑗
+)
+( 𝑗
+∑
 4
 4
 ∑︁
@@ -9542,10 +9925,8 @@ d𝑧
 =:
 𝜏𝑖 d𝑧 𝑗 , (3.249)
 𝑗
-2
-2
-2
-2
+( 2)2
+( 2)2
 2
 (𝑧) 2
 (𝑧)
@@ -9561,7 +9942,8 @@ where:
 
 2𝑧 𝑖 𝑧 𝑗
 −
-2 ,
+(
+)2 ,
 (𝑧) 2
 (𝑧) 2
 𝛿𝑖
@@ -9572,28 +9954,29 @@ satisfying
 ∑︁
 
 𝑗
+𝑗
+𝜏𝑘 𝜏𝑖𝑘 = (
 
 𝛿𝑖
-
-𝑗
-𝜏𝑘 𝜏𝑖𝑘 =
-
-2 .
+)2 .
 
 (3.250)
 
 (d𝑧) 2
-2 .
+)2 .
 (𝑧) 2
 
 (3.251)
 
-(𝑧) 2
-
 𝑘=1
+
+(𝑧) 2
 
 Using the above, we compute the transformed line element:
 (d𝑧˘) 2 =
+
+4
+∑︁
 
 4
 ∑︁
@@ -9602,28 +9985,26 @@ d𝑧˘𝑖 d𝑧˘𝑖 =
 
 𝑖=1
 
-4
-∑︁
-
 𝜏 𝑖𝑗 𝜏𝑖𝑘 d𝑧 𝑗 d𝑧 𝑘
 
 𝑖, 𝑗,𝑘=1
 
-=
+= (
 
 1
 (𝑧)
 
 ∑︁
 
-
+)
 2 2
 
-𝛿 𝑘𝑗 d𝑧 𝑗 d𝑧 𝑘 =
+𝛿 𝑘𝑗 d𝑧 𝑗 d𝑧 𝑘 = (
 
 𝑗,𝑘
 
-2
+(
+)2
 Thus, inversion rescales the metric by the Weyl factor 1/ (𝑧) 2 , confirming that
 𝑧 ↦−→ 𝑧˘ is indeed a conformal transformation.
 — Step II (application to the field operator). Under the inversion map (3.246),
@@ -9654,11 +10035,13 @@ Equivalently:
 𝜙( 𝑧˘) .
 (3.253)
 (𝑧) 2
-∗
+)∗
+(
 𝜙(𝑧) , we apply the above rule to the
 To define the conjugated field operator ˆ
 complex conjugated coordinate 𝑧 ↦−→ 𝑧˘ = 𝑧∗ = 𝑧/(𝑧) 2 , yielding (3.245):
-∗
+)∗
+(
 1 ˆ ∗
 𝜙(𝑧) .
 𝜙(𝑧 ) =: ˆ
@@ -9742,8 +10125,8 @@ representation of the conformal group U(2, 2), and let 𝐻 := i𝐽05 (3.190) (
 (3.193)) denote the conformal Hamiltonian, which is essentially self-adjoint and
 bounded from below. Then:
 1. The spectrum of 𝐻 is purely discrete and non-negative:
-o
-n
+}
+{
 Spec(𝐻) = E ∈ R ≥0 ; E = 0, 1, 23 , 2, . . . ,
 
 (3.257)
@@ -9751,7 +10134,7 @@ Spec(𝐻) = E ∈ R ≥0 ; E = 0, 1, 23 , 2, . . . ,
 where each eigenvalue E has finite multiplicity.
 2. The space H decomposes into a direct sum of (finite-dimensional) eigenspaces
 HE of the conformal Hamiltonian 𝐻:
-Ê
+⨁
 H =
 HE , such that (𝐻 − E )HE = 0 .
 (3.258)
@@ -9771,18 +10154,23 @@ finite-dimensional representation of Spin(4)  SO(4). The central element −14 
 Spin(4) acts on states in HE by multiplication with their parity, given by:
 (−1) 2(j𝐿 +j𝑅 ) = (−1) 2E ∈
 
-
+{
 
+}
 − 1, +1 .
 
 (3.260)
 
 This identity follows directly from Remark 3.13.
-In this construction, the fields 𝜙ˆ of the theory
- are represented by infinite power
-series in (𝑧) 2 := (𝑧1 ) 2 + (𝑧 2 ) 2 + (𝑧 3 ) 2 + (𝑧 4 ) 2 with harmonic polynomial coefficients:
-∑︁ ∑︁
-𝑛
+In this construction,
+the fields 𝜙ˆ of the theory
+(
+) are represented by infinite power
+2
+2
+series in (𝑧) := (𝑧1 ) + (𝑧 2 ) 2 + (𝑧 3 ) 2 + (𝑧 4 ) 2 with harmonic polynomial coefficients:
+∑︁ ∑︁ (
+)𝑛
 ˆ
 𝜙(𝑧) =
 (𝑧) 2 𝜙ˆ𝑛,𝑚 (𝑧) ,
@@ -9838,13 +10226,13 @@ below, this assignment endows the fields with a Z2 grading that enters the stron
 (Huygens) locality condition, governing whether fields commute or anticommute in
 the graded operator algebra.
 The strong (Huygens) locality condition assumes:24
-
+(
 
 (𝑧 − 𝑢) 2
 
-𝑁 
+)𝑁 (
 
-
+)
 ˆ
 ˆ
 ˆ 𝜓(𝑢)
@@ -9856,7 +10244,8 @@ The strong (Huygens) locality condition assumes:24
 
 (3.265)
 
-𝑁
+(
+)𝑁
 for some sufficiently large integer 𝑁. The prefactor (𝑧 − 𝑢) 2
 ensures that the
 expression vanishes in the coincident limit 𝑧 → 𝑢 and encodes the allowed singularity
@@ -9911,7 +10300,7 @@ transformations, dilations, and special conformal transformations, we can actual
 realize such a conformal transformation as a composition of elementary operations;
 specifically:
 1. Translate 𝑥 to the origin by 𝑇𝑥 ( 𝐴) = 𝐴 − 𝑥, which maps the original pair (𝑥, 𝑦) to
-(0, 𝑟), where 𝑟 = 𝑦 − 𝑥. Note that,as assumed in the proposition, 𝑟 ≠ 0.
+(0, 𝑟), where 𝑟 = 𝑦 − 𝑥. Note( that,)as assumed in the proposition, 𝑟 ≠ 0.
 2. Similarly, define 𝑟 ′ = 𝑦 ′ − 𝑥 ′ ≠ 0 , so that the target pair (𝑥 ′ , 𝑦 ′ ) becomes (0, 𝑟 ′ )
 after translation by 𝑥 ′ .
 √︂
@@ -9938,7 +10327,8 @@ pairs to spacelike (respectively timelike) pairs, is:
 
 115
 
-
+(
+)
 ′
 𝑔˜ 𝑐 ( 𝐴) = 𝑇𝑥−1
 ′ ◦ Λ ◦ 𝐷 𝜚 ◦ 𝑇𝑥 ( 𝐴) = Λ 𝜚( 𝐴 − 𝑥) + 𝑥 ,
@@ -9954,7 +10344,7 @@ satisfying:
 
 — Step II (extension to compactified
 Minkowski space). We now invoke the
-
+( )
 conformal compactification, 𝑔𝑐 𝑀 = 𝑀 compact , where the globally defined map 𝑔𝑐 is
 specified in Eq. (3.211), with its inverse given in Eq. (3.239). Let:
 𝑧 = 𝑔𝑐 (𝑥) ,
@@ -9993,7 +10383,7 @@ Nevertheless, even though the global map 𝑔𝑐 does not preserve the spacelik
 timelike character of vectors, the conformal group still acts transitively on the set of
 mutually non-isotropic (non-null) point pairs in 𝑀 compact :
 (𝑧, 𝑢)
-|{z}
+⏟⏞⏞⏟
 
 𝑔𝑐−1 (3.239)
 
@@ -10012,7 +10402,7 @@ mutually non-isotropic (non-null) point pairs in 𝑀 compact :
 ↦−→
 
 (𝑧 ′ , 𝑢 ′ ) . (3.271)
-| {z }
+⏟ ⏞⏞ ⏟
 (𝑧 ′ −𝑢′ ) 2 ≠ 0
 
 (𝑧−𝑢) 2 ≠ 0
@@ -10022,8 +10412,8 @@ condition (3.265) reflects the conformal orbit structure in the following sense.
 fields ˆ
 𝜙(𝑧) and ˆ
 𝜓(𝑢), the graded (anti-)commutator:
-
-
+)
+(
 ˆ
 𝜓(𝑢) ˆ
 𝜙(𝑧)
@@ -10031,19 +10421,20 @@ fields ˆ
 𝜙(𝑧) ˆ
 𝜓(𝑢) − (−1) P 𝜙ˆ P 𝜓ˆ ˆ
 is not identically zero for general configurations, but the condition:
-
+(
 
 (𝑧 − 𝑢) 2
 
-𝑁 
+)𝑁 (
 
-
+)
 ... = 0
 
 (3.273)
 
 is required to be smooth and covariant under SU(2, 2) on the domain where (𝑧−𝑢) 2 ≠
-𝑁
+(
+)𝑁
 0. The prefactor (𝑧 − 𝑢) 2 therefore plays two complementary roles:
 
 ## PDF page 130
@@ -10101,28 +10492,36 @@ states are referred to as quasiprimary in Ref. [115], adopting terminology from
 2-dimensional CFT, where the notion originates.
 U(2,2)
 ˆ
-5. For every vector |𝑣⟩
+5. For every vector
+|𝑣⟩
 ⟩ (of definite parity P), there exists a unique
- := 𝜙(0) |0
+(
+) := 𝜙(0) |0
 local field Y |𝑣⟩, 𝑧 (of parity P), such that:
-
-
+(
+)
+(
+)
 Y |𝑣⟩, 𝑧 |0U(2,2) ⟩ = 𝑒 𝑧·𝑇 |𝑣⟩ =⇒ Y |𝑣⟩, 𝑧 = 0 |0U(2,2) ⟩ = |𝑣⟩ ,
 (3.275)
 where 𝑧 ·𝑇 :=
 
-Í4
+∑4
+
+(
 
 𝑖
 𝑖=1 𝑧 𝑇𝑖 , and Y |𝑣⟩, 𝑧
 
-
+)
 
 obeys the conformal covariance conditions:
 
-
-
-
+[
+(
+)]
+(
+)
 𝑇𝑖 , Y |𝑣⟩, 𝑧 = 𝑇𝑖(𝑧) Y |𝑣⟩, 𝑧 ,
 
 (3.276)
@@ -10131,47 +10530,49 @@ obeys the conformal covariance conditions:
 
 3.5 4-dimensional Conformal Vertex Algebra
 
-
+[
 
-𝐶𝑖 , Y |𝑣⟩, 𝑧
+117
 
-
-
-
-
-
-
-= − 𝐶𝑖(𝑧) Y |𝑣⟩, 𝑧 − 2𝑧 𝑖 Y 𝐻|𝑣⟩, 𝑧
-
-
+(
+)]
+(
+)
+(
+)
+𝐶𝑖 , Y |𝑣⟩, 𝑧 = − 𝐶𝑖(𝑧) Y |𝑣⟩, 𝑧 − 2𝑧 𝑖 Y 𝐻|𝑣⟩, 𝑧
+(
+)
+(
+)
 + 2𝑧 𝑗 Y 𝐽𝑖 𝑗 |𝑣⟩, 𝑧 + Y 𝐶𝑖 |𝑣⟩, 𝑧 ,
 
 (3.277)
 
-
-
-= −𝐻 (𝑧) Y |𝑣⟩, 𝑧 + Y 𝐻|𝑣⟩, 𝑧 ,
+(
+)]
+(
+)
+(
+)
+𝐻, Y |𝑣⟩, 𝑧 = −𝐻 (𝑧) Y |𝑣⟩, 𝑧 + Y 𝐻|𝑣⟩, 𝑧 ,
 
 (3.278)
 
-
-
-= 𝐽𝑖(𝑧)
+(
+)]
+(
+)
+(
+)
+𝐽𝑖 𝑗 , Y |𝑣⟩, 𝑧 = 𝐽𝑖(𝑧)
 𝑗 Y |𝑣⟩, 𝑧 + Y 𝐽𝑖 𝑗 |𝑣⟩, 𝑧 ,
 
 (3.279)
 
-𝐻, Y |𝑣⟩, 𝑧
+[
 
-
-
-
-
-
-
-𝐽𝑖 𝑗 , Y |𝑣⟩, 𝑧
-
-117
+[
 
 where 𝑇𝑖(𝑧) = 𝜕𝑖 := 𝜕𝑧𝜕 𝑖 , 𝐶𝑖(𝑧) = −(𝑧) 2 𝜕𝑖 + 2𝑧 𝑖 (𝑧 · 𝜕), 𝐻 (𝑧) = −𝑧 · 𝜕, and
 𝐽𝑖(𝑧)
@@ -10181,28 +10582,35 @@ operators acting on compactified Minkowski space 𝑀 compact  (S3 ×S1 )/Z2  
 Proof (consistency check — not a formal proof)
 U(2,2)
 ˆ
-— Step I (the absence of negative powers
-⟩). The absence of nega U(2,2)in 𝜙(𝑧) |0
+— Step I (the absence of negative
+⟩). The absence of nega( powers
+) U(2,2)in 𝜙(𝑧) |0
 U(2,2)
 tive powers in ˆ
 𝜙(𝑧) |0
 ⟩ = Y |𝑣⟩, 𝑧 |0
 ⟩ can be directly understood from its
 behavior under the action (3.278) of the conformal Hamiltonian 𝐻:
-
-
-
-
+[
+(
+)]
+(
+(
+))
+(
+)
 𝐻, Y |𝑣⟩, 𝑧 |0U(2,2) ⟩ = 𝑧 · 𝜕Y |𝑣⟩, 𝑧 |0U(2,2) ⟩ + Y 𝐻|𝑣⟩, 𝑧 |0U(2,2) ⟩
-
+(
+)
 = (2𝑛 + 𝑚 + E ) Y |𝑣⟩, 𝑧 |0U(2,2) ⟩ ,
 (3.280)
-|
-{z
-}
+⏟
+⏞⏞
+⏟
 =: E𝑛,𝑚
 
-
+(
+)
 ˆ
 where (2𝑛 + 𝑚) denotes the total homogeneity degree of Y |𝑣⟩, 𝑧 = 𝜙(𝑧)
 (see the
@@ -10213,8 +10621,8 @@ special conformal generators 𝐶𝑖 , then E = E◦ is the minimal eigenvalue 
 such states, and for sufficiently small 𝑚 (in particular for 𝑚 = 0), terms with 𝑛 < 0
 would imply the existence of states with energy below E = E◦ , contradicting the
 unitarity requirement of energy bounded below. Thus, to avoid producing lowerenergy states, any term with 𝑛 < 0 must annihilate the vacuum; that is:
-𝑛
-(𝑧) 2 𝜙ˆ𝑛,𝑚 (𝑧) |0U(2,2) ⟩ = 0 , for all 𝑛 < 0 .
+( 2) 𝑛
+(𝑧) 𝜙ˆ𝑛,𝑚 (𝑧) |0U(2,2) ⟩ = 0 , for all 𝑛 < 0 .
 (3.281)
 — Step II (verification of conformal covariance). We now examine whether the
 vertex operators introduced in Eqs. (3.276)-(3.279) are consistent with the canonical
@@ -10225,50 +10633,64 @@ commutation relation of the conformal Lie algebra 𝔰𝔲(2, 2)  𝔰𝔬(4, 2
 
 118
 
-
+[[
 
 3 Ladder Representation of 𝔲 (2, 2) as a Quantized 4-dimensional Realization
 
-
-  
-  
-
+] (
+)] [ [
+(
+)]] [ [
+(
+)]]
 𝐻, 𝑇𝑖 , Y |𝑣⟩, 𝑧 = 𝐻, 𝑇𝑖 , Y |𝑣⟩, 𝑧
 − 𝑇𝑖 , 𝐻, Y |𝑣⟩, 𝑧
-
- 
-
-
+[
+(
+)] [
+(
+)
+(
+)]
 = 𝐻, 𝑇𝑖(𝑧) Y |𝑣⟩, 𝑧 − 𝑇𝑖 , −𝐻 (𝑧) Y |𝑣⟩, 𝑧 + Y 𝐻|𝑣⟩, 𝑧
-
-
-
- 
-
+[
+[
+(
+)]
+(
+)] [
+(
+)]
 = 𝑇𝑖(𝑧) 𝐻 , Y |𝑣⟩, 𝑧 + 𝐻 (𝑧) 𝑇𝑖 , Y |𝑣⟩, 𝑧 − 𝑇𝑖 , Y 𝐻|𝑣⟩, 𝑧
-
-
-
+(
+(
+)
+(
+))
 = 𝑇𝑖(𝑧) − 𝐻 (𝑧) Y |𝑣⟩, 𝑧 + Y 𝐻|𝑣⟩, 𝑧
-
-
+(
+)
+(
+)
 + 𝐻 (𝑧) 𝑇𝑖(𝑧) Y |𝑣⟩, 𝑧 − 𝑇𝑖(𝑧) Y 𝐻|𝑣⟩, 𝑧
-
-
-
+[
+] (
+)
 = 𝐻 (𝑧) , 𝑇𝑖(𝑧) Y |𝑣⟩, 𝑧
-
+(
+)
 = 𝑇𝑖(𝑧) Y |𝑣⟩, 𝑧
-
-
+[
+(
+)]
 = 𝑇𝑖 , Y |𝑣⟩, 𝑧 .
 (3.282)
 
 To derive this relation, we have used the Jacobi identity:
-
- 
- 
-
+[
+] [
+] [
+]
 [ 𝐴, 𝐵], 𝐶 = 𝐴, [𝐵, 𝐶] − 𝐵, [ 𝐴, 𝐶] .
 Proceeding along the same path, we obtain:
 
@@ -10278,95 +10700,129 @@ Proceeding along the same path, we obtain:
 
 3.6 Appendix: Upper Bound on 𝔰𝔲 (2) Spins from the 𝔰𝔬 (4) Casimir
 
-
+[[
 
 119
 
-
-
-  
- 
-
+] (
+[
+)] [ [
+(
+)]] [
+(
+)]]
 𝐻, 𝐶𝑖 , Y |𝑣⟩, 𝑧 = 𝐻, 𝐶𝑖 , Y |𝑣⟩, 𝑧
 − 𝐶𝑖 , 𝐻, Y |𝑣⟩, 𝑧
-
-
-
+[
+(
+)
+(
+)
 = 𝐻, −𝐶𝑖(𝑧) Y |𝑣⟩, 𝑧 − 2𝑧 𝑖 Y 𝐻|𝑣⟩, 𝑧
-
-
+(
+)
+(
+)]
 + 2𝑧 𝑗 Y 𝐽𝑖 𝑗 |𝑣⟩, 𝑧 + Y 𝐶𝑖 |𝑣⟩, 𝑧
-
-
-
+[
+(
+)
+(
+)]
 − 𝐶𝑖 , −𝐻 (𝑧) Y |𝑣⟩, 𝑧 + Y 𝐻|𝑣⟩, 𝑧
-
-
-
-
+[
+[
+(
+)]
+(
+)]
 = −𝐶𝑖(𝑧) 𝐻, Y |𝑣⟩, 𝑧 − 2𝑧 𝑖 𝐻, Y 𝐻|𝑣⟩, 𝑧
-
- 
-
+[
+(
+)] [
+(
+)]
 + 2𝑧 𝑗 𝐻, Y 𝐽𝑖 𝑗 |𝑣⟩, 𝑧 + 𝐻, Y 𝐶𝑖 |𝑣⟩, 𝑧
-
- 
-
+[
+(
+)] [
+(
+)]
 + 𝐻 (𝑧) 𝐶𝑖 , Y |𝑣⟩, 𝑧 − 𝐶𝑖 , Y 𝐻|𝑣⟩, 𝑧
-
-
-
+(
+(
+)
+(
+))
 = −𝐶𝑖(𝑧) − 𝐻 (𝑧) Y |𝑣⟩, 𝑧 + Y 𝐻|𝑣⟩, 𝑧
-
-
-
+(
+(
+)
+(
+))
 − 2𝑧 𝑖 − 𝐻 (𝑧) Y 𝐻|𝑣⟩, 𝑧 + Y 𝐻 2 |𝑣⟩, 𝑧
-
-
-
+(
+(
+)
+(
+))
 + 2𝑧 𝑗 − 𝐻 (𝑧) Y 𝐽𝑖 𝑗 |𝑣⟩, 𝑧 + Y 𝐻𝐽𝑖 𝑗 |𝑣⟩, 𝑧
-
-
-
+(
+(
+)
+(
+))
 + − 𝐻 (𝑧) Y 𝐶𝑖 |𝑣⟩, 𝑧 + Y 𝐻𝐶𝑖 |𝑣⟩, 𝑧
-
-
-
+(
+(
+)
+(
+)
 + 𝐻 (𝑧) − 𝐶𝑖(𝑧) Y |𝑣⟩, 𝑧 − 2𝑧 𝑖 Y 𝐻|𝑣⟩, 𝑧
-
-
+(
+)
+(
+))
 + 2𝑧 𝑗 Y 𝐽𝑖 𝑗 |𝑣⟩, 𝑧 + Y 𝐶𝑖 |𝑣⟩, 𝑧
-
-
-
+(
+(
+)
+(
+)
 − − 𝐶𝑖(𝑧) Y 𝐻|𝑣⟩, 𝑧 − 2𝑧 𝑖 Y 𝐻 2 |𝑣⟩, 𝑧
-
-
+(
+)
+(
+))
 + 2𝑧 𝑗 Y 𝐽𝑖 𝑗 𝐻|𝑣⟩, 𝑧 + Y 𝐶𝑖 𝐻|𝑣⟩, 𝑧
-
-
-
- 
-
+] (
+] (
+[
+) [
+)
 = 𝐶𝑖(𝑧) , 𝐻 (𝑧) Y |𝑣⟩, 𝑧 + 2𝑧𝑖 , 𝐻 (𝑧) Y 𝐻|𝑣⟩, 𝑧
-
-
-
-
+[
+] (
+)
+(
+)
 − 2𝑧 𝑗 , 𝐻 (𝑧) Y 𝐽𝑖 𝑗 |𝑣⟩, 𝑧 + Y [𝐻, 𝐶𝑖 ] |𝑣⟩, 𝑧
-
-
+[
+(
+)]
 = − 𝐶𝑖 , Y |𝑣⟩, 𝑧 ,
 (3.284)
 
 and similarly, one also verifies that:
-
-
-
-
-
-
-
+[
+[[
+] (
+[
+)]
+(
+)]
+(
+)]
 𝐶𝑖 , 𝑇 𝑗 , Y |𝑣⟩, 𝑧 = 2𝛿𝑖 𝑗 𝐻, Y |𝑣⟩, 𝑧 − 2 𝐽𝑖 𝑗 , Y |𝑣⟩, 𝑧 .
 
 (3.285)
@@ -10394,12 +10850,13 @@ Z ≥0 .
 Assume:
 C2𝔰𝔬 (4) =
 
-
-1 2
+)
+1( 2
 E + 𝜆2 − 1 ,
 2
 
-
+(
+)
 E = |𝜆| + 𝑛 ≥ 1 ,
 
 𝜆∈
@@ -10442,14 +10899,15 @@ Since E ≥ 1, one checks:
 ≤ E − 1,
 (3.290)
 2
-
+(
+)
 because squaring gives the identity 0 ≤ 2 (E − 1) 2 − 𝜆2 . The same argument holds
 for j𝑅 .
 □
 
 3.7 Appendix: de Sitter (dS) Massless Unitary Irreducible
 Representations (UIRs)
-We begin again with the conformal Lie algebra 𝔰𝔲(2, 2)  𝔰𝔬(4, 2) and its “seconde 𝛾 𝜇𝜈 𝜑), with 𝜇, 𝜈 = 0, 1, 2, 3, 4, 5 (see Eq.
+We begin again with the conformal Lie algebra 𝔰𝔲(2, 2)  𝔰𝔬(4, 2) and its “second˜ 𝛾 𝜇𝜈 𝜑), with 𝜇, 𝜈 = 0, 1, 2, 3, 4, 5 (see Eq.
 quantized” ladder generators 𝐽 𝜇𝜈 = 12 ( 𝜑
 
 ## PDF page 135
@@ -10479,24 +10937,29 @@ the total spins (j 𝐿 , j𝑅 ).
 The remaining generators 𝐽0𝑖 (with 𝑖 = 1, . . . , 4), which span the noncompact
 directions of 𝔰𝔬(4, 1), act between multiplets. Their commutation relations with the
 compact generators are:
-
-
-
+[
+] (
+)
 𝐽𝑖 𝑗 , 𝐽0𝑘 = 𝜂 𝑗 𝑘 𝐽0𝑖 − 𝜂𝑖𝑘 𝐽0 𝑗 ,
 (3.291)
-which shows that the operators 𝐽0𝑖 transform in the vector (4-dimensional) representation of the compact group SO(4). Under the homomorphism SO(4) 
-
+which shows that the operators 𝐽0𝑖 transform in the vector (4-dimensional) representation of the compact group SO(4). Under the homomorphism SO(4)
+
+)
+(
 SU(2) 𝐿 × SU(2) 𝑅 , this 4-vector corresponds to the bi-spinor representation 12 , 12 ,
-
-with dimension d 12 , 12 = (1 + 1) (1 + 1) = 4.
+(1 1)
+with dimension d 2 , 2 = (1 + 1) (1 + 1) = 4.
 When 𝐽0𝑖 acts on a compact multiplet (j 𝐿 , j𝑅 ) it therefore produces states in the
 tensor product:
-
-
-
+(
+)
+(
+) (
+)
 (j 𝐿 , j𝑅 ) ⊗ 12 , 12 = j 𝐿 + 12 , j𝑅 + 12 ⊕ j 𝐿 + 12 , j𝑅 − 12
-
-
+(
+) (
+)
 ⊕ j 𝐿 − 12 , j𝑅 + 12 ⊕ j 𝐿 − 12 , j𝑅 − 12 ,
 (3.292)
 with the obvious convention that any term with a negative spin is omitted. Thus, the
@@ -10519,7 +10982,8 @@ understood in the appropriate representational context.
 In summary, a dS UIR decomposes into a (generally countable) collection of
 SO(4) multiplets (j 𝐿 , j𝑅 ). The compact generators 𝐽𝑖 𝑗 act within each multiplet,
 whereas the noncompact generators
- 𝐽0𝑖 link multiplets according to the ClebschGordan decomposition with 21 , 12 ; there is no analogue of a globally conserved
+) 𝐽0𝑖 link multiplets according to the Clebsch(
+Gordan decomposition with 21 , 12 ; there is no analogue of a globally conserved
 energy label as in anti-dS space.
 For the dS massless UIRs, the structure simplifies. As a direct consequence of the
 preceding discussion, the full Hilbert space is generated from a chiral seed multiplet:
@@ -10616,8 +11080,9 @@ the one hand, SU(2, 2) acts transitively on the Cartan domain of type I:
 𝐷 I2,2 =
 
 SU(2, 2)
-,
+),
 S U(2) × U(2)
+(
 
 (3.298)
 
@@ -10635,10 +11100,10 @@ one recovers 𝑀 compact as this Shilov boundary.
 On the other hand, via the isomorphism SU(2, 2) ≃ SO(4, 2), the same symmetric
 space can be realized as the Cartan domain of type IV (the Lie ball):
 𝐷 IV
-4 =
+4 = (
 
 SO(4, 2)
-,
+),
 SO(2) × SO(4)
 
 (3.300)
@@ -10675,8 +11140,8 @@ P𝑄 := 𝑄/R>0 ,
 124
 
 with:
-n
-o
+{
+}
 𝑄 := 𝜁 ∈ R4,2 \ 0 ; (𝜁) 2 := 𝜂 𝜇𝜈 𝜁 𝜇 𝜁 𝜈 = 0 = Eq. (3.202) ,
 
 (3.302)
@@ -10709,7 +11174,7 @@ P𝑄
 
 
 (S3 × S1 )/Z2
-| {z }
+⏟ ⏞⏞ ⏟
 
 
 
@@ -10730,22 +11195,23 @@ P𝑄
 
 𝜇¤ = 0, 1, 2, 3
 
-(𝑥) 2 := 𝑥 𝜇¤ 𝑥 𝜇¤ =
+(𝑥) 2 := 𝑥 𝜇¤ 𝑥 𝜇¤ = (
 
 𝜁 𝜇¤ 𝜁 𝜇¤
 𝜁5 + 𝜁
 
- =
+) =
 4 2
 
 (𝜁 5 ) 2 − (𝜁 4 ) 2
 𝜁5 − 𝜁4
 = 5
 . (3.305)
-
+( 5
+)
 2
 𝜁 + 𝜁4
-𝜁5 + 𝜁4
+𝜁 + 𝜁4
 
 The consistency of the above relations is verified by substituting 𝑥 𝜇¤ and (𝑥) 2 , as
 given above, into Eq. (3.211), which yields Eq. (3.204).
@@ -10759,7 +11225,8 @@ on Dirac’s projective quadric by first-order differential operators of the for
 3.9 Appendix: The Lie Algebra 𝔰𝔬 (4, 2) and its Euclidean 𝔰𝔬 (5, 1) Counterpart; the 𝑧-Picture of the 𝔰𝔬 (4, 2) Generators
 125
 
-
+(
+)
 𝑋 𝜇𝜈 = −𝑋𝜈 𝜇 = 𝜁 𝜇 𝜕𝜈 − 𝜁 𝜈 𝜕𝜇 ,
 
 𝜕𝜇 :=
@@ -10796,9 +11263,10 @@ The Lie brackets of these generators generate the full conformal Lie algebra,
 including the Lorentz transformations 𝑥 𝜇¤ 𝜕𝜈¤ − 𝑥 𝜈¤ 𝜕𝜇¤ and the dilatation operator
 𝑥 · 𝜕. In particular, the commutator between translation and special conformal
 generators reads:
-
-
-
+[
+]
+(
+)
 i𝑘 𝜈¤ , i𝑝 𝜇¤ = 2 𝜂 𝜇¤ 𝜈¤ (𝑥 · 𝜕) − 2 𝑥 𝜇¤ 𝜕𝜈¤ − 𝑥 𝜈¤ 𝜕𝜇¤ .
 (3.309)
 We recall our mostly ‘+’ convention for the metric signature in R4,2 ; 𝜂11 = · · · =
@@ -10828,7 +11296,8 @@ This follows from the relations (for 𝑥 𝜈¤ given by (3.305)):
 −
 =
 𝛿 𝜇¤ − 𝑥 𝜇¤ 𝑥 𝜈¤ .
-
+(
+)
 2
 2
 𝜁 + 𝜁5
@@ -10840,12 +11309,12 @@ This follows from the relations (for 𝑥 𝜈¤ given by (3.305)):
 
 𝜁4 + 𝜁
 
-−
+− (
 5
 
 𝜁4 + 𝜁
 
- =
+) =
 5 2
 
 Note: Regarding the above calculations, it is worthwhile to highlight a subtle
@@ -10865,9 +11334,9 @@ point here:
 𝑥 = 𝛿 𝜈𝜇¤¤ ,
 𝜕𝑥 𝜇¤
 
-
+)
 𝜕
-𝜕
+𝜕 (
 𝜌¤
 𝑥 𝜈¤ =
 𝜂 𝜈¤ 𝜌¤ 𝑥 𝜌¤ = 𝜂 𝜈¤ 𝜌¤ 𝛿 𝜇¤ = 𝜂 𝜈¤ 𝜇¤ = 𝜂 𝜇¤ 𝜈¤ .
@@ -10912,8 +11381,9 @@ with 𝜃 𝑖 parametrizing the ray family. Since P𝑄 is compact and carries 
 action of the conformal group, this description is global and conformally invariant, providing a robust geometric framework for analyzing the propagation
 and focusing of massless perturbations, notably in cosmological and inflationary
 applications.
-With the above material in mind, we now return to our main objective:
-intro
+With the above material in mind, we now return to our main
+intro( objective:
+)
 ducing the 𝑧-picture of the 𝔰𝔬(4, 2) generators. The variables 𝑧 𝑖 = 𝑧 𝑖 (3.204) are
 covariantly transformed by the generators i𝑋0𝜌 and 𝑋𝜌𝜌′ , with 𝜌, 𝜌 ′ = 1, 2, 3, 4, 5,
 which span a real form SO(5, 1) of the complexified of SO(4, 2). Explicitly, we have:
@@ -10951,7 +11421,8 @@ i𝑋0𝑖 𝑧 = − 5
 +
 𝛿𝑖 + 𝑧 𝑖 𝑧 𝑗 ,
 =
-
+(
+)
 2
 2
 𝜁 − i𝜁 0
@@ -10963,13 +11434,13 @@ i𝑋0𝑖 𝑧 = − 5
 
 𝜁 5 − i𝜁
 
-−
+− (
 0
 
 𝜁𝑖 𝜁 𝑗
 𝜁 5 − i𝜁
 
- =
+) =
 0 2
 
 i𝜁 0 𝛿𝑖
@@ -10999,19 +11470,19 @@ i𝑋05 𝑧 𝑗 =
 
 In direct analogy with the commutation relations given in Eqs. (3.192), (3.193),
 (3.194), and (3.195), it is observed that:
- (𝑧) (𝑧) 
+[ (𝑧) (𝑧) ]
 (3.323)
 𝐻 , 𝐽𝑖 𝑗 = 0 ,
- (𝑧) (𝑧) 
+[ (𝑧) (𝑧) ]
 (3.324)
 = 2𝐻 (𝑧) 𝛿𝑖 𝑗 − 2𝐽𝑖(𝑧)
 𝐶𝑖 , 𝑇 𝑗
 𝑗 ,
- (𝑧) (𝑧) 
+[ (𝑧) (𝑧) ]
 𝐻 , 𝑇𝑖
 = 𝑇𝑖(𝑧) ,
 (3.325)
- (𝑧) (𝑧) 
+[ (𝑧) (𝑧) ]
 (𝑧)
 𝐻 , 𝐶𝑖
 = − 𝐶𝑖 .
@@ -11064,9 +11535,9 @@ and annihilation operators (3.62), we need yet another pair of zero-mode operato
 4 Conformal Massless Low Helicity Fields and their de Sitter (dS) Spacetime Restriction
 
 𝜒∗ |0U(2,2) ⟩ = |1, 0, 0⟩ ,
-
+[
 
-
+]
 𝜒, 𝜒∗ = 1 ,
 
 and
@@ -11075,22 +11546,23 @@ and
 
 (4.2)
 
-
-
-
+]
+[
+]
 𝜒 (∗) , 𝜑 𝑎 = 0 = 𝜒 (∗) , 𝜑
-e𝑏 ,
+˜𝑏 ,
 
 (4.3)
 
 and
-
+[
 
 for 𝜒 (∗) = 𝜒 or 𝜒∗ .
 Proposition 4.1 The vertex operator:
-
-
-
+)
+(
+(
+)
 𝜒
 ˆ
 𝑒 𝑧˘ ·𝐶 ,
@@ -11132,13 +11604,14 @@ precompact
 valued function in 𝔗 +
 , whose (discrete!) energy spectrum is displayed by
 its (convergent) expression in homogeneous harmonic polynomials:
-
+(
+)
 U(2,2)
 ˆ
 𝜙(𝑧)|0
 ⟩ = Y |1, 0, 0⟩, 𝑧 |0U(2,2) ⟩
-
-
+)
+(
 𝜒
 = 𝑒 𝑧·𝑇 𝜒∗ +
 𝑒 𝑧˘ ·𝐶 |0U(2,2) ⟩
@@ -11171,7 +11644,7 @@ where:
 (𝑧 · 𝑇) 𝑛 = 𝑛(𝑇 · 𝜕) (𝑇 · 𝑧) 𝑛−1 = 𝑛(𝑛 − 1) (𝑇) 2 (𝑇 · 𝑧) 𝑛−2 = 0 ,
 (4.7)
 
-Í
+∑
 since (𝑇) 2 = 4𝑖=1 𝑇 𝑖 𝑇𝑖 = 0 (see Proposition 3.3).
 2. The expected two-point function (3.244) is harmonic in both 𝑧 and 𝑢 and can be
 expressed in terms of the generating function of the Gegenbauer polynomials C1𝑛 :
@@ -11194,35 +11667,37 @@ where:
 
 H𝑛 ( 𝑧˘, 𝑢) =
 
-
-[2] 
+)
+[2] (
 ∑︁
 𝑛−𝑘
 𝑘
 
-
+(
 
 (2𝑧˘ · 𝑢) 𝑛−2𝑘 −( 𝑧˘) 2 (𝑢) 2
 
-𝑘
+)𝑘
 
-
+(
 
 = ( 𝑧˘) 2 (𝑢) 2
 
- 𝑛2
+) 𝑛2
 
+(
 C1𝑛 √︁
 
 𝑘=0
 
 3. Applying the commutation relation (3.285), we find:
- 
-
-
-
-
-
+( [
+]
+] (
+[
+))
+(
+)
 ˆ
 ˆ
 𝐶𝑖 , 𝑇 𝑗 𝜙(𝑢)
@@ -11231,7 +11706,7 @@ C1𝑛 √︁
 
 𝑧˘ · 𝑢
 
-!
+)
 .
 
 ( 𝑧˘) 2 (𝑢) 2
@@ -11270,13 +11745,13 @@ b. If 𝑛 = 1, then:
 4 Conformal Massless Low Helicity Fields and their de Sitter (dS) Spacetime Restriction
 
 𝑧˘𝑖 𝑢 𝑗 ⟨1, 0, 0| 𝐶𝑖 𝑇 𝑗 |1, 0, 0⟩ = 𝑧˘𝑖 𝑢 𝑗 ⟨1, 0, 0| [𝐶𝑖 , 𝑇 𝑗 ] |1, 0, 0⟩
-|
-{z
-}
+⏟
+⏞⏞
+⏟
 = 2 𝛿𝑖 𝑗
 
 + 𝑧˘𝑖 𝑢 𝑗 ⟨1, 0, 0| 𝑇 𝑗 𝐶𝑖 |1, 0, 0⟩
-| {z }
+⏟ ⏞⏞ ⏟
 =0
 
 = 2( 𝑧˘ · 𝑢) = H1 ( 𝑧˘, 𝑢) .
@@ -11305,8 +11780,8 @@ First, recalling Eq. (4.6), we have:
 
 Next, we plug in the vertex operator ˆ
 𝜙(𝑧) and obtain:
-
-
+(
+)
 𝜒
 ⟨0U(2,2) | ˆ
 𝜙(𝑧) ˆ
@@ -11352,7 +11827,8 @@ H𝑛 ( 𝑧˘, 𝑢) =
 Remark 4.2 It follows from the Hilbert space (or Wightman) positivity condition
 (3.255) (see also Eq. (4.8)) that H𝑛 (𝑧, 𝑧) > 0, for (𝑧) 2 ≠ 0 and for all 𝑛 = 0, 1, 2, . . . .
 Moreover, one can write:
-!
+(
+)
 𝑧·𝑧
 𝑛
 𝑛
@@ -11377,19 +11853,17 @@ Remark 4.3 The biharmonic polynomial H𝑛 (𝑧, 𝑢) (that is, Δ𝑧 H𝑛 (
 defined (and harmonic in 𝑢) for (𝑧) 2 = 0 (see Example 2.6 in Ref. [120]).
 □
 Remark 4.4 It follows from (3.245) and (3.255) that the bra lowest energy oneparticle (zero helicity) state ⟨1, 0, 0| is:
-
-
-
-
+(
+)
+(
+)
 𝜒
-1
+1 ( U(2,2) ˆ ∗ )
 1
 ∗
 U(2,2)
 𝑧 ∗ ·𝑇
 𝑧˘ ∗ ·𝐶
-U(2,2) ˆ
-∗ 
 𝜒 + ∗ 2 𝑒
 ⟨0
 |𝑒
@@ -11399,20 +11873,22 @@ lim
 𝑧→0 (𝑧) 2
 𝑧→0 (𝑧) 2
 (𝑧 )
-
-
+)
+(
 1
 1
 = lim
 ⟨1, 0, 0| ∗ 2 𝑒 𝑧·𝐶
 𝑧→0 (𝑧) 2
 (𝑧 )
-!
-2
+)
+(
+( 2)2
 ∞
 ∑︁
-(𝑧) 2 (𝑧 · 𝐶) 𝑛
+(𝑧)
 1
+(𝑧 · 𝐶) 𝑛
 = lim
 ⟨1, 0, 0|
 𝑛!
@@ -11427,17 +11903,17 @@ or, alternatively, upon replacing 𝑧 by 𝑧∗ = 𝑧˘ = (𝑧)𝑧 2 :
 lim (𝑧)
 𝑧→∞
 
-2
+2 (
 
 ⟨0
 
 U(2,2)
 
-
-
-
-
-
+(
+)
+(
+)
+)
 𝜒
 2
 U(2,2)
@@ -11451,17 +11927,17 @@ U(2,2)
 𝜒 +
 𝑧→∞
 (𝑧) 2
-
-
+(
+)
 1 𝑧˘ ·𝐶
 = lim (𝑧) 2 ⟨1, 0, 0|
 𝑒
 𝑧→∞
 (𝑧) 2
-∞ 
-𝑛
+∞ (
+)𝑛)
 ∑︁
-1 1 𝑧
+1 1( 𝑧
 ⟨1, 0, 0|
 = lim (𝑧) 2
 ·
@@ -11477,12 +11953,12 @@ U(2,2)
 4.2 Conformal Massless Scalar Field in de Sitter (dS) Space
 The 4-dimensional dS spacetime (1.7) can be embedded in the Dirac quadric 𝑄
 (3.202) as its intersection with the hyperplane 𝜁 5 = 𝑅:
-o
-Ù n
+}
+⋂ {
 dS = 𝑄
 𝜁5 = 𝑅 > 0
-(
-)
+{
+}
 4
 ∑︁
 0
@@ -11504,7 +11980,7 @@ Accordingly, the Euclidean de Sitter (EdS) half-space is defined as follows:
 
 4 Conformal Massless Low Helicity Fields and their de Sitter (dS) Spacetime Restriction
 
-(
+{
 0
 
 EdS = 𝜁 = i𝜁 𝛽 , 𝜁 𝛽 > 0 ,
@@ -11512,7 +11988,7 @@ EdS = 𝜁 = i𝜁 𝛽 , 𝜁 𝛽 > 0 ,
 4
 ∑︁
 
-)
+}
 2
 
 2
@@ -11523,9 +11999,10 @@ EdS = 𝜁 = i𝜁 𝛽 , 𝜁 𝛽 > 0 ,
 
 𝑖=1
 
-n
-o
-
+{
+}
+(
+)
 = 𝜁 = 𝜁 𝛽 > 0, 𝜁1 , . . . , 𝜁4 ∈ S4𝑅 .
 
 (4.23)
@@ -11534,7 +12011,8 @@ Remark 4.5 In this context, a few points merit further clarification:
 1. The real (dimensionless) Cartesian coordinates of the EdS half-space, defined in
 Eq. (4.23), are connected to the analytically continued versions of the coordinates
 𝑧𝑖 introduced in Eq. (3.204). Specifically, setting:
-
+(
+)
 𝜁 5 = 𝑅 > 0 , and 𝜁 𝛽 = 𝑅 tanh 𝛽 > 0
 =⇒ 𝛽 > 0 ,
 (4.24)
@@ -11552,7 +12030,8 @@ we have:
 
 where 𝜅 = 𝑅1 denotes the scalar curvature of EdS  S4𝑅 . It then follows that (𝑧) 2
 is obtained as an analytic continuation of (3.209):
-!
+)
+(
 4
 ∑︁
 𝑅 − 𝜁𝛽
@@ -11576,15 +12055,15 @@ is obtained as an analytic continuation of (3.209):
 Note that 𝜅𝜁 𝛽 = tanh 𝛽, with 𝛽 > 0. From this realization, one can observe that:
 a. Given the equation above and the strict positivity of 𝛽, it follows immediately
 that:
-
-
+)
+(
 (4.27)
 (𝑧) 2 = 𝑧 · 𝑧 = 𝑒 −2𝛽 < 1 ,
 and also one can readily check that:
 𝑧·𝑧<
 
-
-1
+)
+1(
 2
 1 + (𝑧) 2 ,
 2
@@ -11592,7 +12071,7 @@ and also one can readily check that:
 (4.28)
 
 This demonstrates that EdS half space (4.23) lies within the intersection of
-the hyperplane 𝜁 5 = 𝑅 with the tube domain 𝔗 precompact
+the hyperplane 𝜁 5 = 𝑅 (with )the tube domain 𝔗 precompact
 (3.218), where the
 +
 vector-valued function 𝜙ˆ 𝑧(𝜁) |0U(2,2) ⟩ is analytic.
@@ -11615,18 +12094,18 @@ where 𝜏 is the physical proper time (compare Eqs. (3.209) and (4.26)).
 
 2. The metric form (d𝑧) 2 is related by a (Weyl) conformal factor to the manifestly
 O(5)-invariant quadratic (d𝜁) 2 = (d𝜁𝑖 ) 2 + (d𝜁 𝛽 ) 2 :
- 
-
-
+) (
+)
+(
 𝜁𝑖
 𝜁𝑖
 d
 (d𝑧) 2 = d
 𝑅 + 𝜁𝛽
 𝑅 + 𝜁𝛽
-
-
-
+(
+)(
+)
 𝑖
 (d𝜁 𝛽 ) 𝜁 𝑖
 (d𝜁 𝛽 ) 𝜁𝑖
@@ -11636,52 +12115,57 @@ d𝜁𝑖
 −
 −
 𝑅 + 𝜁 𝛽 (𝑅 + 𝜁 𝛽 ) 2 𝑅 + 𝜁 𝛽 (𝑅 + 𝜁 𝛽 ) 2
-!
-
+)
+(
+(
+)
 𝜁 𝑖 𝜁𝑖 = 𝑅 2 − (𝜁 𝛽 ) 2
 2𝜁 𝑖 d𝜁𝑖
 1
 2
 2
 (d𝜁 𝛽 ) −
-=
+= (
 d𝜁 𝛽
- 2 (d𝜁𝑖 ) +
+) 2 (d𝜁𝑖 ) +
 𝑅 + 𝜁𝛽
 (𝑅 + 𝜁 𝛽 ) 2
 𝑅 + 𝜁𝛽
-!
-
+(
+)
+(
+(
+))
 d(𝜁𝑖 ) 2 = d 𝑅 2 − (𝜁 𝛽 ) 2
 𝑅 − 𝜁𝛽
 1
 2
 2
-=
+= (
 d𝜁 𝛽
- 2 (d𝜁𝑖 ) + 𝑅 + 𝜁 (d𝜁 𝛽 ) −
+) 2 (d𝜁𝑖 ) + 𝑅 + 𝜁 (d𝜁 𝛽 ) −
 𝑅 + 𝜁𝛽
 𝛽
 𝑅 + 𝜁𝛽
-
-
+(
+)
 1
 1
 2
 2
 2
 (4.29)
-=
- 2 (d𝜁𝑖 ) + (d𝜁 𝛽 ) =
- 2 (d𝜁) ,
+= (
+) 2 (d𝜁𝑖 ) + (d𝜁 𝛽 ) = (
+) 2 (d𝜁) ,
 𝑅 + 𝜁𝛽
 𝑅 + 𝜁𝛽
 and hence:
-
+(
 
 (d𝜁) 2
 
-
+)
 = (d𝜁𝑖 ) 2 + (d𝜁 𝛽 ) 2 = Ω2 (𝑧) (d𝑧) 2 ,
 2𝑅
 .
@@ -11708,9 +12192,9 @@ covariant vector 𝜁 (4.22) by the following relations:
 
 𝜅 2 (𝑥) 2
 
-
+(
 
- 1 − 𝜅𝜁
+) 1 − 𝜅𝜁
 4
 := 𝜅 2 𝑥 𝜇¤ 𝑥 𝜇¤ =
 ,
@@ -11719,8 +12203,8 @@ covariant vector 𝜁 (4.22) by the following relations:
 (4.31)
 
 where, again, 𝜇¤ = 0, 1, 2, 3. Then, in complex analogy with (4.29), we have:1
-
-
+(
+)
 (d𝜁) 2 = (d𝜁 𝜇¤ ) 2 + (d𝜁4 ) 2 = Ω2 (𝑥) (d𝑥 𝜇¤ ) 2 ,
 with
 
@@ -11740,13 +12224,13 @@ i. Eqs. (4.25) and (4.26), respectively, imply that |𝑧 𝑖 | and (𝑧) 2 �
 
 FHH ( 𝑥 ) =
 
-
+(
 
 2
 
 1 + 𝜅4 ( 𝑥 ) 2
 
- −1
+) −1
 
 of Ref. [121] differes from ours by the factor 14 in
 𝜇¤
@@ -11773,8 +12257,8 @@ ii. From Eqs. (4.31), (4.25), and (4.26), we obtain:
 
 iii. From Eqs. (4.30), (4.25), and (4.26), the Euclidean O(5)-invariant metric
 (d𝜁) 2 approaches:
-
-
+(
+)
 (d𝜁) 2 := (d𝜁𝑖 ) 2 + (d𝜁 𝛽 ) 2
 −→ 4𝑅 2 (d𝑧 𝑖 ) 2 ≫ (d𝑧𝑖 ) 2 .
 (4.34)
@@ -11795,8 +12279,8 @@ ii. From Eqs. (4.26) and (4.31), we obtain:
 where 𝑥 0 := i𝑥 𝛽 .
 iii. From Eqs. (4.32) and (4.31), the Euclidean O(5)-invariant metric (d𝜁) 2
 approaches:
-
-
+(
+)
 (d𝜁) 2 := (d𝜁 𝜇¤ ) 2 + (d𝜁4 ) 2
 −→ 4(d𝑥 𝜇¤ ) 2 .
 (4.36)
@@ -11873,8 +12357,8 @@ for all
 
 2. To ensure that the gauge-transformed function 𝜙(𝜁) + (𝜁) 2 𝝓(𝜁) still satisfies
 d’Alembert equation (4.37) on the cone, we require that:
-
-
+(
+)
 = 0.
 (4.41)
 □6 (𝜁) 2 𝝓(𝜁)
@@ -11883,18 +12367,19 @@ d’Alembert equation (4.37) on the cone, we require that:
 
 This condition holds only if 𝑑 = −1. The reason follows from the commutator
 (see Appendix 4.3):
-
-
-
-
+)
+(
+[
+]
 𝜕
 (4.42)
 □𝑛 , (𝜁) 2 = 2 𝑛 + 2𝜁 𝜇 𝜇 =: 2 (𝑛 + 2𝜁 · 𝜕) ,
 𝜕𝜁
 which yields (see derivation in footnote2 ):
-
-
-
+(
+)
+(
+)
 □𝑛=6 (𝜁) 2 𝝓
 = 2 6 + 2(𝑑 − 2) 𝝓 = 0
 2
@@ -11922,15 +12407,15 @@ corresponding two-point function takes the form:
 
 2 For any sufficiently smooth function 𝑓 (𝜁 ), from the commutator (4.42), we have:
 
-
-
+(
+)
 𝜕𝑓
 □𝑛 ( 𝜁 ) 2 𝑓 = 2𝑛 𝑓 + 4𝜁 𝜇
 + (𝜁 ) 2 □𝑛 𝑓 ,
 𝜕𝜁 𝜇
 so that, on the cone ( 𝜁 ) 2 = 0, it simplifies to:
-
-
+(
+)
 □𝑛 ( 𝜁 ) 2 𝑓
 2
 
@@ -11939,9 +12424,10 @@ so that, on the cone ( 𝜁 ) 2 = 0, it simplifies to:
 = 2𝑛 𝑓 + 4𝜁 · 𝜕 𝑓 .
 
 Now, if 𝑓 = 𝝓 is homogeneous of degree 𝑑 − 2, then 𝜁 · 𝜕𝝓 = (𝑑 − 2)𝝓, and thus:
-
-
-
+(
+)
+(
+)
 □𝑛 ( 𝜁 ) 2 𝝓
 = 2𝑛 + 4(𝑑 − 2) 𝝓 .
 2
@@ -11963,12 +12449,17 @@ from ours by a sign.
 
 𝜁D5 =𝑅=𝜁D′5
 
-=
-
 1
-(2𝜋) 2 𝜁D − 𝜁D′
 
-2
+=
+(2𝜋)
+
+(
+2
+
+𝜁D − 𝜁D′
+
+)2
 
 𝜁D5 =𝑅=𝜁D′5
 
@@ -11976,12 +12467,12 @@ from ours by a sign.
 
 =
 
-
+(
 
 ′
 8𝜋 2 𝑅 2 − 𝜁dS · 𝜁dS
 
-.
+).
 
 (4.44)
 
@@ -11990,16 +12481,22 @@ function onto the 5-dimensional dS hyperboloid (𝜁dS ) 2 = 𝑅 2 . Note that,
 𝑊 (𝜁D , 𝜚𝜁D′ ) =
 
 1
+(2𝜋)
 
- =
+(
+2
+
+) =
 
 2
-(2𝜋) 2 𝜁D − 𝜚𝜁D′
+𝜁D − 𝜚𝜁D′
 
 (2𝜋) 2
 
+(
+
 1
- = 𝜚 −1𝑊 (𝜁D , 𝜁D′ ) ,
+) = 𝜚 −1𝑊 (𝜁D , 𝜁D′ ) ,
 −2𝜚 𝜁D · 𝜁D′
 (4.45)
 
@@ -12011,34 +12508,42 @@ the 6-dimensional wave equation:
 
 4.3 Appendix: On the Commutator (4.42)
 We compute the action of the commutator (4.42) on a test function 𝑓 (𝜁):
-
-
-
-
+[
+]
+(
+)
+(
+)
 □𝑛 , (𝜁) 2 𝑓 = □𝑛 (𝜁) 2 𝑓 − (𝜁) 2 □𝑛 𝑓 = 𝜂 𝜇𝜈 𝜕𝜇 𝜕𝜈 (𝜁) 2 𝑓 − (𝜁) 2 □𝑛 𝑓 ,
 
 (4.47)
 
 where 𝜇, 𝜈 = 0, 5, 1, 2, 3, 4 and the metric 𝜂 𝜇𝜈 has the signature (−, −, +, +, +, +).
 First, we employ the product rule:
-
-
+(
+) (
+)
 𝜕𝜈 (𝜁) 2 𝑓 = 𝜕𝜈 (𝜁) 2 𝑓 + (𝜁) 2 𝜕𝜈 𝑓 ,
-
-
-
-
+((
+)
+(
+)
+)
 𝜕𝜇 𝜕𝜈 (𝜁) 2 𝑓 = 𝜕𝜇 𝜕𝜈 (𝜁) 2 𝑓 + (𝜁) 2 𝜕𝜈 𝑓
-
-
-
+(
+)
+(
+)
+(
+)
 = 𝜕𝜇 𝜕𝜈 (𝜁) 2 𝑓 + 𝜕𝜈 (𝜁) 2 𝜕𝜇 𝑓 + 𝜕𝜇 (𝜁) 2 𝜕𝜈 𝑓 + (𝜁) 2 𝜕𝜇 𝜕𝜈 𝑓 ,
 (4.48)
 where 𝜕𝜇 := 𝜕𝜁𝜕 𝜇 , and then, we use 𝜕𝜇 (𝜁) 2 = 2𝜂 𝜇 𝜍 𝜁 𝜍 and 𝜕𝜇 𝜕𝜈 (𝜁) 2 = 2𝜂 𝜇𝜈 .
 Substituting into the full expression yields:
-
-
-
+(
+)
+(
+)
 𝜂 𝜇𝜈 𝜕𝜇 𝜕𝜈 (𝜁) 2 𝑓 = 𝜂 𝜇𝜈 2𝜂 𝜇𝜈 𝑓 + 2𝜂 𝜈 𝜍 𝜁 𝜍 𝜕𝜇 𝑓 + 2𝜂 𝜇 𝜍 𝜁 𝜍 𝜕𝜈 𝑓 + (𝜁) 2 𝜕𝜇 𝜕𝜈 𝑓
 = 2𝑛 𝑓 + 4𝜁 𝜇 𝜕𝜇 𝑓 + (𝜁) 2 □𝑛 𝑓 .
 Thus, we obtain the commutator:
@@ -12329,35 +12834,38 @@ Glossary of Clifford and Lie algebras used in the monograph, with precise nestin
 and isomorphisms:
 1. 𝔠𝔩(4, 2) is the 64-dimensional real associative Clifford algebra generated by 𝑚 𝜇 ,
 𝜇 = 0, 5, 1, 2, 3, 4, as:
-n
+{
 𝔠𝔩(4, 2) = span 1, 𝑚 𝜇 , 𝑚 𝜇𝜈 := 𝑚 𝜇 𝑚 𝜈 (𝜇 < 𝜈), 𝑚 𝜇 𝑚 𝜈 𝑚 𝜌 (𝜇 < 𝜈 < 𝜌), . . . ,
-o
+}
 𝐸 := 𝑚 0 𝑚 5 𝑚 1 . . . 𝑚 4 ,
 (4.51)
 subject to the Clifford relations:
-
+{
+}
 𝑚 𝜇 , 𝑚 𝜈 = 𝑚 𝜇 𝑚 𝜈 + 𝑚 𝜈 𝑚 𝜇 = 2𝜂 𝜇𝜈 1 ,
 
 𝜂 𝜇𝜈 = diag(−1, −1, +1, +1, +1, +1) .
 (4.52)
 
-
+(
+)
 2. The even Clifford algebra 𝔠𝔩 even (4, 2)  𝔠𝔩(4, 1) is:
-n
+{
 𝔠𝔩 even (4, 2) = span 1, 𝑚 𝜇𝜈 := 𝑚 𝜇 𝑚 𝜈 (𝜇 < 𝜈), 𝑚 𝜇 𝑚 𝜈 𝑚 𝜌 𝑚 𝜎 (𝜇 < 𝜈 < 𝜌 < 𝜎),
-o
+}
 𝐸 := 𝑚 0 𝑚 5 𝑚 1 . . . 𝑚 4 ,
 (4.53)
 i.e., the 32-dimensional real subalgebra spanned by all products of an even
 number of the generators 𝑚 𝜇 .
 3. The bivectors 𝑚 𝜇𝜈 are closed under commutator and provide a spinorial realization of the conformal Lie algebra:
-n
-o
-
+{
+}
+(
+)
 𝔰𝔲(2, 2)  𝔰𝔬(4, 2) = span 𝑚 𝜇𝜈 := 𝑚 𝜇 𝑚 𝜈 ⊂ 𝔠𝔩 even (4, 2) ,
 (4.54)
-
-
+[
+]
 with the Lie bracket given by 𝑚 𝜇𝜈 , 𝑚 𝜌 𝜎 computed inside 𝔠𝔩 even (4, 2).
 
 145
@@ -12369,19 +12877,23 @@ with the Lie bracket given by 𝑚 𝜇𝜈 , 𝑚 𝜌 𝜎 computed inside �
 Glossary
 
 4. The pseudoscalar 𝐸 := 𝑚 0 𝑚 5 𝑚 1 . . . 𝑚 4 commutates with all bivectors 𝑚 𝜇𝜈
-
+(
+)
 generating 𝔰𝔲(2, 2)
  𝔰𝔬(4, 2) . Hence, 𝐸 spans the central 𝔲(1) in the
 extended conformal Lie algebra:
-
+(
+)
 𝔲(2, 2)  𝔰𝔲(2, 2)  𝔰𝔬(4, 2) ⊕ 𝔲(1) ⊂ 𝔠𝔩 even (4, 2) .
 (4.55)
-
+(
+)
 5. The de Sitter (dS) algebra is realized as the subalgebra of 𝔰𝔲(2, 2)  𝔰𝔬(4, 2)
 that preserves a fixed “5-direction” in the 6-dimensional space. Specifically:
-n
-o
-
+{
+}
+(
+)
 𝔰𝔬(4, 1)  𝔰𝔭(2, 2) = span 𝑚 𝛼𝛽 := 𝑚 𝛼 𝑚 𝛽 ; 𝛼, 𝛽 = 0, 1, 2, 3, 4
 ⊂ 𝔰𝔲(2, 2) ⊂ 𝔠𝔩 even (4, 2) ,
 

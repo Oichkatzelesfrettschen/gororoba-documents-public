@@ -8,7 +8,7 @@ Fidelity: machine (failed: characters)
 
 Transcription of `green_2026_pbh_microlensing.pdf` in this directory, 22 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 22 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-21 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 22 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-21 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -107,8 +107,8 @@ u u2 + 4
 
 where u = b/R E , b is the distance of the lens from the line of sight to the source and RE is the Einstein
 radius
-
-
+[
+]
 GMDL ( DS − DL ) 1/2
 RE = 2
 ,
@@ -123,20 +123,20 @@ RE ∼ 10
 
 pc
 
-q
+√
 
-
+(
 
 M
 x (1 − x )
 M⊙
 
-1/2 
+)1/2 (
 
 Ds
 50 kpc
 
-
+)
 ,
 
 (3)
@@ -188,9 +188,9 @@ radius. The EROS and OGLE collaborations use the Einstein radius crossing time, 
 collaboration and this review use the Einstein diameter crossing time, t̂ = 2RE /vt , where vt is the
 transverse speed of the lens relative to the line of sight. For lensing of stars in the LMC by CO in the
 MW halo typically
-
-
-q
+(
+)
+√
 M 1/2
 t̂ ∼ 1 yr x (1 − x )
 .
@@ -209,14 +209,14 @@ challenging, whereas t̂ is found by fitting to the entire light curve. Theoreti
 impact parameter (as well as the lens mass, distance and velocity), which makes the calculation of the
 differential event rate more complicated.
 The impact parameter relative to the Einstein radius, u = b/RE , can be written as
-
+(
 u=
 
 2t2
 + u2min
 t̂2
 
-1/2
+)1/2
 ,
 
 (5)
@@ -240,7 +240,7 @@ The optical depth, τ, is the probability that a source star is being lensed at 
 it falls within the Einstein radius of a lens:
 τ=
 
-Z D
+∫ D
 
 S
 
@@ -248,7 +248,7 @@ S
 
 n( DL )πR2E ( DL ) dDL = 4πG
 
-Z D
+∫ D
 
 S
 
@@ -266,7 +266,7 @@ where n( DL ) and ρ( DL ) = n( DL )/M are the number density and (mass) density
 Note that the dependence on the lens mass, M, of the number density and the square of the Einstein
 radius cancel, and hence the optical depth depends on the total mass density of lenses along the line
 of sight, but not their individual masses. For a very simple model of the Milky Way (MW) halo with
-p
+√
 constant density, and a circular speed vc = GM(< DS )/DS ≈ 220 km s−1 , τ = v2c /2c2 ∼ 10−6 [27].
 This small optical depth means that to detect microlensing events it is necessary to monitor a large
 number, i.e. millions, of stars. Furthermore, it is extremely unlikely that a single star will undergo two
@@ -277,7 +277,7 @@ the diameter of the Einstein ring, 2RE , and the distance traveled, vt dt: d Ã
 probability, dτ, of an individual star undergoing a new microlensing event is given by
 dτ =
 
-Z D
+∫ D
 
 S
 
@@ -285,17 +285,19 @@ S
 
 n( DL ) dA dDL =
 
-Z D
+∫ D
 
 S
 
 0
 
+(
+
 4R2E
 n( DL )
 t̂
 
-!
+)
 dt dDL .
 
 (7)
@@ -307,16 +309,16 @@ dτ
 = N⋆
 dt
 
-Z D
+∫ D
 
 S
 
 0
 
-
+(
 
-
-Z
+)
+∫
 4
 4N⋆
 dτ
@@ -348,7 +350,7 @@ dΓMW
 dt̂
 M t̂4 v2c
 
-Z 1
+∫ 1
 0
 
 ρ( x ) R4E ( x ) exp [− Q( x )]dx ,
@@ -357,7 +359,7 @@ Z 1
 
 where Q( x ) = 4R2E ( x )/(t̂2 v2c ). Note that Eq. (10) assumes that the velocity distribution, f (v), is
 Maxwellian
- 2
+( 2)
 1
 v
 3
@@ -412,7 +414,7 @@ dΓMW
 dt̂
 t̂4 vc 2 c4
 
-Z 1
+∫ 1
 0
 
 x 2 (1 − x )2
@@ -468,7 +470,7 @@ efficiency (see below).
 The total expected number of events, Nexp , is given by
 Nexp = E
 
-Z ∞
+∫ ∞
 0
 
 dΓ
@@ -610,10 +612,10 @@ DL DS
 in milliarcseconds (mas), as
 θE2 = 8.144 mas
 
-
+(
 
-
-M  πrel 
+)
+M ( πrel )
 .
 M⊙
 mas
@@ -1032,7 +1034,7 @@ OGLE-hc
 
 10−6
 10−3
-M [M ]
+M [M⊙ ]
 
 100
 

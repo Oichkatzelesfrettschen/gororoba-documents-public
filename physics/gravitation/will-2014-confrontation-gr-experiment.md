@@ -8,7 +8,7 @@ Fidelity: machine (failed: characters)
 
 Transcription of `will-2014-confrontation-gr-experiment.pdf` in this directory, 117 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 6 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-5, 7-117 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 6 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-5, 7-117 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -664,7 +664,7 @@ an international scale, to find violations of special relativity. The motivation
 a desire to repudiate Einstein, but to look for evidence of new physics “beyond” Einstein, such as
 apparent, or “effective” violations of Lorentz invariance that might result from certain models of
 quantum gravity. Quantum gravity asserts that there is a fundamental length scale given by the
-Planck length, ℓPl = (~𝐺/𝑐3 )1/2 = 1.6 × 10−33 cm, but since length is not an invariant quantity
+Planck length, ℓPl = (ℏ𝐺/𝑐3 )1/2 = 1.6 × 10−33 cm, but since length is not an invariant quantity
 (Lorentz–FitzGerald contraction), then there could be a violation of Lorentz invariance at some
 level in quantum gravity. In brane-world scenarios, while physics may be locally Lorentz invariant
 in the higher dimensional world, the confinement of the interactions of normal physics to our fourdimensional “brane” could induce apparent Lorentz violating effects. And in models such as string
@@ -815,7 +815,7 @@ photons satisfy the Lorentz violating dispersion relation
 
 (3)
 
-where 𝐸Pl = (~𝑐5 /𝐺)1/2 is the Planck energy, then the speed of light 𝑣𝛾 = 𝜕𝐸/𝜕𝑝 would be given,
+where 𝐸Pl = (ℏ𝑐5 /𝐺)1/2 is the Planck energy, then the speed of light 𝑣𝛾 = 𝜕𝐸/𝜕𝑝 would be given,
 to linear order in the 𝑓 (𝑛) by
 (𝑛)
 
@@ -1115,10 +1115,10 @@ in-depth review, see [397].
 Constant 𝑘
 
 Fine structure constant
-(𝛼EM = 𝑒2 /~𝑐)
+(𝛼EM = 𝑒2 /ℏ𝑐)
 
 Weak interaction constant
-(𝛼W = 𝐺f 𝑚2p 𝑐/~3 )
+(𝛼W = 𝐺f 𝑚2p 𝑐/ℏ3 )
 
 e-p mass ratio
 
@@ -1600,8 +1600,8 @@ B
 (20)
 
 Note that (𝑐−2 − 1) corresponds to the parameter 𝛿 plotted in Figure 2.
-The electrodynamics given by Eq. (17) can also be quantized, so that we may treat the interaction of photons with atoms via perturbation theory. The energy of a photon is ~ times its frequency
-𝜔, while its momentum is ~𝜔/𝑐. Using this approach, one finds that the difference in round trip
+The electrodynamics given by Eq. (17) can also be quantized, so that we may treat the interaction of photons with atoms via perturbation theory. The energy of a photon is ℏ times its frequency
+𝜔, while its momentum is ℏ𝜔/𝑐. Using this approach, one finds that the difference in round trip
 travel times of light along the two arms of the interferometer in the Michelson–Morley experiment
 is given by 𝐿0 (𝑣 2 /𝑐)(𝑐−2 − 1). The experimental null result then leads to the bound on (𝑐−2 − 1)
 shown on Figure 2. Similarly the anisotropy in energy levels is clearly illustrated by the tensorial
@@ -4458,13 +4458,13 @@ The starting point is the so-called “gothic inverse metric”, defined by g�
 is the determinant of 𝑔𝛼𝛽 . One then defines the gravitational potential ℎ𝛼𝛽 ≡ 𝜂 𝛼𝛽 − g𝛼𝛽 . After
 imposing the de Donder or harmonic gauge condition 𝜕ℎ𝛼𝛽 /𝜕𝑥𝛽 = 0 (summation on repeated
 indices is assumed), one can recast the exact Einstein field equations into the form
-ℎ𝛼𝛽 = −16𝜋𝐺𝜏 𝛼𝛽 ,
+□ℎ𝛼𝛽 = −16𝜋𝐺𝜏 𝛼𝛽 ,
 
 (77)
 
-where  ≡ −𝜕 2 /𝜕𝑡2 + ∇2 is the flat-spacetime wave operator. This form of Einstein’s equations
+where □ ≡ −𝜕 2 /𝜕𝑡2 + ∇2 is the flat-spacetime wave operator. This form of Einstein’s equations
 bears a striking similarity to Maxwell’s equations for the vector potential 𝐴𝛼 in Lorentz gauge:
-𝐴𝛼 = −4𝜋𝐽 𝛼 , 𝜕𝐴𝛼 /𝜕𝑥𝛼 = 0. There is a key difference, however: The source on the right hand
+□𝐴𝛼 = −4𝜋𝐽 𝛼 , 𝜕𝐴𝛼 /𝜕𝑥𝛼 = 0. There is a key difference, however: The source on the right hand
 side of Eq. (77) is given by the “effective” stress-energy pseudotensor
 (︁
 )︁
@@ -4791,12 +4791,12 @@ asymptotic value of the scalar field, and defines the auxiliary gothic inverse m
 𝑔 𝑔˜𝛼𝛽 ,
 and the auxiliary tensor gravitational potential ℎ̃𝛼𝛽 ≡ 𝜂 𝛼𝛽 − g̃𝛼𝛽 , along with the harmonic gauge
 condition 𝜕 ℎ̃𝛼𝛽 /𝜕𝑥𝛽 = 0. The field equations then take the form
-ℎ̃𝛼𝛽 = −16𝜋𝐺˜
+□ℎ̃𝛼𝛽 = −16𝜋𝐺˜
 𝜏 𝛼𝛽 ,
 
 (89)
 
-where  ≡ −𝜕 2 /𝜕𝑡2 + ∇2 is again the flat-spacetime wave operator, and where
+where □ ≡ −𝜕 2 /𝜕𝑡2 + ∇2 is again the flat-spacetime wave operator, and where
 𝛼𝛽
 
 𝜏˜
@@ -4841,7 +4841,7 @@ do
 H
 in terms of ℎ𝛼𝛽 . Note that this is equivalent to formulating the relaxed equations of scalar–tensor
 theory in the Einstein conformal frame. The field equation for the scalar field can be written in
-the form 𝜙 = −8𝜋𝐺˜
+the form □𝜙 = −8𝜋𝐺˜
 𝜏𝑠 , where 𝜏˜𝑠 is a source consisting of a matter term, a scalar energy density
 term and a term that mixes ℎ̃𝛼𝛽 and 𝜙 (see [286] for details).
 In order to incorporate the internal gravity of compact, self-gravitating bodies, it is common to

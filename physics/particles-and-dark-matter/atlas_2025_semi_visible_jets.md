@@ -8,7 +8,7 @@ Fidelity: machine (failed: characters)
 
 Transcription of `atlas_2025_semi_visible_jets.pdf` in this directory, 45 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 10 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-9, 11-45 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 10 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-9, 11-45 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -221,8 +221,8 @@ tracking in the range |𝜂| < 2.5. The high-granularity silicon pixel detector 
 
 and the 𝑧-axis along the beam pipe. The 𝑥-axis points from the IP to the centre of the LHC ring, and the 𝑦-axis points upwards.
 Polar coordinates (𝑟, 𝜙) are used in the transverse plane, 𝜙 being the azimuthal angle around the
- 𝑧-axis.
- The pseudorapidity is
+( 𝑧-axis.
+) The pseudorapidity is
 𝐸+ 𝑝
 defined in terms of the polar angle 𝜃 as 𝜂 = − ln tan(𝜃/2) and is equal to the rapidity 𝑦 = 12 ln 𝐸 − 𝑝𝑧𝑧 in the relativistic limit.
 √︁
@@ -588,8 +588,8 @@ s = 13 TeV, 140 fb 1
 Data
 mZ = 2500 GeV, Rinv = 0.2
 mZ = 4000 GeV, Rinv = 0.6
-0
-0
+′
+′
 
 0.65
 
@@ -838,9 +838,9 @@ mZ = 4000 GeV, Rinv = 0.6
 
 s = 13 TeV, 140 fb 1
 
-0
-0
-0
+′
+′
+′
 
 10
 
@@ -921,17 +921,17 @@ mZ = 4000 GeV, Rinv = 0.6
 
 s = 13 TeV, 140 fb 1
 
-0
-0
+′
+′
 
 10
 
-0
+′
 
 ATLAS
 
-0
-0
+′
+′
 
 2000
 
@@ -996,10 +996,10 @@ mZ = 4000 GeV, Rinv = 0.6
 
 s = 13 TeV, 140 fb 1
 
-0
-0
-0
-0
+′
+′
+′
+′
 
 7
 
@@ -1416,7 +1416,7 @@ SRPFN: Rinv = 0.4
 
 3500
 
-0
+′
 
 4000
 
@@ -1425,7 +1425,7 @@ SRPFN: Rinv = 0.4
 5000
 
 mZ [GeV]
-0
+′
 
 (b)
 
@@ -1481,7 +1481,7 @@ Semi-visible jets s-channel
 5000
 
 mZ [GeV]
-0
+′
 
 (c)
 
@@ -1557,7 +1557,7 @@ ATLAS
 5000
 
 mZ [GeV]
-0
+′
 
 Figure 9: The expected and observed exclusion contours at 95% CL for the generated signal parameterized by Rinv on
 the vertical axis and m 𝑍 ′ on the horizontal axis. The dashed line indicates the expected limit and the solid line
@@ -1585,9 +1585,9 @@ s = 13 TeV, 140 fb 1
 
 Injected signal
 
-0
+′
 
-0
+′
 
 mZ
 

@@ -8,7 +8,7 @@ Fidelity: machine (failed: characters)
 
 Transcription of `blanchet_2014_gravitational_radiation_post_newtonian_sources.pdf` in this directory, 187 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 6 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-5, 7-187 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 6 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-5, 7-187 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -1462,9 +1462,9 @@ when studying gravitational waves as perturbations of space-time propagating on 
 
 √
 
-−𝑔 𝑔 𝑥𝛼 ,
+−𝑔 □𝑔 𝑥𝛼 ,
 
-where 𝑔 ≡ 𝑔 𝜇𝜈 ∇𝜇 ∇𝜈 denotes the curved d’Alembertian operator. Hence the harmonic-coordinate condition
+where □𝑔 ≡ 𝑔 𝜇𝜈 ∇𝜇 ∇𝜈 denotes the curved d’Alembertian operator. Hence the harmonic-coordinate condition
 tells that the coordinates 𝑥𝛼 themselves, considered as scalars, are harmonic, i.e., obey the vacuum (curved)
 d’Alembertian equation.
 
@@ -1481,7 +1481,7 @@ to think of the problem using approximation methods. Indeed, the metric 𝜂𝛼
 higher-order terms), and plays the role of some physical “prior” flat geometry at any order of
 approximation.
 The Einstein field equations in harmonic coordinates can be written in the form of inhomogeneous flat d’Alembertian equations,
-ℎ𝛼𝛽 =
+□ℎ𝛼𝛽 =
 
 16𝜋𝐺 𝛼𝛽
 𝜏 ,
@@ -1489,7 +1489,7 @@ The Einstein field equations in harmonic coordinates can be written in the form 
 
 (22)
 
-where  ≡ 𝜂 = 𝜂 𝜇𝜈 𝜕𝜇 𝜕𝜈 . The source term 𝜏 𝛼𝛽 can rightly be interpreted as the stress-energy
+where □ ≡ □𝜂 = 𝜂 𝜇𝜈 𝜕𝜇 𝜕𝜈 . The source term 𝜏 𝛼𝛽 can rightly be interpreted as the stress-energy
 pseudo-tensor (actually, 𝜏 𝛼𝛽 is a Lorentz-covariant tensor) of the matter fields, described by 𝑇 𝛼𝛽 ,
 and the gravitational field, given by the gravitational source term Λ𝛼𝛽 , i.e.,
 𝜏 𝛼𝛽 = |𝑔|𝑇 𝛼𝛽 +
@@ -1623,7 +1623,7 @@ equivalently into the form of the integro-differential equations
 ℎ𝛼𝛽 =
 
 16𝜋𝐺 −1 𝛼𝛽
-ret 𝜏 ,
+□ret 𝜏 ,
 𝑐4
 
 (30)
@@ -1635,7 +1635,7 @@ d3 x′ (︀ ′
 1
 −1
 𝜏 x , 𝑡 − |x − x′ |/𝑐 ,
-(ret 𝜏 )(x, 𝑡) ≡ −
+(□ret 𝜏 )(x, 𝑡) ≡ −
 4𝜋
 |x − x′ |
 
@@ -1673,10 +1673,10 @@ and where we have introduced Newton’s constant 𝐺 as a book-keeping paramete
 label conveniently the successive post-Minkowskian approximations. Since ℎ𝛼𝛽 is a dimensionless
 variable, with our convention the linear coefficient ℎ𝛼𝛽
 (1) in Eq. (32) has the dimension of the inverse
-of 𝐺 (which should be a mass squared in a system of units where ~ = 𝑐 = 1). In vacuum, the
+of 𝐺 (which should be a mass squared in a system of units where ℏ = 𝑐 = 1). In vacuum, the
 harmonic-coordinate metric coefficient ℎ𝛼𝛽
 (1) satisfies
-ℎ𝛼𝛽
+□ℎ𝛼𝛽
 (1) = 0 ,
 
 (33a)
@@ -1720,7 +1720,7 @@ where 𝑟 = |x|, and where the functions K𝛼𝛽
 𝐿 ≡ K𝑖1 ...𝑖ℓ are smooth functions of the retarded time
 ∞
 𝑢 ≡ 𝑡 − 𝑟/𝑐 [i.e., K𝐿 (𝑢) ∈ 𝐶 (R)], which become constant in the past, when 𝑡 ⩽ −𝒯 , see Eq. (29).
-Since a monopolar wave satisfies (K𝐿 (𝑢)/𝑟) = 0 and the d’Alembertian commutes with the
+Since a monopolar wave satisfies □(K𝐿 (𝑢)/𝑟) = 0 and the d’Alembertian commutes with the
 multi-derivative 𝜕𝐿 , it is evident that Eq. (34) represents the most general solution of the wave
 equation (33a); but see Section 2 in Ref. [57] for a rigorous proof based on the Euler–Poisson–
 Darboux equation. The gauge condition (33b), however, is not fulfilled in general, and to satisfy it
@@ -1971,7 +1971,7 @@ the factors of the successive powers of our book-keeping parameter 𝐺. We get 
 equations for each of the ℎ𝛼𝛽
 (𝑛) ’s: namely, ∀𝑛 ⩾ 2,
 𝛼𝛽
-ℎ𝛼𝛽
+□ℎ𝛼𝛽
 (𝑛) = Λ(𝑛) [ℎ(1) , ℎ(2) , . . . , ℎ(𝑛−1) ] ,
 
 (39a)
@@ -1985,21 +1985,21 @@ The right-hand side of the wave equation (39a) is obtained from inserting the pr
 known up to the order 𝑛 − 1, into the gravitational source term. In more details, the series of
 equations (39a) reads
 𝛼𝛽
-ℎ𝛼𝛽
+□ℎ𝛼𝛽
 [ℎ(1) , ℎ(1) ] ,
 (2) = 𝑁
 
 (40a)
 
 𝛼𝛽
-ℎ𝛼𝛽
+□ℎ𝛼𝛽
 [ℎ(1) , ℎ(1) , ℎ(1) ] + 𝑁 𝛼𝛽 [ℎ(1) , ℎ(2) ] + 𝑁 𝛼𝛽 [ℎ(2) , ℎ(1) ] ,
 (3) = 𝑀
 
 (40b)
 
 𝛼𝛽
-ℎ𝛼𝛽
+□ℎ𝛼𝛽
 [ℎ(1) , ℎ(1) , ℎ(1) , ℎ(1) ]
 (4) = 𝐿
 
@@ -2052,12 +2052,12 @@ term 𝑟𝐵 Λ𝛼𝛽
 operator. This defines the 𝐵-dependent retarded integral, when ℜ(𝐵) is large enough,
 [︁
 ]︁
-𝐼 𝛼𝛽 (𝐵) ≡ −1
+𝐼 𝛼𝛽 (𝐵) ≡ □−1
 ̃︀𝐵 Λ𝛼𝛽
 (41)
 ret 𝑟
 (𝑛) ,
-where the symbol −1
+where the symbol □−1
 ret stands for the retarded integral defined by Eq. (31). It is convenient to
 introduce inside the regularizing factor some arbitrary constant length scale 𝑟0 in order to make it
 dimensionless. Everywhere in this article we pose
@@ -2117,7 +2117,7 @@ of 𝐵, we arrive at
 
 =⇒
 
-𝜄𝛼𝛽
+□𝜄𝛼𝛽
 𝑝 = 0,
 
 (44a)
@@ -2127,7 +2127,7 @@ of 𝐵, we arrive at
 
 =⇒
 
-𝜄𝛼𝛽
+□𝜄𝛼𝛽
 𝑝 =
 
 (ln 𝑟) 𝛼𝛽
@@ -2148,7 +2148,7 @@ that
 this
 =
 Λ
-particular solution of the requested equation: 𝜄𝛼𝛽
+particular solution of the requested equation: □𝜄𝛼𝛽
 0
 (𝑛)
 solution, by its very construction, owns the same structure made of a multipolar expansion singular
@@ -2174,7 +2174,7 @@ terms,
 𝑢𝛼𝛽
 =
 ℱ𝒫
-
+□
 𝑟
 ̃︀
 Λ
@@ -2201,7 +2201,7 @@ fact that the source term is divergence-free in vacuum, 𝜕𝜇 Λ𝛼𝜇
 𝛼
 𝐵 𝑛𝑖 𝛼𝑖
 𝑤(𝑛)
-= ℱ𝒫 𝐵=0 −1
+= ℱ𝒫 𝐵=0 □−1
 𝐵
 𝑟
 ̃︀
@@ -2679,7 +2679,7 @@ This gauge transformation is non-harmonic:
 𝛼𝜇
 𝛼
 𝜕𝜇 𝐻(1)
-= 𝜉(1)
+= □𝜉(1)
 =
 
 2M 0𝛼
@@ -2769,7 +2769,7 @@ by adjusting the gauge at the 𝑛-th post-Minkowskian order. We pose, as a gaug
 𝛼
 d𝑣 𝜎(𝑛) (𝑣, n) ,
 (63)
-𝜉(𝑛) = ℱ𝒫 ret
+𝜉(𝑛) = ℱ𝒫 □ret
 2𝑟2 −∞
 where ℱ𝒫 refers to the same finite part operation as in Eq. (45). This vector is such that the
 logarithms that will appear in the corresponding gauge terms cancel out the logarithms coming
@@ -2812,7 +2812,7 @@ the radiative metric does not obey the harmonic-gauge condition, but instead
 d𝑣 𝜎(𝑛) (𝑣, n) .
 (65)
 𝜕𝜇 𝐻(𝑛)
-= 𝜉(𝑛)
+= □𝜉(𝑛)
 = 2
 2𝑟 −∞
 
@@ -3330,7 +3330,7 @@ F(𝑡 − 𝑟) = −^
 𝑛𝐿
 d𝑥 𝑄ℓ (𝑥)F(𝑡 − 𝑟𝑥) ,
 (83)
-ret
+□ret
 𝑟2
 1
 where F is any smooth function representing a time derivative of the quadrupole moment, and
@@ -3529,7 +3529,7 @@ most difficult of the needed integration formulas for this calculation:25
 d𝑥 𝑄𝑚 (𝑥)F(𝑡 − 𝑟𝑥) = 𝑛
 ^𝐿
 d𝑦 F(−1) (𝑡 − 𝑟𝑦)
-ℱ𝒫ret
+ℱ𝒫□ret
 𝑟 1
 1
 }︂
@@ -4928,7 +4928,7 @@ of the Einstein field equation outside a post-Newtonian source reads
 
 ℳ(ℎ
 
-) = ℱ𝒫 𝐵=0 −1
+) = ℱ𝒫 𝐵=0 □−1
 ret
 
 [︁
@@ -4972,7 +4972,7 @@ between ℎ𝛼𝛽 , which is a solution of the field equations everywhere insi
 and the first term in Eq. (105), namely the finite part of the retarded integral of the multipole
 expansion ℳ(Λ𝛼𝛽 ):
 𝛼𝛽
-Δ𝛼𝛽 ≡ ℎ𝛼𝛽 − ℱ 𝒫 −1
+Δ𝛼𝛽 ≡ ℎ𝛼𝛽 − ℱ 𝒫 □−1
 )] .
 (107)
 ret [ℳ(Λ
@@ -4985,7 +4985,7 @@ From now on we shall generally abbreviate the symbols concerning the finite-part
 Δ𝛼𝛽 =
 ) .
 (108)
-ret 𝜏 − ℱ 𝒫 −1
+□ret 𝜏 − ℱ 𝒫 □−1
 ret ℳ(Λ
 4
 𝑐
@@ -5000,7 +5000,7 @@ more interesting form
 ]︀
 16𝜋𝐺
 Δ𝛼𝛽 =
-ℱ𝒫 −1
+ℱ𝒫 □−1
 − ℳ(𝜏 𝛼𝛽 ) ,
 (109)
 ret 𝜏
@@ -5137,7 +5137,7 @@ multipole decomposition given by Eq. (105),
 
 ℳ(ℎ
 
-) = −1
+) = □−1
 ret
 
 }︂
@@ -5249,7 +5249,7 @@ was parametrized by non-trace-free multipole functions ℋ𝐿
 −
 𝑟/𝑐)
 ,
-ℳ(ℎ𝛼𝛽 ) = ℱ𝒫 −1
+ℳ(ℎ𝛼𝛽 ) = ℱ𝒫 □−1
 ℳ(Λ
 )
 −
@@ -5660,7 +5660,7 @@ equations (∀𝑚 ⩾ 2),
 𝑚−2
 
 where the second term comes from the split of the d’Alembertian operator into a Laplacian and
-a second time derivative:  = Δ − 𝑐12 𝜕𝑡2 (this term is zero when 𝑚 = 2 and 3). We proceed
+a second time derivative: □ = Δ − 𝑐12 𝜕𝑡2 (this term is zero when 𝑚 = 2 and 3). We proceed
 by induction, i.e., we work at some given but arbitrary post-Newtonian order 𝑚, assume that we
 succeeded in constructing the sequence of previous coefficients ℎ𝑝 (∀𝑝 ⩽ 𝑚 − 1), and from that
 show how to infer the next-order coefficient ℎ𝑚 .
@@ -5782,15 +5782,15 @@ It is now trivial to iterate the process. We substitute for ℎ𝑚−2 in the r
 the same expression but with 𝑚 replaced by 𝑚 − 2, and similarly come down until we stop at either
 one of the coefficients ℎ0 = 0 or ℎ1 = 0. At this point ℎ𝑚 is expressed in terms of the previous
 𝜏 𝑝 ’s and 𝑝 ℬ𝐿 ’s with 𝑝 ⩽ 𝑚 − 2. To finalize the process we introduce what we call the operator
-of the “instantaneous” potentials and denote −1
+of the “instantaneous” potentials and denote □−1
 inst . Our notation is chosen to contrast with the
-standard operator of the retarded potentials −1
+standard operator of the retarded potentials □−1
 ret defined by Eq. (31). However, beware of the fact
 −1
-that unlike −1
+that unlike □−1
 the
 operator
-
+□
 will
 be
 defined
@@ -5802,7 +5802,7 @@ such as 𝜏 . Indeed, we pose
 [︀ ]︀ +∞
 [︀ ]︀
 −1
-inst 𝜏 ≡
+□inst 𝜏 ≡
 Δ−𝑘−1 𝜏 ,
 (134)
 𝑐𝜕𝑡
@@ -5813,7 +5813,7 @@ is instantaneous in the sense that it does not involve any integration over time
 that in this way we have a solution of the source-free d’Alembertian equation,
 (︀
 [︀ ]︀)︀
- −1
+□ □−1
 =𝜏.
 (135)
 inst 𝜏
@@ -5839,7 +5839,7 @@ and without any divergences, is obtained into the form
 +∞
 16𝜋𝐺 −1 [︀ ]︀ 4𝐺 ∑︁ (−)ℓ ^
 𝒜𝐿 (𝑡 − 𝑟/𝑐) − 𝒜𝐿 (𝑡 + 𝑟/𝑐)
-inst 𝜏 − 4
+□inst 𝜏 − 4
 𝜕𝐿
 .
 (136)
@@ -5932,7 +5932,7 @@ source, satisfying correct boundary conditions at infinity (no incoming radiatio
 𝐿 (𝑡 − 𝑟/𝑐) − ℛ𝐿 (𝑡 + 𝑟/𝑐)
 ℎ =
 − 4
-ret 𝜏
+□ret 𝜏
 𝜕𝐿
 .
 (140)
@@ -5951,7 +5951,7 @@ a post-Newtonian source term 𝜏 ,
 +∞
 [︀ 𝛼𝛽 ]︀
 1 ∑︁ (−)𝑚
-−1
+□−1
 𝜏
 (x,
 𝑡)
@@ -5979,7 +5979,7 @@ term of which being built from the post-Newtonian expansion of the pseudo-tensor
 present formalism, is that each of the terms is regularized by means of the ℱ𝒫 operation in order
 to deal with the bound at infinity at which the post-Newtonian expansion is singular. Because
 of the presence of this regularization, the object (141) should carefully be distinguished from the
-“global” solution −1
+“global” solution □−1
 ret [𝜏 ] defined by Eq. (31), with global non-expanded pseudo-tensor 𝜏 .
 The definition (141) is of interest because it corresponds to what one would intuitively think
 as the natural way of performing the post-Newtonian iteration, i.e., by formally Taylor expanding
@@ -5989,7 +5989,7 @@ can therefore be implemented in practical computations. The point is that Eq. (1
 wave equation in a perturbative post-Newtonian sense,
 (︀
 [︀ 𝛼𝛽 ]︀)︀
- −1
+□ □−1
 = 𝜏 𝛼𝛽 ,
 (142)
 ret 𝜏
@@ -6020,9 +6020,9 @@ investigations [357, 75] yield
 −1
 ,
 (143)
-ret 𝜏
+□ret 𝜏
 𝜕𝐿
-= inst 𝜏
+= □inst 𝜏
 −
 4𝜋
 ℓ!
@@ -6068,8 +6068,8 @@ parametrization of the 3.5PN metric.
 The basic idea in our post-Newtonian iteration scheme is to use wherever possible a “direct”
 𝜇
 2
-integration, with the help of some formulas like −1
-ret (𝜕𝜇 𝑉 𝜕 𝑉 + 𝑉 𝑉 ) = 𝑉 /2. The 3.5PN
+integration, with the help of some formulas like □−1
+ret (𝜕𝜇 𝑉 𝜕 𝑉 + 𝑉 □𝑉 ) = 𝑉 /2. The 3.5PN
 harmonic-coordinates metric reads [71]
 (︂
 )︂
@@ -6193,12 +6193,12 @@ definitions recalling Eqs. (124),
 
 Starting at Newtonian and 1PN orders, 𝑉 and 𝑉𝑖 represent some retarded versions of the usual
 Newtonian and gravitomagnetic potentials,
-𝑉 = −1
+𝑉 = □−1
 ret [−4𝜋𝐺𝜎] ,
 
 (146a)
 
-𝑉𝑖 = −1
+𝑉𝑖 = □−1
 ret [−4𝜋𝐺𝜎𝑖 ] .
 
 (146b)
@@ -6212,18 +6212,18 @@ From the 2PN order we have the potentials
 2
 ^
 ^
-𝑋 = ret −4𝜋𝐺𝑉 𝜎𝑖𝑖 + 𝑊𝑖𝑗 𝜕𝑖𝑗 𝑉 + 2𝑉𝑖 𝜕𝑡 𝜕𝑖 𝑉 + 𝑉 𝜕𝑡 𝑉 + (𝜕𝑡 𝑉 ) − 2𝜕𝑖 𝑉𝑗 𝜕𝑗 𝑉𝑖 ,
+𝑋 = □ret −4𝜋𝐺𝑉 𝜎𝑖𝑖 + 𝑊𝑖𝑗 𝜕𝑖𝑗 𝑉 + 2𝑉𝑖 𝜕𝑡 𝜕𝑖 𝑉 + 𝑉 𝜕𝑡 𝑉 + (𝜕𝑡 𝑉 ) − 2𝜕𝑖 𝑉𝑗 𝜕𝑗 𝑉𝑖 ,
 2
 ]︂
 [︂
 3
-^ 𝑖 = −1
+^ 𝑖 = □−1
 𝑅
 ret −4𝜋𝐺(𝑉 𝜎𝑖 − 𝑉𝑖 𝜎) − 2𝜕𝑘 𝑉 𝜕𝑖 𝑉𝑘 − 𝜕𝑡 𝑉 𝜕𝑖 𝑉 ,
 2
 −1
 ^
-𝑊𝑖𝑗 = ret [−4𝜋𝐺(𝜎𝑖𝑗 − 𝛿𝑖𝑗 𝜎𝑘𝑘 ) − 𝜕𝑖 𝑉 𝜕𝑗 𝑉 ] .
+𝑊𝑖𝑗 = □ret [−4𝜋𝐺(𝜎𝑖𝑗 − 𝛿𝑖𝑗 𝜎𝑘𝑘 ) − 𝜕𝑖 𝑉 𝜕𝑗 𝑉 ] .
 
 (147a)
 (147b)
@@ -6235,7 +6235,7 @@ other parts are made of non-compact-support products of 𝑉 -type potentials. T
 important cubically non-linear term generated by the coupling between 𝑊
 ^
 term in the 𝑋-potential. Note the important point that here and below the retarded integral
-operator −1
+operator □−1
 ret is really meant to be the one given by Eq. (141); thus it involves in principle the
 finite part regularization ℱ𝒫 to deal with (IR-type) divergences occurring at high post-Newtonian
 orders for non-compact-support integrals. For instance, such finite part regularization is important
@@ -6252,7 +6252,7 @@ At the next level, 3PN, we have even more complicated potentials, namely
 ^
 ^
 −4𝜋𝐺
-𝑇^ = −1
+𝑇^ = □−1
 𝜎
 𝑊
 +
@@ -6284,7 +6284,7 @@ ret
 1
 1
 ^
-𝑌^𝑖 = −1
+𝑌^𝑖 = □−1
 ret −4𝜋𝐺 −𝜎 𝑅𝑖 − 𝜎𝑉 𝑉𝑖 + 𝜎𝑘 𝑊𝑖𝑘 + 𝜎𝑖𝑘 𝑉𝑘 + 𝜎𝑘𝑘 𝑉𝑖
 2
 2
@@ -6303,7 +6303,7 @@ ret −4𝜋𝐺 −𝜎 𝑅𝑖 − 𝜎𝑉 𝑉𝑖 + 𝜎𝑘 𝑊𝑖𝑘 
 (148b)
 2
 [︂
-𝑍^𝑖𝑗 = −1
+𝑍^𝑖𝑗 = □−1
 ret −4𝜋𝐺𝑉 (𝜎𝑖𝑗 − 𝛿𝑖𝑗 𝜎𝑘𝑘 ) − 2𝜕(𝑖 𝑉 𝜕𝑡 𝑉𝑗) + 𝜕𝑖 𝑉𝑘 𝜕𝑗 𝑉𝑘 + 𝜕𝑘 𝑉𝑖 𝜕𝑘 𝑉𝑗 − 2𝜕(𝑖 𝑉𝑘 𝜕𝑘 𝑉𝑗)
 
 Living Reviews in Relativity
@@ -6655,9 +6655,9 @@ this by using the symbol 𝒪reac for the remainders – reads
 𝑐9
 The other contributions, which are conservative (i.e., non radiative), are given up to 3PN order by
 the metric (144) in which all the potentials take the same form as in Eqs. (146) – (148), but where
-one neglects all the retardations, which means that the retarded integral operator −1
+one neglects all the retardations, which means that the retarded integral operator □−1
 ret should be
-replaced by the operator of the instantaneous potentials −1
+replaced by the operator of the instantaneous potentials □−1
 defined
 by
 Eq.
@@ -7348,7 +7348,7 @@ field of isolated systems. The dimensional regularization is also an important i
 EFT approach to equations of motion and gravitational radiation [223].
 The Einstein field equations in 𝑑+1 space-time dimensions, relaxed by the condition of harmonic
 coordinates 𝜕𝜇 ℎ𝛼𝜇 = 0, take exactly the same form as given in Eqs. (18) – (23). In particular the
-box operator  now denotes the flat space-time d’Alembertian operator in 𝑑 + 1 dimensions with
+box operator □ now denotes the flat space-time d’Alembertian operator in 𝑑 + 1 dimensions with
 signature (−1, 1, 1, · · · ). The gravitational constant 𝐺 is related to the usual three-dimensional
 Newton’s constant 𝐺N by
 𝐺 = 𝐺N ℓ𝑑−3
@@ -7400,7 +7400,7 @@ generalizing Eqs. (145):
 
 As a result all the expressions of Section 5.3 acquire some explicit 𝑑-dependent coefficients. For
 instance we find [61]
-𝑉 = −1
+𝑉 = □−1
 ret [−4𝜋𝐺𝜎] ,
 
 Living Reviews in Relativity
@@ -7420,7 +7420,7 @@ Gravitational Radiation from Post-Newtonian Sources and Inspiralling Compact Bin
 𝑑−1
 −1
 ^
-𝑊𝑖𝑗 = ret −4𝜋𝐺 𝜎𝑖𝑗 − 𝛿𝑖𝑗
+𝑊𝑖𝑗 = □ret −4𝜋𝐺 𝜎𝑖𝑗 − 𝛿𝑖𝑗
 −
 𝜕𝑖 𝑉 𝜕 𝑗 𝑉 .
 𝑑−2
@@ -7430,7 +7430,7 @@ Gravitational Radiation from Post-Newtonian Sources and Inspiralling Compact Bin
 
 (177b)
 
-Here −1
+Here □−1
 ret means the retarded integral in 𝑑 + 1 space-time dimensions, which admits, though, no
 simple expression generalizing Eq. (31) in physical (𝑡, x) space.46
 As reviewed in Section 6.1, the generic functions 𝐹 (x) we have to deal with in 3 dimensions,

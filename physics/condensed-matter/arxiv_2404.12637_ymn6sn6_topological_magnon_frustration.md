@@ -8,7 +8,7 @@ Fidelity: machine (failed: characters)
 
 Transcription of `arxiv_2404.12637_ymn6sn6_topological_magnon_frustration.pdf` in this directory, 20 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 8 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-7, 9-20 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 8 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-7, 9-20 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -256,9 +256,9 @@ exchanges come from the next inter bilayer couplings
 (J4c ). Real-space magnetic configurations are confirmed
 by both Monte carlo (MC) simulations and spin dynamics (SD) simulation as implemented in UppASD code [42]
 with the spin Hamiltonian given by :
-X
-X
-X
+∑
+∑
+∑
 H=−
 Jij Si · Sj −
 Dij · (Si × Sj ) −
@@ -952,7 +952,7 @@ capture the correlation of Mn-3d orbitals for describing electronic structure. W
 LSDA+DMFT to reduce the computational cost. The convergence with k-mesh used for integrations in BZ has been
 carefully checked for both DFT and DMFT.
 The Heisenberg Hamiltonian describing the magnetic system is given by
-X X
+∑ ∑
 αβ β
 H=−
 eα
@@ -967,7 +967,7 @@ ij as a [3×3] matrix, the isotropic (Heisenberg) part of the magnetic exchange 
 and anti-symmetric Dzyaloshinskii–Moriya interactions (DMIs) Dij ’s are defined by
 
 Jij = (Jij xx + Jij yy + Jij zz )/3,
-q
+√
 ⃗ ij |= (Dij x )2 + (ij y )2 + (Dij z )2 ,
 Dij =| D
 (2)
@@ -983,8 +983,8 @@ ij [54–57].
 Here we present a derivation of the formulae based on Green’s functions formalism below. We begin by perturbing
 the spin system by deviating the initial moments (⃗e0 ) on a small angle ⃗
 δφ (the site index is omitted at the moment):
-
-
+[
+]
 ⃗ × ⃗e0 − 1 ⃗e0 (δφ)
 ⃗ 2
 ⃗e = ⃗e0 + δ⃗e + δ 2⃗e = ⃗e0 + δφ
@@ -999,13 +999,13 @@ In the collinear limit, all spins point along the same direction, which we set p
 have the following components:
 ⃗ = (δφx ; δφy ; 0)
 δφ
-
-
+[
+]
 ⃗
 δφ × ⃗e0 = (δφy ; −δφx ; 0)
 ⃗ (i.e. Ĥ (2) ), we obtain:
 Focusing on the energy contributions of the second order in δφ
-X
+∑(
 y
 yy
 xy
@@ -1026,7 +1026,7 @@ x
 −Jyx
 ij δφi δφj − Jij ((δφi ) + (δφj ) )
 
-
+)
 
 2
 
@@ -1040,11 +1040,11 @@ where Û = exp (iδφ
 αβ
 identified and mapped onto generalized Heisenberg model. The expressions for various components of Jij (Eq. (1))
 are obtained as
-
-
-
-
-TX
+[
+]
+[
+]
+T∑
 TrL,m Ĥi , σ̂ y Gij (iωp ) Ĥj , σ̂ y Gji (iωp )
 Jxx
 ij =
@@ -1052,11 +1052,11 @@ ij =
 Jxy
 ij = −
 
-
-
-
-
-TX
+[
+]
+[
+]
+T∑
 TrL,m Ĥi , σ̂ y Gij (iωp ) Ĥj , σ̂ x Gji (iωp )
 4 p
 
@@ -1077,7 +1077,7 @@ Berry curvature and topological invariant
 
 The Chern numbers (topological invariants) and Berry curvatures are calculated using a formalism based on Ref. [8].
 The Chern number of n’th band over a two-dimensional torus T2 is given by
-Z
+∫
 1
 cn =
 d2 k F12 (k),
@@ -1122,7 +1122,7 @@ Uµ (kℓ ) ≡ ⟨kℓ |kℓ + µ̂⟩ /Nµ (kℓ ),
 
 with Nµ (kℓ ) = | ⟨kℓ |kℓ + µ̂⟩ |. Finally, a new Chern number for nth band is calculated by summing up the imaginary
 part of the Berry curvature for the discrete points on the BZ and it is defined as
-1 X
+1 ∑
 c̃n ≡
 F̃12 (kℓ ).
 (8)

@@ -8,7 +8,7 @@ Fidelity: machine-gated
 
 Transcription of `xenon_2026_light_dm_ionization.pdf` in this directory, 10 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 10 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-9 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 10 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-9 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -419,7 +419,7 @@ data using a TensorFlow-based [48] multilayer perceptron model, rejects ∼75% o
 ∼99% signal efficiency; the remaining background arises
 from SE pile-up at indistinguishable locations.
 Surface backgrounds from 222 Rn progeny
-p on TPC walls
+√ on TPC walls
 are suppressed by fiducialization in r ( x2 + y 2 ) dimension. Charge-up on the wall distorts electron drift paths,
 causing reconstructed r to vary with z and requiring a
 z reconstruction to correct field effects [20]. We developed a BDT regression model to reconstruct the S2-only
@@ -974,10 +974,10 @@ in the analysis.
 Statistical inference—An extended binned likelihood
 function is constructed using alea [62] combining the
 SR0, SR1, and SR2 data on the cS2 dimension. Additional dimensions provide little improvement in DM
-sensitivity in the science Q
+sensitivity in the science ∏
 ROI. The likelihood
 function
-Q
+∏
 2
 is expressed as L(σ, θ) = i=0 LSRi (σ, θ) m Lanc
 m (θm ),

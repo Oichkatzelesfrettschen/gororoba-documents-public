@@ -8,7 +8,7 @@ Fidelity: machine (failed: characters)
 
 Transcription of `krishnamurthi_2003_programming_languages_application_and_interpretation.pdf` in this directory, 376 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 2, 16-18, 26-28, 56, 72-74, 103-104, 112, 119-120, 131-132, 134, 161-162, 184, 222-224, 230-232, 246, 250-252, 258, 276, 288, 300, 307-308, 310, 322, 328-330, 365-366, 370 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1, 3-15, 19-25, 29-55, 57-71, 75-102, 105-111, 113-118, 121-130, 133, 135-160, 163-183, 185-221, 225-229, 233-245, 247-249, 253-257, 259-275, 277-287, 289-299, 301-306, 309, 311-321, 323-327, 331-364, 367-369, 371-376 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 2, 16-18, 26-28, 56, 72-74, 103-104, 112, 119-120, 131-132, 134, 161-162, 184, 222-224, 230-232, 246, 250-252, 258, 276, 288, 300, 307-308, 310, 322, 328-330, 365-366, 370 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1, 3-15, 19-25, 29-55, 57-71, 75-102, 105-111, 113-118, 121-130, 133, 135-160, 163-183, 185-221, 225-229, 233-245, 247-249, 253-257, 259-275, 277-287, 289-299, 301-306, 309, 311-321, 323-327, 331-364, 367-369, 371-376 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -17,7 +17,8 @@ Application and Interpretation
 Shriram Krishnamurthi
 Brown University
 
-Copyright c 2003, Shriram Krishnamurthi
+c 2003, Shriram Krishnamurthi
+Copyright ⃝
 This work is licensed under the
 Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License.
 If you create a derivative work, please include the version information below in your attribution.
@@ -138,9 +139,9 @@ continuations and macros.
 
 Exercises
 Numerous exercises are sprinkled throughout the book. Several more, in the form of homework assignments
-and exams, are available from my course’s Web pages (where hyeari is one of 2000, 2001, 2002, 2003,
+and exams, are available from my course’s Web pages (where ⟨year⟩ is one of 2000, 2001, 2002, 2003,
 2004 and 2005):
-http://www.cs.brown.edu/courses/cs173/hyeari/
+http://www.cs.brown.edu/courses/cs173/⟨year⟩/
 In particular, in the book I do not implement garbage collectors and type checkers. These are instead
 homework assignments, ones that students generally find extremely valuable (and very challenging!).
 
@@ -4122,16 +4123,16 @@ E)
 e)
 But this has introduced an unbound (free) identifier, E. It’s easy to make this bound, by introducing a new
 (helper) function:
-ρ 0 (e) =
+ρ ′ (e) =
 λE.
 (aSub ’fac
 (closureV ’n
 (if0 · · ·) ;; body
 E)
 e)
-We’ll call this function, ρ 0 , a pre-transformer, because it consumes both e, the ambient environment, and E,
+We’ll call this function, ρ ′ , a pre-transformer, because it consumes both e, the ambient environment, and E,
 the environment to put in the closure. For some ambient environment e0 , let’s set
-Fe0 = ρ 0 (e0 )
+Fe0 = ρ ′ (e0 )
 Observe that Fe0 is a procedure ready to consume an E, the environment to put in the closure. What does it
 return? It returns an environment that extends the ambient environment. If we feed the right environment
 for E, then recursion can proceed forever. What E will enable this?
@@ -4150,7 +4151,7 @@ E0 = Fe0 (E0 )
 That is, the environment E0 we need to feed Fe0 needs to be the same as the environment we will get from
 applying Fe0 to it. We’re being asked to supply the very answer we want to produce!
 We call such a value—one such that the function’s output is the same as its input—a fixed-point of a
-function. In this particular case, the fixed-point of ρ 0 is an environment that extends the ambient environment
+function. In this particular case, the fixed-point of ρ ′ is an environment that extends the ambient environment
 with a binding of a name to a closure whose environment is . . . itself.
 Exercise 9.2.1 This discussion about recursion has taken place in the context of environments, i.e., deferred
 substitutions. How would it differ if we were performing explicit substitution (i.e., without deferral)?
@@ -4378,9 +4379,9 @@ in the closure bound to ’fac. So the environment is really
 (aRecSub ’fac
 (box (closureV ’n
 (if0 · · ·)
-))
+□))
 (mtSub))
-where  is a reference back to this very same environment! In other words, we have a cyclic environment
+where □ is a reference back to this very same environment! In other words, we have a cyclic environment
 that addresses the needs of recursion. The cyclicity ensures that there is always “one more binding” for fac
 when we need it.
 Exercise 10.0.3 Were we able to implement recursive definitions in F1WAE (Section 4)? If so, how was
@@ -8896,9 +8897,9 @@ succ ≡
 Now we can tackle addition. Observe the following arithmetic result:
 n times
 
-z
-}|
-{
+⏞
+⏟⏟
+⏞
 m + n = 1 + 1 + · · · + 1 +m
 Let’s try putting this in words. To add m and n, we add one n times to m. That is, we apply an operation
 that adds one, n times, to a base value of m. How do we iterate anything n times? That’s exactly what
@@ -8918,9 +8919,9 @@ CHAPTER 22. SHRINKING THE LANGUAGE
 A similar insight gives us multiplication:
 n times
 
-z
-}|
-{
+⏞
+⏟⏟
+⏞
 m × n = m + m + · · · + m +0
 From this, and employing a similar line of reasoning, we can define
 prod ≡
@@ -8932,15 +8933,15 @@ It’s easy to see that we can define other additive operators inductively. But 
 This seems to create an entirely new level of difficulty. Addition seemed to need the ability to modify the
 numeral to apply the first argument one more time, but we found a clever way of applying it “from the
 outside”. Subtraction, on the other hand, requires that a procedure not be applied, which seems harder still.
-The solution to this problem is to make the following observation. Consider the pair h0, 0i. Now apply
+The solution to this problem is to make the following observation. Consider the pair ⟨0, 0⟩. Now apply
 the following algorithm. Given such a pair of numbers, create a new pair. The new pair’s left component is
 the old pair’s right component; the new pair’s right component is the old pair’s right component incremented
 by one. Visually,
-initial value : h0, 0i
-after 1 iteration : h0, 1i
-after 2 iterations : h1, 2i
-after 3 iterations : h2, 3i
-after 4 iterations : h3, 4i
+initial value : ⟨0, 0⟩
+after 1 iteration : ⟨0, 1⟩
+after 2 iterations : ⟨1, 2⟩
+after 3 iterations : ⟨2, 3⟩
+after 4 iterations : ⟨3, 4⟩
 and so on.
 You might find this procedure rather strange, in that it entirely ignores the left component of each
 preceding pair to create the next one in the sequence. Notice, however, that after n iterations, the left
@@ -9264,14 +9265,13 @@ We have been writing interpreters in Scheme in order to understand various featu
 we can’t communicate how our interpreter works. It would be convenient to have some common language
 for explaining interpreters. We already have one: math!
 Let’s try some simple examples. If our program is a number n, it just evaluates to some mathematical
-representation of n. We’ll use a nb to represent this number, whereas n itself will hold the numeral. For
-instance, the numeral 5 is represented by the number b
-5 (note the subtle differences in typesetting!). In other
+representation of n. We’ll use a n̂ to represent this number, whereas n itself will hold the numeral. For
+instance, the numeral 5 is represented by the number 5̂ (note the subtle differences in typesetting!). In other
 words, we will write
-n ⇒ nb
+n ⇒ n̂
 where we read ⇒ as “reduces to”. Numbers are already values, so they don’t need further reduction.
 How about addition? We might be tempted to write
-{+ l r} ⇒ ld
+{+ l r} ⇒ lˆ
 +r
 In particular, the addition to the left of the ⇒ is in the programming language, while the one on the right
 happens in mathematics and results in a number. That is, the addition symbol on the left is syntactic. It could
@@ -9282,10 +9282,10 @@ is the expression on the right that gives it meaning, and in this case it assign
 That said, this definition is unsatisfactory. Mathematical addition only works on numbers, but l and r
 might each be complex expressions in need of reduction to a value (in particular, a number) so they can be
 added together. We denote this as follows:
-l ⇒ lbv
+l ⇒ lˆv
 
-r ⇒ rbv
-{+ l r} ⇒ lvd
+r ⇒ rˆv
+{+ l r} ⇒ lvˆ
 + rv
 
 The terms above the bar are called the antecedents, and those below are the consequents. This rule is just a
@@ -9313,19 +9313,19 @@ Let’s turn our attention to functions. We want them to evaluate to closures, w
 body and an environment. How do we represent a structure in mathematics? A structure is simply a tuple,
 in this case a triple. (If we had multiple kinds of tuples, we might use tags to distinguish between them, but
 for now that won’t be necessary.) We would like to write
-{fun {i} b} ⇒ hi, b, ???i
+{fun {i} b} ⇒ ⟨i, b, ???⟩
 but the problem is we don’t have a value for the environment to store in the closure. So we’ll have to make
 the environment explicit. From now on, ⇒ will always have a term and an environment on the left, and a
 value on the right. We first rewrite our two existing reduction rules:
-n, E ⇒ nb
-l, E ⇒ lbv
+n, E ⇒ n̂
+l, E ⇒ lˆv
 
-r, E ⇒ rbv
-{+ l r}, E ⇒ lvd
+r, E ⇒ rˆv
+{+ l r}, E ⇒ lvˆ
 + rv
 
 Now we can define a reduction rule for functions:
-{fun {i} b}, E ⇒ hi, b, E i
+{fun {i} b}, E ⇒ ⟨i, b, E ⟩
 Given an environment, we can also look up the value of identifiers:
 i, E ⇒ E (i)
 All that remains is application. As with addition, application must first evaluate its subexpressions, so
@@ -9336,7 +9336,7 @@ a, E ⇒???
 
 { f a}, E ⇒???
 What kind of value must f reduce to? A closure, naturally:
-f , E ⇒ hi, b, E 0 i
+f , E ⇒ ⟨i, b, E ′ ⟩
 
 a, E ⇒???
 
@@ -9345,16 +9345,16 @@ a, E ⇒???
 ## PDF page 249
 
 233
-(We’ll use E 0 to represent to closure environment to make clear that it may be different from E .) We don’t
+(We’ll use E ′ to represent to closure environment to make clear that it may be different from E .) We don’t
 particularly care what kind of value a reduces to; we’re just going to substitute it:
-f , E ⇒ hi, b, E 0 i
+f , E ⇒ ⟨i, b, E ′ ⟩
 
 a, E ⇒ av
 
 { f a}, E ⇒???
 But what do we write below? We have to evaluate the body, b, in the extended environment; whatever value
 it returns is the value of the application. So the evaluation of b also moves into the antecedent:
-f , E ⇒ hi, b, E 0 i
+f , E ⇒ ⟨i, b, E ′ ⟩
 
 a, E ⇒ av
 
@@ -9362,20 +9362,20 @@ b, ??? ⇒ bv
 
 { f a}, E ⇒ bv
 In what environment do we reduce the body? It has to be the environment in the closure; if we use E instead
-of E 0 , we introduce dynamic rather than static scoping! But additionally, we must extend E 0 with a binding
+of E ′ , we introduce dynamic rather than static scoping! But additionally, we must extend E ′ with a binding
 for the identifier named by i; in particular, it must be bound to the value of the argument. We can write all
 this concisely as
-f , E ⇒ hi, b, E 0 i
+f , E ⇒ ⟨i, b, E ′ ⟩
 a, E ⇒ av
-b, E 0 [i←av ] ⇒ bv
+b, E ′ [i←av ] ⇒ bv
 { f a}, E ⇒ bv
-where E 0 [i←av ] means “the environment E 0 extended with the identifier i bound to the value av ”. If E 0
+where E ′ [i←av ] means “the environment E ′ extended with the identifier i bound to the value av ”. If E ′
 already has a binding for i, this extension shadows that binding.
 The judicious use of names conveys information here. We’re demanding that the value used to extend
 the environment must be the same as that resulting from evaluating a: the use of av in both places indicates
 that. It also places an ordering on operations: clearly the environment can’t be extended until av is available,
 so the argument must evaluate before application can proceed with the function’s body. The choice of two
-different names for environments—E and E 0 —denotes that the two environments need not be the same.
+different names for environments—E and E ′ —denotes that the two environments need not be the same.
 We call this a big-step operational semantics. It’s a semantics because it ascribes meanings to programs.
 (We can see how a small change can result in dynamic instead of static scope and, more mundanely, that the
 meaning of + is given to be addition, not some other binary operation.) It’s operational because evaluation
@@ -9616,11 +9616,11 @@ but what is the type of an identifier? Clearly, we need a type environment (a ma
 types). It’s conventional to use Γ (the upper-case Greek “gamma”) for the type environment. As with the
 value environment, the type environment must appear on the left of every type judgment. All type judgments
 will have the following form:
-Γ`e : t
+Γ⊢e : t
 where e is an expression and t is a type, which we read as “Γ proves that e has type t”. Thus,
-Γ`n : number
+Γ⊢n : number
 {fun {i} b} : function
-Γ`i : Γ(i)
+Γ⊢i : Γ(i)
 1 A type system for us is a collection of types, the corresponding judgments that ascribe types to expressions, and an algorithm
 
 for performing this ascription. For many languages a simple algorithm suffices, but as languages get more sophisticated, devising
@@ -9636,19 +9636,19 @@ CHAPTER 25. TYPE JUDGMENTS
 
 The last rule simply says that the type of identifier i is whatever type it is bound to in the environment.
 This leaves only addition and application. Addition is quite easy:
-Γ`l : number
+Γ⊢l : number
 
-Γ`r : number
+Γ⊢r : number
 
-Γ`{+ l r} : number
+Γ⊢{+ l r} : number
 All this leaves is the rule for application. We know it must have roughly the following form:
-Γ` f : function
+Γ⊢ f : function
 
-Γ`a : τa
+Γ⊢a : τa
 
 ···
 
-Γ`{ f a} :???
+Γ⊢{ f a} :???
 where τa is the type of the expression a (we will often use τ to name an unknown type).
 What’s missing? Compare this against the semantic rule for applications. There, the representation of a
 function held an environment to ensure we implemented static scoping. Do we need to do something similar
@@ -9674,11 +9674,11 @@ the function above would be (number -> number). The type of the outer function b
 {+ x y}}}
 is (number -> (number -> number)), while the inner function has type (number -> number).
 Equipped with these types, the problem of checking applications becomes easy:
-Γ` f : (τ1 →τ2 )
+Γ⊢ f : (τ1 →τ2 )
 
-Γ`a : τ1
+Γ⊢a : τ1
 
-Γ`{ f a} : τ2
+Γ⊢{ f a} : τ2
 
 ## PDF page 261
 
@@ -9694,8 +9694,8 @@ That is, a programmer might annotate a function with a type that is completely w
 (A different way to look at this is, having rid ourselves of the type function, we must revisit the typing
 rule for a function declaration.) Fortunately, we can guard against cheating and mistakes quite easily: instead
 of blindly accepting the programmer’s type annotation, we check it:
-Γ[i←τ1 ]`b : τ2
-Γ`fun {i :
+Γ[i←τ1 ]⊢b : τ2
+Γ⊢fun {i :
 
 τ1 } :
 
@@ -9741,15 +9741,15 @@ Let’s see how the set of type judgments described above accepts and rejects pr
 {+ 2
 {+ 5 7}}
 We stack type judgments for this term as follows:
-/0`2 : number
+/0⊢2 : number
 
-/0`5 : number
+/0⊢5 : number
 
-/0`7 : number
+/0⊢7 : number
 
-/0`{+ 5 7} : number
+/0⊢{+ 5 7} : number
 
-/0`{+ 2 {+ 5 7}} : number
+/0⊢{+ 2 {+ 5 7}} : number
 This is a type judgment tree.2 Each node in the tree uses one of the type judgments to determine the
 type of an expression. At the leaves (the “tops”) are, obviously, the judgments that do not have an
 antecedent (technically known as the axioms); in this program, we only use the axiom that judges
@@ -9764,21 +9764,21 @@ Observe that at the end, the result is the type number, not the value 14.
 {+ x 3}}
 5}
 The type judgment tree looks as follows:
-[x←number]`x : number
+[x←number]⊢x : number
 
-[x←number]`3 : number
+[x←number]⊢3 : number
 
-[x←number]`{+ x 3} : number
-/0`{fun {x :
+[x←number]⊢{+ x 3} : number
+/0⊢{fun {x :
 
 number} :
 
-/0`{{fun {x :
+/0⊢{{fun {x :
 
 number {+ x 3}} : (number→number)
 number} :
 
-/0`5 : number
+/0⊢5 : number
 
 number {+ x 3}} 5} : number
 
@@ -9804,7 +9804,7 @@ function was applied to an actual parameter.
 x}}
 The type judgment tree begins as follows:
 ???
-/0`{+ 3 {fun {x :
+/0⊢{+ 3 {fun {x :
 
 number} :
 
@@ -9815,8 +9815,8 @@ number x}}} :
 We don’t yet know what type (if any) we will be able to ascribe to the program, but let’s forge
 on: hopefully it’ll become clear soon. Since the expression is an addition, we should discharge the
 obligation that each sub-expression must have numeric type. First for the left child:
-/0`3 : number
-/0`{+ 3 {fun {x :
+/0⊢3 : number
+/0⊢{+ 3 {fun {x :
 
 number} :
 
@@ -9826,11 +9826,11 @@ number x}}} :
 ???
 
 Now for the right sub-expression. First let’s write out the sub-expression, then determine its type:
-/0`3 : number
+/0⊢3 : number
 
-/0`{fun {x :
+/0⊢{fun {x :
 
-/0`{+ 3 {fun {x :
+/0⊢{+ 3 {fun {x :
 
 number} :
 
@@ -9843,11 +9843,11 @@ number x}}} :
 ???
 
 As per the judgments we have defined, any function expression must have an arrow type:
-/0`3 : number
+/0⊢3 : number
 
-/0`{fun {x :
+/0⊢{fun {x :
 
-/0`{+ 3 {fun {x :
+/0⊢{+ 3 {fun {x :
 
 number} :
 
@@ -9862,11 +9862,11 @@ number x}}} :
 This does the type checker no good, however, because arrow types are distinct from numeric types,
 so the resulting tree above does not match the form of the addition judgment (no matter what goes in
 place of the two ???’s). To match the addition judgment the tree must have the form
-/0`3 : number
+/0⊢3 : number
 
-/0`{fun {x :
+/0⊢{fun {x :
 
-/0`{+ 3 {fun {x :
+/0⊢{+ 3 {fun {x :
 
 number} :
 
@@ -9917,13 +9917,13 @@ Conditionals
 Let’s expand our language with a conditional construct. We can use if0 like before, but for generality it’s
 going to be more convenient to have a proper conditional and a language of predicates. The type judgment
 for the conditional must have the following form:
-Γ`c :???
+Γ⊢c :???
 
-Γ`t :???
+Γ⊢t :???
 
-Γ`e :???
+Γ⊢e :???
 
-Γ`{if c t e} :???
+Γ⊢{if c t e} :???
 where c is the conditional, t the “then”-expression, and e the “else”-expression.
 Let’s begin with the type for c. What should it be? In a language like Scheme we permit any value, but
 in a stricter, typed language, we might demand that the expression always evaluate to a boolean. (After all,
@@ -9933,22 +9933,22 @@ we don’t yet have such a type in our type language, so we must first extend th
 | boolean
 | (<type> -> <type>)
 Armed with the new type, we can now ascribe a type to the conditional expression:
-Γ`c : boolean
+Γ⊢c : boolean
 
-Γ`t :???
+Γ⊢t :???
 
-Γ`e :???
+Γ⊢e :???
 
-Γ`{if c t e} :???
+Γ⊢{if c t e} :???
 Now what of the other two, and of the result of the expression? One option is, naturally, to allow both arms
 of the conditional to have whatever types the programmer wants:
-Γ`c : boolean
+Γ⊢c : boolean
 
-Γ`t : τ1
+Γ⊢t : τ1
 
-Γ`e : τ2
+Γ⊢e : τ2
 
-Γ`{if c t e} :???
+Γ⊢{if c t e} :???
 By using two distinct type variables, we do not demand any conformity between the actual types of the
 arms. By permitting this flexibility, however, we encounter two problems. The first is that it isn’t clear what
 249
@@ -9969,13 +9969,13 @@ Because we know nothing about mystery, we must conservatively conclude that it m
 which means eventually we are going to see a type error that we only catch at run-time. But why permit the
 programmer to write such a program at all? We might as well prevent it from ever executing. Therefore, we
 use the following rule to type conditionals:
-Γ`c : boolean
+Γ⊢c : boolean
 
-Γ`t : τ
+Γ⊢t : τ
 
-Γ`e : τ
+Γ⊢e : τ
 
-Γ`{if c t e} : τ
+Γ⊢{if c t e} : τ
 Notice that by forcing the two arms to have the same type, we can assign that common type to the entire
 expression, so the type system does not need to know which branch was chosen on a given execution: the
 type remains the same.
@@ -10140,7 +10140,7 @@ Strong normalization says we must provide an explicit recursion construct. To do
 with the same type language. Note that the rec construct needs an explicit type annotation also.
 What is the type judgment for rec? It must be of the form
 ???
-Γ`{rec {i :
+Γ⊢{rec {i :
 
 τi v} b} : τ
 
@@ -10155,18 +10155,18 @@ this more easily by realizing that a rec is a bit like an immediate function app
 functions, we’re going to have assumptions and guarantees—just both in the same rule.
 We want to assume that τi is a legal annotation, and use that to check the body; but we also want to
 guarantee that τi is a legal annotation. Let’s do them in that order. The former is relatively easy:
-Γ[i←τi ]`b : τ
-Γ`{rec {i :
+Γ[i←τi ]⊢b : τ
+Γ⊢{rec {i :
 
 ???
 τi v} b} : τ
 
 Now let’s hazard a guess about the form of the latter:
-Γ[i←τi ]`b : τ
+Γ[i←τi ]⊢b : τ
 
-Γ`v : τ
+Γ⊢v : τ
 
-Γ`{rec {i :
+Γ⊢{rec {i :
 
 τi v} b} : τ
 
@@ -10174,19 +10174,19 @@ But what is the structure of the term named by v? Surely it has references to th
 it, but i is almost certainly not bound in Γ (and even if it is, it’s not bound to the value we want for i).
 Therefore, we’ll have to extend Γ with a binding for i—not surprising, if you think about the scope of i in a
 rec term—to check v also:
-Γ[i←τi ]`b : τ
-Γ[i←τi ]`v : τ
-Γ`{rec {i :
+Γ[i←τi ]⊢b : τ
+Γ[i←τi ]⊢v : τ
+Γ⊢{rec {i :
 
 τi v} b} : τ
 
 Is that right? Do we want v to have type τ, the type of the entire expression? Not quite: we want it to have
 the type we promised it would have, namely τi :
-Γ[i←τi ]`b : τ
+Γ[i←τi ]⊢b : τ
 
-Γ[i←τi ]`v : τi
+Γ[i←τi ]⊢v : τi
 
-Γ`{rec {i :
+Γ⊢{rec {i :
 
 τi v} b} : τ
 
@@ -10301,13 +10301,13 @@ for the above datatype might look like
 [{unknown} ...]
 [{person n m f} ...]}
 Its pieces would be typed as follows:
-Γ`v : FamilyTree
+Γ⊢v : FamilyTree
 
-Γ`e1 : τ
+Γ⊢e1 : τ
 
-Γ[n←string, m←FamilyTree, f ←FamilyTree]`e2 : τ
+Γ[n←string, m←FamilyTree, f ←FamilyTree]⊢e2 : τ
 
-Γ`{FamilyTree-cases v {[unknown] e1 } {[person n m f ] e2 }} : τ
+Γ⊢{FamilyTree-cases v {[unknown] e1 } {[person n m f ] e2 }} : τ
 In other words, to determine the type of the entire FamilyTree-cases expression, τ, we first ensure that
 the value being dispatched is of the right type. Then we must make sure each branch of the switch returns a
 τ.2 We can ensure that by checking each of the bodies in the right type environment. Because unknown has
@@ -10487,21 +10487,21 @@ During execution, the program will explore only one branch of the conditional:
 
 {if0 {+ 1 2} {{fun ...} 7} {{fun ...} 1}}, /0 ⇒ 4
 but the type checker must explore both:
-/0`1 : number
+/0⊢1 : number
 
-/0`2 : number
+/0⊢2 : number
 
-/0`{+ 1 2} : number
-
-...
+/0⊢{+ 1 2} : number
 
 ...
 
-/0`{{fun ...} 7} : number
+...
 
-/0`{{fun ...} 1} : number
+/0⊢{{fun ...} 7} : number
 
-/0`{if0 {+ 1 2} {{fun ...} 7} {{fun ...} 1}} : number
+/0⊢{{fun ...} 1} : number
+
+/0⊢{if0 {+ 1 2} {{fun ...} 7} {{fun ...} 1}} : number
 4 The term “wrong” here is misleading. It refers to a particular kind of value, representing an erroneous configuration, in the
 
 semantics Milner was using; in that context, this slogan is tongue-in-cheek. Taken out of context it is misleading, because a
@@ -10809,14 +10809,14 @@ initial invocation, the type expander does not need to perform the application. 
 has no side-effects, computations will return the same result every time. Type application has no sideeffects.)
 This informal argument suggests that only one pass over the body is necessary. We can formalize this
 with the following type judgments:
-Γ`e : ∀α.τ
-Γ`e < τ 0 >: τ[α←τ 0 ]
+Γ⊢e : ∀α.τ
+Γ⊢e < τ ′ >: τ[α←τ ′ ]
 This judgment says that on encountering a type application, we substitute the quantified type with the type
 argument replacing the type variable. The program source contains only a fixed number of type applications
 (even if each of these can execute arbitrarily many times), so the type checker performs this application only
 once. The corresponding rule for a type abstraction is
-Γ[α]`e : τ
-Γ` < Λ (α) e >: ∀α.τ
+Γ[α]⊢e : τ
+Γ⊢ < Λ (α) e >: ∀α.τ
 This says that we extend Γ with a binding for the type variable α, but leave the associated type unspecified
 so it is chosen nondeterministically. If the choice of type actually matters, then the program must not typecheck.
 Observe that the type expander conceptually creates many monomorphically typed procedures, but we
@@ -11185,9 +11185,9 @@ The unification algorithm is extremely simple. Begin with an empty substitution.
 onto a stack. If the stack is empty, return the substitution; otherwise, pop the constraint X = Y off the stack:
 1. If X and Y are identical identifiers, do nothing.
 2. If X is an identifier, replace all occurrences of X by Y both on the stack and in the substitution, and
-add X 7→ Y to the substitution.
+add X ↦→ Y to the substitution.
 3. If Y is an identifier, replace all occurrences of Y by X both on the stack and in the substitution, and
-add Y 7→ X to the substitution.
+add Y ↦→ X to the substitution.
 4. If X is of the form C(X1 , . . . , Xn ) for some constructor C,4 and Y is of the form C(Y1 , . . . ,Yn ) (i.e., it
 has the same constructor), then push Xi = Yi for all 1 ≤ i ≤ n onto the stack.
 5. Otherwise, X and Y do not unify. Report an error.
@@ -11248,18 +11248,18 @@ Step 2
 Substitution
 empty
 
-[[ 2 ]] 7→ [[ 3 ]]→[[ 1 ]]
-[[ 2 ]] 7→ [[ 3 ]]→[[ 1 ]]
+[[ 2 ]] ↦→ [[ 3 ]]→[[ 1 ]]
+[[ 2 ]] ↦→ [[ 3 ]]→[[ 1 ]]
 
-[[ 2 ]] 7→ [[x]]→[[ 1 ]]
-[[ 3 ]] 7→ [[x]]
-[[ 2 ]] 7→ [[x]]→[[x]]
-[[ 3 ]] 7→ [[x]]
-[[ 1 ]] 7→ [[x]]
-[[ 2 ]] 7→ number→number
-[[ 3 ]] 7→ number
-[[ 1 ]] 7→ number
-[[x]] 7→ number
+[[ 2 ]] ↦→ [[x]]→[[ 1 ]]
+[[ 3 ]] ↦→ [[x]]
+[[ 2 ]] ↦→ [[x]]→[[x]]
+[[ 3 ]] ↦→ [[x]]
+[[ 1 ]] ↦→ [[x]]
+[[ 2 ]] ↦→ number→number
+[[ 3 ]] ↦→ number
+[[ 1 ]] ↦→ number
+[[x]] ↦→ number
 
 At this point, we have solutions for all the sub-expressions and we know that the constraint set is consistent.
 Writing these in detail is painstaking, but it’s usually easy to simulate this algorithm on paper by just
@@ -11290,7 +11290,7 @@ The “Occurs” Check
 Suppose we generate the following type constraint:
 list([[x]]) = list(list([[x]]))
 By Step 4, we should push [[x]] = list([[x]]) onto the stack. Eventually, obeying to Step 2, we will add the
-mapping [[x]] 7→ list([[x]]) to the substition but, in the process, attempt to replace all instances of [[x]] in the
+mapping [[x]] ↦→ list([[x]]) to the substition but, in the process, attempt to replace all instances of [[x]] in the
 substitution with the right-hand side, which does not terminate.
 This is a familiar problem: we saw it earlier when trying to define substitution in the presence of recursion. Because these are problematic to handle, a traditional unification algorithm checks in Steps 2 and 3
 whether the identifier about to be (re)bound in the substitution occurs in the term that will take its place. If
@@ -11330,8 +11330,8 @@ equations above. This topic is, however, beyond the scope of this text.
 Principal Types
 
 The type generated by this Hindley-Milner6 system has a particularly pleasing property: it is a principal
-type. What does that mean? For a term t, consider a type τ. τ is a principal type of t if, for any other type τ 0
-that types t, there exists a substitution (perhaps empty) that, when applied to τ, yields τ 0 .
+type. What does that mean? For a term t, consider a type τ. τ is a principal type of t if, for any other type τ ′
+that types t, there exists a substitution (perhaps empty) that, when applied to τ, yields τ ′ .
 There are a few ways of re-phrasing the above:
 • The Hindley-Milner type system infers the “most general” type for a term.
 • The type generated by the Hindler-Milner type system imposes fewest constraints on the program’s
@@ -11370,9 +11370,9 @@ Now consider a program of the form (the let construct is similar to the with in 
 First we need a type judgment for let. Here is a reasonable one: it is exactly what one gets by using the
 existing rules for functions and applications, since we have consistently defined with as an application of
 an immediate function:
-Γ`v : τ 0
-Γ[x←τ 0 ]`b : τ
-Γ`(let([xv])b) : τ
+Γ⊢v : τ ′
+Γ[x←τ ′ ]⊢b : τ
+Γ⊢(let([xv])b) : τ
 Given this judgment, the type variable α in the type inferred for id would unify with the type of 5
 (namely, number) at one application and with the type of 6 (also number) at the other application. Since
 these are consistent, the unification algorithm would conclude that id is being used as if it had the type
@@ -11466,16 +11466,16 @@ in effect, each application consistently renames the bound identifier(s) so they
 instances. Working backwards, since we want fresh identifiers that cannot be confused across instances, we
 want to create an analogous type closure that we instantiate at every use of a polymorphic function.
 We will therefore use a modified rule for typing let:
-Γ`v : τ 0
+Γ⊢v : τ ′
 
-Γ[x←CLOSE(τ 0 )]`b : τ
-Γ`(let([xv])b) : τ
+Γ[x←CLOSE(τ ′ )]⊢b : τ
+Γ⊢(let([xv])b) : τ
 
 That is, we bind x to a “closed” type when we check the body. The idea is, whenever we encounter this
 special type in the body, we instantiate its type variables with fresh type variables:
-Γ`e : CLOSE(τ 0 )
-Γ`e : τ
-where τ is the same as τ 0 , except all type variables have been renamed consistently to unused type variables.
+Γ⊢e : CLOSE(τ ′ )
+Γ⊢e : τ
+where τ is the same as τ ′ , except all type variables have been renamed consistently to unused type variables.
 Returning to the identity procedure, the type inference algorithm binds id to the type CLOSE(α→α).
 At each use of id, the type checker renames the type variables, generating types such as α1 →α1 , α2 →α2 ,
 and so on. As we have seen before, these types permit the body to successfully type check. Therefore, we
@@ -11527,10 +11527,10 @@ are shared between all applications of the closure. So should it be in the case 
 only generate fresh type variables for the types introduced by the let or letrec.
 Concretely, we must modify our rule for let (and correspondingly that for letrec) so the type closures
 track which identifiers must be renamed:
-Γ`v : τ 0
+Γ⊢v : τ ′
 
-Γ[x←CLOSE(τ 0 , Γ)]`b : τ
-Γ`(let([xv])b) : τ
+Γ[x←CLOSE(τ ′ , Γ)]⊢b : τ
+Γ⊢(let([xv])b) : τ
 
 1 In particular, we are no longer using code-copying, which encounters an obvious difficulty in the presence of recursion.
 
@@ -11541,9 +11541,9 @@ track which identifiers must be renamed:
 289
 
 That is, a type closure tracks the environment of closure creation. Correspondingly,
-Γ`e : CLOSE(τ 0 , Γ0 )
-Γ`e : τ
-where τ is the same as τ 0 , except the renaming applies only to type variables in τ 0 that are not bound by Γ0 .
+Γ⊢e : CLOSE(τ ′ , Γ′ )
+Γ⊢e : τ
+where τ is the same as τ ′ , except the renaming applies only to type variables in τ ′ that are not bound by Γ′ .
 Applying these rules to the example above, we rename the α’s but not β , so the first use of f gets type
 α1 →β and the second use α2 →β . This forces β = number = boolean, which results in a type error during
 unification.
@@ -11960,7 +11960,7 @@ CHAPTER 33. PROGRAMMING IN PROLOG
 Example: Encoding Type Judgments
 
 Let’s look at another use for Prolog: to encode type judgments. Recall that we had rules of the form
-Γ`e : τ
+Γ⊢e : τ
 where some were axioms and the others were conditionally-defined judgments. The former we will turn into
 facts, the latter into rules.
 First, we must determine a representation for abstract syntax in Prolog. We don’t want to deal with
@@ -12979,14 +12979,14 @@ Here’s our first attempt at a for loop macro.4 We’ve generously embellished 
 readability:
 (define-syntax for0
 (syntax-rules (from to in)
-[(for0 hvari from hlowi to hhighi in hbodiesi · · ·)
-(local ([define loop (lambda (hvari)
-(if (> hvari hhighi)
+[(for0 ⟨var⟩ from ⟨low⟩ to ⟨high⟩ in ⟨bodies⟩ · · ·)
+(local ([define loop (lambda (⟨var⟩)
+(if (> ⟨var⟩ ⟨high⟩)
 ’done
 (begin
-hbodiesi · · ·
-(loop (+ hvari 1)))))])
-(loop hlowi))]))
+⟨bodies⟩ · · ·
+(loop (+ ⟨var⟩ 1)))))])
+(loop ⟨low⟩))]))
 This lets us write programs such as
 (for0 x
 from 2
@@ -13002,29 +13002,29 @@ the loop. To correct it, we should make sure it evaluates the upper-bound expres
 can do with a small change to the macro:
 (define-syntax for1
 (syntax-rules (from to in)
-[(for1 hvari from hlowi to hhighi in hbodiesi · · ·)
-(local ([define high-value hhighi]
-[define loop (lambda (hvari)
-(if (> hvari high-value)
+[(for1 ⟨var⟩ from ⟨low⟩ to ⟨high⟩ in ⟨bodies⟩ · · ·)
+(local ([define high-value ⟨high⟩]
+[define loop (lambda (⟨var⟩)
+(if (> ⟨var⟩ high-value)
 ’done
 (begin
-4 We’re using the convention of wrapping macro pattern-variables in h·i to emphasize their relationship to BNF .
+4 We’re using the convention of wrapping macro pattern-variables in ⟨·⟩ to emphasize their relationship to BNF .
 
 ## PDF page 346
 
 330
 
 CHAPTER 36. MACROS AS COMPILERS
-hbodiesi · · ·
-(loop (+ hvari 1)))))])
-(loop hlowi))]))
+⟨bodies⟩ · · ·
+(loop (+ ⟨var⟩ 1)))))])
+(loop ⟨low⟩))]))
 
 In general, we must be very careful with macros to ensure expressions are evaluated the right number of
-times. In this instance, hlowi is going to be evaluated only once and hvari is only an identifier name, but we
-have to make sure hhighi is evaluated only once.
-In fact, however, this version is also buggy! If there is a (read) in the hlowi position, that’s going to get
+times. In this instance, ⟨low⟩ is going to be evaluated only once and ⟨var⟩ is only an identifier name, but we
+have to make sure ⟨high⟩ is evaluated only once.
+In fact, however, this version is also buggy! If there is a (read) in the ⟨low⟩ position, that’s going to get
 evaluated second instead of first, which is presumably not what we wanted (though notice that we didn’t
-formally specify the behavior of for, either). So to get it right, we really need to evaluate hlowi and bind its
+formally specify the behavior of for, either). So to get it right, we really need to evaluate ⟨low⟩ and bind its
 value to an identifier first.
 In general, it’s safer to bind all expression positions to names. Scheme’s eager evaluation semantics
 ensures the expressions will only be evaluted once. We don’t always want this, but we want it so often that
@@ -13048,16 +13048,16 @@ in (display it))
 Here’s a proposed macro that implements this construct:
 (define-syntax for2
 (syntax-rules (from to in)
-[(for2 from hlowi to hhighi in hbodiesi · · ·)
-(local ([define high-value hhighi]
+[(for2 from ⟨low⟩ to ⟨high⟩ in ⟨bodies⟩ · · ·)
+(local ([define high-value ⟨high⟩]
 [define loop (lambda (it)
 (if (> it high-value)
 ’done
 (begin
-hbodiesi · · ·
+⟨bodies⟩ · · ·
 (loop (+ it 1)))))])
-(loop hlowi))]))
-Notice that in place of hvari, we are now using it. When we run this in DrScheme, we get:
+(loop ⟨low⟩))]))
+Notice that in place of ⟨var⟩, we are now using it. When we run this in DrScheme, we get:
 
 ## PDF page 347
 
@@ -13078,32 +13078,32 @@ most part, this looks an awful lot like syntax-rules, with a little more notatio
 for3 to be the same macro as for1, except written using the new macro definition mechanism instead:
 (define-syntax (for3 x)
 (syntax-case x (from to in)
-[(for3 hvari from hlowi to hhighi in hbodiesi · · ·)
+[(for3 ⟨var⟩ from ⟨low⟩ to ⟨high⟩ in ⟨bodies⟩ · · ·)
 (syntax
-(local ([define high-value hhighi]
-[define loop (lambda (hvari)
-(if (> hvari high-value)
+(local ([define high-value ⟨high⟩]
+[define loop (lambda (⟨var⟩)
+(if (> ⟨var⟩ high-value)
 ’done
 (begin
-hbodiesi · · ·
-(loop (+ hvari 1)))))])
-(loop hlowi)) ) ]))
+⟨bodies⟩ · · ·
+(loop (+ ⟨var⟩ 1)))))])
+(loop ⟨low⟩)) ) ]))
 To convert any syntax-rules macro definition into a corresponding one that uses syntax-case, we must
 make the three changes boxed above (adding a parameter to the macro name, providing the parameter as an
 explicit argument to syntax-case, and wrapping the entire output expression in (syntax · · ·).
 We can similarly define for4:
 (define-syntax (for4 x)
 (syntax-case x (from to in)
-[(for4 from hlowi to hhighi in hbodiesi · · ·)
+[(for4 from ⟨low⟩ to ⟨high⟩ in ⟨bodies⟩ · · ·)
 (syntax
-(local ([define high-value hhighi]
+(local ([define high-value ⟨high⟩]
 [define loop (lambda (it)
 (if (> it high-value)
 ’done
 (begin
-hbodiesi · · ·
+⟨bodies⟩ · · ·
 (loop (+ it 1)))))])
-(loop hlowi)))]))
+(loop ⟨low⟩)))]))
 
 ## PDF page 348
 
@@ -13119,17 +13119,17 @@ mechanism to treat the introduced term as if it were written by the programmer. 
 consistently. Thus, we must write
 (define-syntax (for4 x)
 (syntax-case x (from to in)
-[(for4 from hlowi to hhighi in hbodiesi · · ·)
+[(for4 from ⟨low⟩ to ⟨high⟩ in ⟨bodies⟩ · · ·)
 (with-syntax ([it (datum→syntax-object (syntax for4) ’it)])
 (syntax
-(local ([define high-value hhighi]
+(local ([define high-value ⟨high⟩]
 [define loop (lambda (it)
 (if (> it high-value)
 ’done
 (begin
-hbodiesi · · ·
+⟨bodies⟩ · · ·
 (loop (+ it 1)))))])
-(loop hlowi))))]))
+(loop ⟨low⟩))))]))
 The with-syntax construct introduces new pattern variables for use in the output. The first argument to
 datum→syntax-object identifies which expression the identifier the expander must pretend “introduced” the
 identifier. The second, in this case, is the symbol that will be painted appropriately. Therefore, the result of
@@ -13174,20 +13174,20 @@ A better design for an iteration construct would be to combine these ways of spe
 before, otherwise bind it and recur in the macro.
 (define-syntax (for5 x)
 (syntax-case x (from to in)
-[(for5 from hlowi to hhighi in hbodiesi · · ·)
+[(for5 from ⟨low⟩ to ⟨high⟩ in ⟨bodies⟩ · · ·)
 (with-syntax ([it (datum→syntax-object (syntax for5) ’it)])
 (syntax
-(for5 it from hlowi to hhighi in hbodiesi · · ·)))]
-[(for5 hvari from hlowi to hhighi in hbodiesi · · ·)
+(for5 it from ⟨low⟩ to ⟨high⟩ in ⟨bodies⟩ · · ·)))]
+[(for5 ⟨var⟩ from ⟨low⟩ to ⟨high⟩ in ⟨bodies⟩ · · ·)
 (syntax
-(local ([define high-value hhighi]
-[define loop (lambda (hvari)
-(if (> hvari high-value)
+(local ([define high-value ⟨high⟩]
+[define loop (lambda (⟨var⟩)
+(if (> ⟨var⟩ high-value)
 ’done
 (begin
-hbodiesi · · ·
-(loop (+ hvari 1)))))])
-(loop hlowi)))]))
+⟨bodies⟩ · · ·
+(loop (+ ⟨var⟩ 1)))))])
+(loop ⟨low⟩)))]))
 This passes all the expected tests: both the following expressions print the numbers 2 through 5:
 (for5 x from 2 to 5 in (display x))
 (for5 from 2 to 5 in (display it))
@@ -13210,7 +13210,7 @@ prints
 [3, 1] [3, 2] [3, 3]
 [4, 1] [4, 2] [4, 3] [4, 4]
 [5, 1] [5, 2] [5, 3] [5, 4] [5, 5]
-There are still ways to many ways of improving this macro. First, we might want to make sure hvari is
+There are still ways to many ways of improving this macro. First, we might want to make sure ⟨var⟩ is
 really a variable. We can use identifier? for this purpose. The syntax-case mechanism also permits guards,
 which are predicates that refine the patterns and don’t allow a rule to fire unless the predicates are met.
 Finally, the following program does not work:

@@ -8,7 +8,7 @@ Fidelity: machine (failed: characters)
 
 Transcription of `the-project-gutenberg-ebook-25156-an-introduction-to-nonassociative-algebras--519dc7962a.pdf` in this directory, 81 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 2-3, 6, 74 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1, 4-5, 7-73, 75-81 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 2-3, 6, 74 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1, 4-5, 7-73, 75-81 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -134,12 +134,12 @@ is actually not satisfied in an algebra (or ring), we say that the algebra
 As we shall see in II, a number of basic concepts which are familiar
 from the study of associative algebras do not involve associativity in any
 way, and so may fruitfully be employed in the study of nonassociative
-algebras. For example, we say that two algebras A and A0 over F are
-isomorphic in case there is a vector space isomorphism x ↔ x0 between
+algebras. For example, we say that two algebras A and A′ over F are
+isomorphic in case there is a vector space isomorphism x ↔ x′ between
 them with
 (4)
 
-(xy)0 = x0 y 0
+(xy)′ = x′ y ′
 
 for all x, y in A.
 1
@@ -160,7 +160,7 @@ F , let u1 , . . . , un be a basis for A over F . Then the bilinear multiplicati
 ui uj =
 
 n
-X
+∑
 
 γijk uk ,
 
@@ -183,7 +183,7 @@ u1 . . . uj . . . un
 .
 ..
 .
-P
+∑
 ...
 γijk uk . . .
 ..
@@ -194,7 +194,7 @@ P
 The multiplication table for a one-dimensional algebra A over F is
 given by u21 = γu1 (γ = γ111 ). There are two cases: γ = 0 (from which
 it follows that every product xy in A is 0, so that A is called a zero
-algebra), and γ 6= 0. In the latter case the element e = γ −1 u1 serves as a
+algebra), and γ ̸= 0. In the latter case the element e = γ −1 u1 serves as a
 basis for A over F , and in the new multiplication table we have e2 = e.
 Then α ↔ αe is an isomorphism between F and this one-dimensional
 algebra A. We have seen incidentally that any one-dimensional algebra
@@ -226,23 +226,23 @@ INTRODUCTION
 is satisfied. If A is any associative algebra over F , then the commutator
 (8)
 satisfies
-(60 )
+(6′ )
 and
-(70 )
+(7′ )
 
 [x, y] = xy − yx
 [x, x] = 0
-h
+[
 
-i
+]
 
-h
+[
 
-i
+]
 
-h
+[
 
-i
+]
 
 [x, y], z + [y, z], x + [z, x], y = 0.
 
@@ -266,8 +266,8 @@ a linear operator D on A satisfying
 for all x, y in A.
 
 The set D(A) of all derivations of A is a subspace of the associative
-algebra E of all linear operators on A. Since the commutator [D, D0 ]
-of two derivations D, D0 is a derivation of A, D(A) is a subalgebra of
+algebra E of all linear operators on A. Since the commutator [D, D′ ]
+of two derivations D, D′ is a derivation of A, D(A) is a subalgebra of
 E− ; that is, D(A) is a Lie algebra, called the derivation algebra of A.
 Just as one can introduce the commutator (8) as a new product
 to obtain a Lie algebra A− from an associative algebra A, so one can
@@ -288,12 +288,12 @@ INTRODUCTION
 content to restrict attention to fields F of characteristic not two (as we
 shall be in many places in these notes) there is a certain advantage in
 writing
-(100 )
+(10′ )
 
 x · y = 12 (xy + yx)
 
 to obtain an algebra A+ from an associative algebra A by defining
-products by (100 ) in the same vector space as A. For A+ is isomorphic
+products by (10′ ) in the same vector space as A. For A+ is isomorphic
 under the mapping a → 21 a to the algebra in which products are defined
 by (10). At the same time powers of any element x in A+ coincide with
 those in A: clearly x · x = x2 , whence it is easy to see by induction on
@@ -317,14 +317,14 @@ xy = yx
 for all x, y in J,
 
 and satisfy the Jordan identity
-(110 )
+(11′ )
 
 (xy)x2 = x(yx2 )
 
 for all x, y in J.
 
 Thus, if A is associative, then A+ is a Jordan algebra. So is any subalgebra of A+ , that is, any subspace of A which is closed under the
-symmetrized product (100 ) and in which (100 ) is used as a new multiplication (for example, the set of all n × n symmetric matrices). An
+symmetrized product (10′ ) and in which (10′ ) is used as a new multiplication (for example, the set of all n × n symmetric matrices). An
 algebra J over F is called a special Jordan algebra in case J is isomorphic to a subalgebra of A+ for some associative A. We shall see that
 not all Jordan algebras are special.
 Jordan algebras were introduced in the early 1930’s by a physicist, P. Jordan, in an attempt to generalize the formalism of quantum
@@ -386,17 +386,17 @@ a → a = a + I,
 
 a in A, a + I in A/I.
 
-Conversely, if A0 is a homomorphic image of A (under the homomorphism
+Conversely, if A′ is a homomorphic image of A (under the homomorphism
 (2)
 
-a → a0 ,
+a → a′ ,
 
-a in A, a0 in A0 ),
+a in A, a′ in A′ ),
 
-then A0 is isomorphic to A/I where I is the kernel of the homomorphism.
-If S0 is a subalgebra (or ideal) of a homomorphic image A0 of A,
-then the complete inverse image of S0 under the homomorphism (2)—
-that is, the set S = {s ∈ A | s0 ∈ S0 }—is a subalgebra (or ideal) of A
+then A′ is isomorphic to A/I where I is the kernel of the homomorphism.
+If S′ is a subalgebra (or ideal) of a homomorphic image A′ of A,
+then the complete inverse image of S′ under the homomorphism (2)—
+that is, the set S = {s ∈ A | s′ ∈ S′ }—is a subalgebra (or ideal) of A
 which contains the kernel I of (2). If a class of algebras is defined by
 identities (as, for example, Lie, Jordan or alternative algebras), then
 any subalgebra or any homomorphic image belongs to the same class.
@@ -430,8 +430,8 @@ sum, it has been reserved in these notes for direct sum of ideals; where
 appropriate the notation ⊥ has been used for orthogonal direct sum
 relative to a symmetric bilinear form.)
 Given any two algebras B, C over a field F , one can construct an
-algebra A over F such that A is the direct sum A = B0 ⊕ C0 of ideals
-B0 , C0 which are isomorphic respectively to B, C. The construction of
+algebra A over F such that A is the direct sum A = B′ ⊕ C′ of ideals
+B′ , C′ which are isomorphic respectively to B, C. The construction of
 A is familiar: the elements of A are the ordered pairs (b, c) with b in
 B, c in C; addition, multiplication by scalars, and multiplication are
 defined componentwise:
@@ -442,9 +442,9 @@ defined componentwise:
 α(b, c) = (αb, αc),
 (b1 , c1 )(b2 , c2 ) = (b1 c1 , b2 c2 ).
 
-Then A is an algebra over F , the sets B0 of all pairs (b, 0) with b in B
-and C0 of all pairs (0, c) with c in C are ideals of A isomorphic respectively to B and C, and A = B0 ⊕ C0 . By the customary identification
-of B with B0 , C with C0 , we can then write A = B ⊕ C, the direct sum
+Then A is an algebra over F , the sets B′ of all pairs (b, 0) with b in B
+and C′ of all pairs (0, c) with c in C are ideals of A isomorphic respectively to B and C, and A = B′ ⊕ C′ . By the customary identification
+of B with B′ , C with C′ , we can then write A = B ⊕ C, the direct sum
 of B and C as algebras.
 As in the case of vector spaces, the notion of direct sum extends to
 an arbitrary (indexed) set of summands. In these notes we shall have
@@ -466,7 +466,7 @@ that the Bi are subalgebras of A such that
 
 Bi Bj = 0
 
-for i 6= j.
+for i ̸= j.
 
 An element e (or f ) in an algebra A over F is called a left (or
 right) identity (sometimes unity element) in case ea = a (or af = a)
@@ -485,13 +485,13 @@ multiplication is defined by
 α, β in F , a, b in A.
 
 Then A1 is an algebra over F with identity element 1 = (1, 0). The
-set A0 of all pairs (0, a) in A1 with a in A is an ideal of A1 which is
-isomorphic to A. As a vector space A1 is the direct sum of A0 and
-the 1-dimensional space F 1 = {α1 | α in F }. Identifying A0 with its
+set A′ of all pairs (0, a) in A1 with a in A is an ideal of A1 which is
+isomorphic to A. As a vector space A1 is the direct sum of A′ and
+the 1-dimensional space F 1 = {α1 | α in F }. Identifying A′ with its
 isomorphic image A, we can write every element of A1 uniquely in the
 form α1 + a with α in F , a in A, in which case the multiplication (7)
 becomes
-(70 )
+(7′ )
 
 (α1 + a)(β1 + b) = (αβ)1 + (βa + αb + ab).
 
@@ -499,10 +499,10 @@ We say that we have adjoined a unity element to A to obtain A1 . (If
 A is associative, this familiar construction yields an associative algebra
 A1 with 1. A similar statement is readily verifiable for (commutative)
 Jordan algebras and for alternative algebras. It is of course not true
-for Lie algebras, since 12 = 1 6= 0.)
+for Lie algebras, since 12 = 1 ̸= 0.)
 Let B and A be algebras over a field F . The Kronecker product
 B ⊗F A (written B ⊗ A if there is no ambiguity) is the tensor product
-P
+∑
 B ⊗F A of the vector spaces B, A (so that all elements are sums b ⊗ a,
 b in B, a in A, multiplication being defined by distributivity and
 (8)
@@ -532,13 +532,13 @@ be any basis for A over F . Then the elements of AK are the linear
 combinations
 (9)
 
-X
+∑
 
 αi ui
 
 (=
 
-X
+∑
 
 αi ⊗ ui ),
 
@@ -550,7 +550,7 @@ multiplication by scalars are performed componentwise. For multiplication in AK 
 
 ui uj =
 
-X
+∑
 
 γijk uk ,
 
@@ -568,7 +568,7 @@ K). What remains to be verified is that a different choice of basis for A
 over F would yield an algebra isomorphic (over K) to this one. (A noninvariant definition of the Kronecker product of two finite-dimensional
 algebras A, B may similarly be given.)
 For the classes of algebras mentioned in the Introduction (Jordan
-algebras of characteristic 6= 2, and Lie and alternative algebras of arbitrary characteristic), one may verify that algebras remain in the same
+algebras of characteristic ̸= 2, and Lie and alternative algebras of arbitrary characteristic), one may verify that algebras remain in the same
 class under scalar extension—a property which is not shared by classes
 of algebras defined by more general identities (as, for example, in V).
 
@@ -657,14 +657,14 @@ We denote by M(A), or simply M, the enveloping algebra of
 R(A) ∪ L(A); that is, the (associative) subalgebra of E generated by
 right and left multiplications of A. M(A) is the intersection of all
 subalgebras of E which contain both R(A) and L(A). The elements
-P
+∑
 of M(A) are of the form S1 · · · Sn where Si is either a right or left
 multiplication of A. We call the associative algebra M = M(A) the
 multiplication algebra of A.
 It is sometimes useful to have a notation for the enveloping algebra
 of the right and left multiplications (of A) which correspond to the
 elements of any subset B of A; we shall write B∗ for this subalgebra of
-P
+∑
 M(A). That is, B∗ is the set of all S1 · · · Sn , where Si is either Rbi ,
 the right multiplication of A determined by bi in B, or Lbi . Clearly
 A∗ = M(A), but note the difference between B∗ and M(B) in case B
@@ -674,10 +674,10 @@ An algebra A over F is called simple in case 0 and A itself are
 the only ideals of A, and A is not a zero algebra (equivalently, in the
 presence of the first assumption, A is not the zero algebra of dimension
 1). Since an ideal of A is an invariant subspace under M = M(A),
-and conversely, it follows that A is simple if and only if M 6= 0 is an
+and conversely, it follows that A is simple if and only if M ̸= 0 is an
 irreducible set of linear operators on A. Since A2 (= AA) is an ideal of
 A, we have A2 = A in case A is simple.
-An algebra A over F is a division algebra in case A 6= 0 and the
+An algebra A over F is a division algebra in case A ̸= 0 and the
 equations
 (17)
 
@@ -685,11 +685,11 @@ ax = b,
 
 ya = b
 
-(a 6= 0, b in A)
+(a ̸= 0, b in A)
 
 have unique solutions x, y in A; this is equivalent to saying that, for
 −1
-any a 6= 0 in A, La and Ra have inverses L−1
+any a ̸= 0 in A, La and Ra have inverses L−1
 a and Ra . Any division
 
 ## PDF page 18
@@ -698,21 +698,21 @@ a and Ra . Any division
 
 ARBITRARY NONASSOCIATIVE ALGEBRAS
 
-algebra is simple. For, if I 6= 0 is merely a left ideal of A, there is an
-element a 6= 0 in I and A ⊆ Aa ⊆ I by (17), or I = A; also clearly
-A2 6= 0. (Any associative division algebra A has an identity 1, since
+algebra is simple. For, if I ̸= 0 is merely a left ideal of A, there is an
+element a ̸= 0 in I and A ⊆ Aa ⊆ I by (17), or I = A; also clearly
+A2 ̸= 0. (Any associative division algebra A has an identity 1, since
 (17) implies that the non-zero elements form a multiplicative group. In
 general, a division algebra need not contain an identity 1.) If A has
 finite dimension n ≥ 1 over F , then A is a division algebra if and only
-if A is without zero divisors (x 6= 0 and y 6= 0 in A imply xy 6= 0),
+if A is without zero divisors (x ̸= 0 and y ̸= 0 in A imply xy ̸= 0),
 inasmuch as the finite-dimensionality insures that La (and similarly
-Ra ), being (1–1) for a 6= 0, has an inverse.
+Ra ), being (1–1) for a ̸= 0, has an inverse.
 In order to make the observation that any simple ring is actually an
 algebra, so the study of simple rings reduces to that of (possibly infinitedimensional) simple algebras, we take for granted that the appropriate
-definitions for rings are apparent and we digress to consider any simple ring R. The (associative) multiplication ring M = M(R) 6= 0 is
+definitions for rings are apparent and we digress to consider any simple ring R. The (associative) multiplication ring M = M(R) ̸= 0 is
 irreducible as a ring of endomorphisms of R. Thus by Schur’s Lemma
-the centralizer C0 of M in the ring E of all endomorphisms of R is an
-associative division ring. Since M is generated by left and right multiplications of R, C0 consists of those endomorphisms T in E satisfying
+the centralizer C′ of M in the ring E of all endomorphisms of R is an
+associative division ring. Since M is generated by left and right multiplications of R, C′ consists of those endomorphisms T in E satisfying
 Ry T = T Ry , Lx T = T Lx , or
 (18)
 
@@ -720,24 +720,24 @@ Ry T = T Ry , Lx T = T Lx , or
 
 for all x, y in R.
 
-Hence S, T in C0 imply (xy)ST = ((xS)y) T = (xS)(yT ) = (x(yS)) T =
+Hence S, T in C′ imply (xy)ST = ((xS)y) T = (xS)(yT ) = (x(yS)) T =
 (xT )(yS). Interchanging S and T , we have (xy)ST = (xy)T S, so that
-zST = zT S for all z in R2 = R. That is, ST = T S for all S, T in C0 ;
-C0 is a field which we call the multiplication centralizer of R. Now the
+zST = zT S for all z in R2 = R. That is, ST = T S for all S, T in C′ ;
+C′ is a field which we call the multiplication centralizer of R. Now the
 simple ring R may be regarded in a natural way as an algebra over the
-field C0 . Denote T in C0 by α, and write αx = xT for any x in R. Then
-R is a (left) vector space over C0 . Also (18) gives the defining relations
-α(xy) = (αx)y = x(αy) for an algebra over C0 . As an algebra over C0
-(or any subfield F of C0 ), R is simple since any ideal of R as an algebra
+field C′ . Denote T in C′ by α, and write αx = xT for any x in R. Then
+R is a (left) vector space over C′ . Also (18) gives the defining relations
+α(xy) = (αx)y = x(αy) for an algebra over C′ . As an algebra over C′
+(or any subfield F of C′ ), R is simple since any ideal of R as an algebra
 is a priori an ideal of R as a ring.
 Moreover, M is a dense ring of linear transformations on R over
-0
+′
 C (Jacobson, Lectures in Abstract Algebra, vol. II, p. 274), so we have
 proved
 Theorem 1. Let R be a simple ring, and M be its multiplication
-ring. Then the multiplication centralizer C0 of M is a field, and R may
-be regarded as a simple algebra over any subfield F of C0 . M is a dense
-ring of linear transformations on R over C0 .
+ring. Then the multiplication centralizer C′ of M is a field, and R may
+be regarded as a simple algebra over any subfield F of C′ . M is a dense
+ring of linear transformations on R over C′ .
 
 ## PDF page 19
 
@@ -752,31 +752,31 @@ M(A) is irreducible as a set of endomorphisms of the additive group of
 A, so that A is a simple ring. That is, the notions of simple algebra and
 simple ring coincide, and Theorem 1 may be paraphrased for algebras
 as
-Theorem 10 . Let A be a simple algebra over F , and M be its
-multiplication algebra. Then the multiplication centralizer C0 of M is
+Theorem 1′ . Let A be a simple algebra over F , and M be its
+multiplication algebra. Then the multiplication centralizer C′ of M is
 a field (containing F ), and A may be regarded as a simple algebra over
-C0 . M is a dense ring of linear transformations on A over C0 .
-Suppose that A has finite dimension n over F . Then E has dimension n2 over F , and its subalgebra C0 has finite dimension over F . That
-is, the field C0 is a finite extension of F of degree r = (C0 : F ) over F .
-Then n = mr, and A has dimension m over C0 . Since M is a dense
+C′ . M is a dense ring of linear transformations on A over C′ .
+Suppose that A has finite dimension n over F . Then E has dimension n2 over F , and its subalgebra C′ has finite dimension over F . That
+is, the field C′ is a finite extension of F of degree r = (C′ : F ) over F .
+Then n = mr, and A has dimension m over C′ . Since M is a dense
 ring of linear transformations on (the finite-dimensional vector space)
-A over C0 , M is the set of all linear operators on A over C0 . Hence C0 is
-contained in M in the finite-dimensional case. That is, C0 is the center
+A over C′ , M is the set of all linear operators on A over C′ . Hence C′ is
+contained in M in the finite-dimensional case. That is, C′ is the center
 of M and is called the multiplication center of A.
 Corollary. Let A be a simple algebra of finite dimension over F ,
-and M be its multiplication algebra. Then the center C0 of M is a field,
-a finite extension of F . A may be regarded as a simple algebra over C0 .
-M is the algebra of all linear operators on A over C0 .
+and M be its multiplication algebra. Then the center C′ of M is a field,
+a finite extension of F . A may be regarded as a simple algebra over C′ .
+M is the algebra of all linear operators on A over C′ .
 An algebra A over F is called central simple in case AK is simple
 for every extension K of F . Every central simple algebra is simple (take
 K = F ).
-We omit the proof of the fact that any simple algebra A (of arbitrary dimension), regarded as an algebra over its multiplication centralizer C0 (so that C0 = F ) is central simple. The idea of the proof
+We omit the proof of the fact that any simple algebra A (of arbitrary dimension), regarded as an algebra over its multiplication centralizer C′ (so that C′ = F ) is central simple. The idea of the proof
 is to show that, for any extension K of F , the multiplication algebra
 M(AK ) is a dense ring of linear transformations on AK over K, and
 hence is an irreducible set of linear operators.
 Theorem 2. The center C of any simple algebra A over F is either
 0 or a field. In the latter case A contains 1, the multiplication centralizer
-C0 = C∗ = {Rc | c ∈ C}, and A is a central simple algebra over C.
+C′ = C∗ = {Rc | c ∈ C}, and A is a central simple algebra over C.
 
 ## PDF page 20
 
@@ -798,23 +798,23 @@ Hence (18) implies that
 
 cT is in C
 
-for all c in C, T in C0 .
+for all c in C, T in C′ .
 
 For (18) may be written as
-(180 )
+(18′ )
 
 Ry T = T Ry = RyT
 
 for all y in A
 
 or, equivalently, as
-(1800 )
+(18′′ )
 
 Lx T = LxT = T Lx
 
 for all x in A.
 
-Then (180 ) and (1800 ) imply RcT = T Rc = T Lc = LcT , together with
+Then (18′ ) and (18′′ ) imply RcT = T Rc = T Lc = LcT , together with
 RcT Ry = Rc T Ry = Rc RyT = Rc(yT ) = R(cT )y and Ry RcT = Ry Rc T =
 Rc Ry T = Rc T Ry (= R(cT )y ), That is, (20) holds. Note also that (19)
 implies
@@ -827,16 +827,16 @@ for all c in C, x in A.
 Since Rc1 Rc2 = Rc1 c2 (ci in C) by (19), the subalgebra C∗ of M(A)
 is just C∗ = {Rc | c ∈ C}, and the mapping c → Rc is a homomorphism
 of C onto C∗ . Also (19) and (21) imply that Rc commutes with every
-element of M so that C∗ ⊆ C0 . Moreover, C∗ is an ideal of the (commutative) field C0 since (180 ) and (20) imply that T Rc = RcT is in C∗ for
-all T in C0 , c in C. Hence either C∗ = 0 or C∗ = C 0 .
+element of M so that C∗ ⊆ C′ . Moreover, C∗ is an ideal of the (commutative) field C′ since (18′ ) and (20) imply that T Rc = RcT is in C∗ for
+all T in C′ , c in C. Hence either C∗ = 0 or C∗ = C ′ .
 Now C∗ = 0 implies Rc = 0 for all c in C; hence C = 0. For, if there
-is c 6= 0 in C, then I = F c 6= 0 is an ideal of A since IA = AI = 0.
+is c ̸= 0 in C, then I = F c ̸= 0 is an ideal of A since IA = AI = 0.
 Then I = A, A2 = 0, a contradiction.
-In the remaining case C∗ = C0 , the identity operator 1A on A is in
-0
+In the remaining case C∗ = C′ , the identity operator 1A on A is in
+′
 C = C∗ . Hence there is an element e in C such that Re = Le = 1A , or
 ae = ea = a for all a in A; A has a unity element 1 = e. Then c → Rc
-is an isomorphism between C and the field C0 . A is an algebra over the
+is an isomorphism between C and the field C′ . A is an algebra over the
 field C, and as such is central simple.
 
 ## PDF page 21
@@ -898,9 +898,9 @@ each of the two factors is in B: bb1 = bRb1 = bS1 . Similarly in any
 product of at least 2n+1 elements of B, no matter how associated,
 there is a final multiplication which is performed. At least one of the
 two factors is a product of at least 2n elements of B, while the other
-factor b0 is in B. Hence by the assumption of the induction we have
-either b0 (bS1 · · · Sn ) = bS1 · · · Sn Lb0 = bS1 · · · Sn+1 or (bS1 · · · Sn )b0 =
-bS1 · · · Sn Rb0 = bS1 · · · Sn+1 , as desired. Hence, if any product S1 · · · St
+factor b′ is in B. Hence by the assumption of the induction we have
+either b′ (bS1 · · · Sn ) = bS1 · · · Sn Lb′ = bS1 · · · Sn+1 or (bS1 · · · Sn )b′ =
+bS1 · · · Sn Rb′ = bS1 · · · Sn+1 , as desired. Hence, if any product S1 · · · St
 of t elements in B∗ is 0, any product of 2t elements of B, no matter
 how associated, is 0. That is, B is nilpotent.
 
@@ -927,9 +927,9 @@ for all x, y in A.
 and
 
 In terms of associators, (1) and (2) are equivalent to
-(10 )
+(1′ )
 and
-(20 )
+(2′ )
 
 (x, x, y) = 0
 
@@ -940,14 +940,14 @@ for all x, y in A
 for all x, y in A.
 
 In terms of left and right multiplications, (1) and (2) are equivalent to
-(100 )
+(1′′ )
 and
 
 L x2 = L x 2
 
 for all x in A
 
-(200 )
+(2′′ )
 
 R x2 = R x 2
 
@@ -970,8 +970,8 @@ for all x, y, z in A.
 
 and
 
-Now (10 ) implies that (x + y, x + y, z) = (x, x, z) + (x, y, z) + (y, x, z) +
-(y, y, z) = (x, y, z) + (y, x, z) = 0, implying (3). Similarly (20 ) implies
+Now (1′ ) implies that (x + y, x + y, z) = (x, x, z) + (x, y, z) + (y, x, z) +
+(y, y, z) = (x, y, z) + (y, x, z) = 0, implying (3). Similarly (2′ ) implies
 (x, y, z) = −(x, z, y) which gives (x, z, y) = (y, x, z). Interchanging y
 and z, we have (4). The fact that the associator alternates is equivalent
 to
@@ -987,14 +987,14 @@ Lx Ly − Lyx = Ry Lx − Lx Ry = Ryx − Ry Rx
 
 ALTERNATIVE ALGEBRAS
 
-for all x, y in A. It follows from (100 ), (200 ) and (5) that any scalar
+for all x, y in A. It follows from (1′′ ), (2′′ ) and (5) that any scalar
 extension AK of an alternative algebra A is alternative.
-Now (3) and (20 ) imply
+Now (3) and (2′ ) imply
 (6)
 that is,
-(60 )
+(6′ )
 or
-(600 )
+(6′′ )
 
 (x, y, x) = 0
 
@@ -1008,10 +1008,10 @@ Lx R x = R x Lx
 
 for all x in A.
 
-Identity (60 ) is called the flexible law. All of the algebras mentioned
+Identity (6′ ) is called the flexible law. All of the algebras mentioned
 in the Introduction (Lie, Jordan and alternative) are flexible. The
 linearized form of the flexible law is
-(6000 )
+(6′′′ )
 
 (x, y, z) + (z, y, x) = 0
 
@@ -1026,7 +1026,7 @@ We shall have occasion to use the Moufang identities
 y(xax) = [(yx)a] x,
 (xy)(ax) = x(ya)x
 
-for all x, y, a in an alternative algebra A (where we may write xax unambiguously by (60 )). Now (xax)y − x [a(xy)] = (xa, x, y) + (x, a, xy) =
+for all x, y, a in an alternative algebra A (where we may write xax unambiguously by (6′ )). Now (xax)y − x [a(xy)] = (xa, x, y) + (x, a, xy) =
 (−x, xa, y) − (x, xy, a) = − [x(xa)] y + x [(xa)y] − [x(xy)] a + x [(xy)a] =
 −(x2 a)y − (x2 y)a + x [(xa)y + (xy)a] = −(x2 , a, y) − (x2 , y, a) −
 x2 (ay) − x2 (ya) + x [(xa)y + (xy)a] = x [−x(ay) − x(ya) + (xa)y +
@@ -1131,7 +1131,7 @@ Proof: Any subalgebra B of A is generated by a finite number of
 elements (for example, the elements in a basis for B over F ). We prove
 by induction on the number of generators of B that B∗ is nilpotent for
 all subalgebras B; hence, in particular, for B = A. If B is generated by
-one element x, then by (600 ) and (17) any T in B∗ is a linear combination
+one element x, then by (6′′ ) and (17) any T in B∗ is a linear combination
 of operators of the form
 (18)
 
@@ -1199,12 +1199,12 @@ is the direct sum A = S1 ⊕ · · · ⊕ St of simple algebras Si . The proof
 is dependent upon the properties of the Peirce decomposition relative
 to an idempotent e.
 An element e of an (arbitrary) algebra A is called an idempotent
-in case e2 = e 6= 0.
+in case e2 = e ̸= 0.
 Proposition 3. Any finite-dimensional power-associative algebra,
-which is not a nilalgebra, contains an idempotent e (6= 0).
+which is not a nilalgebra, contains an idempotent e (̸= 0).
 Proof: A contains an element x which is not nilpotent. The subalgebra F [x] of A generated by x is a finite-dimensional associative
 algebra which is not a nilalgebra. Then F [x] contains an idempotent e
-(6= 0) (Albert, ibid), and therefore A does.
+(̸= 0) (Albert, ibid), and therefore A does.
 
 ## PDF page 28
 
@@ -1212,8 +1212,8 @@ algebra which is not a nilalgebra. Then F [x] contains an idempotent e
 
 ALTERNATIVE ALGEBRAS
 
-By (100 ) and (200 ) Le and Re are idempotent operators on A which
-commute by (600 ) (“commuting projections”). It follows that A is the
+By (1′′ ) and (2′′ ) Le and Re are idempotent operators on A which
+commute by (6′′ ) (“commuting projections”). It follows that A is the
 vector space direct sum
 (21)
 
@@ -1248,10 +1248,10 @@ A. Similarly Aii Aij ⊆ Aij , Aij Ajj ⊆ Aij , etc.
 We wish to define the class of Cayley algebras mentioned in the
 Introduction. We construct these algebras in the following manner.
 The procedure works slightly more smoothly if we assume that F has
-characteristic 6= 2, so we make this restriction here although it is not
+characteristic ̸= 2, so we make this restriction here although it is not
 necessary.
 An algebra A with 1 over F is called a quadratic algebra in case
-A 6= F 1 and for each x in A we have
+A ̸= F 1 and for each x in A we have
 (25)
 
 x2 − t(x)x + n(x)1 = 0,
@@ -1287,7 +1287,7 @@ xx(= xx) ∈ F 1
 for all x in A.
 
 Clearly (27) implies (25) with
-(270 )
+(27′ )
 
 x + x = t(x)1,
 
@@ -1306,11 +1306,11 @@ componentwise, and multiplication defined by
 
 (b1 , b2 )(b3 , b4 ) = (b1 b3 + µb4 b2 , b1 b4 + b3 b2 )
 
-for all bi in B and some µ 6= 0 in F . Then 1 = (1, 0) is a unity element
-for A, B0 = {(b, 0) | b ∈ B} is a subalgebra of A isomorphic to B,
+for all bi in B and some µ ̸= 0 in F . Then 1 = (1, 0) is a unity element
+for A, B′ = {(b, 0) | b ∈ B} is a subalgebra of A isomorphic to B,
 v = (0, 1) is an element of A such that v 2 = µ1 and A is the vector
-space direct sum A = B0 + vB0 of the n-dimensional vector spaces B0 ,
-vB0 . Identifying B0 with B, the elements of A are of the form
+space direct sum A = B′ + vB′ of the n-dimensional vector spaces B′ ,
+vB′ . Identifying B′ with B, the elements of A are of the form
 (29)
 
 x = b1 + vb2
@@ -1318,11 +1318,11 @@ x = b1 + vb2
 (b1 in B uniquely determined by x),
 
 and (28) becomes
-(280 )
+(28′ )
 
 (b1 + vb2 )(b3 + vb4 ) = (b1 b3 + µb4 b2 ) + v(b1 b4 + b3 b2 )
 
-for all bi in B and some µ 6= 0 in F . Defining
+for all bi in B and some µ ̸= 0 in F . Defining
 (30)
 
 x = b1 − vb2 ,
@@ -1333,7 +1333,7 @@ x = b1 − vb2 ,
 
 ALTERNATIVE ALGEBRAS
 
-we have xy = y x by (280 ) since b → b is an involution of B; hence
+we have xy = y x by (28′ ) since b → b is an involution of B; hence
 x → x is an involution of A. Also
 x + x = t(x)1,
 
@@ -1360,23 +1360,23 @@ that (x, y) = 12 [n(x + y) − n(x) − n(y)] = 12 [n(b1 + b3 ) − µn(b2 + b4 
 n(b1 ) + µn(b2 ) − n(b3 ) + µn(b4 )] = (b1 , b3 ) − µ(b2 , b4 ). Hence (x, y) = 0
 for all y = b3 + vb4 implies (b1 , b3 ) = µ(b2 , b4 ) for all b3 , b4 in B. Then
 b4 = 0 implies (b1 , b3 ) = 0 for all b3 in B, or b1 = 0 since n(b) is
-nondegenerate on B; similarly b3 = 0 implies (b2 , b4 ) = 0 (since µ 6= 0)
+nondegenerate on B; similarly b3 = 0 implies (b2 , b4 ) = 0 (since µ ̸= 0)
 for all b4 in B, or b2 = 0. That is, x = 0; n(x) is nondegenerate on A.
 When is A alternative? Since A is its own reciprocal algebra, it
-is sufficient to verify the left alternative law (10 ), which is equivalent to (x, x, y) = 0 since (x, x, y)h = (x, t(x)1 − x, y) = −(x, x,iy).
+is sufficient to verify the left alternative law (1′ ), which is equivalent to (x, x, y) = 0 since (x, x, y)[ = (x, t(x)1 − x, y) = −(x, x,]y).
 Now (x, x, y) = n(x)y − (b1 + vb2 ) (b1 b3 − µb4 b2 ) + v(b1 b4 − b3 b2 ) =
-i
+]
 
-h
+[
 
-h
+[
 
 n(x)y − b1 (b1 b3 ) − µb1 (b4 b2 ) + µ(b1 b4 )b2 − µ(b3 b2 )b2 − v b1 (b1 b4 ) −
-i
+]
 
-h
+[
 
-i
+]
 
 b1 (b3 b2 ) + (b1 b3 )b2 − µ(b4 b2 )b2 = n(x)y − n(b1 ) − µn(b2 ) (b3 + vb4 ) −
 µ(b1 , b4 , b2 ) − v(b1 , b3 , b2 ) = −µ(b1 , b4 , b2 ) − v(b1 , b3 , b2 ) by a trivial extension of the Theorem of Artin. Hence A is alternative if and only if
@@ -1404,8 +1404,8 @@ matrices with elements in F .
 We are concerned with the 8-dimensional algebras C = Q + v3 Q
 which are called Cayley algebras over F . Since any Q is associative,
 Cayley algebras are alternative. However, no Cayley algebra is associative. For Q is not commutative and there exist q1 , q2 in Q such that
-[q1 , q2 ] 6= 0; hence (v3 , q2 , q1 ) = (v3 q2 )q1 − v3 (q2 q1 ) = v3 [q1 , q2 ] 6= 0 by
-(280 ). Thus this iterative process of constructing alternative algebras
+[q1 , q2 ] ̸= 0; hence (v3 , q2 , q1 ) = (v3 q2 )q1 − v3 (q2 q1 ) = v3 [q1 , q2 ] ̸= 0 by
+(28′ ). Thus this iterative process of constructing alternative algebras
 stops after three steps. The quadratic form n(x) is nondegenerate; also
 it permits composition in the sense that
 (33)
@@ -1423,27 +1423,27 @@ for all x, y, z in A.
 
 For (x, y, z) = −(z, y, x) = (z, y, x) implies (xy)z + z(y x) = x(yz) +
 (z y)x, so that (34) holds.
-Theorem 5. Two Cayley algebras C and C0 are isomorphic if and
-only if their corresponding norm forms n(x) and n0 (x0 ) are equivalent
-(that is, there is a linear mapping x → xH of C into C0 such that
+Theorem 5. Two Cayley algebras C and C′ are isomorphic if and
+only if their corresponding norm forms n(x) and n′ (x′ ) are equivalent
+(that is, there is a linear mapping x → xH of C into C′ such that
 (35)
 
-n0 (xH) = n(x)
+n′ (xH) = n(x)
 
 for all x in C;
 
 H is necessarily (1–1) since n(x) is nondegenerate).
-Proof: Suppose C and C0 are isomorphic, the isomorphism being
-H. Then (25) implies (xH)2 − t(x)(xH) + n(x)10 = 0 where 10 = 1H is
-the unity element of C0 . But also (xH)2 − t0 (xH)(xH) + n0 (xH)10 = 0.
-Hence [t0 (xH) − t(x)] (xH) + [n(x) − n0 (xH)] 10 = 0. If x ∈
+Proof: Suppose C and C′ are isomorphic, the isomorphism being
+H. Then (25) implies (xH)2 − t(x)(xH) + n(x)1′ = 0 where 1′ = 1H is
+the unity element of C′ . But also (xH)2 − t′ (xH)(xH) + n′ (xH)1′ = 0.
+Hence [t′ (xH) − t(x)] (xH) + [n(x) − n′ (xH)] 1′ = 0. If x ∈
 / F 1, then
-0
-0
+′
+′
 xH ∈
 / F 1 and n(x) = n (xH). On the other hand n(α1) = α2 =
-0
-n (α10 ), and we have (35) for all x in C.
+′
+n (α1′ ), and we have (35) for all x in C.
 For the converse we need to establish the fact that, if B is a proper
 subalgebra of a Cayley algebra C, if B contains the unity element 1
 of C, and if (relative to the nondegenerate symmetric bilinear form
@@ -1460,20 +1460,20 @@ as above). For the involution x → x on C induces an involution on
 B, since b = t(b)1 − b is in B for all b in B. Also B non-isotropic
 implies C = B ⊥ B⊥ with B⊥ non-isotropic (Jacobson, Lectures in
 Abstract Algebra, vol. II, p. 151; Artin, Geometric Algebra, p. 117).
-Hence there is a non-isotropic vector v in B⊥ , n(v) = −µ 6= 0. Since
+Hence there is a non-isotropic vector v in B⊥ , n(v) = −µ ̸= 0. Since
 t(v) = t(v1) = 2(v, 1) = 0, we have
 (36)
 
 v 2 = µ1,
 
-µ 6= 0 in F .
-
+µ ̸= 0 in F .
+(
 
-
+)
 
-
+(
 
-
+)
 
 Now vB ⊆ B⊥ since (34) implies (va, b) = 21 t (va)b = 12 t v(ab) =
 (v, ba) = 0 for all a, b in B. Hence B ⊥ vB. Also vB has the same
@@ -1504,11 +1504,11 @@ involution to b(va) = v(ba), and using (40), we have (38). Finally
 are non-isotropic, so is A. [Remark: we have shown incidentally that
 if Q is any quaternion subalgebra containing 1 in a Cayley algebra C,
 then Q may be used in the construction of C as C = Q + vQ.]
-Now let C and C0 have equivalent norm forms n(x) and n0 (x0 ). Let
-B (and B0 ) be as above. If B and B0 are isomorphic under H0 , then
-the restrictions of n(x) and n0 (x0 ) to B and B0 are equivalent. Then by
+Now let C and C′ have equivalent norm forms n(x) and n′ (x′ ). Let
+B (and B′ ) be as above. If B and B′ are isomorphic under H0 , then
+the restrictions of n(x) and n′ (x′ ) to B and B′ are equivalent. Then by
 Witt’s theorem (Jacobson, ibid, p. 162; Artin, ibid, p. 121), since n(x)
-and n0 (x0 ) are equivalent, the restrictions of n(x) and n0 (x0 ) to B⊥ and
+and n′ (x′ ) are equivalent, the restrictions of n(x) and n′ (x′ ) to B⊥ and
 
 ## PDF page 33
 
@@ -1516,14 +1516,14 @@ ALTERNATIVE ALGEBRAS
 
 27
 
-B0⊥ are equivalent. Choose v in B⊥ with n(v) 6= 0; correspondingly we
-have v 0 in B0⊥ such that n0 (v 0 ) = n(v). Then a + vb → aH0 + v 0 (bH0 ) is
-an isomorphism of B ⊥ vB onto B0 ⊥ v 0 B0 by the construction above.
-Hence if we begin with B = F 1, B0 = F 10 , repetition of the process
-gives successively isomorphisms between Z and Z0 , Q and Q0 , C and C0 .
-A Cayley algebra C is a division algebra if and only if n(x) 6= 0 for
-every x 6= 0 in C. For x 6= 0, n(x) = 0 imply xx = n(x)1 = 0, C has
-zero divisors. Conversely, if n(x) 6= 0, then x(xy) = (xx)y = n(x)y for
+B′⊥ are equivalent. Choose v in B⊥ with n(v) ̸= 0; correspondingly we
+have v ′ in B′⊥ such that n′ (v ′ ) = n(v). Then a + vb → aH0 + v ′ (bH0 ) is
+an isomorphism of B ⊥ vB onto B′ ⊥ v ′ B′ by the construction above.
+Hence if we begin with B = F 1, B′ = F 1′ , repetition of the process
+gives successively isomorphisms between Z and Z′ , Q and Q′ , C and C′ .
+A Cayley algebra C is a division algebra if and only if n(x) ̸= 0 for
+every x ̸= 0 in C. For x ̸= 0, n(x) = 0 imply xx = n(x)1 = 0, C has
+zero divisors. Conversely, if n(x) ̸= 0, then x(xy) = (xx)y = n(x)y for
 1
 1
 1
@@ -1531,10 +1531,10 @@ zero divisors. Conversely, if n(x) 6= 0, then x(xy) = (xx)y = n(x)y for
 Lx Lx = 1C , L−1
 all y implies n(x)
 x = n(x) Lx and similarly Rx = n(x) Rx ;
-hence if n(x) 6= 0 for all x 6= 0, then C is a division algebra.
+hence if n(x) ̸= 0 for all x ̸= 0, then C is a division algebra.
 [Remark: If F is the field of all real numbers, the norm form n(x) =
-P
-P 2
+∑
+∑ 2
 αi for x = αi ui clearly has the property above. Also there are
 alternative algebras F 1, Z, Q, C with this norm form (take µi = −1
 at each step). Hence there are real alternative division algebras of
@@ -1546,15 +1546,15 @@ four listed above; they are the only alternative ones. For other examples
 of finite-dimensional real division algebras (necessarily of these specified
 dimensions of course) see reference [23] in the bibliography of the 1955
 Bulletin article.]
-Corollary. Any two Cayley algebras C and C0 with divisors of zero
+Corollary. Any two Cayley algebras C and C′ with divisors of zero
 are isomorphic.
 Proof: Show first that C has divisors of zero if and only if there
 is w ∈
-/ F 1 such that w2 = 1. For 1 − w 6= 0, 1 + w 6= 0 imply
+/ F 1 such that w2 = 1. For 1 − w ̸= 0, 1 + w ̸= 0 imply
 (1 − w)(1 + w) = 1 − w2 = 0 (note t(w) = 0 implies 1 ± w = 1 ∓ w so
 that n(1 ± w) = 0). Conversely, if C has divisors of zero, there exists
-x 6= 0 in C with n(x) = 0. Then x = α1 + u, u ∈ (F 1)⊥ = {u | t(u) = 0}
-implies 0 = n(x)1 = xx = (α1 + u)(α1 − u) = α2 1 − u2 . If α 6= 0, then
+x ̸= 0 in C with n(x) = 0. Then x = α1 + u, u ∈ (F 1)⊥ = {u | t(u) = 0}
+implies 0 = n(x)1 = xx = (α1 + u)(α1 − u) = α2 1 − u2 . If α ̸= 0, then
 w = α−1 u satisfies w2 = 1 (w ∈
 / F 1). If α = 0, then n(u) = 0 so that
 u is an isotropic vector in the non-isotropic space (F 1)⊥ . Hence there
@@ -1577,8 +1577,8 @@ n(ei x) = n(ei )n(x) = 0. This means that ei C is a totally isotropic
 subspace (ei C ⊆ (ei C)⊥ ). Hence dim(ei C) ≤ 12 dim C = 4 (Jacobson,
 p. 170; Artin, p. 122). But x = 1x = e1 x + e2 x for all x in C, so
 C = e1 C + e2 C. Hence dim(ei C) = 4, and n(x) has maximal Witt index
-= 4 = 12 dim C. Similarly n0 (x0 ) has maximal Witt index = 4. Hence
-n(x) and n0 (x0 ) are equivalent (Artin, ibid). By Theorem 5, C and C0
+= 4 = 12 dim C. Similarly n′ (x′ ) has maximal Witt index = 4. Hence
+n(x) and n′ (x′ ) are equivalent (Artin, ibid). By Theorem 5, C and C′
 are isomorphic.
 Over any field F there is a Cayley algebra without divisors of zero
 (take µ = 1 so v 2 = 1). This unique Cayley algebra over F is called
@@ -1586,18 +1586,18 @@ the split Cayley algebra over F .
 F 1 is both the nucleus and center of any Cayley algebra. Also
 any Cayley algebra is simple (hence central simple over F ). (This is
 obvious for all but the split Cayley algebra.) For, if I is any nonzero
-ideal of C, there is x 6= 0 in I. But x is contained is some quaternion
+ideal of C, there is x ̸= 0 in I. But x is contained is some quaternion
 subalgebra Q of C. Then Q × Q is an ideal of the simple algebra Q.
 Hence 1 ∈ Q = Q × Q ⊆ I, and I = C.
 We omit the proof of the fact that the only alternative central simple algebras of finite dimension which are not associative are Cayley
 algebras. (Actually the following stronger result is known: any simple
 alternative ring, which is not a nilring and which is not associative, is
 a Cayley algebra over its center; in the finite-dimensional case the restriction eliminating nilalgebras is not required since Theorem 4 implies
-that A2 6= A for a finite-dimensional alternative nilalgebra). Hence the
+that A2 ̸= A for a finite-dimensional alternative nilalgebra). Hence the
 simple components Si in a finite-dimensional semisimple alternative
 algebra are either associative or Cayley algebras over their centers.
 The derivation algebra D(C) of any Cayley algebra of characteristic
-6= 3 is a central simple Lie algebra of dimension 14, called an exceptional
+̸= 3 is a central simple Lie algebra of dimension 14, called an exceptional
 Lie algebra of type G (corresponding to the 14-parameter complex exceptional simple Lie group G2 ). The related subject of automorphisms
 of Cayley algebras is studied in [33].
 
@@ -1615,11 +1615,11 @@ over F to be a commutative algebra in which the Jordan identity
 
 for all x, y in J
 
-is satisfied. Linearization of (1) requires that we assume F has characteristic 6= 2; we make this assumption throughout IV. It follows from
+is satisfied. Linearization of (1) requires that we assume F has characteristic ̸= 2; we make this assumption throughout IV. It follows from
 (1) and the identities (2), (3) below that any scalar extension JK of a
 Jordan algebra J is a Jordan algebra.
 Replacing x in
-(10 )
+(1′ )
 
 (x, y, x2 ) = 0
 
@@ -1641,12 +1641,12 @@ for all w, x, y, z in J.
 
 Recalling that La = Ra since J is commutative, we see that (3) is
 equivalent to
-(30 ) [Rx , Rwz ] + [Rw , Rzx ] + [Rz , Rxw ] = 0
+(3′ ) [Rx , Rwz ] + [Rw , Rzx ] + [Rz , Rxw ] = 0
 for all w, x, z in J
 and to
-(300 ) Rz Rxy − Rz Ry Rx + Ry Rzx − Ry(zx) + Rx Rzy − Rx Ry Rz = 0
+(3′′ ) Rz Rxy − Rz Ry Rx + Ry Rzx − Ry(zx) + Rx Rzy − Rx Ry Rz = 0
 for all x, y, z in J.
-Interchange x and y in (300 ) and subtract to obtain
+Interchange x and y in (3′′ ) and subtract to obtain
 (4)
 
 [Rz , [Rx , Ry ]] = R(x,z,y) = Rz[Rx ,Ry ]
@@ -1677,7 +1677,7 @@ for all x in J.
 
 For any x in J, write Gx = Rx ∪ Rx2 . Then the enveloping algebra
 G∗x is commutative, since the generators Rx , Rx2 commute by (1). For
-i ≥ 2, we put y = x, z = xi−1 in (300 ) to obtain
+i ≥ 2, we put y = x, z = xi−1 in (3′′ ) to obtain
 (6)
 
 Rxi+1 = Rxi−1 Rx2 − Rxi−1 Rx2 − Rx2 Rxi−1 + 2Rx Rxi .
@@ -1722,7 +1722,7 @@ in (6) to obtain
 
 that is, f (Re ) = 0 where f (λ) = (λ − 1)(2λ − 1)λ. Hence the minimal
 polynomial for Re divides f (λ), and the only possibilities for characteristic roots of Re are 1, 12 , 0 (1 must occur since e is a characteristic
-vector belonging to the characteristic root 1: eRe = e2 = e 6= 0). Also
+vector belonging to the characteristic root 1: eRe = e2 = e ̸= 0). Also
 the minimal polynomial for Re has simple roots. Hence J is the vector
 space direct sum
 (10)
@@ -1742,7 +1742,7 @@ is dim J1 > 0 and the number of 1/2’s is dim J1/2 . Hence
 
 trace Re = dim J1 + 21 dim J1/2 .
 
-If F has characteristic 0, then trace Re 6= 0.
+If F has characteristic 0, then trace Re ̸= 0.
 A symmetric bilinear form (x, y) defined on an arbitrary algebra
 A is called a trace form (associative or invariant symmetric bilinear
 form) on A in case
@@ -1762,7 +1762,7 @@ and (xLy , z) = (z, yx) = (zy, x) = (x, zRy ) so that, for right (or left)
 multiplications Si determined by bi ,
 (14)
 
-(xS1 S2 · · · Sh , y) = (x, ySh0 · · · S20 S10 )
+(xS1 S2 · · · Sh , y) = (x, ySh′ · · · S2′ S1′ )
 
 ## PDF page 38
 
@@ -1770,15 +1770,15 @@ multiplications Si determined by bi ,
 
 JORDAN ALGEBRAS
 
-where Si0 is the left (or right) multiplication determined by bi ; then, if
+where Si′ is the left (or right) multiplication determined by bi ; then, if
 B is any subset of A,
 (15)
 
-(xT, y) = (x, yT 0 )
+(xT, y) = (x, yT ′ )
 
 for all x, y in A, T in B∗ ,
 
-where T 0 is in B∗ .
+where T ′ is in B∗ .
 Theorem 6. The radical N of any finite-dimensional Jordan algebra J over F of characteristic 0 is the radical J⊥ of the trace form
 (16)
 
@@ -1789,26 +1789,26 @@ for all x, y in J.
 Proof: Without any assumption on the characteristic of F it follows from (4) that (x, y) in (16) is a trace form: (xy, z) − (x, yz) =
 trace R(x,y,z) = 0 since the trace of any commutator is 0. Hence J⊥
 is an ideal of J. If J were not a nilideal, then (by Proposition 3) J⊥
-would contain an idempotent e (6= 0) and, assuming characteristic 0,
-(e, e) = trace Re 6= 0 by (12), a contradiction. Hence J⊥ is a nilideal
+would contain an idempotent e (̸= 0) and, assuming characteristic 0,
+(e, e) = trace Re ̸= 0 by (12), a contradiction. Hence J⊥ is a nilideal
 and J⊥ ⊆ N. Conversely, if x is in N, then xy is in N for every y in A,
 and Rxy is nilpotent by (8). Hence (x, y) = trace Rxy = 0 for all y in
 A; that is, x is in J⊥ . Hence N ⊆ J⊥ , N = J⊥ .
 Theorem 7. Let A be a finite-dimensional algebra over F (of arbitrary characteristic) satisfying
 (i) there is a nondegenerate (associative) trace form (x, y) defined
 on A, and
-(ii) I2 6= 0 for every ideal I 6= 0 of A.
+(ii) I2 ̸= 0 for every ideal I ̸= 0 of A.
 Then A is (uniquely) expressible as a direct sum A = S1 ⊕ · · · ⊕ St of
 simple ideals Si .
-Proof: Let S (6= 0) be a minimal ideal of A. Since (x, y) is a trace
+Proof: Let S (̸= 0) be a minimal ideal of A. Since (x, y) is a trace
 form, S⊥ is an ideal of A. Hence the intersection S ∩ S⊥ is either 0
 or S, since S is minimal. We show that S totally isotropic (S ⊆ S⊥ )
 leads to a contradiction.
-For, since S2 6= 0 by (ii), we know that the ideal of A generated
+For, since S2 ̸= 0 by (ii), we know that the ideal of A generated
 by S2 must be the minimal ideal S. Thus S = S2 + S2 M where
 M is the multiplication algebra of A. Any element s in S may be
-P
-written in the form s = (ai bi )Ti for ai , bi in S, where Ti = Ti0 is
+∑
+written in the form s = (ai bi )Ti for ai , bi in S, where Ti = Ti′ is
 the identity operator 1A or Ti is in M. For every y in A we have by
 
 ## PDF page 39
@@ -1817,8 +1817,8 @@ JORDAN ALGEBRAS
 
 33
 
-(15) that (s, y) = ((ai bi )Ti , y) = (ai bi , yTi0 ) = (ai , bi (yTi0 )) = 0
-since bi (yTi0 ) ∈ S ⊆ S⊥ . Then s = 0 since (x, y) is nondegenerate;
+(15) that (s, y) = ((ai bi )Ti , y) = (ai bi , yTi′ ) = (ai , bi (yTi′ )) = 0
+since bi (yTi′ ) ∈ S ⊆ S⊥ . Then s = 0 since (x, y) is nondegenerate;
 S = 0, a contradiction. Hence S ∩ S⊥ = 0; that is, S is non-isotropic.
 Hence A = S ⊥ S⊥ and S⊥ is non-isotropic. That is, A = S ⊕ S⊥ ,
 the direct sum of ideals S, S⊥ , and the restriction of (x, y) to S⊥ is
@@ -1826,18 +1826,18 @@ a nondegenerate (associative) trace form defined on S⊥ . That is, (i)
 holds for S⊥ as well as A. Moreover, any ideal of the direct summand
 S or S⊥ is an ideal of A; hence S is simple and (ii) holds for S⊥ .
 Induction on the dimension of A completes the proof.
-P
+∑
 
-P
+∑
 
-P
+∑
 
 Corollary. Any (finite-dimensional) semisimple Jordan algebra J
 over F of characteristic 0 is (uniquely) expressible as a direct sum
 J = S1 ⊕ · · · ⊕ St of simple ideals Si .
 Proof: By Theorem 6 the (associative) trace form (16) is nondegenerate; hence (i) is satisfied. Also any ideal I such that I2 = 0 is
 nilpotent; hence I = 0, establishing (ii).
-As mentioned above, the corollary is actually true for F of characteristic 6= 2. What remains then, as far as the structure of semisimple
+As mentioned above, the corollary is actually true for F of characteristic ̸= 2. What remains then, as far as the structure of semisimple
 Jordan algebras is concerned, is a determination of the central simple
 algebras. The first step in this is to show that every semisimple J
 (hence every simple J) has a unity element 1. Again the argument we
@@ -1861,7 +1861,7 @@ For we may put x = e, z = xi ∈ Ji , y = yj ∈ Jj in (2) to obtain
 
 Ji Jj ⊆ Jj
 
-if i 6= 1/2.
+if i ̸= 1/2.
 
 Hence J1 2 ⊆ J1 , J0 2 ⊆ J0 , J1 J0 = J0 J1 ⊆ J0 ∩ J1 = 0, so J1 and J0 are
 orthogonal subalgebras by (18), and also the last two inclusions in (17)
@@ -1897,14 +1897,14 @@ Now x1/2 y1/2 = c = c1 + c0 (ci in Ji ) implies trace Rc1 + trace Rc0 =
 trace Rc = (x1/2 , y1/2 ) = 2(ex1/2 , y1/2 ) = 2(e, x1/2 y1/2 ) = 2 trace Re(c1 +c0 )
 = 2 trace Rc1 , so that trace Rc1 = trace Rc0 . Then (20) may be written
 as
-(200 )
+(20′ )
 
 (x, y) = trace Rx1 y1 +z0 ,
 
 z0 = 2c0 + x0 y0 in J0 .
 
 In any algebra A over F an idempotent e is called principal in case
-there is no idempotent u in A which is orthogonal to e (u2 = u 6=
+there is no idempotent u in A which is orthogonal to e (u2 = u ̸=
 0, ue = eu = 0); that is, there is no idempotent u in the subspace
 A0 = {x0 | x0 ∈ A, ex0 = x0 e = 0}. In a finite-dimensional Jordan
 algebra J, this means that e is a principal idempotent of J if and only
@@ -1912,10 +1912,10 @@ if the subalgebra J0 (in the Peirce decomposition (10) relative to e) is
 a nilalgebra.
 Now any finite-dimensional Jordan algebra J which is not a nilalgebra contains a principal idempotent. For J contains an idempotent e
 by Proposition 3. If e is not principal, there is an idempotent u in J0 ,
-e0 = e + u is idempotent, and J1,e0 (the J1 relative to e0 ) contains properly J1,e = J1 . For x1 in J1,e implies x1 e0 = x1 (e + u) = x1 e + x1 u = x1 ,
-or x1 is in J1,e0 . That is, J1,e ⊆ J1,e0 . But u ∈ J1,e0 , u ∈
+e′ = e + u is idempotent, and J1,e′ (the J1 relative to e′ ) contains properly J1,e = J1 . For x1 in J1,e implies x1 e′ = x1 (e + u) = x1 e + x1 u = x1 ,
+or x1 is in J1,e′ . That is, J1,e ⊆ J1,e′ . But u ∈ J1,e′ , u ∈
 / J1,e . Then
-dim J1,e < dim J1,e0 , and this process of increasing dimensions must
+dim J1,e < dim J1,e′ , and this process of increasing dimensions must
 terminate, yielding a principal idempotent.
 Theorem 8. Any semisimple (hence any simple) Jordan algebra
 J of finite dimension over F of characteristic 0 has a unity element 1.
@@ -1927,10 +1927,10 @@ JORDAN ALGEBRAS
 35
 
 Proof: J has a principal idempotent e. Then J0 is a nilalgebra, so
-that (x, y) = trace Rx1 y1 by (200 ) since trace Rz0 = 0 by (8). Hence x
+that (x, y) = trace Rx1 y1 by (20′ ) since trace Rz0 = 0 by (8). Hence x
 in J1/2 + J0 implies x1 = 0, (x, y) = 0 for all y in J, so x is in J⊥ . That
 is, J1/2 + J0 ⊆ J⊥ = N = 0, or J = J1 , e = 1.
-If J contains 1 and e1 6= 1, then e2 = 1 − e1 , is an idempotent,
+If J contains 1 and e1 ̸= 1, then e2 = 1 − e1 , is an idempotent,
 and the Peirce decompositions relative to e1 and e2 coincide (with differing subscripts). We introduce a new notation: J11 = J1,e1 (= J0,e2 ),
 J12 = J1/2,e1 (= J1/2,e2 ), J22 = J0,e1 (= J1,e2 ). More generally, if
 1 = e1 + e2 + · · · + et for pairwise orthogonal idempotents ei , we have
@@ -1939,7 +1939,7 @@ the refined Peirce decomposition
 
 J=
 
-X
+∑
 
 Jij
 
@@ -1952,7 +1952,7 @@ Jij = J1/2,ei ∩ J1/2,ej (1 ≤ i < j ≤ t); that is,
 Jii = {x | x ∈ J, xei = x},
 Jij = Jji = {x | x ∈ J, xei = 21 x = xej },
 
-i 6= j.
+i ̸= j.
 
 Multiplicative relationships among the Jij are consequences of (17) and
 the statement preceding it.
@@ -1960,13 +1960,13 @@ An idempotent e in J is called primitive in case e is the only idempotent in J1 
 orthogonal idempotents), and absolutely primitive in case it is primitive in any scalar extension JK of J. A central simple Jordan algebra J
 is called reduced in case 1 = e1 + · · · + et for pairwise orthogonal absolutely primitive idempotents ei in J. In this case it can be shown that
 the subalgebras Jii in the Peirce decomposition (22) are 1-dimensional
-(Jii = F ei ) and that the subspaces Jij (i 6= j) all have the same dimension. If J is a central simple algebra over F , there is a scalar extension
+(Jii = F ei ) and that the subspaces Jij (i ̸= j) all have the same dimension. If J is a central simple algebra over F , there is a scalar extension
 JK which is reduced (for example, take K to be the algebraic closure
 of F ), and it can be shown that the number t of pairwise orthogonal
 absolutely primitive idempotents ei in JK such that 1 = e1 + · · · + et is
 unique; t is called the degree of J.
 We list without proof all (finite-dimensional) central simple Jordan
-algebras J of degree t over F of characteristic 6= 2. Recall from the
+algebras J of degree t over F of characteristic ̸= 2. Recall from the
 Introduction that J is a special Jordan algebra in case J is isomorphic to
 
 ## PDF page 42
@@ -2001,10 +2001,12 @@ over F (so the involution is of the first kind). Then J ∼
 subalgebra of self-adjoint elements in A . There are two types (B and
 C) which may be distinguished by passing to the algebraic closure K
 of F , so that AK is a total matrix algebra. In case B the (extended)
-involution on AK is transposition (a → a0 ) so that A has dimension
-t2 and J has dimension 21 t(t + 1) over F . In case C!the (extended)
+involution on AK is transposition (a → a′ ) so that A has dimension
+t2 and J has dimension 21 t(t + 1) over F . In
+case C)the (extended)
+(
 0 1t
-involution on AK is a → g −1 a0 g where g =
+involution on AK is a → g −1 a′ g where g =
 so that A has
 −1t 0
 dimension 4t2 and J has dimension 2t2 − t over F .
@@ -2015,17 +2017,17 @@ sum J = F 1 + M, multiplication in the (n + 1)-dimensional algebra J
 being defined by xy = (x, y)1 for all x, y in M. Here t = 2 (dim J ≥ 3).
 E.
 The algebra C3 of all 3 × 3 matrices with elements in a Cayley
-algebra C over F has the standard involution x → x0 (conjugate transpose). The 27-dimensional subspace H(C3 ) of self-adjoint elements
-
+algebra C over F has the standard involution x → x′ (conjugate transpose). The 27-dimensional subspace H(C3 ) of self-adjoint elements
+⎛
 
 (24)
 
-
+⎞
 
 ξ1 c b
-
-
- c ξ2 a ,
+⎜
+⎟
+⎝ c ξ2 a ⎠,
 b a ξ3
 
 ξi in F , a, b, c in C,
@@ -2049,9 +2051,9 @@ been proved that the free Jordan algebra with two generators is special
 question is
 (25)
 
-n
+{
 
-o
+}
 
 {aba}2 = a{ba2 b}a
 
@@ -2084,15 +2086,15 @@ exceptional central simple Jordan algebra J is not a division algebra,
 
 JORDAN ALGEBRAS
 
-then it is reduced, and J is isomorphic to an algebra H(C3 , Γ) of selfadjoint elements in C3 under a canonical involution x → Γ−1 x0 Γ where
-Γ = diag{γ1 , γ2 , γ3 }, γi 6= 0 in F . Isomorphism of reduced exceptional
+then it is reduced, and J is isomorphic to an algebra H(C3 , Γ) of selfadjoint elements in C3 under a canonical involution x → Γ−1 x′ Γ where
+Γ = diag{γ1 , γ2 , γ3 }, γi ̸= 0 in F . Isomorphism of reduced exceptional
 simple Jordan algebras is studied in [8].
 The unifying feature in the list of central simple Jordan algebras
 above is that, for t > 2, a reduced central simple Jordan algebra is isomorphic to the algebra H(Dt , Γ) defined as follows: D is an alternative
 algebra (of dimension 1, 2, 4, or 8) with unity element u and involution
 d → d satisfying d + d ∈ F u, dd = n(d)u, n(d) nondegenerate on D; Dt
 is the algebra of all t × t matrices with elements in D; Γ = diag{γ1 , γ2 ,
-. . . , γt }, γi 6= 0 in F . Then x → Γ−1 x0 Γ is a canonical involution in Dt ,
+. . . , γt }, γi ̸= 0 in F . Then x → Γ−1 x′ Γ is a canonical involution in Dt ,
 and the set H(Dt , Γ) of all self-adjoint elements in Dt is a subalgebra of
 +
 D+
@@ -2111,9 +2113,9 @@ Theorem 9. Any central simple Jordan algebra J of type E is
 exceptional (that is, is not a special Jordan algebra).
 Proof: It is sufficient to prove that H(C3 ) is not special. For, if
 J were special, then J ∼
-= J0 ⊆ A+ with A associative implies JK =
+= J′ ⊆ A+ with A associative implies JK =
 K ⊗J ∼
-= K ⊗ J0 ⊆ K ⊗ A+ = (K ⊗ A)+ = AK + so that H((CK )3 ) ∼
+= K ⊗ J′ ⊆ K ⊗ A+ = (K ⊗ A)+ = AK + so that H((CK )3 ) ∼
 = JK
 is special, a contradiction.
 Suppose that H(C3 ) is special. There is an associative algebra A (of
@@ -2156,16 +2158,16 @@ yields
 (32)
 (33)
 
-ei 2 = ei (6= 0),
+ei 2 = ei (̸= 0),
 ei · ej = 0,
 ei · ai = 0,
 ei · aj = 21 aj ,
 ui 2 = ej + ek ,
 
 i = 1, 2, 3;
-i 6= j;
+i ̸= j;
 a in C, i = 1, 2, 3;
-a in C, i 6= j;
+a in C, i ̸= j;
 i, j, k distinct,
 
 where u is the unity element in C; and
@@ -2175,10 +2177,10 @@ where u is the unity element in C; and
 a, b in C, i, j, k a cyclic permutation of 1, 2, 3.
 
 Now (29) and (30) imply that ei (i = 1, 2, 3) are pairwise orthogonal
-idempotents. For A is associative, so ei ej + ej ei = 0 for i 6= j implies
+idempotents. For A is associative, so ei ej + ej ei = 0 for i ̸= j implies
 ei 2 ej + ei ej ei = 0 = ei ej ei + ej ei 2 , or ei ej = ej ei ; hence ei ej = 0 for
-i 6= j. By an identical proof it follows from (31) that
-(310 )
+i ̸= j. By an identical proof it follows from (31) that
+(31′ )
 
 ei ai = ai ei = 0,
 
@@ -2202,34 +2204,34 @@ JORDAN ALGEBRAS
 Also (32) implies ei aj = aj − aj ei , so ei aj ei = aj ei − aj ei 2 = 0:
 (36)
 
-i 6= j.
+i ̸= j.
 
 ei aj ei = 0,
 
 For any a in C, define
 (37)
 
-a0 = e1 a3 u3
+a′ = e1 a3 u3
 
 in A.
 
-Then (ab)0 = e1 (ab)3 u3 = e1 (b1 a2 + a2 b1 )u3 = e1 a2 b1 u3 by (34) and
-(310 ). Also (34) implies a3 u1 + u1 a3 = (u a)2 = a2 and
+Then (ab)′ = e1 (ab)3 u3 = e1 (b1 a2 + a2 b1 )u3 = e1 a2 b1 u3 by (34) and
+(31′ ). Also (34) implies a3 u1 + u1 a3 = (u a)2 = a2 and
 (38)
 
 u2 b3 + b3 u2 = b1 .
 
-Hence (ab)0 = e1 (a3 u1 + u1 a3 )(u2 b3 + b3 u2 )u3 = e1 a3 u1 (u2 b3 + b3 u2 )u3
-by (310 ). Now b3 u2 u3 = b3 u2 (e1 + e3 )u3 = b3 u2 e1 u3 = (b1 − u2 b3 )e1 u3 =
-−u2 b3 e1 u3 = −u2 (e1 + e3 )b3 e1 u3 = −u2 e1 b3 e1 u3 = 0 by (35), (310 ),
+Hence (ab)′ = e1 (a3 u1 + u1 a3 )(u2 b3 + b3 u2 )u3 = e1 a3 u1 (u2 b3 + b3 u2 )u3
+by (31′ ). Now b3 u2 u3 = b3 u2 (e1 + e3 )u3 = b3 u2 e1 u3 = (b1 − u2 b3 )e1 u3 =
+−u2 b3 e1 u3 = −u2 (e1 + e3 )b3 e1 u3 = −u2 e1 b3 e1 u3 = 0 by (35), (31′ ),
 (38), and (36). Also u1 u2 b3 = u1 u2 (e1 + e2 )b3 = u1 u2 e1 b3 = (u3 −
-u2 u1 )e1 b3 = u3 e1 b3 by (35), (310 ), (34). Hence (ab)0 = e1 a3 u1 u2 b3 u3 =
-e1 a3 u3 e1 b3 u3 = a0 b0 .
-Clearly the mapping a → a0 is linear; hence it is a homomorphism
-of C onto the subalgebra C0 of A consisting of all a0 . Since C is simple,
+u2 u1 )e1 b3 = u3 e1 b3 by (35), (31′ ), (34). Hence (ab)′ = e1 a3 u1 u2 b3 u3 =
+e1 a3 u3 e1 b3 u3 = a′ b′ .
+Clearly the mapping a → a′ is linear; hence it is a homomorphism
+of C onto the subalgebra C′ of A consisting of all a′ . Since C is simple,
 the kernel of this homomorphism is either 0 or C; in the latter case 0 =
-u0 = e1 u3 2 = e1 (e1 + e2 ) = e1 6= 0 by (33), and we have a contradiction.
-Hence a → a0 is an isomorphism. But C0 is associative, whereas C is
+u′ = e1 u3 2 = e1 (e1 + e2 ) = e1 ̸= 0 by (33), and we have a contradiction.
+Hence a → a′ is an isomorphism. But C′ is associative, whereas C is
 not. Hence H(C3 ) is an exceptional Jordan algebra.
 Any central simple exceptional Jordan algebra J over F is a cubic
 algebra: for any x in J,
@@ -2246,9 +2248,9 @@ Here x2 x = xx2 (= x3 ) since J is commutative. It is sufficient to show
 
 T (x) = ξ1 + ξ2 + ξ3 ,
 Q(x) = ξ1 ξ2 + ξ2 ξ3 + ξ3 ξ1 − n(a) − n(b) − n(c)
-h
+[
 
-i
+]
 
 = 12 (T (x))2 − T (x2 ) ,
 N (x) = ξ1 ξ2 ξ3 − ξ1 n(a) − ξ2 n(b) − ξ3 n(c) + t(abc);
@@ -2259,13 +2261,13 @@ JORDAN ALGEBRAS
 
 41
 
-if F has characteristic 6= 3 (as well as 6= 2), formula (42) may be written
+if F has characteristic ̸= 3 (as well as ̸= 2), formula (42) may be written
 as
-(420 )
+(42′ )
 
-h
+[
 
-i
+]
 
 N (x) = 61 (T (x))3 − 3T (x)T (x2 ) + 2T (x3 ) .
 
@@ -2276,8 +2278,8 @@ of the relationships between exceptional central simple Jordan algebras J and ex
 which stem from the fact that the derivation algebra D(J) is a central
 simple Lie algebra of dimension 52, called an exceptional Lie algebra
 of type F (corresponding to the 52-parameter complex exceptional Lie
-group F4 )—a proof of this for F of characteristic 6= 2 appears in [36]
-(characteristic 6= 2, 3 in [70]). Since 1955 the relationships, including
+group F4 )—a proof of this for F of characteristic ̸= 2 appears in [36]
+(characteristic ̸= 2, 3 in [70]). Since 1955 the relationships, including
 a characterization of Cayley planes by means of H(C3 , Γ), have been
 vigorously exploited [18; 19; 20; 35; 36; 37; 39; 70; 76; 78; 81; 82].
 
@@ -2307,7 +2309,7 @@ All algebras mentioned in the Introduction are power-associative (Lie
 algebras trivially, since x2 = 0 implies xi = 0 for i = 2, 3, . . . ). We shall
 encounter in V new examples of power-associative algebras.
 The most important tool in the study of noncommutative powerassociative algebras A is the passage to the commutative algebra A+ .
-Let F have characteristic 6= 2 throughout V; we shall also require that
+Let F have characteristic ̸= 2 throughout V; we shall also require that
 F contains at least four distinct elements. The algebra A+ is the same
 vector space as A over F , but multiplication in A+ is defined by
 (2)
@@ -2335,9 +2337,9 @@ for all x in A.
 and
 
 In terms of associators, we have
-(30 )
+(3′ )
 and
-(40 )
+(4′ )
 
 (x, x, x) = 0
 
@@ -2355,15 +2357,15 @@ POWER-ASSOCIATIVE ALGEBRAS
 43
 
 Also (3) may be written in terms of a commutator as
-(300 )
+(3′′ )
 
 [x2 , x] = 0
 
 for all x in A.
 
-Using the linearization process employed in IV, we obtain from (300 ),
+Using the linearization process employed in IV, we obtain from (3′′ ),
 by way of the intermediate identity
-(3000 )
+(3′′′ )
 
 2[x · y, x] + [x2 , y] = 0
 
@@ -2377,7 +2379,7 @@ the multilinear identity
 for all x, y, z in A.
 
 Similarly, assuming four distinct elements in F , (4) is equivalent to
-(400 )
+(4′′ )
 
 2(x, x, x · y) + (x, y, x2 ) + (y, x, x2 ) = 0 for all x, y in A,
 
@@ -2386,7 +2388,7 @@ to
 + 2(z, x, x · y) + (y, z, x2 ) + (z, y, x2 ) = 0
 for all x, y, z in A,
 and finally to the multilinear identity
-(4000 )
+(4′′′ )
 
 (4m)
 
@@ -2402,7 +2404,7 @@ permuted the remaining three cyclically.
 We omit the proof of the fact that, if F has characteristic 0, then
 identities (3) and (4) are sufficient to insure that an algebra is powerassociative; the proof involves inductions employing the multilinear
 identities (3m) and (4m). We omit similarly a proof of the fact that,
-if F has characteristic 6= 2, 3, 5, the single identity (4) in a commutative algebra implies power-associativity. One consequence of this latter
+if F has characteristic ̸= 2, 3, 5, the single identity (4) in a commutative algebra implies power-associativity. One consequence of this latter
 fact is that in a number of proofs concerning power-associative algebras
 
 ## PDF page 50
@@ -2414,10 +2416,10 @@ POWER-ASSOCIATIVE ALGEBRAS
 separate consideration has to be given to the characteristic 3 or 5 case
 by bringing in associativity of fifth or sixth powers and an assumption
 that F contains at least 6 distinct elements. We shall omit these details,
-simply by assuming characteristic 6= 3, 5 upon occasion.
+simply by assuming characteristic ̸= 3, 5 upon occasion.
 An algebra A over F is called strictly power-associative in case
 every scalar extension AK is power-associative. If A is a commutative
-power-associative algebra over F of characteristic 6= 2, 3, 5, then A is
+power-associative algebra over F of characteristic ̸= 2, 3, 5, then A is
 strictly power-associative. The assumption of strict power-associativity
 is employed in the noncommutative case, and in the commutative case
 of characteristic 3 or 5, when one wishes to use the method of extension
@@ -2439,7 +2441,7 @@ anticommutative algebra (for example, any Lie algebra) is a nilalgebra,
 and hence is its own nilradical. Hence this concept of semisimplicity is
 trivial for anticommutative algebras.
 For the moment let A be a commutative power-associative algebra,
-and let e be an idempotent in A. Putting x = e in (400 ) and using
+and let e be an idempotent in A. Putting x = e in (4′′ ) and using
 commutativity, we have y(2Re 3 − 3Re 2 + Re ) = 0 for all y in A, or
 (5)
 
@@ -2467,15 +2469,15 @@ POWER-ASSOCIATIVE ALGEBRAS
 
 Now if A is any power-associative algebra, the algebra A+ is a commutative power-associative algebra. Hence we have the Peirce decomposition
 (6) where
-(70 )
+(7′ )
 
 Ai = {xi | exi + xi e = 2ixi },
 
 i = 1, 1/2, 0.
 
-Put y = z = e in (3m) and let x = xi ∈ Ai as in (70 ) to obtain
-(2i − 1)[xi , e] = 0; that is, xi e = exi if i 6= 1/2. Hence (70 ) becomes
-(700 )
+Put y = z = e in (3m) and let x = xi ∈ Ai as in (7′ ) to obtain
+(2i − 1)[xi , e] = 0; that is, xi e = exi if i ̸= 1/2. Hence (7′ ) becomes
+(7′′ )
 
 Ai = {xi | exi = xi e = ixi },
 i = 1, 0;
@@ -2495,7 +2497,7 @@ A0 A1/2 ⊆ A1 + A1/2 .
 
 Note that the last two inclusion relations of (8) are weaker than for
 Jordan algebras in IV. The proofs are similar to those in IV, and are
-given by putting x = e, y = yj ∈ Aj , z = xi ∈ Ai in (4000 ). We omit
+given by putting x = e, y = yj ∈ Aj , z = xi ∈ Ai in (4′′′ ). We omit
 the details except to note that the characteristic 3 case of orthogonality
 requires associativity of fifth powers.
 For x ∈ A1 , w ∈ A1/2 , we have wx = (wx)1/2 + (wx)0 ∈ A1/2 + A0
@@ -2561,7 +2563,7 @@ division algebras do exist over suitable fields F ; however, F cannot be
 finite in that event and we assume this particular case of the following
 theorem (as well as Wedderburn’s theorem) in the proof of
 Theorem 10. Let D be a finite power-associative division ring of
-characteristic 6= 2, 3, 5. Then D is a field.
+characteristic ̸= 2, 3, 5. Then D is a field.
 For the proof we require an exercise and a lemma.
 Exercise. If u and v are orthogonal idempotents in a commutative
 power-associative algebra A, then
@@ -2575,13 +2577,13 @@ POWER-ASSOCIATIVE ALGEBRAS
 
 47
 
-(Hint: put x = u, y = v in (4000 ) and use (5). After considerable
-manipulation, and use of characteristic 6= 3, 5, this (together with what
+(Hint: put x = u, y = v in (4′′′ ) and use (5). After considerable
+manipulation, and use of characteristic ̸= 3, 5, this (together with what
 one obtains by interchanging u and v) will yield (15).)
 Lemma. Let e be a principal idempotent in a commutative powerassociative algebra A (that is, A0 in (7) is a nilalgebra). Then every
 element in A1/2 is nilpotent.
-Proof: To obtain (180 ) below, one does not need to assume that e
-is principal. For any w ∈ A1/2 put x = w, y = e in (400 ) to obtain
+Proof: To obtain (18′ ) below, one does not need to assume that e
+is principal. For any w ∈ A1/2 put x = w, y = e in (4′′ ) to obtain
 (16)
 
 w3 − w(ew2 ) − ew3 = 0
@@ -2608,7 +2610,7 @@ for k = 1, 2, 3, . . .
 For (17) is the case k = 1 of (18) and, assuming (18), we have wSx k+1 =
 wSx k Sx = wTz k Sx = wSx Tz k = wTz k+1 by (14). But (10) and (13)
 imply Sxk = 2k−1 Sx k , Tzk = 2k−1 Tz k , so (18) yields
-(180 )
+(18′ )
 
 wSxk = wTzk
 
@@ -2617,11 +2619,11 @@ for k = 1, 2, 3, . . .
 where w is any element of A1/2 and w2 = x + z, x ∈ A1 , z ∈ A0 .
 Now let e be a principal idempotent in A. Then every element w
 in A1/2 is nilpotent. For z = (w2 )0 is nilpotent, and z k = 0 for some k.
-By (180 ) we have w2k+1 = w(w2 )k = w(x + z)k = w(xk + z k ) = wxk =
+By (18′ ) we have w2k+1 = w(w2 )k = w(x + z)k = w(xk + z k ) = wxk =
 (wxk )1/2 + (wxk )0 = wSxk + (wxk )0 = (wxk )0 in A0 is nilpotent; hence
 w is nilpotent.
 We use the Lemma to prove that any finite-dimensional powerassociative division algebra D over a field F has a unity element 1.
-For D+ is a (finite-dimensional) commutative power-associative algebra without nilpotent elements 6= 0, so D+ contains a principal idempotent e (as in IV, D+ contains an idempotent e; if e is not principal,
+For D+ is a (finite-dimensional) commutative power-associative algebra without nilpotent elements ̸= 0, so D+ contains a principal idempotent e (as in IV, D+ contains an idempotent e; if e is not principal,
 
 ## PDF page 54
 
@@ -2630,16 +2632,16 @@ For D+ is a (finite-dimensional) commutative power-associative algebra without n
 POWER-ASSOCIATIVE ALGEBRAS
 
 +
-0
+′
 there is an idempotent u ∈ D+
 0 = D0,e , e = e + u is idempotent,
 +
 dim D+
-1,e < dim D1,e0 , and the increasing dimensions must terminate).
+1,e < dim D1,e′ , and the increasing dimensions must terminate).
 By the Lemma, since 0 is the only nilpotent element in D+ , we have
 +
 +
-00
+′′
 +
 +
 D+
@@ -2666,20 +2668,20 @@ is an extension K of F such that F [x]K = K ⊕ K ⊕ · · · ⊕ K, x is a
 linear combination x = ξ1 e1 + ξ2 e2 + · · · + ξn en of pairwise orthogonal
 idempotents ei in F [x]K ⊆ (D+ )K with coefficients in K. In order to
 establish (19), it is sufficient to establish
-(190 )
+(19′ )
 
 (ei · y) · (ej · ek ) = ei · [y · (ej · ek )] ,
 
 i, j, k = 1, . . . , n.
 
-For j 6= k, (190 ) is obvious; for j = k, (190 ) reduces to (15).
-Now the radical of D+ (consisting of nilpotent elements) is 0. Although our proof of the Corollary to Theorem 7 is valid only for characteristic 0, we remarked in IV that the conclusion is valid for characteristic 6= 0. Hence D+ is a direct sum S1 ⊕ · · · ⊕ Sr of r simple
+For j ̸= k, (19′ ) is obvious; for j = k, (19′ ) reduces to (15).
+Now the radical of D+ (consisting of nilpotent elements) is 0. Although our proof of the Corollary to Theorem 7 is valid only for characteristic 0, we remarked in IV that the conclusion is valid for characteristic ̸= 0. Hence D+ is a direct sum S1 ⊕ · · · ⊕ Sr of r simple
 ideals Si , each with unity element ei . The existence of an idempotent
-e 6= 1 in D+ is sufficient to give zero divisors in D, a contradiction,
+e ̸= 1 in D+ is sufficient to give zero divisors in D, a contradiction,
 since the product e(1 − e) = 0 in D. Hence r = 1 and D+ is a simple Jordan algebra over F . Let C be the center of D+ . Then C is a
 finite separable extension of F , C = F [z], z ∈ C (Zariski-Samuel, ibid,
 p. 84). If D+ = C = F [z], then D = F [z] is a field, and the theorem
-is established. Hence we may assume that D+ 6= C, so D+ is a central
+is established. Hence we may assume that D+ ̸= C, so D+ is a central
 simple Jordan algebra of degree t ≥ 2 over the finite field C and is
 
 ## PDF page 55
@@ -2696,32 +2698,33 @@ Wedderburn’s theorem on simple associative algebras, every associative
 central simple algebra over a finite field is a total matric algebra. Thus
 we have the following possibilities:
 AI . D+ ∼
-= Ct + , t ≥ 2. Then Ct + contains an idempotent e11 6= 1,
+= Ct + , t ≥ 2. Then Ct + contains an idempotent e11 ̸= 1,
 a contradiction.
 AII . D+ is the set H(Zt ) of self-adjoint elements in Zt , Z a
 quadratic extension of C, where the involution may be taken to be
-a → g −1 a0 g with g a diagonal matrix. Hence H(Zt ) contains e11 6= 1, a
+a → g −1 a′ g with g a diagonal matrix. Hence H(Zt ) contains e11 ̸= 1, a
 contradiction.
 B.
 D+ ∼
-= H(Ct ), the involution being a → g −1 a0 g with g diagonal; hence H(Ct ) contains e11 6= 1, a contradiction.
+= H(Ct ), the involution being a → g −1 a′ g with g diagonal; hence H(Ct ) contains e11 ̸= 1, a contradiction.
 C.
+(
 
 +
 
-!D
+)D
 
 ∼
-= H(C2t ), the involution being a → g −1 a0 g, g =
+= H(C2t ), the involution being a → g −1 a′ g, g =
 
 0 1t
-; H(C2t ) contains the idempotent e11 + et+1,t+1 6= 1, a
+; H(C2t ) contains the idempotent e11 + et+1,t+1 ̸= 1, a
 −1t 0
 contradiction.
 There remains the possibility that D+ might be of type D (where
 the dimension is necessarily ≥ 3). The basis u1 , . . . , un for M may
-be normalized so that (ui , uj ) = 0 for i 6= j, (ui , ui ) = αi 6= 0 in C;
-that is, ui 2 = αi 1, ui · uj = 0 for i 6= j. Each of the fields C[ui ] is
+be normalized so that (ui , uj ) = 0 for i ̸= j, (ui , ui ) = αi ̸= 0 in C;
+that is, ui 2 = αi 1, ui · uj = 0 for i ̸= j. Each of the fields C[ui ] is
 a quadratic extension of C. But in the sense of isomorphism there is
 only one quadratic extension of the finite field C (Zariski-Samuel, ibid,
 pp. 73, 83); hence all αi may be taken to be the same nonsquare α in
@@ -2751,7 +2754,7 @@ Theorem 11. Let A be a finite-dimensional power-associative algebra over F satis
 (iii)
 
 there is an (associative) trace form (x, y) defined on A;
-(e, e) 6= 0
+(e, e) ̸= 0
 for any idempotent e in A;
 (x, y) = 0
 if x · y is nilpotent, x, y in A.
@@ -2766,7 +2769,7 @@ such S we have
 S = S1 ⊕ · · · ⊕ St for simple Si ;
 S is flexible.
 
-If F has characteristic 6= 5, then
+If F has characteristic ̸= 5, then
 (c)
 (d)
 
@@ -2775,7 +2778,7 @@ S+
 i is a simple (Jordan) algebra, i = 1, . . . , t.
 
 Proof: By (i) we know from IV that A⊥ is an ideal of A. If there
-were an idempotent e in A⊥ , then (ii) would imply (e, e) 6= 0, a contradiction. Hence A⊥ is a nilideal: A⊥ ⊆ N. Conversely, x in N implies
+were an idempotent e in A⊥ , then (ii) would imply (e, e) ̸= 0, a contradiction. Hence A⊥ is a nilideal: A⊥ ⊆ N. Conversely, x in N implies
 x · y is in N for all y in A, so that (x, y) = 0 for all y in N by (iii), or
 x is in A⊥ . Hence N ⊆ A⊥ , N = A⊥ . Any ideal of A is clearly an ideal
 of A+ ; hence any nilideal of A is a nilideal of A+ , and N is contained
@@ -2787,7 +2790,7 @@ Then (x y, z) = (xy, z) = (xy, z) = (x, yz) = (x, y z), so (x, y) is a
 trace form. To show (ii) we take any idempotent e in A/N and use
 the power-associativity of A to “lift” the idempotent to A: F [e] is a
 subalgebra of A which is not a nilalgebra, so there is an idempotent
-u ∈ F [e] ⊆ F e + N, and u = e. Then (e, e) = (u, u) = (u, u) 6= 0.
+u ∈ F [e] ⊆ F e + N, and u = e. Then (e, e) = (u, u) = (u, u) ̸= 0.
 Suppose x · y = x · y is nilpotent. Then some power of x · y is in N,
 x · y is nilpotent, and (x, y) = (x, y) = 0, establishing (iii).
 Now let S satisfy (i)–(iii) with (x, y) nondegenerate. Then the
@@ -2803,7 +2806,7 @@ I2 = 0 for an ideal I of S, then I is a nilideal, I = 0. We have
 S = S1 ⊕ · · · ⊕ St for simple Si ; also we know that the Si are not
 nilalgebras (for then they would be nilideals of S), but this will follow
 from (d).
-Now (3000 ) implies that a · z = 0 where a = 2[x · y, x] + [x2 , y].
+Now (3′′′ ) implies that a · z = 0 where a = 2[x · y, x] + [x2 , y].
 Since a · z is nilpotent, (iii) implies (a, z) = ((xy)x, z) + ((yx)x, z) −
 (x(xy), z) − (x(yx), z) + (x2 y, z) − (yx2 , z) = 0 for all x, y, z in S. The
 properties of a trace form imply that
@@ -2836,7 +2839,7 @@ Also it follows from (23), just as in formula (14) of IV, that
 (yS1 S2 · · · Sh , z) = (y, zSh · · · S2 S1 )
 
 where Si are right multiplications of the commutative algebra S+ . In
-the commutative power-associative algebra S+ formula (400 ) becomes
+the commutative power-associative algebra S+ formula (4′′ ) becomes
 (25)
 
 4x2 · (x · y) − 2x · [x · (x · y)] − x · (y · x2 ) − y · x3 = 0.
@@ -2865,7 +2868,7 @@ It follows from (a) that T is an ideal of S+ , and is therefore by (c) a
 direct sum of simple ideals of S+ each of which has a unity element.
 The sum of these pairwise orthogonal idempotents in S+ is the unity
 element e of T. Now e is an idempotent in S+ (and S), and the Peirce
-decomposition (700 ) characterizes T as
+decomposition (7′′ ) characterizes T as
 (27)
 
 T = S1,e = {t ∈ S | et = te = t}.
@@ -2880,7 +2883,7 @@ for all t ∈ T, s ∈ S.
 
 But T an ideal of S+ implies that s · t ∈ T, so that st + ts = e(st + ts) =
 e(st) + (st)e − st + ts by (27) and (28); that is, e(st) + (st)e = 2st, and
-st is in T = S1,e by (70 ). But then s · t in T implies ts is in T also; T is
+st is in T = S1,e by (7′ ). But then s · t in T implies ts is in T also; T is
 an ideal of S. Then T ⊆ Si is an ideal of Si . Hence the only ideals of
 Si + are 0 and Si + . Since Si + cannot be a zero algebra, Si + is simple.
 We list without proof the central simple flexible algebras A over
@@ -2894,7 +2897,7 @@ A is a central simple (commutative) Jordan algebra.
 2. A is a quasiassociative central simple algebra. That is, there
 is a scalar extension AK , K a quadratic extension of F , such that AK is
 isomorphic to an algebra B(λ) defined as follows: B is a central simple
-associative algebra over K, λ 6= 21 is a fixed element of K, and B(λ)
+associative algebra over K, λ ̸= 21 is a fixed element of K, and B(λ)
 is the same vector space over K as B but multiplication in B(λ) is
 defined by
 (29)
@@ -2947,7 +2950,7 @@ If A is power-associative, hypotheses (ii) and (iii) of Theorem 11 become
 and
 (34)
 
-T (e) 6= 0
+T (e) ̸= 0
 
 for any idempotent e in A,
 
@@ -2975,12 +2978,12 @@ for all x, y in J.
 POWER-ASSOCIATIVE ALGEBRAS
 
 As in IV, we can linearize (35) to obtain
-(350 )
+(35′ )
 
 (x, y, w · z) + (w, y, z · x) + (z, y, x · w) = 0
 for all w, x, y, z in J.
 
-If J contains 1, then w = 1 in (350 ) implies
+If J contains 1, then w = 1 in (35′ ) implies
 (36)
 
 (x, y, z) + (z, y, x) = 0
@@ -2994,8 +2997,8 @@ that is, J is flexible:
 
 for all x, y in J.
 
-If a unity element 1 is adjoined to J as in II, then a necessary and sufficient condition that (350 ) be satisfied in the algebra with 1 adjoined
-is that both (350 ) and (36) be satisfied in J. Hence we define a noncommutative Jordan algebra to be an algebra satisfying both (35) and
+If a unity element 1 is adjoined to J as in II, then a necessary and sufficient condition that (35′ ) be satisfied in the algebra with 1 adjoined
+is that both (35′ ) and (36) be satisfied in J. Hence we define a noncommutative Jordan algebra to be an algebra satisfying both (35) and
 (37).
 Exercise. Prove: A flexible algebra J is a noncommutative Jordan
 algebra if and only if any one of the following is satisfied:
@@ -3016,9 +3019,9 @@ for all x, y in J;
 J is a (commutative) Jordan algebra.
 
 We see from (41) that any semisimple algebra (of characteristic
-6= 5) satisfying the hypotheses of Theorem 11 is a noncommutative
+̸= 5) satisfying the hypotheses of Theorem 11 is a noncommutative
 Jordan algebra.
-Since (350 ) and (36) are multilinear, any scalar extension AK of a
+Since (35′ ) and (36) are multilinear, any scalar extension AK of a
 noncommutative Jordan algebra is a noncommutative Jordan algebra.
 It may be verified directly that any noncommutative Jordan algebra is
 power-associative (hence strictly power-associative).
@@ -3099,7 +3102,7 @@ POWER-ASSOCIATIVE ALGEBRAS
 Proof: Only the verification for (x, y) in (42) of hypotheses (ii) and
 (iii) remains. But these are (12) and (8) of IV.
 It was remarked in IV that, although proof was given only for commutative Jordan algebras of characteristic 0, the results were valid for
-arbitrary characteristic (6= 2). The same statement cannot be made
+arbitrary characteristic (̸= 2). The same statement cannot be made
 here. The trace argument in Theorem 11 can be modified to give the
 direct sum decomposition for semisimple algebras [58]. But new central simple algebras occur for characteristic p [52; 55]; central simple
 algebras which are not listed in the Corollary above are necessarily of
@@ -3109,7 +3112,7 @@ is called a nodal algebra in case every element of A is of the form
 α1 + z where α ∈ F and z is nilpotent, and A is not of the form
 A = F 1 + N for N a nil subalgebra of A. There are no such algebras
 which are alternative (of arbitrary characteristic), commutative Jordan
-(of characteristic 6= 2) [32], or noncommutative Jordan of characteristic
+(of characteristic ̸= 2) [32], or noncommutative Jordan of characteristic
 0. But nodal noncommutative Jordan algebras of characteristic p > 0
 do exist. Any nodal algebra has a homomorphic image which is a simple
 nodal algebra.
@@ -3124,7 +3127,7 @@ xy = λ1 + z,
 
 λ ∈ F , z ∈ N.
 
-There must exist x, y in N with λ 6= 0 in (47). Since N+ is a nilpotent
+There must exist x, y in N with λ ̸= 0 in (47). Since N+ is a nilpotent
 commutative Jordan algebra, the powers of N+ lead to 0; equivalently,
 the subalgebra (N+ )∗ of M(J+ ) is nilpotent. Now (47) implies yx =
 −λ1 + (2x · y − z) and (xy)x = λx + zx = x(yx) = −λx + 2x(x · y) − xz,
@@ -3146,14 +3149,14 @@ POWER-ASSOCIATIVE ALGEBRAS
 57
 
 by (48). Defining
-(470 )
+(47′ )
 
 λi ∈ F , zi ∈ N,
 
 xi y = λi 1 + zi ,
 
 linearization of (49) gives
-(490 )
+(49′ )
 
 (x1 · x2 )y = λ1 x2 + λ2 x1 + x1 · z2 + x2 · z1
 − (x1 · y) · x2 − (x2 · y) · x1 + (x1 · x2 ) · y.
@@ -3167,7 +3170,7 @@ and multiplication in J is given by
 fg = f · g +
 
 n
-X
+∑
 
 ∂f ∂g
 ·
@@ -3192,11 +3195,11 @@ By (51) every associator relative to the multiplication in J+ is an associator
 xi ∈ N.
 
 We shall first show that J+ is associative by showing that the subspace
-B spanned by all of the associators (52) is 0. For any y in N, (490 )
+B spanned by all of the associators (52) is 0. For any y in N, (49′ )
 implies that (x1 · x2 )y is in N, so [(x1 · x2 ) · x3 ] y = λ3 x1 · x2 + (x1 · x2 ) ·
 z3 + x3 · [λ1 x2 + λ2 x1 + x1 · z2 + x2 · z1 − (x1 · y) · x2 − (x2 · y) · x1 +
 (x1 · x2 ) · y] − [(x1 · x2 ) · y] · x3 − (x3 · y) · (x1 · x2 ) + [(x1 · x2 ) · x3 ] · y by
-(470 ) and (490 ). Interchange subscripts 1 and 3, and subtract, to obtain
+(47′ ) and (49′ ). Interchange subscripts 1 and 3, and subtract, to obtain
 [x1 , x2 , x3 ]y = [x1 , x2 , x3 ] + [x1 , z2 , x3 ] + [z1 , x2 , x3 ] − [x1 · y, x2 , x3 ] −
 [x1 , x2 · y, x3 ] + [x3 · y, x2 , x1 ] + [x1 , x2 , x3 ] · y, so that we have the first
 inclusion in
@@ -3256,14 +3259,14 @@ associative.
 An ideal I of an algebra A is called a characteristic ideal (or Dideal) in case I is mapped into itself by every derivation of A. A is
 called D-simple if 0 and A are the only characteristic ideals of A.
 We show next that the commutative associative algebra J+ is Dsimple. Interchange x and y in (36) to obtain
-(360 )
+(36′ )
 
 (y, x, z) + (z, x, y) = 0
 
 for all x, y, z in J;
 
 interchange y and z in (36) to obtain
-(3600 )
+(36′′ )
 
 (x, z, y) + (y, z, x) = 0
 
@@ -3275,7 +3278,7 @@ POWER-ASSOCIATIVE ALGEBRAS
 
 59
 
-adding (36) and (360 ), and subtracting (3600 ), we obtain the identity
+adding (36) and (36′ ), and subtracting (36′′ ), we obtain the identity
 (58)
 
 [x · y, z] = [x, z] · y + x · [y, z]
@@ -3308,7 +3311,7 @@ Now any derivation D of such an algebra has the form
 f → fD =
 
 n
-X
+∑
 ∂f
 i=1 ∂xi
 
@@ -3323,7 +3326,7 @@ that f → [f, g] is a derivation of J+ for any g in J. By (60) we have
 [f, g] =
 
 n
-X
+∑
 ∂f
 i=1 ∂xi
 
@@ -3337,7 +3340,7 @@ To evaluate the ai (g), note that xi D = [xi , g] = ai (g) and
 [g, xi ] =
 
 n
-X
+∑
 ∂g
 j=1 ∂xj
 
@@ -3350,7 +3353,7 @@ Then aj (xi ) = [xj , xi ] implies ai (g) = −[g, xi ] = −
 [f, g] =
 
 n
-X
+∑
 
 ∂f ∂g
 ·
@@ -3358,7 +3361,7 @@ X
 i,j=1 ∂xi ∂xj
 
 n
-X
+∑
 ∂g
 j=1 ∂xj
 
@@ -3372,7 +3375,7 @@ POWER-ASSOCIATIVE ALGEBRAS
 
 by (61), so that f g = f · g + 21 [f, g] implies (50) where cij = 12 [xi , xj ]. If
 every cij were in N, then N would be a subalgebra of A, a contradiction.
-Hence at least one of the cij is of the form (51) with α 6= 0, so it has
+Hence at least one of the cij is of the form (51) with α ̸= 0, so it has
 an inverse, and n ≥ 2.
 Not every algebra described in the conclusion of Theorem 12 is
 simple (see [55]). However, all such algebras of dimension p2 are, and

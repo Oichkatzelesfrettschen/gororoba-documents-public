@@ -8,7 +8,7 @@ Fidelity: machine (failed: characters)
 
 Transcription of `anon_2024_alice_experiment_journey_through_qcd.pdf` in this directory, 221 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 3, 44 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-2, 4-43, 45-221 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 3, 44 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-2, 4-43, 45-221 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -18,7 +18,7 @@ https://doi.org/10.1140/epjc/s10052-024-12935-y
 Review
 
 The ALICE experiment: a journey through QCD
-ALICE Collaboration
+ALICE Collaboration⋆
 CERN, 1211 Geneva 23, Switzerland
 
 Received: 20 January 2023 / Accepted: 20 May 2024 / Published online: 14 August 2024
@@ -53,7 +53,7 @@ collisions. These members range from undergraduates to emeriti, scientists, and 
 nature’s secrets of nuclear matter - with the ultimate goal of developing
 a profound understanding of the formation of the observable mass in
 the cosmos.
- e-mail: alice-publications@cern.ch
+⋆ e-mail: alice-publications@cern.ch
 
 Contents
 Preface . . . . . . . . . . . . . . . . . . . . . . . . . . 3
@@ -609,8 +609,8 @@ measured particle species in question, the transverse momentum, pT , and rapidit
 known, pseudorapidity η is used instead,4 and both are equivalent when the particle energy is much greater than its mass.
 Different pT ranges will probe different physical processes,
 and for clarity in this review, one can define low- pT as
-pT  2 GeV/c, intermediate- pT as 2  pT  8 GeV/c, and
-high- pT as pT  8 GeV/c. This classification is not intended
+pT ≲ 2 GeV/c, intermediate- pT as 2 ≲ pT ≲ 8 GeV/c, and
+high- pT as pT ≳ 8 GeV/c. This classification is not intended
 to provide a rigid distinction regarding these processes, but
 to aid the reader regarding references to momentum ranges.
 Initial state. Regarding the initial state, for a given collision,
@@ -661,7 +661,7 @@ motion developed in the QGP phase can be explored using
 measurements sensitive to radial and anisotropic flow [38],
 which develop transverse to the beam direction. In the lowpT region, radial flow causes an increase in the transverse
 momentum ( pT ) of higher-mass hadrons. Measurements of
-the mean transverse momentum  pT  of identified particles
+the mean transverse momentum ⟨ pT ⟩ of identified particles
 can therefore be used to extract information on the amount
 of radial flow that has developed. In order to investigate
 anisotropic flow, Eq. 1 can be expanded into the azimuthal
@@ -671,7 +671,7 @@ direction. The most widely used decomposition expresses the
 produced particle density as a Fourier series as follows [39]:
 ∞
 
-
+∑
 dN
 ∝1+2
 vn cos[n(ϕ −
@@ -709,16 +709,16 @@ RAA ( pT ) =
 
 1 dNAA ( pT )/d pT
 .
-TAA  dσpp ( pT )/d pT
+⟨TAA ⟩ dσpp ( pT )/d pT
 
 (3)
 
-The average nuclear overlap function TAA  is obtained
+The average nuclear overlap function ⟨TAA ⟩ is obtained
 from the average number of Ncoll divided by the inelastic
 nucleon–nucleon cross section for the centrality range of
 interest, and its estimation is discussed in Sect. 1.2.4. For hard
 processes, the yield NAA in heavy-ion collisions is expected
-to scale with the average nuclear overlap function TAA 
+to scale with the average nuclear overlap function ⟨TAA ⟩
 when compared to the production cross section σpp in pp
 collisions, in the absence of any QGP or initial state nuclear
 effects. That being the case, if RAA ( pT ) = 1, production
@@ -899,7 +899,7 @@ Page 11 of 221 813
 
 Initial state. The use of initial state modeling is an essential
 prerequisite to determine QGP properties, and is of vast interest in and of itself. The Monte Carlo (MC) Glauber approach
-can be used to infer Npart , Ncoll , and TAA  within a particular centrality/multiplicity range for Pb–Pb and p–Pb collisions [42,43]. This approach assumes the nucleons in the
+can be used to infer ⟨Npart ⟩, ⟨Ncoll ⟩, and ⟨TAA ⟩ within a particular centrality/multiplicity range for Pb–Pb and p–Pb collisions [42,43]. This approach assumes the nucleons in the
 nucleus are positioned according to the Woods–Saxon density distribution. The nucleons travel in an unperturbed trajectory irrespective of whether they interact with other nucleons. The criterion for an inelastic nucleon–nucleon interaction then depends on the cross section of a single interaction, which can be inferred from experimental measures
 in pp collisions. These assumptions are particularly relevant
 for heavy-ion collisions at the LHC that are in transparency
@@ -928,7 +928,7 @@ of partons also is an essential prerequisite. These distributions can be constra
 the fractional momentum x of the parton and the momentum
 transfer Q 2 are modeled generally starting from the results
 of deep inelastic scattering experiments. In the nucleus, typical depletion effects (i.e. a reduction in the nPDF) such as
-shadowing are prominent at low-x ( 0.1), and can have
+shadowing are prominent at low-x (≪ 0.1), and can have
 notable consequences on the production of hard processes.
 Anti-shadowing effects lead to parton excesses relative to
 pp collisions at high-x (∼ 0.1). Recent parameterisations
@@ -997,21 +997,21 @@ The production of hard probes and their interactions with
 the QGP offers distinct information regarding QGP properties. The description of the hadron production from these
 processes relies on the application of the QCD Collinear Factorisation theorem [55] to heavy-ion collisions. As an example, it can be applied as follows to determine the differential
 hadron (h) production cross section [56]:
-
+∑
 f a/A (xa ) ⊗ f b/B (xb ) ⊗ dσab→ jd
 dσ AB→h X ≈
-abj j d
+abj j ′ d
 
-⊗P j→ j ⊗ Dh/j (z j ).
+⊗P j→ j ′ ⊗ Dh/j ′ (z j ′ ).
 
 (6)
 
 The A and B terms correspond to the colliding nuclei. The
 f terms represent the parton distribution functions of those
-nuclei at longitudinal momentum fractions xa , xb for incoming partons a and b. The term dσab→ jd is the cross section of a hard scattered parton j, while P j→ j describes the
+nuclei at longitudinal momentum fractions xa , xb for incoming partons a and b. The term dσab→ jd is the cross section of a hard scattered parton j, while P j→ j ′ describes the
 effect of the parton j interacting with the coloured medium
 before fragmenting into hadrons. The term D is the fragmentation function in terms of the fractional momentum z
-of the hadron from the modified parton j . As mentioned,
+of the hadron from the modified parton j ′ . As mentioned,
 the hard-scattered partons interact with the colour-charged
 constituents of the QGP through elastic collisions [57] and
 inelastic scatterings, with the latter giving rise to mediuminduced gluon radiation [58,59]. Such interactions cause a
@@ -2142,7 +2142,7 @@ separation. As illustrated in the bottom panel of Fig. 10 for
 a sample of 5.02 TeV Pb–Pb collision events, the centrality classes are defined by slicing the V0M signal amplitude
 distribution. The latter is fitted with a Glauber model [172]
 (see also Sect. 1.2.4) coupled to a model for particle production based on a negative binomial distribution (NBD), to
-obtain Ncoll  and Npart  for each centrality class, as detailed
+obtain ⟨Ncoll ⟩ and ⟨Npart ⟩ for each centrality class, as detailed
 in [170,171]. The NBD is used to reproduce the amplitude
 for peripheral events where the multiplicity approaches the
 one observed in pp collisions [171]. In peripheral nucleus–
@@ -2209,15 +2209,15 @@ increases from peripheral to central collisions, from few tens
 of particles per unit of rapidity to few thousands. In central
 √
 (0–5%) Pb–Pb collisions at snn = 5.02 TeV and in the range
-|η| < 0.5, dNch /dη = 1943 ±54 and Npart  = 385 ±3,
-compared to dNch /dη = 17.52 ±1.84 and Npart  = 7.3 ±0.1
+|η| < 0.5, ⟨dNch /dη⟩ = 1943 ±54 and ⟨Npart ⟩ = 385 ±3,
+compared to ⟨dNch /dη⟩ = 17.52 ±1.84 and ⟨Npart ⟩ = 7.3 ±0.1
 in peripheral (80–90%) collisions [174,175].
 To compare the bulk particle production in different collision systems, the charged-particle multiplicity measured
 at midrapidity (|η| < 0.5) is scaled by the number of
-nucleon pairs participating in the collision, Npart /2. Figure 11 shows the midrapidity charged-particle multiplicity
+nucleon pairs participating in the collision, ⟨Npart ⟩/2. Figure 11 shows the midrapidity charged-particle multiplicity
 normalised by the number of the participating nucleon pairs,
 2
-Npart  dNch /dη, in pp, pp, p(d)A and in central heavy-ion
+⟨Npart ⟩ ⟨dNch /dη⟩, in pp, pp, p(d)A and in central heavy-ion
 collisions as a function of the centre-of-mass energy per
 √
 nucleon pair, snn . In particular, ALICE central (0–5%)
@@ -2226,8 +2226,8 @@ heavy-ion data include Pb–Pb collisions at snn = 2.76 TeV
 √
 and 5.02 TeV as well as Xe–Xe collisions at snn = 5.44 TeV.
 2
-The dependence of Npart
- dNch /dη on the centre-of-mass
+The dependence of ⟨Npart
+⟩ ⟨dNch /dη⟩ on the centre-of-mass
 energy can be fitted with a power-law function of the form
 of α × s β , resulting in an exponent β = 0.152 ± 0.003 for
 central Å collisions, under the assumption of uncorrelated
@@ -2255,12 +2255,12 @@ Page 25 of 221 813
 
 Fig. 11 Collision energy dependence of the charged-particle pseudorapidity density at midrapidity (|η| < 0.5) normalised to the average
 2
-number of participants, Npart
- dNch /dη. Data from central Å collisions [175–185] are compared to measurements in non-single diffractive p(d)A collisions [186–189] and inelastic (INEL) pp and pp collisions [174,190–195]. ALICE heavy-ion data include Pb–Pb collisions
+number of participants, ⟨Npart
+⟩ ⟨dNch /dη⟩. Data from central Å collisions [175–185] are compared to measurements in non-single diffractive p(d)A collisions [186–189] and inelastic (INEL) pp and pp collisions [174,190–195]. ALICE heavy-ion data include Pb–Pb collisions
 √
 at snn = 2.76 TeV and 5.02 TeV as well as Xe–Xe collisions at
 √
-snn = 5.44 TeV. All values of Npart  used for the normalisation of
+snn = 5.44 TeV. All values of ⟨Npart ⟩ used for the normalisation of
 the data are the results of Glauber model calculations. The lines are
 power law fits to the data and the bands represent the uncertainties on
 the extracted dependencies
@@ -2273,15 +2273,15 @@ Particle production has been measured in small to mediumsized and large collidin
 with unprecedentedly high precision. The dNch /dη uncertainties range from around 3% for central Å collisions, at
 midrapidity, to around 10% for peripheral results, in the forward region.
 2
-Figure 13 shows the centrality dependence of Npart
- dNch /dη,
-with the centrality being expressed in terms of Npart . Data
+Figure 13 shows the centrality dependence of ⟨Npart
+⟩ ⟨dNch /dη⟩,
+with the centrality being expressed in terms of ⟨Npart ⟩. Data
 from 5.02 TeV Pb–Pb and 5.44 TeV Xe–Xe collisions are
 compared to lower energy results in Au–Au and Cu–Cu collisions by the PHOBOS experiment at RHIC.
 To disentangle energy dependence from Npart dependence, the Au–Au, Cu–Cu and Xe–Xe data are scaled by factors calculated using the fit function of Fig. 11 for the top 5%
 2
-most central collisions. The values of Npart
- dNch /dη for
+most central collisions. The values of ⟨Npart
+⟩ ⟨dNch /dη⟩ for
 Pb–Pb and Xe–Xe collisions decrease by a factor of two from
 
 123
@@ -2308,16 +2308,16 @@ agree with the values measured in minimum bias pp and p–Pb
 collisions. At the same Npart , Pb–Pb undergoes less binary
 collisions than Xe–Xe. This causes the separation between
 2
-the shapes of Xe–Xe and Pb–Pb for the Npart
- dNch /dη
-as a function of Npart . Hints for a deviation between the
+the shapes of Xe–Xe and Pb–Pb for the ⟨Npart
+⟩ ⟨dNch /dη⟩
+as a function of ⟨Npart ⟩. Hints for a deviation between the
 lower energy Au–Au and Cu–Cu results from the LHC data
-for Npart  < 100 are visible. This deviation is not significant given the large uncertainties and it could be attributed to
+for ⟨Npart ⟩ < 100 are visible. This deviation is not significant given the large uncertainties and it could be attributed to
 the different Glauber model implementation used to estimate
 Npart in ALICE [175] and PHOBOS [184]. For the 5% most
 2
-central Xe–Xe and Pb–Pb collisions the Npart
- dNch /dη
+central Xe–Xe and Pb–Pb collisions the ⟨Npart
+⟩ ⟨dNch /dη⟩
 increases steeply. A qualitatively similar feature is observed
 also in Cu–Cu collisions.
 In Fig. 13 a comparison to PYTHIA 8.3 [200] calculations
@@ -2354,7 +2354,7 @@ ST τ dy
 (7)
 
 where dE T /dy is the total produced transverse energy E T =
-
+√
 pT2 + m 2 per unit of rapidity, and ST is the transverse size of
 the interaction region at proper time τ. This estimate is valid
 for a free-streaming system that undergoes boost-invariant
@@ -2369,29 +2369,29 @@ Eur. Phys. J. C (2024) 84:813
 Page 27 of 221 813
 
 2
-Fig. 13 Npart
- dNch /dη in Pb–Pb collisions [175], p–Pb colli√
+Fig. 13 ⟨Npart
+⟩ ⟨dNch /dη⟩ in Pb–Pb collisions [175], p–Pb colli√
 sions [188] and pp collisions [196] at snn = 5.02 TeV, Xe–Xe col√
 lisions at snn = 5.44 TeV [176] scaled by a factor of 0.98, Au–Au and
 √
 Cu–Cu collisions at snn = 0.2 TeV [184] scaled by 2.55 as a function
-of Npart . PYTHIA 8.3 calculations [200] for Nch -selection are shown
+of ⟨Npart ⟩. PYTHIA 8.3 calculations [200] for Nch -selection are shown
 as black lines, dotted lines are Npart -selected calculations
 
 energy density εLB times the formation time τ in the collisions [203]
 εLB τ =
 
-1 1 
+1 1 √
 dNch
 ,
-1 + a 2 m
+1 + a 2 ⟨m⟩
 ST f total
 dy
 
 (8)
 
 √
-where 1 + a 2 m is the effective transverse mass, and
+where 1 + a 2 ⟨m⟩ is the effective transverse mass, and
 f total = 0.55 ± 0.01 is the fraction of the charged out of all
 particles [204]. Here, a is the effective pT /m ratio extracted
 as part of the estimate. The transverse area ST is calculated
@@ -2409,7 +2409,7 @@ expanding fluid performs work and the resulting timedependence of the energy den
 τ −1 ,
 εBj,hydro (τ ) = ε0
 
- τ 4/3
+( τ )4/3
 0
 
 τ
@@ -2500,24 +2500,24 @@ early times, as well as on the development of collective flow
 during the evolution of the hot matter. Direct photons are
 the photons that do not originate from parton fragmentation
 nor hadronic decays, and are produced in electromagnetic
-interactions during different stages of the collision. The lowpT region of the spectrum ( pT  3 GeV/c) is dominated by
+interactions during different stages of the collision. The lowpT region of the spectrum ( pT ≲ 3 GeV/c) is dominated by
 “thermal” photons and follows an approximately exponential
 behaviour, d 2 Nγdir /( pT d pT dy) ∝ e− pT /Teff , characterised
 by the inverse logarithmic slope Teff . The latter represents
 the effective temperature of the fireball and can be related to
 the “true” temperature by accounting for the radial expansion
-of the system, which causes a blue-shift of the emitted photons [210]. At higher momentum ( pT  5 GeV/c), “prompt”
+of the system, which causes a blue-shift of the emitted photons [210]. At higher momentum ( pT ≳ 5 GeV/c), “prompt”
 photons dominate and follow a power law spectrum. These
 photons are produced in the initial hard scatterings between
 the colliding nuclei. Other direct photon production mechanisms, like the interaction of hard scattered partons with the
 medium (“jet-photon conversion”) [211], may be important
-for pT  10 GeV/c [212,213]. These contributions to the
+for pT ≲ 10 GeV/c [212,213]. These contributions to the
 spectrum need to be disentangled, such that the measured
 excess of thermal photons can be related to the effective temperature of the system.
 The invariant yield of direct photons is determined by first
 measuring the direct photon excess over decay photons, Rγ ,
 which is defined by
-γinc  γdec
+γinc / γdec
 γinc
 =
 ,
@@ -2629,19 +2629,19 @@ at kinetic freeze-out, the measured two-particle correlation
 function is, in general, fitted with a formula that includes a
 quantum statistics term for identical particles, and a parameterisation which incorporates strong final-state interactions
 between the particles (FSI), for cases where they are important [229,230]. For example, for uncharged particles:
-
 ∗
 
 C(k ) = 1 + λe
 
 −4k ∗2 R 2
 
+[ ∣
+∣
+1 ∣∣ f (k ∗ ) ∣∣2
 + λα
+2∣ R ∣
 
-1 f (k ∗ ) 2
-2
-R
-
+]
 2R f (k ∗ )
 I f (k ∗ )
 F1 (2k ∗ R) −
@@ -2884,7 +2884,7 @@ Eur. Phys. J. C (2024) 84:813
 Page 31 of 221 813
 
 region, obtained as the product of the three pion radii Rout ,
-Rside , and Rlong measured at kT  = 0.3 GeV/c, has a linear
+Rside , and Rlong measured at ⟨kT ⟩ = 0.3 GeV/c, has a linear
 dependence on the charged-particle pseudorapidity density
 shown in the top panel of Fig. 18. The magnitude increases
 three times from AGS energies to the LHC.
@@ -2963,7 +2963,7 @@ Fig. 18 Homogeneity volume (top) and decoupling time τ f (bottom)
 measured at snn =2.76 TeV [239,240] compared to those obtained for
 central Au–Au and Pb–Pb collisions at lower energies at the AGS [232],
 SPS [95,233,234], and RHIC [185,235–238]. The homogeneity region
-is determined as the product of the three pion femtoscopic radii at kT  =
+is determined as the product of the three pion femtoscopic radii at ⟨kT ⟩ =
 0.3 GeV/c for 0–5% central events, whereas the decoupling time τ f is
 extracted from Rlong (kT ) according to Eq. 12
 
@@ -3016,13 +3016,13 @@ The LHC centrality-dependent Pb–Pb data are compared
 to the world heavy-ion data, as well as to p–Pb and pp data at
 various energies, in Fig. 19. As argued in [227], each of the
 three-dimensional radii is observed to scale roughly with the
-cube root of the measured charged-particle multiplicity density (dNch /dη 1/3 ) across a wide range of collision energies
+cube root of the measured charged-particle multiplicity density (⟨dNch /dη⟩ 1/3 ) across a wide range of collision energies
 and colliding systems with different initial geometries. For
-similar dNch /dη 1/3 in different Å collision systems, differences in the magnitude of the radii, more significant in the
+similar ⟨dNch /dη⟩ 1/3 in different Å collision systems, differences in the magnitude of the radii, more significant in the
 transverse direction (Rout ), were predicted by hydrodynamic
 calculations [247] and are attributed to distinct freeze-out
 shapes. The pp and Å data sets exhibit significantly different
-scaling behaviour, although both are linear in dNch /dη 1/3 .
+scaling behaviour, although both are linear in ⟨dNch /dη⟩ 1/3 .
 The radii in p–Pb and pp collisions agree at low multiplicities and diverge by up to 10–20% at the highest multiplicities
 reached in these systems. The application of the femtoscopic
 technique to the study of the source in small systems will
@@ -3558,7 +3558,7 @@ increasing radial flow with collision centrality.
 The hadron spectra can be studied in the context of
 the Boltzmann–Gibbs Blast-Wave (BG-BW) parameterisation [276]. In this parameterisation, particles are produced
 by a thermalised medium, which expands radially and undergoes an instantaneous kinetic freeze-out at a temperature
-Tkin . In the simplest case, the expansion is radial and is pren
+Tkin . In the simplest case, the expansion is radial and (is pre)n
 scribed by a common velocity field profile, β(r ) = βs Rr ,
 where βs , R, and n are the expansion velocity on the surface
 of the fireball, its radius, and the exponent regulating the
@@ -3611,7 +3611,7 @@ Page 37 of 221 813
 
 Fig. 24 Comparisons of
 ALICE measurements of
-identified particle  pT  and
+identified particle ⟨ pT ⟩ and
 charged hadron vn coefficients
 in Pb–Pb collisions at
 √
@@ -3628,7 +3628,7 @@ compared to ALICE data from heavy-ion collisions. Hydrodynamic models differ fro
 While the former use properties of the QGP through an equation of state, Blast-Wave models are limited and attempt to
 assess the final-state properties under certain assumptions. It
 is shown in Ref. [282] that vn can be described by multiple
-combinations of η/s and ζ /s values. However, these are constrained further by attempts to describe  pT  data for identified hadrons, which is why such a simultaneous comparison
+combinations of η/s and ζ /s values. However, these are constrained further by attempts to describe ⟨ pT ⟩ data for identified hadrons, which is why such a simultaneous comparison
 is important. The precision of the data is such that the uncertainty is about 2% for most data points, while both models are
 able to describe the data within 10% of the measured values.
 The TR ENTo+VISHNU calculation uses a Bayesian analysis
@@ -3647,8 +3647,8 @@ to describe the data. It is also worth noting that the peak value
 of ζ /s close to the QGP transition temperature is larger in
 IP-Glasma+MUSIC compared to TR ENTo + VISHNU. This
 may explain why TR ENTo + VISHNU appears to describe
- pT  slightly better, since lower values of ζ /s will increase
- pT , and this pushes TR ENTo+VISHNU closer to the data,
+⟨ pT ⟩ slightly better, since lower values of ζ /s will increase
+⟨ pT ⟩, and this pushes TR ENTo+VISHNU closer to the data,
 particularly for kaons and protons. The values of η/s and ζ /s
 explored for these hydrodynamic models will be discussed
 in more detail in Sect. 2.7, while the role of the initial-state
@@ -3701,7 +3701,7 @@ the hydrodynamic response rely on a realistic description of
 
 the initial state to extract QGP properties, and this will be
 addressed further in Sect. 4.
-Finally, an extraction of the QGP speed of sound was performed with the ALICE data and hydrodynamic model comparisons using charged hadron  pT  [289] measurements.
+Finally, an extraction of the QGP speed of sound was performed with the ALICE data and hydrodynamic model comparisons using charged hadron ⟨ pT ⟩ [289] measurements.
 The value squared of the speed of sound obtained from Pb–Pb
 √
 collisions at sNN = 2.76 and 5.02 TeV is (0.24 ± 0.04) c2 .
@@ -3854,7 +3854,7 @@ biases due to unwanted nonflow correlations (i.e., short-range
 correlations unrelated to the azimuthal asymmetry in the initial geometry, such as inter-jet correlations and resonance
 decays) in heavy-ion collisions.
 The left panel of Fig. 28 presents the centrality dependence of correlations between vn coefficients (up to 5th order)
-using SC(k, l) ≡ vk2 vl2  − vk2 vl2  in Pb–Pb collisions at
+using SC(k, l) ≡ ⟨vk2 vl2 ⟩ − ⟨vk2 ⟩⟨vl2 ⟩ in Pb–Pb collisions at
 √
 sNN = 2.76 TeV [307,308]. The correlations among different flow coefficients depend on harmonic as well as collision centrality [308]. Positive values of SC(4,2), SC(5,2),
 and SC(5,3) and negative values of SC(3,2) and SC(4,3) are
@@ -3966,7 +3966,7 @@ dependence of the non-linear flow mode coefficients χ4,22
 sNN = 5.02 TeV [288]. A small decrease from central to
 peripheral collisions is found for both coefficients. In addition, the relationship of χ4,22 ≈ χ5,23 /2 is approximately
 valid as predicted by hydrodynamic calculations [305]. Given
-both the TR ENTo + VISHNU and IP-Glasma+MUSIC models appear equally competitive in describing the  pT  and vn
+both the TR ENTo + VISHNU and IP-Glasma+MUSIC models appear equally competitive in describing the ⟨ pT ⟩ and vn
 √
 coefficients in Pb–Pb collisions at sNN = 5.02 TeV (see left
 panel of Fig. 24), it is worth noting that the non-linear flow
@@ -3999,12 +3999,12 @@ the product vn ( pTa ) × vn ( pTt ). If such a factorisation holds,
 Centrality (%)
 
 this implies all particles flow in the same direction irrespective of transverse momentum or pseudorapidity. This
-was indeed observed for the case of n ≥ 2 at low values of pT ( 2 GeV/c) [321,322]. The degree to which
+was indeed observed for the case of n ≥ 2 at low values of pT (≲ 2 GeV/c) [321,322]. The degree to which
 factorisation is broken can also be investigated using two
 types of two-particle correlation measurements: (i) the factorisation ratio rn [323], which probes Vn ( pTa , pTt ) with
 respect to the square root of the product of Vn ( pTa , pTa )
 and Vn ( pTt , pTt ) that uses both particles from either pTa or
-pTt ; or (ii) vn {2}/vn [2] [324], where pTa = pTt for vn {2}
+pTt ; or (ii) vn {2}/vn [2] [324], where pTa ̸= pTt for vn {2}
 and pTa = pTt for vn [2]. Both vn {2}/vn [2] and rn were
 √
 measured in Pb–Pb collisions at sNN = 2.76 TeV [325].
@@ -4054,10 +4054,10 @@ The top panel of Fig. 30 presents the balance function
 widths for Pb–Pb collisions at sNN = 2.76 TeV from
 ALICE [335]. They are compared to predictions from the
 TR ENTo + VISHNU model (initially shown in Fig. 24).
-In particular, the ϕ measurements show some differences between the data and the predictions. Since other
+In particular, the ⟨ϕ⟩ measurements show some differences between the data and the predictions. Since other
 observables sensitive to radial flow have been well described
 by this model earlier in this section, these differences in
-ϕ might arise from charge-diffusion effects in the QGP,
+⟨ϕ⟩ might arise from charge-diffusion effects in the QGP,
 which are another QGP transport property. These effects
 are not implemented in this model, but were independently
 studied elsewhere regarding the electric diffusivity of light
@@ -4069,7 +4069,7 @@ studied elsewhere regarding the electric diffusivity of light
 sNN = 5.02 TeV compared to various hydrodynamic
 
 quarks [336,337]. These differences are also observed for
-the η measurements, where charge diffusion effects are
+the ⟨η⟩ measurements, where charge diffusion effects are
 expected to be present. The differences in both cases between
 the data and hydrodynamic model calculations therefore
 might place constraints on this specific transport property
@@ -4123,7 +4123,7 @@ most well-known effects in nuclear, atomic, and condensed
 Page 43 of 221 813
 
 matter physics. In non-central heavy-ion collisions, a large
-initial angular momentum (O(107 ) ) is expected to be created perpendicular to the reaction plane. Due to any possible
+initial angular momentum (O(107 ) ℏ) is expected to be created perpendicular to the reaction plane. Due to any possible
 spin-orbit coupling, particles produced in such a collision
 can become globally polarised [342–345]. Global polarisation measurements of produced particles provide important
 information about the initial conditions and dynamics of the
@@ -4335,8 +4335,8 @@ q
 In a non-relativistic thermal approach [363], the vorticity (ω)
 ω
 and temperature (T ) are related to P and ρ00 as P = 4T
-
-
+(
+)
 2
 )
 . Substituting the inputs from the
@@ -4357,8 +4357,8 @@ as a function of centrality, in 2 < pT < 6 GeV/c. The
 λθ ∝ 1 + cos2 θ quantity was studied, with θ being the polar
 angle emission of the positive decay muon, in the J/ψ rest
 frame. The θ angle was measured with respect to an axis perpendicular to the event plane. It can be shown that the finite
-spin-alignment condition ρ00 = 1/3 is equivalent to having
-λθ = 0. As a function of centrality λθ deviates from zero
+spin-alignment condition ρ00 ̸= 1/3 is equivalent to having
+λθ ̸= 0. As a function of centrality λθ deviates from zero
 with a 3.5σ significance in the 40–60% centrality interval.
 For the measurement as a function of pT , the significance
 reaches 3.9σ for 2 < pT < 4 GeV/c (30–50% centrality),
@@ -4635,7 +4635,7 @@ temperature Tpc , can be extracted from data notably if the
 number of particles Nq and antiparticles Nq are uncorrelated
 and both distributed according to Poisson statistics. In this
 case, the probability P(Nq − Nq ) becomes a Skellam distribution, which is completely determined by the average values
-Nq  and Nq . So, under the assumption of Skellam distribution (which is supported by event-by-event measurements
+⟨Nq ⟩ and ⟨Nq ⟩. So, under the assumption of Skellam distribution (which is supported by event-by-event measurements
 of net-proton fluctuations from the STAR Collaboration at
 RHIC [405,406] and by ALICE at the LHC [407]), inclusive measurements of particle yields can provide access to
 susceptibilities, which can be directly compared with latticeQCD predictions at Tpc [378,408]. The fluctuations of conserved charges (e.g. in net baryon and net strangeness numbers) extracted from the measured yields of different hadron
@@ -4811,7 +4811,7 @@ hadrons is higher than that observed in pp collisions [427–
 429]. However, it should be considered that the time needed
 to achieve the equilibrium for multi-strange baryons via twobody hadronic collisions is estimated to be much longer
 than the lifetime of the fireball produced in heavy-ion collisions [424]. The equilibration times for , , and  baryons
-via hadronic processes are instead expected to be substantially smaller ( 1 fm/c) if multi-hadron scatterings play a
+via hadronic processes are instead expected to be substantially smaller (≲ 1 fm/c) if multi-hadron scatterings play a
 relevant role [400], which is the case when the particle densities are high. Such conditions are realised only for tempera-
 
 ## PDF page 51
@@ -5050,7 +5050,7 @@ ratios (referred to as p/π and p/(2φ) in the following7 ) in
 inelastic pp and centrality-dependent Pb–Pb collisions at
 √
 snn = 5.02 TeV. The p/π ratios in Pb–Pb collisions exhibit
-a bump structure in 1.5  pT  8.0 GeV/c, gradually increasing with increasing centrality, reaching a maximum of about
+a bump structure in 1.5 ≲ pT ≲ 8.0 GeV/c, gradually increasing with increasing centrality, reaching a maximum of about
 0.82 at pT ≈ 3.5 GeV/c in the most central collisions.
 This can be explained as an interplay between the collective motion of the system (heavier particles are boosted to
 higher momenta) and the recombination mechanism that is
@@ -5065,7 +5065,7 @@ phase [409,410] or the S-matrix approach to account for
 non-resonant interactions in the HRG [399]. This suggests
 that baryon enhancement at intermediate- pT is mainly due
 to the redistribution of baryons and mesons over the momentum range. Further insight can be obtained from the ratios of
-the yields of p and φ, which have similar masses but different quark content. At low- pT ( pT  3.5 GeV/c), the p/(2φ)
+the yields of p and φ, which have similar masses but different quark content. At low- pT ( pT ≲ 3.5 GeV/c), the p/(2φ)
 ratio is rather independent of pT in central Pb–Pb collisions.
 Such behaviour can be expected from hydrodynamic-based
 models [456,457] in which the particle mass is the main variable in the determination of the spectral shapes (even though
@@ -5074,7 +5074,7 @@ because they are expected to affect differently protons and
 φ mesons). In contrast to this and as a confirmation of the
 radial flow signature, the 70–80% Pb–Pb ratio is similar to
 that in pp collisions showing a decreasing trend with pT .
-At higher momenta, pT  8 GeV/c, all the Pb–Pb and pp
+At higher momenta, pT ≳ 8 GeV/c, all the Pb–Pb and pp
 baryon-to-meson ratios shown in Fig. 35 are consistent within
 the uncertainties suggesting the dominance of vacuum-like
 fragmentation processes in this region [458].
@@ -5214,7 +5214,7 @@ ch
 jet
 a resolution parameter R = 0.4 [459] is shown for comparison. The ratio in jets is almost independent of the transverse
 momentum of the particles produced in the jet and it does not
-show a maximum at intermediate- pT . For pT  5 GeV/c, it
+show a maximum at intermediate- pT . For pT ≲ 5 GeV/c, it
 
 123
 
@@ -5314,7 +5314,7 @@ and strange hadrons (p/π and /KS0 ) thanks to a double ratio
 Pb–Pb/pp calculated at snn = 5.02 TeV and 2.76 TeV,
 respectively [274,402]. The two double ratios are compatible
 between each other within uncertainties in all centrality intervals and they are consistent with unity for pT > 8–10 GeV/c,
-where fragmentation dominates. For pT  1.5 GeV/c, a hierarchy of the baryon-to-meson ratios is observed as a function
+where fragmentation dominates. For pT ≲ 1.5 GeV/c, a hierarchy of the baryon-to-meson ratios is observed as a function
 of centrality: the ratios are strongly reduced in central collisions compared to peripheral collisions, thus compensating
 the enhancement at intermediate- pT .
 Comparison to models. The results related to π ± , p+p, and
@@ -5535,7 +5535,7 @@ and φ in Pb–Pb collisions at snn = 5.02 TeV for different centrality classes 
 dependence of v2 are the same in all the centrality intervals displayed in the figure. For pT < 2–3 GeV/c, the strong
 radial flow results in a mass-ordered v2 as reproduced by
 the VISHNU hydrodynamic model with the initial energy
-density profile from TR ENTo (see Sect. 2.2.4). At intermediate momenta (3  pT < 8−10 GeV/c), a grouping of
+density profile from TR ENTo (see Sect. 2.2.4). At intermediate momenta (3 ≲ pT < 8−10 GeV/c), a grouping of
 the baryons versus mesons is observed, as expected in the
 case of hadron formation via recombination. The φ meson
 plays a special role because its mass is similar to that of
@@ -6018,7 +6018,7 @@ simplicity, these resonances will be denoted as ρ, K∗ , ∗ ,
 and φ in the following. The results of this investigation are
 shown in the left panel of Fig. 41, where the ratios of pT integrated8 yields ρ/π [504], K∗ /K [505], ∗ / [506,507]
 and φ/K [505] are presented as function of the cubic root of
-the charged-particle multiplicity at |y| ≈ 0, dNch /dη1/3 ,
+the charged-particle multiplicity at |y| ≈ 0, ⟨dNch /dη⟩1/3 ,
 which represents the radial extent of the system (see Fig. 18
 in Sect. 2.1.5). Results are shown for Pb–Pb collisions at two
 √
@@ -6029,7 +6029,7 @@ the φ meson is a hidden-strangeness hadron but, as far as
 hadro-chemistry is concerned, it behaves like the kaon that
 has strangeness S = 1.
 If no final-state effects such as rescattering and regeneration intervened during the hadron-gas phase to modify
-the resonance yields, the ratios in Fig. 41 would be constant as a function of dNch /dη1/3 due to the similar production mechanisms for particles with the same strangeness
+the resonance yields, the ratios in Fig. 41 would be constant as a function of ⟨dNch /dη⟩1/3 due to the similar production mechanisms for particles with the same strangeness
 and quark composition. What is instead observed in Fig. 41
 is that the yields of ρ, K∗ , and ∗ are progressively more
 suppressed with respect to the reference long-lived hadrons
@@ -6038,7 +6038,7 @@ the φ/K ratio is almost flat. For the ρ/π, K∗ /K, and ∗ /
 ratios, the difference between the values measured in pp and
 in the most central collisions is larger than 3σ of the combined statistical and systematic uncertainties. The fact that
 the yield ratios involving ρ, K∗ , and ∗ resonances decrease
-with increasing dNch /dη1/3 suggests that, in the hadronic
+with increasing ⟨dNch /dη⟩1/3 suggests that, in the hadronic
 phase, the rescattering of the decay products is dominant
 over regeneration and that it is more effective in central collisions, where the hadronic phase lasts longer. The fact that the
 φ/K ratio remains approximately constant indicates instead
@@ -6066,7 +6066,7 @@ Eur. Phys. J. C (2024) 84:813
 Page 63 of 221 813
 
 Fig. 41 (Left) Ratios of midrapidity yields between resonances and
-ground-state hadrons of similar valence-quark content, as a function of√dNch /dη1/3 . These are obtained for inelastic pp collisions ( s = 2.76 TeV and 7 TeV [508–511]) and for Pb–Pb colli√
+ground-state hadrons of similar valence-quark content, as a function of√⟨dNch /dη⟩1/3 . These are obtained for inelastic pp collisions ( s = 2.76 TeV and 7 TeV [508–511]) and for Pb–Pb colli√
 sions ( snn = 2.76 TeV [386,504,507] and 5.02 TeV [273,402,455])
 ranging from peripheral to most central overlaps. Error bars and
 boxes represent the statistical and the total systematic uncertainty,
@@ -6131,12 +6131,12 @@ measured ratio in Pb–Pb collisions. The lifetime of the resonance is dilated b
 813 Page 64 of 221
 
 resonance rest frame to the laboratory reference frame; such
-a factor is associated with  pt of the individual pT -spectrum
-rf .γ  pt . Results for the
+a factor is associated with ⟨ pt⟩ of the individual pT -spectrum
+rf .γ ⟨ pt⟩ . Results for the
 of each resonance, so that τres = τres
 res
 estimated duration of the hadronic phase are shown in the
-left panel of Fig. 42 as a function of dNch /dη1/3 . For all
+left panel of Fig. 42 as a function of ⟨dNch /dη⟩1/3 . For all
 particles an increasing trend is observed, which mirrors the
 decreasing behaviour of the yield ratios for increasing system
 size. Unlike the naïve expectation of a hadronic-phase duration common to all resonances for a given system size, different values are obtained from the ρ, K∗ , and ∗ yields. The
@@ -6177,7 +6177,7 @@ in the same centrality class. The difference in the emission time of pions and k
 kaon emission asymmetry, presented in the right panel of
 √
 Fig. 42 for Pb–Pb collisions at snn = 2.76 TeV as a function
-of dNch /dη1/3 [513]. The non-zero emission asymmetry
+of ⟨dNch /dη⟩1/3 [513]. The non-zero emission asymmetry
 
 123
 
@@ -6227,7 +6227,7 @@ for strange baryons. This motivated several phenomenological studies, which poin
 
 Eur. Phys. J. C (2024) 84:813
 
-Fig. 42 (Left) Hadronic phase duration (time span between chemical and kinetic freeze-out) as a function of dNch /dη1/3 calculated from the ρ/π, K∗ /K and ∗ / ratios in Pb–Pb collisions at
+Fig. 42 (Left) Hadronic phase duration (time span between chemical and kinetic freeze-out) as a function of ⟨dNch /dη⟩1/3 calculated from the ρ/π, K∗ /K and ∗ / ratios in Pb–Pb collisions at
 √
 snn = 2.76 TeV [386,504,507]. The ρ/π results are shifted horizontally by 0.1 units for visibility. (Right) Pion–kaon emission asym-
 
@@ -6262,7 +6262,7 @@ Page 65 of 221 813
 √
 metry for Pb–Pb collisions at snn = 2.76 TeV as a function of
 1/3
-dNch /dη
+⟨dNch /dη⟩
 [513]. The shaded areas show predictions from the
 THERMINATOR 2 model with default and selected values of additional delay τ for kaons [514]
 
@@ -6394,10 +6394,10 @@ Eur. Phys. J. C (2024) 84:813
 
 Page 67 of 221 813
 
-squared displacement of the particle, 
-r 2 , on the time t
-
-r 2  = 6 Ds t
+squared displacement of the particle, ⟨⃗
+r 2 ⟩, on the time t
+⟨⃗
+r 2 ⟩ = 6 Ds t
 
 (13)
 
@@ -6410,7 +6410,7 @@ transfer between the heat bath and a heavy quark is small
 in individual interactions, motivating the picture of soft and
 incoherent scatterings. In that case, the Boltzmann equation
 can be approximated by the Fokker–Planck equation [431].
-This formulation incorporates momentum-dependent transport coefficients A( p) and B( p) characterising momentum
+This formulation incorporates momentum-dependent transport coefficients A( p⃗) and B( p⃗) characterising momentum
 friction (drag) and diffusion, which are denoted γ and Dp
 in the non-relativistic, momentum-independent limit. In this
 limit one also obtains the dissipation-fluctuation theorem,
@@ -6494,8 +6494,6 @@ is a valuable opportunity: it must provide a consistent pic-
 
 813 Page 68 of 221
 
-Eur. Phys. J. C (2024) 84:813
-
 ture of jet quenching, thereby constraining significantly our
 understanding of its underlying processes.
 Theoretically, interactions of high-energy partons with the
@@ -6523,30 +6521,23 @@ Debye screening mass, or the effective value of the strong
 coupling. Different formalisms can be compared via the
 transport coefficient q̂, which is the mean squared transverse
 momentum transfer q⊥ per unit path length. In models, q̂ is
-2  and mean free path λ, or by
-calculated as the ratio of q⊥
+2 ⟩ and mean free path λ, or by
+calculated as the ratio of ⟨q⊥
 averaging the scattering rate d/dq⊥ dz = ρ dσ/dq⊥ ,
-q 2 
-q̂ = ⊥ =
-λ
-
-2
-
-2
-d q⊥ q⊥
-
-d
+∫
+⟨q 2 ⟩
+2 d
 .
-dq⊥ dz
-
 (16)
-
+q̂ = ⊥ = d2 q⊥ q⊥
+λ
+dq⊥ dz
 Theoretical calculations indicate that the following characteristics are expected for medium-induced radiative energy
 loss:
 – Path length dependence: in the BDMPS formalism, for
 short path lengths the medium-induced energy loss varies
 linearly with q̂ and quadratically with path length, which
-arises from the LPM effect [66], E ∝ αS q̂ L 2 . Similar dependencies are found for other formalisms [553,
+arises from the LPM effect [66], ⟨E⟩ ∝ αS q̂ L 2 . Similar dependencies are found for other formalisms [553,
 554].
 – Colour-charge dependence: the energy loss is proportional to the colour factor of the propagating parton.
 Energy loss is expected to be 9/4 times larger for gluons than for quarks.
@@ -6554,6 +6545,8 @@ Energy loss is expected to be 9/4 times larger for gluons than for quarks.
 emission is limited to the region where the gluon does
 
 123
+
+Eur. Phys. J. C (2024) 84:813
 
 not outrun the charge source, implying a minimum emission angle for gluons (dead-cone effect, see Sect. 6.3).
 Consequently, charm and bottom quarks are expected to
@@ -6581,29 +6574,31 @@ in hadron trigger pT,trig (TTsig and TTref ) [568]:
 
 recoil =
 
+1
+
+∣
+∣
+∣
+dϕdη ∣
+
 AA
 d3 Njet
 
-1
-
-AA d p ch dϕdη
+AA d p ch
 Ntrig
+T,jet
+
 pT,trig ∈TTSig
-T,jet
 
-− cref
-
-1
-
+∣
 AA
 d3 Njet
-
-AA d p ch dϕdη
-Ntrig
-pT,trig ∈TTRef
-T,jet
-
+∣
+1
+∣
+− cref AA ch
 ,
+Ntrig d pT,jet dϕdη ∣ pT,trig ∈TTRef
 
 (17)
 
@@ -7280,7 +7275,7 @@ pT,leading + pT,subleading
 
 and the angle θ is defined as the angular distance between
 the two branches of the identified splitting,
-
+√
 Rg
 y 2 + ϕ 2
 ≡
@@ -7383,7 +7378,7 @@ ALICE has measured jet angularity for charged-particle
 √
 jets with R = 0.2 in central Pb–Pb collisions at s N N = 2.76
 TeV [571]. The angularity is defined as
- pT,i
+∑ pT,i
 Rjet,i ,
 (20)
 g=
@@ -7415,7 +7410,7 @@ ALICE has measured the jet mass for charged-particle
 √
 jets with R = 0.4 in central Pb–Pb collisions at sNN =
 2.76 TeV [569]. The jet mass is defined as
-
+√
 (21)
 M = E 2 − pT2 − pz2 ,
 where E is the energy of the jet, pT is the transverse and pz is
@@ -7780,7 +7775,7 @@ expected to be small, due to the much lower multiplicity of
 bb pairs (5–10 in central Pb–Pb collisions) compared to cc.
 In addition, bottomonia are very promising from a theoretical
 point of view, thanks to a much more pronounced separation
-of scales between the heavy-quark mass, the typical bottomonium size and the radial or orbital angular-momentum excitation energy (M  Mv  Mv 2 , where M is the heavy-quark
+of scales between the heavy-quark mass, the typical bottomonium size and the radial or orbital angular-momentum excitation energy (M ≫ Mv ≫ Mv 2 , where M is the heavy-quark
 mass and v the relative velocity of the pair in the bound state).
 That makes them good candidates for a direct application of
 effective field theory approaches [681].
@@ -7818,7 +7813,7 @@ top panel of Fig. 55, where the nuclear modification factor
 for inclusive J/ψ measured by ALICE in Pb–Pb collisions,
 √
 at sNN = 5.02 TeV at central rapidity in the e+ e− decay
-channel, is shown as a function of the charged hadron pseudorapidity density dNch /dη at midrapidity [438]. The latter quantity is directly related, for a certain collision system
+channel, is shown as a function of the charged hadron pseudorapidity density ⟨dNch /dη⟩ at midrapidity [438]. The latter quantity is directly related, for a certain collision system
 at a given energy, to the centrality of the interaction and,
 for different collision systems, is roughly proportional to the
 initial energy density [201]. The ALICE result is compared
@@ -7881,7 +7876,7 @@ related to charm conservation and obtained from the charm
 production cross section. The comparison between data and
 models shows a fair agreement with most of the approaches,
 with TM-TAMU and SHM giving the best reproduction of the
-dNch /dη dependence. The uncertainties of the models are
+⟨dNch /dη⟩ dependence. The uncertainties of the models are
 clearly large when compared to the experimental data, mainly
 as a direct consequence of the uncertainty on the total charm
 cross section for Pb–Pb collisions, which is a fundamental
@@ -7962,7 +7957,7 @@ the low- and intermediate- pT region, where the J/ψ is pro-
 A remarkable observation at the LHC was that the ϒ states
 are strongly suppressed, in a hierarchy apparently dictated
 by their binding energies [682]. First observed by the CMS
-Collaboration at midrapidity [733], this hierarchy of suppression was confirmed by the ALICE Collaboration at forward rapidity [734,735]. In Fig. 57 the Npart  dependence
+Collaboration at midrapidity [733], this hierarchy of suppression was confirmed by the ALICE Collaboration at forward rapidity [734,735]. In Fig. 57 the ⟨Npart ⟩ dependence
 of the ϒ(1S) RAA measurements performed by ALICE at
 √
 sNN = 5.02 TeV is shown and indicates a quick onset
@@ -8888,8 +8883,8 @@ Effect (CME) [773], and its existence was recently reported
 in semi-metals like zirconium pentatelluride (ZrTe5 ) [802].
 The resulting charge separation can be identified by studying the P-odd sine terms in the Fourier decomposition of the
 particle azimuthal distribution [39,803] according to
-
-
+∑[
+]
 dN
 vn,α cos(nϕα ) + an,α sin(nϕα ) ,
 ∝1+2
@@ -8904,13 +8899,13 @@ the anisotropies in momentum space. The leading order Podd coefficient a1,α ref
 local parity violation, while higher order terms (an,α for
 n > 1) describe the specific shape in azimuth. The chiral
 imbalance that leads to the creation of the CME fluctuates
-from event to event, and the event average a1,α  is consistent with zero, i.e. compatible with the observation of global
+from event to event, and the event average ⟨a1,α ⟩ is consistent with zero, i.e. compatible with the observation of global
 parity conservation in strong interactions. Consequently, the
 effect can be detected only by correlations studies.
 In Ref. [803], it was suggested that a suitable way to
 probe the CME is via two-particle correlations measured
 relative to the second-order symmetry plane of the form
-γ1,1 = cos(ϕα +ϕβ −2 2 ), where the brackets indicate an
+γ1,1 = ⟨cos(ϕα +ϕβ −2 2 )⟩, where the brackets indicate an
 average over all events, and α and β denote particles with the
 same or opposite electric charge. The advantage of using this
 observable is that it probes correlations between two leading
@@ -8921,12 +8916,12 @@ to zero over all events, while suppressing correlation that do
 
 not depend on the symmetry plane orientation. In order to
 independently evaluate the contributions from correlations
-in- and out-of-plane, one measures at the same time a twoparticle correlator of the form δ1 = cos(ϕα − ϕβ ). Both
+in- and out-of-plane, one measures at the same time a twoparticle correlator of the form δ1 = ⟨cos(ϕα − ϕβ )⟩. Both
 correlators can be generalised according to:
-γm,n = cos(mϕα + nϕβ − (m + n)
-δm = cos[m(ϕα − ϕβ )],
+γm,n = ⟨cos(mϕα + nϕβ − (m + n)
+δm = ⟨cos[m(ϕα − ϕβ )]⟩,
 
-|m+n| ),
+|m+n| )⟩,
 
 (24)
 (25)
@@ -9256,8 +9251,8 @@ the three initial state models used, analysis of the correlators including highe
 energies [807], and from the comparison of the correlations in Xe–Xe and Pb–Pb collisions in the two-component
 model [812]. The higher harmonics results are based on
 measuring charge-dependent correlations relative to the third
-order symmetry plane of the form γ1,2 = cos(ϕα + 2ϕβ −
-3 3 ). Considering that the third order symmetry plane ( 3 )
+order symmetry plane of the form γ1,2 = ⟨cos(ϕα + 2ϕβ −
+3 3 )⟩. Considering that the third order symmetry plane ( 3 )
 is very weakly correlated with 2 [816], the charge separation effect relative to the third harmonic symmetry plane
 is expected to be negligible and the relevant correlations
 are expected to reflect mainly, if not solely, background
@@ -9351,7 +9346,7 @@ of vn and A that is a robust observable and does not depend
 on detector inefficiencies. The first results for this observable
 √
 measured in Pb–Pb collisions at sNN = 2.76 TeV were
-reported in Ref. [827]. The correlator for the second harmonic, v2 {2}A − Av2 {2}, exhibits a significant centrality dependence compatible with expectations from a CMW
+reported in Ref. [827]. The correlator for the second harmonic, ⟨v2 {2}A⟩ − ⟨A⟩⟨v2 {2}⟩, exhibits a significant centrality dependence compatible with expectations from a CMW
 signal which becomes more pronounced for more peripheral events where the magnetic field strength increases. On
 the other hand, local charge conservation effects could also
 contribute to the development of the measured signal [826].
@@ -9719,7 +9714,7 @@ considered as a system of well defined quasi-particles
 (quarks and gluons), whose interactions involve few body
 processes e.g. 2 → 2 scattering or 2 → 3 collisioninduced gluon radiation, which sometimes are modeled
 as scatterings off discrete scattering centres. It can be
-described by perturbative QCD at couplings of αS  0.3,
+described by perturbative QCD at couplings of αS ≲ 0.3,
 and is considered a gas.
 – Strongly-coupled system. The coupling between QGP
 constituents is large and therefore dominated by higherorder processes. Such a coupling induces strong correlations between the neighboring constituents, therefore the
@@ -10509,9 +10504,9 @@ Forward-rapidity estimator
 60
 〈dN ch/dη 〉|η |<0.5
 
-Fig. 77 Mean number of Multiple Parton Interactions, NMPI , as
+Fig. 77 Mean number of Multiple Parton Interactions, ⟨NMPI ⟩, as
 a function of mean charged particle multiplicity at midrapidity,
-dNch /dη|η|<0.5 , for different event selections, calculated with the
+⟨dNch /dη⟩|η|<0.5 , for different event selections, calculated with the
 PYTHIA 8.2 model (Monash 2013 tune) [856]
 
 ability to classify event activity with an even larger rapidity
@@ -10780,7 +10775,7 @@ ALICE
 〈dN ch/dη〉|η|< 0.5
 
 Fig. 79 (Left) pT -integrated yield ratios to pions (π + +π − ) and pT integrated yield ratios between resonance and corresponding ground
-state as a√function of dNch /dη measured in |η| < 0.5 in pp colli√
+state as a√function of ⟨dNch /dη⟩ measured in |η| < 0.5 in pp colli√
 sions at s = 7 and 13 TeV [508–511], p–Pb collisions at sNN =
 √
 5.02 TeV [506,858,859] and at sNN = 8.16 TeV [860], Xe–Xe col√
@@ -10930,7 +10925,7 @@ sNN = 5.02 TeV
 103
 〈dN ch/dη 〉|η|< 0.5
 
-Fig. 80 pT -integrated yield ratios to protons or charged pions (particles+antiparticles) as a function of dNch /dη measured in |η| < 0.5
+Fig. 80 pT -integrated yield ratios to protons or charged pions (particles+antiparticles) as a function of ⟨dNch /dη⟩ measured in |η| < 0.5
 in pp collisions [511,861,862], p–Pb collisions [858,863,864] and Pb–
 Pb collisions [387,402,435,865] for nuclei (left) and for D0 and J/ψ
 
@@ -10943,17 +10938,17 @@ multiplicity density.
 In heavy-ion collisions, the transverse momentum spectra
 of identified particles are sensitive to the radial flow imparted
 by the system expansion. This translates into an evolution
-of the spectra towards higher  pT  for more central A–A
+of the spectra towards higher ⟨ pT ⟩ for more central A–A
 collisions, as discussed in Sect. 2.2.2. The same effect has
 been observed when measuring pT spectra as a function of the
 charged-particle multiplicity in pp and p–Pb interactions. The
 low-momentum part of the spectra (up to around 2.5 GeV/c)
 becomes progressively more flat as the multiplicity increases,
-leading to an increase of the  pT  for all particle species. This
+leading to an increase of the ⟨ pT ⟩ for all particle species. This
 opens the intriguing question: is the origin of the hardening
 of the spectra the same in different colliding systems? Is
 it the QGP in high-multiplicity pp interactions causing the
-increase in  pT ? Can this effect be solely due to radial flow
+increase in ⟨ pT ⟩? Can this effect be solely due to radial flow
 in an expanding system?
 To try to answer these questions, the ratio between  and
 K0S pT spectra was measured in pp interactions characterised
@@ -11122,8 +11117,8 @@ dN ch/dη
 
 Fig. 81 Selected measurements from the previous figures compared
 to different theoretical models. (Top left) pT -integrated ratio of p/π as
-a function of dNch /dη at midrapidity. (Top right) pT -integrated ratio
-of φ/π as a function of dNch /dη at midrapidity. (Bottom left) pT -
+a function of ⟨dNch /dη⟩ at midrapidity. (Top right) pT -integrated ratio
+of φ/π as a function of ⟨dNch /dη⟩ at midrapidity. (Bottom left) pT -
 
 103
 
@@ -11133,9 +11128,9 @@ of φ/π as a function of dNch /dη at midrapidity. (Bottom left) pT -
 
 dN ch/dη
 
-integrated ratio of /π as a function of dNch /dη at midrapidity compared to PYTHIA 8.2 (Monash 2013 tune) [856] and PYTHIA colour
+integrated ratio of /π as a function of ⟨dNch /dη⟩ at midrapidity compared to PYTHIA 8.2 (Monash 2013 tune) [856] and PYTHIA colour
 ropes model [866]. (Bottom right) pT -integrated ratio of (J/ψ)/π as a
-function of dNch /dη at midrapidity
+function of ⟨dNch /dη⟩ at midrapidity
 
 0
 
@@ -11893,10 +11888,10 @@ state effects, and in particular of nuclear shadowing, on the
 observed quarkonium yields. Remarkably, final-state cold
 nuclear matter effects, related to the break-up of the resonances via interactions with the nucleons of the colliding
 ion(s), are negligible at LHC energies due to the extremely
-small time spent by the heavy-quark pair in the nuclear matter. In fact, τ = L/βz γ values ranging from ∼ 7 × 10−2
+small time spent by the heavy-quark pair in the nuclear matter. In fact, τ = ⟨L⟩/βz γ values ranging from ∼ 7 × 10−2
 to 10−4 fm/c for low- pT cc pairs are respectively obtained
 at backward (Pb-going) and forward (p-going) rapidity, with
-L being the average length of nuclear matter crossed by
+⟨L⟩ being the average length of nuclear matter crossed by
 the pair, βz the velocity of the cc along the beam direction
 in the nucleus rest frame, and γ = E cc /m cc [917]. In fact,
 nuclear shadowing was found to be the main effect influenc-
@@ -12056,7 +12051,7 @@ measured dNch /dy, which interact with the quarkonia with
 Fig. 87 The double ratio between the ψ(2S) and J/ψ cross sections in
 √
 p–Pb and pp collisions at sNN = 5.02 and 8.16 TeV [917,918], shown
-as a function of Ncoll  for the backward (Pb-going) rapidity region and
+as a function of ⟨Ncoll ⟩ for the backward (Pb-going) rapidity region and
 compared to the comover model results [919]. The boxes around unity
 correspond to the global systematic uncertainty on the ratio between
 the ψ(2S) and J/ψ cross sections in pp collisions
@@ -12076,13 +12071,13 @@ produced, able to selectively dissociate some of the quarkonium states.
 A suppression effect was already observed by PHENIX
 when studying the centrality dependence of the ratio of the
 ψ(2S) and J/ψ nuclear modification factors in d–Au colli√
-sions at sNN = 0.2 TeV, where it was shown that for central collisions (Ncoll  ∼ 15) the ψ(2S) suppression was 3
+sions at sNN = 0.2 TeV, where it was shown that for central collisions (⟨Ncoll ⟩ ∼ 15) the ψ(2S) suppression was 3
 times stronger than the one of J/ψ [910]. The corresponding
 ALICE result on the centrality dependence of the doubleratio between the ψ(2S) and J/ψ cross sections in p–Pb and
 √
 pp collisions, shown in Fig. 87 for data taken at sNN = 5.02
 and 8.16 TeV, also indicates an increase of the relative suppression of ψ(2S), which already sets in at smaller values of
-Ncoll  [917,918]. The comover model fairly reproduces this
+⟨Ncoll ⟩ [917,918]. The comover model fairly reproduces this
 suppression [919].
 Similar studies were also carried out in the bottomonium
 sector by comparing the suppression effects between the
@@ -12144,13 +12139,13 @@ For inclusive observables, jet quenching is measured using
 RpPb , the ratio of the inclusive yield measured in p–Pb collisions to the inclusive production cross section of the same
 observable
 in pp collisions scaled by the geometric factor
-
-
-TpPb , where . . . indicates the average over the EA interval
+⟩
+⟨
+TpPb , where ⟨. . .⟩ indicates the average over the EA interval
 used for event selection. Suppression in inclusive hadron production due to jet
 would correspond to RpPb < 1.
-
- quenching
+⟩
+⟨ quenching
 The value of TpPb is determined using Glauber modeling
 (Sect. 2.1.1), which is based on the assumption that EA is
 closely correlated with event geometry or “centrality”. However, as discussed in Sect. 3.1, the correlation between EA
@@ -12180,12 +12175,12 @@ ZDC signal is correlated with centrality through the emission of “slow neutron
 ALICE defines a model-dependent variant of RpPb , denoted
 Q pPb , to report jet quenching for inclusive observables using
 EA-selected p–Pb data.
- irreducible modeling uncertainties for correlating
- The
+⟩ irreducible modeling uncertainties for correlating
+⟨ The
 TpPb with collision geometry can be avoided by carrying
 out measurements using MB p–Pb data, in which there is no
 EA-based event selection. For MB pA collisions, hard cross
-sections scale precisely with the nuclear mass A [714,941]
+sections⟨ scale⟩ precisely with the nuclear mass A [714,941]
 inel , where σ inel is the p–Pb inelastic
 so that TpPb = A/σpPb
 pPb
@@ -12354,9 +12349,9 @@ pT distribution, and all recoil jets are counted. This ensures
 that the resulting trigger-normalised recoil jet distribution is equivalent to the ratio of hard cross sections for
 hadron+jet and inclusive hadron production. Since the
 numerator
-and denominator in this ratio both scale with
-
-
+and denominator in this ratio both ⟨scale⟩ with
+⟩
+⟨
 TpPb for EA-selected data, the geometric factor TpPb can-
 
 ## PDF page 121
@@ -13235,6 +13230,8 @@ IP-Glasma+MUSIC+UrQMD (FSE only)
 70
 Centrality (%)
 
+(
+)
 Fig. 99 Centrality dependence of ρ v22 , [ pT ] in Pb–Pb collisions
 √
 at sNN = 5.02 TeV [1010]. The statistical (systematic) uncertainties are shown with vertical bars (filled boxes). The initial
@@ -13471,9 +13468,9 @@ opposite is true as the radius of the homogeneity region of the
 emitting source (see Sect. 2.1.5) is about 4–9 fm [1046]. A
 special role can be attributed to the hypertriton, whose wave
 function is wider than the fireball
- produced in central Pb–
-2  ≈ 10.6 fm [1047]).
-Pb collisions (3 H RMS radius rd
+√ produced in central Pb–
+2 ⟩ ≈ 10.6 fm [1047]).
+Pb collisions (3 H RMS radius ⟨rd
 In addition to this, effects of baryon number conservation
 
 ## PDF page 131
@@ -13486,16 +13483,16 @@ unit of rapidity varies from about 0.12 in inelastic pp collisions [1048] to abo
 practice, such studies are often performed as a function of the
 event multiplicity expressed in terms of the charged-particle
 pseudorapidity density (dNch /dη) and the particle-source
-radius is found to be proportional to dNch /dη1/3 [246] (see
+radius is found to be proportional to ⟨dNch /dη⟩1/3 [246] (see
 Sect. 2.1.5).
 5.1.1 Light-nuclei yield measurements
-The measured yields of (anti)nuclei relative to those of protons as a function of dNch /dη are summarised in the
+The measured yields of (anti)nuclei relative to those of protons as a function of ⟨dNch /dη⟩ are summarised in the
 left panel of Fig. 101. Similarly to other light-flavoured
-hadrons (see Sect. 3.2), a smooth trend with dNch /dη
+hadrons (see Sect. 3.2), a smooth trend with ⟨dNch /dη⟩
 across different collision systems and independence on the
 centre-of-mass energy are observed. The nucleus-to-proton
-ratios exhibit an increasing trend with increasing multiplicity for low-dNch /dη and they tend to saturate for
-dNch /dη  100. The yield ratios at high-multiplicity are
+ratios exhibit an increasing trend with increasing multiplicity for low-⟨dNch /dη⟩ and they tend to saturate for
+⟨dNch /dη⟩ ≳ 100. The yield ratios at high-multiplicity are
 in good agreement with predictions from statistical hadronisation models (SHM) in the grand canonical limit (see
 Sect. 2.3.1). In these models, the production yield per unit of
 rapidity of a given particle species, dN /dy, is mostly determined by the chemical freeze-out temperature (Tchem ) [122]
@@ -13513,8 +13510,8 @@ in which nuclei are formed by protons and neutrons that are
 close in phase space after the kinetic freeze-out [419]. In this
 approach, the invariant yield of a (anti)nucleus with mass
 number A can be written as
-
-A
+(
+)A
 d3 Np
 d3 N A
 = B A Ep
@@ -13783,7 +13780,7 @@ Eur. Phys. J. C (2024) 84:813
 
 Page 133 of 221 813
 
-Fig. 102 (Left) 3 H/ measurements in p–Pb (in red) and Pb–Pb collisions (in blue) as a function of dNch /dη [389,1055]. The vertical lines
+Fig. 102 (Left) 3 H/ measurements in p–Pb (in red) and Pb–Pb collisions (in blue) as a function of ⟨dNch /dη⟩ [389,1055]. The vertical lines
 and boxes are the statistical and systematic uncertainties, respectively.
 The expectations for the SHM and coalescence models are shown as
 lines and bands, respectively. (Right) (anti)deuteron v2 as a function of
@@ -13801,6 +13798,14 @@ This source size plays also a fundamental role in the study
 of the residual strong interaction between pairs of hadrons.
 The correlation function employed in both kinds of studies
 reads
+∫
+∣
+∣2
+∣
+∣
+∗
+(28)
+C(k ) = S(r ∗ ) ∣ (k⃗∗ , r⃗∗ )∣ d3 r ∗ ,
 
 Gaussian core source common to all the produced particles, is
 a free fit parameter. The abundances of the resonances which
@@ -13814,16 +13819,6 @@ rcore ∈ (0.85−1.3) fm for p–p and p– pairs (right panel of
 Fig. 103). This result supports the assumption of a common
 source parameterisation with rcore (m T ) for any hadron pair
 produced in pp collisions.
-
-C(k ∗ ) =
-
-S(r ∗ )
-
-2
-
-(k∗ , r∗ ) d3 r ∗ ,
-
-(28)
 
 where r ∗ is the relative distance between the two particles
 and k ∗ is half of their relative momentum, both measured in
@@ -13863,8 +13858,8 @@ B = (130 ± 50) keV [1070,1070–1073]. This small sep-
 
 Eur. Phys. J. C (2024) 84:813
 
-Fig. 103 (Left) Source radius r0 as a function of m T  for the assumption of a purely Gaussian source. (Right) Source radius rcore as a function
-of m T  for the assumption of a Gaussian source with added resonances.
+Fig. 103 (Left) Source radius r0 as a function of ⟨m T ⟩ for the assumption of a purely Gaussian source. (Right) Source radius rcore as a function
+of ⟨m T ⟩ for the assumption of a Gaussian source with added resonances.
 The blue crosses result from fitting the p–p correlation function with
 the strong Argonne v18 [1063] potential. The green squared crosses
 
@@ -13878,7 +13873,7 @@ the hypertriton is very close to that of the free  hyperon,
 τ = (263.2 ± 2.0) ps [440]. Similar conclusions can be
 expected considering the 3 H wave function. In a simple
 quantum-mechanical
-model, the RMS radius of this hypernu
+model, the RMS radius of this hypernu√
 
 Besides the experimental results, the theoretical predictions for the 3 H lifetime are reported in Fig. 104 for comparison with the data. The calculation performed by Rayet
 and Dalitz [1090] takes into account the phase space factors
@@ -13905,8 +13900,8 @@ close (about 0.9 τ ) to the one of the free . In this theory,
 a pion-less effective field theory approach with d degrees
 of freedom and the commonly accepted separation energy
 
-2  = 10.6 fm, if a deuteron- bound state
-cleus is about rd
+2 ⟩ = 10.6 fm, if a deuteron- bound state
+cleus is about ⟨rd
 is assumed [1074,1075]. Similar values are extracted from
 more sophisticated theoretical models for the RMS radius of
 the hypertriton [1047,1076]. Since this means that the  is,
@@ -14361,13 +14356,13 @@ sions at s = 13 TeV [1041]. The analysis in Pb–Pb was
 performed in several centrality intervals; an example for the
 10–20% centrality interval is reported in Fig. 109. A simultaneous fit of all the correlation functions was performed
 to extract the scattering parameters of the strong interaction.
-The spin-averaged scattering parameters, i.e.  f 0 the real and
- f 0 imaginary parts of the spin-averaged scattering length,
+The spin-averaged scattering parameters, i.e. ℜ f 0 the real and
+ℑ f 0 imaginary parts of the spin-averaged scattering length,
 and d0 for the real part of the spin-averaged effective range
 
 Page 139 of 221 813
 
-Fig. 110 Comparison of extracted spin-averaged scattering parameters  f 0 and  f 0 (Top) and d0 and  f 0 (Bottom) for p– ⊕ p–,
+Fig. 110 Comparison of extracted spin-averaged scattering parameters ℑ f 0 and ℜ f 0 (Top) and d0 and ℜ f 0 (Bottom) for p– ⊕ p–,
 – pairs and effective parameters accounting for the contribution
 of heavier B–B pairs [1031]. Results are compared with theoretical
 models [1099,1113–1118] and with results by the STAR collaboration [1119]
@@ -14380,13 +14375,13 @@ and with other measurements.
 The real and imaginary parts of the scattering length, and
 the effective interaction range extracted from the Pb–Pb fits
 have similar values for all baryon–antibaryon pairs at low-k ∗ .
-The significant magnitude of  f 0 shows that inelastic processes (annihilation) can occur for baryon–antibaryon systems. This finding was verified by the analysis in pp collisions, where an even larger contribution to the inelastic part
+The significant magnitude of ℑ f 0 shows that inelastic processes (annihilation) can occur for baryon–antibaryon systems. This finding was verified by the analysis in pp collisions, where an even larger contribution to the inelastic part
 of the interaction was found for the p–p and p– ⊕ p–
 pairs, while the same scattering parameters found in Pb–Pb
-collisions provided a good description of the – correlation [1041]. In general, the  f 0 is very different for the three
+collisions provided a good description of the – correlation [1041]. In general, the ℑ f 0 is very different for the three
 baryon–antibaryon pairs when looking at both colliding systems and it gets smaller for baryon–antibaryon pairs of higher
 total pair mass. The elastic part of the interaction exhibits also
-the same mass hierarchy and the negative values of  f 0 show
+the same mass hierarchy and the negative values of ℜ f 0 show
 either that the interaction between baryons and antibaryons
 is repulsive, or that baryon–antibaryon bound states can be
 
@@ -14494,7 +14489,7 @@ design of ALICE limits its data-taking rate and high- pT capabilities, and there
 environment ideal for precision QCD studies. The ALICE
 detector design is complementary to the other LHC detectors;
 its high precision tracking and particle identification capabilities, with a focus on low- to moderate-transverse momentum
-pT  100 GeV/c, are unique at the LHC (see Sect. 1.4).
+pT ≲ 100 GeV/c, are unique at the LHC (see Sect. 1.4).
 ALICE also puts special emphasis on measurements in pp
 collisions of high-Q 2 observables that are of importance for
 the study of the QGP, which provides a complementary focus
@@ -14534,7 +14529,7 @@ measurements in elementary collisions are used in global
 fits to determine PDFs and the strong coupling constant
 αS [1145,1148,1152–1154]. Historically, jet measurements
 and calculations with large- and moderate-R (resolution
-parameter), R  0.4, have been preferred for high precision studies because they minimise hadronisation effects.
+parameter), R ≳ 0.4, have been preferred for high precision studies because they minimise hadronisation effects.
 Calculation of the inclusive jet production cross section for
 small-R jets is challenging, due to large logarithms of the
 jet resolution parameter R that can contribute at all orders in
@@ -14916,7 +14911,7 @@ MC event generators.
 One of the most important classes of jet substructure
 observables are the infrared- and collinear- (IRC-) safe jet
 angularities [663], defined as
-
+∑
 z i θiα ,
 (29)
 λα ≡
@@ -14929,7 +14924,7 @@ describes the momentum fraction carried by the constituent,
 and the base of the second factor, θi ≡ Ri /R, denotes
 the rapidity (y) – azimuth (ϕ) separation
 of the constituent
-
+√
 
 from the jet axis, where Ri ≡ yi2 + ϕi2 . By varying
 α, one can systematically vary the contribution of collinear
@@ -14984,7 +14979,7 @@ di-jet implementation matched to PYTHIA8 parton shower
 
 increases, the distributions skew towards small λα , since θi
 is smaller than unity. The measured angularities are compared to analytical calculations with all-order resummations
-of large logarithms to next-to-leading-logarithmic (NLL )
+of large logarithms to next-to-leading-logarithmic (NLL′ )
 accuracy [552,1191,1192]. The angularity distributions are
 expected to be dominated by pQCD only at sufficiently
 large values of λα , with the non-perturbative regime estimated by λNP
@@ -15670,7 +15665,7 @@ is defined by the EoS through the solution of the Tolman–
 Oppenheimer–Volkoff equations, hence the mass-radius relation strongly depends on the constituents of the NS and on
 their interactions.
 The inclusion of hyperons leads to NS configurations
-unable to reach the current highest mass limit from experimental observations of close to 3 M [1287,1295,1296].
+unable to reach the current highest mass limit from experimental observations of close to 3 M⊙ [1287,1295,1296].
 
 7 ALICE contributions beyond QCD physics and
 synergies of heavy-ion physics with other fields
@@ -15686,7 +15681,7 @@ new developments in machine learning.
 The interaction of hyperons (Y) with nucleons (N) is one
 of the key ingredients needed to understand the composition of the most dense stars in our Universe: neutron stars
 (NS) [1282,1283]. Neutron stars are one possible final outcome of supernova explosions and are characterised by large
-masses (M ≈ 1.2–2.2 solar masses M ) and small radii
+masses (M ≈ 1.2–2.2 solar masses M⊙ ) and small radii
 
 123
 
@@ -15780,7 +15775,7 @@ to start the conversion reads μi = μn + μe . The slight repulsion acquired by
 densities, for the appearance of this hyperon species. In the
 right panel of Fig. 119, the resulting mass–radius relation
 obtained by assuming the predicted HAL QCD  interaction in medium is shown. The production of cascade hyperons occurring at higher densities leads to a maximum NS
-mass of 2.13 M , which is compatible with the recent measurements, indicated by the coloured bands, of NS close to
+mass of 2.13 M⊙ , which is compatible with the recent measurements, indicated by the coloured bands, of NS close to
 and above two solar masses [1284–1286].
 
 123
@@ -15795,13 +15790,13 @@ Fig. 119 (Left) Chemical potential μi of hyperons produced in the
 inner core of a NS as a function of the energy density, in units of
 energy density ε0 at the nuclear saturation point. The single-particle
 potentials depths in symmetric nuclear matter (SNM) for ,  and
- hyperons are displayed. The vertical dotted lines indicate the central energy densities reached for a standard NS of 1.4 M and for the
-maximum mass, 2.13 M , reached within this specific EoS. The meanfield calculations [1290,1307–1309] have been tuned in order to repro-
+ hyperons are displayed. The vertical dotted lines indicate the central energy densities reached for a standard NS of 1.4 M⊙ and for the
+maximum mass, 2.13 M⊙ , reached within this specific EoS. The meanfield calculations [1290,1307–1309] have been tuned in order to repro-
 
 duce the lattice predicted value of U in pure neutron matter (PNM)
 obtained in [1310], using the in-vacuum results validated by ALICE data
 in [1032]. The EoS obtained with these constraints provides a stable NS
-with a maximum mass of Mmax = 2.13 M , as seen on the mass-radius
+with a maximum mass of Mmax = 2.13 M⊙ , as seen on the mass-radius
 plot on the right and is compatible with recent astrophysical measurements of heavy NS, indicated by the orange [1284], green [1285] and
 blue [1286] bands. See also Ref. [1311]
 
@@ -15869,13 +15864,13 @@ measured. ALICE has contributed in this field by measuring
 for the first time the antideuteron inelastic cross section in
 p–Pb data at 5.02 TeV [1025]. The measurement used the
 ALICE detector material as an effective target, with mean
-charge number Z  = 8.5 and mass number A = 17.4 for
+charge number ⟨Z ⟩ = 8.5 and mass number ⟨A⟩ = 17.4 for
 the antideuteron momentum range 0.3 < p < 0.9 GeV/c,
-and Z  = 14.8 and A = 31.8 for 0.9 < p < 4.0 GeV/c.
+and ⟨Z ⟩ = 14.8 and ⟨A⟩ = 31.8 for 0.9 < p < 4.0 GeV/c.
 Recently, these absorption measurements were extended to
 3 He with pp and Pb–Pb data and using two different techniques [1336]: one was the same as antideuterons and the
 another one used one of the ALICE subdetectors as “target”
-(A = 34.7 in 1.17 < p < 10 GeV/c).
+(⟨A⟩ = 34.7 in 1.17 < p < 10 GeV/c).
 The measured inelastic cross sections and their uncertainties can now be used in propagation models of antinuclei within the interstellar medium for dark-matter searches.
 Figure 120 shows an example of such a calculation using
 the GALPROP software package [1338]15 and showing
@@ -16031,7 +16026,7 @@ energies E > 1016 eV. For the first time the rate of HMM
 events is well reproduced using conventional hadronic interaction models and a plausible primary flux extrapolation.
 This measurement places significant constraints on alternative, more exotic, production mechanisms.
 7.4 Atomic physics through lepton-pair production
-Lepton-pair production, γ A → + − A (A A → + − A A
+Lepton-pair production, γ A → ℓ+ ℓ− A (A A → ℓ+ ℓ− A A
 in ultra-peripheral collisions (UPCs) [962]) studies atomic
 physics at very high energies, testing QED in very strong
 fields. Because they involve high-Z nuclei at large Lorentz
@@ -16041,7 +16036,7 @@ In these high fields, higher-order diagrams should make a
 substantial contribution. This was studied intensively in a
 series of calculations using coupled-channel equations and
 then all-orders QED calculations. These calculations found
-very different cross sections for A A → + − A A before
+very different cross sections for A A → ℓ+ ℓ− A A before
 converging on a generally accepted result [1358]. However, theorists have not generally considered higher order
 corrections to the cross section in a restricted acceptance
 such as that for ALICE. Data from STAR [1359,1360]
@@ -16051,11 +16046,11 @@ spectrum, which is broader than is expected in the naive
 calculation. This is likely due to the limited UPC impact
 parameter (b) range, i.e. requiring b > 2R A , with R A
 being the nucleus radius; the STAR trigger imposes a more
-sophisticated restriction) for UPCs; when b is limited,  pT 
+sophisticated restriction) for UPCs; when b is limited, ⟨ pT ⟩
 should rise. However, the calculations are not in complete
 agreement [1363–1365] and this is still under active study.
 Effects such as incoherent photon emission (A → γ A∗ ) and
-Sudakov resummation [1366] can also increase  pT .
+Sudakov resummation [1366] can also increase ⟨ pT ⟩.
 So far, ALICE has mostly studied the production as a
 background to photoproduction of the J/ψ → μ+ μ− [977]
 
@@ -16075,17 +16070,17 @@ with the STARlight lowest-order QED predictions of 128 µb
 and 77 µb respectively. Figure 122 shows that the Mee distribution is in good agreement with the predictions.
 Looking ahead, ALICE can study leptons with much lower
 √
-pT than ATLAS, and at much smaller M / sNN than STAR;
+pT than ATLAS, and at much smaller Mℓℓ / sNN than STAR;
 the latter condition increases the typical impact parameter,
 limiting the effect of the UPC condition b > 2 R A . The
 √
-small M / sNN also increases the cross section, and so may
+small Mℓℓ / sNN also increases the cross section, and so may
 allow for observation of new phenomena, such as multiple
 pair production (when one pair of interacting ions produces
 two pairs), or interference effects in the angular distributions [1367]. A more detailed study of the pair pT spectrum
 with different conditions on neutrons in the ZDCs would also
 be of interest. Finally, interesting connections can be made
-to hadronic interactions (i.e. b < 2 R A ); the STAR collaboration has observed apparent γ A → + − A processes in
+to hadronic interactions (i.e. b < 2 R A ); the STAR collaboration has observed apparent γ A → ℓ+ ℓ− A processes in
 peripheral collisions; they are visible as a large excess of
 pairs with pT < 100 MeV/c [1368]. These pairs may provide some information about the overall reaction plane.
 
@@ -16170,7 +16165,7 @@ The dark photon is an extra U(1) gauge boson and acts
 as a messenger of a dark sector with the residual interaction to the SM particles. A number of fixed-target and collider experiments have searched for a dark photon, where
 the dark photon can decay back into charged SM particles
 with a coupling strength regulated by a ‘mixing parameter’.
-ALICE can contribute to dark photon searches by examining the electron–positron invariant mass in very large samples of π 0 Dalitz decays (π 0 → γ A , A → e+ e− ) for
+ALICE can contribute to dark photon searches by examining the electron–positron invariant mass in very large samples of π 0 Dalitz decays (π 0 → γ A′ , A′ → e+ e− ) for
 20 ≤ Mee ≤ 100 MeV/c2 . The Run 2 data analysis is ongoing and the data samples to be collected with the upgraded
 detector in Runs 3–4 are expected to reduce the limit on the
 mixing parameter down to 10−4 below 100 MeV/c2 [139].
@@ -16255,7 +16250,7 @@ and compare with other such model systems in order to fully
 understand strong interactions in their extreme. Remarkably, aside from the quark–gluon plasma, the most “perfect” liquids found in nature are ultracold Bose and Fermi
 gases, despite having a temperature twenty orders of magnitude lower than the QGP! Like the QGP, these degenerate atomic gases are also characterised by high occupation
 numbers, a shear viscosity to entropy density ratio near the
-proposed quantum lower bound (η/s ≥ /(4π kB )), and
+proposed quantum lower bound (η/s ≥ ℏ/(4π kB )), and
 can be described by fluid dynamic equations over a wide
 range of length scales. Similar theoretical approaches, such
 as within the kinetic theory and holographic duality frame-
@@ -20215,7 +20210,7 @@ arXiv:1004.5523 [nucl-ex]
 696. J.-P. Lansberg, New observables in inclusive production of
 quarkonia. Phys. Rep. 889, 1–106 (2020). https://doi.org/10.
 1016/j.physrep.2020.08.007. arXiv:1903.09185 [hep-ph]
-697. NA50 Collaboration, B. Alessandro et al., ψ production in Pb–
+697. NA50 Collaboration, B. Alessandro et al., ψ ′ production in Pb–
 Pb collisions at 158-GeV/nucleon. Eur. Phys. J. C 49, 559–
 567 (2007). https://doi.org/10.1140/epjc/s10052-006-0153-y.
 arXiv:nucl-ex/0612013
@@ -21075,13 +21070,13 @@ s N N = 200 GeV Cu+Cu collisions. Phys. Rev. Lett.
 on J/ψ production in asymmetric Cu+Au collisions at s N N =
 200 GeV. Phys. Rev. C 90, 064908 (2014). https://doi.org/10.
 1103/PhysRevC.90.064908. arXiv:1404.1873 [nucl-ex]
-909. NA50 Collaboration, B. Alessandro et al., J/ψ and ψ production
+909. NA50 Collaboration, B. Alessandro et al., J/ψ and ψ ′ production
 and their normal nuclear absorption in proton-nucleus collisions
 at 400 GeV. Eur. Phys. J. C 48, 329 (2006). https://doi.org/10.
 1140/epjc/s10052-006-0079-4. arXiv:nucl-ex/0612012
 910. PHENIX Collaboration, A. Adare et al., Nuclear modification
 √
-of ψ , χc , and J/ψ production in d+Au collisions at s N N =
+of ψ ′ , χc , and J/ψ production in d+Au collisions at s N N =
 200 GeV. Phys. Rev. Lett. 111, 202301 (2013). https://doi.org/10.
 1103/PhysRevLett.111.202301. arXiv:1305.5516 [nucl-ex]
 911. PHENIX Collaboration, A. Adare et al., Measurement of the relative yields of ψ(2S) to ψ(1S) mesons produced at forward and
@@ -21384,7 +21379,7 @@ arXiv:1305.1467 [nucl-ex]
 sNN = 5.02 TeV. Phys. Lett. B 798, 134926 (2019). https://doi.
 org/10.1016/j.physletb.2019.134926. arXiv:1904.06272 [nuclex]
 978. ALICE Collaboration, S. Acharya et al., Coherent J/ψ and
-ψ photoproduction at midrapidity in ultra-peripheral Pb–Pb
+ψ ′ photoproduction at midrapidity in ultra-peripheral Pb–Pb
 
 123
 
@@ -22955,7 +22950,7 @@ the X(3872) meson quantum numbers. Phys. Rev. Lett.
 ## PDF page 214
 
 813 Page 214 of 221
-1373. LHCb Collaboration, R. Aaij et al., Study of the ψ2 (3823)
+1373. LHCb Collaboration, R. Aaij et al., ( Study of )the ψ2 (3823)
 and χc1 (3872) states in B + → J ψπ + π − K + decays.
 JHEP 08, 123 (2020). https://doi.org/10.1007/JHEP08(2020)123.
 arXiv:2005.13422 [hep-ex]
@@ -23216,7 +23211,7 @@ doi.org/10.1016/j.ppnp.2017.02.002. arXiv:1702.00486 [nucl-th]
 
 Eur. Phys. J. C (2024) 84:813
 
-ALICE Collaboration
+ALICE Collaboration⋆
 S. Acharya126 , D. Adamová86 , A. Adler70 , G. Aglieri Rinella32 , M. Agnello29 , N. Agrawal51 , Z. Ahammed134 ,
 S. U. Ahn71 ,
 I. Ahuja37 ,

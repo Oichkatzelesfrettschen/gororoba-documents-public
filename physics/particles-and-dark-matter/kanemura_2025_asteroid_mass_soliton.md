@@ -8,7 +8,7 @@ Fidelity: machine (failed: characters)
 
 Transcription of `kanemura_2025_asteroid_mass_soliton.pdf` in this directory, 9 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 9 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-8 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 9 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-8 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -266,8 +266,8 @@ and then evolves by entropy conservation under the cosmic
 expansion.
 Using these features, one can obtain the energy ratio of
 soliton DM to baryons as
-
-
+(
+)
 Ωdm
 µ
 ≈ cχ
@@ -294,7 +294,7 @@ latent heat to the radiation energy density. For Fermiball contributing to the w
 temperature reads T∗ ≈ (0.1/α)1/4 c−1
 χ GeV, suggesting a
 GeV-scale FOPT. Substituting T∗ into Mfb , we find the Fermiball DM mass links the BAU and the FOPT dynamics via
- v 3  100 3  α 3/4
+( v )3 ( 100 )3 ( α )3/4
 w
 Mfb ≈ 1017 g
 c3χ , (2)
@@ -307,17 +307,17 @@ signals, as the latter is determined by vw , α, and β/H ∗ . For
 typical FOPT with α = O(0.1) and β/H ∗ = O(100), the
 GW is sound-wave dominated [73]. The resulting GW peak
 frequency and amplitude both depend on the Fermi-ball mass,
-1/3
+)1/3
 1017 g
 ,
 (3)
 Mfb
-2/3 
-
-
-2 
-2
-α  µ
+)2/3 (
+(
+(
+)2 (
+)2
+α ) µ
 Mfb
 Ωb
 Ωsw ≈ 10−11
@@ -328,7 +328,7 @@ mp
 Ωdm
 fsw ≈ 3.8 × 10−5 Hz
 
-
+(
 
 Remarkably, the robust prediction that asteroid-mass Fermiball DM is associated with micro-Hertz GWs perfectly
 aligns with the detection targets of the proposed experiments
@@ -378,24 +378,24 @@ assume that only the particles with an effective mass µ within
 the bubble width ∼ m−1
 ϕ can decay. The lifetime of a soliton
 estimated via τfb ∼ −Q/(dQ/dt) yields
- m 
+( m )
 τfb
 ϕ
 ≈ 1013
 τχ
 GeV
 
-
+(
 
 Γχ
 Γµχ
 
-
+)(
 
 Mfb
 1017 g
 
-1/3
+)1/3
 
 c4/3
 χ ,
@@ -461,8 +461,8 @@ associated with different scalars i = h, η, and ϕ. After the
 scalars develop their vacuum expectation values (VEVs), i.e.,
 ⟨h⟩ ≡ v ≈ 246 GeV, ⟨ϕ⟩ ≡ w, and ⟨η⟩ ≡ u, the SM neutrino
 masses read
-
- y  y 
+)
+( y )( y )(
 u
 h
 η
@@ -502,18 +502,18 @@ the χ-asymmetry exhibits a resonant enhancement. Following
 Ref. [87], the asymmetry for χ2 + χ3 yields
 Yχ2 +χ3 ≈ 4.3 × 10−8
 
- ȳ
+( ȳ
 
 h
 10−6
 
-4
+)4
 
 ⟨fχ ⟩αβ ,
 
 (7)
 
-P
+∑
 ∗
 ∗
 1/4
@@ -524,8 +524,8 @@ the indices µ and e corresponding to the maximal resonant
 enhancement in the muon-electron direction [87]. The
 average ⟨fχ ⟩αβ is defined by the nonthermal χ2,3 distribution
 functions under interaction over temperature and momenta,
-Z zsph Z ∞ Z ∞
-Z ∞
+∫ zsph ∫ ∞ ∫ ∞
+∫ ∞
 θ4 Iαβ
 ⟨fχ ⟩αβ ≡
 dz
@@ -657,13 +657,13 @@ future collider detection attainable.
 
 The necessary condition for the two-step phase transition in
 Eq. (9) with the second step being a FOPT is [101]
-p
+√
 µ2η
 λη
 λϕη
 cη
 <
-< 2 <p
+< 2 <√
 .
 (12)
 cϕ
@@ -725,13 +725,13 @@ Sinh =
 where
 =
 −(µ2η + cη T 2 )/λη . In this case, the ηdirection domain
-p walls can form with a surface tension
+√ walls can form with a surface tension
 of σdw = 4 λη /2u′3
 When the Universe cools
 T /3.
 below the critical temperature Tc , another minimum (wT , 0)
 develops and becomes the global minimum, where wT =
-q
+√
 −(µ2ϕ + cϕ T 2 )/λϕ . At this stage, the Universe acquires
 a probability to decay into this true vacuum. Domain walls
 serve as the local impurities to seed the bubble nucleation,
@@ -754,7 +754,7 @@ fulfill the whole Universe. For the parameter space under consideration, the dom
 the dominant pathway to realize the FOPT.
 Below Tη = (−µ2η /cη )1/2 , the field configuration (ϕ, η) =
 (0, ±u′T ) becomes
-q the minimum of the thermal potential,
+√ the minimum of the thermal potential,
 
 ��
 
@@ -853,7 +853,7 @@ where ER is the height of the energy barrier of the bubble,
 evaluated by a spheroid bubble configuration under the thinwall approximation [95]. Different from the conventional
 homogeneous nucleation, the nucleation rate is now given by
 the following integration
-Z Tc
+∫ Tc
 dT ′ ΓS (T ′ )
 N (T ) =
 ,

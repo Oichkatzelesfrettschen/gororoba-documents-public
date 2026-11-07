@@ -8,7 +8,7 @@ Fidelity: machine (failed: characters)
 
 Transcription of `arza_2026_cosmic_wispers.pdf` in this directory, 632 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 290, 292, 412 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-289, 291, 293-411, 413-632 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 290, 292, 412 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-289, 291, 293-411, 413-632 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -1339,9 +1339,10 @@ ī
 
 V (T i , T ) = Vmod (τ i ) +
 
-X
+∑
 
-
+(
+)
 Λ4I cos 2πOIi θi + δI + . . . .
 
 (4)
@@ -1529,7 +1530,7 @@ wrapping the i-th divisor Di . The resulting gauge group is SU (N ) × U (1). Th
 factor is generically anomalous and becomes massive by eating a linear combination
 of string axions. Let us discuss this process a bit more in detail, following App. A of
 [89]. The Chern-Simons part of the brane action contains a term of the form:
-Z
+∫
 C4 ∧ F 2 ∧ F 2 ,
 (7)
 R1,3 ×Di
@@ -1544,8 +1545,8 @@ j = 1, · · · , h1,1 ,
 
 where D̂j and D̃j are, respectively, bases of harmonic (1, 1)- and (2, 2)-forms. Substituting the expansion (8) in the action (7), the j-th 4D 2-form Qj2 couples to the U (1)
 on the i-th divisor Di as
-Z
-Z
+∫
+∫
 j
 qij
 D̂j ∧ F2 .
@@ -1568,12 +1569,12 @@ qip Mp2
 √
 2π τi
 
-
+(
 
 ∂ 2 K0
 ∂τp ∂τq
 
-X
+)∑
 j
 
 qjq
@@ -1626,12 +1627,13 @@ string modes, can be kept light:
 U (1) on a stack of D7-branes wrapping the divisor Di . A non-zero gauge flux F2
 generates a moduli-dependent Fayet-Iliopoulos (FI) term in the D-term scalar potential
 which schematically looks like (see again App. A of [89] for more details)
-2
+(
+)2
 VD ≃ g 2 |C|2 − ξi ,
 (11)
 where we assumed just one charged open string mode C, and the FI-term ξi can be
 expressed in terms of the Kähler form J = tj D̂j and the U (1) charges qij (see (9)) as
-Z
+∫
 1
 ∂K0
 ξi ≃
@@ -1660,8 +1662,8 @@ to ξi ̸= 0, a non-zero VEV for |C| breaks the PQ U (1) spontaneously and the p
 
 Considering for simplicity just a single Kähler modulus τ charged under the U (1),
 the mass of this Abelian gauge boson would then get two contributions:
-
- 2 
+[
+( )2 ]
 2
 2
 op 2
@@ -1670,27 +1672,20 @@ mγ ′ ≃ g (fa ) + facl
 (14)
 where the open and closed string axion decay constants faop and facl are given by (see
 the mass formula (10)):
-(faop )2 ≃
-
-∂K0
-∂τ
-
-and
-
-
-
-facl
-
-2
-
-≃
-
-∂ 2 K0
+∣
+∣
+( )2 ∂ 2 K
+∣ ∂K0 ∣
+0
+op 2
+∣
+(fa ) ≃ ∣∣
 .
-∂τ 2
-
 (15)
-
+and
+facl ≃
+∂τ ∣
+∂τ 2
 If faop ≫ facl , as in the case of D7-branes wrapping cycles in the geometric regime, the
 combination of moduli fixed by D-terms is mostly |C| and ζ is eaten by the anomalous
 U (1). If instead faop ≪ facl , as for the case of D3-branes at singularities, the modulus
@@ -1765,9 +1760,9 @@ from (15), the decay constant of a closed string axion is controlled by the seco
 of the Kähler potential. This leads, schematically, to two situations:
 • Bulk cycles: When the saxion τ is the volume of a bulk cycle, facl turns out to be of
 order the KK scale MKK since (reintroducing appropriate powers of Mp ):
-
-
- 2 ∂ 2 K
+(
+)
+( )2 ∂ 2 K
 Mp 2
 0
 cl
@@ -1785,9 +1780,9 @@ M ≃
 τ
 • Local cycles: When the saxion τloc controls the volume of a local blow-up mode
 resolving a point-like singularity, facl is of order the string scale since:
-
-
- 2 ∂ 2 K
+(
+)
+( )2 ∂ 2 K
 2
 τloc
 Mp 2
@@ -1821,8 +1816,8 @@ in the string landscape. One can fix the Calabi-Yau manifold, and so the number 
 and see how facl of each axion changes when moving in moduli space along a trajectory
 corresponding to stabilised vacua. This analysis was performed in [43] finding a logarithmic
 distribution:
-
-
+(
+)
 fθi
 N (fθi ) ∼ ln
 ∀i = 1, · · · , nax ,
@@ -1981,7 +1976,7 @@ D3-branes at singularities this shift can be a small effect, τloc ∼ V −1 �
 in a spontaneous breaking of the PQ symmetry at energies below the cut-off scale
 of the 4D low-energy effective theory [75, 92]. In fact, combining (13) with (19) and
 τloc ∼ V −1 ≪ 1, one has
-p
+√
 √
 faop = ⟨|C|⟩ = ξ ≃ τloc Ms ≃ m3/2 ≪ Ms .
 (21)
@@ -2024,7 +2019,7 @@ cN
 N −4
 Λ
 N >4 UV
-X
+∑
 
 (22)
 
@@ -2103,14 +2098,14 @@ QCD gauge instanton effects. However, assuming that CP is not an approximate sym
 of the UV theory, such contribution shifts the minimum of the QCD axion potential. As
 shown in [32], if one assumes MSSM particle content and no additional gauge sector, the
 induced shift can be given in terms of the SUSY partner masses as
-
+(
 
 ∆θQCD ∼ 10−12
 
 1 TeV
 MSUSY
 
-3
+)3
 ,
 
 (26)
@@ -2223,22 +2218,21 @@ minimum and its equation of state becomes w = 0, thus behaving as matter. An axi
 heavier than the Hubble expansion rate at matter-radiation equality in ΛCDM, i.e. with
 ma ≳ 10−28 eV, begins oscillating during radiation domination and represents a valid dark
 matter candidate. In particular, one can compute its abundance as
-Ω a h2
-
-
+(
+∣
+∣
+Ωa h2 ∣ ≈ 0.12
 r
-
-≈ 0.12
 
 fa
 1016 GeV
 
-2 
+)2 (
 
 ma
 4.4 × 10−19 eV
 
-1/2
+)1/2
 
 θ02 .
 
@@ -2246,10 +2240,12 @@ ma
 
 Instead, if the axion mass is ma ≲ 10−28 , then it starts to oscillate during matter domination,
 and its relic density can be computed from
-
-2
+(
+)2
+∣
 fa
-Ωa h2 ≈ 7.6 × 10−6
+∣
+Ωa h2 ∣ ≈ 7.6 × 10−6
 θ02 ,
 (32)
 1016 GeV
@@ -2273,14 +2269,21 @@ Axions with smaller instanton actions Sa are more represented: the abundance is 
 by the heavier axions since big hierarchies among the decay constants are not generic in
 the string landscape. Therefore, overabundance is a clear obstacle for the string axiverse,
 as the total abundance due to all axions must be
-X
-X
-X
-Ωtotal h2 = Ωa,QCD h2 +
-Ω a h2 +
-Ω a h2 +
-Ωa h2
-≤ ΩDM h2 ≈ 0.12 , (34)
+∣
+∣
+∣
+∑
+∑
+∑
+2
+2
+2∣
+2∣
+2∣
+Ωtotal h = Ωa,QCD h +
+Ωa h ∣ +
+Ωa h ∣ +
+Ωa h ∣ ≤ ΩDM h2 ≈ 0.12 , (34)
 a
 
 m
@@ -2393,8 +2396,8 @@ radiative corrections that would otherwise lift the axion’s mass away from the
 values required for quintessence.
 Let us then consider an axion in the late universe, with a canonical kinetic term and
 potential of the form
-
-
+(
+)
 ϕ
 ,
 (35)
@@ -2501,7 +2504,7 @@ chiral superfield, upon canonical normalisation of the modulus, the action can b
 L
 1
 f 2 (ξ)
-p = (∂ξ)2 +
+√ = (∂ξ)2 +
 (∂ϕ)2 − V (ξ) ,
 2
 2
@@ -2532,7 +2535,7 @@ if k2 ≥
 
 and
 
-p
+√
 √
 ± 6HMP k22 + 2k1 k2 + 6
 f (ξ)ϕ̇ =
@@ -2540,7 +2543,7 @@ f (ξ)ϕ̇ =
 
 (37)
 
-p
+√
 6 + k12 − k1 . The corresponding equation of state parameter
 ω=
 
@@ -2565,8 +2568,8 @@ thereby reconciling the datasets. Unlike standard quintessence, the EDE field is
 relevant only for a short interval and subsequently dilutes away, avoiding conflicts with
 late-time cosmology. The simplest realizations involve a pseudo-Nambu-Goldstone boson
 (axion-like field) ϕ with a periodic potential of the form
-
- n
+[
+( )]n
 ϕ
 VEDE (ϕ) = V0 1 − cos
 ,
@@ -2652,7 +2655,8 @@ volumes V ∼ 104−6 (in units of string length).
 A crucial achievement of this construction is that the tiny EDE energy scale arises
 without tuning the Pfaffian prefactors: the fluxed ED3/D7 non-perturbative effects lead to
 instanton actions S large enough that
-
+(
+)
 4 −S
 4
 V0 ∼ MPl
@@ -2689,7 +2693,7 @@ existence likewise closely tied to the extra-dimensional topology.
 Axion-like particles can arise from the dimensional reduction of form fields on cycles
 in the Calabi-Yau, for example, via an RR n-form field dimensionally reduced on an n-cycle
 Σi to give a 0-form axion,
-Z
+∫
 ai (xµ ) =
 
 Cn (xµ ) ,
@@ -2704,7 +2708,7 @@ of the extra-dimensional form field. For the case of axions, the dimension of th
 form field matches the dimension of the cycle. One easy way to obtain dark photons in
 string theory is when the dimension of the form field is one larger than the dimension of the
 cycle. If we now reduce a RR (n + 1)-form on an n-cycle, we obtain a U(1) gauge boson,
-Z
+∫
 µ
 Ai =
 Cn+1 ,
@@ -2748,9 +2752,9 @@ fields which only appear in the perturbative action via the field strength (e.g.
 The darkness of such RR U(1) photons is also set by their action. The only direct
 couplings of RR form fields are to D-branes, arising via the Chern-Simons part of the DBI
 + CS coupling,
-Z
-Z
-p
+∫
+∫
+√
 −ϕ
 ′
 Cp .
@@ -3056,8 +3060,8 @@ The Gravitino Conjecture The gravitino conjecture [208, 209] proposes that the l
 of small gravitino mass m3/2 → 0 is obstructed in quantum gravity because it is always
 accompanied by an infinite tower of states becoming massless. More precisely, the typical
 mass scale mt of this tower behaves as
-
-
+(
+)
 m3/2 n
 mt ∼ MP
 ,
@@ -3158,10 +3162,10 @@ U (1)PQ . For the purpose of illustration, let us consider a simple example with
 flavour of exotic left-handed colour-triplet (but SU (2)L -singlet) fermion Q and anti-triplet
 Qc , which also includes an elementary scalar field σ breaking U (1)PQ spontaneously. The
 relevant part of the Lagrangian density is given by
-
-
-
-1 2
+(
+)
+(
+1 )2
 L = ∂µ σ∂ µ σ ∗ + iQ̄σ̄ µ Dµ Q + iQ̄c σ̄ µ Dµ Qc − yσQQc + h.c − λ σσ ∗ − fa2 ,
 (57)
 2
@@ -3187,9 +3191,9 @@ derive the low-energy axion couplings, one may parameterise σ as
 and make the field redefinition: (Q, Qc ) →√e−ia(x)/2fa (Q, Qc ). Integrating out the heavy
 ρ and (Q, Qc ) while assuming mQ = yfa / 2 ≲ mρ ∼ fa , one finds the axion effective
 Lagrangian at the scale µ = mQ ,
-
+)
 1
-1 a(x) 2 a aµν
+1 a(x) ( 2 a aµν
 gc Gµν G̃
 + 3YQ2 g12 Bµν B̃ µν ,
 La (µ = mQ ) = ∂µ a∂ µ a +
@@ -3210,7 +3214,7 @@ feature of the KSVZ-type axion is that the couplings to the SM quarks and lepton
 interactions and the Yukawa couplings can be taken into account following the analysis of
 [223–227]. Including only the leading radiative corrections, the axion couplings at µ = 2
 GeV for the model of Eq. (57) are given by [226]
-∂µ a X
+∂µ a ∑
 1 a(x) 2 a aµν
 (gc Gµν G̃
 + 3YQ2 e2 Fµν F̃ µν ) +
@@ -3223,28 +3227,27 @@ caΨ Ψ̄γ µ γ5 Ψ ,
 
 where
 cau
+cae
 
+(
+)
 6
-≃ cad ≃
-25π
-
-cae ≃
-
-3yt2 (mt )
-112π 2
-
-
-
 25
+≃ cad ≃
 αs (µ = 2 GeV) − αs (mQ ) + 0.029 = O(10−2 ) ,
+25π
 21
-
- !
+(
+(
+) )
 αs (mQ ) 8/7
 αs (mQ )
+3yt2 (mt )
+≃
 1−8
 +7
 = O(10−3 ) ,
+112π 2
 αs (mt )
 αs (mt )
 
@@ -3285,8 +3288,8 @@ cap ≃ −0.47 + ∆cN ,
 
 can ≃ −0.03 + ∆cN ,
 
-
-
+[
+]
 ∆cN ≃ 0.047 × αs (1010 GeV) − αs (mQ ) = O(10−3 ) .
 
 (64)
@@ -3343,14 +3346,15 @@ e−2iYψ cos 2βa(x)/fa ψ, where Yψ is the U (1)Y -hypercharge of ψ = (q, uc
 
 radiative corrections to the axion couplings, the above procedure yields the low energy
 axion couplings at µ = 2 GeV as
- ∂µ a
-1 a(x)
-6gc2 Gaµν G̃aµν + 16e2 Fµν F̃ µν +
+) ∂µ a
+1 a(x) ( 2 a aµν
+6gc Gµν G̃
++ 16e2 Fµν F̃ µν +
 2
 32π fa
 2fa
 
-X
+∑
 
 caΨ Ψ̄γ µ γ5 Ψ ,
 
@@ -3393,8 +3397,10 @@ sector and another with a chiral axicolor sector.
 Our first example includes the axicolor gauge group Gaxicolor = SU (Na ) confining at
 Λa , together with the vector-like left-handed axicolored fermions, which are assumed to be
 neutral under SU (2)W × U (1)Y for simplicity [220, 221]:
-
-
+(
+)
+(
+)
 η3 = ψ(Na ,3) , ψ(cN̄a ,3̄) , η1 = ψ(Na ,1) , ψ(cN̄a ,1) ,
 (72)
 where the subscripts (Na , 3), ..., (N̄a , 1) denote the representation of the gauge group
@@ -3440,8 +3446,10 @@ those couplings can be obtained from Eqs. (61), (62), (63), and (64) by replacin
 with (fa /Na , 0).
 Our next example involves the axicolor gauge group SU (5)a with the axicolored
 left-handed fermions [116]
-
-
+(
+)
+(
+)
 η10 = ψ(10,3) , ψ(10,3̄) , η5̄ = ψ(5̄,3) , ψ(5̄,3̄) ,
 (76)
 where again the subscripts (10, 3), ..., (5̄, 3̄) denote the representation of the gauge group
@@ -3512,7 +3520,7 @@ On the other hand, there exists a cyclic direction in the Euclidean gauge field 
 space, and the corresponding winding is characterised by the Pontryagin index defined as
 ∗
 an integral over the one-point compactified Euclidean space (R4 )
-Z
+∫
 1
 Q =
 d4 x tr Gµν G̃µν ∈ Z,
@@ -3713,8 +3721,8 @@ A is the quantised anomaly coefficient and is unaffected by renormalisation grou
 flow. Below the electroweak symmetry breaking scale (irrespective of the hierarchy between
 MGU T and Fa ), the axion-photon and axion-gluon couplings are proportional to the anomaly
 coefficients E and N :
-i
-a h
+]
+a [
 L⊃
 αEM EFµν F̃ µν + αs N Gaµν G̃a,µν ) .
 (90)
@@ -3830,7 +3838,7 @@ scalar fields. The latter typically arise in scenarios with pseudo-anomalous U (
 symmetries17 .
 The couplings of axion to gauge bosons in the 4d EFT in heterotic strings arise from
 the Green-Schwarz [255] counter term responsible for 10d anomaly cancellation:
-Z
+∫
 B ∧ X8 ,
 (92)
 K
@@ -3858,8 +3866,8 @@ tr2 F 2 .
 (93)
 8π
 8π
-
-P (1,2)  (1,2)
+)
+∑ (1,2) ( (1,2)
 (1,2)
 In the equation above the traces tr1,2 F 2 = j kj tr Fj
 include the unbroken
@@ -3895,12 +3903,12 @@ anomalies of U (1)P Q and therefore the anomaly coefficients are equal to the co
 group-theoretic factors, and can in fact vary widely depending on the representation in
 which the integrated out quarks transform.
 Specifically, suppose that the new heavy quarks Q transform in a certain representation
-P
+∑
 (C
 Q Q , IQ , YQ ) of the Standard model gauge group SU (3)c ×SU (2)L ×U (1)Y , and are
 also coupled to the PQ field Φ in the UV via the coupling (ΦQ̄L QR + h.c.). Then, the
 anomaly coefficients are:
-X
+∑
 N=
 d(IQ ) T (CQ ) ,
 (94)
@@ -3908,7 +3916,7 @@ Q
 
 E=
 
-X
+∑
 Q
 
 2
@@ -3987,12 +3995,12 @@ can be computed in the framework of heavy baryon Chiral Perturbation Theory, a n
 relativistic effective field theory where nucleons are at rest and the axion is treated as an
 external current (see [228, 264, 265] for details). In particular, working at leading order
 with three active flavours, one obtains
-
-
-
-
-
-
+(
+)
+(
+)
+(
+)
 1
 z
 w
@@ -4004,12 +4012,12 @@ cp = cu −
 1+z+w
 1+z+w
 1+z+w
-
-
-
-
-
-
+(
+)
+(
+)
+(
+)
 1
 z
 w
@@ -4052,11 +4060,12 @@ GeV, corresponding to rut = −0.2276 and rd,s
 dependence from shifts in fa when varying the axion mass.
 In order to discuss nucleophobic axion models, it is convenient to consider the linear
 combinations
-
+(
+)
 cp + cn ≃ c0u + c0d − 1 g0ud + 2(c0s + rst c0t )∆s ,
 (100)
-
-
+(
+)
 1−z
 cp − cn ≃ c0u − c0d + (rut − rdt )c0t −
 gA ,
@@ -4230,13 +4239,13 @@ to this mass scale, it follows a prediction for axion dark matter,
 
 Ωa h ∼ 0.1
 
-
+(
 
 fa
 12
 10 GeV
 
-7/6
+)7/6
 
 θi2 ,
 
@@ -4259,7 +4268,7 @@ solution to the strong CP problem as long as the PQ symmetry is preserved by the
 mixing interactions. It has been shown [289] that requiring the latter condition on the
 axion potential is equivalent to an exact sum rule:
 N
-X
+∑
 1
 i=1
 
@@ -4288,7 +4297,7 @@ canonical band is N . In such scenario, all other signals are deviated by the sa
 ## PDF page 65
 
 2. WISP model building in QFT
-β > 1 − β?
+β > 1 − β⋆
 
 1/ f a [GeV−1]
 
@@ -4303,7 +4312,7 @@ gle
 ion
 ax
 
-First signal (g? = 3)
+First signal (g⋆ = 3)
 Axion in N = 2
 Axion in N = 3
 Maxion in N = 3
@@ -4358,13 +4367,13 @@ factor and aligned in the same line parallelly to the single axion band. We refe
 signals as QCD maxions, which in this limit contribute equally to the axion sum rule.
 To discuss the novel features of this mechanism, let us consider a N = 2 toy model
 with the following effective Lagrangian:
-
-
+(
+)
 αs â1 â2
-e − 1 m̂22 â22 ,
+1
 LN =2 =
 +
-+ θ̄ GG
++ θ̄ GG̃ − m̂22 â22 ,
 (110)
 ˆ
 8π fˆ
@@ -4374,8 +4383,8 @@ where âi denote unphysical fields. It is easy to see that the PQ symmetry is i
 by shifts of the â1 field, that from here on, we will denote by the PQ field, âPQ . Such a shift
 ensures CP conservation in the QCD vacuum, which can be explicitly checked by studying
 the induced potential
-
-
+(
+)
 1
 â1 â2 2 1 2 2
 VN =2 = χQCD
@@ -4395,7 +4404,7 @@ While the first condition requires an alignment of the VEVs in field space for a
 QCD vacuum, the second one is only selecting a particular direction in this manifold that
 fixes the VEV of both fields.
 The original Lagrangian in this example can be rotated to make it explicit that only
-one combination of fields couples to gluons, âGGe /F ≡ 2(â1 + â2 )/fˆ. This field is allowed to
+one combination of fields couples to gluons, âGG̃ /F ≡ 2(â1 + â2 )/fˆ. This field is allowed to
 
 53
 
@@ -4429,23 +4438,21 @@ eigenstate decouples such that the model reproduces the single QCD axion case. F
 we obtain instead the maximal deviation to the standard scenario, with two QCD maxions
 being produced. Figure adapted from Ref. [289].
 mix with an orthogonal combination, i.e.
-
-
-
-αs âGGe
-e − 1 m̂2 â − â⊥ 2 .
+(
+)
+(
+)2
+αs âGG̃
+1
 LN =2 =
-+ θ̄ GG
-2
-G
-G̃
++ θ̄ GG̃ − m̂22 âGG̃ − â⊥ .
 8π
 F
 4
 
 (113)
 
-In the absence of the second term, âGGe behaves as the canonical QCD axion (so that F = fa );
+In the absence of the second term, âGG̃ behaves as the canonical QCD axion (so that F = fa );
 however, the introduction of an external scale causes modifications to this prediction.
 This can be checked by diagonalising the system exactly, obtaining the eigenvectors and
 eigenvalues of the mass matrix, and consequently computing the g-factors of the physical
@@ -4461,17 +4468,18 @@ scale m̂2 is comparable to that induced by QCD effects. At this point, both fie
 actively and equally to the solution to the strong CP problem.
 The previous considerations can be better understood by following a more physical
 interpretation of the sum rule, namely by noting that
-βi ≡
-
-⟨âPQ |ai ⟩ ai |âGGe
+⟨
+⟩
+⟨âPQ |ai ⟩ ai |âGG̃
 1
+⟨
+⟩
+βi ≡
 =
 .
-gi
-âPQ |âGGe
-
 (114)
-
+gi
+âPQ |âGG̃
 In particular, the decoupling limits follow trivially from this expression: e.g. in the case
 m̂2 ≫ mPQ , a2 is an eigenstate which does not overlap with â1 = âPQ ; this limit must
 therefore lead to a canonical QCD axion. These limits are, however, just the corner of a
@@ -4579,8 +4587,8 @@ g 2 a2
 2
 32π f1
 32π f2
-
-
+(
+)
 2
 gX
 a1 a2
@@ -4642,7 +4650,7 @@ N
 LCW =
 +
 
-1X
+1∑
 g 2 a1
 g 2 aN
 ∂µ ai ∂ µ ai + c 2 Gaµν G̃aµν + k 1 2
@@ -4651,11 +4659,11 @@ Bµν B̃ µν
 32π f1
 32π fN
 i=1
-
-N −1 
+)
+N −1 (
 aj
 aj+1
-1 X
+1 ∑
 α
 nj +
 Xjµν
@@ -4673,11 +4681,11 @@ j=1
 
 2. WISP model building in QFT
 
-Q −1
+∏ −1
 where the model involves a tower of confining hidden gauge groups N
 j=1 SU (Nj )X with
 the confining scales Λj ≫ ΛQCD . This tower of hidden gauge interactions enforces nj aj /fj +
-Qj−1 
+( ∏j−1 )
 ∼
 aj+1 /fj+1 = 0 which is solved by aj /fj = (−1)j−1
 k=1 nk a/fa , where a(x) = a(x)+2πfa
@@ -4687,7 +4695,7 @@ E/NDW = k
 
 N
 −1
-Y
+∏
 
 fa /fi ∼
 
@@ -4697,7 +4705,7 @@ j=1
 
 N
 −1
-Y
+∏
 
 nj ,
 
@@ -4716,9 +4724,11 @@ which are coupled to the gauge and PQ-charged fermions as
 
 N
 −1
-X
+∑
 
-
+(
+
+)
 yj ϕj λj λj + yj′ ϕj+1 ψj ψjc + h.c. ,
 
 (122)
@@ -4747,19 +4757,18 @@ N
 (125)
 
 with k = 0, . . . , N − 1. The most general Lagrangian implementing this symmetry reads
-
-
-
+(
+)
+]
 N
-−1 
-X
+−1 [
+∑
 αs
 2πk
-ek ,
 L=
 LSMk +
 θa +
-Gk G
+Gk G̃k ,
 (126)
 8π
 N
@@ -4770,12 +4779,12 @@ universal (equal for all k sectors) bare theta parameter has been set to zero vi
 shift of the axion field, and the SM is identified from now on with the k = 0 sector. Each
 QCDk sector contributes to the θa potential, which in the 2-flavour leading order chiral
 expansion reads
-s
-
-
+√
+(
+)
 N
 −1
-X
+∑
 4z
 πk
 2 2
@@ -4813,7 +4822,7 @@ m2a ≃ π2 π √
 fa
 π
 
-r
+√
 
 1 − z 3/2 N
 N
@@ -4870,9 +4879,9 @@ all fermions are charged under U (1)F N , the Higgs field H remains neutral for 
 Instead, the new symmetry is spontaneously broken at a larger scale by a new complex
 scalar field Φ, which acquires a vacuum expectation value (VEV) vΦ . This new field is
 introduced in the Yukawa couplings as one would usually do in the FN mechanism:
- xu −xQ
- xd −xQ
- xe −xL
+( )xu −xQ
+( )xd −xQ
+( )xe −xL
 j
 j
 i
@@ -4970,8 +4979,8 @@ where F = u, d, e are the up-type and down-type quarks and charged leptons and f
 runs through the same indices. In Eq. (135) λfij stands for the coupling constant between
 the Flaxion/Axiflavon and the fermions f of the i-th and j-th generations. The explicit
 expression of this coupling is:
-
- v
+(
+) v
 λfij = i Rjf − Lfi
 Yf ,
 (136)
@@ -5010,9 +5019,8 @@ Symmetry Breaking (SSB) of lepton number [327–330]. Its simplest realisation c
 obtained by extending the Type-I seesaw model [331–335] by a complex scalar singlet, Φ,
 charged under Lepton number (LN). The latter is then assumed to be a robust symmetry
 of the model, such that the NP Lagrangian reads
-e D NR − 1 ΦN c YN NR − V (Φ) ,
-LNP = −LL HY
-R
+1
+LNP = −LL H̃YD NR − ΦNRc YN NR − V (Φ) ,
 2
 
 (137)
@@ -5052,12 +5060,12 @@ potential [340–342].
 All in all, the tree-level Majoron Lagrangian reads
 1
 1
-e D NR − 1 N c MN NR eiJ/fJ ,
-LNP ⊃ ∂ µ J∂µ J − m2J J 2 − LL HY
+1
+LNP ⊃ ∂ µ J∂µ J − m2J J 2 − LL H̃YD NR − NRc MN NR eiJ/fJ ,
 (139)
 2
 2
-2 R
+2
 √
 where the Majorana mass is given by MJ ≡ fJ YN / 2. The above Lagrangian provides a
 minimal example of a leptophilic ALP model, and thus, they share many (but not all) of
@@ -5071,9 +5079,9 @@ Majoron couplings at leading order in fJ can be found, e.g. in Ref. [343]. Coupl
 the Majoron to charged leptons in a more general class of seesaw models can be found in
 Ref. [344]. Denoted by ni the neutral leptons (light and heavy) and by ℓi = (e, µ, τ ) the
 charged ones, the interactions read
-#
-"N
-iJ X
+]
+[N
+iJ ∑
 1
 (140)
 LJ ⊃
@@ -5095,10 +5103,10 @@ Couplings of the Majoron to gauge bosons are generated at 2-loops. The operators
 involving chiral gauge bosons take the form JF Z̃, JZ Z̃, and JW + W̃ − . Concerning vectorial
 gauge bosons such as F and G, the operators JF F̃ and JGG̃ are not generated. Instead,
 in the limit mJ → 0, the Majoron couples as
-
-
+(
+)
 gJV V □J
-gJV V  mJ 2
+gJV V ( mJ )2
 µν
 LJ ⊃ −
 V
@@ -5163,13 +5171,13 @@ SM-singlet complex scalar field σ (the Peccei-Quinn (PQ) field) and a vector-li
 SM-singlet neutrinos Ni , with i = 1, 2, 3, are added. All the new fields, as well as the quarks
 and leptons of the SM, are assumed to be charged under a global U (1)PQ symmetry, cf.
 Table 1. The scalar potential in SM*A*S*H has the general form
-
-2
-2
-
-
-
-
+(
+)2
+)2
+(
+)(
+)
+(
 v2
 v2
 vσ2
@@ -5202,9 +5210,9 @@ mass – can be avoided in SM*A*S*H by the stabilising effect of the Higgs porta
 λHσ [363, 364]. This requires λ2Hσ /λσ to be between ∼ 10−2 and ∼ 10−1 [356]. Inflation is
 realised in SM*A*S*H by the dynamics of the PQ and Higgs fields in the presence of their
 generically present non-minimal gravitational couplings to the Ricci scalar R [365–369],
-Z
-h
-i
+∫
+[
+]
 √
 S ⊃ − d4 x −g ξH H † H + ξσ σ ∗ σ R .
 21
@@ -5220,7 +5228,7 @@ Similar models have been considered in Refs. [357–361].
 Calculable and observationally viable inflation occurs requires 1 ≳ ξσ ≫ ξH and λHσ < 0,
 the inflaton being then a mixture of the real part of the PQ field and the modulus of the
 Higgs. The predicted fluctuations in the cosmic microwave background (CMB) temperature
-and polarisation agree with the observations if the non-minimal coupling ξσ and thepeffective
+and polarisation agree with the observations if the non-minimal coupling ξσ and the√effective
 quartic coupling of the inflaton, λ̃σ = λσ −λ2Hσ /λH , satisfy 7×10−3 ≲ ξσ ≃ 4×104 λ̃σ ≲ 1.
 Reheating of the Universe after inflation proceeds then efficiently via the Higgs portal.
 SM*A*S*H predicts a lower bound on the ratio of the power in tensor to scalar fluctuations,
@@ -5258,9 +5266,9 @@ vector field fundamentally distinguishes it from other vector dark matter candid
 in the literature [389]. (One may check the effects of the geometric vector field on black
 hole formation and black hole solutions in [390–392].) The MAG action is described by
 [389]
- 2
-
-Z
+{ 2
+}
+∫
 MP l µν
 ξ
 µν
@@ -5295,9 +5303,9 @@ torsion throughout ∆λµν = 12 g λρ (Qµνρ + Qνµρ − Qρµν ) where 
 tensor field which is decomposed in terms of the non-metricity tensor Qλµν = −Γ ∇λ gµν .
 Using the decomposition of the affine connection in terms of the nonmetricity tensor, one
 gets general relativity plus a consistent vector field theory
- 2
-
-Z
+{ 2
+}
+∫
 MP l
 1
 1 2
@@ -5327,12 +5335,13 @@ connection in the covariant derivative of spinor fields in curved spacetime [397
 (∂µ + 14 ωµab γa γb )ψ in which the flat spacetime Clifford algebra gives γa γb = ηab + 2σab with
 the Lorentz generator σab = 14 [γa , γb ]. Yµ decays into a fermion f and its anti-particle f
 with a rate
-!
-!1
- 3
+)(
+)1
+( )3 (
 4ξm2f
 8ξm2f 2
- Ncf 3 2
+(
+) Ncf 3 2
 Γ Y → ff =
 1−
 MP l .
@@ -5344,9 +5353,8 @@ MP l .
 
 Here, mf represents the mass of the fermion, and Ncf indicates the number of its colours.
 By summing over the SM quarks (up and down) and leptons (electrons and neutrinos), we
-
+( 2 )3/2 ξ3/2
 1
-2 3/2 ξ 3/2
 obtain its lifetime as τY = Γtot
 = 4π
 5 3
@@ -5386,7 +5394,7 @@ fermions and does not couple to scalars or gauge bosons. This distinctive charac
 it apart from other vector dark matter candidates in the literature. The proposed geometric
 dark matter model is both minimal and self-consistent from theoretical and astrophysical
 perspectives, with its weak interactions being essential for its stability and longevity. It
-is evidentthat the Yµ –proton spin-dependent cross section given in Fig. 10 is at most
+is (evident)that the Yµ –proton spin-dependent cross section given in Fig. 10 is at most
 O 10−106 cm2 , which is far too small to be detectable by any of the current experiments.
 Fig. 10 can be seen as an explanation for why dark matter has not yet been detected in
 direct searches. While it is possible that future experiments might measure it, it is difficult
@@ -5460,10 +5468,10 @@ The connection between Higgs-portal models and the conformally coupled scalars o
 
 2.6.1 Quadratically coupled ultra-light scalar dark matter
 Here, we consider a scalar theory of the form
-
-X
+)
+∑
 1
-ϕ2 
+ϕ2 (
 de F 2 − dg (F A )2 −
 dmi mi ψ̄i ψi ,
 L ⊃ − (∂ϕ)2 − V (ϕ) +
@@ -5507,12 +5515,12 @@ oscillates with frequency m (and phase δ). In the presence of a spherical objec
 matter with density profile ρ(⃗x) = ρΘ(R − |⃗x|), with ρ > M 2 m2 , the field has the form
 with
 
-(
+{
 φ− (r) =
 
 or
 
-(
+{
 φ+ (r) =
 
 ϕ(t, ⃗x) = ϕ∞ cos(mt + δ)φ(⃗x) ,
@@ -5538,11 +5546,11 @@ R≤r
 (152)
 
 depending on the choice of sign in equation (148), with
-m2± = m2 ±
-
-ρ
-.
-M2
+∣
+ρ ∣∣
+∣
+m2± = ∣m2 ± 2 ∣ .
+M
 
 (153)
 
@@ -5611,10 +5619,10 @@ The minimum of this potential lies at ϕmin (ρ) = (nM Λ4+n /ρ)1/(n+1) and flu
 around the minimum have a density-dependent mass
 m2eff = n(n + 1)Λ−(4+n)/(n+1)
 
-
+(
 
 n+2
-ρ  n+1
+ρ ) n+1
 .
 −
 nM
@@ -5641,7 +5649,7 @@ RA and RB and total masses MA and MB , separated by a distance r is [433]
 Fchameleon =
 where
 
-(
+{
 λi =
 
 1,
@@ -5697,13 +5705,13 @@ field to matter. As for the chameleon, we represent non-relativistic matter by i
 density ρ. The behavior of the symmetron field is governed by the effective potential:
 Veff =
 
- ρ
+( ρ
 M
 
 − µ2
 2
 
- ϕ2
+) ϕ2
 2
 
 +
@@ -5736,7 +5744,7 @@ and ρB and radii RA and RB , separated by a distance r is [461]
 Fsymmetron =
 where
 
-
+(
 λi = (ϕout − ϕin )Ri
 
 4πλA λB
@@ -5746,7 +5754,7 @@ min Ri − tanh min Ri
 min Ri
 
 (163)
-
+)
 
 (164)
 
@@ -5807,7 +5815,7 @@ Let us consider first a CP even scalar field coupled to SM fermions and gauge bo
 as:
 
 
-XX
+∑∑
 de
 Lef f = κϕ 
 dmi mi ψ̄i ψi + 2 F F + ... ,
@@ -5834,7 +5842,7 @@ Such oscillations lead to diverse, interesting phenomena that can be searched at
 experiments. For example, one can search for variations of the ratio of different atomic
 transition frequencies. These frequencies depend on the value of the electron and proton
 masses as well as the fine structure constant [464, 465]:
- ςA
+( )ςA
 µA
 ξA +2
 fA ∝
@@ -5903,7 +5911,7 @@ Ha = gaN a0 ma cos(ma t)v · σN .
 Such an oscillating signal can also be searched at NMR-type experiments.
 Finally, the axion-gluon coupling also leads to a pion mass which depends on the
 axion field value [470],
-q
+√
 m2π (θ) = B m2u + m2d + 2mu md cos θ ,
 (175)
 where B = − ⟨q̄q⟩
@@ -5988,7 +5996,7 @@ Bµν , respectively, and their Hodge duals (denoted by a tilde), are summarised
 following low-energy effective Lagrangian [474]:
 Leff =
 
-m2a,0 2 ∂ µ a X
+m2a,0 2 ∂ µ a ∑
 1
 (∂µ a)(∂ µ a) −
 a +
@@ -6042,8 +6050,8 @@ The form of the Lagrangian (177) is not unique, since at dimension 5 we can also
 write down a term which couples the ALP to the Higgs doublet ϕ:
 Leff ⊃ Cϕ Oϕ = Cϕ
 
-
-∂µ a  † µ
+)
+∂µ a ( † µ
 ϕ iD ϕ + h.c. .
 fa
 
@@ -6090,10 +6098,11 @@ diagrams which require the Oϕ counterterm, whose contributions are then rotated
 the basis, following the arguments above [225]. The particular choice of the βF parameters
 is unphysical; physical quantities always depend only on the combinations (179). Overall,
 the RGEs for the ALP-fermion couplings are:
-
+}
+)
 d
-1 
-1
+1 {
+1 (
 CQ (µ) =
 Yu Yu† + Yd Yd† , CQ −
 Yu Cu Yu† + Yd Cd Yd†
@@ -6102,8 +6111,8 @@ Yu Cu Yu† + Yd Cd Yd†
 d ln µ
 32π
 16π
-
-
+]
+[
 2
 βQ
 3αs (3)
@@ -6115,12 +6124,13 @@ X − 2 CF C̃aGG − 2 CF C̃aW W − 2 YQ C̃aBB 1 ,
 8π
 8π
 8π
-
-
+]
+[
+}
 βq
 d
 3α12 2
-1  †
+1 { †
 1
 3αs2 (3)
 †
@@ -6133,10 +6143,10 @@ d ln µ
 8π 2
 8π
 8π
-
-
-n
-o
+]
+[
+{
+}
 2
 d
 3α12 2
@@ -6156,10 +6166,10 @@ d ln µ
 8π 2
 8π
 8π
-
-
-n
-o
+[
+]
+{
+}
 2
 d
 1
@@ -6183,9 +6193,10 @@ d ln µ
 
 where CF = N2N−1 is the eigenvalue of the quadratic Casimir operator in the fundamental
 representation of SU (N ), and we have abbreviated
-h
-i
-
+[
+]
+(
+)
 X = Tr 3CQ Yu Yu† − Yd Yd† − 3Cu Yu† Yu + 3Cd Yd† Yd − CL Ye Ye† + Ce Ye† Ye .
 (182)
 All quantities on the right-hand side of Eq. (181) must be evaluated at the scale µ. The
@@ -6193,8 +6204,8 @@ ALP–boson and ALP–fermion couplings entering at O(αi2 ) appear in the linea
 C̃aGG = CaGG + Tr (Cu + Cd − 2CQ ) ,
 
 C̃aW W = CaW W − Tr (3CQ + CL ) ,
-
-
+)
+(
 1
 1
 1
@@ -6414,20 +6425,20 @@ s ϕϕ
 g2
 1
 Aµν
-e Aµν
+Aµν
 − Wµν
 W
 − Bµν B µν + θQCD s 2 GA
 − GA
 µν G
-µν G
+µν G̃
 4
 4
 4
 32π
-
-
-X
+)
+(
+∑
 α
 α
 u
@@ -6448,16 +6459,15 @@ lL ϕeβR + h.c.
 This Lagrangian must be supplemented with additional operators to improve the accuracy
 of the ALP theory predictions. Up to mass-dimension five (and ignoring lepton number
 violating operators), a minimal basis is given by [224]
-
-
-e
+[
+]
 Leff
 ⊃
 s
 i
 q
 a
-ϕu
+ϕ̃u
 +
 i
 q
@@ -6479,19 +6489,18 @@ R
 L seϕ
 R
 SM+s
-e Aµν + a f sW a W
-f aµν
-+ as3 s3 (ϕ† ϕ) + as s(ϕ† ϕ)2 + asGe sGA
+Aµν
+a
++ as3 s3 (ϕ† ϕ) + as s(ϕ† ϕ)2 + asG̃ sGA
++ asW̃ sWµν
+W̃ aµν
+µν G̃
+Aµν
+a
++ asB̃ sBµν B̃ µν + asG sGA
++ asW sWµν
+W aµν + asB sBµν B µν ,
 µν G
-µν
-sW
-e µν + asG sGA GAµν + asW sW a W aµν + asB sBµν B µν ,
-+ a e sBµν B
-µν
-
-sB
-
-µν
 
 where asψϕ ≡ a0sψϕ /Λ are dimension-full and complex matrices in flavour space; Λ denotes
 the cutoff scale of this EFT.
@@ -6544,8 +6553,7 @@ sΨL ϕψR
 
 sXX
 
-e
-sX X
+sX X̃
 
 s5
 
@@ -6617,8 +6625,7 @@ g32
 
 0
 
-e
-sX X
+sX X̃
 
 0
 
@@ -6660,19 +6667,19 @@ dimension-five, the most general and minimal Lagrangian for such an EFT reads:
 1
 1
 Aµν
-e Aµν
+Aµν
 LLEFT = (∂µ s)(∂ µ s) − m̃2s s2 − s3 − s4 − GA
 − Aµν Aµν + θ̃QCD GA
 µν G
-µν G
+µν G̃
 2
 2
 3!
 4!
 4
 4
-
-X 
+]
+∑ [
 2
 +
 ψi /
@@ -6680,15 +6687,13 @@ Dψ − ψL m̃ψ ψR + i sψL c̃ψ ψR + s ψL ãψ ψR + h.c. + ãs5 s5
 ψ=u,d,e
 
 Aµν
-eµν + ã sGA
-e Aµν
+Aµν
 + ãsA sAµν Aµν + ãsG sGA
-+ ãsÃ sAµν A
++ ãsÃ sAµν Ãµν + ãsG̃ sGA
 µν G
-µν G
-sG̃
-
-X 
+µν G̃
+]
+∑ [
 µν
 µν
 A
@@ -6729,12 +6734,7 @@ v
 v
 (c̃e )αβ = √ (aseϕ )αβ ,
 2
-2
-2
-ãsAe = asW
-s
-e cw ,
-f w + a sB
+ãsÃ = asW̃ s2w + asB̃ c2w ,
 m̃2 = m2 +
 
 ẽ = g2 sw = g1 cw ,
@@ -6748,7 +6748,7 @@ v d
 v e
 (m̃e )αβ = √ (y )αβ ,
 2
-ãsGe = asGe ,
+ãsG̃ = asG̃ ,
 
 (193)
 (194)
@@ -6807,8 +6807,7 @@ sΨL ϕψR
 
 sXX
 
-e
-sX X
+sX X̃
 
 s3
 
@@ -6893,24 +6892,24 @@ operators with n singlet fields can renormalize others with m > n singlet fields
 the insertion of renormalizable new physics interactions.
 3. The structure of the anomalous dimension matrix is enriched in the LEFT. For
 example, the RGE of the gauge operators becomes non-trivial:
-
-h
-i
+(
+[
+])
 46 2
 †
 †
 †
-βãsGe = − g̃3 + 2Tr c˜e c˜e + 3c˜d c˜d + 3c˜u c˜u
-ãsGe
+βãsG̃ = − g̃3 + 2Tr c˜e c˜e + 3c˜d c˜d + 3c˜u c˜u
+ãsG̃
 3
-h
-i
+[
+]
 − 2g3 Tr ãdG c˜d † + ãuG c˜u † + h.c. ,
 (200)
 Another generic effect is that the singlet, as well as fermion masses, receive new
 contributions:
-
-
+(
+)
 βm̃2s = κ̃2s + λ̃s m̃2s + 12m̃2s Tr(c̃u c̃†u ) − 24Tr c̃u c̃†u m̃u m̃†u − m̃†u ãu m̃†u m̃u + . . . (201)
 All these vanish, however, if the UV physics above EWSB can be described by the
 SM+s EFT.
@@ -6944,26 +6943,23 @@ test secluded scenarios that are difficult to probe directly. For example, the f
 ALP-gauge operators renormalise fermion interactions can be used to provide the
 best constraints on ALP-gauge couplings. Consider, for instance, a photophobic 28
 ALP of mass O(keV), coupled only to Z bosons at some high-energy scale:
-
-
-a e
+(
+)
+a
 1
 1
-f µν − s2 Bµν B
-e µν .
-L = LSM + ∂µ s∂ µ s + m̃2 s2 + 2 sZ 2 s c2ω Wµν W
-ω
+L = LSM + ∂µ s∂ µ s + m̃2 s2 + 2 sZ̃ 2 s c2ω Wµν W̃ µν − s2ω Bµν B̃ µν .
 2
 2
 cω − sω
 
 (202)
 
-Collider bounds from mono-Z searches constrain asZe < (0.04) 0.2 TeV−1 [477] at
+Collider bounds from mono-Z searches constrain asZ̃ < (0.04) 0.2 TeV−1 [477] at
 the (HL–)LHC 29 . However, this same coupling is generated by running the coupling
 of the ALP to electrons, which itself is strongly constrained by the modification of
 Red Giants cooling [559]. Translating this experimental constraint into a bound on
-the asZe coupling results in a limit 4 orders of magnitude stronger than the collider
+the asZ̃ coupling results in a limit 4 orders of magnitude stronger than the collider
 bound [224]. Other phenomenologically relevant examples, in the shift-symmetric
 scenario, are discussed in Refs. [227, 486, 557].
 28
@@ -6983,9 +6979,9 @@ ALPs.
 6. The interesting feature of our shift-breaking ALP basis is that it can be used to
 eventually pinpoint the nature of a potential ALP signal. In fact, we have worked out
 the conditions to preserve shift-symmetry in our basis (at the classical level) [224]:
-
+)
 i
-i  d
+i ( d
 i
 asuϕ =
 (y u cu − cq y u ) , asdϕ =
@@ -7028,8 +7024,8 @@ Here Vµ denotes the vector field (i.e. the spin-1 boson), Vµν = ∂µ Aν −
 Lagrangian correctly describes a vector with mass m, however, it is not gauge invariant.
 It is instructive to consider first an Abelian Higgs model, derive from it the Stueckelberg
 Lagrangian, then the Proca Lagrangian. Let us start with [561]
-
-2
+(
+)2
 1
 λ
 1
@@ -7085,9 +7081,9 @@ can rewrite the Lagrangian as
 LHiggs = − F µν Fµν + η µν ∂µ ρ∂ν ρ
 4
 2
-
-
-
+)(
+)
+(
 ∂µ χ
 ∂ν χ
 1
@@ -7110,15 +7106,15 @@ gv
 This is still manifestly gauge invariant. The gauge boson has a mass
 m = gv ,
 (211)
-p
+√
 the radial field a mass mρ = v λ/2, while χ, the massless goldstone, is the mode that gets
 “eaten” to become the longitudinal part of the gauge boson.
 Now, consider taking λ → ∞. In this limit, the radial mode becomes infinitely heavy,
 it cannot be excited and does not propagate. In (210) we can then drop the terms with ρ.
 We are left with
-
-
-
+(
+)(
+)
 1 µν
 1 2 µν
 1
@@ -7136,8 +7132,8 @@ Aµ (x) → Aµ (x) + ∂µ α(x) ,
 χ(x) → χ(x) + mα(x) .
 
 The equations of motion derived from (212) are:
-
-
+(
+)
 1
 ∂ 2 Aβ − ∂ β ∂ µ Aµ + m2 Aβ − ∂ β χ = 0 ,
 m
@@ -7192,16 +7188,16 @@ more energy to populate the dark vectors if the higher-dimensional operators wer
 Before checking what this requirement leads to, let us elaborate on how one can think of
 the higher-dimensional operators. It is useful to get back to the Higgs Lagrangian (210). In
 the language
- of Feynman
- diagrams, the term linear in ρ in (210) gives a vertex with one ρ
+( of Feynman
+) diagrams, the term linear in ρ in (210) gives a vertex with one ρ
 1
 and two Aµ − gv ∂µ χ . We can draw a diagram with two external gauge fields connected
 to a propagating ρ, which ends on another two external gauge fields. If ρ is heavy, we can
 integrate it out and obtain the dimension 4 operator
-
-4
-
-4
+(
+)4
+(
+)4
 g4v2
 1
 2g 4
@@ -7294,7 +7290,7 @@ From the point of view of QFT, General Relativity (GR) is the leading order effe
 theory of a propagating massless spin-2 particle, the graviton. The theory is defined at
 lowest order by the Einstein-Hilbert action (we neglect the cosmological constant in the
 following)
-Z
+∫
 √
 M̄P2
 d4 x −g R ,
@@ -7323,8 +7319,8 @@ M̄P
 where hµν is the graviton field. The Lagrangian at O(κ0 ) reads
 L0 = −
 
-
-1
+)
+1(
 µν ,α
 hµν,α hµν,α − hα hα + 2h,µ hµν
 ,ν − 2h,ν hµα ,
@@ -7338,8 +7334,8 @@ can provide the graviton a mass without introducing instabilities in the theory 
 long ago by Fierz and Pauli (FP) [568]. The FP mass term reads
 LFP = −
 
-
-m2FP
+)
+m2FP (
 hµν hµν − h2 .
 2
 
@@ -7354,7 +7350,7 @@ hµν hµν − h2 .
 Experimentally, stringent and complementary upper bounds on the graviton mass from
 gravitational-wave dispersion and solar system planetary trajectory measurements have
 been placed
-(
+{
 1.76 × 10−23 eV at 90% C.L. [569] ,
 mFP ≤
 (230)
@@ -7374,12 +7370,16 @@ M̄P l
 
 where T µν is the energy-momentum tensor of the theory. It can be derived from the matter
 action S via
-2 δS
+∣
+∣
+∣
+2 δS ∣∣
 ∂L
 .
 (232)
 Tµν ≡ − √
-= 2 µν − gµν L
+= 2 µν − gµν L∣∣
+∣
 µν
 −g δg gµν =ηµν
 ∂g
@@ -7389,8 +7389,8 @@ QED
 Tµν
 =
 
-
-
+[
+]
 ↔
 ↔
 ηµν αβ
@@ -7456,10 +7456,10 @@ P
 
 =
 
-X
+∑
 
-
-
+(
+)
 2 µν αβ
 µα νβ
 µβ να
@@ -7493,8 +7493,8 @@ firsts to appear are fifth-force searches [613–620], which rely on short-dista
 of the Newtonian potential in the form
 VN = −G
 
-
-m1 m2
+)
+m1 m2 (
 −mφ r
 1
 +
@@ -7637,8 +7637,8 @@ H(Tosc ) ≃ ma (Tosc ),
 the field begins coherent oscillations around the minimum of its potential. These oscillations
 behave as a condensate of non-relativistic particles with an adiabatically conserved number
 density,
-
-
+(
+)
 Rtoday −3
 mis
 nmis
@@ -7677,8 +7677,8 @@ which encodes the non-perturbative QCD dynamics governing the axion potential [3
 At high temperatures, χ(T ) decreases rapidly with temperature, delaying the onset of
 oscillations and modifying the relic abundance. For a complete discussion of the properties
 of χ(T ), cf. the following Sec. 4.1.2. Using the result from Ref. [228] for the axion mass,
- 12
-
+( 12
+)
 10 GeV
 ma = (5.70 ± 0.07) µeV
 ,
@@ -7694,17 +7694,17 @@ a (T0 )
 = 0.12
 ρcrit /h2
 
-
+(
 
 θi
 2.155
 
-2 
+)2 (
 
 28 µeV
 ma
 
-1.17
+)1.17
 .
 
 For a discussion of the case of ultra-light axions (ULAs), we refer to Sec. 5.1.
@@ -7962,7 +7962,7 @@ Using perturbation theory in the one instanton background, on top of DIGA, it is
 possible to estimate χ(T ) in the high temperature limit T ≫ ΛQCD , obtaining an expression
 of the form
 N
-A Yℓ mi
+A ∏ℓ mi
 χ(T ) ≃ β1 −4
 ,
 (248)
@@ -8046,7 +8046,7 @@ The last problem encountered could be called the “small volume” problem. Fin
 temperature simulations are usually performed at fixed aspect ratio, i.e. at fixed L/T ,
 where L is the spatial extent of the lattice and T the temperature; because screening lengths
 typically scale with the temperature as 1/T . However, the typical amount
-p of topological
+√ of topological
 charges to be found in a lattice of four-dimensional volume V = L3 /T is χ(T )V, and χ(T )
 rapidly approaches zero as T increases (see Eq. (248)). This means that high-temperature
 simulations almost always sample the zero topological charge sector. The net effect is
@@ -8097,7 +8097,7 @@ the low-lying eigenmodes of the Dirac operator have been measured, and average v
 have been computed by rescaling a posteriori the weight of a configuration with topological
 charge Q by
 |Q|
-YY
+∏∏
 m2f
 ,
 (250)
@@ -8267,7 +8267,8 @@ scalar field ϕ = |ϕ|eiϑ(x) . The strings correspond to vortex-like regions wh
 |ϕ| approaches zero, due to the phase ϑ(x) winding through a full circle. Since the field
 values vary continuously, there must be a point within each ϑ-loop where ϑ is undefined,
 necessitating |ϕ| = 0. In field space, these regions correspond to local maxima of the
-2
+(
+)2
 potential VPQ (ϕ) = λ4 |ϕ|2 − v 2 , indicating that the strings retain some residual potential
 energy from the unbroken phase |ϕ| = 0. The vacuum expectation value of the field is
 v ≡ ⟨ϕ⟩ ≃ fa .
@@ -8292,7 +8293,7 @@ underlying vacuum manifold M has a non-trivial fundamental group, π1 (M) ̸= 1.
 case, where the relevant PQ symmetry is U (1), the vacuum manifold is a circle, M = S 1 . The
 different homotopy classes of loops are distinguished by their winding number n, i.e. how many
 times the field wraps around
- the circle of minima, so the fundamental group is simply the additive
+( ) the circle of minima, so the fundamental group is simply the additive
 group of integers, π1 S 1 = Z. For a review of the more formal aspects of the classification of
 topological defects, cf. Ref. [705].
 40
@@ -8384,8 +8385,8 @@ to make this statement more apparent, one can compute the energy density ρ stor
 strings. For a general complex scalar field model with potential VPQ (ϕ), this is given by
 ρ(r) =
 
- λ
-1
+) λ
+1(
 (∇|ϕ|)2 + |ϕ|2 (∇ϑ)2 + (|ϕ|2 − v 2 )2 .
 2
 4
@@ -8394,9 +8395,9 @@ strings. For a general complex scalar field model with potential VPQ (ϕ), this 
 
 By substituting the string ansatz Eqn. (252) and integrating over the polar coordinates
 one obtains the energy per unit length or tension of the string,
-
-
-Z ∞
+(
+)
+∫ ∞
 1
 1 f 2 λv 2 2
 2
@@ -8410,10 +8411,10 @@ r dr
 2 r2
 4
 0
-
-
+(
+)
 (254)
-Z cIR
+∫ cIR
 dr
 cIR
 2
@@ -8459,8 +8460,8 @@ VQCD (a) = χ (1 − cos (NDW a/v)) ,
 where χ is the topological susceptibility and NDW is the domain wall number, which is linked
 to the colour anomaly of QCD and depends on the concrete UV completion of the model
 under consideration, cf. Sec. 2.1. The axion acquires a temperature-dependent mass,41
- 
- nQCD
+( )
+( )nQCD
 χ(T = 0) T∗ nQCD
 T∗
 2
@@ -8487,14 +8488,14 @@ from strings nstr
 a with the number generated via the misalignment mechanism na
 4.1). In units of the entropy density s, nstr
 a is given by [377]
-p
+√
 45πg∗ρ (Tosc ) fa2
 nstr
 Kcmis H(Tosc )fa2
 a
- = Kcmis
+] = Kcmis
 Ya ≡
-=
+=[
 ,
 (258)
 2π
@@ -8504,7 +8505,7 @@ mPl Tosc
 3
 g∗s (Tosc )Tosc
 45
-q
+√
 2
 8π 3 g∗ρ (Tosc ) Tosc
 where we have used H(Tosc ) =
@@ -8624,12 +8625,12 @@ ẍ + 2 (1 − ẋ2 )ẋ =
 R
 ϵ
 
-
+(
 
 x′
 ϵ
 
-′
+)′
 
 (259)
 
@@ -8641,7 +8642,7 @@ R
 
 (260)
 
-q
+√
 x′2
 Here, ϵ = 1−
 is the coordinate energy per unit length, x is the position in space of
@@ -8658,13 +8659,13 @@ dt
 
 (261)
 
-where the Rconstant c comes from assuming a scale-invariant distribution of loop sizes
+where the ∫constant c comes from assuming a scale-invariant distribution of loop sizes
 ẋ2 ϵdσ
-and vs2 = R ϵdσ . The evolution of v can be determined by considering the motion of a
+and vs2 = ∫ ϵdσ . The evolution of v can be determined by considering the motion of a
 relativistic string segment. Differentiating our expression for vs2 , we obtain
-
-
-
+(
+)(
+)
 dvs
 k(vs )
 2
@@ -8677,7 +8678,7 @@ L
 
 under the assumption that the average curvature scale is approximately equal to L [733].
 This system evolves towards a fixed point attractor in phase space
- 2
+( )2
 1
 L
 ≡ = k(k + c) ,
@@ -8768,8 +8769,8 @@ a boost factor, ie. ξr = ξw γ −1 .
 plateaus to the evolution of so-called ‘conformal’ string networks.48 If the number of strings
 per Hubble length at a given ratio mr /H is given by ξc (log(mr /H)), the following tracking
 formula is proposed:
-
-
+[
+]
 dξ
 C
 ξc (log(mr /H)) − ξ(t) ,
@@ -8782,7 +8783,7 @@ with C being some O(1) constant. In [377], this is used to describe the long-ter
 of the network by upgrading the constant C to a function C(x) = x/(1 + x/c0 ) with
 x = ξ/ξc and c0 ≈ 1.5+0.8
 −0.4 , phenomenologically chosen to interpolate between two opposing
-limits: one wherep
+limits: one where√
 C(ξ/ξc → 0) → ξ/ξc corresponding to a frozen network and one where
 C(ξ/ξc ≫ 1) ≈ c0 ξ/ξc . Two functional forms are tested and fit to ξc :
 ξc,log = −0.19 + 0.205 log(mr /H),
@@ -8905,10 +8906,10 @@ three decades or more. The recent generation of simulations continues to tackle 
 with more sophisticated methods and fresh perspectives.
 In modern terminology, the axion radiation efficiency is described in terms of the
 instantaneous emission spectrum [710] defined by
-
-
-
-
+)
+(
+)
+(
 k mr
 H 1 ∂
 4 ∂ρa
@@ -9460,12 +9461,12 @@ M=
 (1 + δa )ρ̄a ℓ3osc ≃ 2.4 × 10−12 M⊙
 3
 
-
+(
 
 10−4 eV
 ma
 
-1/2
+)1/2
 .
 
 (269)
@@ -9503,8 +9504,8 @@ Smaller perturbations with δa ≲ 1 collapse during the matter-dominated epoch 
 modelled using linear perturbation theory. Following the growth of the density fluctuations
 in Fourier space, the linear growth of modes δa,k ≡ δk is then described by the equation of
 motion
-
- 2 2
+)
+( 2 2
 cs k
 (270)
 − 4πGρ̄a δk = 0,
@@ -9702,7 +9703,7 @@ miniclusters [795]. However, this must be balanced against the fact that tidal d
 inevitably re-distributes axions that were at one point bound inside miniclusters. A crude
 estimate of how much re-filling of the distribution occurs can be performed by taking the
 typical disruption timescale to be that of the age of the galaxy
-p t ∼ 10 Gyr and multiplying
+√ t ∼ 10 Gyr and multiplying
 this by the minicluster’s internal velocity dispersion, σ ∼ GM/R the combination of
 these two numbers ℓ ∼ σt gives a typical length scale that the tidal tail of some disrupted
 minicluster is expected to grow [801]. For canonical QCD axion miniclusters this is around
@@ -9889,7 +9890,7 @@ dt
 (271)
 
 Here, the axion
-p energy ω and spatial momentum k are related by the usual dispersion
+√ energy ω and spatial momentum k are related by the usual dispersion
 relation ω = k 2 + m2a , and they are both physical (i. e. not comoving) quantities. The
 left-hand side accounts for the geometry of the expanding Universe, and the right-hand
 side takes care of axion number-changing processes. The latter includes scatterings and
@@ -9921,12 +9922,12 @@ in the transition amplitude for each final state axion. Besides that, we do not 
 further assumption about the total number of particles participating in the production
 process and we focus on the broad class described schematically by the following expression
 B1 + . . . + Bn ←→ Bn+1 + . . . + Bn+m +a .
-|
-{z
-}
-|
-{z
-}
+⏟
+⏞⏞
+⏟
+⏟
+⏞⏞
+⏟
 n
 
 (272)
@@ -9939,8 +9940,8 @@ axion phase space distribution (kinetic equilibrium and Maxwell-Boltzmann statis
 details of when these assumptions enter into the derivation, see App. C of Ref. [889]), the
 integro-differential Boltzmann equation can be integrated over the phase space to get an
 ordinary differential equation tracking the number density
-
-
+(
+)
 dna
 na
 + 3Hna = γa 1 − eq .
@@ -9957,14 +9958,14 @@ widely employed in the literature, and it is also a reasonable one for the same 
 described above. This further approximation leads to the expression
 γa ≡
 
-Z Y
+∫ ∏
 n
 i=1
 
 dΠi fBi
 
 n+m
-Y
+∏
 j=n+1
 
 dΠj (2π)4 δ 4 (Pfin − Pinit ) |Mn→m+a |2 .
@@ -9992,7 +9993,7 @@ K1 [mB1 /T ]
 ,
 a ΓB1 →B2 ...B1+m a
 K2 [mB1 /T ]
-Z ∞
+∫ ∞
 √
 λ(s, mB1 , mB2 )
 g1 g2
@@ -10052,7 +10053,7 @@ interactions mediated by massless gluons. The first calculation was performed by
 and the resulting divergences were regulated by a gluon Debye mass put by hand. If
 one employs a proper thermal field theory treatment, the axion production rate results
 in [904, 905]
-Z
+∫
 d3 k
 γa = −2
 faeq (k) Im Πa (k) ,
@@ -10610,7 +10611,7 @@ the satellite population and inferred the existence of sub-halos down to ∼ few
 scales. The improved astrophysical modelling and observation on sub-Galactic scales means
 that we can now set more robust limits on the abundance of ULAs.
 ULAs are also invoked to address other discrepancies in the standard cosmological
-model. The S8 q
+model. The S8 √
 tension refers to a 2 − 3σ discrepancy in inference of the cosmological
 m
 parameter S8 ≡ Ω0.3
@@ -10664,17 +10665,17 @@ kJ forms at the transition where ωk (kJ ) = 0:
 1
 4
 
-
+(
 
 Ω a h2
 0.12
 
-− 14 
+)− 14 (
 
 ma
 10−26 eV
 
-− 1
+)− 1
 
 2
 
@@ -10732,8 +10733,8 @@ the field ϕ in the non-relativistic limit:
 
 Simulations that solve these equations in a cosmological volume have revealed a rich and
 distinctive phenomenology. The de Broglie wavelength
- m
-−1  v −1
+( m
+)−1 ( v )−1
 a
 kpc,
 (282)
@@ -10741,13 +10742,13 @@ kpc,
 10−22 eV
 V200
 where the virial velocity
-
+(
 V200 ∼ 85
 
 M
 1012 M⊙
 
-1
+)1
 
 3
 
@@ -10766,9 +10767,10 @@ interference patterns in the ULA density arise from overlapping wavefunctions [9
 collapse of ULA DM on scales below λdB . At the centre of a halo, this effect leads to the
 formation of a dense core or soliton [947]. In the surrounding regions, transient granules of
 DM form with density oscillating with a coherence time-scale
-!−2
- m
-−1
+)−2
+(
+( m
+)−1
 λdB
 v
 a
@@ -11014,8 +11016,8 @@ ALPs arise, their mass range spans several orders of magnitude, from quintessenc
 inflationary regime. This is explained because the axion potential, coming from highly
 suppressed non-perturbative effects, is exponentially sensitive to the parameters of the
 theory. The typical axion potentials can be expressed as
-
- n
+[
+( )]n
 a
 4
 4 −S
@@ -11031,7 +11033,7 @@ n > 1 have been used for Early Dark Energy (EDE) models. With the potential at h
 the axion evolution in a Friedmann-Lemaître-Robertson-Walker (FLRW) flat Universe is
 given by the Klein-Gordon equation together with the Friedman equation determining the
 evolution of the scale factor R
-!2
+( )2
 Ṙ
 ρtot
 =
@@ -11144,8 +11146,8 @@ between models of ALP coupled to Abelian and non-Abelian fields. We will describ
 two classes of inflationary models with ALP-gauge dynamics below.
 Abelian model. Abelian (U (1)) gauge field Fµν = ∂µ Aν − ∂ν Aµ sources coupled cosmological perturbations at second order level. The equation of motion for the gauge field in
 Fourier space is written as follows:
-
- 2
+]
+[ 2
 α da
 d
 2
@@ -11477,7 +11479,7 @@ i.e. Λ4a = ρDE ∼ (0.003 eV)4 , the non-perturbative action should be S ∼ O
 from the scaling fa ∼ MPl /S [13] one finds fa ∼ 1016 GeV. Moreover, to ensure the field is
 currently in an over-damped regime, the
 should be smaller
-p local curvature of the potential
+√ local curvature of the potential
 4
 ′′
 than the Hubble parameter today, i.e. V (a) ≲ H0 which implies Λa ∼ H02 fa2 . Therefore,
@@ -11631,9 +11633,9 @@ it. In this section we review some mechanisms for producing dark photon dark mat
 in the early universe. We take the Friedmann-Robertson-Walker (FRW) metric gµν =
 diag(−1, R2 (t), R2 (t), R2 (t)) and write the action for a free massive dark vector boson Aµ
 as
-
-
-Z
+[
+]
+∫
 1 µν ρσ
 1 2 µν
 4 √
@@ -11711,9 +11713,10 @@ completions of such effective models do not show any enhanced growth of high-mom
 modes.
 The mechanism just described falls within the broader class of gravitational particle–production. It has the remarkably simple Proca action, Eq. (291), as the starting point
 and no interactions between the dark photon and the visible sector, aside from gravitational.
-The mass term in Eq. (291) is often referred to as Stueckelberg mass, because
-it is straight
-
+The mass term in Eq. (291) is often referred to as Stueckelberg
+mass, because
+(
+) ( it is straight)
 −1
 1 µν 2
 forward to make it gauge invariant by writing − 2 g mA Aµ − mA ∂µ θ Aν − m−1
@@ -11751,9 +11754,9 @@ produce dominantly the longitudinal polarization of the vector. Following the ev
 the string network and of the radiated dark photons it was found that one can obtain the
 correct relic abundance for mA as low as 10−22 eV.
 One could slightly deviate from the minimal action in Eq. (291) and add the term
-
-
-Z
+[
+]
+∫
 √
 α 1
 d4 x −g − ϕ ϵµνρσ Fµν Fρσ ,
@@ -11762,8 +11765,8 @@ d4 x −g − ϕ ϵµνρσ Fµν Fρσ ,
 where ϕ is a real scalar field, α a dimensionless coupling, f a constant of mass dimension
 one, ϵµνρσ the antisymmetric tensor. This operator arises typically in axion models. It
 leads to the following equations for the vector 61
-
- 2
+)
+( 2
 3k 2 + R2 (t)m2A
 k
 2
@@ -11778,8 +11781,8 @@ L
 A AL = 0 ,
 R2 (t)
 k + R2 (t)m2A
- 2
-
+( 2
+)
 k
 α k
 2
@@ -11876,9 +11879,9 @@ vortex strings, thus eradicating the coherent dark photon dark matter field. Str
 part of their energy via relativistic dark photons and gravitational waves emission, providing
 a different and new target for experimental searches. On the other hand, this would get rid
 of the coherent non-relativistic dark photons, and hence of the dark matter candidate.
-What are the conditions
+What (are the conditions
 for vortices to form? Consider the Higgs√model and the
-2
+)2
 λ
 2
 2
@@ -12079,12 +12082,12 @@ dark matter, has been developed mostly in the context of bigravity.
 5. WISP Cosmology (ALP, ULDM, Dark Photons and Dark Gravitons)
 
 The theory contains two tensor fields: gµν and fµν , and is defined by the action [573]
-
-
-Z
-p
-p
-p
+[
+]
+∫
+√
+√
+√
 2
 4
 2
@@ -12103,7 +12106,7 @@ encode the nonlinear interactions between the two tensor fields:
 V (X; βn ) =
 
 4
-X
+∑
 
 βn en (X),
 
@@ -12127,8 +12130,8 @@ gµν → gµν + hµν ,
 fµν → fµν + lµν .
 
 The canonically normalised mass eigenstates are then defined through
-
-mPl
+)
+mPl (
 2
 Gµν =
 h
@@ -12147,8 +12150,8 @@ which imply the inverse relations
 1
 (Gµν − αMµν ) ,
 mPl
-
-1
+)
+1 (
 lµν =
 Gµν + α−1 Mµν .
 mPl
@@ -12166,11 +12169,12 @@ hµν =
 From these expressions we also see that the parameter α quantifies the mixing between
 the fluctuations. In terms of the mass eigenstates Gµν and Mµν the quadratic part of the
 action diagonalises into
-
-
-Z
-p
-
+[
+]
+∫
+√
+(
+)
 1
 1
 S (2) =
@@ -12186,18 +12190,18 @@ d4 x |g| Gµν E µνρσ Gρσ + Mµν E µνρσ Mρσ − m2FP Mµν M µν �
 
 where M = g µν Mµν and the Lichnerowicz operator E µνρσ is defined by
 
-
-1 µ ν
+)
+1( µ ν
 δρ δσ □ − g µν gρσ □ + g µν ∇ρ ∇σ + gρσ ∇µ ∇ν − δσµ ∇ν ∇ρ − δρµ ∇ν ∇σ .
 2
 The Fierz-Pauli mass of the massive spin-2 field is defined as
-p
+√
 mFP = β1 + 2β2 + β3 mPl .
 E µνρσ =
 
 Finally, the theory couples to matter via the action
-Z
-p
+∫
+√
 Sm = d4 x |g| Lm (g, Φ) ,
 
 (304)
@@ -12212,8 +12216,8 @@ since the theory treats the metrics symmetrically and, in the bimetric theory, s
 matter fields can only couple minimally to one of the tensor fields without introducing ghost
 instabilities. When expanded in terms of the mass eigenstates Gµν and Mµν this action
 reveals the universal coupling of the massive spin-2 field to matter fields (with coupling α):
-Z
-p
+∫
+√
 1
 (2)
 Sm =
@@ -12244,8 +12248,8 @@ voids. If these fields are primordial, i.e. generated in the very early Universe
 inflation, they can sustain the production of a massive spin-2 condensate. The production
 in this case takes place mostly around H ≃ mFP , where H is the Hubble parameter. In
 order for this field to be the whole of the dark matter its mass must satisfy
-
-
+(
+)
 0.1 nG
 mFP ≃ 10−4
 eV ,
@@ -12340,12 +12344,10 @@ theory was considered in [1480]. This is achieved via introducing additional Gol
 bosons which generate a mass for the graviton in the form
 LLV =
 
-
-1
+)
+1( 2 2
 2
-2
-m20 M00
-+ m21 M0i
+m0 M00 + m21 M0i
 + m22 Mij2 + m23 Mii2 + m24 M00 Mii ,
 2
 
@@ -12770,7 +12772,7 @@ expect that any deviation from the expected behavior might be a signal of new ph
 the following, we will focus on using the Sun as a probe of sub-keV pseudoscalar particles,
 discussing their production and phenomenological implications. In particular, we will
 consider an axion coupled to photons, electrons and nucleons as
-X gai
+∑ gai
 1
 L = − gaγγ a Fµν F̃ µν +
 Ψ̄i γ µ γ 5 Ψi ∂µ a ,
@@ -12989,7 +12991,8 @@ La ⊃
 aFµν F̃ µν ∝ a E · B
 4
 (315)
-
+(
+)
 gϕγγ
 Lϕ ⊃
 ϕFµν F µν ∝ ϕ B 2 − E 2 ,
@@ -13167,37 +13170,36 @@ domains of the respective regimes.
 Hydrodynamical fluctuations.— At frequencies below all plasma collision rates, GW
 emission is dominated by collective hydrodynamic modes. Following Ref. [1569], the
 corresponding spectrum is computed using the shear viscosity η of the solar plasma:
-dP
-dω
-
-Hydrodynamics
-
+∣
+∫
+dP ∣∣
 16Gω 2
 =
-π
-
-Z
-
 d3 r η T .
-
 (316)
+∣
+dω ∣
+π
+Hydrodynamics
 
 Due to the proton-electron mass hierarchy, the dominant contribution to η is attributed to
 proton momentum transfer, with values estimated through fits to state-of-the-art simulations [1570].
 Microscopic contributions.— Microscopic contributions arising from particle collisions
 are computed by thermally averaging the graviton emission rate:
-*
-+
-Z
-X
-dP
+∣
+⟨
+⟩
+∫
+∑
+dP ∣∣
 dΓ(i)
 3
 = d r
 ω
 .
 (317)
-dω
+∣
+dω ∣
 dωdV
 i
 
@@ -13205,9 +13207,10 @@ Collisions
 
 The emission rate per unit volume of one spin-2 particle in the collision of two particles is
 given by
-!
-Z
-X
+(
+)
+∫
+∑
 dΓ
 2
 4 (4)
@@ -13719,7 +13722,7 @@ visible sectors [1694–1701]. At the keV scale, S can even constitute a viable 
 candidate [1702, 1703].
 Generic couplings. At low energies, the interactions of a light scalar with Standard
 Model fields can be expressed through the effective Lagrangian
-X
+∑
 gSg
 gSγ
 S Fµν F µν +
@@ -13981,9 +13984,9 @@ is expected to be in the order pN ∼ mN T with T ∼ 30 MeV. By contrast, in th
 of cold neutron stars at TNS ∼ 10 keV, nucleons are highly degenerate, with momenta set
 by the Fermi momentum pF ∼ 200 MeV. The ratio of scalar to neutrino luminosities is
 then enhanced by several orders of magnitude:
- 
- 
- 
+( )
+( )
+( )
 Lϕ
 Lϕ
 p4F
@@ -14080,14 +14083,12 @@ sensitivity to ultraviolet (UV) scales renders this option attractive as it allo
 astrophysical sensitivity to dark vectors with the minimal set of parameters ε and mV .
 Another possibility is that V µ is “Higgsed”, involving of a new scalar field ϕ that is charged
 under U(1)V with gauge coupling g ′ , amending (328) by
-Lhiggs =
-
- 2
-∂µ − ig ′ Vµ ϕ − V (ϕ).
-
+∣(
+) ∣2
+Lhiggs = ∣ ∂µ − ig ′ Vµ ϕ∣ − V (ϕ).
 The potential V (ϕ)
 vacuum expectation
-p leads′ to ′spontaneous breaking of U(1)V by the
+√ leads′ to ′spontaneous breaking of U(1)V by the
 ′
 ′
 ′
@@ -14105,7 +14106,7 @@ of h′ and an interaction h′2 V 2 . In the regime where mV and mh′ are much
 stellar temperature T , the production of dark sector states is then predominantly driven by
 dark Higgsstrahlung and by pair production of U(1)V -charged Higgs scalar fields [1736].
 The kinetic mixing term in (328) is not the only option to connect V µ to
-Pthe SM. If SM
+∑the SM. If SM
 fermions f are gauged under U(1)V , one has additional interactions ∆L = f f¯qf g ′ γ µ f Vµ
 that are part of the gauge covariant derivative terms with V µ . Prominent anomaly-free
 options are the gauged combinations B − L, Lµ − Lτ , or Le − Lµ(τ ) of baryon number B
@@ -14179,23 +14180,26 @@ ordinary stars, focusing on its essential features.
 The differential production rate of transverse (T ) and longitudinal (L) dark photons V
 per energy interval and volume, dΓVT,L /dωdV |prod , is closely related to the corresponding
 production rate of in-medium photons, dΓT,L /dωdV |prod [1719],
-dΓVT,L
-dωdV
-
-= ε2T,L
+∣
+∣
+dΓVT,L ∣∣
+dΓT,L ∣∣
+2
+,
+(331)
+= εT,L
+∣
+dωdV ∣
+dωdV ∣
 prod
 
-dΓT,L
-,
-dωdV prod
-
-(331)
+prod
 
 where ε2T,L is the in-medium induced mixing angle,
-ε2T,L = ε2
+ε2T,L = ε2 (
 
 m4V
-2
+)2
 
 m2V − Re ΠT,L
 
@@ -14207,7 +14211,7 @@ m2V − Re ΠT,L
 
 In this expression, ΠT,L are the photon self-energy functions of transverse and longitudinal
 as they appear in the in-medium photon polarization tensor, Πµν =
-Ppolarization
+∑polarization
 µ ν
 ΠT i=1,2 ϵT,i ϵT,i + ΠL ϵµL ϵνL where ϵνT,i and ϵµL are the two transverse and longitudinal
 polarization vectors, respectively.
@@ -14223,26 +14227,30 @@ theorem at finite temperature relates Im ΠT,L with the rate for attaining therm
 in media, isolating from it the production rate by detailed balancing, and taking the volume
 integral turns the above rate formula (331) into the star’s total energy-differential production
 rate,
-q
+√
 
 
-(
+∣
+{
 V
+∣
 2
 2
 ω 2 − m2V
-dΓT,L
+dΓT,L ∣
 m2V ω 2 L-resonance
 2ε
 r
-
+∣
+∣
 ≃  ω/T (r)
 ×
 .
 (333)
-dω
+∣
+dω ∣
 e
-− 1 ∂ωp2 (r)/∂r
+− 1 ∣∂ωp2 (r)/∂r∣
 m4V
 T -resonance
 prod
@@ -14441,17 +14449,20 @@ of complex vector particles in units of the Bohr magneton. For low-mass particle
 strongest stellar energy-loss constraints are from SN1987A and from RG stars; taken from
 Ref. [1741].
 emission of two Goldstone bosons. The production rate is given by [1749],
-
-Z
+∣
+(
+)
+∫
 ′
 dq 0 ωq 0 − ω 2 − ωp2 /4
 (g ′ ε)2 ωp2 ∞
-dΓV h
-i,
+dΓV h ∣∣
+],
 =
-h
-ω2
-dV dω
+∣
+)[
+ω2 (
+dV dω ∣
 4π 3
 ω+ p eq 0 /T − 1
 (q 0 )2 − ω 2
@@ -14467,20 +14478,23 @@ Finally, when considering instead the pair production V V † of complex vector 
 (effectively) coupled to the photon through interactions such as (329), one may again cast
 the production rate in terms of photon self-energies ΠT,L . In the kinematically unsuppressed
 regime mV ≪ T [1741],
-
+∣
+( )
 †
-X Z d3⃗k gi Im Πi (ω, ⃗k)
+∑ ∫ d3⃗k gi Im Πi (ω, ⃗k)
 f k2
-dΓV V
-
+dΓV V ∣∣
+(
+)
 =−
 .
 (334)
-dV dk 2
+∣
+dV dk 2 ∣
 (2π)3 ω eω/T − 1 16π 2 |k 2 − Πi |2
 i=T,L
 prod
-
+( )
 Here, f k 2 is the squared amplitude for γ ∗ → V † V , integrated over the 2-body phase space
 of the vector pair. For example, f (k 2 ) ≃ µ2V k 6 /4m2V for magnetic dipole and Q2V k 6 /16
 
@@ -14619,7 +14633,7 @@ G117-B15A
 R548
 L19-2
 
-log (L/L )
+log (L/L⊙ )
 
 0
 
@@ -14711,7 +14725,7 @@ The luminosity function of a WD ensemble (WDLF) is the number of WDs of a given 
 in luminosities. Assuming that WDs are not destroyed and the ensemble is closed, the
 number N that have an absolute magnitude within the range Mabs ± 0.5∆Mabs per unit of
 magnitude interval is given by [10, 1763]
-ZMu
+∫Mu
 N (Mabs ) =
 Φ (M ) Ψ (TG − tcool − tps ) τcool dM
 
@@ -14751,7 +14765,7 @@ The WDLF can be used to test the existence of an extra source or sink of energy 
 it depends on the characteristic cooling time. Since the bright branch of the luminosity
 function is dominated by WDs coming from low-mass main sequence stars, Eq. (338) can
 be written as
-ZMu
+∫Mu
 N ∝ ⟨τcool ⟩
 Φ (m) Ψ (TG − tps − tcool ) dm .
 (339)
@@ -15314,9 +15328,9 @@ nucleon bremsstrahlung and production through Cooper-pair formation and breaking
 For an ALP and a non-superfluid neutron star core, the leading emission mechanism
 is nucleon bremsstrahlung: nn → nna, np → npa, and pp → ppa [1730, 2034, 2035]. The
 production rate for pure neutron scattering can be estimated as [1667]
-
- g
-2  p
+)
+( g
+)2 ( p
 F,n
 an
 3
@@ -15325,15 +15339,15 @@ an
 10−10
 1.68 fm−1
 (340)
-
-6 
-
-
-
-
+)(
+)6 (
+)(
+)
+(
+(
 T
 βnn
-γnn   γ 6 Rnn
+γnn ) ( γ )6 Rnn
 F (xn )
 .
 ×
@@ -15457,7 +15471,7 @@ by the BH is approximately V (r) ∼ 1/r, except for very close to the horizon. 
 the corresponding eigen-energies have an imaginary component, corresponding to the scalar
 field being dissipated into the BH or to the superradiant amplification of ϕ. These can be
 calculated from the action
-Z
+∫
 √
 1
 1
@@ -15476,8 +15490,8 @@ Im (ωnlm ) ≈ µ (ma∗ − 2r+ µ) Cnl Πlm α4l+4 ,
 
 (344)
 
-
-2
+[
+]2
 24l+1 (n + l)!
 l!
 Cnl = 2l+4
@@ -15487,10 +15501,11 @@ n
 
 (345)
 
-l h
-i
-Y
-
+l [
+]
+∏
+(
+)
 k 2 1 − a2∗ + (ma∗ − 2r+ µ)2 ,
 
 (346)
@@ -15501,7 +15516,7 @@ k=1
 
 where m is the magnetic
 quantum number, k is the bosonic momentum, aBH is the
-p
+√
 BH’s spin, r+ = M (1 + 1 − a2∗ ) is the radius of the outer horizon and a∗ = aBH /M is the
 dimensionless spin parameter, with M denotes the mass of the BH.
 
@@ -15512,7 +15527,7 @@ dimensionless spin parameter, with M denotes the mass of the BH.
 8. Compact Objects
 
 The timescale of the superradiant instability is then given by τ = Im(ω1nlm ) . In
-general, a superradiant instability is possible when Re (ωp
+general, a superradiant instability is possible when Re (ω√
 nlm ) ≃ µ < mΩH , where ΩH is the
 angular velocity of the BH, given by ΩH = a∗ /(2M (1 + 1 − a2∗ )). The instability is most
 efficient when the BH’s gravitational radius is similar to the boson’s Compton wavelength
@@ -15610,7 +15625,7 @@ generate a quartic self-interaction for ϕ via the Coleman-Weinberg mechanism [2
 4
 yϕν
 
- µ2 
+( µ2 )
 
 16π
 
@@ -15632,7 +15647,7 @@ The thermal correction to the scalar mass from the CνB in the limit µ ≪ mν 
 2
 yϕν
 
-Z ∞
+∫ ∞
 
 π2
 
@@ -15640,7 +15655,7 @@ mν
 
 dϵ
 
-p
+√
 ϵ2 − m2ν fν (ϵ),
 
 (350)
@@ -15685,8 +15700,8 @@ however, massive neutrinos can cluster gravitationally near BHs and form spikes,
 would weaken the superradiance bounds by roughly an order of magnitude [2079].
 In addition to neutrinos, ultralight scalars may also couple to electrons in the BH
 accretion disk, generating an effective mass correction [2079],
-
-
+(
+)
 ne
 2
 ∆µ2 ≃ 3 × 10−10 eV2 yϕe
@@ -15984,9 +15999,9 @@ trajectory of the plasma frequency ωp . All these quantities are evaluated at t
 the solar atmosphere rc where the resonant condition ωp (rc ) = ma is met, with ma being
 the ALP mass. In the case of the dark photon,
 the conversion probability is obtained
-p
+√
 through the substitution [2112]: gaγ B⊥ → 2/3 ϵ mA′ , with mA′ the
-pdark photon mass
+√dark photon mass
 and mA′ = ωp (rc ). The plasma frequency is given by ωp (r) = 1.17 µeV ne (r)/(109 cm−3 ),
 where ne is the density of free electrons in the solar atmosphere. The photon signal from the
 conversion is a narrow line at an energy equal to the energy of the DM particle, therefore
@@ -15994,7 +16009,7 @@ close to the DM mass, and with a relative width given by the DM velocity dispers
 squared δv 2 ≃ 10−6 . Given the range of plasma frequencies in the solar atmosphere (see
 Fig. 1 of [2112]) the conversion signal falls in the radio band.
 The photon flux per unit frequency on Earth can be estimated as
-Z
+∫
 dΩ
 ρc vc P (a/A′ → γ) e−τ ,
 (356)
@@ -16074,7 +16089,7 @@ ADMX
 
 STEREO
 
-
+ϵ
 
 Globular clusters
 
@@ -16115,7 +16130,7 @@ ma [eV]
 
 10−8
 10−7
-mA0 [eV]
+mA′ [eV]
 
 10−6
 
@@ -16619,8 +16634,8 @@ Photon-ALP conversion requires an external magnetic field B with a non-zero tran
 propagates along ẑ and B⊥ is expressed as B(cos θ, sin θ, 0)T , where θ is the angle between B⊥ and the x̂-axis, the photon polarisation states Ax and Ay combine to form A⊥
 (perpendicular to B⊥ ) and A∥ (parallel to B⊥ ). Only A∥ can convert into ALP states.
 The evolution of a photon-ALP state propagating along ẑ is described by [1552, 2185]:
-
-
+(
+)
 dA
 i
 i
@@ -16628,7 +16643,8 @@ i
 (358)
 dz
 2
-T
+(
+)T
 where A = A⊥ , A∥ , a
 represents the photon polarisation states and the ALP state
 a. The dispersion Hamiltonian Hdis accounts for photon-ALP mixing and is expressed
@@ -16715,8 +16731,8 @@ sin2 (∆osc L/2)
 
 The oscillation length is Losc = 2π/∆osc , with coherent oscillations realised in the case
 L ≪ Losc . In this case, the plasma term dominates and one can express:
-"
-#1/2
+[
+]1/2
 2 )2
 (m2a − ωpl
 2
@@ -16737,7 +16753,7 @@ em e
 e
 e
 under study. One can then write:
-r
+√
 ω2
 ∆osc = 2∆aγ 1 + c2 ,
 (369)
@@ -16746,7 +16762,7 @@ r
 where we have defined the critical energy, ωc :
 ωc = 2.5 GeV
 
- m2 − ω 2  1 µG  10−11 GeV−1 
+( m2 − ω 2 )( 1 µG )( 10−11 GeV−1 )
 a
 
 pl
@@ -17261,9 +17277,9 @@ x2 ), the
 ⃗ denoted as A± = (Ax ∓ iAy )/ 2, can
 equation of motion for the two helicity states of A,
 be written as:
- 2
-
-
+[ 2
+(
+)]
 d
 da
 2
@@ -17279,7 +17295,7 @@ dη
 where we have applied the gauge conditions A0 = 0 and ∇
 In the regime where gaγγ da/dη varies slowly compared to the wavelength of the
 radiation, the two helicity states propagate with different phase velocities,
-s
+√
 gaγγ da
 da
 ω± = k 2 ∓ kgaγγ
@@ -17294,7 +17310,7 @@ derivative must be modified as da/dη → da/dη + ⃗k · ⃗
 ∇a [1368].
 The differential propagation speeds of the photon helicities cause an initially linearly polarised photon to undergo a rotation of its polarisation plane, described by the
 birefringence angle,
-Z
+∫
 gaγγ
 1 ηobs
 dη(ω+ − ω− ) =
@@ -17331,8 +17347,8 @@ temperature T and B modes) which vanish in the standard parity-invariant case [1
 sensitivity for ongoing and future CMB experiments [2243]. When generated by the
 evolution of a homogeneous axion field, the observed EB power spectrum is related to the
 EE and BB power spectra of a ΛCDM universe with gaγγ = 0 as follows [1185, 2240–2242]
-
-sin(4β)  EE,ΛCDM
+)
+sin(4β) ( EE,ΛCDM
 CℓEB,obs =
 Cℓ
 − CℓBB,ΛCDM .
@@ -17403,13 +17419,13 @@ tan(4ψinst )
 CℓEB,obs =
 2
 
-
+(
 
 CℓEB,Gal
 +
 cos(4ψinst )
-
-
+)
+(
 CℓEE,ΛCDM − CℓBB,ΛCDM ,
 
 CℓEE,obs − CℓBB,obs
@@ -17418,7 +17434,7 @@ sin(4β)
 +
 2 cos(4ψinst )
 
-
+)
 
 (377)
 
@@ -17514,23 +17530,23 @@ GeV
 
 −1
 
-
+(
 ×
 
 β
 0.3◦
 
-
+)(
 
 Ωa
 ΩΛ
 
-−1/2 
+)−1/2 (
 
 ma
 10−35 eV
 
-−1
+)−1
 
 ,
 
@@ -17558,18 +17574,18 @@ GeV
 
 −1
 
-
+(
 ×
 
 β
 0.3◦
 
-
+)(
 
 Ω a h2
 0.001
 
-−1/2
+)−1/2
 
 ,
 
@@ -17618,13 +17634,13 @@ GeV
 
 ma
 
-  κΩ h2 −1/2
+) ( κΩ h2 )−1/2
 
 10−25 eV
 
 0.11933
 
-
+(
 
 c
 
@@ -17933,7 +17949,7 @@ electrons in the ionosphere. Indeed, the transmission is not possible when the f
 12. Astrophysical searches from radio to millimeter
 
 the radiation is below the plasma frequency νp of the atmosphere
-r
+√
 νp
 ne
 ,
@@ -18262,7 +18278,7 @@ Ref.
 Table 6: Selection of radio telescopes with their capabilities. The reference frequency in the third column is the one at which all the
 subsequent columns are evaluated. The sensitivity is computed for 1h of integration time and a fractional
 bandwidth ∆ν/ν = 0.3.
-p
+√
 The sensitivity to spectral lines can be computed, in first approximation, considering a scaling as ν/∆ν. DISCLAIMER: This
 Table provides approximate values for some specific configuration; for more precise estimates, see the references (last column) and the
 related sensitivity calculators.
@@ -19895,16 +19911,16 @@ probe the properties of the parent particles. A similar sea of secondary radiati
 produced by FIPs that are generated in SNe and can escape the SN envelope and decay in
 the interstellar medium [2471], acting as continuous sources of e± .
 The e± propagation can be approximated by
-
- 
-
-
- 
+[
+( )]
+(
+)
+) )
 ∂
 ∂
 fe
-∂ 
-pe  ⃗
+∂ (
+pe ( ⃗
 2
 ⃗
 −∇ · D∇fe − v⃗ω +
@@ -20221,7 +20237,7 @@ arbitrary spin, for concreteness, we will have in mind the minimal model of a si
 L = − ∂µ Φ∂ µ Φ − V (Φ) ,
 (385)
 2
-p
+√
 with V (Φ) its self-interaction potential and µΦ ≡ d2 V /dΦ2 |Φ=0 its mass. We take Φ
 to be minimally coupled to the spacetime metric gµν , sourcing its gravitational field
 via Tµν ⊇ ∇µ Φ∇ν Φ − gµν [ 12 ∇α Φ∇α Φ + V (Φ)] in the Einstein equations. The ULDM field
@@ -20308,10 +20324,10 @@ GWs of frequency ωgw = 2ωnℓm ∼ 2µΦ . Heuristically, this can be seen as 
 scalars into GWs. When self-interactions are weak, the cloud is in the gravitational regime
 (i.e., the cloud states grow only via superradiance). In this regime, GWs originate only
 from boson annihilation and the signals are (quasi-)monochromatic with frequency81
- µ
-
- µ
-
+( µ
+)
+( µ
+)
 Φ
 Φ
 annih
@@ -20331,8 +20347,8 @@ a transient quasi-equilibrium regime [2561], with a constant ratio of the occupa
 of (211) to (322), due to the simultaneous induced transition 322 × 322 → 211 × ∞. The
 large occupation of the two levels leads to mode mixing in ρ = Ttt , which results in the
 emission of GWs with frequency ωgw = ω322 − ω211 ∼ α2 µΦ [2060, 2562]; equivalently,
- α 2  µ
-
+( α )2 ( µ
+)
 Φ
 trans
 fgw
@@ -20712,8 +20728,8 @@ fundamental constants (FCs), including the fine-structure constant (α), and the
 and nucleon masses (me and MN respectively) as shown below:
 Cγ (µ)
 
-
-
+(
+)
 1
 m2π
 α (a) = (1 + δα (a)) α
@@ -20722,7 +20738,7 @@ with δα (a) =
 δπ (a)
 12π
 MN
- 2
+( 2)
 3α a2
 mπ
 me (a) = me (1 + δe (a))
@@ -20735,8 +20751,8 @@ MN (a) = MN (1 + δN (a))
 with δN (a) = −4c1 π δπ (a)
 MN
 where
-
-
+(
+)
 a2
 ∆2m
 δπ (a) ≈ 2 1 − 2 ,
@@ -21296,19 +21312,17 @@ factor is about unity (Q ≈ 1). To facilitate this approach, WISPDMX is equippe
 broadband receiver chain, enhancing its sensitivity to a wide range of DPDM parameters
 during each instance of data collection. For an RF resonant cavity that searches for DPDM,
 the sensitivity is described by
-1/2
-
+)−1/2
+1/2 (
 χ = 6.41 × 10−5 σnoise κGQVmγ ′ ρDM
-
-−1/2
 
 (389)
 
 where Q is the quality factor, V the volume, κ the antenna coupling, σnoise the noise-power
 standard-deviation, while the form factor of the resonant mode with the DPDM is given by
-R
+∫
 | dV E∗cav (x) · n̂|2
-R
+∫
 G=
 (390)
 V dV |E∗cav (x)|2
@@ -21851,8 +21865,8 @@ a π/2 phase shift between the p- and s-polarized components on each pass. This 
 maximizes the accumulation of s-polarization, which is indicative of an axion interaction,
 and is detected as an axion signal (Fig. 70) [2696].
 The detected intensity I ext at the extinguished port is given by:
-
-
+(
+)
 I ext
 1+R
 β
@@ -21875,7 +21889,7 @@ R is the mirror reflectivity, and β is the polarization rotation induced by the
 17. European WISP Experiments
 
 The experimental sensitivity to the axion-photon coupling gaγγ is governed by:
-s
+√
 stot
 (ltot + T2 + T1 )2 + 4 sin2 (πνa τ )
 β
@@ -23058,40 +23072,34 @@ LEKH =
 1
 2µ0
 
-
+(
 
 E2
 c2
 
 − B2
 
-
+)
 
 
- 2
-2
-E
-2
-
+(
+)2 
+( 2
+)2
+⃗
+⃗ ,
+ E − B2 + 7 E · B
 +
-−B
-+7
-90π m4e c5
+4
+5
+90π me c
 c2
+c
 α2
 
 ℏ3
 
 326
-
-⃗
-E
-⃗
-·B
-c
-
-!2 
-,
 
 (396)
 
@@ -23257,7 +23265,7 @@ Resonant conversion can take place in the sensitive arm inside the core of a hol
 photonic crystal fiber (HC-PCF) [2804, 2805]. This is due to the bandgap structure of the
 HC-PCF, which allows the propagating mode to acquire a refractive index neff below 1.
 This leads to real axion masses ma and to resonant mixing based on the following equation:
-q
+√
 (399)
 ma = ω 1 − n2eff .
 As can be seen in Fig. 89, by varying the gas pressure inside the HC-PCF [2806], the
@@ -23267,18 +23275,18 @@ can further enhance the effective conversion length and optical power. This lead
 expected sensitivity which can reach the expected two-photon coupling for the QCD axion:
 gaγγ ≈ 2.55 × 10−12 GeV−1
 
- 
-−1 
-
+) (
+)−1 (
+)
 B −1
 L
 F −1/2
 9T
 100 m
 100
-
-−1/2 
-−1  −1/2  −1/4
+(
+)−1/2 (
+)−1 ( )−1/2 ( )−1/4
 βsig
 Ptot
 βm
@@ -23287,21 +23295,21 @@ t
 1
 1
 1d
-
-1/4 
-1/8
+(
+)1/4 (
+)1/8
 NEPPD+SN
 ∆ν
 √
 ,
 10 Hz
 3 fW/ Hz
-
+(
 
 SNR
 3
 
-1/2 
+)1/2 (
 
 (400)
 
@@ -23354,12 +23362,12 @@ be dn = (0.0 ± 1.1stat ± 0.2sys ) × 10−26 e · cm. The collaboration spanne
 countries.
 The monopole–dipole interaction mediated by a spin-0 boson, such as an axion or
 ALPs, can be investigated using this apparatus originally
- designedfor the neutron EDM
-P
+( designed)for the neutron EDM
+∑
 search [2808]. The Lagrangian is given by Lϕ = ϕ ψ ψ̄ gsψ + iγ5 gpψ ψ, where ψ represents
- −r/λ
+(1
+) −r/λ
 ℏ2
-1
 1
 the fermion field, leading to the exotic potential V9+10 = −gpn gsN 8πm
 σ
@@ -23513,28 +23521,28 @@ effective path length Leff , operation at a modulation frequency fmod above the 
 and long integration time T . In our scheme the dipole field rotates at frequency f (the
 magnet rotation), and the VMB signal appears at fmod = 2f (standard geometry). The
 resulting signal-to-noise ratio scales as
-
+(
 SNR ∝
 
 Leff
 1m
 
-
+)(
 
 B
 1T
 
-2 
+)2 (
 
 fmod
 1 Hz
 
-α 
+)α (
 
 T
 1s
 
-1/2
+)1/2
 ,
 
 (401)
@@ -24006,8 +24014,8 @@ particles was presented in 2024 [2845] and published recently [2846].
 BC1 90% CL UL
 
 Past experiments
-NA62 A 0
-NA62 A 0 + hadrons :
+NA62 A ′
+NA62 A ′ + hadrons :
 expected
 exp. ±1
 exp. ±2
@@ -24027,7 +24035,7 @@ m
 100
 
 mA [GeV/c2]
-0
+′
 
 Figure 100: Observed 90% CL exclusion contours in the dark photon benchmark (BC1)
 combining hadronic and di-lepton channels using a data sample from 2021, corresponding
@@ -25560,29 +25568,19 @@ This cross term produces a signal oscillating at low frequency, i.e |∆ω| = |�
 the Stark effect can be realistically measured. Modeling the cavity as two flat mirrors of
 ⃗ 2 at the center is
 reflectivity r separated by a distance L, the amplitude of oscillation of |E|
-s
-
+√
+( )
 √
 √
 1 + (1 + r) cos ωL
 χβc 1 − r2 2µ0 ρDM Xa
-2c
-q
-
+√
+( ωL ) 2c ≡ χS ,
 1+4
-≡ χS ,
 (404)
-
-ωL
-ωa L
-1
-+
-2r
-cos
-+ r2
-2
-c
-1 + 2r cos c + r
+( ωa L )
+1 + 2r cos c + r2
+1 + 2r cos c + r2
 ⃗ a /Xa . One wishes to measure this signal using atoms through the
 with β = êDM · X
 quadratic Stark effect [2974] ∆ν = −χ∆αS/2h, where ∆ν is the frequency shift and ∆α
@@ -25730,17 +25728,17 @@ given by
 SNR ≃
 4TLC
 
-Z
+∫
 Vdet
 
 (Eχ2 or Bχ2 ) ∝
 
-
+(
 
 qeff
 mχ
 
-4
+)4
 .
 
 (405)
@@ -25955,12 +25953,12 @@ searched for with current and future radio telescope arrays, such as the Atacama
 Millimeter Array (ALMA) and the Square Kilometer Array (SKA), respectively, to probe
 dark photon dark matter in a wide unexplored parameter space.
 Thomson scattering e− + γ ′ → e− + γ between Milky Way free electrons
- and dark
-
+( and dark
+)
 matter dark photons is considered. The emitted photon has energy ω = mγ ′ 1 + O(vγ2′ )
 and can be produced in any direction. At any location of the galaxy, it is expected a diffuse
 spectral line signal background with frequency.
- m ′ 
+( m ′ )
 mγ ′
 γ
 ν=
@@ -25973,8 +25971,8 @@ In this work, radio telescope observations in the mass range (few) × 10−7 eV 
 (few) × 10−3 eV is proposed and the observations are chosen to be done towards the center
 of the galaxy since the electron and dark matter densities are huge there. The flux density
 (power per unit surface per unit frequency) at the detection point is
-Z
-Z
+∫
+∫
 ⟨σvrel ⟩
 Sν =
 dℓ dΩ ne (ℓ, Ω)ρDM (ℓ, Ω),

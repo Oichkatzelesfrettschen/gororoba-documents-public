@@ -8,7 +8,7 @@ Fidelity: machine-gated
 
 Transcription of `cms_2024_llp_dimuon.pdf` in this directory, 49 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 2 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1, 3-49 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 2 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1, 3-49 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -166,12 +166,17 @@ HD
 
 ZD
 
-χ
-e01
+χ̃01
 
-qe
+q̃
 
 µ−
+
+µ+
+µ−
+ν
+ν
+
 f̄
 
 f
@@ -180,29 +185,20 @@ q
 
 p
 
+q̃
 p
 
-qe
+χ̃01
 
-µ+
-µ−
-ν
-ν
+l
+l
 
 q
 
-χ
-e01
-
-l
-l
-
 Figure 1: Feynman diagrams for (left) the HAHM model, showing the production of longlived dark photons Z D via the Higgs portal, through H–H D mixing with the parameter κ, with
 subsequent decays to pairs of muons or other fermions via the vector portal; and (right) pair
-e → q χe01 decays, where the RPV neutralino is assumed to
-production of squarks followed by q
+production of squarks followed by q̃ → q χ̃ 01 decays, where the RPV neutralino is assumed to
 be a long-lived particle that decays into a neutrino and two charged leptons.
-
 10 GeV and 10.7% at m(Z D ) = 60 GeV. The dark Higgs boson is assumed to be heavy enough
 so that H → H D H D decays are kinematically forbidden. (In the sample generation, we use
 m(H D ) = 400 GeV and κ = 0.01.) The production of dark photons is modeled at leading
@@ -218,24 +214,18 @@ vertices that are reconstructed with the dimuon invariant mass mµµ correspondi
 mass, the presence of a neutrino at the decay vertex leads to a nonpeaking mµµ distribution
 with a broad spectrum below the endpoint at the LLP mass. In this model, which was used
 by CMS in the Run 1 searches for displaced dimuons [8, 9] and by ATLAS in the Run 2 search
-for pairs of displaced charged leptons [11], the LLP is assumed to be an RPV neutralino χe01
-e → q χe01 , which are pair produced in pp
-that results from decays of mass-degenerate squarks, q
-collisions. Nonzero values of RPV couplings λ122 and λ232 enable displaced χe01 decays into a
-pair of oppositely charged muons and a neutrino, χe01 → µ + µ − ν [23, 24]. The Feynman diagram
+for pairs of displaced charged leptons [11], the LLP is assumed to be an RPV neutralino χ̃ 01
+that results from decays of mass-degenerate squarks, q̃ → q χ̃ 01 , which are pair produced in pp
+collisions. Nonzero values of RPV couplings λ122 and λ232 enable displaced χ̃ 01 decays into a
+pair of oppositely charged muons and a neutrino, χ̃ 01 → µ + µ − ν [23, 24]. The Feynman diagram
 for this process is shown in Fig. 1 (right).
-
-The search uses benchmark signal samples that are generated assuming B(χe01 → µ + µ − ν ) =
-B(χe01 → e + e − ν ) = 0.5, which gives rise to events with up to two displaced dimuon vertices.
-e ) values
-To explore a wide range of kinematic variables and event topologies, we chose six m(q
-e ), generated sets of samples
-in the range between 125 GeV and 1.6 TeV, and for each chosen m(q
-e ) − m(χe01 ) of 25, 200, and 650 GeV, and sets with constant m(χe01 ) values of 50
-with ∆m = m(q
-e ). To study a wide range of signal displacements, each
-and 500 GeV such that m(χe01 ) < m(q
-set contains three samples with the generated cτ (χe01 ) values corresponding to mean transverse
+The search uses benchmark signal samples that are generated assuming B(χ̃ 01 → µ + µ − ν ) =
+B(χ̃ 01 → e + e − ν ) = 0.5, which gives rise to events with up to two displaced dimuon vertices.
+To explore a wide range of kinematic variables and event topologies, we chose six m(q̃ ) values
+in the range between 125 GeV and 1.6 TeV, and for each chosen m(q̃ ), generated sets of samples
+with ∆m = m(q̃ ) − m(χ̃ 01 ) of 25, 200, and 650 GeV, and sets with constant m(χ̃ 01 ) values of 50
+and 500 GeV such that m(χ̃ 01 ) < m(q̃ ). To study a wide range of signal displacements, each
+set contains three samples with the generated cτ (χ̃ 01 ) values corresponding to mean transverse
 decay lengths of approximately 3, 30, and 250 cm in the laboratory frame. All other SUSY particles (e.g., gluinos and sleptons) are assumed to be too heavy to be produced. (Their masses
 1
 are set to 10 TeV.) The samples are generated with PYTHIA 8.306. The squark-antisquark
@@ -682,12 +672,12 @@ Since the mass resolution in the TMS-TMS category is far superior to that in the
 10
 width of mµµ intervals varies from 3 GeV in the TMS-TMS category to ≈20 GeV in the STA-STA
 category.
-In the RPV SUSY model, the presence of a neutrino in the χe01 → µ + µ − ν decay vertex leads to
-a nonpeaking dimuon invariant mass distribution with an endpoint at m(χe01 ). To improve the
+In the RPV SUSY model, the presence of a neutrino in the χ̃ 01 → µ + µ − ν decay vertex leads to
+a nonpeaking dimuon invariant mass distribution with an endpoint at m(χ̃ 01 ). To improve the
 mass resolution and the signal-to-background discrimination in signals featuring an LLP decay
 vertex formed by a dimuon plus neutral or unobserved particles, we use the quantity referred
 to as the corrected SV mass, defined as
-q
+√
 mcorr
 =
 m2µµ + p2µµ sin2 θ + pµµ sin θ,
@@ -708,13 +698,13 @@ the corrected mass is the minimum mass that the LLP, in this case
 µµ
 µµ
 0
-the χe1 , can have in order to be consistent with the measured direction of flight. The mcorr
+the χ̃ 1 , can have in order to be consistent with the measured direction of flight. The mcorr
 µµ distri0
-butions of simulated RPV SUSY events show a clear peak at m(χe1 ) in both dimuon categories.
+butions of simulated RPV SUSY events show a clear peak at m(χ̃ 1 ) in both dimuon categories.
 corr
 We profit from the improvement in mass resolution offered by mcorr
 µµ and use mµµ intervals to
-probe different m(χe01 ). As with mµµ intervals for the HAHM model, the width of the intervals
+probe different m(χ̃ 01 ). As with mµµ intervals for the HAHM model, the width of the intervals
 is chosen to contain a large fraction of the RPV SUSY signal (typically 80–90%). In the STA-STA
 category, we additionally require mµµ > 15 GeV to avoid the leakage of background events
 from small mµµ to large mcorr
@@ -1735,10 +1725,7 @@ background predictions in both SRs. The largest min(d0 /σd0 ) bin, min(d0 /σd0
 the lowest experimental background and, except for the smallest lifetimes, most of the signal
 predicted by both models.
 These results are used to set upper limits on B(H → Z D Z D ) in the HAHM model and on the
-eq
-e ) and B(q
-e → q χe01 ) in the
-product of the squark-antisquark production cross section σ(pp → q
+product of the squark-antisquark production cross section σ(pp → q̃ q̃ ) and B(q̃ → q χ̃ 01 ) in the
 RPV SUSY model. The limit extraction is based on a modified frequentist approach [37, 38] and
 
 ## PDF page 20
@@ -3294,18 +3281,12 @@ Observed, m(∼
 
 cτ [cm]
 
-eq
-e )B(q
-e → q χe01 ) as a function of cτ (χe01 ) in the
-Figure 16: The 95% CL upper limits on σ(pp → q
-e ) ranging from (upper left) 125 GeV to
-RPV SUSY model, for B(χe01 → µ + µ − ν ) = 0.5 and m(q
-e ) and m(χe01 ) indi(lower right) 1.6 TeV. The observed limits for various combinations of m(q
-cated in the legends are shown as solid curves. The median expected limits and their 68 and
+Figure 16: The 95% CL upper limits on σ(pp → q̃ q̃ )B(q̃ → q χ̃ 01 ) as a function of cτ (χ̃ 01 ) in the
+RPV SUSY model, for B(χ̃ 01 → µ + µ − ν ) = 0.5 and m(q̃ ) ranging from (upper left) 125 GeV to
+(lower right) 1.6 TeV. The observed limits for various combinations of m(q̃ ) and m(χ̃ 01 ) indicated in the legends are shown as solid curves. The median expected limits and their 68 and
 95% quantiles are shown, respectively, as dashed black curves and green and yellow bands for
-the case of m(χe01 ) = 50 GeV and omitted for other neutralino masses for clarity. The gray horizontal lines indicate the theoretical values of the squark-antisquark production cross sections
-e) =
-with the uncertainties shown as gray shaded bands. The predicted cross sections for m(q
+the case of m(χ̃ 01 ) = 50 GeV and omitted for other neutralino masses for clarity. The gray horizontal lines indicate the theoretical values of the squark-antisquark production cross sections
+with the uncertainties shown as gray shaded bands. The predicted cross sections for m(q̃ ) =
 125, 200, and 350 GeV are, respectively, 7200, 840, and 50 pb, and fall outside the y-axis range.
 
 ## PDF page 25
@@ -3328,23 +3309,15 @@ and ≈10 cm (depending on m(Z D )), where a previous CMS search [7] using data 
 a dedicated high-rate data stream provides the best limits.
 Figure 16 shows the observed and expected 95% CL upper limits obtained in the ensemble of
 both dimuon categories in the framework of the RPV SUSY model. The limits are set on the
-eq
-e )B(q
-e → q χe01 ) assuming B(χe01 → µ + µ − ν ) = 0.5. They are shown as funcproduct σ(pp → q
-e ) and m(χe01 )
-tions of the mean proper decay length of χe01 for the various combinations of m(q
-e ) values ranging from 125 GeV to 1.6 TeV, and compared to the
-indicated in the legends, for m(q
-theoretical predictions. At a squark mass of 700 GeV, the data exclude the mean proper neutralino decay lengths between 30 µm and 350 m (at m(χe01 ) = 50 GeV), and between 30 µm and
-1.5 km (at m(χe01 ) = 500 GeV). At a squark mass of 1.6 TeV, the excluded cτ (χe01 ) range is between
-0.07 and 4 cm for m(χe01 ) = 50 GeV and between 70 µm and 2 m for m(χe01 ) = 500 GeV. The limits
+product σ(pp → q̃ q̃ )B(q̃ → q χ̃ 01 ) assuming B(χ̃ 01 → µ + µ − ν ) = 0.5. They are shown as functions of the mean proper decay length of χ̃ 01 for the various combinations of m(q̃ ) and m(χ̃ 01 )
+indicated in the legends, for m(q̃ ) values ranging from 125 GeV to 1.6 TeV, and compared to the
+theoretical predictions. At a squark mass of 700 GeV, the data exclude the mean proper neutralino decay lengths between 30 µm and 350 m (at m(χ̃ 01 ) = 50 GeV), and between 30 µm and
+1.5 km (at m(χ̃ 01 ) = 500 GeV). At a squark mass of 1.6 TeV, the excluded cτ (χ̃ 01 ) range is between
+0.07 and 4 cm for m(χ̃ 01 ) = 50 GeV and between 70 µm and 2 m for m(χ̃ 01 ) = 500 GeV. The limits
 obtained in this analysis are tighter than those derived by CMS in the Run 1 search [8, 9] in all
-e ), m(χe01 ), cτ (χe01 )) parameter space and are more stringent at cτ (χe01 ) ≲ 1 cm
-of the relevant (m(q
-0
-and cτ (χe1 ) ≳ 1 m than the limits on the λ122 RPV coupling set by the ATLAS Collaboration at
-e ) of 700 GeV and 1.6 TeV [11].
-m (q
+of the relevant (m(q̃ ), m(χ̃ 01 ), cτ (χ̃ 01 )) parameter space and are more stringent at cτ (χ̃ 01 ) ≲ 1 cm
+and cτ (χ̃ 01 ) ≳ 1 m than the limits on the λ122 RPV coupling set by the ATLAS Collaboration at
+m(q̃ ) of 700 GeV and 1.6 TeV [11].
 
 8
 

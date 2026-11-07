@@ -8,7 +8,7 @@ Fidelity: machine (failed: characters)
 
 Transcription of `desi_2025_dr2_bao.pdf` in this directory, 41 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 6 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-5, 7-41 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 6 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-5, 7-41 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -280,9 +280,9 @@ and CMB data. When also including SNe, the preference for a dynamical dark energ
 over ΛCDM ranges from 2.8 − 4.2σ depending on which SNe sample is used. We present evidence
 from other data combinations which also favor the same behavior at high significance. From the
 combination
-of DESI and CMB we deriveP
+of DESI and CMB we derive∑
 95% upper limits on the sum of neutrino masses, finding
-P
+∑
 mν < 0.064 eV assuming ΛCDM and
 mν < 0.16 eV in the w0 wa model. Unless there is an
 unknown systematic error associated with one or more datasets, it is clear that ΛCDM is being
@@ -425,7 +425,7 @@ to date.
 The BAO technique (reviewed in §4 of [23]), which is
 key to DESI, exploits the enhancement of clustering at
 the scale of the pre-recombination sound horizon,
-Z ∞
+∫ ∞
 cs (z)
 rd =
 dz .
@@ -440,9 +440,9 @@ horizon can be computed given the densities of baryons,
 cold dark matter (CDM), photons, and other relativistic
 species [25],
 rd = 147.05 Mpc ×
- ω
-−0.13  ω
-−0.23  N −0.1
+( ω
+)−0.13 ( ω
+)−0.23 ( N )−0.1
 b
 bc
 eff
@@ -458,9 +458,9 @@ denote the present day fractional energy densities relative
 to critical in baryons and cold dark matter, respectively.
 A measurement of the BAO scale in the transverse direction at redshift z constrains the transverse comoving
 distance, which is given by
-p
-
-Z z
+[√
+]
+∫ z
 c
 dz ′
 √
@@ -473,7 +473,7 @@ H0 ΩK
 0 H(z )/H0
 
 where ΩK is the curvature density parameter, which converges to the flat universe case
-Z z
+∫ z
 c
 dz ′
 DM (z) =
@@ -521,12 +521,12 @@ beyond (e.g., [29–31], and references therein). BAO and
 SNe measurements constrain dark energy and neutrino
 masses through their impact on the background evolution, thus determining H(z). Assuming that general relativity (GR) correctly describes the dynamics of expansion, the evolution of H(z) is governed by the Friedmann
 equation, which can be written
-H(z) h
+H(z) [
 = Ωbc (1 + z)3 + Ωγ (1 + z)4 + ΩK (1 + z)2 +
 H0
 (6)
 ρν (z)
-ρDE (z) i1/2
+ρDE (z) ]1/2
 Ων
 + ΩDE
 .
@@ -543,7 +543,7 @@ scaling of the neutrino energy density transitions from
 (1 + z)3 to (1 + z)4 at high redshifts, when (1 + z) ∼
 (mν /5 × 10−4 eV) [32, 33]. The sum of neutrino masses
 determines the present day density [34]
-P
+∑
 mν
 2
 .
@@ -562,8 +562,8 @@ the BAO scale.
 The ΛCDM model assumes a cosmological constant
 dark energy (Λ) with energy density c2 ρDE that is constant in space and time. If dark energy has an equationof-state parameter w(z) ≡ P (z)/(c2 ρDE (z)) where P (z)
 is its pressure, then its energy density evolves as
-
- Z z
+]
+[ ∫ z
 ρDE (z)
 dz ′
 .
@@ -599,7 +599,7 @@ freely [38].
 The combination of BAO, CMB, and SNe data has
 allowed tight constraints on the energy density ΩDE and
 equation-of-state w(z) of dark
-P energy, on space curvature
+∑ energy, on space curvature
 ΩK , on neutrino masses
 mν , and on many possible
 departures from standard cosmology (see, e.g., [39–42]).
@@ -617,7 +617,7 @@ an astounding discovery, and these results have inspired
 both enthusiastic theorizing and healthy skepticism. In
 our analysis here of the DESI DR2 BAO results, we pay
 particular attention to the nature and statistical significance of the evidence for evolving dark energy and to
-how that evidence depends on the P
+how that evidence depends on the ∑
 choice of datasets. We
 also examine the constraints on
 mν from the DESI
@@ -1305,7 +1305,8 @@ shifting of the BAO feature. The measurements are
 less correlated in the latter basis, and we use it as
 our baseline when sampling the BAO model posterior.
 We also define the isotropic BAO distance DV (z) ≡
-1/3
+(
+)1/3
 zDM (z)2 DH (z)
 , for which we report results in later
 sections.
@@ -1884,7 +1885,7 @@ and analysis pipelines are very similar, we conservatively
 assume a perfect correlation between the DR1 and DR2
 measurements shown in Figure 6 to assess their consistency. We find improvements in the statistical precision between 30% and 50% for DR2. We find that the
 largest discrepancies between results are 1.56σ in αiso (for
-LRG3+ELG1) and 1.93σ in αAPp(for LRG2), with the joint
+LRG3+ELG1) and 1.93σ in αAP√(for LRG2), with the joint
 2
 2
 uncertainty defined as σ ≡
@@ -1918,29 +1919,29 @@ DM /rd -DH /rd plane was less significant). The new DR2
 result in this redshift bin lies between the two in the
 DM /rd -DH /rd plane.
 To investigate the consistency, we compare measurements assuming that the coefficient of correlation between the power spectrum measurements in the two surveys, defined as
-R
+∫
 dV X1 X2 /X12
 Cov(P̂1 , P̂2 )
-q
-q
+√
+√
 C=
 =
 , (13)
-R
-R
+∫
+∫
 ( dV X1 )( dV X2 )
 Var(P̂1 )Var(P̂2 )
 also describes the correlation between BAO measurements. Here Xi = (ni Pi )2 /(1 + ni Pi )2 for i = 1, 2, and
-−2
+)−2
 √
-2
+2(
 X12 = (n1 n2 P1 P2 ) n12 P1 P2 + n1 n2 P1 P2
 , where
 
 12 For galaxy and quasar clustering measurements,
 
 we use C =
-p
+√
 NDR1 /NDR2 , where NDR1 and NDR2 are the numbers of tracers in DR1 and DR2, respectively. For Lya, we use C = 0.61,
 estimated using the method described in Appendix F of [22].
 
@@ -2159,7 +2160,7 @@ measure the degenerate combination H0 rd rather than
 H0 and rd individually. Given that BAO also measure
 Ωm , from eq. (2) we can see that, assuming
 standard
-P
+∑
 neutrino content (Neff = 3.044 and
 mν = 0.06 eV),
 knowledge of Ωb h2 is sufficient to break this degeneracy.
@@ -2218,7 +2219,7 @@ use of slightly more data, with larger sky fractions, than
 Plik. Our choice of CamSpec as the default is based on
 the speed of evaluation of the likelihood code relative to
 L-H, but where any results depend on the choice
-Pof likelihood (notably for the sum of neutrino masses
+∑of likelihood (notably for the sum of neutrino masses
 mν ) we
 provide both sets of results.
 Fits using the full CMB likelihoods require specification of a full physical model, including computation of
@@ -2355,18 +2356,20 @@ h = H0 /(100 km s−1 Mpc−1 ). When the BAO data
 are calibrated through the use of an external prior
 such as BBN, we sample in H0 and ωb instead of
 hrd . Runs involving use of the full CMB likelihood
-sample the base set of six cosmological
+sample
+the base set of six cosmological
 parameters
-
+(
+)
 ωbc , ωb , 100θMC , ln(1010 As ), ns , τ , where θMC is an approximation17 to the acoustic angular scale θ∗ based on
 fitting formulae given in [124], ln(1010 As ) and ns are the
 amplitude and spectral index of the primordial scalar perturbations, and τ is the optical depth. Extended cosmological models additionally allow the spatial curvature
 ΩK , the dark energy equation of state parameters
 w0
-P
+∑
 (or w) and wa , or the sum of neutrino masses
 mν to
-vary inP
+vary in∑
 addition to the base parameters mentioned above.
 When
 mν is varied, we assume three degenerate mass
@@ -2383,7 +2386,7 @@ package [126]. For 1D marginalized posterior results we
 
 quote the mean and standard deviation when the distributions are symmetric and the 68% minimal credible
 interval when they are not. Where only limits on parameter values can be determined, upper or
-P lower bounds
+∑ lower bounds
 are quoted at the 68% level, except for
 mν where we
 quote the 95% upper bound to ensure comparability with
@@ -2416,7 +2419,7 @@ with each other. The result of a combined fit to the BAO
 results from all redshift bins together is shown in the left
 panel of Figure 8 compared to those obtained from DR1
 and from the CMB. We find
-
+}
 Ωm = 0.2975 ± 0.0086,
 DESI DR2,
 (17)
@@ -2435,7 +2438,7 @@ of the likelihood evaluation.
 19 When using the CosmoSIS implementation of this likelihood, we
 
 sample using the same priors as in [119], except on the parameters w0 and wa , where the priors are chosen to match
-P those in
+∑ those in
 the rest of this paper, and the neutrino mass sum
 mν , which
 is fixed to 0.06 eV as in the default case here.
@@ -3045,7 +3048,7 @@ for extended models in the following sections. However,
 given that this tension is not close to 3σ, it is still valid to
 combine the two datasets within the ΛCDM model and
 obtain joint constraints. In this case we find
-)
+}
 Ωm = 0.3027 ± 0.0036,
 DESI+CMB,
 H0 = (68.17 ± 0.28) km s−1 Mpc−1 ,
@@ -3103,12 +3106,13 @@ parametrization of eq. (9) allows so-called ‘phantom’ behavior of dark energ
 
 23
 
-
+(
+)
 1
 CDFχ2 ∆χ2MAP | 2 dof = √
 2π
 
-Z N
+∫ N
 
 2
 
@@ -3129,7 +3133,7 @@ Results
 
 From DESI DR2 BAO alone, we obtain rather weak
 constraints on the parameters
-)
+}
 +0.35
 w0 = −0.48−0.17
 DESI BAO,
@@ -3221,7 +3225,7 @@ us set the sound horizon and is based solely on earlyUniverse information. The r
 w0 = −0.43 ± 0.22
 wa = −1.72 ± 0.64
 
-
+}
 
 DESI+(θ∗ , ωb , ωbc )CMB . (24)
 
@@ -3240,12 +3244,12 @@ maginalized posteriors
 w0 = −0.42 ± 0.21
 wa = −1.75 ± 0.58
 
-
+}
 
 +0.22
 wa = −0.62−0.19
 
-)
+}
 
 DESI+CMB,
 
@@ -3259,14 +3263,14 @@ Pantheon+,
 
 (26)
 
-)
+}
 
 DESI+CMB
 +Union3,
 
 (27)
 
-)
+}
 
 DESI+CMB
 +DESY5,
@@ -3547,7 +3551,7 @@ the data.
 26
 Perpendicular BAO α⊥
 
-Parallel BAO αk
+Parallel BAO α∥
 
 1.04
 
@@ -3962,27 +3966,27 @@ Physical models that can satisfactorily explain the data
 without requiring dark energy evolution are more challenging. Table V confirms the finding, previously reported in [38], that allowing the curvature ΩK to vary
 freely, while increasing uncertainties, does not shift the
 posterior
-P in w0 and wa towards ΛCDM. While we have
+∑ in w0 and wa towards ΛCDM. While we have
 fixed
 mν = 0.06 eV for our fiducial analysis, it is allowed to vary in Section VIII below, and we find that
 this has almost no effect on the dark energy constraints.
-This is because fitting the CMBPpower spectrum imposes
-a positive correlation P
+This is because fitting the CMB∑power spectrum imposes
+a positive correlation ∑
 between
 mν and Ωm , thus given
 a physical prior that
 mν > 0 eV, in most of the available parameter space neutrino masses can only increase
 the CMB value of Ωm , which exacerbates rather than
-relieves the P
+relieves the ∑
 tension with DESI BAO, and in the region
 where 0 ≤
 mν ≤ 0.06 eV they have very limited
-efP
+ef∑
 fect. However, the more exotic scenario where
 mν is
 treated
 as an ‘effective’ neutrino mass such that values
-P
+∑
 mν,eff < 0 eV are allowed [161–163] can allow CMB
 fits to be consistent with lower Ωm . This has the effect
 
@@ -4005,11 +4009,11 @@ Cosmological observations are sensitive to the sum of
 the neutrino masses. However, this measurement depends on the choice of a cosmological model. So far, our
 baseline analysis has assumed the sum of neutrino masses
 to be fixed to the minimum value allowed by
-P terrestrial
+∑ terrestrial
 experiments under a normal mass ordering, mν = 0.06
 eV, modeled as a single massive
 and two massless states.
-P
+∑
 In this section we allow
 mν to vary. When doing so,
 we assume by default three degenerate mass eigenstates
@@ -4017,9 +4021,9 @@ except when testing specific physical mass ordering scenarios. This model produc
 the observable effects of both normal and inverted physical mass ordering scenarios and, in the case of a positive
 detection
 of neutrino masses, would recover the correct
-P
+∑
 mν value without bias [34, 164].
-P We also impose a
+∑ We also impose a
 minimal physical (uniform) prior
 mν > 0 eV, while
 noting that scenarios with negative ‘effective’ neutrino
@@ -4053,7 +4057,7 @@ of improving the ΛCDM fit and thus reducing the preference for evolving dark en
 but not below the level that is found from the relevant
 DESI+SNe combination alone without any CMB information (which can be up to 3.3σ, Table VI), as shown
 in Section VIII. That is, allowing negative effective neutrino masses still does not fully remove the preference
-for non-cosmological constant dark energy. P
+for non-cosmological constant dark energy. ∑
 At the same
 time, such dark energy models do permit
 mν,eff > 0
@@ -4078,7 +4082,7 @@ fluke.
 
 0.10
 
-P
+∑
 
 0.15
 
@@ -4086,20 +4090,20 @@ P
 
 mν [eV]
 
-P
+∑
 FIG. 15. 1D marginalized posterior constraints on
 mν from
 DESI DR2 BAO measurements combined
 with different CMB
-P
+∑
 likelihoods, assuming the ΛCDM+ mν model. We show the
 1D posteriors for the CamSpec CMB likelihood (leading to the
-tightest constraint) as well as the Plik and L-H CMB P
+tightest constraint) as well as the Plik and L-H CMB ∑
 likelihoods. We also show the posterior for the w0 wa CDM+ mν
 model, using DESI and the CamSpec CMB. Other models and
 datasets are presented in Table VII. The vertical dashed
 lines
-P
+∑
 and shaded regions indicate the minimum allowed
 mν values for (from left to right) the normal and inverted mass ordering scenarios, respectively.
 
@@ -4110,7 +4114,7 @@ total matter density Ωm and the parameter combination
 H0 rd , so DESI BAO alone cannot constrain the neutrino
 masses. Nevertheless by breaking geometrical degeneracies, BAO significantly enhance the ability of the CMB
 to constrain this parameter.
-P
+∑
 The upper limits on
 mν that we obtain from the
 combination of DESI and CMB depend on the particular choice of the CMB likelihood used, since the various
@@ -4118,7 +4122,7 @@ likelihoods differ slightly in the amount of lensing power
 they infer from the lensed T T , T E and EE power spectra. This can be incorporated into a phenomenological
 parameter AL that scales the model lensing power used to
 compute the lensed power spectra (but not the power reconstructed from the 4-point function), such that values
-AL > 1 indicate an excess of lensing P
+AL > 1 indicate an excess of lensing ∑
 power, often referred
 to as the ‘AL anomaly’. Increasing
 mν above 0.06 eV
@@ -4133,12 +4137,12 @@ PR4 data release. Combining these with the DESI DR2
 
 30
 Model/Dataset
-P
+∑
 ΛCDM+ mν
 DESI BAO+CMB [Camspec]
 DESI BAO+CMB [L-H]
 DESI BAO+CMB [Plik]
-P
+∑
 wCDM+ mν
 DESI BAO+CMB
 
@@ -4147,7 +4151,7 @@ DESI BAO+CMB
 0.3009 ± 0.0037
 
 DESI BAO+CMB+DESY5
-P
+∑
 w0 wa CDM+ mν
 DESI BAO+CMB
 
@@ -4187,7 +4191,7 @@ H0 [km s−1 Mpc−1 ] H0 rd [100 km s−1 ]
 0.3269 ± 0.0088
 0.3188 ± 0.0058
 
-P
+∑
 
 mν [eV]
 
@@ -4283,18 +4287,18 @@ wa
 −0.758 ± 0.058 −0.82+0.26
 −0.21
 
-P
+∑
 TABLE VII. Cosmological parameter constraints where the neutrino mass parameter is allowed to vary assuming a
 mν > 0
 prior. Additionally, we include models with more general dark energy backgrounds beyond ΛCDM. While we quote the 95%
 upper limit for the neutrino mass parameter in eV units, we refer to the 68% credible
-Pinterval for the rest of the parameters.
+∑interval for the rest of the parameters.
 We quote the constraints for DESI and three different CMB likelihoods for ΛCDM+ mν ; in all other rows the label ‘CMB’
 refers to use of the baseline CamSpec likelihood.
 
 The result of eq. (30) is directly comparable to the result
 obtained from BAO and CMB in the DESI DR1 analysis
-[38, 46], which used the Plik likelihood P
+[38, 46], which used the Plik likelihood ∑
 as the default and
 obtained the corresponding constraint
 mν < 0.082 eV
@@ -4315,22 +4319,22 @@ mν [eV]
 Although the CamSpec likelihood appears to prefer a
 lower lensing power and reduces the AL anomaly [109],
 the tighter constraints
-P on other cosmological parameters
+∑ on other cosmological parameters
 degenerate with
 mν mean that this upper bound is
 tighter than the one obtained with the original Plik likelihood:
-X
+∑
 mν < 0.069 eV (95%, DESI+CMB[Plik]). (30)
 
 0.4
 
 0.2
 
-P
+∑
 
 BAO, and assuming a ΛCDM background, we find the
 marginalized posterior limit
-X
+∑
 mν < 0.064 eV (95%, DESI+CMB).
 (29)
 
@@ -4351,16 +4355,16 @@ mν < 0.064 eV (95%, DESI+CMB).
 
 Ωm
 FIG. 16. 68% and 95% confidence contours for the sum of the
-neutrinoP
+neutrino∑
 masses and Ωm in ΛCDM. The constraints assume
 a prior
 mν > 0 eV. The CMB
-P constraints show a high
+∑ constraints show a high
 degree of correlation between
 mν and Ωm . DESI BAO
 constraints are insensitive to the neutrino mass parameter but
 measure Ωm , thus helping to break the
-P geometric degeneracy
+∑ geometric degeneracy
 and
 tightening
 the
@@ -4368,7 +4372,7 @@ upper
 bound
 on
 mν . The constraint on
-P
+∑
 mν from DESI+CMB is particularly tight because of the
 DESI preference for lower Ωm values.
 
@@ -4389,7 +4393,7 @@ reflected in significantly looser upper bounds on the neu-
 
 0.2
 
-P
+∑
 
 mν [eV]
 
@@ -4418,16 +4422,16 @@ wa
 0
 
 FIG. 17. Constraints on the sum of the neutrino masses
-P assuming a w0 wa CDM model. All contours enclose 68% and 95%
+∑ assuming a w0 wa CDM model. All contours enclose 68% and 95%
 of the posterior probability, and
 mν > 0 eV. The gray dashed lines represent the ΛCDM limit. We
-P all cases use the prior
+∑ all cases use the prior
 show the degeneracy between
 mν and the dark energy parameters in the DESI+CMB contours (dark orange contours) and
-the constraints from the combination P
+the constraints from the combination ∑
 DESI+CMB+DESY5. The vertical blue bands show the geometrical constraints
 from
-P
+∑
 DESI+DESY5, that do not measure
 mν but break degeneracies helping to further limit the upper bound on
 mν . An
@@ -4435,7 +4439,7 @@ extended plot allowing an effective neutrino mass parameter that can take negati
 [50].
 
 trino mass,
-X
+∑
 
 mν < 0.077 eV
 
@@ -4443,33 +4447,33 @@ mν < 0.077 eV
 
 (31)
 
-Figure 15 P
+Figure 15 ∑
 shows the marginalized 1D posterior constraints on
 mν for the combination of DESI with each
 of the CMB likelihoods.
 Irrespective of which CMB likelihood is used, all
 three
 upper bounds are very close to the lower bound
-P
+∑
 mν > 0.059 eV set by neutrino oscillation experiments [167]. The posteriors shown in Figure 15 all resemble the tails of distributions that would peak at negative neutrino masses if this were allowed by the prior.
 This behavior has been explored in a few recent studies [161, 163, 168, 169], as well as in our companion
 work [50], which also shows that it holds for profile like2
 lihoods
-P based on extrapolating the χ likelihood surface
+∑ based on extrapolating the χ likelihood surface
 to
 mν < 0 eV. In the context of a model with effective
-neutrino masses that are allowed to assumeP
+neutrino masses that are allowed to assume∑
 negative values, the DESI+CMB likelihood peaks at
 mν,eff < 0,
 and the tension with the minimal mass bound from terrestrial experiments increases to 3.0σ [50].
 This discrepancy can be related to the tension between
 DESI and CMB results for the parameters Ωm and H0 rd
 in a ΛCDM background discussed in Section VI above,
-and particularly in Figure 8. For fixed angular acousP
+and particularly in Figure 8. For fixed angular acous∑
 tic scale θ∗ , the effects on the CMB of changing
 mν
 and changing Ωm are positively correlated, as can be seen
-from the dashed black contour in FigureP16 (similar degeneracies can also be observed between mν and H0 rd ,
+from the dashed black contour in Figure∑16 (similar degeneracies can also be observed between mν and H0 rd ,
 
 but with a negative correlation). In ΛCDM, DESI tightly
 constrains Ωm , as shown by the vertical shaded contour,
@@ -4478,16 +4482,16 @@ posterior distribution for CMB measurements. Consequently, the combination of DE
 all but the smallest neutrino masses. This result is thus
 related to the preference of DESI for lower values of Ωm
 compared to the CMB discussed in the previous Sections.
-P
+∑
 As the upper limits on mν from cosmology approach
 the lower limits from neutrino oscillations, the distinction
 between the different mass orderings becomes increasingly relevant.
-P The baseline constraint eq. (29), obtained
+∑ The baseline constraint eq. (29), obtained
 assuming a
 mν > 0 prior, already appears to rule out
 the inverted ordering. However, to determine the evidence in support of the normal ordering, one should also
 account for the fact that much of the posterior volume violates the constraints for both mass orderings.
-P To do this
+∑ To do this
 we use a physical model for the total mass mν in terms
 of lightest neutrino mass ml ≥ 0, which includes information on the mass squared splittings ∆m221 and |∆m231 |
 and allows for either mass ordering, as described in [170].
@@ -4496,7 +4500,7 @@ a combined analysis of DESI, CMB (with the baseline
 CamSpec likelihood) and 3-flavor oscillation constraints
 from NuFit-6.0 [167], assigning equal prior probabilities
 to either mass ordering. The result obtained is
-X
+∑
 
 mν < 0.112 eV
 
@@ -4509,7 +4513,7 @@ NuFit-6.0).
 
 32
 The difference between the limits in eq. (29)
-P and eq. (32)
+∑ and eq. (32)
 arises because the former only requires
 mν > 0 while
 the latter
@@ -4517,20 +4521,20 @@ incorporates
 oscillation
 data
 that
-effectively reP
+effectively re∑
 quire
 mν > 0.06 eV, therefore pushing the upper limit
 into territory disfavored by the DESI+CMB data alone.
 In the supporting paper [50], we also compare the two
 mass orderings and find a Bayes factor of K = 10 providing strong evidence in support of the normal
-P mass ordering under the assumption of the ΛCDM+ mν model.
+∑ mass ordering under the assumption of the ΛCDM+ mν model.
 Given the discrepancy between DESI and CMB under the ΛCDM model, and the strong preference for a
 w0 wa CDM model discussed in Section VII, we consider
 the effect of allowing the equation-of-state parameters
 w
-P0 and wa to vary. In this scenario and assuming a
+∑0 and wa to vary. In this scenario and assuming a
 mν > 0 prior, we find
-X
+∑
 
 mν < 0.163 eV
 
@@ -4541,7 +4545,7 @@ CMB),
 (33)
 
 from combining DESI with CMB, and
-X
+∑
 
 mν < 0.129 eV
 
@@ -4553,15 +4557,15 @@ CMB+DESY5)
 when also using DESY5 SNe to better constrain the equation of state of dark energy. More details of parameter
 posteriors in this scenario, including those obtained
 with
-P
+∑
 other data combinations and the wCDM+ mν model,
 are presented in Table VII. Through
-comparison to TaP
+comparison to Ta∑
 ble V, we find that allowing
 m
 to
 vary with a conν
-P
+∑
 ventional physical prior
 mν > 0 eV has little effect
 on the w(z) constraints, but that allowing w0 and wa
@@ -4569,13 +4573,13 @@ to vary significantly relaxes the neutrino mass bound in
 all cases. Moreover, in the case of DESI and CMB, the
 peak of the 1D marginalized posterior is recovered in the
 positive mass range, as shown in Figure 15.
-In ΛCDM, BAO measurements from DESI set a geometric constraint on Ωm (or, equivalently, on H0 rdP
+In ΛCDM, BAO measurements from DESI set a geometric constraint on Ωm (or, equivalently, on H0 rd∑
 ) that
 helps break the degeneracy in the CMB results for mν .
 In the w0 wa CDM model, these geometric measurements
 primarily help by constraining the background
 w0 and
-P
+∑
 wa values, thus limiting the available
 mν range from
 the CMB alone, which is itself weaker than in ΛCDM
@@ -4586,7 +4590,7 @@ significantly tighter. This is illustrated in Figure 17,
 where the vertical blue bands show the purely geometrical constraints from DESI+DESY5. An extension of
 this plot where these degeneracies extend further in parameter space by allowing for negative
 neutrino masses
-P
+∑
 through and effective parameter
 mν,eff > 0 is shown
 in [50].
@@ -4678,21 +4682,21 @@ out recently by [131].
 Assuming a ΛCDM background, the combination of
 DESI and CMB data give the tightest
 upper bound on
-P
+∑
 the neutrino mass sum to date,
 mν < 0.064 eV (95%
 limit)
-P in our baseline analysis. Although this relaxes
+∑ in our baseline analysis. Although this relaxes
 to
 mν < 0.078 eV when using an alternative Planck
 likelihood [110], both results are approaching the lower
 bound
 set by terrestrial neutrino oscillation experiments,
-P
+∑
 mν ≥ 0.059 eV. Indeed, if the model is extended to
 allow for negative ‘effective’ neutrino masses, most of
 the
-P posterior mass and the peak of the likelihood lie at
+∑ posterior mass and the peak of the likelihood lie at
 mν,eff < 0 eV, another possible sign of growing tensions within the ΛCDM model with DESI DR2 [50].
 The evidence for a departure from ΛCDM in the form
 of evolving dark energy has increased with the DR2
@@ -4741,21 +4745,21 @@ w0 wa CDM from DESI+DESY3 (3×2pt)+DESY5 SNe.
 Removing the preference for w0 wa CDM through changes
 to the DESI measurements themselves would require systematic errors to be far larger than any found in our tests.
 In the w0 wa CDM background model, when the neutrino mass scale is allowed to vary with physical
-P
-non-negative prior bounds, P
+∑
+non-negative prior bounds, ∑
 the upper limit on
 mν
-is significantly relaxed P
+is significantly relaxed ∑
 to
 mν < 0.16 eV (95%,
 from DESI+CMB) or
 mν < 0.13 eV (95%, from
 DESI+CMB+DESY5, the middle result from the three
-possible SNe samples), while the constraints on wP
+possible SNe samples), while the constraints on w∑
 0 and
 wa do not materially change from the case where
 mν
-is fixed. These limits are entirely consistent with neutrino oscillation experiment results. The supporting paper [50]Pshows that even when allowing for effective
+is fixed. These limits are entirely consistent with neutrino oscillation experiment results. The supporting paper [50]∑shows that even when allowing for effective
 masses
 mν,eff with a wide prior that allows negative
 values, the marginalized posterior in w0 wa CDM from

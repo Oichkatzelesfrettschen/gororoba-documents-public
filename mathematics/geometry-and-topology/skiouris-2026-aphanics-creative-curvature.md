@@ -8,7 +8,7 @@ Fidelity: machine (failed: characters)
 
 Transcription of `skiouris-2026-aphanics-creative-curvature.pdf` in this directory, 41 pages; each `## PDF page` heading marks a page of the PDF.
 
-Method: pages 2 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1, 3-41 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+Method: pages 2 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1, 3-41 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
 ## PDF page 1
 
@@ -363,7 +363,7 @@ in the sedenion model (Sections 3–4). Contributions 3–6 are a framework prop
 an instrumentation layer for dialectical systems whose validity in any deployed system
 requires that system to expose a hidden-sector bundle with the stated structure, and
 whose empirical validation is future work.
-1. The aphanic Berry bundle (Section 3; theorem): the kernel assignment p 7→
+1. The aphanic Berry bundle (Section 3; theorem): the kernel assignment p ↦→
 ker Lp over the aphanic locus, realized as a smooth rank-4 vector bundle with a
 kernel-projector connection, whose Berry curvature is identified in closed form with
 the algebraic curvature operator Ca,b (p).
@@ -563,7 +563,7 @@ The Aphanic Berry Bundle
 
 This section constructs the geometric object whose holonomy algebra is computed in
 §4. The aphanic locus Paph ⊂ S is a smooth real-analytic manifold; the assignment
-p 7→ Kp = ker Lp defines a smooth real rank-4 vector bundle K → Paph ; and the kernelprojector prescription ∇ := π ◦d◦π defines a metric connection on K. The principal result
+p ↦→ Kp = ker Lp defines a smooth real rank-4 vector bundle K → Paph ; and the kernelprojector prescription ∇ := π ◦d◦π defines a metric connection on K. The principal result
 of the section (Theorem 3.9) identifies the resulting Berry curvature 2-form, restricted to
 fibers, with the closed-form curvature operator Ca,b (p) used throughout §4.
 9
@@ -575,7 +575,9 @@ rank 4
 
 ∇=π◦d
 holonomy ∈ u(2)
-F ∇ Kp = Ca,b (p)
+∣
+F ∇ ∣ = Ca,b (p)
+Kp
 
 γ
 p
@@ -643,15 +645,17 @@ For each p ∈ Paph , the fiber Kp := ker Lp is a 4-dimensional real subspace of
 total space
 K :=
 
-
+{
 
 (p, v) ∈ Paph × S : v ∈ Kp
 
+}
+
 (1)
 
-projects onto Paph by (p, v) 7→ p.
+projects onto Paph by (p, v) ↦→ p.
 Proposition 3.3 (Kernel bundle smoothness). The projection K → Paph is a smooth
-real rank-4 vector bundle, and the family of orthogonal projectors p 7→ πp is real-analytic
+real rank-4 vector bundle, and the family of orthogonal projectors p ↦→ πp is real-analytic
 on Paph .
 Proof. The closed-form representation of πp from Proposition 4.2 of §4.2,
 πp = I −
@@ -670,9 +674,9 @@ G2 ,
 is a polynomial in Gp = L⊤
 p Lp with coefficients that are real-analytic in ∥p∥ on Paph
 
-(where ∥p∥2 > 0). Since p 7→ Lp is linear in p, the matrix entries of Gp are quadratic
+(where ∥p∥2 > 0). Since p ↦→ Lp is linear in p, the matrix entries of Gp are quadratic
 polynomials in the components of p, and (2) is real-analytic on Paph .
-Smoothness of πp as a projector field upgrades the kernel assignment p 7→ Kp to a
+Smoothness of πp as a projector field upgrades the kernel assignment p ↦→ Kp to a
 smooth subbundle: locally on a neighborhood U of any p∗ ∈ Paph , choose four vectors
 v1 , . . . , v4 ∈ Kp∗ and set wk (p) := πp vk for p ∈ U . By continuity, {wk (p)}4k=1 remains
 linearly independent on a sufficiently small neighborhood, providing a smooth local frame
@@ -694,7 +698,9 @@ Definition 3.5 (Kernel-projector connection). The kernel-projector connection on
 ∇ := π ◦ d,
 
 (∇X s)(p) := πp X[s] (p),
-
+(
+
+)
 
 (3)
 
@@ -719,13 +725,15 @@ The curvature of ∇ is the End(K)-valued 2-form F ∇ := ∇ ◦ ∇ ∈ Ω2 (
 Lemma 3.7 (Closed-form expression for F ∇ ). Let ∂a , ∂b ∈ Tp Paph . Then
 ∇
 Fa,b
-(p) Kp = πp ∂a πp , ∂b πp πp ,
+(p)∣Kp = πp ∂a πp , ∂b πp πp ,
 
-
+∣
+
+[
 
 (4)
 
-
+]
 
 where [·, ·] is the operator commutator on End(S).
 Proof. Acting on a section s of K, ∇a s = πp ∂a s. Thus
@@ -735,9 +743,9 @@ The torsion-free curvature is the antisymmetrization in (a, b):
 Fa,b
 s = ∇a ∇b s − ∇b ∇a s = πp (∂a πp )(∂b s) − (∂b πp )(∂a s) ,
 
-
+[
 
-
+]
 
 the second-derivative terms cancelling by Schwarz. Now s = πp s, so ∂b s = (∂b πp ) s +
 πp ∂b s. Substituting and using the identity πp (∂a πp ) πp = 0 (Remark 3.8, below), the
@@ -746,9 +754,9 @@ second piece vanishes and
 Fa,b
 s = πp (∂a πp )(∂b πp ) − (∂b πp )(∂a πp ) s,
 
-
+[
 
-
+]
 
 which is (4).
 Remark 3.8 (Identity πp (∂πp )πp = 0). Differentiating πp2 = πp along any tangent direction a gives (∂a πp ) πp + πp (∂a πp ) = ∂a πp . Sandwiching with πp on both sides yields
@@ -771,17 +779,23 @@ harmless by Corollary 4.11 of §4, which shows it vanishes on the normal directi
 ∇
 +
 Fa,b
-(p) Kp = Ca,b (p) = πp Lb G+
+(p)∣Kp = Ca,b (p) = πp Lb G+
 p La − La Gp Lb πp .
 
-
+∣
+
+(
+
+)
 
 (5)
 
 Proof. By Lemma 3.7,
 ∇
 Fa,b
-(p) Kp = πp (∂a πp )(∂b πp ) πp − πp (∂b πp )(∂a πp ) πp .
+(p)∣Kp = πp (∂a πp )(∂b πp ) πp − πp (∂b πp )(∂a πp ) πp .
+
+∣
 
 We compute πp (∂a πp )(∂b πp ) πp explicitly, then antisymmetrize in (a, b).
 Step 1 — Eigenprojector perturbation. The standard formula for the derivative of
@@ -809,7 +823,9 @@ p Lp is
 ∂a Gp = L⊤
 a Lp + Lp La = − La Lp + Lp La
 
-
+(
+
+)
 
 = − {La , Lp },
 
@@ -834,12 +850,13 @@ p (∂b Gp ) πp .
 
 Sandwiching the product gives
 πp (∂a πp )(∂b πp ) πp = πp (∂a πp )
-
-
+(
 
 (∂b πp ) πp
 
-
+)(
+
+)
 
 2
 = πp (∂a Gp ) (G+
@@ -860,11 +877,11 @@ minus signs again cancelling):
 πp {La , Lp } (G+
 p ) {Lb , Lp } πp = πp T1 + T2 + T3 + T4 πp ,
 
-
+[
 
 (10)
 
-
+]
 
 where
 2
@@ -940,7 +957,9 @@ hence
 T2 = La Lp (G+
 p ) Lp Lb = − La Gp Lb .
 
-
+(
+
+)
 
 Sandwiching with πp ,
 πp (∂a πp )(∂b πp ) πp = πp T2 πp = − πp La G+
@@ -955,7 +974,10 @@ p Lb πp .
 Step 5 — Antisymmetrize. From (13),
 ∇
 Fa,b
-(p) Kp = πp (∂a πp )(∂b πp ) πp − πp (∂b πp )(∂a πp ) πp
+(p)∣Kp = πp (∂a πp )(∂b πp ) πp − πp (∂b πp )(∂a πp ) πp
+
+∣
+
 +
 = − πp La G+
 p Lb πp + πp Lb Gp La πp
@@ -963,7 +985,9 @@ p Lb πp + πp Lb Gp La πp
 = πp Lb G+
 p La − La Gp Lb πp = Ca,b (p),
 
-
+(
+
+)
 
 which is (5).
 Remark 3.10 (Numerical verification). Theorem 3.9 has been verified numerically by
@@ -972,15 +996,17 @@ FD
 Fa,b
 (p) := πp δa π, δb π πp ,
 
-
+[
 
-
+]
 
 1
 δa π := 2ϵ
 πp+ϵa − πp−ϵa ,
 
-
+(
+
+)
 
 to the closed-form Ca,b (p). The discrepancy ∥F FD − C∥F scales as ϵ2 over four decades
 ϵ ∈ [10−6 , 10−3 ], with floor at ϵ ≈ 10−5 where the residual is 1.1 × 10−10 , dominated by
@@ -993,7 +1019,7 @@ from the probe op_F2_berry_kernel_match.cpp in the supplementary archive.
 Summary
 
 The aphanic locus Paph is a smooth real-analytic manifold (Proposition 3.1). The kernel
-assignment p 7→ Kp defines a smooth real rank-4 vector bundle K → Paph whose fiber
+assignment p ↦→ Kp defines a smooth real rank-4 vector bundle K → Paph whose fiber
 projector πp is real-analytic in p (Proposition 3.3); the latter follows from the closed-form
 polynomial expression of πp in Gp rather than from any abstract eigenprojector argument.
 The kernel-projector connection ∇ = π ◦ d is the natural metric connection (Lemma 3.6);
@@ -1001,10 +1027,14 @@ its curvature 2-form F ∇ , restricted to fibers, has the closed-form expressio
 ∇
 +
 Fa,b
-(p) Kp = πp Lb G+
+(p)∣Kp = πp Lb G+
 p La − La Gp Lb πp = Ca,b (p),
 
-
+∣
+
+(
+
+)
 
 the principal output of the section (Theorem 3.9). This identity is the geometric
 foundation of §4: the linear span F(p) = spanR {Ca,b (p)}, computed there as a purely
@@ -1062,7 +1092,8 @@ is aphanic iff x, y ∈ Im(O), ∥x∥ = ∥y∥, and ⟨x, y⟩ = 0. For aphani
 universally (Result 2, op. cit.), and the spectrum of Gp is
 Spec(Gp ) =
 
- 4
+{ 4
+}
 0 , ∥p∥2 8 , 2∥p∥2 4 ,
 
 (15)
@@ -1154,7 +1185,9 @@ curvature operator is
 Ca,b (p) := πp Lb G+
 p La − La Gp Lb πp ∈ End(Kp ).
 
-
+(
+
+)
 
 (19)
 
@@ -1172,7 +1205,9 @@ G2 -Equivariance
 The exceptional group G2 = Aut(O) acts on O by algebra automorphisms. We extend
 the action to S diagonally:
 σ̂ ι1 (a) + ι2 (b) = ι1 (σa) + ι2 (σb),
-
+(
+
+)
 
 σ ∈ G2 .
 
@@ -1190,13 +1225,18 @@ the geometric curvature 2-form is proven in the indicated section.
 
 Proof. Direct verification using the CD product. For a, b, c, d ∈ O,
 σ̂ (a, b)(c, d) = σ(ac − d¯b), σ(d a + b c̄)
-
+(
 
-
+)
+
+(
+
+)
 
 = σa σc − σd σb, σd σa + σb σc
+(
 
-
+)
 
 = (σa, σb)(σc, σd) = σ̂(a, b) σ̂(c, d),
 where the second equality uses σ ∈ Aut(O) (σ preserves the octonion product) and
@@ -1205,10 +1245,11 @@ Im(O)).
 Lemma 4.6 (G2 -equivariance of the curvature operator). For every p ∈ Paph , every
 σ ∈ G2 , and every a, b ∈ Im(S),
 Cσ̂a, σ̂b σ̂p = σ̂ Ca,b (p) σ̂ −1 .
+(
 
 (21)
 
-
+)
 
 Proof. By Lemma 4.5, σ̂ is an algebra automorphism of S, so Lσ̂a = σ̂ La σ̂ −1 and similarly
 + −1
@@ -1260,16 +1301,20 @@ p0 ] = 0. Then
 Ca,b (p0 ) = πp0 Lb G+
 p0 La − La Gp0 Lb πp0
 
-
+(
+
+)
 
 +
 = πp0 Lb La G+
 p0 − Gp0 La Lb πp0
 
+(
+
 (using [La , G+
 p0 ] = 0)
 
-
+)
 
 +
 = (πp0 Lb La ) (G+
@@ -1281,7 +1326,9 @@ p0 πp0 = πp0 Gp0 = 0.
 Necessity. The two implications a ∈ qp0 ⇒ [La , L2p0 ] = 0 ⇒ Ca,· (p0 ) = 0 have
 already been established (sufficiency above, and direct CD computation for the first).
 To close the loop we show dim a : Ca,· (p0 ) = 0 ≤ 5, which forces equality with qp0 .
-
+{
+
+}
 
 Define the linear maps
 Φ : Im(S) → End(S),
@@ -1292,28 +1339,34 @@ C : Im(S) → End(Kp0 )15 ,
 
 C(a) := Ca,ej (p0 ) j=1 .
 
-15
+)15
+
+(
 
 Both maps have qp0 ⊆ ker Φ ⊆ ker C (the second inclusion is sufficiency above). Their
 kernels are determined by the rank of the corresponding Gram matrices on the 15-element
 basis {e1 , . . . , e15 } of Im(S). Direct computation (at exact rational arithmetic; coefficients
 lie in Z[ 18 ]) gives
 Spec ΓΦ
+(
 
-
+)
 
 =
 
 Spec ΓC
 
-
+)
 
 =
 
- 5
+(
+
+}
+{ 5
 0 , 648 , 1282 ,
- 5 2 4
-4
+{ 5 2 4
+4}
 
 0 , 1 , 4 , 28
 
@@ -1326,7 +1379,7 @@ where ΓΦ and ΓC are the Gram matrices ⟨Φ(ei ), Φ(ej )⟩F and
 
 k ⟨Cei ,ek , Cej ,ek ⟩F respec-
 
-P
+∑
 
 tively. Both have nullity 5. With sufficiency qp0 ⊆ ker Φ and the equal-dimension count
 dim ker Φ = dim ker C = 5, all three coincide: ker C = ker Φ = qp0 .
@@ -1372,9 +1425,13 @@ Ca,· (p) = 0 ⇐⇒ Cσ̂−1 a, · (p0 ) = 0 ⇐⇒ σ̂ −1 a ∈ qp0 ⇐⇒
 It remains to identify σ̂(qp0 ) with qp . Since σ̂ commutes with ι1 , ι2 (by the diagonal
 action) and fixes ℓ,
 σ̂(qp0 ) = ι1 σVp0 ⊕ Rℓ ⊕ ι2 σVp0 = ι1 (Vp ) ⊕ Rℓ ⊕ ι2 (Vp ) = qp ,
-
+(
 
-
+)
+
+(
+
+)
 
 using Vp = σ(Vp0 ) from p = cσ̂(p0 ).
 A first consequence settles the tangent-versus-ambient quantification used in the
@@ -1384,14 +1441,20 @@ locus Paph sits inside the 14-dimensional subspace ι1 (Im O) ⊕ ι2 (Im O) ⊂
 the R+ -cone tangent space Tp Paph of dimension 12 (Proposition 3.1). Its orthogonal
 complement in the 15-dimensional Im(S) is the 3-dimensional normal space
 Np = spanR ℓ, ι1 (x) − ι2 (y), ι1 (y) + ι2 (x) ,
-
+{
+
+}
 
 and Np ⊂ qp . Hence Ca,b (p) = 0 whenever a ∈ Np or b ∈ Np , and
 spanR Ca,b (p) : a, b ∈ Im(S)
-
+{
+
+}
 
 = spanR Ca,b (p) : a, b ∈ Tp Paph .
-
+{
+
+}
 
 The ambient quantification over Im(S) in Definition 4.4 and Theorem 4.13 therefore
 returns the genuine Berry curvature span of the bundle, not an artifact of extending past
@@ -1413,7 +1476,7 @@ Corollary 4.12 (Spectral fingerprint of the aphanic bundle). For every aphanic p
 rescaling to ∥p∥2 = 2, the Gram matrices ΓΦ (p) and ΓC (p) have the spectra {05 , 648 , 1282 }
 and {05 , 12 , 44 , 284 } respectively. The spectra are G2 -invariants of the aphanic locus.
 Proof. Lemma 4.6 gives Γ(σ̂p) = σ̂ Γ(p) σ̂ −1 for either Gram matrix, hence isospectrality
-across the orbit. Scaling p 7→ cp scales each Gram entry by a fixed power of c, so
+across the orbit. Scaling p ↦→ cp scales each Gram entry by a fixed power of c, so
 isospectrality after norm normalization is automatic.
 
 4.6
@@ -1424,7 +1487,9 @@ We now state the principal result of the section.
 Theorem 4.13 (Rank of the aphanic curvature). For every aphanic p ∈ Paph , the linear
 span
 F(p) := spanR Ca,b (p) : a, b ∈ Im(S)
-
+{
+
+}
 
 ⊂ End(Kp )
 
@@ -1434,9 +1499,10 @@ has dimension exactly 4.
 Proof. By Lemma 4.6, F(σ̂p) = σ̂ F(p) σ̂ −1 for σ ∈ G2 , so it suffices to compute
 dim F(p0 ).
 Reduction by Q-centralization. By bilinearity in (a, b), F(p0 ) is spanned by
-
+{
 
 Cei ,ej (p0 ) : 1 ≤ i, j ≤ 15 . Theorem 4.10 (basepoint form) gives Cei ,ej (p0 ) = 0 whenever
+}
 
 ei ∈ qp0 or (by skew-symmetry) ej ∈ qp0 . With qp0 = span{e1 , e2 , e8 , e9 , e10 }, the set
 of a priori nonzero pairs (i, j) is reduced to indices in the 10-element complement
@@ -1595,9 +1661,11 @@ h(u, v) := ⟨u, v⟩K − i ⟨u, Jp v⟩K
 is C-linear in v, satisfies h(v, u) = h(u, v) (using Jp⊤ = −Jp ), and has Re h = g. A
 real-linear map that preserves g and commutes with Jp preserves h, hence is h-unitary;
 conversely every h-unitary map is C-linear and g-orthogonal. Therefore
-
+{
 
 A ∈ O(Kp , g) : AJp = Jp A
+
+}
 
 = U(Kp , h) ∼
 = U(2).
@@ -1663,9 +1731,9 @@ Fano B ⇒ ω (u(1))
 Figure 2: Eigenspace mixing channels at an aphanic observer. The Gram operator Gp
 splits S = Kp ⊕E2 (p)⊕E4 (p) into its 0-, ∥p∥2 -, and 2∥p∥2 -eigenspaces (dimensions 4, 8, 4).
 An imaginary direction a couples these blocks through the three off-diagonal channels
-A, B, C of Proposition 4.17, weighted
+A, B,( C of Proposition 4.17, weighted
 by the squared eigenvalue gaps in ∥[La , L2p ]∥2F =
-
+)
 ∥p∥4 2∥A∥2F + 8∥B∥2F + 2∥C∥2F . The two adjacent channels A, C generate the self-dual
 triple J 1 , J 2 , J 3 (su(2)); the direct Fano tunnel B, which bypasses E2 , generates the
 commuting center ω (u(1)). The rank dim F(p) = 4 counts these channels.
@@ -1685,17 +1753,16 @@ Ba := πKp La πE4 (p) ,
 Ca := πE2 (p) La πE4 (p) .
 
 Then for every a ∈ Im(S),
-2
-
-
-
-[La , L2p ] F = ∥p∥4 2 ∥Aa ∥2F + ∥Ca ∥2F
-
-
-
-
-
-+ 8 ∥Ba ∥2F .
+( (
+)
+∥
+∥
+)
+∥[La , L2 ]∥2 = ∥p∥4 2 ∥Aa ∥2 + ∥Ca ∥2 + 8 ∥Ba ∥2 .
+p F
+F
+F
+F
 
 (34)
 
@@ -1758,11 +1825,14 @@ on {Kp , E2 , E4 } (recall Gp = −L2p for imaginary p); the squared Frobenius n
 [La , L2p ] decomposes block-by-block, and only off-diagonal blocks contribute, weighted by
 the squared eigenvalue gaps:
 ∥p∥4 (2∥A∥2 + 2∥C∥2 ) + 2 (2∥p∥2 )2 ∥B∥2 = ∥p∥4 2∥A∥2 + 8∥B∥2 + 2∥C∥2 .
-
+(
 
 The basepoint table is verified by enumeration of ∥Aei ∥F , ∥Bei ∥F , ∥Cei ∥F
+(
 
-
+)
+
+)
 
 for i =
 
@@ -1824,7 +1894,9 @@ k=0 be a discrete sequence of hidden-sector representatives along a sampled
 trajectory, normalized so that ∥ak ∥ = 1. Define:
 Definition 5.1 (Discrete Creative Curvature).
 κγ [k] = arccos ⟨ak , ak+1 ⟩ ,
-
+(
+
+)
 
 (35)
 
@@ -1850,7 +1922,7 @@ zero eigenspace of Gk , so Gk |Kpk = 0 (the 4–8–4 spectrum). The chord δak 
 however, leaves Kpk , and
 κγ [k] =
 
-q
+√
 
 δaTk Gk δak ,
 
@@ -1860,7 +1932,7 @@ reduces, using Gk ak = 0, to κγ [k] =
 
 (36)
 
-q
+√
 
 aTk+1 Gk ak+1 : the energy the current Gram
 
@@ -1881,17 +1953,18 @@ user interventions, environmental changes) can rotate ak without the system doin
 creative work. We subtract these.
 Definition 5.2 (Exogenous Subtraction). Let Ek be the subspace of hidden-sector
 variation attributable to exogenous input at step k. The intrinsic creative curvature is:
+∥(
+∥
+
+)∥
+∥
+
 κint
-γ [k] =
-
-ΠE ⊥ δak
-k
-
-
+γ [k] = ∥ ΠE ⊥ δak ∥ ,
 
 (37)
 
-,
+k
 
 where ΠE ⊥ is orthogonal projection onto the complement of Ek .
 k
@@ -1904,18 +1977,30 @@ at most ∥ΠEk δak ∥, and in particular:
 γ [k] ≤ κγ [k].
 The estimate is conservative: unidentified exogenous components are attributed to intrinsic
 creativity, not the reverse.
-Proof. By orthogonal decomposition, δak = ΠE ⊥ δak + ΠEk δak . Then ΠE ⊥ δak
+∥
+∥
+
+∥
+∥
+
+Proof. By orthogonal decomposition, δak = ΠE ⊥ δak + ΠEk δak . Then ∥ΠE ⊥ δak ∥ ≤
 k
 
 k
 
-≤
-
-∥δak ∥ = κγ [k]. Equality holds when Ek = {0}, i.e., when no exogenous component is
+∥δak ∥ = κγ [k]. Equality holds when Ek = {0},
+i.e., when
+∥
+∥ no exogenous component is
 true = Π
 subtracted. The overestimate κint
+∥ Ẽ ⊥ ∩Ek δak ∥ vanishes when Ẽk ⊇ Ek .
 γ − κγ
-Ẽ ⊥ ∩Ek δak vanishes when Ẽk ⊇ Ek .
+
+∥
+
+∥
+
 k
 
 5.4
@@ -1943,7 +2028,9 @@ The State Vector
 
 At each step k, the curvature monitor observes the composite state vector:
 xk = ak , κγ [k], Vk , ϱk , σksurv , Cksurv ,
-
+(
+
+)
 
 (39)
 
@@ -1963,14 +2050,17 @@ rapidly while breaking every contract is not creative; it is unmoored. Verificat
 the second leg.
 Definition 7.1 (Verification Weight). The verification weight Vk ∈ [0, 1] is the fraction
 of the curvature at step k that survives dialectical verification. In a thesis-antithesissynthesis architecture:
-Vk =
 
-apost-synthesis
-k
-apost-thesis
-k
-
-,
+∥
+∥
+∥ post-synthesis ∥
+∥ak
+∥
+∥ ,
+Vk = ∥
+∥ post-thesis ∥
+∥
+∥ak
 
 the ratio of hidden-sector magnitude after synthesis to its magnitude after thesis.
 Definition 7.2 (Speed Gate). The speed gate σkspeed ∈ {0, 1} prevents trivially slow
@@ -2174,7 +2264,7 @@ of the factor i in the Hermitian Berry connection.
 Definition 9.1 (Holonomy phase). The holonomy phase of a closed dialectical arc Γ is
 θ(Γ) =
 
-I
+∮
 Γ
 
 α ∈ R/2πZ ∼
@@ -2187,11 +2277,13 @@ The phase θ(Γ) is not integer-valued or homotopy-protected. Because Paph is si
 connected, every loop is contractible and θ(Γ) varies continuously under deformation of
 Γ: by Stokes it equals the enclosed abelian curvature flux, θ(Γ) =
 
-RR
+∫∫
 
 DF
 
-∇
+∇∣
+
+∣
 u(1)
 
 for any
@@ -2212,7 +2304,7 @@ Proposition 9.2 (Classification of Dialectical Arcs). Let Γ be a closed loop in
 1
 aphanic locus Paph , and let κ¯γ (Γ) = |Γ|
 
-H
+∮
 
 Γ κγ (t) dt be the mean creative curvature. Then
 
@@ -2234,7 +2326,7 @@ vanishes along Γ, so θ(Γ) =
 
 Γ 0 dt = 0.
 
-H
+∮
 
 Case (ii). κ¯γ > 0 implies the hidden sector rotates along Γ, but θ(Γ) = 0 in R/2πZ
 means the net accumulated phase is trivial: the hidden sector returns to its initial
@@ -2243,7 +2335,7 @@ Case (iii). θ(Γ) ̸= 0 means the U(1) holonomy around Γ is nontrivial: the hi
 sector does not return to its initial orientation in the complex line spanned by {a, Ja}.
 By Stokes the arc encloses nonzero abelian curvature flux, θ(Γ) =
 
-RR
+∫∫
 
 DF
 
@@ -2430,17 +2522,28 @@ exogenous subspace), then Ek⊥ ⊆ Ẽk⊥ , so ΠẼ ⊥ retains all of δaint
 k plus some of δak :
 k
 
-ΠẼ ⊥ δak ≥ δaint
-= κtrue
-k
-γ [k].
+∥
+∥ ∥
+∥
+∥
+∥ ∥
+∥
+true
+∥ΠẼ ⊥ δak ∥ ≥ ∥δaint
+k ∥ = κγ [k].
 k
 
-int
-The overestimate is ΠẼ ⊥ δaexo
-≤ ∥δaexo
+∥
+∥
+∥ int ∥2
+∥
+∥
+exo
+∥
+∥ + ∥δaexo ∥2 = ∥δak ∥2 = κγ [k]2 ,
+The overestimate is ∥ΠẼ ⊥ δaexo
 k
-k ∥. Since δak
+k ∥ ≤ ∥δak ∥. Since δak
 
 we have κint
 γ [k] ≤ κγ [k].
@@ -2448,14 +2551,6 @@ we have κint
 A.2
 
 k
-
-2
-
-2
-2
-2
-+ ∥δaexo
-k ∥ = ∥δak ∥ = κγ [k] ,
 
 Proof of Proposition 9.2 (Classification of Dialectical Arcs)
 
@@ -2465,7 +2560,7 @@ phase, which is precisely why J is needed.
 1
 Case (i): κ¯γ = 0 implies θ(Γ) = 0. Since κγ (t) ≥ 0 and κ¯γ = |Γ|
 
-H
+∮
 
 κγ dt = 0, we
 
@@ -2473,7 +2568,7 @@ have κγ (t) = 0 a.e., so ∇γ̇ a = 0 a.e.: a is parallel along Γ. Then α =
 giving θ(Γ) = 0.
 Case (ii): κ¯γ > 0, θ(Γ) = 0. The hidden sector rotates but the net phase
 
-H
+∮
 
 α = 0 in
 
@@ -2481,12 +2576,12 @@ R/2πZ. The U(1) holonomy is trivial: a returns to its initial orientation in th
 line span{a, Ja}. The arc explores the hidden sector and returns: displacement without
 net turning.
 Case (iii): κ¯γ > 0, θ(Γ) ̸= 0. The U(1) holonomy exp(i α) ̸= 1: the hidden
-H
+∮
 
 generator does not return, a(Γ(1)) and a(Γ(0)) differing by the nonzero rotation angle
 θ(Γ) in span{a, Ja}. By Stokes, θ(Γ) =
 
-RR
+∫∫
 
 DF
 
@@ -2520,11 +2615,16 @@ Step 1: Compute ak ← unit vector in ker(Lγ(k) );
 3
 Step 2: Compute raw curvature κγ [k] ← arccos(⟨ak−1 , ak ⟩);
 4
-Step 3: Estimate exogenous subspace Ek ← Ê(k);
+Step 3: Estimate exogenous subspace Ek ← Ê(k); ∥
+∥
 5
 
 Step 4: Subtract exogenous component: κint
-γ [k] ← ΠE ⊥ (ak − ak−1 ) ;
+γ [k] ← ∥ΠE ⊥ (ak − ak−1 )∥;
+∥
+
+∥
+
 k
 
 Step 5: Compute verification weight Vk ← V(athesis
@@ -3015,14 +3115,15 @@ From the table above, the 15 × 15 Gram matrix (ΓC )ij =
 
 k ⟨Cei ,ek (p0 ), Cej ,ek (p0 )⟩F
 
-P
+∑
 
 can be reconstructed in closed form: each entry is a quadratic form in the integer
 coefficients (c1 , c2 , c3 , cω ) with the orthonormality relations ⟨J a , J b ⟩F = δab , ⟨J a , ω⟩F = 0,
 ⟨ω, ω⟩F = 1. Direct evaluation gives the spectrum
 Spec(ΓC ) =
 
- 5 2 4
+{ 5 2 4
+}
 0 , 1 , 4 , 284 ,
 
 (47)
