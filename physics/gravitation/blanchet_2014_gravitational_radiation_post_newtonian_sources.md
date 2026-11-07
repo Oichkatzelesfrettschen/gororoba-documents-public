@@ -4,9 +4,9 @@ License: CC-BY-4.0
 Language: eng
 Fidelity: machine (failed: characters)
 
-# Transcription of a_2014_gravitational_radiation_post_newtonian_sources.pdf
+# Transcription of blanchet_2014_gravitational_radiation_post_newtonian_sources.pdf
 
-Transcription of `a_2014_gravitational_radiation_post_newtonian_sources.pdf` in this directory, 187 pages; each `## PDF page` heading marks a page of the PDF.
+Transcription of `blanchet_2014_gravitational_radiation_post_newtonian_sources.pdf` in this directory, 187 pages; each `## PDF page` heading marks a page of the PDF.
 
 Method: pages 6 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-5, 7-187 from the PDF's own text layer (pdftotext version 26.10.0, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
