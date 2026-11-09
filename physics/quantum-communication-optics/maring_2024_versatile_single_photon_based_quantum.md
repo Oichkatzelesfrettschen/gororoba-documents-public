@@ -1,6 +1,6 @@
 Source: https://www.nature.com/articles/s41566-024-01403-4.pdf
 PDF sha256: 0ee7b47bd7232f863f2984c3a8cc2c42fbf2787a017bfe08f0d4e23139248f98
-License: CC-BY
+License: CC-BY-4.0
 Language: eng
 Fidelity: machine-gated
 
