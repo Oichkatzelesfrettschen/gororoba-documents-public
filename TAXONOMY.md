@@ -1,6 +1,6 @@
 # Taxonomy
 
-Taxonomy version 4. This file is the filing vocabulary for gororoba-documents-public and for its private sibling
+Taxonomy version 5. This file is the filing vocabulary for gororoba-documents-public and for its private sibling
 gororoba-documents-private. Both repositories file every document at `<field>/<subject>/<file>`, using the fields and
 subjects below. A subject folder exists in a repository only while that repository holds a file in it, so a
 private-only subject has no public folder.
@@ -26,8 +26,10 @@ private-only subject has no public folder.
 | `physics` | Physical systems, experiments and physical models, including quantum hardware and quantum information physics. |
 | `computer-science` | Algorithms, complexity, languages, software, formal verification and learning systems. |
 | `statistics` | Estimation, testing, inferential methodology and research reliability. |
-| `engineering` | Engineered devices, signal processing, estimation and control of physical plants, manufacturing, system architecture. |
-| `humanities` | Religion, language, culture and archival documents studied as human practice rather than as science. |
+| `engineering` | Engineered devices, signal processing, estimation and control of physical plants, manufacturing, system architecture, mining. |
+| `chemistry` | Chemical bonding, synthesis and measurement as the primary question. |
+| `life-sciences` | Living systems: neuroscience, genetics, biology and clinical studies. |
+| `humanities` | Religion, language, culture, policy and archival documents studied as human practice rather than as science. |
 | `user_documentation` | Documents the owner authored in the workspace repositories: manuscripts, synthesis reports, cover letters and generated figures. Private-only: gororoba-documents-public holds no file in this field. |
 
 A mathematical structure studied without a physical question belongs in mathematics, even when the work is posted
@@ -83,6 +85,13 @@ When subjects overlap, apply this precedence:
 | `condensed-matter` | Materials, magnets, transport, crystals, many-body and tensor-network questions about matter. |
 | `optics-and-photonics` | Classical electromagnetic optics, metamaterials, resonances, coupled modes, optical analogues. |
 | `field-theory` | Field dynamics, amplitudes, Casimir and negative-energy theory, mathematical physics about fields. |
+| `general-physics` | Physics-wide textbooks and lecture courses whose scope spans several subjects above. |
+| `thermodynamics` | Classical and statistical thermodynamics as the primary question. |
+| `fluid-dynamics` | Fluid flow, bubbles and multiphase flow, reduced-gravity fluids. |
+| `accelerator-physics` | Particle and plasma-wakefield accelerators, beam generation and diagnostics. |
+| `metrology` | Measurement standards, units and precision measurement methods. |
+| `atmospheric-science` | The atmosphere and climate as physical systems. |
+| `mineralogy` | Minerals and gemstones: structure, identification and properties. |
 
 ### computer-science
 
@@ -96,6 +105,8 @@ When subjects overlap, apply this precedence:
 | `algorithms-and-complexity` | Classical algorithms, hardness and complexity. |
 | `optimization-and-decision-science` | Optimization and decision methods for planning and policy. |
 | `systems` | Operating systems, CPU microarchitecture, calling conventions, assembly, system software. |
+| `graphics` | Rendering, visualization and color research as the primary question. |
+| `software-engineering` | Software project practice, process and engineering management. |
 
 ### statistics
 
@@ -103,6 +114,7 @@ When subjects overlap, apply this precedence:
 |---|---|
 | `inference` | Estimation, tests, probability bounds, confidence sequences, empirical Bayes, selective inference. |
 | `reproducibility` | Research reliability, preregistration, reproducibility methodology. |
+| `information-theory` | Entropy, coding and compression, and information measures as the primary question. |
 
 ### engineering
 
@@ -113,12 +125,31 @@ When subjects overlap, apply this precedence:
 | `devices` | Device designs and patents whose primary object is an engineered device. |
 | `manufacturing` | Manufacturing and materials-processing capabilities and procedures. |
 | `systems` | Engineering architecture and integration, digital twins, infrastructure. |
+| `mining` | Mining science and mineral extraction. |
+
+### chemistry
+
+| Subject | Scope |
+|---|---|
+| `inorganic-chemistry` | Bonding and structure of inorganic and actinide compounds. |
+| `analytical-chemistry` | Mass spectrometry, spectroscopy and chemical measurement methods and databases. |
+
+### life-sciences
+
+| Subject | Scope |
+|---|---|
+| `neuroscience` | Neurons, brains and cognition, including in-vitro and organoid neural systems. |
+| `genetics` | Genomes, population genetics and ancestry. |
+| `biology` | Organisms, cells, tissues and agronomy outside the subjects above. |
+| `medicine` | Clinical, pharmacological and health studies. |
 
 ### humanities
 
 | Subject | Scope |
 |---|---|
-| `culture-and-society` | Religion and its relation to technology and science, lexicography and linguistics, folklore and archival reports of anomalous phenomena. |
+| `culture-and-society` | Religion and its relation to technology and science, lexicography, folklore and archival reports of anomalous phenomena. |
+| `linguistics` | Historical and comparative linguistics, including Indo-European reconstruction. |
+| `policy` | Science, technology and industrial policy. |
 
 ### user_documentation
 
