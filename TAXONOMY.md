@@ -1,6 +1,6 @@
 # Taxonomy
 
-Taxonomy version 5. This file is the filing vocabulary for gororoba-documents-public and for its private sibling
+Taxonomy version 6. This file is the filing vocabulary for gororoba-documents-public and for its private sibling
 gororoba-documents-private. Both repositories file every document at `<field>/<subject>/<file>`, using the fields and
 subjects below. A subject folder exists in a repository only while that repository holds a file in it, so a
 private-only subject has no public folder.
@@ -28,8 +28,8 @@ private-only subject has no public folder.
 | `statistics` | Estimation, testing, inferential methodology and research reliability. |
 | `engineering` | Engineered devices, signal processing, estimation and control of physical plants, manufacturing, system architecture, mining. |
 | `chemistry` | Chemical bonding, synthesis and measurement as the primary question. |
-| `life-sciences` | Living systems: neuroscience, genetics, biology and clinical studies. |
-| `humanities` | Religion, language, culture, policy and archival documents studied as human practice rather than as science. |
+| `life-sciences` | Living systems: neuroscience, psychology, genetics, biology and clinical studies. |
+| `humanities` | Religion, language, culture, policy, philosophy, economics, the arts and archival documents studied as human practice rather than as science. |
 | `user_documentation` | Documents the owner authored in the workspace repositories: manuscripts, synthesis reports, cover letters and generated figures. Private-only: gororoba-documents-public holds no file in this field. |
 
 A mathematical structure studied without a physical question belongs in mathematics, even when the work is posted
@@ -139,6 +139,7 @@ When subjects overlap, apply this precedence:
 | Subject | Scope |
 |---|---|
 | `neuroscience` | Neurons, brains and cognition, including in-vitro and organoid neural systems. |
+| `psychology` | Behavior, personality and mind as studied by psychology and psychotherapy, including popular psychology. |
 | `genetics` | Genomes, population genetics and ancestry. |
 | `biology` | Organisms, cells, tissues and agronomy outside the subjects above. |
 | `medicine` | Clinical, pharmacological and health studies. |
@@ -150,6 +151,9 @@ When subjects overlap, apply this precedence:
 | `culture-and-society` | Religion and its relation to technology and science, lexicography, folklore and archival reports of anomalous phenomena. |
 | `linguistics` | Historical and comparative linguistics, including Indo-European reconstruction. |
 | `policy` | Science, technology and industrial policy. |
+| `philosophy` | Philosophical works and essays: metaphysics, epistemology, ethics, social philosophy. |
+| `economics` | Economic theory and political economy. |
+| `arts` | Visual arts and art instruction, including anatomy for artists. |
 
 ### user_documentation
 
