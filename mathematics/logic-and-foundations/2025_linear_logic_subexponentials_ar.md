@@ -1,0 +1,6034 @@
+Source: https://arxiv.org/abs/2507.12360v4
+PDF sha256: 5bd66433e3559c10bfcc2bb0d4ebf8ea0ff7db4d6483576f813c35620d3ed027
+License: http://creativecommons.org/licenses/by/4.0/
+Language: eng
+Fidelity: machine-gated
+
+# Transcription of 2025_linear_logic_subexponentials_ar.pdf
+
+Transcription of `2025_linear_logic_subexponentials_ar.pdf` in this directory, 62 pages; each `## PDF page` heading marks a page of the PDF.
+
+Method: no page was sent to OCR; pages 1-62 from the PDF's own text layer (pdftotext version 26.01.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+
+## PDF page 1
+
+Term Assignment and Categorical Models for Intuitionistic
+Linear Logic with Subexponentials
+
+arXiv:2507.12360v4 [math.LO] 1 Sep 2025
+
+Daniel Rogozin
+Noeon Research, United Kingdom
+Abstract
+In this paper, we present a typed lambda calculus SILL(λ)Σ , a type-theoretic version of intuitionistic linear logic with subexponentials, that is, we have many resource comonadic modalities
+with some interconnections between them given by a subexponential signature. We also give
+proof normalisation rules and prove the strong normalisation and Church-Rosser properties for
+β-reduction by adapting the Tait-Girard method to subexponential modalities. Further, we
+analyse subexponentials from the point of view of categorical logic. We introduce the concepts
+of a Cocteau category and a Σ-assemblage to characterise models of linear type theories with a
+single exponential and affine and relevant subexponentials and a more general case respectively.
+We also generalise several known results from linear logic and show that every Cocteau category
+and a Σ-assemblage can be viewed as a symmetric monoidal closed category equipped with a
+family of monoidal adjunctions of a particular kind. In the final section, we give a stronger
+2-categorical characterisation of Cocteau categories.
+
+Keywords— Linear logic, symmetric monoidal categories, subexponentials, comonad, EilenbergMoore categories, relevant categories, monoidal adjunction
+
+Contents
+1 Introduction
+1.1 Map of the paper . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+2
+3
+
+2 System SILL(λ) and its syntactic properties
+2.1 Proof Normalisation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.2 Strong Normalisation and Confluence for β-reduction . . . . . . . . . . . . . . . . . .
+
+4
+7
+9
+
+3 Category-theoretic Preliminaries
+3.1 2-categories . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.2 Symmetric Monoidal Categories, Cosemigroups and Comonoids . . . . . . . . . . . .
+
+14
+14
+20
+
+4 Assemblages and Semantic Interpretation of SILL(λ)Σ
+4.1 Cocteau Categories and Assemblages . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4.2 On Soundness and Completeness . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+24
+24
+26
+
+5 Characterising Relevant Categories
+
+30
+
+1
+
+## PDF page 2
+
+6 Cocteau Categories and Resource Modalities
+6.1 Modalities from Adjunctions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6.2 Constructing a Cocteau adjunction from a Cocteau category . . . . . . . . . . . . .
+6.3 Expanding Lafont Categories . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6.4 Representing Cocteau categories 2-categorically . . . . . . . . . . . . . . . . . . . . .
+
+33
+35
+37
+41
+43
+
+7 Further Work
+
+57
+
+8 Acknowledgements
+
+58
+
+1
+
+Introduction
+
+The exponential modality ! is a comonadic operator allowing one to introduce the lacking weakening
+and contraction inference rules in linear logic [Gir87]. ! is given by the so-called promotion and
+dereliction rules (aka introduction and elimination) rules alongside the weakening and contraction
+rules for modalised formulas. The standard presentation consists of the below Gentzen-style inference
+rules:
+! A1 , . . . , ! An ⊢ A
+!
+! A1 , . . . , ! An ⊢ ! A L
+
+Γ, A ⊢ B
+!
+Γ, ! A ⊢ B R
+
+Γ⊢B
+W
+Γ, ! A ⊢ B
+
+Γ, ! A, ! A ⊢ B
+C
+Γ, ! A ⊢ B
+
+Subexponentials are operators of the form !s that may allow (or not) weakening or contraction
+where s ranges over some finite set of indices. We have a family of non-equivalent modal operators
+!s indexed through elements of a finite set I, and each !s has its own ability of introducing this
+or that structural rule. Subexponential modalities were initially introduced in [DJS93] as part of
+“multicolour linear logic” and then developed in [NOP17] to propose a proof-theoretic framework
+for concurrency theory and linear logic programming. We refer the reader interested in practial uses
+of subexponential to [NM09], where the authors claim to develop a simple specification language
+expressive enough to model data structures and iterative procedures. Subexponentials (and, more
+generally, weaker versions of the exponential modality) in a non-commutative setting are also of
+interest in mathematical linguistics as it has been discussed in [KKNS19] and [MSWW23]. From a
+linguistic point of view, structural rules are generally pathologic since they change the structure of
+a sentence, so they might not stay grammatically correct. Still, the contraction rule allows dealing
+with such cases, where the localised duplication is unavoidable, for example, in analysing so-called
+’parasitic extractions’, as it was elaborated in [KKS17].
+Linear logic also provides a framework for functional programming with more flexible mechanisms
+of resource management by adapting ideas of the Curry-Howard correspondence, see [Wad90] and
+[Gir87]. Many of those ideas have already found their practical manifestation (to a certain extent)
+in such functional languages as Haskell ([BBN+ 17]) and Idris 2 ([Bra21]). One can transfer the
+same ideas to other substructural logics, in particular affine logic admitting weakening and relevant
+logic admitting contractions. Programs well-typed in affine type lambda calculus, for example, are
+known to terminate in linear time (see [Cur05, §1]), whereas type systems based on linear logic are
+of interest in term of compiler optimisations, see [Wal05].
+As regards the questions of semantics, linear logic has a number of semantic frameworks reflecting
+the intuition that we interpret provability through resource-aware actions, not statements being
+2
+
+## PDF page 3
+
+valid in the sense of classical or intuitionistic logic, see [Gir11, Part III, Part VI] for a more detailed
+discussion on geometry of interaction and coherence spaces. Categorical semantics of linear logic,
+as it is presented, for example, in [AT11] and [Mel09], generalises the formal properties of coherence
+spaces and allows interpreting proofs as morphisms in symmetric monoidal categories: this gives an
+account of linear logic as the so-called internal logic of symmetric monoidal categories in the fashion
+of category-theoretic approach to metamathematics [LS88].
+In this paper, we introduce a type-theoretic formulation of multiplicative intuitionistic linear
+logic with subexponentials in several versions. We consider a linear type theory called SILL(λ)3
+with the three subexponential modal operators !i , !r and !a having the following informal semantics:
+• M : !i A means that M is an element of type A that we can use finitely many times. So !i
+has the behaviour of the usual ! operator from linear logic. That is, M is an element of an
+intuitionistic (or normal ) type.
+• M : !r A means that M is an element of A that one should consume at least once. In other
+words, M is an element of a relevant type.
+• M : !a A means that M is an element of A that one should consume at most once. In other
+words, M is an element of an affine type.
+SILL(λ)3 also contains the following principle introducing a naturally occurring policy of how
+several modes of resource management are connected with each other. Informally, this principle
+can be formulated with two (meta)implications (aka symmetric lax monoidal comonad morphisms
+in category theoretic terms): !i A ⇒ !r A and !i A ⇒ !a A. That is, anything that one can duplicate
+(destroy) an object in a “normal” way, then it can be duplicated (or destroyed) as an object of a
+relevant (or affine) type. However, this is not the only way of expanding linear logic with modalities
+since in many cases the presence of many non-equivalent subexponentials with more complicated
+interaction between them is also of interest, for example, in concurrent programming, see [OPN15].
+So we develop the Curry-Howard correspondence for a bigger family of subexponential enrichments
+of intuitionistic linear logic alongside their categorical semantics.
+In categorical semantics of linear logic, the exponential modality corresponds to a comonad
+associating a cocommutative comonoid with every object, see [AT11, §1.8.4], [See87], [Tro92, Chapter
+12] and [BBDPH93a]. In computational terms, ! allows easing the resource usage restrictions: by
+default any thing can be used exactly ones, but with ! we can locally address to a particular formula
+as many times as we want. Logically, ! allows embedding intuitionistic logic into linear logic (and
+there is a similar result for classical logic as well) and manipulating with duplications and deletions
+in a restricted way being consistent with the ideology of linear logic.
+Although subexponentials have been already studied quite comprehensively from the aspects of
+proof theory, linguistics and such topics in applied computer science as epistemic and spatial concurrent constraint programming (see [NOP17, §7-8]), the semantic aspects of subexponentials have
+remained overlooked. Although such aspects do not play a significant role in developing practical
+frameworks, the semantic analysis would allow us to equip with subexponentials with a rigorous
+meaning and also provide the framework with several resource policies within a single system with
+the denotational semantics.
+
+1.1
+
+Map of the paper
+
+In Section 2, we axiomatise a family of natural deduction calculi with proof-terms SILL(λ)Σ with
+proof normalisation rules. We favoured the Curry-Howard style presentation (see [SU06] to have
+a more general perspective) of all those calculi for two reasons. First, given such a presentation,
+3
+
+## PDF page 4
+
+one can think of SILL(λ)Σ (in particular, its instance for a three-element subexponential signature)
+as a type-theoretic foundation for a strongly linearly typed functional programming language with
+several policies of how the user consumes data. Secondly, proof-terms in our approach come along
+with the corresponing proof-conversion rules, so if proof-terms reflect morphisms in syntax, then
+the conversion rules syntactically represent the axioms of a Cocteau category. Thus, the semantic
+interpretation is defined for both derivability and proof transformations. We also prove the strong
+normalisation and confluence properties for β-reduction by developing a standard technique in the
+fashion of Tait-Girard.
+The rest of the sections in the paper study to give a semantic framework for SILL(λ)Σ and
+SILL(λ)3 and how categorical models of those systems can be represented. In Section 4, we introduce the notions of a Cocteau category, that is, a symmetric monoidal closed category with three
+lax monoidal comonads: exponential, affine and relevant. We also introduce the concept of a Σassemblage which generalises Cocteau categories directly for an arbitrary subexponential signature
+Σ. We show that every Σ-assemblage is a model of the many-sorted equational theory generated by
+SILLΣ (λ)-proof conversions.
+In Section 5, we elaborate on how one can characterise so-called relevant categories, that is,
+symmetric monoidal categories where each object A can be copied with a natural transformation
+γ with the components γA : A → A ⊗ A. We treat relevant categories separately because of the
+important difference between them and Cartesian categories in the following aspect. It is well known
+that a symmetric monoidal category C is Cartesian if and only the forgetful functor coMon(C) → C is
+an isomorphism, see, e.g., [Mel09, Corollary 19], where coMon(C) is the category of cocommutative
+comonoids in C. As it has been already discussed in [rel], we only have a weaker criterion: a
+symmetric monoidal category is relevant if and only if the forgetful functor coSem(C) → C has a
+strict symmetric monoidal section. The aforementioned nLab article gives neither a complete proof
+of this fact nor a reference, so we prove this fact in Section 5 as it seems it has not been introduced
+in such a form earlier in the literature.
+In Section 6, we modify Benton’s results from [Ben94] connecting linear-non-linear models and
+linear categories. We introduce Cocteau adjunctions and Σ-boutons to characterise Cocteau categories and Σ-assemblages with symmetric monoidal categories equipped with resource modalities
+using the characterisation results on relevant categories from the previous section. Generally, we
+unveil each comonad as a monoidal adjunction with the corresponding Eilenberg-Moore categories of
+coalgebras. We provide the 2-categorical approach based on the formal theory of comonads to characterising the category of Cocteau categories with monoidal adjunctions, but we also treat functors
+of Cocteau categories and their natural transformations.
+
+2
+
+System SILL(λ) and its syntactic properties
+
+We first recall the underlying logic called SILLΣ and then develop a subexponential linear type
+theory by assigning linear lambda terms to the inference rules of SILLΣ .
+Definition 2.1. Let (I, ⪯) be a finite preorder, a subexponential signature is a quadruple Σ = (I, ⪯
+, W, C) where W and C are upward closed subsets of I.
+The intuitive idea standing behind the notion of a subexponential signature is that we have a
+preordered finite family of indices of subexponential modal operators {!s | s ∈ I} and W and C are
+subsets of those indices whose operators admit weakening and contraction respectively. The preorder
+relation on subexponential indices has the following informal semantics. If s1 ⪯ s2 , the operator
+
+4
+
+## PDF page 5
+
+!1 is stronger than !2 , that is, !s2 A ⇒ !s1 A. This is why we require W and C to be increasing:
+the property of admitting weakening or contraction is inherited by stronger modalities from weaker
+ones. We capture this idea rigorously further.
+The definition of a well-formed formula is specified by the corresponding grammar.
+Definition 2.2. Let Σ = (I, ⪯, W, C) be a subexponential signature and let {pi | i < ω} be a
+countable set of propositional variables, the set of Σ-formulas is generated by the following grammar:
+A, B ::= pi | 1 | (A ⊸ B) | (A ⊗ B) | (!s A)s∈Σ
+By default, subexponentials bind stronger than binary connectives, whereas the tensor product
+connective has a higher priority than linear implication.
+If s ∈ W (C), then !s is an affine (relevant) subexponential. !s is exponential if s ∈ W ∩ C.
+The formalism we present below is inspired by [Tro95] and [BBDPH93a]. In fact, we can think
+of it as the expansion of the linear type theory with additional relevent and affine subexponentials
+allowing the structural weakening and contraction rules respectively. Let us define linear terms first.
+Definition 2.3 (Preterms). Let Σ = (I, ⪯, W, C) be a subexponential signature and let Var =
+{xi | i < ω} be a countable alphabet of variables. The set of preterms is generated by the following
+BNF-grammar.
+M, N ::= xi | 1 | let 1 = M in N | λx : A.M | M N | M ⊗ N | let x ⊗ y = M in N |
+⃗ )s∈Σ | (ders (M ))s∈Σ | (dels (M ; N ))s∈W | (lets x, y = M in N )s∈W
+(!s M with ⃗x = N
+⃗ = (M0 , . . . , Mn ):
+Let us introduce the following shorthand notation for a tuple of terms M
+⃗ ; N ) ⇋ dels (M0 ; (dels (M1 ; . . . (dels (Mn ; N )) . . .))),
+• dels0 ,...,sn (M
+0
+1
+n
+⃗ in N ⇋ lets y0 , z0 = M0 in (lets y1 , z1 = M1 in (. . . (lets yn , zn = Mn in N ) . . .)).
+• lets ⃗y , z⃗ = M
+A preterm M is a linear lambda term (or simply term) if it is well-typed, that is, there is a context
+Γ and a type A such that Γ ⊢ M : A is derivable by the typing rules from Figure 1. So we assume that
+every free variable occurs exactly once as in the term assignment for a multiplicative-exponential
+fragment intuitionistic linear logic. We do not trouble ourselves with the rigorous definitions of
+free variables and linear substitution, the reader can transfer them from [Bie94, Definition 3.14,
+Definition 3.15].
+A context Γ is a finite multiset of declarations of the form x : A, where x is a variable and A is
+a formula. A typing judgement is a typing declaration M : A for a term M . Γ ⊢ M : A stands for
+“a typing judgement M : A is provable from Γ” by the inference rules from Figure 1. Such a term
+assignment directly generalises the linear typed lambda calculus for intuitionistic linear logic from,
+for example, [Tro92, Chapter 6] for an arbitrary subexponential signature Σ.
+
+5
+
+## PDF page 6
+
+Figure 1: System SILL(λ)Σ
+
+⊢1:1
+
+1I
+
+x:A⊢x:A
+
+Γ, x : A ⊢ M : B
+⊸I
+Γ ⊢ λx.M : A ⊸ B
+
+Γ⊢M :1
+∆⊢N :B
+1E
+Γ, ∆ ⊢ let 1 = M in N : B
+
+Γ⊢M :A⊸B
+∆⊢N :A
+⊸E
+Γ, ∆ ⊢ M N : B
+
+Γ⊢M :A
+∆⊢N :B
+⊗I
+Γ, ∆ ⊢ M ⊗ N : A ⊗ B
+
+Γ1 ⊢ M1 : !s1 A1 , . . . , Γn ⊢ Mn : !sn An
+
+ax
+
+Γ⊢M :A⊗B
+∆, x : A, y : B ⊢ N : C
+⊗E
+∆, Γ ⊢ let x ⊗ y = M in N : C
+
+x1 : !s1 A1 , . . . , xn : !sn An ⊢ N : A
+
+⃗ : !s A
+Γ1 , . . . , Γn ⊢ !s N with ⃗
+x=M
+
+!s
+
+Γ ⊢ M : !s A
+!sE
+Γ ⊢ ders M : A
+for each s ∈ I.
+
+where s ⪯ s1 , . . . , sn .
+
+Γ ⊢ M : !s A
+∆⊢N :B
+W
+Γ, ∆ ⊢ dels (M ; N ) : B
+
+Γ ⊢ M : !s A
+∆, x : !s A, y : !s A ⊢ N : B
+C
+Γ, ∆ ⊢ lets x, y = M in N : B
+
+for s ∈ W .
+
+for s ∈ C.
+
+One can also formulate the sequent-style formulation of SILLΣ and prove the cut elimination
+and the subformula properties similarly to [KKNS19, Theorem 2] and [NOP17, Theorem 1].
+Lemma 2.4 (Substitution Lemma). If Γ ⊢ M : A and ∆, x : A ⊢ N : B, then ∆, Γ ⊢ N [x := M ] : B.
+Proof. Induction on the derivation of ∆, x : A ⊢ N : B.
+Let Γ be a context of free variable declarations {x1 : A1 , . . . , xn : An }, then let |Γ| = {Ai | i =
+1, . . . , n, xi : Ai ∈ Γ}.
+There is a particular subexponential signature that we shall consider separately. Let I be a
+three-element set {i, r, a}. The mnemonic is that i, r and a stand for “intuitionistic”, “relevant”
+and “affine” respectively. The preorder relation is given by the below graph:
+a
+
+⪯
+
+i
+
+⪰
+
+r
+
+This preorder depicts that idea if we have an object that we can use finitely many times, such
+an object can be duplicated (and, thus, become relevant) and destroyed (and, thus, become affine).
+The subsets W and C are {a, i} and {r, i} respectively. By SILL(λ)3 , we denote SILL(λ)Σ over
+the above described signature three element signature.
+Although SILL(λ)3 is obtained from SILL(λ)Σ , we would like to consider them as different
+calculi. SILL(λ)3 describes the natural way of how different policies of resource management interact
+with one another, whereas SILL(λ)Σ describe a broader class of polymodal intuitionistic linear logics
+where some of the subexponentials might have nothing to do resource management at all.
+
+6
+
+## PDF page 7
+
+2.1
+
+Proof Normalisation
+
+As for linear type theory with the single exponential modality ! considered in [BBDPH93b], one can
+distinguish the βη-reduction relation and the commuting conversion relation which are conversions
+between terms occuring from the proof normalisation analysis. Although all those commuting conversions can be transfered to SILL(λ), we consider a simpler approach that combines [Tro95] and
+[Bie94, §4.3]. First of all we specify the term conversions for SILL(λ)Σ .
+• The β-conversions specified in Figure 2 describe so-called detour conversions 1 . Those conversions are rather common in many presentation of proof contractions for intuitionistic linear
+logic.
+Figure 2: β-conversions
+(⊸ β) (λx.M )N ◁ M [x := N ],
+(1β) let 1 = 1 in N ◁ N ,
+(⊗β) let x ⊗ y = M ⊗ N in P ◁ P [x := M, y := N ],
+⃗ ) ◁ N [⃗
+⃗ ] for s ∈ Σ,
+(!s β) ders (!s N with ⃗
+x=M
+x := M
+⃗ , N ′)
+⃗ , N ′ ) ◁ dels1 ,...,sn (M
+(Wβ) Let s ⪯ s1 , . . . , sn and s ∈ W , then dels (!s N with ⃗
+x=M
+(Cβ) Let s ∈ C
+⃗ ′ )inN ◁lets x⃗′ , x⃗′′ = M
+⃗ ′ inN [y := !s M with⃗
+lets y, z = (!s M with⃗
+x=M
+x = x⃗′ , z := !s M with⃗
+x = x⃗′′ ].
+
+• The extensional η-conversions from Figure 3 can be considered as simplification conversions
+in the derivations where an introduction rule was used after applying the corresponding elimination rule. In type-theoretical terms, simplification conversions correspond to η-reduction.
+Figure 3: η-conversions
+(⊸ η) (λx.M x) ◁ M ,
+(!s η) !s (ders x) with x = M ◁ M ,
+(⊗η) let x ⊗ y = M in N [z := x ⊗ y] ◁ N [z := M ].
+
+• The conversions from Figure 4 syntactically depict that the tensor product and identity types
+alongside the weakening and contraction operations satisfy the categorical naturality property.
+From a proof-theoretic angle, those conversions reflect permutation conversions (again, the
+terminology is due to Troelstra) where we permute minor premises of an elimination rule in a
+certian way.
+• The conversions from rest of the figures elaborate on how copying, deleting and promotion
+term constructors commute with one another. In particular, the conversions having the form
+of (Wconv ) say that the deletion operation has a coalgebraic nature, but we can also view it
+1 Troesltra and Schwichtenberg use the term detour contractions, but we would reserve the word “contraction” for
+the corresponding structural rule.
+
+7
+
+## PDF page 8
+
+Figure 4: The naturality conversions for 1, ⊗, contraction and weakening
+(⊗nat ) P [w := let x ⊗ y = M in N ] ◁ let x ⊗ y = M in P [w := N ],
+(1nat ) P [w := let 1 = M in N ] ◁ let 1 = M in P [w := N ],
+(dels )nat Let s ∈ W , then P [x := dels (M ; N )] ◁ dels (M ; P [x := N ]),
+(lets )nat Let s ∈ C, then P [x := lets x, y = M in N ] ◁ lets x, y = M in P [x := N ].
+
+as a proof conversion allowing us to avoid some redundant promotions when we combine the
+promotion and deletion operations.
+Categorically, the conversions (Cconv1 ), (Cconv2 ) and (Cconv3 ) demonstrate the coalgebraic
+and commutative comonoid nature of the contraction operation, but, as above, we think of
+them as a separate sort of prooftree transformation that cannot be reduced to none of the
+above.
+The conversion (CWconv ) specify how exactly the exponential deletion and copying terms
+commute with each other. One can think of this conversion as the syntactic encoding of one
+of the commutative comonoid axioms.
+Figure 5: The conversions for weakening and contraction
+⃗ ◁ delt (N ; (!t M with ⃗
+⃗ )),
+(Wconv ) Let s, t ∈ Σ, s ∈ W and s ⪯ t, then !t (dels (x; M )) with x, ⃗
+x = N, N
+x=N
+(Cconv1 ) Let s ⪯ s1 and s ∈ C
+!s (lets y, z = x1 in N ) with x1 , . . . , xn = M1 , . . . , Mn ◁
+lets y ′ , z ′ = M1 in (!s N with y ′ , z ′ , x2 , . . . , xn = y, z, M2 , . . . , Mn )
+(Cconv2 ) lets x, y = M in N ◁ lets y, x = M in N ,
+(Cconv3 ) lets x, w = M in (lets y, z = w in N ) ◁ lets w, z = M in (lets x, y = w in N ),
+(CWconv ) lets x, y = M in dels (x; N ) ◁ N [y := M ] for s ∈ W ∩ C.
+
+• The conversion (!sconv ) was introduced by Troelstra for intuitionistic linear logic, see [Tro95,
+X1]. We introduce the version of that conversion for all subexponentials in a more general
+form.
+Figure 6: Extra !s -conversion
+(!t )conv Assume that subexponential indices are agreed with one another reasonably:
+⃗ ′ , (!s N with ⃗x = M
+⃗ ), M
+⃗ ′′ ◁
+!t M with y⃗′ , y, y⃗′′ = M
+′
+′
+′
+′′
+⃗ ′, M
+⃗ ,M
+⃗ ′′
+⃗
+⃗
+⃗
+⃗
+!t (M [y := !s N with x = ⃗x]) with y , x , y = M
+
+Definition 2.5. Let M, N be terms, Γ a context and A a type, a conversion in context is a judgement
+of the form Γ ⊢ M ◁ N : A that we read as M converses to N in a context Γ and both M and N
+8
+
+## PDF page 9
+
+has type A. The conversion rules are specified in Figures 2, 3, 4, 5 and 6. ⊴ (i.e. the multistep
+conversion relation) is the least preorder relation that contains ◁.
+An equality in context Γ ⊢ M ≡ N : A is the symmetric closure of ⊴.
+Theorem 2.6 (Normalisation). Let Γ ⊢ M : A be a typing judgement provable in SILL(λ)Σ
+and Γ ⊢ M ⊴ N : A, then the SILL(λ)Σ -derivation of Γ ⊢ M : A can be transformed into the
+SILL(λ)Σ -derivation of Γ ⊢ N : A.
+Proof. Induction on the generation of M ◁ N by using Lemma 2.4.
+
+2.2
+
+Strong Normalisation and Confluence for β-reduction
+
+Now let focus on the conversion rules specified in Figure 2 and show a stronger fact than the subject
+reduction property for the β-reduction rule. As Benton showed in [Ben95], one can embed the linear
+term calculus into the second-order lambda calculus, also known as System F, by using the technique
+of encoding coinductive data types with parametric polymorphism. It does not seem that this idea
+is transferable indeed to subexponentials, both affine and relevant as well as those ones that do not
+introduce any structural rules. So we develop the Girard method originally introduced for System F
+in [Gir72], but our presentation is generally based closer on [Bie94, Theorem 18]. Although the proof
+is generally routine, we revisit it in order to check the subexponential-related clauses accurately and
+explicitly.
+We provide the construction based on P-candidates and computability types to deduce both
+the strong normalisation and confluence properties to refine the presentation of SILL(λ)Σ as a
+specification of a resource aware functional programming language admitting several resource usage
+simultaneously. Although the strong normalisation is not transferable to general-purpose languages
+for well-known reasons coming from the basics of computability theory, those facts still remain
+important since they demonstrate why the evaluation process is determinate for programs built
+canonically from constructors and eliminators. So the current goal is to prove the following:
+Theorem 2.7. [Strong Normalisation for β-reduction] Every β-reduction path M0 ◁β M1 ◁β . . .
+terminates at a finite step.
+We start by giving some preliminary definitions.
+Definition 2.8.
+• A I-term is a result of applying the introduction rule, that is, a term of one of the following
+forms.
+⃗.
+M ⊗ N, λx.N, !s N with ⃗x = M
+⃗.
+for arbitrary terms M , N and for an arbitrary sequence M
+• A term is called simple if it is not an I-term. A simple term M is stubborn if it is either has
+no redexes amongst its subterms or M ⊴β N for some simple N .
+Let P = {PA | A is a type} denote a family of non-empty sets of terms indexed with the set of
+well-formed types. Let us define several properties of such families.
+(P1) x ∈ PA for every variable of type A,
+(P2) M ◁β N and M ∈ PA imply N ∈ PA .
+
+9
+
+## PDF page 10
+
+(P3) Let M be a simple term and
+– Assume M ∈ PA⊸B , N ∈ PA and (λx.M ′ )N ∈ PB for M ⊴β λx.M ′ . Then M N ∈ PB .
+⃗ ) ∈ PA for M ⊴β !s M ′ with ⃗x = M
+⃗ . Then
+– Let s ∈ Σ, M ∈ P!s A , ders (!s M ′ with ⃗x = M
+ders M ∈ PA .
+⃗ ) in N ∈ PB
+– Let s ∈ C. Assume M ∈ P!s A , N ∈ PB and lets x, y = (!s M ′ with ⃗x = M
+′
+⃗ . Then lets x, y = M in N ∈ PB .
+for M ⊴β !s M with ⃗x = M
+⃗ ; N)
+– Let s ∈ W . Assume M ∈ P!s A and N ∈ PB . Assume that dels (!s M ′ with ⃗x = M
+′
+⃗
+for M ⊴β !s M with ⃗x = M , then dels (M ; N ) ∈ PB .
+(P4)
+
+1. If M ∈ PB and x ∈ FV(M ), then λx.M ∈ PA⊸B ,
+2. If M ∈ PA and N ∈ PB imply M ⊗ N ∈ PA⊗B ,
+3. 1 ∈ P1 ,
+4. Let M ∈ PA and M1 ∈ P!s1 A1 , . . . , Mn ∈ P!sn An for s ⪯ s1 , . . . , sn , then !s M with ⃗x =
+⃗ ∈ P! sA .
+M
+
+(P5)
+
+1. Let N ∈ PA and M [x := N ] ∈ PB , then (λ.M )N ∈ PB ,
+2. Let M ∈ P1 and N ∈ PA , then let M = 1 in N ∈ PA ,
+3. Let M ∈ PA⊗B and N [x := M ′ , y := N ′ ] for x, y ∈ FV(N ) and M ◁β M ′ ⊗ N ′ ,
+⃗ , then ders M ∈ PA .
+4. Let s ∈ Σ and M ∈ P!s A such that M ◁β !s M ′ with ⃗x = M
+5. Let s ∈ C, M ∈ P!s A and N ∈ PB such that PB contains the following redex:
+⃗ ′ in N [y := !s M ′ with ⃗x = ⃗u, z := !s M ′ with ⃗x = ⃗v ]
+lets ⃗u, ⃗v = M
+⃗ . Then lets y, z = M in N ∈ PB .
+for M ⊴β !s M ′ with ⃗x = M
+6. Let M ∈ P!s A , N ∈ PB and dels1 ,...,sn (M1 , . . . , Mn ; N ) ∈ PB whenever M ⊴β !s M ′ with⃗x =
+⃗ and s1 , . . . , sn ⪰ s, then dels (M ; N ) ∈ PB .
+M
+
+A set CA of terms of type A is called a P-candidate if it satisfies the following conditions:
+(P1) CA ⊆ PA ,
+(P2) M ∈ CA and M ◁β N imply N ∈ CA ,
+(P3) If M ∈ PA is simple and M ′ ∈ CA such that M ⊴β M ′ and M ′ is an I-term, then M ∈ C.
+Let P be a family of terms, let us associate the computability type ct(A) for each type A:
+• Let pi be atomic, then ct(pi ) = PA and ct(1) = P1 .
+• ct(A ⊸ B) = {M ∈ PA⊸B | ∀N ∈ ct(A) M N ∈ ct(B)},
+• ct(A ⊗ B) = {M ∈ PA⊗B | M ⊴β M1 ⊗ M2 ⇒ M1 ∈ ct(A) & M2 ∈ ct(B)},
+• Let s ∈ Σ, then let ct′ (!s A) denote:
+ct′ (!s A) = {M ∈ P!s A | ders (M ) ∈ ct(A) &
+⃗}
+M1 ∈ P!s1 A1 , . . . , Mn ∈ P!sn An , s ⪯ s1 , . . . , sn , M ′ ∈ ct(A) for M ⊴β !s M ′ with ⃗x = M
+10
+
+## PDF page 11
+
+Then if s ∈ C, then
+⃗ & N ∈ PA ⇒
+ct(!s A) = ct′ (!s A) ∩ {M ∈ P!s A | M ⊴β !s M ′ with ⃗x = M
+⃗ in N [y := !s M ′ with ⃗u = ⃗x, z := !s M ′ with ⃗v = ⃗x]}.
+lets ⃗u, ⃗v = M
+If s ∈ W , then
+ct(!s A) = ct′ (!s A) ∩ {M ∈ P!s A |
+⃗ & s ⪯ s1 , . . . , sn & N ∈ PB ⇒ dels ,...,s (M
+⃗ ; N ) ∈ PB }
+M ⊴β !s M ′ with ⃗x = M
+1
+n
+otherwise we let ct(!s A) = ct′ (!s A).
+Lemma 2.9. Let P be a family of sets of terms satisfying (P 1) − (P 5), then
+1. ct(A) is a P-candidate containing all stubborn terms of PA .
+2. Every ct(A) is closed under substitution: let M ∈ ct(A) and let S : Var → Term be a
+substitution such that S(x) ∈ ct(B) for every x : B ∈ ct(A), then S(M ) ∈ ct(A).
+Besides, for each A, PA = TermA .
+Proof. The proof of the first part is analogous to [Bie94, Lemma 4, §5.1]. The proof of the second
+part is by induction on the length of M , let us consider some of the subexponential cases.
+⃗ . By the induction hypothesis, one has
+1. Consider !s M with ⃗x = M
+Si (Mi ) ∈ ct(!si Ai ) for i ∈ {1, . . . , n}, s1 , . . . , sn ⪰ s and S(M ′ ) ∈ ct(A). So by P1, Si (Mi ) ∈
+P!si Ai for i ∈ {1, . . . , n} and S(M ) ∈ PA . If !s M with x1 , . . . , xn = S1 (M1 ), . . . , Sn (Mn ) is
+stubborn, then !s M with x1 , . . . , xn = S1 (M1 ), . . . , Sn (Mn ) ∈ ct(!s A) by P3. Otherwise one
+has
+!s M with x1 , . . . , xn = S1 (M1 ), . . . , Sn (Mn ) ⊴β !s M ′ with x1 , . . . , xn = M1′ , . . . , Mn′
+By (P2), we have M ′ ∈ ct(A). Also, we have M1′ ∈ P!s1 A1 . . . , Mn′ ∈ P!sn An by (P 2). Thus
+!s M with x1 , . . . , xn = S1 (M1 ), . . . , Sn (Mn ) ∈ ct(!s A). Therefore, we conclude that
+⃗ ) ∈ ct(A).
+S1 ; . . . ; Sn ; S(!s M with ⃗x = M
+where S1 ; . . . ; Sn ; S is the composite substitution.
+2. Consider lets x, y = M in N . By the induction hypothesis, S1 (M ) ∈ ct(!s A) for s ∈ C and
+S2 (N ) ∈ ct(B). Observe that S2 has the form of S2′ ∪ {x ↦→ P, y ↦→ Q} for some substitution
+S2′ and for some P, Q ∈ ct(!s A).
+If S1 (M ) is stubborn, then lets x, y = S1 (M ) in S2′ (N ) ∈ ct(B). Otherwise, S1 (M ) ⊴β
+⃗ By (P2), !s P with w
+⃗ ∈ P! A . Therefore, we have
+!s P with w
+⃗ = Q.
+⃗ =Q
+s
+⃗ in S ′ (N )[x := !s R with w
+lets ⃗u, ⃗v = Q
+⃗ = ⃗u, y := !s R with w
+⃗ = ⃗v ] ∈ PB
+2
+So by (P5), lets x, y = S1 (M ) in S2 (N ) ∈ PB . By the definition, lets x, y = S1 (M ) in S2 (N ) ∈
+ct(B). Thus S1 ; S2′ (lets x, y = M in N ) ∈ ct(B).
+Now, clearly PA ⊆ TermA . For the converse inclusion, take any term M of type A, then
+M ∈ ct(A) by the applying the identity substitution.
+11
+
+## PDF page 12
+
+Proof of Theorem 2.7. Let SNA stand for the set of all strongly normalising terms of type A. Now
+let P be a family {SNA | A ∈ Type}. The rest is to show that P satisfies the conditions (P1)-(P5).
+Let us associate the reduction tree
+rt(M ) = {p | p is a reduction path starting at M }
+with every term M ∈ SNA and every such a tree satisfies König’s lemma (see [Hod93, Exercise
+5.6.5]): every term has a finite number of redexes and length(p) < ω for each p ∈ rt(M ). The proof
+is by induction on d(M ), the depth of rt(M ). So the rest is to check the conditions (P1)-(P5). We
+consider the most demonstrative cases with subexponentials.
+(P3) Let s ∈ C. Assume M ∈ SN!s A , N ∈ SNB such that
+⃗ ) in N ∈ SNB for M ⊴β !s M ′ with ⃗x = M
+⃗ . We need lets x, y =
+lets x, y = (!s M ′ with ⃗x = M
+M in N ∈ SNB . Take lets x, y = M in N ◁β P . If P = lets x, y = M1 in N , where M1 is simple
+and M ◁β M1 . In this case, we apply the induction hypothesis for d(M1 ) + d(N ) and conclude
+P ∈ SN!s A .
+If, otherwise, P = lets x, y = M in N1 , where N1 is simple and N ◁β N1 . Similarly, we apply
+the induction hypothesis for d(M ) + d(N1 ) and conclude P ∈ SN!s A .
+⃗ ⊴β N
+(P4) Let M ∈ SNA and let M1 ∈ SN!s1 A , . . . , Mn ∈ SN!sn A . Consider !s M with ⃗x = M
+⃗ ′ for M ⊴β M ′ , M1 ⊴β
+for s ⪯ s1 , . . . , sn . Then N has the form of !s M ′ with ⃗x = M
+′
+′
+⃗
+M1 , . . . , Mn ⊴β Mn . Then we have !s M with ⃗x = M ∈ SN!s A by induction on d(M ) +
+d(M1 ) + . . . + d(Mn ).
+(P5) Let s ∈ C, M ∈ SN!s A and N ∈ SNB such that
+⃗ ′ in N [y := !s M with ⃗x = ⃗u, z := !s M with ⃗x = ⃗v ] ∈ SNB
+lets ⃗u, ⃗v = M
+⃗ . We need lets y, z = M in N ∈ SNB . Consider lets y, z =
+for M ⊴β !s M ′ with ⃗x = M
+M in N ◁β P . As above, we have several alternatives: Assume P = lets y, z = M1 in N for
+M ◁β M1 , then, as earlier, we apply the induction hypothesis on d(M1 ) + d(N ) and conclude
+that P ∈ SNB . The case P = lets y, z = M in N1 for N ◁β N1 is considered similarly. If
+⃗ ) in N , then we are already done by assumption.
+P = lets y, z = (!s M ′ with ⃗x = M
+
+Theorem 2.10. Let M, N, P be terms such that M ⊴β N and M ⊴β P , then there is a term P ′
+such that N ⊴β P ′ and P ⊴β P ′ . As a corollary, a normal form is unique up α-equivalence.
+Proof. The proof strategy is similar to the strong normalisation proof. Let CRA be the set of all
+confluent terms of type A and let P be {CRA | A is a type }. The goal is to show that P satisfies
+(P1)-(P5) and then conclude that every term is confluent by Lemma 2.9. Let us consider one of the
+cases, in particular, (P 5) for the polymodal. The rest of the clauses are proved similarly.
+Let s ∈ C, M ∈ CR!s A and N ∈ CRB such that CRB contains the following redex:
+⃗ ′ in N [y := !s M ′ with ⃗x = ⃗u, z := !s M ′ with ⃗x = ⃗v ]
+lets ⃗u, ⃗v = M
+⃗ ′ . We need lets y, z = M in N ∈ CRB .
+for M ⊴β !s M ′ with ⃗x = M
+There are the following subcases to show:
+
+12
+
+## PDF page 13
+
+1. Assume there are the following independent reductions:
+lets y, z = M in N ⊴β lets y, z = M1 in N1 , lets y, z = M2 in N2
+for M ⊴β M1 , M2 and N ⊴β N1 , N2 . Both M and N are confluent by the assumption, so
+there are M ′ and N ′ such that M1 , M2 ⊴β M ′ and N1 , N2 ⊴β N ′ . Therefore,
+lets y, z = M1 in N1 , lets y, z = M2 in N2 ⊴β lets y, z = M ′ in N ′
+2. Assume there are the following top-level reduction:
+⃗ 1 ) in N ⊴β
+lets y, z = M in N ⊴β lets y, z = (!s M1 with ⃗x = M
+⃗
+lets ⃗u, ⃗v = M1 in N [y := !s M1 with ⃗x = ⃗u, z := !s M1 with ⃗x = ⃗v ] ⊴β P1 ,
+⃗ 2 ) in N ⊴β
+lets y, z = M in N ⊴β lets y, z = (!s M2 with ⃗x = M
+⃗
+lets ⃗u, ⃗v = M2 in N [y := !s M2 with ⃗x = ⃗u, z := !s M2 with ⃗x = ⃗v ] ⊴β P2
+M and N are already confluent, so there is a term lets y, z = M ′ in N ′ such that:
+⃗ 1 ) in N ⊴β lets y, z = M ′ in N ′
+lets y, z = (!s M1 with ⃗x = M
+⃗ 2 ) in N ⊴β lets y, z = M ′ in N ′
+lets y, z = (!s M2 with ⃗x = M
+M ′ , in turn, is of the form !s P with ⃗x = P⃗ . Then we have the following reduction:
+lets y, z = (!s P with ⃗x = P⃗ ) in N ′ ⊴β
+lets ⃗u, ⃗v = P⃗ with N ′ [y := !s P with ⃗x = ⃗u, z := !s P with ⃗x = ⃗v ]
+By assumption, the following terms are confluent:
+⃗ 1 in N [y := !s M1 with ⃗x = ⃗u, z := !s M1 with ⃗x = ⃗v ],
+lets ⃗u, ⃗v = M
+⃗ 2 in N [y := !s M2 with ⃗x = ⃗u, z := !s M2 with ⃗x = ⃗v ]
+lets ⃗u, ⃗v = M
+and we have the following reductions:
+⃗ 1 in N [y := !s M1 with ⃗x = ⃗u, z := !s M1 with ⃗x = ⃗v ] ⊴ P1
+lets ⃗u, ⃗v = M
+⃗ 2 in N [y := !s M2 with ⃗x = ⃗u, z := !s M2 with ⃗x = ⃗v ] ⊴ P2
+lets ⃗u, ⃗v = M
+and we also have
+⃗ 1 in N [y := !s M1 with ⃗x = ⃗u, z := !s M1 with ⃗x = ⃗v ] ⊴ lets ⃗u, ⃗v =
+lets ⃗u, ⃗v = M
+P⃗ with N ′ [y := !s P with ⃗x = ⃗u, z := !s P with ⃗x = ⃗v ]
+⃗ 2 in N [y := !s M2 with ⃗x = ⃗u, z := !s M2 with ⃗x = ⃗v ] ⊴ lets ⃗u, ⃗v =
+lets ⃗u, ⃗v = M
+P⃗ with N ′ [y := !s P with ⃗x = ⃗u, z := !s P with ⃗x = ⃗v ]
+Therefore, we have P ′ such that P1 ⊴β P ′ and
+lets ⃗u, ⃗v = P⃗ with N ′ [y := !s P with ⃗x = ⃗u, z := !s P with ⃗x = ⃗v ] ⊴β P ′ .
+Further, we have that
+⃗ 2 in N [y := !s M2 with ⃗x = ⃗u, z := !s M2 with ⃗x = ⃗v ] ⊴β P ′ ,
+lets ⃗u, ⃗v = M
+so we have P ′ ⊴β P ′′ and P2 ⊴β P ′′ .
+13
+
+(1)
+
+## PDF page 14
+
+3. Assume we have the case when the first reduction is top-level, whereas the other one is independent (the symmetric case is considered similarly):
+⃗ 1 ) in N ⊴β
+lets y, z = M in N ⊴β lets y, z = (!s M1 with ⃗x = M
+⃗
+lets ⃗u, ⃗v = M1 in N [y := !s M1 with ⃗x = ⃗u, z := !s M1 with ⃗x = ⃗v ] ⊴β P1 ,
+lets y, z = M in N ⊴β lets y, z = M2 in N2 = P2
+for M ⊴β M2 and N ⊴β N2 . By the condition, both M and N are confluent, so there is a
+term lets y, z = M ′ in N ′ such that there are the following reductions:
+⃗ 1 ) in N ⊴β lets y, z = M ′ in N ′
+lets y, z = (!s M1 with ⃗x = M
+lets y, z = M2 in N2 ⊴β lets y, z = M ′ in N ′
+⃗ ′′ , so there is the following reduction:
+Further, M ′ has the form of !s M ′′ with ⃗x = M
+⃗ ′′ ) in N ′ ⊴β
+lets y, z = (!s M ′′ with ⃗x = M
+′
+′′
+⃗
+lets ⃗u, ⃗v = M in N [y := !s M ′ with ⃗x = ⃗u, z := !s M ′ with ⃗x = ⃗v ]
+By the assumption, the term
+⃗ 1 in N [y := !s M1 with ⃗x = ⃗u, z := !s M1 with ⃗x = ⃗v ]
+lets ⃗u, ⃗v = M
+is confluent. So there is a term P3 such that P1 ⊴β P3 and
+⃗ ′′ in N ′ [y := !s M ′ with ⃗x = ⃗u, z := !s M ′ with ⃗x = ⃗v ] ⊴β P3 .
+lets ⃗u, ⃗v = M
+The following term
+⃗ ′′ in N2 [y := !s M ′ with ⃗x = ⃗u, z := !s M ′ with ⃗x = ⃗v ]
+lets ⃗u, ⃗v = M
+is confluent, so there is a term P4 such that P2 ⊴β P4 and P3 ⊴β P4 .
+
+3
+
+Category-theoretic Preliminaries
+
+In this section, we outline the background from 2-category theory and refine the formal theory of
+comonads to characterise 1-cells and 2-cells in the 2-category of comonads in a 2-category C with
+left morphisms of adjunctions, the notion similar to adjunction morphisms in [Zag17]. We assume
+that the reader is familiar with the underlying notions of category theory such as (1-)categories,
+functors, natural transformations and adjunctions.
+In further sections, we will obtain some results about categories of generally large categories and
+such objects cannot be defined in the standard set-theoretic foundations of mathematics such as
+ZFC or NBG, so we accept the foundations based on Grothendieck universes as they are described
+in [Lur09, §1.2.15] or [Shu08, §8].
+
+3.1
+
+2-categories
+
+We refer the reader to [JY21, Chapter 2], [Lac09] and [Bor94a, Chapter 7] for a more thorough and
+systematic introduction.
+14
+
+## PDF page 15
+
+Definition 3.1. A 2-category C consists of the following data:
+• The class of objects (also called 0-cells) Ob(C),
+• For each pair of 0-cells A, B ∈ Ob(C) there is a class of morphisms (also called 1-cells) C(A, B)
+such that for each A, B, C ∈ Ob(C) there is a composition map g ◦ f ∈ C(A, C) for f ∈ C(A, B)
+and g ∈ C(B, C) and there is the identity map 1A ∈ C(A, A). The composition operation and
+identity morphisms satisfy the standard axioms.
+• For each 0-cells A, B ∈ Ob(C) and for each 1-cells f, g ∈ C(A, B), the class C(f, g) of 2-cells
+between f and g is defined. The notation α : f ⇒ g stands for α ∈ C(f, g). 2-cells are visualised
+as follows:
+f
+
+A
+
+α
+
+B
+
+g
+
+• Let α : f ⇒ g and β : g ⇒ h for f, g ∈ C(A, B):
+f
+α
+g
+
+A
+
+B
+β
+
+h
+
+then there is the vertical composite of α and β, which is a 2-cell βα represented diagrammatically as:
+f
+βα
+
+A
+
+B
+
+h
+
+• Let α1 : f1 ⇒ f2 and α2 : g1 ⇒ g2 for f1 , f2 ∈ C(A, B) and g1 , g2 ∈ C(B, C):
+g1
+
+f1
+
+A
+
+α1
+
+B
+
+α2
+
+C
+
+g2
+
+f2
+
+then there is the horizontal composite of α1 and α2 , a 2-cell denoted as α2 ◦α1 : g1 ◦f1 ⇒ g2 ◦f2
+represented diagramatically as:
+g1 ◦f1
+α2 ◦α1
+
+A
+
+C.
+
+g2 ◦f2
+
+• The vertical and horizontal composites should satisfy the interchange laws that one can find in
+the aforementioned references and there are two identity two cells: the vertical 2-cell 1f : f ⇒ f
+for any f and the horizontal 2-cell idA : 1A ⇒ 1A for any 0-cell A.
+15
+
+## PDF page 16
+
+In a 2-category C, every C(A, B) is a category itself for any 0-cells A, B.
+Definition 3.2. Let C and D be 2-categories, a strict 2-functor F : C → D consists of the following
+data:
+• A class function F : Ob(C) → Ob(D),
+• Given A, B ∈ Ob(C), there is a functor FA,B : C(A, B) → D(FA, FB).
+• There are identities for each A, B, C ∈ Ob(C):
+– 1FA = FA,A (idA ),
+– FA,C (g ◦ f ) = FB,C (g) ◦ FA,B (f ) for each 1-cells f : A → B and g : B → C in C.
+Definition 3.3. Fun(C, D) is a 2-category consisting of the following data:
+• 0-cells are strict 2-functors,
+• F, G : C → D be 2-functors, then 1-cells are strict natural transformations η : F ⇒ G,
+• Let η1 , η2 : F ⇒ G be 1-cells, then the class of 2-cells between η1 and η2 are modifications
+η1 ⇒ η2 .
+Both strict natural transformations and their modifications are given accurately in, for example,
+[JY21, §4.4].
+Let us recall how one treats adjunctions in a 2-categorical setting, the reader can find more details
+in [KS06, §2] and also [Kal20, Section 3] and [RV16] for more advanced aspects of 2-categorical
+adjunctions.
+Definition 3.4. Let C be a 2-category and let A, B ∈ Ob(C) be 0-cells, an adjuction in C, denoted
+as η, ε : fl ⊣ fr : A → B (or just fl ⊣ fr , when it is clear from the context what other components
+of an adjunction are), consists of a pair of 1-cells fr : A → B and fl : B → A and a pair of 2-cells
+η : 1B ⇒ fr ◦ fl and ε : fl ◦ fr ⇒ 1A such that the following conditions are satisfied:
+1A
+
+A
+
+A
+fr
+
+ε
+fr
+
+fl
+
+η
+
+fr
+
+=
+
+A
+
+1fr
+
+B
+
+fr
+
+B
+1B
+
+B
+
+B
+
+1B
+
+B
+fl
+fl
+
+η
+fl
+
+fr
+
+=
+
+ε
+
+B
+
+1fl
+fl
+
+A
+
+1A
+
+A
+
+We say that fl is left adjoint to fr and fr is right adjoint to fl .
+
+16
+
+A
+
+## PDF page 17
+
+Definition 3.5. Let C be a 2-category, let A, B be 0-cells and let η, ε : fl ⊣ fr : A → B and
+η ′ , ε′ : fl′ ⊣ fr′ : A′ → B ′ be adjunctions in C, then a left morphism of adjunctions consists a pair of
+1-cells g1 : A → A′ and g2 : B → B ′ such that g1 ◦ fl = fl′ ◦ g2 .
+Note that there are different non-equivalent definitions of an adjunction morphism. For example,
+the definition of an adjunction morphism given in [Rie17, Exercise 4.2.v] extends our definition of
+left adjunction morphism with a similar extra equality of composites with right adjoints. Whereas,
+the definition of an adjunction morphism from [Zag17, Definition 2.2.2] contains only the equality
+with right adjoints. So we intended to coin the term “left adjunction morphism” to avoid further
+termilogical confusion.
+Definition 3.6. Given a 2-category C, a 2-category Adjl (C) of adjunctions in C and their left
+morphisms is defined as the full 1,2-category of Fun([1], C) spanned by 1-cells in C having a right
+adjoint.
+[1] denotes a two-element category having two objects 0 and 1 and a single non-identity morphism
+0 → 1.
+Comonads in 2-categories are defined by the dualisation of the corresponding definition of a
+monad in 2-categories from [Str72]. The formal theory of comonads can be derived by dualising the
+formal theory of monads. The reader can find the explicit presentation in [Zwa24, §2.3].
+Definition 3.7. Let C be a 2-category, a comonad in C consists of a 0-cell A ∈ Ob(C) along with
+a 1-cell k : A → A and 2-cells δ : k ⇒ k ◦ k (comultiplication) and ε : k ⇒ 1A (counit) such that the
+following diagrams commute:
+k
+1k
+
+k
+
+kε
+
+δ
+
+kk
+
+δ
+
+k
+1k
+
+εk
+
+kk
+
+δ
+
+k
+
+kδ
+
+kk
+
+kkk
+
+δk
+
+The dual notion is the notion of a monad, a triple (j, η, µ), where η : 1 ⇒ j and µ : jj ⇒ j are
+2-cells called unit and multiplication respectively satisfying the diagrams dual to the above ones.
+Most of the time, we will identify a comonad (k, δ, ε) over A ∈ Ob(C) with the carrier arrow k. A
+usual (co)monad over a category C is a (co)monad in the 2-category Cat of categories, functors and
+natural transformations. It is well known that every adjunction in a 2-category gives a comonad.
+Indeed, let η, ε : fl ⊣ fr : A → B be an adjunction in C, then the composite fl ◦ fr : A → A
+forms a comonad on A with the counit 2-cell ε : fl ◦ fr ⇒ 1A and the comultiplication 2-cell
+fl ηfr : fl ◦ fr ⇒ fl ◦ fr ◦ fl ◦ fr .
+Definition 3.8. Let (A, k) and (B, l) be comonads in a 2-category C, a comonad morphism (f, µ) :
+(A, k) → (B, l) consists of a 1-cell f : A → B and a 2-cell µ : f k ⇒ lf such that the following
+conditions are satisfied:
+µ
+
+fk
+
+lf
+
+fδ
+
+µ
+
+fk
+
+δf
+
+εf
+
+fε
+
+f kk
+
+µk
+
+lf k
+
+lµ
+
+llf
+
+lf
+
+f
+
+The next is to discuss how left adjunction morphisms induce comonad morphisms. For that, let
+us recall the notion of a mate. Let η, ε : fl ⊣ fr : A → B and η ′ , ε′ : fl′ ⊣ fr′ : A′ → B ′ be adjunctions
+17
+
+## PDF page 18
+
+in C. Let g1 : A → A′ and g2 : B → B ′ , then there is a bijection between 2-cells fl′ ◦ g1 ⇒ g2 ◦ fl
+and g1 ◦ fr ⇒ fr′ ◦ g2 , so squares of the form
+A
+
+fl
+
+B
+
+g1
+
+g2
+
+A′
+
+fl′
+
+B′
+
+1-to-1 correspond to squares of the form
+A
+
+fr
+
+B
+
+g1
+
+g2
+
+A′
+
+fr′
+
+B′
+
+So those pairs of 2-cells are called mates, see [Lac09, §2] and [KS06, §2].
+Proposition 3.9. Let C be a 2-category, and let η, ε : fl ⊣ fr : A → B and η ′ , ε′ : fl′ ⊣ fr′ : A′ → B ′
+be adjunctions in C and let g1 : A → A′ and g2 : B → B ′ be 1-cells such that a pair (g1 , g2 ) is
+a left morphism of the corresponding adjunctions. Then (g1 , g2 ) induces a morphism of comonads
+fl ◦ fr ⇒ fl′ ◦ fr′ .
+Proof. The proof is similar to [Zag17, Proposition 2.2.4], but let us just demonstrate how exactly a
+comonad morphism is given. Let β : g2 fr ⇒ fr′ g1 be the mate of the identity g1 fl = fl′ g2 , that is,
+the following composite:
+A
+
+fr
+
+B
+δ
+
+g2
+
+B′
+1B ′
+
+fl′
+
+fl
+
+1A
+
+η
+
+A
+
+g1
+
+A
+
+′
+fr′
+
+B′
+
+Then a pair (g1 , fl′ β) is a comonad morphism fl fr ⇒ fl′ fr′ .
+Definition 3.10. Let (A, k1 ) and (B, k2 ) be comonads in a 2-category C and let (f1 , µ1 ), (f2 , µ2 ) :
+k1 ⇒ k2 be comonad morphisms, a comonad morphism transformation is a 2-cell φ : f1 ⇒ f2 such
+that the following square commutes:
+f1 k 1
+
+φk1
+
+µ1
+
+k 2 f1
+
+f2 k1
+µ2
+
+k2 φ
+
+k2 f2
+
+Taking Definition 3.8 and Definition 3.10 together, we define the 2-category coMnd(C) consisting
+of all comonads in a 2-category C, their morphisms and morphism transformations.
+18
+
+## PDF page 19
+
+Proposition 3.11. Let η, ε : fl ⊣ fr and η ′ , ε′ : fl′ ⊣ fr′ be adjunctions between A and B in
+a 2-category C. Let (g1 , g2 ) and (g1′ , g2′ ) be left adjunction morphisms from fl ⊣ fr and fl′ ⊣ fg′
+inducing comonad morphisms (g1 , µ1 ) : fl fr ⇒ fl′ fr′ and (g1′ , µ2 ) : fl fr ⇒ fl′ fr′ respectively and let
+α1 : g1 ⇒ g1′ and α2 : g2 ⇒ g2′ be 2-cells in C such that α1 fl = fl′ α2 . Then α1 and α2 induce a
+comonad morphism transformation
+(g1 ,µ1 )
+
+fl′ fr′
+
+fl fr
+(g1′ ,µ2 )
+
+Proof. Let us show that the following square of 2-cells commutes:
+g1 fl fr
+
+α1 fl fr
+
+g1′ fl fr
+
+µ1
+
+fl′ fr′ g1
+
+(2)
+
+µ2
+
+fl′ fr′ α1
+
+fl′ fr′ g1′
+
+By Proposition 3.9, we can unveil µ1 and µ2 as fl′ β : fl′ g2 fr ⇒ fl′ fr′ g1 and fl′ β ′ : fl′ g2′ fr ⇒ fl′ fr′ g1′ .
+So let us rewrite (2) as
+g1 fl fr
+fl′ g2 fr
+
+α1 fl fr
+
+fl′ α2 fr
+
+g1′ fl fr
+(3)
+
+fl′ g2′ fr
+
+fl′ β
+
+fl′ β ′
+
+fl′ fr′ g1
+
+fl′ fr′ α1
+
+fl′ fr′ g1′
+
+Observe that the top square commutes by α1 fl = fl′ α2 . Whereas the bottom one is unveiled as
+follows and it holds by the assumption as well:
+A
+
+fr
+
+B
+δ
+
+1A
+
+g2
+
+fl′
+
+fl
+
+A
+
+B′
+
+g1
+
+A′
+
+α1
+
+A
+
+fr
+
+1B ′
+η′
+fr′
+
+g1′
+
+B′
+
+=
+
+A
+
+fr
+
+B
+δ
+
+A′
+
+fr′
+
+g2
+
+B′
+
+α2
+
+1A
+
+A
+
+B
+
+B′
+
+g2′
+
+fl′
+
+fl
+
+A
+
+B′
+
+g1′
+
+A′
+
+1B ′
+η′
+fr′
+
+B′
+
+So we have a 2-functor from Adjl (C) to coMnd(C) by Proposition 3.9 and Proposition 3.11 But
+there is the other way round 2-functor as well, but for 2-categories admitting the construction of
+coalgebras, so we need a couple of more definitions.
+We assume that the classical notion of a coalgebra over a comonad is already known to the
+reader, but we refer to [BW00, Chapter 3] to have introduction to algebras over a monad, which is
+applicable to comonads and coalgebras by duality.
+
+19
+
+## PDF page 20
+
+Definition 3.12. Let C be a 2-category and let (A, k) be a comonad in C. An object of coalgebras
+(also called a co-Eilenberg-Moore object) is a 0-cell Ak ∈ Ob(C) (if it exists) such that for each 0-cell
+B:
+(4)
+C(B, Ak ) ∼
+= coMnd(C)(1B , k).
+C admits the construction of coalgebras if every comonad has an object of coalgebras.
+Fix a comonad (A, k) in a 2-category C with an object of coalgebras Ak . We have a comonad
+morphism (k, δ) : (A, 1A ) → (A, k), so we obtain the cofree morphism in v : A → Ak , a 1-cell in
+C, by transposing (k, δ) through (4). Whereas the coforgetful morphism u : Ak → A is obtain by
+transposing the identity morphism 1Ak : Ak → Ak . Thus we have an adjunction u ⊣ v : A → Ak in
+C which is called the cofree-coforgetful decomposition.
+Let fl ⊣ fr : C → D be an adjunction in C decomposing a comonad (A, k) as the composite
+fl fr . The comparison morphism g : B → Ak is obtained by transposing the comonad morphism
+(fl , fl η) : (C, 1C ) → (C, k). An adjunction is comonadic is the comparison map is isomorphism.
+Therefore, we have (the complete proof can be adapted from [Str72, Theorem 2]):
+Theorem 3.13. Let C be a 2-category that admits the construction of coalgebras, then coMnd(C)
+fully faithfully embeds to Adjl (C).
+
+3.2
+
+Symmetric Monoidal Categories, Cosemigroups and Comonoids
+
+We also recall underlying definitions and facts related to symmetric monoidal categories. We refer
+to [EGNO15, Chapter 2] for a more systematic introduction to the topic.
+Definition 3.14. A symmetric monoidal category (SMC) is a category C equipped with a bifunctor
+⊗ : C×C → C called tensor product, the unit object 1 along with the following natural isomorphisms
+for each A, B, C ∈ Ob(C):
+• αA,B,C : (A ⊗ B) ⊗ C ∼
+= A ⊗ (B ⊗ C),
+• ρA : 1 ⊗ A ∼
+=A∼
+= A ⊗ 1 : λA ,
+• σA,B : A ⊗ B ∼
+= B ⊗ A.
+Those isomorphisms are connected with each other by the well-known axioms that one can find in
+[ML13, §VII.1, §XI.1].
+Definition 3.15. A symmetric monoidal category is closed 2 if for each A ∈ Ob(C) the functor
+B ↦→ A ⊗ B has a right adjoint B ↦→ [A, B]. In other words, for each A, B ∈ Ob(C) there is
+[A, B] ∈ Ob(C) (the internal Hom of A and B) along with an arrow evA,B : [A, B] ⊗ A → B such
+that for each f : C ⊗ A → B there exists a unique fˆ : C → [A, B] such that the following triangle
+commutes:
+evA,B
+/6 B
+[A, B] ⊗ A
+O
+fˆ⊗1A
+
+f
+
+C ⊗A
+Comonoid objects are rather common in category theory, see [AM10, §1.2]. A cosemigroup has
+only comultiplication (that we call uniform copying as in [HV19, §4.2]) without counits. Cosemigroups are less studied, but they are of some interest in the study of Banach algebras, see [Poi22].
+2 The abbrevation SMCC stands for a “symmetric closed monoidal category”.
+
+20
+
+## PDF page 21
+
+Definition 3.16. Let (C, ⊗, 1) be a monoidal category, then
+• A cosemigroup object in C is an object A ∈ Ob(C) with a choice of a morphism γA : A → A ⊗ A
+called uniform copying such that the coassociativity axiom is satisfied:
+γA
+
+A
+
+A⊗A
+
+γA
+
+1A ⊗γA
+
+A⊗A
+
+αA,A,A ◦(γA ⊗1A )
+
+A ⊗ (A ⊗ A)
+
+• A morphism of cosemigroups f : (A, γA ) → (B, γB ) is an arrow f : A → B in C making the
+below square commute:
+f
+
+A
+
+B
+
+γA
+
+γB
+
+A⊗A
+
+B⊗B
+
+f ⊗f
+
+The coassociativity axiom means that uniform cloning respects the associator canonically.
+Definition 3.17. Let (C, ⊗, 1) be an SMC, then a cosemigroup (A, γA ) is cocommutative if the
+extra axiom is satisfied:
+A
+γA
+
+γA
+
+A⊗A
+
+A⊗A
+
+σA,A
+
+coSem(C) is the category of cocommutative cosemigroups in C and their morphisms.
+Similarly, the cocommutativity axiom is a requirement making uniform cloning commute with
+the structure of a symmetric monoidal category.
+Definition 3.18. A comonoid is a cosemigroup object (A, γ) along with a choice of a morphism
+ιA : A → 1 (counit) commuting with formal diagonals the following way:
+A
+
+ρ−1
+A
+
+λ−1
+A
+
+γA
+
+1 ⊗ A ι ⊗1 A ⊗ A 1 ⊗ι A ⊗ 1
+A
+
+A
+
+A
+
+A
+
+A comonoid morphism is a cosemigroup morphism f : (A, γA ) → (B, γB ) preserving the counit:
+f
+
+A
+ιA
+
+B
+ιB
+
+1
+A comonoid is cocommutative if its uniform cloning is commutative. coMon(C) denotes the
+category of cocommutative comultiplication comonoids and their morphisms.
+The following statement is rather well-known:
+
+21
+
+## PDF page 22
+
+Theorem 3.19. Let (C, ⊗, 1) be a symmetric monoidal category, then the categories of cocommutative cosemigroups and comonoids coSem(C) and coMon(C) are symmetric monoidal with the
+following structure:
+• The tensor product of cosemigroups (A, γA ) and (B, γB ) is the cosemigroup (A ⊗ B, γA⊗B )
+where γA⊗B : A ⊗ B → (A ⊗ B) ⊗ (A ⊗ B) is given by the composite:
+γA⊗B
+
+A⊗B
+
+(A ⊗ B) ⊗ (A ⊗ B)
+α−1
+A,B,A⊗B
+
+γA ⊗γB
+
+(A ⊗ A) ⊗ (B ⊗ B)
+
+A ⊗ (B ⊗ (A ⊗ B))
+
+αA,A,B⊗B
+
+1A ⊗αB,A,B
+
+A ⊗ (A ⊗ (B ⊗ B))
+
+A ⊗ ((B ⊗ A) ⊗ B)
+
+1A ⊗α−1
+A,B,B
+
+1A ⊗(σA,B ⊗1B )
+
+A ⊗ ((A ⊗ B) ⊗ B)
+In coMon(C), the tensor product of comonoids (A, γA , ιA ) and (B, γB , ιB ) is the comonoid
+(A ⊗ B, γA⊗B , ιA⊗B ) where the counit ιA⊗B is given by
+A⊗B
+
+ιA ⊗ιB
+
+1⊗1
+
+λ=ρ
+
+1.
+
+• The monoidal unit in coSem(C) is the cosemigroup (1, γ1 ) where γ1 is just ρ−1 . In the
+category of comonoids, the cosemigroup (1, γ1 ) is equipped with the identity map 11 : 1 → 1
+as the counit morphism.
+Moreover, the forgetful functors coSem(C) → C and coMon(C) → C are strict monoidal and
+symmetric.
+The notions of a monoid and a semigroup are obtained by the dualisation of the above definitions,
+see [Por08] to have a more thorough introduction to categorical (co)monoids.
+Definition 3.20. Let C, D be symmetric monoidal categories, then a symmetric lax monoidal
+functor is a functor F : C → D equipped with
+• A morphism m1 : 1 → F1,
+• A natural transformation m with the components mA,B : FA ⊗ FB → F(A ⊗ B) for A, B ∈
+Ob(C).
+All those natural transformations should satisfy the commutative diagrams from, e.g., [AM10, Chapter 3]. A tuple (F, m) : C → D stands for a F is a symmetric lax monoidal functor from C to D
+with the natural transformation m. F is strong if its components are natural isomorphisms and is
+strict if the components are identity morphisms. F is strong if the components mA,B and m1 are
+isomorphisms for each A, B ∈ Ob(C). F is strict if all those components are identities.
+Dually, a functor F : C → D is symmetric oplax monoidal if it is equipped with
+• A morphism n1 : F1 → 1,
+• A natural transformation m with the components nA,B : F(A ⊗ B) → FA ⊗ FB. for A, B ∈
+Ob(C).
+22
+
+## PDF page 23
+
+such that they satisfy the conditions dual to Definition 3.20.
+Definition 3.21. Let (F, m), (G, n) : C → D be symmetric lax monoidal functors, then a natural
+transformation η : (F, m) ⇒ (G, n) is monoidal if the following diagrams commute for each A, B ∈
+Ob(C):
+FA ⊗ FB
+
+mA,B
+
+F(A ⊗ B)
+
+ηA ⊗ηB
+
+ηA⊗B
+
+GA ⊗ GB
+
+nA,B
+
+m1
+
+1
+
+F1
+η1
+
+m1
+
+G(A ⊗ B)
+
+G1
+
+SymmMonCat is a 2-category of symmetric monoidal categories, symmetric lax monoidal natural transformations and symmetric lax monoidal natural transformations. SymmMonCatstrict is
+a 2-subcategory SymmMonCat where 1-cells are strict symmetric monoidal functors.
+A symmetric monoidal adjunction can be defined as an adjunction in the 2-category SymmMonCat
+(see the definition of SymmMonCat), but there is an explicit characterisation of symmetric
+monoidal adjunctions, see [Kel06]:
+Proposition 3.22. Let (C, ⊗, 1) and (D, ⊗, 1) be SMCs and let
+(Fl , n) : (C, ⊗, 1) → (D, ⊗, 1)
+be a symmetric lax monoidal functor. Assume that Fl is a left adjoint to Fr : D → C. Then the
+adjunction Fl ⊣ Fr lifts to a monoidal adjunction (Fl , n) ⊣ (Fr , o) iff Fl is strong. In this case, the
+components oA,B : Fr A ⊗ Fr B → Fr (A ⊗ B) and o1 : 1 → Fr 1 are given by:
+oA,B
+
+Fr A ⊗ Fr B
+
+Fr (A ⊗ B)
+
+ηFr A⊗Fr B
+
+Fr (εA ⊗εB )
+
+Fr Fl (Fr A ⊗ Fr B)
+1
+
+Fr (n−1
+Fr A,Fr B )
+
+Fr Fl 1
+
+η1
+
+Fr (Fl Fr A ⊗ Fl Fr B)
+
+n−1
+1
+
+Fr 1
+
+In particular, in any symmetric monoidal adjunction (Fl , m) ⊣ (Fr , n), a left adjoint Fl is strong.
+Definition 3.23. Let (C, ⊗, 1) be a symmetric monoidal category and let (K, ε, δ) be a comonad
+on C, then the structure of a symmetric lax monoidal comonad on K is given by the structure
+of a symmetric lax monoidal functor (K, m) such that the following diagrams commute for each
+A, B ∈ Ob(C):
+1
+
+m1
+
+m1
+
+K1
+
+K1
+δ1
+
+K(m1 )
+
+K2 1
+
+mA,B
+
+KA ⊗ KB
+
+K(A ⊗ B)
+
+δA ⊗δB
+
+δA⊗B
+
+K2 A ⊗ K2 B mKA,KB K(KA ⊗ KB)
+
+KA ⊗ KB
+
+mA,B
+
+εA ⊗εB
+
+K(A ⊗ B)
+εA⊗B
+
+A⊗B
+23
+
+K(mA,B )
+
+K2 (A ⊗ B)
+
+## PDF page 24
+
+A symmetric lax monoidal comonad morphism of symmetric lax monoidal comonads is a comonad
+morphism in Cmd(SymmMonCat). Explicitly, the structure of a symmetric lax monoidal comonad
+morphism given by a comonad morphism with the structure of a symmetric lax monoidal natural
+transformation.
+Let C be a symmetric monoidal category and let (K, m) : C → C be a lax symmetric monoidal
+functor with the structure of a symmetric lax monoidal comonad. There is a co-free co-forgetful
+adjunction between the underlying category C and the Eilenberg-Moore category C K , which lifts
+to a symmetric monoidal adjunction if we equip the Eilenberg-Moore category with a symmetric
+monoidal structure. Let (A, hA ) and (B, hB ) be K-coalgebras from C K . The tensor product of (A, hA )
+and (B, hB ) is defined as a coalgebra (A ⊗ B, hA⊗B ) where the coalgebra action hA⊗B is given by
+the composite:
+A⊗B
+
+hA ⊗hB
+
+KA ⊗ KB
+
+mA,B
+
+K(A ⊗ B)
+
+And the unit coalgebra is defined as (1, m1 ). Therefore, we have the following (see [Lac05] for more
+details and further generalisations):
+Lemma 3.24. Let C be a symmetric monoidal category and let K : C → C be a lax symmetric
+monoidal comonad, then the Eilenberg-Moore category is symmetric monoidal.
+
+4
+
+Assemblages and Semantic Interpretation of SILL(λ)Σ
+
+In this section, we construct the categorical denotational semantics for the type theory we introduced in the previous section. We introduce Cocteau categories and assemblages to have an
+adequate semantic interpretation of SILL(λ)3 and SILL(λ)Σ respectively.
+In categorical semantics of linear logic as it is studied in, for example, [AT11] and [Mel09], one
+can consider so-called linear categories, symmetric monoidal categories equipped with a symmetric
+lax monoidal comonad that, informally speaking, assign a cocommutative comonoid with each object
+of an underlying category. The heuristics is that we can associate the data type ! A with each A
+such that elements of ! A can be both copied and destroyed. Such comonads allows interpreting the
+exponential modality semantically. We below suggest the notion of a Cocteau category by expanding
+linear categories with two extra comonads for modelling those data types that can be destroyed and
+those that can be copied.
+
+4.1
+
+Cocteau Categories and Assemblages
+
+Definition 4.1. Let C be a symmetric monoidal category, then:
+• An exponential comonad is a symmetric monoidal comonad (K, ε, δ) on C with a pair of symmetric monoidal natural transformations c : K ⇒ K(.) ⊗ K(.) and d : K ⇒ ( ↦→ 1) such that
+the following is satisfied:
+– (KA, cA , dA ) is a cocommutative comonoid for each A ∈ Ob(C),
+– δA is a comonoid morphism, i.e., the following axioms are satisfied:
+KA
+
+δA
+
+K2 A
+
+KA
+
+δA
+
+cKA
+
+cA
+
+dA
+
+KA ⊗ KA
+
+2
+
+δA ⊗δA
+
+2
+
+K A⊗K A
+24
+
+K2 A
+dKA
+
+1
+
+## PDF page 25
+
+– cA and dA are coalgebra morphisms, i.e., the following axioms are satisfied:
+δA
+
+KA
+
+K2 A
+
+cA
+
+KA
+
+KcA
+2
+
+1
+
+A
+
+K2 A
+K(dA )
+
+dA
+
+2
+
+KA ⊗ KA δ ⊗δ K A ⊗ K A mKA,KA K(KA ⊗ KA)
+A
+
+δA
+
+m1
+
+K1
+
+• A relevant comonad is a symmetric monoidal comonad K with a symmetric monoidal natural
+transformation c : K ⇒ K(.) ⊗ K(.) such that a pair (KA, cA ) is a cocommutative cosemigroup,
+δA is a cosemigroup morphism and cA is a coalgebra morphism.
+• ((K, m), ε, δ, d) is a affine comonad if it has a natural transformation with the components
+dA : KA → 1 such that the following square commutes:
+KA
+
+δA
+
+K2 A
+K(dA )
+
+dA
+
+1
+
+m1
+
+KA
+
+Definition 4.2. Let C be a SMCC category and let (!i , mi ), (!a , ma ), (!r , mr ) be lax symmetric
+monoidal endofunctors, then a Cocteau category 3 is given by the following data:
+• ((!i , mi ), ci , di ) is an exponential comonad,
+• ((!a , ma ), da ) is an affine comonad,
+• ((!r , mr ), cr ) is a relevant comonad,
+• µir : !i ⇒ !r and µia : !i ⇒ !a are symmetric lax monoidal comonad morphisms such that the
+following diagrams commute for each A ∈ Ob(C):
+!i A
+
+ciA
+
+µir
+
+!r A
+
+!i A ⊗ !i A
+
+!i A
+
+µia
+
+µir ⊗µir
+crA
+
+!r A ⊗ !r A
+
+di A
+
+!a A
+da A
+
+1
+
+Convention 4.3. In order to distinguish similar components of different comonads in a Cocteau
+category, we will sometimes label them with an upper index as follows: for example, εa will stand
+for counit in an affine comonad, whereas cr will mean the copying operation in a relevant comonad.
+Example 4.4. One can extract a rather natural example of a Cocteau category from quantales,
+see [EGHK18] for a more general context.⋁
+⋁
+A quantale is a structure Q = (Q, ·, 1, ) where (Q, ) is a complete sup-semilattice and (Q, ·, 1)
+is a monoid such that the multiplication operation preserves suprema in each coordinate. Any
+commutative quantale Q is an SMCC with the internal Hom given by
+⋁
+[a, b] = {c ∈ Q | c · a ≤ b}.
+3 Cocteau categories are named after a French poet and director Jean Cocteau and his Orphic trilogy consisting of
+the films The Blood of a Poet, Orpheus and Testament of Orpheus.
+
+25
+
+## PDF page 26
+
+A quantic conucleus on a quantale Q is a coclosure operator g : Q → Q such that g(a) · g(b) ≤
+g(a · b) and g(1) = 1 for each a, b ∈ Q. This is a known fact that there is a bijection between
+subquantales of a quantale and quantic conuclei: if g : Q → Q is a quantic conucleus, then the
+set Qg = {a ∈ Q | g(a) = a} forms a subquantale of Q, see, for example, [Ros90, Theorem 3.1.3].
+Moreover, if Q′ ⊴ Q is a subquantale, then there exists a quantic conucleus g such that Q′ = Qg .
+Further, one can observe the subsets Qi = {a ∈ Q | a ≤ 1 & a ≤ a · a}, Qa = {a ∈ Q | a ≤ 1} and
+Qr = {a ∈ Q | a ≤ a · a} are subquantales of Q. so there are quantic conuclei gi , ga and gr such that
+Qi = Qgi , Qa = Qga and Qr = Qgr . For each a ∈ Q one also has gi (a) ≤ 1 and gi (a) ≤ gi (a) · gi (a),
+gr (a) ≤ gr (a) · gr (a), ga (a) ≤ 1. Besides, gi (a) ≤ gr (a) and gi (a) ≤ ga (a) for each a ∈ Q. Thus, a
+commutative quantale Q along with quantic conuclei gi , ga and gr forms a Cocteau category.
+One can also extract an example of a Cocteau category of coherence spaces as they are described
+in [Mel09, Section 8.10].
+The notion of a Σ-assemblage is a direct generalisation of Cocteau categories for an arbitrary
+subexponential signature Σ.
+Definition 4.5. Let Σ = (I, ⪯, W, C) be a subexponential signature, a Σ-assemblage 4 is an SMCC
+C (denoted as (C, Σ)) equipped with a family of comonads {!s : C → C | s ∈ I} such that:
+• The mapping s ↦→ !s is a contravariant functor from (I, ⪯) to the (1-)category of comonads
+over C, so if s1 ⪯ s2 , then there is a comonad morphism µ(s1 , s2 ) : !s2 ⇒ !s1 ,
+• If s ∈ W (s ∈ C), then !s is an affine (relevant) comonad,
+• If s ∈ W ∩ C, then !s is an exponential comonad,
+• If s1 ∈ C and s1 ⪯ s2 , then for each A ∈ C, µ(s1 , s2 )A : !s2 A → !s1 A induces a cocommutative
+cosemigroup morphism.
+• If both s1 , s2 ∈ W ∩ C and s1 ⪯ s2 , then µ(s1 , s2 )A : (!s2 A, cs2 A , ds2 A ) → (!s1 A, cs1 A , ds1 A )
+induces a cocommutative comonoid morphism for each A ∈ C.
+• If s1 ∈ W and s1 ⪯ s2 , then the following triangle commutes for each A ∈ C:
+!s2 A
+
+µ(s1 ,s2 )A
+
+d s2 A
+
+4.2
+
+1
+
+!s1 A
+ds 1 A
+
+On Soundness and Completeness
+
+Now we formulate the theorem of semantic adequacy of SILL(λ)Σ with respect to Σ-assemblages
+for a subexponential signature Σ.
+Definition 4.6. Let (C, Σ) be a Σ-assemblage over an SMCC C and let I be a function mapping
+each atomic to some object of C. The Cocteau interpretation function [[.]] assigns an object of C to
+a type as follows.
+• [[pi ]] = I(pi ),
+• [[1]] = 1,
+4 The term is inspired by the notion of an assemblage from the philosophy of Gilles Deleuze and Felix Guattari.
+
+26
+
+## PDF page 27
+
+• [[A ⊗ B]] = [[A]] ⊗ [[B]],
+• [[A ⊸ B]] = [[[A]], [[B]]],
+• [[!s A]] = !s [[A]],
+Construction 4.7. Given a Σ-assemblage (C, Σ), the interpretation of SILL(λ)Σ -promotion rule
+is given as follows for s ⪯ s1 , . . . , sn :
+M
+
+M
+
+N
+
+1
+n
+Γ1 −−→
+!s1 A1 , . . . , Γn −−→
+!sn An
+
+!s1 A1 ⊗ . . . ⊗ !sn An −→ ψ
+
+s
+!s (N )◦ms!s A ,...,!s An ◦⊗k µ(s,sk )!s Ak ◦⊗k δAk ◦⊗k Mk
+1
+k
+k
+
+⊗k Γk −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−→ ! A
+Let us visualise the above derivation with a diagram for n = 2:
+Γ1 ⊗ Γ2
+
+!s A
+
+M1 ⊗M2
+
+!s N
+
+!s1 A1 ⊗ !s2 A2
+s
+
+!s (!s1 A1 ⊗ !s2 A2 )
+
+s
+
+δA1 ⊗δA2
+1
+
+m!s
+
+2
+
+!2s1 A1 ⊗ !2s2 A2
+
+µ(s,s1 )!s
+
+1 A1
+
+⊗µ(s,s2 )!s
+
+1 A1 ,!s2 A2
+
+!s !s1 A1 ⊗ !s !s2 A2
+2 A2
+
+The interpretation of the rest of the inference rules are given in Figure 4.7. The only difference
+with the syntactic presentation is that we given the explicit interpretation of the exchange rule.
+Figure 7: SILL(λ)Σ in Σ-assemblages
+M
+
+Γ ⊗ A ⊗ B −→ C
+
+Exch
+
+M ◦1Γ ⊗σA,B
+
+Γ ⊗ B ⊗ A −−−−−−−−→ C
+M
+
+1
+
+1
+1 −→
+1
+
+1I
+
+1
+
+N
+
+Γ −→ 1
+
+ax
+
+∆ −→ A
+λ ◦M ⊗N
+
+A
+Γ ⊗ ∆ −−
+−−−−→ A
+
+A
+A −−→
+A
+
+1E
+
+M
+
+Γ ⊗ A −→ B
+
+M
+
+Γ −→ [A, B]
+
+M̂
+
+Γ −→ [A, B]
+M
+
+Γ −→ A
+
+evA,B ◦M ⊗N
+
+Γ ⊗ ∆ −−−−−−−−−→ B
+
+N
+
+∆ −→ B
+
+M
+
+Γ ⊗ ∆ −−−−→ A ⊗ B
+M
+
+(N ◦ρ∆ )◦((ds ◦M )⊗1∆ )
+
+A
+Γ ⊗ ∆ −−−−−−−−−
+−−−−−−→ B
+
+∆ ⊗ A ⊗ B −→ C
+
+N ◦α∆,A,B ◦1∆ ⊗M
+
+∆ ⊗ Γ −−−−−−−−−−−−→ C
+
+N
+
+∆ −→ B
+
+N
+
+Γ −→ A ⊗ B
+
+M ⊗N
+
+Γ −→ !s A
+
+N
+
+∆ −→ A
+
+M
+
+M
+
+s∈W
+
+Γ −→ !s A
+δ ◦M
+
+A
+Γ −−
+−−→ A
+
+27
+
+s∈Σ
+
+Γ −→ !s A
+
+N
+
+∆ ⊗ !s A ⊗ !s A −→ B
+N ◦(1∆ ⊗(cs ◦M ))
+
+A
+∆ ⊗ Γ −−−−−−−−
+−−−→ B
+
+s∈C
+
+## PDF page 28
+
+Theorem 4.8. Every Σ-assemblage is a model of SILL(λ)Σ and its SILL(λ)Σ -equalities in context.
+Moreover, there exists a Σ-assemblage CΣ with the following property: if Γ ⊢ M : A and Γ ⊢ N : A
+such that [[M ]] = [[N ]], then the equality in context Γ ⊢ M ≡ N : A is probable in the typed
+equational logic generated the proof conversion rules from Figures 2, 3, 4, 5 and 6.
+The only difference with the proof-theoretic presentation is that we give the exchange rule explicitly.
+Proof. First of all, we observe that any Cocteau interpretation respects substitutions. That is, let
+Γ ⊢ M : A and ∆1 , x : A, ∆2 ⊢ N : B, then
+[[∆, Γ ⊢ N [x := M ] : B]] = [[N ]] ◦ 1[[∆1 ]] ⊗ [[M ]] ⊗ 1[[∆2 ]] .
+The proof is rather standard and analogous to the proof [AT11, Proposition 99].
+Induction on the generation of Γ ⊢ M ≡ N : A. Let us consider one of the cases involving
+comonad morphisms. Consider the (Cconv1 )-rule. Let s ∈ C and s ⪯ s1 , s2 . Assume we have the
+following contraction for:
+x1 : !s1 A1 ⊢ x1 : !s1 A1
+y : !s1 A1 , z : !s1 A1 , x2 : !s2 A2 ⊢ N : A
+x1 : !s1 A1 , x2 : !s2 A2 ⊢ lets1 y, z = x1 in N : A
+The interpretation is given below:
+s
+
+cA1 ⊗1!s
+
+2 A2
+
+N
+
+1
+!s1 A1 ⊗ !s2 A2 −−−
+−−−−−→ !s1 A1 ⊗ !s1 A1 ⊗ !s2 A2 −→ A
+
+And then we apply the promotion rule for Γ1 ⊢ M1 : !s1 A1 and Γ2 ⊢ M2 : !s2 A2 being derivable
+somehow:
+Γ1 ⊢ M1 : !s1 A1 , Γ2 ⊢ M2 : !s2 A2
+x1 : !s1 A1 , x2 : !s2 A2 ⊢ lets1 y, z = x1 in N : A
+Γ1 , Γ2 ⊢ !s (lets1 y, z = x1 in N ) with x1 , x2 = M1 , M2 : !s A
+Here is the interpretation of the above derivation:
+Γ1 ⊗ Γ2
+
+!s A
+s
+
+!s N ◦!s (cA1 ⊗1!s
+
+M1 ⊗M2
+
+1
+
+!s1 A1 ⊗ !s2 A2
+
+A2 )
+
+!s (!s1 A1 ⊗ !s2 A2 )
+
+s
+s
+δA1 ⊗δA2
+1
+2
+
+!2s1 A1 ⊗ !2s2 A2
+
+2
+
+ms!s
+µ(s,s1 )!s
+
+1
+
+A1 ⊗µ(s,s2 )!s A2
+2
+
+1
+
+A1 ,!s A2
+2
+
+!s !s1 A1 ⊗ !s !s2 A2
+
+On the other hand, we could make the following promotion first:
+y ′ : !s1 A1 ⊢ y ′ : !s1 A1 , z ′ : !s1 A1 ⊢ z ′ : !s1 A1 , Γ2 ⊢ M2 : !s2 A2
+y : !s1 A1 , z : !s1 A1 , x2 : !s2 A2 ⊢ N : A
+y ′ : !s1 A1 , z ′ : !s1 A1 , Γ2 ⊢ !s N with y, z, x2 = y ′ , z ′ , M2 : !s A
+And then we apply the contraction rule
+Γ1 ⊢ M1 : !s1 A1
+y ′ : !s1 A1 , z ′ : !s1 A1 , Γ2 ⊢ !s N with y, z, x2 = y ′ , z ′ , M2 : !s A
+Γ1 , Γ2 ⊢ lets1 y ′ , z ′ = M1 in (!s N with y, z, x2 = y ′ , z ′ , M2 ) : !s A
+
+28
+
+## PDF page 29
+
+and obtain the following interpretation:
+Γ1 ⊗ Γ2
+
+!s A
+
+M1 ⊗1Γ2
+
+!s1 A1 ⊗ Γ2
+
+!s N
+
+cs1 ⊗1Γ2
+
+!s1 A1 ⊗ !s1 A1 ⊗ Γ2
+1!s
+
+1
+
+!s (!s1 A1 ⊗ !s1 A1 ⊗ !s2 A2 )
+
+A1 ⊗!s1 A1 ⊗M2
+
+!s1 A1 ⊗ !s1 A1 ⊗ !s2 A2
+
+ms!s
+
+1 A1 ,!s1 A1 ,!s2 A2
+
+s
+s
+s
+δA1 ⊗δA1 ⊗δA2
+1
+1
+2
+
+!2s1 A1 ⊗ !2s1 A1 ⊗ !2s2 A2
+
+µ(s,s1 )!s
+
+1
+
+A1 ⊗µ(s,s1 )!s A1 ⊗µ(s,s2 )!s A2
+1
+2
+
+!s !s1 A1 ⊗ !s !s1 A1 ⊗ !s !s2 A2
+
+Then one has:
+s1
+s2
+⊗ δA
+◦ M1 ⊗ M2 =
+!s N ◦ !s (csA11 ⊗ 1!s2 A2 ) ◦ ms!s A1 ,!s A2 ◦ µ(s, s1 )!s A1 ⊗ µ(s, s2 )!s A2 ◦ δA
+1
+2
+1
+2
+2
+1
+The definition of a lax monoidal functor
+s1
+s2
+!s N ◦ ms!s A1 ⊗!s A1 ,!s A2 ◦ !s (csA11 ) ⊗ !s (1!s2 A2 ) ◦ µ(s, s1 )!s A1 ⊗ µ(s, s2 )!s A2 ◦ δA
+⊗ δA
+◦ M1 ⊗ M2
+1
+2
+1
+
+1
+
+2
+
+1
+
+2
+
+Now we fix the composition !s N ◦ ms!s A1 ⊗!s A1 ,!s A2 and proceed with the rest of the big composite
+1
+1
+2
+without M1 ⊗ M2 .
+s1
+s2
+⊗ δA
+=
+!s (csA11 ) ⊗ !s (1!s2 A2 ) ◦ µ(s, s1 )!s A1 ⊗ µ(s, s2 )!s A2 ◦ δA
+1
+2
+2
+1
+The functoriality of ⊗
+s1
+s2
+⊗ δA
+=
+((!s (csA11 ) ◦ µ(s, s1 )!s A1 ) ⊗ µ(s, s2 )!s A2 ) ◦ δA
+1
+2
+2
+1
+The naturality of µ
+s1
+s2
+⊗ δA
+=
+((µ(s, s1 )!s A1 ⊗!s A1 ◦ !s1 (csA11 )) ⊗ µ(s, s2 )!s A2 ) ◦ δA
+1
+2
+2
+1
+1
+The functoriality of ⊗
+s2
+s1
+)=
+) ⊗ (µ(s, s2 )!s A2 ◦ δA
+(µ(s, s1 )!s A1 ⊗!s A1 ◦ !s1 (csA11 ) ◦ δA
+2
+1
+2
+1
+1
+The definition of a relevant comonad
+s2
+s1
+s1
+)=
+⊗ δA
+◦ csA11 ) ⊗ (µ(s, s2 )!s A2 ◦ δA
+(µ(s, s1 )!s A1 ⊗!s A1 ◦ ms!s1 A1 ,!s A1 ◦ δA
+2
+1
+1
+2
+1
+1
+1
+1
+µ is a lax monoidal natural transformation
+s1
+s1
+s2
+)=
+(ms!s A1 ,!s A1 ◦ µ(s, s1 )!s A1 ⊗ µ(s, s1 )!s A1 ◦ δA
+⊗ δA
+◦ csA11 ) ⊗ (µ(s, s2 )!s A2 ◦ δA
+2
+1
+1
+1
+1
+2
+1
+1
+Identity
+s1
+s1
+s2
+◦ 1!s2 A2 ) =
+⊗ δA
+◦ csA11 ) ⊗ (µ(s, s2 )!s A2 ◦ δA
+(ms!s A1 ,!s A1 ◦ µ(s, s1 )!s A1 ⊗ µ(s, s1 )!s A1 ◦ δA
+2
+1
+1
+1
+1
+2
+1
+1
+The functoriality of ⊗
+s1
+s1
+s2
+(ms!s A1 ,!s A1 ◦ µ(s, s1 )!s A1 ⊗ µ(s, s1 )!s A1 ) ⊗ µ(s, s2 )!s A2 ◦ δA
+⊗ δA
+⊗ δA
+◦ csA11 ⊗ 1!s2 A2
+1
+1
+2
+1
+
+1
+
+1
+
+1
+
+2
+
+Next, we observe that the following holds
+ms!s A1 ⊗!s A1 ,!s A2 ◦ (ms!s A1 ,!s A1 ◦ µ(s, s1 )!s A1 ⊗ µ(s, s1 )!s A1 ) ⊗ µ(s, s2 )!s A2 =
+1
+1
+2
+1
+1
+1
+1
+2
+The functoriality of ⊗
+ms!s A1 ⊗!s A1 ,!s A2 ◦ ms!s A1 ,!s A1 ⊗ 1!s2 !s2 A2 ◦ µ(s, s1 )!s A1 ⊗ µ(s, s1 )!s A1 ⊗ µ(s, s2 )!s A2 =
+1
+1
+2
+1
+1
+1
+1
+2
+The definition of a lax monoidal functor
+ms!s A1 ,!s A1 ,!s A2 ◦ µ(s, s1 )!s A1 ⊗ µ(s, s1 )!s A1 ⊗ µ(s, s2 )!s A2
+1
+
+1
+
+2
+
+1
+
+1
+
+2
+
+29
+
+## PDF page 30
+
+Let us take csA11 ⊗ 1!s2 A2 and precompose it with M1 ⊗ M2 . And then we observe that:
+csA11 ⊗ 1!s2 A2 ◦ M1 ⊗ M2 = (csA11 ◦ M1 ) ⊗ M2 =
+(1!s1 A1 ⊗ 1!s1 A1 ◦ csA11 ◦ M1 ) ⊗ (M2 ◦ 1Γ2 ) = (1!s1 A1 ⊗ 1!s1 A1 ⊗ M2 ) ◦ (csA11 ◦ M1 ⊗ 1Γ2 )
+The completeness part is proved by construction the free Σ-assemblage from the typing rules and
+proof conversions from SILL(λ)Σ similarly to [AT11, §1.1.6].
+
+5
+
+Characterising Relevant Categories
+
+This is an auxillary section where we discuss some properties of relevant categories, that is,
+symmetric monoidal categories where every object can be copied. The name “relevant category”
+comes from that such categories are models for substructural logics admitting the contaction rule,
+that is, relevant logics. We will not be going into the categorical analysis of relevant logic and related
+substructural logics, but we refer the reader to [Pet02] and [Jac94].
+Definition 5.1. A symmetric monoidal category C admits duplication (or copying) if there is a
+symmetric monoidal natural transformation copy : 1C ⇒ 1C ⊗ 1C such that the following is satisfied:
+A
+
+copyA
+
+copyA
+
+A⊗A
+
+A⊗A
+
+A⊗A
+
+1A ⊗copyA
+αA,A,A ◦copyA ⊗1A
+
+σA,A
+
+copyA
+
+A ⊗ (A ⊗ A)
+
+A⊗A
+copyA
+
+A
+
+We also call such categories relevant categories.
+The following fact about relevant categories is a useful tautology:
+Proposition 5.2. An SMC (C, ⊗, 1) is relevant iff there is a symmetric monoidal natural transformation with the components γA : A → A ⊗ A such that there is a cocommutative cosemigroup
+(A, γA ) for each A ∈ Ob(C).
+One can think of the above fact as the counterpart of Fox’s theorem [Fox76] for cocommutative
+cosemigroups. Moreover, there is a more non-trivial equivalent characterisation of relevant categories that one can think a version of the Eckmann-Hilton argument [EH62] for cocommutative
+cosemigroups.
+Lemma 5.3. Let (C, ⊗, 1) be a symmetric monoidal category.
+1. The category coSem(C) of cocommutative cosemigroups is relevant.
+2. The endofunctor coSem : SymmMonCatstr → SymmMonCatstr forms a comonad over
+SymmMonCatstr , a category of symmetric monoidal categories and strict symmetric monoidal
+functors.
+3. C is relevant iff the forgetful functor UC : coSem(C) → C has a strict symmetric monoidal
+section VC : C → coSem(C).
+Proof.
+
+30
+
+## PDF page 31
+
+copy(A,γ
+
+)
+
+A
+1. We define the duplication operation (A, γA ) −−−−−−−
+→ (A ⊗ A, γA⊗A ) by γA : A → A ⊗ A.
+Then γA⊗A = γA ⊗ γA , which is proved similarly to [Mel09, Corollary 17] for cocommutative
+comonoids. Further, let us show that copy(A,γA ) : (A, γA ) → (A ⊗ A, γA⊗A ) is natural in
+(A, γA ). Indeed, if f : (A, γA ) → (B, γB ) is a cocommutative cosemigroup morphism, then the
+below diagram in coSem(C) :
+
+f
+
+(A, γA )
+copy(A,γ
+
+(B, γB )
+copy(B,γ
+
+A)
+
+B)
+
+(A ⊗ A, γA⊗A )
+
+f ⊗f
+
+(B ⊗ B, γB⊗B )
+
+translates to the following diagram in C:
+f
+
+A
+
+B
+
+γA
+
+γB
+
+A⊗A
+
+B⊗B
+
+f ⊗f
+
+γA ⊗γA
+
+γB ⊗γB
+
+(A ⊗ A) ⊗ (A ⊗ A)
+
+(f ⊗f )⊗(f ⊗f )
+
+(B ⊗ B) ⊗ (B ⊗ B)
+
+The top diagram commutes by the definition of a cosemigroup morphism, the bottom diagram
+also commutes by the definition of a cosemigroup morphism combined with the functoriality
+of tensor product. The axioms of a relevant category follow directly from the definition of a
+cocommutative cosemigroup.
+2. The forgetful functor UC is obviously strict and symmetric, so let us check that coSem is a
+comonad. The components of the counit ε : coSem ⇒ 1 are given by the forgetful functors
+UC : coSem(C) → C for each symmetric monoidal category C. The naturality of ε is immediate.
+We specify the components of uniform cloning δC : coSem(C) → coSem(coSem(C)) for an
+SMC C as follows. Let (A, γA ) ∈ coSem(C) be a cocommutative cosemigroup in C, then we put
+δC : (A, γA ) ↦→ ((A, γA ), γ(A,γA ) ), where γ(A,γA ) : (A, γA ) → (A, γA ) ⊗ (A, γA ) = (A ⊗ A, γA⊗A )
+where the right-hand side is a cocommutative cosemigroup from the previous part of this
+lemma. Note that (A, γA ) should be necessarily cocommutative so we can conclude that
+(A, γA ) ⊗ (A, γA ) exists by Theorem 3.19. δC is defined on morphisms similarly. The rest is
+check naturality for δ, that is, the following square commutes for SMC’s C and D and a strict
+symmetric monoidal functor F : C → D:
+coSem(C)
+
+coSem(F)
+
+δC
+
+coSem(D)
+δD
+
+2
+
+coSem (C)
+
+coSem2 (F)
+
+which is routine.
+
+31
+
+coSem2 (D)
+
+## PDF page 32
+
+Let us check the axioms of comonad. That is, the claim is that the following squares commute:
+δC
+
+coSem(C)
+
+coSem2 (C)
+δcoSemC
+
+δC
+
+coSem2 (C)
+
+coSem(δC )
+
+δC
+
+coSem(C)
+
+1coSem(C)
+
+δC
+
+coSem3 (C)
+
+coSem2 (C)
+
+coSem2 (C)
+
+coSem(εC )
+
+εcoSem(C)
+
+coSem(C)
+
+Indeed, let A = (A, γA ) and A = (B, γB ) be cocommutative cosemigroups in C, then let us show
+that left-hand side square for cocommutative cosemigroups. The conditions for morphisms are
+checked similarly.
+On the one hand, we have:
+δcoSemC (δC (A, γA )) = δcoSemC (A, copyA ) = ((A, copyA ), copy(A,copyA ) ) = (coSem(δC ))(A, copyA )
+The right-hand side square in a similarly:
+εcoSem(C) (δC (A, γA )) = εcoSem(C) (A, copyA ) = (A, γA ) = coSem(εC )(A, copyA ).
+3. Let C be relevant, then there is a natural transformation copy : 1C ⇒ 1C ⊗ 1C such that its
+component each A ∈ Ob(C) is endowed with the structure of a cocommutative cosemigroup
+with the uniform cloning operation given by the corresponding component. copyA : A → A⊗A.
+Put VC : A ↦→ (A, copyA ). Then it is readily checked that VC is a required strict monoidal
+section.
+Now assume that the forgetful functor UC : coSem(C) → C has a strict section VC : C →
+coSem(C). In the previous part of the lemma, we showed that coSem(C) is relevant, so for
+each A ∈ Ob(C) there is an arrow copyVC A : VC A → VC A ⊗ VC A in coSem(C) and, therefore,
+one has UC (copyVC A ) : A → A ⊗ A in C, so we let γA := UC (copyVC A ).
+
+We can also characterise relevant categories as coalgebras in the Eilenberg-Moore category
+consisting of coalgebras (C, hC ) where hC : C → coSem(C) is a strict symSymmMonCatcoSem
+str
+metric monoidal functor.
+Theorem 5.4. Let C be an SMC, then the following are equivalent:
+1. C is relevant,
+2. (C, hC ) ∈ SymmMonCatcoSem
+for some strict symmetric monoidal functor hC : C → coSem(C).
+str
+Proof. If C is relevant, then the forgetful functor UC : coSem(C) → C has a strict section VC : C →
+coSem(C) by Lemma 5.3. Let us check that a pair (C, V) is the required coSem-coalgebra, that is,
+the below diagrams commute:
+C
+
+VC
+
+C
+
+coSem(C)
+UC
+
+1C
+
+C
+
+VC
+
+VC
+
+coSem(C)
+
+32
+
+coSem(C)
+δC
+
+coSem(VC )
+
+coSem2 (C)
+
+## PDF page 33
+
+The left-hand side triangle commutes automatically since VC is a strict symmetric section of the forgetful functor. The right-hand side square commutes since if VC (A) = (A, γA ), then coSem(VC )(A, γA ) =
+(A⊗A, γA⊗A ) = δC (A, γA ). But if (C, hC ) is already a coalgebra in the category SymmMonCatcoSem
+,
+str
+then hC is already a section of the forgetful functor by the definition of an Eilenberg-Moore category.
+
+6
+
+Cocteau Categories and Resource Modalities
+
+In this section, we discuss how one can view comonads from Cocteau categories as monoidal
+adjunctions. To be more precise, we would like to discuss whether such comonads can be materialised
+as resource modalities, the term coined by Melliès and Tabareau in [MT10] to categorise affine
+and relevant subexponential modalities in the fashion of Benton’s linear-non-linear models [Ben94].
+There is a well-known result in categorical semantics of linear logic allowing one to unveil ! as a
+symmetric monoidal adjunction (see [Ben94]), so in this section we extend this result to SILL(λ)3
+and SILL(λ)Σ .
+Definition 6.1. Let C be a symmetric monoidal (closed) category, then a modality is given by a
+symmetric monoidal adjunction
+Fl
+
+⊣
+
+D
+
+C
+
+Fr
+
+for a symmetric monoidal category D. The notation is ((Fl , n), (Fr , o), D) : C → C, where n and o
+are components of Fl and Fr respectively 5 .
+The key observation is that the composite Fl ◦ Fr : C → C is a symmetric lax monoidal comonad
+and we shall refer to such composites as modalities on an SMC C. Although the notion of a modality
+coincides with the notion of a monoidal adjunction, we proceed with the term “modality” inspired
+by Yetter [Yet90], who used this name for a quantic conucleus over a (commutative) quantale,
+whose formal properties coincide with the properties of (symmetric) lax monoidal comonads. For
+comparison, Melliès and Tabareau [MT07, MT10] call such adjunctions “resource modalities”, but
+further we will consider a broader class of comonadic modal operators, so we reserve the term
+“resource modality” only for the modalities dealing with resource management policies.
+As Benton showed in [Ben94, Theorem 3, Theorem 8], every linear category induces a symmetric monoidal adjunction between an SMCC and a Cartesian closed category. Such adjunctions are
+called linear-non-linear models, and they are an instance of the concept of a modality. However, as
+it is was discussed in [Mel09], one can weaken the definition of a linear-non-linear model and construct the desired adjunction between an SMCC and a Cartesian category, not necessarily admitting
+exponential objects. We are in favour the latter way since it is less restrictive.
+In this section we will show that every Cocteau category can be also viewed as an SMCC equipped
+with symmetric monoidal adjunctions of a particular kind.
+In the previous section, we have already done some preliminary work on how one can characterise relevant categories to use those results further to represent relevant subexponentials as a
+monoidal adjunction. Let us discuss what monoidal categories we need to obtain further a similar
+characterisation for affine subexponentials.
+5 Sometimes we would just write (F , F , D) : C → C assuming that the letters n and o are already reserved for the
+r
+l
+components of a left and a right adjoint respectively.
+
+33
+
+## PDF page 34
+
+Definition 6.2. A symmetric monoidal category C is semicartesian where the unit object is terminal. That is, there is a unique ⊤A : A → 1 for each A ∈ C.
+Note that the tensor product operation admits projections in every semicartesian category:
+1 ⊗⊤
+
+λ
+
+A
+A
+B
+A
+−−−→
+A ⊗ 1 −−→
+π1 : A ⊗ B −−
+ρB
+⊤A ⊗1B
+π2 : A ⊗ B −−−−−→ 1 ⊗ B −−→ B
+
+Let (C, ⊗, 1) be any monoidal category, then the slice category C/1 becomes semicartesian with
+the tensor product operation given by for f, g ∈ C/1.
+A⊗B
+
+f ⊗g
+
+1⊗1
+
+λ=ρ
+
+1
+
+C/1 is semicartesian since the monoidal identity 11 : 1 → 1 is terminal in C/1. One can also
+observe that a symmetric monoidal category is semicartesian iff the forgetful functor U : C/1 → C
+is isomorphism.
+Now we give the definition of a resource modality.
+Definition 6.3. Let C be an SMCC and let D be an SMC, then a modality (Fl , Fr , D) : C → C is
+affine if D is semicartesian, relevant if D is relevant, exponential if D is Cartesian.
+A modality satisfying any of the above conditions is called a resource modality.
+Let us modify some well-known results in the categorical semantics of linear logic and show that
+every Cocteau category can be unveiled as a category equipped with resource modality and vice
+versa and then transfer this result to Σ-assemblages.
+Definition 6.4. A Cocteau adjunction on an SMCC C is given by:
+• an affine resource modality ((Al , na ), (Ar , oa ), Ca ) : C → C,
+• a relevant resource modality ((Rl , nr ), (Rr , or ), Cr ) : C → C,
+• an exponential resource modality ((Il , ni ), (Ir , oi ), Ci ) : C → C,
+• strict symmetric monoidal functors a : Ci → Ca and r : Ci → Cr such that the pairs (a, 1C ) and
+(r, 1C ) are left adjunction morphisms (Al , na ) ⊣ (Ar , oa ) and (Rl , nr ) ⊣ (Ar , or ) respectively,
+that is, the following diagrams commute
+a
+
+Ci
+Il
+
+Ca
+
+r
+
+Ci
+Il
+
+Al
+
+Cr
+Rl
+
+C
+
+C
+
+and the following axioms are satisfied for A ∈ Ci :
+rA
+
+r(∆A )
+
+r(A ⊗ A)
+
+copyrA
+
+aA
+
+a(⊤A )
+
+⊤aA
+
+rA ⊗ rA
+
+1
+
+34
+
+a1
+
+## PDF page 35
+
+6.1
+
+Modalities from Adjunctions
+
+This is a folklore fact from basic category theory that the composition of adjoint functors is a
+comonad. However, the concept of a Cocteau adjunction also has strict functors to reflect the
+corresponding comonad morphism. Therefore, we need a slightly more complicated proof compared
+to a standard argument in linear logic showing how one can obtain a linear category from a linearnon-linear model as, for example, in [Mel09, §7.4].
+Theorem 6.5. Every Cocteau adjunction is a Cocteau category.
+Proof. Let (Rl , Rr , Cr ) : C → C be a relevant resource modality on C, let us show that the composite
+!r = Rl ◦ Rr : C → C forms a relevant comonad on C. The components are given as follows:
+nrR A,R B
+
+Rl (orA,B )
+
+r
+• mrA,B := Rl Rr A ⊗ Rl Rr B −−−
+−−r−→ Rl (Rr A ⊗ Rr B) −−−−−→ Rl Rr (A ⊗ B),
+
+nr
+
+Rl (or )
+
+1
+1
+• mr1 := 1 −→
+Rl 1 −−−−
+→ Rl Rr 1,
+
+• εrA : Rl Rr A → A,
+Rl (ηRr A )
+
+r
+• δA
+: Rl Rr A −−−−r−→ Rl Rr Rl Rr A.
+
+A similar statement holds for affine and exponential resource modalities. The copying natural
+transformation c is given by the components cA : !r A → !r A ⊗ !r A, each of which is defined by the
+following composite:
+Rl (copyR A )
+
+pR A,R B
+
+r
+!r A = Rl Rr A −−−−−−r−→ Rl (Rr A ⊗ Rr A) −−−
+−−r−→ Rl Rr A ⊗ Rl Rr A = !r A ⊗ !r A.
+
+There are the following claims, the complete checking of which is routine.
+1. cA is natural in A, so for any f : A → B the following squares commutes:
+Rl Rr f
+
+R l Rr A
+
+Rl Rr B
+
+crA
+
+crB
+
+Rl Rr A ⊗ Rl Rr A R R f ⊗R R f Rl Rr B ⊗ Rl Rr B
+l
+
+r
+
+l
+
+r
+
+2. c is a monoidal natural transformation, so the diagrams from Definition 3.21 are satisfied.
+3. For each A ∈ Ob(C), the axiom of copying are satisfied:
+crA
+
+Rl R r A
+
+Rl Rr A ⊗ R l Rr A
+
+Rl Rr A ⊗ Rl R r A
+
+1A ⊗crA
+
+crA
+
+Rl Rr A ⊗ Rl Rr A
+
+σ!r A,!r A
+
+Rl Rr A ⊗ Rl R r A
+crA
+
+crA
+
+Rl Rr A ⊗ (Rl Rr A ⊗ Rl Rr A)
+
+Rl Rr A
+
+αA,A,A ◦(crA ⊗1A )
+
+But they follow from the structure of Cr easily.
+4. Any free coalgebra morphism f : (!r A, δA ) → (!r B, δB ) preserves uniform cloning induced by
+c, that is, the following square commutes:
+f
+
+!r A
+cA
+
+!r A ⊗ !r A
+
+!r B
+cB
+
+f ⊗f
+
+35
+
+!r B ⊗ !r B
+
+## PDF page 36
+
+One can similarly show that !a is endowed with the structure of an affine comonad, where the
+Al (⊤A∗ A )
+
+p1
+
+deletion is given by the composite !a A −−−−−−→ Al 1 −→ 1.
+To complete the proof, we need to construct the comonad morphisms µia : !i ⇒ !a and µir : !i ⇒ !r
+from the functors a : Ci → Ca and r : Ci → Cr . The symmetric lax monoidal comonad morphism
+µir : Il Ir ⇒ Rl Rr is given by Proposition 3.22 since we have Il Ir = Rl rIr by the definition of a Cocteau
+adjunction.
+So we let:
+Il Ir = Rl rIr
+
+Rl (η r rIr )
+
+R l R r εi
+
+Rl Rr Rl rIr = Rl Rr Il Ir
+
+Rl Rr
+
+µir
+
+Further, we note that a pair of functors (r, 1C ), then by Proposition 3.9, µir is a symmetric lax
+monoidal comonad morphism. The rest is to check that µir preserves uniform cloning, that is, we
+must show that the following diagram commutes:
+!i A
+
+ciA
+
+!i A ⊗ !i A
+
+µir A
+
+µir A ⊗µir A
+
+!r A
+
+crA
+
+(5)
+
+!r A ⊗ !r A
+
+Let us unveil the above diagram:
+Rl rIr A
+
+Rl r(∆Ir A )
+
+piIr A,Ir A
+
+Rl r(Ir A ⊗ Ir A)
+
+Rl rIr A ⊗ Rl rIr A
+
+(6)
+Rl rIr A
+Rl (ηrIrr A )
+
+Rl Rr Rl rIr A
+Rl Rr (εiA )
+
+Rl Rr A
+
+Rl (copyrIr A )
+
+(7)
+Rl (copyRr R rIr A )
+l
+
+(8)
+
+Rl (copyRr A )
+
+Rl r(Ir A ⊗ Ir A)
+
+Rl (ηrIrr A )⊗Rl (ηrIrr A )
+
+(9)
+
+Rl (ηrIrr A ⊗ηrIrr A )
+
+Rl (Rr Rl rIr A ⊗ Rr Rl rIr A)
+
+prRr R rIr A,Rr R rIr A
+
+Rl (Rr (εiA )⊗Rr (εiA ))
+
+Rl (Rr A ⊗ Rr A)
+
+l
+
+l
+
+Rl Rr Rl rIr A ⊗ Rl Rr Rl rIr A
+Rl Rr (εiA )⊗Rl Rr (εiA )
+
+(10)
+prRr A,Rr A
+
+Rl R r A ⊗ Rl Rr A
+
+where:
+• (6) holds by the definition of a Cocteau adjunction,
+• (7) and (8) hold by the naturality of copy,
+• (9) and (10) commute since Rl is symmetric oplax monoidal by Proposition 3.22.
+
+36
+
+## PDF page 37
+
+6.2
+
+Constructing a Cocteau adjunction from a Cocteau category
+
+To show that every Cocteau category induces a Cocteau adjunction, one needs to show that every
+constituent comonad of a Cocteau category induces the corresponding adjunction. The construction
+building an adjunction from an exponential comonad is standard, so we just note that the construction by Benton or Melliès is compeletely preserved since one can think of linear categories as
+exponential reducts of Cocteau categories. So the rest is build adjunctions from affine and relevant
+comonads and introduce the corresponding functors to have required comonad morphism.
+The simplest part is to unveil an affine comonad.
+Lemma 6.6. Let C be an SMCC equipped with an affine comonad K, then there is an affine
+resource modality:
+Al
+
+⊣
+
+Ca
+
+C
+
+Ar
+
+for some semicartesian Ca , Al and Ar .
+Proof. The Eilenberg-Moore category C K is already monoidal by Lemma 3.24. We equip every
+coalgebra (A, hA ) with the deletion operation ⊤A : A → 1 natural in A and unique for each A such
+that ⊤A : A → 1 is a coalgebra morphism and ⊤A is given by:
+ι
+
+h
+
+d
+
+A
+A
+A
+A −→
+1 = A −−→
+KA −−→
+1
+
+The rest of the proof is routine.
+The next is to show that the Eilenberg-Moore category of a relevant comonad is relevant.
+Lemma 6.7. Let C be an SMC and let K : C → C be a symmetric lax monoidal endofunctor endowed
+with the structure of a relevant comonad. Then the Eilenberg-Moore category C K is relevant.
+The proof is adaptation of the construction described in [Mel09, §7.4] with a few modifications,
+but the structure of the argument is similar. The key idea is that if we have a relevant comonad,
+then every free coalgebra (KA, δA ) is endowed with a cocommutative cosemigroup structure and we
+lift this structure to every coalgebra (A, hA ) by showing that every coalgebra of that form is retract
+of the free coalgebra (KA, δA ). As a result, every coalgebra (A, hA ) is provided with uniform cloning
+γA : A → A ⊗ A satisfying the required axioms. One can compose the proof of Lemma 6.7 of the
+following two propositions.
+h
+
+ε
+
+A
+A
+Proposition 6.8. Every coalgebra (A, hA ) has a retraction A −−→
+KA −−→
+A making the below
+diagram commute:
+
+A
+
+hA
+
+KA
+
+cA
+
+KA ⊗ KA
+
+hA
+
+KA
+
+εA ⊗εA
+
+A⊗A
+hA ⊗hA
+
+KA ⊗ KA
+
+cA
+
+Proof. The below claim has the same proof as [Mel09, §7.4, Proposition 26] for comonoids since the
+argument does not require addressing to counits, but only uniform cloning.
+The below claim is similar to [Mel09, §7.4, Proposition 27], but, however, we elaborate on its
+proof.
+
+37
+
+## PDF page 38
+
+Lemma 6.9. Let A ∈ Ob(C) and let (B, γB ) be a cocommutative cosemigroup in C such that there
+is a retraction in C
+f
+g
+A
+B
+A
+1A
+
+Then A is endowed with the structure of a cocommutative cosemigroup (A, γA ) that lifts f to a
+cosemigroup morphism f : (A, γA ) → (B, γ) if and only if the below diagram commutes
+A
+
+f
+
+γB
+
+B
+
+B⊗B
+
+g⊗g
+
+f
+
+A⊗A
+f ⊗f
+
+B
+
+B⊗B
+
+γB
+
+Moreover, the cosemigroup structure on A is defined where uniform cloning γA is given by:
+A
+
+f
+
+γA
+
+B
+
+g⊗g
+
+B⊗B
+
+A⊗A
+
+Proof. If A is endowed with the structure of a cocommutative cosemigroup (A, γA ) such that a
+morphism f : A → B in C lifts to a cosemigroup morphism f : (A, γA ) → (B, γA ), so the below
+square commutes:
+A
+
+f
+
+γA
+
+A⊗A
+
+B
+γB
+
+f ⊗f
+
+B⊗B
+
+But the following square commutes
+A
+
+f
+
+γA
+
+A⊗A
+
+B
+γB
+
+g⊗g
+
+B⊗B
+
+since one has g ◦ f = 1A . So we define γA as the composite g ⊗ g ◦ γB ◦ f , so the desired diagram
+automatically commutes.
+If the diagram from the statement commutes, then one needs to check that the structure (A, γA )
+where γA = g ⊗ g ◦ γB ◦ f is a cocommutative cosemigroup indeed, so the cocommutativity and
+coassociativity axioms are satisfied for uniform cloning. The coassociativity clause is the same as
+in the proof of [Mel09, §7.4, Proposition 27], so let us consider the cocommutativity axiom. But
+(B, γB ) is already a cocommutative cosemigroup, so we have:
+σA,A ◦ g ⊗ g ◦ γB ◦ f = g ⊗ g ◦ σB,B ◦ γB ◦ f = g ⊗ g ◦ γB ◦ f = γA .
+
+As a corollary from Claim 6.8 and Claim 6.9 below we show that:
+Lemma 6.10. Every coalgebra (A, hA ) over a relevant comonad K is endowed with a cocommutative
+cosemigroup multiplication making the Eilenberg-Moore category C K relevant.
+
+38
+
+## PDF page 39
+
+Proof. By Proposition 5.2, an SMC C is relevant if and only if there is a natural natural transformation γ endowing each A with the structure of a cocommutative cosemigroup (A, γA ).
+As we showed in Claim 6.8 and Claim 6.9, we define γA as:
+ε ⊗ε
+
+c
+
+h
+
+A
+A
+A
+A
+−−→
+A⊗A
+KA ⊗ KA −−
+KA −→
+A −−→
+
+The rest is to check the following clauses:
+• γA is a coalgebra morphism, that is, we want the below square
+A
+
+hA
+
+KA
+
+cA
+
+KA ⊗ KA
+
+εA ⊗εA
+
+A⊗A
+hA ⊗hA
+
+KA ⊗ KA
+
+hA
+
+mA,A
+
+KA
+
+K(hA )
+
+K2 A
+
+K(KA ⊗ KA)
+
+K(cA )
+
+K(εA ⊗εA )
+
+K(A ⊗ A)
+
+commute in C. Indeed,
+K(γA ) ◦ hA = K(εA ⊗ εA ) ◦ K(cA ) ◦ K(hA ) ◦ hA =
+By the property of coalgebras
+K(εA ⊗ εA ) ◦ K(cA ) ◦ δA ◦ hA =
+By the definition of a relevant comonad and by the definiton of lax monoidal functors
+K(εA ⊗ εA ) ◦ mKA,KA ◦ δA ⊗ δA ◦ cA ◦ hA = mA,A ◦ (KεA ⊗ KεA ) ◦ δA ⊗ δA ◦ cA ◦ hA =
+By the definition of a comonad and Claim 6.8
+mA,A ◦ cA ◦ hA = mA,A ◦ hA ⊗ hA ◦ γA
+• The naturality of γA follows immediately from the definition of an Eilenberg-Moore category
+and the axioms of a relevant comonad.
+• The proof that γA is a symmetric lax monoidal natural transformation repeats the corresponding clause in the proof of [Mel09, §7.4, Proposition 28].
+
+Finally, we conclude that:
+Theorem 6.11. Any Cocteau category induces a Cocteau adjunction.
+Proof. Fix a Cocteau category (C, !i , !r , !a , µir , µia ). We are already able to unveil !i , !r and !a as
+resource modalities of the following form
+• an affine resource modality (Al , Ar , Ca ) : C → C by Lemma 6.6,
+• a relevant resource modality (Rl , Rr , Cr ) : C → C by Lemma 6.7,
+• an exponential resource modality (Il , Ir , Ci ) by [Mel09, Proposition 28—30].
+
+39
+
+## PDF page 40
+
+The rest is to treat the comonad morphisms µir and µia . We consider µir only, µia is considered
+analogously. µir : !i ⇒ !r is a comonad morphism, so, by [Bor94b, Proposition 4.5.9], we have a
+functor r : C !i → C !r such that r : (A, hA ) ↦→ (A, µir A ◦ hA ) and Il = Rl r. r is also strict:
+r(A, hA ) ⊗ r(A, hA ) = (A, µir A ◦ hA ) ⊗ (A, µir A ◦ hA ) = (A ⊗ A, mrA,A ◦ µir A ⊗ µir A ◦ hA ◦ hA ) =
+(A ⊗ A, µir A ◦ miA,A ◦ hA ◦ hA ) = r(A ⊗ A, miA,A ◦ hA ⊗ hA )
+And the corresponding axiom of a Cocteau adjunction is satisfies as follows. First of all, let copyi
+and copyr denote the copying operations in C !i and C !r .
+Let (A, hA ) ∈ C !i be a coalgebra, so we have uniform cloning copyi : (A, hA ) → (A ⊗ A, mA,A ◦
+hA ⊗ hA ) realised by the composite:
+A
+
+hA
+
+!i A
+
+ciA
+
+!i A ⊗ !i A
+
+εiA ⊗εiA
+
+A⊗A
+
+(11)
+
+On the one hand, we have r(copyi ) : r(A, hA ) → r(A ⊗ A, mA,A ◦ hA ⊗ hA ) with the underlying
+arrow as in (11), but as a morphism of morphism of coalgebras (A, µir A ◦ hA ) and (A ⊗ A, µir A ◦
+miA,A ◦ hA ◦ hA ).
+On the other hand, we have the arrow copyrr(A,hA ) : (A, µir A ◦ hA ) → (A ⊗ A, µir A⊗A ◦ miA,A ◦
+hA ⊗ hA ) in C !r with the underlying arrow:
+A
+
+hA
+
+!r A
+
+crA
+
+!r A ⊗ !r A
+
+εrA ⊗εrA
+
+A⊗A
+
+(12)
+
+So the equality r(copyi(A,hA ) ) = copyrr(A,hA ) holds by the following diagram:
+A
+
+hA
+
+!i A
+
+ciA
+
+!i A ⊗ !i A
+
+µir A
+
+A
+
+µir A ◦hA
+
+!r A
+
+εiA ⊗εiA
+
+A⊗A
+
+µir A ⊗µir A
+
+crA
+
+!r A ⊗ !r A
+
+εrA ⊗εrA
+
+A⊗A
+
+where the left-hand side square commutes tautologically, the right-hand side square follows from
+the definition of a symmetric monoidal comonad morphism, whereas the central square is from the
+definition of a Cocteau category.
+One can also generalise the above construction in order to represent not only Cocteau categories,
+but arbitrary assemblages as well. We introduce the notion of a bouton directly generalising Cocteau
+adjunctions.
+Definition 6.12. Let Σ = (I, ⪯, W, C) be a subexponential signature and let C be a symmetric
+monoidal closed category, then a Σ-bouton 6 over C consists of a contravariant functor T : (I, ⪯) →
+SymmMonCatstrict such that:
+• For each s ∈ I, there is a modality (Fsl , Fsr , Ts ) : C → C,
+• If s ∈ W (s ∈ C, c ∈ W ∩ C), then the resource modality (Fsl , Fsr ) is affine (relevant, exponential),
+6 The word “bouton” means a flower bud in French. The choice of name is a metaphorical description of a category
+equipped with some adjunctions viewed as petals.
+
+40
+
+## PDF page 41
+
+• If s1 ⪯ s2 , then the following triangle commutes:
+T(s1 ,s2 )
+
+Ts2
+Fs 2 r
+
+Ts1
+Fs1 r
+
+C
+
+• If s1 ⪯ s2 and s1 ∈ C, then the following triangle commutes for each A ∈ Ts2 :
+s
+
+T(s1 ,s2 )(copyA2 )
+
+T(s1 , s2 )(A)
+
+T(s1 , s2 )(A ⊗ A)
+
+s
+
+1
+copyT(s
+,s )(A)
+1
+
+2
+
+T(s1 , s2 )(A) ⊗ T(s1 , s2 )(A)
+
+• If s1 ⪯ s2 and s1 ∈ W , then the following triangle commutes for each A ∈ Ts2 :
+s
+
+T(s1 ,s2 )(⊤A2 )
+
+T(s1 , s2 )(A)
+
+T(s1 , s2 )(1)
+
+s
+
+1
+⊤T(s
+,s )(A)
+1
+
+2
+
+1
+
+The following fact directly generalises Theorem 6.5 and Theorem 6.11.
+Theorem 6.13. Let C be an SMCC and let Σ = (I, ⪯, W, C) be a subexponential signature, then:
+1. Every Σ-bouton on C induces a Σ-assemblage.
+2. Every Σ-assemblage on C induces a Σ-bouton.
+
+6.3
+
+Expanding Lafont Categories
+
+The alternative approach to semantic modelling of the exponential modality is to consider it via the
+free construction, see [Tro92, Chapter 12].
+Previously, we have been working with Cocteau categories thinking of them as an expansion
+of a linear category, but in this section we introduce a subclass of Cocteau categories admitting
+the representation as Cocteau adjunctions. In particular, we expand Lafont categories initially
+introduced in [Laf88].
+It is not difficult to observe that the axioms of a cocommutative cosemigroup resemble the axioms
+of a relevant category quite closely, but this coincidence has the following rigorisation.
+In the below definition, we overload the terminology and call them Lafont categories too.
+Definition 6.14. A Lafont category is an SMCC (C, ⊗, 1) such that the forgetful functors Ua :
+C/1 → C, Ui : coMon(C) → C and Ur : coSem(C) → C have right adjoints Ra : C → C/1,
+Ri : C → coMon(C) and Rr : C → coMon(C) respectively. Those right adjoints are also called the
+free construction.
+In every Lafont category, Ua , Ui and Ur are automatically agreed with one another as follows
+coMon(C)
+
+Uir
+
+coSem(C)
+Ur
+
+Ui
+
+coMon(C)
+
+Uia
+
+Ua
+
+Ui
+
+C
+
+C
+41
+
+C/1
+
+## PDF page 42
+
+where Uir and Uia are strict monoidal functors realised as Uir : (A, γA , ιA ) ↦→ (A, γA ) and Uia :
+(A, γA , ιA ) ↦→ (A, ιA ) respectively.
+One can equivalently define Lafont category as an SMCC (C, ⊗, 1) such that the following conditions are satisfied:
+• For every A ∈ Ob(C) there is a cocommutative comonoid (Ai , γAi , ιAi ) equipped with a choice
+of morphism εiA : Ai → A such that for any other cocommutative comonoid (X, γX , ιX )
+and any morphism f : X → A there is a unique a cocommutative comonoid morphism f • :
+(X, γX , ιX ) → (Ai , γAi , ιAi ) making the following triangle commute in C:
+Ai
+∃!f •
+εiA
+
+X
+f
+
+A
+• For each B ∈ Ob(C) there is a cocommutative cosemigroup (Br , γBr ) such that there is a
+morphism εrB : Br → B in C such that for any cocommutative cosemigroup (Y, γY ) and
+any morphism g : Y → B in C there is a unique a cocommutative cosemigroup morphism
+g • : (Y, γY ) → (Br , γBr ) such that the analogous triangle commutes.
+• For every C ∈ C there is a counital structure (Ca , ιCa ) and a morphism εaC : Ca → C such
+that for each counital structure (Z, ιZ ) and for each arrow h : Z → C in C there is a unique
+h• : (Z, ιZ ) → (Ca , ιCa ) such that the analogous triangle commutes.
+Moreover, the following automatically holds as well. Let A ∈ Ob(C) such that there is a cocommutative comonoid (Ai , γAi , ιAi ), then there are arrows UirA : Ai → Ar and UiaA : Ai → Aa such that
+the following triangle commutes:
+Ai
+UirA
+
+Ar
+
+εrA
+
+εiA
+
+A
+
+UiaA
+
+εa
+A
+
+Aa
+
+Theorem 6.15. Every Lafont category induces a Cocteau adjunction.
+Proof. First of all, as it has been already noted in Theorem 3.19, the forgetful functors Ui :
+coMon(C) → C, Ur : coSem(C) → C are strict monoidal and symmetric.
+Further, one has Ui ⊣ Ri , Ur ⊣ Rr and Ua ⊣ Ra , so the condition of Proposition 3.22 is satisfied,
+so those adjunctions are lifted to symmetric monoidal adjunction inducing a Cocteau adjunction by
+Theorem 6.11.
+Example 6.16. One can extract several curious examples of Lafont categories from presentably
+symmetric monoidal categories. We refer the reader to [AR94] and [MP89, Chapter 2] for a more
+systematic study of presentable categories. Let us recall the relavant concepts.
+Let C be a locally small category, then C is presentable if C has all small colimits κ-directed
+colimits and there is a set S of κ-compact objects that generate C under κ-filtered colimits for some
+42
+
+## PDF page 43
+
+cardinal κ. A symmetric monoidal category (C, ⊗, 1) is presentable if C is presentable and it is an
+SMC such that the tensor product operation ⊗ as a bifunctor preserves all small colimits.
+If (C, ⊗, 1) is a presentably symmetric monoidal category, then C is also closed, which follows
+from the Adjoint Functor theorem. Moreover, C/1, coMon(C) and coSem(C) are presentable, one
+can show that similarly to [HM25, Theorem 10]. Besides, the forgetful functors Ui : coMon(C) → C,
+Ur : coSem(C) → C and Ua : C/1 → C have right adjoints. Thus any presentably SMC (C, ⊗, 1)
+satisfies Definition 6.16.
+There are quite a few examples of categories satisfying this observation. The first example is the
+category R-Mod of modules over a commutative ring R. Thus, the category Vectk of vector spaces
+over a field k and the category of Abelian groups viewed as Z-modules are also Lafont categories. The
+category of R-modules R-Mod is equivalent to the category QCoh(O(Spec R)) of quasi-coherent
+O(X)-modules over the Zariski space Spec(R) [Har13, Corollary II.5.5], so QCoh(O(Spec R)) is a
+Lafont category. There are also several examples of presentably SMC’s (and thus Lafont) from algebraic topology such as the category Ch(A) of chain complexes in a Grothendieck Abelian category
+A (see [Bek00, Proposition 3.10]). Thus all the aforementioned categories are models of the system
+SILL(λ)3 . There are already some results styding the semantics of (intuitionistic) linear logic in
+structures from algebraic geometry as in [Mel22], so our example demonstrate how close algebraic
+geometry and linear logic are once more.
+
+6.4
+
+Representing Cocteau categories 2-categorically
+
+One can strengthen the above result from Theorem 6.11 by using some 2-categorical techniques
+and the formal theory of comonads. In the previous section, we have proved that any particular
+Cocteau category induces a Cocteau adjunction, but in this section, we consider the 2-category
+of all Cocteau categories and fully faithfully embed it to the Eilenberg-Moore 2-category over a
+2-comonad constructed a particular 2-category of strict functors. This allow us extend the results
+from the previous section to functors and natural transformations of Cocteau categories.
+Definition 6.17. Let Cocteau denote the 2-category of Cocteau categories is defined as follows:
+• The class of 0-cells is the class of all Cocteau categories,
+• Let (C, !i , !r , !a , µir , µia ) and (D, !′i , !′r , !′a , µ′ir , µ′ia ) be Cocteau categories, the class of 1-cells
+Cocteau(C, D) consist of strict symmetric monoidal functors F : C → D such that:
+– F induce symmetric lax monoidal comonad morphisms (C, !i ) ⇒ (D, !′i ), (C, !r ) ⇒ (D, !′r )
+and (C, !a ) ⇒ (D, !′a ) with the components Fi : F !i ⇒ !′i F, Fr : F !r ⇒ !′r F and Fa : F !a ⇒
+!′a F respectively.
+ˆc : C !c → D!′c of
+– For each A ∈ Ob(C) and for c ∈ {i, r} and w ∈ {i, a}, the functor F
+the induced Eilenberg-Moore categories preserves the copying arrow for each coalgebra
+(A, hA ) ∈ C !c :
+FA
+FA
+
+ˆ
+F
+c (γA )
+
+γFˆ (A)
+c
+
+43
+
+FA ⊗ FA
+FA ⊗ FA
+
+## PDF page 44
+
+′
+!w
+and the functor Fˆ
+→ D!w preserves the deletion arrow as follows for each coalgebra
+w :C
+(A, hA ) ∈ C !w :
+
+Fˆ
+w (ιA )
+
+FA
+FA
+
+1
+1
+
+ιFˆ (A)
+w
+
+– the following squares commute:
+Fi
+
+F !i
+
+!′i F
+µ′ir F
+
+Fµir
+
+F !r
+
+!′i F
+µ′ia F
+
+Fµia
+
+!′r F
+
+Fr
+
+Fi
+
+F !i
+
+F !a
+
+Fa
+
+(13)
+
+!′a F
+
+• Let F, G : (C, !i , !r , !a , µir , µia ) → (D, !′i , !′r , !′a , µ′ir , µ′ia ) be 1-cells, the class Cocteau(F, G) of
+2-cells from F to G consists of symmetric monoidal natural transformations θ : F ⇒ G inducing
+symmetric lax monoidal comonad morphisms (F, !i ) ⇒ (G, !′i ), (F, !a ) ⇒ (G, !′a ) and (F, !r ) ⇒
+(G, !′r ) Besides, the following condition is satisfied
+F !i
+
+θi
+
+!′i G
+µ′ir G
+
+Fµir
+
+F !r
+
+θr
+
+θi
+
+F !i
+
+µ′ia G
+
+Fµia
+
+!′r G
+
+!′i G
+
+F !a
+
+θa
+
+(14)
+
+!′a G
+
+where θi is defined as
+θ !i
+
+F !i
+
+θi
+
+Fi
+
+!′i F
+
+!′i θ
+
+G !i
+Gi
+
+!′i G
+
+and θa and θr are defined similarly.
+Prima facie, the reader might find the definition of 2-cells incomplete since 1-cells induce strict
+functors of Eilenberg-Moore categories that preserve the copying and deletion operations, but it is
+not reflected at the level of 2-cells. Let θ : F ⇒ G be a 2-cell in Cocteau. F and G induce comonad
+′
+morphisms (C, !r ) ⇒ (D, !′r ), so we have the functors of Eilenberg-Moore categories Fˆr : C !r → D!r
+ˆr : C !r → D!′r defined as Fˆr : (A, hA ) ↦→ (FA, FrA ◦F(hA )) and G
+ˆr : (A, hA ) ↦→ (GA, GrA ◦G(hA )).
+and G
+ˆ
+ˆ
+So θ : F ⇒ G extends to θ̂ : Fr ⇒ Gr and θ̂ is a strict symmetric monoidal natural transformation,
+
+44
+
+## PDF page 45
+
+so the following diagram automatically commutes for each coalgebra (A, hA ) ∈ C !r :
+FA
+
+Fˆr (γA )
+
+FA ⊗ FA
+
+θ̂A
+
+F(A ⊗ A)
+
+θ̂A ⊗θ̂A
+
+θ̂A⊗A
+
+GA ⊗ GA
+
+GA
+
+G(A ⊗ A)
+
+ˆr (γA )
+G
+
+To proceed further, let us instantiate Theorem 3.13 the following way.
+Theorem 6.18. Cmd(SymmMonCat), the 2-category of symmetric lax monoidal comonads
+over SMCs, their symmetric lax monoidal morphisms and transformations, fully faithfully embeds
+to Adjl (SymmMonCat), the category of symmetric monoidal adjunctions in SymmMonCat,
+their left morphisms and modifications.
+Now we would like to fully faithfully embed the whole 2-category Cocteau to some 2-category
+of 2-functors, their strict natural transformations and modifications similarly to Theorem 6.18, but
+we would also like to reflect all the required connections between the constituent symmetric lax
+monoidal comonads in Cocteau categories. So we have to provide a plausible candidate instead
+of Adjl (SymmMonCat), a subcategory of Fun([1], SymmMonCat) spanned by those 1-cells in
+SymmMonCat that have a right adjoint. Recall that one can unveil any Cocteau category as a
+Cocteau adjunction by Theorem 6.11 and left adjoints in those adjunctions are forgetful functors
+from the Eilenberg-Moore category to the underlying SMC. Recall that those functors are strict
+symmetric. So we take SymmMonCatstrict as a 2-subcategory of SymmMonCat where left
+adjoints we are interested in belong to as 1-cells.
+Further, we have got to replace [1] with something more approritate since we have three comonads
+and transformations betweem them.
+Definition 6.19. The 1-category FCocteau (read as “free Cocteau”) with four objects /, ,0 , ,1 , ,2
+and with morphisms generated by the diagram
+,1
+
+u10
+
+,0
+
+u12
+
+f1
+
+f0
+
+/
+
+,2
+
+f2
+
+Now let us consider the 2-category Fun(FCocteau, SymmMonCatstrict ), where we choose
+symmetric monoidal categories C, D0 , D1 and D2 and strict symmetric monoidal functors such that
+the following triangle commutes
+D1
+U10
+
+D0
+
+U12
+
+F1
+
+F0
+
+C
+
+F2
+
+(15)
+D2
+
+Further, we shall be using capital Gothic letters A, B, . . . to range over elements of
+Fun(FCocteau, SymmMonCatstrict ).
+45
+
+## PDF page 46
+
+Triangles as in (15) reflect how left adjoints commute with one another, but we also expect D0 , D1
+and D2 to be relevant, Cartesian and semicartesian respectively. But those triangles bear no information about that. D1 and D2 are not really problematic to us since an SMC C is Cartesian (semicartesian) iff the forgetful functor from the category of cocommutative comonoids (from the slice category
+over 1) is an isomorphism. As we know from Theorem 5.4, an SMC is relevant iff it forms a coalgebra
+in the Eilenberg-Moore category SymmMonCatcoSem
+. So our idea is to consider Cocteau catestr
+gories as coalgebras from the Eilenberg-Moore 2-category (Fun(FCocteau, SymmMonCatstrict ))K
+for a strict 2-comonad inheriting the corresponding coalgebra from SymmMonCatcoSem
+from Thestr
+orem 5.4. So recall that:
+Definition 6.20. Let C be a 2-category and let K : C → C be a strict 2-functor, then a (strict)
+2-comonad is a triple (K, δ, ε), where δ and ε are strict 2-natural transformations satisfying the
+coassociative and coidentity laws.
+There is a more detailed destriction of (lax) 2-monads in [JY21, §6.5], so one can restore the
+details of the definitions for strict comonads quite easily. If we have a comonad K over a 2-category
+C, then we can associate the Eilenberg-Moore 2-category C K of strict coalgebras (A, hA ), morphisms
+and 2-cells.
+The rest is to construct a desired 2-functor K. First of all, recall that the forgetful functors
+UrD0 : coSem(D0 ) → D0 , UiD1 : coMon(D1 ) → D1 and UaD2 : D2 /1 → D2 are strict symmetric, so
+they are 1-cells in the category SymmMonCatstrict . So let us postcompose (15) with the functors
+as follows
+coMon(D1 )
+UiD1
+RD1 ,D0
+U10
+
+coSem(D0 )
+
+Ur D0
+
+D0
+
+AD1 ,D2
+
+D1
+U12
+
+F1
+
+C
+
+F0
+
+(16)
+
+F2
+
+D2
+
+Ua1
+
+D2 /1
+
+where the functors RD1 ,D0 and AD1 ,D2 are the following composites respectively:
+coSem(U10 )
+
+U
+
+ir
+coMon(D1 ) −−→
+coSem(D1 ) −−−−−−−−→ coSem(D0 )
+
+U12 /1
+
+U
+
+coMon(D1 ) −−ia
+→ D1 /1 −−−−→ D0 /1
+where Uir : coMon(D1 ) → coSem(D1 ) is a strict symmetric monoidal functor dropping a counit
+from every cocommutative comonoid in D1 making it a cosemigroup and Uia : coMon(D1 ) → D1 /1
+is a strict symmetric monoidal functor that takes a cocommutative comonoid in D1 and returns its
+counit. It is readily checked that Uir and Uia are strict as well as RD1 ,D0 and AD1 ,D2 . So all the
+morphisms in (16) are 1-cells in SymmMonCatstrict .
+Lemma 6.21.
+1. The mapping K that takes A ∈ Fun(FCocteau, SymmMonCatstrict ) and returns the triangle
+of the form of (16) is a 2-endofunctor on Fun(FCocteau, SymmMonCatstrict ).
+2. K is a strict 2-comonad over the 2-category Fun(FCocteau, SymmMonCatstrict ).
+Proof.
+
+46
+
+## PDF page 47
+
+1. Let f : A → B be a 1-cell in Fun(FCocteau, SymmMonCatstrict ) given by the following
+diagram:
+H1
+H2
+
+D2
+U12
+
+G
+
+C
+
+F′1
+
+C′
+F′0
+
+F0
+
+U10
+
+U′12
+
+F′2
+
+F2
+
+F1
+
+D1
+
+D2′
+
+H0
+
+D0
+
+D1′
+
+U′10
+
+D0′
+
+Thus Kf : KA → KB is given by:
+ˆ
+H
+2
+H1
+Ua D
+
+2
+
+D2 /1
+
+U12
+
+AD1 ,D2
+
+coMon(D1 )
+
+Ui D
+
+1
+
+C
+F0
+
+U10
+
+D0
+
+Ur D
+
+Ua D ′
+
+D2′
+
+D2′ /1
+
+2
+
+U′12
+
+F′2
+
+F2
+F1
+
+D1
+
+RD1 ,D0
+
+coSem(D0 )
+
+H2
+
+D2
+
+F′1
+
+G
+
+C
+
+ˆ
+H
+1
+
+F′0
+
+H0
+
+D0′
+
+′
+
+A′ ′
+
+D1′
+
+Ui D′
+
+1
+
+coMon(D1′ )
+
+(17)
+
+R′ ′
+D1 ,D2
+
+U′10
+
+0
+
+′
+D1 ,D2
+
+coSem(D0′ )
+
+Ur D ′
+
+0
+
+ˆ
+H
+0
+
+ˆ1 : coMon(D1 ) → coMon(D′ ) is a functor sending a cocommutative comonoid in D1
+where H
+1
+to a cocommutative comonoid in D1′ and this functor does exist since H1 is strict monoidal,
+ˆ2 : D2 /1 → D′ /1 is a functor of slice categories extending
+see [AM10, Proposition 3.38]. H
+2
+ˆ0 : coSem(D0 ) → coSem(D′ ) is defined similarly to H
+ˆ1 .
+H2 , which is also strict monoidal. H
+0
+Checking functoriality for 1-cells is routine.
+2. Let f1 , f2 : A → B be 1-cells and let ϕ : f1 ⇒ f2 be a 2-cell given by the following diagram:
+H2
+χ2
+
+D2
+
+D2′
+
+H′2
+
+U12
+
+F′2
+
+F2
+G
+F1
+
+D1
+
+τ
+
+C
+
+C′
+
+U′12
+F′1
+
+D1′
+
+G′
+U10
+
+F′0
+
+F0
+H0
+χ0
+
+D0
+
+U′10
+
+D0′
+
+H′0
+H1
+χ1
+
+D1
+
+H′1
+
+47
+
+D1′
+
+## PDF page 48
+
+so Kϕ : Kf1 ⇒ Kf2 is given by:
+ˆ
+H
+2
+
+D2′ /1
+
+χ
+ˆ
+2
+
+D2 /1
+
+ˆ
+′
+H
+2
+Ua ′
+D2
+
+Ua D
+2
+H2
+
+U12
+
+D2′
+
+χ2
+
+D2
+
+H′2
+
+F2
+
+U′12
+
+F′2
+
+G
+F1
+
+D1
+
+G′
+
+F′0
+
+F0
+
+U10
+
+F′1
+
+C′
+
+τ
+
+C
+
+U′10
+
+H0
+
+AD ,D
+1
+2
+
+H′0
+
+Ur D
+0
+
+Ur ′
+D0
+
+ˆ
+H
+0
+χ
+ˆ
+0
+
+coSem(D0 )
+
+A′ ′
+′
+D1 ,D2
+
+D0′
+
+χ0
+
+D0
+
+D1′
+
+coSem(D0′ )
+
+ˆ
+′
+H
+0
+H1
+
+D1′
+
+χ1
+
+D1
+
+H′1
+UiD
+1
+
+coSem(D0′ )
+
+coSem(D0 )
+
+RD ,D
+1
+0
+
+ˆ
+H
+1
+
+Ui ′
+D1
+R′ ′
+′
+D1 ,D0
+
+coMon(D1′ )
+
+χ
+ˆ
+1
+
+coMon(D1 )
+
+ˆ
+′
+H
+1
+
+3. We have got to define the counit and comultiplication and check the axioms of 2-comonad.
+The counit natural transformation ε : K ⇒ Id consists of the components εA : KA → A for
+A ∈ Fun(FCocteau, SymmMonCatstrict ) that take a diagram as in (16) and transforms it
+into a diagram as in (15) by the following diagram:
+coMon(D1 )
+UiD
+RD1 ,D0
+
+1
+
+U10
+
+coSem(D0 ) U
+
+r D0
+
+D0
+
+AD1 ,D2
+
+D1
+V12
+
+F1
+F0
+
+C
+
+F2
+
+D2 U
+
+C
+
+Ur D
+
+D0
+
+F1
+
+D1
+
+U10
+
+48
+
+D2 /1
+
+UaD
+
+0
+
+F0
+
+aD2
+
+F2
+
+U12
+
+D2
+
+2
+
+## PDF page 49
+
+We have already noticed above that KA is a 1-cell in Fun(FCocteau, SymmMonCatstrict ),
+εA is well-defined for each A.
+4. The comultiplication natural transformation δ : K ⇒ KK with the components δA : KA → KKA
+r
+i
+a
+for each A given by a quadruple of functors (δD
+, δD
+, δD
+, 1C ) making the below diagram
+0
+1
+2
+commute:
+UrD
+
+0
+
+coSem(D0 )
+
+F0
+
+D0
+
+F2
+
+C
+F1
+
+U10
+
+D2
+
+2
+
+D2 /1
+
+U12
+
+D1
+
+RD1 ,D0
+
+UaD
+
+AD1 ,D2
+
+Ui D
+
+1
+
+coMon(D1 )
+i
+δD
+r
+δD
+
+1
+a
+δD
+
+2
+
+coMon (D1 )
+
+0
+
+2
+
+UicoMon(D )
+1
+
+coMon(D1 )
+RcoMon(D ),coSem(D )
+1
+
+0
+
+AcoMon(D ),D /1
+1
+
+Ui D
+
+2
+
+1
+
+RD1 ,D0
+
+D1
+U10
+
+coSem2 (DU0 )
+
+coSem(D0 )
+
+r coSem(D )
+0
+
+UrD0
+
+AD1 ,D2
+
+D0
+
+U12
+
+F1
+
+C
+
+F0
+
+F2
+
+D2
+
+UaD
+
+D2 /1
+2
+
+Ua D /1
+
+D2 /1/1
+
+2
+
+r
+i
+where δD
+is comultiplication of the coSem-comonad from Lemma 5.3. δD
+: coMon(D1 ) →
+0
+1
+2
+a
+r
+coMon (D1 ) and δD
+:
+D
+/1
+→
+(D
+/1/)1
+are
+functors
+defined
+similarly
+to
+δ
+2
+2
+D0 . Let us show
+2
+that the above diagram commutes indeed.
+r
+i
+a
+i
+The morphisms δD
+, δD
+and δD
+are strict indeed: δD
+establishes an isomorphism between
+0
+1
+2
+1
+2
+coMon(D1 ) and coMon (D1 ) by [Mel09, Corollary 19] (and the same consideration is applir
+a
+is strict symmetric as it follows from Lemma 5.3.
+), whereas δD
+cable to δD
+0
+2
+
+So we take the diagram from (16), which is already commutative and precompose it with the
+forgeful functors coSem2 (D0 ) to coSem(D0 ), from coMon2 (D1 ) to coMon(D1 ) and from
+D2 /1/1 to D2 /1, so the resulting bigger triangle also commutes. Now consider the following
+square:
+RD1 ,D0
+
+coMon(D1 )
+
+coSem(D0 )
+r
+δD
+
+i
+δD
+
+0
+
+1
+
+coMon2 (D1 )R
+
+coMon(D1 ),coSem(D0 )
+
+coSem2 (D0 )
+
+that we unveil into the following diagram:
+coMon(D1 )
+i
+δD
+
+UirD1
+
+coSem(D1 )
+r
+δD
+
+Uir 2D
+
+coSem2 (D1 )
+1
+
+49
+
+coSem(D0 )
+r
+δD
+
+1
+
+1
+
+coMon2 (D1 )
+
+coSem(U10 )
+
+0
+
+coSem2 (U10 )
+
+coSem2 (D0 )
+
+## PDF page 50
+
+where Uir 2D1 is
+coMon2 (D1 )
+
+Uir coMon(D1 )
+
+coSem(coMon(D1 ))
+
+coSem(Uir D1 )
+
+coSem2 ((D1 ))
+
+The left-hand side square commutes immediately, whereas the right-hand side square commutes
+by Lemma 5.3. Checking that UirD1 , Uir 2D1 , coSem(U10 ) and coSem2 (U10 ) are 1-cells in
+SymmMonCatstrict is routine. The axioms of a 2-comonad follow from Theorem 5.3.
+
+Lemma 6.22. Let (C, !i , !r , !a , µir , µia ) be a Cocteau category. Then there is a K-coalgebra from
+the Eilenberg-Moore 2-category Fun(FCocteau, SymmMonCatstrict )K associated with C.
+Proof. As far as C is a Cocteau category, so, by Theorem 6.11, we have the following commutative
+diagram of left adjoints of the corresponding Cocteau adjunction:
+C !i
+r
+
+C !r
+
+C
+
+Rl
+
+(18)
+
+a
+
+Il
+
+C !a
+
+Al
+
+where r and a are also strict symmetric. Thus (18) is a 1-cell in Fun(FCocteau, SymmMonCatstrict ),
+that we will further denote as A. To make A a coalgebra, we have got to provide the coalgebra action
+hA : A → KA, which is given by:
+Rl
+
+C !r
+
+Al
+
+C
+Il
+
+r
+
+C !a
+a
+
+C !i
+∼
+=
+
+coMon(C !i )
+
+Vr C !r
+
+∼
+=
+
+∼
+=
+
+C !i
+
+R !
+
+C i ,C !r
+
+r
+
+coSem(C !r )
+
+Ur C !r
+
+C !r
+
+Il
+
+C
+
+Rl
+
+A !
+
+C i ,C !a
+
+a
+
+Al
+
+C !a
+
+∼
+=
+
+C !a /1
+
+The above diagram commutes indeed since C !i (C !a ) is already Cartesian (semicartesian) isomorphic
+to the category of its cocommutative comonoids (C !a /1) via the corresponding forgetful functor,
+whereas C !r is relevant by Lemma 6.7, so the forgetful functor Ur C !r has a strict section Vr C !r .
+The coalgebra conditions for hA follow from Theorem 5.4.
+Before formulating the final theorem, let us note that all the functors between Cocteau categories
+we consider are strict as monoidal functors, whereas in Theorem 6.18 all 1-cells are lax by default.
+So we formulate the following proposition refining that theorem:
+50
+
+## PDF page 51
+
+Proposition 6.23. Let C, D be SMCs and let S and T be symmetric lax monoidal comonads on
+C and D respectively. Let F : C → D be a symmetric lax monoidal functor inducing a comonad
+morphsim (C, S) → (D, T), then F is strict if and only if F : C S → DT is strict.
+In the above lemma, we associated a K-coalgebra with every Cocteau category. However, the
+2-category Fun(FCocteau, SymmMonCatstrict ) has too many triangles, so we take only those
+coalgebras whose functors F0 , F1 and F2 (the choice of names as in 15) admit right adjoints: since
+they might not exist apriori in a general case, but we need them unveil comonads from Cocteau
+categories. Let Fun(FCocteau, SymmMonCatstrict )K
+R denote such a 2-subcategory. Then we
+have the following.
+Theorem 6.24. Cocteau fully faithfully embeds to Fun(FCocteau, SymmMonCatstrict )K
+R.
+Proof. Let (C, !i , !r , !a , µir , µia ) be a Cocteau category. As it has been already discussed in Lemma 6.22,
+we have a K-coalgebra (C, hC ), where C is a 0-cell of Fun(FCocteau, SymmMonCatstrict ) as
+in (18). Let us fix that ICl , RCl and ACl (we will parametrise those functors with the underlying
+SMC further) already have right adjoints by Theorem 6.11 and this will allow us to stay within
+Fun(FCocteau, SymmMonCatstrict )K
+R all the time, so let us fix it here.
+Let us first show that a strict symmetric monoidal functor of Cocteau categories F ∈ Cocteau(C, D)
+extends to a coalgebra morphism F : (C, hC ) → (D, hD ), where (D, hD ) is a K-coalgebra obtained
+by applying Lemma 6.22 to D. In other words, we need to construct a 1-cell F : C → D in
+Fun(FCocteau, SymmMonCatstrict ) making the following square commute:
+C
+
+F
+
+D
+
+hC
+
+(19)
+
+hD
+
+KC
+
+KF
+
+KD
+
+F : C → D, in turn, is given by the following diagram:
+Fˆi
+
+C !a
+a
+
+AC
+l
+
+IC
+l
+
+C !i
+r
+
+ˆ
+F
+a
+
+′
+
+D !a
+a′
+
+AD
+l
+
+C
+
+F
+
+RD
+l
+
+RC
+l
+
+C
+
+D
+
+!r
+Fˆr
+
+D
+
+′
+
+D !i
+
+ID
+l
+r′
+
+!′r
+
+ˆa , F), where the Fˆr , F̂i and
+In other words, a 1-cell F is given by a quadruple of functors (Fˆr , F̂i , F
+ˆ
+Fa are functors of the corresponding Eilenberg-Moore categories obtained from the components of
+comonad morphisms Fr : F !r ⇒ !′r F, Fi : F !i ⇒ !′i F and Fa : F !a ⇒ !′a F respectively.
+Whereas KF : KC → KD is obtained by instantiating parameters properly in (17). However, it is
+
+51
+
+## PDF page 52
+
+could be useful the reader to have an explicit visualisation:
+
+coMon(Fˆi )
+′
+
+ˆ
+F
+a /1
+
+C !a /1
+
+D!a /1
+Ua
+
+Ua C !a /1
+A
+
+C !a
+a
+
+coMon(C !i )
+
+Ui C
+
+C !i
+
+AC
+l
+
+r
+
+a′
+
+AD
+l
+
+F
+
+′
+
+D
+
+D !i
+
+ID
+l
+
+RD
+l
+
+RC
+l
+
+Ui D
+
+coMon(D!i )
+
+(20)
+
+r′
+
+′
+
+ˆ
+F
+r
+
+C !r
+
+R
+
+A′
+
+′
+
+D !a
+
+Fˆi
+
+C
+
+IC
+l
+
+!′
+D a /1
+
+ˆ
+F
+a
+
+D !r
+Ur
+
+Ur C !r
+
+R′
+
+!′
+D r
+′
+
+coSem(C !r )
+
+coSem(D!r )
+ˆ
+coSem(F
+r)
+
+So we have a 1-cell given by a quadruple:
+ˆa )/1 ◦ Va C !a , F)
+(coSem(Fˆr ) ◦ Vr C !r , coMon(F̂i ) ◦ Vi C !i , (F
+
+(21)
+
+where Vi C !i and Va C !a are inverses to the forgetful functors Ui C !i and Ua C !a respectively.
+Vr C !i is also a coalgebra action, so the following diagrams commute in SymmMonCatstrict :
+Fˆr
+
+C !r
+
+′
+
+D !r
+Vr
+
+Vr C!i
+
+coSem(C !r )
+
+C !i
+!′
+D i
+′
+
+coSem(Fˆr )
+
+coSem(D!r )
+
+Fˆi
+
+′
+
+D !i
+
+Vi
+
+Vi C!i
+
+coMon(C !i )
+ˆ
+F
+a
+
+C !a
+
+!′
+D i
+′
+
+coMon(Fˆi )
+
+coMon(D!i )
+
+′
+
+D !a
+Va
+
+Va C!a
+
+!′
+D a
+
+′
+
+C !a /1
+
+D!a /1
+ˆ
+(F
+a )/1
+
+Therefore, we have:
+ˆa )/1 ◦ Va C !a , F) =
+KF̂ ◦ hC = (coSem(Fˆr ) ◦ Vr C !r , coMon(F̂i ) ◦ Vr C !r , (F
+ˆa , F) = F̂ ◦ hD
+(Vr D!′r ◦ Fˆr , Vi D!′i ◦ F̂i , Va D!′a ◦ F
+Checking that the mapping F ↦→ F̂ is functorial is immediate.
+Now let F, G ∈ Cocteau(C, D) and let θ : F ⇒ G be a 2-cell in Cocteau. One needs to construct
+a 2-cell θ̂ : F̂ ⇒ Ĝ in the 2-category Fun(FCocteau, SymmMonCatstrict )K
+R . As we have already
+showed above, F̂ and Ĝ are already 1-cells in Fun(FCocteau, SymmMonCatstrict )K
+R.
+
+52
+
+## PDF page 53
+
+So we first need to check that the following diagram commutes in SymmMonCatstrict :
+ˆ
+F
+a
+
+C
+a
+
+C
+
+ˆ
+θ
+a
+
+′
+
+D !a
+
+ˆ
+G
+a
+AC
+l
+
+AD
+l
+F
+
+IC
+l
+
+!i
+
+!a
+
+C
+
+θ
+
+U′12
+
+ID
+l
+
+D
+
+′
+
+D !i
+
+G
+r
+
+(22)
+
+RD
+l
+
+RC
+l
+
+U′10
+
+ˆ
+F
+r
+
+C !r
+
+ˆ
+θ
+r
+
+′
+
+D !r
+
+ˆ
+G
+r
+Fˆi
+
+C !i
+
+′
+
+D !i
+
+θˆi
+ˆi
+G
+
+ˆs for s ∈ {i, r, a} are the induced functors of the Eilenberg-Moore categories given
+where Fˆs and G
+as follows for (A, hA ) ∈ C !s :
+Fˆs : (A, hA ) ↦→ (FA, FsA ◦ hA )
+ˆ
+Gs : (A, hA ) ↦→ (GA, GsA ◦ hA )
+ˆs are strict symmetric since F and G are. Further, the following square (and the
+and both Fˆs and G
+corresponding ones for r and a):
+F
+
+C
+
+θ
+
+D
+
+G
+ID
+l
+
+IC
+l
+Fˆi
+
+C !i
+
+θ
+
+′
+
+D!i
+
+Ĝi
+
+commutes by Theorem 6.18 and Proposition 6.23, so does (22). Checking that (22) respects the
+structure of K-coalgebras is routine. The C be a 2-functor mapping each Cocteau category to the
+coalgebra (C, hC ). To complete the proof of the theorem we must show that The functor C : C ↦→
+is fully faithful on 1-cells and 2-cells. Let (C, !i , !r , !a , µir , µia ) and (D, !′i , !′r , !′a , µ′ir , µ′ia ) be Cocteau
+categories and let F, G : C → D be 1-cells in Cocteau such that C(F) = C(G).
+We need F = G as the equality of 1-cells in Cocteau, that is, the equality of underlying functors
+F, G : C → D as well as the equality of the induced symmetric monoidal comonad morphisms.
+ˆr and
+C(F) = C(G), in turn, means, the following equalities are the case: F = G, F̂i = Ĝi , F̂r = G
+ˆa . The equality F = G is already satisfied, whereas we have Fs = Gs for s ∈ {i, r, a} by
+F̂a = G
+Theorem 6.18.
+Let C and D be a Cocteau categories, so we have coalgebras (C, hC ) and (D, hD ) as in Lemma 6.22.
+Let F : C → D be a coalgebra morphism. As a 1-cell in Fun(FCocteau, SymmMonCatstrict ), F
+
+53
+
+## PDF page 54
+
+is given as follows.
+F1
+F2
+
+C !a
+a
+
+F
+
+C
+
+r
+
+C
+
+a′
+
+A′l
+
+Al
+Il
+
+C !i
+
+′
+
+D!a
+I′l
+
+D
+
+Rl
+
+R′l
+
+!r
+
+!′r
+
+D
+
+F0
+
+′
+
+D!i
+
+(23)
+
+r′
+
+We must show that F provides a 1-cell in Cocteau, that is, F satisfies Definition 6.17. Consider the
+case of exponential and relevant comonads, the affine part is considered similarly.
+First of all, the following square commutes:
+F0
+
+C !r
+
+′
+
+D!r
+R′l
+
+Rl
+F
+
+C
+
+D
+
+so, by Theorem 6.18, Proposition 3.22 and Proposition 6.23, we have a symmetric lax monoidal
+ˆ0 : F !r ⇒ !′ F induced by F0 . So
+ˆ0 ) : (C, !r ) ⇒ (D, !′ ) with the component F
+comonad morphism (F, F
+r
+r
+ˆ0 . Similarly, we get Fi := F
+ˆ1 and Fa := F
+ˆ2 .
+we let Fr := F
+Let us check the rest of the conditions.
+1. Let us check that (13) is satisfied.
+On the one hand, we have the following left morphism of adjunctions:
+C !i
+
+F1
+
+′
+
+D!i
+
+r′
+
+′
+
+D !r
+
+I′l
+
+Il
+
+C
+
+R′l
+
+D
+
+F
+
+D
+
+which gives us the comonad morphism µ′ir F ◦ Fi by Theorem 6.18, Proposition 3.22 and Proposition 6.23.
+On the other hand, we have:
+C !i
+Il
+
+r
+
+C !r
+
+F0
+
+R′l
+
+Rl
+
+C
+
+C
+
+54
+
+′
+
+D !r
+
+F
+
+D
+
+## PDF page 55
+
+which, in turn, induces the comonad morphism Fr ◦ Fµir by the same statements. Finally, the
+following square
+F1
+
+C !i
+
+′
+
+D!i
+
+r′
+
+r
+
+′
+
+C !r
+
+D !r
+
+F0
+
+commutes by (23), and, thus, the composites Fr ◦ Fµir and µ′ir F ◦ Fi are equal.
+′
+2. Now let us check that the functor Fˆr : C !r → D!r (which coincides with F0 ) preserves diagonals.
+The following square already commutes by the condition that F is a K-coalgebra morphism:
+
+′
+
+F
+
+C !r
+
+D !r
+(24)
+
+Vr D !r
+
+Vr C!r
+
+coSem(C !r )
+
+′
+
+coSem(F0 )
+
+coSem(D!r )
+
+Let us discuss what each of the composites does. Let (A, hA ) be a coalgebra in C !r . Then we
+′
+have a coalgebra (FA, FrA ◦ F(hA )) in D!r . Finally, we endow the (FA, FrA ◦ F(hA )) with the
+uniform cloning operation γFA : FA → FA ⊗ FA as follows:
+FA
+
+F(hA )
+
+F(!r A)
+
+FrA
+
+!′r FA
+
+c′r
+FA
+
+!′r FA ⊗ !′r FA
+
+εrFA ⊗εrFA
+
+FA ⊗ FA
+
+(25)
+
+On the other hand, we take (A, hA ) in C !r and endow it with the uniform cloning operation
+γA as follows:
+A
+
+hA
+
+!r A
+
+crA
+
+!r A ⊗ !r A
+
+εrA ⊗εrA
+
+A⊗A
+′
+
+Further, we take a cosemigroup (A, hA , γA ) and transform it to a cosemigroup in D!r as follows.
+The carrier is a coalgebra (FA, FrA ◦ F(hA )) with the uniform cloning operation F(γA ). But
+F(γA ) = γFA by (24).
+3. Let us show that C is full and faithful on 2-cells. Let G, H : C → D be functors of Cocteau
+categories satisfying Definition 6.17 and let θ, θ′ : G ⇒ H be natural transformations such that
+θ, θ′ ∈ Cocteau(G, H) and C(θ) = C(θ′ ). We need θ and θ′ to equal as 2-cells in Cocteau.
+C(θ) = C(θ′ ) means that there are the following equalities already satisfied. We have θ = θ′ as
+the equality of 2-cells in SymmMonCatstrict . And we also have θˆi = θˆi′ , θˆr = θˆr′ and θˆa = θˆa′ .
+But we conclude θi = θi′ , θr = θr′ and θa = θa′ from Theorem 6.18 proving that all those θ’s
+are symmetric lax monoidal comonad transformations.
+The faithfulness part is slightly more complicated. Let (C, !i , !r , !a , µir , µia ) and (D, !′i , !′r , !′a , µ′ir , µ′ia )
+be Cocteau categories and let F, G ∈ Cocteau(C, D), so F and G induce coalgebra morphisms
+F, G : (C, hC ) → (D, hD ) and let θ : F ⇒ G be a 2-cell in Fun(FCocteau, SymmMonCatstrict )
+
+55
+
+## PDF page 56
+
+given as follows:
+Fˆi
+
+C
+
+!i
+
+′
+
+D !i
+
+θi
+Ĝi
+ˆ
+F
+a
+
+C !a
+a
+
+′
+
+D !a
+
+θa
+ˆ
+G
+a
+
+A′l
+
+Al
+F
+
+C
+
+Il
+
+!i
+
+C
+
+D
+
+θ
+
+a′
+
+I′l
+
+(26)
+′
+
+D !i
+
+G
+r
+
+R′l
+
+Rl
+
+r′
+
+Fˆr
+
+C !r
+
+′
+
+D !r
+
+θr
+ˆr
+G
+
+Apriori θ is a 2-cell in SymmMonCat, but we have got to show that θ provides a 2-cell in
+Cocteau. First of all, consider the following diagram:
+Fˆr
+
+C
+
+!r
+
+θr
+ˆr
+G
+
+Rl
+
+′
+
+D !r
+R′l
+
+(27)
+
+F
+
+C
+
+θ
+
+D
+
+G
+
+We already know that F and G are equipped with symmetric lax monoidal comonad morphisms
+(F, Fs ) : (C, !s ) → (D, !′s ) and (G, Gs ) : (C, !s ) → (D, !′s ) respectively with the components
+Fs : F !s ⇒ !′s F and Gs : G !s ⇒ !′s G for s ∈ {i, r, a}. By Theorem 6.18, Proposition 3.22
+and Proposition 6.23, therefore θ induces symmetric lax monoidal comonad morphism transformation (F, Fs ) ⇒ (G, Gs ). To finally check (14), observe that the following square already
+commutes by (26):
+Fˆi
+
+C
+
+!i
+
+θi
+
+′
+
+D !i
+
+Ĝi
+r′
+
+r
+Fˆr
+
+C
+
+!r
+
+θr
+ˆr
+G
+
+56
+
+′
+
+D!r
+
+(28)
+
+## PDF page 57
+
+Now consider the following prism:
+Fˆi
+
+C
+
+!i
+
+′
+
+D!i
+
+θˆi
+IC
+l
+
+ID
+l
+
+Ĝi
+F
+
+C
+
+r
+
+G
+
+RC
+l
+
+D
+
+r′
+
+θ
+
+(29)
+
+RD
+l
+
+Fˆr
+
+C !r
+
+′
+
+D !r
+
+θˆr
+ˆr
+G
+
+where laterial triangles commute since C and D induce Cocteau adjunctions by Theorem 6.11,
+the front square already commutes since it is (28), whereas the other two squares commute by
+the condition as well. Thus, we conclude that (14) by applying Theorem 6.18, Proposition 3.22
+and Proposition 6.23.
+
+7
+
+Further Work
+
+There are several question that we would like to leave for further investigation.
+As regards proof theory, we have proved the strong normalisation property the β-reduction
+relation only, but the strong normalisation for all proof normalisation rules is a problem requiring
+separate research. We conjucture that one can develop a technique from [Tro95, §8] or [Tro92, §21].
+In Theorem 6.24, we fully faithfully embedded the category of Cocteau categories to the 2category of functors and thier lax natural transformations, but this technique might require a further
+generalisation for an arbitrary subexponential signature and the category of all assemblages.
+[Hos07] introduces relational linear combinatory algebras, that is, linear combinatory algebras
+equipped with a comonadic applicative endomorphism allowing one to construct linear-non-linear
+adjunctions between assemblies over a BCI-algebra and a partial combinatory algebra and, thus, describe realisability semantics for intuitionistic linear logic. Developing the realisability interpretation
+for SILL(λ)3 warrant further research.
+[Hos07], developing some ideas from [AHS02] introduces linear combinatory and relational linear
+combinatory algebras, that is, linear combinatory algebras equipped with a comonadic applicative
+endomorphism allowing one to construct linear-non-linear adjunctions between assemblies over a
+BCI-algebra and a partial combinatory algebra and, thus, describe realisability semantics for intuitionistic linear logic. Developing the realisability interpretation for SILL(λ)3 warrant further
+research since the realisability semantics would refine the computational motivation standing behind subexponentials.
+We have been investigating simply typed linear lambda calculi with subexponential types, but
+the determing of whether expanding dependent linear type theory in the fashion of, say, [Vák14]
+with subexponentials is of interest as well, but it also deserves a separate and thorough research.
+
+57
+
+## PDF page 58
+
+8
+
+Acknowledgements
+
+The author is sincerely grateful to Grigory Kondyrev for providing quite a few insightful and original
+ideas and for inspiring the author to revise his approach in many aspects. The author is also thankful
+to Anton Ayzenberg, Murdoch James Gabbay, Andrei Krutikov and Nikita Repeev for remarks
+improving the ideas of the paper. The author also thanks Stepan Kuznetsov and Andre Scedrov for
+the initial impulse resulted in this research.
+
+References
+[AHS02]
+
+Samson Abramsky, Esfandiar Haghverdi, and Philip Scott. Geometry of interaction and linear combinatory algebras. Mathematical Structures in Computer Science,
+12(5):625–665, 2002.
+
+[AM10]
+
+Marcelo Aguiar and Swapneel Arvind Mahajan. Monoidal functors, species and Hopf
+algebras, volume 29. Citeseer, 2010.
+
+[AR94]
+
+J. Adamek and J. Rosicky. Locally Presentable and Accessible Categories. London
+Mathematical Society Lecture Note Series. Cambridge University Press, 1994.
+
+[AT11]
+
+Samson Abramsky and Nikos Tzevelekos. Introduction to categories and categorical
+logic. New structures for physics, pages 3–94, 2011.
+
+[BBDPH93a] Nick Benton, Gavin Bierman, Valeria De Paiva, and Martin Hyland. Linear λ-calculus
+and categorical models revisited. In Computer Science Logic: 6th Workshop, CSL’92
+San Miniato, Italy, September 28–October 2, 1992 Selected Papers 6, pages 61–84.
+Springer, 1993.
+[BBDPH93b] Nick Benton, Gavin Bierman, Valeria De Paiva, and Martin Hyland. A term calculus
+for intuitionistic linear logic. In Typed Lambda Calculi and Applications: International
+Conference on Typed Lambda Calculi and Applications TLCA’93 March, 16–18, 1993,
+Utrech, The Netherlands Proceedings 1, pages 75–90. Springer, 1993.
+[BBN+ 17]
+
+Jean-Philippe Bernardy, Mathieu Boespflug, Ryan R Newton, Simon Peyton Jones,
+and Arnaud Spiwack. Linear haskell: practical linearity in a higher-order polymorphic
+language. Proceedings of the ACM on Programming Languages, 2(POPL):1–29, 2017.
+
+[Bek00]
+
+Tibor Beke. Sheafifiable homotopy model categories. In Mathematical Proceedings of
+the Cambridge Philosophical Society, volume 129, pages 447–475. Cambridge University Press, 2000.
+
+[Ben94]
+
+Nick Benton. A mixed linear and non-linear logic: Proofs, terms and models. In
+International Workshop on Computer Science Logic, pages 121–135. Springer, 1994.
+
+[Ben95]
+
+Peter N Benton. Strong normalisation for the linear term calculus. Journal of functional programming, 5(1):65–80, 1995.
+
+[Bie94]
+
+G.M. Bierman. On intuitionistic linear logic. Technical Report UCAM-CL-TR-346,
+University of Cambridge, Computer Laboratory, August 1994.
+
+[Bor94a]
+
+Francis Borceux. Handbook of categorical algebra: Categories and structures, volume 1.
+Cambridge University Press, 1994.
+58
+
+## PDF page 59
+
+[Bor94b]
+
+Francis Borceux. Handbook of categorical algebra: Categories and structures, volume 2.
+Cambridge University Press, 1994.
+
+[Bra21]
+
+Edwin Brady. Idris 2:
+arXiv:2104.00480, 2021.
+
+[BW00]
+
+Michael Barr and Charles Wells. Toposes, triples, and theories. Springer-Verlag, 2000.
+
+[Cur05]
+
+Pierre-Louis Curien. Introduction to linear logic and ludics, Part I. arXiv preprint
+cs/0501035, 2005.
+
+[DJS93]
+
+Vincent Danos, Jean-Baptiste Joinet, and Harold Schellinx. The structure of exponentials: Uncovering the dynamics of linear logic proofs. In Computational Logic and
+Proof Theory: Third Kurt Gödel Colloquium, KGC’93 Brno, Czech Republic, August
+24–27, 1993 Proceedings 3, pages 159–171. Springer, 1993.
+
+[EGHK18]
+
+Patrik Eklund, J Gutiérrez Garcı́a, Ulrich Höhle, and Jari Kortelainen. Semigroups
+in complete lattices. Quant. Modul. Related Topics, 54, 2018.
+
+[EGNO15]
+
+Pavel Etingof, Shlomo Gelaki, Dmitri Nikshych, and Victor Ostrik. Tensor categories,
+volume 205. American Mathematical Soc., 2015.
+
+[EH62]
+
+Beno Eckmann and Peter J Hilton. Group-like structures in general categories i
+multiplications and comultiplications. Mathematische Annalen, 145(3):227–255, 1962.
+
+[Fox76]
+
+Thomas Fox. Coalgebras and cartesian categories.
+4(7):665–667, 1976.
+
+[Gir72]
+
+Jean-Yves Girard. Interprétation fonctionnelle et élimination des coupures de
+l’arithmétique d’ordre supérieur. 1972.
+
+[Gir87]
+
+Jean-Yves Girard. Linear logic. Theoretical computer science, 50(1):1–101, 1987.
+
+[Gir11]
+
+Jean-Yves Girard. The Blind Spot: lectures on logic. European Mathematical Society,
+2011.
+
+[Har13]
+
+Robin Hartshorne. Algebraic geometry, volume 52. Springer Science & Business Media,
+2013.
+
+[HM25]
+
+Eliès Harington and Samuel Mimram. ∞-categorical models of linear logic. In 10th International Conference on Formal Structures for Computation and Deduction (FSCD
+2025), pages 23–1. Schloss Dagstuhl–Leibniz-Zentrum für Informatik, 2025.
+
+[Hod93]
+
+Wilfrid Hodges. Model theory. Cambridge University Press, 1993.
+
+[Hos07]
+
+Naohiko Hoshino. Linear realizability. In International Workshop on Computer Science Logic, pages 420–434. Springer, 2007.
+
+[HV19]
+
+Chris Heunen and Jamie Vicary. Categories for Quantum Theory: an introduction.
+Oxford University Press, 2019.
+
+[Jac94]
+
+Bart Jacobs. Semantics of weakening and contraction. Annals of pure and applied
+logic, 69(1):73–106, 1994.
+
+Quantitative type theory in practice.
+
+59
+
+arXiv preprint
+
+Communications in Algebra,
+
+## PDF page 60
+
+[JY21]
+
+Niles Johnson and Donald Yau. 2-dimensional categories. Oxford University Press,
+USA, 2021.
+
+[Kal20]
+
+Dmitry Borisovich Kaledin. Adjunction in 2-categories. Russian Mathematical Surveys, 75(5):883, 2020.
+
+[Kel06]
+
+G Max Kelly. Doctrinal adjunction. In Category Seminar: Proceedings Sydney Category Theory Seminar 1972/1973, pages 257–280. Springer, 2006.
+
+[KKNS19]
+
+Max Kanovich, Stepan Kuznetsov, Vivek Nigam, and Andre Scedrov. Subexponentials in non-commutative linear logic. Mathematical Structures in Computer Science,
+29(8):1217–1249, 2019.
+
+[KKS17]
+
+Max Kanovich, Stepan Kuznetsov, and Andre Scedrov. Undecidability of the lambek
+calculus with subexponential and bracket modalities. In International Symposium on
+Fundamentals of Computation Theory, pages 326–340. Springer, 2017.
+
+[KS06]
+
+G Max Kelly and Ross Street. Review of the elements of 2-categories. In Category
+Seminar: Proceedings Sydney Category Theory Seminar 1972/1973, pages 75–103.
+Springer, 2006.
+
+[Lac05]
+
+Stephen Lack. Limits for lax morphisms. Applied Categorical Structures, 13:189–203,
+2005.
+
+[Lac09]
+
+Stephen Lack. A 2-categories companion. In Towards higher categories, pages 105–191.
+Springer, 2009.
+
+[Laf88]
+
+Yves Lafont. The linear abstract machine. Theoretical Computer Science, 59:157–180,
+1988.
+
+[LS88]
+
+Joachim Lambek and Philip J Scott. Introduction to higher-order categorical logic,
+volume 7. Cambridge University Press, 1988.
+
+[Lur09]
+
+Jacob Lurie. Higher topos theory. Princeton University Press, 2009.
+
+[Mel09]
+
+Paul-André Melliès. Categorical semantics of linear logic. Panoramas et syntheses,
+27:15–215, 2009.
+
+[Mel22]
+
+Paul-André Melliès. A functorial excursion between algebraic geometry and linear
+logic. In Proceedings of the 37th Annual ACM/IEEE Symposium on Logic in Computer
+Science, pages 1–13, 2022.
+
+[ML13]
+
+Saunders Mac Lane. Categories for the working mathematician, volume 5. Springer
+Science & Business Media, 2013.
+
+[MP89]
+
+Mihály Makkai and Robert Paré. Accessible Categories: The Foundations of Categorical Model Theory: The Foundations of Categorical Model Theory, volume 104.
+American Mathematical Soc., 1989.
+
+[MSWW23]
+
+Lachlan McPheat, Mehrnoosh Sadrzadeh, Hadi Wazni, and Gijs Wijnholds. Categorical vector space semantics for Lambek calculus with a relevant modality. Compositionality, 5, 2023.
+
+60
+
+## PDF page 61
+
+[MT07]
+
+Paul-André Melliès and Nicolas Tabareau. Resource modalities in game semantics.
+In 22nd Annual IEEE Symposium on Logic in Computer Science (LICS 2007), pages
+389–398. IEEE, 2007.
+
+[MT10]
+
+Paul-André Melliès and Nicolas Tabareau. Resource modalities in tensor logic. Annals
+of Pure and Applied Logic, 161(5):632–653, 2010.
+
+[NM09]
+
+Vivek Nigam and Dale Miller. Algorithmic specifications in linear logic with subexponentials. In Proceedings of the 11th ACM SIGPLAN conference on Principles and
+practice of declarative programming, pages 129–140, 2009.
+
+[NOP17]
+
+Vivek Nigam, Carlos Olarte, and Elaine Pimentel. On subexponentials, focusing and
+modalities in concurrent systems. Theoretical Computer Science, 693:35–58, 2017.
+
+[OPN15]
+
+Carlos Olarte, Elaine Pimentel, and Vivek Nigam. Subexponential concurrent constraint programming. Theoretical Computer Science, 606:98–120, 2015.
+
+[Pet02]
+
+Zoran Petrić. Coherence in substructural categories. Studia Logica, 70(2):271–296,
+2002.
+
+[Poi22]
+
+Laurent Poinsot. Multipliers of a semigroup object in a monoidal category. arXiv
+preprint arXiv:2206.01416, 2022.
+
+[Por08]
+
+Hans-E Porst. On categories of monoids, comonoids, and bimonoids. Quaestiones
+Mathematicae, 31(2):127–139, 2008.
+
+[rel]
+
+Relevance monoidal categories.
+https://ncatlab.org/nlab/show/relevance+
+monoidal+category. Accessed: 05.06.2025.
+
+[Rie17]
+
+Emily Riehl. Category theory in context. Courier Dover Publications, 2017.
+
+[Ros90]
+
+Kimmo I. Rosenthal. Quantales and their applications. Longman Scientific & Technical, Essex, 1990.
+
+[RV16]
+
+Emily Riehl and Dominic Verity. Homotopy coherent adjunctions and the formal
+theory of monads. Advances in Mathematics, 286:802–888, 2016.
+
+[See87]
+
+Robert AG Seely. Linear logic,*-autonomous categories and cofree coalgebras. Ste.
+Anne de Bellevue, Quebec: CEGEP John Abbott College, 1987.
+
+[Shu08]
+
+Michael A Shulman. Set theory for category theory. arXiv preprint arXiv:0810.1279,
+2008.
+
+[Str72]
+
+Ross Street. The formal theory of monads. Journal of Pure and Applied Algebra,
+2(2):149–168, 1972.
+
+[SU06]
+
+Morten Heine Sørensen and Pawel Urzyczyn. Lectures on the Curry-Howard isomorphism. Elsevier, 2006.
+
+[Tro92]
+
+Anne Sjerp Troelstra. Lectures on Linear Logic. Center for the Study of Language
+and Information Publications, 1992.
+
+[Tro95]
+
+Anne Sjerp Troelstra. Natural deduction for intuitionistic linear logic. Annals of pure
+and applied logic, 73(1):79–108, 1995.
+61
+
+## PDF page 62
+
+[Vák14]
+
+Matthijs Vákár. Syntax and semantics of linear dependent types. arXiv preprint
+arXiv:1405.0033, 2014.
+
+[Wad90]
+
+Philip Wadler. Linear types can change the world! In Programming concepts and
+methods, volume 3, page 5. North-Holland, Amsterdam, 1990.
+
+[Wal05]
+
+David Walker. Substructural type systems. Advanced topics in types and programming
+languages, pages 3–44, 2005.
+
+[Yet90]
+
+David N Yetter. Quantales and (noncommutative) linear logic. The Journal of Symbolic Logic, 55(1):41–64, 1990.
+
+[Zag17]
+
+Dimitri Zaganidis. Classifiers for monad morphisms and adjunction morphisms. Theory and Applications of Categories, 32(31):1050–1097, 2017.
+
+[Zwa24]
+
+Colin Zwanziger.
+The natural display topos of coalgebras.
+arXiv:2405.00498, 2024.
+
+62
+
+arXiv preprint

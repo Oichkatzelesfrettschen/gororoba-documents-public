@@ -1,0 +1,924 @@
+Source: https://arxiv.org/abs/2401.11986v2
+PDF sha256: c720c8227de215926d01de4dccc404556874628706cf73fe3ff1dc7c4fa6272c
+License: http://creativecommons.org/licenses/by/4.0/
+Language: eng
+Fidelity: machine-gated
+
+# Transcription of arxiv_2401.11986v2_quadrature_microwave_antenna_nv_ensembles.pdf
+
+Transcription of `arxiv_2401.11986v2_quadrature_microwave_antenna_nv_ensembles.pdf` in this directory, 12 pages; each `## PDF page` heading marks a page of the PDF.
+
+Method: no page was sent to OCR; pages 1-12 from the PDF's own text layer (pdftotext version 26.01.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+
+## PDF page 1
+
+Versatile quadrature antenna for precise control of large
+electron spin ensembles in diamond
+
+arXiv:2401.11986v2 [physics.ins-det] 29 Jan 2024
+
+Ruben Pellicer-Guridi1,2 , Koen Custers3,4 , Joseba Solozabal-Aldalur1 , Alexey Brodolin2 ,
+Jason T. Francis1 , Miguel Varga1 , Jorge Casanova5,6 , Margarethus M. Paulides4,7 , and
+Gabriel Molina-Terriza1,8
+1
+
+Centro Física de Materiales, Donostia-San Sebastián, Spain.
+
+2
+
+Donostia International Physics Center, Donostia-San Sebastián, Spain.
+
+3
+
+Medical Image Analysis, Dept. Biomedical Engineering, Eindhoven University of Technology, Eindhoven, Netherlands
+
+4
+
+Care&Cure Lab of the Electromagnetics Group (EM4C&C), Dept. Electrical Engineering, Eindhoven University of Technology,
+Eindhoven, The Netherlands.
+
+5
+
+EHU Quantum Center, Univeristy of the Basque Country UPV/EHU, Leioa, Spain.
+
+6
+
+Department of Physical Chemistry, University of Basque Country UPV/EHU, Bilbao, Spain.
+
+7
+
+Dept. Radiotherapy, Cancer Institute, Erasmus University Medical Center, Rotterdam, The Netherlands.
+
+8
+
+IKERBASQUE, Basque Foundation for Science, Bilbao, Spain
+
+ble sided PCB, are provided open-source.
+This work facilitates a robust and versatile piece of instrumentation, being particularly appealing for applications such as
+high sensitivity magnetometry and wide
+field imaging/sensing with Nitrogen Vacancy centers.
+
+We present an easily reproducible inexpensive microwave antenna that can generate a strong and homogeneous magnetic
+field of arbitrary polarization, which enables fast and coherent control of electron
+spins over a large volume. Unlike preceding works, we present a resonant antenna
+that maintains its resonant behaviour regardless of the proximity of other experimental hardware components. This robustness is crucial as it enables, amongst
+others, using microscope objectives with
+short working distances to perform wide
+field imaging/sensing with bulk diamonds.
+The antenna generates a magnetic field
+strength of 22.3 A/m for 1 W total driving
+power, which doubles the power efficiency
+compared with previously reported patch
+antenna designs. The magnetic field homogeneity in a volume of 0.3mm3 , 0.5mm3
+and 1mm3 is within 6%, 8% and 13%, respectively. The antenna has a full width
+at half maximum bandwidth of ∼160 MHz
+and its resonant frequency can be tuned
+over a 400 MHz range via four capacitors or varactors. The antenna has been
+tested and found to remain within safe
+handling temperatures during continuouswave operation at 8 W. The files required
+to reproduce this antenna, which can be
+built on a standard and affordable dou-
+
+1 Introduction
+Nitrogen vacancy (NV) centers in diamond have
+emerged as a promising platform for quantum
+sensing due to their exceptional properties, such
+as long coherence times even at room temperature, high sensitivity, and nanoscale spatial resolution. They have been used to detect various physical quantities, including magnetic and
+electric fields, temperature, and strain [1]. Furthermore, their robustness, wide working temperature range and optical addressability make
+them attractive candidates for practical applications in diverse fields such as materials science,
+biomedicine, and fundamental physics [1, 2, 3].
+NV centers are atomic-scale defects consisting
+of a nitrogen atom adjacent to a vacant lattice
+site, or vacancy, in the crystal structure of diamond. These defects can exist in three electronic
+states: neutral (NV0 ), positively charged (NV+ ),
+and negatively charged (NV− ). The latter is the
+most explored due to its remarkable optical and
+spin properties [4]. The NV− state is at the core
+1
+
+## PDF page 2
+
+of this work and will be referred to as NV center
+during the rest of this manuscript. In this configuration, a valence electron and an extra electron form a spin pair S = 1. This free electron
+pair holds a spin triplet with state ms = 0, +1 or
+−1. The energies of the spin states are sensitive
+to external influences. Additionally, contrary to
+most quantum systems, this spin has long coherence times at room temperature, making it one of
+the most prominent cryogenic free quantum platforms.
+The initialization, control and readout of
+NV centers in diamond using laser and microwave (MW) techniques are fundamental processes in harnessing their quantum properties. A
+widespread NV center spin controlling approach
+is to use a green laser pulse to initialize the electron spin to its ms = 0 state through a preferred
+decay pathway from the excited state, as visualized in Figure 1. If this decay is spin conserving, which is the most likely case for the ms = 0
+state, a photon is emitted predominantly in the
+600-800 nm spectral range. On the other hand,
+the excited ms = ±1 states may not decay back
+to the same spin state, but they can decay to the
+ground ms = 0 state through another path with
+a probability of around 30%, emitting photons
+with 1042 nm wavelength [5]. Thereby, this pathway allows for both initialising and inferring the
+state of NV centers. Thanks to the Zeeman effect, in the presence of an external magnetic field
+the ms = ±1 spin states are energetically separated. This energy gap between the electron spin
+states enables the manipulation of spin states into
+an arbitrary superposition with ms = 0, +1 and
+−1 by means of microwave (MW) fields. The energy gap between the three electron spin states
+depends on the external magnetic field. As a
+consequence, the necessary microwave frequency
+to excite the ms = 0 ⇐⇒ ±1 transitions also
+changes, as shown in Figure 1.
+By considering only the effects of the external
+magnetic field, the electron spin Hamiltonian can
+be simplified to
+⃗ · Ŝ,
+H = DSz2 − γe B
+
+Figure 1: Simplified energy level structure and transitions of the NV− center. A green laser induces a spin
+conserving transition from the ground state to the excited state. ∼30 % of the times the ms = ±1 spin
+states decay to the ms = 0 state and do not emit red
+fluorescence. The ms = ±1 spins states are degenerate
+in the absence of an external magnetic field.
+
+ence of an electric field [6]. Strain modifies the
+crystal lattice structure of the diamond, which in
+turn also alters the energy levels and transition
+frequencies of the NV center [6]. Fluctuations
+in temperature variations can also cause shifts in
+the energy levels and transition frequencies of NV
+centers over time [6].
+Working near the degeneracy conditions of the
+ms = ±1 states, e.g., without an externally provided bias magnetic field [7], hinders spin control
+as linearly polarized MW fields cannot address
+the ms = ±1 states individually without introducing strong constraints in pulse sequences [8].
+Conversely, circularly polarized MW fields can
+act selectively on ms = +1 or ms = −1 states
+depending on the direction of the polarization [9].
+In this context, the design and the characteristics of the microwave antenna used for NV center
+experiments play a crucial role in achieving efficient and precise manipulation of the NV center’s
+spin states. Factors such as the antenna geometry, polarization, and power distribution should
+be optimized to maximize the coupling efficiency
+between the antenna and the NV center, ensuring
+effective spin manipulation. Large ensembles of
+NV centers can be advantageous for several applications, i.e. vector magnetometry determining
+both direction and magnitude of magnetic fields
+simultaneously [10], parallel sensing in different
+spatial locations for imaging applications [11], improving measurement sensitivity by averaging the
+
+(1)
+
+where D = 2.87 GHz is the zero-field splitting
+parameter, Ŝ is the vector of spin operators and
+γe = 2.8 MHz/G is the gyro-magnetic ratio of the
+electron [6]. Another effect that influences the
+NV energy gap is the Stark effect under the pres2
+
+## PDF page 3
+
+tric constant has been proposed
+√ which achieves a
+Rabi frequency of 3.9 MHz/ W, a full width at
+half maximum bandwidth (FWHM) of 140 MHz
+at 2.67 GHz, and an excellent theoretical inhomogeneity of 4% (reported as standard deviation)
+over a cylindrical volume of 5.9mm3 (measured
+∼ 7.3% over 0.45mm3 )[26]. This design allows
+ample optical access from both axial sides, but is
+limited by design to a fixed resonant frequency
+and a fixed polarity of the circular polarization.
+Moreover, its robustness against detuning due to
+nearby elements has not been reported. This
+last caveat is common in resonant antennas [25]
+[19]. A typical example is given in [25], showing a
+strong shift in the resonant frequency of ∼70 MHz
+due to the position of an objective lens. Yet, this
+planar antenna concept has very appealing properties such as an actively re-tunable resonant frequency and a seamless reproducibility with standard PCB materials and manufacturing processes
+[25]. This previous reference work featured 165
+MHz FWHM,
+and enabled a Rabi frequency of
+√
+0.8 MHz/ W [25]. To the best of our knowledge,
+no resonant microwave antenna capable of generating circular polarization has been reported that
+is robust against external hardware components
+commonly employed with NV center setups.
+
+responses of multiple NV centers [12], NMR spectroscopy with NV ensembles [13], etc. However,
+ensemble sensing requires addressing multiple NV
+centers simultaneously with the same microwave
+field. This is a technical challenge requiring microwave antenna designs with reduced inhomogeneity over a large volume in the diamond.
+When employing single NV centers it is a common practice to use a simple straight wire or a
+loop as source for the MW fields, which can enable very fast spin control due to the high magnetic fields they generate when placed in very
+close proximity to the NV centers. However,
+these antennas are not suitable to control NV ensembles as they generate very different MW conditions for distinct NVs because the MW fields
+they generate possess large spatial variations.
+Furthermore, it is more difficult to achieve orthogonality between the MW magnetic field and
+that of the external static one at the location of
+the NV center [14], [15].
+A diversity of microwave antennas have been
+proposed to address these homogeneity limitations. Many of the existing works limit to generating linearly polarized fields [16, 17, 18, 19, 20].
+Several approaches have been proposed capable of generating circularly polarized MW magnetic fields but with reduced field homogeneity. A
+pair of wires aligned either orthogonally or perpendicularly has been used to generate circularly
+polarized magnetic fields. Such designs based on
+thin straight wires are placed few a µm away from
+the NV centers to the achieve high magnetic field
+ratios, and suffer very high spatial inhomogeneity [21], [22]. Wide bandwidth microstrip resonators have been proposed on standard PCBs
+[23] and on optically transparent conductive materials [24], with the former blocking the optical access from one face of the diamond and the
+latter enhancing this access at the expense of
+requiring non-standard manufacturing processes
+and materials. These microstrip designs improve
+the homogeneity in the plane parallel to the surface. However, they still present large field variations along the direction orthogonal to the microstrip, constraining the effective volume homogeneity [24].
+
+Here we present an efficient quadrature microwave antenna that maintains its calibrated resonant behaviour regardless the configuration of
+its neighbouring setup components. This largely
+reduces setup constraints otherwise introduced
+by antennas whose behaviour is dependent on
+nearby elements [25], and enables dynamic configurations such as scanning movements of microscope objectives. Furthermore, the design proposed here complements the benefits of the design of Herrmann et al. [25] with enhanced optical access, power efficiency, and reproducibility.
+The antenna has been tested numerically and experimentally to validate its reflection and transmission coefficients, magnetic field amplitude and
+homogeneity, and power dissipation. Being aware
+that MW antennas are one of the few elements
+not available off-the-shelf, we offer open-source
+the files required to reproduce the antenna and
+accelerate scientific progress and reproducibility
+[27]. We also show that further performance enhancement could be possible using a PCB substrate with higher dielectric constant at the expense of reducing the bandwidth.
+
+Resonant antennas can offer a solution to covering a large volume with a strong and homogeneous field [18, 25, 26]. For example, a dielectric ceramic resonator with tailored high dielec3
+
+## PDF page 4
+
+2 Design materials and methods
+2.1 Antenna Design
+The antenna was designed to generate strong
+and homogeneous circularly polarized fields while
+providing ample optical and mechanical access
+and fabrication simplicity. The planar geometry of the circular patch antenna together with
+the through hole to host the diamond facilitates
+easy access space on both sides of the PCB so
+other setup components, like microscope objectives with short working distances or samples to
+be analyzed, can be brought in close proximity to
+the diamond. This design also offers more flexibility when designing optical path configurations
+because optical pumping and fluorescence collection can be performed from both faces of the diamond. The resonant frequency of the prototype
+was designed to be 2.86 GHz. However, to enable
+efficient control of the ms = 0 ⇐⇒ −1 transition, the resonant frequency can be tuned to lower
+frequencies by adding capacitors to the antenna.
+As mentioned earlier, two important design constraints are achieving a high field strength and
+high homogeneity over a large volume in the diamond. Importantly, to harvest the highest signal to noise ratio, the location and shape of this
+volume should be such that it can be optically
+addressed in a manner that the NVs contained in
+the optimally controllable volume are all interrogate at once, while minimizing the fluorescence
+from NVs not contained in this volume.
+An electromagnetic field simulation software
+(CST Studio Suite 2023, Dassault Systèmes,
+Vélizy-Villacoublay, France) is used to optimize
+antenna design parameters. An initial geometry
+is estimated from analytical expressions for circular patch antennas derived in [28]. The antenna
+is sized to match its first resonant mode TM110
+to the desired MW frequency. This mode induces
+the most homogeneous and the largest magnetic
+field that is achievable with this type of circular antenna [28]. Its corresponding resonant frequency is estimated by:
+(fr )110 =
+
+1.8412c
+√ ,
+2πa ϵr
+
+Figure 2: Simulated antenna for MW excitation of the
+NV center. It consists of a circular patch with the two
+feeding ports. The PCB is double-sided with a bottom
+copper plane covering the whole PCB area, excluding a
+centered square through hole that contains an embedded
+bulk diamond.
+
+field at the centre of the antenna. Therefore, the
+positioning for the diamond has to be chosen accordingly. Other higher frequency modes could
+be excited but they will result in a lower and less
+homogeneous magnetic field. The antenna is designed with a square hole, so that it can host a
+diamond as large as 3 x 3 x 0.5 mm3 , which covers
+most commercially available single crystal samples. The simulations also include the diamond
+material with the aforementioned size, a dielectric constant ϵr of 5.7, and placed in the center
+of the hole.
+Due to its common availability, we have chosen
+FR-4 as PCB substrate, which has an ϵr of 4.4.
+According to Equation 2, by changing the dielectric constant, the size of the patch of the antenna
+√
+will change proportionally with the factor of ϵr .
+Reducing substrate thickness also increases the
+magnetic field, but considerably penalizes the homogeneity along the Z direction. Coaxial SMA
+connectors are used for signal launch to the PCB,
+providing a reproducible performance and a robust connection. These connectors also facilitate
+maintaining a 50 Ω impedance of the transmission chain, thereby minimizing power reflections.
+A quarter wavelength transmission line is used to
+match the impedance of the circular patch antenna to the 50 Ω of the transmission chain. This
+enables efficient power transfer and high signal
+integrity. The feeding ports are connected to the
+outer edges of the circular patch, allowing surface currents to run through the patch without
+
+(2)
+
+where c is the speed of light, a is the radius of the
+antenna and ϵr is the permittivity in the dielectric material, also called the dielectric constant.
+The TM110 mode presents the highest magnetic
+4
+
+## PDF page 5
+
+disturbance. This configuration ensures that the
+strongest magnetic field would be created in the
+middle of the patch. The antenna is visualized in
+Figure 2.
+
+2.2 Simulation results
+In Figure 3 and Figure 4 we present the simulations performed under different input polarization conditions. According to the simulations
+shown in Figure 3, for the circular polarization
+mode, the inhomogeneity is within 13% in a 1
+mm3 cylinder (500 µm height and 800 µm radius).
+For smaller volumes of 0.5 mm3 and 0.3 mm3 , the
+inhomogeneity is within 8% and 6% respectively.
+In linear polarization modes ( Figure 4) the inhomogeneity is lower in the xy plane direction
+orthogonal to the axis of the feeding port, e.g., in
+the figure the feeding port is along the x = 0 axis,
+leading the y = 0 axis to have lower inhomogeneity. The field strength is most homogeneous near
+the center of the diamond in the xy plane, which
+also holds a local minimum for this plane. In the
+z axis, the field is the strongest and most homogeneous around the center of the PCB depth.
+
+Figure 4: Simulated H-field for linear polarization mode.
+Cross-sections of the H-field on x, y, and z planes in the
+middle of the PCB and diamond. The values correspond
+to RMS values for 1 W power on a single port fed along
+the x=0 axis.
+
+The RMS magnetic field values in the center
+of the region of interest is 22.8 A/m RMS for 1
+W total driving power in both driving modes, as
+visualized in Figure 4 and Figure 3.
+
+3 Experimental validation
+3.1 Antenna fabrication and electrical characterization
+An antenna designed to host a 3 x 3 x 0.5 mm3
+diamond size is built on a double sided standard
+FR-4 PCB (Figure 8). A commercially available
+diamond sample containing a high density (∼4.5
+ppm) of NV centers (DNV™ B14, Element Six
+Ltd, UK) is embedded in the hole of the MW
+antenna. Two high frequency SMA PCB edge
+launch connectors (ref. 142-9701-811, Cinch Connectivity Solutions, USA) are soldered onto the
+PCB, which are non-magnetic to minimize any
+distortion of DC fields when performing magnetic
+field measurements.
+To drive the antenna in a linearly polarized
+mode, a MW drive signal is fed through one of
+the ports. To generate the circularly polarized
+modes, the MW drive power signal is split into
+two 90◦ phase shifted signals with a 90◦ phase
+shifting power splitter (ZX10Q-2-34-S+, Minicircuits, NY, USA), outputs of which are connected to the two ports of the antenna. Right
+or left circularly polarized fields are generated by
+swapping the order of the cables at the power
+
+Figure 3: Simulated H-field for circular polarization
+mode. Cross-sections of the H-field on x, y, and z planes
+in the middle of the diamond. The values correspond to
+RMS values for 0.5 W per port fed with a 90◦ dephase
+between them.
+
+The spatial distribution of the magnetic field
+strength along the X and Y dimensions is elliptical, as can be seen in Figure 4. This ellipticity is
+similar on both ports but rotated by 90◦ according to the spatial location of each port. The combination of the contribution of both ports generates a more circular RMS magnetic field as shown
+in Figure 3.
+5
+
+## PDF page 6
+
+splitter. A vector network analyser (Fieldfox
+N9912A, Keysight, USA) is used to measure the
+reflection (S11 & S22) and transmission (S21 &
+S12) coefficients of the antenna, and to calibrate
+the power delivered to the antenna. The results
+of these measurements can be observed in Figure 5. Overall, the experimental and simulated S
+parameters agree qualitatively. However, a small
+shift in the expected resonant frequency of the
+antenna and a worsening of the reflection coefficient can be observed. The simulated and measured response time of the antenna is 2 ns, which
+corresponds to a quality factor of 17.6 and a Full
+width at half maximum (FWHM) of 160 MHz[29]
+and is in good agreement with the frequency response reflected in Figure 5.
+
+duded by half when capacitively tuned to 2.41
+GHz.
+One important feature of this antenna is that
+it is very stable under changes of external conditions. For example, in Figure 6 it can be observed
+that the features of the antenna do not change at
+all even if the optical microscope is in contact
+with the antenna. Also, changes in the temperature have a very small effect on the resonant
+behaviour of the antenna.
+
+Figure 6: Measured reflection coefficients of the antenna
+under different conditions. The black dotted curve shows
+the behaviour of the antenna under standard operation
+conditions. The red line shows the antenna when the
+microscope objective is placed against the ground plane.
+The overlap between the dotted black line and the red
+line shows no change in the resonant frequency, confirming the robustness of the antenna to external hardware
+components approached from the ground plane. The
+green line visualizes the tunability of the antenna via
+lumped capacitors, in this case of 5 pF . The blue line
+shows the effect of temperature on the behaviour of the
+antenna, where a change from 22◦ C to 40◦ C decreases
+the resonant frequency by 16 MHz.
+
+Figure 5: Plots of the measured and simulated reflection
+and transmission parameters of the antenna. The resonant frequency is 55 MHz lower in the manufactured
+antenna (2.809 GHz) as compared with the simulations
+(2.864 GHz). The reflection parameters of the manufactured antenna are -14 dB as compared with the theoretical -41 dB of the simulations. The transmission
+parameters are below -22 dB in all cases. Both ports of
+the manufactured antenna show a very similar response
+(blue and red lines).
+
+3.2 Setup
+An optical setup is built to evaluate the manufactured MW antenna prototype. The setup
+allows to sweep through the volume of the diamond initializing and reading out the electron
+spin of the NV centers. The simplified schematic
+of the setup can be found in Figure 7. A green
+laser (iBeam-smart, 515 nm, Toptica, Germany)
+is used to excite the NV centers. The position of
+the antenna is determined by a micro-positioner
+that is programmatically controlled in the x,y
+and z-axes (X-NA08A25-E09 Zaber, Canada and
+
+We have also tested the antenna under different conditions, to observe the resonant behaviour
+of the antenna (Figure 6). For example, we have
+added SMD capacitors of 5 pF with case code
+0603 (1608 metric) to the antenna for lowering
+down the resonance frequency of the MW antenna
+from 2.81 to 2.41 GHz. This configuration reduces the resonant frequency by 400 MHz, which
+is equivalent to a dynamic range of the DC external magnetic field of almost 15 mT. It should
+be noted that the efficiency of the antenna is re6
+
+## PDF page 7
+
+SPM-MZ, Mad Citylab, Switzerland ). The excitation green laser beam is focused onto the sample with a microscope objective (LU Plan ELWD
+50x, NA 0.55, WD 10.1, Nikon, Japan), which
+also collects the fluorescence from the diamond.
+This fluorescence is separated from the green excitation light by a dichroic mirror, a 515 nm
+notch filter, a 650 nm long pass (LP) filter and
+a 800 nm short pass (SP) filter. The intensity of
+this red fluorescence is measured by an avalanche
+photo-diode (A-CUBE-S3000-03, Laser Components, Germany).
+
+ing Equation 1.
+
+Figure 8: Photograph of the MW antenna during a measurement.
+
+3.4 Acquisition sequences
+An Electron Spin Resonance (ESR) experiment is
+performed where the change in the fluorescence
+due to microwave coupling to the electron spin
+states is measured. A typical example can be
+seen in Figure 9. It shows the fluorescence dip
+at Bz ∼
+= 2 mT external magnetic field normal
+to the PCB and, since the crystallographic orientation of the used diamond is 100, this field
+is aligned with the same angle to all NV axis
+(54.7◦ ). Thereby, all the NVs will respond to
+the same MW frequency. The dips on the left
+correspond to the ms = 0 ⇐⇒ −1 electron spin
+transition and the dips on the right corresponds
+to the ms = 0 ⇐⇒ 1 transition. This experiment
+is used to confirm the generation of circular polarization and to adjust the MW frequency to be
+employed in following Rabi experiments. In Figure 9 the hyperfine coupling between electron and
+nuclear (N14 ) spins can be inferred from the three
+dents within the smaller dips. These dents are
+not visible on the longer peaks because the employed ESR sequence uses continuous-wave MW
+fields, which is known to produce power broadening if the transitions are strongly driven, i.e.,
+the corresponding circularly polarized MW fields
+generated by the antenna are higher at those frequencies.
+The strength and polarity of the MW field generated by the antenna are measured experimentally with a Rabi experiment. The sequence consists of MW pulses with different time durations.
+Subsequently, the oscillation frequency of the obtained photoluminescence is analyzed. The Rabi
+
+Figure 7: Overview of the confocal microscope employed
+to evaluate the MW antenna, with emphasis on the optical components. Shown are the pumping path (green
+laser), the confocal reading path (red and yellow), the
+permanent magnets array and the MW antenna.
+
+The microwave signal is generated via a vector
+signal generator (SMJ100A, Rohde & Schwarz,
+Germany) and a power amplifier ∼43 dB (ZHL16W-43-S+, Mini-circuits, USA). A fast solid
+state switch (ZASWA-2-50DRA+, Mini-circuits,
+USA) is placed between the signal generator and
+the power amplifier when short pulses are needed.
+
+3.3 External magnetic field
+An external static magnetic field highly stable
+and of low spatial inhomogeneity is generated via
+a ring with permanent magnets placed at a radial distance of 80 mm. This ring can host up
+to 32 square magnets of 12 mm length. NdFeB
+magnets of grade N48 are employed. This external magnetic field points along the z direction,
+i.e., orthogonal to the PCB of the MW antenna.
+The applied external magnetic field is fine-tuned
+for the Larmor frequency of the ms = 0 ⇐⇒ −1
+transition corresponding to f ∼
+= 2.81 GHz follow7
+
+## PDF page 8
+
+Figure 9: Plot of the ESR-experiment with both circular polarization directions. The blue (orange) line corresponds to the counter-clockwise (clockwise) polarization
+matching the ms = 0 ⇐⇒ −1 (ms = 0 ⇐⇒ +1) electron spin transition. A simple power splitter was used
+to feed both ports from a single power amplifier and
+no further efforts were made to tune the feeding powers and dephase. This far from ideal feed introduced a
+considerable ellipticity, which can be inferred from the
+presence of the second smaller peaks. The contrast of
+the ms = 0 ⇐⇒ +1 transition at 2.935 GHz is lower
+than the ms = 0 ⇐⇒ −1 counterpart at 2.805 GHz.
+This difference is due to the MW antenna being tuned
+to be resonant at 2.81 GHz and, as consequence, it is
+more efficient driving the ms = 0 ⇐⇒ +1 transition.
+
+Figure 10: Measured dependence of the Rabi frequency
+to the total input MW power for linearly polarized configuration. The Rabi frequency increases proportionally
+to the square root of the power, validating the linear
+behaviour of the MW antenna.
+
+3.5 Experimental characterization of the inhomogeneities of the antenna
+The distribution of Rabi frequencies across different planes (xy, xz, and yz) is analyzed using both
+circular and linear polarization. This spatial distribution is characterized stepping the position of
+the antenna and the diamond with the micropositioner, sweeping the spot being interrogated in
+the diamond. For circular polarization, each port
+of the antenna was fed with a power of 2.8 W,
+while for linear polarization, 3.8 W was applied
+to a single port. In the former, the power splitter
+fed to each port 1.3 W and 1.5 W.
+
+frequency is estimated by fitting the signal to an
+exponentially decaying oscillation according to
+(
+
+S = A sin(2π Ω τ + θ) exp −
+
+τ
++ Bτ + C, (3)
+T2
+)
+
+where Ω is the Rabi frequency, A is the amplitude
+of the signal, τ is the MW pulse duration, θ is a
+phase offset factor, T2 is the decay ratio, B is a
+linear drift and C a DC offset.
+The Rabi frequency is proportional to the MW
+magnetic field generated by the antenna [26],
+
+The resulting Rabi frequency maps are illustrated in Figure 11 and 12. A uniform sampling
+grid was used with 0.05 mm x 0.05 mm resolution in the xy-direction and 0.02 mm in the zdirection. The maps exhibit good agreement with
+the magnetic fields obtained from the simulations
+of (see Figure 4 and 3). Among the observed frequencies, the Rabi frequency recorded in the symmetry center of the contour plots is 1.86 MHz for
+circular polarization and 1.55 MHz for linear polarization. These Rabi frequencies correspond to
+root mean square (HRM S ) fields of 22.3 and 22.6
+A/m and per watt (total input power) for the
+circular and linear modes respectively, and are in
+good agreement with the 22.8 A/m predicted by
+the simulations.
+
+Ω = 2γe |⟨0|Sx |1⟩B| = γe µ0 µr Hrms ,
+(4)
+√
+where an additional 2 is multiplied in
+√ the case
+of circular polarization. Also, Hrms ∝ Pant , the
+square root of the input power to the antenna.
+Figure 10 shows that the Rabi oscillations mediated by the antenna follow this theoretical linear dependency between the square root of the
+applied power and the Rabi frequency. This verifies that the antenna works in a linear regime,
+which is important to calibrate the MW power
+being delivered to the diamond sample.
+8
+
+## PDF page 9
+
+Figure 11: Measured Rabi frequency distribution maps
+for a linear polarized excited antenna at 3.8 W input
+power on the port feeding along the x=0 axis. The
+excitation MW frequency was 2.81 GHz, corresponding
+to the ms = 0 ⇐⇒ −1 transition.
+
+Figure 12: Measured Rabi frequency distribution maps
+for a circular polarized excited antenna at 2.8 W total
+input power. The excitation MW frequency was 2.81
+GHz, corresponding to the ms = 0 ⇐⇒ −1 transition
+at an external magnetic field of Bz ∼
+= 2 mT.
+
+3.6 Power test and temperature dependence
+
+factured prototypes, but note that this may vary
+from producer to producer. Given this tendency
+to shift, and the limitation that capacitor based
+tuning can only lower the resonance frequency,
+the authors recommend scaling down the outer
+diameter of the copper patch aiming for a higher
+resonant frequency than the desired one.
+The results presented herein question the need
+to add 2 additional dummy ports (a total of 4
+ports) to the PCB to achieve high homogeneity
+volumes by geometric symmetry, as found earlier [25]. Arguably, the addition of the two extra
+ports may reduce efficiency due to power leaking,
+which may partially justify that the design here
+proposed doubles the power efficiency as compared with the work of Herrmann et al. [25]. Note
+that they made the diamond hole size smaller
+and covered the ground plane hole with a copper
+socket, modifications which should have significantly increased the field strength.
+
+Increasing the power delivered in the center by
+feeding more power could cause damage to the
+antenna due to heating. To test this, the heat
+distribution is measured with an infrared thermometer. Figure 13 shows that the antenna can
+handle the maximum output power of the amplifier used, which is limited to 8W after transmission line losses. This temperature is below the
+safe human handling temperature limits set for
+consumer electronics devices [30]. The antenna
+also shows a linear behaviour with the square root
+of the power as can be seen in Figure 10.
+Besides, it was observed that the temperature
+increase generated a frequency shift in the resonant behaviour of the antenna. Figure 6 shows
+that the resonant frequency decreased by 16 MHz
+when increasing the temperature of the antenna
+from 22◦ C to 40◦ C.
+
+4 Discussion
+Our experience shows that, while the new geometry is effective, the built antennas tend to have a
+lower resonant frequency than predicted by simulations. We distinguish three possible factors:
+the dielectric constant might differ, fabrication
+inaccuracies might be present or spurious electrical capacitances that were not considered might
+exist. The shift is about 55 MHz in the manu-
+
+Figure 13: The heat distribution in the antenna when
+put under 1 (left) and 8 (right) watts of continuous wave
+MW power on a single port.
+
+9
+
+## PDF page 10
+
+powers could be implemented by using a pair of
+power amplifiers like the one used in this work to
+drive each port in this work. This feature would
+also facilitate fine-tuning each port’s phase and
+amplitude to minimize the ellipticity in the induced MW field.
+
+Selecting another material with a higher dielectric constant could enable creating higher magnetic fields and quality factors, as demonstrated
+in [26]. It should be noted that materials with
+higher dielectric constants come at higher cost
+and are less available. Furthermore, although
+these materials can in principle enhance the performance, the antenna also becomes more susceptible to manufacturing and material imperfections.
+
+The direction of the circular polarization could
+be dynamically switched or adjusted, for example, by driving independently each port with a
+two channel arbitrary waveform generator or, for
+lower budget setups, by swapping the order of
+the transmission paths with fast switches. It is
+important to note the ellipticity of the field maps
+for linear polarization feeds. This ellipticity introduces a linear polarization component that limits
+the degree of isolation achievable when trying to
+address the -1 and +1 spin states independently.
+
+The central hole in the antenna offers flexibility for adjustment of the diamond along the axis
+of the hole. For example, the diamond can be
+located at the height of the ground plane for applications benefiting from microscope objectives
+with short (>0.6 mm) working distances. However, the highest field strength versus homogeneity is achieved when the diamond is centered
+along the hole axis. In this configuration, the
+field inhomogeneity is below 7% within a volume
+of 1mm3 . This makes our configuration particularly suited to both harvest the averaging power
+of large pools of NV centers as well as those at
+moderate Rabi frequencies (>5 MHz), such as
+in dynamic nuclear hyperpolarization (DNP) and
+microfluidic NMR applications.
+
+5 Conclusion
+Our results show that our antenna design offers
+a good compromise with respect to other antennas used in NV centers measurements. Our design doubles the power efficiency, offers an improved optical access and, most importantly, is
+robust against the variability of external hardware components, in contradiction to the previous patch antenna [25]. By an inhomogeneity
+of 13% in a 1 mm3 volume, the proposed resonant MW antenna can address large ensembles
+of NVs in bulk diamond. Furthermore, this volume of low inhomogeneity can be easily and efficiently addressed optically. This limits the signal
+acquisition to only the NV centers that are coherently driven, which is paramount in boosting
+sensing precision. Our antenna design is particularly appealing for sensing experiments that benefit from lifting the -1 and +1 spin degeneracy
+without forcing an external magnetic field, such
+as at natural earth field conditions at zero field.
+The antenna’s versatility is enhanced by its capability to become broadband over a wide range of
+frequencies through the use of capacitors and/or
+varactors. Its homogeneity also allows for easy
+positioning and repositioning without sacrificing
+accuracy on the flip angle. All these properties
+make this antenna a versatile piece of instrumentation for a wide range of high-end NV based
+quantum technologies.
+
+Importantly, the high homogeneity volume in
+this antenna is cylindrical and covers a 0.5 mm
+height, which is a standard size of commercially
+available diamonds. Furthermore, this cylindrical
+geometry enables matching seamlessly the volume geometry addressed with the green pump
+beam to that of the low inhomogeneity MW field
+region. Our configuration largely improves the
+coherence in the response of the large pool of NVs,
+which is paramount for bulk sensing in applications such as magnetometry with bulk diamonds.
+The ∼2 ns ringing time of the antenna does
+not impose a hazardous limitation as it is very
+short compared to those required for popular π
+and π/2 pulses, which are more than an order of
+magnitude longer for the Rabi frequencies generated by this antenna. For example, achieving a
+π/2 pulse in 50 ns would require <20 W input
+power in the circularly polarized mode, which is
+enabled by the good linearity (Figure 10). The
+power can be safely increased to a maximum of
+8 W in continuous-wave mode without additional
+cooling (see Figure 13). The structure could tolerate higher powers in pulsed mode to increase
+the MW field strength even further. Such higher
+10
+
+## PDF page 11
+
+Physical Review B - Condensed Matter and
+Materials Physics82 (2010).
+
+Acknowledgment
+This project has been supported in part by European Union’s Marie Skłodowska-Curie project nr.
+101030868, Erasmus+ exchange program from
+the European Union, the project I+D+i LINEAS
+ESTRATÉGICAS PLEC2021 from the Spanish
+Government (European NextGeneration funds),
+the Basque Government through the direct Subsidy for the Strengthening of the Quantum Technology Laboratory -PARTIDA DIRECTA 2023
+action nr. 2023/01135 and the ELKARTEK
+2022 program under Grant KK-2022/00062, the
+Programa Gipuzkoa Quantum 2023 -QUAN000027-01 grant from the Diputación Foral De
+Gipuzkoa and the Plataforma de Tecnologías
+Cuánticas PTI-01 from CSIC. J.C. acknowledges
+the Ramón y Cajal (RYC2018-025197-I) research
+fellowship, the financial support from Spanish
+Government via the Nanoscale NMR and complex systems (PID2021-126694NB-C21) project,
+and the Basque Government grant IT1470-22.
+
+[6] Ádám Gali.
+“Ab initio theory of the
+nitrogen-vacancy center in diamond” (2019).
+[7] Till Lenz, Arne Wickenbrock, Fedor Jelezko,
+Gopalakrishnan Balasubramanian,
+and
+Dmitry Budker.
+“Magnetic sensing at
+zero field with a single nitrogen-vacancy
+center”. Quantum Science and Technology
+6, 034006 (2021).
+[8] Philipp J. Vetter, Alastair Marshall,
+Genko T. Genov, Tim F. Weiss, Nico
+Striegler, Eva F. Großmann, Santiago
+Oviedo-Casado, Javier Cerrillo, Javier
+Prior, Philipp Neumann, and Fedor
+Jelezko.
+“Zero- and Low-Field Sensing
+with Nitrogen-Vacancy Centers”. Physical
+Review Applied17 (2022).
+[9] Thiago P.Mayer Alegre, Charles Santori,
+Gilberto Medeiros-Ribeiro, and Raymond G.
+Beausoleil. “Polarization-selective excitation
+of nitrogen vacancy centers in diamond”.
+Physical Review B - Condensed Matter and
+Materials Physics76 (2007).
+
+References
+[1] Romana Schirhagl, Kevin Chang, Michael
+Loretz, and Christian L. Degen. “NitrogenVacancy Centers in Diamond: Nanoscale
+Sensors for Physics and Biology”.
+Annual Review of Physical Chemistry 65, 83–
+105 (2014).
+
+[10] Jennifer M. Schloss, John F. Barry,
+Matthew J. Turner, and Ronald L.
+Walsworth.
+“Simultaneous Broadband
+Vector Magnetometry Using Solid-State
+Spins”.
+Physical Review Applied 10,
+034044 (2018).
+
+[2] Raffi Budakian, Amit Finkler, Alexander Eichler, Martino Poggio, Christian L
+Degen, Sahand Tabatabaei, Inhee Lee,
+P Chris Hammel, Eugene S Polzik, Tim H
+Taminiau, et al. “Roadmap on nanoscale
+magnetic resonance imaging” (2023).
+url: http://arxiv.org/abs/2312.08841.
+
+[11] D. Le Sage, K. Arai, D. R. Glenn, S. J. DeVience, L. M. Pham, L. Rahn-Lee, M. D.
+Lukin, A. Yacoby, A. Komeili, and R. L.
+Walsworth. “Optical magnetic imaging of
+living cells”. Nature 496, 486–489 (2013).
+[12] J. M. Taylor, P. Cappellaro, L. Childress, L. Jiang, D. Budker, P. R. Hemmer, A. Yacoby, R. Walsworth, and M. D.
+Lukin. “High-sensitivity diamond magnetometer with nanoscale resolution”. Nature
+Physics 4, 810–816 (2008).
+
+[3] C. L. Degen, F. Reinhard, and P. Cappellaro. “Quantum sensing”. Reviews of Modern
+Physics89 (2016).
+[4] Marcus W. Doherty, Neil B. Manson, Paul
+Delaney, Fedor Jelezko, Jörg Wrachtrup,
+and Lloyd C.L. Hollenberg. “The nitrogenvacancy colour centre in diamond”. Physics
+Reports 528, 1–45 (2013).
+
+[13] David R. Glenn, Dominik B. Bucher,
+Junghyun Lee, Mikhail D. Lukin, Hongkun
+Park, and Ronald L. Walsworth. “Highresolution magnetic resonance spectroscopy
+using a Solid-State spin sensor”. Nature 555,
+351–354 (2018).
+
+[5] V. M. Acosta, A. Jarmola, E. Bauch, and
+D. Budker.
+“Optical properties of the
+nitrogen-vacancy singlet levels in diamond”.
+
+[14] Eisuke Abe and Kento Sasaki. “Tutorial:
+Magnetic resonance with nitrogen-vacancy
+11
+
+## PDF page 12
+
+view A - Atomic, Molecular, and Optical
+Physics90 (2014).
+
+centers in diamond-microwave engineering,
+materials science, and magnetometry”. J.
+Appl. Phys 123, 161101 (2018).
+
+[22] M. Mrózek, J. Mlynarczyk, D. S. Rudnicki,
+and W. Gawlik. “Circularly polarized microwaves for magnetic resonance study in
+the GHz range: Application to nitrogenvacancy in diamonds”. Applied Physics Letters107 (2015).
+
+[15] Dominik B. Bucher, Diana P.L. Aude Craik,
+Mikael P. Backlund, Matthew J. Turner,
+Oren Ben Dor, David R. Glenn, and
+Ronald L. Walsworth. “Quantum diamond
+spectrometer for nanoscale NMR and ESR
+spectroscopy”. Nature Protocols 14, 2707–
+2747 (2019).
+
+[23] T. P. Mayer Alegre, A. C. Torrezan, and
+G. Medeiros-Ribeiro. “Microstrip resonator
+for microwaves with controllable polarization”. Applied Physics Letters91 (2007).
+
+[16] Yuwan Wang, Yusong Liu, Hao Guo,
+Xingcheng Han, Anjiang Cai, Shengkun Li,
+Pengfei Zhao, and Jun Liu. “Integrated
+microwave cavity and antenna to improve
+the sensitivity of diamond NV center spinbased sensors”. Applied Physics Express 13,
+112002 (2020).
+
+[24] Robert Staacke, Roger John, Max Kneiß,
+Christian Osterkamp, Séverine Diziain, Fedor Jelezko, Marius Grundmann, and Jan
+Meijer. “Method of full polarization control
+of microwave fields in a scalable transparent
+structure for spin manipulation”. Journal of
+Applied Physics128 (2020).
+
+[17] Oliver Roman Opaluch, Nimba Oshnik,
+Richard Nelz, and Elke Neu. “Optimized planar microwave antenna for nitrogen vacancy
+center based sensing applications”. Nanomaterials11 (2021).
+
+[25] Johannes Herrmann, Marc A. Appleton,
+Kento Sasaki, Yasuaki Monnai, Tokuyuki
+Teraji, Kohei M. Itoh, and Eisuke Abe.
+“Polarization- and frequency-tunable microwave circuit for selective excitation of
+nitrogen-vacancy spins in diamond”. Applied
+Physics Letters 109, 183111 (2016).
+
+[18] Kento Sasaki, Yasuaki Monnai, Soya Saijo,
+Ryushiro Fujita, Hideyuki Watanabe, Junko
+Ishi-Hayase, Kohei M. Itoh, and Eisuke
+Abe. “Broadband, large-area microwave antenna for optically detected magnetic resonance of nitrogen-vacancy centers in diamond”. Review of Scientific Instruments 87,
+053904 (2016).
+
+[26] Vitaly Yaroshenko, Vladimir Soshenko,
+Vadim Vorobyov, Stepan Bolshedvorskii,
+Elizaveta Nenasheva, Igor Kotel’nikov,
+Alexey Akimov, and Polina Kapitanova.
+“Circularly polarized microwave antenna
+for nitrogen vacancy centers in diamond”.
+Review of Scientific Instruments91 (2020).
+
+[19] Khadijeh Bayat, Jennifer Choy, Mahdi Farrokh Baroughi, Srujan Meesala, and Marko
+Loncar. “Efficient, Uniform, and Large
+Area Microwave Magnetic Coupling to NV
+Centers in Diamond Using Double SplitRing Resonators”. Nano Lett 14, 1208–
+1213 (2014).
+
+[27] Open source PCB repository. https://doi.
+org/10.5281/zenodo.10529652. Accessed:
+2024-01-18.
+[28] C A Balanis. “Antenna Theory: Analysis and Design”.
+Wiley.
+(2016).
+url: books.google.nl/books?id=iFEBCgAAQBAJ.
+
+[20] Yulei Chen, Hao Guo, Wangwang Li, Dajin Wu, Qiang Zhu, Binbin Zhao, Lei
+Wang, Yang Zhang, Rui Zhao, Wenyao
+Liu, Fangfang Du, Jun Tang, and Jun
+Liu. “Large-area, tridimensional uniform microwave antenna for quantum sensing based
+on nitrogen-vacancy centers in diamond”.
+Applied Physics Express11 (2018).
+
+[29] Ming Zhang and Nicolas Llaser. “Design of
+analog and mixed circuits for resonator’s qfactor measurement”. In 2020 27th IEEE International Conference on Electronics, Circuits and Systems (ICECS). Pages 1–4.
+(2020).
+[30] International Electrotechnical Commission
+(IEC). “Audio/video, information and communication technology equipment - Part 1:
+Safety requirements” (2023).
+
+[21] P. London, P. Balasubramanian, B. Naydenov, L. P. McGuinness, and F. Jelezko.
+“Strong driving of a single spin using arbitrarily polarized fields”.
+Physical Re12

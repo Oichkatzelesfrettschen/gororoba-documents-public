@@ -1,0 +1,267 @@
+Source: https://doi.org/10.1007/s10948-019-05301-7
+PDF sha256: 1633aedf6f1b125ed1d6205219a59518d7801352da13654fb5298185606afbe3
+License: http://creativecommons.org/licenses/by/4.0/
+Language: eng
+Fidelity: machine (failed: characters)
+
+# Transcription of frenkel_2020_magnetism_and_conductivity_along_structural_domain_walls_of_srtio3.pdf
+
+Transcription of `frenkel_2020_magnetism_and_conductivity_along_structural_domain_walls_of_srtio3.pdf` in this directory, 3 pages; each `## PDF page` heading marks a page of the PDF.
+
+Method: no page was sent to OCR; pages 1-3 from the PDF's own text layer (pdftotext version 26.01.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+
+## PDF page 1
+
+Journal of Superconductivity and Novel Magnetism (2020) 33:195–197
+https://doi.org/10.1007/s10948-019-05301-7
+
+ORIGINAL PAPER
+
+Magnetism and Conductivity Along Structural Domain
+Walls of SrTiO3
+Yiftach Frenkel 1 & Yanwu Xie 2,3,4 & Harold Y. Hwang 2,3 & Beena Kalisky 1
+Received: 31 July 2019 / Accepted: 10 September 2019 / Published online: 16 November 2019
+# The Author(s) 2020, corrected publication 2020
+
+Abstract
+The interface between the oxide insulators LaAlO3 and SrTiO3 (LAO/STO) hosts a two-dimensional electron gas. The combination of interfacial conductivity and superconductivity at ultra-low temperatures with the physical phenomena of the oxide
+parent materials has fueled extensive research in the field since its discovery in 2004. Scanning superconducting quantum
+interference device (SQUID) measurements have shown that structural domain walls, formed below 105 K, modulate the current
+flow at the interface and recently revealed weak magnetic signals along the same domain structure. Here we use scanning SQUID
+to investigate the temperature dependence of different electronic properties of the LAO/STO interface. We find correlation
+between magnetism and conductivity, which are both spatially modulated on the domain structure. This data suggests a possible
+relation between the populations of electrons participating in each order.
+Keywords Oxide interfaces . Magnetism . Conductivity . Scanning SQUID microscopy . Polarity . Ferroelectricity
+
+Strontium titanate (STO) is one of the most studied transition
+metal oxides in solid-state physics. It exhibits various unique
+properties such as very high dielectric constant at low temperatures [1], dilute superconductivity [2], and proximity to a quantum critical point [3] (between paraelectric and ferroelectric
+states). In addition, STO undergoes a structural phase transition
+at 105 K from cubic to tetragonal crystal structure [4]. In the
+tetragonal phase, the STO forms a dense network of structural
+domains separated by well-defined domain walls. Below ~ 37 K,
+the STO undergoes another transition where its dielectric constant rapidly increases, but a macroscopic ferroelectric state is
+not reached [5]. Salje et al. [6] used piezoelectric measurements
+
+* Beena Kalisky
+beena@biu.ac.il
+1
+
+Physics Department, Institute of Nanotechnology and Advanced
+Materials, Bar Ilan University, 5290002 Ramat-Gan, Israel
+
+2
+
+Stanford Institute for Materials and Energy Sciences, SLAC National
+Accelerator Laboratory, Menlo Park, CA 94025, USA
+
+3
+
+Department of Applied Physics, Geballe Laboratory for Advanced
+Materials, Stanford University, 476 Lomita Mall,
+Stanford, CA 94305, USA
+
+4
+
+Department of Physics, Zhejiang University, Hangzhou 310027,
+China
+
+to suggest that instead of a global ferroelectric state, the STO
+structural domain walls develop polarity below 40 K. Local
+measurements support this scenario [7]. Here we focus on properties that are modulated on the STO domain structure, and track
+their effects on the LAO/STO conductive interface [8–12].
+Below ~ 37 K, the current flowing at the interface is modulated
+along the structural domain walls [13]. By combining transport
+with local imaging, it was shown that these modulations can
+induce significant anisotropy in the resistance of devices [14].
+By using scanning stress measurements, where small changes in
+resistance are monitored as a function of local stress, indications
+of polarity at domain walls were found and were related to the
+spatial modulation in the current flow [7].
+Here we use a scanning SQUID microscope to investigate
+the temperature dependence of different electronic properties
+of the LAO/STO interface [13] and in particular their modulations along the STO domain walls. The static magnetic
+landscape (Fig. 1 left column) corresponds to flux originating in local magnetic moments. This is a map of the magnetic field that threads the SQUID’s pick-up loop (see
+illustrations in Fig. 1). The spatial distribution of the current
+flow (middle column) is obtained by mapping the Oersted
+magnetic fields that are generated by AC current flowing in
+the sample. The right column shows scanning stress measurements, which are maps of small changes in the four-
+
+## PDF page 2
+
+196
+Fig. 1 The temperature
+dependence of modulated
+magnetic and electronic
+properties along STO domain
+walls. Static magnetic signal
+(left), spatial distribution of
+current (middle), and electrical
+response to stress (right)
+simultaneously imaged by
+scanning SQUID. Both the
+response to stress and the current
+modulations increase as the
+temperature is lowered. The
+modulations of the magnetic
+signal show the opposite
+behavior, a reduced modulation at
+lower temperatures
+
+J Supercond Nov Magn (2020) 33:195–197
+
+Magnec signal
+
+Current ﬂow
+
+Response to stress
+
+30K
+25K
+20K
+5K
+
+1μm
+
+-0.01
+
+Φ0
+
+0.01
+
+-2
+
+Φ0/A 2
+
+-2
+
+μV
+
+2
+
+probe resistance as a response to locally applied stress [7].
+These small changes may indicate changes in polarity that
+are induced by local stress [7]. All images show the same
+area imaged at different temperatures. The main observable
+features in all three types of measurements are two stripes
+oriented in the [100] STO crystallographic direction. These
+stripes correspond to modulations of properties along the
+STO domain walls.
+Our data shows that the temperature evolution of the response to stress [7] and the current modulations [13] are similar, decreasing in amplitude as the temperature is raised.
+Surprisingly, we found that as we increase the temperature,
+we observe stronger modulations in the D.C. magnetic signal
+(left column of Fig. 1), which are stress dependent [15].
+These findings suggest that the magnetic signal is correlated
+to the conductivity at the interface. The fact that these properties, which are spatially modulated at the exact same locations,
+are anti-correlated as a function of temperature could fit a scenario where the populations of electrons involved in both behaviors (magnetism and conductivity) are related. Although the
+mechanisms governing the magnetism found at the LAO/STO
+interface are far from being clear, our results hint at a new
+direction where conduction electrons and magnetism may be
+linked [16].
+
+Open Access This article is licensed under a Creative Commons
+
+Funding Information Y.F. and B.K. were supported by the European
+Research Council Grant No. ERC-2014-STG-639792, the Israeli
+Science Foundation grant no. ISF-1281/17, and the QuantERA ERANET Cofund in Quantum Technologies (Project No. 731473). Y.X. and
+H.Y.H. were supported by the U.S. Department of Energy, Office of Basic
+Energy Sciences, Division of Materials Sciences and Engineering, under
+contract no. DE-AC02-76SF00515.
+
+5.
+
+Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as
+you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were
+made. The images or other third party material in this article are included
+in the article's Creative Commons licence, unless indicated otherwise in a
+credit line to the material. If material is not included in the article's
+Creative Commons licence and your intended use is not permitted by
+statutory regulation or exceeds the permitted use, you will need to obtain
+permission directly from the copyright holder. To view a copy of this
+licence, visit http://creativecommons.org/licenses/by/4.0/.
+
+References
+1.
+
+2.
+
+3.
+
+4.
+
+6.
+
+Sakudo, T., Unoki, H.: Dielectric properties of SrTiO3 at low temperatures. Phys. Reivew Lett. 26, 851–853 (1971). https://doi.org/
+10.1103/PhysRevLett.26.851
+Koonce, C.S., Cohen, M.L., Schooley, J.F., Hosler, W.R., Pfeiffer,
+E.R.: Superconducting transition temperatures of semiconducting
+SrTiO3. Phys. Rev. 163, 380–390 (1967). https://doi.org/10.1103/
+PhysRev.163.380
+Edge, J.M., Kedem, Y., Aschauer, U., Spaldin, N.A., Balatsky,
+A.V.: Quantum critical origin of the superconducting dome in
+SrTiO3. Phys. Rev. Lett. 115, 1–5 (2015). https://doi.org/10.1103/
+PhysRevLett.115.247002
+Cowley, R.A.: Lattice dynamics and phase transitions of strontium
+titanate. Phys. Rev. 134, A981–A997 (1964)
+Rowley, S.E., Spalek, L.J., Smith, R.P., Dean, M.P.M., Itoh, M.,
+Scott, J.F., Lonzarich, G.G., Saxena, S.S.: Ferroelectric quantum
+criticality. Nat. Phys. 10, 367–372 (2014). https://doi.org/10.1038/
+nphys2924
+Salje, E.K.H., Aktas, O., Carpenter, M.A., Laguta, V.V., Scott, J.F.:
+Domains within domains and walls within walls: evidence for polar
+domains in cryogenic SrTiO3. Phys. Rev. Lett. 111, 247603 (2013)
+
+## PDF page 3
+
+J Supercond Nov Magn (2020) 33:195–197
+7.
+
+Frenkel, Y., Haham, N., Shperber, Y., Bell, C., Xie, Y., Chen, Z.,
+Hikita, Y., Hwang, H.Y., Salje, E.K.H., Kalisky, B.: Imaging and
+tuning polarity at SrTiO3 domain walls. Nat. Mater. 16, 1203
+(2017)
+8. Ohtomo, A., Hwang, H.Y.: A high-mobility electron gas at the
+LaAlO3/SrTiO3 heterointerface. Nature. 427, 423–426 (2004).
+https://doi.org/10.1038/nature04773
+9. Zubko, P., Gariglio, S., Gabay, M., Ghosez, P., Triscone, J.-M.:
+Interface physics in complex oxide heterostructures. Annu. Rev.
+Condens. Matter Phys. 2, 141–165 (2011)
+10. Persky, E., Kalisky, B., Scanning, S.Q.U.I.D.: View of oxide interfaces. Adv. Mater. 30, 1–9 (2018). https://doi.org/10.1002/adma.
+201706653
+11. Wissberg, S., Kalisky, B.: Large-scale modulation in the
+superconducting properties of thin films due to domains in the
+SrTiO3 substrate. Phys. Rev. B. 95, 144510 (2017)
+12. Noad, H., Spanton, E.M., Nowack, K.C., Inoue, H., Kim, M., Merz,
+T.A., Bell, C., Hikita, Y., Xu, R., Liu, W., Vailionis, A., Hwang,
+H.Y., Moler, K.A.: Variation in superconducting transition temperature due to tetragonal domains in two-dimensionally doped
+SrTiO3. Phys. Rev. B - Condens. Matter Mater. Phys. 94, 1–12
+(2016). https://doi.org/10.1103/PhysRevB.94.174516
+
+197
+13.
+
+14.
+
+15.
+
+16.
+
+Kalisky, B., Spanton, E.M., Noad, H., Kirtley, J.R., Nowack, K.C.,
+Bell, C., Sato, H.K., Hosoda, M., Xie, Y., Hikita, Y., Woltmann, C.,
+Pfanzelt, G., Jany, R., Richter, C., Hwang, H.Y., Mannhart, J.,
+Moler, K.A.: Locally enhanced conductivity due to the tetragonal
+domain structure in LAO/STO heterointerfaces. Nat. Mater. 12,
+1091 (2013)
+Frenkel, Y., Haham, N., Shperber, Y., Bell, C., Xie, Y., Chen, Z.,
+Hikita, Y., Hwang, H.Y., Kalisky, B.: Anisotropic transport at the
+LaAlO 3 /SrTiO 3 interface explained by microscopic imaging of
+channel-flow over SrTiO 3 domains. ACS Appl. Mater. Interfaces.
+8, 12514–12519 (2016)
+Christensen, D.V., Frenkel, Y., Chen, Y.Z., Xie, Y.W., Chen, Z.Y.,
+Hikita, Y., Smith, A., Klein, L., Hwang, H.Y., Pryds, N., Kalisky,
+B.: Strain-tunable magnetism at oxide domain walls. Nat. Phys. 15,
+269–274 (2019). https://doi.org/10.1038/s41567-018-0363-x
+Y.-Y. Pai, A. Tylan-Tyler, P. Irvin, J. Levy, LaAlO3/SrTiO3: a Tale
+of Two Magnetisms, (2016) 1–46
+
+Publisher’s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
