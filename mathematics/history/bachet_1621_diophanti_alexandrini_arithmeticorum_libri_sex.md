@@ -2,13 +2,15 @@ Source: see manifest row of the PDF
 PDF sha256: 9f5bd987ec1f745ae8e2ffe6c8be2d50da3d185bd8a4359aaa5728fcda674cce
 License: public domain (C.-G. Bachet, Diophanti Arithmeticorum libri sex (1621); Bachet died 1638)
 Language: lat+grc
-Fidelity: machine (failed: second-reader)
+Fidelity: machine (failed: text-layer, repetition)
 
 # Transcription of bachet_1621_diophanti_alexandrini_arithmeticorum_libri_sex.pdf
 
 Transcription of `bachet_1621_diophanti_alexandrini_arithmeticorum_libri_sex.pdf` in this directory, 554 pages; each `## PDF page` heading marks a page of the PDF.
 
 Method: pages 1-554 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+
+Second engine: Surya OCR 0.17.0 alone read pages 84, 86, 191, 201, 225, 238, 269, 276, 441, 460, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -4904,18 +4906,18 @@ tutum sit primum à reliquis
 Diophanti Alexandrini
 48
 duobus coniunctis sumere trie-
-duo ois cuos rambduen à rector.
+duo ois cuos rambduen à retrons
 tem. Secundum à reliquis duo-
-कि रहे रिक्ष कि मायम के रहा महार
+कि श्रीकिक मायमिय मी रामका
 bus coniunctis accipere qua-
-δύο ως ενός λαμιβού το τεταρίον.
+δύο ως ενός λαμιβού ο τεταρίον.
 drantem. Tertium à reliquis
 இ त नर्याण किये मी रामाण की o
 duobus coiunctis sumere quin-
 tantem, & omnes fieri æqua-
 कंड ट्रांड त्या दियां पर के महम्मीवर, में
 les. Ponatur primus i N. reli-
-भूगस्येया रिकार मिर्टिनेक व कटकेंगाड
+भूगस्येया रिकार मिर्टिनेक व किल्लेकड
 qui verò duo compendij gra-
 5" cuos, @ de rosmoi dio piovader
 tia, quia trientem dare debent,
@@ -4929,23 +4931,23 @@ or v. Éswoan po y. @ apa meis é-
 συνται ς cuòs μο y. ng dì ò πρωτος
 mens à reliquis duobus trien-
 tem, fit i N. + 1. Oportet er-
-न्यहिका क्षेत्र में निवास किए के नहर-
+न्यहिका क्षेत्र में निवास किए के नही-
 go & sccundum à duobus reli-
-नग, भ्रांग्राम् द रंग्डे ध्रां ध्रां ध्रांग्यं कि प्रायद.
+नग, भ्रांग्राम् द रंग्डे ध्रां ध्रां ध्रांग्ये कि प्रायद.
 quis coniunctis sumpro, qua-
 रिकार्ज बंदक मत्यां कि रिकारिक किंदि
 drante fieri I N. -+ 1. Sumantur
 The No wis cros sabor a re Tap-
 omnia quater. Quater igitur
 secundus adscitis duobus reli-
-प्राप र्राष्ट्रिया द रंगेंद्र मार्थित मार्वें,
+न्त्रण र्राष्ट्रिया द रंगेंद्र मार्थित मार्वेद,
 quis, est ter secundus adsciscens
 म्यां म्य महिव माड़ महिवमाड़ बहुब है ही-
 ipsos tres numeros. Ter ergo
 क्रिड क्टिन्रविषे क्रि शेव, न्हाड
 secundus adiunctis tribus nu-
 meris sit 4 N. + 4. Si igitur
-हिन हे निर्माल कलक्ष्मिक कल
+हिन हे निर्माल कलक्ष्रविका देव
 inde abstulero tres numeros, 🔝
 मुधंड. महोड़ बंह्य है रिक्ष निवड़ कराड़-
 relinquuntur3 N. -+ 1 quod est
@@ -4954,7 +4956,7 @@ ter secudus, ipse ergo secundus
 of movades of . Edw age Dono 700-
 est 1 N. + † Oportet itaque &
 tertium sumpto reliquorum
-ग्राम संक्रिक किं मुराद तेवामा देवा-
+ग्रा देक्रिक कि मुहाद ने नामा देवा
 duoru quintante fieri 1 N. + 1.
 मिणां मुधाँद मण्यवदे मार्वे महोद हिंदा है
 Omnia similiter sumantur quin-
@@ -4967,10 +4969,10 @@ ve tres simul iuncti sint æqua-
 les 1 N. + 3. & fit 1 N. # & o-
 wis Evos rabor a mapumor rive-
 missa denominatione partis, fit
-2 क्ष 5° हरे हे प्राण्य के प्राथ के का उत्तर कि का उत्तर के कि का कि का कि का कि का कि का कि का कि का कि का कि का कि का कि का कि का कि का कि का कि का कि का कि का कि का कि का कि का कि का कि का कि का कि का कि का कि का कि का
+2 क्य 5 svos movados mas. मार्था मा
 primus 13. secundus 17. tertius
 19. & implent postulata.
-o μοίως πεν ακις, η σωα γεται δια
+o μοίως πενακις, η σωαγεται δια
 The openior o reinos 5° cros prova-
 Sos nicioeus. romor Est con reis ocurediras iones que day a ell-
 μω ένὶ μονασι τεισί. και γίνεται ο δριθμός ιζ δωδεκάτων. και
@@ -5050,7 +5052,7 @@ Diophanti Alexandrini
 मिंद्रीय वं कल्लाकि दें हेंगवेद. की की
 Ponatur primus i N. reliqui.
 verò tres, quandoquidem tri-
-रामा कराड मार्थ के का मार्थ महामा
+रामाणे क्टांड मार्थिक केरण कर्णि क्टांकर
 entem dare debent, statuan-
 μέρος έχουσων, έπεί τείτον διδδα-
 tur vnitatum quotlibet trien-
@@ -5066,17 +5068,17 @@ dum sumpto à reliquis tribus
 જિલ્ મેં મામાં જારાતા છેક દેશ્વેક મલ-
 quadrante fieri 1 N. -+ 1. Rur-
 sus omnia ve in præcedenti
-िर्णिक के महत्त्ववृष्णि अंश्रह केवा द है रें रें रें
+िर्णिक के महत्त्ववृष्णि अंश्रह केवा द है है एवड़
 quater sumantur, & iisdem de
 μοναδος μιας. που τα πα λίν ο μοίως
 causis inuenierur secundus i N.
-means. ny ouvage) sia Fairy o
+means. ny ouvage) sia Fair o
 + 7. Tertius verò 1 N. + 7.
 At quartus 1 N. + 1. Restat
 who & Dispos s' Evos porados ElTou.
-ve quatuor numeri simul iun-
+vt quatuor numeri simul iun-
 ò j Eiros s' évos porados nuiveus.
-chi æquentur 1 N. + 3. & fic
+chi æquentur 1 N. + 3. & sie
 o j rempros s'évos movados Elwi
 tandem 1 N. #. Erit ergo pri-
 πεμπων. λοιπον όξι σου πεωαρας
@@ -5085,8 +5087,8 @@ mus 47. secundus 77. tertius
 own Jerras Took Jive Day 54 Evi mo-
 unt proposito.
 νασι πεισί. η συναγε) ο αριθμώς μ
-μζ cr μορίω crrcrinosa. έσαι ο μου πρώτος με μζ. ο ο δουτρος
-μ' οζ. ο நிரை μ' 48. ο நாகு முரு முற ம் நாக்க காம் நிரும்களை பிரும் பிரும் நாக்க காம் நிரும்களை காக்கியில் நிரும் நிரும் நிரும் நிரும் நிரும் நிரும் நிரும் நிரும் நிரும் நிரும் நிரும் நிரும் நிரும் நிரும் நிரும் நிரும் நி
+με co μορίω corconnosa. έσαι ο μου πρώτος με με . ο ο δου προς
+μ' οζ. ο நிரை μ' 48. ο நாகு முரு முற ம் நாக்க காம் நிரும்களை பிரும் பிரும் நாக்க காக்கில் நிரும்கள்
 QVAESTIONEM XXVIII.
 E apparet simili prorsus artificio extendi posse quastronemad quinque, ad sexvel
 ad plures numeros, siue ea determinetur ad vnicam solutionem, siue non; & siue sin-
@@ -5108,7 +5110,7 @@ vs. Eswa oi do Ferres dio a celui,
 natur is qui quæritur I N. qui
 ore o, Co E. n Eswo (nrouldyos s'
 si ducatur in 200, facit 200 N.
-हाँ, मवेर भी देना खादे के भारत किंद्र नाग-
+हाँ, मवेर भी देना खादे के भारत केंद्र नाग-
 At si ducatur in 5. facit 5N. O-
 त्रवात्रवावकी मार्गि इड्ड है. हेर्स रहे
 portet autem horum alterum
@@ -11989,7 +11991,7 @@ gitur secundus 1N. +6. Opor-
 tet ergo & productum ex se-
 deurpos esay [s' a m's . denot apa
 cundo in tertium adsumpto
-में के दिएकिंड में महामण कर्डिय-
+में के रिएकिंड में म्हारण कर्डिय-
 primo, hoc est 10 N. + 54. æ-
 िर्णिक कि महळ्कार मण्याहा दुः । µ°
 quari quadrato, & præterca pro-
@@ -12003,21 +12005,21 @@ duplicata æqualitas. Est autem
 ipsorum interuallum 48. Quam-
 μ° 5 100 παλιν γίνε Δαι τεπραγω-
 obrem oportet inuenire duos
-પ્લ, મે માં માં માં છે જાત માં છે જાત માં છે જાત માં છે જાત માં છે જાત માં છે જાત માં છે જાત માં છે જાત માં છે જાત માં છે જાત માં છે જાત માં છે જાત માં છે જાત માં છે જાત માં છે જાત માં છે જાત માં છે જાત માં છે જાત માં છે 
+પ્લ, મે માં માં માં છે જાત માં છે છે છે. મુલ્લો
 quadratos quorum internallum
 हैंडार कारी कि हैंक्या में मा. विशालन
 sit 48. Quod facile est, & infi-
 वेट्य श्रिमा रीं महिवार्थ १४६ दे रेकर-
 nitis modis fieri potest; estque
 minor 16. maior 64. vtri horum
-poxi µ un . rooto de padi ( na)
+poxi µ un . rooto de passo yas
 æquationem accommodemus,
-ลักรเคลาณ์ร วเขราญ. พู เราง อ เป็น ย-
+מחבוף מצעה אינבדמן. אן בידוע ס נושל ב-
 reperiemus quantus sit i N. si
 Adorwy Me is . o j mei Cov Me Es.
 cnim dicamus 64. æquari maio-
 ri, puta 10 N. + 54. inuenitur
-में कहार क्यांकि मां कार्यी मार्गकर-
+में कहार क्यांकि मां कार्य मां मां कार्य-
 1 N. 1. Rursus si dicamus mino-
 may the isomra, diphow the took-
 rem 16. æquari 10 N. + 6. fit
@@ -12028,8 +12030,8 @@ rit primus 1. secundus 7. tertius
 9. & soluunt quæstionem.
 μο νοι σωαγεται ο ς μο α . εδώ τε
 παλιν Φησωμβυτας τε έλαωσυ ( μ' ις ίσας εί) ςς ι. μ' ς συνά-
-ray o s' u' a. In ras imosaods. Esay o who new Cs u' a. o j o bi-
-repos μ° ζ. esi j'uj o leiGs μ° A. C moιοδοι το Thi τα μα.
+ray o s' u' a . In ras imosaods. Esay o who new Cs u' a . o j o bi-
+repos μ° ζ. έsi j' è o leiGs μ° S. C moιοδοι το Thi τα μα.
 IN QUAESTIONEM XIIII.
 DENE' monet Xilander hic duplicem contingere posse variationem. Primò enim
 DQuadratus qui ponitur fieri ex producto primi in fecundum, adfeito tertio fingi
@@ -12721,7 +12723,7 @@ I vt binorum multiplicatione
 productus dempta amborum
 σωαμφοτρον ποιη πετράγωνον, ό-
 summa sit quadratus. Vt in
-மும் விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற விற்ற வ
+மும் விற்கு மாம்ம். கிற்றிய ம்
 præcedenti ponatur primus 1 N.
 secundus vnitatum quotuis, &
 newros so a. o solife u' oras
@@ -12733,11 +12735,11 @@ ergo multitudinem Numeroru
 ad multitudinem Numerorum
 erbuy meds à πλιίτος τ Deil-
 habeamus sub ratione quadrati
-μην έχωμου χόρον έχον ον περάρω-
+μην έχωμου λόρον έχον ον περάρω-
 ad quadratum, cò deuoluitur
 vos s' meds mereazavor apibudr, à-
 res vt quærantur duo numeri,
-मामस्य हांद्र के द्वामान्य की ० द्रद्र , जमकड
+मामस्य हांद्र के द्वामान्य किं द्रद्र , निमान
 quorum mutuo ductu qui fit
 dempta amborum summa sit
 o un auth Towall porfor noin
@@ -14235,7 +14237,7 @@ soluitur quæstio.
 Arithmeticorum Liber IIII.
 189
 IN QVAESTIONEM VIII.
-I A D E M est hac quastio cum pracedente. Sed operatio paulò diuersa lemma
+L' A D E M est hac quastio cum pracedente. Sed operatio paulò diuersa lemma
 Loquod assumit Diophantus ad inueniendum duos quadratos, quorum summa ad-
 scito altero ipsorum quadratum faciat, poterat reduciad vndecimam secundi, si pro-
 positum suisset hoc modo. Inuenire duos quadratos, quorum internallum sit duplum
@@ -14247,17 +14249,17 @@ Horum summa cubus est primus quasicorum. Eiusdem summa quadratus
 ductus in sumptos quadratos, dat reliquos numeros.
 QVÆSTIO IX.
 ΚΥΒΩ η πλωρα προςθώνας
-VBO & lateri cius cundem
+VVBO & lateri cius cundem
 Jaddere numerú, & eadem
 facere. Six addendus numerus I
 aura. Esw o meosli repievos s' a. n
 N. latus verò cubi Numerorum
-วิ รัช หม่ 600 สา ผิ คล รรั ชื่อพง สำเกอ-
+วิ รัช หม่ 600 สา ผิ คล รรั องสมา อากาง-
 quotlibet. Esto 2 N. Ergo cu-
 bus est 8 C. Iam si 1 N. adda-
 TE. ยีรอง รรี B. อัลกุล xubos อรา น H.
 tur ad 2 N. fiunt; N. si ad 8 C.
-हित्रेण विश्व द वे कि एक कि कि .
+हेर्सण क्षेत्रक इं क क्षित्रकार में इइ" है.
 fit 8 C. + 1 N. hæc æquantur
 अंग्रहत्त्वं इड रे रे हेरे हैं त्राह में में अंग्रह-
 27 C. Auferantur verinque 8 C.
@@ -14271,7 +14273,7 @@ tas quadratus, & si 19. nume-
 d° aρα 15. ίσαι μ° α. η έςι ή μία
 rus quadratorum quadratus el-
 set, explicari æquatio posser.
-Movas rerea zwos. et de @ ron-
+Movas rered zwos. et de @ ron-
 Sed 19 Q. proueniunt ab excel-
 Dos The it of him renea ywoo xexum
 cessu quo 27 C. superant 8 C.
@@ -14296,7 +14298,7 @@ meri vnitate differentes, vt in-
 ने मुहाद, ये मा प्रथमी महा (०४१६ में मण-
 teruallum cuborum ab iplis, sit
 quadratus numerus. Esto alter
-יב ב משתישל של הושל הושל הואל הואל הואל בינים בסדיים בינים בינים בינים בינים בינים בינים בינים בינים בינים בינים בינים בינים בינים בינים בינים בינים בינים בינים בינים בינים בינים בינים בינים בינים בינים בינים בינים בינים ב
+יצב עשרישה של הוסבותה בסדיים בבי
 1 N. alter 1 N. -+ I. & inter-
 annuray out poi eis à liper B
 Σειθμους μονάδι α Σκληλων υπερέχοντας, ίνα ή υπροχή τ απ' αυτηύ κυβων ποιη τεξάχων (. έςω ο μέν ς α. ο δες α μ α. ε ή υπρο-
@@ -15121,16 +15123,16 @@ Diophanti Alexandrini
 + 9. æquantur quadrato à la-
 μονάδες θ ίσος πεηραγώνω πω ά-
 tere 3 - 3 N. & fit 1 N. 18. Ad
-TO THE LEGIS MONAGENT NEINS a-
+TO THE EGES MONAGENT NEINS a-
 positiones. Erit primus 3024. se-
 ભાગામિયું માં માં માં માં માં છે છે છે છે છે છે છે છે છે છે છે છે છે 
 cundus 5624. & demonstratio
-रीमा चारे रंगा इस नर है हत्या वे भीरे महर्थ-
+रीमा चारे रंगा इस न्दर है इस्यू वे थीर महर्थ-
 manifesta.
 4
 कड़ अमर्ग. ं रह रिक्ष कुछ इसमर में में अमर्गिहाड़ क्याहर्थ.
 IN QVAESTIONEM XIV.
-VERBA illa asteriscis inclusa, axa σωαμφόπρος ο σρώπος & ο δεύπρος μετώμετα & σωσιμού τρος δείστης δείστης δείστης δείστης δείστης δείστης δείστης δείστης δείστης δείστης δείστης δείστης δείστης δείστης δείστης δείστης δε
+VERBA illa asteriscis inclusa, axa σωαμφόπρος ο σρώπος & ο δεύπρος μετώμετα & σο γιμ τ. subreptitia sunt, & omnino reiicienda. Vt contrà suerunt adii-
 cienda illa quæ virgulis inclusa vides. Sic emendato textu nulla est hic difficultas. Ad
 inueniendum quadratum qui additus ad 9 Q. - 6 N. faciat quadratum, non recur-
 rit ad duplicatam æqualitatem Diophantus, vt male arbitratur Xilander, non enim
@@ -17328,12 +17330,12 @@ Arithmeticorum Liber IIII.
 wir o un auth relac oway po-
 & idem productum detracta
 summa facit cubum 👬 horum
-ราง พาเยี หม่อง, ขอบาร์ส นองล่องร
+ชาง พาเยี หม่อง, ขอบาร์ส นองล่องร
 cuborum interuallum, nempè
 a ous. i dis dea owan possos ist
-in clt vrique duplum lum-
+in clt viique duplum lum-
 वंगार्कि में एकिन्स्ते, नियम्हा निता है गर
-mæ. Ipla igitur summa est ::
+mæ. Ipsa igitur summa est ::
 fed productum multiplicatio-
 wse owah pospos esay Burs of.
 nis cum summa facit 311. &
@@ -17342,13 +17344,13 @@ summainuenta est ::: crit igi-
 Bis Amin out. wir own porpo
 tur productum multiplicationis
 Burs of isay aga o in airly ue
-25. Quod reliquum est vt con-
+? Quod reliquum est vt con-
 ficiatur demonstratum est libro
 Bur 2 *15 . @ mgode of x ) au m'n bord-
 primo, sed explicanda causa
-अद्दादं में कट्यं म् Bibrio. @ vui
+अद्दारं प्रा कि कि कि हिर्म कि कि प्रा के प्रा के प्रा के कि प्रा के कि कि कि कि कि कि कि कि कि कि कि कि कि 
 qualtionis denuo ostendamus.
-3 Stydnow Sta 2 wee CAHUA. TE-
+3 Stythow I sta is week AHUA. TE-
 Ponarur primus 1 N. cum semis-
 se vnitatum quæ summa expri-
 raz De o new ros s' a n po r nipu-
@@ -17360,20 +17362,20 @@ rum 315 . Sed productum multi-
 δων ασκη « κείγης α. ny 651 μορο
 plicationis est sinu. - 1 Q. hoc
 ergo æquatur 3114 & omnia per
-σωαμφοσρος μ° βυνς οιε. Σγλα ο
+σωαμφοσρος μ° βυνς οιε. Σχλα ο
 denominatorem 262144. mul-
-ப்ரு வசியி பிர மீ நா. டுறாக மு-
+ப்ரு' வப்சியி பிர மீ நா. டுறாக po-
 tiplicentur, & auferantur similia
 eis x5. Bome reits sunamens
 à similibus fiunt 262144 Q.çqua-
-α ταυτα ίσα με βυνζ τιβ . η που-
+α ταυτα ίσα με βυνζ τι η που-
 les 250000, & fit 1 N. # Ad po-
 sitiones erit primus 121 st. secundus
-मा निर्मा मार्गा मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग मार्ग म
+मा निर्मा मार्ग मार्ग मार्ग महामा कि किया है।
 31. & demonstratio est euidens.
 મે છેંગા દ્વારા છે છે છે છે છે છે છે છે છે છે છે છે છે 
-Bpud ious µ° [mp.] ne. ng rive) o ç° µ° $ o on. In rais varosa ods.
-हैं इस्यु ं मह्या का वर्ष मा " . ं के की मिन का प्रमा का है. दे में देन की दें। इ क्या हर्य.
+Bpud ion m' [mp.] ne. n nve) o s' mo o o de de de in rais toosa ods.
+हैं इत्यु ं मह्या का वर्षा का का कि कि कि कि कि कि कि कि कि कि कि कि कि 
 IN QVAESTIONEM XXIX.
 HI c duo imprimis supponuntur à Diophanto,<br>Primum internallum cuborum qui fiunt addita & adempta summa numero-
 rti producto multiplicationis ipforti, esse duplii eiusdem summæ numerorum, quod
@@ -17747,20 +17749,20 @@ va, os ost & it sexus respandivou
 Diophanti Alexandrini
 240
 pris faciunt 12. ildem vriq; ad-
-par moioson provadas 13. क्टार्य-
+par moioson provadas 13. क्टारिय-
 iumentes quatuor vnitatis qua-
-Course ने दे मध्यय द्वा मन्या मा अगार्थन
+Course ने दे मध्यय एक मन्या मा मार्थिक
 drantes, facient quatuor qua-
-म्बाद्या महत्त्व महत्त्व महत्त्व मुक्त मार्थ के वा
+म्बाद्या महत्त्व महत्त्व मुख्या प्रवाद होता है भी वा
 dratos. Atqui vnitates 12. auctæ
 μονάδες ιβ. μζ πεωτάρον πεπάρ-
 quatuor quadrantibus ynitatis,
 hoc est i, siunt 13. Oporter igitur
-TWY. o 651 Moras ma, morades iz.
+TWY. o 651 Maras ma, marades iz.
 diuidere 13. in quatuor quadra-
 नवड़ । हे वं वि प्राण्य विद किया विशेषा कि हो हो इ
 tos, tunc si à cuiuslibet latere
-म्बाद्या महिकार्थाण्या, में केंगा हमल-
+म्बाद्या महिकार्थाण्या, में ठेमा हेमल-
 detraxero : habebo quæsito-
 sus πλουρας αφελών μοναδος το
 rum quatuor quadratorum la-
@@ -17769,7 +17771,7 @@ tera. Diuiditur autem 13. in
 duos quadratos 4. & 9. & rur-
 νων τας πλευρας. διαιροιώται ή οί
 sus quilibet ipsorum diuiditur
-17 हांद्र की o महत्त्व अक्षण का, तरं मह में भी
+17 हांद्र की o महत्वक अधिष्ठा, तर्थ मह में भी
 in duos quadratos, nempe alter
 in 🚟 & 🖟 . alter in 🚟 & 🚟 . fu-
 יסט של אמן אוע צומ הףסק דסטדשע
@@ -17783,9 +17785,9 @@ ra quæsitorum quadratorum !...
 7. 1. 4. Ipsi ergo quadrati sung
 n'.5'.18'. 5' ales 2000 èna-
 .... . ... . ... . . . . . . . . . . . .
-בשו ששונים או ששושו ששונים אמו ששונים ששונים שונים שונים שונים שונים שונים שונים שונים שונים שונים שונים שונים שונים שונים שונים שונים שונים שונים שונים שונים שונים שונים שונים שונים שונים שונים שונים שונים שונים שונים שונ
-έσον) ai πλωραίτ ζηπουμένων περαγωνων ια . 2. . 15 17 . αὐτοί
-a'eα οι πράρωνοι.ος μθυρκα . ος ημος . ος δετξα . ος δερξο ...
+בשני שמושו שנים בפל שנים או אונים אמו שמינים שנים ווים
+Évor ) ai madepai & Chrouperwr re Cazararia . 2 . 15 17 . au roi
+a'eα οι πράρωνοι.ος μθυρκα .ος ημος .ος δετξα .ος δερξο ..
 IN QVAESTIONEM XXXI.
 I EMMA quod assumit Diophantus, sie breussime demonstratur. Esto quilibet numerus AB. & semissis vnitatis BC. sintque inforum quadrati D. E. & sum-
 A... B † C. ma ipsorum AB.D. Esit F. Dico F esse quadratum à cuius latere si aus autre production AB. T. Etenim quadratus totus AC æquatur quadratis D. E. & producto bis ex AB in
@@ -28807,7 +28809,7 @@ adicito, faciat quadratum. Si
 statuamus illud datum specie,
 ंश्रीक, मार्ग महत्व प्रथण में हेरी त्य-
 rursum cogimur dererminare,
-દિબાગા વાં માં ઈર કિંદિયા છે જાય કાં કાં તે માત-
+દિબાગા વાં માં ઈર કિંદિયા છે જે દાં કરે, માલ-
 & quærere triangulum rectan-
 NIV EPZETAY npur, Stock Eday nai
 gulum, & quadratum nume-
@@ -28846,7 +28848,7 @@ area, vno laterum circa rectum,
 'έχομβυ εν δύο పુ ειθμοις, τ μβυ cva,
 præductum latus, nempe 4320.
 Quoniam igitur quadratus ali-
-में के में किलाशाया है मां मां के मां के मां के मां के मां के मां के मां के मां के मां के मां के मां के मां के मां के मां के मां के मां के मां के मां के मां के मां के मां के मां के मां के मां के मां के मां के मां के मां के
+में के में किलाशाया है मार्थ में
 quis, puta 36. multiplicatus in
 कि नीय देविया, कार्यात में १२५.
 136. & detracto 4320. facit qua-
@@ -28855,7 +28857,7 @@ dratum, quærimus autem qua-
 who was & in badod, if mas The
 drarum maiorem esse quam 36.
 fi statuamus ipsum 1 Q. + 12 N.
-किंदी मीट देविता, में के प्रमिन्त्रिक माड
+किंदी मीट देविता, में दिंगी १० मांड
 -+ 36. & superiorem sequamur
 ระ เรองระเขอบอีทร หู ร ๑๑๑๑คนใบหร
 demonstrationem, inueniemus
@@ -28865,7 +28867,7 @@ infinitos quadratos quæstionem
 έπει οιώπετρά ωνός πς ο ών μ' λς.
 गार भिवत्त भवताव करोड़ जीतो में १ भरें . भे भर्म भवड़ में , रेमरे . गार्श महाद्वी धर्ण.
 ζητεμβυ ή τε τε τρα ίωνον μείζονα દી) & λ5 . έδω έν τα ξωμβυ αὐτον δ
-के 55 " 18 4" रेड में वंस्क्रिक में कि कि मां कि कि कि मां कि कि कि कि कि कि कि कि कि कि कि कि कि 
+के 55 " 18 4" रेड में वंस्क्रिक में कि कि मां कि कि कि कि कि कि कि कि कि कि कि कि कि 
 σοροβι άπείροις τετρα ωνοις ποι έντας το σο ο δλημα, ών είς έςαι ο ών
 
 ## PDF page 442
@@ -30025,7 +30027,7 @@ Diophanti Alexandrini
 in 27. efficiant 10. habebo autem talem Numerorum numerum dividendo 10.
 per 27. estque :. fingatur ergo latus cubi 3 - i. N. fiet cubus 27 - 10 N. + 20 Q.
 - 100 C. æqualis 27-10 N. - 1 Q. Quare tandem Q. æquantur (C. & fit i N. 4 (1) 100 cft ergo latus quæsiti quadrati (1) 110 ipse quadratus (1) 110 cft ergo latus quæsiti quadrati (1) 110 ipse quadratus (1) 110 cft ergo latu
-iiciendo binarium fit cubus - velin minimis - cuius latus - cuius latus - cuius latus - cuius latus - cuius latus - cuius latus - cuius latus - cuius latus - cuius latus - cuius latus - cuius latus - cuius latus - cuius la
+iiciendo binarium fit cubus - velin minimis - cuius latus - cuius latus - cuius latus
 Simili ratione si datus sit quadratus 4. cui adiiciendo 4. sit cubus 8. inuenie-
 tur alius quadratus idem præstans. Etenim pone latus quadrati 2 + 1 N. sier
 quadratus auctus quaternario 8 + 4 N. + 1 Q. zquandus cubo. Cuius la-
@@ -30034,7 +30036,7 @@ faciant 4. erit ergo numerorum numerus :. & fingatur latus cubi 2 -+ : N. fiet-
 que cubus 8 + 4 N. + 1. Q. + 1. C. æqualis 8 + 4 N. + 1 Q. & tandem
 Q. æquatur 1 C. & fit 1 N. 9. Est ergo latus quadrati 11. ipse quadratus 121.
 qui adsumpto 4. facit cubum 125.
-Hîcautem posui latus quadrati 2 + 1 N. non autem 2 - 1 N. quia si posuis-
+Hîcautem posui latus quadrati 2 + 1 N. non autem 2 -1 N. quia si posuis-
 · sem 2 - 1 N. oportuisset latus cubi poni 2 - N. Tuncque in cubo tam Nu-
 merorum quam cuborum numeri affecti fuissent signo minoris. Quare vr in
 præcedenti exemplo, vnitates quidem & Numeri se mutuo elisissent. At .: C.
@@ -30051,20 +30053,20 @@ cubus 27. At hypotenusa cum area quæ est 12, 31. facit quadratum 25.
 QVÆSTIO XX.
 TNVENIRE triangulum re-
 ΕΥΡΕΙΝ πειρωνον ορθορώ-
-1 changulum, venumerus arex
+1 changulum, venumerus arez
 adscito numero hypotenusæ fa-
-रिक्ष व्यार्ट्ड क्टिडर यहिं के कि दम मा ग्-
+रिक्ष व्यार्ट्ड क्टिंडर कि के के के
 ciat cubum; At numerus cir-
 morewoven, moin xubor, o de cu mi
 cunferentiæ sit quadratus. Si
 perinde vt in præcedente areæ
 किर्मात्रक कार्र में म्यूब्र्या कि.
 numerum constituamus 1 N. nu-
-हैका भी विभविषद गर्म करने कर्णकण मा-
+हैका भी विभविषद गर्म कटने कर्पकर का-
 merum vero hypotenuse v-
-દ્રωμο ( το τω εμβαδώ 301θ-
+ξωμίν (6) το τω εμβαδώ 301θ-
 nitatum aliquot cubicarum - r
-μού α. 6 % हैं ए में किन्दारिक्षण
+μού α. 6 % हैं ए में किन्सारिक्षण
 N. cò deuenitur vt quærendum
 sit quis cubus adscito binario
 Moradar unginar veit jois-
@@ -30076,10 +30078,10 @@ ao binario 1 C. + 3 N. +1-
 3 Q. æquandus quadrato. E-
 मिंद्रीय में मेंड मार्टिक मोडिए के डेट्रा-
 sto quadrato à latere 1 N. +
-Oprod a. reins provados a. o xu-
+Oprod a. reins provados a. o mi-
 1. & fit 1 N. 21 crit igitur
 Gos riveray [HT movador B] xw-
-6ου α. ςς γ. μ° α. λει Α δ γ. [πωπα ίσα] πηραγώνω. έςω πω
+6ου α. ςς γ. μ° α. λει Α δ γ. [πωπα ίσα] πηραγωνω. έςω πω
 λοτο πλουρας ς' a.a. μ' a. και πίνεται ο ς' μ' κα '. έςαι άρα
 a a copposite
 

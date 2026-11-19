@@ -2,13 +2,15 @@ Source: see manifest row of the PDF
 PDF sha256: 2992da2b99ccfc9efeb46e9e81c73e21fb1f21f637a8594047fc4d6a06e930a2
 License: public domain (R. Bombelli, L'Algebra (1572); Bombelli died 1572)
 Language: ita
-Fidelity: machine (failed: second-reader)
+Fidelity: machine (failed: text-layer, repetition)
 
 # Transcription of bombelli_1572_lalgebra_parte_maggiore_dellarimetica.pdf
 
 Transcription of `bombelli_1572_lalgebra_parte_maggiore_dellarimetica.pdf` in this directory, 360 pages; each `## PDF page` heading marks a page of the PDF.
 
 Method: pages 1-360 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+
+Second engine: Surya OCR 0.17.0 alone read pages 20, 66, 288, 356-357, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -1268,7 +1270,7 @@ Trouare un numero quadrato, e un'altro numero che
 sia un dato numero, e la somma de quadrati loro sia
 ac.527
 vn terminato numero
-La sua regola Tenza positione Paulo prote un tel a c.528
+La sua regola Tenza positione Paulo prose un sel a c.528
 gionto con esso, e col laro le due somme l'una sia il<br>quadrato dell'altra
 Trouare dui numeri ouer quantità che il produtto di
 quadrato de ll'altra
@@ -1290,7 +1292,7 @@ Dividere un dato numero in tre parti in continua pro
 Trouare dui numeri, ouer quantità che il produtto lo-
 ro sia un dato numero, e la disferentia de cubi loro
 portione, che li quadrati delli estremi habbiano la
-un terminato numero Organia un casta de la casta de la casta de la casta de la casta de la casta de la casta de la casta de la casta de la casta de la casta de la casta de la casta de la casta de la casta de la casta de la
+un terminato numero Organia un una c.530
 proportion data col quadrato della mezzana
 La sua regola senza positione
 3 C. 5 2 I
@@ -1300,7 +1302,7 @@ la somma de lati loro
 Trouare dui numeri l'un cubo, e l'altro quadrato; poi
 Trouare dui numeri cubi, che la differentia loro sia pa-
 si troui un'altro numero quadrato, che gionto col
-ri alla differentia de lati loro ostrong in 17 - a c.53 &
+ri alla differentia de lati loro ostrong in 10 - a c.53 &
 numero cubo faccia numero quadrato, e gionto
 Trouare dui numeri, che il cubato del maggiore infie-
 col quadrato faccia il numero cubo medesimo
@@ -4487,7 +4489,7 @@ LIBRO
 paris più, e scuia 6 fa 30, ch'ò
 Moltiplicare di più e meno.
 più, per non hauer se-
-THE TOTAL SECTION AND ADDRESS OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PAR
+19 m. 19 m. 18 m.
 gno di meno: si che tut
 Per piu chiarezza di questo atto del moltiplicare se
 to il produtto della mol
@@ -4544,7 +4546,7 @@ e per vederne la proua sommiss 30.20.1 2, e 8 produt-
 to della moltiplicatione, fanno 70, e 6. p. 4, è quanto à
 Del partire più, e meno.
 dire 10, e 5.p.2, e come à dire 7, che moltiplicato 7 via
-10 ta 70. P. Renout a manifel and a real co
+10 ta 70. P. Renoute, applied and weekly
 Benche da qualch'vno di quest'arte sia stato mes-
 Moltiplichisi 6.p.4 uia 5 m. 2. Meno 2 uia. p.4 fa.m. 8,
 so il partire del più, e meno; so ( per quanto hò
@@ -4552,7 +4554,7 @@ e.m. 2 uia 6.fa.m. 1 2, per essere il 6 piu, per non haue-
 E 4 operato,
 re segno di meno, e 5 via p. 4 fà p. 20, per essere il 5
 più,
-2 2
+1 11
 
 ## PDF page 67
 
@@ -19802,11 +19804,11 @@ troun dato numero, se he la loro quadran gionu inficia
 cioche il quadrato della metà agguagli le 42, ch'essen
 me deborano fare un terminato número. Pighili la mes
 do l'uno 42 l'altro farà 1, che gioti infieme fanno 4 4
-वि वृद्धि व्यवस्था वर्षा व्यवस्था है। वृद्धि विश्वविद्या विषय विश्वविद्या विश्वविद्या विश्वविद्या विश्वविद्या विश्वविद्या विश्वविद्या विश्वविद्या विश्वविद्या विश्वविद्या विश्वविद्या विश्वविद्या विश्वविद्या विश्वविद्या विश्
+वि वृद्धि व्यवस्था वर्षा व्यवस्था है। वृद्धि विश्वविद्या विषय विषय स
 p.1, il quadrato della meta e 4 2 p.4 p.4 p. 4; e queflo è
 duing il produtto il cani della metà del terminato nuò
 reguale à 4 2 p.3 1 m.1, che leuato simile da simile, il
-meror delireflance fe ne pigli il latore le gionghi con la
+meror deligitance fe ne pigli il latore legionghi con la
 meno, e agguagliato; il Tanto ualerà 3 t. però il primo
 metà del dato numero, ie ladomma lara il maggior nui
 numero, che fu posto i p.1, sarà 2 1, & il secondo, che
@@ -19815,11 +19817,11 @@ fu posto 4 fara 5, che il foro produtto e i i 4, del qua
 fely a sel lorg quadranigion violieme faccino soci
 le cauatone ciascuno di loro, ò tutti due infieme resta ?,
 A Per ranggold hoppaderes pighthlamera dir om cichini
-8 = ; 4, che ciascuno di loto è quadrato come si pro-
+8 - , 4, che ciascuno di loto è quadrato come si pro-
 E diche Hluo quadratofara & 3; che causto di 25.me
 pole
 hadi 50, resta 315.m. 1. 3) che pigliatone il lato, e gion il
-m . A C . A kaproblema C X X V . . . . . . . . . . . . . . . . .
+m . A C A kaptoblema C X X V
 toli - meta della differenza delli dui numeri, fa.R.q.
 Las met 311 pet disciquello è uno delli numeri, l'al
 Trouinfi dui rumchi cucr quantità, che l'uno fa 2.
@@ -19827,7 +19829,7 @@ trofara R.q. Lason. & B. James & coos & crop rol
 più dell'altro, e che li loro quadratigionti infieme fac-<br>cino 28.
 state a second
 110 Problema CXXVI.
-Ponghifi, che l'uno fia t l'altro tarà t p.2, li loro quadrati sono i 2, & 1 2 p.4 p.4, che gionninsieme
+Ponghifi, che l'uno fia t l'altro tarà t p.2, li loro quadrati sono i 2, & 1 2 p.4 p.4, che giontinsieme
 Trouinsi quattro numeritali, che al quadrato del
 fanno 2 2 p.4 p 4,e questo è eguale à 28, che leuato 4.da ogni parte e fidutto à 1 3, si hauera 1 3 p. 2 de eguale à 12, che agguagliato il Tamo valera K. q. 13.
 composto loro giongendo, ò cauando qual si uoglia di
@@ -24458,10 +24460,10 @@ Ponghifi, che l'una sia t , che l'altra sarà 60.m.s.
 carte 6 righe 23. R.q.4, e R.q.8. Leggi R. q.6.
 che moltiplicata la prima per 1 2, fa 12 ! e la seconda
 carte 400 mighe ou Sarà la lineab.hi Leggi farà la
-per 2 2 fair 3 20.m. ex & , & de eguale 2 1 2 ... , che leua-
-...... is the first state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state o
+per 2 2 fair 3 20.m. ex & , & de eguale 2 1 2 1, che leua-
+...... is the first seed of the about.
 to il meno, & agguagliato; il Tanto valerà 38 14 & tan
-carte 57 righe 91 L'istella dà Leggi l'istella ope-
+carte 57 righe 91 L'istella dà. Leggi l'istella ope-
 to è la prima, & la seconda sarà 21 3, che moltiplica-
 ra da
 ta per 23. fa 465 17, e moltiplicato 38 14 per 12. fa fi-
@@ -24476,16 +24478,16 @@ carte 69 righe 244 Trouar 16.lato Leggi trouare
 the trace conflict and Le trace
 carte 70 Nella dimostratione p.128. Leggi p. 12.
 , . . . . . . . . . . . . . . . . . . .
-: . . १ : हित्तर कि कार जारदात है . इ. जा. :
-carre 8a Manca à righio a 8. la Rublica che dice
+: . . १ : हित्ता कि कार जाट है : इ. जा. :
+carre 8a Manca à righio a 8. la Rubdica che dice
 Sotrar di Residui, con numero, ò R.q.
 900
 carte 90 righe 10.c. Rigurs laqual fia R.q. 2. della
 slongeroug quale
 ,
-soi heggi R.qu &della quale
+sei heggi R.qu &della quale
 carte gan Manca sotto la linea vitima della leconda
-id 30, chresnoirmsombi
+id 30, oneshourshombi
 16.m.H.q.72
 8.m.R.q.18
 VV
@@ -24501,7 +24503,7 @@ righe 23 del foglio 92, sino alle righe 7. del foglio
 carrentor righe as one dice fu la saperficie Leggi
 93, che sono queste.
 mag logusfe la superficie
-2.m.R.q.2. 2.p.R.q.z. englis & englis & englis & englis & englis & englis & englis & englis & englis & englis & englis & englis & englis & englis & englis & englis & englis & englis & englis & englis & englis & englis & en
+onl la. poR. quep ornement pe prigir 2 erred
 carte 164 riga ultima oue dice fe ne Qui manca
 hà da cauare un pezzo
 _____onnacp.R.q.72.
@@ -24526,7 +24528,7 @@ VV Tregola fi accompagna con 1 3 p.6.p.R.q.24.
 tutte
 carte 375 righe 20 caua1 2 Leggicaua1 4
 carte 210 righe 16. 8 3 Leggi 8 Ton 03 9910
-carte 380 righe 27 capitolo di 2 Leggi di 30
+carte 380 righe 27 capitolo di 2 Leggi di 3
 carte 213 righe 13. p.32.1. Leggip.32 5 00 0000
 carte 388 righe 6 p.1 Leggi p.1
 carte 220 righe 14. oue dice m.6.1.p.1.2. Leggi m.

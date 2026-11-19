@@ -2,13 +2,15 @@ Source: https://patents.google.com/patent/US20180047462A1
 PDF sha256: 597370d8b246f23a650722b9a8bc0ddc86232dbf72ea5c9f8c7b96d1780507fd
 License: US-patent-public-domain
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine (failed: text-layer, empty-pages)
 
 # Transcription of mcguire_2018_us20180047462_encapsulating_magnetic_fields_for_plasma_confinement.pdf
 
 Transcription of `mcguire_2018_us20180047462_encapsulating_magnetic_fields_for_plasma_confinement.pdf` in this directory, 26 pages; each `## PDF page` heading marks a page of the PDF.
 
 Method: Marker 1.10.2 (surya-ocr 0.17.1 on CUDA) over the whole PDF; formulas are LaTeX between `$` signs. Display equations are machine output, so the PDF is the authority for every quotation. The earlier transcription is in this file's history.
+
+Second engine: Surya OCR 0.17.0 alone read pages 2, 4, 6, 9, 13, 15, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -46,7 +48,26 @@ In one embodiment, a fusion reactor includes an enclosure, an open-field magneti
 
 ## PDF page 2
 
+Patent Application Publication Feb. 15, 2018 Sheet 1 of 14
+US 2018/0047462 A1
+2
+(@)
+(×)
+RSIQN REACTOR
+# S S S S S S S S S S S S S S S S S S S
+RESE<br>5<br>5<br>5
+(0)
+(0)
+<b>ڇ</b>
+gooor
+1771
+<math>\stackrel{*}{\square}</math>
+2
+~~<br>~~
 
+
+book
+FIC.
 
 ## PDF page 3
 
@@ -54,7 +75,19 @@ In one embodiment, a fusion reactor includes an enclosure, an open-field magneti
 
 ## PDF page 4
 
-
+Patent Application Publication Feb. 15, 2018 Sheet 3 of 14 US 2018/0047462 A1
+MRROR COLL<br>1608
+OTE COLLS
+ENCLOSURE<br>7 120
+CENTER COLL
+HEAT INVECTORS
+Marin Wall
+NZ
+FIG. 3A
+OUTER COILS
+MRROR COLL
+CEMTER LINE
+SE SE SE SE SE SE SE SE SE SE SE SE SE S
 
 ## PDF page 5
 
@@ -62,7 +95,56 @@ In one embodiment, a fusion reactor includes an enclosure, an open-field magneti
 
 ## PDF page 6
 
+Feb. 15, 2018 Sheet 5 of 14
+<b>Patent Application Publication</b>
+US 2018/0047462 A1
 
+
+ENCAPSULATING<br>COILS<br>150
+
+<del>ري</del>
+**
+Ο,
+O
+<math>\mathbf{x}</math>
+0
+ж
+
+MD-CAM
+
+
+
+ENCAPSULATIVG
+COR.
+SYSTEM
+420
+COR.
+SYSTEM
+420
+SYSTEM
+420
+SYSTEM
+420
+×
+
+.....
+
+
+
+
+3×4
+TAN STATE
+×
+0
+×
+<math>\circ</math>
+0
+**
+ENCAPSULATING CONTROLL STATES
+HRST BAS
+$ 5 E
+FIC. 4A
+I
 
 ## PDF page 7
 
@@ -74,7 +156,64 @@ FIG. 40
 
 ## PDF page 9
 
+Feb. 15, 2018 Sheet 8 of 14 US 2018/0047462 A1
+<b>Patent Application Publication</b>
+4mm<br>4mm
+8
+c
+>5
+**
+× 
+$
+8
 
+<b>K</b>3
+34
+<b>E</b>
+0
+× }
+ä
+Ø
+36
+Ş
+8
+0
+0
+<b>*</b>* [
+8
+<math>\tilde{\mathbb{Z}}</math>
+2 19
+器
+E
+S
+ା
+×
+0
+×į
+8
+
+
+×
+<math>\circ</math>
+<b>Z</b>
+8
+0
+×
+. . . . . .
+8
+<b>23</b>
+ж
+<math>\circ</math>
+×
+
+8
+Ø
+Š
+0
+36 J
+8
+
+×
 
 ## PDF page 10
 
@@ -90,7 +229,19 @@ FIG. 4E
 
 ## PDF page 13
 
-
+Patent Application Publication Feb. 15, 2018 Sheet 12 of 14 US 2018/0047462 A1
+£
+SUPPORTING SE
+WER SHED
+a<br>R
+R
+FIG. 7
+E
+£3
+COIL WINDINGS
+Z.
+OUTER SHIELD 740
+340
 
 ## PDF page 14
 
@@ -98,6 +249,30 @@ FIG. 4E
 
 ## PDF page 15
 
+Patent Application Publication Feb. 15, 2018 Sheet 14 of 14 US 2018/0047462 A1
+900
+COMPUTER SYSTEM
+912
+902
+<b>PROCESSOR</b>
+904
+MEMORY
+906
+STORAGE
+-200
+_______________________________________
+_____
+908
+I/O INTERFACE
+910
+COMMUNICATION
+100
+.
+......
+INTERFACE
+men and their contract and are the contract and their series and
+was new
+AND AND A
 FIG. 9
 
 ## PDF page 16

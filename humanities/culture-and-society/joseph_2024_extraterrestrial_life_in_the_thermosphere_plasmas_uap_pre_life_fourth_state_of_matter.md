@@ -2,13 +2,15 @@ Source: see manifest row of the PDF
 PDF sha256: 946634ee154a79cee489b086bd913a8f4c7a4e4219165b8820feafe5dbf71b0c
 License: CC-BY-NC-4.0
 Language: eng
-Fidelity: machine (failed: characters, second-reader, repetition)
+Fidelity: machine (failed: characters, text-layer)
 
 # Transcription of joseph_2024_extraterrestrial_life_in_the_thermosphere_plasmas_uap_pre_life_fourth_state_of_matter.pdf
 
 Transcription of `joseph_2024_extraterrestrial_life_in_the_thermosphere_plasmas_uap_pre_life_fourth_state_of_matter.pdf` in this directory, 54 pages; each `## PDF page` heading marks a page of the PDF.
 
 Method: pages 12-13, 17-19, 22, 26-35, 41-42, 49 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-11, 14-16, 20-21, 23-25, 36-40, 43-48, 50-54 from the PDF's own text layer (pdftotext version 26.01.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+
+Second engine: Surya OCR 0.17.0 alone read page 12, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -469,7 +471,7 @@ Journal of Modern Physics
 
 R. Joseph <i>et al</i>.
 Figure 7. Cone-donut-nucleated and spiral glowing plasmas filmed by shuttle mission STS-75. These plasmas change shape and
-<math display="block">have \ a\ variety\ of\ dimensions\ and\ are\ up\ to\ 1\ km\ in\ size.\ (see: \underline{https://www.youtube.com/watch?v=Yb67zM1Sh-Q/match?v=Yb67zM1Sh-Q/match?v=Yb67zM1Sh-Q/match?v=Yb67zM1Sh-Q/match?v=Yb67zM1Sh-Q/match?v=Yb67zM1Sh</math>
+have a variety of dimensions and are up to 1 km in size. (see: <math display="block">\underline{\text{https://www.youtube.com/watch?v=Yb67zM1Sh-Q/}}</math>
 <math display="block">\underline{http://www.youtube.com/watch?v=DARcIIc4pCw)}.</math>
 DOI: 10.4236/jmp.2024.153015
 Journal of Modern Physics

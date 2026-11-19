@@ -2,13 +2,15 @@ Source: see manifest row of the PDF
 PDF sha256: 13e89083e3c0b214c9f301ec30f6754a93839a2d408157b84eac23836e2701d3
 License: public domain (published 1798; author A.-M. Legendre died 1833)
 Language: fra
-Fidelity: machine (failed: second-reader)
+Fidelity: machine (failed: repetition)
 
 # Transcription of legendre_1798_essai_sur_la_theorie_des_nombres.pdf
 
 Transcription of `legendre_1798_essai_sur_la_theorie_des_nombres.pdf` in this directory, 544 pages; each `## PDF page` heading marks a page of the PDF.
 
 Method: pages 3-544 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-2 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+
+Second engine: Surya OCR 0.17.0 alone read pages 226, 281, 423, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -8226,11 +8228,11 @@ nécessairement; d'où résulte ce théorème:
 
 THÉORIE DES NOMBRES.
 202
-grand the finite factor of the first of the first of the first of the first of the first of the first of the first of the first of the first of the first of the first of the first of the first of the first of the first of 
+gradient de Agresia 🍰 🖰 esta encentral a la gradient de
 Démonstration des cas III et VI.
 (168) Soit <math>(\frac{a}{\lambda}) = +i</math>, je dis qu'il en résultera <math>(\frac{b}{a}) = +i</math>. En
 effet, soit encore 2 un nombre premier de forme 4n + 3 qui divise
-la formule <math>x + a</math>, ensorte qu'on ait <math>\left(\frac{a}{B}\right) = -1</math>, et par suite <math>\left(\frac{a}{a}\right) = -1</math>.
+la formule <math>x^2 + a^2</math>, ensorte qu'on ait <math>\left(\frac{a}{B}\right) = -1</math>, et par suite <math>\left(\frac{a}{a}\right) = -1</math>.
 On a déjà vu (nº 49) qu'il est toujours possible de satisfaire à l'une des
 trois équations suivantes, pourvel qu'on prenne convenablement le signe
 du premier membre
@@ -8248,7 +8250,7 @@ In ne nous reste donc plus que les deux équations
 <math display="block">+ 1 = bx^2 - ay^2</math>
 <math display="block">-1 = bx^2 - aby^2,</math>
 . dont l'une doit avoir lieu nécessairement; or elles exigent toutes deux
-qu'on ait <math>\left(\frac{b}{a}\right) = +1</math>, puisque par la première a est diviseur de z' <math>-b</math>,
+qu'on ait <math>(\frac{b}{a}) = +1</math>, puisque par la première a est diviseur de z' <math>-b</math>,
 et par la seconde a est diviseur de <math>z^* + b</math>. Donc
 III. Si l'on a <math>\left(\frac{a}{b}\right) = +1</math>, il s'ensuit <math>\binom{b}{a} = +1</math>.
 Soit en second lieu <math>\binom{b}{a} = -1</math>, je dis qu'il en résultera <math>\binom{a}{b} = -1</math>.
@@ -10319,8 +10321,8 @@ tous deux de la forme <math>4n + 1</math>, ou tous deux de la forme <math>4n + 3
 <math>\binom{\zeta}{A} = \binom{\zeta}{p}, \quad \binom{\zeta''}{A} = \binom{\zeta''}{p}, \quad \binom{\zeta''}{A} = \binom{\zeta''}{p}, \quad \text{etc.}</math>
 Donc 1°. si c est impair, il sera égal au produit de tous les nombres
 premiers <math>\alpha</math>, <math>\alpha'</math>, <math>\alpha''</math>.... <math>\epsilon</math>, <math>\epsilon'</math>, <math>\epsilon''</math>, ... et on aura
-<math display="block"> \binom{c}{A} = \binom{a}{A} \cdot \binom{a'}{A} \cdot \binom{a''}{A} \cdot \binom{c}{A} \cdot \binom{c''}{A} \cdot \binom{c''}{A} \cdot \binom{c''}{A} \cdot \binom{c''}{A} \cdot \binom{c''}{A} \cdot \binom{c''}{A} \cdot \binom{c''}{A} \cdot \binom{c''}{A} \cdot \binom{c''}{A} \cdot \binom{c''}{A} \cdot \binom{c''}{A} \cdot \binom{c''}{A} \cdot \binom{c''}{A} \cdot \binom{c''}{A} </math>
-<math display="block">\left(\frac{c}{n}\right) = \left(\frac{\alpha}{n}\right) \cdot \left(\frac{\alpha'}{n}\right) \cdot \left(\frac{\alpha''}{n}\right) \cdots \left(\frac{c}{n}\right) \cdot \left(\frac{c''}{n}\right) \cdot \left(\frac{c''}{n}\right) \cdots </math>
+<math display="block"> \binom{c}{A} = \binom{a}{A} \cdot \binom{a'}{A} \cdot \binom{a'}{A} \cdot \binom{c}{A} \cdot \binom{c}{A} \cdot \binom{c'}{A} \cdot \binom{c'}{A} \cdot \binom{c'}{A} \cdot \cdots </math>
+<math display="block">\left(\frac{c}{p}\right) = \left(\frac{\alpha}{p}\right) \cdot \left(\frac{\alpha'}{p}\right) \cdot \left(\frac{\alpha''}{p}\right) \cdots \left(\frac{c}{p}\right) \cdot \left(\frac{c''}{p}\right) \cdot \left(\frac{c''}{p}\right) \cdots \cdots</math>
 Et puisque les facteurs de ces expressions sont égaux chacun à chacun,
 on aura <math>\left(\frac{c}{4}\right) = \left(\frac{c}{n}\right)</math>.
 2°. Si c est pair, outre les facteurs précédens, c contiendra le facteur 2;
@@ -15814,7 +15816,7 @@ and the second of the second of the second of the second
 
 QUATRIÈME PARTIE.
 399
-. . . . . . . . . . . . . . . . . . . . 
+1.0
 SLO TO TODICAL
 化氯乙烷基苯
 . ()
@@ -15824,7 +15826,7 @@ arithmétiques.
 A Committee of the
 The reservation of the Adams of the construction of the suppresents
 (Sg7) D.o vy sproposés la progression michaiétique
-and an of an it will have <math>G</math>, <math>A \leftarrow G</math>, <math>A \leftarrow G</math>, <math>A \leftarrow G</math>, <math>A \leftarrow G</math>, <math>A \leftarrow G</math>, <math>A \leftarrow G</math>, <math>A \leftarrow G</math>, <math>A \leftarrow G</math>, <math>A \leftarrow G</math>, <math>A \leftarrow G</math>, <math>A \leftarrow G</math>, <math>A \leftarrow G</math>, <math>A \leftarrow G</math>, <math>A \leftarrow G</math>, <math>A \leftarrow G</math>, <math>A \leftarrow G</math>, <math>A \leftarrow G</math>, <math>A \leftarrow G</math>, <math>A \leftarrow G</math>, <math>A \leftarrow G</math>, <math>A \leftarrow G</math>, 
+and an of an it will have <math>G</math>, <math>A - G</math>, <math>A - G</math>, <math>A - G</math>, <math>A - G</math>. (Z)
 dans laquelle A et C sont des nombres quelconques premiers entré
 eux; soit I un nombre premier non-diviseur de A; si l'on déterminé
 <math>x</math> de maniere que <math>Ax \rightarrow C</math> soit divisible par <math>\theta</math>, la valeur de <math>x</math> seta
@@ -15840,7 +15842,7 @@ Et distans entre 'eux de l'intervalle 8.
 Cela pose, soit <math>\theta</math>, <math>\lambda</math>, <math>\mu</math>, <math>\psi</math>, <math>\omega</math>, time suite de nombres premiens,
 pris à volonte, dans un ordre quelconque, mais dont ausun me divise A.
 Nous allous chercher quel est, dans la progression (Z.), le plut grand
-nombre de termes expesientifs qui sersient divisibles per quelqu'un des
+nombre de termes enpsécutifs qui sersient divisibles par quelqu'un des
 nombres de la suite fla A, it. ... de sus nons appellerone (e). Il faut
 pour cet, effet examiner d'abord les cas les plus sintplesses sur
 Sugar Miles and
@@ -15849,10 +15851,10 @@ as objection to the sa
 - (308) rusist foll ne considere que deux nombres premiers d', x, il
 ne peut y avoir plus de deux termes consecutifs divisibles l'un par b,
 l'autre par <math>\lambda</math>, et ces termes peuvent être désignés par <math>(\theta)</math>, <math>(\lambda)</math>. Le terme
-aquisquist (A) se apoutrere divisible par syricar l'intervalle avec (6) if dant
+aquisquist (1) sele queut este adivisible par sylicar l'intervisible avec (6) if chant
 apus de la mentermes, il fauthait qu'en ent l'= 2; mis ce cas est ex-
-chis et nous me considérons dans lu suite (a) que des nombrés pre-
-miers ampairs ? The industriation, tel terme qui precede (8) he sautait
+chis: et nous me considérons dans lu suite (a) que des nombrés pre-
+miers ampairs ? The industriation, tel terme qui precede (6) he sautait
 
 ## PDF page 424
 

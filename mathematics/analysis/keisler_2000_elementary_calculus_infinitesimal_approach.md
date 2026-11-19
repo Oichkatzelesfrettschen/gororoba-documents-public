@@ -2,13 +2,15 @@ Source: see manifest row of the PDF
 PDF sha256: b33d21b0836a5366c58ff7b0f153fc97e2007b30fb5416b97ed9321e48e9d4b7
 License: CC-BY-NC-SA-2.0
 Language: eng
-Fidelity: machine (failed: second-reader, repetition)
+Fidelity: machine (failed: repetition)
 
 # Transcription of keisler_2000_elementary_calculus_infinitesimal_approach.pdf
 
 Transcription of `keisler_2000_elementary_calculus_infinitesimal_approach.pdf` in this directory, 992 pages; each `## PDF page` heading marks a page of the PDF.
 
 Method: pages 1, 3-992 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 2 from the PDF's own text layer (pdftotext version 26.01.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+
+Second engine: Surya OCR 0.17.0 alone read pages 56, 366, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -2796,7 +2798,7 @@ Find the value of <math>f'(x)</math> when it is defined.
 
 46
 2 DIFFERENTIATION
-у
+y
 У
 <math>\Delta x</math>
 <math>\Delta y \downarrow</math>
@@ -2805,7 +2807,7 @@ Find the value of <math>f'(x)</math> when it is defined.
 <math>\Delta x</math>
 <math>\Delta \nu</math>
 x
-x
+X
 <math>\Delta x < 0, \ \Delta y > 0</math>
 <math>\Delta x > 0</math>, <math>\Delta y < 0</math>
 у
@@ -2814,36 +2816,7 @@ x
 <math>\Delta x</math>
 <math>\Delta x</math>
 <math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
-<math>\Delta x</math>
+<math>\Delta y</math>
 <math>\Delta x</math>
 <math>\Delta x</math>
 <math>\Delta x</math>
@@ -16402,7 +16375,7 @@ Then the cylinder is formed by rotating a rectangle of length <math>H^2</math>, 
 infinite area <math>H^2/H = H</math>. But the volume of the cylinder is equal to <math>\pi</math>,
 <math>V = \pi r^2 h = \pi (1/H)^2 (H^2) = \pi.</math>
 radius <math>\frac{1}{H}</math>
-ili kanang m<del>agas</del>i kabupatèn ng Kabupatèn ng Kabupatèn ng Kabupatèn ng Kabupatèn ng Kabupatèn ng Kabupatèn ng Kabupatèn ng Kabupatèn ng Kabupatèn ng Kabupatèn ng Kabupatèn ng Kabupatèn ng Kabupatèn ng Kabupatèn ng Kabupat
+ili kanang m<del>agas</del>i ankabahan mengangan di ka
 <math>\longrightarrow</math> length <math>H^2</math> -
 Area = <math>H</math>, volume = <math>\pi</math>
 Figure 6.7.6

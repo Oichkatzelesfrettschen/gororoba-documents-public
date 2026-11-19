@@ -2,13 +2,15 @@ Source: see manifest row of the PDF
 PDF sha256: 0fdf9e7ed5dda3f90f0bdf2814187950a894614aabc2531fdb34889cdb3a7687
 License: public domain (Philosophical Magazine vol. 34, published 1849; contributors died before 1955)
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine (failed: text-layer, repetition)
 
 # Transcription of cockle_1849_philosophical_magazine_vol34_containing_new_imaginary_in_algebra.pdf
 
 Transcription of `cockle_1849_philosophical_magazine_vol34_containing_new_imaginary_in_algebra.pdf` in this directory, 574 pages; each `## PDF page` heading marks a page of the PDF.
 
 Method: pages 1-574 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+
+Second engine: Surya OCR 0.17.0 alone read pages 11, 142, 193, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -303,7 +305,7 @@ Meteorological Observations for January 1849 .....
 239
 _____ Table. . . . . . . . . . . . . . . . . . . 
 240
-min on the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the s
+mr. on her rest to 1000 ft -- 1
 THE COUNTY THE WAY IN THE
 · · · · · · · · · · · · · · · · · · · 
 NUMBER CCXXIX.-APRIL.
@@ -9463,7 +9465,7 @@ more mir-ou
 Ily and Illino 01
 ...
 1.4
-of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state o
+and a finish
 
 ## PDF page 143
 
@@ -12929,7 +12931,7 @@ sun.
 point opposite the sun.
 R semidiameter of the earth.
 * Communicated by the Author.
-No. of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of the last of
+No. of the last
 N 2
 
 ## PDF page 194

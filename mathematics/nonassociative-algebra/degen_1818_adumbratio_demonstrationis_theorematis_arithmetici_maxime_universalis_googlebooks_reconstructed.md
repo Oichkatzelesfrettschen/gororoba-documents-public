@@ -2,13 +2,15 @@ Source: see manifest row of the PDF
 PDF sha256: 6190e153c2b6345195ea794fc1b685802e5c28b3d2521f9aa9538b6c915a8b1f
 License: public domain (C. F. Degen, Adumbratio demonstrationis (1818); Degen died 1825)
 Language: lat
-Fidelity: machine-gated
+Fidelity: machine (failed: repetition)
 
 # Transcription of degen_1818_adumbratio_demonstrationis_theorematis_arithmetici_maxime_universalis_googlebooks_reconstructed.pdf
 
 Transcription of `degen_1818_adumbratio_demonstrationis_theorematis_arithmetici_maxime_universalis_googlebooks_reconstructed.pdf` in this directory, 13 pages; each `## PDF page` heading marks a page of the PDF.
 
 Method: pages 1-13 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+
+Second engine: Surya OCR 0.17.0 alone read page 4, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -143,7 +145,7 @@ esse
 <math>+\epsilon (Pu + \alpha^{IV}Qt + \beta^{IV}Rx + \gamma^{IV}Sv - \delta^{IV}Tq - \epsilon^{IV}Up + \zeta^{IV}Vs + \gamma^{IV}Xr)^2</math>
 <math>+ f(Pv - \alpha^{V}Qx + \beta^{V}Rt \pm \gamma^{V}Su \pm \delta^{V}Tr + \epsilon^{V}Us - \zeta^{V}Vp + \gamma^{V}Xq)^{2}</math>
 + <math>g(Px + \alpha^{VI}Qv + \beta^{VI}Ru + \gamma^{VI}St + \delta^{VI}Ts + \epsilon^{VI}Ur - \zeta^{VI}Vq - \gamma^{VI}Xp)^{1}</math>
-Quod autem coefficientes a, \beta', \gamma'', \delta'', \epsilon'', \epsilon'', \epsilon'', \epsilon'', \epsilon'', \epsilon'', \epsilon'', \epsilon'', \epsilon'', \epsilon'', \epsilon'', \epsilon'', \epsilon'', \epsilon''
+Quod autem coefficientes a, B', y", 5", EIV, ZV et yVI, se-
 eundum diagonalem Pp - - - Xp dispositi et signo negativo affecti
 sint unitati acquales, vel levissima attentione perspicitur.
 Deinde

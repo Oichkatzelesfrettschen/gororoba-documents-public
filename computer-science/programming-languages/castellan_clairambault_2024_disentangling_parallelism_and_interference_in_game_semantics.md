@@ -2,13 +2,15 @@ Source: https://doi.org/10.46298/LMCS-20(3:24)2024
 PDF sha256: 579b53e4f9aa059aee0e21ba4a13fab973ba9c35cddd68005c0aa4d92ba7ad5a
 License: https://creativecommons.org/licenses/by/4.0/
 Language: eng
-Fidelity: machine (failed: characters, repetition)
+Fidelity: machine (failed: characters, text-layer)
 
 # Transcription of castellan_clairambault_2024_disentangling_parallelism_and_interference_in_game_semantics.pdf
 
 Transcription of `castellan_clairambault_2024_disentangling_parallelism_and_interference_in_game_semantics.pdf` in this directory, 130 pages; each `## PDF page` heading marks a page of the PDF.
 
 Method: no page was sent to OCR; pages 1-130 from the PDF's own text layer (pdftotext version 26.01.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+
+Second engine: Surya OCR 0.17.0 alone read page 22, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -1749,68 +1751,44 @@ second-order types, which is the starting point of algorithmic game semantics [G
 ## PDF page 22
 
 24:22
-
 S. Castellan and P. Clairambault
-
-pB
-
-Ñ
-
-B
-
-Ñ
-
-Uq
-
-Ñ
-
-B
-q´
-
-q`
-q´
-q`
-q´
-ff `
-✓´
-tt`
-q´
-ff `
-✓´
-tt`
-
 Vol. 20:3
-
-λf BÑBÑU . f ppf ff ff q; ttq ff ; tt
-λf BÑBÑU . f ppf ff ff q; ttq ff ; tt
-λf BÑBÑU . f ppf ff ff q; ttq ff ; tt
-λf BÑBÑU . f ppf ff ff q; ttq ff ; tt
-λf BÑBÑU . f ppf ff ff q; ttq ff ; tt
-λf BÑBÑU . f ppf ff ff q; ttq ff ; tt
-λf BÑBÑU . f ppf ff ff q; ttq ff ; tt
-λf BÑBÑU . f ppf ff ff q; ttq ff ; tt
-λf BÑBÑU . f ppf ff ff q; ttq ff ; tt
-λf BÑBÑU . f ppf ff ff q; ttq ff ; tt
-λf BÑBÑU . f ppf ff ff q; ttq ff ; tt
-λf BÑBÑU . f ppf ff ff q; ttq ff ; tt
-
+<math>(\mathbb{B}</math>
+<math>\lambda f^{\mathbb{B} \to \mathbb{B} \to \mathbb{U}}</math>. <math>f((f \mathbf{ff} \mathbf{ff}); \mathbf{tt}) \mathbf{ff}; \mathbf{tt}</math>
+<math>\lambda f^{\mathbb{B} \to \mathbb{B} \to \mathbb{U}}</math>. <math>f((f \mathbf{ff} \mathbf{ff}); \mathbf{tt}) \mathbf{ff}; \mathbf{tt}</math>
+<math>\lambda f^{\mathbb{B} \to \mathbb{B} \to \mathbb{U}} \cdot f((f \text{ ff ff}); \text{ tt}) \text{ ff}; \text{ tt}</math>
+<math>{\bf q}</math>
+<math>\lambda f^{\mathbb{B} \to \mathbb{B} \to \mathbb{U}} . f \overline{((f \text{ ff ff}); \text{ tt})} \text{ ff}; \text{ tt}</math>
+<math>\lambda f^{\mathbb{B} \to \mathbb{B} \to \mathbb{U}} \cdot f((f \mathbf{ff} \mathbf{ff}); \mathbf{tt}) \mathbf{ff}; \mathbf{tt}</math>
+<math>\mathbf{q}</math>
+<math>\lambda f^{\mathbb{B} \to \mathbb{B} \to \mathbb{U}}</math>. <math>f((f \mathbf{ff} \mathbf{ff}); \mathbf{tt}) \mathbf{ff}; \mathbf{tt}</math>
+<math>\mathbf{ff}^+</math>
+<math>\lambda f^{\mathbb{B} \to \mathbb{B} \to \mathbb{U}} \cdot f((f \text{ ff ff}); \mathbf{t}) \text{ ff}; \mathbf{t}</math>
+<math>\lambda f^{\mathbb{B} \to \mathbb{B} \to \mathbb{U}}</math>. <math>f((f \mathbf{ff} \mathbf{ff}); \underline{\mathbf{tt}}) \mathbf{ff}; \mathbf{tt}</math>
+<math>tt^+</math>
+<math>\lambda f^{\mathbb{B} \to \mathbb{B} \to \mathbb{U}}</math>. <math>f((f \mathbf{ff} \mathbf{ff}); \mathbf{tt}) \mathbf{ff}; \mathbf{tt}</math>
+<math>{\bf q}^-</math>
+<math display="block">\lambda f^{\mathbb{B} \to \mathbb{B} \to \mathbb{U}}.\, f\left((f\, \mathbf{f} \mathbf{f} \mathbf{f} \, \mathbf{f} \mathbf{f});\, \mathbf{t} \mathbf{t}\right) \underline{\mathbf{f} \mathbf{f}};\, \mathbf{t} \mathbf{t}</math>
+<math>\lambda f^{\mathbb{B} \to \mathbb{B} \to \mathbb{U}} \cdot f((f \text{ ff ff}); \text{ tt}) \text{ ff}; \text{ tt}</math>
+<math>\lambda f^{\mathbb{B} \to \mathbb{B} \to \mathbb{U}} \cdot f((f \text{ ff ff}); \text{ tt}) \text{ ff}; \underline{\text{tt}}</math>
+<math>tt^+</math>
 Figure 17: Illustration of the operational contents of game semantics
 Plays with pointers are powerful, and indeed the game semantics literature is strongly
 biaised towards HO games (as opposed to AJM games). This, however, has two costs.
 Firstly, plays with pointers are not a natural inductive structure, making their manipulation
-sometimes inelegant or unwieldy (so-called “pointer surgery”). Proposals have been made for
+sometimes in legant or unwieldy (so-called "pointer surgery"). Proposals have been made for
 clean formalizations, e.g. through nominal sets [GG12]. Another cost is that replication is
 so hard-wired into the model that it does not enjoy a clean linear decomposition. Enforcing
 linearity is slightly awkward and relies on additional structure [McC98].
-In this work we stick with Œ-Strat rather than adopting plays with explicit pointers.
+In this work we stick with ↓↑-Strat rather than adopting plays with explicit pointers.
 Among other things this will ease the relationship with the forthcoming thin concurrent
-games, which we do not know how to formulate with pointers in general. Besides, in Œ-Strat,
-pointers can be directly obtained from the arena, and as such may be used as in HO games8.
+games, which we do not know how to formulate with pointers in general. Besides, in <math>\downarrow \uparrow</math>-Strat,
+pointers can be directly obtained from the arena, and as such may be used as in HO games<sup>8</sup>.
 In fact, pointers play a central role in this paper. From now on, all representations of plays
 will display pointers. In contrast, we will often omit copy indices as most of the time they
-convey no useful information; one can regard this convention as drawing Ppsq rather than s.
-3. Sequential Computational Effects in Game Semantics
-We now explore the model constructed above, introducing the traditional “semantic cube”.
+convey no useful information; one can regard this convention as drawing <math>\mathcal{P}(s)</math> rather than s.
+3. SEQUENTIAL COMPUTATIONAL EFFECTS IN GAME SEMANTICS
+We now explore the model constructed above, introducing the traditional "semantic cube".
 The plays of a term are computed denotationally, by induction on syntax. However, given
 a term, an experienced game semanticist will be able to directly list its plays, without going
 through the intricate definition of the interpretation. This is because as discussed before,
@@ -1818,7 +1796,7 @@ plays represent the operational behaviour of the term: rather than denotationall
 can be obtained directly from the term by operational means [DHR96, Jab15, GT12, LS14].
 This is illustrated in Figure 17. Opponent moves trigger the evaluation of a subterm, which
 appears boxed. The following Player move then corresponds to the head (i.e. leftmost)
-8Another work blurring the lines between HO and AJM is [AJ09] where AJM games are equipped with a
+<math>^{8}</math>Another work blurring the lines between HO and AJM is [AJ09] where AJM games are equipped with a
 function able to rebuild pointers without the need to explicitly integrate them in plays. All the data of a
 game in the sense of [AJ09] can be computed from an arena in our sense, but our arenas are more primitive.
 

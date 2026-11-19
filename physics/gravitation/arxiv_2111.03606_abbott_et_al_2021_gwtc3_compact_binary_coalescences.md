@@ -2,13 +2,15 @@ Source: https://arxiv.org/abs/2111.03606v3
 PDF sha256: 8d7401dfae3ffe3d7abc1faa7252bc6423ec0e4784ed7a2e9118d9c18aefed68
 License: http://creativecommons.org/licenses/by/4.0/
 Language: eng
-Fidelity: machine (failed: repetition)
+Fidelity: machine (failed: text-layer)
 
 # Transcription of arxiv_2111.03606_abbott_et_al_2021_gwtc3_compact_binary_coalescences.pdf
 
 Transcription of `arxiv_2111.03606_abbott_et_al_2021_gwtc3_compact_binary_coalescences.pdf` in this directory, 88 pages; each `## PDF page` heading marks a page of the PDF.
 
 Method: no page was sent to OCR; pages 1-88 from the PDF's own text layer (pdftotext version 26.01.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+
+Second engine: Surya OCR 0.17.0 alone read page 63, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -12380,109 +12382,120 @@ used to try to identify their imprint on the sig-
 
 63
 Candidate
-GW191105 143521
-GW191109 010717
-GW191113 071753
-GW191127 050227
-GW191219 163120
-GW200105 162426
-GW200115 042309
-GW200129 065458
-
 Affected detectors
-Virgo
-Hanford, Livingston
-Hanford
-Hanford
-Hanford, Livingston
-Livingston
-Livingston
-Livingston
-
 Mitigation
+GW191105_143521
 BayesWave deglitching
+Virgo
 BayesWave deglitching
+GW191109_010717
+Hanford, Livingston
+Hanford
 BayesWave deglitching
+GW191113_071753
+GW191127_050227
 BayesWave deglitching
+Hanford
 BayesWave deglitching
+GW191219_163120
+Hanford, Livingston
+GW200105_162426
 BayesWave deglitching
+Livingston
+Livingston
 BayesWave deglitching
+GW200115_042309
 Linear subtraction
-
+GW200129_065458
+Livingston
 Table XVI. List of data used and mitigation methods applied to data surrounding each candidate prior to source-parameter
 estimation. We list the candidates for which we performed mitigation of instrumental artifacts; there are 7 candidates reported
-in Table I and the previously reported GW200105 162426 [8]. For all analyses using Virgo data, calibration error at ∼ 50 Hz
+in Table I and the previously reported GW200105_162426 [8]. For all analyses using Virgo data, calibration error at <math>\sim 50~\mathrm{Hz}</math>
 was mitigated by notching out the relevant frequency range. The noise-subtraction methods (BayesWave [377, 379] glitch
 modeling and gwsubtract linear subtraction using a witness [44, 59]) used for these candidates are detailed in Appendix C.
-
-nal. We use the SEOBNRv4 ROM NRTidalv2 NSBH [139]
+nal. We use the SEOBNRv4_ROM_NRTidalv2_NSBH [139]
+didates, we choose a uniform prior over spin magnitudes
 and IMRPhenomNSBH [138] waveforms.
+and redshifted component masses, and an isotropic prior
 Both are
 nonprecessing, frequency-domain NSBH waveforms
+over spin orientation, sky location and binary orienta-
+tion [3, 14]. The default mass-ratio prior is <math>q \in [0.05, 1]</math>
 built upon previous nonprecessing, frequency-domain
 BBH waveform models:
-SEOBNRv4 ROM [625] for
-SEOBNRv4 ROM NRTidalv2 NSBH, and a combination of
+to reflect the range of calibration for our waveform mod-
+SEOBNRv4_ROM
+<math>[625]</math> for
+SEOBNRv4_ROM_NRTidalv2_NSBH, and a combination of
+els [136, 137]. However, some candidates show strong
 the IMRPhenomC [283] amplitude and IMRPhenomD [685]
-phase for IMRPhenomNSBH. These models include corrections to the phase arising from matter effects as in
-IMRPhenomPv2 NRTidalv2, but have additional corrections to the amplitude tuned to NSBH NR waveforms.
-For BBHs, the mass and spin of the final BH are calculated from the initial masses and spins using fits to
-NR results [237, 238, 304, 686, 687]. When using NSBH
-waveforms, the mass and spin of the final BH are calculated from the initial masses, the initial BH spin and the
-NS tidal deformability Λ2 using fits to NR results [688].
-These fits are calibrated to BBH fits [238] in order to
-recover the BBH values in the test-mass limit (m2 → 0)
-and in the absence of tides (Λ2 → 0).
-None of the waveform models employed for the analyses presented here include the effects of orbital eccentricity, and instead assume that all binaries follow quasicircular orbits. An eccentric source can be interpreted by a
-quasicircular analysis to be both higher mass and more
-equal mass than it truly is [393, 396–398, 689]. Consequently, if any sources analyzed here have eccentric
-orbits, their true masses may be lower and their mass
-ratios more unequal than our inferred values. Eccentricity may also influence the inferred spins [396–398, 690].
-Significant eccentricity is not expected for the majority
-of sources considered here [97, 691].
-3.
-
-Priors and sampling algorithms
-
-To ensure that the parameter space for each candidate
-is explored adequately, each candidate is analyzed independently, with a choice of prior ranges for parameters
-that balance the required analysis time with the total
-volume of parameter space to be sampled. For all can-
-
-didates, we choose a uniform prior over spin magnitudes
-and redshifted component masses, and an isotropic prior
-over spin orientation, sky location and binary orientation [3, 14]. The default mass-ratio prior is q ∈ [0.05, 1]
-to reflect the range of calibration for our waveform models [136, 137]. However, some candidates show strong
 support for mass ratios outside of this range (such as
-GW191219 163120). In these cases we extend the priors, as biases due to any waveform inaccuracies are
+phase for IMRPhenomNSBH. These models include cor-
+GW191219_163120). In these cases we extend the pri-
+rections to the phase arising from matter effects as in
+ors, as biases due to any waveform inaccuracies are
+IMRPhenomPv2_NRTidalv2, but have additional correc-
 likely subdominant to those from truncating the prior,
-and we consider prior ranges as wide as q ∈ [0.02, 1].
+tions to the amplitude tuned to NSBH NR waveforms.
+and we consider prior ranges as wide as <math>q \in [0.02, 1]</math>.
+For BBHs, the mass and spin of the final BH are cal-
 Following GWTC-2 [3], we reweight posteriors to have
+culated from the initial masses and spins using fits to
 a luminosity-distance prior corresponding to a uniform
-merger rate in the source’s comoving frame for a Λ–cold
-dark matter cosmology with H0 = 67.9 km s−1 Mpc−1
-and Ωm = 0.3065 [663].
+NR results [237, 238, 304, 686, 687]. When using NSBH
+merger rate in the source's comoving frame for a <math>\Lambda</math>-cold
+dark matter cosmology with <math>H_0 = 67.9 \,\mathrm{km}\,\mathrm{s}^{-1}\,\mathrm{Mpc}^{-1}</math>
+waveforms, the mass and spin of the final BH are calcu-
+and <math>\Omega_{\rm m} = 0.3065</math> [663].
+lated from the initial masses, the initial BH spin and the
+NS tidal deformability <math>\Lambda_2</math> using fits to NR results [688].
 We employed a number of different sampling
+These fits are calibrated to BBH fits [238] in order to
 techniques and their associated parameter-estimation
+recover the BBH values in the test-mass limit <math>(m_2 \to 0)</math>
 pipelines for the candidate signals presented in this work.
+and in the absence of tides <math>(\Lambda_2 \to 0)</math>.
 For the majority of candidates, the Bilby [144, 146] and
+None of the waveform models employed for the analy-
 RIFT [147–149] pipelines were used to generate samples
+ses presented here include the effects of orbital eccentric-
 from the posterior distributions for each signal.
+ity, and instead assume that all binaries follow quasicir-
 Bilby provides support for both Markov-chain Monte
+cular orbits. An eccentric source can be interpreted by a
 Carlo samplers and nested sampling techniques [144].
+quasicircular analysis to be both higher mass and more
 We use the Dynesty [424] sampler, which uses nested
-sampling to sample the posterior probability distribution. Analyses are organized using BilbyPipe which enables greater automation and reproducibility of analysis
+equal mass than it truly is [393, 396–398, 689]. Con-
+sampling to sample the posterior probability distribu-
+sequently, if any sources analyzed here have eccentric
+tion. Analyses are organized using BilbyPipe which en-
+orbits, their true masses may be lower and their mass
+ables greater automation and reproducibility of analysis
+ratios more unequal than our inferred values. Eccentric-
 pipeline construction [146]. We use Bilby for inferences
+ity may also influence the inferred spins [396–398, 690].
 using the IMRPhenomXPHM [136] model.
+Significant eccentricity is not expected for the majority
 For candidates where more computationally expensive
+of sources considered here [97, 691].
 analyses were required, for example, using waveforms
 that include matter effects, we used the Parallel Bilby
-code [145]. This employs a highly parallel distributed approach to nested sampling that can be run over a large
+code [145]. This employs a highly parallel distributed ap-
+Priors and sampling algorithms
+3.
+proach to nested sampling that can be run over a large
 number of processing cores, reducing the wall time of the
 required computation.
+To ensure that the parameter space for each candidate
+is explored adequately, each candidate is analyzed inde-
 To improve the sampling performance of Bilby and
+pendently, with a choice of prior ranges for parameters
 Parallel Bilby, the posterior distribution is analytically
-marginalized over luminosity distance [129] and geocenter time [146, 692] prior to sampling. We reconstruct
+that balance the required analysis time with the total
+marginalized over luminosity distance [129] and geocen-
+volume of parameter space to be sampled. For all can-
+ter time [146, 692] prior to sampling. We reconstruct
 
 ## PDF page 64
 

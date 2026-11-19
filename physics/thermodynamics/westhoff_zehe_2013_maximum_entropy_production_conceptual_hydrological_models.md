@@ -2,13 +2,15 @@ Source: see manifest row of the PDF
 PDF sha256: 0661c5296d36a3c01e7604fa24c41d676789525f20177aeabea9bdc91f05cf29
 License: CC-BY-3.0
 Language: eng
-Fidelity: machine (failed: repetition)
+Fidelity: machine-gated
 
 # Transcription of westhoff_zehe_2013_maximum_entropy_production_conceptual_hydrological_models.pdf
 
 Transcription of `westhoff_zehe_2013_maximum_entropy_production_conceptual_hydrological_models.pdf` in this directory, 17 pages; each `## PDF page` heading marks a page of the PDF.
 
 Method: no page was sent to OCR; pages 1-17 from the PDF's own text layer (pdftotext version 26.01.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+
+Second engine: Surya OCR 0.17.0 alone read page 8, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -1085,320 +1087,289 @@ Hydrol. Earth Syst. Sci., 17, 3141–3157, 2013
 ## PDF page 8
 
 3148
-
 M. C. Westhoff and E. Zehe: MEP to constrain conceptual models
-
-Table 1. Parameter sets used for each model run.
-
-Fig. 2 – solid line∗∗
-Fig. 2 – dashed line∗∗
-Fig. 3 – solid line∗∗
-Fig. 3 – dashed line∗∗
-Fig. 4a1 – solid line
-Fig. 4a1 – dashed line
-Fig. 4a2 – solid line
-Fig. 4a2 – dashed line
-Fig. 4a3 – solid line
-Fig. 4a3 – dashed line
-Fig. 4b1 – solid line
-Fig. 4b1 – dashed line
-Fig. 4b2 – solid line
-Fig. 4b2 – dashed line
-Fig. 4b3 – solid line
-Fig. 4b3 – dashed line
-Fig. 5 – solid line
-Fig. 5 – dashed line
-Fig. 6a
-Fig. 6b
-Fig. 7a
-Fig. 7b
-Fig. 7c
-Fig. 7d
-
-β
-[−]
-
-FC
-[−]
-
-Ks
-[m s−1 ]
-
-Smax
-[mm]
-
-albedo
-[−]
-
-63.1
-0.71
-0.25
-3.98
-63.1
-63.1
-63.1
-63.1
-63.1
-63.1
-0.71
-0.71
-0.71
-0.71
-0.71
-0.71
-63.1
-0.71
-
-0.6
-0.7
-0.6
-0
-0.6
-0.6
-0.6
-0.6
-0.6
-0.6
-0.7
-0.7
-0.7
-0.7
-0.7
-0.7
-0.6
-0.7
-0.6
-0.7
-0.6
-0.6
-0.7
-0.7
-
-1 × 10−6
-1 × 10−7
-1 × 10−6
-1 × 10−3
-1 × 10−6
-1 × 10−6
-1 × 10−6
-1 × 10−6
-1 × 10−6
-1 × 10−6
-1 × 10−7
-1 × 10−7
-1 × 10−7
-1 × 10−7
-1 × 10−7
-1 × 10−7
-1 × 10−6
-1 × 10−7
-
-800
-1200
-800
-500
-800
-800
-800
-800
-800
-800
-1200
-1200
-1200
-1200
-1200
-1200
-800
-1200
-8 00
-1200
-800
-800
-1200
-1200
-
-0.43
-0.05
-0.43
-0.05
-0.43
-0.43
-0.43
-0.43
-0.43
-0.43
-0.05
-0.05
-0.05
-0.05
-0.05
-0.05
-0.43
-0.05
-0.43
-0.05
-0.43
-0.43
-0.05
-0.05
-
-63.1
-63.1
-0.71
-0.71
-
-1 × 10−6
-1 × 10−6
-1 × 10−7
-1 × 10−7
-
-L
-[mm]
-
-k0
-[s−1 ]
-
-0.5
-0.1
-50
-100
-50
-50
-
-50
-100
-50
-50
-50
-50
-
-50
-100
-50
-100
-
-0.1
-0.5
-0.5
-0.1
-
-0.1
-0.5
-0.1
-0.1
-
-k1
-[s−1 ]
-
-0.1
-0.02
-0.02
-0.1
-
-0.1
-0.02
-0.02
-0.1
-
-k2∗
-[s−1 ]
-
-0.01
-0.01
-0.01
-0.01
-0.01
-0.01
-0.01
-0.01
-0.01
-0.01
-0.01
-0.01
-
-0.2
-0.2
-
-0.01
-0.01
-0.01
-0.01
-
+<b>Table 1.</b> Parameter sets used for each model run.
 Catchment
-HJ-Andrews
-HJ-Andrews
+<math>K_{\rm S}</math>
+albedo
+<math>\begin{bmatrix} k_2^* \\ [s^{-1}] \end{bmatrix}</math>
+β
+<math>F_C</math>
+<math>S_{\max}</math>
+L
+<math>k_0</math>
+<math>k_1</math>
+<math>[s^{-1}]</math>
+<math>[s^{-1}]</math>
+<math>[ms^{-1}]</math>
+<math>[-]</math>
+<math>[-]</math>
+<math>[-]</math>
+[mm]
+[mm]
+<math>1 \times 10^{-6}</math>
+Fig. 2 – solid line**
+63.1
+0.6
+800
+0.43
+<b>HJ-Andrews</b>
+<math>1 \times 10^{-7}</math>
+Fig. 2 – dashed line**
+0.71
+0.7
+1200
+0.05
+<b>HJ-Andrews</b>
+<math>1 \times 10^{-6}</math>
+Fig. 3 – solid line**
+0.25
+800
+0.43
+0.6
 Weiherbach
+<math>1 \times 10^{-3}</math>
+Fig. 3 – dashed line**
+3.98
+0
+0.05
+500
 Weiherbach
+<math>1 \times 10^{-6}</math>
+63.1
+Fig. <math>4a_1</math> – solid line
+0.6
+800
+0.43
 HJ-Andrews
+0.5
+0.1
+0.01
+<math>1 \times 10^{-6}</math>
+Fig. 4a<sub>1</sub> – dashed line
+63.1
+800
+0.43
+0.1
+0.02
+0.01
 HJ-Andrews
+0.6
+<math>1 \times 10^{-6}</math>
+63.1
+Fig. <math>4a_2</math> – solid line
+0.43
+0.02
+0.01
 HJ-Andrews
+0.6
+800
+50
+<math>1 \times 10^{-6}</math>
+Fig. <math>4a_2</math> – dashed line
+63.1
+0.6
+800
+0.43
+0.1
+0.01
 HJ-Andrews
+100
+<math>1 \times 10^{-6}</math>
+63.1
+Fig. <math>4a_3</math> – solid line
+0.6
+800
+0.43
+50
+0.1
+0.01
 HJ-Andrews
+<math>1 \times 10^{-6}</math>
+Fig. 4a<sub>3</sub> – dashed line
+63.1
+0.6
+800
+0.43
+50
+0.01
 HJ-Andrews
+0.5
+<math>1 \times 10^{-7}</math>
+0.71
+Fig. 4b<sub>1</sub> – solid line
+0.7
+1200
+0.05
+0.5
+0.1
+0.01
+<b>HJ-Andrews</b>
+<math>1 \times 10^{-7}</math>
+Fig. 4b<sub>1</sub> – dashed line
+0.71
+0.7
+0.05
+0.1
+0.02
+0.01
+1200
+<b>HJ-Andrews</b>
+<math>1 \times 10^{-7}</math>
+0.71
+0.7
+Fig. 4b<sub>2</sub> – solid line
+1200
+0.05
+50
+0.02
+0.01
 HJ-Andrews
+<math>1 \times 10^{-7}</math>
+0.71
+Fig. 4b<sub>2</sub> – dashed line
+0.7
+0.05
+0.1
+0.01
+1200
+100
 HJ-Andrews
+<math>1 \times 10^{-7}</math>
+0.71
+Fig. 4b<sub>3</sub> – solid line
+0.7
+0.05
+50
+0.1
+0.01
+1200
 HJ-Andrews
+<math>1 \times 10^{-7}</math>
+Fig. 4b<sub>3</sub> – dashed line
+0.71
+0.7
+0.05
+50
+1200
+0.5
+0.01
+<b>HJ-Andrews</b>
+<math>1 \times 10^{-6}</math>
+Fig. 5 – solid line
+63.1
+0.6
+800
+0.43
+50
+0.1
+0.2
+<b>HJ-Andrews</b>
+<math>1 \times 10^{-7}</math>
+0.7
+Fig. 5 – dashed line
+0.71
+1200
+0.05
+50
+0.1
+0.2
+<b>HJ-Andrews</b>
+0.6
+0.43
+Fig. 6a
+8 00
 HJ-Andrews
-HJ-Andrews
-HJ-Andrews
-HJ-Andrews
-HJ-Andrews
-HJ-Andrews
-HJ-Andrews
-HJ-Andrews
-HJ-Andrews
-HJ-Andrews
-HJ-Andrews
-
-∗ The slow runoff reservoir was added to be able to compare simulated runoff with the observed one. ∗∗ All parameters were fixed, except the one varied along
-
+0.7
+0.05
+Fig. 6b
+1200
+<b>HJ-Andrews</b>
+<math>1 \times 10^{-6}</math>
+63.1
+0.6
+800
+0.43
+50
+0.01
+Fig. 7a
+<b>HJ-Andrews</b>
+<math>1 \times 10^{-6}</math>
+Fig. 7b
+63.1
+0.6
+800
+0.43
+100
+0.01
+<b>HJ-Andrews</b>
+<math>1 \times 10^{-7}</math>
+0.7
+Fig. 7c
+0.71
+1200
+0.05
+50
+0.01
+<b>HJ-Andrews</b>
+<math>1 \times 10^{-7}</math>
+0.7
+0.71
+1200
+0.05
+100
+0.01
+Fig. 7d
+<b>HJ-Andrews</b>
+*The slow runoff reservoir was added to be able to compare simulated runoff with the observed one. **All parameters were fixed, except the one varied along
 the x axis.
-
 no water flows into the fast runoff reservoir. The latter case
+Besides the maxima in power by the <math>Q_0</math> and <math>Q_1</math>, a maxi-
 is, however, consistent with the way the catchment functions.
+mum in total power <math>(P_{tot})</math> only appears (but not always) for
+<math>k_1</math> (Fig. 4a<sub>3</sub>, b<sub>3</sub>) and the location of this maximum is always
 For the HJ Andrews, the chosen parameter sets for the
 unsaturated zone came from the solid and dashed line in
-Fig. 2a, where a closed water balance coincides with maximum power for G (solid line in Fig. 2a and panels a1 –a3
-in Fig. 4) or Qd (dashed line in Fig. 2a and panels b1 –b3 in
+close to the location of maximum power by <math>Q_1</math>. This is not
+Fig. 2a, where a closed water balance coincides with max-
+strange, since <math>P_{Q_1}</math> is for most cases larger than <math>P_{Q_0}</math>. Only
+when the water level becomes sufficiently higher than thresh-
+imum power for <math>G</math> (solid line in Fig. 2a and panels <math>a_1-a_3</math>
+in Fig. 4) or <math>Q_d</math> (dashed line in Fig. 2a and panels <math>b_1</math>–<math>b_3</math> in
+old L (which only occurs for small values of <math>k_1</math>), <math>P_{Q_0}</math> may
 Fig. 4). For both cases we showed again results of two sets
+become larger than <math>P_{Q_1}</math>.
 of fixed parameters (see Table 1).
-For parameter L, which represents the threshold above
-which Q0 becomes active, no maximum in power occurs
-(Fig. 4a1 , b1 ). For large values of L, power only tops off
-and becomes flat. This is due to the fact that, given certain
-forcing and reservoir constants (k0 and k1 ), the water level in
-the reservoir will have a certain maximum. If L is larger than
-this water level, it has no influence on the fluxes anymore and
-thus no influence on the power either.
-For k0 and k1 , a maximum in power is observed in the corresponding fluxes: thus a maximum in PQ0 for k0 (Fig. 4a2 ,
-b2 ) and in PQ1 for k1 (Fig. 4a3 , b3 ). Note that a maximum
-in power in panels a1 –a3 are an order of magnitude smaller
-than in panel b1 –b3 : this is due to the fact that the input flux
-Q0 is much smaller for panels a1 –a3 .
-
-Hydrol. Earth Syst. Sci., 17, 3141–3157, 2013
-
-Besides the maxima in power by the Q0 and Q1 , a maximum in total power (Ptot ) only appears (but not always) for
-k1 (Fig. 4a3 , b3 ) and the location of this maximum is always
-close to the location of maximum power by Q1 . This is not
-strange, since PQ1 is for most cases larger than PQ0 . Only
-when the water level becomes sufficiently higher than threshold L (which only occurs for small values of k1 ), PQ0 may
-become larger than PQ1 .
-The link to observations is made by looking at the Nash–
+The link to observations is made by looking at the Nash-
+For parameter <math>L</math>, which represents the threshold above
 Sutcliffe model efficiency (NSE) of simulated vs. observed
-discharge. To do this properly, total runoff should be compared which means that runoff by the slow runoff reservoir
-should also be added. Therefore, we gave k2 the arbitrary
-value of 0.02 s−1 . Note that this value has little influence for
-the simulations in panels b1 –b3 , since G (the flux flowing to
-the slow runoff reservoir) is only about 2 % of Qd : thus 98 %
+discharge. To do this properly, total runoff should be com-
+which <math>Q_0</math> becomes active, no maximum in power occurs
+pared which means that runoff by the slow runoff reservoir
+(Fig. <math>4a_1</math>, <math>b_1</math>). For large values of <math>L</math>, power only tops off
+and becomes flat. This is due to the fact that, given certain
+should also be added. Therefore, we gave <math>k_2</math> the arbitrary
+value of <math>0.02 \,\mathrm{s}^{-1}</math>. Note that this value has little influence for
+forcing and reservoir constants (<math>k_0</math> and <math>k_1</math>), the water level in
+the reservoir will have a certain maximum. If <math>L</math> is larger than
+the simulations in panels <math>b_1</math>–<math>b_3</math>, since <math>G</math> (the flux flowing to
+this water level, it has no influence on the fluxes anymore and
+the slow runoff reservoir) is only about 2 % of <math>Q_d</math>: thus 98 %
+thus no influence on the power either.
 of the total runoff is produced by the fast runoff reservoir.
+For <math>k_0</math> and <math>k_1</math>, a maximum in power is observed in the cor-
 For most cases, the maximum in power is far away from
+responding fluxes: thus a maximum in <math>P_{Q_0}</math> for <math>k_0</math> (Fig. 4a<sub>2</sub>,
 the maximum in NSE. Only for one (shown) case the two
-correspond (Fig. 4b3 , dashed line). Although the variation in
-NSE is rather small over the full parameter space, this parameter set may be an optimal one. However, this may also
+<math>b_2</math>) and in <math>P_{Q_1}</math> for <math>k_1</math> (Fig. 4a<sub>3</sub>, <math>b_3</math>). Note that a maximum
+correspond (Fig. 4b<sub>3</sub>, dashed line). Although the variation in
+in power in panels a<sub>1</sub>-a<sub>3</sub> are an order of magnitude smaller
+NSE is rather small over the full parameter space, this pa-
+than in panel <math>b_1</math>–<math>b_3</math>: this is due to the fact that the input flux
+rameter set may be an optimal one. However, this may also
+<math>Q_0</math> is much smaller for panels <math>a_1</math>–<math>a_3</math>.
 be a coincidence (see Sect. 6.1).
-
+Hydrol. Earth Syst. Sci., 17, 3141–3157, 2013
 www.hydrol-earth-syst-sci.net/17/3141/2013/
 
 ## PDF page 9

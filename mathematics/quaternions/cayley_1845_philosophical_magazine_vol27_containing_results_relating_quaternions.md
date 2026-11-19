@@ -2,13 +2,15 @@ Source: see manifest row of the PDF
 PDF sha256: b747049f7317f3e1175e231d162c2f6e821cb8cc6074592181c8ca5f531b070e
 License: public domain (Philosophical Magazine vol. 27, published 1845; contributors died before 1955)
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine (failed: text-layer, repetition)
 
 # Transcription of cayley_1845_philosophical_magazine_vol27_containing_results_relating_quaternions.pdf
 
 Transcription of `cayley_1845_philosophical_magazine_vol27_containing_results_relating_quaternions.pdf` in this directory, 608 pages; each `## PDF page` heading marks a page of the PDF.
 
 Method: pages 1-608 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+
+Second engine: Surya OCR 0.17.0 alone read pages 8, 72, 76, 150, 172, 417, 468, 483, 490, 515, 556, 588, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -145,8 +147,8 @@ Mr. R. Hunt's Contributions to Actino-Chemistry .....
 Experiments on the Electric Discharge of the Jar. (Extract of
 a letter from M. Matteucci to M. Arago.) ......
 35
-irquimla day sinoital anglesication of the design of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of 
-perspicua tuateih Admiratio generat quastioneth, quastio investigationeth,
+irquimla day sinoital angles in Meditationis est perscrutariological almirari
+perspicua tuatzih Admiratio generat quastionem, quastio investigationem,
 investigatio inventionem."- Hugo. dc. S. Victobetrevai asea srew steel
 Mr. E. J. Lowe on a Magnificent Meteor seen in Nottingham-
 shire ......
@@ -154,13 +156,19 @@ shire ......
 ......................................
 The Rev. B. Bronwin's Reduction of the Four Forms of w in
 Jacobi's General Transformation of an Elliptic Function to
-one form only ....................................
+One form only
+One form only
+Mr. R. Moon on Fresnel's Theo of the Royal Society
+
+Cambridge St. Lane Society
+
+Royal Allenda of Lety
 42
 46
 52
 56
 60
-Meteorological Observations (Lew Jan Tr. Thompson at the
+Meteorological Observations (Ich Jan Tr. Thompson at the
 79
 Garden of the Horticultural Society at Chiswick, near
 London; by Mr. Veall at Boston; by the Rev. W. Dunbar at
@@ -3528,11 +3536,11 @@ ties. The last column gives the corresponding value of the space <math>(s_0)</ma
 through which a particle of the water, or any body floating in the
 water, will be carried by the wave. The expressions for <math>s</math> and <math>s_0</math> are
 if we lably has in <math>r_1 \circ (v_2 \circ v_1)</math> 1 <math>r_2 \circ r_3 \circ r_4</math>
-stance from it or gin 1 , <math>l</math>, <math>\frac{v_0}{Vv_1}</math>, <math>l</math>, <math>\frac{v_1}{Vv_2}</math>, <math>\frac{v_1}{Vv_2}</math>, <math>\frac{v_2}{Vv_3}</math>, <math>\frac{v_3}{Vv_3}</math>, <math>\frac{v_4}{Vv_3}</math>, <math>\frac{v_4}{Vv_3}</math>, <math>\frac{v_4}{Vv_3}</math>, <math>\frac{v_4}{Vv_3}</math>, <math>\frac{v_4}{Vv_3}</math>, <math>\frac{v_4}{Vv_3}</math>, <math>\frac{v_4}{V</math>
+stance from it or and <math>l</math>, <math>\frac{v_0}{V} = \frac{1}{V} \cdot \frac{v_1}{V} \cdot \frac{l}{V} \cdot \frac{v_2}{V} \cdot \frac{l}{V}</math> a repet then of transport <math>l</math>, <math>l</math>, <math>l</math>, <math>v_1</math>, <math>v_2</math>, <math>v_3</math>, <math>v_4</math>, <math>v_4</math>, <math>v_4</math>, <math>v_5</math>, <math>v_6</math>, <math>v_7</math>, <math>v_7</math>, <math>v_8</math>, <math>v_8</math>, <math>v_</math>
 V being much greater than v<sub>1.</sub>; [See opposite page.]
 In estimating the magnitude of a block which may be moved by a
 given current, the transport is supposed to take place over a hori-
-zontal surface sufficiently hard and even for the block to roll upon it'
+zontal surface sufficiently hard and even for the block to roll upon it
 without impediment. In other states of the surface the transport
 might be more or less impeded. The constant action of denuding
 causes would be highly favourable to the transport by the successive
@@ -3844,7 +3852,7 @@ ney's clerk in a provincial town, that he laid the foundations of that
 extensive acquaintance with astronomy for which he became after-
 wards so distinguished.
 1113
-(minimum = 10 = 1 = 1 = 1 = 2 = 2 = 2 = 2 = 2
+(minimum = 10 = 1 = 11 = 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2
 Having gone through a six years' apprenticeship, Mr. Henderson,
 at the age of twenty-one, repaired to Edinburgh for the purpose of
 completing his legal education and obtaining professional employ-
@@ -3871,7 +3879,7 @@ life so foreign to astronomy and physical science of any kind, he
 should not only retain his tastes for the liberal studies he had com-
 menced at the Dundee Academy, but find leisure to make so many
 new and important acquisitions.
-and the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of th
+ender are amounted ( -cl., g() *)
 Soon after he became resident in Edinburgh his astronomical
 acquirements procured him introductions to Professors Leslie and
 Wallace, Captain Basil Hall, and other distinguished persons, by
@@ -8305,7 +8313,7 @@ a. 0.4158 substance gave 0.8053 CO<sub>2</sub> and 0.119 HO.
 b. 0.336 of the silver salt gave 0.1775 chloride of silver.
 The following are the determinations per cent: 01 . 9 . S181
 dry benzere ind 💘 exaced o the atime contradiction.
-<math display="block"> \begin{array}{c} \begin{array}{c} \text{1.} \\ \text{2 and } b \text{ all} \end{array} \\ \text{1.} \\ \text{1.} \\ \text{1.} \\ \text{1.} \\ \text{2.07}, \end{array} \\ \begin{array}{c} 40.45 \\ 1.97 \end{array} \\ \text{1.58} \end{array} \\ \begin{array}{c} 42.77 \\ 1.93 \end{array} \\ \begin{array}{c} 42.77 \\ 34.60 \end{array} \\ \begin{array}{c} 54.60 \\ 3.23 \end{array} \\ \begin{array}{c} 54.92 \\ 3.57 \end{array} \\ \begin{array}{c} 3.18</math>
+<math display="block"> \begin{array}{c} \begin{array}{c} \text{1.} \\ \text{2 and } b \text{ all} \end{array} \\ \text{H.} \\ \text{C} \\ \text{H.} \\ \text{2 -07}, \end{array} \\ \begin{array}{c} 40.45 \\ 1.97 \end{array} \\ \text{H.} \\ \text{1 -58} \end{array} \\ \begin{array}{c} 111. \text{ alg IV.} \\ 42.77 \\ 1.93 \end{array} \\ \begin{array}{c} 13.23 \\ 3.23 \end{array} \\ \begin{array}{c} 3.57 \\ 3.57 \end{array} \\ \text{Implies to </math>
 2 100 00 , 100 00 100 00 0 100 00 2 100 00 , 100 00 100 00 , 11100 00
 line so ution is teur salts. rtil cod, a crystal ne cod
 contaming cherin, mee; Vine " . I've minure of the color
@@ -8331,7 +8339,7 @@ et de la de la la la la la la la la la la la la la
 of the second second
 3 Hydrogen
 1.33
-Chitago I material
+Chitago I married and the
 3 Chlorine
 47.16
 in a selection of the second
@@ -8341,7 +8349,7 @@ Call Maddle Co.
 1000
 010 9
 100.00
-with the little of the little of the little of the little of the little of the little of the little of the little of the little of the little of the little of the little of the little of the little of the little of the lit
+*1 = 1 | 1 - 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 The state of the base
 B. The acids obtained by means of chlorate of potash is a
 mixture of acids containing two and three equivalents of chlo-
@@ -9533,7 +9541,7 @@ tained moreover peroxide of iron, lime and magnesia; a portion of
 the two latter still remained to be estimated in the ammoniacal filtered
 liquor. The three above analyses, the third of which yielded the
 best results, afforded the following proportions:-
-to the little will be the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the s
+to the little will be the state of the state of the state of
 2.68
 Silicic acid
 39.56
@@ -9579,7 +9587,7 @@ acid, 1.87 phosphoric acid, 1.41 alumina and peroxide of iron, 2.58
 lime, and 1.49 magnesia.—Poggendorff's Ann. lxiv. p. 251.
 11111
 [To be continued.]
-+ 1 4
+7 7 8
 ON THE STRUCTURE AND RELATIONS OF CORNULITES AND
 OTHER SILURIAN FOSSILS.
 BY MR. J. W. SALTER.
@@ -24345,8 +24353,8 @@ of sulphurous acid boiled and filtered yielded sulphate of barytes,
 403
 Intelligence and Miscellaneous Articles.
 the weight of which served to calculate the oxygen contained in the
-now worked. It consists of two distisbixotorq and avoda harden
-2011 The liquor derived from treating the blacks mineral with hydro-
+now worked. It consists of two distisbixotorq ent evoda larenim
+and the liquor derived from treating the blacks mineral with hydro-
 chloric acid was filtered, then evaporated to dryness to separate some
 flocculi of silica; and again filtered; the manganese, iron and lime
 were separated by the ineans already described; no magnesia was
@@ -24370,7 +24378,7 @@ which was known by the weight of the sulphate of barytes boothat
 the difference of the loss in the current of hydrogen would give the
 was saturated with an acid, boiled and filtered to separate tiretaw-
 phur, then saturated with amraes research and the results of the analyses were and amraes and the saturated with amraes and the saturated with a management of the saturated with a management of the saturated with a managem
-oxalate $100 hosphate of ammonia; the live was establed in the
+oxalate $100 hosphate of ammonia; the live was ceristaWd in the
 state of 49t8hate. . The results of the analyses wereneggyO ws :-
 43.00
 Protoxide of manganese.....
@@ -24400,7 +24408,7 @@ have completely disappeared during decomposition, as well as the
 greater part of the lime; 2nd, that the protoxides of iron and of
 manganese are converted into hydrates of peroxides, and occur in
 the black substance in the same relation as in the unaltered mineral.
-of sulphurous acid bouled and filtered in emotions, tome in Ann. des Mines, tome vii. battered and bouled and bouled and bouled and bouled and bouled and bouled and bouled and bouled and bouled and bouled and bouled and bo
+Ann. des Mines, tome vii. battered and holded bis accountques to
 2 D 2
 
 ## PDF page 418
@@ -27522,7 +27530,7 @@ the law being correct when the isomorphism is strictly accu-
 rate, but approximating only when this is not the case. He
 admits also that perfect equality of the volume exists only at
 particular temperatures, on account of the unequal expansion
-of isomorphous crystals. The way is seen that the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the sta
+of isomorphous crystals. The world is a second of isomorphous crystals.
 Schröder made the interesting observation, that the re-
 mainder is the same when the primitive volume of the corre-
 sponding member of a series of analogous compounds is sub-
@@ -27549,7 +27557,7 @@ Poggendorff's Annalen, vol. xlvii.; and Annalen der Chemie, vol. xxxvi.
 P. I. Poggendorff's Annalen, vol. l. p. 554.
 § Ueber das Specifische Gewicht der Chemischen Verbindungen. Frank-
 fort, 1841.
-|| Annalen der Chemie, vol. xli. p. 79.
+| Annalen der Chemie, vol. xli. p. 79.
 
 ## PDF page 469
 
@@ -28512,19 +28520,19 @@ fragments of ice had previously been placed, indicated the
 volume due to the quantity of ice immersed. On treating in
 this manner 54:2 grains of ice, a rise in the stem of 59:0 was
 produced; and in a second experiment 52.8 grains of ice oc-
-casioned an increase of 57.5, the temperature in both cases being exactly 320.12 about our superior of the second of the second of the second of the second of the second of the second of the second of the second of the sec
+casioned an increase of 57.5, the temperature in both cases being exactly 320.12 above to significant due to the cases
 Specific volume. Specific gravity.
 I. Ice volume 9:797
 ...
 0.9186
-The sam E816.0 ity of sal 108.0 ersett in the pentine caused
-an increase 4816;0 and 29 997;0,0 experinaM.
+The sam E816.0 ity of sal 108.0 ersett in tup pendine caused
+an increase 4816;0 and 29 997;0,0 experimaM.
 As the true specific gravity of ice is a subject of much im-
 portance, we place here all the recorded results, as given in
 Bottger's most useful work on specific gravity, and in the first
 volume of Scoresby's Arctic Regions.
-desolved in 3140 Ginital 888.0 Gin of an equivalent, gave an at 32°; 42.9 grain silliw 546.0 th of an equivalent, gave an increase of 25.0 mailliw 688.0 periments.
-...1.80 ................................
+desolved in 3140 Ginital 888.0 Cansed a derivative of 14.8 at 32°; 42.9 grain Similify 646.0 th of an equivalent, gave an increase of 25.0 mailify 688.0 periments.
+... 1.80 ... pitules n'0.905 Heinrich Kraft.
 • • •
 100.0
 ... 0.927 Osann.
@@ -29022,28 +29030,29 @@ ture of 56°.
 
 Messrs. Playfair and Joule on
 476
-increatest 2 moitidos no flowed OZ fOH 45 OZ POR Pol and of 26.458.81he second, both at a temperature of 59. II
+increatest 2 moithos arthore QOZ toHits OZ POR No. and of 26.458.81he second, both at a temperature of 59. II
 op. gr.
 6.810.50.+ med SO3 + 6HO, vol. of salt 105.6 .. 1.832
 The same quantity of salt thrown into a saturated solution
 caused, in two experiments, an increase of 11.0 at a tempera-
 Sulphate of Sine and Sulphate of Potash, ZnO, $46 to suit.
 SO. rg. q2110 = 221.86. The fourth of an equivalent of this
-repl. 11. Bisulphate of soda, vol. of salt 44:0 2:742 iles
+rojl. 11. Bisulphate of soda, vol. of salt 44:0 2:742 jise
 Ammoniacal Sulphate of Copper, CuO, SO3, HO + 2NH3
 = 123.0.—The fourth of an equivalent (30.8 grains) of this
 substance in beautiful large indigo-blue crystals, dissolved in
 1000 grains of water, with an increase of 13.3 in one experi-
 ment and 13.0 in another, the temperature being 54 and 50°.
-T. CuO, SO<sub>3</sub>, HO + 2NH<sub>3</sub>, vol. in solution 53.2<br>H. Solution of salt of the color of salt of the color of salt of the color of the color of the color of the color of the color of the color of the color of the color of the
-52:60 Simes M Sulphate of Ammonia, ZnO, SO +
+T. CuO, SO<sub>3</sub>, HO + 2NH<sub>3</sub>, vol. in solution 53.2<br>
+H. Solution 53.2 (10.55) of salt of solution 53.2
+59:50 te. of Simes Ml Sulphate of Ammonia, ZnO, SO +
 61.5 grains of this salt placed in the solution from which
 it had crystallized, caused an increase of 34-3, and on a repe-
 tition of the experiment of 34.4, at a temperature of 60°.
-rg .d. III. ZnO, SO3 + NH4O, SO3 + 6HO, vol. in olution 50
+rg .de III. ZnO, SO3 + NH4O, SO3 + 6HO, vol. in olution 50
 -84. CuO, SO, HO+2NH, vol. of salt 68.6 .................................
 tu 887 lsclat8:83 an increase of 26.4 was occasioned in the IIIst
-ex007n1cnt, 7:86 of 26:3 naiM second, both at a temperature
+ex007n1cmt, 7:86 of 26:3 naiM second, both at a temperature
 Sulphate of Copper and Sulphate of Potash, CuO, SO<sub>3</sub>+KO,
 <math>SO_3 + 6HO = 221.31</math>.—The fourth of an equivalent (55.32)
 grains) dissolved in 3140 grains of water at 32°, increased to
@@ -31176,10 +31185,10 @@ Bichromate of Potash, KO, 2CrO<sub>8</sub> = 151:70. On dis-
 solving 76 grains of this salt in 1000 grains of water, an in-
 crease of 22.5 and 23.0 were obtained in two experiments at
 therefore, give the mean of the results, instead 6. 20 bins 200
-unnecessary 6:44e notification lov tello to the constant of the decision of the constant of the constant of the constant of the constant of the constant of the constant of the constant of the constant of the constant of th
+unnecessary e; 44 e noithlos ni vlov te Oro, coro de de-
 Π.
 scribing eacl8:54) eriment individually. ...
-Chromic 18.45 Cro = need in -The chromic acid used in
+Chromic 18.45 Cro = need .- The chromic acid used in
 Half an equivalent of the salt, 75.84 grains, immersed in
 turpentine, gave an increase, the mean of ten experiments, of
 28.9, which gives 57.8 as the volume of an equivalent, and
@@ -34066,10 +34075,10 @@ the directrices is double of the angle subtended by Q Q', the
 cord of contact, at the same centre, ibneque que of the ratio
 "VII. From the points Q, Q, let perpendiculars be let fall
 on OT, OT, and OT, OT respectively; these four perpen-
-tangent meets the minor directrices) to the lapse sarability
+tangent meets the minor directrices) to the lapse sar salubib
 VIII. Calling the length of this perpendicular p, we shall
 minor directrices are all in the said odinis
-have the relation <math>\sin Q O Q = \frac{p}{b}</math> and local product of the colling in <math>Q O Q</math> and <math>Q O Q</math> and <math>Q O Q</math> and <math>Q O Q</math> and <math>Q O Q</math> and <math>Q O Q</math> and <math>Q O Q</math> and <math>Q O Q</math> and <math>Q O Q</math> and <math>Q O Q</math> and <math>Q O Q</math> and <math>Q O Q</math> and <math>Q </math>
+have the relation <math>\sin Q O Q = \frac{p}{b}</math> and local product of the country <math>\cos Q O Q</math> and <math>\cos Q O O O</math>. Let a right line touch a conic section in P (fig. 3), and
 meet the minor directrices in QQ, the distances OQ, OQ of
 the points Q, Q' from the centre are rational functions of the
 Fig. 3. 20 00
@@ -34095,7 +34104,7 @@ meet the
 t the
 a right ingle
 XIX. Or no cenerally of from 25 point G in the plane
-of the curve two tanguous means to it meeting one of the minor irrectices in the points m and m, the cord of con-
+of the curve two tanguous means to it meeting one of the minor irrectices in the points n and n, the cord of con-
 Let meeting the same lirectrix in the point H, the line O II
 volumes the staplement of the angle <math>m O n</math>; and if from <math>C</math>, the corresponding minor focus, we draw a line to the point <math>O</math>
 co-ordinates of the point of contact P; and the rectangle under
@@ -36281,8 +36290,9 @@ INDEX
 574
 Laming (R.) on electric conduction and
 Moon (R.) on Fresnel's theory of diffrac-
-the nature of matter, 420, 29183-18302
-Lazulte, examination of, 234. In availue Lead, action of bleaching powder on the salts of, 294.
+the nature of matter, 420, 2012-12302
+Lazulte, examination of, 234. In availuz
+Lead, action of bleaching powder on the salts of, 294.
 tion, 46; on the theory of double re-<br>fraction, 554,300 and no (...) residual
 Murchison (R. I.) on the palæozoic de-
 posits of Scandinavia and the Baltic
@@ -36315,7 +36325,7 @@ Phosphoric acid, occurrence of, in rocks
 of igneous origin, 155, 161, 229, 310;
 Magnus (Prof.) on respiration, 561. 11
 examination of some native and artifi-
-Mail, on the temperature of, 399 day d. Manures, analyses of, 23.
+Man, on the temperature of, 399 dy d<br>Manures, analyses of, 23.
 cial compounds of, 156, 233, 312; de-
 tection of minute quantities of, 162;
 Matter, on the nature of, 420. "noitardiv
@@ -36339,9 +36349,9 @@ Metals, on the magnetic relations and
 Playfair (Dr. L.) on atomic volume and
 characters of the, I; on the structure
 specific gravity, 453.
-of electro-precipitated, 15,04m005
+of electro-precipitated, 15,04mos
 Potassium, on a peculiar method of ob-
-Metastyrole, preparation and properties of 110, successful of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the contro
+Metastyrole, preparation and properties of 110, successful of the properties
 taining the sesqui-ferrocyanide of, 384.
 Powell (Rev. B.) on the clliptic polariza-
 tion of light, 392.
@@ -36355,7 +36365,7 @@ Miller (W. A.) on some cases of lines in
 phosphoric acid, 156, 233, 312.
 the prismatic spectrum produced by
 Redtenbacher (Prof.), analysis of taurine,
-the passage of light through coloured vapours and gases, and from certain coloured flames, 81 (2000) 200 (2000)
+the passage of light through coloured vapours and gases, and from certain coloured flames. 81
 319.
 Respiration, observations on 561292 and
 Richardson (T.), analyses of farm-yard

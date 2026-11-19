@@ -2,13 +2,15 @@ Source: see manifest row of the PDF
 PDF sha256: 347dc47b5e72a92ed13e2ebc560c6568d8eb74b259da288d54d89b398eea15da
 License: public domain (Philosophical Magazine vol. 33, published 1848; contributors died before 1955)
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine (failed: text-layer, repetition)
 
 # Transcription of cockle_1848_philosophical_magazine_vol33_containing_functions_resembling_quaternions.pdf
 
 Transcription of `cockle_1848_philosophical_magazine_vol33_containing_functions_resembling_quaternions.pdf` in this directory, 584 pages; each `## PDF page` heading marks a page of the PDF.
 
 Method: pages 1-584 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+
+Second engine: Surya OCR 0.17.0 alone read pages 210, 403, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -14123,7 +14125,7 @@ bruary 1845, I showed how some formulæ of M. Olinde
 Rodrigues relating to the rotation of a solid body might be
 expressed in a very simple form by means of SirW. Hamilton's theory of quaternions. The property in question may be thus
 stated. Suppose a solid body which revolves through an angle
-## round an axis passing through the origin and inclined to the
+# round an axis passing through the origin and inclined to the
 axes of co-ordinates at angles <math>a, b, c</math>. Let
 <math>\lambda = \tan \frac{1}{2} \theta \cos a</math>, <math>\mu = \tan \frac{1}{2} \theta \cos b</math>, <math>\nu = \tan \frac{1}{2} \theta \cos c</math>,
 and write
@@ -14139,9 +14141,9 @@ formula
 viz. developing the second side of this equation,
 <math>\Pi_1 = i.(\alpha x + \beta y + \gamma z)</math>
 <math>+j(\alpha'x+\beta'y+\gamma'z)</math>
-DESCRIPTION OF THE RESERVE OF THE RESERVE OF THE RESERVE OF THE RESERVE OF THE RESERVE OF THE RESERVE OF THE RESERVE OF THE RESERVE OF THE RESERVE OF THE RESERVE OF THE RESERVE OF THE RESERVE OF THE RESERVE OF THE RESERVE 
+DESCRIPTION OF THE REST
 <math>+k(\alpha''x+\beta''y+\gamma''z),</math>
-where, putting to abbreviate <math>x = 1 + \lambda^2 + \mu^2 + \nu^2</math>, we have
+where, putting to abbreviate <math>x=1+\lambda^2+\mu^2+\nu^2</math>, we have
 <math>\kappa \alpha = 1 + \lambda^2 - \mu^2 - \nu^2</math>, <math>\kappa \alpha' = 2(\lambda \mu + \nu)</math>, <math>\kappa \alpha'' = 2(\lambda \nu - \mu)</math>,
 <math>\kappa\beta = 2(\lambda\mu - \nu), \quad \kappa\beta' = 1 - \lambda^2 + \mu^2 - \nu^2, \quad \kappa\beta'' = 2(\mu\nu + \lambda),</math>
 <math>\kappa \gamma = 2(\lambda \nu + \mu), \quad \kappa \gamma' = 2(\mu \nu - \lambda), \quad \kappa \gamma'' = 1 - \lambda^2 - \mu^2 + \nu^2;</math>
@@ -26016,10 +26018,10 @@ Carbon
 WATER THE STURING
 Hydrogen .
 3.54
-- 0400 / 0112 / 0
+- 0400 | 0112 | 0
 Chlorine . .
 65.00
-History will floor to be come to the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the contr
+History Sett House to common the com-
 100.00
 CONTROL OF THE STATE OF
 These numbers agree with the formula <math>C_{54}</math> <math>\left\{ \begin{array}{l} H_{35} \\ Cl_{19} \end{array} \right\}</math>, which
@@ -26059,7 +26061,7 @@ and the second second
 C<sub>54</sub> . H<sub>33</sub> .
 29.43
 2.99
-Cl<sub>21</sub> .
+Clon.
 67.58
 all at making the
 - 1 1
