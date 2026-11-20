@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 6270f40f343ffa9f471ff10b2866069f6fc97a94ce65de9538f8590331f46686
 License: CC-BY-4.0
 Language: eng
-Fidelity: machine (failed: characters, text-layer, repetition)
+Fidelity: machine (failed: characters, text-layer)
 
 # Transcription of kagan_2022_in_vitro_neurons_learn_sentience_simulated_game_world.pdf
 

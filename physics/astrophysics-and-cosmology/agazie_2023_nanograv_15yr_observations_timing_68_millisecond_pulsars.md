@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 8c77f65bec1c1bf1c833b41ddfbce95139818ecf58689401ce1fd4ca66937e5e
 License: CC-BY-4.0
 Language: eng
-Fidelity: machine (failed: text-layer, repetition)
+Fidelity: machine (failed: text-layer)
 
 # Transcription of agazie_2023_nanograv_15yr_observations_timing_68_millisecond_pulsars.pdf
 
