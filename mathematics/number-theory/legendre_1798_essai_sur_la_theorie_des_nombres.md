@@ -10,7 +10,7 @@ Transcription of `legendre_1798_essai_sur_la_theorie_des_nombres.pdf` in this di
 
 Method: pages 3-544 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-2 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
-Second engine: Surya OCR 0.17.0 alone read pages 226, 281, 423, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+Second engine: MinerU2.5-Pro 2605 read pages 75, 115, 134, 146, 166, 168, 220-221, 228, 237, 309, 375, 396, 417, 424, 430, 447, 455, 462, 465, 476, 480, 498, 526, 530-531; Surya OCR 0.17.0 alone read pages 226, 281, 423, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -2634,39 +2634,26 @@ si <math>\frac{p}{q}</math> est <math>> \sqrt{A}</math>, et <math>pq^{\circ} - p
 ## PDF page 75
 
 PREMIÈRE PARTIE.
+
 45
-<math>pq^5 - p^5q</math> a tonjours le même signe que <math>pp - Aqq</math>, et qu'ainsi D est
-toujours positif. Ces valeurs prouvent encore immédiatement que D et I
-sont toujours des entiers; je dis de plus que I est toujours positif; car
-d'un côté l'équation <math>qI + q^{\circ}D = p</math> donne <math>\frac{q^{\circ}}{q} = \left(\frac{p}{q} - I\right)</math>: D, et puisque
-<math>q^{\bullet}</math> est <math>\langle q</math>, il faut qu'on ait <math>D > \frac{p}{q} - I</math>, ou <math>D > \sqrt{A - I}</math>; d'un autre
-côté, on a <math>\frac{\sqrt{A+I}}{D} > \mu</math>, donc <math>D < \sqrt{A+I}</math>. Or ces deux conditions se-
-raient incompatibles, si I était négatif.
-Cela posé, il est facile de trouver les limites que les nombres <math>I</math> et <math>D</math>
-ne peuvent surpasser; l'équation <math>A-I^2=DD^2</math> donne <math>I<\sqrt{A}</math>, ainsi
-I ne saurait excéder l'entier a compris dans <math>\sqrt{A}</math>, et puisqu'on a d'ail-
-leurs <math>I+I=\mu D</math>, il s'ensuit que 2a est la limite de <math>D</math>, et en même
-temps celle du quotient <math>\mu</math>.
-Mais puisque la fraction continue qui représente la valeur d'une quan-
-tité irrationnelle doit s'étendre à l'infini, et qu'il ne peut y avoir qu'un
-certain nombre de valeurs différentes tant pour I que pour D, il est né-
-cessaire que la même valeur de I se rencontre une infinité de fois avec la
-même valeur de <math>D</math>; or dès que l'on retrouve pour le quotient-complet
-<math>\frac{VA+I}{D}</math> une valeur déjà trouvée, il est clair que les quotiens suivans de
-la fraction continue doivent être les mêmes et dans le même ordre que
-ceux qu'on a déjà obtenus; donc la fraction continue qui exprime VA
-sera composée (au moins après quelques termes) d'une période constante
-qui se répétera à l'infini, comme on l'a déjà vu dans un cas particu-
-lier, n° 28.
-(31) Il s'agit présentement de déterminer le point précis où commence
-la période. Nous supposerons que cette période est <math>\mu</math>, <math>\mu'</math>, <math>\mu''</math>....<math>\omega</math>, et
-nous désignerons à l'ordinaire la suite des quotiens, et celle des frac-
-tions convergentes qui leur répondent jusqu'au commencement de la
-seconde période, comme il suit:
-Quotiens <math>a</math>, <math>\alpha</math>, <math>\beta</math>, <math>\gamma</math>....................................
-Fractions <math>\begin{cases} 1 & a \\ \hline 0 & 1 \end{cases}</math> <math>\frac{p^{\circ}}{q^{\circ}}</math>, <math>\frac{p}{q}</math> <math>\frac{p^{\circ}}{q^{\circ}}</math>, <math>\frac{p^{\circ}}{q^{\circ}}</math>, <math>\frac{p^{\circ}}{q^{\circ}}</math>, <math>\frac{p^{\circ}}{q^{\circ}}</math>, <math>\frac{p^{\circ}}{q^{\circ}}</math>, <math>\frac{p^{\circ}}{q^{\circ}}</math>, <math>\frac{p^{\circ}}{q^{\circ}}</math>, <math>\frac{p^{\circ}}{q^{\circ}}</math>, <math>\frac{p^{\circ}</math>
+
+\(pq^{\bar{5}} - p^{\bar{5}}q\) a toujours le même signe que \(pp - Aqq\), et qu'ainsi \(D\) est toujours positif. Ces valeurs prouvent encore immédiatement que \(D\) et \(I\) sont toujours des entiers; je dis de plus que \(I\) est toujours positif; car d'un côté l'équation \(qI + q^{\circ}D = p\) donne \(\frac{q^{\circ}}{q} = \left(\frac{p}{q} - I\right)\): \(D\), et puisque \(q^{\circ}\) est \(<q\), il faut qu'on ait \(D > \frac{p}{q} - I\), ou \(D > \sqrt{A} - I\); d'un autre côté, on a \(\frac{\sqrt{A} + I}{D} > \mu\), donc \(D < \sqrt{A} + I\). Or ces deux conditions seraient incompatibles, si \(I\) était négatif.
+
+Cela posé, il est facile de trouver les limites que les nombres \(I\) et \(D\) ne peuvent surpasser; l'équation \(A-I^{a}=DD^{o}\) donne \(I<\sqrt{A}\), ainsi \(I\) ne saurait excéder l'entier \(a\) compris dans \(\sqrt{A}\), et puisqu'on a d'ailleurs \(I+I=\mu D\), il s'ensuit que \(2a\) est la limite de \(D\), et en même temps celle du quotient \(\mu\).
+
+Mais puisque la fraction continue qui représente la valeur d'une quantité irrationnelle doit s'étendre à l'infini, et qu'il ne peut y avoir qu'un certain nombre de valeurs différentes tant pour \(I\) que pour \(D\), il est nécessaire que la même valeur de \(I\) se rencontre une infinité de fois avec la même valeur de \(D\); or dès que l'on retrouve pour le quotient-complet \(\frac{\sqrt{A+I}}{D}\) une valeur déjà trouvée, il est clair que les quotiens suivans de la fraction continue doivent être les mêmes et dans le même ordre que ceux qu'on a déjà obtenus; donc la fraction continue qui exprime \(\sqrt{A}\) sera composée (au moins après quelques termes) d'une période constante qui se répétera à l'infini, comme on l'a déjà vu dans un cas particulier, n° 28.
+
+(31) Il s'agit présentement de déterminer le point précis où commence la période. Nous supposerons que cette période est \(\mu\), \(\mu'\), \(\mu''\), \(\ldots\omega\), et nous désignerons à l'ordinaire la suite des quotiens, et celle des fractions convergentes qui leur répondent jusqu'au commencement de la seconde période, comme il suit:
+
+\[
+\begin{array}{l} \text {Quotiens} \quad a, \quad a, \mathcal {C}, \gamma \dots \dots \lambda , \quad \mu , \mu^ {\prime}, \mu^ {\prime \prime} \dots \dots \omega , \quad \mu , \mu^ {\prime}, \mu^ {\prime \prime} \dots \omega , \text {etc.} \\ \text {Fractions} \left\{ \begin{array}{l l} 1 & a \\ 0 & 1 \end{array} \right. \dots \dots \frac {p ^ {\circ}}{q ^ {\circ}}, \quad \frac {p}{q} \dots \dots \frac {p ^ {\circ_ {1}}}{q ^ {\circ_ {1}}}, \frac {p _ {1}}{q _ {1}} \dots \dots \end{array}
+\]
+
 Soient en même temps les valeurs correspondantes du quotient-complet
-<math>\frac{VA}{1}</math>, <math>\frac{VA+a}{b}</math>..... <math>\frac{VA+I^{\circ}}{D^{\circ}}</math>, <math>\frac{VA+I}{D}</math>..... <math>\frac{VA+I^{\circ}_{1}}{D}</math>, <math>\frac{VA+I}{D}</math>.....
+
+\[
+\frac {\sqrt {A}}{1}, \frac {\sqrt {A + a}}{b} \dots \dots \frac {\sqrt {A + I ^ {\circ}}}{D ^ {\circ}}, \frac {\sqrt {A + I}}{D} \dots \dots \frac {\sqrt {A + I ^ {\circ}}}{D}, \frac {\sqrt {A + I}}{D} \dots \dots
+\]
 
 ## PDF page 76
 
@@ -4068,25 +4055,28 @@ que l'entier compris dans <math>\frac{\sqrt{A+I'}}{D}</math> est <math>\mu</math
 ## PDF page 115
 
 PREMIÈRE PARTIE.
+
 87
-connues par le développement de la première racine, on tire la suite
-<math display="block">\frac{\sqrt{A+I'}}{D} = \mu + \frac{\sqrt{A-I}}{D}</math>
-<math>\frac{D}{\sqrt{A-I}} = \frac{\sqrt{A+I}}{D^{\circ}} = \mu^{\circ} + \frac{\sqrt{A-I^{\circ}}}{D^{\circ}}</math>
-<math display="block">\frac{D^{\circ}}{\sqrt[9]{A-I^{\circ}}} = \frac{\sqrt{A+I^{\circ}}}{D^{\circ \circ}} = \mu^{\circ \circ} + \frac{\sqrt[4]{A-I^{\circ \circ}}}{D^{\circ \circ}}</math>
+
+connues par le développement de la première racine, ou tire la suite
+
+\[
+\frac {\sqrt {A + I ^ {\prime}}}{D} = \mu + \frac {\sqrt {A - I}}{D}
+\]
+
+\[
+\frac {D}{\sqrt {A - I}} = \frac {\sqrt {A + I}}{D ^ {\circ}} = \mu^ {\circ} + \frac {\sqrt {A - I ^ {\circ}}}{D ^ {\circ}}
+\]
+
+\[
+\frac {D ^ {\circ}}{\sqrt {A - I ^ {\circ}}} = \frac {\sqrt {A + I ^ {\circ}}}{D ^ {\infty}} = \mu^ {\infty} + \frac {\sqrt {A - I ^ {\infty}}}{D ^ {\infty}}
+\]
+
 etc.
-Mais la suite des quotiens <math>\mu</math>, <math>\mu^{\circ}</math>, <math>\mu^{\circ \circ}</math>, etc. retombera nécessairement
-sur le quotient <math>\mu</math>; ainsi la période qui règne dans le développement
-de la seconde racine, est composée des mêmes termes que la période
-de la première racine, avec cette seule différence que les termes y sont
-rangés dans un ordre inverse.
-S'il arrivait que la période qui règne dans le développement d'une
-racine fût de la forme <math>\mu</math>, <math>\mu'</math>, <math>\mu''</math>, <math>\mu''</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>, <math>\mu'</math>,
-posée d'une partie symmétrique, précédée ou suivie d'un terme isolé k,
-alors le renversement donnerait toujours la même période, laquelle par
-conséquent serait commune aux deux racines de l'équation. C'est ce qui
-s'observe dans un grand nombre de cas, et alors les mêmes quotiens-
-complets se trouvent aussi dans le développement des deux racines, et
-y suivent le même ordre.
+
+Mais la suite des quotiens \(\mu, \mu^{\circ}, \mu^{\infty}\), etc. retombera nécessairement sur le quotient \(\mu\); ainsi la période qui règne dans le développement de la seconde racine, est composée des mêmes termes que la période de la première racine, avec cette seule différence que les termes y sont rangés dans un ordre inverse.
+
+S'il arrivait que la période qui règne dans le développement d'une racine fût de la forme \(\mu\), \(\mu'\), \(\mu''\), ... \(\mu''\), \(\mu'\), \(\mu\), \(k\), c'est-à-dire fût composée d'une partie symmétrique, précédée ou suivie d'un terme isolé \(k\), alors le renversement donnerait toujours la même période, laquelle par conséquent serait commune aux deux racines de l'équation. C'est ce qui s'observe dans un grand nombre de cas, et alors les mêmes quotiens-complets se trouvent aussi dans le développement des deux racines, et y suivent le même ordre.
 
 ## PDF page 116
 
@@ -4745,41 +4735,61 @@ quées. Il est donc vrai de dire généralement, que lorsque H est
 
 ## PDF page 134
 
-THÉORIE DES NOMBRES.
 106
-sont données par les fractions convergentes vers une racine de l'équa-
-tion <math>fx^2 + gx + h \Longrightarrow 0</math>.
-(89) Il ne sera pas inutile, au reste, d'apporter un exemple sujet à
-l'exception mentionnée, et qui nous fournira de nouvelles remarques.
-Soit pour cet effet l'équation
-<math>1801y^2 - 59917z + 2211z^2 = -3</math>
-dans laquelle on a <math>A = \frac{1}{4}g^4 - fh = \frac{37}{4}</math>, <math>H = 3</math>, et par conséquent <math>H < \sqrt{A}</math>;
-on satisfait à cette équation en faisant <math>y = 51</math> et <math>z = 28</math>; cependant la
-fraction 31/2 n'est point comprise parmi les fractions convergentes vers
-une racine de l'équation
-1801x<sup>2</sup> — 3991x + 2211 = 0. 1 graph 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x 1801x
+
+THÉORIE DES NOMBRES.
+
+sont données par les fractions convergentes vers une racine de l'équation \(fx^{2} + gx + h = 0\).
+
+(89) Il ne sera pas inutile, au reste, d'apporter un exemple sujet à l'exception mentionnée, et qui nous fournira de nouvelles remarques. Soit pour cet effet l'équation
+
+\[
+1 8 0 1 y ^ {2} - 5 9 9 1 y z + 2 2 1 1 z ^ {2} = - 3,
+\]
+
+dans laquelle on a \( A = \frac{1}{4} g^2 - fh = \frac{37}{4} \), \( H = 3 \), et par conséquent \( H < \sqrt{A} \); on satisfait à cette équation en faisant \( y = 31 \) et \( z = 28 \); cependant la fraction \( \frac{31}{28} \) n'est point comprise parmi les fractions convergentes vers une racine de l'équation
+
+\[
+1 8 0 1 x ^ {1 2} - 3 9 9 1 x + 2 2 1 1 = 0. ^ {1} \quad \text {或} \quad
+\]
+
 En effet, le développement de la plus grande racine donne
-<math>x = \frac{1995 \frac{1}{2} + \frac{1}{4} \sqrt{37}}{1801} = 1 + 1 : 0</math>
-<math display="block">\frac{-194\frac{1}{3} + \frac{1}{3}\sqrt{37}}{-9} = 9 + \frac{1}{3} \sim 1 :</math>
-<math>\frac{5\frac{1}{8} + \frac{1}{8}\sqrt{37}}{1} = 8 + \frac{1}{8}</math>
-10 = 2 ± +(± \(\frac{37}{2}\) = 1 +
-8r .. : 73
-etc. "
-Standard in a reference only the
+
+\[
+\begin{array}{l} x = \frac {1 9 9 5 \frac {1}{2} + \frac {1}{2} \sqrt {3 7}}{1 8 0 1} = 1 + \quad \text {; i : o} \\ \frac {- 1 9 4 \frac {1}{2} + \frac {1}{2} \sqrt {3 7}}{- 2 1} = 9 + \quad \text {,} \quad \text {,} \quad \text {,} \quad \text {,} \quad \text {,} \\ \frac {5 \frac {1}{2} + \frac {1}{2} \sqrt {3 7}}{1} = 8 + \dots 1 0 = 9 \\ \frac {2 \frac {1}{2} + \left(\frac {1}{2} \sqrt {3 7}\right)}{3} = 1 + \quad 8 1: 7 3 \\ \end{array}
+\]
+
+\[
+S ^ {\prime} T _ {c} ^ {\prime} \dots , \text {etc.} \quad \text {etc.}
+\]
+
 et celui de la plus petite racine donne
-hat on a chita that a section
--mp (10) A 5 1 1 1 37 2 10 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-<b>=2 十</b>                                   
-A CONTRACTOR OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY O
-<math>3\frac{1}{4} + \frac{1}{4}\sqrt{3}y = 2 +</math>
-21
-ing 1 - 10:10 1 - 2 1 + 1 1 1 27 = 5 + 1 1 1 1 1 1 5 20 : 47
-ob annige of one etc. it in equipment of we
-, et
-e and the regiment which is but the party to the control of the
-On ne trouve donc ni d'un côté ni de l'autre la fraction convergente 🚉;
-c'est au reste ce qui s'accorde avec la formule de l'art. 86, car ici 28,
-qui est la valeur de q, est plus petit que <math>\frac{f+H}{3h^2A}</math> qui est <math>\frac{1804}{\sqrt{37}}</math>
+
+\[
+x = \frac {- 1 9 9 5 \frac {1}{2} + \frac {1}{2} \sqrt {3 7}}{1 8 0 1} = 1 + 4
+\]
+
+\[
+\frac {1 9 4 \frac {1}{2} + \frac {1}{1 9} V ^ {3 7}}{2 1} = 9 + \dots , \quad 1 1 1 2 \dots 1
+\]
+
+\[
+\frac {- 5 \frac {1}{2} + \frac {1}{2} V ^ {3} \gamma}{+ 1} = 2 + \dots 1 0: 9
+\]
+
+\[
+\frac {3 \frac {1}{3} + \frac {2}{3} \sqrt {3 7}}{3} = 2 + \quad 2 1: 1 9
+\]
+
+\[
+i n! + \dots \quad \frac {2 \frac {1}{2} + \frac {1}{2} V ^ {3 7}}{1} = 5 + \dots 5 2 1; 4 7
+\]
+
+\[
+\begin{array}{c} \text {etc.} \\ \text {etc.} \end{array}
+\]
+
+On ne trouve donc ni d'un côté ni de l'autre la fraction convergente \(\frac{31}{26}\); c'est au reste ce qui s'accorde avec la formule de l'art. 86, car ici 28, qui est la valeur de \(q\), est plus petit que \(\frac{f + H}{2H\lambda}\) qui est \(\frac{1804}{\sqrt{37}}\).
 
 ## PDF page 135
 
@@ -5205,35 +5215,27 @@ Donc toutes les formules indéterminées <math>Ly^2 + Myz + Nz^2</math>, dans le
 
 ## PDF page 146
 
-THÉORIE DES NOMBRES.
 120
+
+THÉORIÉ DES NÓMBRES.
+
 on aura pour transformée du premier membre:
-<math>-(2\pi'y'-11y'z'-3z'z').</math>
-Cette transformée — <math>2y'y' + 11y'z' + 5z'z'</math> n'est pas encore réduite
-à la forme convenable, et pour faire ensorte que le coefficient moyen ne soit pas plus grand que les extrêmes, il faut prendre <math>y' = u' + 5z'</math>,
-ce qui donnera — 24 - 45 + 182; donc il faut faire
-<math>y = 45u' + 146z'</math>
-<math>z = 41u' + 133z',</math>
-.
-et la transformée de l'équation proposée, réduite à la forme la plus
-simple, sera
-<math>2u'u' + u'z' - 18z' = H.</math>
-. '
-·
-<b>با</b> بود
-. de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la com
-.
 
+\[
+- (2 f ^ {\prime} y ^ {\prime} - 1 1 y ^ {\prime} z ^ {\prime} - 3 z ^ {\prime} z ^ {\prime}).
+\]
 
-•
-.
-.
-.
+Cette transformée \(-2y'y' + 11y'z' + 5z'z'\) n'est pas encore réduite à la forme convenable, et pour faire ensorte que le coefficient moyen ne soit pas plus grand que les extrêmes, il faut prendre \(y' = u' + 5z'\), ce qui donnera \(-2u'^{3} - u'z' + 18z'^{3}\); donc il faut faire
 
-•
-·
-.
-.
+\[
+\begin{array}{l} y = 4 5 u ^ {\prime} + 1 4 6 z ^ {\prime} \\ z = 4 \mathrm{i} u ^ {\prime} + \mathrm{i} 3 3 z ^ {\prime}, \\ \end{array}
+\]
+
+et la transformée de l'équation proposée, réduite à la forme la plus simple, sera
+
+\[
+2 u ^ {\prime} u ^ {\prime} + u ^ {\prime} z ^ {\prime} - 1 8 z ^ {\prime \prime} = - H.
+\]
 
 ## PDF page 147
 
@@ -6057,36 +6059,37 @@ Car si on reforme la fraction <math>\frac{p^n}{p}</math>, au moyen des quotiens 
 
 ## PDF page 166
 
-THÉORIE DES NOMBRES.
 240
+
+THÉORIE DES NOMBRES.
+
 posent, en cette sorte
-<math>\mu^{\circ}, \mu^{\circ \circ}, \mu^{\circ \circ}...................................</math>
-٠..
-<math display="block">\frac{0}{1}, \frac{1}{\mu^{\circ}}, \dots, \frac{q^{\circ}}{q}, \frac{p^{\bullet}}{p},</math>
-si ensuite on met <math>\alpha - x</math>, à la place de <math>\alpha</math>, il est clair que la fraction con-
-tinue deviendra <math>\frac{p^o - q^o x_1}{p - q x_1}</math>, et qu'ainsi on aura <math>-z_1 = \frac{p^o - q^o x_1}{p - q x_1}</math>: donc la
-valeur exacte de —z, développée en fraction continue sera:
-<math display="block">z_1 = \frac{1}{\mu} + \frac{1}{\mu}</math>
-<math display="block">z_2 = \frac{1}{\mu} + \frac{1}{\mu}</math>
-<math display="block">z_3 = \frac{1}{\mu} + \frac{1}{\mu}</math>
-<math display="block">z_4 = \frac{1}{\mu} + \frac{1}{\mu} + \frac{1}{\mu}</math>
-<math display="block">z_4 = \frac{1}{\mu} + \frac{1}{\mu} + \frac{1}{\mu} + \frac{1}{\mu} + \frac{1}{\mu} + \frac{1}{\mu} + \frac{1}{\mu} + \frac{1}{\mu} + \frac{1}{\mu} + \frac{1}{\mu} + </math>
-· Il ne s'agit plus que de substituer à la place de x, sa valeur expri-
-mée aussi en fraction continue. Pour cela, il y a différens cas
-examiner.
-1°. Si x, est négatif, et que sa valeur développée commençe ainsi
-<math>-x_1 = a_1 + \frac{1}{6_1} + \frac{1}{\gamma_1} + \text{etc.}</math>, alors il est clair que la jonction des deux
-fractions continues se fera sans difficulté, et donnera
-<math display="block">-z_1=\frac{1}{\mu^{\circ}}+\frac{1}{\mu^{\infty}}+.</math>
-<math display="block">+\frac{1}{6}+\frac{1}{a+a_1}+\frac{1}{6}+\text{etc.}</math>
-2°. Si la valeur de x, est positive et moindre que a, on fera
-<math>x_i = a_i + \frac{1}{v}</math>, ce qui donnera <math>a - x_i = a - a_i - 1 + \frac{1}{1 + \frac{1}{1 + v}}</math>. Dans
-le cas où a-a,=1, il faut remonter au quotient qui précède a,
-et on aura <math>6 + \frac{1}{a - x_1} = 6 + 1 + \frac{1}{-1 + y}</math>.
-3°. Si la valeur de <math>x_i</math> est, positive et plus grande que <math>\alpha</math>, il faudra
-encore remonter au quotient 6, et on aura
-<math>6 + \frac{1}{a - x_1} = 6 + \frac{1}{a - a_1} - \frac{1}{a}</math>
-. i
+
+\[
+\begin{array}{l} \mu^ {\circ}, \mu^ {\circ \circ}, \mu^ {\circ \circ \circ} \dots \dots \text {,} \mathcal {G}, a \\ \frac {0}{1}, \frac {1}{\mu^ {\circ}} \dots \dots \frac {q ^ {\circ}}{q}, \frac {p ^ {\circ}}{p}; \\ \end{array}
+\]
+
+si ensuite on met \(a - x_{1}\) à la place de \(a\), il est clair que la fraction continue deviendra \(\frac{p^{\circ} - q^{\circ}x_{1}}{p - qx_{1}}\), et qu'ainsi on aura \(-z_{1} = \frac{p^{\circ} - q^{\circ}x_{1}}{p - qx_{1}}\): donc la valeur exacte de \(-z_{1}\) développée en fraction continue sera:
+
+\[
+\begin{array}{l} - z _ {1} = \frac {1}{\mu^ {2}} + \frac {1}{\mu^ {\infty}}. \\ + \frac {1}{a - x _ {1}} \\ \end{array}
+\]
+
+Il ne s'agit plus que de substituer à la place de \(x\), sa valeur exprimée aussi en fraction continue. Pour cela, il y a différens cas. examiner.
+
+1°. Si \(x_{i}\) est négatif, et que sa valeur développée commence ainsi \(-x_{i}=a_{i}+\frac{1}{c_{i}}+\frac{1}{\gamma_{i}}+\) etc., alors il est clair que la jonction des deux fractions continues se fera sans difficulté, et donnera
+
+\[
+\begin{array}{l} - z _ {1} = \frac {1}{\mu^ {\circ}} + \frac {1}{\mu^ {\infty}} +. \\ + \frac {1}{\zeta} + \frac {1}{a + a _ {1}} + \frac {1}{\zeta_ {1}} + \text {etc.} \\ \end{array}
+\]
+
+2°. Si la valeur de \(x_{i}\) est positive et moindre que \(\alpha\), on fera \(x_{i} = \alpha_{i} + \frac{1}{y}\), ce qui donnera \(\alpha - x_{i} = \alpha - \alpha_{i} - 1 + \frac{1}{1 + \frac{1}{-1 + y}}\). Dans le cas où \(\alpha - \alpha_{i} = 1\), il faut remonter au quotient qui précède \(\alpha\), et on aura \(\mathcal{C} + \frac{1}{\alpha - x_{i}} = \mathcal{C} + 1 + \frac{1}{-1 + y}\).
+
+3°. Si la valeur de \(x_{1}\) est positive et plus grande que \(a\), il faudra encore remonter au quotient \(6\), et on aura.
+
+\[
+\mathcal {G} + \frac {1}{a - x _ {1}} = \mathcal {G} + \frac {1}{a - a _ {1}} - \frac {1}{y}.
+\]
 
 ## PDF page 167
 
@@ -6124,25 +6127,45 @@ formément à ce que nous avons dit, prendre
 
 ## PDF page 168
 
-THÉORIE DES NOMBRES.
 142
-et substituer au lieu de x, successivement les deux autres racines de
-l'équation proposée. La racine négative étant celle dont la substitu-
-tion est la plus facile, nous prendrons d'abord sa valeur développée,
-qui est
-<math display="block">-x_{1} = 1 + \frac{1}{4} + \frac{1}{20} + \frac{1}{2} + \frac{1}{3} + \text{etc.}</math>
+
+THÉORIE DES NOMBRES.
+
+et substituer au lieu de \( x_{1} \) successivement les deux autres racines de l'équation proposée. La racine négative étant celle dont la substitution est la plus facile, nous prendrons d'abord sa valeur développée, qui est
+
+\[
+- x _ {1} = 1 + \frac {1}{4} + \frac {1}{2 0} + \frac {1}{2} + \frac {1}{3} + \text {etc.}
+\]
+
 d'où résultera
-<math display="block">-s_{i} = \frac{1}{9} + \frac{1}{40} + \frac{1}{4} + \frac{1}{4} + \frac{1}{4} + \frac{1}{4} + \frac{1}{4} + \frac{1}{4} + \frac{1}{4} + \frac{1}{4} + \frac{1}{4} + \frac{1}{4} + \frac{1}{4} + \frac{1}{4} + \frac{1}{4} + \frac{1}{4} + \frac{1}{4} + \frac{1}{4} + \frac{1}{4} + \frac{1}{4} + \frac{1}{4} + </math>
-Pronons ensuite la troisième racine positive
-<math>x_a = 0 + \frac{1}{a} + \frac{1}{4} + \frac{1}{20} + \text{etc.}</math>
-si on fait, pour abréger, <math>x_1 = \frac{1}{2} + \frac{1}{y}</math>, on aura la troisième racine de
-la transformée
-<math display="block">-z_{3} = \frac{1}{3} + \frac{1}{30} + \frac{1}{4} + \frac{1}{1} + \frac{1}{1} - \frac{1}{3} + \frac{1}{y}.</math>
-Pour saire disparaitre l'irrégularité dans cette valeur, il saut changer
-ainsi les derniers termes de la fraction continue :
-<math display="block">\frac{1}{1} + \frac{1}{1} - \frac{1}{2} + \frac{1}{y} = \frac{y+1}{3y+2} = \frac{1}{2} + \frac{y}{y+1} = \frac{1}{2} + \frac{1}{1} + \frac{1}{y}.</math>
+
+\[
+= s _ {i} = \frac {1}{2} + \frac {1}{2 0} + \frac {1}{4} + \frac {1}{2} + \frac {1}{2} + \frac {1}{4} + \frac {1}{2 0} + \frac {1}{2} + \frac {1}{3} + \frac {1}{2} + \frac {1}{6} + \text {etc.}
+\]
+
+Prenons ensuite la troisième racine positive
+
+\[
+x _ {n} = 0 + \frac {1}{2} + \frac {1}{4} + \frac {1}{2 0} + \text {etc.}
+\]
+
+si on fait, pour abréger,  \( x_{a}=\frac{1}{2}+\frac{1}{y} \) , on aura la troisième racine de la transformée
+
+\[
+- z _ {2} = \frac {1}{2} + \frac {1}{2 0} + \frac {1}{4} + \frac {1}{1} + \frac {1}{1} - \frac {1}{2} + \frac {1}{y}.
+\]
+
+Pour faire disparaître l'irrégularité dans cette valeur, il faut changer ainsi les derniers termes de la fraction continue :
+
+\[
+\frac {1}{1} + \frac {1}{1} - \frac {1}{2} + \frac {1}{y} = \frac {y + 1}{3 y + 2} = \frac {1}{2} + \frac {y}{y + 1} = \frac {1}{2} + \frac {1}{1} + \frac {1}{y}.
+\]
+
 Donc on aura, sans aucun terme négatif,
-<math display="block">-z_{s} = \frac{1}{2} + \frac{1}{20} + \frac{1}{4} + \frac{1}{2} + \frac{1}{4} + \frac{1}{4} + \frac{1}{20} + \frac{1}{2} + \frac{1}{3} + \text{etc.}</math>
+
+\[
+- z _ {2} = \frac {1}{2} + \frac {1}{2 0} + \frac {1}{4} + \frac {1}{2} + \frac {1}{3} + \frac {1}{4} + \frac {1}{2 0} + \frac {1}{2} + \frac {1}{3} + \text {etc.}
+\]
 
 ## PDF page 169
 
@@ -8006,78 +8029,35 @@ cepter ceux qui peuvent diviser a-1.
 
 ## PDF page 220
 
-THÉORIE DES NOMBRES.
 196
-<math>2nz+1</math>; ou bien il divisera <math>a^n-1</math>, et sera de la forme <math>2\mu z+1</math>, ou
-bien il diviscra a'- 1 et sera de la forme 212+1; ou enfin il divisera
-<math>a-1</math> et sera de la forme <math>2z+1</math>, laquelle convient à tous les nombres
-premiers. En effet, lorsque n est impair, il est évident que a-1 di-
-vise a<sup>n</sup>— 1 ; donc tout diviseur de la première quantité doit être diviseur
-de la seconde.
-3°. Si le nombre n'est une puissance de 2, et qu'on fasse <math>a = \frac{1}{2}n</math>,
-<math>6 = \frac{1}{2}\alpha</math>, <math>\gamma = \frac{1}{2}6</math>, etc. le diviseur p de la formule <math>a^n - 1</math> sera de la
-forme <math>nx + 1</math>, du bien il sera de la forme <math>ex + 1</math> et divisera la formule
-<math>a^2-1</math>, ou bien il sera de la forme <math>6x+1</math> et divisera la formule <math>a^2-1</math>,
-ainsi de suite jusqu'à la forme <math>2x+1</math> qui divisera la formule <math>a^2-1</math>.
-Exemple I.
-(162) Pour avoir tous les diviseurs du nombre <math>A = 2^{54} - 1</math>, nous
-formerons le tableau survant, où l'on voit la formule proposée et
-selles qui s'en déduisent, avec les formes correspondantes du diviseur:
-<math>p = 52x + 1 \dots A = 2^{34} - 1 = (2^{16} + 1) B</math>
-<math display="block">p = 16x + 1 	 B = 2^{16} - 1 = (2^{6} + 1) C</math>
-<math display="block">p = 8x + 1 	 C = 2^{6} - 1 = (2^{4} + 1) D</math>
-<math display="block">p = 4x + 1 	 D = 2^{4} - 1 = (2^{4} + 1) E</math>
-<math display="block">p = 2x + 1 	 E = 2^{6} - 1 = 3.</math>
-Le dernier nombre E, qui se réduit à 3, doit diviser tons les précé-
-dens, et d'abord on a <math>D=(2^4+1).3=3.5</math>; ensuite <math>C=(2^4+1)D=3.5.17</math>.
-Le nombre B contient les mêmes diviseurs que C, et de plus <math>2^{1}+1=257</math>,
-lequel est un nombre premier. Enfin A est le produit de B par
-216+1=65537. Or comme 216+1 ne peut avoir aucun diviseur com-
-mun avec B qui est 216-1, il s'ensuit que 216+1 ou 65537 ne peut
-avoir pour diviseur que des nombres premiers de la forme <math>32x+1</math>.
-Mais les nombres premiers contenus dans cette forme et moindres que
-<math>\sqrt{65537}</math> sont 97 et 193, lesquels ne divisent point 65537, Done 65537
-est un nombre premier, donc le nombre A décomposé en ses facteurs
-premiers = 3.5.17.257.65537. Si on multiplie, cette valeur par celle
-qu'on a trouvée (pag. 12) pour 232 + 1, on aura la valeur décomposée
-de 264-1.
-The state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
+
+THÉORIE DES NOMBRES.
+
+\( 2nz + 1 \); ou bien il divisera \( a^n - 1 \), et sera de la forme \( 2\mu z + 1 \), ou bien il divisera \( a^v - 1 \) et sera de la forme \( 2\pi z + 1 \); ou enfin il divisera \( a - 1 \) et sera de la forme \( 2z + 1 \), laquelle convient à tous les nombres premiers. En effet, lorsque \( n \) est impair, il est évident que \( a - 1 \) divise \( a^n - 1 \); donc tout diviseur de la première quantité doit être diviseur de la seconde.
+
+3°. Si le nombre \(n\) est une puissance de \(2\), et qu'on fasse \(a=\frac{1}{2}n\), \(6=\frac{1}{2}a\), \(\gamma=\frac{1}{2}6\), etc. le diviseur \(p\) de la formule \(a^{n}-1\) sera de la forme \(nx+1\), ou bien il sera de la forme \(ax+1\) et divisera la formule \(a^{a}-1\), ou bien il sera de la forme \(6x+1\) et divisera la formule \(a^{c}-1\), ainsi de suite jusqu'à la forme \(2x+1\) qui divisera la formule \(a^{a}-1\).
+
+E x e m p l e I.
+
+(162) Pour avoir tous les diviseurs du nombre \( A = 2^{34} - 1 \), nous formerons le tableau suivant, où l'on voit la formule proposée et celles qui s'en déduisent, avec les formes correspondantes du diviseur :
+
+\[
+\begin{array}{l} p = 3 2 x + 1 \dots \dots A = 2 ^ {3 4} - 1 = (2 ^ {1 6} + 1) B \\ p = 1 6 x + 1 \quad B = 2 ^ {1 6} - 1 = \left(2 ^ {8} + 1\right) C \\ p = 8 x + \mathrm{i} \quad C = 2 ^ {8} - \mathrm{i} = (2 ^ {4} + \mathrm{i}) D \\ p = 4 x + 1 \quad D = 2 ^ {4} - 1 = \left(2 ^ {2} + 1\right) E \\ p = 2 x + 1 \quad E = 2 ^ {2} - 1 = 3. \\ \end{array}
+\]
+
+Le dernier nombre \( E \), qui se réduit à \( 3 \), doit diviser tous les précédens, et d'abord on a \( D = (2^4 + 1) \). \( 3 = 3.5 \); ensuite \( C = (2^4 + 1)D = 3.5 \), \( 17 \). Le nombre \( B \) contient les mêmes diviseurs que \( C \), et de plus \( 2^3 + 1 = 257 \), lequel est un nombre premier. Enfin \( A \) est le produit de \( B \) par \( 2^{18} + 1 = 65537 \). Or comme \( 2^{16} + 1 \) ne peut avoir aucun diviseur commun avec \( B \) qui est \( 2^{16} - 1 \), il s'ensuit que \( 2^{16} + 1 \) ou \( 65537 \) ne peut avoir pour diviseur que des nombres premiers de la forme \( 32x + 1 \). Mais les nombres premiers contenus dans cette forme et moindres que \( \sqrt{65537} \) sont 97 et 193, lesquels ne divisent point \( 65537 \). Dons \( 65537 \) est un nombre premier, donc le nombre \( A \) décompose en ses facteurs premiers \( = 3.5 \). \( 17 \). \( 257 \). \( 65537 \). Si on multiplie, cette valeur par celle qu'on a trouvée (pag. 12) pour \( 2^{32} + 1 \), on aura la valeur décomposée de \( 2^{64} - 1 \).
 
 ## PDF page 221
 
 SECONDE PARTIE.
+
 197
-EXEMPLE II.
-(163) Soit encore proposé le nombre <math>A=2^{31}-1</math>; comme l'expo-
-sant 31 est un nombre premier, les diviseurs de A ne pourront être que
-de la forme <math>62x + 1</math>, et il n'y aura aucune exception, attendu que <math>a-1</math>
-se réduit dans ce cas à 2-1=1. Si l'on considère en même temps que
-le nombre <math>2A</math> est de la forme <math>t^2-2</math>, et qu'en conséquence les diviseurs
-de A doivent être de l'une des formes <math>8n+1</math>, <math>8n+7</math>, on trouvera, en
-combinant ces dernières formes avec la première <math>62x+1</math>, que tout di-
-viseur premier de A est nécessairement de l'une des formes 248z+1,
-248z + 63. Or Euler nous apprend (Mém. de Berlin, ann. 1772, pag. 36)
-qu'après avoir essayé tous les nombres premiers contenus dans ces formes,
-jusqu'à 46339, racine du nombre A, il n'en a trouvé aucun qui fût di-
-viseur de A; d'où il faut conclure, conformément à une assertion de
-Fermat, que le nombre 2<sup>31</sup>—1 = 2 147 483 647 est un nombre pre-
-mier. C'est le plus grand de ceux qui aient été vérifiés jusqu'à présent.
-Nous ne terminerons pas ce paragraphe, sans observer qu'Euler est
-anteur des principaux théorèmes qui y sont contenus. Voyez le Tom. I
-des Novi Comment. Petrop.
 
-The state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
-<b>8</b> .
+Exemple II.
 
+(163) Soit encore proposé le nombre \( A = 2^{31} - 1 \); comme l'exposant 31 est un nombre premier, les diviseurs de \( A \) ne pourront être que de la forme \( 62x + 1 \), et il n'y aura aucune exception, attendu que \( a - 1 \) se réduit dans ce cas à \( 2 - 1 = 1 \). Si l'on considère en même temps que le nombre \( 2A \) est de la forme \( t^2 - 2 \), et qu'en conséquence les diviseurs de \( A \) doivent être de l'une des formes \( 8n + 1 \), \( 8n + 7 \), on trouvera, en combinant ces dernières formes avec la première \( 62x + 1 \), que tout diviseur premier de \( A \) est nécessairement de l'une des formes \( 248z + 1 \), \( 248z + 63 \). Or Euler nous apprend (Mém. de Berlin, ann. 1772, pag. 36) qu'après avoir essayé tous les nombres premiers contenus dans ces formes, jusqu'à 46339, racine du nombre \( A \); il n'en a trouvé aucun qui fût diviseur de \( A \); d'où il faut conclure, conformément à une assertion de Fermat, que le nombre \( 2^{31} - 1 = 2 \) 147 483 647 est un nombre premier. C'est le plus grand de ceux qui aient été vérifiés jusqu'à présent.
 
-    Compared to the compared to the compared to the compared to the compared to the compared to the compared to the compared to the compared to the compared to the compared to the compared to the compared to the c
-
-
-    If a sub-like part of the constraint of the constraint of the constraint of the constraint of the constraint of the constraint of the constraint of the constraint of the constraint of the constraint of the con
-
-and the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state 
-Add at the same and the same of the same of
-The Comment of the Comment of the Comment of the Comment of the Comment of the Comment of the Comment of the Comment of the Comment of the Comment of the Comment of the Comment of the Comment of the Comment of the Comment
+Nous ne terminerons pas ce paragraphe, sans observer qu'Euler est euteur des principaux théoremes qui y sont contenus. Voyez le Tom. I des Novi Comment. Petrop.
 
 ## PDF page 222
 
@@ -8312,53 +8292,32 @@ Si tzezas ann div-presence ne 8n+5, den auras nict. deb f. 8n+7
 
 ## PDF page 228
 
-THÉORIE DES NOMBRES.
-<del>2</del>94
-(170) C'est ici le lieu de placer quelques théorèmes assez importans,
-dont plusieurs ne peuvent se démontrer qu'à l'aide de la loi de récipro-
-cité qu'on vient d'établir.
-" Tout nombre premier <math>4n + 1</math> divise <math>a-la-fois</math> les deux formules
-» <math>t^2 + cu^2</math>, <math>t^2 - cu^2</math>, ou ne divise ni l'une ni l'autre. »
-Soit a le nombre premier dont il s'agit; si l'on a <math>\binom{c}{a} = +1</math>, a
-divisera les deux formules <math>t^2 + cu^2</math>, <math>t^2 - cu^2</math>, où <math>c</math> est un nombre quel-
-conque : si l'on a <math>\left(\frac{c}{a}\right)</math> = - 1, il ne divisera ni l'une ni l'autre. C'est
-in being to see
-ce qui résulte immédiatement des no 134 et 135.
-· ling a final
-(171) « Tout nombre premier <math>4n + 3</math> qui divise <math>t^2 + cu^2</math>, ne peut
-ef last themes
-» être diviseur de t<sup>2</sup> — cu<sup>2</sup>, et réciproquement.»
-1.o.L
-Car soit ce nombre premier <math>= b</math>, la condition pour que <math>b</math> divise
-אים ינו ווים לאו וו לישובים
-<math>t^* + cu^*</math>, est <math>\left(\frac{-c}{b}\right) = 1</math>, ou <math>\left(\frac{c}{b}\right) = -1</math>; et la condition pour qu'il divise
-he see hear - H 416
-<math>t^{2}-cu^{2}</math> est <math>\left(\frac{c}{h}\right)=1</math>; or ces deux conditions s'excluent mutuellement.
-Parent in the state of the
-res internet ou transfers
-**Corollaire. Tout nombre premier b de forme 4n+5 divise néces-
-sairement l'une des deux formules <math>t^* + cu^*</math>, <math>t^* - cu^*</math>; car on a toujours;
-when and free make
-<math>\operatorname{ou}\left(\frac{c}{b}\right) = +1</math>, ou <math>\binom{c}{b} = -1</math>. On fait abstraction dans ce théorème,
-THE WAS BANKED
-ainsi que dans le précédent, du cas où b serait diviseur de c; alors en
-in the same of the same
-effet on ne mettrait plus en question si b divise <math>t^* + cu^*</math> ou <math>t^* - cu^*</math>.
-C+ 14
-(172) « Si le nombre premier c divise les deux formules te — aut,
-» t<sup>a</sup> — bu<sup>a</sup>, il divisera également la formule t<sup>a</sup> — abu<sup>a</sup>. »
-'Car ayant par hypothèse <math>\left(\frac{a}{c}\right) = 1</math>, <math>\left(\frac{b}{c}\right) = 1</math>, il s'ensuit que <math>\left(\frac{ab}{c}\right) = 1</math>,
-et qu'ainsi c est diviseur de t<sup>2</sup> — abu<sup>2</sup>.
+794
+
+THÉORIE DES NOMBRES:
+
+(170) C'est ici le lieu de placer quelques théorèmes assez importans, dont plusieurs ne peuvent se démontrer qu'à l'aide de la loi de récipro-cité qu'on vient d'établir.
+
+« Tout nombre premier 4n + 1 divise à-la-fois les deux formules » \( t^{a} + cu^{2} \), \( t^{a} - cu^{2} \), ou ne divise ni l'une ni l'autre. »
+
+Soit \(a\) le nombre premier dont il s'agit; si l'on a \(\left(\frac{c}{a}\right)=+\mathrm{i}\), \(a\) divisera les deux formules \(t^{a}+cu^{a}\), \(t^{a}-cu^{a}\), où \(c\) est un nombre quelconque: si l'on a \(\left(\frac{c}{a}\right)=-\mathrm{i}\), il ne divisera ni l'une ni l'autre. C'est ce qui résulte immédiatement des n° 134 et 135.
+
+(171) « Tout nombre premier 4n + 3 qui divise \( t^{a} + cu^{a} \), ne peut être diviseur de \( t^{a} - cu^{a} \), et réciproquement. »
+
+. Car soit ce nombre premier = b, la condition pour que b divise \( t^a + cu^a \), est \( \left(\frac{-c}{b}\right) = 1 \), ou \( \left(\frac{c}{b}\right) = -1 \); et la condition pour qu'il divise \( t^a - cu^a \) est \( \left(\frac{c}{b}\right) = 1 \); or ces deux conditions s'excluent mutuellement.
+
+Corollaire. Tout nombre premier \( b \) de forme \( 4n + 5 \) divise nécessairement l'une des deux formules \( t^a + cu^a \), \( t^a - cu^a \); car on a toujours, ou \( \left(\frac{c}{b}\right) = +1 \), ou \( \left(\frac{c}{b}\right) = -1 \). On fait abstraction dans ce théorème, ainsi que dans le précédent, du cas où \( b \) serait diviseur de \( c \); alors en effet on ne mettrait plus en question si \( b \) divise \( t^a + cu^a \) ou \( t^a - cu^a \).
+
+(172) « Si le nombre premier c divise les deux formules \( t^{a} - au^{a} \), » \( t^{a} - bu^{a} \), il divisera également la formule \( t^{a} - abu^{a} \). »
+
+Car ayant par hypothèse \(\left(\frac{a}{c}\right)=1, \left(\frac{b}{c}\right)=1\), il s'ensuit que \(\left(\frac{ab}{c}\right)=1\), et qu'ainsi \(c\) est diviseur de \(t^{a}-abu^{a}\).
+
 Le même résultat aurait lieu pour un plus grand nombre de facteurs.
-(173) « Si le nombre premier c ne divise ni la formule t' — au , ni
-» la formule t' — bu', il divisera nécessairement la formule t' — abu'. »
-Car ayant par hypothèse <math>\left(\frac{a}{c}\right) = -1</math>, <math>\left(\frac{b}{c}\right) = -1</math>, il s'ensuit encore
-<math>\left(\frac{ab}{c}\right) = +1</math>; donc c est diviseur de <math>t^a - abu^a</math>.
-(174) « Soient a et A des nombres premiers, tous deux de la forme
-» <math>4n + 1</math>, je dis que si a divise la formule <math>t^* + Au^*</math>, réciproquement A
-in the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state o
-to the same of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control 
-Commence of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of
+(173) « Si le nombre premier c ne divise ni la formule \( t^{a} - au^{a} \), ni » la formule \( t^{a} - bu^{a} \), il divisera nécessairement la formule \( t^{a} - abu^{a} \). »
+
+Car ayant par hypothèse \(\left(\frac{a}{c}\right) = -1\), \(\left(\frac{b}{c}\right) = -1\), il s'ensuit encore \(\left(\frac{ab}{c}\right) = +1\); donc \(c\) est diviseur de \(t^a - abu^a\).
+
+(174) « Soient \(a\) et \(A\) des nombres premiers, tous deux de la forme » \(4n + 1\), je dis que si \(a\) divise la formule \(t^{a} + Au^{a}\), réciproquement \(A\)
 
 ## PDF page 229
 
@@ -8659,33 +8618,18 @@ dernier doit être impair par la même raison.
 ## PDF page 237
 
 SECONDE PARTIE.
+
 213
-avoir recours aux propriétés des diviseurs qui seront démontrées ci-
-après. En vertu de ces propriétés, tout diviseur de la formule t'+au*
-est lui-même de la forme <math>y^2 + az^2</math>, ou au moins il devient de cette forme,
-en le multipliant par un nombre p moindre que <math>2\sqrt{\frac{a}{5}}</math>. Supposons done
-qu'on a trouvé <math>pc=f^*+ag^*</math>, on cherchera <math>x</math> d'après l'équation
-<math>f = gx + c\gamma</math>
-et la valeur de <math>x</math> sera telle, que <math>x^2 + a</math> est divisible par <math>c</math>.
-Ainsi, dans l'exemple précédent, on reconnaît bientôt que 641 n'est
-pas de la forme <math>f^2 + 220g^2</math>, mais il le devient, étant multiplié par 14,
-car on a <math>641 \times 14 = 8974 = 57^{2} + 229.5^{2}</math>; faisant done <math>57 = 5x + 641y</math>,
-on trouvera <math>x=-245</math>. Cette méthode peut faire éviter beaucoup de
-tâtonnement, et elle sera surtout utile lorsque le nombre a est peu
-considérable; car les Tables feront connaître, d'après la forme 4az+2
-du nombre c, quel est le multiplicateur p qui peut rendre le produit pc
-de la forme <math>f^* + ag^*</math>.
 
+avoir recours aux propriétés des diviseurs qui seront démontrées ci-après. En vertu de ces propriétés, tout diviseur de la formule \( t^a + au^a \) est lui-même de la forme \( y^a + az^a \), ou au moins il devient de cette forme, en le multipliant par un nombre \( p \) moindre que \( 2\sqrt{\frac{a}{3}} \). Supposons donc qu'on a trouvé \( pc = f^a + ag^a \), on cherchera \( x \) d'après l'équation
 
-•
-the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract o
-the second second second
+\[
+f = g x + c y,
+\]
 
-    A constant of the constant of the constant of the constant of the constant of the constant of the constant of the constant of the constant of the constant of the constant of the constant of the constant of the
-AS A CONTROL OF A CONTROL OF A CONTROL OF A CONTROL OF A CONTROL OF A CONTROL OF A CONTROL OF A CONTROL OF A CONTROL OF A CONTROL OF A CONTROL OF A CONTROL OF A CONTROL OF A CONTROL OF A CONTROL OF A CONTROL OF A CONTROL O
+et la valeur de \(x\) sera telle, que \(x^{2}+a\) est divisible par \(c\).
 
-.
-•
+Ainsi, dans l'exemple précédent, on reconnaît bientôt que 641 n'est pas de la forme \( f^{a} + 229g^{a} \), mais il le devient, étant multiplié par 14, car on a \( 641 \times 14 = 8974 = 57^{a} + 229.5^{a} \); faisant donc \( 57 = 5x + 641y \), on trouvera \( x = -245 \). Cette méthode peut faire éviter beaucoup de tâtonnement, et elle sera surtout utile lorsque le nombre \( a \) est peu considérable; car les Tables feront connaître, d'après la forme 4az + a du nombre \( c \), quel est le multiplicateur \( p \) qui peut rendre le produit \( pc \) de la forme \( f^{a} + ag^{a} \).
 
 ## PDF page 238
 
@@ -11409,33 +11353,18 @@ Seupe solution 4 622 923 = 5. 1329 + 38. 4812
 ## PDF page 309
 
 SECONDE PARTIE.
+
 285
-Or il est manifeste que cette quantité ne peut être un quarré tant que a
-sera au-dessous de 29. On voit donc a priori que les 29 premiers nombres
-contenus dans la formule a + 58 doivent être premiers où doubles de
-premiers.
-Il en est de même des 19 premiers nombres contenus dans la for-
-mule 5z<sup>2</sup> + 38, parce que la quantité 1 + 10ax - 190x<sup>2</sup> ne peut devenir
-un quarré tant que a est au-dessous de 19.
-Remarque. Le problème de déterminer un nombre premier plus grand
-qu'un nombre donné, n'est pas résolu complètement dans ce paragraphe.
-On a indiqué seulement diverses formules, dans lesquelles prenant au
-hasard un nombre plus grand que la limite assignée, il y a déjà une pro-
-babilité assez grande que ce nombre sera premier. Mais pour s'en assu
-rer entièrement, il faut faire des essais qui sont d'autant plus longs, que
-le nombre dont il s'agit doit être plus considérable; et si cette grandeur
-passe certaines limites, il pourra être plus avantageux de suivre les mé-
-thodes indiquées dans le paragraphe suivant.
-De menu 112 1 92 + 11 Jup. De to + 403 me
 
+Or il est manifeste que cette quantité ne peut être un quarré tant que \( \alpha \) sera au-dessous de 29. On voit donc \( a \) priori que les 29 premiers nombres contenus dans la formule \( \alpha^{a} + 58 \) doivent être premiers où doubles de premiers.
 
-i
+Il en est de même des 19 premiers nombres contenus dans la formule \(5z^{2}+38\), parce que la quantité \(1+10ax-190x^{2}\) ne peut devenir un quarré tant que \(a\) est au-dessous de 19.
 
+Remarque. Le problème de déterminer un nombre premier plus grand qu'un nombre donné, n'est pas résolu complètement dans ce paragraphe. On a indiqué seulement diverses formules, dans lesquelles prenant au hasard un nombre plus grand que la limite assignée, il y a déjà une probabilité assez grande que ce nombre sera premier. Mais pour s'en assurer entièrement, il faut faire des essais qui sont d'autant plus longs, que le nombre dont il s'agit doit être plus considérable; et si cette grandeur passe certaines limites, il pourra être plus avantageux de suivre les méthodes indiquées dans le paragraphe suivant.
 
-
-and the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the seco
-
-· -
+\[
+\alpha \text {   minimum   } 1 1 x ^ {2} \pm 9 x + 1 1 \quad \text {   for   } \partial_ {c} t ^ {2} + 4 0 3 x ^ {2}
+\]
 
 ## PDF page 310
 
@@ -14012,44 +13941,28 @@ lution de cette dernière équation.
 ## PDF page 375
 
 QUATRIÈME PARTIE.
-35 ı
-» 1°. On aura x==u', u étant un nombre quelconque hen-divisible
-» par a.
-1
-» 2°. Si <math>\theta</math> est une valeur de <math>x</math>, <math>\theta</math><sup>m</sup> en sera une aussi, quel que soit
-n l'exposant m.
-» 3°. Si le nombre <math>\theta</math> est tel que <math>\theta'</math>— 1 ne soit pas divisible par <math>a</math>,
-» <math>\nu</math> étant un diviseur premier de <math>n</math>, la formule <math>x=0^m</math> contiendra
-» toutes les solutions de l'équation proposée, lesquelles seront 1,
-» <math>\theta</math>, <math>\theta^* \dots \theta^{n-1}</math>, ou les restes de ces quantités divisées par a.
+
+551
+
+» 1°. On aura \(x = u^{\prime}\), \(u\) étant un nombre quelconque non-divisible
+» par \(a\).
+
+» 2°. Si θ est une valeur de x, θm en sera une aussi, quel que soit n l'exposant m.
+
+» 3°. Si le nombre θ est tel que \(\theta^{\frac{n}{r}} - 1\) ne soit pas divisible par \(a\), » v étant un diviseur premier de \(n\), la formule \(x = \theta^{m}\) contiendra » toutes les solutions de l'équation proposée, lesquelles seront 1, » \(\theta\), \(\theta^{n} \ldots \theta^{n-1}\), ou les restes de ces quantités divisées par \(a\).
+
 » 4°. Non-seulement il y a plusieurs nombres θ qui jouissent de cette
-» propriété, mais le nombre en est <math>n\left(1-\frac{1}{r}\right)\left(1-\frac{1}{r'}\right)\left(1-\frac{1}{r'}\right)</math>, etc.,
-» v, v', v', etc. étant les différens nombres premiers qui peuvent di-
-* Viser n. n
-Car 1°. si l'on fait <math>x = u^{a'}</math>, on aura <math>x^n - 1 = u^{a''} - 1 = u^{a-1} - 1</math>,
-quantité toujours divisible par a.
-2°. Si <math>x=\theta</math>, on aura, en rejetant les multiples de <math>a</math>, <math>\theta</math> = 1: fai-
-sant donc <math>x=\theta^m</math>, on aura pareillement <math>x^n=\theta^{mn}=1</math>, quel que soit m.
-•5°. L'équation proposée devant avoir n solutions, la formule x=-5°
-les donnera toutes, si dans la suite 1, <math>\theta</math>, <math>\theta</math>, <math>\theta</math>, <math>\theta</math>...<math>\theta</math>, il n'y a pas deux
-termes égaux (en rejetant toujours les multiples de a.) Or supposons
-<math>\theta^{\mu} = \theta^{\lambda}</math>, il en résultera <math>\theta^{\prime} = 1</math>, <math>\sigma</math> étaut <math>\mu = \lambda</math> ou <math>\lambda = \mu</math>, et par con-
-séquent moindre que n. Mais comme on a déjà d'=1, si on appelle
-e le commun diviseur de σ et de n, et qu'on résolve l'équation....
-<math>ny - \sigma z = \varepsilon</math>, on aura <math>\theta^{ny} = \theta^{\sigma z + \varepsilon}</math>; le premier membre, à cause de
-<math>\theta^* = 1</math>, se réduit à 1; le second, à cause de <math>\theta^\sigma = 1</math>, se réduit à <math>\theta^\sigma</math>;
-ainsi on aurait <math>\theta'' = 1</math>. Soit <math>n = \epsilon n'</math>, et <math>n' = n'' r</math>, <math>r</math> étant un nombre
-premier; puisqu'on a <math>\theta'=1</math>, on aura aussi <math>\theta'''=1</math>, ou <math>\theta'=1</math>; équa-
-tion impossible, puisqu'on a supposé dans l'énoncé du théorème, que
-la quantité 0'-1 ne peut être divisible par a; donc la formule x-0-
-renfermera implicitement toutes les solutions de l'équation proposée.
-4°. Soit » l'un des diviseurs premiers de n; de même qu'il n'y a que
-n valeurs de <math>x</math> qui satisfont à l'équation <math>x^{n}-1=\mathcal{M}(a)</math>, il n'y a
-aussi que <math>\frac{n}{n}</math> valeurs de <math>\theta</math> qui donnent <math>\theta' = 1</math>. Donc sur <math>n</math> valeurs que doit
-• A second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second o
-. . . . . . . . . . . . . . . . . . . . 
-and the second second second second
-A of robert line in the
+» propriété, mais le nombre en est \( n \left( 1 - \frac{1}{\nu} \right) \left( 1 - \frac{1}{\nu} \right) \left( 1 - \frac{1}{\nu} \right) \), etc.,
+» \( \nu, \nu', \nu' \), etc. étant les différens nombres premiers qui peuvent di-
+« viser n. »
+
+Car 1°. si l'on fait \( x = u^{a'} \), on aura \( x^n - 1 \rightleftharpoons u^{a'n} - 1 \rightleftharpoons u^{a-1} - 1 \), quantité toujours divisible par \( a \).
+
+2°. Si \(x=\theta\), on aura, en, rejetant les multiples de \(a\), \(\theta^{n}=1\): faisant donc \(x=\theta^{m}\), on aura pareillement \(x^{n}=\theta^{mn}=1\), quel que soit \(m\).
+
+•5°. L'équation proposée devant avoir \(n\) solutions, la formule \(x=\theta\) les donnera toutes, si dans la suite \(1, \theta, \theta^{2}, \theta^{3} \ldots \theta^{n-1}\), il \(n\) y a pas deux termes égaux (en rejetant toujours les multiples de \(a\).) Or supposons \(\theta^{\mu}=\theta^{\lambda}\), il en résultera \(\theta^{\sigma}=1\), \(\sigma\) étant \(\mu-\lambda\) ou \(\lambda-\mu\), et par conséquent moindre que \(n\). Mais comme on a déjà \(\theta^{n}=1\), si on appelle \(\epsilon\) le commun diviseur de \(\sigma\) et de \(n\), et qu'on résolve l'équation.... \(n\gamma-\sigma z=\epsilon\), on aura \(\theta^{ny}=\theta^{\sigma z+\epsilon}\); le premier membre, à cause de \(\theta^{n}=1\), se réduit à \(1\); le second, à cause de \(\theta^{\sigma}=1\), se réduit à \(\theta^{n}\); ainsi on aurait \(\theta^{n}=1\). Soit \(n=\epsilon n'\), et \(n'=n''\nu\), \(\nu\) étant un nombre premier; puisqu'on a \(\theta^{n}=1\), on aura aussi \(\theta^{n''}=1\), ou \(\theta^{n}=1\); équation impossible, puisqu'on a supposé dans l'énoncé du théorème, que la quantité \(\theta^{n}-1\) ne peut être divisible par \(a\); donc la formule \(x=\theta^{n}\) renfermera implicitement toutes les solutions de l'équation proposée.
+
+4°. Soit v l'un des diviseurs premiers de n; de même qu'il n'y a que n valeurs de x qui satisfont à l'équation  \( x^{n}-1=\mathcal{M}(a) \) , il n'y a aussi que  \( \frac{n}{v} \)  valeurs de  \( \theta \)  qui donnent  \( \theta^{n}=1 \) . Donc sur n valeurs que doit
 
 ## PDF page 376
 
@@ -14794,38 +14707,59 @@ de deux diviseurs semblables ou dissemblables, dans toutes les combinai-
 
 ## PDF page 396
 
+392
+
 THÉORIE DES NOMBRES.
-372
-sons possibles: on y a joint les quarrés de ces mêmes diviseurs trou-
-vés par les formules du n° 358, ou par celles du n° 362:
-<math display="block">A' = A \mid AA = A \mid BB = A \mid CC = \begin{cases} A \mid DD = \begin{cases} A \mid EE = \begin{cases} A \mid CC = \begin{cases} A \mid DD = \begin{cases} A \mid CC = \begin{cases} A \mid DD = \begin{cases} A \mid CC = \begin{cases} A \mid DD = \begin{cases} A \mid DD = \begin{cases} A \mid DD = \begin{cases} A \mid DD = \begin{cases} A \mid DD = \begin{cases} A \mid DD = \begin{cases} A \mid DD = \begin{cases} A \mid DD = \begin{cases} A \mid DD = \begin{cases} A \mid DD = \begin{cases}</math>
-De là on déduira la forme du produit de tant de diviseurs qu'on voudra,
-où l'on pourra faire entrer des puissances supérieures à la seconde,
-en cherchant leur valeur par les formules du n° 362. Par exemple, les
-produits des trois diviseurs semblables seront:
-<math display="block">DDD = \begin{cases} AD \\ CD \end{cases} = \begin{cases} D \\ E \end{cases}</math>
-<math>AAA = AA = A</math>
-<math>BBB = AB = B</math>
-<math display="block">CCC = \begin{cases} AC \\ BC \end{cases} = \begin{cases} C \\ C \end{cases} \qquad EEE = \begin{cases} AE \\ CE \end{cases} = \begin{cases} E \\ D \\ E \end{cases}</math>
-d'où l'on voit que le produit BBB se réduit à la seule forme B; que
-le produit CCC se réduit de deux manières différentes à la forme C;
-que le produit DDD se réduit de deux manières à la forme D, et d'une
-manière à la forme <math>E</math>, etc. Dans le cas où les trois facteurs seraient
-égaux, les produits se réduiraient à une seule forme, et on aurait
-(nº 362)
-<math>A^3 = A</math>, <math>B^3 = B</math>, <math>C^3 = C</math>, <math>D^3 = E</math>, <math>E^3 = D</math>.
-EXEMPLE II.
-(365) Considérons encore la formule <math>t^2 + 89u^2</math> qui a sept diviseurs
-quadratiques, savoir:
-<math>A = y^2 + 2yz + 90z^2</math> <math>E = 7y^2 + 6yz + 14z^2</math>
-<math display="block">B = 2y^{2} + 2yz + 45z^{2}</math>
-<math display="block">C = 9y^{2} + 2yz + 10z^{2}</math>
-<math display="block">F = 5y^{2} + 2yz + 30z^{2}</math>
-<math display="block">G = 6y^{2} + 2yz + 15z^{2}</math>
-<math>D = 18\gamma^2 + 2\gamma z + 5z^2</math>
-Les combinaisons de ces diviseurs multipliés deux à deux, donnent
-les résultats suivans, auxquels on a joint les quarrés de ces mêmes
-diviseurs :
+
+sons possibles: on y a joint les quarrés de ces mêmes diviseurs trouvés par les formules du n° 358, ou par celles du n° 362:
+
+\[
+\begin{array}{l c c c c c c} A ^ {2} = A & A A = A & B B = A & C C = \left\{ \begin{array}{c} A \\ B \end{array} \right. & D D = \left\{ \begin{array}{c} A \\ C \end{array} \right. & E E = \left\{ \begin{array}{c} A \\ C \end{array} \right. \\ B ^ {2} = A & A B = B & B C = C & C D = \left\{ \begin{array}{c} D \\ E \end{array} \right. & D E = \left\{ \begin{array}{c} B \\ C \end{array} \right. \\ C ^ {2} = B & A C = C & B D = E & C E = \left\{ \begin{array}{c} D \\ E \end{array} \right. \end{array}
+\]
+
+De là on déduira la forme du produit de tant de diviseurs qu'on voudra, où l'on pourra faire entrer des puissances supérieures à la seconde, en cherchant leur valeur par les formules du n° 362. Par exemple, les produits des trois diviseurs semblables seront:
+
+\[
+A A A = A A = A \quad D D D = \left\{ \begin{array}{l} A D \\ C D \end{array} = \left\{ \begin{array}{l} D \\ D \\ E \end{array} \right. \right.
+\]
+
+\[
+B B B = A B = B
+\]
+
+\[
+C C C = \left\{ \begin{array}{l} A C \\ B C \end{array} = \left\{ \begin{array}{l} C \\ C \end{array} \right. \quad E E E = \left\{ \begin{array}{l} A E \\ C E \end{array} = \left\{ \begin{array}{l} E \\ D \\ E \end{array} \right. \right. \right.
+\]
+
+d'où l'on voit que le produit \(BBB\) se réduit à la seule forme \(B\); que le produit \(CCC\) se réduit de deux manières différentes à la forme \(C\); que le produit \(DDD\) se réduit de deux manières à la forme \(D\), et d'une manière à la forme \(E\), etc. Dans le cas où les trois facteurs seraient égaux, les produits se réduiraient à une seule forme, et on aurait (n° 362)
+
+\[
+A ^ {3} = A, B ^ {3} = B, C ^ {3} = C, D ^ {3} = E, E ^ {3} = D.
+\]
+
+\[
+\texttt{E x E M P L E I I.}
+\]
+
+(365) Considérons encore la formule \( t^{a} + 89u^{a} \) qui a sept diviseurs quadratiques, savoir :
+
+\[
+A = y ^ {2} + 2 y z + 9 0 z ^ {2} \quad E = 7 y ^ {2} + 6 y z + 1 4 z ^ {2}
+\]
+
+\[
+B = 2 y ^ {3} + 2 y z + 4 5 z ^ {2} \quad F = 5 y ^ {2} + 2 y z + 3 0 z ^ {2}
+\]
+
+\[
+C = 9 y ^ {2} + 2 y z + 1 0 z ^ {2} \quad G = 6 y ^ {2} + 2 y z + 1. 5 z ^ {2}.
+\]
+
+\[
+D = 1 8 y ^ {2} + 2 y z + 5 z ^ {2}
+\]
+
+Les combinaisons de ces diviseurs multipliés deux à deux, donnent les résultats suivans, auxquels on a joint les quarres de ces mêmes diviseurs :
 
 ## PDF page 397
 
@@ -15539,37 +15473,12 @@ des expressions <math>\left(\frac{k}{p}\right) = (-1)^{\mu}</math>, <math>\left(
 ## PDF page 417
 
 QUATRIÈME PARTIE!
+
 393
-Ainsi se trouve démontré généralement un théorème qu'on peut
-regarder comme le plus important de la théorie des nombres, et qui
-a offert sous diverses formes des difficultés presqu'insurmontables à
-ceux qui ont entrepris de le démontrer par d'autres voies.
-La démonstration que nous venons de donner, d'après Fréd. Gauss;
-est d'autant plus remarquable qu'elle repose sur les principes les plus
-élémentaires, et qu'elle n'exige aucune théorie préliminaire. Il est à
-croire que beaucoup de théorèmes, réputés très-difficiles dans la science
-des nombres, sont dans le même cas; et il y a toujours lieu d'espérer
-qu'on peut démontrer très-simplement ceux qui ne l'ont encore été que
-par des méthodes longues et compliquées.
-work a trees
-sfe                                   
-. . . . -
-whi make
-. . .
-ingly top hone
-43.63
-State Best wood
-diagram consider
-1 %
-Per 18535
-· ·
-6.00
-<b>50</b>
-11 ( 1 ) 2 + 1 2 . 2 20 6 4
--4071v
-279 71266 11.11
-The state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
-. . . . .
+
+Ainsi se trouve démontré généralement un théorème qu'on peut regarder comme le plus important de la théorie des nombres, et qui a offert sous diverses formes des difficultés presqu'insurmontables à ceux qui ont entrepris de le démontrer par d'autres voies.
+
+La démonstration que nous venons de donner, d'après Fréd. Gauss, est d'autant plus remarquable qu'elle repose sur les principes les plus élémentaires, et qu'elle n'exige aucune théorie préliminaire. Il est à croire que beaucoup de théorèmes, réputés très-difficiles dans la science des nombres, sont dans le même cas; et il y a toujours lieu d'espérer qu'on peut démontrer très-simplement ceux qui ne l'ont encore été que par des méthodes longués et compliquées.
 
 ## PDF page 418
 
@@ -15858,44 +15767,17 @@ miers ampairs ? The industriation, tel terme qui precede (6) he sautait
 
 ## PDF page 424
 
-THEORIE DES NOMBRES.
 400
-être divisible par à et encore moins par 0; donc dans ce premier cas
-le maximum cherché M. Zana zana
-A Section of the Control of the Control of the Control of the Control of the Control of the Control of the Control of the Control of the Control of the Control of the Control of the Control of the Control of the Control of
-(399) Soient les trois nombres premiers <math>\theta</math>, <math>\lambda</math>, <math>\mu</math>; on pourra conce-
-voir trois termes consécutifs divisibles par ces nombres, lesquels seront
-<math>(\theta)</math>, <math>(\lambda)</math>, <math>(\mu)</math>. Pour que le terme qui suit <math>(\mu)</math> soit divisible par <math>\theta</math>, il faut
-que 8 soit 3, et pareillement pour que le terme qui précède 8 soit di-
-visible par <math>\mu</math>, il faut que <math>\mu</math> soit 3. Mais comme les nombres premiers
-que nous considérons sont nécessairement différens entre eux, il n'y a
-qu'une de ces deux suppositions qui puisse avoir lieu. Dans le cas donc
-de <math>\theta = 5</math>, on pourrait avoir quatre termes consécutifs (5), (<math>\lambda</math>), (<math>\mu</math>), (3),
-divisibles chacun par l'un des nombres premiers 3, <math>\lambda</math>, <math>\mu</math>. A la suite
-de ces quatre termes on n'en peut pas mettre un cinquième; car la
-moindre valeur que puisse avoir (\lambda) étant 5, le premier terme divi-
-sible par 5, après (λ), serait le septième et non le cinquième. Donc
-dans le cas où la suite (a) est composée de trois nombres premiers,
-on a au plus <math>M=4</math>, encore faut-il que l'un de ces nombres premiers
-soit 3.
-(400) Supposons maintenant que la suite (a) soit composée de quatre
-nombres premiers <math>\theta</math>, <math>\lambda</math>, <math>\mu</math>, <math>\nu</math>. Si l'on considère quatre termes consé-
-cutifs divisibles par ces nombres, savoir: <math>(\theta)</math>, <math>(\lambda)</math>, <math>(\mu)</math>, <math>(r)</math>; pour en
-ajouter un cinquième, il faudra que λ soit 3; alors on aura les cinq
-termes consécutifs <math>(\theta)</math>, <math>(3)</math>, <math>(\mu)</math>, <math>(\nu)</math>, <math>(3)</math>. Si l'on veut ajouter à ceux-ci
-un sixième terme, cela ne se pourra que lorsque <math>\theta = 5</math>, car alors on
-aurait les six termes (5), (3), (<math>\mu</math>), (<math>\nu</math>), (3), (5). La progression ne
-peut plus être continuée ni vers la droite, ni vers la gauche, car <math>\mu</math> et
-<math>\nu</math> devant être plus grands que <math>5</math>; les termes divisibles par <math>\mu</math> ou par <math>\nu</math>
-vont beaucoup au-delà. Donc dans le cas où la suite (a) est composée
-de quatre termes, il n'y a au plus que six termes consécutifs de la pro-
-gression <math>(Z)</math> qui soient divisibles par quelqu'un des termes de la
-suite (a). On a donc alors <math>M=6</math>, mais ce maximum n'a lieu que lors-
-que deux des quatre nombres premiers sont 3 et 5.
-(401) On conçoit en effet que les nombres premiers les plus petits
-sont les plus propres à donner la plus grande valeur de M, toutes
-choses d'ailleurs égales, puisque de plus grands nombres premiers
-rendent plus grands les intervalles des termes dont ils sont diviseurs.
+
+THÉORIE DES NOMBRES.
+
+être divisible par λ et encore moins par θ; donc dans ce premier cas le maximum cherché \(M_{\text{max}} = 2\)
+
+(399) Soient les trois nombres premiers \(\theta\), \(\lambda\), \(\mu\); on pourra concevoir trois termes consécutifs divisibles par ces nombres, lesquels seront \((\theta)\), \((\lambda)\), \((\mu)\). Pour que le terme qui suit \((\mu)\) soit divisible par \(\theta\), il faut que \(\theta\) soit 3, et pareillement pour que le terme qui précède \(\theta\) soit divisible par \(\mu\), il faut que \(\mu\) soit 3. Mais comme les nombres premiers que nous considérons sont nécessairement différents entre eux, il n'y a qu'une de ces deux suppositions qui puisse avoir lieu. Dans le cas donc de \(\theta = 3\), on pourrait avoir quatre termes consécutifs (3), \((\lambda)\), \((\mu)\), (3), divisibles chacun par l'un des nombres premiers 3, \(\lambda\), \(\mu\). A la suite de ces quatre termes on n'en peut pas mettre un cinquième; car la moindre valeur que puisse avoir \((\lambda)\) étant 5, le premier terme divisible par 5, après \((\lambda)\), serait le septième et non le cinquième. Donc dans le cas où la suite (a) est composée de trois nombres premiers, on a au plus \(M = 4\), encore faut-il que l'un de ces nombres premiers soit 3.
+
+(400) Supposons maintenant que la suite (a) soit composée de quatre nombres premiers \(\theta\), \(\lambda\), \(\mu\), \(\nu\). Si l'on considère quatre termes consécutifs divisibles par ces nombres, savoir: \((\theta)\), \((\lambda)\), \((\mu)\), \((\nu)\); pour en ajouter un cinquième, il faudra que \(\lambda\) soit 3; alors on aura les cinq termes consécutifs \((\theta)\), \((3)\), \((\mu)\), \((\nu)\), \((3)\). Si l'on veut ajouter à ceux-ci un sixième terme, cela ne se pourra que lorsque \(\theta = 5\), car alors on aurait les six termes \((5)\), \((3)\), \((\mu)\), \((\nu)\), \((3)\), \((5)\). La progression ne peut plus être continuée ni vers la droite, ni vers la gauche, car \(\mu\) et \(\nu\) devant être plus grands que 5; les termes divisibles par \(\mu\) ou par \(\nu\) vont beaucoup au-delà. Donc dans le cas où la suite (a) est composée de quatre termes, il n'y a au plus que six termes consécutifs de la progression \((Z)\) qui soient divisibles par quelqu'un des termes de la suite (a). On a donc alors \(M = 6\), mais ce maximum n'a lieu, que lorsque deux des quatre nombres premiers sont 3 et 5.
+
+(401) On conçoit en effet que les nombres premiers les plus petits sont les plus propres à donner la plus grande valeur de M, toutes choses d'ailleurs égales, puisque de plus grands nombres premiers rendent plus grands les intervalles des termes dont ils sont diviseurs.
 
 ## PDF page 425
 
@@ -16099,45 +15981,17 @@ et par conséquent <math>\sqrt{-1+\sqrt{(2n-4)}}</math>. Cette solution généra
 
 ## PDF page 430
 
-THÉORIE DES NOMBRES.
-706
-(409) Par exemple, soit <math>2n-1=113</math>, ou <math>n=57</math>, le nombre pre-
-mier le plus grand contenu dans <math>\sqrt{110}-1</math> est 7. Donc parmi les sept
-nombres impairs qui suivent 113 et qui sont: 115, 117, 119, 121,
-123, 125, 127, il y a nécessairement un nombre premier; c'est 127,
-qui est précisément le septième.
-Ici la limite fixée à 7 ne s'est trouvée que de la grandeur nécessaire;
-le plus souvent, et surtout lorsque n est très-grand, elle est beaucoup
-trop étendue; on l'agrandirait encore, mais on simplifierait l'énoncé
-du théorème, en disant que de <math>L</math> à <math>L+2\sqrt{L}</math> il doit nécessairement
-'se rencontrer un nombre premier.
-Ce théorème est au moins un premier pas vers la solution du problème
-regardé comme très-difficile, de trouver un nombre premier plus grand
-'qu'une limite donnée.
-Remarque. Si on donnait à a des valeurs très-petites, on trouverait
-que ce théorème est sujet à quelques exceptions; mais comme on a
--supposé que <math>\psi</math> est un terme de la suite 3, 5, 7, 11, etc., il faut
--que <math>\sqrt{(2n-4)}</math>—1 soit plus grand que 3, ainsi on doit faire <math>n > ro</math>,
-et alors il n'y aura aucune exception.
-1
+:406
 
-Same and the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the s
-multiplication of the second
------
-化对应性 化二氯化二乙基胺 化铁矿二基层
-and the second second
-.
+THÉORIE DES'NOMBRES.
 
-•
-and the second second second second second second second second second second second second second second second second second second second second second second second second second second second second second second seco
-经分别 医多克氏性 医二氯甲酚 医二甲酚二甲酚
-• •
-and the state of the
+(409) Par exemple, soit \( 2n-1=113 \), ou \( n=57 \), le nombre premier le plus grand contenu dans \( \sqrt{110}-1 \) est 7. Donc parmi les sept nombres impairs qui suivent 113 et qui sont: 115, 117, 119, 121, 123, 125, 127, il y a nécessairement un nombre premier; c'est 127, qui est précisément le septième.
 
-and a more than the first term of the contraction of the contraction of the contraction of the contraction of the contraction of the contraction of the contraction of the contraction of the contraction of the contraction o
+Ici la limite fixée à 7 ne s'est trouvée que de la grandeur nécessaire ; le plus souvent, et surtout lorsque n est très-grand, elle est beaucoup trop étendue; on l'agrandirait encore, mais on simplifierait l'énoncé du théorème, en disant que de L à L+2√L il doit nécessairement se rencontrer un nombre premier.
 
-and the control of the control of the control of
-•
+Ce théorème est au moins un premier pas vers la solution du problème regardé comme très-dificile, de trouver un nombre premier plus grand qu'une limite donnée.
+
+Remarque. Si on donnait à \( \kappa \) des valeurs très-petites, on trouverait que ce théorème est sujet à quelques exceptions; mais comme on a supposé que \( \downarrow \) est un terme de la suite 3, 5, 7, 11, etc., il faut que \( \sqrt{(2n - 4) - 1} \) soit plus grand que 3, ainsi on doit faire \( n > 10 \), et alors il n'y aura aucune exception.
 
 ## PDF page 431
 
@@ -16689,34 +16543,37 @@ assez remarquables. D'abord, comme la progression 1, 2, 5.... an
 
 ## PDF page 447
 
-OUATRIÈME PARTIÈ.
+: QUATRIÈME PARTIÈ.
+
 423
-relative à <math>\Pi\left(\frac{2n}{a}\right)</math>, est composée de la progression 1, 3, 5... <math>(2n-1)</math>
-relative à <math>T(\frac{n}{a})</math> et de la progression 2, 4, 6... 2n, dont les termes
-divisés par 2 donnent 1, 2, 5... n, il est clair qu'on a en général
-<math display="block">T\left(\frac{n}{n}\right) = \Pi\left(\frac{2n}{n}\right) - \Pi\left(\frac{n}{n}\right) \dots \dots \dots \dots (m')</math>
+
+relative à \(\Pi\left(\frac{2n}{\omega}\right)\), est composée de la progression 1, 3, 5... (2n-1) relative à \(T\left(\frac{n}{\omega}\right)\) et de la progression 2, 4, 6... 2n, dont les termes divisés par 2 donnent 1, 2, 5... n, il est clair qu'on a en général
+
+\[
+\dot {T} \left(\frac {n}{\omega}\right) = \Pi \left(\frac {2 n}{\omega}\right) - \Pi \left(\frac {n}{\omega}\right) \dots \dots \left(\mathrm{m} ^ {\prime}\right)
+\]
+
 On trouverait semblablement
-<math display="block">T\left(\frac{n}{n}\right) = \Pi\left(\frac{2n-1}{n}\right) - \Pi\left(\frac{n-1}{n}\right) \dots \dots (n')</math>
-Et comme on a <math>P\left(\frac{n}{n}\right) = \Pi\left(\frac{n+n}{n}\right) - \Pi\left(\frac{s}{n}\right)</math>, si on fait <math>n = \epsilon</math>, cette
-équation donnera
-<math display="block">P\left(\frac{\epsilon}{\alpha}\right) = \Pi\left(\frac{2\epsilon}{\alpha}\right) - \Pi\left(\frac{\epsilon}{\alpha}\right) = T\left(\frac{\epsilon}{\alpha}\right) \dots (p')</math>
-Faisant <math>n = \epsilon</math> dans la formule (l'), on aura donc <math>T\left(\frac{\epsilon}{\alpha}\right) = T\left(\frac{2\epsilon - \epsilon}{\alpha}\right)</math>
-<math>T\left(\frac{\epsilon-\sigma}{\sigma}\right)</math>. Mais dans cette dernière équation <math>\epsilon</math> est à volonté, puis
-qu'il ne reste plus de trace de la progression d'où e est tirée; donc on
-a, quel que soit n,
-<math>T\left(\frac{n}{\omega}\right) = T\left(\frac{2n-\sigma}{\omega}\right) - T\left(\frac{n-\sigma}{\omega}\right) \dots (q')</math>
-Cette formule se déduirait aussi de la combinaison des équations (k')
-et (m').
-Non ajoutnom ici quelques Confiderations: pour Source
-àtumer Combin dans ntennes consideré d'une forgression
-authonilique donnée, ily De number graniss.
 
+\[
+T \left(\frac {n}{\omega}\right) = \Pi \left(\frac {2 n - 1}{\omega}\right) - \Pi \left(\frac {n - 1}{\omega}\right): \dots \tag {$n^{\prime$}}
+\]
 
-The state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
-en in design die eine der der der der der der der der der de
+Et comme on a \(P\left(\frac{n}{\omega}\right)=\Pi\left(\frac{n+\varepsilon}{\omega}\right)-\Pi\left(\frac{\varepsilon}{\omega}\right)\), si on fait \(n=\varepsilon\), cette équation donnera.
 
-    It is a superior of the superior of the superior of the superior of the superior of the superior of the superior of the superior of the superior of the superior of the superior of the superior of the superior 
-and the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the seco
+\[
+P \left(\frac {e}{\omega}\right) = \Pi \left(\frac {2 e}{\omega}\right) - \Pi \left(\frac {e}{\omega}\right) = T \left(\frac {e}{\omega}\right) \dots \dots \tag {$p^{\prime$}}
+\]
+
+Faisant \(n = \varepsilon\) dans la formule (l'), on aura donc \(T\left(\frac{\varepsilon}{\omega}\right) = T\left(\frac{2\varepsilon - \sigma}{\omega}\right)\) \(-T\left(\frac{\varepsilon - \sigma}{\omega}\right)\). Mais dans cette dernière équation \(\varepsilon\) est à volonté, puis qu'il ne reste plus de trace de la progression d'où \(\varepsilon\) est tirée; donc on a, quel que soit \(n\),
+
+\[
+T \left(\frac {n}{\omega}\right) = T \left(\frac {2 n - \sigma}{\omega}\right) - T \left(\frac {n - \sigma}{\omega}\right) \dots \dots \tag {$q^{\prime$}}
+\]
+
+Cette formule se déduirait aussi de la combinaison des équations (k') et (m').
+
+Nous ajoutons ici quelques considérations: vous former à twomor convén dans n'termes conséculito d'une fugroepain authémique donnée, il y a de nombreux premiers.
 
 ## PDF page 448
 
@@ -16960,37 +16817,23 @@ Soit 2°. <math>\left(\frac{A}{a}\right) = -1</math>, on aura <math>(\phi + \psi
 
 ## PDF page 455
 
-QUATRIEME PARTIE.
-43 t
-§ XIII. Méthode de Fermat pour la résolution de l'équation
-<math>y^2 = a + bx + cx^2 + dx^3 + ex^4</math> en nombres rationnels.
-(433) Ayant été conduits à traiter fort au long de la résolution des
-équations indéterminées, nous devons faire mention d'une méthode
-indiquée par Fermat pour résoudre en nombres rationnels l'équation
-<math>y^2 = a + bx + cx^2 + dx^3 + ex^4</math>, dont le second membre est un poly-
-nome rationnel où la variable ne passe pas le quatrième degré. Voici
-les eas principaux dans lesquels la résolution est possible.
-1°. Si le nombre a est égal à un quarré positif <math>f^x</math>, les valeurs <math>x = 0</math>.
-r=f donneront immédiatement une solution de l'équation proposée.
-Pour avoir une autre solution, on supposers <math>a + bx + cx^2 + dx^2 + dx^2 + dx^2 + dx^2 + dx^2 + dx^2 + dx^2 + dx^2 + dx^2 + dx^2 + dx^2 + dx^2 + dx^2 + dx^2 + dx^2 + dx^2 + dx^2 + dx^2 + dx^2 + dx^2 + dx^2 + dx^2 + dx^2 +</math>
-<math>ex^4 = (f + gx + hx^2)^2</math>, ce qui donnera, en développent et ordon-
-nant,
-<math>0 = f^* + 2fgx + 2fhx^* + 2ghx^* + h^*x^4</math>
-<math>-a-b</math> <math>+g</math> <math>-d</math> <math>-e</math>
-Or on a déjà <math>f^* = a</math>; si pour faire disparaître les deux termes suivans,
-on fait <math>2fg - b = 0</math>, <math>2fh + g^2 - c = 0</math>, on en tirera les, valeurs des
-coefficiens g et h, lesquelles seront <math>g = \frac{b}{2f}</math>, <math>h = \frac{c-g}{2f}</math>. Alors l'équa-
-tion étant réduite aux seuls termes qui contiennent x3 et x4, il en
-résultera une valeur rationnelle de <math>x</math>, savoir <math>x = \frac{2gh - d}{c - h^2}</math>. Cette va-
-leur donnera donc une nouvelle solution en nombres rationnels de
-l'équation proposée; si toutefois on n'a pas 2gh == d, ni e == k.
-La nouvelle solution étant désignée par x == m, si l'on fait généra-
-lement <math>x = m + x'</math>, et qu'on substitue cette valeur dans l'équation
-proposée, le second membro deviendra de la forme <math>a' + b'x + c'x'</math>
-<math>++d^nx^{\prime 3}++e^nx^{\prime 4}</math>, dans laquelle <math>a'</math> sera encore un quarré positif. On pro-
-cédera donc de la même manière pour trouver une nouvelle valeur de <math>x'</math>
-et ainsi à l'infini. D'où l'on voit qu'une première valeur connue de x
-suffit pour en: faire trouver une infinité d'autres, sauf quelques cas, pan-
+QUATRIÈME PARTIE.
+
+43t
+
+§ XIII. Méthode de Fermat pour la résolution de l'équation \( y^{2} = a + bx + cx^{2} + dx^{3} + ex^{4} \) en nombres rationnels.
+
+(433) AYANT été conduits à traiter fort au long de la résolution des équations indéterminées, nous devons faire mention d'une méthode indiquée par Fermat pour résoudre en membres rationnels l'équation \( y^{a} = a + bx + cx^{a} + dx^{3} + ex^{4} \), dont le second membre est un poly-nome rationnel où la variable ne passe pas le quatrième degré: Voici les cas principaux dans lesquels la résolution est possible.
+
+1°. Si le nombre \(a\) est égal à un quarré positif \(f^{x}\), les valeurs \(x = \sigma\), \(y = f\) donneront immédiatement une solution de l'équation proposée. Pour avoir une autre solution, on supposera \(a + bx + ex^{x} + dx^{x} + ex^{4} = (f + gx + hx^{a})^{2}\), ce qui donnera, en développant et ordonnant,
+
+\[
+\begin{array}{l} 0 = f ^ {a} + 2 f g x + 2 f h x ^ {a} + 2 g h x ^ {a} + h ^ {a} x ^ {a} \\ - a - b + g ^ {a} - d - e \\ - c \\ \end{array}
+\]
+
+Or on a déjà \( f^{a} = a \); si pour faire disparaître les deux termes suivans, on fait \( 2fg - b = 0 \), \( 2fh + g^{a} - c = 0 \), on en tirera les valeurs des coefficiens \( g \) et \( h \), lesquelles seront \( g = \frac{b}{2f} \), \( h = \frac{c - g^{a}}{2f} \). Alors l'équation étant réduite aux seuls termes qui contiennent \( x^{3} \) et \( x^{4} \), il en résultera une valeur rationnelle de \( x \), savoir \( x = \frac{2gh - d}{e - h^{a}} \). Cette valeur donnera donc une nouvelle solution en nombres rationnels de l'équation proposée; si toutefois on n'a pas \( 2gh = d \), ni \( c = k \).
+
+La nouvelle solution étant désignée par \( x = m \), si l'on fait généralement \( x = m + x' \), et qu'on substitue cette valeur dans l'équation proposée, le second membre deviendra de la forme \( a'' + b'x + c'x'' + d''x'^3 + e'x'^4 \), dans laquelle \( a' \) sera encore un quarré positif. On procédera donc de la même manière pour trouver une nouvelle valeur de \( x' \) et ainsi à l'infini. D'où l'on voit qu'une première valeur connue de \( x \) suffit pour en faire trouver une infinité d'autres, sauf quelques cas, par-
 
 ## PDF page 456
 
@@ -17217,42 +17060,38 @@ lower wind of franches lead it was four of a stamper as from
 
 ## PDF page 462
 
-THEORIE DES NOMBRES.
-438 ·
-quantité qui se réduit à nA' (n° 437), et par conséquent est un mul-
-tiple de <math>n</math>.
-Il est bien à remarquer que ce théorème a lieu, quel que soit le
-nombre des racines <math>r</math>, <math>s</math>, <math>t</math>, etc. qui entrent dans la fonction <math>\varphi</math>.
-(439) Théorème. « Si le polynome <math>Z = x^{m} + Ax^{m-1} + Bx^{m-2} + Ax^{m-1} + Bx^{m-2} + Bx^{m-2} + Bx^{m-2} + Bx^{m-2} + Bx^{m-2} + Bx^{m-2} + Bx^{m-2} + Bx^{m-2} + Bx^{m-2} + Bx^{m-2} + Bx^{m-2} + Bx^{m-2} + Bx^{m-2} +</math>
-» <math>Cx^{n-3}</math> + etc., dans lequel les coefficiens <math>A</math>, <math>B</math>, <math>C</math>, etc. sont entiers,
-» est divisible par le polynome <math>P = x^{n-1} + bx^{n-2} + \text{etc.}</math>, dont
-» tous les coefficiens a, b, c, etc. sont rationnels; je dis que ces der-
-» niers doivent aussi être des nombres entiers. »
-Car après avoir réduit tous les termes de <math>P</math>, excepté le premier <math>x^*</math>, à
-un même dénominateur, soit ce dénominateur <math>= \alpha^{\mu} \Delta</math>, <math>\alpha^{\mu}</math> étant la
-plus haute puissance de l'un des nombres premiers qui en sont divi-
-seurs; on pourra supposer (nº 14),
-<math display="block">P = P' + \frac{P''}{a^{\mu}} + \frac{P''}{\Delta},</math>
-<math>P'</math>, <math>P''</math>, <math>P'''</math> étant des polynomes en <math>x</math> dont tous les coefficiens sont
-entiers, le premier du degré <math>n</math> commençant par <math>x^n</math>, les deux autres
-du degré <math>n-1</math> au plus. Si on appelle Q le quotient de <math>Z</math> divisé par <math>P</math>,
-on pourra faire semblablement
-<math display="block">Q = Q' + \frac{Q''}{a'} + \frac{Q^a}{\Delta}.</math>
-Cela posé, le produit PQ devant se réduire à un polynome dont tous
-les coefficiens sont entiers, il faudra que le terme <math>\frac{P^{\mu}Q^{\nu}}{r^{\mu}+r}</math> disparaisse de
-lui-même, puisque les autres n'offrent dans leurs dénominateurs que
-des puissances moins élevées de a. Donc l'une au moins des quantités
-<math>P''</math> et <math>Q''</math> est nulle : ce ne peut être <math>P''</math>, puisque <math>P</math> contient <math>\alpha^{\mu}</math> dans ses
-dénominateurs; donc on a <math>Q'=0</math>, donc <math>\alpha</math> ne se trouve pas dans les
-dénominateurs de Q. Mais alors ayant d'une part <math>P = P' + \frac{P''}{\mu} + \frac{P''}{\Lambda}</math>,
-ylen of de more , tout out a faction.
-de l'autre <math>Q = Q' + \frac{Q''}{\Delta'}</math>, le produit <math>Q</math> contiendra la partie <math>\frac{P''Q'}{A''}</math>
-remise qui nturint
-<math>\frac{P''Q'''}{d''\Delta'}</math>, dont le dernier terme peut être changé en <math>\frac{fP''Q'''}{\Delta'} + \frac{gP''Q'''}{\Delta'}</math>, <math>f</math> et
-our les deseminaturs
-g étant des nombres entiers (n° 14). Or la puissance la plus élevée
-LI; some ho
-long minuter of trus per conficien foul des Monden entrens
+438
+
+THÉORIE DES NOMBRES.
+
+quantité qui se réduit à \(n\Delta'\) (n° 437), et par conséquent est un multiple de \(n\).
+
+Il est bien à remarquér que ce théorème a lieu, quel que soit le nombre des racines \(r, s, t\), etc. qui entrent dans la fonction \(\varphi\).
+
+(439) THÉORÈME. « Si le polynome \( Z = x^{m} + Ax^{m-1} + Bx^{m-2} + Cx^{m-3} + \) etc., dans lequel les coefficients \( A, B, C \), etc. sont entiers, » est divisible par le polynome \( P = x^{n} + ax^{n-1} + bx^{n-2} + \) etc., dont » tous les coefficients \( a, b, c \), etc. sont rationnels; je dis que ces derniers doivent aussi être des nombres entiers. »
+
+Car après avoir réduit tous les termes de \(P\), excepté le premier \(x^{n}\), à un même dénominateur, soit ce dénominateur \(= a^{\mu} \Delta\), \(a^{\mu}\) étant la plus haute puissance de l'un des nombres premiers qui en sont diviseurs; on pourra supposer (n° 14),
+
+\[
+\dot {P} = \dot {P ^ {\prime}} + \frac {P ^ {\prime \prime}}{a ^ {\mu}} + \frac {P ^ {\prime \prime \prime}}{\Delta},
+\]
+
+\( P', P', P'' \) étant des polynomes en \( x \) dont tous les coefficiens sont entiers, le premier du degré \( n \) commençant par \( x^n \), les deux autres du degré \( n - 1 \) au plus: Si on appelle \( Q \) le quotient de \( Z \) divisé par \( P \), on pourra faire semblablement
+
+\[
+Q = Q ^ {\prime} + \frac {Q ^ {\prime \prime}}{\alpha^ {\prime}} + \frac {Q ^ {\prime \prime \prime}}{\Delta}.
+\]
+
+Cela posé, le produit PQ devant se réduire à un polynome dont tous les coefficients sont entiers, il faudra que le terme \(\frac{P''Q''}{\alpha^{\mu}+\gamma}\) disparaisse de lui-même, puisque les autres n'offrent dans leurs dénominateurs que des puissances moins élevées de \(a\). Donc l'une au moins des quantités \(P''\) et \(Q''\) est nulle: ce ne peut être \(P''\), puisque \(P\) contient \(\alpha^{\mu}\) dans ses dénominateurs; donc on a \(Q''=0\), donc \(a\) ne se trouve pas dans les dénominateurs de \(Q\). Mais alors ayant d'une part \(P'=P'+\frac{P''}{\alpha^{\mu}}+\frac{P''}{\Delta}\), de l'autre \(Q'=Q'+\frac{Q''}{\Delta'}\), le produit \(PQ\) contiendra la partie \(\frac{P''Q'}{\alpha^{\mu}}+\frac{P''Q''}{\alpha^{\mu}\Delta'}\), dont le dernier terme peut être changé en \(\frac{fP''Q''}{\alpha^{\mu}}+\frac{gP''Q''}{\Delta!}\), \(f\) et \(g\) étant des nombres entiers (n° 14). Or la puissance la plus élevée
+
+zden et de mone
+toutant fauturi
+resonir qui interint
+aus le dénominate du
+« I ; done le
+
+tionation Paris annon
+lemonialisation of transitions of officium and den Neubau enchets
 
 ## PDF page 463
 
@@ -17329,53 +17168,35 @@ tion X=0 ne peut se faire qu'en décomposant X en facteurs irration-
 ## PDF page 465
 
 CINQUIÈME PARTIE.
-441
-nels. Or la théorie que nous allons exposer, d'après M. Gauss, a pour
-but de démontrer cette proposition très-générale :
-« Ayant décomposé <math>n-1</math> en facteurs premiers <math>a</math>, <math>b</math>, <math>c</math>, etc., de
-» sorte qu'on ait <math>n-1=a^ab^bc^{\gamma}</math>, etc., je dis que la résolution de l'é-
-» quation <math>X=0</math>, ou, ce qui revient au même, celle de <math>x^*-1=0</math>,
-» pourra toujours se réduire à la résolution de plusieurs équations de
-» degré inférieur, savoir: a équations du degré a, 6 du degré b, y du
-» degré c, et ainsi de suite. »
-Par exemple, si l'on a <math>n = 73</math>, ce qui donne <math>n - 1 = 2^3 \cdot 3^4</math>, la réso-
-lution de l'équation <math>x^{13} - 1 = 0</math> s'effectuera moyennant trois équations
-du second degré et deux du troisième.
-Si l'on a <math>n = 17</math>, ce qui donne <math>n - 1 = 2^4</math>, la résolution de l'équa-
-tion <math>x^{17} - 1 = 0</math> se réduira à celle de quatre équations du second de-
-gré. On peut donc diviser géométriquement la circonférence en dix-sept
-parties égales, ce qu'on était loin de regarder comme possible avant la
-démonstration de M. Gauss.
-En général, si le nombre premier <math>n</math> est de la forme <math>2^n + 1</math>, on pourra
-réduire la résolution de l'équation <math>x^n-1=0</math> à celle de m équations
-du second degré; il ne faudra même que m—i de ces équations, s'il
-s'agit de la division du cercle en n parties égales.
-Observons que 2"+1 ne pourrait être un nombre premier, si m était
-impair ou qu'il eût seulement un diviseur impair, car 2ºk+1+1 a pour
-facteur 3, et 2 + 1 a pour facteur 2 + 1, si 6 est impair. Donc 2 + 1
-14,3
-ne pourra être premier que lorsque m sera une puissance de 2, et ce-
-pendant il ne sera pas premier toutes les fois que m sera une puissance
-<u>                                     </u>
-de 2; car il y a exception lorsque <math>m=2^5=32</math>.
 
-Après les cas de <math>m=1</math>, 2, 4, qui sont déjà connus, si l'on prend
-371 20
-celui de <math>m=8</math>, il en résulte <math>n=2^{\circ}+1=257</math>, qui est un nombre
-premier. Donc on peut diviser géométriquement la circonférence en
-257 parties égales, ce qui se fera au moyen de sept équations du second
-degré.
-La division géométrique peut se faire aussi en 255 et 256 parties, puis-
-que 255 = 3.5.17 et 256 = 2°; de sorte que les trois nombres consé-
-cutifs 255, 256, 257, ont la propriété de diviser géométriquement la cir-
-conférence. Dans les nombres inférieurs, il faudrait descendre jusqu'à
-15, 16, 17, pour rencontrer une semblable propriété.
-Et parce que 216+1=65537 est aussi un nombre premier, si on re-
-marque que <math>2^{16}-1=(2^{6}-1).(2^{6}+1)=255.257</math>, on verra que les
+441
+
+nels. Or la théorie que nous allons exposer, d'après M. Gauss, a pour but de démontrer cette proposition très-générale :
+
+« Ayant décomposé \(n-1\) en facteurs premiers \(a, b, c\), etc., de
+» sorte qu'on ait \(n-1=a^{a}b^{c}c^{y}\), etc., je dis que la résolution de l'é-
+» quation \(X=0\), ou, ce qui revient au même, celle de \(x^{n}-1=0\),
+» pourra toujours se réduire à la résolution de plusieurs équations de
+» degré inférieur, savoir: \(a\) équations du degré \(a, c\) du degré \(b, y\) du
+» degré \(c\), et ainsi de suite.»
+
+Par exemple, si l'on a \(n=73\), ce qui donne \(n-1=2^{3}.3^{2}\), la résolution de l'équation \(x^{73}-1=0\) s'effectuera moyennant trois équations du second degré et deux du troisième.
+
+Si l'on a \(n=17\), ce qui donne \(n-1=2^{4}\), la résolution de l'équation \(x^{17}-1=0\) se réduira à celle de quatre équations du second degré. On peut donc diviser géométriquement la circonférence en dix-sept parties égales, ce qu'on était loin de regarder comme possible avant la démonstration de M. Gauss.
+
+En général, si le nombre premier \(n\) est de la forme \(2^{m}+1\), on pourra réduire la résolution de l'équation \(x^{n}-1=0\) à celle de \(m\) équations du second degré; il ne faudra même que \(m-1\) de ces équations, s'il s'agit de la division du cercle en \(n\) parties égales.
+
+Observons que \( 2^{m} + 1 \) ne pourrait être un nombre premier, si \( m \) était impair ou qu'il eût seulement un diviseur impair, car \( 2^{ak+1} + 1 \) a pour facteur 3, et \( 2^{ac} + 1 \) a pour facteur \( 2^{a} + 1 \), si \( \mathcal{G} \) est impair. Donc \( 2^{m} + 1 \) ne pourra être premier que lorsque \( m \) sera une puissance de 2, et cependant il ne sera pas premier toutes les fois que \( m \) sera une puissance de 2; car il y a exception lorsque \( m = 2^{5} = 32 \).
+
+Après les cas de \(m=1, 2, 4\), qui sont déjà connus, si l'on prend celui de \(m=8\), il en résulte \(n=2^{8}+1=257\), qui est un nombre premier. Donc on peut diviser géométriquement la circonférence en 257 parties égales, ce qui se fera au moyen de sept équations du second degré.
+
+La division géométrique peut se faire aussi en 255 et 256 parties, puisque 255=3.5.17 et 256=2\( ^{8} \); de sorte que les trois nombres consécutifs 255, 256, 257, ont la propriété de diviser géométriquement la circonférence. Dans les nombres inférieurs, il faudrait descendre jusqu'à 15, 16, 17, pour rencontrer une semblable propriété.
+
+Et parce que \( 2^{16} + 1 = 65537 \) est aussi un nombre premier, si on remarque que \( 2^{16} - 1 = (2^8 - 1). (2^8 + 1) = 255.257 \), on verra que les
+
 56
-Sugar the surface of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the st
-the contract of the second second second second second second second second second second second second second
-where the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the stat
+
+1
 
 ## PDF page 466
 
@@ -17782,44 +17603,63 @@ il faudrait que le premier membre de cette équation est un commun diviseur sera
 
 ## PDF page 476
 
-THÉORIE DES NOMBRES.
 452
-ferons de plus <math>p = f(6, 1)</math>, <math>p' = f(6, 2)</math>, <math>p'' = f(6, 4)</math>, quantités qui s'ex-
-priment immédiatement par les racines, de cette manière:
-<math>p = (1) + (7) + (8) + (11) + (12) + (18)</math>
-<math>p' = (2) + (3) + (5) + (14) + (16) + (17)</math>
-<math>p'' = (4) + (6) + (9) + (10) + (13) + (15)</math>.
-Suivant le n° 453, on aura <math>pp = f(6, 2) + f(6, 8) + f(6, 9) + f(6, 12)</math>
-<math>+f(6, 13)+f(6, 19) = p'+p+p''+p+p''+6</math>. Donc
-<math>pp = 6 + 2p + p' + 2p''</math>
-Dans cette équation on peut changer <math>p</math> en <math>p'</math>, pourvu qu'on change en
-même temps <math>p'</math> en <math>p''</math> et <math>p''</math> en <math>p</math>; car cela revient à mettre <math>ga</math> à la place
-de <math>\alpha</math>' dans une fonction de <math>f(m, \alpha)</math>; on aura ainsi
-<math>p'p' = 6 + 2p' + p'' + 2p</math>
+
+THÉORIE DES NOMBRES.
+
+ferons de plus \(p=f(6,1)\), \(p'=f(6,2)\), \(p''=f(6,4)\), quantités qui s'expriment immédiatement par les racines, de cette manière:
+
+\[
+\begin{array}{l} p = (1) + (7) + (8) + (1 1) + (1 2) + (1 8) \\ p ^ {\prime} = (2) + (3) + (5) + (1 4) + (1 6) + (1 7) \\ p ^ {\prime \prime} = (4) + (6) + (9) + (1 0) + (1 3) + (1 5). \\ \end{array}
+\]
+
+Suivant le n° 453, on aura \( pp = f(6, 2) + f(6, 8) + f(6, 9) + f(6, 12) + f(6, 13) + f(6, 19) = p' + p + p'' + p + p'' + 6 \). Donc
+
+\[
+p p = 6 + 2 p + p ^ {\prime} + 2 p ^ {\prime \prime}.
+\]
+
+Dans cette équation on peut changer \(p\) en \(p'\), pourvu qu'on change en même temps \(p'\) en \(p''\) et \(p''\) en \(p\); car cela revient à mettre \(g\alpha\) à la place de \(a\)' dans une fonction de \(f(m, \alpha)\); on aura ainsi
+
+\[
+p ^ {\prime} p ^ {\prime} = 6 + 2 p ^ {\prime} + p ^ {\prime \prime} + 2 p,
+\]
+
 et semblablement
-<math>p''p'' = 6 + 2p'' + p + 2p'</math>
-Le théorème cité donnera encore <math>pp' = f(6, 3) + f(6, 9) + f(6, 10)</math>
-<math>+f(6, 13) + f(6, 14) + f(6, 20)</math>, ou
-<math display="block">pp' = p + 2p' + 3p'';</math>
+
+\[
+p ^ {\prime \prime} p ^ {\prime \prime} = 6 + 2 p ^ {\prime \prime} + p + 2 p ^ {\prime}.
+\]
+
+Le théorème cité donnera encore \( pp' = f(6, 3) + f(6, 9) + f(6, 10) + f(6, 13) + f(6, 14) + f(6, 20) \), ou
+
+\[
+p p ^ {\prime} = p + 2 p ^ {\prime} + 3 p ^ {\prime \prime};
+\]
+
 d'où l'on déduit
-<math>p'p'' = p' + 2p'' + 3p</math>
-<math>p''p = p'' + 2p + 3p'</math>.
-Ces produits suffisent pour trouver tous les autres: on aurait, par exemple,
-<math>p^3 = 6p + 2p^2 + pp' + 2p''p = 12 + 15p + 10p' + 9p''</math>, et de là se dé-
-duiraient les valeurs de <math>p'^3</math> et <math>p''^3</math>.
-Maintenant si on veut déterminer <math>p'</math> et <math>p'</math> par le moyen de <math>p</math>, il fau-
-dra résoudre les deux équations
-<math display="block">0 = 1 + p + p' + p''</math>
-<math>p' = 6 + 2p + p' + 2p'';</math>
+
+\[
+\begin{array}{l} p ^ {\prime} p ^ {\prime \prime} = p ^ {\prime} + 2 p ^ {\prime \prime} + 3 p \\ p ^ {\prime \prime} p = p ^ {\prime \prime} + 2 p + 3 p ^ {\prime}. \\ \end{array}
+\]
+
+Ces produits suffisent pour trouver tous les autres: on aurait, par exemple, \( p^3 = 6p + 2p^a + pp' + 2p''p = 12 + 15p + 10p' + .9p'' \), et de là se déduiraient les valeurs de \( p'^3 \) et \( p''^3 \).
+
+Maintenant si on veut déterminer \(p'\) et \(p''\) par le moyen de \(p\), il faudra résoudre les deux équations
+
+\[
+\begin{array}{l} \mathrm{o} = \mathrm{i} + p + p ^ {\prime} + p ^ {\prime \prime} \\ p ^ {2} = 6 + 2 p + p ^ {\prime} + 2 p ^ {\prime \prime}; \\ \end{array}
+\]
+
 d'où l'on déduira
-<math display="block">p'=4-p^{2}</math>
-State of the State of the State of the State of the State of the State of the State of the State of the State of the State of the State of the State of the State of the State of the State of the State of the State of the S
-<math display="block">p'=p'-p-5,</math>
-S. S. X . A. . . . . . . . . . . . . . . . .
+
+\[
+\begin{array}{l} p ^ {\prime} = 4 - p ^ {2} \\ p ^ {\prime \prime} = p ^ {2} - p - 5, \\ \end{array}
+\]
+
 valeurs rationnelles et même entières.
-Arriva Sugar
-Si on substitue ces valeurs dans l'expression de <math>p^3</math>, on aura....
-<math>p^3 = 7 + 6p - p^2</math>; d'où l'on voit que les trois quantités <math>p, p', p''</math>,
+
+Si on substitue ces valeurs dans l'expression de \(p^{3}\), on aura... \(p^{3}=7+6p-p^{*}\); d'où l'on voit que les trois quantités \(p, p', p''\),
 
 ## PDF page 477
 
@@ -17944,37 +17784,41 @@ on aura
 
 ## PDF page 480
 
-THÉORIE DES NOMBRES.
 456
-d'où résulte <math>P'=3+p+p''</math>, <math>P''=2+2p+p'</math>, <math>P''=P'</math> on trouverait de
-même <math>P^{\mathsf{T}} = P</math> et <math>P^{\mathsf{T}} = 1</math>. En effet les racines comprises dans <math>(6, 1)</math>
-étant <math>r^1</math>, <math>r^2</math>, <math>r^8</math>, <math>r^{11}</math>, <math>r^{12}</math>, <math>r^{13}</math>, si on met <math>r^{-1}</math> à la place de <math>r</math>, et qu'on les mul-
-tiplie par <math>r^{19} = 1</math>, elles deviennent <math>r^{18}</math>, <math>r^{13}</math>, <math>r^{11}</math>, <math>r^{2}</math>, <math>r^{7}</math>, <math>r^{7}</math>; c'est-à-dire
-qu'elles sont toujours les mêmes; d'où il suit que l'équation en x ne
-doit pas changer en mettant <math>\frac{1}{x}</math> à la place de x.
-(461) La même propriété aura lieu en général toutes les fois que m
-sera pair. Car les racines comprises dans <math>(m, \alpha)</math> étant <math>r^{\alpha}</math>, <math>r^{\alpha h}</math>, <math>r^{\alpha h}</math>, etc.,
-si on change <math>r</math> en <math>r^{-1}</math>, elles deviennent
-<math>r</math> <math>r</math> <math>r</math> <math>r</math> <math>r</math> <math>r</math> <math>r</math> <math>r</math> <math>r</math> <math>r</math> 
-Mais la racine primitive <math>g</math> est toujours telle qu'on a <math>g^{\frac{n}{2}} = -1</math>; donc
-si m est pair et qu'on fasse <math>m=2\mu</math>, on aura <math>g^{\mu k}=-1</math>, ou <math>h^{\mu}=-1</math>.
-La suite précédente pourra donc s'écrire ainsi :
-<math>r^{ah}</math>, <math>r^{ah}</math>, <math>r^{ah}</math>, <math>r^{ah}</math>, etc.;
-c'est-à-dire qu'elle contient les racines <math>(ah^{\mu})</math>, <math>(ah^{\mu+1})</math>, <math>(ah^{\mu+2})</math>, etc.,
-lesquelles ne diffèrent que par l'ordre des termes, de la suite (a), (ah),
-<math>(\alpha h^{*})</math>, etc.
-Lorsque m sera impair on ne pourra plus mettre <math>\frac{1}{x}</math> à la place de <math>x</math>,
-c'est-à-dire que les coefficiens de deux termes également éloignés des
-extrêmes ne seront plus égaux; mais l'un se déduira aisément de l'autre.
-Soit l'équation dont il s'agit
-<math>x^{m}-Px^{m-1}+P'x^{m-2}-P'x^{m-3}...+Q'x^{3}-Q'x^{4}+Qx-1=0</math>:
-ie dis que Q se déduira de P, Q' de P', Q' de P', etc., en changeant
-simplement chaque quantité <math>f(m, 6)</math> qui y est contenue, en sa complé-
-mentaire <math>f(m, n-6)</math>.
-En effet par le changement de <math>r</math> en <math>r^{-1}</math>, ou de <math>x</math> en <math>x^{-1}</math>, les racines
-<math>r^{\alpha}</math>, <math>r^{ah}</math>, <math>r^{ah^{\alpha}}</math>, etc. deviennent toujours <math>r^{-\alpha}</math>, <math>r^{-ah}</math>, <math>r^{-ah^{\alpha}}</math>, etc.; et à cause de <math>r^{\alpha} = 1</math>, celles-ci pouvant être mises sous la forme
-pewent
-<math>r^{n-a}</math>, <math>r^{(n-a)h}</math>, <math>r^{(n-a)h^2}</math>, etc.,
+
+THÉORIE DES NOMBRES.
+
+d'où résulte \( P' = 3 + p + p'' \), \( P'' = 2 + 2p + p' \), \( P'' = P' \) on trouverait de même \( P^{1v} = P \) et \( P' = 1 \). En effet les racines comprises dans (6, 1) étant \( r^1, r^2, r^3, r^{11}, r^{12}, r^{13} \), si on met \( r^{-1} \) à la place de \( r \), et qu'on les multiplie par \( r^{19} = 1 \), elles deviennent \( r^{18}, r^{19}, r^{11}, r^3, r^7, r^1 \); c'est-à-dire qu'elles sont toujours les mêmes; d'où il suit que l'équation en \( x \) ne doit pas changer en mettant \( \frac{1}{x} \) à la place de \( x \).
+
+(461) La même propriété aura lieu en général toutes les fois que \(m\) sera pair. Car les racines comprises dans \((m, \alpha)\) étant \(r^{\alpha}, r^{ah}, r^{ah^{\alpha}}\), etc., si on change \(r\) en \(r^{-1}\), elles deviennent
+
+\[
+r ^ {- \alpha}, r ^ {- \alpha h}, r ^ {- \alpha h ^ {\alpha}} \dots r ^ {- \alpha h ^ {m - 1}}.
+\]
+
+Mais la racine primitive \(g\) est toujours telle qu'on a \(g^{\frac{n-1}{2}}=-1\); donc si \(m\) est pair et qu'on fasse \(m=2\mu\), on aura \(g^{\mu k}=-1\), ou \(h^{\mu}=-1\). La suite précédente pourra donc s'écrire ainsi :
+
+\[
+r ^ {a h ^ {\mu}}, \quad r ^ {a h ^ {\mu + 1}}, \quad r ^ {a h ^ {\mu + 2}}, \quad \text {etc.};
+\]
+
+c'est-à-dire qu'elle contient les racines \((\alpha h^{\mu}), (\alpha h^{\mu+1}), (\alpha h^{\mu+2}), \text{etc.}\), lesquelles ne diffèrent que par l'ordre des termes, de la suite \((\alpha), (\alpha h), (\alpha h^{\alpha}), \text{etc.}\)
+
+Lorsque \(m\) sera impair on ne pourra plus mettre \(\frac{1}{x}\) à la place de \(x\), c'est-à-dire que les coefficiens de deux termes également éloignés des extrêmes ne seront plus égaux; mais l'un se déduira aisément de l'autre. Soit l'équation dont il s'agit
+
+\[
+x ^ {m} - P x ^ {m - 1} + P ^ {\prime} x ^ {m - 2} - P ^ {\prime \prime} x ^ {m - 3} \dots + Q ^ {\prime \prime} x ^ {3} - Q ^ {\prime} x ^ {2} + Q x - 1 = 0;
+\]
+
+je dis que \(Q\) se déduira de \(P\), \(Q'\) de \(P'\), \(Q''\) de \(P''\), etc., en changeant simplement chaque quantité \(\int(m, \mathcal{G})\) qui y est contenue, en sa complémentaire \(\int(m, n-\mathcal{G})\).
+
+En effet par le changement de \(r\) en \(r^{-1}\), ou de \(x\) en \(x^{-1}\), les racines \(r^{a}, r^{ah}, r^{ah^{a}}\), etc. deviennent toujours \(r^{-a}, r^{-ah}, r^{-ah^{a}}\), etc.; et à cause de \(r^{a}=1\), celles-ci pouvent être mises sous la forme
+
+\[
+r ^ {n - \alpha}, \quad r ^ {(n - \alpha) h}, \quad r ^ {(n - \alpha) h ^ {2}}, \quad \text {etc.},
+\]
+
+|gewert
 
 ## PDF page 481
 
@@ -18662,41 +18506,43 @@ It d'équation analogue-pour le degre pr=2m+1 est en gonéral
 
 ## PDF page 498
 
-THÉORIE DES NOMBRES.
 474
-rationnelle et entière des quantités a, b, c, d, e, à la forme linéaire
-<math>A + Ba + Cb + Dc + Ed + Fe</math>, où l'on pourra même faire dispa-
-raitre un terme à volonté, au moyen de l'équation <math>o = 1 + a + b + c</math>
-<math>+d+e</math>.
-(485) Nous allons faire voir maintenant que l'équation (a), quoique
-pourvue de tous ses termes, peut être résolue à l'aide d'une équation
-à deux termes <math>V = V</math>, dans laquelle <math>V</math> est une quantité connue de la <math>M + N V - 1</math>.
-Soit R l'une des racines imaginaires de l'équation <math>R^5 - 1 = 0</math>, les
-cinq racines de cette équation seront 1, R, R<sup>2</sup>, R<sup>3</sup>, R<sup>4</sup>, et leur somme
-étant zéro, on aura
-<math>0 = 1 + R + R^2 + R^3 + R^6</math>
-Les racines de la même équation seraient également 1, Re, Re, Re, Re;
-et en général, 1, Rm, Rm, Rm, Rm, Rm, pourvu que m ne soit pas divisible
-par /, de sorte qu'on aura aussi
-<math>0 = 1 + R^m + R^{am} + R^{3m} + R^{4m}</math>.
+
+THÉORIE DES NOMBRES.
+
+rationnelle et entière des quantités \(a, b, c, d, e\), à la forme linéaire \(A + Ba + Cb + Dc + Ed + Fe\), où l'on pourra même faire disparaître un terme à volonté, au moyen de l'équation \(o = 1 + a + b + c + d + e\).
+
+T forme
+
+(485) Nous allons faire voir maintenant que l'équation (a), quoique pourvue de tous ses termes, peut être résolue à l'aide d'une équation à deux termes \( \mathfrak{X}^5 = V \), dans laquelle \( V \) est une quantité connue de la \( M + N \vee -1 \).
+
+Soit \( R \) l'une des racines imaginaires de l'équation \( R^5 - 1 = 0 \), les cinq racines de cette équation seront \( 1, R, R^2, R^3, R^4 \), et leur somme étant zéro, on aura
+
+\[
+o = 1 + R + R ^ {2} + R ^ {3} + R ^ {4}.
+\]
+
+Les racines de la même équation seraient également 1, \( R^{a} \), \( R^{4} \), \( R^{6} \), \( R^{8} \); et en général, 1, \( R^{m} \), \( R^{sm} \), \( R^{3m} \), \( R^{4m} \), pourvu que m ne soit pas divisible par n, de sorte qu'on aura aussi
+
+\[
+\mathrm{o} = \mathrm{i} + R ^ {m} + R ^ {2 m} + R ^ {3 m} + R ^ {4 m}.
+\]
+
 Soit maintenant
-<math display="block">T = a + bR + cR^2 + dR^3 + eR^4,</math>
-et imaginons qu'on élève ce polynome à la cinquième puissance; puis-
-qu'on a <math>R^5 = 1</math>, cette puissance pourra se réduire à la forme :
-<math display="block">T^3 = A + BR + CR^2 + DR^3 + ER^4.</math>
-où les coefficiens A, B, C, D, E ne contiendront que les racines a, b,
-e, d, e, et ne les contiendront, si l'on veut, que sous la forme linéaire.
-Si l'on observe de plus qu'en faisant <math>T'=b+cR+dR^2+eR^3+aR^4</math>,
-on a <math>T = T'R</math>, et ainsi <math>T^5 = T'^5R^5 = T'^5</math>, il s'ensuit que dans la
-valeur développée de T5, on peut avancer chaque lettre d'un rang, en
-écrivant b au lieu de a, c au lieu de b, etc. Donc l'un des coefficiens
-A, B, C, D, E, dans <math>T^5</math>, étant désigné par <math>a+\ell a+\gamma b+\delta c+\epsilon d+\ell e</math>,
-cette valeur doit être la même que <math>a + \epsilon b + \gamma c + \delta d + \epsilon e + \zeta a</math>. Donc
-<math>6 = \gamma = \delta = \epsilon = \zeta</math>, et le coefficient dont il s'agit <math>= \alpha + \delta(a+b+c+d+e)</math>
-=a-6, c'est-à-dire qu'il se réduit à un nombre entier indépendant
-des racines a, b, c, d, e. C'est ce que le calcul suivant va confirmer.
-And the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the seco
-٠.
+
+\[
+T = a + b R + c R ^ {3} + d R ^ {3} + e R ^ {4},
+\]
+
+et imaginons qu'on élève ce polynome à la cinquième puissance ; puisqu'on a \(R^{5}=1\), cette puissance pourra se réduire à la forme :
+
+\[
+\boldsymbol {T} ^ {5} = A + B R + C R ^ {3} + D R ^ {3} + E R ^ {4},
+\]
+
+où les coefficiens \(A, B, C, D, E\) ne contiendront que les racines \(a, b, e, d, e\), et ne les contiendront, si l'on veut, que sous la forme linéaire.
+
+Si l'on observe de plus qu'en faisant \( T' = b + cR + dR^2 + eR^3 + aR^4 \), on a \( T = T'R \), et ainsi \( T^5 = T'^5R^5 = T'^5 \), il s'ensuit que dans la valeur développée de \( T^5 \), on peut avancer chaque lettre d'un rang, en écrivant \( b \) au lieu de \( a \), \( c \) au lieu de \( b \), etc. Donc l'un des coefficiens \( A, B, C, D, E \), dans \( T^5 \), étant désigné par \( a + \zeta a + \gamma b + \delta c + \epsilon d + \zeta e \), cette valeur doit être la même que \( a + \zeta b + \gamma c + \delta d + \epsilon e + \zeta a \). Donc \( \zeta = \gamma = \delta = \epsilon = \zeta \), et le coefficient dont il s'agit \( = a + \zeta (a + b + c + d + e) = a - \zeta \), c'est-à-dire qu'il se réduit à un nombre entier indépendant des racines \( a, b, c, d, e \). C'est ce que le calcul suivant va confirmer.
 
 ## PDF page 499
 
@@ -20750,62 +20596,8 @@ r + 86u |
 ## PDF page 526
 
 TABLE VIII.
-VALEURS
-DIVISEURS QUADRATIQUES TRINAIRES.
-FORMULE.
-TRINAIRES DE C
-<math display="block">2y^{2}+2yz+29z^{2} = \begin{cases} (y+4z)^{2}+(y-5z)^{2}+4z^{2}\\ (y+5z)^{2}+(y-2z)^{2}+16z^{2} \end{cases}</math>
-<math>49 + 4 + 4</math>
-<math>25 + 16 + 16</math>
-t°+57u°
-t2+58u2
-<math>y^2 + 58z^2 = y^2 + 49z^2 + 9z^2</math>
-49+ 9
-<math>t^2 + 59u^2</math> <math>\begin{vmatrix} 2y^2 + 2yz + 50z^2 = (y + 2z)^2 + (y - z)^2 + 25z^2 \\ 6y^2 + 2yz + 10z^2 = (y + 5z)^2 + (2y - z)^2 + y^2 \end{vmatrix}</math>
-25+25+ 9<br>49+ 9+ 1
-36+25
-<math>y^2+61z^2 = y^2+36z^2+25z^2</math><br>
-<math>5y^2+4yz+15z^2 = 4y^2+(y+2z)^2+9z^2</math>
-t2+61u2
-36+16+9
-<math display="block">t^{2}+62u^{2} = \begin{cases} 5y^{2}+2yz+21z^{2} = (y-2z)^{2}+(y+4z)^{2}+(y-z)^{2} \\ 6y^{2}+4yz+11z^{2} = (y+z)^{2}+(y+5z)^{2}+(2y-z)^{2} \end{cases}</math>
-36+25+ 1<br>49+ 9+ 4
-64+ 1
-<math display="block">y^{2}+65z^{2}=\begin{cases} y^{2}+64z^{2}+z^{2} & 64+1\\ y^{2}+49z^{2}+16z^{2} & 49+16 \end{cases}</math>
-<math display="block">9y^{2}+8yz+9z^{2}=\begin{cases} (2y-z)^{2}+(2y+2z)^{2}+(y+2z)^{2}\\ (y-2z)^{2}+(2y+2z)^{2}+(2y+z)^{2} & 56+25+4 \end{cases}</math>
-13+65u3
-<math>2y^3+35z^3=\{(y+4z)^3+(y-4z)^3+</math>
-64+ 1+ 1
-25+25+16
-<math>(y+2z)^2+(y-2z)^2+25z^2</math>
-t*+-66u*
-<math>6y^3+11z^3=\{(2y+z)^3+(y-3z)^3+(y+z)^3 | 49+16+1</math>
-<math>(2y-z)^2+(y+3z)^2+(y-z)^2</math>
-49+16+ 1
-<math>2y^2+2yz+34z^2=(y+4z)^2+(y-5z)^2+9z^2</math>
-t3+67u3
-49+9+9
-<math display="block">5y^{2}+2yz+14z^{2}=\begin{cases} (2y+2z)^{2}+(y-5z)^{2}+z^{2}\\ (2y-z)^{2}+(y+5z)^{2}+4z^{2} \end{cases}</math>
-64+ 4+ I
-t*+69u*
-49+16+4
-36+25+9
-<math display="block">5y^3 + 14z^3 = \begin{cases} (2y + z)^2 + (y - 2z)^3 + 9z^4 \\ (2y - z)^3 + (y + 2z)^4 + 9z^4 \end{cases}</math>
-t'+70u'
-36+25+9
-<math>y^3 + 73z^2 = y^3 + 64z + 9z^3</math>
-64+ 9<br>36+36+ 1
-t'+73u'
-<math>2y^2+2yz+37z^2=(y+z)^2+y^2+36z^2</math>
-<math>y^3 + 74z^2 = y^3 + 49z^3 + 25z^3</math>
-49+25
-49+16+9
-<math>3y^2+2yz+25z^2=(y-3z)^2+y^2+(y+4z)^2</math>
-t*+74u*
-<math>9r^2 + 8yz + 10z^2 = (2r + 3z)^2 + (2r - z)^2 + r^2</math>
-64+ 9+ I
-<math display="block">t^{2}+75u^{2} = \begin{cases} (2y+3z)^{2}+(y-2z)^{2}+(y-z)^{2}+(y+2z)^{2}+(y+2z)^{2}+(y+2z)^{2}+(y+2z)^{2}+(y+2z)^{2}+(y+2z)^{2}+(y+2z)^{2}+(y+2z)^{2}+(y+2z)^{2}+(y+2z)^{2}+(y+2z)^{2}+(y+2z)^{2}+(y+2z)^{2}+(y+2z)^{2}+(y+2z)^{2}+(y+2</math>
-ţ.
+
+<table><tr><td>FORMULE.</td><td>DIVISEURS QUADRATIQUES TRINAIRES.</td><td>VALEURS TRINAIRES DE C.</td></tr><tr><td>\( t^{2}+57u^{2} \)</td><td>\( 2y^{2}+2yz+29z^{2}=\begin{cases}(y+4z)^{2}+(y-3z)^{2}+4z^{2}\\(y+3z)^{2}+(y-2z)^{2}+16z^{2}\end{cases} \)</td><td>49+4+425+16+16</td></tr><tr><td>\( t^{2}+58u^{2} \)</td><td>\( y^{2}+58z^{2}=y^{2}+49z^{2}+9z^{2} \)</td><td>49+9</td></tr><tr><td>\( t^{2}+59u^{2} \)</td><td>\( 2y^{2}+2yz+30z^{2}=(y+2z)^{2}+(y-z)^{2}+25z^{2} \)\( 6y^{2}+2yz+10z^{2}=(y+3z)^{2}+(2y-z)^{2}+y^{2} \)</td><td>25+25+949+9+1</td></tr><tr><td>\( t^{2}+61u^{2} \)</td><td>\( y^{2}+61z^{2}=y^{2}+36z^{2}+25z^{2} \)\( 5y^{2}+4yz+13z^{2}=4y^{2}+(y+2z)^{2}+9z^{2} \)</td><td>36+2536+16+9</td></tr><tr><td>\( t^{2}+62u^{2} \)</td><td>\( 3y^{2}+2yz+21z^{2}=(y-2z)^{2}+(y+4z)^{2}+(y-z)^{2} \)\( 6y^{2}+4yz+11z^{2}=(y+z)^{2}+(y+3z)^{2}+(2y-z)^{2} \)</td><td>36+25+149+9+4</td></tr><tr><td>\( t^{2}+65u^{2} \)</td><td>\( y^{2}+65z^{2}=\begin{cases}y^{2}+64z^{2}+z^{2}\\y^{2}+49z^{2}+16z^{2}\end{cases} \)\( 9y^{2}+8yz+9z^{2}=\begin{cases}(2y-z)^{2}+(2y+2z)^{2}+(y+2z)^{2}\\(y-2z)^{2}+(2y+2z)^{2}+(2y+z)^{2}\end{cases} \)</td><td>64+149+1636+25+436+25+4</td></tr><tr><td>\( t^{2}+66u^{2} \)</td><td>\( 2y^{2}+33z^{2}=\begin{cases}(y+4z)^{2}+(y-4z)^{2}+z^{2}\\(y+2z)^{2}+(y-2z)^{2}+25z^{2}\end{cases} \)\( 6y^{2}+11z^{2}=\begin{cases}(2y+z)^{2}+(y-3z)^{2}+(y+z)^{2}\\(2y-z)^{2}+(y+3z)^{2}+(y-z)^{2}\end{cases} \)</td><td>64+1+125+25+1649+16+149+16+1</td></tr><tr><td>\( t^{2}+67u^{2} \)</td><td>\( 2y^{2}+2yz+34z^{2}=(y+4z)^{2}+(y-3z)^{2}+9z^{2} \)</td><td>49+9+9</td></tr><tr><td>\( t^{2}+69u^{2} \)</td><td>\( 5y^{2}+2yz+14z^{2}=\begin{cases}(2y+2z)^{2}+(y-3z)^{2}+z^{2}\\(2y-z)^{2}+(y+3z)^{2}+4z^{2}\end{cases} \)</td><td>64+4+149+16+4</td></tr><tr><td>\( t^{2}+70u^{2} \)</td><td>\( 5y^{2}+14z^{2}=\begin{cases}(2y+z)^{2}+(y-2z)^{2}+9z^{2}\\(2y-z)^{2}+(y+2z)^{2}+9z^{2}\end{cases} \)</td><td>36+25+936+25+9</td></tr><tr><td>\( t^{2}+73u^{2} \)</td><td>\( y^{2}+73z^{2}=y^{2}+64z+9z^{2} \)\( 2y^{2}+2yz+37z^{2}=(y+z)^{2}+y^{2}+36z^{2} \)</td><td>64+936+36+1</td></tr><tr><td>\( t^{2}+74u^{2} \)</td><td>\( y^{2}+74z^{2}=y^{2}+49z^{2}+25z^{2} \)\( 3y^{2}+2yz+25z^{2}=(y-3z)^{2}+y^{2}+(y+4z)^{2} \)\( 9y^{2}+8yz+10z^{2}=(2y+3z)^{2}+(2y-z)^{2}+y^{2} \)</td><td>49+2549+16+964+9+1</td></tr><tr><td>\( t^{2}+75u^{2} \)</td><td>\( 6y^{2}+6yz+14z^{2}=\begin{cases}(2y+3z)^{2}+(y-2z)^{2}+(y-z)^{2}\\(2y-z)^{2}+(y+3z)^{2}+(y+2z)^{2}\end{cases} \)</td><td>49+25+149+25+1</td></tr></table>
 
 ## PDF page 527
 
@@ -21011,120 +20803,17 @@ t3+13122
 ## PDF page 530
 
 TABLE VIII.
-VALEURS
-FORMULE.
-DIVISEURS QUADRATIQUES TRINAIRES.
-8
-TRIN ARES DE C
-<math display="block">t^{2}+137t^{2} = y^{2}+121z^{2}+16z^{2}</math>
-<math display="block">2y^{2}+2yz+69z^{2}=(y+2z)^{2}+(y-z)^{2}+64z^{2}</math>
-<math display="block">9y^{2}+8yz+17z^{2}=(2y-2z)^{2}+(2y+3z)^{2}+(y+2z)^{2}</math>
-<math display="block">121+16</math>
-<math display="block">64+64+9</math>
-<math display="block">100+36+1</math>
-64+64+9
-<math display="block">t^{2}+158u^{2}+11y^{2}+8yz+14z^{2}=\left\{ \begin{array}{l} (3y+z)^{2}+(y-2z)^{4}+(y+5z)^{2} & 64+49+25 \\ (3y+2z)^{2}+(y-5z)^{2}+(y+z)^{2} & 121+16+1 \end{array} \right.</math>
-<math>t^{2}+159u^{2}</math> <math>t^{2}+2yz+70z^{2}=(y+6z)^{2}+(y-5z)^{2}+9z^{2}</math> <math>t^{2}+16z^{2}+16z^{2}=(5y+z)^{2}+(y-2z)^{2}+9z^{2}</math>
-121+9+9
-81+49+ 9
-121+16+ 4
-<math>t^3+141u^4</math> <math>5y^2+4yz+29z^3=\{(2y+5z)^2+(y-4z)^2+4z^2-(y+2z)^2+25z^2-(y+2z)^2+25z^2-(y+2z)^2+25z^2-(y+2z)^2+25z^2-(y+2z)^2+25z^2-(y+2z)^2+25z^2-(y+2z)^2+25z^2-(y+2z)^2+25z^2-(y+2z)^2+25z^2-(y+2z)^2+25z^2-(y+2z)^2+25z^2-(y</math>
-100+25+16
-<math>t^{2}+142u^{4}</math> <math>11y^{2}+2yz+13z^{2}=9y^{4}+(y-2z)^{4}+(y+3z)^{4}</math>
-81+36+25
-144+ 1
-<math display="block">y^{3}+145z^{2} = \begin{cases} y^{3}+144z^{3}+z^{3} \\ y^{3}+81z^{3}+64z^{2} \end{cases}</math>
-<math display="block">5y^{2}+29z^{3} = \begin{cases} (y+4z)^{3}+(2y-2z)^{2}+9z^{3} \\ (y-4z)^{3}+(2y+2z)^{3}+9z^{3} \end{cases}</math>
-81+64
-t°+145u°
-100+36+ 9
-100+36+ 9
-<math>y^2 + 146z^2 = y^2 + 121z^2 + 25z^2</math>
-121-25
-<math>2y^2 + 73z^2 = (y+6z)^2 + (y-6z)^2 + z^2</math>
-144+ 1+ 1
-<math>t^2+146u^2</math> <math>3y^2+2yz+49z^2=(y-3z)^2+(y-2z)^2+(y+6z)^2</math> <math>81+64+1</math>
-<math>6y^2 + 4yz + 25z^2 = y^2 + (2y + 3z)^2 + (y - 4z)^2</math>
-121+16+9
-<math>9y^2 + 8yz + 18z^2 = (2y + z)^2 + (2y - z)^2 + (y + 4z)^2</math>
-81+49+16
-<math display="block">t^{2}+147u^{2} = 6y^{2}+6yz+26z^{2} = \left\{ (y+z)^{2}+(y-4z)^{2}+(2y+5z)^{2} + (2y+5z)^{2} + (2y+5z)^{2} + (2y+5z)^{2} + (2y+5z)^{2} + (2y+5z)^{2} + (2y+5z)^{2} + (2y+5z)^{2} + (2y+5z)^{2} + (2y+5z)^{2} + (2y+5z)^{2} + (2y+</math>
-<math>y^2 + 149z^2 = y^2 + 100z^2 + 49z^2</math>
-100-1-49
-<math>5y^{2} + 2yz + 30z^{2} = (y + 5z)^{2} + (2y - 2z)^{2} + z^{2}</math>
-144+ 4+ 1
-t°+149u°
-<math>6y^2 + 2yz + 25z^2 = (y + 4z)^2 + (y - 3z)^2 + 4y^2</math>
-<math>64 + 49 + 36</math>
-<math>9y^2 + 4yz + 17z^2 = 4y^2 + (2y - z)^2 + (y + 4z)^2</math>
-81+64+ 4
-<math>t^2+150u^2</math> <math>11y^2+4yz+14z^2={(3y+2z)^2+(y-z)^2+(y-5z)^2+(y-5z)^2+(y+2z)^2+(y+2z)^2+(y+2z)^2+(y+2z)^2+(y+2z)^2+(y+2z)^2+(y+2z)^2+(y+2z)^2+(y+2z)^2+(y+2z)^2+(y+2z)^2+(y+2z)^2+(y+2z)^2+(y+2z)^2+(y+2z)^2+(y+2z)^2+(y+2z)^2+(</math>
-<math>(y+3z)^2+(y-2z)^2+64z^2</math>
-64+64+25
-2yz+77z°=
-<math>y+6z)^{3}+(y-5z)^{3}+16z^{4}</math>
-121+16+16
-t°+153u
-<math display="block">9^{y^2+17z^2} = \begin{cases} (2y+5z)^2 + (2y-2z)^2 + (y-2z)^2 & 100+49+4\\ (2y+2z)^2 + (2y-5z)^2 + (y+2z)^2 & 100+49+4 \end{cases}</math>
+
+<table><tr><td>FORMULE.</td><td>DIVISEURS QUADRATIQUES TRINAIRES.</td><td>VALEURSTRIN/ARES DE C</td></tr><tr><td>\( t^{2}+157u^{2} \)</td><td>\( y^{2}+157z^{2}= \)\( y^{2}+121z^{2}+16z^{2} \)\( 2y^{2}+2yz+69z^{2}=(y+2z)^{2}+(y-z)^{2}+64z^{2} \)\( 9y^{2}+8yz+17z^{2}=(2y-2z)^{2}+(2y+3z)^{2}+(y+2z)^{2} \)</td><td>121+1664+64+9100+36+1</td></tr><tr><td>\( t^{2}+158u^{2} \)</td><td>\( 11y^{2}+8yz+14z^{2}=\begin{cases}(3y+z)^{2}+(y-2z)^{2}+(y+5z)^{2} \\(3y+2z)^{2}+(y-3z)^{2}+(y+z)^{2} \end{cases} \)</td><td>64+49+25121+16+1</td></tr><tr><td>\( t^{2}+159u^{2} \)</td><td>\( 2y^{2}+2yz+70z^{2}=(y+6z)^{2}+(y-5z)^{2}+9z^{2} \)\( 10y^{2}+2yz+14z^{2}=(3y+z)^{2}+(y-2z)^{2}+9z^{2} \)</td><td>121+9+981+49+9</td></tr><tr><td>\( t^{2}+141u^{2} \)</td><td>\( 5y^{2}+4yz+29z^{2}=\begin{cases}(2y+3z)^{2}+(y-4z)^{2}+4z^{2} \\4y^{2}+(y+2z)^{2}+25z^{2} \end{cases} \)</td><td>121+16+4100+25+16</td></tr><tr><td>\( t^{2}+142u^{2} \)</td><td>\( 11y^{2}+2yz+15z^{2}=9y^{2}+(y-2z)^{2}+(y+5z)^{2} \)</td><td>81+36+25</td></tr><tr><td>\( t^{2}+145u^{2} \)</td><td>\( y^{2}+145z^{2}=\begin{cases}y^{2}+144z^{2}+z^{2} \\y^{2}+81z^{2}+64z^{2} \end{cases} \)\( 5y^{2}+29z^{2}=\begin{cases}(y+4z)^{2}+(2y-2z)^{2}+9z^{2} \\(y-4z)^{2}+(2y+2z)^{2}+9z^{2} \end{cases} \)</td><td>144+181+64100+36+9100+36+9</td></tr><tr><td>\( t^{2}+146u^{2} \)</td><td>\( y^{2}+146z^{2}= \)\( y^{2}+121z^{2}+25z^{2} \)\( 2y^{2}+73z^{2}=(y+6z)^{2}+(y-6z)^{2}+z^{2} \)\( 3y^{2}+2yz+49z^{2}=(y-3z)^{2}+(y-2z)^{2}+(y+6z)^{2} \)\( 6y^{2}+4yz+25z^{2}= \)\( y^{2}+(2y+3z)^{2}+(y-4z)^{2} \)\( 9y^{2}+8yz+18z^{2}=(2y+z)^{2}+(2y-z)^{2}+(y+4z)^{2} \)</td><td>121+25144+1+181+64+1121+16+981+49+16</td></tr><tr><td>\( t^{2}+147u^{2} \)</td><td>\( 6y^{2}+6yz+26z^{2}=\begin{cases}(y+z)^{2}+(y-4z)^{2}+(2y+3z)^{2} \\(2y-z)^{2}+(y+5z)^{2}+y^{2} \end{cases} \)</td><td>121+25+1121+25+1</td></tr><tr><td>\( t^{2}+149u^{2} \)</td><td>\( y^{2}+149z^{2}= \)\( y^{2}+100z^{2}+49z^{2} \)\( 5y^{2}+2yz+30z^{2}=(y+5z)^{2}+(2y-2z)^{2}+z^{2} \)\( 6y^{2}+2yz+25z^{2}=(y+4z)^{2}+(y-3z)^{2}+4y^{2} \)\( 9y^{2}+4yz+17z^{2}=4y^{2}+(2y-z)^{2}+(y+4z)^{2} \)</td><td>100+49144+4+164+49+3681+64+4</td></tr><tr><td>\( t^{2}+150u^{2} \)</td><td>\( 11y^{2}+4yz+14z^{2}=\begin{cases}(3y+2z)^{2}+(y-z)^{2}+(y-3z)^{2} \\(3y-z)^{2}+(y+3z)^{2}+(y+2z)^{2} \end{cases} \)</td><td>121+25+4100+49+1</td></tr><tr><td>\( t^{2}+153u^{2} \)</td><td>\( 2y^{2}+2yz+77z^{2}=\begin{cases}(y+5z)^{2}+(y-2z)^{2}+64z^{2} \\(y+6z)^{2}+(y-5z)^{2}+16z^{2} \end{cases} \)\( 9y^{2}+17z^{2}=\begin{cases}(2y+3z)^{2}+(2y-2z)^{2}+(y-2z)^{2} \\(2y+2z)^{2}+(2y-3z)^{2}+(y+2z)^{2} \end{cases} \)</td><td>64+64+25121+16+16100+49+4100+49+4</td></tr></table>
+
+β
 
 ## PDF page 531
 
 TABLE VIII.
-VALEURS
-FORMULE.
-DIVISEURS QUADRATIQUES TRINAIRES.
-TRINAIRES DE C
-144+ 9+ 1<br>81+64+ 9
-<math>t^{2}+154u^{3}+9y^{2}+8yz+17z^{2}=\left\{ \begin{pmatrix} y+4z \end{pmatrix}^{2}+9y^{2}+z^{2} \\ y-2z \end{pmatrix}^{2}+(5y+2z)^{2}+9z^{2} \right\}</math>
-<math display="block">t^{2}+155u^{2} = 6y^{2}+2yz+26z^{2} = (2y+3z)^{2}+(y-4z)^{2}+(y-2z)^{2}+(y-4z)^{2}+(y-4z)^{2}+(y-4z)^{2}+(y-4z)^{2}+(y-4z)^{2}+(y-4z)^{2}+(y-4z)^{2}+(y-4z)^{2}+(y-4z)^{2}+(y-4z)^{2}+(y-4z)^{2}+(y-4z)^{2}+(y-4z)^{2}+(y-4z</math>
-121+36
-<math display="block">t^{2}+157u^{2} = y^{2}+157z^{2} = y^{2}+121z^{2}+36z^{2}</math><math display="block">13y^{2}+10yz+14z^{2} = (3y+3z)^{2}+(2y-2z)^{2}+z^{2}</math>
-144-+ 9+ 4
-<math display="block">t^{2}+158u^{2} \begin{vmatrix} 3y^{2}+2yz+53z^{2}=(y-4z)^{2}+(y+6z)^{2}+(y-z)^{2} & |100+49+9| \\ 6y^{2}+4yz+27z^{2}=(2y-z)^{2}+(y+5z)^{2}+(y-z)^{2} & |121+36+1| \end{vmatrix}</math>
-100+36+25
-<math display="block">5y^{2} + 4yz + 55z^{2} = \begin{cases} (2y + 2z)^{2} + (y - 2z)^{2} + 25z^{2} \\ (2y - z)^{2} + (y + 4z)^{2} + 16y^{2} \end{cases}</math><math display="block">10y^{2} + 6yz + 17z^{2} = \begin{cases} (3y + 2z)^{2} + (3y + 2)^{2} + 16z^{2} \\ (3y + 2z)^{2} + (y - 3z)^{2} + 4z^{2} \end{cases}</math>
-81+64+16
-t°+1614°
-144+16+ 1
-64+49+49
-<math display="block">\begin{array}{c} 2y^{2} + 81z^{2} = (y + 4z)^{2} + (y - 4z)^{2} + 49z^{2} \\ 11y^{2} + 10yz + 17z^{2} = (y + 2z)^{2} + (3y + 2z)^{2} + (y - 3z)^{2} \\ 121 + 25 + 16 \end{array}</math>
-t2+162u2
-<math>t^2+163u^2</math> <math>2y^2+2yz+82z^2=y^2+(y+z)^2+81z^2</math>
-81+81+ 1
-<math>(y+5z)^2+(y-2z)^2+4y^2</math>
-100+49+16
-<math>y+3z)^2+(y-4z)^2+(2y+2z)^2|100+49+16|</math>
-t2+165u2
-<math>6y^2 + 6yz + 29z^2 =</math>
-<math>(2y+4z)^2+(y-3z)^2+(y-2z)^2|100+64+1</math>
-<math>((y+4z)^2+(y+3z)^2+(2y-2z)^2(100+64+1)</math>
-<math>2y^2+85z^2=(y+z)^2+(y-z)^2+81z^2</math>
-81+81+4
-<math>t^2+166u^4</math> <math>5y^2+4yz+34z^2=(2y+3z)^2+(y-4z)^2+9z^2</math>
-121+36+ 9
-<math>13y^2 + 8yz + 14z^2 = (3y + 2z)^2 + (2y - z)^2 + 9z^2</math>
-<math>81 + 49 + 36</math>
-<math>y^2 + 169z^2 = y^2 + 144z^2 + 25z^2</math>
-144+25
-<math>t^2 + 169u^2</math>
-<math>10y^2 + 2yz + 17z^2 = (y + z)^2 + 9y^2 + 16z^2</math>
-144+16+ 9
-169+1
-<math>y^2+170z^2=\begin{cases} y^2+169z^2+z^2\\ y^2+121z^2+49z^2 \end{cases}</math>
-121-49
-t2+17042
-<math display="block">9y^{2} + 2yz + 19z^{2} = \begin{cases} (2y + 5z)^{2} + (2y - 5z)^{2} + (y + z)^{2} & | 144 + 25 + 1 \\ (2y - z)^{2} + (2y + 5z)^{2} + (y - 5z)^{2} & | 81 + 64 + 25 \end{cases}</math>
-81+64+25
-<math>(y+6z)^2+(y-5z)^2+25z^2</math>
-121+25+25
-<math>2y^2 + 2yz + 86z^2 =</math>
-169+ 1+ 1
-<math>(y+7z)^2+(y-6z)^2+</math>
-22
-t=+1714
-<math>\{(3y+2z)^2+(3y+z)^2+(y-3z)^2\}</math>
-<math>14y^2 + 10yz + 14z^2 =</math>
-<math>(y+2z)^2+(2y+3z)^2</math> 121+49+ 1
+
+<table><tr><td>FORMULE.</td><td>DIVISEURS QUADRATIQUES TRINAIRES.</td><td>VALEURS TRINAIRES DE C</td></tr><tr><td>\( t^{2}+154u^{2} \)</td><td>\( 10y^{2}+8yz+17z^{2}=\begin{cases}(y+4z)^{2}+9y^{2}+z^{2}\\(y-2z)^{2}+(3y+2z)^{2}+9z^{2}\end{cases} \)</td><td>\( 144+9+181+64+9 \)</td></tr><tr><td>\( t^{2}+155u^{2} \)</td><td>\( 6y^{2}+2yz+26z^{2}=\begin{cases}(2y+3z)^{2}+(y-4z)^{2}+(y-z)^{2}\\(2y+z)^{2}+(y+3z)^{2}+(y-4z)^{2}\end{cases} \)</td><td>\( 121+25+981+49+25 \)</td></tr><tr><td>\( t^{2}+157u^{2} \)</td><td>\( 13y^{2}+10yz+14z^{2}=\begin{cases}y^{2}+121z^{2}+36z^{2}\\(3y+3z)^{2}+(2y-2z)^{2}+z^{2}\end{cases} \)</td><td>\( 121+36144+9+4 \)</td></tr><tr><td>\( t^{2}+158u^{2} \)</td><td>\( 5y^{2}+2yz+53z^{2}=(y-4z)^{2}+(y+6z)^{2}+(y-z)^{2}6y^{2}+4yz+27z^{2}=(2y-z)^{2}+(y+5z)^{2}+(y-z)^{2} \)</td><td>\( 100+49+9121+36+1 \)</td></tr><tr><td>\( t^{2}+161u^{2} \)</td><td>\( 5y^{2}+4yz+33z^{2}=\begin{cases}(2y+2z)^{2}+(y-2z)^{2}+25z^{2}\\(2y-z)^{2}+(y+4z)^{2}+16y^{2}\end{cases}10y^{2}+6yz+17z^{2}=\begin{cases}y^{2}+(3y+z)^{2}+16z^{2}\\(3y+2z)^{2}+(y-3z)^{2}+4z^{2}\end{cases} \)</td><td>\( 100+36+2581+64+16144+16+1121+36+4 \)</td></tr><tr><td>\( t^{2}+162u^{2} \)</td><td>\( 2y^{2}+81z^{2}=(y+4z)^{2}+(y-4z)^{2}+49z^{2}11y^{2}+10yz+17z^{2}=(y+2z)^{2}+(3y+2z)^{2}+(y-3z)^{2} \)</td><td>\( 64+49+49121+25+16 \)</td></tr><tr><td>\( t^{2}+163u^{2} \)</td><td>\( 2y^{2}+2yz+82z^{2}=y^{2}+(y+z)^{2}+81z^{2} \)</td><td>\( 81+81+1 \)</td></tr><tr><td>\( t^{2}+165u^{2} \)</td><td>\( 6y^{2}+6yz+29z^{2}=\begin{cases}(y+5z)^{2}+(y-2z)^{2}+4y^{2}(y+3z)^{2}+(y-4z)^{2}+(2y+2z)^{2}(2y+4z)^{2}+(y-3z)^{2}+(y-2z)^{2}(y+4z)^{2}+(y+3z)^{2}+(2y-2z)^{2}\end{cases} \)</td><td>\( 100+49+16100+49+16100+64+1100+64+1 \)</td></tr><tr><td>\( t^{2}+166u^{2} \)</td><td>\( 2y^{2}+83z^{2}=(y+z)^{2}+(y-z)^{2}+81z^{2}5y^{2}+4yz+34z^{2}=(2y+3z)^{2}+(y-4z)^{2}+9z^{2}15y^{2}+8yz+14z^{2}=(3y+2z)^{2}+(2y-z)^{2}+9z^{2} \)</td><td>\( 81+81+4121+36+981+49+36 \)</td></tr><tr><td>\( t^{2}+169u^{2} \)</td><td>\( 10y^{2}+2yz+17z^{2}=y^{2}+144z^{2}+25z^{2} \)\( 10y^{2}+2yz+17z^{2}= (y+z)^{2}+9y^{2}+16z^{2} \)</td><td>\( 144+25144+16+9 \)</td></tr><tr><td>\( t^{2}+170u^{2} \)</td><td>\( y^{2}+170z^{2}=\begin{cases}y^{2}+169z^{2}+z^{2}\\y^{2}+121z^{2}+49z^{2}\end{cases}9y^{2}+2yz+19z^{2}=\begin{cases}(2y+3z)^{2}+(2y-3z)^{2}+(y+z)^{2}(2y-z)^{2}+(2y+3z)^{2}+(y-3z)^{2}\end{cases} \)</td><td>\( 169+1121+49144+25+181+64+25 \)</td></tr><tr><td>\( t^{2}+171u^{2} \)</td><td>\( 2y^{2}+2yz+86z^{2}=\begin{cases}(y+6z)^{2}+(y-5z)^{2}+25z^{2}(y+7z)^{2}+(y-6z)^{2}+z^{2}14y^{2}+10yz+14z^{2}=\begin{cases}(3y+2z)^{2}+(2y+z)^{2}+(y-3z)^{2}(3y-z)^{2}+(y+2z)^{2}+(2y+3z)^{2}\end{cases} \)</td><td>\( 121+25+25169+1+1121+49+1121+49+1 \)</td></tr></table>
+
 H
 
 ## PDF page 532

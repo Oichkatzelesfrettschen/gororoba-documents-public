@@ -10,24 +10,23 @@ Transcription of `hamilton_1853_lectures_on_quaternions.pdf` in this directory, 
 
 Method: pages 1-874 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
+Second engine: MinerU2.5-Pro 2605 read pages 2, 108, 677, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+
 ## PDF page 1
 
 411411
 
 ## PDF page 2
 
-A ROLL OF THE REAL PROPERTY.
 278
-The state of the state of
+
 ACADEMY OF NATURAL SCIENCES
+
 OF
+
 PHILADELPHIA.
-. . . . . . . . . . . . . . . . . . . . 
-Conveyed in 1892 from the estate of JOHN WARNER who died
-July 16, 1873.
-.....
-The state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
-. .
+
+Conveyed in 1892 from the estate of JOHN WARNER who died July 16, 1873.
 
 ## PDF page 3
 
@@ -4648,48 +4647,46 @@ S. <math>\iota \rho = \frac{1}{2} h' T (\iota - \kappa)^2</math>, <math>\overlin
 ## PDF page 108
 
 xlvi
+
 CONTENTS.
-these two subcontrary and circular sections of the ellipsoid have their
-planes perpendicular to the sides, CA, CB of the generating triangle
-(§ LXXVIII.), and therefore parallel (as is known) to the two cyclic planes;
-every such pair of subcontrary circles (h, h') is contained (as by known
-results it ought to be) on one common sphere; this sphere, in these calcu-
-lations, is given by the formula,
-<math>T(\rho - \xi) = NE = n,</math>
-where the vector <math>\xi</math>, the positive scalar <math>n</math>, and the point <math>n</math>, may be deter-
-mined by the equations,
-<math>AN = \xi = h\iota + h'\kappa, \ b^2 - n^2 = (h + h') \ (h\iota^2 + h'\kappa^2);</math>
-and if we make <math>EN = \xi - \rho = b^2 \nu</math>, then N is the foot of the normal to the
-ellipsoid drawn at the point E, and terminated by the plane of the gene-
-rating triangle, or by the plane of the greatest and least axes, while <math>n</math> de-
-notes the length of that normal; the new vector <math>\nu</math> is parallel to the normal,
-and satisfies the equation S . <math>\nu \rho = 1</math>; its expression as a function of <math>\rho</math> is,
-<math display="block">\nu = (\kappa^2 - \iota^2)^{-2} \left\{ (\iota - \kappa)^2 \rho + 2\iota \cdot \mathbf{S} \cdot \kappa \rho + 2\kappa \mathbf{S} \cdot \iota \rho \right\};</math>
-the equation of the ellipsoid may be put under the form, <math>\rho^2 + b^2 = \lambda \mu</math>,
-while that of the mean sphere may be thus written, <math>\rho^2 + b^2 = 0</math>, . . .
+
+these two subcontrary and circular sections of the ellipsoid have their planes perpendicular to the sides, CA, CB of the generating triangle (§ LXXVIII.), and therefore parallel (as is known) to the two cyclic planes; every such pair of subcontrary circles (h, h') is contained (as by known results it ought to be) on one common sphere; this sphere, in these calculations, is given by the formula,
+
+\[
+\mathrm{T} (\rho - \xi) = \overline {{\mathrm{NE}}} = n,
+\]
+
+where the vector \(\xi\), the positive scalar \(n\), and the point \(\mathbb{N}\), may be determined by the equations,
+
+\[
+\mathrm{AN} = \xi = h \iota + h ^ {\prime} \kappa , b ^ {2} - n ^ {2} = (h + h ^ {\prime}) (h \iota^ {2} + h ^ {\prime} \kappa^ {2});
+\]
+
+and if we make  \( EN = \xi - \rho = b^{2}\nu \) , then N is the foot of the normal to the ellipsoid drawn at the point E, and terminated by the plane of the generating triangle, or by the plane of the greatest and least axes, while n denotes the length of that normal; the new vector  \( \nu \)  is parallel to the normal, and satisfies the equation S.  \( \nu\rho = 1 \) ; its expression as a function of  \( \rho \)  is,
+
+\[
+\nu = (\kappa^ {2} - \iota^ {2}) ^ {- 2} \left\{(\iota - \kappa) ^ {2} \rho + 2 \iota \cdot \mathrm{S} \cdot \kappa \rho + 2 \kappa \mathrm{S} \cdot \iota \rho \right\};
+\]
+
+the equation of the ellipsoid may be put under the form,  \( \rho^{2} + b^{2} = \lambda\mu \) , while that of the mean sphere may be thus written,  \( \rho^{2} + b^{2} = 0 \) , . . .
+
 Articles 471 to 474; Pages 476 to 479.
-§ LXXX. If we make for abridgment <math>\nu = \phi(\rho)</math>, or simply <math>\nu = \phi \rho</math>, the vector func-
-tion <math>\phi</math> will be linear or distributive,
-<math>\phi(\rho + \rho') = \phi\rho + \phi\rho', \ \Delta\phi\rho = \phi\Delta\rho, \ \phi(x\rho) = x\phi\rho;</math>
-and if we agree to write <math>f(\rho, \varpi) = S \cdot \rho \phi \varpi</math>, the scalar function f will be
-at once commutative or symmetric with respect to the two vectors on which
-it depends, and linear or distributive relatively to each of them, so that
-<math display="block">f(\varpi,\rho) = f(\rho,\varpi), f(\rho+\rho',\varpi+\varpi') = f(\rho,\varpi) + f(\rho,\varpi') + f(\rho',\varpi) + f(\rho',\varpi) + f(\rho',\varpi) + f(\rho',\varpi) + f(\rho',\varpi) + f(\rho',\varpi) + f(\rho',\varpi) + f(\rho',\varpi) + f(\rho',\varpi) + f(\rho',\varpi) + f(\rho',\varpi) + f(\rho',\varpi) + f(\rho',\varpi) + f(\rho',\varpi) + f(\rho',\varpi) + f(\rho',\varpi) + f(\rho',\varpi) +</math>
-<math>(\rho', \varpi'), f(x\rho, y\varpi) = xyf(\rho, \varpi);</math> if then we farther abridge <math>f(\rho, \rho)</math> to <math>f</math>
-<math>(\rho)</math> or to <math>f\rho</math>, this new scalar function of one vector will, relatively to it, be
-of the second dimension, and we shall have
-<math>f(\rho + \rho') = f\rho + 2f(\rho, \rho') + f\rho', f(x\rho) = x^2 f\rho;</math>
-the equation of the ellipsoid reduces itself in this notation to the formula,
-<math>f\rho = 1</math>; and if a cylinder (not generally of revolution) be circumscribed
-about the ellipsoid, with its generating lines parallel to a given vector w,
-the equation <math>f(\rho, \varpi) = 0</math> represents the diametral plane of contact, and
-the normal to that plane has the direction of the vector <math>\phi \boldsymbol{\varpi}</math>; in general
-the last equation denotes that the directions of <math>\rho</math> and <math>\varpi</math> are conjugate, re-
-latively to the ellipsoid; reciprocal relations of bisection, conjugation of
-line and plane, system of three conjugate semi-diameters, equation <math>x^2 + y^2</math>
-<math>+z^2=1</math>, . . . . . . . . . . Articles 475 to 480; Pages 480 to 485.
-§ LXXXI. The equation <math>f(\rho, \varpi) = 1</math>, or S. <math>\nu \varpi = 1</math>, expresses that the vector <math>\varpi</math> ter-
-minates on the tangent plane to the ellipsoid, drawn at the extremity of the
+
+§ LXXX. If we make for abridgment  \( \nu = \phi(\rho) \) , or simply  \( \nu = \phi\rho \) , the vector function  \( \phi \)  will be linear or distributive,
+
+\[
+\phi \left(\rho + \rho^ {\prime}\right) = \phi \rho + \phi \rho^ {\prime}, \Delta \phi \rho = \phi \Delta \rho , \phi \left(x \rho\right) = x \phi \rho ;
+\]
+
+and if we agree to write \( f(\rho, \varpi) = \mathbf{S} \cdot \rho \phi \varpi \), the scalar function \( f \) will be at once commutative or symmetric with respect to the two vectors on which it depends, and linear or distributive relatively to each of them, so that \( f(\varpi, \rho) = f(\rho, \varpi), f(\rho + \rho', \varpi + \varpi') = f(\rho, \varpi) + f(\rho, \varpi') + f(\rho', \varpi) + f(\rho', \varpi') \), \( f(x\rho, y\varpi) = xyf(\rho, \varpi) \); if then we farther abridge \( f(\rho, \rho) \) to \( f(\rho) \) or to \( fp \), this new scalar function of one vector will, relatively to it, be of the second dimension, and we shall have
+
+\[
+f (\rho + \rho^ {\prime}) = f \rho + 2 f (\rho , \rho^ {\prime}) + f \rho^ {\prime}, f (x \rho) = x ^ {2} f \rho ;
+\]
+
+the equation of the ellipsoid reduces itself in this notation to the formula, \( f\rho = 1 \); and if a cylinder (not generally of revolution) be circumscribed about the ellipsoid, with its generating lines parallel to a given vector \( \varpi \), the equation \( f(\rho, \varpi) = 0 \) represents the diametral plane of contact, and the normal to that plane has the direction of the vector \( \phi \varpi \); in general the last equation denotes that the directions of \( \rho \) and \( \varpi \) are conjugate, relatively to the ellipsoid; reciprocal relations of bisection, conjugation of line and plane, system of three conjugate semi-diameters, equation \( x^2 + y^2 + z^2 = 1 \), . . . . . . . . . Articles 475 to 480; Pages 480 to 485.
+
+§ LXXXI. The equation  \( f(\rho,\varpi)=1 \) , or S.  \( \nu\varpi=1 \) , expresses that the vector  \( \varpi \)  terminates on the tangent plane to the ellipsoid, drawn at the extremity of the
 
 ## PDF page 109
 
@@ -28311,40 +28308,36 @@ article, by transforming it as follows:
 
 ## PDF page 677
 
-545
 LECTURE VII.
-<math>a^{2-a} a_1^{2-a_1} a_2^{2-a_2} \dots a_{n-1}^{2-a_{n-1}} = 1</math>.
-But I leave it to yourselves, as an exercise, to demonstrate this
-agreement of meaning.
-537. All the POWERS that have been hitherto considered in
-these Lectures have had scalar exponents, with the single ex-
-ception of the power in article 528, which had e for its base, and
-a vector, namely, <math>\frac{1}{2}\pi t\iota</math>, for its exponent. But if we now define
-that for the same base, <math>e</math>, and for any quaternion, <math>q</math>, as expo-
-nent, the symbol eq of the power shall be INTERPRETED as a con-
-cise expression for the series,
-<math>e^{q} = F(q) = 1 + \frac{q}{1} + \frac{q^{2}}{1 + \frac{q}{1 + \frac{q}{1 + \frac{q}{1 + \frac{q}{1 + \frac{q}{1 + \frac{q}{1 + \frac{q}{1 + \frac{q}{1 + \frac{q}{1 + \frac{q}{1 + \frac{q}{1 + \frac{q}{1 + \frac{q}{1 + \frac{q}{1 + \frac{q}{1 + \frac{q}{1 + \frac{q}{1 + \frac{q}{1 + \frac{q}{1 + \frac{q}{1 </math>
-we shall not violate any conditions hitherto established, but shall
-on the contrary be able to give useful extensions to results
-already obtained. It may be proper however here to shew that
-this series, so well known in the algebra of ordinary reals and or-
-dinary imaginaries, is, in this calculus likewise, convergent; and
-that it gives an absolutely definite Quaternion as its value,
-or as the <i>limit</i> to which it tends, when continued indefinitely far,
-the quaternion q being supposed given. In other words, if, in-
-stead of the infinite series above written, we consider the finite
-developement,
-<math>F_m(q) = 1 + \frac{q}{1} + \frac{q^2}{1 - 2} + \dots + \frac{q^m}{1 - 2 \dots m}</math>
-it is to be shewn that, for sufficiently large and increasing values
-of the number m, the function <math>F(q)</math> is very nearly equal to a
-certain definite limit, which may be denoted by <math>F_{\infty}(q)</math> or by
-<math>\mathbf{F}(q)</math>; or that the scalar, vector, and tensor, of the variable qua-
-ternion <math>F(q) - F_m(q)</math>, where <math>F(q)</math> is a certain fixed quaternion,
-converge each separately to zero: in such a manner that
-<math>S(Fq - F_mq)</math> and <math>V(Fq - F_mq)</math>,
-may be made, respectively, as small a number and as small a
-line as we may desire, by taking for m a sufficiently large whole
-number.
+
+545
+
+\[
+a ^ {2 - a} a _ {1} ^ {2 - a _ {1}} a _ {2} ^ {2 - a _ {2}} \dots a _ {n - 1} ^ {2 - a _ {n - 1}} = 1.
+\]
+
+But I leave it to yourselves, as an exercise, to demonstrate this agreement of meaning.
+
+537. All the POWERS that have been hitherto considered in these Lectures have had scalar exponents, with the single exception of the power in article 528, which had \( e \) for its base, and a vector, namely, \( \frac{1}{2}\pi t\iota \), for its exponent. But if we now define that for the same base, \( e \), and for ANY QUATERNION, \( q \), as exponent, the symbol \( e^q \) of the power shall be INTERPRETED as a concise expression for the series,
+
+\[
+e ^ {q} = \mathrm{F} (q) = 1 + \frac {q}{1} + \frac {q ^ {2}}{1 . 2} + \frac {q ^ {3}}{1 . 2 . 3} + \& \mathrm{c}.
+\]
+
+we shall not violate any conditions hitherto established, but shall on the contrary be able to give useful extensions to results already obtained. It may be proper however here to shew that this series, so well known in the algebra of ordinary reals and ordinary imaginaries, is, in this calculus likewise, convergent; and that it gives an absolutely DEFINITE QUATERNION as its value, or as the limit to which it tends, when continued indefinitely far, the quaternion \( q \) being supposed given. In other words, if, instead of the infinite series above written, we consider the finite development,
+
+\[
+\mathrm{F} _ {m} (q) = 1 + \frac {q}{1} + \frac {q ^ {2}}{1 . 2} + \dots + \frac {q ^ {\dot {m}}}{1 . 2 \dots m},
+\]
+
+it is to be shewn that, for sufficiently large and increasing values of the number \( m \), the function \( \mathrm{F}(q) \) is very nearly equal to a certain definite limit, which may be denoted by \( \mathrm{F}_{\infty}(q) \) or by \( \mathrm{F}(q) \); or that the scalar, vector, and tensor, of the variable quaternion \( \mathrm{F}(q) - \mathrm{F}_m(q) \), where \( \mathrm{F}(q) \) is a certain fixed quaternion, converge each separately to zero: in such a manner that
+
+\[
+\mathrm{S} \left(\mathrm{F} q - \mathrm{F} _ {m} q\right) \text {and} \mathrm{V} \left(\mathrm{F} q - \mathrm{F} _ {m} q\right),
+\]
+
+may be made, respectively, as small a number and as small a line as we may desire, by taking for \( m \) a sufficiently large whole number.
+
 2 N
 
 ## PDF page 678

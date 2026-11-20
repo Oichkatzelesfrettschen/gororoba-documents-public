@@ -10,7 +10,7 @@ Transcription of `keisler_2000_elementary_calculus_infinitesimal_approach.pdf` i
 
 Method: pages 1, 3-992 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 2 from the PDF's own text layer (pdftotext version 26.01.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
-Second engine: Surya OCR 0.17.0 alone read pages 56, 366, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+Second engine: Surya OCR 0.17.0 alone read pages 56, 366; MinerU2.5-Pro 2605 read pages 528, 637, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -23716,41 +23716,49 @@ Given any positive term series
 ## PDF page 528
 
 518
+
 9 INFINITE SERIES
-<math display="block">\sum_{n=1}^{\infty} (-1)^{n+1} a_n = a_1 - a_2 + a_3 - a_4 + \cdots</math>
-the series
-<math display="block">\sum_{n=1}^{\infty} (-1)^n a_n = -a_1 + a_2 - a_3 + a_4 - \cdots</math>
-and
+
+the series \(\sum_{n=1}^{\infty} (-1)^{n+1} a_n = a_1 - a_2 + a_3 - a_4 + \cdots\)
+
+and \(\sum_{n=1}^{x}(-1)^{n}a_{n} = -a_{1} + a_{2} - a_{3} + a_{4} - \cdots\)
+
 are alternating series. Here is a test for convergence of alternating series.
+
 ALTERNATING SERIES TEST
+
 Assume that
-(i) <math>\sum_{n=1}^{\infty} (-1)^{n+1} a_n</math> is an alternating series.
-(ii) The terms <math>a_n</math> are decreasing, <math>a_1 > a_2 > \cdots > a_n > \cdots</math>.
-(iii) The terms approach zero, <math>\lim_{n\to\infty} a_n = 0</math>.
-Then the series converges to a sum <math>\sum_{n=1}^{\infty} (-1)^{n+1} a_n = S</math>. Moreover, the sum S
-is between any two consecutive partial sums,
-<math>S_{2n} < S < S_{2n+1}</math>.
-We see from the graph in Figure 9.5.1 that the partial sums <math>S_n</math> alternately
-Discussion
-increase and decrease, but the change is less each time. The value of <math>S_n</math>
-"vibrates" back and forth and the vibration damps down around the limit S.
+
+(i) \(\sum_{n=1}^{x}(-1)^{n+1}a_n\) is an alternating series.
+
+(ii) The terms  \( a_{n} \)  are decreasing,  \( a_{1} > a_{2} > \cdots > a_{n} > \cdots \) .
+
+(iii) The terms approach zero, \(\lim_{n\to \infty}a_n = 0\).
+
+Then the series converges to a sum \(\sum_{n=1}^{\infty} (-1)^{n+1} a_n = S\). Moreover, the sum \(S\) is between any two consecutive partial sums,
+
+\[
+S _ {2 n} <   S <   S _ {2 n + 1}.
+\]
+
+Discussion We see from the graph in Figure 9.5.1 that the partial sums  \( S_{n} \)  alternately increase and decrease, but the change is less each time. The value of  \( S_{n} \)  “vibrates” back and forth and the vibration damps down around the limit S.
+
 PROOF The sequence of even partial sums is increasing.
-<math>S_2 < S_4 < \cdots < S_{2n} < \cdots</math>
-<math>S_4 = S_2 + (a_3 - a_4), 	 S_6 = S_4 + (a_5 - a_6), 	 \text{etc.}</math>
-because
+
+\[
+S _ {2} <   S _ {4} <   \dots <   S _ {2 n} <   \dots ,
+\]
+
+because \(S_{4} = S_{2} + (a_{3} - a_{4}),\quad S_{6} = S_{4} + (a_{5} - a_{6}),\quad \mathrm{etc.}\)
+
 The sequence of odd partial sums is decreasing,
-<math display="block">S_1 > S_3 > S_5 > \cdots,</math>
-<math>S_3 = S_1 - (a_2 - a_3), 	 S_5 = S_3 - (a_4 - a_5), 	 \text{etc.}</math>
-for
-<math display="block">
-\uparrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad \qquad \downarrow \qquad</math>
-n
-<math>S_n</math>
-<math>S_1</math>
-<math>S_3</math>
-<math>S_5</math>
-S
-n
+
+\[
+S _ {1} > S _ {3} > S _ {5} > \dots ,
+\]
+
+for \(S_{3} = S_{1} - (a_{2} - a_{3}),\quad S_{5} = S_{3} - (a_{4} - a_{5}),\quad \mathrm{etc.}\)
+
 Figure 9.5.1
 
 ## PDF page 529
@@ -28623,59 +28631,61 @@ In Problems 26–33 find the length of the given curve.
 
 ## PDF page 637
 
+10.8 HYPERREAL VECTORS
+
 627
+
+In Problems 34–37 find the position vector of a particle with the given velocity vector and initial position.
+
+34 \(\mathbf{V} = e^{t}\mathbf{i} + e^{2t}\mathbf{j} + e^{3t}\mathbf{k},\quad \mathbf{F}(0) = \mathbf{0}\)
+
+35 \(\mathbf{V} = t\mathbf{i} + t^2\mathbf{j} + t^3\mathbf{k},\quad \mathbf{F}(1) = \mathbf{i} + 2\mathbf{j} + 3\mathbf{k}\)
+
+36 \(\mathbf{V} = \frac{\mathbf{i}}{t^2 + 1} +\frac{\mathbf{j}}{t^2 - 1} +\mathbf{k},\quad \mathrm{F}(0) = \mathbf{i} + \mathbf{j} + \mathbf{k}\)
+
+37 \(\mathbf{V} = \frac{\mathbf{i}}{t - 1} +\frac{\mathbf{j}}{t - 2} +\frac{\mathbf{k}}{t - 3},\quad \mathbf{F}(0) = \mathbf{0}\)
+
+38 Find the position vector of a particle whose acceleration vector at time \( t \) is \( \mathbf{A} = \mathbf{i} + t\mathbf{j} + e^t\mathbf{k} \), if at \( t = 0 \) the velocity and position vectors are both zero.
+
+39 Find the position vector \(\mathbf{S}\) if \(\mathbf{A} = \sin t\mathbf{i} + \cos t\mathbf{j} + \mathbf{k}\), and at \(t = 0\), \(\mathbf{V} = \mathbf{0}\) and \(\mathbf{S} = \mathbf{0}\).
+
+☐ 40 Show that if U is the unit vector of X, then
+
+\[
+\frac {d | \mathbf {X} |}{d t} = \frac {d \mathbf {X}}{d t} \cdot \mathbf {U}.
+\]
+
+☐ 41 Show using the Chain Rule that if X is the position vector of a curve and s is the length from 0 to t, then dX/ds is a unit vector tangent to the curve.
+
+☐ 42 Suppose a particle moves so that its speed is constant and its distance from the origin at time t is  \( e^{t} \) . Show that the angle between the position and velocity vectors is constant.
+
+☐ 43 Prove that if  \( \mathbf{F}(t) \)  is perpendicular to a constant vector C for all t, then  \( \mathbf{F}'(t) \)  is also perpendicular to C.
+
+☐ 44 Prove that if  \( \mathbf{F}(t) \)  is parallel to a constant vector C for all t, then  \( \mathbf{F}'(t) \)  is also parallel to C.
+
+☐ 45 Prove the following differentiation rule for scalar multiples:
+
+\[
+\frac {d (u \mathbf {X})}{d t} = u \frac {d \mathbf {X}}{d t} + \frac {d u}{d t} \mathbf {X}.
+\]
+
+☐ 46 Prove the vector product rule  \( \frac{d(\mathbf{X} \times \mathbf{Y})}{dt} = \mathbf{X} \times \frac{d\mathbf{Y}}{dt} + \frac{d\mathbf{X}}{dt} \times \mathbf{Y}. \)
+
 10.8 HYPERREAL VECTORS
-In Problems 34–37 find the position vector of a particle with the given velocity vector and initial
-position.
-<math>V = e^{t}i + e^{2t}j + e^{3t}k</math>, <math>F(0) = 0</math>
-34
-<math>V = ti + t^2j + t^3k</math>, <math>F(1) = i + 2j + 3k</math>
-35
-<math>V = \frac{i}{t^2 + 1} + \frac{j}{t^2 - 1} + k</math>, <math>F(0) = i + j + k</math>
-36
-<math>V = \frac{i}{(1 + \frac{j}{(1 + \frac{j}{(1 + \frac{j}{(1 + \frac{j}{(1 + \frac{j}{(1 + \frac{j}{(1 + \frac{j}{(1 + \frac{j}{(1 + \frac{j}{(1 + \frac{j}{(1 + \frac{j}{(1 + \frac{j}{(1 + \frac{j}{(1 + \frac{j}{(1 + \frac{j}{(1 + \frac{j}{(1 + \frac{j}{(1 + \frac{j}{(1 + \frac{j}{(1 + \frac{j}{(1 + \frac{j}{(</math>
-37
-38
-Find the position vector of a particle whose acceleration vector at time <math>t</math> is
-<math>\mathbf{A} = \mathbf{i} + t\mathbf{j} + e^{t}\mathbf{k}</math>, if at <math>t = 0</math> the velocity and position vectors are both zero.
-Find the position vector S if <math>A = \sin t \mathbf{i} + \cos t \mathbf{j} + \mathbf{k}</math>, and at <math>t = 0</math>, <math>V = 0</math> and <math>S = 0</math>.
-39
-Show that if U is the unit vector of X, then
-40
 
-<math>\frac{d|\mathbf{X}|}{dt} = \frac{d\mathbf{X}}{dt} \cdot \mathbf{U}.</math>
-Show using the Chain Rule that if X is the position vector of a curve and s is the length
-□ 41
-from 0 to t, then <math>dX/ds</math> is a unit vector tangent to the curve.
-Suppose a particle moves so that its speed is constant and its distance from the origin
-42
+This section may be skipped without affecting the rest of the course. We introduce hyperreal vectors and use them to give an infinitesimal treatment of vector derivatives. We shall concentrate on three dimensions; the theory for two dimensions is similar.
 
-at time <math>t</math> is <math>e^t</math>. Show that the angle between the position and velocity vectors is constant.
-Prove that if <math>F(t)</math> is perpendicular to a constant vector C for all t, then <math>F'(t)</math> is also per-
-43
-pendicular to C.
-Prove that if <math>F(t)</math> is parallel to a constant vector C for all t, then <math>F'(t)</math> is also parallel to C.
-
-Prove the following differentiation rule for scalar multiples:
-□ 45
-<math display="block">\frac{d(u\mathbf{X})}{dt} = u\frac{d\mathbf{X}}{dt} + \frac{du}{dt}\mathbf{X}.</math>
-Prove the vector product rule <math>\frac{d(\mathbf{X} \times \mathbf{Y})}{dt} = \mathbf{X} \times \frac{d\mathbf{Y}}{dt} + \frac{d\mathbf{X}}{dt} \times \mathbf{Y}.</math>
-□ 46
-10.8 HYPERREAL VECTORS
-This section may be skipped without affecting the rest of the course. We introduce
-hyperreal vectors and use them to give an infinitesimal treatment of vector derivatives.
-We shall concentrate on three dimensions; the theory for two dimensions is similar.
 A hyperreal vector in three dimensions is a vector
-<math display="block">\mathbf{A} = a_1 \mathbf{i} + a_2 \mathbf{j} + a_3 \mathbf{k}</math>
-whose components <math>a_1</math>, <math>a_2</math>, and <math>a_3</math> are hyperreal numbers. The algebra of hyperreal
-vectors is in many ways similar to the algebra of hyperreal numbers. It begins with
-the notions of infinitesimal, finite, and infinite hyperreal vectors.
-A hyperreal vector A is said to be infinitesimal, finite, or infinite if its length
-|A| is an infinitesimal, finite, or infinite number, respectively. Two hyperreal vectors A
-and <b>B</b> are said to be <i>infinitely close</i>, <math>A \approx B</math>, if their difference <math>B - A</math> is infinitesimal
-(Figure 10.8.1).
-Let <math>\varepsilon</math> be a positive infinitesimal and H be a positive infinite hyperreal
-EXAMPLE 1
+
+\[
+\mathbf {A} = a _ {1} \mathbf {i} + a _ {2} \mathbf {j} + a _ {3} \mathbf {k}
+\]
+
+whose components \( a_1, a_2 \), and \( a_3 \) are hyperreal numbers. The algebra of hyperreal vectors is in many ways similar to the algebra of hyperreal numbers. It begins with the notions of infinitesimal, finite, and infinite hyperreal vectors.
+
+A hyperreal vector A is said to be infinitesimal, finite, or infinite if its length  \( |A| \)  is an infinitesimal, finite, or infinite number, respectively. Two hyperreal vectors A and B are said to be infinitely close,  \( A \approx B \) , if their difference B - A is infinitesimal (Figure 10.8.1).
+
+EXAMPLE 1 Let \(\varepsilon\) be a positive infinitesimal and \(H\) be a positive infinite hyperreal
 
 ## PDF page 638
 

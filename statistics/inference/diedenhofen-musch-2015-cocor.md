@@ -10,6 +10,8 @@ Transcription of `diedenhofen-musch-2015-cocor.pdf` in this directory, 12 pages;
 
 Method: pages 4, 6-7 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-3, 5, 8-12 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
+Second engine: MinerU2.5-Pro 2605 read page 7, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+
 ## PDF page 1
 
 RESEARCH ARTICLE
@@ -465,43 +467,29 @@ PLOS ONE | DOI:10.1371/journal.pone.0121945
 
 ## PDF page 7
 
-PLOS ONE
+PLOS | ONE
+
 cocor—Comparing Correlations
 
-<math>\mathbf{x}</math>
-cocor - comparing correlation ×
-← → C                                  
-£
-<math>\equiv</math>
-<b>COCO</b> comparing correlations
-Please provide the correlations you want to compare:
-r.jk: +0.30
-r.jh: +0.35
-To assess the significance of the difference between two dependent correlations,
-you need to provide the correlation between <math>k</math> and <math>h</math>:
-r.kh: +0.20
-Please indicate the size of your sample:
-n: 100
-<< Previous
-Home
-Next >>
 Fig 3. Screenshot of the cocor web interface on http://comparingcorrelations.org.
+
 doi:10.1371/journal.pone.0121945.g003
+
 Alternative hypothesis: r1.jk is not equal to r2.hm (two-sided)
 Alpha: 0.05
 fisher1925: Fisher's z (1925)
-<math>z = 1.5869</math>, p-value = 0.1125
-Null hypothesis retained
+    z = 1.5869, p-value = 0.1125
+    Null hypothesis retained
 zou2007: Zou's (2007) confidence interval
-95% confidence interval for r1.jk-r2.hm: -0.0281 0.2637
-Null hypothesis retained (Interval includes 0)
-In this example, the test result indicates that the difference between the two correlations
-r1.jk and r2.hm is not significant, and the null hypothesis cannot be rejected. Alternatively,
-the same comparison can also be conducted based on the correlation coefficients and the
-group sizes using the function cocor.indep.groups().
-<math>R > cocor.indep.groups (r1.jk = 0.3213, r2.hm = 0.2024, n1 = 291, r2.hm = 0.2024, n1 = 291, r2.hm = 0.2024, n1 = 291, r2.hm = 0.2024, n1 = 291, r2.hm = 0.2024, n1 = 291, r2.hm = 0.2024, n1 = 291, r2.hm = 0.2024, n1 = 291</math>
-<math>+ n2 = 334</math>)
-PLOS ONE | DOI:10.1371/journal.pone.0121945                                    
+    95% confidence interval for r1.jk-r2.hm: -0.0281 0.2637
+    Null hypothesis retained (Interval includes 0)
+
+In this example, the test result indicates that the difference between the two correlations r1.jk and r2.hm is not significant, and the null hypothesis cannot be rejected. Alternatively, the same comparison can also be conducted based on the correlation coefficients and the group sizes using the function cocor.indep.groups().
+
+R> cocor.indep.groups (r1.jk = 0.3213, r2.hm = 0.2024, n1 = 291, +n2 = 334)
+
+PLOS ONE | DOI:10.1371/journal.pone.0121945 April 2, 2015
+
 7/12
 
 ## PDF page 8

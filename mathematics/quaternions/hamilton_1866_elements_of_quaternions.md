@@ -10,6 +10,8 @@ Transcription of `hamilton_1866_elements_of_quaternions.pdf` in this directory, 
 
 Method: pages 1-866 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
+Second engine: MinerU2.5-Pro 2605 read pages 10, 302, 500, 687, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+
 ## PDF page 1
 
 
@@ -140,18 +142,7 @@ MS'27200
 
 ## PDF page 10
 
-North St.
 
-
-COMPANIE DE L'ALTERNATION DE L'ALTERNATION DE L'ALTERNATION DE L'ALTERNATION DE L'ALTERNATION DE L'ALTERNATION DE L'ALTERNATION DE L'ALTERNATION DE L'ALTERNATION DE L'ALTERNATION DE L'ALTERNATION DE L'ALTERNATION DE L'ALTE
-the Assert was a second track
-1341919
-And the State of the State of the State of the State of the State of the State of the State of the State of the State of the State of the State of the State of the State of the State of the State of the State of the State 
-70
-Apple 180
-1
-1
-16
 
 ## PDF page 11
 
@@ -14520,59 +14511,40 @@ sumed B to be an internal point, or <math>T\iota < T\kappa</math>, <math>T\gamma
 ## PDF page 302
 
 228
-BOOK II.
+
 ELEMENTS OF QUATERNIONS.
-proved, by conceiving the variable chord AD of the given discentric sphere to take the
-position AG; where G is the second intersection of the line AB with that spheric sur-
-face.
-(2.) If D be conceived to approach to A (instead of G), and therefore D to G
-(instead of A), the direction of AE (or of AD) then tends to become tangential to the
-sphere at A, while the length of AE (or of BD') tends, by the construction, to become
-equal to the length of BG; the surface has therefore a diametral and circular section,
-in a plane which touches the diacentric sphere at A, and with a radius = BG.
-(3.) Conceive a circular section of the sphere through A, made by a plane perpen
-dicular to BC; if D move along this circle, D' will move along a parallel circle through
-Pelha a ser's
-G, and the length of BD', or that of AE, will again be equal to BG; such then is the
-radius of a second diametral and circular section of the ellipsoid, made by the lately
-mentioned plane.
-(4.) The construction gives us thus two cyclic planes through A; the perpendi-
-culars to which planes, or the two cyclic normals (216, (7.)) of the ellipsoid, are
-seen to have the directions of the two sides, CA, CB, of the generating triangle ABC
-(1.).
-134
+
+[BOOK II.
+
+proved, by conceiving the variable chord AD of the given diacentric sphere to take the position AG; where G is the second intersection of the line AB with that spheric surface.
+
+(2.) If D be conceived to approach to A (instead of G), and therefore D' to G (instead of A), the direction of AE (or of AD) then tends to become tangential to the sphere at A, while the length of AE (or of BD') tends, by the construction, to become equal to the length of BG; the surface has therefore a diametral and circular section, in a plane which touches the diacentric sphere at A, and with a radius = BG.
+
+(3.) Conceive a circular section of the sphere through A, made by a plane perpen dicular to BC; if D move along this circle, D' will move along a parallel circle through G, and the length of BD', or that of AE, will again be equal to BG; such then is the radius of a second diametral and circular section of the ellipsoid, made by the lately mentioned plane.
+
+(4.) The construction gives us thus two cyclic planes through A; the perpendiculars to which planes, or the two cyclic normals (216, (7.)) of the ellipsoid, are seen to have the directions of the two sides, CA, CB, of the generating triangle ABC (1.).
+
 (5.) Again, since the rectangle
-of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state o
-BA . BG = BD . BD' = BD . AE = double area of triangle ABE : sin BDE,
+
+\(\overline{\mathrm{BA}}.\overline{\mathrm{BG}}=\overline{\mathrm{BD}}.\overline{\mathrm{BD}^{\prime}}=\overline{\mathrm{BD}}.\overline{\mathrm{AE}}=\mathrm{double area of triangle ABE}:\sin BDE,\)
+
 we have the equation,
-XXVIII. . . perpendicular distance of E from AB = BG . sin BDE;
-the third side, AB, of the generating triangle (1.), is therefore the axis of revolution
-36
-of a cylinder, which envelopes the ellipsoid, and of which the radius has the same
-The
-length, BG, as the radius of each of the two diametral and circular sections.
-(6.) For the points of contact of ellipsoid and cylinder, we have the geometrical
-relation,
-Lane.
-XXIX... BDE = a right angle; or XXIX'... ADB = a right angle;
-the point p is therefore situated on a second spheric surface, which has the line AB
-for a diameter, and intersects the diacentric sphere in a circle, whereof the plane passes
-through A, and cuts the enveloping cylinder in an ellipse of contact (comp. 204,
-(15.), and 216, (9.)), of that cylinder with the ellipsoid.
-(7.) Let AC meet the diacentric sphere again in F, and let BF meet it again in F'
-(as in Fig. 53); the common plane of the last-mentioned circle and ellipse (6.) can
-then be easily proved to cut perpendicularly the plane of the generating triangle ABC
-in the line AF'; so that the line F'B is normal to this plane of contact; and there-
-fore also (by conjugate diameters, &c.) to the ellipsoid, at B.
-(8.) These geometrical consequences of the construction (217), to which many
-others might be added, can all be shown to be consistent with, and confirmed by, the
-quaternion analysis from which that construction itself was derived. Thus, the two
-circular sections (2.) (3.) had presented themselves in 216, (7.); and their two cy-
-clic normals (4.), or the sides CA, CB of the triangle, being (by 217, (4.)) the two
-vectors <math>\kappa</math>, <math>\iota</math>, have (by 217, (1.) or (3.)) the directions of the two former vectors <math>\gamma</math>, <math>\delta</math>;
-which again agrees with 216, (7.).
-(9.) Again, it will be found that the assumed relations between the three pairs of
-constant vectors, <math>\alpha</math>, <math>\beta</math>; <math>\gamma</math>, <math>\delta</math>; and <math>\iota</math>, <math>\kappa</math>, any one of which pairs is sufficient to deter-
+
+XXVIII. . . perpendicular distance of E from AB = BG . sin BDE ;
+
+the third side, AB, of the generating triangle (1.), is therefore the axis of revolution of a cylinder, which envelopes the ellipsoid, and of which the radius has the same length, EG, as the radius of each of the two diametral and circular sections.
+
+(6.) For the points of contact of ellipsoid and cylinder, we have the geometrical relation,
+
+XXIX. . . BDE = a right angle; or XXIX'. . . ADB = a right angle;
+
+the point D is therefore situated on a second spheric surface, which has the line AB for a diameter, and intersects the diacentric sphere in a circle, whereof the plane passes through A, and cuts the enveloping cylinder in an ellipse of contact (comp. 204, (15.), and 216, (9.)), of that cylinder with the ellipsoid.
+
+(7.) Let AC meet the diacentric sphere again in F, and let BF meet it again in F' (as in Fig. 53); the common plane of the last-mentioned circle and ellipse (6.) can then be easily proved to cut perpendicularly the plane of the generating triangle ABC in the line AF'; so that the line F'B is normal to this plane of contact; and therefore also (by conjugate diameters, &c.) to the ellipsoid, at B.
+
+(8.) These geometrical consequences of the construction (217), to which many others might be added, can all be shown to be consistent with, and confirmed by, the quaternion analysis from which that construction itself was derived. Thus, the two circular sections (2.) (3.) had presented themselves in 216, (7.); and their two cyclic normals (4.), or the sides CA, CB of the triangle, being (by 217, (4.)) the two vectors \(\kappa\), \(\iota\), have (by 217, (1.) or (3.)) the directions of the two former vectors \(\gamma\), \(\delta\); which again agrees with 216, (7.).
+
+(9.) Again, it will be found that the assumed relations between the three pairs of constant vectors, \(a\), \(\beta\); \(\gamma\), \(\delta\); and \(\iota\), \(\kappa\), any one of which pairs is sufficient to deter-
 
 ## PDF page 303
 
@@ -23641,46 +23613,54 @@ ticipated.
 ## PDF page 500
 
 426
-BOOK III.
+
 ELEMENTS OF QUATERNIONS.
-constructed, as the ordinate of a plane curve; and the recent geometrical* reasoning
-will thus apply to each of them, and therefore to their linear combination Fx: which
-quaternion function reduces itself to a vector function of x, when <math>W=0</math>.
-(7.) And if <math>\psi x</math> were another quaternion or vector function, we might first sub-
-stitute it for <math>Fx</math>, and then eliminate the scalar function <math>\phi x</math>; so that a limiting equa-
-tion of the form IX. may thus be proved to hold good, when both the functions com-
-pared are vectors, or quaternions, supposed still to vanish with x.
-(8.) The general considerations, however, on which the equation IX. was lately
-established, appear to be more simple and direct; and it is evident that they give,
-in like manner, this other but analogous equation, in which <math>F''x</math> and <math>\phi''x</math> are second
-derivatives, and the conditions VIII. are now supposed to be satisfied:
-XV... <math>\lim_{x=0} (F'x : \phi'x) = \lim_{x=0} (F''x : \phi''x)</math>, if <math>F'0 = 0</math>, <math>\phi'0 = 0</math>.
-And so we might proceed, as long as successive derivatives, of higher orders, conti-
-nue to vanish together.
+
+[BOOK III.
+
+constructed, as the ordinate of a plane curve; and the recent geometrical* reasoning will thus apply to each of them, and therefore to their linear combination \( Fx \): which quaternion function reduces itself to a vector function of \( x \), when \( W = 0 \).
+
+(7.) And if \(\psi x\) were another quaternion or vector function, we might first substitute it for \(Fx\), and then eliminate the scalar function \(\phi x\); so that a limiting equation of the form IX. may thus be proved to hold good, when both the functions compared are vectors, or quaternions, supposed still to vanish with \(x\).
+
+(8.) The general considerations, however, on which the equation IX, was lately established, appear to be more simple and direct; and it is evident that they give, in like manner, this other but analogous equation, in which \( F''x \) and \( \phi''x \) are second derivatives, and the conditions VIII. are now supposed to be satisfied:
+
+\[
+\mathrm{XV} \dots \lim _ {x = 0} (F ^ {\prime} x: \phi^ {\prime} x) = \lim _ {x = 0} (F ^ {\prime \prime} x: \phi^ {\prime \prime} x), \quad \text {if} \quad F ^ {\prime} 0 = 0, \phi^ {\prime} 0 = 0.
+\]
+
+And so we might proceed, as long as successive derivatives, of higher orders, continue to vanish together.
+
 (9.) Hence, in particular, if we take this scalar form,
-XVI. <math>\phi x = \frac{x^m}{2 \cdot 3 \cdot \dots m}</math>
+
+\[
+\mathrm{XVI} \dots \phi x = \frac {x ^ {m}}{2 . 3 \dots m},
+\]
+
 which evidently gives the values,
-XVII. <math>\phi = 0</math>, <math>\phi' = 0</math>, <math>\phi'' = 0</math>, <math>\phi'' = 0</math>, <math>\phi'' = 0</math>, <math>\phi'' = 0</math>, <math>\phi'' = 0</math>, <math>\phi'' = 0</math>, <math>\phi'' = 0</math>, <math>\phi'' = 0</math>, <math>\phi'' = 0</math>, <math>\phi'' = 0</math>, <math>\phi'' = 0</math>, <math>\phi'' = 0</math>, <math>\phi'' = 0</math>, <math>\phi'' = 0</math>, <math>\phi'' = 0</math>, <math>\phi'' = 0</math>, <math>\phi'' = 0</math>, <math>\phi'' = 0</math>
-and if we suppose that the function <math>F_x</math> is such that
-XVIII... <math>F0 = 0</math>, <math>F''0 = 0</math>, <math>F'''0 = 0</math>, ... <math>F^{(m-1)}0 = 0</math>,
-while <math>F^{(m)}</math>0 has any finite value, we may then establish this limiting equation:
-XIX... <math>\lim_{x=0} (Fx : \phi x) = F^{(m)}0</math>;
-in which the function <math>Fx</math>, and the value <math>F^{(m)}0</math>, are here supposed to be generally
-quaternions; although they may happen, in particular cases, to reduce themselves
-(292) to vectors, or to scalars.
-* Instead of the equation IX., it has become usual, in modern works on the Dif-
-ferential Calculus, to give one of the following form (deduced from principles of La-
-grange):
-<math display="block">\frac{F(x)}{\phi(x)} = \frac{F'(\theta x)}{\phi'(\theta x)}, \quad \text{if} \quad F(0) = \phi(0) = 0;</math>
-<math>\theta</math> denoting some proper fraction, or quantity between 0 and 1. And a geometrical
-illustration, which is also a geometrical proof, when the functions <math>Fx</math> and <math>\phi x</math> can be
-constructed (or conceived to be constructed) as the ordinates of two plane curves, is
-sometimes derived from the axiom (or geometrical intuition), that the chord of any
-finite and plane arc must be parallel to the tangent, drawn at some point of that
-finite arc. But this parallelism no longer exists, in general, when the curve is one
-of double curvature; and accordingly the equation in this Note is not generally true,
-when the functions are quaternions; or even when one of them is a quaternion, or
-a vector.
+
+\[
+\mathrm{XVII.} \dots \phi 0 = 0, \quad \phi^ {\prime} 0 = 0, \quad \phi^ {\prime \prime} 0 = 0, \dots \phi^ {(m - 1)} 0 = 0, \quad \phi^ {(m)} 0 = 1,
+\]
+
+and if we suppose that the function Fx is such that
+
+\[
+\text {XVIII.} \dots F 0 = 0, \quad F ^ {\prime} 0 = 0, \quad F ^ {\prime \prime} 0 = 0, \dots F ^ {(m - 1)} 0 = 0,
+\]
+
+while  \( F^{(m)}0 \)  has any finite value, we may then establish this limiting equation:
+
+\[
+\text {XIX.} \dots \lim _ {x = 0} (F x: \phi x) = F ^ {(m)} 0;
+\]
+
+in which the function \( Fx \), and the value \( F^{(m)}0 \), are here supposed to be generally quaternions; although they may happen, in particular cases, to reduce themselves (292) to vectors, or to scalars.
+
+* Instead of the equation IX., it has become usual, in modern works on the Differential Calculus, to give one of the following form (deduced from principles of Lagrange):
+
+\(\frac{F(x)}{\phi(x)} = \frac{F'(\theta x)}{\phi'(\theta x)},\quad \text{if}\quad F(0) = \phi (0) = 0;\)
+
+θ denoting some proper fraction, or quantity between 0 and 1. And a geometrical illustration, which is also a geometrical proof, when the functions Fx and φx can be constructed (or conceived to be constructed) as the ordinates of two plane curves, is sometimes derived from the axiom (or geometrical intuition), that the chord of any finite and plane arc must be parallel to the tangent, drawn at some point of that finite arc. But this parallelism no longer exists, in general, when the curve is one of double curvature; and accordingly the equation in this Note is not generally true, when the functions are quaternions; or even when one of them is a quaternion, or a vector.
 
 ## PDF page 501
 
@@ -32465,47 +32445,55 @@ which quaternions can be combined with co-ordinates, whenever the geometrical na
 
 ## PDF page 687
 
+CHAP. III.] OSCULATING TWISTED CUBIC TO HELIX.
+
 613
-CHAP. III.
-OSCULATING TWISTED CUBIC TO HELIX.
-particular curve, instead of those which were developed generally in 398, LVIII.
-but only as far as s4 inclusive:
-VII. . . <math>x_s = l^3(\mathbf{r}^{-2}t + r^{-2}\sin t)</math>; <math>y_s = l^2r^{-1}\operatorname{vers} t</math>; <math>z_s = l^3r^{-1}\mathbf{r}^{-1}(t - \sin t)</math>;
-where l and t are an auxiliary constant and variable, namely,
-VIII... <math>l = (r^{-2} + r^{-2})^{-\frac{1}{2}} = r \sin H</math>, <math>t = l^{-1}s</math>,
-I being thus what was denoted in earlier formulæ by <math>T\lambda^{-1}</math>, and t being the angle be-
-tween two axial planes; while the origin is still placed at the point P of the curve,
-and the tangent, normal, and binormal are still made the axes of <math>xyz</math>.
-(3.) The cone of the second order, 398, (40.), which has generally a contact of
-the fifth order with a proposed curve in space, at a point r taken for vertex, has in
-this case of the helix the equation (comp. 398, LVII.* and LXIX.),
-IX. . . <math>y^2 = \frac{3}{2} \frac{r}{r} \left\{ x + \left( \frac{3}{10} \frac{r}{r} - \frac{7}{10} \frac{r}{r} \right) z \right\} z</math>.
-Accordingly it can be shown, by elementary methods, that if we write, for a mo-
-ment,
-X. . . <math>f(t) = 3(t - \sin t)(3t + 7\sin t) - 20 \text{ vers}^2 t</math>
+
+particular curve, instead of those which were developed generally in 398, LVIII., but only as far as \( s^4 \) inclusive:
+
+\[
+\text {VII.} \dots x _ {s} = l ^ {3} \left(\mathrm{r} ^ {- 2} t + r ^ {- 2} \sin t\right); \quad y _ {s} = l ^ {2} r ^ {- 1} \text {vers} t; \quad z _ {s} = l ^ {3} r ^ {- 1} \mathrm{r} ^ {- 1} (t - \sin t);
+\]
+
+where \(l\) and \(t\) are an auxiliary constant and variable, namely,
+
+\[
+\text {VIII.} \dots l = (r ^ {- 2} + r ^ {- 2}) ^ {- \frac {1}{2}} = r \sin H, \quad t = l ^ {- 1} s,
+\]
+
+\(l\) being thus what was denoted in earlier formulae by \(\mathrm{T}\lambda^{-1}\), and \(t\) being the angle between two axial planes; while the origin is still placed at the point \(\mathbb{P}\) of the curve, and the tangent, normal, and binormal are still made the axes of \(xyz\).
+
+(3.) The cone of the second order, 398, (40.), which has generally a contact of the fifth order with a proposed curve in space, at a point P taken for vertex, has in this case of the helix the equation (comp. 398, LVII.* and LXIX.),
+
+\[
+\mathrm{IX.} \dots y ^ {2} = \frac {3}{2} \frac {\mathrm{r}}{r} \left\{x + \left(\frac {3}{1 0} \frac {\mathrm{r}}{r} - \frac {7}{1 0} \frac {r}{\mathrm{r}}\right) z \right\} z.
+\]
+
+Accordingly it can be shown, by elementary methods, that if we write, for a moment,
+
+\[
+\mathrm{X} \dots f (t) = 3 (t - \sin t) (3 t + 7 \sin t) - 2 0 \text {vers} ^ {2} t,
+\]
+
 we have the eight evanescent values,
-XI. . . <math>f0 = f'0 = f''0 = f'''0 = f^{vv}0 = f^{v}0 = f^{vv}0 = f^{vv}0 = f^{vv}0 = f^{vv}0 = f^{vv}0 = f^{vv}0 = f^{vv}0 = f^{vv}0 = f^{vv}0 = f^{vv}0 = f^{vv}0 = f^{vv}0 = f^{vv}0 = f^{vv}0 = f^{vv}0 = f^{vv}0 = f^{vv}0</math>
-whence it is easy to infer that this cone IX. has (in the present example, although
-not generally) a contact as high as the sixth order with the curve, of which the
-co-ordinates have here the expressions VII.; and consequently that the cone in ques-
-tion must wholly contain the osculating twisted cubic to that curve.
-ture of a question may render it convenient so to combine them, by offering to our
-notice any obvious planes of reference. If it be thought useful to pass to a system
-connected more immediately with the right cylinder than with the helix, we may
-write,
-VII'... <math display="block">\begin{cases} x_s = l(r^{-1}x_s - r^{-1}z_s) = l^2r^{-1}\sin t, \\ y_s = l^2r^{-1} - y_s = l^2r^{-1}\cos t, \end{cases}</math>
-where <math>l^2r^{-1} = r \sin^2 H</math> is the radius of the cylinder, with converse formulæ easily as-
-signed.
-* In the corresponding equation 398, LXVII., the coefficient of 6ac ought to
-have been printed as <math>\left(\frac{\mathbf{r}}{r}\right)^3</math>, like the coefficient of <math>6xz</math> in the equation LVII.
-+ Or in modern language, seven-point contact, in the sense that the cone passes.
-in this case, through seven consecutive points of the curve. It may be remarked
-that the gauche curve of the fourth degree, or the quartic curve, in which this cone
-cuts the cylinder of revolution whereon the heltx is traced (cutting also in it a cer-
-tain other cylinder of the second order), and which has the point P for a double point,
-crosses the helix by one of its two branches at that point, while it has seven-point
-contact with the same helix by its other branch; and that thus the fact of calcula-
-tion, expressed by the formula XI., is geometrically accounted for.
+
+\[
+\mathrm{XI}. \dots f 0 = f ^ {\prime} 0 = f ^ {\prime \prime} 0 = f ^ {\prime \prime \prime} 0 = f ^ {\mathrm{IV}} 0 = f ^ {\mathrm{V}} 0 = f ^ {\mathrm{VI}} 0 = f ^ {\mathrm{VII}} 0 = 0;
+\]
+
+whence it is easy to infer that this cone IX. has (in the present example, although not generally) a contact as high as the sixth order† with the curve, of which the co-ordinates have here the expressions VII.; and consequently that the cone in question must wholly contain the osculating twisted cubic to that curve.
+
+ture of a question may render it convenient so to combine them, by offering to our notice any obvious planes of reference. If it be thought useful to pass to a system connected more immediately with the right cylinder than with the helix, we may write,
+
+\[
+\mathbf {V I I ^ {\prime}}. \dots \left\{ \begin{array}{l} \mathrm{x} _ {s} = l (r ^ {- 1} x _ {s} - \mathrm{r} ^ {- 1} z _ {s}) = l ^ {2} r ^ {- 1} \sin t, \\ \mathrm{y} _ {s} = l ^ {2} r ^ {- 1} - \mathrm{y} _ {s} \quad = l ^ {2} r ^ {- 1} \cos t, \\ \mathrm{z} _ {s} = l (\mathrm{r} ^ {- 1} x _ {s} + r ^ {- 1} z _ {s}) = l ^ {2} \mathrm{r} ^ {- 1} t, \end{array} \right.
+\]
+
+where  \( l^{2}r^{-1}=r\sin^{2}H \)  is the radius of the cylinder, with converse formulae easily assigned.
+
+* In the corresponding equation 398, LXVII., the coefficient of 6ac ought to have been printed as \(\left(\frac{r}{r}\right)^3\), like the coefficient of 6xz in the equation LVII.
+
+† Or in modern language, seven-point contact, in the sense that the cone passes, in this case, through seven consecutive points of the curve. It may be remarked that the gauche curve of the fourth degree, or the quartic curve, in which this cone cuts the cylinder of revolution whereon the helix is traced (cutting also in it a certain other cylinder of the second order), and which has the point P for a double point, crosses the helix by one of its two branches at that point, while it has seven-point contact with the same helix by its other branch; and that thus the fact of calculation, expressed by the formula XI., is geometrically accounted for.
 
 ## PDF page 688
 

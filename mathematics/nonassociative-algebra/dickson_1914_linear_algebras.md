@@ -10,6 +10,8 @@ Transcription of `dickson_1914_linear_algebras.pdf` in this directory, 92 pages;
 
 Method: pages 1-92 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
+Second engine: MinerU2.5-Pro 2605 read pages 5, 29, 89, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+
 ## PDF page 1
 
 w
@@ -74,24 +76,15 @@ http://www.archive.org/details/linearalgebras00dickuoft
 
 ## PDF page 5
 
-1214
-8
-Cambridge Tracts in Mathematics
-and Mathematical Physics
+Cambridge Tracts in Mathematics and Mathematical Physics
+
 GENERAL EDITORS
 G. H. HARDY, M.A., F.R.S.
 J. G. LEATHEM, M.A.
-DAMERSON TO STREET BRIDES
-A. A. CELLEY PRODUCES
-A THE LANGE CONTRACTOR
-CHARLES AND ACTION OF THE PERSON OF
+
 No. 16
+
 LINEAR ALGEBRAS
-REDE LESS STEEL AND SERVICE
-AND THE RESIDENCE STREET, THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF T
-all the second second
-AND DESCRIPTION OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PART
-CONTRACTOR OF THE PARTY.
 
 ## PDF page 6
 
@@ -1071,48 +1064,62 @@ is a misprint in the sign of <math>Rt</math>.
 ## PDF page 29
 
 § 15]
+
 CHARACTERISTIC DETERMINANT
+
 17
-Multiply the linear equations by <math>C_1(x) \epsilon</math>, ..., <math>C_n(x) \epsilon</math> on the left.
-Then (§ 10)
-<math>\delta(x)e_i=0</math>
-<math>(j=1,...,n).</math>
-Multiply by <math>\epsilon_j</math> and sum, where <math>\sum \epsilon_j e_j = \epsilon</math>. Thus <math>\delta(x) \epsilon = 0</math>. Starting
-with <math>e_j x</math>, we obtain the second part of
-Theorem 1. In a linear associative algebra with a principal unit,
-the general number x is a root of the right-hand and left-hand charac-
-teristic equations <math>\delta(\omega) = 0</math>, <math>\delta'(\omega) = 0</math>, respectively, where
-<math display="block">\delta\left(\omega\right) = \left| \begin{array}{c} n \\ \sum \\ i=1 \end{array} \gamma_{ijk} x_i - \delta_{jk} \omega \right|, \quad \delta'\left(\omega\right) = \left| \begin{array}{c} n \\ \sum \\ i=1 \end{array} \gamma_{jik} x_i - \delta_{jk} \omega \right|</math>
-<math>(j, k = 1, ..., n)</math> (40).
-Here <math>\delta_{jk}</math> is Kronecker's symbol (§ 7). These determinants are
-called the right- and left-hand characteristic determinants, respectively.
-The same definitions are made for any linear algebra. Thus the
-characteristic determinants are derived from the determinants <math>\Delta(x)</math>
-and <math>\Delta'(x)</math> of § 6 by subtracting <math>\omega</math> from each element of the main
-diagonals.
-For any linear algebra with a principal unit <math>\epsilon = \sum \epsilon_i e_i</math>, there is a
-deeper relation between these pairs of determinants.
-Then
-<math display="block">\sum_{i=1}^{n} (x_i - \omega \epsilon_i) \gamma_{ijk} = \sum_{i=1}^{n} x_i \gamma_{ijk} - \omega \delta_{jk},</math>
-<math display="block">\sum_{i=1}^{n} (x_i - \omega \epsilon_i) \gamma_{jik} = \sum_{i=1}^{n} x_i \gamma_{jik} - \omega \delta_{jk},</math>
-by (26).
-Hence
-<math>\Delta(x-\omega\epsilon)\equiv\delta(\omega), \quad \Delta'(x-\omega\epsilon)\equiv\delta'(\omega)</math>
-(41).
+
+Multiply the linear equations by \( C_1(x) \epsilon, \ldots, C_n(x) \epsilon \) on the left. Then (§ 10)
+
+\[
+\delta (x) e _ {j} = 0 \quad (j = 1, \dots , n).
+\]
+
+Multiply by \(\epsilon_{j}\) and sum, where \(\Sigma \epsilon_{j}e_{j} = \epsilon\). Thus \(\delta(x)\epsilon = 0\). Starting with \(e_{j}x\), we obtain the second part of
+
+THEOREM 1. In a linear associative algebra with a principal unit, the general number \( x \) is a root of the right-hand and left-hand characteristic equations \( \delta(\omega) = 0 \), \( \delta'(\omega) = 0 \), respectively, where
+
+\[
+\begin{array}{l} \delta (\omega) = \left| \sum_ {i = 1} ^ {n} \gamma_ {i j k} x _ {i} - \delta_ {j k} \omega \right|, \quad \delta^ {\prime} (\omega) = \left| \sum_ {i = 1} ^ {n} \gamma_ {j i k} x _ {i} - \delta_ {j k} \omega \right| \\ (j, k = 1, \dots , n) \tag {40}. \\ \end{array}
+\]
+
+Here \(\delta_{jk}\) is Kronecker's symbol (§ 7). These determinants are called the right- and left-hand characteristic determinants, respectively. The same definitions are made for any linear algebra. Thus the characteristic determinants are derived from the determinants \(\Delta(x)\) and \(\Delta'(x)\) of § 6 by subtracting \(\omega\) from each element of the main diagonals.
+
+For any linear algebra with a principal unit  \( \epsilon=\Sigma\epsilon_{i}e_{i} \) , there is a deeper relation between these pairs of determinants. Then
+
+\[
+\sum_ {i = 1} ^ {n} \left(x _ {i} - \omega \epsilon_ {i}\right) \gamma_ {i j k} = \sum_ {i = 1} ^ {n} x _ {i} \gamma_ {i j k} - \omega \delta_ {j k},
+\]
+
+\[
+\sum_ {i = 1} ^ {n} \left(x _ {i} - \omega \epsilon_ {i}\right) \gamma_ {j i k} = \sum_ {i = 1} ^ {n} x _ {i} \gamma_ {j i k} - \omega \delta_ {j k},
+\]
+
+by (26): Hence
+
+\[
+\Delta (x - \omega \epsilon) \equiv \delta (\omega), \quad \Delta^ {\prime} (x - \omega \epsilon) \equiv \delta^ {\prime} (\omega) \tag {41}
+\]
+
 As multiplication may not be associative, we shall write
-<math>x^{1} = x</math>, <math>x^{i+1} = x^{i}x</math>, <math>x^{1} = x^{i}x</math>, <math>x^{i+1} = x^{i}x</math>, <math>x^{i+1} = x^{i}x</math>, <math>x^{i+1} = x^{i}x</math>, <math>x^{i+1} = x^{i}x</math>, <math>x^{i+1} = x^{i}x</math>, <math>x^{i+1} = x^{i}x</math>, <math>x^{i+1} = x^{i}x</math>, <math>x^{i+1} = x^{i}x</math>, <math>x^{i+1} =</math>
-and, in case there is a modulus <math>\epsilon</math>, <math>x^0 = {}^0x = \epsilon</math>. If <math>\sum t_i x^i = 0</math>, <math>x</math> is called
-a right-hand root of <math>\Sigma t_i \omega^i = 0</math>. If <math>\Sigma t_i(^i x) = 0</math>, x is called a left-hand
-root of <math>\sum t_i \omega^i = 0</math>. We shall prove
-THEOREM 2. In any linear algebra with a principal unit, the
-general number is a left-hand root of the right-hand characteristic
-equation and a right-hand root of the left-hand characteristic equation.
-Without loss of generality (§ 16), we may assume that the principal
-unit is <math>e_1 = 1</math>. By (41), <math>\delta(\omega)</math> and <math>\delta'(\omega)</math> are derived from <math>\Delta(x)</math> and
-<math>\Delta'(x)</math> by replacing <math>x_1</math> by <math>x_1 - \omega</math>. Set
-<math display="block">\delta(\omega) = \Delta(x - \omega) = \sum_{i=0}^{n} r_i \omega^i.</math>
-2
+
+\[
+x ^ {1} = x, \quad x ^ {i + 1} = x ^ {i} x, \quad^ {1} x = x, \quad^ {i + 1} x = x \left(^ {i} x\right) \quad (i = 1, 2, \dots),
+\]
+
+and, in case there is a modulus \(\epsilon\), \(x^{\rho} = ^{0}x = \epsilon\). If \(\Sigma t_{i}x^{i} = 0\), \(x\) is called a right-hand root of \(\Sigma t_{i}\omega^{i} = 0\). If \(\Sigma t_{i}(^{i}x) = 0\), \(x\) is called a left-hand root of \(\Sigma t_{i}\omega^{i} = 0\). We shall prove
+
+THEOREM 2. In any linear algebra with a principal unit, the general number is a left-hand root of the right-hand characteristic equation and a right-hand root of the left-hand characteristic equation.
+
+Without loss of generality (§ 16), we may assume that the principal unit is \( e_1 = 1 \). By (41), \( \delta(\omega) \) and \( \delta'(\omega) \) are derived from \( \Delta(x) \) and \( \Delta'(x) \) by replacing \( x_1 \) by \( x_1 - \omega \). Set
+
+\[
+\delta (\omega) = \Delta (x - \omega) = \sum_ {i = 0} ^ {n} r _ {i} \omega^ {i}.
+\]
+
 D.
+
+2
 
 ## PDF page 30
 
@@ -3492,19 +3499,7 @@ AT THE UNIVERSITY PRESS
 
 ## PDF page 89
 
-3
-1
 
-1
-
-ACCESSED AND DESCRIPTION OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF
-1
-
-.
-19
-1
-1
-5
 
 ## PDF page 90
 

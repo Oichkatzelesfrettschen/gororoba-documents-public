@@ -10,6 +10,8 @@ Transcription of `girard_1629_invention_nouvelle_en_lalgebre.pdf` in this direct
 
 Method: pages 1-77 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
+Second engine: MinerU2.5-Pro 2605 read page 3, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+
 ## PDF page 1
 
 . . . . . . . . . . . . . . . . . . . .
@@ -23,20 +25,13 @@ Digitized by Google
 
 ## PDF page 3
 
-Investment house in
-EN
-ALGEBRI
-- 1 2
-PLANET GIRAND
-SECTION ATTICLES.
-the second second second second second second second second second second second second second second second second second second second second second second second second second second second second second second second s
-and the second second second second second second second second second second second second second second second second second second second second second second second second second second second second second second seco
-- Company of the Company of the Company of the Company of the Company of the Company of the Company of the Company of the Company of the Company of the Company of the Company of the Company of the Company of the Company of
-The design fellower
 <36631825070011
+
 <36631825070011
+
 Bayer. Staatsbibliothek
-Digitized by Go
+
+Digitized by Google
 
 ## PDF page 4
 

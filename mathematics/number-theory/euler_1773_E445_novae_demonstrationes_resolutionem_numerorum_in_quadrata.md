@@ -10,6 +10,8 @@ Transcription of `euler_1773_E445_novae_demonstrationes_resolutionem_numerorum_i
 
 Method: pages 1-22 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
+Second engine: MinerU2.5-Pro 2605 read pages 6, 12, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+
 ## PDF page 1
 
 ) 48 ( Se
@@ -187,32 +189,41 @@ vbi ergo z minor erit quam Ny quia p ZN et q ZN
 
 ## PDF page 6
 
-- - - - - - - - - - - - - - - - - - - 
-<math>p</math> tam after numeros <math>p</math> et <math>q</math> per numerum <math>n</math> ita <math>p = a + an</math> et <math>q = b + \beta n</math>; vbi <math>p = a + an</math> et <math>p = a + \beta n</math>; vbi <math>p = a + an</math> et <math>p = a + an</math> et <math>p = a + an</math> et <math>p = a + an</math> et <math>p = a + an</math> et <math>p = a + an</math> et <math>p</math>
-Tum vero
-<math>N_{P} = aa + bb + 2n(a\alpha + b\beta) + nn(a\alpha + \beta\beta).</math>
-Let give an Lemmate praemific erat <math>a\alpha + b\beta = A</math>, fiet.
+53. (
 
-Hnius ergo expressionis primum membrum aa+bb
-aconeme habcat necesse est n, quia reliqua membra iam
-sper le somitorem n'activité Statuamus ergo aa+bb=nn',
-control <math>n</math> et <math>b \le n</math>, ideoque <math>nn \le nn</math>, erit vtique <math>nn \le nn</math>, erit vtique <math>nn \le nn</math>, erit vtique <math>nn \le nn</math>, ideoque <math>nn \le nn</math>, erit vtique <math>nn \le nn</math>, ideoque <math>nn \le nn</math>, erit vtique <math>nn \le nn</math>, ideoque <math>nn \le nn</math>, ideoqu
-Hanc acquationem ducamus in n'et quia nn'=aa+bb,
-collisemum membrum per Lemina praemillam reducitur ad
-<math>(aa+\beta\beta)</math> <math>(aa+\beta\beta)</math> <math>(aa+\beta\beta)</math>
-The second state of the second second second second second second second second second second second second second second second second second second second second second second second second second second second second se
-<math>Np' = n'n' + 2n'A + AA + BB</math>
-quae expressio manifesto est summa duorum quadratorum,
-TOURSE TAILS WITHOUT TOURS IN THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE 
-PANW CHARLES BELLEVILLE OF PRINCES
-<b>Exista Quen</b> 1erzo, prictio fuidet productum. Na fumma
-diorgia quadratorum, indeque luc elicuerimus productum
-mins No cham acquale from ae diorum quadratorum,
-edem modo ad talia producta continuo minora periingere
-ncebit, scilicer N n", N n" etc. Necesse igitur est vt tan-
-em ad productum minimum scilicet N. 1 perueniatur, sic-
-que ple numerus propolitus N quoque erit summa duo-
-um quadratorum.
+2. Fam iros numeros p et q per numerum n ita
+xorimere hicebit, vt fit p = a + a n et q = b + β n; vbi
+dfriferai a numeris negatius pro a et b, eas infra n
+dfriferai hedit, vti iam initio oblerauimus. Tum vero
+
+\[
+N = a \alpha + b b + 2 n (\alpha \alpha + b \beta) + n n (\alpha \alpha + \beta \beta).
+\]
+
+Remark 2. Lemmare praemiflo erat \(a\alpha + b\beta = A\), fiet. \(N\stackrel{\sim}{n} = a\stackrel{\sim}{a} + b\stackrel{\sim}{b} + 2nA + nn(\alpha\alpha + \beta\beta)\).
+
+Hnius ergo expreflionis primum membrum \(aa+bbb\) fortem habcat necefe eft \(n\), quia reliqna membra iam per le duiu rem \(n\) admitunt. Statuamus ergo \(aa+bb=nn'\), or quia \(a\leq n\) et \(b\leq n\), ideoque \(nn'\leq n\cdot n\), erit vtique \(n\leq n\). Hoc autem valore fubfituto et diuifone per \(n\)
+
+\[
+\mathrm{A} = n + 2 \mathrm{A} + n (\alpha \alpha + \beta \beta).
+\]
+
+Hanc equationem ducamus in \(n^{t}\)-et-quia \(nn^{t}=aa+bb\), potromum, membrum per Lemma praemifum reducitur ad \(m^{t}=(\alpha\alpha+\beta\beta)=(\alpha\alpha+b\beta)(\alpha\alpha+\beta\beta)=\mathrm{A}\cdot\mathrm{A}+\mathrm{BB}\),
+
+\[
+\mathrm{N} x ^ {\prime} = x ^ {\prime} x ^ {\prime} + 2 x ^ {\prime} \mathrm{A} + \mathrm{A} \mathrm{A} + \mathrm{B} \mathrm{B}
+\]
+
+quae expretto manifetto eif luminia duorum quadratorum,
+
+\[
+N = r ^ {\prime} = (z ^ {\prime} - A) ^ {2} + B ^ {2} - 1
+\]
+
+Quin ergo initio fuilet productum N n fumma duorum quadratorum, indeque hic elcherimus productum minus N n' etiam aequale fummae duorum quadratorum, edema modo ad talia producta continuo minora peringere febit, ficlicer N n", N n" etc. Necèfe igitur eft vt tandem ad productum minimum ficlicer N. x perueniatur, ficque piple numerus propofitus N quoque erit fumma duo- cum quadratorum.
+
+G 3
+
 Corol-
 
 ## PDF page 7
@@ -398,36 +409,67 @@ Lemma
 
 ## PDF page 12
 
-the first that Leam ma-IV.
-The Sun Sun Droductum ex duobus planibusue numeris, qui
-Tipodi Pini-juninae quatuor quadratorum, semper quoque per
-funniam quavuor quadratorum exprimi potest
-Spring production:
-<math display="block">(a \alpha + b \beta + c c + d d)(a \alpha + \beta \beta + \gamma \gamma + \delta \delta)</math>
-a transfer of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of 
-<math display="block">A = aa + bB + a + d\delta</math>
-B=a ambang op +d Among amount to some
-<math display="block">\mathbf{C} = a \gamma + b \delta = c \alpha - d \beta</math>
-<math display="block">\mathbf{D} = a \, \delta - b \, \gamma + c \, \beta - d \, \alpha</math>
-ropimque aquadratorum fumma erit
-<math display="block">A = B + C + D^2 = (a^3 + b^2 + c^2 + d^2)(a^2 + \beta^2 + \gamma^2 + \delta^2)</math>
-er confession enim est singula producta ex binis partibus se
-munio destrucrence singula quadrata litterarum Latinarum
-an lingula Graecarum duci.
+) 59 (
+
+Lemma IV.
+
+Productum ex. duobus pluribusue numeris, qui
+fumii junti fuminae quatuor quadratorum, semper quoque per
+fumman quatuor quadratorum exprimi poteft.
+
+Sistale productum:
+
+\[
+\left(\alpha a + b b + c c + d d\right) \left(\alpha \alpha + \beta \beta + \gamma \gamma + \delta \delta\right)
+\]
+
+Kercapiatu
+
+\(A = a a + b \beta + c \gamma + d \delta\)
+
+\(B = a\beta - b\alpha - c\delta + d\gamma\)
+
+\(C = a\gamma +b\delta -c\alpha -d\beta .\)
+
+\(\mathbf{D}=a\delta-b\gamma+c\beta-d\alpha\)
+
+Lorique-quadratorum fumma erit
+
+\[
+A = B ^ {2} + C ^ {2} + D ^ {2} = \left(a ^ {2} + b ^ {2} + c ^ {2} + d ^ {2}\right) \left(\alpha^ {2} + \beta^ {2} + \gamma^ {2} + \delta^ {2}\right)
+\]
+
+Manifetum enim el fingula produita ex binis partibus fe
+majo defruere er fingula quadrata litterarum - Latinarum
+a fingula Graecarum duci.
+
 Theorema IV.
-Si N sweret divisor quiuspiam summae quatuor qua-
-dravorum, seu sormae pp + q q + r r + s s, quae quidem singula
-<u>                                     </u>
-Denontratio.
-Non parum tiuuspit lac quoque notalle, quatuor illas
-radices p. q. r. s infra semissem numeri propositi N de-<br>primi posse; demonstratio autem sequenti modo procedet:
-12 Depotante p quotum ex illa divisione resultan-
-rem , vt fit
-<math>Nn = pp + qq + rr + ss</math>
-While litterace <math>p, q, r, s</math> it and <math>n</math> referantur, vt fit
-<math>T = a + n\alpha</math>; <math>q = b + n\beta</math>; <math>r = c + n\gamma</math>; <math>s = d + n\delta</math>
-eui-
+
+Si N fuérát diuifor cuiu piam fummae quatuor qua-
+dratorum, feu formae pp + q q + r r + s s, quae quidem singula
+per N non fun diuifabila, tum N certe erit fumma quatuor
+quadratorum.
+
+Demontratio.
+
+Non parum inuabit lac, quocque notale, quatuor illas adices \( p, q, r, s \) infra femifem numeri propofti N de- prumi poffe; demonstratio autem fequenti modo procedet:
+
+1°. Denotante v quorum ex illa diuifione refultan-
+tem. vt. fr
+
+\[
+\mathrm{N} n = p p + q q + r r + s s
+\]
+
+voi litterae p, g, r, s ita ad n referantur, vt fit
+
+\[
+p = a + n \alpha ; q = b + n \beta ; r = c + n \gamma ; s = d + n \delta
+\]
+
 H 2
+
+eui-
 
 ## PDF page 13
 

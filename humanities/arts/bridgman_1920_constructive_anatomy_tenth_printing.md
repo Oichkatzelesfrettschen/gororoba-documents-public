@@ -10,6 +10,8 @@ Transcription of `bridgman_1920_constructive_anatomy_tenth_printing.pdf` in this
 
 Method: pages 1-217 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
+Second engine: MinerU2.5-Pro 2605 read pages 22, 56, 82, 86, 106, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+
 ## PDF page 1
 
 CONSTRUCTIVE
@@ -409,40 +411,7 @@ THE HAND
 
 ## PDF page 22
 
-,#I
-÷“
 
-Ì
-Ŷ,
-
-ĳ
-
-The state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
-
-450
-r d
-
-i.
-Mark States
-ş
-4
-Ł
-THE REAL PROPERTY.
-н
-٠
-3
-A South
-Supplemental Supplements
-200
-.......................................
-4
-4
-a constitution of the same
-1
-Control of the second
-*
-See A Second Second
-A STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE
 
 ## PDF page 23
 
@@ -814,11 +783,7 @@ THE THUMB
 
 ## PDF page 56
 
-1
-1
-Ti
-X
-A STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE STATE OF THE
+
 
 ## PDF page 57
 
@@ -1259,12 +1224,7 @@ Action: Extends wrist and bends down.
 
 ## PDF page 82
 
-The state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
-3
-4
-4
-5
-5
+
 
 ## PDF page 83
 
@@ -1298,16 +1258,7 @@ Till's
 
 ## PDF page 86
 
-٩
-Wi
-古有
-Alex.
--
-E
-The state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
-ľ
-6
-Ì
+
 
 ## PDF page 87
 
@@ -1658,23 +1609,7 @@ were important weapons of defense.
 
 ## PDF page 106
 
-1
-١
-い書詞
-į
-1
-4
-O THE STATE OF
-200
-ر
-1
-The state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
-1
-1
-is
-1
-•
-ر.<br>?۲
+
 
 ## PDF page 107
 

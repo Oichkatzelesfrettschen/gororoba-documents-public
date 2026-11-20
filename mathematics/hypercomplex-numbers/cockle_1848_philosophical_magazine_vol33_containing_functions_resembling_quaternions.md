@@ -10,7 +10,7 @@ Transcription of `cockle_1848_philosophical_magazine_vol33_containing_functions_
 
 Method: pages 1-584 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
-Second engine: Surya OCR 0.17.0 alone read pages 210, 403, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+Second engine: MinerU2.5-Pro 2605 read pages 108, 116, 137, 226-227, 283, 347, 395, 398, 402, 517; Surya OCR 0.17.0 alone read pages 210, 403, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -6957,54 +6957,18 @@ the other wire <math>l</math>, the extremity of <math>\alpha</math>.
 ## PDF page 108
 
 94
+
 Prof. E. Wartmann's Fifth Memoir on Induction.
-160. The tube AB was arranged in the centre of another,
-upon which was wound four metres of a copper wire covered
-with silk. In this wire the current of ten powerful Grove's
-elements was excited (139.), and rendered intermittent by
-means of the commutator described (122.). The rheometer
-was sheltered from the electro-magnetic influence of this long
-bobbin. The induction produced in the mercury contained in
-AB in no degree changed the constancy of indication of the
-instrument.
-161. The same result was obtained by inserting into the
-inductor cylinder the portion of the wire a which joins the
-rheometer with the cup F. These two experiments confirm
-the conclusions detailed in § XIII.
-162. Care was taken to alternate the direction of the cur-
-rent of the battery P in each of the preceding experiments, by
-placing the pieces r and s one while parallel, at another cross-
-ways; that is to say, by putting the cup <math>p</math> in communication
-with E, then with F, and joining the cup q with F, then with
-E. These changes in the direction of the current caused in
-it corresponding ones in the direction of the deviation of the
-needle of the rheometer, but did not alter the magnitude of
-that deviation.
-THE REPORT OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF 
-163. Thus the fundamental fact is established, that electri-
-city in the form of a current is not transmitted by rectilinear
-radiation. Does its propagation result from section to section
-in the bodies called conductors, as is admitted in the case of
-caloric by contact? This daily appears more probable, not-
-withstanding the extreme velocity with which it is effected.
-I propose very soon to examine the electricity of tension in
-the same point of view.
-164. I may observe, that the conclusions of the present in-
-vestigation confirm those of my second memoir. It may have
-been objected, that if electricity is propagated by undulations,
-comparable from their extreme minuteness to those which
-constitute light, none of the three methods which I have em-
-ployed is sufficiently precise to testify for or against the inter-
-ference. I shall not appeal to the probability that this latter
-would be shown, at least once, in the hundreds of repetitions
-which have been made of each experiment: it is sufficient for
-me to observe, that as rectilinear propagation does not exist,
-interference is impossible.
-and the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the cont
-and the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state 
-the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
-the particular territories and the first of the particular and the
-- - - - - - - - - - - - - - - - - - - -
+
+160. The tube AB was arranged in the centre of another, upon which was wound four metres of a copper wire covered with silk. In this wire the current of ten powerful Grove's elements was excited (139.), and rendered intermittent by means of the commutator described (122.). The rheometer was sheltered from the electro-magnetic influence of this long bobbin. The induction produced in the mercury contained in AB in no degree changed the constancy of indication of the instrument.
+
+161. The same result was obtained by inserting into the inductor cylinder the portion of the wire \(\alpha\) which joins the rheometer with the cup F. These two experiments confirm the conclusions detailed in § XIII.
+
+162. Care was taken to alternate the direction of the current of the battery P in each of the preceding experiments, by placing the pieces r and s one while parallel, at another crossways; that is to say, by putting the cup p in communication with E, then with F, and joining the cup q with F, then with E. These changes in the direction of the current caused in it corresponding ones in the direction of the deviation of the needle of the rheometer, but did not alter the magnitude of that deviation.
+
+163. Thus the fundamental fact is established, that electricity in the form of a current is not transmitted by rectilinear radiation. Does its propagation result from section to section in the bodies called conductors, as is admitted in the case of caloric by contact? This daily appears more probable, notwithstanding the extreme velocity with which it is effected. I propose very soon to examine the electricity of tension in the same point of view.
+
+164. I may observe, that the conclusions of the present investigation confirm those of my second memoir. It may have been objected, that if electricity is propagated by undulations, comparable from their extreme minuteness to those which constitute light, none of the three methods which I have employed is sufficiently precise to testify for or against the interference. I shall not appeal to the probability that this latter would be shown, at least once, in the hundreds of repetitions which have been made of each experiment: it is sufficient for me to observe, that as rectilinear propagation does not exist, interference is impossible.
 
 ## PDF page 109
 
@@ -7313,206 +7277,13 @@ March 29, 1848.
 
 ## PDF page 116
 
-Mr. W. Beverley on the Magic Square
 102
-Fig. 1.
-The state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
-15 16
-14
-12
-13
-.10
-11
-Columns. 9
-a
-C
-g
-1
-10
-43
-54
-28
-<math>=260</math>
-30
-47
-52
-5
-6
-27
-53
-<math>=260</math>
-2
-44
-2
-51
-29
-48
-<math>\mathbf{B}</math>
-i
-42
-8
-55
-<math>=260</math>
-25
-46
-49
-3
-31
-4
-7
-26
-<math>=260</math>
-41
-56
-3
-45
-50
-32
-4
-d
-c
-39
-<math>=260</math>
-9
-24
-58
-5
-20
-15
-33
-62
-57
-10
-23
-<math>=260</math>
-6
-40
-61
-34
-16
-19
-l
-k
-38
-21
-12
-59
-<math>=260</math>
-7
-17
-36
-14
-63
-22
-60
-11
-<math>=260</math>
-8
-37
-64
-13
-35
-18
-h
-ь
-260
-100
-260
-260
-260
-260
-260
-260
-260
-10.0
-Fig. 2.—The reverse.
-22
-<math>= 260</math>
-11
-60
-37
-13
-18
-64
-35
-21
-59
-38
-<math>= 260</math>
-12
-63
-36
-17
-14
-10
-23
-<math>= 260</math>
-57
-40
-61
-16
-34
-19
-39
-58
-<math>= 260</math>
-24
-33
-20
-9
-15
-62
 
-100
-<math>= 260</math>
-26
-7
-41
-50
-45
-56
-3
-32
--0
-<math>=260</math>
-42
-8
-55
-25
-46
-31
-4
-49
-<b>\rightarrow</b>
-100
-<math>= 260</math>
-27
-44
-53
-6
-29
-48
-2
-51
-<math>= 260</math>
-54
-5
-28
-43
-52
-30
-1
-47
--01
-260
-260
-260
-260
-260
-260
-260
-260
-.
+Mr. W. Beverley on the Magic Square
+
+Fig. 1.
+
+Fig. 2.—The reverse.
 
 ## PDF page 117
 
@@ -9179,33 +8950,84 @@ Let
 ## PDF page 137
 
 any Function of Sines and Cosines.
+
 123
+
 Let
-<math display="block">\mathbf{R}_{1,1} \!=\! \frac{1}{4} \left( R_{1,1} \!+\! R_{1,2} \!+\! R_{1,3} \!+\! R_{1,4} \right)</math>
-<math display="block">\mathbf{R}_{1,2} = \frac{1}{4} \left( R_{1,1} + R_{1,2} - R_{1,3} - R_{1,4} \right)</math>
-<math>\mathbf{R}_{1,3} = \frac{1}{4} (R_{1,1} - R_{1,2} + R_{1,3} - R_{1,4})</math>
-<math display="block">\mathbf{R}_{1,4} = \frac{1}{4} \left( R_{1,1} - R_{1,2} - R_{1,3} + R_{1,4} \right)</math>
-<math>\mathbf{R}_{1,1} = B_0 + B\cos 2 + B_4\cos 4 + \&c.</math>
-<math>\mathbf{R}_{1,1}</math> contains only <math>B_0</math>, <math>B_2</math>, <math>B_4</math>, &c., having even indices.
-<math>\mathbf{R}_{1,2} = B_1 \cos 1 + B_3 \cos 3 + B_5 \cos 5 + \&c.</math>
-<math>\mathbf{R}_{1,2}</math> contains only <math>B_1</math>, <math>B_3</math>, <math>B_5</math>, &c., having uneven indices.
-<math>\mathbf{R}_{1,3} = A_2 \sin 2 + A_4 \sin 4 + A_6 \sin 6 + \&c.</math>
-<math>\mathbf{R}_{1,3}</math> contains only <math>A_2</math>, <math>A_4</math>, <math>A_6</math>, &c., having even indices.
-<math>\mathbf{R}_{1,4} = A_1 \sin 1 + A_3 \sin 3 + A_5 \sin 5 + \&c.</math>
-<math>\mathbf{R}_{1,4}</math> contains only <math>A_1</math>, <math>A_3</math>, <math>A_5</math>, &c., having uneven indices.
+
+\[
+\mathbf {R} _ {1, 1} = \frac {1}{4} \left(R _ {1, 1} + R _ {1, 2} + R _ {1, 3} + R _ {1, 4}\right)
+\]
+
+\[
+\mathbf {R} _ {1, 2} = \frac {1}{4} (R _ {1, 1} + R _ {1, 2} - R _ {1, 3} - R _ {1, 4})
+\]
+
+\[
+\mathbf {R} _ {1, 3} = \frac {1}{4} (R _ {1, 1} - R _ {1, 2} + R _ {1, 3} - R _ {1, 4})
+\]
+
+\[
+\mathbf {R} _ {1, 4} = \frac {1}{4} \left(R _ {1, 1} - R _ {1, 2} - R _ {1, 3} + R _ {1, 4}\right)
+\]
+
+\(\mathbf{R}_{1,1}=B_{0}+B\cos2+B_{4}\cos4+\&c.\)
+
+\( R_{1,1} \) contains only \( B_{0}, B_{2}, B_{4}, \&c. \), having even indices.
+
+\(\mathbf{R}_{1,2} = B_{1}\cos 1 + B_{3}\cos 3 + B_{5}\cos 5 + \& c.\)
+
+\( R_{1,2} \)  contains only  \( B_{1} \) ,  \( B_{3} \) ,  \( B_{5} \) , &c., having uneven indices.
+
+\(\mathbf{R}_{1,3}=A_{2}\sin2+A_{4}\sin4+A_{6}\sin6+\&c.\)
+
+\( R_{1,3} \)  contains only  \( A_{2} \) ,  \( A_{4} \) ,  \( A_{6} \) , &c., having even indices.
+
+\(\mathbf{R}_{1,4}=A_{1}\sin1+A_{3}\sin3+A_{5}\sin5+\&c.\)
+
+\( R_{1,4} \)  contains only  \( A_{1}, A_{3}, A_{5}, \&c. \) , having uneven indices.
+
 Similarly, if
-<math>R_{i,1}</math> denote the value of the series R due to the angle i,
-<math>R_{i,2}</math> . . . . . . . . . . . . . . . . . . .
-<math>R_{i,3}</math> . . . . . . . . . . . . . . . . . . .
-<math>\cdots \cdots \cdots \cdots \cdots \cdots \cdots \cdots \cdots \cdots \cdots \cdots \cdots \cdots \cdots \cdots \cdots \cdots \cdots </math>
-<math>R_{i,4}</math> . .
-<math>R_{i,1} = B_0 + B_1 \cos i + B_2 \cos 2i + \&c. + A_1 \sin i + A_2 \sin 2i + \&c.</math>
-<math>R_{i,2} = B_0 + B_1 \cos i + B_2 \cos 2 i + &c. - A_1 \sin i - A_2 \sin 2 i + &c.</math>
-<math>R_{i,3} = B_0 - B_1 \cos i + B_2 \cos 2 i + &c. - A_1 \sin i + A_2 \sin 2 i + &c.</math>
-<math>R_{i,4} = B_0 - B_1 \cos i + B_2 \cos 2 i + \&c. + A_1 \sin i - A_2 \sin 2 i + \&c.</math>
+
+\( R_{i,1} \)  denote the value of the series R due to the angle i,
+
+\[
+R _ {i, 2} \quad \dots \dots - i,
+\]
+
+\[
+R _ {i, 3} \quad \dots \dots 1 8 0 ^ {\circ} + i,
+\]
+
+\[
+R _ {i, 4} \dots - 1 8 0 ^ {\circ} + i,
+\]
+
+\[
+R _ {i, 1} = B _ {0} + B _ {1} \cos i + B _ {2} \cos 2 i + \& \mathrm{c.} + A _ {1} \sin i + A _ {2} \sin 2 i + \& \mathrm{c.}
+\]
+
+\[
+R _ {i, 2} = B _ {0} + B _ {1} \cos i + B _ {2} \cos 2 i + \& \mathrm{c.} - A _ {1} \sin i - A _ {2} \sin 2 i + \& \mathrm{c.}
+\]
+
+\[
+R _ {i, 3} = B _ {0} - B _ {1} \cos i + B _ {2} \cos 2 i + \& \mathrm{c.} - A _ {1} \sin i + A _ {2} \sin 2 i + \& \mathrm{c.}
+\]
+
+\[
+R _ {i, 4} = B _ {0} - B _ {1} \cos i + B _ {2} \cos 2 i + \& c. + A _ {1} \sin i - A _ {2} \sin 2 i + \& c.
+\]
+
 and if
-<math display="block">\mathbf{R}_{i,1} = \frac{1}{4} \left( R_{i,1} + R_{i,2} + R_{i,3} + R_{i,4} \right)</math>
-<math display="block">\mathbf{R}_{i,2} = \frac{1}{4} \left( R_{i,1} + R_{i,2} - R_{i,3} - R_{i,4} \right)</math>
+
+\[
+\mathbf {R} _ {i, 1} = \frac {1}{4} \left(R _ {i, 1} + R _ {i, 2} + R _ {i, 3} + R _ {i, 4}\right)
+\]
+
+\[
+\mathbf {R} _ {i, 2} = \frac {1}{4} \left(R _ {i, 1} + R _ {i, 2} - R _ {i, 3} - R _ {i, 4}\right)
+\]
 
 ## PDF page 138
 
@@ -14896,105 +14718,64 @@ GEORGE BOOLE.
 
 ## PDF page 226
 
-[ 212 ]
-the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
-XXXII. An Account of a Method of determining the Total
-Intensity of the Earth's Magnetic Force in Absolute Measure.
-By the Rev. H. LLOYD, D.D., President of the Royal Irish
-Academy *.
-THE ordinary process for the determination of the earth's
-magnetic force, it is well known, consists in observing
-the time of vibration of a freely-suspended horizontal magnet,
-whose moment of inertia is known; and then employing the
-same magnet to deflect another, similarly suspended, and ob-
-serving the angle of deflection at a given distance. From
-these two observations the horizontal component of the earth's
-magnetic force is deduced; and the total force is thence in-
-ferred, by multiplying by the secant of the inclination.
-This method is inapplicable in the high magnetic latitudes.
-The relative error of the force, arising from a given error of
-inclination, varies as the tangent of that angle; and where
-the inclination approaches 90°, it becomes so great as to ren-
-der the result valueless. I was induced to consider the means
-of supplying this defect, upon the occasion of the expedition of
-Sir John Franklin to the Polar Sea in 1845; and I have been
-recently led to re-examine the problem, on account of the two
-Arctic expeditions, under Sir James Ross and Sir John Ri-
-chardson, which are now in course of preparation.
-The object to be attained is to determine the total force
-directly, without the intervention of its horizontal component.
-The ordinary inclinometer will serve for this purpose.
-The
-statical method, in which the position of the dipping-needle is
-observed under the combined action of magnetism and gra-
-vity †, will enable us to determine the product of the earth's
-total magnetic force into the moment of free magnetism of
-the needle; and the ratio of the same quantities may be ob-
-tained (as in the case of the horizontal component) by removing
-this needle, and employing it to deflect another substituted in
-its place.
-Let us suppose, for generality, that the needle moves in
-any vertical plane, inclined to the plane of the magnetic meri-
-dian by the angle a; and let R denote the earth's magnetic
-force, X and Y its horizontal and vertical components, and m
-the magnetic moment of the needle. Then the effective mag-
+[212]
+
+XXXII. An Account of a Method of determining the Total Intensity of the Earth's Magnetic Force in Absolute Measure. By the Rev. H. LLOYD, D.D., President of the Royal Irish Academy*.
+
+THE ordinary process for the determination of the earth's magnetic force, it is well known, consists in observing the time of vibration of a freely-suspended horizontal magnet, whose moment of inertia is known; and then employing the same magnet to deflect another, similarly suspended, and observing the angle of deflection at a given distance. From these two observations the horizontal component of the earth's magnetic force is deduced; and the total force is thence inferred, by multiplying by the secant of the inclination.
+
+This method is inapplicable in the high magnetic latitudes. The relative error of the force, arising from a given error of inclination, varies as the tangent of that angle; and where the inclination approaches 90°, it becomes so great as to render the result valueless. I was induced to consider the means of supplying this defect, upon the occasion of the expedition of Sir John Franklin to the Polar Sea in 1845; and I have been recently led to re-examine the problem, on account of the two Arctic expeditions, under Sir James Ross and Sir John Richardson, which are now in course of preparation.
+
+The object to be attained is to determine the total force directly, without the intervention of its horizontal component. The ordinary inclinometer will serve for this purpose. The statical method, in which the position of the dipping-needle is observed under the combined action of magnetism and gravity†, will enable us to determine the product of the earth's total magnetic force into the moment of free magnetism of the needle; and the ratio of the same quantities may be obtained (as in the case of the horizontal component) by removing this needle, and employing it to deflect another substituted in its place.
+
+Let us suppose, for generality, that the needle moves in any vertical plane, inclined to the plane of the magnetic meridian by the angle  \( \alpha \) ; and let R denote the earth's magnetic force, X and Y its horizontal and vertical components, and m the magnetic moment of the needle. Then the effective mag-
+
 * From the Proceedings of the Royal Irish Academy, January 24, 1848.
-† The principle of this method appears to have been first suggested by
-Mr. Christie, for the relative determination of the intensity; and it has been
-since applied, under different modifications, by Mr. Fox and myself, to the
-same purpose. Mr. Fox's mode of applying it, although not the simplest
-in practice, is undoubtedly the best.
+† The principle of this method appears to have been first suggested by Mr. Christie, for the relative determination of the intensity; and it has been since applied, under different modifications, by Mr. Fox and myself, to the same purpose. Mr. Fox's mode of applying it, although not the simplest in practice, is undoubtedly the best.
 
 ## PDF page 227
 
 On the Intensity of the Earth's Magnetic Force.
+
 213
-netic forces are <math>mX \cos \alpha</math>, <math>mY</math>; and their moment to turn the
-needle is
-the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
-<math>m(Y\cos\eta-X\cos\alpha\sin\eta);</math>
-in which n denotes the actual inclination of the needle to the
-horizon. This moment is opposed by that of the weight. Let
-this be applied in the manner adopted by Mr. Fox, namely,
-at the circumference of a light pulley, whose centre is on the
-axis of the cylindrical axle. Its moment is in this case inde-
-pendent of the position of the needle, and is equal to the
-weight W, multiplied by the radius r, of the pulley at whose
-circumference it is applied. Accordingly, the equation of
-equilibrium is
-<math>m(Y\cos\eta - X\sin\eta\cos\alpha) = Wr.</math> (1.)
-There are two cases which deserve consideration, namely,
-that in which the plane of motion of the needle coincides with
-the magnetic meridian, and that in which it is perpendicular
-to it. In the former case <math>\alpha=0</math>; and substituting for X and Y
-their values, R cos <math>\theta</math> and R sin <math>\theta</math> (<math>\theta</math> being the inclination), the
-preceding equation becomes
-a second contract of the second
-<math display="block">mR\sin(\theta-\eta)=Wr; \dots (2.)</math>
-from which we obtain mR, the product of the earth's magnetic
-force into the moment of free magnetism of the needle, when
-W and r are known, and the angles <math>\theta</math> and <math>\eta</math> given by obser-
-vation. In the latter case, <math>\alpha = 90^{\circ}</math>, and (1.) becomes
-<math>mY \cos \eta = Wr; \dots (3.)</math>
-which gives the similar product in the case of the vertical
-component of the force.
-Now let the needle be removed, and applied to deflect
-another which is substituted in its place; and let the deflect-
-ing needle be placed so that its axis passes through the centre
-of the supported needle, and is perpendicular to its axis. Then
-the moment of its force to turn the needle is mm'U, in which
-m' is the moment of free magnetism of the second needle, and
-U a function of D, the distance of the centres of the two
-needles, of the form
-<math display="block">U = \frac{2}{D^3} \left( 1 + \frac{p}{D^2} + \frac{q}{D^4} \right).</math>
-MC TOP SECURE
-SECTION AND
-The moment of the earth's magnetic force, opposed to this, is
-of the form already assigned, in which we have only to sub-
-stitute m' and n' for m and n. Hence the equation of equili-
-brium is
-<math>Y \cos \eta' - X \sin \eta' \cos \alpha = mU</math>.
-. . (4.)
+
+netic forces are \(m\mathbf{X}\cos \alpha ,m\mathbf{Y}\) ; and their moment to turn the needle is
+
+\[
+m (\mathrm{Y} \cos \eta - \mathrm{X} \cos \alpha \sin \eta);
+\]
+
+in which \(\eta\) denotes the actual inclination of the needle to the horizon. This moment is opposed by that of the weight. Let this be applied in the manner adopted by Mr. Fox, namely, at the circumference of a light pulley, whose centre is on the axis of the cylindrical axle. Its moment is in this case independent of the position of the needle, and is equal to the weight W, multiplied by the radius \(r\), of the pulley at whose circumference it is applied. Accordingly, the equation of equilibrium is
+
+\[
+m (\mathrm{Y} \cos \eta - \mathrm{X} \sin \eta \cos \alpha) = \mathrm{Wr}. \quad . \quad . \quad . \tag {1.}
+\]
+
+There are two cases which deserve consideration, namely, that in which the plane of motion of the needle coincides with the magnetic meridian, and that in which it is perpendicular to it. In the former case \(\alpha=0\); and substituting for X and Y their values, R cos \(\theta\) and R sin \(\theta\) (\(\theta\) being the inclination), the preceding equation becomes
+
+\[
+m \mathrm{R} \sin (\theta - \eta) = \mathrm{Wr}; \dots \tag {2.}
+\]
+
+from which we obtain mR, the product of the earth's magnetic force into the moment of free magnetism of the needle, when W and r are known, and the angles  \( \theta \)  and  \( \eta \)  given by observation. In the latter case,  \( \alpha=90^{\circ} \) , and (1.) becomes
+
+\[
+m \mathrm{Y} \cos \eta = \mathrm{Wr}; \dots \tag {3.}
+\]
+
+which gives the similar product in the case of the vertical component of the force.
+
+Now let the needle be removed, and applied to deflect another which is substituted in its place; and let the deflecting needle be placed so that its axis passes through the centre of the supported needle, and is perpendicular to its axis. Then the moment of its force to turn the needle is \( mm'U \), in which \( m' \) is the moment of free magnetism of the second needle, and \( U \) a function of \( D \), the distance of the centres of the two needles, of the form
+
+\[
+\mathrm{U} = \frac {2}{\mathrm{D} ^ {3}} \Big (1 + \frac {p}{\mathrm{D} ^ {2}} + \frac {q}{\mathrm{D} ^ {4}} \Big).
+\]
+
+The moment of the earth's magnetic force, opposed to this, is of the form already assigned, in which we have only to substitute \( m' \) and \( \eta' \) for \( m \) and \( \eta \). Hence the equation of equilibrium is
+
+\[
+\mathrm{Y} \cos \eta^ {\prime} - \mathrm{X} \sin \eta^ {\prime} \cos \alpha = m \mathrm{U}. \quad . \quad . \quad . \tag {4.}
+\]
 
 ## PDF page 228
 
@@ -18623,44 +18404,68 @@ as also by multiplying by powers of x, instead of by x simply.
 ## PDF page 283
 
 Prof. J. R. Young on the development of a Binomial.
+
 269
-exception; but from the others the case of <math>n=1</math> is excluded:
-it is comprehended in the well-known form
-<math display="block">0 = 1 - n + \frac{n(n-1)}{2} - \frac{n(n-1)(n-2)}{2} + &c.</math>
-(6.)
+
+exception; but from the others the case of \(n=1\) is excluded: it is comprehended in the well-known form
+
+\[
+0 = 1 - n + \frac {n (n - 1)}{2} - \frac {n (n - 1) (n - 2)}{2 . 3} + \& \mathrm{c.}. \tag {6.}
+\]
+
 supplied at once by the original development.
-As in each of the above forms the final coefficient is equal
-to unit, it follows that, by transposing the final term of (4.),
-we shall have the expression
-<math display="block">(-n)^{n-1} = -n + \frac{n(n-1)}{2} 2^{n-1} - \frac{n(n-1)(n-2)}{2 \cdot 3} 3^{n-1} + &c. (7.)</math>
-till a country of the country of the country of the country of the country of the country of the country of the country of the country of the country of the country of the country of the country of the country of the count
-to <math>n-1</math> terms; and similarly for the forms which precede (4.).
-Now all these formulæ may be converted into others of
-greater generality by aid of the following theorem, viz.
+
+As in each of the above forms the final coefficient is equal to unit, it follows that, by transposing the final term of (4.), we shall have the expression
+
+\[
+(- n) ^ {n - 1} = - n + \frac {n (n - 1)}{2} 2 ^ {n - 1} - \frac {n (n - 1) (n - 2)}{2 . 3} 3 ^ {n - 1} + \& \mathrm{c}. \tag {7.}
+\]
+
+to \(n - 1\) terms; and similarly for the forms which precede (4.).
+
+Now all these formulae may be converted into others of greater generality by aid of the following theorem, viz.
+
 If it be true that
-A MUNICIPALITY
-<math display="block">0 = -n + \frac{n(n-1)}{2} 2^m - \frac{n(n-1)(n-2)}{2} 3^m + \&c.</math>
-(8.)
-throughout a certain range of consecutive positive integer
-values of m, then it is equally true that, throughout the same
-range, the following more general form will have place:
-<math display="block">0 = x^{m} - n(x+\beta)^{m} + \frac{n(n-1)}{2}(x+2\beta)^{m} - \frac{n(n-1)(n-2)}{2 \cdot 3} </math> (9.)
-<math>(x+3\beta)^m + \&c</math>;
+
+\[
+0 = - n + \frac {n (n - 1)}{2} 2 ^ {m} - \frac {n (n - 1) (n - 2)}{2 . 3} 3 ^ {m} + \& \mathrm{c}. \tag {8.}
+\]
+
+throughout a certain range of consecutive positive integer values of \( m \), then it is equally true that, throughout the same range, the following more general form will have place:
+
+\[
+\left. \begin{array}{c} 0 = x ^ {m} - n (x + \beta) ^ {m} + \frac {n (n - 1)}{2} (x + 2 \beta) ^ {m} - \frac {n (n - 1) (n - 2)}{2 . 3} \\ (x + 3 \beta) ^ {m} + 8 \mathrm{c}; \end{array} \right\} \tag {9.}
+\]
+
 and also that if (5.) be true, then will
-d also that it (3.) <math>= x^n - n(x+1)^n + \frac{n(n-1)}{2}(x+2)^n</math>
-(10.)
-<math display="block">-\frac{n(n-1)(n-2)}{2}(x+3)^n + \&c.</math>
-be equally true, <math>x</math> and <math>\beta</math> being any values whatever.
-This theorem may be established either by common algebra,
-or by the first principles of the integral calculus; the latter
-being the shorter method, I shall employ it here.
-Suppose the formula (9.) to be true for some preceding
-value of <math>m</math>, as <math>m=p</math>, so that we may have
-<math display="block">0 = x^{p} - n(x+\beta)^{p} + \frac{n(n-1)}{2}(x+2\beta)^{p} - \frac{n(n-1)(n-2)}{2}</math>
-<math>(x+3\beta)^{p}+&c.;</math>
-then, multiplying by <math>(p+1) dx</math> and integrating, we have
-<math display="block">C = x^{p+1} - n(x+\beta)^{p+1} + \frac{n(n-1)}{2}(x+2\beta)^{p+1} - \frac{n(n-1)(n-2)}{2}</math>
-<math>(x+3\beta)^{p+1} + \&c.</math>
+
+\[
+\left. \begin{array}{c} (- 1) ^ {n} 1. 2. 3 \dots n = x ^ {n} - n (x + 1) ^ {n} + \frac {n (n - 1)}{2} (x + 2) ^ {n} \\ - \frac {n (n - 1) (n - 2)}{2 . 3} (x + 3) ^ {n} + \& \mathrm{c}. \end{array} \right\} \tag {10.}
+\]
+
+be equally true, x and β being any values whatever.
+
+This theorem may be established either by common algebra, or by the first principles of the integral calculus; the latter being the shorter method, I shall employ it here.
+
+Suppose the formula (9.) to be true for some preceding value of \( m \), as \( m = p \), so that we may have
+
+\[
+0 = x ^ {p} - n (x + \beta) ^ {p} + \frac {n (n - 1)}{2} (x + 2 \beta) ^ {p} - \frac {n (n - 1) (n - 2)}{2 . 3}
+\]
+
+\[
+(x + 3 \beta) ^ {p} + \& \mathrm{c.};
+\]
+
+then, multiplying by  \( (p+1) \)  dx and integrating, we have
+
+\[
+\mathrm{C} = x ^ {p + 1} - n (x + \beta) ^ {p + 1} + \frac {n (n - 1)}{2} (x + 2 \beta) ^ {p + 1} - \frac {n (n - 1) (n - 2)}{2 . 3}
+\]
+
+\[
+(x + 3 \beta)^{p + 1} + \& \text{c.}
+\]
 
 ## PDF page 284
 
@@ -22587,57 +22392,20 @@ of different preparations of the iodide, of the bromo-iodide and
 ## PDF page 347
 
 Mr. A. Claudet's Description of the Photographometer.
-333
-chloro-iodide of silver, and of the various photogenic papers;
-for it is indispensable, in making an exact comparison, to ope-
-rate with the same light and during strictly the same space of
-time, as it is known that the light varies from one minute to
-the property of the property of the property of the property of the property of the property of the property of the property of the property of the property of the property of the property of the property of the property o
-another.
-When we only wish to make experiments of comparison
-with different preparations, a much more simple and portable
-apparatus will serve as well. In this the plate furnished with
-parallel openings is immoveable, and fixed in the centre of a
-frame having grooves underneath to keep it in contact with
-another frame, in which we place the two sensitive surfaces
-we wish to compare. Two plates, having round holes for the
-passage of the light, cover the sensitive surfaces, which are
-held by a shutter fastened at the back by a button. This part
-of the apparatus resembles a Daguerreotype "passe partout,"
-with this difference, that in the place of the glass we have a
-metallic plate furnished with holes.
-0.10
-. . . . . . . .
-When the apparatus has been charged in a room shaded
-from the daylight, it is carried out, and the frame containing
-the sensitive surfaces is made to slide along by the hand, while
-the frame containing the proportional openings is exposed to
-the daylight or to the sun. With a little practice, a movement
-may be obtained regular enough to measure by this simple
-apparatus, with sufficient exactness, the intensity of the light.
-By the double apparatus, whether it has the uniform motion
-given by the inclined plane, or that less regular given by the
-hand, we shall decide a very interesting question; which is, to
-know if each variation in the quantity and quality of light affects
-equally the different photogenic preparations. We shall find,
-perhaps, that certain lights require different preparations or
-proportions to obtain the maximum of sensitiveness.
-In place of a single series of round holes upon each plate,
-we can have two, three, four or five, which enable us to make
-several experiments upon the same surface. On the paper, for
-instance, we can prepare a zone for each series of holes with a
-different substance; and on the Daguerreotype plate we may
-vary the coatings of iodine, bromine or chlorine, so that the
-same surface will contain two, three, four, or five experiments
-of comparison, serving to indicate the best method of prepa-
-ration.
-The plate, fig. 4, shows the result of an experiment of this
-kind, and is the exact representation of the plate itself after it
-has received the mercurial vapour. The plate had been ex-
-posed to the vapour of iodine in such a manner that one zone
-had attained the first coating of yellow colour, a second zone
-had reached the red, a third the blue-green, and the fourth,
-after having passed through all these tints, had obtained the
+
+333.
+
+chloro-iodide of silver, and of the various photogenic papers; for it is indispensable, in making an exact comparison, to operate with the same light and during strictly the same space of time, as it is known that the light varies from one minute to another.
+
+When we only wish to make experiments of comparison with different preparations, a much more simple and portable apparatus will serve as well. In this the plate furnished with parallel openings is immovable, and fixed in the centre of a frame having grooves underneath to keep it in contact with another frame, in which we place the two sensitive surfaces we wish to compare. Two plates, having round holes for the passage of the light, cover the sensitive surfaces, which are held by a shutter fastened at the back by a button. This part of the apparatus resembles a Daguerreotype "passe partout," with this difference, that in the place of the glass we have a metallic plate furnished with holes.
+
+When the apparatus has been charged in a room shaded from the daylight, it is carried out, and the frame containing the sensitive surfaces is made to slide along by the hand, while the frame containing the proportional openings is exposed to the daylight or to the sun. With a little practice, a movement may be obtained regular enough to measure by this simple apparatus, with sufficient exactness, the intensity of the light.
+
+By the double apparatus, whether it has the uniform motion given by the inclined plane, or that less regular given by the hand, we shall decide a very interesting question; which is, to know if each variation in the quantity and quality of light affects equally the different photogenic preparations. We shall find, perhaps, that certain lights require different preparations or proportions to obtain the maximum of sensitiveness.
+
+In place of a single series of round holes upon each plate, we can have two, three, four or five, which enable us to make several experiments upon the same surface. On the paper, for instance, we can prepare a zone for each series of holes with a different substance; and on the Daguerreotype plate we may vary the coatings of iodine, bromine or chlorine, so that the same surface will contain two, three, four, or five experiments of comparison, serving to indicate the best method of preparation.
+
+The plate, fig. 4, shows the result of an experiment of this kind, and is the exact representation of the plate itself after it has received the mercurial vapour. The plate had been exposed to the vapour of iodine in such a manner that one zone had attained the first coating of yellow colour, a second zone had reached the red, a third the blue-green, and the fourth, after having passed through all these tints, had obtained the
 
 ## PDF page 348
 
@@ -25537,56 +25305,24 @@ and 0.334 HO, which give in 100 parts,-
 ## PDF page 395
 
 of a Wax from China.
+
 381
-version of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the
-Carbon . . 81.55 1 81.76 81.59
-Hydrogen . 14.08 14.25 11.14.26 20 Oxygen . 4.37 3.99 4.15 100.00 100.00
-mineral security of the second
-These numbers give the formula C<sub>54</sub> H<sub>56</sub> O<sub>2</sub>.
-Atomic weight. Calculated in 100 parts.
-<math>\begin{array}{cccc} C_{54} & . & . & . \\ H_{56} & . & . & . \\ O_2 & . & . & . \end{array}</math>
-. 324
-81.81
-56
-14.14
-<math>O_2^{\omega} \cdot \cdot \cdot \frac{16}{396} \frac{4.05}{100.00}</math>
-This is the formula of an alcohol. Other experiments de-
-cided that this was in truth the class of bodies to which this
-substance belonged, and led me to adopt the particular for-
-mula for it which I have given. This alcohol I call cerotine.
-If this substance be heated with lime and potash according to
-the method of Dumas, hydrogen gas is given off, and if the
-experiment be conducted with care there will hardly be traces
-of any other volatile product. In the tube is found an acid.
-The experiment requires considerable heat, and I have found
-that it is best made in a long combustion-tube, suspended by
-means of two corks in a large tube of porcelain, which forms
-an air-bath. The apparatus is heated by charcoal in a com-
-bustion-trough. In this manner the heat can be regulated
-with the greatest precision. The acid having been purified in
-the usual manner, which it is unnecessary again to refer to, is
-a substance highly crystalline in its texture and perfectly re-
-sembling in its sensible properties the cerotic acid from bees'-
-wax, with which acid analysis shows it to be identical. The
-melting-point of this preparation was about a degree higher
-than that of the cerotic acid from wax, namely 81° C.
-0.259 grm. gave 0.754 CO2 and 0.309 HO, which corre-
-spond in 100 parts to-
-Carbon . . . . 79.39
-Hydrogen . . . 13.28
-at the
-Oxygen
-7.33
-2
-le cet in.
-100.00
-This agrees with the formula C54 H54 O4.
-Calculated in 100 parts.
-79.02
-13.17
-7.81
-100.00
-. .
+
+<table><tr><td></td><td>I.</td><td>II.</td><td>III.</td></tr><tr><td>Carbon</td><td>81·55</td><td>81·76</td><td>81·59</td></tr><tr><td>Hydrogen</td><td>14·08</td><td>14·25</td><td>14·26</td></tr><tr><td>Oxygen</td><td>4·37</td><td>3·99</td><td>4·15</td></tr><tr><td></td><td>100·00</td><td>100·00</td><td>100·00</td></tr></table>
+
+These numbers give the formula  \( C_{54}H_{56}O_{2} \)
+
+<table><tr><td></td><td>Atomic weight.</td><td>Calculated in 100 parts.</td></tr><tr><td>\( C_{54} \)</td><td>324</td><td>81·81</td></tr><tr><td>\( H_{56} \)</td><td>56</td><td>14·14</td></tr><tr><td>\( O_{2} \)</td><td>16</td><td>4·05</td></tr><tr><td></td><td>396</td><td>100·00</td></tr></table>
+
+This is the formula of an alcohol. Other experiments decided that this was in truth the class of bodies to which this substance belonged, and led me to adopt the particular formula for it which I have given. This alcohol I call cerotine. If this substance be heated with lime and potash according to the method of Dumas, hydrogen gas is given off, and if the experiment be conducted with care there will hardly be traces of any other volatile product. In the tube is found an acid. The experiment requires considerable heat, and I have found that it is best made in a long combustion-tube, suspended by means of two corks in a large tube of porcelain, which forms an air-bath. The apparatus is heated by charcoal in a combustion-trough. In this manner the heat can be regulated with the greatest precision. The acid having been purified in the usual manner, which it is unnecessary again to refer to, is a substance highly crystalline in its texture and perfectly resembling in its sensible properties the cerotic acid from bees'-wax, with which acid analysis shows it to be identical. The melting-point of this preparation was about a degree higher than that of the cerotic acid from wax, namely 81°C.
+
+0·259 grm. gave 0·754 CO₂ and 0·309 HO, which correspond in 100 parts to—
+
+<table><tr><td>Carbon</td><td>79·39</td></tr><tr><td>Hydrogen</td><td>13·28</td></tr><tr><td>Oxygen</td><td>7·33</td></tr><tr><td></td><td>100·00</td></tr></table>
+
+This agrees with the formula  \( C_{54}H_{54}O_{4} \) .
+
+<table><tr><td colspan="5">Calculated in 100 parts.</td></tr><tr><td>\( C_{54} \)</td><td>.</td><td>.</td><td>.</td><td>79·02</td></tr><tr><td>\( H_{54} \)</td><td>.</td><td>.</td><td>.</td><td>13·17</td></tr><tr><td>\( O_{4} \)</td><td>.</td><td>.</td><td>.</td><td>7·81</td></tr><tr><td></td><td></td><td></td><td></td><td>100·00</td></tr></table>
 
 ## PDF page 396
 
@@ -25711,66 +25447,35 @@ friction. The experiment was made by passing the chlorine
 
 ## PDF page 398
 
-Mr. B. C. Brodie on the Chemical Nature
 384
-over the substance kept melted in a flask by means of a water-
-bath. The gas was dried. The action is slow, and the ex-
-periment takes several days. When no more action was per-
-ceived, the substance was boiled with water, dried in a water-
-bath, and analysed.
-I. 0.394 grm. of the substance gave 0.5435 CO, and
-0.169 HO.
-II. 0.4404 grm. of the substance gave 0.6120 CO2 and
-0.186 HO, giving in 100 parts—
-Carbon
-37.62
-37.89
-Hydrogen . .
-4.77
-4.70
-Oxygen and chlorine. 57.61
-57.41
-100.00
-100.00
-I. 0.51075 grm. of the substance gave 1.141 grm. of chlo-
-ride of silver, equivalent to 0.2814 chlorine.
-II. 0.7035 grm. of the substance gave 1.574 grm. of chlo-
-ride of silver, equivalent to 0.388 chlorine.
-III. 0.667 grm. of the substance gave 1.489 grm. of chlo-
-ride of silver, equivalent to 0.3673 chlorine, giving in 100
-parts--
-и.
-• III.
-I.
-55.11
-Chlorine
-55.10
-55.07
-From these data we may calculate for the substance the for-
-mula <math>C_{54} \begin{cases} Cl_{13\frac{1}{4}} \\ H_{40\frac{3}{4}} \end{cases} O_2</math>.
+
+Mr. B. C. Brodie on the Chemical Nature
+
+over the substance kept melted in a flask by means of a water-bath. The gas was dried. The action is slow, and the experiment takes several days. When no more action was perceived, the substance was boiled with water, dried in a water-bath, and analysed.
+
+I. 0·394 grm. of the substance gave 0·5435 CO₂, and 0·169 HO.
+
+II. 0·4404 grm. of the substance gave 0·6120 CO₂ and 0·186 HO, giving in 100 parts—
+
+<table><tr><td>Carbon</td><td>37·62</td><td>37·89</td></tr><tr><td>Hydrogen</td><td>4·77</td><td>4·70</td></tr><tr><td>Oxygen and chlorine</td><td>57·61</td><td>57·41</td></tr><tr><td></td><td>100·00</td><td>100·00</td></tr></table>
+
+I. 0·51075 grm. of the substance gave 1·141 grm. of chloride of silver, equivalent to 0·2814 chlorine.
+
+II. 0·7035 grm. of the substance gave 1·574 grm. of chloride of silver, equivalent to 0·388 chlorine.
+
+III. 0·667 grm. of the substance gave 1·489 grm. of chloride of silver, equivalent to 0·3673 chlorine, giving in 100 parts—
+
+<table><tr><td></td><td>I.</td><td>II.</td><td>III.</td></tr><tr><td>Chlorine</td><td>55·11</td><td>55·10</td><td>55·07</td></tr></table>
+
+From these data we may calculate for the substance the formula  \( C_{54}\left\{\begin{array}{l}Cl_{13\frac{1}{4}}\\H_{40\frac{a}{4}}\end{array}O_{2}\right. \) .
+
 Calculated in 100 parts—
-38.12
-<math>\mathbf{C}_{54}</math>
-<math>H_{40\frac{3}{4}}</math>
-4.79
-0.1-1-107.1
-<math>Cl_{13\frac{1}{4}}</math>
-55.20
-1 1 1 1 1 1 1
-1.89
-<math>O_2</math>.
-and the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of th
-______________________________________
-100.00
-It is very difficult to tell with certainty when the action of
-the chlorine on the substance ceases, and I have therefore
-written the fractional equivalents, which agree rather more
-closely with the analyses than the whole numbers, <math>C_{\epsilon 4} \begin{cases} Cl_{13} O_2 \\ Hl_{41} \end{cases}</math>
-The analysis determines with certainty that the substance
-no longer belongs to the alcohol type; for the addition of two
-equivalents of hydrogen to the formula would require above
-0.3 per cent. more hydrogen than the quantity found, a kind
-of error which is highly improbable.
+
+<table><tr><td>\( C_{54} \)</td><td>.</td><td>.</td><td>.</td><td>38·12</td></tr><tr><td>\( H_{40\frac{3}{4}} \)</td><td>.</td><td>.</td><td>.</td><td>4·79</td></tr><tr><td>\( Cl_{13\frac{1}{4}} \)</td><td>.</td><td>.</td><td>.</td><td>55·20</td></tr><tr><td>\( O_{2} \)</td><td>.</td><td>.</td><td>.</td><td>1·89</td></tr><tr><td colspan="4"></td><td>100·00</td></tr></table>
+
+It is very difficult to tell with certainty when the action of the chlorine on the substance ceases, and I have therefore written the fractional equivalents, which agree rather more closely with the analyses than the whole numbers,  \( C_{54}\left\{\begin{array}{c}Cl_{13} \\ Hl_{41}\end{array}O_{2}\right. \) .
+
+The analysis determines with certainty that the substance no longer belongs to the alcohol type; for the addition of two equivalents of hydrogen to the formula would require above 0·3 per cent. more hydrogen than the quantity found, a kind of error which is highly improbable.
 
 ## PDF page 399
 
@@ -25932,69 +25637,30 @@ Silver . . 21.42
 ## PDF page 402
 
 388
+
 Mr. B. C. Brodie on the Chemical Nature
-Calculated.
-<math>\mathbf{C}_{54}</math> . . .
-. 62.66
-. The state of <math>H_{53}^{\prime\prime}</math> and <math>H_{53}^{\prime\prime}</math> and <math>H_{53}^{\prime\prime}</math>
-10.25
-<math>O_4</math> . . . . 6.19
-and the state of
-Ag . .
-20.90
-delenge a vivid 0 land version
-100.00
-proposition of the property of the same
-The state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
+
+<table><tr><td></td><td>Calculated.</td></tr><tr><td>\( C_{54} \)</td><td>62·66</td></tr><tr><td>\( H_{53} \)</td><td>10·25</td></tr><tr><td>\( O_{4} \)</td><td>6·19</td></tr><tr><td>Ag</td><td>20·90</td></tr><tr><td></td><td>100·00</td></tr></table>
+
 Cerotene.
-The portion of the distillate from which the soap has been
-separated by decantation and by repeated washings and boiling
-out with water, consists chiefly of a solid hydrocarbon, one of
-those substances which have been comprehended and con-
-founded under the general name of paraffine. It is mixed with
-a certain quantity of oil, from which it may be almost entirely
-separated by pressure in a press between folds of blotting-
-paper. If this substance be crystallized out of naphtha-alcohol
-and then out of æther, it may be obtained of a melting-point
-of 57°, 58° C. In this state it is highly crystalline on cooling,
-and presents the general appearance of the substance called
-paraffine.
-Mary million
-I. 0.2555 grm. gave 0.802 CO2 and 0.331 HO.
-II. 0.2593 grm. gave 0.810 CO<sub>2</sub> and 0.332 HO, which give
-in 100 parts,—
-I.
-II.
-Carbon
-85.60
-85.20
-Hydrogen
-14.39
-14.23
-99.99
-99.43
+
+The portion of the distillate from which the soap has been separated by decantation and by repeated washings and boiling out with water, consists chiefly of a solid hydrocarbon, one of those substances which have been comprehended and confounded under the general name of paraffine. It is mixed with a certain quantity of oil, from which it may be almost entirely separated by pressure in a press between folds of blotting-paper. If this substance be crystallized out of naphtha-alcohol and then out of ether, it may be obtained of a melting-point of 57°, 58° C. In this state it is highly crystalline on cooling, and presents the general appearance of the substance called paraffine.
+
+I. 0·2555 grm. gave 0·802 CO₂ and 0·331 HO.
+
+II. 0·2593 grm. gave 0·810 CO₂ and 0·332 HO, which give in 100 parts,—
+
+<table><tr><td></td><td>I.</td><td>II.</td></tr><tr><td>Carbon</td><td>85·60</td><td>85·20</td></tr><tr><td>Hydrogen</td><td>14·39</td><td>14·23</td></tr><tr><td></td><td>99·99</td><td>99·43</td></tr></table>
+
 These analyses correspond to the formula
-Calculated.
-85.71
-<math>C_{54}</math>
-324
-54
-<math>H_{54}</math>
-14.28
-99.99
-378
-This substance may be called cerotene. After the discovery
-of the alcohol, there was a strong presumption that the hydro-
-carbon and the cerotine would be related in the manner ex-
-pressed by the formula, the hydrocarbon being the olefiant
-gas of the wax alcohol. It was, however, very desirable to
-find some method for the determination of its formula. I
-investigated, with this view, the action of chlorine on the sub-
-stance.
-Chlor-Cerotene.
-If moist chlorine be passed over the melted cerotene in the
-manner before described in the case of the other wax sub-
-Or.
+
+<table><tr><td></td><td></td><td></td><td></td><td>Calculated.</td></tr><tr><td>\( C_{54} \)</td><td>.</td><td>.</td><td>324</td><td>85·71</td></tr><tr><td>\( H_{54} \)</td><td>.</td><td>.</td><td>54</td><td>14·28</td></tr><tr><td></td><td></td><td></td><td>378</td><td>99·99</td></tr></table>
+
+This substance may be called cerotene. After the discovery of the alcohol, there was a strong presumption that the hydrocarbon and the cerotine would be related in the manner expressed by the formula, the hydrocarbon being the olefiant gas of the wax alcohol. It was, however, very desirable to find some method for the determination of its formula. I investigated, with this view, the action of chlorine on the substance.
+
+Chlor-Cérotene.
+
+If moist chlorine be passed over the melted cerotene in the manner before described in the case of the other wax sub-
 
 ## PDF page 403
 
@@ -33585,41 +33251,83 @@ Now
 ## PDF page 517
 
 and Homoid Products of Sums of n Squares.
+
 503
+
 because
-<math>Q_i R_m = R_m \cdot Q_{-i}</math>
+
+\[
+\mathrm{Q} _ {i} \mathrm{R} _ {m} = \mathrm{R} _ {m} \cdot \mathrm{Q} _ {- i};
+\]
+
 wherefore
-<math display="block">-(b_{\circ} \cdot n_{\circ} p_{\circ})(b_{\circ} \cdot n_{\circ} p_{\circ}) = n_{\circ} p_{\circ} \cdot b_{\circ} \cdot b_{\circ} \cdot n_{\circ} p_{\circ} = -n_{\circ} p_{\circ} \cdot n_{\circ} p_{\circ}</math>
-<math>=-(-1)=1</math>;
+
+\[
+\begin{array}{l} - (b _ {\circ} \cdot n _ {\circ} p _ {\circ}) (b _ {\circ} \cdot n _ {\circ} p _ {\circ}) = n _ {\circ} p _ {\circ} \cdot b _ {\circ} \cdot b _ {\circ} \cdot n _ {\circ} p _ {\circ} = - n _ {\circ} p _ {\circ} \cdot n _ {\circ} p _ {\circ} \\ = - (- 1) = 1; \\ \end{array}
+\]
+
 or
-<math>-S_m S_m = +B_{in}^2 + B_{in}^2 + B_{np}^2 + \ldots + C_{ip}^2 + \&c.</math>
+
+\[
+- \mathrm{S} _ {m} \mathrm{S} _ {\tilde {m}} = + \mathrm{B} _ {i p} ^ {2} + \mathrm{B} _ {l p} ^ {2} + \mathrm{B} _ {n p} ^ {2} + \dots + \mathrm{C} _ {i p} ^ {2} + \& \mathrm{c}.
+\]
+
 + certain terms containing imaginaries of the sixth degree.
-It is too evident to require proof that these latter terms in
-<math>-S_mS_m</math>, as well as the imaginary terms of the fifth degree in
-<math>-\mathbf{R}_m\mathbf{S}_m-\mathbf{S}_m\mathbf{R}_m</math>
+
+It is too evident to require proof that these latter terms in  \( -S_{m}S_{m} \) , as well as the imaginary terms of the fifth degree in
+
+\[
+- \mathrm{R} _ {m} \mathrm{S} _ {m} - \mathrm{S} _ {m} \mathrm{R} _ {m},
+\]
+
 and those of the fourth degree in
-<math>-\mathbf{Q}_{i}\mathbf{S}_{m}+\mathbf{S}_{m}\mathbf{Q}_{-i}</math>
-must respectively in pairs destroy each other; wherefore,
-whatever be Q,",
-<math>Q_i^{"}S_m = S_m Q^{"}_{-i};</math>
+
+\[
+- \mathbf {Q} _ {i} \mathrm{S} _ {m} + \mathrm{S} _ {m} \mathbf {Q} _ {- i},
+\]
+
+must respectively in pairs destroy each other; wherefore, whatever be  \( Q_{i}^{\prime\prime\prime} \) ,
+
+\[
+\mathrm{Q} _ {i} ^ {\prime \prime \prime} \mathrm{S} _ {m} = \mathrm{S} _ {m} \mathrm{Q} _ {- i} ^ {\prime \prime \prime};
+\]
+
 or, if
-<math>\mathbf{R}_m = \mathbf{R}_m + \mathbf{S}_m</math>
-whose modulus is <math>\mathfrak{B}_{i}</math>, <math>Q_{i}^{m}\mathfrak{R}_{m} = \mathfrak{R}_{m}Q_{-i}^{m}</math>;
-<math>\mu_{\mu}^{2}\mu_{\mu}^{2}\mu^{2}=\mathbf{m}^{2}+\mathbf{B}_{\mu}^{2}.</math>
+
+\[
+\mathbf {R} _ {m} = \mathrm{R} _ {m} + \mathrm{S} _ {m},
+\]
+
+whose modulus is  \( B_{1} \) ,
+
+\[
+\mathrm{Q} _ {i} ^ {\prime \prime \prime} \mathfrak {X} _ {m} = \mathfrak {X} _ {m} \mathrm{Q} _ {- i} ^ {\prime \prime \prime};
+\]
+
+\[
+\mu_ {1 1} ^ {2} \mu_ {1} ^ {2} \mu^ {2} = \mathfrak {m} ^ {2} + \mathfrak {B} _ {1} ^ {2}.
+\]
+
 Further,
-<math display="block">Q_i''' \cdot Q_i'' Q_i' Q_i = Q_i''' \mathbf{Q}_i + Q_i''' \mathbf{R}_m = \mathbf{Q}_i + \mathbf{R}_m + \mathbf{T}_m</math>
-<math>Q_{-i}Q'_{-i}Q''_{-i} \cdot Q'''_{-i} = Q_{-i}Q'''_{-i} - R_m Q'''_{-i}</math>
-<math display="block">= \mathbf{Q}_{-i} \mathbf{Q}''_{-i} - \mathbf{Q}''_{-i} \mathbf{R}_m = \mathbf{Q}_{-i} - \mathbf{R}_m - \mathbf{T}_m,</math>
-when <math>T_m</math> is supposed to be reduced to as few terms as pos-
-sible, the number of which we do not yet know, any more than
-that of the terms in <math>\mathbf{R}_m = \mathbf{R}_m + \mathbf{S}_m</math>.
-<math display="block">Q_{i}^{""}Q_{i}^{"}Q_{i}^{'}Q_{i}\cdot Q_{-i}Q_{-i}^{"}Q_{-i}^{"}Q_{-i}^{"}Q_{-i}^{"}Q_{-i}^{"}Q_{-i}^{"}Q_{-i}^{"}Q_{-i}^{"}Q_{-i}^{"}Q_{-i}^{"}Q_{-i}^{"}Q_{-i}^{"}Q_{-i}^{"}Q_{-i}^{"}Q_{-i}^{"}Q_{-i}^{"}Q_{-i}^{"}Q_{-i}^{"</math>
-<math display="block">= Q_{i}^{""} Q_{i}^{"} Q_{i}^{'} Q_{-i}^{'} \mu^{2} Q_{-i}^{"} Q_{-i}^{"} Q_{-i}^{"} Q_{-i}^{"} Q_{i}^{"} Q_{i}^{"} \mu_{i}^{2} \mu^{2} Q_{-i}^{"} Q_{i}^{"}</math>
-<math display="block">= Q_{i}^{"}Q_{i}^{"}Q_{-i}^{"}\mu_{i}^{2}\mu^{2}Q_{-i}^{"} = Q_{i}^{"}\mu_{i}^{2}\mu^{2}Q_{-i}^{"}</math>
-<math display="block">= Q_{i}^{III} Q_{i}^{III}_{-i} \mu^{2}_{II} \mu^{2}_{I} \mu^{2} = \mu^{2}_{III} \mu^{2}_{II} \mu^{2}_{I} \mu^{2};</math>
-<math display="block">\therefore \mu^{2}_{m}\mu^{2}_{m}\mu^{2}\mu^{2} = \mathbf{Q}_{i}\mathbf{Q}_{-i} - \mathbf{Q}_{i}(\mathbf{R}_{m} + \mathbf{T}_{m}) + (\mathbf{R}_{m} + \mathbf{T}_{m})\mathbf{Q}_{-i}</math>
-<math>-(\mathbf{R}_m + \mathbf{T}_{m!})^2</math>
-<math display="block">= \mathfrak{m}^2 - \mathfrak{A}_i \mathbf{T}_m + \mathbf{T}_m \mathfrak{A}_{-i} - \mathfrak{A}_m \mathfrak{A}_m - \mathfrak{A}_m \mathbf{T}_m - \mathbf{T}_m \mathfrak{A}_m - \mathbf{T}_m \mathbf{T}_m.</math>
+
+\[
+\mathrm{Q} _ {i} ^ {\prime \prime \prime} \cdot \mathrm{Q} _ {i} ^ {\prime \prime} \mathrm{Q} _ {i} ^ {\prime} \mathrm{Q} _ {i} = \mathrm{Q} _ {i} ^ {\prime \prime \prime} \mathfrak {Q} _ {i} + \mathrm{Q} _ {i} ^ {\prime \prime \prime} \mathfrak {X} _ {m} = \mathfrak {Q} _ {i} + \mathfrak {X} _ {m} + \mathrm{T} _ {m}
+\]
+
+\[
+\begin{array}{l} \mathrm{Q} _ {- i} \mathrm{Q} _ {- i} ^ {\prime} \mathrm{Q} _ {- i} ^ {\prime \prime} \cdot \mathrm{Q} _ {- i} ^ {\prime \prime \prime} = \mathrm{Q} _ {- i} \mathrm{Q} _ {- i} ^ {\prime \prime \prime} - \mathrm{R} _ {m} \mathrm{Q} _ {- i} ^ {\prime \prime \prime} \\ = \mathbf {Q} _ {- i} \mathrm{Q} _ {- i} ^ {\prime \prime \prime} - \mathrm{Q} _ {i} ^ {\prime \prime \prime} \mathfrak {R} _ {m} = \mathbf {Q} _ {- i} - \mathfrak {R} _ {m} - \mathrm{T} _ {m}, \\ \end{array}
+\]
+
+when  \( T_{m} \)  is supposed to be reduced to as few terms as possible, the number of which we do not yet know, any more than that of the terms in  \( R_{m}=R_{m}+S_{m} \) .
+
+\[
+\begin{array}{l} \mathrm{Q} _ {i} ^ {\prime \prime \prime} \mathrm{Q} _ {i} ^ {\prime \prime} \mathrm{Q} _ {i} ^ {\prime} \mathrm{Q} _ {i} \cdot \mathrm{Q} _ {- i} \mathrm{Q} _ {- i} ^ {\prime} \mathrm{Q} _ {- i} ^ {\prime \prime} \mathrm{Q} _ {- i} ^ {\prime \prime \prime} = \mathrm{Q} _ {i} ^ {\prime \prime \prime} \mathrm{Q} _ {i} ^ {\prime \prime} \mathrm{Q} _ {i} ^ {\prime} \mu^ {2} \mathrm{Q} _ {- i} ^ {\prime} \mathrm{Q} _ {- i} ^ {\prime \prime} \mathrm{Q} _ {- i} ^ {\prime \prime \prime} \\ = \mathrm{Q} _ {i} ^ {\prime \prime \prime \prime} \mathrm{Q} _ {i} ^ {\prime \prime} \mathrm{Q} _ {i} ^ {\prime} \mathrm{Q} _ {- i} ^ {\prime} \mu^ {2} \mathrm{Q} _ {- i} ^ {\prime \prime} \mathrm{Q} _ {- i} ^ {\prime \prime \prime} = \mathrm{Q} _ {i} ^ {\prime \prime \prime} \mathrm{Q} _ {i} ^ {\prime \prime} \mu_ {i} ^ {2} \mu^ {2} \mathrm{Q} _ {- i} ^ {\prime \prime} \mathrm{Q} _ {- i} ^ {\prime \prime \prime} \\ = \mathrm{Q} _ {i} ^ {\prime \prime \prime} \mathrm{Q} _ {i} ^ {\prime \prime} \mathrm{Q} _ {- i} ^ {\prime \prime} \mu_ {1} ^ {2} \mu^ {2} \mathrm{Q} _ {- i} ^ {\prime \prime \prime} = \mathrm{Q} _ {i} ^ {\prime \prime \prime} \mu_ {1 1} ^ {2} \mu_ {1} ^ {2} \mu^ {2} \mathrm{Q} _ {- i} ^ {\prime \prime \prime} \\ = \mathrm{Q} _ {i} ^ {\prime \prime \prime} \mathrm{Q} _ {- i} ^ {\prime \prime \prime} \mu_ {/ /} ^ {2} \mu_ {/} ^ {2} \mu^ {2} = \mu_ {/ /} ^ {2} \mu_ {/ /} ^ {2} \mu_ {/} ^ {2} \mu^ {2}; \\ \end{array}
+\]
+
+\[
+\begin{array}{l} \therefore \mu_ {/ /} ^ {2} \mu_ {/ /} ^ {2} \mu_ {/} ^ {2} \mu^ {2} = \mathbf {Q} _ {i} \mathbf {Q} _ {- i} - \mathbf {Q} _ {i} \cdot \left(\mathbf {R} _ {m} + \mathrm{T} _ {m}\right) + \left(\mathbf {R} _ {m} + \mathrm{T} _ {m}\right) \mathbf {Q} _ {- i} \\ - (\mathfrak {R} _ {m} + \mathrm{T} _ {m}) ^ {2}. \\ = \mathfrak {m} ^ {2} - \mathfrak {Q} _ {i} \mathrm{T} _ {m} + \mathrm{T} _ {m} \mathfrak {Q} _ {- i} - \mathfrak {R} _ {m} \mathfrak {R} _ {m} - \mathfrak {R} _ {m} \mathrm{T} _ {m} - \mathrm{T} _ {m} \mathfrak {R} _ {m} - \mathrm{T} _ {m} \mathrm{T} _ {m}. \\ \end{array}
+\]
+
 By reasoning as before it can be shown, that the only real
 
 ## PDF page 518

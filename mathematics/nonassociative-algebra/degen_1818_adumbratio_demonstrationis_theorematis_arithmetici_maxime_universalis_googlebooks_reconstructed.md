@@ -10,7 +10,7 @@ Transcription of `degen_1818_adumbratio_demonstrationis_theorematis_arithmetici_
 
 Method: pages 1-13 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
-Second engine: Surya OCR 0.17.0 alone read page 4, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+Second engine: Surya OCR 0.17.0 alone read page 4; MinerU2.5-Pro 2605 read page 6, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -221,34 +221,47 @@ Digitized by Google
 ## PDF page 6
 
 212
-34) <math>bf = b^2d = d\beta'''\zeta'''</math> sc. <math>b^2 = \beta'''\zeta'''</math> fit <math>\beta''' = \zeta''' = b</math>
-(Ex aequat. 10, 33.)
-35) be <math>\equiv g\beta^{VI} \epsilon^{VI}</math> sc. bad <math>\equiv af\beta^{VI} \epsilon^{VI} \equiv abd\beta^{VI} \epsilon^{VI}</math> (9, 23, 24, 33);
-ergo <math>\beta^{VI} = \epsilon^{VI} = 1</math>:
-36) <math>bf = d\beta^{IV} \eta^{IV} \text{ sc. } b^2 = \beta^{IV} \eta^{IV}; \text{ ergo } \beta^{IV} = \eta^{IV} = b \ (11,24,23).</math>
-37) <math>cd = g \gamma^{VI} \delta^{VI}</math> sc. <math>bd = f \gamma^{VI} \delta^{VI}</math>; ergo. <math>\gamma^{VI} = \delta^{VI} = 1</math>.
-(12, 22, 24, 33)
-38) <math>ce = f\gamma^{\mathbf{v}} \varepsilon^{\mathbf{v}} \operatorname{sc.} a^{2}bd = f\gamma^{\mathbf{v}} \varepsilon^{\mathbf{v}}; \operatorname{ergo} \gamma^{\mathbf{v}} = \varepsilon^{\mathbf{v}} = a.</math>
-(13, 22, 23, 33)
-39) <math>cf = e\gamma^{IV}\zeta^{IV}</math>, sc, <math>bf = b^2d = d\gamma^{IV}\zeta^{IV}</math>; inde <math>\gamma^{IV} = \zeta^{IV} = b</math>
-(14, 22, 23, 33)
-40) <math>cg = d\gamma''' \eta''' \text{ sc. } a^2bf = a^2b^2d = d\gamma''' \eta''';</math>
-inde <math>\gamma''' = \begin{cases} \gamma^2 \\ 2 \\ 2 \\ 3 \end{cases}</math>, <math>\gamma''' = \begin{cases} b^2 \\ 2 \\ 3 \\ 3 \end{cases}</math> sc. <math>\gamma''' = \begin{cases} a \\ a \\ b \end{cases}</math> et <math>\gamma''' = \begin{cases} a^{b^2} \\ a^2 b \end{cases}</math> (15)
-41) <math>df = b\delta'\zeta'</math> sc. <math>bd^2 = b\delta'\zeta'</math>; ergo <math>\delta' = \zeta' = d \cdot (17)</math>
-42) <math>dg = c\delta''\eta'' \text{ sc. } df = b\delta''\eta'' \text{ sc. } bd^2 = b\delta''\eta'' \text{; ergo } \delta'' = \eta'' = d(18)</math>
-43) <math>ef = c\varepsilon''\zeta''</math> sc. <math>df = bd^2 = \varepsilon''\zeta''</math>; hinc <math>\varepsilon'' = \zeta'' = d</math> (19)
-44) <math>eg = b\epsilon' \eta' \text{ sc. } a^2 df = a^2 b d^2 = b\epsilon' \eta', \text{ ergo } \epsilon' = \eta' = ad,</math>
-reliqua ut supra (40). (Ex aequat. 20)
-45) <math>fg = a\zeta\eta</math>, sc. <math>af^2 = a\zeta\eta</math>; hinc <math>\zeta = \eta = f</math>.
-§. 6. Collectis jam sparsis illis coefficientium valoribus [
-praec. erutis, colligitur
-1) <math>\alpha = \beta' = \alpha'' = \beta'' = \gamma'' = \beta''' = \alpha^{IV} = \beta^{IV} = \beta^{V} = \beta^{V} = \beta^{V} = \beta^{V} = \beta^{V} = \beta^{V} = \beta^{V} = \beta^{V} = \beta^{V} = \beta^{V} = \beta^{V} = \beta^{V} = \beta^{V} = \beta^{V} = \beta^{V} = \beta^{V} = \beta^{V} = \beta^{V} = \beta^{V} = \beta^{V} = \beta^{V}</math>
-<math>= \alpha^{VI} = \beta^{VI} = \gamma^{VI} = \delta^{VI} = \epsilon^{VI} = \xi^{VI} = \gamma^{VI} = i</math>
-partim ex hypothesibus, partim ex aeq. 35, 37; partim deni-
-que ex aequatione <math>\alpha = \beta' = \gamma'' = \delta''' \dots = 1</math>.
-2) <math>\alpha' = \gamma' = \alpha''' = \epsilon''' = \alpha^{\mathbf{v}} = \gamma^{\mathbf{v}} = \gamma^{\mathbf{v}} = \epsilon^{\mathbf{v}} = \alpha \quad (28, 38)</math>
-3) <math>\beta = \gamma = \beta'' = \zeta''' = \beta^{IV} = \gamma^{IV} = \zeta^{IV} = b (30,34,36,39)</math>
-4) <math>\delta = \varepsilon = \delta' = \zeta' = \delta'' = \eta'' = \varepsilon'' = \zeta'' = d (32, 41, 42, 43)</math>
+
+34) \( bf = b^2 d = d\beta^{III}\zeta^{III} \) sc. \( b^2 = \beta^{III}\zeta^{III} \). fit \( \beta^{III} = \zeta^{III} = b \) (Ex. acquat. 10, 33.)
+
+35) \( be = g\beta^{\mathrm{VI}}_{\varepsilon^{\mathrm{VI}}} \) sc. \( \text{bad} = a f \beta^{\mathrm{VI}}_{\varepsilon^{\mathrm{VI}}} = ab d \beta^{\mathrm{VI}}_{\varepsilon^{\mathrm{VI}}} \) (9, 23, 24, 33); ergo \( \beta^{\mathrm{VI}} = \varepsilon^{\mathrm{VI}} = 1 \):
+
+36) \(bf = d\beta^{\mathrm{IV}}\eta^{\mathrm{IV}}\) sc. \(b^{2} = \beta^{\mathrm{IV}}\eta^{\mathrm{IV}}\); ergo \(\beta^{\mathrm{IV}} = \eta^{\mathrm{IV}} = b\) (11,24,23).
+
+37) \(cd = g\gamma^{\mathrm{VI}\delta^{\mathrm{VI}}}\) sc. \(bd = f\gamma^{\mathrm{VI}\delta^{\mathrm{VI}}}\); ergo. \(\gamma^{\mathrm{VI}} = \delta^{\mathrm{VI}} = 1\). (12, 22, 24, 33)
+
+38) \(ce = f\gamma^{\mathrm{V}}\varepsilon^{\mathrm{V}}\) sc. \(a^2 bd = f\gamma^{\mathrm{V}}\varepsilon^{\mathrm{V}}\); ergo \(\gamma^{\mathrm{V}} = \varepsilon^{\mathrm{V}} = a\). (13, 22, 23, 33)
+
+39) \(cf = e\gamma^{\mathrm{IV}}\zeta^{\mathrm{IV}}\), sc. \(bf = b^{2}d = d\gamma^{\mathrm{IV}}\zeta^{\mathrm{IV}}\); inde \(\gamma^{\mathrm{IV}} = \zeta^{\mathrm{IV}} = b\) (14, 22, 23, 33)
+
+40) \(cg = d\gamma^{III}\eta^{III}\) sc. \(a^2 bf = a^2 b^2 d = d\gamma^{III}\eta^{III}\);
+
+inde \(\gamma^{\prime \prime \prime} = \left\{ \begin{array}{c} \gamma^{2} \\ a^{2} \end{array} \right\}\), \(\eta^{\prime \prime \prime} = \left\{ \begin{array}{c} b^{2} \\ a^{2} b \end{array} \right\}\) sc. \(\gamma^{\prime \prime \prime} = \left\{ \begin{array}{c} a \\ a b^{2} \\ b \\ b a^{2} \end{array} \right\}\) et \(\eta^{\prime \prime \prime} = \left\{ \begin{array}{c} a b^{2} \\ a \\ a^{2} b \end{array} \right\}\) (15)
+
+41) \(df = b\delta' \zeta'\) sc. \(bd^2 = b\delta' \zeta'\); ergo \(\delta' = \zeta' = d\). (17)
+
+42) \(dg = c\delta''\eta''\mathrm{sc}.df = b\delta''\eta''\mathrm{sc}.bd^2 = b\delta''\eta'';\mathrm{ergo}\delta'' = \eta'' = d(18)\)
+
+43) \( ef = c\varepsilon''\zeta'' \) sc. \( df = bd^2 = \varepsilon''\zeta'' \); hinc \( \varepsilon'' = \zeta'' = d \) (19)
+
+44) \( eg = b\varepsilon' \eta' \) sc. \( a^2 df = a^2 bd^2 = b\varepsilon' \eta' \), ergo \( \varepsilon' = \eta' = ad \), reliqua ut supra (40). (Ex aequat. 20)
+
+45)  \( fg = a\zeta\eta \) , sc.  \( af^{2} = a\zeta\eta \) ; hinc  \( \zeta = \eta = f \) .
+
+§. 6. Collectis jam sparsis illis coefficientium valoribus praec. erutis, colligitur
+
+1)  \( \alpha=\beta'=\alpha''=\beta''=\gamma''=\delta'''=\alpha^{IV}=\delta^{IV}=\varepsilon^{IV}=\beta^{V}=\delta^{V}=\zeta' \) 
+
+ \( =\alpha^{VI}=\beta^{VI}=\gamma^{VI}=\delta^{VI}=\varepsilon^{VI}=\zeta^{VI}=\eta^{VI}=1, \)
+
+partim ex hypothesibus, partim ex aeq. 35, 37; partim denique ex aequatione \(\alpha = \beta' = \gamma'' = \delta'' \ldots = 1\).
+
+2) \(\alpha' = \gamma' = \alpha''' = \varepsilon''' = \alpha^{\mathbf{v}} = \eta^{\mathbf{v}} = \gamma^{\mathbf{v}} = \varepsilon^{\mathbf{v}} = a\) (28,38)
+
+3) \(\beta = \gamma = \beta^{\prime \prime \prime} = \zeta^{\prime \prime \prime} = \beta^{\mathrm{IV}} = \eta^{\mathrm{IV}} = \gamma^{\mathrm{IV}} = \zeta^{\mathrm{IV}} = b(30,34,36,39)\)
+
+4) \(\delta = \varepsilon = \delta' = \zeta' = \delta'' = \eta'' = \varepsilon'' = \zeta'' = d\) (32,41,42,43)
+
 Digitized by Google
 
 ## PDF page 7

@@ -10,6 +10,8 @@ Transcription of `works-of-archimedes-heath--d238f10339.pdf` in this directory, 
 
 Method: pages 2-521 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1 from the PDF's own text layer (pdftotext version 26.01.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
+Second engine: MinerU2.5-Pro 2605 read pages 3, 26, 163, 176, 184, 217, 299, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+
 ## PDF page 1
 
 This is a digital copy of a book that was preserved for generations on library shelves before it was carefully scanned by Google as part of a project
@@ -74,31 +76,6 @@ Ze<br>1897
 
 ## PDF page 3
 
-According to the second
-emme Tumaaniminin
-pa (a fri fa francia de de la caracteria de la caracteria de la caracteria de la caracteria de la caracteria d
-BGENTIA
-ARTES
-LIBRARY CONTROL OF THE UNIVERSITY OF MICHIGAN
-A STATE OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE
-<b>₹</b>0
-ERO
-. .
-
-
-
-*
-i
-.
-1
-í
-5
-٠
-
-.
-.
-.
-1
 Hosted by Google
 
 ## PDF page 4
@@ -882,47 +859,27 @@ Hosted by Google
 ## PDF page 26
 
 ARCHIMEDES.
-XX1
-water-screw* (also called κοχλίας) which was apparently invented
-by him in Egypt, for the purpose of irrigating fields. It was
-also used for pumping water out of mines or from the hold of
-ships.
-Another invention was that of a sphere constructed so as to
-imitate the motions of the sun, the moon, and the five planets
-in the heavens. Cicero actually saw this contrivance and gives a
-description of it †, stating that it represented the periods of the
-moon and the apparent motion of the sun with such accuracy that
-it would even (over a short period) show the eclipses of the sun
-and moon. Hultsch conjectures that it was moved by water ‡.
-We know, as above stated, from Pappus that Archimedes wrote
-a book on the construction of such a sphere <math>(\pi \epsilon \rho)</math> <math>\sigma \phi \alpha \iota \rho \sigma \sigma \sigma \sigma \sigma \sigma \sigma \sigma \sigma \sigma \sigma \sigma \sigma \sigma \sigma \sigma \sigma \sigma</math>
-and Pappus speaks in one place of "those who understand the
-making of spheres and produce a model of the heavens by means
-of the regular circular motion of water." In any case it is certain
-that Archimedes was much occupied with astronomy. Livy calls
-him "unicus spectator caeli siderumque." Hipparchus says §,
-"From these observations it is clear that the differences in the
-years are altogether small, but, as to the solstices, I almost
-think <math>(o \dot{v}_{\kappa} \dot{a} \pi \epsilon \lambda \pi i \zeta_{\omega})</math> that both I and Archimedes have erred to
-the extent of a quarter of a day both in the observation and in the
-deduction therefrom." It appears therefore that Archimedes had
-considered the question of the length of the year, as Ammianus
-also states ||. Macrobius says that he discovered the distances of
-the planets¶. Archimedes himself describes in the Sand-reckoner
-the apparatus by which he measured the apparent diameter of the
-sun, or the angle subtended by it at the eye.
-The story that he set the Roman ships on fire by an arrange-
-ment of burning-glasses or concave mirrors is not found in any
-* Diodorus 1. 34, v. 37; Vitruvius x. 16 (11); Philo 111. p. 330 (ed. Pfeiffer);
-Strabo xvII. p. 807; Athenaeus v. 208 f.
-† Cicero, De rep., 1. 21-22; Tusc., 1. 63; De nat. deor., 11. 88. Cf. Ovid,
-į.
-Fasti, vi. 277; Lactantius, Instit., ii. 5, 18; Martianus Capella, ii. 212, vi.
-583 sq.; Claudian, Epigr. 18; Sextus Empiricus, p. 416 (ed. Bekker).
-‡ Zeitschrift f. Math. u. Physik (hist. litt. Abth.), xxII. (1877), 106 sq.
-§ Ptolemy, σύνταξις, 1. p. 153.
+
+xxi
+
+water-screw* (also called κοχλίας) which was apparently invented by him in Egypt, for the purpose of irrigating fields. It was also used for pumping water out of mines or from the hold of ships.
+
+Another invention was that of a sphere constructed so as to imitate the motions of the sun, the moon, and the five planets in the heavens. Cicero actually saw this contrivance and gives a description of it†, stating that it represented the periods of the moon and the apparent motion of the sun with such accuracy that it would even (over a short period) show the eclipses of the sun and moon. Hultsch conjectures that it was moved by water ‡. We know, as above stated, from Pappus that Archimedes wrote a book on the construction of such a sphere (περὶ σφαιροποιὰς), and Pappus speaks in one place of “those who understand the making of spheres and produce a model of the heavens by means of the regular circular motion of water.” In any case it is certain that Archimedes was much occupied with astronomy. Livy calls him “unicus spectator caeli siderumque.” Hipparchus says §, “From these observations it is clear that the differences in the years are altogether small, but, as to the solstices, I almost think (οὐκ ἀπελπίζω) that both I and Archimedes have erred to the extent of a quarter of a day both in the observation and in the deduction therefrom.” It appears therefore that Archimedes had considered the question of the length of the year, as Ammianus also states ||. Macrobius says that he discovered the distances of the planets ¶. Archimedes himself describes in the Sand-reckoner the apparatus by which he measured the apparent diameter of the sun, or the angle subtended by it at the eye.
+
+The story that he set the Roman ships on fire by an arrangement of burning-glasses or concave mirrors is not found in any
+
+* Diodorus i. 34, v. 37; Vitruvius x. 16 (11); Philo iii. p. 330 (ed. Pfeiffer); Strabo xvii. p. 807; Athenaeus v. 208 f.
+
+† Cicero, De rep., i. 21–22; Tusc., i. 63; De nat. deor., ii. 88. Cf. Ovid, Fasti, vi. 277; Lactantius, Instit., ii. 5, 18; Martianus Capella, ii. 212, vi. 583 sq.; Claudian, Epigr. 18; Sextus Empiricus, p. 416 (ed. Bekker).
+
+‡ Zeitschrift f. Math. u. Physik (hist. litt. Abth.), xxii. (1877), 106 sq.
+
+§ Ptolemy, σύνταξις, i. p. 153.
+
 || Ammianus Marcell., xxvi. i. 8.
-¶ Macrobius, in Somn. Scip., 11. 3.
+
+¶ Macrobius, in Somn. Scip., II. 3.
+
 Hosted by Google
 
 ## PDF page 27
@@ -6812,46 +6769,25 @@ Hosted by Google
 ## PDF page 163
 
 clviii
+
 INTRODUCTION.
-(The straight line) will fall outside (i.e. will extend beyond) P,
-ἐκτὸς τοῦ Ρ πεσείται; will fall within the section of the figure ἐντὸς
-πεσούνται τᾶς τοῦ σχήματος τομᾶς.
-The (perpendicular) distance between (two parallel lines) AZ, BH,
-τὸ διάστημα τᾶν AZ, BH. Other ways of expressing distances are the
-following: the magnitudes equidistant from the middle one τὰ ἴσον
-ἀπέχοντα ἀπὸ τοῦ μέσου μεγέθεα, are at equal distances from one
-another ἴσα ἀπ' ἀλλάλων διέστακεν; the segments (lengths) on ΛΗ
-equal to N, τὰ ἐν τậ ΛΗ τμάματα ἰσομεγέθεα τậ N; greater by one
-segment ένὶ τμάματι μείζων.
-The word <math>\epsilon i\theta \epsilon ia</math> itself is also often used in the sense of distance;
-cf. the terms <math>\pi \rho \dot{\omega} \tau \eta \epsilon \dot{\imath} \theta \epsilon \hat{\imath} a</math> etc. in the book On Spirals, also <math>\dot{a} \epsilon \dot{\imath} \theta \epsilon \hat{\imath} a</math>
-ά μεταξύ του κέντρου του άλίου και του κέντρου τας yas the distance
-between the centre of the sun and the centre of the earth.
-The word for join is ἐπιζευγνύω or ἐπιζεύγνυμι; the straight line
-<math>joining\ the\ points\ of\ contact\ \'a\ 	au \`as\ \'aφ \`as\ \'eπιζευγνύουσ<math>a\ \'ev θε\~aa,\ B\Delta\ when</math></math>
-joined à ΒΔ ἐπιζευχθεῖσα; let EZ join the points of bisection of AΔ,
-ΒΓ, ά δὲ ΕΖ ἐπιζευγνυέτω τὰς διχοτομίας τᾶν ΑΔ, ΒΓ. In one case
-the word seems to be used in the sense of drawing simply, εί κα
-εὐθεῖα ἐπιζευχθῆ γραμμὰ ἐν ἐπιπέδω.
+
+(The straight line) will fall outside (i.e. will extend beyond) P, ἐκτὸς τοῦ P πεσεῖται; will fall within the section of the figure ἐντὸς πεσούνται τᾶς τοῦ σχήματος τομᾶς.
+
+The (perpendicular) distance between (two parallel lines) AZ, BH, τὸ διάστημα τᾶν AZ, BH. Other ways of expressing distances are the following: the magnitudes equidistant from the middle one τὰ ἴσον ἀπέχοντα ἀπὸ τοῦ μέσον μεγέθεα, are at equal distances from one another ἴσα ἀπ᾿ ἀλλάλων διέστακεν; the segments (lengths) on ΛΗ equal to N, τὰ ἐν τᾶ ΛΗ τμάματα ἴσομεγέθεα τᾶ Ν; greater by one segment ἐνὶ τμάματι μείζων.
+
+The word εὐθεῖα itself is also often used in the sense of distance; cf. the terms πρώτη εὐθεῖα etc. in the book On Spirals, also ἀ εὐθεῖα ἀ μεταξὺ τοῦ κέντρου τοῦ ἀλίου καὶ τοῦ κέντρου τᾶς γᾶς the distance between the centre of the sun and the centre of the earth.
+
+The word for join is ἐπιζευγνώ or ἐπιζεύγννμι; the straight line joining the points of contact ἀ τὰς ἀφὰς ἐπιζευγνύουσα εὐθεῖα, BΔ when joined ἀ BΔ ἐπιζευχθεῖσα; let EZ join the points of bisection of AΔ, BΓ, ἀ δὲ EZ ἐπιζευγνυέτω τὰς διχοτομίας τᾶν AΔ, BΓ. In one case the word seems to be used in the sense of drawing simply, εἴ κα εὐθεῖα ἐπιζευχθῆ γραμμὰ ἐν ἐπιπέδῳ.
+
 Angles.
-An angle is <math>\gamma \omega \nu i a</math>, the three kinds of angles are right <math>\delta \rho \theta \dot{\eta}</math>, acute
-όξεια, obtuse ἀμβλεια; right-angled etc. ὀρθογώνιος, ὀξυγώνιος, ἀμβλυ-
-γώνιος; equiangular ἰσογώνιος; with an even number of angles
-άρτιόγωνος or άρτιογώνιος.
-At right angles to <math>\delta \rho \theta \delta s</math> <math>\pi \rho \delta s</math> (with acc.) or <math>\pi \rho \delta s</math> <math>\delta \rho \theta \delta s</math> (with dat.
-following); thus if a line be erected at right angles to the plane \( \gamma \rho a \mu \mu \rho a \rho a \rho a \rho a \rho a \rho a \rho a \rho a \rho a \rho a \rho a \rho a \rho a \rho a \rho a \rho a \rho a \rho a \rho
-ανεστακούσας <math>\partial \rho \theta \hat{a}</math>ς ποτὶ τὸ ἐπίπεδον, the planes are at right angles to
-one another ὀρθὰ ποτ' ἄλλαλά ἐντι τὰ ἐπίπεδα, being at right angles
-to ABF, <math>\pi\rho\delta s</math> <math>\delta\rho\theta\delta s</math> <math>\delta\nu</math> <math>\tau\hat{\psi}</math> ABF; KF, <math>\Xi\Lambda</math> are at right angles to one
-another <math>\pi \circ \tau</math> <math>\delta \rho \theta \acute{a}s \acute{e}v \tau \iota \acute{a}\lambda\lambda \acute{a}\lambda a \iota s a \iota K\Gamma</math>, <math>\Xi \Lambda</math>, to cut at right angles
-τέμνειν πρὸς ὀρθάς. The expression making right angles with is also
-used, e.g. ὀρθὰς ποιοῦσα γωνίας ποτὶ τὰν AB.
-The complete expression for the angle contained by the lines AH,
-AΓ is ά γωνία ά περιεχομένα ὑπὸ τᾶν AH, AΓ; but there are a great
-variety of shorter expressions, γωνία itself being often understood;
-thus the angles Δ, E, A, B, at Δ, E, A, B γωνίαι; the angle at Θ, ά ποτὶ
-<math>\tau \hat{\omega}</math> Θ; the angle contained by AΔ, ΔZ, & γωνία & <math>\delta \tilde{\nu} \pi \tilde{o} \tau \tilde{a} \nu</math> AΔ, ΔZ; the
-angle <math>\Delta</math>HΓ, ή ὑπὸ τῶν <math>\Delta</math>HΓ γωνία, ή ὑπὸ <math>\Delta</math>HΓ (with or without γωνία).
+
+An angle is γωνία, the three kinds of angles are right ὀρθή, acute ὀξεῖα, obtuse ἀμβλεῖα; right-angled etc. ὀρθογώνιος, ὀξυγώνιος, ἀμβλυγώνιος; equiangular ἰσογώνιος; with an even number of angles ἀρτιόγωνος or ἀρτιογώνιος.
+
+At right angles to ὅρθὸς πρός (with acc.) or πρὸς ὅρθάς (with dat. following); thus if a line be erected at right angles to the plane γραμμᾶς ἀνεστακούσας ὅρθᾶς ποτὶ τὸ ἐπίπεδον, the planes are at right angles to one another ὅρθὰ ποτ᾿ ἄλλαλά ἐντι τὰ ἐπίπεδα, being at right angles to ABΓ, πρὸς ὅρθὰς ὄν τῷ ABΓ; ΚΓ, ΞΛ are at right angles to one another ποτ᾿ ὅρθάς ἐντι ἄλλάλαις αἱ ΚΓ, ΞΛ, to cut at right angles τέμνειν πρὸς ὅρθάς. The expression making right angles with is also used, e.g. ὅρθὰς ποιοῦσα γωνίας ποτὶ τὰν AB.
+
+The complete expression for the angle contained by the lines AH, AΓ is ἀ γωνία ἀ περιεχομένα ὑπὸ τᾶν AH, AΓ; but there are a great variety of shorter expressions, γωνία itself being often understood; thus the angles Δ, E, A, B, αἱ Δ, E, A, B γωνίαι; the angle at Θ, ἀ ποτὶ τῷ Θ; the angle contained by AD, ΔZ, ἀ γωνία ἀ ὑπὸ τᾶν AD, ΔZ; the angle ΔΗΓ, ἡ ὑπὸ τῶν ΔΗΓ γωνία, ἡ ὑπὸ ΔΗΓ (with or without γωνία).
+
 Hosted by Google
 
 ## PDF page 164
@@ -7400,47 +7336,22 @@ Hosted by Google
 
 ## PDF page 176
 
-clxxi
 THE TERMINOLOGY OF ARCHIMEDES.
-segment parallel to the axis of the conoid ά ἐναπολαφθεῖσα εἰθεῖα ἐν τῷ
-τμάματι ἀπὸ τᾶς ἀχθείσας διὰ τᾶς κορυφᾶς τοῦ τμάματος παρὰ τὸν
-ἄξονα τοῦ κωνοειδέος, (b) in the hyperboloid it is the straight line cut
-off within the segment from the line drawn through the vertex of the
-segment and the vertex of the cone enveloping the conoid ἀπὸ τâs
-άχθείσας διὰ τᾶς κορυφᾶς τοῦ τμάματος καὶ τᾶς κορυφᾶς τοῦ κώνου τοῦ
-περιέχοντος τὸ κωνοειδές, (c) in the spheroid it is the part similarly
-cut off from the straight line joining the vertices of the two segments
-into which the base divides the spheroid, ἀπὸ τᾶς εὐθείας τᾶς τὰς
-κορυφας αὐτῶν (τῶν τμαμάτων) ἐπιζευγνυούσας.
-Archimedes does not use the word centre with respect to the
-hyperboloid of revolution, but calls the centre the vertex of the
-enveloping cone. Also the axis of a hyperboloid or a segment is
-only that part of it which is within the surface. The distance
-between the vertex of the hyperboloid or segment and the vertex
-of the enveloping cone is the line adjacent to the axis ά ποτεούσα
-τῷ ἄξονι.
-The following are miscellaneous expressions. The part inter-
-cepted within the conoid of the intersection of the planes ά ἐναπο-
-λαφθείσα εν τῷ κωνοειδεί τῶς γενομένας τομᾶς τῶν ἐπιπέδων, (the plane)
-will have cut the spheroid through its axis τετμακὸς ἐσσείται τὸ
-σφαιροειδες δια του άξονος, so that the section it makes will be a
-conic section ώστε τὰν τομὰν ποιήσει κώνου τομάν, let two segments be
-cut off in any manner ἀποτετμάσθω δύο τμάματα ώς ἔτυχεν or by
-planes drawn in any manner ἐπιπέδοις ὁπωσοῦν ἀγμένοις.
-Half the spheroid <math>\tau \delta</math> amis <math>\delta v \cdot \tau \delta v \cdot \tau \delta v \cdot \tau \delta v \cdot \tau \delta v \cdot \tau \delta v \cdot \tau \delta v \cdot \tau \delta v \cdot \tau \delta v \cdot \tau \delta v \cdot \tau \delta v \cdot \tau \delta v \cdot \tau \delta v \cdot \tau \delta v \cdot \tau \delta v \cdot \tau \delta v \cdot \tau \delta v \cdot \tau \delta v \cdot \tau \delta v \cdot \tau \delta v \cdot \tau \delta v \cdot \tau \delta v \cdot \tau \delta v \cdot \tau \delta v \cdot \tau</math>
-joining the vertices of the segments (of a spheroid), i.e. what we should
-call a semi-diameter, ά ήμισέα αὐτᾶς τᾶς ἐπιζευγνυούσας τὰς κορυφὰς
-τῶν τμαμάτων.
+
+clxxi
+
+segment parallel to the axis of the conoid à ἐναπολαφθεῖσα εὐθεῖα ἐν τῷ τμάματι ἀπὸ τᾶς ἀχθείσας διὰ τᾶς κορυφᾶς τοῦ τμάματος παρὰ τὸν ἄξονα τοῦ κωνοειδέος, (b) in the hyperboloid it is the straight line cut off within the segment from the line drawn through the vertex of the segment and the vertex of the cone enveloping the conoid ἀπὸ τᾶς ἀχθείσας διὰ τᾶς κορυφᾶς τοῦ τμάματος καὶ τᾶς κορυφᾶς τοῦ κώνου τοῦ περιέχοντος τὸ κωνοειδές, (c) in the spheroid it is the part similarly cut off from the straight line joining the vertices of the two segments into which the base divides the spheroid, ἀπὸ τᾶς εὐθείας τᾶς τὰς κορυφὰς αὐτῶν (τῶν τμαμάτων) ἐπιζευγνυούσας.
+
+Archimedes does not use the word centre with respect to the hyperboloid of revolution, but calls the centre the vertex of the enveloping cone. Also the axis of a hyperboloid or a segment is only that part of it which is within the surface. The distance between the vertex of the hyperboloid or segment and the vertex of the enveloping cone is the line adjacent to the axis à ποτεοῦσα τῷ ἄξονι.
+
+The following are miscellaneous expressions. The part intercepted within the conoid of the intersection of the planes à ἐναπολαφθεῖσα ἐν τῷ κωνοειδεῖ τᾶς γενομένας τομᾶς τῶν ἐπιπέδων, (the plane) will have cut the spheroid through its axis τετμακὸς ἐσσείται τὸ σφαιροειδὲς διὰ τοῦ ἄξονος, so that the section it makes will be a conic section ὡστε τὰν τομὰν ποιήσει κώνον τομάν, let two segments be cut off in any manner ἀποτετμάσθω δύο τμάματα ὡς ἔτυχεν or by planes drawn in any manner ἐπιπέδοις ὁπωσοῦν ἀγμένοις.
+
+Half the spheroid τὸ ἀμίσεον·τοῦ σφαιροειδέος, half the line joining the vertices of the segments (of a spheroid), i.e. what we should call a semi-diameter, ἀ ἡμισέα αὐτᾶς τᾶς ἐπιζευγνυούσας τὰς κορυφὰς τῶν τμαμάτων.
+
 The spiral.
-We have already had, in the conoids and spheroids, instances of
-the evolution of figures by the motion of curves about an axis. The
-same sort of motion is used for the construction of solid figures
-inscribed in and circumscribed about a sphere, a circle and an
-inscribed or circumscribed polygon being made to revolve about
-a diameter passing through an angular point of the polygon and
-dividing it and the circle symmetrically. In this case, in Archimedes'
-phrase, the angular points of the polygon will move along the circum-
-ferences of circles, at γωνίαι κατά κύκλων περιφερειών ενεχθήσονται (or
+
+We have already had, in the conoids and spheroids, instances of the evolution of figures by the motion of curves about an axis. The same sort of motion is used for the construction of solid figures inscribed in and circumscribed about a sphere, a circle and an inscribed or circumscribed polygon being made to revolve about a diameter passing through an angular point of the polygon and dividing it and the circle symmetrically. In this case, in Archimedes' phrase, the angular points of the polygon will move along the circumferences of circles, ai γωνίαι κατὰ κύκλων περιφερειῶν ἐνεχθήσονται (or
+
 Hosted by Google
 
 ## PDF page 177
@@ -7770,46 +7681,30 @@ Hosted by Google
 
 ## PDF page 184
 
-clxxix
 THE TERMINOLOGY OF ARCHIMEDES.
-ratio in the sense of a simple multiple by 2, 4 etc., e.g. if any
-number of areas be placed in order, each being four times the next <math>\epsilon i</math>
-κα χωρία τεθέωντι έξης δποσαοῦν εν τῷ τετραπλασίονι λόγῳ.
-The ordinary expression for a proportion is as A is to B so is <math>\Gamma</math>
-to <math>\Delta</math>, wis <math>\dot{\eta}</math> A <math>\pi \rho \dot{o}</math>s <math>\tau \dot{\eta} \nu</math> B, overws <math>\dot{\eta}</math> <math>\Gamma</math> <math>\pi \rho \dot{o}</math>s <math>\tau \dot{\eta} \nu</math> <math>\Delta</math>. Let <math>\Delta E</math> be made so
-that <math>\Delta E</math> is to <math>\Gamma E</math> as the sum of <math>\Theta A</math>, <math>AE</math> is to <math>AE</math>, <math>\pi \epsilon \pi \omega \iota \eta \sigma \theta \omega</math>, <math>\omega \varsigma</math>
-συναμφότερος ή ΘΑ, ΑΕ προς την ΑΕ, ούτως ή ΔΕ προς ΓΕ. Τhe
-antecedents are τὰ ἡγούμενα, the consequents τὰ ἐπόμενα.
-For reciprocally proportional the parts of ἀντιπέπονθα are used;
-the bases are reciprocally proportional to the heights ἀντιπεπόνθασιν
-ai βάσεις ταις υψεσιν, to be reciprocally in the same proportion
-αντιπεπουθέμεν κατά τον αὐτον λόγον.
-A ratio compounded of is λόγος συνημμένος (or συγκείμενος) έκ τε
-τοῦ...καὶ τοῦ...; the ratio of PΛ to ΛΧ is equal to that compounded of
-ό της ΡΛ προς ΛΧ λόγος συνηπται έκ.... Two other expressions for
-compounded ratios are ὁ τοῦ ἀπὸ ΑΘ πρὸς τὸ ἀπὸ ΒΘ καὶ ὁ (or
-<math>\pi \rho \circ \sigma \lambda \alpha \beta \dot{\omega} \nu \tau \dot{\circ} \nu) \tau \hat{\eta} s A \Theta \pi \rho \dot{\circ} s \Theta B</math>, the ratio of the square on <math>A \Theta</math> to
-the square on B<sub>\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\text{\t</sub>
-The technical terms for transforming such a proportion as
-<math>a:b=c:d</math> are as follows:
-1. ἐναλλάξ alternately (usually called permutando or alternando)
-means transforming the proportion into <math>a:c=b:d</math>.
-2.
-<math>\vec{a}</math>νάπαλιν reversely (usually invertendo), <math>b: a = d: c</math>.
-3. σύνθεσις λόγου is composition of a ratio by which the ratio
-<math>a:b</math> becomes <math>a+b:b</math>. The corresponding Greek term to com-
-ponendo is συνθέντι, which means no doubt literally "to one who
-has compounded," i.e. "if we compound," the ratios. Thus συνθέντι
-denotes the inference that <math>a+b:b=c+d:d</math>. κατὰ σύνθεσιν is also
-used in the same sense by Archimedes.
-4. διαίρεσις λόγου signifies the division of a ratio in the sense of
-separation or subtraction by which <math>a:b</math> becomes <math>a-b:b</math>. Similarly
-διελόντι (or κατὰ διαίρεσιν) denotes the inference that <math>a-b:b=</math>
-<math>c-d:d</math>. The translation dividendo is therefore somewhat mis-
-leading.
-5. αναστροφή λόγου conversion of a ratio and αναστρέψαντι
-correspond respectively to the ratio <math>a:a-b</math> and to the inference
-that <math>a:a-b=c:c-d</math>.
+
+clxxix
+
+ratio in the sense of a simple multiple by 2, 4 etc., e.g. if any number of areas be placed in order, each being four times the next ε' κα χωρία τεθέωντι ἐξῆς ὅποσαοῦν ἐν τῷ τετραπλασίονι λόγῳ.
+
+The ordinary expression for a proportion is as A is to B so is Γ to Δ, ὡς ἡ Α πρὸς τὴν B, οὔτως ἡ Γ πρὸς τὴν Δ. Let ΔΕ be made so that ΔΕ is to ΓΕ as the sum of ⒺΑ, ΑΕ is to ΑΕ, πεποιήσθω, ὡς συναμφότερος ἡ ⒺΑ, ΑΕ πρὸς τὴν ΑΕ, οὔτως ἡ ΔΕ πρὸς ΓΕ. The antecedents are τὰ ἡγούμενα, the consequents τὰ ἐπόμενα.
+
+For reciprocally proportional the parts of ἀντιπέπονθα are used; the bases are reciprocally proportional to the heights ἀντιπεπόνθασιν αἱ βάσεις ταῖς ὑψεσιν, to be reciprocally in the same proportion ἀντιπεπονθέμεν κατὰ τὸν αὐτὸν λόγον.
+
+A ratio compounded of is λόγος συνημένος (or συγκείμενος) ἔκ τε τοῦ...καὶ τοῦ...; the ratio of ΡΛ to ΛΧ is equal to that compounded of ὁ τῆς ΡΛ πρὸς ΛΧ λόγος συνῆπται ἔκ.... Two other expressions for compounded ratios are ὁ τοῦ ἀπὸ ΑΘ πρὸς τὸ ἀπὸ ΒΘ καὶ ὁ (or προσλαβὼν τὸν) τῆς ΑΘ πρὸς ΘΒ, the ratio of the square on ΑΘ to the square on ΒΘ multiplied by the ratio of ΑΘ to ΘΒ.
+
+The technical terms for transforming such a proportion as \(a:b=c:d\) are as follows:
+
+1. ἐναλλάξ alternately (usually called permutando or alternando) means transforming the proportion into \(a:c=b:d\).
+
+2. ἀνάπαλιν reversely (usually invertendo), b : a = d : c.
+
+3. σύνθεσις λόγου is composition of a ratio by which the ratio \(a:b\) becomes \(a+b:b\). The corresponding Greek term to componendo is συνθέντι, which means no doubt literally “to one who has compounded,” i.e. “if we compound,” the ratios. Thus συνθέντι denotes the inference that \(a+b:b=c+d:d\). κατὰ σύνθεσιν is also used in the same sense by Archimedes.
+
+4. διαίρεσις λόγου signifies the division of a ratio in the sense of separation or subtraction by which \(a:b\) becomes \(a-b:b\). Similarly διελόντι (or κατὰ διαίρεσιν) denotes the inference that \(a-b:b=c-d:d\). The translation dividendo is therefore somewhat misleading.
+
+5. ἀναστροφὴ λόγον conversion of a ratio and ἀναστρέψαντι correspond respectively to the ratio \(a:a-b\) and to the inference that \(a:a-b=c:c-d\).
+
 Hosted by Google
 
 ## PDF page 185
@@ -9033,41 +8928,39 @@ Hosted by Google
 ## PDF page 217
 
 24
+
 ARCHIMEDES
+
 Proposition 18.
-Any solid rhombus consisting of isosceles cones is equal to
-the cone which has its base equal to the surface of one of the
-cones composing the rhombus and its height equal to the perpen-
-dicular drawn from the apex of the second cone to one side of
-the first cone.
-Let the rhombus be OABD consisting of two cones with
-apices <math>O</math>, <math>D</math> and with a common base (the circle about <math>AB</math> as
-diameter).
-A
-G
-κ
-н
-ם
-M
-C
-P
-В
-E
-N
-Let FHK be another cone with base equal to the surface of
-the cone <math>OAB</math> and height <math>FG</math> equal to <math>DE</math>, the perpendicular
-from <math>D</math> on <math>OB</math>.
-Then shall the cone <math>FHK</math> be equal to the rhombus.
-Construct a third cone LMN with base (the circle about
-<math>MN</math>) equal to the base of <math>OAB</math> and height <math>LP</math> equal to <math>OD</math>.
-<math>LP = OD</math>,
+
+Any solid rhombus consisting of isosceles cones is equal to the cone which has its base equal to the surface of one of the cones composing the rhombus and its height equal to the perpendicular drawn from the apex of the second cone to one side of the first cone.
+
+Let the rhombus be OABD consisting of two cones with apices O, D and with a common base (the circle about AB as diameter).
+
+Let FHK be another cone with base equal to the surface of the cone OAB and height FG equal to DE, the perpendicular from D on OB.
+
+Then shall the cone FHK be equal to the rhombus.
+
+Construct a third cone LMN with base (the circle about MN) equal to the base of OAB and height LP equal to OD.
+
 Then, since
-<math>LP: CD = OD: CD.</math>
-But [Lemma 1] <math>OD: CD = (\text{rhombus } OADB): (\text{cone } DAB),</math>
-<math>LP: CD = (\text{cone } LMN): (\text{cone } DAB).</math>
-and
+
+\[
+L P = O D,
+\]
+
+\[
+L P: C D = O D: C D.
+\]
+
+But [Lemma 1] \(OD:CD =\) (rhombus \(OADB\)): (cone \(DAB\)), and \(LP:CD =\) (cone \(LMN\)): (cone \(DAB\)).
+
 It follows that
-<math display="block">(\mathbf{rhombus} \ OADB) = (\mathbf{cone} \ LMN) \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots</math>
+
+\[
+(\text {rhombus} O A D B) = (\text {cone} L M N) \dots \tag {1}.
+\]
+
 Hosted by Google
 
 ## PDF page 218
@@ -12254,44 +12147,68 @@ Hosted by Google
 ## PDF page 299
 
 106
+
 ARCHIMEDES
-and if <math>A_3</math>, <math>B_3</math>, <math>C_3</math>, ...<math>K_3</math> and <math>A_4</math>, <math>B_4</math>, <math>C_4</math>, ...<math>K_4</math> be two other series
-such that
-<math>A_1: A_3 = A_2: A_4,</math><br>
-<math>B_1: B_3 = B_2: B_4, \ and \ so \ on</math> \\ \cdots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \ldots \
-then <math>(A_1 + B_1 + C_1 + ... + K_1) : (A_3 + B_3 + C_3 + ... + K_3)</math>
-<math>=(A_2+B_2+C_2+\ldots+K_2):(A_4+B_4+\ldots+K_4)</math>
+
+and if \(A_{3}, B_{3}, C_{3}, \ldots K_{3}\) and \(A_{4}, B_{4}, C_{4}, \ldots K_{4}\) be two other series such that
+
+\[
+\left. \begin{array}{l} A _ {1}: A _ {3} = A _ {2}: A _ {4}, \\ B _ {1}: B _ {3} = B _ {2}: B _ {4}, \text {and so on} \end{array} \right\} \dots \dots (\beta),
+\]
+
+then \((A_{1} + B_{1} + C_{1} + \ldots +K_{1}):(A_{3} + B_{3} + C_{3} + \ldots +K_{3})\)
+
+\[
+= (A _ {2} + B _ {2} + C _ {2} + \dots + K _ {2}): (A _ {4} + B _ {4} + \dots + K _ {4}).
+\]
+
 The proof is as follows.
-Since
-<math>A_3:A_1=A_4:A_2</math>
-<math>A_1:B_1=A_2:B_2</math>
-and
-<math>B_1: B_2 = B_2: B_4</math>
-while
-<math>A_3: B_3 = A_4: B_4.</math><br>
-<math>B_3: C_3 = B_4: C_4</math>, and so on <math>\}</math> .....(<math>\gamma</math>).
-we have, ex aequali,
-Similarly
-Again, it follows from equations (a) that
-<math>A_1: A_2 = B_1: B_2 = C_1: C_2 = \dots</math>
+
+Since \(A_{3}:A_{1} = A_{4}:A_{2},\)
+
+and  \( A_{1}:B_{1}=A_{2}:B_{2}, \)
+
+while  \( B_{1}:B_{3}=B_{2}:B_{4}, \)
+
+we have, ex aequali,  \( A_{3}:B_{3}=A_{4}:B_{4}. \) 
+Similarly  \( B_{3}:C_{3}=B_{4}:C_{4} \) , and so on  \( \left\}\right\cdots\left(\gamma\right) \) .
+
+Again, it follows from equations ( \( \alpha \) ) that
+
+\[
+A _ {1}: A _ {2} = B _ {1}: B _ {2} = C _ {1}: C _ {2} = \dots
+\]
+
 Therefore
-<math>A_1: A_2 = (A_1 + B_1 + C_1 + \dots + K_1): (A_2 + B_2 + \dots + K_2)</math>
-or <math>(A_1 + B_1 + C_1 + ... + K_1)</math>: <math>A_1 = (A_2 + B_2 + C_2 + ... + K_2)</math>: <math>A_2</math>;
-and
-<math>A_1: A_3 = A_2: A_4</math>
-while from equations <math>(\gamma)</math> it follows in like manner that
-<math>A_3: (A_3+B_3+C_3+\ldots+K_3)=A_4: (A_4+B_4+C_4+\ldots+K_4)</math>
+
+\[
+A _ {1}: A _ {2} = (A _ {1} + B _ {1} + C _ {1} + \dots + K _ {1}): (A _ {2} + B _ {2} + \dots + K _ {2}),
+\]
+
+or \((A_{1} + B_{1} + C_{1} + \ldots +K_{1}):A_{1} = (A_{2} + B_{2} + C_{2} + \ldots +K_{2}):A_{2};\)
+
+and  \( A_{1}:A_{3}=A_{2}:A_{4}, \)
+
+while from equations (γ) it follows in like manner that
+
+\[
+A _ {3}: (A _ {3} + B _ {3} + C _ {3} + \dots + K _ {3}) = A _ {4}: (A _ {4} + B _ {4} + C _ {4} + \dots + K _ {4}).
+\]
+
 By the last three equations, ex aequali,
-<math>(A_1 + B_1 + C_1 + \dots + K_1) : (A_2 + B_2 + C_2 + \dots + K_2)</math>
-<math>=(A_2+B_2+C_2+\ldots+K_2):(A_4+B_4+C_4+\ldots+K_4).</math>
-If any terms in the third and fourth series corre-
-Cor.
-sponding to terms in the first and second be left out, the
-result is the same. For example, if the last terms <math>K_3</math>, <math>K_4</math> are
-absent,
-<math>(A_1+B_1+C_1+\ldots+K_1):(A_3+B_3+C_3+\ldots+I_3)</math>
-<math>= (A_2 + B_2 + C_2 + \dots + K_2) : (A_4 + B_4 + C_4 + \dots + I_4),</math>
-where <math>I</math> immediately precedes <math>K</math> in each series.
+
+\[
+\begin{array}{l} (A _ {1} + B _ {1} + C _ {1} + \dots + K _ {1}): (A _ {3} + B _ {3} + C _ {3} + \dots + K _ {3}) \\ = (A _ {2} + B _ {2} + C _ {2} + \dots + K _ {2}): (A _ {4} + B _ {4} + C _ {4} + \dots + K _ {4}). \\ \end{array}
+\]
+
+Cor. If any terms in the third and fourth series corresponding to terms in the first and second be left out, the result is the same. For example, if the last terms  \( K_{3} \) ,  \( K_{4} \)  are absent,
+
+\[
+\begin{array}{l} (A _ {1} + B _ {1} + C _ {1} + \dots + K _ {1}): (A _ {3} + B _ {3} + C _ {3} + \dots + I _ {3}) \\ = (A _ {2} + B _ {2} + C _ {2} + \dots + K _ {2}): (A _ {4} + B _ {4} + C _ {4} + \dots + I _ {4}), \\ \end{array}
+\]
+
+where I immediately precedes K in each series.
+
 Hosted by Google
 
 ## PDF page 300

@@ -10,6 +10,8 @@ Transcription of `cardano_1545_artis_magnae_sive_de_regulis_algebraicis.pdf` in 
 
 Method: pages 1-172 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
+Second engine: MinerU2.5-Pro 2605 read page 168, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+
 ## PDF page 1
 
 . * . . . . . . . . . . . . . . . . . .
@@ -8401,48 +8403,7 @@ Anno M. D. XLV.
 
 ## PDF page 168
 
--
 
-
-
-.
-•
-4
-
-
-N. Committee of the committee of the committee of the committee of the committee of the committee of the committee of the committee of the committee of the committee of the committee of the committee of the committee of th
-. . . . . . . . . . . . . . . . . . . . 
-
-
-The second second second second second second second second second second second second second second second second second second second second second second second second second second second second second second second s
-
-
-
-_
-
-
-
-
-
-
-
-
-· ·
-*
-
-r
--
--
-#
-3
-.
-.
-*
-1
-1
-.
-4
-÷
 
 ## PDF page 169
 

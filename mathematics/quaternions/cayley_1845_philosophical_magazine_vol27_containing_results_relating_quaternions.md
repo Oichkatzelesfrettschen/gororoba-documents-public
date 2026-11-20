@@ -10,7 +10,7 @@ Transcription of `cayley_1845_philosophical_magazine_vol27_containing_results_re
 
 Method: pages 1-608 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
-Second engine: Surya OCR 0.17.0 alone read pages 8, 72, 76, 150, 172, 417, 468, 483, 490, 515, 556, 588, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+Second engine: Surya OCR 0.17.0 alone read pages 8, 72, 76, 150, 172, 417, 468, 483, 490, 515, 556, 588; MinerU2.5-Pro 2605 read pages 54, 58, 65, 74, 102, 104-105, 111, 113, 115, 118, 125, 130, 141, 148, 151, 154, 157, 163, 208, 217, 219-221, 223, 238, 242, 247, 251, 253, 294-295, 297, 300-301, 308, 317, 332-333, 360, 363, 365, 370, 377, 380-382, 388, 392-393, 395, 404, 427, 435, 437-438, 453-454, 456, 464, 476, 489, 493, 502, 509-510, 526, 533, 544, 557, 560, 568, 581, 583, 590, 605, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -2582,44 +2582,105 @@ B'.
 
 ## PDF page 54
 
-Mr. A. Cayley on Algebraical Couples.
 40
-<math display="block">i^2 = -\delta i + \frac{\gamma}{\lambda^2} j</math>
+
+Mr. A. Cayley on Algebraical Couples.
+
 C'.
-Thursday, <math>j = -\gamma i - \delta j</math> and <math>j = -\gamma i + \delta j</math> and <math>j = -\gamma i + \delta j</math> and <math>j = -\gamma i + \delta j</math> and <math>j = -\gamma i + \delta j</math> and <math>j = -\gamma i + \delta j</math> and <math>j = -\gamma i + \delta j</math> and <math>j = -\gamma i + \delta j</math> and <math>j = -\gamma i + \delta j</math> and <math>j = -\gamma i + \delta j</math> and 
-Haddord, <math>\nabla j = \frac{1}{2} \lambda^2 \delta_1 - \gamma j</math> for the finite finite state of <math>\lambda^2 \delta_1 = \lambda^2 \delta_1 + \gamma j</math> for the finite state of <math>\lambda^2 \delta_1 = \lambda^2 \delta_1 + \gamma j</math>
-<math display="block">X \pm \lambda Y = \pm \frac{1}{\lambda} (\gamma \pm \lambda \delta) (x \pm \lambda y) (x_1 \mp \lambda y_1). \text{ In Edd}</math>
-<math display="block">D'. \quad x^2 = -\delta i - \frac{\gamma}{\lambda^2} j</math>
-<math display="block">ij = -\gamma i - \delta j</math>
-<math display="block">|ij = \gamma i + \delta j|</math>
-<math display="block">|ij = \gamma i + \delta j|</math>
-<math display="block">|j^2 = \lambda^2 \delta_i + \gamma j|</math>
-<math display="block">|j^2 = \lambda^2 \delta_i + \gamma j|</math>
-<math display="block">|j^3 = \lambda^2 \delta_i + \gamma j|</math>
-<math display="block">|j^3 = \lambda^2 \delta_i + \gamma j|</math>
-<math display="block">|j^3 = \lambda^2 \delta_i + \gamma j|</math>
-<math display="block">|j^3 = \lambda^2 \delta_i + \gamma j|</math>
-<math display="block">|j^3 = \lambda^2 \delta_i + \gamma j</math>
-<math display="block">X \pm \lambda Y = \mp \frac{1}{\lambda} (\gamma \pm \lambda \delta.) (x \mp \lambda y) (x_1 \pm \lambda y) \hat{x}_1 + \hat{x}_2 \hat{x}_2 \hat{x}_1 \hat{x}_2 \hat{x}_2 \hat{x}_3 \hat{x}_4 \hat{x}_4 \hat{x}_5 \hat{x}_5 \hat{x}_6 \hat{x}_6 \hat{x}_6 \hat{x}_6 \hat{x}_6 \hat{x}_6 \hat{x}_6 \hat{x}_6 \hat{x}_6 \hat{x}_6 \hat{x}_6 \hat{x}_6 \hat{x}</math>
-There is a system more general than (A.) having a single
-linear modulus <math>q(\theta X + Y)</math>: this is smooth as guinantee
-We evisible at the tine <math>(ip) + (ip) + (ip) + (ip) + (ip) + (ip) + (ip) + (ip) + (ip) + (ip) + (ip) + (ip) + (ip) + (ip) + (ip) + (ip) + (ip) + (ip) + (ip) + (ip) + (ip) + (ip) + (ip) + (ip) + (ip) + (ip) + (ip) + (ip) + </math>
-E.
-Here <math>j^2 = \gamma'(i - \theta j.) + qj_q</math> is a coximal <math>\mathbb{Z}</math>
-THE RESERVE OF <math>\theta X + Y = q (\theta x + y) (\theta x_1 + y_1);</math> AS HOLE MILE <math>u</math>
-or, without real loss of generality, it is not send bourson by the state and the interest of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of
-If the solution of the state of the solution of the solution of the solution of the solution of the solution of the solution of the solution of the solution of the solution of the solution of the solution of the solution 
-a.a., <math>(1...9)</math> p.i., <math>(6...9)</math> fiely <math>= i \dot{\mathbf{v}}</math> m is the rather which
-The maximum tension is <math>j^2 = \gamma + q j</math> and the maximum that has
-<math>\mathbf{Y} = qyy_1</math>. The second of the burn
+
+\[
+i ^ {2} = - \delta i + \frac {\gamma}{\lambda^ {2}} j
+\]
+
+\[
+i j = - \gamma i - \delta j
+\]
+
+\[
+j _ {1} = \gamma_ {1} + \delta j
+\]
+
+\[
+j ^ {2} = - \lambda^ {2} \delta_ {1} - \gamma j
+\]
+
+\[
+\mathrm{X} \pm \lambda \mathrm{Y} = \pm \frac {1}{\lambda} (\gamma \pm \lambda \delta) (x \pm \lambda y) (x _ {1} \mp \lambda y _ {1}).
+\]
+
+D'.
+
+\[
+i ^ {2} = - \delta_ {i} - \frac {\gamma}{\lambda^ {2}} j
+\]
+
+\[
+i j = - \gamma i - \delta j
+\]
+
+\[
+j _ {i} = \gamma_ {i} + \delta j
+\]
+
+\[
+j ^ {2} = \lambda^ {2} \delta_ {1} + \gamma j
+\]
+
+\[
+\mathrm{X} \pm \lambda \mathrm{Y} = \mp \frac {1}{\lambda} (\gamma \pm \lambda \delta .) (x \mp \lambda y) \left(x _ {1} \pm \lambda y ^ {\prime}\right).
+\]
+
+There is a system more general than (A.) having a single linear modulus \( q(\theta X + Y) \): this is a linear modulated
+
+E. \(i^2 = \alpha (i - \theta j) + \theta^2 qj\)
+
+\[
+i j = \alpha^ {\prime} (i - \theta j) + \theta q j
+\]
+
+\[
+j _ {i} = \gamma (i - \theta j) + \theta q j
+\]
+
+\[
+j ^ {2} = \gamma^ {\prime} (\iota - \theta j.) + q j.
+\]
+
+\[
+\theta \mathrm{X} + \mathrm{Y} = q (\theta x + y) \left(\theta x _ {1} + y _ {1}\right);
+\]
+
+or, without real loss of generality,
+
+E'. \(i^2 = \alpha i\)
+
+\[
+i j = \alpha^ {\prime} i
+\]
+
+\[
+j _ {i} = \gamma_ {i}
+\]
+
+\[
+j ^ {2} = \gamma^ {\prime} i + q j.
+\]
+
+\[
+\mathrm{Y} = q y y _ {1}.
+\]
+
 To complete the theory of this system, one may add the identical equation
-<math display="block">X + \frac{1}{\theta - q} M Y = \frac{q(\theta^2 - M \alpha)}{\theta - q} \left( x + \frac{\alpha' - \theta \gamma}{\alpha - \theta \alpha'} y \right) \left( x_1 + \frac{\alpha' - \theta \gamma'}{\alpha - \theta \gamma'} y_1 \right),</math>
-<math display="block">M = \frac{\theta (\gamma - \theta \gamma') - (\alpha - \theta \alpha')}{\alpha' \gamma - \alpha \gamma'}.</math>
-where
-By determining the constants, so that <math>\frac{1}{\theta - q M} = \frac{\alpha' - \theta \gamma}{\alpha - \theta \alpha'}</math>
-<math>=\frac{\alpha'-\theta\gamma'}{\alpha-\theta\gamma}</math>, the system would reduce itself to the form <math>\Lambda</math>. We have
+
+\[
+\mathrm{X} + \frac {1}{\theta - q \mathrm{M}} \mathrm{Y} = \frac {q \left(\theta^ {2} - \mathrm{M} \alpha\right)}{\theta - q \mathrm{M}} \left(x + \frac {\alpha^ {\prime} - \theta \gamma}{\alpha - \theta \alpha^ {\prime}} y\right) \left(x _ {1} + \frac {\alpha^ {\prime} - \theta \gamma^ {\prime}}{\alpha - \theta \gamma} y _ {1}\right)
+\]
+
+where  \(  M = \frac{\theta (\gamma - \theta \gamma') - (\alpha - \theta \alpha')}{\alpha' \gamma - \alpha \gamma'}  \) .
+
+By determining the constants, so that \(\frac{1}{\theta - q\mathrm{M}} = \frac{\alpha' - \theta\gamma}{\alpha - \theta\alpha'} = \frac{\alpha' - \theta\gamma'}{\alpha - \theta\gamma}\), the system would reduce itself to the form A.
+
 Cambridge, April 23, 1845.
-· · · Consequence of the
 
 ## PDF page 55
 
@@ -2761,40 +2822,62 @@ have in this case,
 
 ## PDF page 58
 
-Rev. B. Bronwin on Jacobi's General Transformation
-44
-The third form, therefore, reduces to the first. on a sale was a sale with so, 1 10 1 11 - was law but, and a sale was a sale was a sale was a sale was a sale was a sale was a sale was a sale was a sale was a sale was a sa
-<math display="block">\sin^2 am \ (2 \omega) = \sin^2 am \ (2 \omega - 2 K' \sqrt{-1})' = \sin^2 am \ (2 \omega'),</math>
-if <math>\omega' = \omega - K \sqrt{-1}</math>. Let
-<math display="block">\lim_{n \to \infty} \frac{3 - n}{w} = \frac{(2r + 1) K + (2r^2 + 1) K^2 \sqrt{-1}}{w^2 + w^2 + w^2 + w^2 - w^2} - \frac{1}{2} \ln \frac{1}{2} \frac{1}{2} \frac{1}{w^2 + w^2 - w^2} = \frac{1}{2} \ln \frac{1}{2} \frac{1}{2} \frac{1}{2} \ln \frac{1}{2} \frac{1}{2} \frac{1}{2} \ln \frac{1}{2} \frac{1}{2} </math>
-Then <math>\omega' = \frac{(2r+1) K + (2r'-2p+2) K' \sqrt{-1}}{2r'+1}</math>
-Then <math>|\omega| =</math>
-then <math>10 \frac{n}{\sqrt{2}} = \frac{n}{1 + 1} \frac{n}{\sqrt{2}} \frac{n}{\sqrt{2}} \frac{1}{\sqrt{2}} \frac{n}{\sqrt{2}} \frac{n}{\sqrt{2}} \frac{n}{\sqrt{2}} \frac{n}{\sqrt{2}} \frac{n}{\sqrt{2}} \frac{n}{\sqrt{2}} \frac{n}{\sqrt{2}} \frac{n}{\sqrt{2}} \frac{n}{\sqrt{2}} \frac{n}{\sqrt{2}} \frac{n}{\sqrt{2}} \frac{n}{\sqrt{2}} \frac{n}{\sqrt{2}} \frac{n}{\sqrt{2}} </math>
-which reduces the fourth form to the first. For, from what
-has been demonstrated, it follows that
-<math display="block">\sin^2 am \ (2 m \omega) = f\{\sin^2 am \ (2 \omega)\} = f\{\sin^2 am \ (2 \omega')\}</math>
-<math>= \sin^2 am \ (2 \ m \ \omega') \sin^2 co \ am \ (2 \ m \ \omega) = f_1 \{ \sin^2 am \ (2 \ \omega) \}</math>
-<math>= f_1 \{ \sin^2 am (2 \omega') \} = \sin^2 co am (2 m \omega'),</math>
-where m is any integer, f and <math>f_1</math> denote certain functions, <math>\omega</math>
-stands for one of the last three forms of this quantity, and <math>\omega'</math>
-for the first form. To these we may add
-<math>\cos^2 am \ (2 \ m \ \omega) = 1 - \sin^2 am \ (2 \ m \ \omega) = 1 - \sin^2 am \ (2 \ m \ \omega')</math>
-<math display="block">= \cos^2 am (2 m \omega').</math>
+44 Rev. B. Bronwin on Jacobi's General Transformation
+
+The third form, therefore, reduces to the first.
+
+Also,
+
+\(\sin^2 am(2\omega) = \sin^2 am(2\omega - 2\mathrm{K}'\sqrt{-1}) = \sin^2 am(2\omega'),\)
+if \(\omega' = \omega - \mathrm{K}\sqrt{-1}\). Let
+
+\[
+\omega_ {1} = \frac {(2 r + 1) \mathrm{K} + (2 r ^ {\prime} + 1) \mathrm{K} ^ {\prime} \sqrt {- 1}}{n}.
+\]
+
+Then \(\omega' = \frac{(2r + 1)\mathrm{K} + (2r' - 2p + 2)\mathrm{K}'\sqrt{-1}}{n}\)
+
+\[
+\overline {{\overline {{\mathrm{=}}}}} \frac {(2 r + 1) \mathrm{K} + 2 r _ {1} ^ {\prime} \mathrm{K} ^ {\prime} \sqrt {- 1}}{n},
+\]
+
+which reduces the fourth form to the first. For, from what has been demonstrated, it follows that
+
+\(\sin^2 am (2m\omega) = f\{\sin^2 am (2\omega)\} = f\{\sin^2 am (2\omega')\}\)
+
+\[
+\begin{array}{l} = \sin^ {2} a m (2 m \omega^ {\prime}) \sin^ {2} c o a m (2 m \omega) = f _ {1} \left\{\sin^ {2} a m (2 \omega) \right\} \\ = f _ {1} \left\{\sin^ {2} a m (2 \omega^ {\prime}) \right\} = \sin^ {2} c o a m (2 m \omega^ {\prime}), \\ \end{array}
+\]
+
+where \( m \) is any integer, \( f \) and \( f_1 \) denote certain functions, \( \omega \) stands for one of the last three forms of this quantity, and \( \omega' \) for the first form. To these we may add
+
+\(\cos^2 am(2m\omega) = 1 - \sin^2 am(2m\omega) = 1 - \sin^2 am(2m\omega') = \cos^2 am(2m\omega').\)
+
 Jacobi's transformation reduced is
-<math display="block">\frac{dy}{\sqrt{(1-y^2)(1-\lambda^2y^2)}} = \frac{1}{M} \int_0^x \frac{dx}{\sqrt{(1-x^2)(1-k^2x^2)}}, (a.)</math>
-<math display="block">y = \frac{x}{M} \frac{1 - \frac{x}{s^2 a (2 \omega)}}{1 - k^2 x^2 s^2 a (2 \omega)} \cdot \frac{1 - \frac{x}{s^2 a (4 \omega)}}{1 - k^2 x^2 s^2 a (4 \omega)}</math>
-<math display="block">\frac{1}{s^2 a (n-1) \omega}</math>
-<math display="block">1-k^2x^2s^2a(n-1)\omega</math>
-<math display="block">\mathbf{M} = \left\{ \frac{\sin co \ am \ (2 \ \omega) \sin co \ am \ (4 \ \omega) \dots \sin co \ am \ (n-1) \omega}{\sin am \ (2 \ \omega) \sin am \ (4 \ \omega) \dots \sin am \ (n-1) \omega} \right\}^{2}</math>
-<math display="block">\lambda = k^n \left\{ \sin co \ am(2 \omega) \sin co \ am(4 \omega) \dots \sin co \ am(n-1) \omega \right\}^4,</math>
-where ω may have any of the four forms. Let ω again denote
-any of the last three forms, <math>\omega'</math> the first. In (1.) and in the
-expressions of M and <math>\lambda</math>, we may change <math>\omega</math> into <math>\omega'</math>, and the
-values of all the coefficients and all the constants will remain
-unchanged. There is then but one transformation.
+
+\[
+\int_ {0} ^ {y} \frac {d y}{\sqrt {(1 - y ^ {2}) (1 - \lambda^ {2} y ^ {2})}} = \frac {1}{\mathrm{M}} \int_ {0} ^ {x} \frac {d x}{\sqrt {(1 - x ^ {2}) (1 - k ^ {2} x ^ {2})}}, \tag {a.}
+\]
+
+\[
+\left. \begin{array}{c} y = \frac {x}{\mathrm{M}} \frac {1 - \frac {x}{\mathrm{s} ^ {2} a (2 \omega)}}{1 - k ^ {2} x ^ {2} \mathrm{s} ^ {2} a (2 \omega)} \cdot \frac {1 - \frac {x}{\mathrm{s} ^ {2} a (4 \omega)}}{1 - k ^ {2} x ^ {2} \mathrm{s} ^ {2} a (4 \omega)} \\ \dots \dots \frac {1 - \frac {x ^ {2}}{\mathrm{s} ^ {2} a (n - 1) \omega}}{1 - k ^ {2} x ^ {2} \mathrm{s} ^ {2} a (n - 1) \omega} \end{array} \right\}. \tag {1.}
+\]
+
+\[
+\mathrm{M} = \left\{\frac {\sin c o a m (2 \omega) \sin c o a m (4 \omega) \dots \sin c o a m (n - 1) \omega}{\sin a m (2 \omega) \sin a m (4 \omega) \dots \sin a m (n - 1) \omega} \right\} ^ {2}
+\]
+
+\[
+\lambda = k ^ {n} \left\{\sin c o a m (2 \omega) \sin c o a m (4 \omega) \dots \sin c o a m (n - 1) \omega \right\} ^ {4},
+\]
+
+where \(\omega\) may have any of the four forms. Let \(\omega\) again denote any of the last three forms, \(\omega'\) the first. In (1.) and in the expressions of M and \(\lambda\), we may change \(\omega\) into \(\omega'\), and the values of all the coefficients and all the constants will remain unchanged. There is then but one transformation.
+
 We easily transform (1.) into
-<math display="block">y = \frac{s \, a \, . \, u \, s \, a \, (u + 2 \, \omega') \dots s \, a \, (u + (2 \, n - 2) \, \omega')}{s \, a \, . \, \omega' \, s \, a \, (3 \, \omega') \dots s \, a \, (2 \, n - 1) \, \omega'}. \quad . \quad (2.)</math>
-10011
+
+\[
+y = \frac {\mathrm{s} a . u \mathrm{s} a (u + 2 w ^ {\prime}) \dots \dots \mathrm{s} a (u + (2 n - 2) w ^ {\prime})}{\mathrm{s} a . w ^ {\prime} \mathrm{s} a (3 w ^ {\prime}) \dots \dots \mathrm{s} a (2 n - 1) w ^ {\prime}}. \quad . \tag {2.}
+\]
 
 ## PDF page 59
 
@@ -3122,49 +3205,45 @@ plane of the paper which
 
 ## PDF page 65
 
-Mr. Moon on Fresnel's Theory of Diffraction.
+.Mr. Moon on Fresnel's Theory of Diffraction.
+
 (51
-likewise passes othrough ithe aperture A B, which list to be
-considered asta parallelogram of very small breadth w fMr.
--Airy does not explicitly state this fact, but the investigation
-sissames it ] b Take AH = HB; and let zi be the point whose
-racno all waves are transmitteberobienos ed et einoitaminulli-
-dive bat a racing each small element of a B A B as the origin of a Constitution of a manufacture of a continuous was a small element of a A B as the origin of a continuous was a small element of a continuous was a continuo
-secondary wave, we may represent the vibration at z by
-same rate. I have obswhere <math>(D_{X}^{C} \cap t_{X}^{C}) \xrightarrow{\pi} (D_{X}^{C} \cap t_{X}^{C})</math> to this subject (see he puper last reference <math>t_{X}^{C} \cap t_{X}^{C}</math>).
-on although and one peculiar, and one of which no <math>\frac{dz}{dz} = \frac{dz}{dz} \sin \frac{dz}{dz} \sin \frac{dz}{dz} \cos \frac{dz}{dz} \sin \frac{dz}{dz} \cos \frac{dz}{dz} \sin \frac{dz}{dz} \cos \frac{dz}{dz}</math>
-1, Linguist to the protection of the Real of the Real of the Real of the Real of the Real of the Real of the Real of the Real of the Real of the Real of the Real of the Real of the Real of the Real of the Real of the Real 
-<math display="block">\frac{\cos 2\pi}{\sin c} \frac{\lambda}{2\pi \cos \theta} \frac{\cos 2\pi}{\tan 2\theta} \left( v t - c \cos \theta \right) = \log \left( z + b \right)</math>
-(head <math>t = t</math>) the propagation in the direction <math>t = t</math>) <math>t = t</math> (head) <math>t = t</math>) <math>t = t</math> (head) <math>t = t</math>) <math>t = t</math> (head) <math>t = t</math>) <math>t = t</math> (head) <math>t = t</math>) <math>t = t</math>
-<math display="block">\frac{\log \lambda \cdot \log \lambda}{\pi c \cos \theta} = \frac{2\pi}{\lambda} \cdot \frac{1}{\lambda} \cdot \frac{2\pi}{\lambda} \cdot \frac{1}{\lambda} \cdot \frac{2\pi}{\lambda} \cdot \frac{1}{\lambda} \cdot \frac{1}{\lambda} \cdot \frac{1}{\lambda} \cdot \frac{1}{\lambda} \cdot \frac{1}{\lambda} \cdot \frac{1}{\lambda} \cdot \frac{1}{\lambda} \cdot \frac{1}{\lambda} \cdot \frac{1}{\lambda} \cdot \frac{1}{\lambda} \cdot \frac{1}{\lambda} \cdot \frac{1}{\lambda} \cdot \frac{1}{\lambda} \cdot \frac{1}{\lambda} \cdot \frac{1</math>
-Now if this really represented the intensity at z, as Mr.
-Airy would have us believe, it would follow, that after en-
-tering the aperture the waves cease to be plane, and assume a
-spherical form, having the middle point of the aperture for
-their centre. Hence it is plain, that if the variation in velo-
-city of the diffracted waves be an objection, Fresnel's theory
-is as much open to it as mine*.
-The considerations with reference to the change in the con-
-dition of the diffracted waves which I have above endeavoured
-to unfold, were suggested to me at a time when I looked up
-to Fresnel and his theory with some portion of that respect
-and reverence which certain teachers of the University of
-Cambridge have so sedulously endeavoured to inculcate.
-Neither doubting his experimental results, nor indeed his
-* In discussing the above example, I have not thought proper to advert
-to the erroneous approximation contained in it, which I have elsewhere
-sufficiently considered, and which is such as to render it totally valueless.
-But I may observe, that not only is the formula for the intensity incorrectly
-deduced from the premises laid down, but it is itself untrue. For, accord-
-ing to that formula, we ought to have a series of maxima and minima in the
-plane of the paper and nowhere else, whereas it is very certain that the
-principal maxima and minima would not occur in the plane of the paper.
-It is obvious that the screen would be crossed by bands parallel to the
-length of the aperture, and therefore in a plane perpendicular to the plane
-of the paper, as Mr. Airy himself afterwards admits (see art. 78 of his trea-
-tise).
-E 2
-100 - 100 - 0 - 01
+
+likewise passes through the aperture A B, which is to be considered as a parallelogram of very small breadth. [Mr. Airy does not explicitly state this fact, but the investigation assumes it.] Take A H = H B, and let z be the point whose illumination is to be considered.
+
+\[
+\mathrm{HG} = z, \mathrm{HZ} = c, \mathrm{GHZ} = \theta , \mathrm{AB} = 2 b.
+\]
+
+Considering each small element \(dz\) of A B as the origin of a secondary wave, we may represent the vibration at \(z\) by
+
+\[
+\int \frac {d z}{\mathrm{ZG}} \sin \frac {2 \pi}{\lambda} (v t - \mathrm{ZG})
+\]
+
+\[
+\int \frac {d z}{c} \sin \frac {2 \pi}{\lambda} (v t - c - z \cos \theta)
+\]
+
+\[
+\overline {{=}} \frac {1}{c} \frac {\lambda}{2 \pi \cos \theta} \cdot \frac {\cos 2 \pi}{\cos \lambda} (v t - c \frac {1}{2 \pi} z \cos \theta) \binom {z = + b} {z = - b}
+\]
+
+\[
+= \frac {1}{c} \cdot \frac {\lambda}{2 \pi \cos \theta} \left(\cos \frac {2 \pi}{\lambda} (v t - c - b \cos \theta) - \cos \frac {2 \pi}{\lambda} (v t - c + b \cos \theta)\right)
+\]
+
+\[
+\overline {{=}} \frac {\lambda}{\pi c \cos \theta} \sin \frac {2 \pi}{\lambda} b \cos \theta . \sin \frac {2 \pi}{\lambda} (v t - c).
+\]
+
+Now if this really represented the intensity at z, as Mr. Airy would have us believe, it would follow, that after entering the aperture the waves cease to be plane, and assume a spherical form, having the middle point of the aperture for their centre. Hence it is plain, that if the variation in velocity of the diffracted waves be an objection, Fresnel's theory is as much open to it as mine*.
+
+The considerations with reference to the change in the condition of the diffracted waves which I have above endeavoured to unfold, were suggested to me at a time when I looked up to Fresnel and his theory with some portion of that respect and reverence which certain teachers of the University of Cambridge have so sedulously endeavoured to inculcate. Neither doubting his experimental results, nor indeed his
+
+* In discussing the above example, I have not thought proper to advert to the erroneous approximation contained in it, which I have elsewhere sufficiently considered, and which is such as to render it totally valueless. But I may observe, that not only is the formula for the intensity incorrectly deduced from the premises laid down, but it is itself untrue. For, according to that formula, we ought to have a series of maxima and minima in the plane of the paper and nowhere else, whereas it is very certain that the principal maxima and minima would not occur in the plane of the paper. It is obvious that the screen would be crossed by bands parallel to the length of the aperture, and therefore in a plane perpendicular to the plane of the paper, as Mr. Airy himself afterwards admits (see art. 78 of his treatise).
+
+E2
 
 ## PDF page 66
 
@@ -3725,58 +3804,29 @@ to glaciers, while the transport of similar blocks to great distances
 
 ## PDF page 74
 
-Royal Astronomical Society.
 60
-may be referred to floating ice. Smooth rounded blocks of smaller
-dimensions, especially when spread out with other detrital matter in
-layers of considerable horizontal extent, the author would refer to
-the action of aqueous currents.
-who died <math>\in</math> riv <math>=</math> <math>=</math> <math>=</math> <math>=</math> <math>=</math> <math>=</math> <math>=</math> <math>=</math> <math>=</math> <math>=</math>
-- ) VIII I - * .
-the trade, the tenton
-sisting it two - is in the in
-6 1 1 m ROYAL ASTRONOMICAL SOCIETY. 1 1/1 17 1970
-tel quitalence com
-[Continued from vol. xxvi. p. 361.] 1111 11 11 11 11 11 11 11 11 11 11 11 
+
+Royal Astronomical Society.
+
+may be referred to floating ice. Smooth rounded blocks of smaller dimensions, especially when spread out with other detrital matter in layers of considerable horizontal extent, the author would refer to the action of aqueous currents.
+
+ROYAL ASTRONOMICAL SOCIETY.
+
+[Continued from vol.xxvi.p.361.]
+
 February 14, 1845.—Extracts from the Report of the Council of the Astronomical Society to the Annual General Meeting.
-To her Majesty's Government we have to express our obligations
-for printing in our Memoirs, at the public expense, the late Professor
-Henderson's right ascensions of principal fixed stars, deduced from
-observations made at the Cape of Good Hope in 1832 and 1833. It
-has been a fixed rule with the Council not to print in the Memoirs
-the official transactions of public observatories; and they are happy
-to say that administrations of all parties, and also the Directors of
-the East India Company, have always recognised the reasonableness
-of this rule, the instant the grounds on which it was made were
-brought before them.
-The Council have received from Mr. Baily's executors the manu-
-script details of the Cavendish experiment.
-In the month of March last, Dr. Lee requested that the Society
-would accept the perpetual advowson of the Vicarage of Stone, near
-Hartwell. The grant is now enrolled according to the statute. This
-is the second gift of an advowson from Dr. Lee, to whom the Society
-is under many other obligations, and who has shown an incessant
-interest in its welfare, not only by munificent contributions to its
-funds, its library, and its collection of instruments, but by active
-personal services extending over many years.
-Among the losses by death, your Council have to regret Captain
-Basil Hall, Professor Henderson, and Mr. J. Frodsham.
+
+To her Majesty's Government we have to express our obligations for printing in our Memoirs, at the public expense, the late Professor Henderson's right ascensions of principal fixed stars, deduced from observations made at the Cape of Good Hope in 1832 and 1833. It has been a fixed rule with the Council not to print in the Memoirs the official transactions of public observatories; and they are happy to say that administrations of all parties, and also the Directors of the East India Company, have always recognised the reasonableness of this rule, the instant the grounds on which it was made were brought before them.
+
+The Council have received from Mr. Baily's executors the manuscript details of the Cavendish experiment.
+
+In the month of March last, Dr. Lee requested that the Society would accept the perpetual advowson of the Vicarage of Stone, near Hartwell. The grant is now enrolled according to the statute. This is the second gift of an advowson from Dr. Lee, to whom the Society is under many other obligations, and who has shown an incessant interest in its welfare, not only by munificent contributions to its funds, its library, and its collection of instruments, but by active personal services extending over many years.
+
+Among the losses by death, your Council have to regret Captain Basil Hall, Professor Henderson, and Mr. J. Frodsham.
+
 Memoir of Professor Henderson.
-At none of its former anniversary meetings has this Society had
-cause to deplore heavier losses than those it has sustained in the
-past year. The death of its president, Mr. Baily, was followed, at
-a short interval, by that of Professor Henderson of Edinburgh; an
-astronomer of first-rate merit, and one who, for many years, has
-been conspicuously distinguished among us by the frequency and
-importance of his contributions to our publications. His services
-to the cause for which we are associated have been, indeed, of no
-ordinary kind; and, although prematurely terminated, have entitled
-him to a high place among the most deserving of our members. It
-becomes, therefore, a duty we owe to his memory to recapitulate
-in this Report his principal claims to our gratitude, and to place on
-record a few particulars of his personal history; as well to testify
-our respect for his eminent merits, as to gratify, however imperfectly,
-the desire which will be felt to know something of the life and cha-
+
+At none of its former anniversary meetings has this Society had cause to deplore heavier losses than those it has sustained in the past year. The death of its president, Mr. Baily, was followed, at a short interval, by that of Professor Henderson of Edinburgh; an astronomer of first-rate merit, and one who, for many years, has been conspicuously distinguished among us by the frequency and importance of his contributions to our publications. His services to the cause for which we are associated have been, indeed, of no ordinary kind; and, although prematurely terminated, have entitled him to a high place among the most deserving of our members. It becomes, therefore, a duty we owe to his memory to recapitulate in this Report his principal claims to our gratitude, and to place on record a few particulars of his personal history; as well to testify our respect for his eminent merits, as to gratify, however imperfectly, the desire which will be felt to know something of the life and cha-
 
 ## PDF page 75
 
@@ -5801,59 +5851,41 @@ out condensation, also a colourless gas, has no effect on the
 
 ## PDF page 102
 
+88
+
 Dr. W. A. Miller on some Cases of Lines
-088
-spectrum. No oxide corresponding to this in the chlorine
-eseries, is as yet known...( I will a series is as yet known...
-Hyponitrous acid I have not isolated in sufficient purity to
-y furnish trustworthy, results. —. (1) (1) (1)
-Fig. 6 represents the grouping of these lines as seen in day-
-vlight transmitted through the vapours of perchloride of man-
-ganese, which is readily prepared by adding a few crystals of
-permanganate of potash to oil of vitriol in a test-tube, and
-dropping in a fragment of fused chloride of sodium, a green
-vapour (Mn<sub>2</sub> Cl<sub>7</sub>) is immediately liberated, which is however
-quickly decomposed by the moisture of the air. It will be
-remarked, that in this vapour, the colour of which is green, the
-lines are most abundant in the green part of the spectrum, the
-green tint of the gas being due principally to the mixture of
-the blue and yellow rays.
-The perfluoride of manganese, which corresponds in compo-
-sition to the perchloride, does not yield any lines that I could
-perceive, but the moment a fragment of common salt is dropped
-into the mixture from which the fluoride is being disengaged,
-the lines of the perchloride make their appearance. Both the
-perchloride and perfluoride are decomposed by water, and on
-dropping in a little of this fluid into the tube of perchloride,
-all the lines instantaneously disappear. The purple vapour of
-the permanganic acid, in which the number of equivalents of
-oxygen corresponds to that of chlorine and fluorine in these
-compounds, is equally inactive with the fluoride.
-TATIONS.
-I have examined very many other substances which yield
-vapours of different colours, but have not succeeded in finding
-any which give distinct lines besides those above mentioned,
-with the telescope which I employed. It was not, however,
-an instrument of very high power.
-Simple bodies:
-Chlorine.—Greenish-yellow colour; specific gravity 2.47.
-This is the more remarkable, as bromine and iodine both give
-them.
-Sulphur.—Yellow; specific gravity 6.654.
+
+spectrum. No oxide corresponding to this in the chlorine series is as yet known.
+
+Hyponitrous acid I have not isolated in sufficient purity to furnish trustworthy results.
+
+Fig. 6 represents the grouping of these lines as seen in daylight transmitted through the vapours of perchloride of manganese, which is readily prepared by adding a few crystals of permanganate of potash to oil of vitriol in a test-tube, and dropping in a fragment of fused chloride of sodium, a green vapour (Mn\(_{2}\) Cl\(_{7}\)) is immediately liberated, which is however quickly decomposed by the moisture of the air. It will be remarked, that in this vapour, the colour of which is green, the lines are most abundant in the green part of the spectrum, the green tint of the gas being due principally to the mixture of the blue and yellow rays.
+
+The perfluoride of manganese, which corresponds in composition to the perchloride, does not yield any lines that I could perceive, but the moment a fragment of common salt is dropped into the mixture from which the fluoride is being disengaged, the lines of the perchloride make their appearance. Both the perchloride and perfluoride are decomposed by water, and on dropping in a little of this fluid into the tube of perchloride, all the lines instantaneously disappear. The purple vapour of the permanganic acid, in which the number of equivalents of oxygen corresponds to that of chlorine and fluorine in these compounds, is equally inactive with the fluoride.
+
+I have examined very many other substances which yield vapours of different colours, but have not succeeded in finding any which give distinct lines besides those above mentioned, with the telescope which I employed. It was not, however, an instrument of very high power.
+
+Simple bodies :—
+
+Chlorine.—Greenish-yellow colour; specific gravity 2·47. This is the more remarkable, as bromine and iodine both give them.
+
+Sulphur.—Yellow; specific gravity 6·654.
+
 Selenium.—Yellow.
-any and the property of the last
-TOOLS AND DEVISION OF STREET
-10,100,000
+
 Compounds:—
-Selenious acid.—Yellow (SeO<sub>2</sub>).
-Hypochlorous acid.—Yellow; specific gravity 2.993 (Cl<sub>2</sub>O<sub>2</sub>).
-Oxychloride of chromium.—(Cr Cl O<sub>2</sub>); red vapours*.
-Oxychloride of tungsten.—(WClO<sub>2</sub>); red vapours.
-Terchloride of tungsten .- (WCl3); red.
-The second section of the second section of the second section of the second section of the second section of the second section of the second section of the second section of the second section of the second section of th
-* Prof. Miller informs me, that by means of an instrument of superior
-quality, he has succeeded in satisfying himself that lines are produced by
-this vapour.
+
+Selenious acid.—Yellow (SeO₂).
+
+Hypochlorous acid.—Yellow; specific gravity 2·993 (Cl₂O₂).
+
+Oxychloride of chromium.—(Cr Cl O₂); red vapours*.
+
+Oxychloride of tungsten.—(WClO₂); red vapours.
+
+Terchloride of tungsten.--(WCl₃); red.
+
+* Prof. Miller informs me, that by means of an instrument of superior quality, he has succeeded in satisfying himself that lines are produced by this vapour.
 
 ## PDF page 103
 
@@ -5910,90 +5942,68 @@ that of strontia and lime; the most remarkable character is in
 
 ## PDF page 104
 
-On Lines produced in the Prismatic Spectrum.
 90
-a bright streak in the orange, another in the yellow, and one
-in the indigo. . . in its in the same and the
-Even chloride of sodium, though the intensity of the light is
-accumulated in the bright band near D, shows a marked ten-
-dency to the occurrence of bands in other parts; a distinct,
-though faint light extending far into the indigo, when a bright
-streak terminates it almost suddenly.
-Chloride of manganese gives indications of the occurrence
-of bands, though but feebly. I have also tried solutions of
-the chlorides of iron, zinc, cobalt, nickel, mercury and mag-
-nesia: in all a feeble band occurs in the green portion, as re-
-presented in the three last spectra; this is probably connected
-with the disengagement of chlorine from the salts during com-
-bustion; and the bichloride of mercury gives a bright streak
-near G in the indigo.
-The combustion of phosphorus in the open air gives a pure
-spectrum without lines. I tried it also in chlorine, but did
-not obtain any very clear spectrum, as the deposition of chlo-
-ride on the jar quickly rendered it opake.
-Another source of light was furnished by the ignition of
-different substances in the oxyhydrogen jet: the light thrown
-directly upon the prism was too intense for the eye to bear,
-I therefore received it on a sheet of white paper, and em-
-ployed the diffused light so obtained. In the spectrum from
-charcoal nearly midway between D and E, a very short bril-
-liant streak was visible, and the same streak appeared when
-the flame was thrown upon a fragment of dried alum.
-Lime and strontia gave results similar to those furnished by
-the solution of their salts when used to tinge the flame of al-
-cohol, but not quite so well marked. Baryta melted too
-rapidly to furnish any satisfactory result.
-Zinc, iron, steel and platinum gave brilliant spectra, but no
-lines except that at D were visible. Copper, lead and anti-
-mony melted without giving light sufficient to make any satis-
-factory observation.
-It may be interesting to remark, in connexion with the spe-
-culations on the absorptive action of the sun's atmosphere, that
-if solar light be transmitted through a flame exhibiting well-
-marked black lines, these lines reappear in the compound
-spectrum, provided the light of day be not too intense com-
-pared with that of the coloured flame: this may be seen in the
-red light of the nitrate of strontia, and less perfectly in the
-green of the chloride of copper. It would therefore appear
-that luminous atmospheres exist in which not only certain rays
-are wanting, but which exercise a positive absorptive influence
-The second second second second second second second second second second second second second second second second second second second second second second second second second second second second second second second s
-upon other lights.
+
+On Lines produced in the Prismatic Spectrum.
+
+a bright streak in the orange, another in the yellow, and one in the indigo.
+
+Even chloride of sodium, though the intensity of the light is accumulated in the bright band near D, shows a marked tendency to the occurrence of bands in other parts; a distinct, though faint light extending far into the indigo, when a bright streak terminates it almost suddenly.
+
+Chloride of manganese gives indications of the occurrence of bands, though but feebly. I have also tried solutions of the chlorides of iron, zinc, cobalt, nickel, mercury and magnesia: in all a feeble band occurs in the green portion, as represented in the three last spectra; this is probably connected with the disengagement of chlorine from the salts during combustion; and the bichloride of mercury gives a bright streak near G in the indigo.
+
+The combustion of phosphorus in the open air gives a pure spectrum without lines. I tried it also in chlorine, but did not obtain any very clear spectrum, as the deposition of chloride on the jar quickly rendered it opake.
+
+Another source of light was furnished by the ignition of different substances in the oxyhydrogen jet: the light thrown directly upon the prism was too intense for the eye to bear, I therefore received it on a sheet of white paper, and employed the diffused light so obtained. In the spectrum from charcoal nearly midway between D and E, a very short brilliant streak was visible, and the same streak appeared when the flame was thrown upon a fragment of dried alum.
+
+Lime and strontia gave results similar to those furnished by the solution of their salts when used to tinge the flame of alcohol, but not quite so well marked. Baryta melted too rapidly to furnish any satisfactory result.
+
+Zinc, iron, steel and platinum gave brilliant spectra, but no lines except that at D were visible. Copper, lead and antimony melted without giving light sufficient to make any satisfactory observation.
+
+It may be interesting to remark, in connexion with the speculations on the absorptive action of the sun's atmosphere, that if solar light be transmitted through a flame exhibiting well-marked black lines, these lines reappear in the compound spectrum, provided the light of day be not too intense compared with that of the coloured flame: this may be seen in the red light of the nitrate of strontia, and less perfectly in the green of the chloride of copper. It would therefore appear that luminous atmospheres exist in which not only certain rays are wanting, but which exercise a positive absorptive influence upon other lights.
 
 ## PDF page 105
 
 Prof. Young on the Theory of Conjugate Points.
-91
-It was my intention to have instituted a comparative series
-of experiments with the light obtained by ignition of the metals
-by the voltaic battery, but this point has already, I find, en-
-gaged the attention of my friend and colleague Professor
-Wheatstone; and he has made it the subject of an investiga-
-tion, characterized by his usual ingenuity and accuracy. grods
-The cuter sytherem no de mo.
-XVI. On Imaginary Zeros, and the Theory of Conjugate<br>Points. By J. R. Young, Professor of Mathematics in
-Belfast College*.
-TN a paper read at the last meeting of the British Associa-
-tion, the writer of these remarks had occasion to notice
-the errors frequently committed by neglecting the algebraic
-sign of zero in the extreme or limiting cases of certain infinite
-series; and to show that this neglect had led Abel and other
-distinguished analysts to conclusions incompatible with the
-general laws of algebra.
-For example: Abel says, in reference to the series about
-<math display="block">\frac{1}{2}\varphi = \sin\varphi + \frac{1}{2}\sin\varphi + \frac{1}{3}\sin^2\varphi + \frac{1}{3}\sin^2\varphi + \frac{1}{3}\sin^2\varphi + \frac{1}{3}\sin^2\varphi + \frac{1}{3}\sin^2\varphi + \frac{1}{3}\sin^2\varphi + \frac{1}{3}\sin^2\varphi + \frac{1}{3}\sin^2\varphi + \frac{1}{3}\sin^2\varphi + \frac{1}{3}\sin^2\varphi + \frac{1}{3}\sin^2\varphi + \frac{1}{3}\sin^2\varphi + \frac{1}{3}\sin^2\varphi + \frac{1}{3}\sin^2</math>
-that "lorsque <math>\varphi = \pi</math> ou <math>-\pi</math>, la serie se réduit à zero, comme on voit aisément. Il suit de là, que la fonction ou suit de la comme on voit aisément. Il suit de là, que la fonction ou suit de la comme on voit aisément. I
-d'être discontinue." (Œuvres, tom. i. p. 90.)
-But this conclusion is erroneous; for it is overlooked that
-when <math>\varphi</math> becomes <math>\pi</math>, <math>\sin \varphi</math> vanishes positively, <math>\sin 2 \varphi</math> negatively,
-<math>\sin 3 \varphi</math> positively, and so on; and that when <math>\varphi</math> becomes <math>(\pi, \pi)</math>
-the signs of the several vanishing terms are the opposites of
-these; so that, the continuity being still preserved, we have,
-in these extreme cases, and the state of which borden was
-<math display="block">-\frac{1}{2}\pi = \left(1 + \frac{1}{2} + \frac{1}{3} + \dots\right) \times 0</math>
-and <math>\frac{1}{1} - \frac{1}{2}\pi = \left(1 + \frac{1}{2} + \frac{1}{3} + \dots\right)^{\frac{1}{2}} \times \frac{\text{odd an satisfies to }}{\text{sold bold ball and }}</math> from either of which we learn that
-<math display="block">\frac{\frac{1}{2}\pi}{0} = \infty = 1 + \frac{1}{2} + \frac{1}{3} + \cdots, \quad \text{with the first between the first between the first between the first between the first between the first between the first between the first between the first between t</math>
-a result that we know to be true from other principles. In the
+
+9!
+
+It was my intention to have instituted a comparative series of experiments with the light obtained by ignition of the metals by the voltaic battery, but this point has already, I find, engaged the attention of my friend and colleague Professor Wheatstone; and he has made it the subject of an investigation, characterized by his usual ingenuity and accuracy.
+
+XVI. On Imaginary Zeros, and the Theory of Conjugate Points. By J. R. YOUNG, Professor of Mathematics in Belfast College*.
+
+IN a paper read at the last meeting of the British Association, the writer of these remarks had occasion to notice the errors frequently committed by neglecting the algebraic sign of zero in the extreme or limiting cases of certain infinite series; and to show that this neglect had led Abel and other distinguished analysts to conclusions incompatible with the general laws of algebra.
+
+For example: Abel says, in reference to the series
+
+\[
+\frac {1}{2} \varphi = \sin \varphi - \frac {1}{2} \sin 2 \varphi + \frac {1}{3} \sin 3 \varphi \frac {5 7 1 0 0}{3}, \dots ,
+\]
+
+that “lorsque \(\varphi=\pi\) ou \(-\pi\), la serie se réduit à zero, comme on voit aisément. Il suit de là, que la fonction
+
+\[
+\sin \varphi - \frac {1}{2} \sin 2 \varphi + \frac {1}{3} \sin 3 \varphi - \dots ,
+\]
+
+a la propriété remarquable, pour les valeurs \(\varphi=\pi\), et \(\varphi=-\pi\) d'être discontinue." (Euvres, tom. i. p. 90.)
+
+But this conclusion is erroneous; for it is overlooked that when \(\varphi\) becomes \(\pi\), \(\sin \varphi\) vanishes positively, \(\sin 2\varphi\) negatively, \(\sin 3\varphi\) positively, and so on; and that when \(\varphi\) becomes \(-\pi\), the signs of the several vanishing terms are the opposites of these; so that, the continuity being still preserved, we have, in these extreme cases,
+
+\[
+\frac {1}{2} \pi = \left(1 + \frac {1}{2} + \frac {1}{3} + \dots\right) \times 0
+\]
+
+and  \( -\frac{1}{2}\pi=\left(1+\frac{1}{2}+\frac{1}{3}+\cdots\right)\times-0; \)
+
+from either of which we learn that
+
+\[
+\frac {\frac {1}{2} \pi}{0} = \infty = 1 + \frac {1}{2} + \frac {1}{3} + \dots ,
+\]
+
+a result that we know to be true from other principles.
+
 * Read at the Meeting of the British Association at Cambridge, June 1845, and communicated by the author.
 
 ## PDF page 106
@@ -6224,49 +6234,49 @@ towards so high an authority.
 ## PDF page 111
 
 Drs. Blyth and Hofmann on Styrole.
+
 97
-furnishes a good illustration of these remarks. By solving it
-for one of the variables, we have the last not end of the
-<math>y = b \pm \sqrt{-(x-a)^2} = b \pm (x-a)\sqrt{-1}</math>
-which for <math>x = a</math>, however this value of x be reached, becomes
-<math>y=b\pm 0</math> <math>\sqrt{-1}</math>; therefore <math>x=a, y=b</math> are the co-ordinates of
-a conjugate point.
-But the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state 
+
+furnishes a good illustration of these remarks. By solving it for one of the variables, we have
+
+\[
+y = b \pm \sqrt {- (x - a) ^ {2}} = b \pm (x - a) \sqrt {- 1},
+\]
+
+which for \( x = a \), however this value of \( x \) be reached, becomes \( y = b \pm 0 \sqrt{-1} \); therefore \( x = a \), \( y = b \) are the co-ordinates of a conjugate point.
+
 Again, by differentiating the equation, we have
-<math>\frac{dy}{dx} = -\frac{x-a}{y-b} = \frac{-(x-a)}{(x-a)\sqrt{-1}} = \sqrt{-1}</math>:
-this, for <math>x = a</math>, as indeed for every value of <math>x</math>, is imaginary;
-and as this value of x, conjointly with <math>y = b</math>, satisfies the ra-
-tional equation proposed, a conjugate point is thus indicated.
+
+\[
+\frac {d y}{d x} = - \frac {x - a}{y - b} = \frac {- (x - a)}{(x - a) \sqrt {- 1}} = \sqrt {- 1}:
+\]
+
+this, for x = a, as indeed for every value of x, is imaginary; and as this value of x, conjointly with y = b, satisfies the rational equation proposed, a conjugate point is thus indicated.
+
 Lastly, by regarding the equation as the extreme case of
-<math>(x-a)^2 + (y-b)^2 = r^2</math>
+
+\[
+(x - a) ^ {2} + (y - b) ^ {2} = r ^ {2},
+\]
+
 we have
-melon and the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same
-<math display="block">\frac{dy}{dx} = -\frac{x-a}{y-b} = \frac{-(x-a)}{\sqrt{r^2 - (x-a)^2}}.</math>
-For <math>x=a</math>, simply, this no longer becomes a vanishing fraction;
-the numerator only becomes zero: in order that the denomi-
-nator may vanish also, we must introduce the additional hy-
-pothesis <math>r=0</math>; thus numerator and denominator vanish in
-consequence of two distinct hypotheses, so that in this case the
-fraction is necessarily indeterminate; hence when the circle
-degenerates into a point, the values of <math>\frac{dy}{dx}</math> are unlimited; and
-conversely, when these values are unlimited, the circle dege-
-nerates into a point—the same point that was indicated by the
-preceding methods.
+
+\[
+\frac {d y}{d x} = - \frac {x - a}{y - b} = \frac {- (x - a)}{\sqrt {r ^ {2} - (x - a) ^ {2}}}.
+\]
+
+For \( x = a \), simply, this no longer becomes a vanishing fraction; the numerator only becomes zero: in order that the denominator may vanish also, we must introduce the additional hypothesis \( r = 0 \); thus numerator and denominator vanish in consequence of two distinct hypotheses, so that in this case the fraction is necessarily indeterminate; hence when the circle degenerates into a point, the values of \( \frac{dy}{dx} \) are unlimited; and conversely, when these values are unlimited, the circle degenerates into a point—the same point that was indicated by the preceding methods.
+
 Belfast, June 9, 1845.
-XVII. On Styrole, and some of the Products of its decomposition.
-By Dr. John Blyth and Dr. Aug. Wilhelm Hofmann*.
-THE class of bodies comprehended under the general name of Balsams has not been forgotten in that active investi-
-of Balsams has not been forgotten in that active investi-
-gation of organic bodies to which chemists have with predi-
-lection devoted themselves, since the discovery of easier and
-securer methods of investigation have removed the chief diffi-
-culties. An examination of these substances was indeed highly
-desirable, as the knowledge of them derived from older works
-no longer corresponded to the present state of the science.
-The earlier investigations of these substances were purely
-* Communicated by the Chemical Society; having been read April 7,
-1845.
-Phil. Mag. S. 3. Vol. 27, No. 178. August 1845.
+
+XVII. On Styrole, and some of the Products of its decomposition. By Dr. JOHN BLYTH and Dr. AUG. WILHELM HOFMANN*.
+
+THE class of bodies comprehended under the general name of Balsams has not been forgotten in that active investigation of organic bodies to which chemists have with predilection devoted themselves, since the discovery of easier and securer methods of investigation have removed the chief difficulties. An examination of these substances was indeed highly desirable, as the knowledge of them derived from older works no longer corresponded to the present state of the science. The earlier investigations of these substances were purely
+
+* Communicated by the Chemical Society; having been read April 7, 1845.
+
+Phil. Mag. S. 3. Vol. 27. No. 178. August 1845.
+
 H
 
 ## PDF page 112
@@ -6326,53 +6336,22 @@ Geiger und Liebig, vol. xxxvi. p. 90.
 ## PDF page 113
 
 and some of the Products of its decomposition.
-199.
-few analytical determinations. From the analyses of Mar-
-chand, Simon gives the per-centage composition of styrole and
-styracine, without however at all attempting to assign rational
-formulæ. I The determination of such formulæ was however
-of much interest, as only by these could the relations of the
-compounds to other groups be shown. To fill up this blank,
-we undertook, at the request of Prof. Liebig, to make some
-inquiries in this direction: these were performed in the la-
-boratory of Giessen, and, we need scarcely add, that during
-their course we were assisted by his advice. It of the half
+
+99.
+
+few analytical determinations. From the analyses of Marchand, Simon gives the per-centage composition of styrole and styracine, without however at all attempting to assign rational formulae. The determination of such formulae was however of much interest, as only by these could the relations of the compounds to other groups be shown. To fill up this blank, we undertook, at the request of Prof. Liebig, to make some inquiries in this direction: these were performed in the laboratory of Giessen, and, we need scarcely add, that during their course we were assisted by his advice.
+
 We commence with the description of the oil of storax.
-st 10d5 Ks sodu t Styrole. Styrole to the two the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of 
-1. Preparation.—The material which we employed for the
-preparation of styrole was the common commercial "liquid
-storax." In It possesses a dark gray colour, and at the tempe-
-rature of summer is of a soft consistency, which allows it to be
-drawn into threads. At a low temperature (0° C.) it is hard
-and brittle. It has a highly aromatic odour, and is so rich in
-oil, that it can be pressed out with the fingers. Fluid storax
-oil can be obtained by distilling the balsam with water; but,
-as the latter contains also free cinnamic acid, it is more ad-
-vantageous to add an alkali. For this purpose we followed
-Simon in employing carbonate of soda, in his proportions of
-14 lbs. of crystallized soda to 20 of storax. We found that
-the half was quite sufficient. They have been some wife and
-The distillation was conducted in a copper retort with a
-gentle heat; the watery vapour loaded with oil was directed
-through a serpentine tube. In this way a milky-coloured
-water distilled over, on the surface of which the oil collected
-in a transparent, slightly yellow layer. We have submitted
-to distillation in the above method about 70 lbs. of storax.
-The material we employed was not all received at the same
-time, and gave very different amounts of oil. In the first ope-
-ration we obtained 12 oz. of styrole out of 41 lbs. of storax. A
-later preparation, in which 27 lbs. of the balsam were em-
-ployed, gave scarcely more than 3 oz. This difference arises,
-as Simon has already remarked, from the age of the balsam,
-as the styrole experiences in time a peculiar change. To this
-point we shall return later.
-The volatile storax oil, as it is obtained by distillation,
-contains a small quantity of water, from which it can be easily
-freed by remaining over fused chloride of calcium. The fluid
-deprived in this way of water can be regarded as pure styrole,
-although it still possesses a shade of yellow. To obtain it,
-quite colourless, it must again be submitted to distillation.
-H 2
+
+Styrole.
+
+1. Preparation.—The material which we employed for the preparation of styrole was the common commercial “liquid storax.” It possesses a dark gray colour, and at the temperature of summer is of a soft consistency, which allows it to be drawn into threads. At a low temperature (0°C.) it is hard and brittle. It has a highly aromatic odour, and is so rich in oil, that it can be pressed out with the fingers. Fluid storax oil can be obtained by distilling the balsam with water; but, as the latter contains also free cinnamic acid, it is more advantageous to add an alkali. For this purpose we followed Simon in employing carbonate of soda, in his proportions of 14 lbs. of crystallized soda to 20 of storax. We found that the half was quite sufficient.
+
+The distillation was conducted in a copper retort with a gentle heat; the watery vapour loaded with oil was directed through a serpentine tube. In this way a milky-coloured water distilled over, on the surface of which the oil collected in a transparent, slightly yellow layer. We have submitted to distillation in the above method about 70 lbs. of storax. The material we employed was not all received at the same time, and gave very different amounts of oil. In the first operation we obtained 12 oz. of styrole out of 41 lbs. of storax. A later preparation, in which 27 lbs. of the balsam were employed, gave scarcely more than 3 oz. This difference arises, as Simon has already remarked, from the age of the balsam, as the styrole experiences in time a peculiar change. To this point we shall return later.
+
+The volatile storax oil, as it is obtained by distillation, contains a small quantity of water, from which it can be easily freed by remaining over fused chloride of calcium. The fluid deprived in this way of water can be regarded as pure styrole, although it still possesses a shade of yellow. To obtain it quite colourless, it must again be submitted to distillation.
+
+H2
 
 ## PDF page 114
 
@@ -6427,65 +6406,40 @@ of sulphur, which, on cooling, is deposited in the form of large
 ## PDF page 115
 
 and some of the Products of its decomposition.
-101
-prisms. Phosphorus is likewise soluble in hot styrole, from
-which it also crystallizes. Caoutchouc swells up by the aid
-of heat in this substance; only a small portion however is
-dissolved. .) (Let of 001 to be viewe at thoogs to entire up of 3. Composition of Styrole.—We have already stated that on
-the occasion of Simon's investigation, Marchand analysed
-styrole. From his experiment it appears that this body consists
-of carbon and hydrogen, in the proportion of two of the
-former to one of the latter*. We have also analysed styrole,
-and our results confirm those of Marchandarad sti begunded
-On combustion with oxide of copper, styrole prepared at
-two different periods gave the following numbers : vow node
-I. 0.2722 grm. of styrole gave 0.9168 grm. of carbonic acid
-and 0.1935 grm.:of water. ... of street to cook at total
-II. 0.4640 grm. of styrole gave 1.5745 grm. of carbonic
-acid and 0.3290 grm. of water of the of range acid and or semil mos
-Corresponding in the 100 parts to an anily smion soil of
-1.
-perfectly put. II tyrole.
 
-1. Pr. pr. 78.7 of Shirt colourless, transparent
-B To mail of Carbon
-91.86
-Hydrogen Hydrogen
-7.89
+101
+
+prisms. Phosphorus is likewise soluble in hot styrole, from which it also crystallizes. Caoutchoug swells up by the aid of heat in this substance; only a small portion however is dissolved.
+
+3. Composition of Styrole.—We have already stated that on the occasion of Simon's investigation, Marchand analysed styrole. From his experiment it appears that this body consists of carbon and hydrogen, in the proportion of two of the former to one of the latter*. We have also analysed styrole, and our results confirm those of Marchand.
+
+On combustion with oxide of copper, styrole prepared at two different periods gave the following numbers:—
+
+I. 0·2722 grm. of styrole gave 0·9168 grm. of carbonic acid and 0·1935 grm. of water.
+
+II. 0·4640 grm. of styrole gave 1·5745 grm. of carbonic acid and 0·3290 grm. of water.
+
+Corresponding in the 100 parts to—
+
+<table><tr><td></td><td>I.</td><td>II.</td></tr><tr><td>Carbon</td><td>91·86</td><td>92·54</td></tr><tr><td>Hydrogen</td><td>7·89</td><td>7·87</td></tr></table>
+
 Theory requires—
-in til in
+
 Mean of experiments.
-2 equivalents Carbon + = 150.0
-92.30
-Hydrogen = 12.5 oilit 7.70 oction 7.88 02 to
-1. 1 11
-100.00 100.08
-162.5
-The above experiments leave no doubt as to the relative
-amount of the carbon and hydrogen, but give no idea of the
-absolute number of equivalents of the elements in the equi-
-valent of styrole; or, in other words, lead to no conclusion as
-to the formula of the compound. This point it was however
-very desirable to ascertain, as we already possess two bodies,
-benzole and cinnamole, which have the same composition in
-the hundred parts.
-The determination of a chemical formula for styrole was
-attended with some difficulty. Like benzole and cinnamole,
-this body formed no direct compounds, if we do not consider
-here the products obtained by the action of chlorine and bro-
-mine; in the case of the former substances, however, their
-The volatile oil which Bonastre (Journ. de Pharm., vol. xviii, p. 344)
-obtained from the Copal balsam is certainly a totally different carbo-hy-
-drogen from styrole. Henry and J. Plisson (same Journal, p. 451) found
-its composition to be-
-Carbon <math>= 89.25</math>
-. .
-مُؤَا الفرانِ الفرافِ الواتِ
-<math>Hydrogen = 10.46</math>
-Oxygen = 00.29
-This oil is also distinguished from styrole by becoming solid at 0° C.
-<math>\uparrow</math> Carbon = 75. Hydrogen = 12.5.
-The state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
+
+<table><tr><td>2 equivalents</td><td>Carbon+ = 150·0</td><td>92·30</td><td>92·20</td></tr><tr><td>1</td><td>Hydrogen= \( \frac{12·5}{162·5} \)</td><td>\( \frac{7·70}{100·00} \)</td><td>\( \frac{7·88}{100·08} \)</td></tr></table>
+
+The above experiments leave no doubt as to the relative amount of the carbon and hydrogen, but give no idea of the absolute number of equivalents of the elements in the equivalent of styrole; or, in other words, lead to no conclusion as to the formula of the compound. This point it was however very desirable to ascertain, as we already possess two bodies, benzole and cinnamole, which have the same composition in the hundred parts.
+
+The determination of a chemical formula for styrole was attended with some difficulty. Like benzole and cinnamole, this body formed no direct compounds, if we do not consider here the products obtained by the action of chlorine and bromine; in the case of the former substances, however, their
+
+* The volatile oil which Bonastre (Journ. de Pharm., vol. xviii. p. 344) obtained from the Copal balsam is certainly a totally different carbo-hydrogen from styrole. Henry and J. Plisson (same Journal, p. 451) found
+
+<table><tr><td>its composition to be—</td><td>Carbon = 89·25</td></tr><tr><td></td><td>Hydrogen = 10·46</td></tr><tr><td></td><td>Oxygen = 00·29</td></tr><tr><td></td><td>100·</td></tr></table>
+
+This oil is also distinguished from styrole by becoming solid at 0°C.
+
+† Carbon = 75. Hydrogen = 12·5.
 
 ## PDF page 116
 
@@ -6593,60 +6547,36 @@ given from G. Rose.
 
 ## PDF page 118
 
-Drs. Blyth and Hofmann on Styrole,
 104
-JIII. 0.2787 grm. of crystals gave 0.1255 grm. of water.
-IV. The nitrogen was determined by the method of Dumas,
-by burning the substance in an atmosphere of carbonic acid.
-0.5088 grm. of crystals gave 48; cub. cent. of moist nitrogen
-at 19°, C. and 327 barom.
-These numbers correspond to—
-He was a series of the series of the series of the series of the series of the series of the series of the series of the series of the series of the series of the series of the series of the series of the series of the ser
-Carbon . . 64.04 64.50
-Hydrogen . 4.96 5.38 5.00
-Nitrogen . . . . . . . . . . . . . . . . . . .
-10.30
-When we consider that the method of Dumas always gives
-an excess of nitrogen, we can from the above numbers deduce
-the following formula, C<sub>16</sub> H<sub>7</sub> N O<sub>4</sub>, giving per cent.,—
-Mean of experiments.
-16 equiv. Carbon . . 1200.00
-64•36
-64.27
-4.69
-5.11
-7 ... Hydrogen . 87.50
-1 ... Nitrogen . 177.04<br>4 ... Oxygen . . 400.00
-9.50 10.30
-21.32
-21.45
-.1864.54 100.00 101.00
-According to this formula, which will be further confirmed
-by the analysis of the bromine and chlorine compounds, the
-body investigated is analogous to nitrobenzide, which it re-
-sembles in many respects, and fully deserves the name of
-nitrostyrole, proposed by Simon.
 
-If from this formula we deduce the composition of styrole,
-it must be expressed by C<sub>16</sub> H<sub>8</sub>, and the formation of nitro-
-styrole is shown in the following manner:—
-<math>C_{16}H_8 + NO_5</math>, <math>HO = C_{16}H_7 NO_4 + 2HO</math>.
-Styrole. Nitrostyrole.
-As to the properties of nitrostyrole, we have but little to add
-to the statements of Simon. This body is particularly charac-
-terized by its odour, which strongly irritates the eyes to tears,
-and by the manner in which it affects the skin, long contact
-with which produces a painful burning, and finally blisters.
-On distilling a mixture of nitrostyrole and an alcoholic solu-
-tion of potash, after most of the spirits have passed over, there
-are obtained red oil-drops, which are not nitrostyrole. From
-want of materials we have not investigated this body: it is
-probably a compound analogous to the azobenzide of Mit-
-scherlich. An exact study of this reaction will certainly lead
-to interesting results, but there will be some difficulty in ob-
-taining a quantity of substance necessary for such a purpose.
-We further endeavoured to transform nitrostyrole into a
-base by the action of sulphuret of ammonium. This body
+Drs. Blyth and Hofmann on Styrole,
+
+III. 0·2787 grm. of crystals gave 0·1255 grm. of water.
+IV. The nitrogen was determined by the method of Dumas, by burning the substance in an atmosphere of carbonic acid. 0·5088 grm. of crystals gave 48· cub. cent. of moist nitrogen at 19°C. and 327\( ^{III} \) barom.
+
+These numbers correspond to—
+
+<table><tr><td></td><td>I.</td><td>II.</td><td>III.</td><td>IV.</td></tr><tr><td>Carbon</td><td>64·04</td><td>64·50</td><td></td><td></td></tr><tr><td>Hydrogen</td><td>4·96</td><td>5·38</td><td>5·00</td><td></td></tr><tr><td>Nitrogen</td><td>......</td><td>......</td><td>......</td><td>10·30</td></tr></table>
+
+When we consider that the method of Dumas always gives an excess of nitrogen, we can from the above numbers deduce the following formula,  \( C_{16}H_{7}NO_{4} \) , giving per cent.,—
+
+Mean of experiments.
+
+<table><tr><td>16 equiv.</td><td>Carbon</td><td>1200·00</td><td>64·36</td><td>64·27</td></tr><tr><td>7</td><td>Hydrogen</td><td>87·50</td><td>4·69</td><td>5·11</td></tr><tr><td>1</td><td>Nitrogen</td><td>177·04</td><td>9·50</td><td>10·30</td></tr><tr><td>4</td><td>Oxygen</td><td>400·00</td><td>21·45</td><td>21·32</td></tr><tr><td></td><td></td><td>1864·54</td><td>100·00</td><td>101·00</td></tr></table>
+
+According to this formula, which will be further confirmed by the analysis of the bromine and chlorine compounds, the body investigated is analogous to nitrobenzide, which it resembles in many respects, and fully deserves the name of nitrostyrole, proposed by Simon.
+
+If from this formula we deduce the composition of styrole, it must be expressed by  \( C_{16}H_{8} \) , and the formation of nitrostyrole is shown in the following manner:—
+
+\[
+\underbrace {\mathrm{C} _ {1 6} \mathrm{H} _ {8}} _ {\text {Styrole.}} + \mathrm{NO} _ {5}, \mathrm{HO} = \underbrace {\mathrm{C} _ {1 6} \mathrm{H} _ {7} \mathrm{NO} _ {4}} _ {\text {Nitrostyrole.}} + 2 \mathrm{HO}.
+\]
+
+As to the properties of nitrostyrole, we have but little to add to the statements of Simon. This body is particularly characterized by its odour, which strongly irritates the eyes to tears, and by the manner in which it affects the skin, long contact with which produces a painful burning, and finally blisters.
+
+On distilling a mixture of nitrostyrole and an alcoholic solution of potash, after most of the spirits have passed over, there are obtained red oil-drops, which are not nitrostyrole. From want of materials we have not investigated this body: it is probably a compound analogous to the azobenzide of Mitscherlich. An exact study of this reaction will certainly lead to interesting results, but there will be some difficulty in obtaining a quantity of substance necessary for such a purpose.
+
+We further endeavoured to transform nitrostyrole into a base by the action of sulphuret of ammonium. This body
 
 ## PDF page 119
 
@@ -6982,55 +6912,18 @@ a considerable portion of pure unchanged styrole passed over
 ## PDF page 125
 
 and some of the Products of its decomposition.
+
 111
-at first, but at a certain point the contents of the retort be-
-came thick, and on cooling solidified into a firm transparent
-the second contract of the second contract of the second contract of the second contract of the second contract of the second contract of the second contract of the second contract of the second contract of the second cont
-vitreous mass.
-On first observing this phænomenon we thought it arose
-from the conversion into resin by the action of the air of a
-portion of the raw oil which had been standing in a bottle
-only half-filled, and that this substance being held in solution
-by the remaining fluid oil, was separated on distilling the latter
-from it. A similar idea seems also to have occurred to Simon,
-from his bestowing the name of oxide of styrole on the residue
-found in the retort on submitting styrole to distillation.
-We soon convinced ourselves that this idea was erroneous
-by distilling a second time a portion of newly-rectified oil.
-A very considerable residue of solid matter, though not
-quite so great as in the first distillation, was observed to re-
-main in the retort. The same amount was further found in
-a third, fourth and every succeeding distillation. The ra-
-pidity with which styrole changes into the solid substance, in-
-dicated sufficiently that it could not be from combination with
-oxygen. This fact was besides established by direct experi-
-ment. Indeed so little attraction has styrole for oxygen, that
-it can be left exposed to air for weeks together without any
-change in its colour. A portion of oil was confined for
-several months over mercury in a tube filled with oxygen gas
-without the least diminution in the volume of the latter. We
-soon recognised that this metamorphosis of styrole takes place
-without loss of or addition to any one of its elements, and
-solely through a change in the molecular structure of this
-body produced by the action of heat. Analysis as well as syn-
-thesis has equally proved that styrole and the vitreous mass
-(for which we propose the name of metastyrole) possess the
-same constitution per cent.
-Metastyrole, when prepared from colourless oil, is equally
-transparent, and possesses the same powers of refraction as
-the latter body *. On the other hand, it completely loses the
-characteristic odour and taste which distinguish styrole." Me-
-tastyrole is totally inodorous and tasteless. At the ordinary
-temperature this body is hard and can be cut with a knife.
-By heat it becomes soft, and can be drawn out into threads,
-which strikingly resemble spun glass. It is insoluble in water
-and alcohol, as well in the cold as when heated. In boiling
-æther a small portion is dissolved, which, on leaving the solu-
-tion to spontaneous evaporation, becomes attached to the sides
-* There is scarcely an organic body which refracts the rays of light so
-strongly as metastyrole. It is not improbable that it might be applied to
-several optical purposes.
-हें स्राप्तिक हैं है है।
+
+at first, but at a certain point the contents of the retort became thick, and on cooling solidified into a firm transparent vitreous mass.
+
+On first observing this phaenomenon we thought it arose from the conversion into resin by the action of the air of a portion of the raw oil which had been standing in a bottle only half-filled, and that this substance being held in solution by the remaining fluid oil, was separated on distilling the latter from it. A similar idea seems also to have occurred to Simon, from his bestowing the name of oxide of styrole on the residue found in the retort on submitting styrole to distillation.
+
+We soon convinced ourselves that this idea was erroneous by distilling a second time a portion of newly-rectified oil. A very considerable residue of solid matter, though not quite so great as in the first distillation, was observed to remain in the retort. The same amount was further found in a third, fourth and every succeeding distillation. The rapidity with which styrole changes into the solid substance, indicated sufficiently that it could not be from combination with oxygen. This fact was besides established by direct experiment. Indeed so little attraction has styrole for oxygen, that it can be left exposed to air for weeks together without any change in its colour. A portion of oil was confined for several months over mercury in a tube filled with oxygen gas without the least diminution in the volume of the latter. We soon recognised that this metamorphosis of styrole takes place without loss of or addition to any one of its elements, and solely through a change in the molecular structure of this body produced by the action of heat. Analysis as well as synthesis has equally proved that styrole and the vitreous mass (for which we propose the name of metastyrole) possess the same constitution per cent.
+
+Metastyrole, when prepared from colourless oil, is equally transparent, and possesses the same powers of refraction as the latter body*. On the other hand, it completely loses the characteristic odour and taste which distinguish styrole. Metastyrole is totally inodorous and tasteless. At the ordinary temperature this body is hard and can be cut with a knife. By heat it becomes soft, and can be drawn out into threads, which strikingly resemble spun glass. It is insoluble in water and alcohol, as well in the cold as when heated. In boiling rather a small portion is dissolved, which, on leaving the solution to spontaneous evaporation, becomes attached to the sides.
+
+* There is scarcely an organic body which refracts the rays of light so strongly as metastyrole. It is not improbable that it might be applied to several optical purposes.
 
 ## PDF page 126
 
@@ -7245,52 +7138,43 @@ A. W. Hofmann.—Philosophical Magazine, vol. xxvi. p. 581. Distriction
 
 ## PDF page 130
 
-Drs. Blyth and Hofmann on Styrole,
 116
-the same time a proportionately small quantity of a brown
-coloured oil passes over. Hydrochloric acid dissolves a large
-portion of this oil, from which it is again separated by the ad-
-dition of alkalies. This oil is nothing but aniline, which is at
-once recognised by the dark violet colour it gives with a so-
-lution of chloride of lime, and the yellow colour its solution
-in acids communicates to pine-wood. The formation from
-nitrometastyrole of this base, which contains more hydrogen
-than the original substance, is certainly the result of a very
-complicated reaction, which cannot be exhibited in any equa-
-the liquid which drais over on sectifications a matrinoit
-The following is the series of bodies investigated in this
-admined ministers to telescoping
-memoir:-
-<math display="block">\begin{array}{cccccccccccccccccccccccccccccccccccc</math>
-Styrole. .
-4
-Bromostyrole Chlorostyrole
-n ha eter Nitrostyrole
-brom or call
-Hydruret of benzoyle(?) <math>C_{14}</math> <math>H_5</math> <math>O_2</math>, <math>H_6</math> <math>O_3</math>, <math>H_6</math> <math>O_3</math>, <math>H_6</math>
-Benzoic acid.
-Metastyrole Charles Charles Charles Charles Charles Charles Charles Charles Charles Charles Charles Charles Charles Charles Charles Charles Charles Charles Charles Charles Charles Charles Charles Charles Charles Charles Ch
-<math>\mathsf{H}_6</math>
-The experiments detailed in the preceding pages have
-proved that the formula of the carbo-hydrogen derived from
-the storax must be expressed by C16 H8. This is, however,
-likewise the formula of the carbo-hydrogen analogous to ben-
-zole, and which is derived from hydrated cinnamic acid by
-the separation of two equivalents of carbonic acid-
+
+Drs. Blyth and Hofmann on Styrole,
+
+the same time a proportionately small quantity of a brown coloured oil passes over. Hydrochloric acid dissolves a large portion of this oil, from which it is again separated by the addition of alkalies. This oil is nothing but aniline, which is at once recognised by the dark violet colour it gives with a solution of chloride of lime, and the yellow colour its solution in acids communicates to pine-wood. The formation from nitrometastyrole of this base, which contains more hydrogen than the original substance, is certainly the result of a very complicated reaction, which cannot be exhibited in any equation.
+
+The following is the series of bodies investigated in this memoir:—
+
+Styrole . . . . . . . C\( _{16} \)
+
+Bromostyrole . . . \(\mathrm{C_{16}H_8Br_2}\)
+
+Chlorostyrole . . . \(\mathrm{C_{16}H_8Cl_2}\)
+
+Nitrostyrole · · · · · C\( _{16} \) { H\( _{7} \) · NO\( _{4} \) }
+
+Hydruret of benzoyle(?) C\( _{14} \) H\( _{5} \) O\( _{2} \), H
+
+Benzoic acid . . . . C\( _{14} \) H\( _{5} \) O\( _{3} \), HO
+
+Nitrobenzoic acid . . . \(\mathrm{C_{14}}\left\{\begin{array}{c}\mathrm{H}_{4}\\ \mathrm{NO}_{4}\end{array}\right\}\mathrm{O}_{3},\mathrm{HO}\)
+
+Metastyrole . . . . C\( _{14} \) H\( _{7} \)
+
+Nitrometastyrole \(\cdot\cdot\cdot\mathrm{C}_{14}\left\{\begin{array}{c}\mathrm{H}_{6} \\ \mathrm{NO}_{4}\end{array}\right\}\).
+
+The experiments detailed in the preceding pages have proved that the formula of the carbo-hydrogen derived from the storax must be expressed by  \( C_{16}H_{8} \) . This is, however, likewise the formula of the carbo-hydrogen analogous to benzole, and which is derived from hydrated cinnamic acid by the separation of two equivalents of carbonic acid.
+
 Are Styrole and Cinnamole identical?
-This question must necessarily present itself when we con-
-sider that storax contains large quantities of cinnamic acid,
-and that this balsam, according to the views of later celebrated
-pharmacologists (as Th. W. Martius*), is obtained not by
-incision but by a kind of distillation.
-The state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
-How easily in this operation a portion of the cinnamic acid
-might be converted into cinnamole and carbonic acid, we know
-from the fact of benzoic acid, when passed in vapour through
-a red-hot tube, being decomposed with ease into carbonic acid
-and benzole.
+
+This question must necessarily present itself when we consider that storax contains large quantities of cinnamic acid, and that this balsam, according to the views of later celebrated pharmacologists (as Th. W. Martius*), is obtained not by incision but by a kind of distillation.
+
+How easily in this operation a portion of the cinnamic acid might be converted into cinnamole and carbonic acid, we know from the fact of benzoic acid, when passed in vapour through a red-hot tube, being decomposed with ease into carbonic acid and benzole.
+
 The details given us by different chemists on cinnamole
-* Grundriss der Pharmakognosie des Pflanzenreichs, p. 346. 470 . ..
+
+* Grundriss der Pharmakognosie des Pflänzenreichs, p. 346.
 
 ## PDF page 131
 
@@ -7812,49 +7696,25 @@ t A notice of M ravier: researches on shooting & wir.snoitsup
 
 ## PDF page 141
 
-On representing by Diagrams the Results of Observations. 127
-quantities, taking care that the sum of the arbitrary quantities
-shall vanish; for we may change the right hand side of (101)
-into <math>\chi(h)</math>, <math>\chi</math> being an arbitrary function.
-<math>f^{3}(10) = 0</math>
-4. The values of <math>\alpha</math> to be selected in the transformations of
-quadratics and biquadratics, which I gave at p. 384 of the last volume of this work, are, respectively, 1 and -1.
-Cambridge, July 1, 1845. (0 = (0, v) 01
-and four bases quadratics which may, respectively, be denoted
-XXI. On a certain Method of representing by Diagrams the
-Results of Observations. By the Rev. S. EARNSHAW, M.A.,
-Cambridge*.
-(6.) may be reduced to
-N attending the proceedings of the Physical Section of the
-British Association at the late meeting din this place, I
-was struck on more than one occasion with a defect in the
-method which had been employed by some of the experimen-
-talists in representing their results on paper. My remarks
-refer to those cases in which polar co-ordinates were used, as
-was done in two very interesting and important papers; one
-"On the quantity of rain which had fallen with different winds at Toomavara," and the other "On Shooting Stars." In the former paper, the observer (the Rev. Thomas Knox)
-reduced his observations to a pictorial state, by drawing upon
-paper from a fixed point several lines to represent as many
-directions of the wind; and this done, he set off upon each of
-these lines, measuring from the fixed point, a length propor-
-tional to the quantity of rain which had fallen while the wind
-was in that particular direction, and within certain limits on
-each side of it. Perhaps this will be plainer by a figure.
-(.eFrom O draw eight lines, ma- x ) = x
-king angles of 45% with each other, its out to not round the men and the same and the same and the same and the same and the same and the same and the same and the same and the same and the same and the same and the same a
-to represent the directions of the up to with the directions of the up to the directions of the up to the directions of the up to the directions of the up to the directions of the up to the directions of the up to the up t
-fying the state of the letters (Garage of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state o
-placed at their extremities. From (.7) bas (.) and extremities.
-O set off OB to represent the way
-H
-quantity of rain which fell, not = <math>(d)^{n}</math>
-only when the wind was in the north, but also when it was in the swim has, long any direction between the points swim has, long any direction between the points was any direction between the points was any direction betwee
-the method employed by Mr. Knox; and a similar principle, I
-believe, was made use of by M. Gravier in reducing to paper
-is prediction (only 1844
-That Communicated by the Author. but of bear as " see " brow edil f
-† A notice of M. Gravier's researches on Shooting Stars will be found
-among the miscellaneous articles of the present Number. ED. 1 90 2
+On representing by Diagrams the Results of Observations.
+
+127
+
+quantities, taking care that the sum of the arbitrary quantities shall vanish; or we may change the right-hand side of (10.) into \(\chi(h)\), \(\chi\) being an arbitrary function.
+
+4. The values of \(\alpha\) to be selected in the transformations of quadratics and biquadratics, which I gave at p. 384 of the last volume of this work, are, respectively, 1 and -1.
+
+Cambridge, July 1, 1845.
+
+XXI. On a certain Method of representing by Diagrams the Results of Observations. By the Rev. S. EARNSHAW, M.A., Cambridge*.
+
+IN attending the proceedings of the Physical Section of the British Association at the late meeting in this place, I was struck on more than one occasion with a defect in the method which had been employed by some of the experimentalists in representing their results on paper. My remarks refer to those cases in which polar co-ordinates were used, as was done in two very interesting and important papers; one "On the quantity of rain which had fallen with different winds at Toomavara," and the other "On Shooting Stars." In the former paper, the observer (the Rev. Thomas Knox) reduced his observations to a pictorial state, by drawing upon paper from a fixed point several lines to represent as many directions of the wind; and this done, he set off upon each of these lines, measuring from the fixed point, a length proportional to the quantity of rain which had fallen while the wind was in that particular direction, and within certain limits on each side of it. Perhaps this will be plainer by a figure.
+
+From O draw eight lines, making angles of 45° with each other, to represent the directions of the wind according to the letters placed at their extremities. From O set off OB to represent the quantity of rain which fell, not only when the wind was in the north, but also when it was in any direction between the points N.N.E. and N.N.W. On a similar plan set off the other portions OC, OD, ... This was the method employed by Mr. Knox; and a similar principle, I believe, was made use of by M. Gravier† in reducing to paper
+
+* Communicated by the Author.
+
+† A notice of M. Gravier's researches on Shooting Stars will be found among the miscellaneous articles of the present Number.—Ed.
 
 ## PDF page 142
 
@@ -8194,53 +8054,25 @@ precipitate with acetate of ledd, but a pretty dense precipitate
 ## PDF page 148
 
 134
+
 Dr. J. Stenhouse on the Action of Chlorine
-(5.) a. 0.393 silver salt gave: 0.449 CO3 and 0.064 HO.
-to that of hypochlorite of lime, .13. gAc 8260 gave 0.268 Ag.Cl., emil o stroid order of hypochloride
-Proli ) Found se all performula of silver salt with I at chlorine.
-C . 131:16 t fo trat another Carbon a 1050: bioa31:87a
-H. C. a. 1.80 nascent a nascent 08:1, a. Hydrogen o 50:
-AgO . 143:140 Simplified of 1 to Chlorine . 0.442.6 1013:431
-Cl & O 23.90 tod a dynoris ... Oxygen. eni300.0 lo n9.13
-100.00 as describer of the model as the second at 100.00 as the second at 100.00 as the second at 100.00 as the second at 100.00 as the second at 100.00 as the second at 100.00 as the second at 100.00 as the second at 100.
-Corresponding very nearly and and an anal of 3294.2 100.00
-hydrogen of the benzoic acid is rep c eno diwtles revise and thiw
-equivalent of chlorine.
-already détait d.
-The first portion of the acid analysed was treated for a short
-time only with a comparatively small quantity of hypochlorite,
-of lime; it resembled benzoic acid, and differed very consider-
-ably in its properties from the other portions of acid above;
-described. In fact, as is evident from the results of its analy
-lysis, it was nearly pure benzoic acid, and contained scarcely
-a trace of chlorine, as I ascertained by direct experiment.
-The 2nd, 3rd, 4th and 5th portions of acid had been repeat-
-edly treated with large quantities of hypochlorite of lime and
-muriatic acid, some of them five and six times successively;
-and their analysis showed that their carbon, hydrogen and
-oxygen had diminished, and the amount of chlorine they con-
-tained increased in a corresponding proportion, thus forming
-a series of chlorinated acids in which one and two atoms of
-hydrogen are replaced by similar equivalents of chlorine. Alte
-is evident, as has been already observed, that the acid, the
-analysis of which stands first in order, is almost pure benzoics
-acid, the hydrogen of which has been scarcely at all attacked
-by the chlorine. The action of chlorine on cinnamic acid,
-therefore, is undoubtedly at first confined to converting it into
-the oily chlorine compound so often mentioned, and into ben-
-zoic acid; so that if its action could be interrupted exactly
-when this had been effected, these would be the only products.
-This precise period it is extremely difficult to hit, as the chlo-
-rine proceeds immediately to attack the benzoic acid and to
-replace one, two, and as we will by and by see, so many as three equivalents of its hydrogen, thus forming a series of
-three distinct chlorinated acids. It is extremely difficult to
-obtain any one of these acids quite free from admixture, either
-of undecomposed benzoic acid on the one hand, or of more
-highly chlorinated acids on the other. The way in which this
-is most nearly accomplished, is by means of the silver salts,
-which are much less soluble than the benzoate of silver, and
-which consequently remains dissolved in their mother liquors
-when pretty dilute. The action of a mixture of chlorate of
+
+(5.) a. 0·393 silver salt gave 0.449 CO\( ^{3} \) and 0·064 HO. eq
+b. 0·5025 gave 0·268 Ag Cl. email to onlinebound to shelf of
+
+C. 31·16 to 14 at: Carbon 1050: 31·87
+
+H. c. n,1·80 Inocan's ni. 94...Hydrogen o 50: 20001·31n
+
+AgO . 143:14or simmuio 91 1.. Chlorine. 0442·6 1013·43
+
+CI & O 23·90 3 ... Oxygen. sni300·0 10 n9·13.
+
+100'00 in bior pionod1... AgO rial1451'6, 44'06.
+
+Corresponding very nearly with the silver salt with one equivalent of chlorine.
+
+The first portion of the acid analysed was treated for a short time only with a comparatively small quantity of hypochlorite of lime; it resembled benzoic acid, and differed very considerably in its properties from the other portions of acid above described. In fact, as is evident from the results of its analysis, it was nearly pure benzoic acid, and contained scarcely a trace of chlorine, as I ascertained by direct experiment. The 2nd, 3rd, 4th and 5th portions of acid had been repeatedly treated with large quantities of hypochlorite of lime and muriatic acid, some of them five and six times successively; and their analysis showed that their carbon, hydrogen and oxygen had diminished, and the amount of chlorine they contained increased in a corresponding proportion, thus forming a series of chlorinated acids in which one and two atoms of hydrogen are replaced by similar equivalents of chlorine. It is evident, as has been already observed, that the acid, the analysis of which stands first in order, is almost pure benzoic acid, the hydrogen of which has been scarcely at all attacked by the chlorine. The action of chlorine on cinnamic acid, therefore, is undoubtedly at first confined to converting it into the oily chlorine compound so often mentioned, and into benzoic acid; so that if its action could be interrupted exactly when this had been effected, these would be the only products. This precise period it is extremely difficult to hit, as the chlorine proceeds immediately to attack the benzoic acid and to replace one, two, and as we will by and by see, so many as three equivalents of its hydrogen, thus forming a series of three distinct chlorinated acids. It is extremely difficult to obtain any one of these acids quite free from admixture, either of undecomposed benzoic acid on the one hand, or of more highly chlorinated acids on the other. The way in which this is most nearly accomplished, is by means of the silver salts, which are much less soluble than the benzoate of silver, and which consequently remains dissolved in their mother liquors when pretty dilute. The action of a mixture of chlorate of
 
 ## PDF page 149
 
@@ -8358,54 +8190,33 @@ ed-diministrative to the second of the second
 
 ## PDF page 151
 
-1.03 000
-. chrol or cand him Royal Society. detech ) to well
-C. marked V. is an acid containing one equivalent of the
-rine; and the silver salt marked VI. is a mixture of acids considered.
-taining one and two equivalents of chlorine. 1-dua 1888 0 .m
-Though several attempts were made, I did not succeed in
-obtaining any of the salts of these acids in distinct crystals.
-When boiled with a mixture of muriatic acid and alcohol,
-each of these acids formed an æther, which in its smell and
-other properties closely resembled that of benzoic acid.
-It is stated in most systems of chemistry, that chlorine has
-no action on solutions of benzoic acid, but from the facts al-
-ready adduced, it is evident that this opinion is very incorrect.
-It would be unjust to conclude without referring to the expe-
-riments of M. Herzog, detailed in Berzelius's Report for
-1842, p. 107, Paris edition. M. Herzog says, "that when
-dry benzoic acid is exposed to the action of chlorine under the
-influence of solar light, the gas is absorbed and the acid is
-transformed into a reddish humid mass, having a disagreeable and fishy smell. When this is treated with carbonate of soda,
-it forms a brownish-red solution, while a resinous body having
-the smell of benzoin remains undissolved. When the alka-
-line solution is neutralized with nitric acid, a crystalline acid
-containing chlorine precipitates." The amount of the chlo-
-rine contained in it he did not determine. M. Hertzog also
-mentions that cinnamic acid is decomposed by chlorine in a
-similar way, yielding a chlorinated cinnamic acid. He makes
-no reference to the formation of any oil, nor does he appear
-to have attempted an analysis of any of these compounds
-whatever.
-B Glasgow, June 9, 1845. The state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of th
-to transmit and the second control of the second control of the second control of the second control of the second control of the second control of the second control of the second control of the second control of the seco
-cherry of ments
-onyd arom at a Proceedings of Learned Societies.
-but our flux the par ROYAL SOCIETY? or soul to surely
+Royal Society.
+
+C. marked V. is an acid containing one equivalent of rine; and the silver salt marked VI. is a mixture of acids taining one and two equivalents of chlorine.
+
+Though several attempts were made, I did not succeed in obtaining any of the salts of these acids in distinct crystals. When boiled with a mixture of muriatic acid and alcohol, each of these acids formed an ether, which in its smell and other properties closely resembled that of benzoic acid.
+
+It is stated in most systems of chemistry, that chlorine has no action on solutions of benzoic acid, but from the facts already adduced, it is evident that this opinion is very incorrect. It would be unjust to conclude without referring to the experiments of M. Herzog, detailed in Berzelius's Report for 1842, p. 107, Paris edition. M. Herzog says, "that when dry benzoic acid is exposed to the action of chlorine under the influence of solar light, the gas is absorbed and the acid is transformed into a reddish humid mass, having a disagreeable and fishy smell. When this is treated with carbonate of soda, it forms a brownish-red solution, while a resinous body having the smell of benzoin remains undissolved. When the alkaline solution is neutralized with nitric acid, a crystalline acid containing chlorine precipitates." The amount of the chlorine contained in it he did not determine. M. Hertzog also mentions that cinnamic acid is decomposed by chlorine in a similar way, yielding a chlorinated cinnamic acid. He makes no reference to the formation of any oil, nor does he appear to have attempted an analysis of any of these compounds whatever.
+
+Glasgow, June 9, 1845.
+
+XXIII. Proceedings of Learned Societies.
+
+ROYAL SOCIETY.
+
 Anniversary Meeting, Nov. 30, 1844.
-THE THE THE PARTY
-HE Marquis of Northampton in the Chair.
-The noble President stated that the two Royal Medals had been
-adjudged by the Council to Mr. Boole, for his important papers on
-a General Method of Analysis*; to Dr. Andrews of Belfast, for his
-valuable paper on the Thermal Changes accompanying Basic Sub-
-stitutions+; and the Copley Medal to Signor Matteucci of Pisa, for
-his discoveries in the magnetic electricity of animal nature.
-The President then presented the Medals; after which he pro-
-ceeded to state that the Society had lost some distinguished mem-
-An abstract of this paper will be found in vol. xxiv. p. 459.—Ep.
-Abstracts of Dr. Andrews's researches will be found in vol. xix. p. 183;
-vol. xxiv. p. 457; vol. xxv. p. 93, of this Journal.—Ed.
+
+THE Marquis of Northampton in the Chair.
+
+1 The noble President stated that the two Royal Medals had been adjudged by the Council to Mr. Boole, for his important papers on a General Method of Analysis*; to Dr. Andrews of Belfast, for his valuable paper on the Thermal Changes accompanying Basic Substitutions†; and the Copley Medal to Signor Matteucci of Pisa, for his discoveries in the magnetic electricity of animal nature.
+
+The President then presented the Medals; after which he proceeded to state that the Society had lost some distinguished mem-
+
+* An abstract of this paper will be found in vol. xxiv. p. 459.—Ed.
+
+† Abstracts of Dr. Andrews's researches will be found in vol. xix. p. 183; vol. xxiv. p. 457; vol. xxv. p. 93, of this Journal.—Ed.
+
+137
 
 ## PDF page 152
 
@@ -8521,60 +8332,17 @@ cur ofth volume, a de-f. .
 
 ## PDF page 154
 
-Royal Society.
 140
-and removed in 1793 to Manchester, where he continued to reside
-during the whole of his after-life.
-chemical combination.
--Ralt was doubtless his long residence among the lakes and mountains
-of Cumberland, and his consequent early familiarity with the ever-
-varying conditions of the atmosphere cobservable in that district,
-that gave the first impulse to his genius, and materially influenced
-his subsequent scientific career. His earliest important publication
-was a Treatise on Meteorology, which furnished a clear compendium
-of all the facts then ascertained, and made known various original
-views, especially on the altitude of the Aurora Borealis. From ob-
-serving and recording the sensible atmospheric changes, the phæno-
-mena of dew, of clouds and of temperature, he was naturally impelled
-to inquire into the constitution of the atmosphere, and more gene-
-rally of mixed elastic fluids, and into the theory of evaporation and
-the laws of heat. On these questions he made public, through the
-Transactions of the Manchester Society, a series of experimental
-memoirs, of which it is impossible to over-estimate the importance.
-His first conception of the mutual relations of mixed gases was, that
-each gas stood in the relation of a vacuum to the particles of all other
-gases; but in his New System of Chemical Philosophy he subse-
-quently relaxed the strictness of this original proposition, by con-
-ceding that the particles presented some mechanical impediment to
-commingling. He ascertained the form of the vapours of water and
-some other liquids at different temperatures, and dispelled by these
-experiments and others of equal importance the obscurity in which
-the theory of vaporization had been left by De Luc and Saussure.
-He first showed that a given space, whether void or filled with any
-gas, in contact with water, contains precisely the same amount of
-aqueous vapour, and thus established the non-existence of chemical
-affinity between the gas and the steam of water. It is impossible not
-to be impressed with the beautiful simplicity of the instruments by
-which these important results were wrought out. Four barometric
-tubes, filled with mercury, over which were admitted small columns
-of water, alcohol, ether and sulphuret of carbon, were the means
-employed for the admeasurement of the comparative forms of the
-vapours at different atmospheric or artificial temperatures. Among
-these successive memoirs is one of great merit on the heat evolved
-during the entrance of air into a vacuum. He showed the inade-
-quacy of the thermometer to serve as a measure of this evanescent
-elevation of temperature, and by an ingenious contrivance obtained
-a much closer approximation to the true heat.
-The first part of his New System of Chemical Philosophy will pro-
-bably constitute the most durable monument of his scientific genius;
-in this small volume are condensed the results of many years' patient
-thinking and of much laborious research; those larger portions,
-which are devoted to the measure of temperature and the theory of
-specific heat, may still be studied with advantage, though they were
-deemed by Dr. Dalton himself to have been in great part superseded
-by the labours of MM. Petit and Dulong. The short concluding
-The antegral of the man man of the test and an and this, "
-A trouming the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the
+
+Royal Society.
+
+and removed in 1793 to Manchester, where he continued to reside during the whole of his after-life.
+
+It was doubtless his long residence among the lakes and mountains of Cumberland, and his consequent early familiarity with the ever-varying conditions of the atmosphere observable in that district, that gave the first impulse to his genius, and materially influenced his subsequent scientific career. His earliest important publication was a Treatise on Meteorology, which furnished a clear compendium of all the facts then ascertained, and made known various original views, especially on the altitude of the Aurora Borealis. From observing and recording the sensible atmospheric changes, the phaenomena of dew, of clouds and of temperature, he was naturally impelled to inquire into the constitution of the atmosphere, and more generally of mixed elastic fluids, and into the theory of evaporation and the laws of heat. On these questions he made public, through the Transactions of the Manchester Society, a series of experimental memoirs, of which it is impossible to over-estimate the importance. His first conception of the mutual relations of mixed gases was, that each gas stood in the relation of a vacuum to the particles of all other gases; but in his New System of Chemical Philosophy he subsequently relaxed the strictness of this original proposition, by conceding that the particles presented some mechanical impediment to commingling. He ascertained the form of the vapours of water and some other liquids at different temperatures, and dispelled by these experiments and others of equal importance the obscurity in which the theory of vaporization had been left by De Luc and Saussure. He first showed that a given space, whether void or filled with any gas, in contact with water, contains precisely the same amount of aqueous vapour, and thus established the non-existence of chemical affinity between the gas and the steam of water. It is impossible not to be impressed with the beautiful simplicity of the instruments by which these important results were wrought out. Four barometric tubes, filled with mercury, over which were admitted small columns of water, alcohol, ether and sulphuret of carbon, were the means employed for the admeasurement of the comparative forms of the vapours at different atmospheric or artificial temperatures. Among these successive memoirs is one of great merit on the heat evolved during the entrance of air into a vacuum. He showed the inadequacy of the thermometer to serve as a measure of this evanescent elevation of temperature, and by an ingenious contrivance obtained a much closer approximation to the true heat.
+
+The first part of his New System of Chemical Philosophy will probably constitute the most durable monument of his scientific genius; in this small volume are condensed the results of many years' patient thinking and of much laborious research; those larger portions, which are devoted to the measure of temperature and the theory of specific heat, may still be studied with advantage, though they were deemed by Dr. Dalton himself to have been in great part superseded by the labours of MM. Petit and Dulong. The short concluding
+
+1. 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1
 
 ## PDF page 155
 
@@ -8699,58 +8467,25 @@ held its meetings regularly at Mr. Allen's house, in Plough Court.—R.T.]
 ## PDF page 157
 
 Royal Society.
+
 143
-military and other schools of that empire. Mr. Allen made several
-other journeys for benevolent objects to the continent, and he greatly
-exerted himself in behalf of the Greeks and of the Waldenses of
-Piedmont.
-The source of Mr. Allen's extraordinary influence was to be found
-in that singleness of purpose, which, breaking down the obstacles of
-party, gave him access to those in power, and carried him as by a
-royal road to the confidence and favour of princes. At home we
-find him enjoying the marked consideration of their late Royal High-
-nesses the Dukes of Kent and Sussex, the former appointing him
-one of his executors; and abroad he was in frequent communication
-with the Emperor Alexander. It, and admits a only in general
-Mr. Allen possessed in an uncommon degree the power of giving
-his mind to a great variety of subjects, and this, together with his
-activity, economy of time and early habits, enabled him to accom-
-plish a prodigious amount of good. His correspondence alone was
-a labour from which most men would have shrunk. The rigges ared
-In addition to subscriptions and donations to public charities, the
-casual calls on Mr. Allen's benevolence were very heavy; he also
-gave cheerfully, and there are perhaps few great works which he
-did not at some period of his life assist. The extent of Mr. Allen's
-charity seems to have been widely known, for we find the Emperor
-Alexander urging it as a reason for his undertaking the supply of
-drugs for the Russian armies, an offer which he gratefully but firmly
-refused, and to his honour be it spoken, he resisted a temptation the
-value of which it would be difficult to estimate. At the end of a
-long life he could say that he had never compromised his public use-
-fulness for private interests. , its how and the analysis of the comment west-rade
-During the last fourteen years of his active life, Mr. Allen had
-passed about half his time at Lindfield, diffusing happiness and doing
-good to those about him. The review of a well-spent life gave com-
-fort to the evening of his days, and that gospel which had been his
-rule through life was his stay in death, sustaining his mind in se-
-renity and peace.
-The properties of the market state of
+
+military and other schools of that empire. Mr. Allen made several other journeys for benevolent objects to the continent, and he greatly exerted himself in behalf of the Greeks and of the Waldenses of Piedmont.
+
+The source of Mr. Allen's extraordinary influence was to be found in that singleness of purpose, which, breaking down the obstacles of party, gave him access to those in power, and carried him as by a royal road to the confidence and favour of princes. At home we find him enjoying the marked consideration of their late Royal Highnesses the Dukes of Kent and Sussex, the former appointing him one of his executors; and abroad he was in frequent communication with the Emperor Alexander.
+
+Mr. Allen possessed in an uncommon degree the power of giving his mind to a great variety of subjects, and this, together with his activity, economy of time and early habits, enabled him to accomplish a prodigious amount of good. His correspondence alone was a labour from which most men would have shrunk.
+
+In addition to subscriptions and donations to public charities, the casual calls on Mr. Allen's benevolence were very heavy; he also gave cheerfully, and there are perhaps few great works which he did not at some period of his life assist. The extent of Mr. Allen's charity seems to have been widely known, for we find the Emperor Alexander urging it as a reason for his undertaking the supply of drugs for the Russian armies, an offer which he gratefully but firmly refused, and to his honour be it spoken, he resisted a temptation the value of which it would be difficult to estimate. At the end of a long life he could say that he had never compromised his public usefulness for private interests.
+
+During the last fourteen years of his active life, Mr. Allen had passed about half his time at Lindfield, diffusing happiness and doing good to those about him. The review of a well-spent life gave comfort to the evening of his days, and that gospel which had been his rule through life was his stay in death, sustaining his mind in serenity and peace.
+
 He died at Lindfield on the 30th of December, 1843, aged 73.
-The following Noblemen and Gentlemen were elected Officers and
-Council for the ensuing year, viz. , and said said said said said said said sai
-President.—The Marquis of Northampton. Treasurer.—Sir John
-William Lubbock, Bart., M.A. Secretaries.—Peter Mark Roget,
-M.D., Samuel Hunter Christie, Esq., M.A. Foreign Secretary.
-John Frederic Daniell, Esq., D.C.L. (since deceased) ... Other Mem-
-bers of the Council.- John Bostock, M.D.; William Bowman, Esq.;
-Isambard Kingdom Brunel, Esq.; Rev. William Buckland, D.D.;
-Sir William Burnett, M.D., K.C.H.; George Dollond, Esq.; Very
-Rev. Dean of Ely; Thomas Graham, Esq., M.A.; Roderick Impey
-Murchison, Esq.; Richard Owen, Esq.; Sir James Clark Ross, Capt. R.N.; John Forbes Royle, M.D.; William Sharpey, M.D.;
-John Taylor, Esq.; Rev. Robert Walker, M.A.; Lord Wrottesley,
-lorser reverse confite, and the tease
-memora, for sea to be a first to the season of the season of the season of the season of the season of the season of the season of the season of the season of the season of the season of the season of the season of the sea
-held it inceting the with Whith the control of the little and the little and the little and the little and the little and the little and the little and the little and the little and the little and the little and the little
+The following Noblemen and Gentlemen were elected Officers and Council for the ensuing year, viz.—
+
+President.—The Marquis of Northampton. Treasurer.—Sir John William Lubbock, Bart., M.A. Secretaries.—Peter Mark Roget, M.D., Samuel Hunter Christie, Esq., M.A. Foreign Secretary.—John Frederic Daniell, Esq., D.C.L. (since deceased) Other Members of the Council.—John Bostock, M.D.; William Bowman, Esq.; Isambard Kingdom Brunel, Esq.; Rev. William Buckland, D.D.; Sir William Burnett, M.D., K.C.H.; George Dollond, Esq.; Very Rev. Dean of Ely; Thomas Graham, Esq., M.A.; Roderick Impey Murchison, Esq.; Richard Owen, Esq.; Sir James Clark Ross, Capt. R.N.; John Forbes Royle, M.D.; William Sharpey, M.D.; John Taylor, Esq.; Rev. Robert Walker, M.A.; Lord Wrottesley.
+
+S. e. 91. 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034, 2035, 2036, 2037, 2038, 2039, 2040, 2041, 2042, 2043, 2044, 2045, 2046, 2047, 2048, 2049, 2050, 2051, 2052, 2053, 2054, 2055, 2056, 2057, 2058, 2059, 2060, 2061, 2062, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2080, 2081, 2082, 2083, 2084, 2085, 2086, 2087, 2088, 2089, 2090, 2091, 2092, 2093, 2094, 2095, 2096, 2097, 2098, 2099, 2100, 2101, 2102, 2103, 2104, 2105, 2106, 2107, 2108, 2109, 2110, 2111, 2112, 2113, 2114, 2115, 2116, 2117, 2118, 2119, 2120, 2121, 2122, 2123, 2124, 2125, 2126, 2127, 2128, 2129, 2130, 2131, 2132, 2133, 2134, 2135, 2136, 2137, 2138, 2139, 2140, 2141, 2142, 2143, 2144, 2145, 2146, 2147, 2148, 2149, 2150, 2151, 2152, 2153, 2154, 2155, 2156, 2157, 2158, 2159, 2160, 2161, 2162, 2163, 2164, 2165, 2166, 2167, 2168, 2169, 2170, 2171, 2172, 2173, 2174, 2175, 2176, 2177, 2178, 2179, 2180, 2181, 2182, 2183, 2184, 2185, 2186, 2187, 2188, 2189, 2190, 2191, 2192, 2193, 2194, 2195, 2196, 2197, 2198, 2199, 2200, 2201, 2202, 2203, 2204, 2205, 2206, 2207, 2208, 2209, 2210, 2211, 2212, 2213, 2214, 2215, 2216, 2217, 2218, 2219, 2220, 2221, 2222, 2223, 2224, 2225, 2226, 2227, 2228, 2229, 2230, 2231, 2232, 2233, 2234, 2235, 2236, 2237, 2238, 2239, 2240, 2241, 2242, 2243, 2244, 2245, 2246, 2247, 2248, 2249, 2250, 2251, 2252, 2253, 2254, 2255, 2256, 2257, 2258, 2259, 2260, 2261, 2262, 2263, 2264, 2265, 2266, 2267, 2268, 2269, 2270, 2271, 2272, 2273, 2274, 2275, 2276, 2277, 2278, 2279, 2280, 2281, 2282, 2283, 2284, 2285, 2286, 2287, 2288, 2289, 2290, 2291, 2292, 2293, 2294, 2295, 2296, 2297, 2298, 2299, 2300, 2301, 2302, 2303, 2304, 2305, 2306, 2307, 2308, 2309, 2310, 2311, 2312, 2313, 2314, 2315, 2316, 2317, 2318, 2319, 2320, 2321, 2322, 2323, 2324, 2325, 2326, 2327, 2328, 2329, 2330, 2331, 2332, 2333, 2334, 2335, 2336, 2337, 2338, 2339, 2340, 2341, 2342, 2343, 2344, 2345, 2346, 2347, 2348, 2349, 2350, 2351, 2352, 2353, 2354, 2355, 2356, 2357, 2358, 2359, 2360, 2361, 2362, 2363, 2364, 2365, 2366, 2367, 2368, 2369, 2370, 2371, 2372, 2373, 2374, 2375, 2376, 2377, 2378, 2379, 2380, 2381, 2382, 2383, 2384, 2385, 2386, 2387, 2388, 2389, 2390, 2391, 2392, 2393, 2394, 2395, 2396, 2397, 2398, 2399, 2400, 2401, 2402, 2403, 2404, 2405, 2406, 2407, 2408, 2409, 2410, 2411, 2412, 2413, 2414, 2415, 2416, 2417, 2418, 2419, 2420, 2421, 2422, 2423, 2424, 2425, 2426, 2427, 2428, 2429, 2430, 2431, 2432, 2433, 2434, 2435, 2436, 2437, 2438, 2439, 2440, 2441, 2442, 2443, 2444, 2445, 2446, 2447, 2448, 2449, 2450, 2451, 2452, 2453, 2454, 2455, 2456, 2457, 2458, 2459, 2460, 2461, 2462, 2463, 2464, 2465, 2466, 2467, 2468, 2469, 2470, 2471, 2472, 2473, 2474, 2475, 2476, 2477, 2478, 2479, 2480, 248
 
 ## PDF page 158
 
@@ -9036,58 +8771,16 @@ Dock: the horizon is good, and infinitely better than could have been
 ## PDF page 163
 
 Royal Astronomical Society.
+
 149
-hoped for in the heart of a busy manufacturing town: A ball similar
-to that at Greenwich is let fall every day except Sunday, precisely
-at one P.M. Greenwich time, and the whole arrangement is so com-
-plete, and the longitude so well known, that the dropping of the
-balls at the two observatories may be considered to be simultaneous.
-It is evident that an observatory furnishing exact time will be of the
-greatest utility to all makers of good chronometers, and a hindrance
-to the venders of those which are indifferent. The ship-owners may,
-too, if they please, enjoy an advantage hitherto belonging solely to
-the Admiralty, that of having their chronometers tried and rated by
-a competent and disinterested party previous to purchase; an advan-
-tage which will be thought almost inappreciable by persons fully
-aware of the dependence of modern navigation on the goodness of
-timekeepers; and also, what indifferent watches are now disposed
-of to the unwary by ignorant and unscrupulous dealers. Mr. Hart-
-nup's aid was most efficient in the measurement of the Valentia arc
-of longitude; and we trust that is only the first of many services to
-be rendered to science by this zealous and intelligent observer.
-- 2
-The magnificent telescope erected by the Earl of Rosse, which
-has attracted so much of public attention, is nearly in working order;
-nothing being now incomplete except some of the gallery machinery.
-It may reasonably be predicted that the energy which has called this
-instrument into existence will not quail before the more easy and
-pleasant task of using it. There is nothing on which it is so diffi-
-cult to speculate as the probable results of an increase of optical
-power. r groups a market had a larger to the
-Passing to another extreme, your Council desire to notice the re-
-markable catalogue published by our associate, M. Argelander, of
-stars observed with the naked eye. The author is the Bayer of our
-generation, and his appreciation of magnitudes will probably come
-into universal use. He has re-opened the road in which the astro-
-nomer may make himself useful without any instruments at all. His
-announcement of nearly thirty stars, which, though visible to the
-naked eye, are not to be found in any catalogue, startling as it may seem
-at first, will not perhaps surprise those who remember how various the
-objects of different catalogues have been. It is most desirable that
-these stars should be observed with a view to the verification of the
-fact. If only half the number of new visible stars should be sub-
-stantiated, it will be a useful lesson in any point of view. It is to
-be remembered that we are not positively to assume that these stars
-have been neglected by preceding observers: there is much reason
-to suppose that such bodies have before now disappeared. There
-may be re-appearances, and there may be new appearances. Variable
-stars, with periods of several hundred years, or even less, might
-casily give rise to what M. Argelander has observed. 120 A fundamental for the case of the case of the case of the case of the case of the case of the case of the case of the case of the case of the case of the case of the
-While commemorating the results of the past year, we ought not
-to forget those who are working in distant lands, under circumstances
-which prevent our receiving immediate information of their proceed-
-ings. Mr. Maclear's verification of Lacaille's arc at the Cape of
-Good Hope is an operation in which English and French astrono-
+
+hoped for in the heart of a busy manufacturing town. A ball similar to that at Greenwich is let fall every day except Sunday, precisely at one P.M. Greenwich time, and the whole arrangement is so complete, and the longitude so well known, that the dropping of the balls at the two observatories may be considered to be simultaneous. It is evident that an observatory furnishing exact time will be of the greatest utility to all makers of good chronometers, and a hindrance to the vendors of those which are indifferent. The ship-owners may, too, if they please, enjoy an advantage hitherto belonging solely to the Admiralty; that of having their chronometers tried and rated by a competent and disinterested party previous to purchase; an advantage which will be thought almost inappreciable by persons fully aware of the dependence of modern navigation on the goodness of timekeepers; and also, what indifferent watches are now disposed of to the unwary by ignorant and unscrupulous dealers. Mr. Hart-nup's aid was most efficient in the measurement of the Valentia arc of longitude; and we trust that is only the first of many services to be rendered to science by this zealous and intelligent observer.
+
+The magnificent telescope erected by the Earl of Rosse, which has attracted so much of public attention, is nearly in working order; nothing being now incomplete except some of the gallery machinery. It may reasonably be predicted that the energy which has called this instrument into existence will not quail before the more easy and pleasant task of using it. There is nothing on which it is so difficult to speculate as the probable results of an increase of optical power.
+
+Passing to another extreme, your Council desire to notice the remarkable catalogue published by our associate, M. Argelander, of stars observed with the naked eye. The author is the Bayer of our generation, and his appreciation of magnitudes will probably come into universal use. He has re-opened the road in which the astronomer may make himself useful without any instruments at all. His announcement of nearly thirty stars, which, though visible to the naked eye, are not to be found in any catalogue, startling as it may seem at first, will not perhaps surprise those who remember how various the objects of different catalogues have been. It is most desirable that these stars should be observed with a view to the verification of the fact. If only half the number of new visible stars should be substantiated, it will be a useful lesson in any point of view. It is to be remembered that we are not positively to assume that these stars have been neglected by preceding observers: there is much reason to suppose that such bodies have before now disappeared. There may be re-appearances, and there may be new appearances. Variable stars, with periods of several hundred years, or even less, might easily give rise to what M. Argelander has observed.
+
+While commemorating the results of the past year, we ought not to forget those who are working in distant lands, under circumstances which prevent our receiving immediate information of their proceedings. Mr. Maclear's verification of Lacaille's arc at the Cape of Good Hope is an operation in which English and French astrono-
 
 ## PDF page 164
 
@@ -12001,45 +11694,33 @@ Phil. Mag. S. 3. Vol. 27. No. 179. Sept. 1845.
 
 ## PDF page 208
 
-Drs. Muspratt and Hofmann on Toluidine.
 194
-attention to a remarkable way for obtaining aniline, and which
-we discovered during our experiments.
-Chemists are well acquainted with the interesting compound
-Mitscherlich described under the name of azobenzide in one
-of his beautiful papers upon the derivatives of benzoic acid.
-He obtained this body by distilling nitrobenzide with alcohol
-and potash, together with other products which were not fur-
-ther investigated. Azobenzide differs only from aniline in
-two equivalents of hydrogen. So the property of the Hallow Application <math>C_{12}</math> <math>H_7</math> <math>N_7</math> <math>H_7</math> <math>H_7</math> <math>H_7</math> <math>H_7</math> <math>H_7</math> <math>H_7</math> <math>H_7</math> <math>H_7</math> <math>H_7</math> <math>H_7</math> <math>H_7</math> <math>H_7</math> <math>H_7</math> <math>H_7</math> <math>H_7</math> <math>H_7</math> <math>H_7</math> <math>H_7</math> <math>H_7</math> <math>H_7</math> <math>H_7</math> <math>H_</math>
-In order to see if a closer relation did not subsist between
-these two bodies, we prepared large quantities of azobenzide,
-following Mitscherlich's directions throughout, and obtained
-this body, possessing all the properties ascribed to it by that
-chemist. In the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of th
-On more closely examining the secondary products formed
-during this process, we found that besides other substances
-there is likewise produced a very large quantity of aniline,
-and the residue contains a considerable quantity of oxalic acid.
-These observations appear to shed more light upon the
-manner in which the azobenzide is formed, i. e. if we assume
-that the oxalic acid is produced from the alcohol at the ex-
-pense of the oxygen of the nitrobenzide: 2 equivalents of
-nitrobenzide and 1 equivalent of alcohol contain the elements
-of 1 equivalent of azobenzide, 1 equivalent of aniline, 2 equi-
-valents of oxalic acid, and 2 equivalents of water, as shown
-in the subjoined equation,—
-<math display="block">2\underbrace{(C_{12} H_5 NO_4) + C_4 H_5 O HO}_{\text{Nitrobenzide.}} + \underbrace{C_4 H_5 O HO}_{\text{Alcohol.}} =</math>
-<math>C_{12} H_5 N + C_{12} H_7 N + 2 (C_2 O_3, HO) + 2 HO.</math>
-Azobenzide. Aniline. Oxalic acid.
-We are far from supposing that the above equation repre-
-sents the true decomposition, as other products are formed;
-and further, the aniline distils over long before a trace of ox-
-alic acid is detectable in the retort. The true transformation
-can only be given when all the products of this complex reaction are investigated. We are at present engaged upon
-this subject, and expect shortly to solve the problem.
-To some of
-not refer to the common that the state of the
+
+Drs. Muspratt and Hofmann on Toluidine.
+
+attention to a remarkable way for obtaining aniline, and which we discovered during our experiments.
+
+Chemists are well acquainted with the interesting compound Mitscherlich described under the name of azobenzide in one of his beautiful papers upon the derivatives of benzoic acid. He obtained this body by distilling nitrobenzide with alcohol and potash, together with other products which were not further investigated. Azobenzide differs only from aniline in two equivalents of hydrogen.
+
+\[
+\begin{array}{l l} \text {Aniline} & \mathrm{C} _ {1 2} \mathrm{H} _ {7} \mathrm{N} \\ \text {Azobenzide} & \mathrm{C} _ {1 2} \mathrm{H} _ {5} \mathrm{N}. \end{array}
+\]
+
+In order to see if a closer relation did not subsist between these two bodies, we prepared large quantities of azobenzide, following Mitscherlich's directions throughout, and obtained this body, possessing all the properties ascribed to it by that chemist.
+
+On more closely examining the secondary products formed during this process, we found that besides other substances there is likewise produced a very large quantity of aniline, and the residue contains a considerable quantity of oxalic acid.
+
+These observations appear to shed more light upon the manner in which the azobenzide is formed, i. e. if we assume that the oxalic acid is produced from the alcohol at the expense of the oxygen of the nitrobenzide: 2 equivalents of nitrobenzide and 1 equivalent of alcohol contain the elements of 1 equivalent of azobenzide, 1 equivalent of aniline, 2 equivalents of oxalic acid, and 2 equivalents of water, as shown in the subjoined equation,—
+
+\[
+2 \underbrace {\left(\mathrm{C} _ {1 2} \mathrm{H} _ {5} \mathrm{NO} _ {4}\right)} _ {\text {Nitrobenzide.}} + \underbrace {\mathrm{C} _ {4} \mathrm{H} _ {5} \mathrm{OHO}} _ {\text {Alcohol.}} =
+\]
+
+\[
+\underbrace {\mathrm{C} _ {1 2} \mathrm{H} _ {5} \mathrm{N}} _ {\text {Azobenzide.}} + \underbrace {\mathrm{C} _ {1 2} \mathrm{H} _ {7} \mathrm{N}} _ {\text {Aniline.}} + 2 (\underbrace {\mathrm{C} _ {2} \mathrm{O} _ {3} , \mathrm{HO}} _ {\text {Oxalic acid.}}) + 2 \mathrm{HO}.
+\]
+
+We are far from supposing that the above equation represents the true decomposition, as other products are formed; and further, the aniline distils over long before a trace of oxalic acid is detectable in the retort. The true transformation can only be given when all the products of this complex reaction are investigated. We are at present engaged upon this subject, and expect shortly to solve the problem.
 
 ## PDF page 209
 
@@ -12431,54 +12112,17 @@ consisting of one equivalent of muriatic acid and one equivalent
 
 ## PDF page 217
 
-Prof. Schenbein on some Properties of Ozone.
+Prof. Schoenbein on some Properties of Ozone.
+
 203
-of oxygen, it is very easy to parallel to each other the re-
-actions exerted both by ozone and chlorine upon metallic
-substances. 11 Let us take potassium for an instance : ozone is
-readily taken up by that metal, hydrate of potash being pro-
-duced, as potassium is transformed by chloring into a muriate
-of potash; in one case the metal unites with the oxygen of
-ozone, in the other with that of chlorine; and in one instance
-water unites with the base, and in the other muriatic acid.
-The latter being a strong acid completely neutralizes the basic
-properties of potash, whilst water, on account of its being a
-feeble acid, is not able to do so. "In a similar manner all the
-other chemical reactions exhibited by ozone and chlorine, may
-very easily be compared to each other. The greater energy
-of action exhibited by chlorine is not very difficult to be ac-
-counted for. Muriatic acid has a very powerful affinity for
-metallic oxides, whilst that of water for the same substances
-happens to be much weaker. Of the firs in second below
-A fact which merits attention is the formation of ozone and
-chlorine being effected by electrical means. "If electrical
-sparks are caused to pass through a mixture of aqueous va-
-pour and oxygen, ozone is generated; and on making electrical
-sparks act upon a mixture of anhydrous hydrochloric acid and
-oxygen, chlorine is produced. As to the generation of chlo-
-rine effected by electrical means, the old theory accounts for
-it by admitting that electricity has the power of determining
-free oxygen to combine with muriatic acid and eliminate water.
-Regarding the formation of ozone under the circumstances
-above mentioned, we cannot explain it in any other way than
-by saying, that electricity causes the direct union between
-water and oxygen. The similarity existing between the be-
-fore-mentioned ways of producing ozone and chlorine is at
-any rate a very remarkable fact, establishing another analogy
-between both bodies.
-My experiments have shown, that in electrolysing water
-ozone is disengaged at the positive electrode as a secondary
-product. Now by subjecting hydrochloric acid to the action
-of a current, chlorine happens to be set free at the same elec-
-trode. According to the old theory this chlorine must also
-be considered as a secondary product of electrolysis; and in
-this respect another striking analogy is exhibited between chlo-
-rine and ozone.
-The question is, whether phosphorus acts upon a mixture
-of muriatic acid gas and oxygen in the same way as that sub-
-stance does upon a mixture of aqueous vapour and oxygen.
-I have not yet tried the experiment, though it is worth while
-to do so. The man have a property of the property of the contraction of the contraction of the contraction of the contraction of the contraction of the contraction of the contraction of the contraction of the contraction o
+
+of oxygen, it is very easy to parallel to each other the reactions exerted both by ozone and chlorine upon metallic substances. Let us take potassium for an instance: ozone is readily taken up by that metal, hydrate of potash being produced, as potassium is transformed by chlorine into a muriate of potash; in one case the metal unites with the oxygen of ozone, in the other with that of chlorine; and in one instance water unites with the base, and in the other muriatic acid. The latter being a strong acid completely neutralizes the basic properties of potash, whilst water, on account of its being a feeble acid, is not able to do so. In a similar manner all the other chemical reactions exhibited by ozone and chlorine, may very easily be compared to each other. The greater energy of action exhibited by chlorine is not very difficult to be accounted for. Muriatic acid has a very powerful affinity for metallic oxides, whilst that of water for the same substances happens to be much weaker.
+
+A fact which merits attention is the formation of ozone and chlorine being effected by electrical means. If electrical sparks are caused to pass through a mixture of aqueous vapour and oxygen, ozone is generated; and on making electrical sparks act upon a mixture of anhydrous hydrochloric acid and oxygen, chlorine is produced. As to the generation of chlorine effected by electrical means, the old theory accounts for it by admitting that electricity has the power of determining free oxygen to combine with muriatic acid and eliminate water. Regarding the formation of ozone under the circumstances above mentioned, we cannot explain it in any other way than by saying, that electricity causes the direct union between water and oxygen. The similarity existing between the before-mentioned ways of producing ozone and chlorine is at any rate a very remarkable fact, establishing another analogy between both bodies.
+
+My experiments have shown, that in electrolysis water ozone is disengaged at the positive electrode as a secondary product. Now by subjecting hydrochloric acid to the action of a current, chlorine happens to be set free at the same electrode. According to the old theory this chlorine must also be considered as a secondary product of electrolysis; and in this respect another striking analogy is exhibited between chlorine and ozone.
+
+The question is, whether phosphorus acts upon a mixture of muriatic acid gas and oxygen in the same way as that substance does upon a mixture of aqueous vapour and oxygen. I have not yet tried the experiment, though it is worth while to do so.
 
 ## PDF page 218
 
@@ -12534,150 +12178,69 @@ chemistry, as it formerly was, and as most likely hydrogen
 ## PDF page 219
 
 Relation between Heat and Mechanical Power.
-205
-may be. Indeed both substances bear so much the stamp of
-simplicity, they exhibit so decided a chemical antagonism
-towards each other, both of them, conjointly with their remark-
-able product,"water," act throughout the domain of our science
-so extensive and important a part, that we can hardly help
-suspecting them to be active in some way or other in most, if
-not in all chemical reactions, and seeing in oxygen and hydrogen
-the hinges upon which the whole chemical world turns. The
-theory of Davy, seducing and plausible as it appears at first
-sight, has possibly proved a check, rather than a spur, to the
-development of chemistry, on account of its having changed,
-perhaps, the true point of view from which oxygen ought to
-be looked at. For if oxygen should happen to act that all-
-important part which Lavoisier and the chemists of the last
-century assigned to that element, it is not difficult to see that
-the views of Davy are calculated to retard the progress of
-theoretical chemistry rather than to accelerate it. off To sold
-I need not say, that the considerations I have taken the
-liberty to submit to you have been entered into with the view
-only of drawing the attention of philosophers towards a sub-
-ject which seems to me to be of considerable theoretical im-
-disengaged, for instance, d. wouts of our study, b. as instance, and worthy of our study.
-no MIBENDELLE C. P. OK Jemized muriatic acid, and not
-XXXI. On the Existence of an Equivalent Relation between
-Heat and the ordinary Forms of Mechanical Power. By
-JAMES P. Joule, Esq. 1981 to the control of the order to ever over the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the c
-To the Editors of the Philosophical Magazine and Journal
-GENTLEMEN, India, Indiana, and American
-merel rinsul rath n
-THE principal part of this letter was brought under the
-notice of the British Association at its last meeting at
-Cambridge. I have hitherto hesitated to give it further pub-
-lication, not because I was in any degree doubtful of the con-
-clusions at which I had arrived, but because I intended to
-make a slight alteration in the apparatus calculated to give
-still greater precision to the experiments. Being unable, how-
-ever, just at present to spare the time necessary to fulfil this
-design, and being at the same time most anxious to convince
-the scientific world of the truth of the positions I have main-
-tained, I hope you will do me the favour of publishing this
-letter in your excellent Magazine.
 
-The apparatus exhibited before the Association consisted
-of a brass paddle-wheel working horizontally in a can of water.
-Motion could be communicated to this paddle by means of
+205
+
+may be. Indeed both substances bear so much the stamp of simplicity, they exhibit so decided a chemical antagonism towards each other, both of them, conjointly with their remarkable product "water," act throughout the domain of our science so extensive and important a part, that we can hardly help suspecting them to be active in some way or other in most, if not in all chemical reactions, and seeing in oxygen and hydrogen the hinges upon which the whole chemical world turns. The theory of Davy, seducing and plausible as it appears at first sight, has possibly proved a check, rather than a spur, to the development of chemistry, on account of its having changed, perhaps, the true point of view from which oxygen ought to be looked at. For if oxygen should happen to act that all-important part which Lavoisier and the chemists of the last century assigned to that element, it is not difficult to see that the views of Davy are calculated to retard the progress of theoretical chemistry rather than to accelerate it.
+
+I need not say, that the considerations I have taken the liberty to submit to you have been entered into with the view only of drawing the attention of philosophers towards a subject which seems to me to be of considerable theoretical importance, and worthy of our study.
+
+C. F. SCHCENBEIN.
+
+XXXI. On the Existence of an Equivalent Relation between Heat and the ordinary Forms of Mechanical Power. By JAMES P. JOULE, Esq.
+
+To the Editors of the Philosophical Magazine and Journal.
+GENTLEMEN,
+
+THE principal part of this letter was brought under the notice of the British Association at its last meeting at Cambridge. I have hitherto hesitated to give it further publication, not because I was in any degree doubtful of the conclusions at which I had arrived, but because I intended to make a slight alteration in the apparatus calculated to give still greater precision to the experiments. Being unable, however, just at present to spare the time necessary to fulfil this design, and being at the same time most anxious to convince the scientific world of the truth of the positions I have maintained, I hope you will do me the favour of publishing this letter in your excellent Magazine.
+
+The apparatus exhibited before the Association consisted of a brass paddle-wheel working horizontally in a can of water. Motion could be communicated to this paddle by means of
 
 ## PDF page 220
 
-Relation between Heat and Mechanical Power.
 206
-weights, pulleys, &c., exactly in the manner described in a
-previous paper *. The reserve of the second of
-The paddle moved with great resistance in the can of water,
-so that the weights (each of four pounds) descended at the
-slow rate of about one foot per second. The height of the
-pulleys from the ground was twelve yards, and consequently,
-when the weights had descended through that distance, they
-had to be wound up again in order to renew the motion of the
-paddle. After this operation had been repeated sixteen times,
-the increase of the temperature of the water was ascertained:
-by means of a very sensible and accurate thermometer. For the
-A series of nine experiments was performed in the above
-manner, and nine experiments were made in order to elimi-
-nate the cooling or heating effects of the atmosphere. After
-reducing the result to the capacity for heat of a pound of
-water, it appeared that for each degree of heat evolved by the
-friction of water, a mechanical power equal to that which can
-raise a weight of 890 lbs. to the height of one foot, had been
-expended. The many made not the agreement of the agreement of the agreement of the agreement of the agreement of the agreement of the agreement of the agreement of the agreement of the agreement of the agreement of the agr
-The equivalents I have already obtained are, -1st, 823 lbs.,
-derived from magneto-electrical experiments †; 2nd, 795 lbs.;
-deduced from the cold produced by the rarefaction of air 1; and
-3rd, 774 lbs. from experiments (hitherto unpublished) on the
-motion of water through narrow tubes. This last class of expe-
-riments being similar to that with the paddle-wheel, we may
-take the mean of 774 and 890, or 832 lbs., as the equivalent
-derived from the friction of water. In such delicate experi-
-ments, where one hardly ever collects more than half a degree
-of heat, greater accordance of the results with one another.
-than that above exhibited could hardly have been expected.
-I may therefore conclude that the existence of an equivalent
-relation between heat and the ordinary forms of mechanical
-power is proved; and assume 817 lbs., the mean of the results
-of three distinct classes of experiments, as the equivalent, until
-still more accurate experiments shall have been made.
-Any of your readers who are so fortunate as to reside amid
-the romantic scenery of Wales or Scotland, could, I doubt
-not, confirm my experiments by trying the temperature of the
-water at the top and at the bottom of a cascade. If my views
-be correct, a fall of 817 feet will of course generate one de-
-* Phil. Mag. vol. xxiii. p. 436. The paddle-wheel used by Rennie in
-his experiments on the friction of water (Phil. Trans. 1831, plate xi. fig. 1)
-was somewhat similar to mine. I employed, however, a greater number of
-"floats," and also a corresponding number of stationary floats, in order to
-prevent the rotatory motion of the water in the can.
+
+Relation between Heat and Mechanical Power.
+
+weights, pulleys, &c., exactly in the manner described in a previous paper*.
+
+The paddle moved with great resistance in the can of water, so that the weights (each of four pounds) descended at the slow rate of about one foot per second. The height of the pulleys from the ground was twelve yards, and consequently, when the weights had descended through that distance, they had to be wound up again in order to renew the motion of the paddle. After this operation had been repeated sixteen times, the increase of the temperature of the water was ascertained by means of a very sensible and accurate thermometer.
+
+A series of nine experiments was performed in the above manner, and nine experiments were made in order to eliminate the cooling or heating effects of the atmosphere. After reducing the result to the capacity for heat of a pound of water, it appeared that for each degree of heat evolved by the friction of water, a mechanical power equal to that which can raise a weight of 890 lbs. to the height of one foot, had been expended.
+
+The equivalents I have already obtained are, 1st, 823 lbs., derived from magneto-electrical experiments†; 2nd, 795 lbs.; deduced from the cold produced by the rarefaction of air‡; and 3rd, 774 lbs. from experiments (hitherto unpublished) on the motion of water through narrow tubes. This last class of experiments being similar to that with the paddle-wheel, we may take the mean of 774 and 890, or 832 lbs., as the equivalent derived from the friction of water. In such delicate experiments, where one hardly ever collects more than half a degree of heat, greater accordance of the results with one another than that above exhibited could hardly have been expected. I may therefore conclude that the existence of an equivalent relation between heat and the ordinary forms of mechanical power is proved; and assume 817 lbs., the mean of the results of three distinct classes of experiments, as the equivalent, until still more accurate experiments shall have been made.
+
+Any of your readers who are so fortunate as to reside amid the romantic scenery of Wales or Scotland, could, I doubt not, confirm my experiments by trying the temperature of the water at the top and at the bottom of a cascade. If my views be correct, a fall of 817 feet will of course generate one de-
+
+* Phil. Mag. vol. xxiii. p. 436. The paddle-wheel used by Rennie in his experiments on the friction of water (Phil. Trans. 1831, plate xi. fig. 1) was somewhat similar to mine. I employed, however, a greater number of "floats," and also a corresponding number of stationary floats, in order to prevent the rotatory motion of the water in the can.
+
 † Phil. Mag. vol. xxiii. pp. 263, 347. † Phil. Mag. May 1845. p. 369.
 
 ## PDF page 221
 
-On Dalton's Method of Measuring Water of Crystallization. 207
-gree of heat; and the temperature of the river Niagara will
-be raised about one-fifth of a degree by its fall of 160 feet.
-Admitting the correctness of the equivalent I have named,
-it is obvious that the vis viva of the particles of a pound of
-water at (say) 51°, is equal to the vis viva possessed by a pound
-of water at 50° plus the vis viva which would be acquired by
-a weight of 817 lbs. after falling through the perpendicular
-height of one foot. The Committee Committee Committee Committee Committee Committee Committee Committee Committee Committee Committee Committee Committee Committee Committee Committee Committee Committee Committee Committe
-Assuming that the expansion of elastic fluids on the re-
-moval of pressure is owing to the centrifugal force of revolving
-atmospheres of electricity, we can easily estimate the absolute
-quantity of heat in matter. For in an elastic fluid the pres-
-sure will be proportional to the square of the velocity of the
-revolving atmospheres; and the vis viva of the atmospheres
-will also be proportional to the square of their velocity; con-
-sequently the pressure will be proportional to the vis viva.
-Now the ratio of the pressures of elastic fluids at the tempe-
-ratures 32° and 33° is 480: 481, consequently the zero of tem-
-perature must be 480° below the freezing-point of water, 100 km
-We see then what an enormous quantity of vis viva exists
-in matter. A single pound of water at 60° must possess
-<math>480^{\circ} + 28^{\circ} = 508^{\circ}</math> of heat, in other words, it must possess a vis
-viva equal to that acquired by a weight of 415036 lbs. after
-falling through the perpendicular height of one foot. The
-velocity with which the atmospheres of electricity must revolve
-in order to present this enormous amount of vis viva, must of
-course be prodigious, and equal probably to the velocity of
-light in the planetary space, or to that of an electric discharge
-as determined by the experiments of Wheatstone.
-Andrews on and I remain, Gentlemen, Change the
-Oak Field, near Manchester, Wours respectfully, James P. Joule.
-Tagas o, 1010.
-XXXII. An Examination of Dr. Dalton's New Method of
-Measuring the Water of Crystallization contained in dif-
-ferent varieties of Salts. By Samuel Holker, Bury*.
-THE subject of this paper was suggested to me by my
-friend Mr. Davies, Professor of Chemistry at the Royal
-Medical School, with whom I have for some time devoted
-myself to the study of chemistry. I may observe as a rather
-remarkable circumstance, that an inquiry of so much interest
-and importance, commenced by Dr. Dalton, and displaying
-* Read at the Manchester Literary and Philosophical Society, February
-20, 1844; and communicated by the Author.
+On Dalton's Method of Measuring Water of Crystallization. 207.
+
+gree of heat; and the temperature of the river Niagara will be raised about one-fifth of a degree by its fall of 160 feet.
+
+Admitting the correctness of the equivalent I have named, it is obvious that the vis viva of the particles of a pound of water at (say) 51°, is equal to the vis viva possessed by a pound of water at 50° plus the vis viva which would be acquired by a weight of 817 lbs. after falling through the perpendicular height of one foot.
+
+Assuming that the expansion of elastic fluids on the removal of pressure is owing to the centrifugal force of revolving atmospheres of electricity, we can easily estimate the absolute quantity of heat in matter. For in an elastic fluid the pressure will be proportional to the square of the velocity of the revolving atmospheres; and the vis viva of the atmospheres will also be proportional to the square of their velocity; consequently the pressure will be proportional to the vis viva. Now the ratio of the pressures of elastic fluids at the temperatures 32° and 33° is 480:481, consequently the zero of temperature must be 480° below the freezing-point of water.
+
+We see then what an enormous quantity of vis viva exists in matter. A single pound of water at 60° must possess 480° + 28° = 508° of heat, in other words, it must possess a vis viva equal to that acquired by a weight of 415036 lbs. after falling through the perpendicular height of one foot. The velocity with which the atmospheres of electricity must revolve in order to present this enormous amount of vis viva, must of course be prodigious, and equal probably to the velocity of light in the planetary space, or to that of an electric discharge as determined by the experiments of Wheatstone.
+
+I remain, Gentlemen,
+
+Oak Field, near Manchester,
+August 6, 1845.
+
+Yours respectfully,
+JAMES P. JOULE.
+
+XXXII. An Examination of Dr. Dalton's New Method of Measuring the Water of Crystallization contained in different varieties of Salts. By SAMUEL HOLKER, Bury*.
+
+THE subject of this paper was suggested to me by my friend Mr. Davies, Professor of Chemistry at the Royal Medical School, with whom I have for some time devoted myself to the study of chemistry. I may observe as a rather remarkable circumstance, that an inquiry of so much interest and importance, commenced by Dr. Dalton, and displaying
+
+* Read at the Manchester Literary and Philosophical Society, February 20, 1844; and communicated by the Author.
 
 ## PDF page 222
 
@@ -12732,62 +12295,20 @@ crease of bulk.
 
 ## PDF page 223
 
-20
 Measuring the Water of Crystallization of Salts.
+
 209
-On repeating Dr. Dalton's experie doing by the ingenity by
-ments with this apparatus, there apieze exclude the law which peared to be considerable discrepancy
-in the results; indeed they were so much noo it it old also yldgid
-at variable that swar induced to sus-that the light that the
-pect at once that the law, which his in noise or in the law, which his in noise or in the law, which his in the law in the law in the law in the law in the law in the law in the law in the law in the law in the law in the 
-genuity had suggested, would not bear stremming soid bust
-the test of practical application; for notamidmo but of sil
-according to his results, "if the salt ni tho line is sale ab
-was anhydrous it would all go into the nona allate of
-bottle, exactly filling it to a grain, old we bold and
-showing that the salt enters into the clas man coillus (1)
-pores or interstices of the water." If 1901 and 11 / - 50110d
-the salt contained water, the quantity and unity
-of water was measured in all cases of 18 3 qual 1991 1 715
-whatever by the narrow tube, showing at the two
-that the solid matter had in reality en-
-tered into the pores of the water. Thus
-if the sulphate of magnesia be made
-anliydrous and then dissolved, the so-
-lution of the sulphate would exactly
-٥- ١١٠ ١٥ ١٥ ١٠ ١١٠ ١١٠
-fill the bottle as the water did before;"
-or in other words, when a salt, whether words
-selm introduction will
-hydrous or anhydrous, is dissolved in
-32112 41171
-water, the acid and base of that salt will
-1 = 1 10 3 1 1000
-occasion in all cases whatever a con-
-1-11 12
-ATS 18
-2 3
-densation exactly equal to the bulk of
-that acid and base."
-Dr. Dalton here recommends that the sulphate of magnesia
-be made anhydrous and then dissolved; and with this salt, as
-well as with the carbonate of soda, our experiments, both on
-the hydrous salts and when made anhydrous, very nearly
-agreed, though in the experiments on several of the other salts
-tried in the same manner the results varied.
-But Dr. Dalton seems to have overlooked the fact, that the
-law in order to be correct must apply, not only to the hydrous
-salts made anhydrous, but to the naturally anhydrous salts, as
-sulphate of potash, nitrate of potash, &c.; and in no part of his
-paper can I find that he has tried any of this variety.
-In ascertaining whether the really anhydrous salts dissolved
-in water without increasing the bulk, I was almost as much
-surprised with the results of my experiments as Dr. Dalton
-was with his; for I found that when a salt, whether hydrous
-or anhydrous, dissolved in water, there was sometimes a con-
-densation and sometimes an expansion of the whole volume
-of the salt and water, according to the nature of the salt used.
+
+On repeating Dr. Dalton's experiments with this apparatus, there appeared to be considerable discrepancy in the results; indeed they were so much at variance, that I was induced to suspect at once that the law, which his ingenuity had suggested, would not bear the test of practical application; for according to his results, "if the salt was anhydrous it would all go into the bottle, exactly filling it to a grain, showing that the salt enters into the pores or interstices of the water. If the salt contained water, the quantity of water was measured in all cases whatever by the narrow tube, showing that the solid matter had in reality entered into the pores of the water. Thus if the sulphate of magnesia be made anhydrous and then dissolved, the solution of the sulphate would exactly fill the bottle as the water did before;" or in other words, when a salt, whether hydrous or anhydrous, is dissolved in water, the acid and base of that salt will occasion in all cases whatever a condensation exactly equal to the bulk of that acid and base."
+
+Dr. Dalton here recommends that the sulphate of magnesia be made anhydrous and then dissolved; and with this salt, as well as with the carbonate of soda, our experiments, both on the hydrous salts and when made anhydrous, very nearly agreed, though in the experiments on several of the other salts tried in the same manner the results varied.
+
+But Dr. Dalton seems to have overlooked the fact, that the law in order to be correct must apply, not only to the hydrous salts made anhydrous, but to the naturally anhydrous salts, as sulphate of potash, nitrate of potash, &c.; and in no part of his paper can I find that he has tried any of this variety.
+
+In ascertaining whether the really anhydrous salts dissolved in water without increasing the bulk, I was almost as much surprised with the results of my experiments as Dr. Dalton was with his; for I found that when a salt, whether hydrous or anhydrous, dissolved in water, there was sometimes a condensation and sometimes an expansion of the whole volume of the salt and water, according to the nature of the salt used.
+
 Phil. Mag. S. 3. Vol. 27. No. 179. Sept. 1845.
+
 P
 
 ## PDF page 224
@@ -13650,60 +13171,12 @@ which the correctness of our answer will mainly depend, we find that
 ## PDF page 238
 
 224
-Royal Astronomical Society.
-it is accuracy; comprising under this word the two different steps,
-of exactness in making observations, and certainty in transmitting
-them to the reader. And upon the importance of this accuracy; as
-contrasted with number or variety, I cannot express my opinion with
-sufficient strength. It is matter of history that the establishment of
-the laws of Kepler, of the system of Copernicus, and finally, of the
-theory of gravitation, depended upon a discordance between the
-theory of that period and the observations amounting to eight
-minutes of arc. This was then a small quantity but certainly ap-
-preciable, if the best instruments and best methods of the time were
-used. Now, gentlemen, am I wrong in saying that the establish
-ment of a cosmical theory, infinitely more comprehensive and more
-important than that of gravitation, may depend upon the certainty
-of a measure to the tenth part of a second? I say, that it is more
-than possible; that it is highly probable; and that there is fair pro-
-bability of its occurring within our time. Kepler on a similar occa-
-sion put to himself the question, "Is it likely that an observer so
-accurate as Tycho can have been in error by eight minutes?" and
-boldly answered to himself, "It is impossible, and, therefore, a new
-theory must be formed." When the question shall be put regarding
-the measures of the Bedford Catalogue, made at a critical time, and
-on which a future theory may hinge, Can these numbers be trusted
-with certainty to one or two tenths of a second? shall we be able to
-answer, Without doubt they can? This leads me to a very import-
-ant part of my present remarks.
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-The same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the sa
-The Catalogue of the Celestial Cycle, as exhibited to the public,
-contains simply the result for each star of all the observations made
-on that star. In some cases results are given for more than one
-epoch; but in all cases, every result is given without exhibition of
-the individual observations from which it was deduced. This form
-of publication is open to a very grave objection, and one which was
-seriously discussed by your Council. In a remark above I spoke of
-the accuracy of published observations as depending on two circum-
-stances; exactness in making the observations, and certainty in
-transmitting them to the reader. With regard to the exactness of
-the observations, we had the evidence of a member of the Council
-who had compared unpublished observations made under the most
-unquestionably favourable circumstances with individual observa-
-tions made by Captain Smyth; and we had also the indirect evidence
-derived from the progressive changes in the relative positions of
-some of the stars. These kinds of evidence probably had their weight
-with members of the Council; but to me, I must aver, they were
-entirely unnecessary.
-My confidence in the exactness of the obser-
-vations is purely personal. Knowing the attention which has been
-given to the adjustments, the intentness of the observer upon his
-work, the nerve which is made steady rather than disturbed by the
-anxiety to procure a good observation, and the general skill in the
-management of the instruments, I can truly say, that if an accurate
-observation were required, I would desire that it should be made by
-Captain Smyth. Yet I could wish that I had the means of exhibit-
+
+Royal Astronomical Society!
+
+it is accuracy; comprising under this word the two different steps, of exactness in making observations, and certainty in transmitting them to the reader. And upon the importance of this accuracy, as contrasted with number or variety, I cannot express my opinion with sufficient strength. It is matter of history that the establishment of the laws of Kepler, of the system of Copernicus, and finally, of the theory of gravitation, depended upon a discordance between the theory of that period and the observations amounting to eight minutes of arc. This was then a small quantity but certainly appreciable, if the best instruments and best methods of the time were used. Now, gentlemen, am I wrong in saying that the establishment of a cosmical theory, infinitely more comprehensive and more important than that of gravitation, may depend upon the certainty of a measure to the tenth part of a second? I say, that it is more than possible; that it is highly probable; and that there is fair probability of its occurring within our time. Kepler on a similar occasion put to himself the question, "Is it likely that an observer so accurate as Tycho can have been in error by eight minutes?" and boldly answered to himself, "It is impossible, and, therefore, a new theory must be formed." When the question shall be put regarding the measures of the Bedford Catalogue, made at a critical time, and on which a future theory may hinge, Can these numbers be trusted with certainty to one or two-tenths of a second? shall we be able to answer, Without doubt they can? This leads me to a very important part of my present remarks.
+
+The Catalogue of the Celestial Cycle, as exhibited to the public, contains simply the result for each star of all the observations made on that star. In some cases results are given for more than one epoch; but in all cases, every result is given without exhibition of the individual observations from which it was deduced. This form of publication is open to a very grave objection, and one which was seriously discussed by your Council. In a remark above I spoke of the accuracy of published observations as depending on two circumstances; exactness in making the observations, and certainty in transmitting them to the reader. With regard to the exactness of the observations, we had the evidence of a member of the Council who had compared unpublished observations made under the most unquestionably favourable circumstances with individual observations made by Captain Smyth; and we had also the indirect evidence derived from the progressive changes in the relative positions of some of the stars. These kinds of evidence probably had their weight with members of the Council; but to me, I must aver, they were entirely unnecessary. My confidence in the exactness of the observations is purely personal. Knowing the attention which has been given to the adjustments, the intentness of the observer upon his work, the nerve which is made steady rather than disturbed by the anxiety to procure a good observation, and the general skill in the management of the instruments, I can truly say, that if an accurate observation were required, I would desire that it should be made by Captain Smyth. Yet I could wish that I had the means of exhibit-
 
 ## PDF page 239
 
@@ -13875,56 +13348,20 @@ Q 2
 ## PDF page 242
 
 228
-Cambridge Philosophical Society.
-December 9, 1844.—On the Values of the Sine and Cosine of an
-Infinite Angle. By the Rev. S. Earnshaw, of St. John's College.
-It has been usual with mathematicians to write zero as an equiva-
-lent for both sin x and cos x when x becomes infinite. The object
-of this paper is to examine into the propriety of this usage. The
-inquiry derives importance from its bearing on the general correct-
-ness of Fourier's theorem for the transformation of functions, and
-from its affecting the truth of many remarkable results in definite in-
-tegrals. Certain principles also which have been assumed and acted
-on by Poisson, Fourier, Cauchy and others, in treating of periodic
-infinite series, are examined, and shown to be untenable: for exam-
-ple, it is shown, that as <math>1 - x</math> approaches zero, <math>1 - x + x^2 - x^3 + \dots</math>
-ad inf. does not approach <math>1-1+1-1+\ldots</math> ad inf. as its limit; that
-this last series has not a unique value, and that its value is not <math>\frac{1}{2}</math>,
-as has generally been argued. It is also remarked that every series
-of the form <math>a_1 x^{\alpha} + a_2 x^{\beta} + \dots + a_n x^{\nu} + \dots</math> is discontinuous in those
-terms which are at an infinite distance from the first, unless the co-
-efficients tend to zero as <math>n</math> and <math>v</math> tend to <math>\infty</math>. The truth of this de-
-pends on a circumstance which does not seem to have been remarked
-before, viz. that however small <math>1-x</math> may be, a value of <math>\nu</math> can always
-be found so large that <math>(1-x)\nu</math> may be finite, and therefore <math>x'</math>, which
-is equal to <math>(1-1-x)^{\nu}</math>, is not equal to 1 in the limit, but to
-elim. of <math>(1-x)^{\nu}</math>.
-It is lastly proved that sin <math>\infty</math> and <math>\cos \infty</math> are not equivalent to
-zero, whether we regard them as the results of integration between
-limits, or as the limiting cases of more general forms.
-February 10, 1845.—On the Connexion between the Sciences of
-Mechanics and Geometry. By the Rev. H. Goodwin, of Caius Col-
-6 1 6 J of 11 12 - 1
-lege.
-This paper contains an attempt to determine the ground of the
-truth of the elementary propositions of mechanics. The remarkable
-analogy between mechanics and geometry suggests the thought, that
-perhaps there may be something more than analogy, that in fact the
-basis of the two may be the same. The author endeavours to show
-that this is really the case; the ground of the reasoning is, that force
-is a physical expression of the two ideas of magnitude and direction,
-of which a straight line is the <i>geometrical</i> expression, and therefore
-that propositions which are true for one event are true for the other.
-Hence it is argued, that inasmuch as the giving two sides of a tri-
-angle gives the third, so that the third may be considered as the re-
-sultant of the two already given, so if the two sides represent forces,
-the third will still represent the resultant of the two forces already
-given.
-Reasoning of this kind does not, of course, admit of a very de-
-monstrative character primd facie; it is the author's design rather to
-point out a path to the truth, than to assert that he has cleared away
-every difficulty.
-THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF T
+
+.23 Cambridge Philosophical Society.
+
+December 9, 1844.—On the Values of the Sine and Cosine of an Infinite Angle. By the Rev. S. Earnshaw, of St. John's College.
+
+It has been usual with mathematicians to write zero as an equivalent for both \(\sin x\) and \(\cos x\) when \(x\) becomes infinite. The object of this paper is to examine into the propriety of this usage. The inquiry derives importance from its bearing on the general correctness of Fourier's theorem for the transformation of functions, and from its affecting the truth of many remarkable results in definite integrals. Certain principles also which have been assumed and acted on by Poisson, Fourier, Cauchy and others, in treating of periodic infinite series, are examined, and shown to be untenable: for example, it is shown, that as \(1 - x\) approaches zero, \(1 - x + x^2 - x^3 + \ldots\) ad inf. does not approach \(1 - 1 + 1 - 1 + \ldots\) ad inf. as its limit; that this last series has not a unique value, and that its value is not \(\frac{1}{2}\), as has generally been argued. It is also remarked that every series of the form \(a_1 x^\alpha + a_2 x^\beta + \ldots a_n x^\nu + \ldots\) is discontinuous in those terms which are at an infinite distance from the first, unless the coefficients tend to zero as \(n\) and \(\nu\) tend to \(\infty\). The truth of this depends on a circumstance which does not seem to have been remarked before, viz. that however small \(1 - x\) may be, a value of \(\nu\) can always be found so large that \((1 - x)\nu\) may be finite, and therefore \(x^\nu\), which is equal to \((1 - 1 - x)^\nu\), is not equal to \(1\) in the limit, but to \(\epsilon^{\lim}\) of \((1 - x)^\nu\).
+
+It is lastly proved that  \( \sin\infty \)  and  \( \cos\infty \)  are not equivalent to zero, whether we regard them as the results of integration between limits, or as the limiting cases of more general forms.
+
+February 10, 1845.—On the Connexion between the Sciences of Mechanics and Geometry. By the Rev. H. Goodwin, of Caius College.
+
+This paper contains an attempt to determine the ground of the truth of the elementary propositions of mechanics. The remarkable analogy between mechanics and geometry suggests the thought, that perhaps there may be something more than analogy, that in fact the basis of the two may be the same. The author endeavours to show that this is really the case; the ground of the reasoning is, that force is a physical expression of the two ideas of magnitude and direction, of which a straight line is the geometrical expression, and therefore that propositions which are true for one event are true for the other. Hence it is argued, that inasmuch as the giving two sides of a triangle gives the third, so that the third may be considered as the resultant of the two already given, so if the two sides represent forces, the third will still represent the resultant of the two forces already given.
+
+Reasoning of this kind does not, of course, admit of a very demonstrative character primd facie; it is the author's design rather to point out a path to the truth, than to assert that he has cleared away every difficulty.
 
 ## PDF page 243
 
@@ -14141,57 +13578,24 @@ a compound of oxide of ruthenium and potash, and a small quantity
 ## PDF page 247
 
 Intelligence and Miscellaneous Articles.
-233
-of silicic acid, in the state of a velvet-black powder, and chromate of
-potash remain in solution. After washing the compound of potash
-and oxide of ruthenium in hydrochloric acid, the solution is to be
-evaporated until the silicic acid gelatinizes; it is then to be diluted
-with water and filtered. The solution must not be evaporated to
-dryness in order to separate the silica more perfectly, because in that
-case the chloride of ruthenium is converted into an insoluble sub-
-Chloride.
 
-The filtered solution is of a fine yellow colour, and is to be re-
-duced to a small quantity and mixed with a concentrated solution of
-chloride of potassium, there then separates the salt K Cl<sup>2</sup> + Ru Cl<sup>4</sup>,
-in reddish-brown crystals. The liquor poured off from the crystals
-furnishes afterwards much of this salt by evaporation; by repeated
-crystallizations this salt is obtained in great purity. - Journ. de
-Pharm. et de Ch., Juin 1845.
-to the state of the property of the state of the
+233
+
+of silicic acid, in the state of a velvet-black powder, and chromate of potash remain in solution. After washing the compound of potash and oxide of ruthenium in hydrochloric acid, the solution is to be evaporated until the silicic acid gelatinizes; it is then to be diluted with water and filtered. The solution must not be evaporated to dryness in order to separate the silica more perfectly, because in that case the chloride of ruthenium is converted into an insoluble sub-chloride.
+
+The filtered solution is of a fine yellow colour, and is to be reduced to a small quantity and mixed with a concentrated solution of chloride of potassium, there then separates the salt KCl\( ^{3} \) + RuCl\( ^{4} \), in reddish-brown crystals. The liquor poured off from the crystals furnishes afterwards much of this salt by evaporation; by repeated crystallizations this salt is obtained in great purity.—Journ. de Pharm. et de Ch., Juin 1845.
+
 OBSERVATIONS ON THE FOREGOING MEMOIRS. BY M. FREMY.
-The author remarks, that M. Claus alludes to some compounds of
-osmium which he had obtained before him (M. Fremy). He further
-observes, that before his paper on metallic acids appeared in the
-Annales de Chimie, he had inserted in the Comptes Rendus de l'Aca-
-démie des Sciences and in the Journal de Pharmacie, extracts from his
-researches on osmium, in which he stated the properties and compo-
-sition of the osmites. M. Fremy therefore contends for the priority
-of his experiments; he also observes that M. Claus represents the
-osmitcs by OsO3, MO, which is the composition stated in his me-
-moir.—Journ. de Pharm. et de Ch., Juin 1845.
-erest if with a man which is a length of the soil is required to the
-EXAMINATION OF SOME NATIVE AND ARTIFICIAL COMPOUNDS
-OF PHOSPHORIC ACID. BY C. RAMMELSBERG.
+
+The author remarks, that M. Claus alludes to some compounds of osmium which he had obtained before him (M. Fremy). He further observes, that before his paper on metallic acids appeared in the Annales de Chimie, he had inserted in the Comptes Rendus de l'Académie des Sciences and in the Journal de Pharmacie, extracts from his researches on osmium, in which he stated the properties and composition of the osmites. M. Fremy therefore contends for the priority of his experiments; he also observes that M. Claus represents the osmites by OsO³, MO, which is the composition stated in his memoir.—Journ. de Pharm. et de Ch., Juin 1845.
+
+EXAMINATION OF SOME NATIVE AND ARTIFICIAL COMPOUNDS OF PHOSPHORIC ACID. BY C. RAMMELSBERG.
+
 [Continued from p. 158.]
-Phosphate of Magnesia. " with the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state 
-Company of the latest and the latest and the latest and the latest and the latest and the latest and the latest and the latest and the latest and the latest and the latest and the latest and the latest and the latest and t
-According to Graham's analysis, the salt which separates on mix-
-ing dilute solutions of sulphate of magnesia and phosphate of soda
-contains 15 eq. of water, 8 of which are given off at 212°. The
-author examined the gelatinous precipitate which is formed in con-
-centrated solutions of these salts, and which differs from the former
-crystallized salt in containing less water. After a portion had been
-washed in the cold and dried in the air, it lost 1.558, by remaining
-for some time over sulphuric acid it lost 0.113, and on heating to
-redness 0.451; in all 0.567=36.2 per cent. The estimation of the
-magnesia showed that the salt was 2MgO, P2 O5, and that the amount
-of water it contained was almost accurately 7 eq. = 35.85 per cent.;
-consequently this salt has the composition of that crystallized and
-dried at 212°. If the liquid which has been separated from the cry-
-stals by filtration is allowed to stand, crystals of <math>2MgO</math>, <math>P_2O_5 + 15HO</math>
-form in it; if it be heated, it becomes turbid, and a flocculent sub-
-stance is deposited, probably the tribasic compound.
+
+Phosphate of Magnesia.
+
+According to Graham's analysis, the salt which separates on mixing dilute solutions of sulphate of magnesia and phosphate of soda contains 15 eq. of water, 8 of which are given off at 212°. The author examined the gelatinous precipitate which is formed in concentrated solutions of these salts, and which differs from the former crystallized salt in containing less water. After a portion had been washed in the cold and dried in the air, it lost 1·558, by remaining for some time over sulphuric acid it lost 0·113, and on heating to redness 0·451; in all 0·567=36·2 per cent. The estimation of the magnesia showed that the salt was 2MgO, P₂O₅, and that the amount of water it contained was almost accurately 7 eq. = 35·85 per cent.; consequently this salt has the composition of that crystallized and dried at 212°. If the liquid which has been separated from the crystals by filtration is allowed to stand, crystals of 2MgO, P₂O₅+15HO form in it; if it be heated, it becomes turbid, and a flocculent substance is deposited, probably the tribasic compound.
 
 ## PDF page 248
 
@@ -14456,55 +13860,28 @@ lies; consequently it must consist of phosphate of alumina and lithia
 ## PDF page 251
 
 Intelligence and Miscellaneous Articles.
+
 237
-fluorine belong to the aluminium, one-fourth to the lithium and so-
-dium, thus in the proportion of 5 equiv. to 2 eq. In the remaining
-double phosphate the quantity of oxygen in the alumina is half as
-great as that in the phosphoric acid, that of the alkalies amounts to
-a third part of the former. Whilst the alumina of the phosphate
-contains five times as much oxygen as the aluminium of the fluoride which is converted into alumina, we thus obtain
-<math>(5R_5 O 3P_2 O_5 + 5Al_2 O_5 3P_2 O_5) + (RFl + 2Al 3Fl)</math>
-as the formula for amblygonite. To the for largering and I
-It has been previously mentioned, that ammonia throws down
-phosphate of alumina from the solution of the amblygonite in sul-
-phuric acid. The quantity in one experiment amounted to 68:33
-per cent. of the mineral, and consisted of 31.71 phosphoric acid and
-36:62 alumina, consequently it was 5Al<sub>2</sub>O<sub>3</sub> 3P<sub>2</sub>O<sub>5</sub>, i.e. the same
-phosphate as the formula requires. - Poggendorff's Ann. lxiv. p. 251.
-the state of the continued of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state 
-r nearly the action adon with the fifth and a contract the action and a contract the contract that the contract the contract that the contract the contract that the contract that the contract that the contract that the con
+
+fluorine belong to the aluminium, one-fourth to the lithium and sodium, thus in the proportion of 5 equiv. to 2 eq. In the remaining double phosphate the quantity of oxygen in the alumina is half as great as that in the phosphoric acid, that of the alkalies amounts to a third part of the former. Whilst the alumina of the phosphate contains five times as much oxygen as the aluminium of the fluoride which is converted into alumina, we thus obtain
+
+\[
+(5 \mathrm{R} _ {5} \mathrm{O} 3 \mathrm{P} _ {2} \mathrm{O} _ {5} + 5 \mathrm{Al} _ {2} \mathrm{O} _ {5} 3 \mathrm{P} _ {2} \mathrm{O} _ {5}) + (\mathrm{RFI} + 2 \mathrm{Al} 3 \mathrm{FI})
+\]
+
+as the formula for amblygonite.
+
+It has been previously mentioned, that ammonia throws down phosphate of alumina from the solution of the amblygonite in sulphuric acid. The quantity in one experiment amounted to 68·33 per cent. of the mineral, and consisted of 31·71 phosphoric acid and 36·62 alumina, consequently it was \(5\mathrm{Al}_{2}\mathrm{O}_{3}3\mathrm{P}_{2}\mathrm{O}_{5}\), i.e., the same phosphate as the formula requires.—Poggendorff's Ann. lxiv. p. 251.
+
+[To be continued.]
+
 THE GREAT SYMMETRICAL BAROMETRIC WAVE.
-In the report on Atmospheric Waves which I had the honour to
-present to the British Association for the Advancement of Science
-at its last meeting, there is one point of great interest, and which it
-is very desirable to investigate further; I allude to the recurrence
-of the great symmetrical barometric wave, an engraving of which is
-inserted in the Report of the Thirteenth Meeting of the Association.
-This wave, extending over thirteen days, was first observed in No-
-vember 1842; the apex passed London about noon of the 18th.
-Its return in 1843 occurred about noon of the 14th, with a rise and
-fall of nearly the same period; and in 1844 a nearly similar rise and
-fall of the barometer took place,—the epoch of the transit of the
-crest, October 27, about noon. These almost regular barometric
-oscillations render the barometric movements of the months of Oc-
-tober and November highly interesting. It is accordingly proposed
-that meteorological observations, on a similar plan, should be made
-as extensively as possible, with a view to observe this particular
-wave, should it again return; and meteorologists are invited to direct
-their particular attention to the oscillations of the barometer during
-these months.
-Times of Observation.—The following hours are the most suitable
-for the object now in view: -3 a.m., 9 a.m., 3 p.m. and 9 p.m.;
-these hours divide the day into four equal parts; they have been re-
-commended by the Royal Society as meteorological hours, and are
-the hours at which observations are made daily, by direction and
-under the superintendence of the Honourable the Corporation of the
-Trinity House, which have been most advantageously used in the
-11 01 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-examination of atmospheric waves.
-In cases, however, in which the observation at 3 a.m. may be in-
-convenient or impracticable, it will be important to substitute for it
-two observations, one at midnight and the other at 6 in the morning,
+
+In the report on Atmospheric Waves which I had the honour to present to the British Association for the Advancement of Science at its last meeting, there is one point of great interest, and which it is very desirable to investigate further; I allude to the recurrence of the great symmetrical barometric wave, an engraving of which is inserted in the Report of the Thirteenth Meeting of the Association. This wave, extending over thirteen days, was first observed in November 1842; the apex passed London about noon of the 18th. Its return in 1843 occurred about noon of the 14th, with a rise and fall of nearly the same period; and in 1844 a nearly similar rise and fall of the barometer took place,—the epoch of the transit of the crest, October 27, about noon. These almost regular barometric oscillations render the barometric movements of the months of October and November highly interesting. It is accordingly proposed that meteorological observations, on a similar plan, should be made as extensively as possible, with a view to observe this particular wave, should it again return; and meteorologists are invited to direct their particular attention to the oscillations of the barometer during these months.
+
+Times of Observation.—The following hours are the most suitable for the object now in view:—3 a.m., 9 a.m., 3 p.m. and 9 p.m.; these hours divide the day into four equal parts; they have been recommended by the Royal Society as meteorological hours, and are the hours at which observations are made daily, by direction and under the superintendence of the Honourable the Corporation of the Trinity House, which have been most advantageously used in the examination of atmospheric waves.
+
+In cases, however, in which the observation at 3 a.m. may be inconvenient or impracticable, it will be important to substitute for it two observations, one at midnight and the other at 6 in the morning,
 
 ## PDF page 252
 
@@ -14563,60 +13940,36 @@ tioned.
 ## PDF page 253
 
 Meteorological Observations.
+
 239
-Gentlemen, on applying to me, may be furnished with copies of
-these instructions and forms for recording the observations; and all
-observations that may be made in accordance therewith and for-
-warded to me, will be carefully examined and reported on at the
-next meeting of the British Association.
-N.B. Observations will be made at several Lighthouses by direc-
-tion of the Honourable the Corporation of the Trinity House, and
-Captain Beaufort has most kindly undertaken to obtain observations
-from several of our surveying vessels.
+
+Gentlemen, on applying to me, may be furnished with copies of these instructions and forms for recording the observations; and all observations that may be made in accordance therewith and forwarded to me, will be carefully examined and reported on at the next meeting of the British Association.
+
+N.B. Observations will be made at several Lighthouses by direction of the Honourable the Corporation of the Trinity House, and Captain Beaufort has most kindly undertaken to obtain observations from several of our surveying vessels.
+
+2 Sidney Place, Cambridge Road, Bethnal Green.
+
 W. R. BIRT.
-2 Sidney Place, Cambridge Road,
-Bethnal Green.
-THE RESERVE AND ADDRESS OF THE PARTY AND ADDRESS OF THE PARTY AND ADDRESS OF THE PARTY AND ADDRESS OF THE PARTY AND ADDRESS OF THE PARTY AND ADDRESS OF THE PARTY AND ADDRESS OF THE PARTY AND ADDRESS OF THE PARTY AND ADDRES
+
 METEOROLOGICAL OBSERVATIONS FOR JULY 1845.
-Chiswick.—July 1. Rain and boisterous, with heavy rain in forenoon: over-
-cast. 2. Overcast: rain. 3. Sultry: thunder and rain: clear at night. 4, 5.
-Very fine. 6. Sultry, with slight dry haze: lightning at night. 7, 8. Very fine.
-9. Cloudy: rain. 10. Rain: overcast. 11. Rain: cloudy: 1 P.M. thunder and
-excessively heavy rain commenced. 12. Fine. 13. Slight rain: overcast.
-14. Very fine: rain. 15. Showery: fine. 16. Very fine: rain. 17. Showery.
-18, 19. Very fine. 20. Cloudy: rain. 21. Fine. 22. Very fine: rain. 23.
-Drizzly. 24. Overcast. 25, 26. Foggy: overcast. 27, 28. Cloudy: rain.
-29. Heavy clouds: clear. 30. Densely clouded: rain. 31. Heavy showers .-
-Mean temperature of the month <math>1\frac{1}{2}</math>° below the average.
-Boston.—July 1. Cloudy: rain early A.M.: rain A.M. and stormy r.M.
-2.
-Cloudy. 3. Cloudy: rain early A.M.: rain with thunder and lightning A.M.
-4. Cloudy: rain, with lightning P.M. 5. Fine. 6. Fine: lightning at night.
-7. Fine: 3 o'clock P.M. thermometer 81°. 8. Fine. 9. Fine: rain P.M. 10.
-Cloudy. 11. Rain. 12, 13. Cloudy. 14. Cloudy: rain early A.M.: rain P.M.
-15, 16. Fine. 17. Rain. 18. Fine. 19. Cloudy. 20. Cloudy: rain P.M.
-21-27. Cloudy. 28. Fine: rain P.M., with thunder and lightning. 29. Rain:
-rain early A.M: rain P.M. 30. Fine: rain P.M. 31. Fine: rain, with thunder
-and lightning P.M.
-Sandwick Manse, Orkney .- July 1. Cloudy : rain. 2. Damp : clear. 3. Clear :
-drizzle. 4. Clear: showers. 5, 6. Clear. 7. Rain: fog. 8. Clear. 9. Cloudy:
-showers. 10. Showers: clear: damp. 11. Bright: showers. 12. Showers.
-13. Showers: clear. 14, 15. Cloudy: showers. 16. Cloudy. 17. Clear.
-18, 19. Bright: hot. 20. Damp: fog. 21. Fog. 22, 23. Cloudy: 24. Cloudy: damp. 25. Cloudy: drops. 26. Drops: cloudy. 27. Clear: showers.
-28. Clear: rain: clear. 29. Fine. 30. Cloudy: fine. 31. Bright: drops.
-Applegarth Manse, Dumfries-shire.-July 1. Very heavy rain. 2. Very beau-
-tiful day. 3. Showers: thunder. 4. Fine. 5. Very fine. 6. Showers: thunder.
-7. Showers A.M.: fine P.M. 8, 9. Showers. 10. Fair and fine. 11. Showers.
-12. Fair and clear. 13. Wet. 14. Heavy showers. 15. Fair and fine. 16.
-Heavy showers. 17. Fair and fine. 18, 19. Fair, but cloudy. 20, 21. Fair, but clear. 22, 23. Fair, but cloudy. 24, 25. Fair and fine. 26. Showers.
-27. Fair A.M.; showers P.M. 28. Fine: thunder. 29. Showers P.M. 30, 31.
-Showers.
-Mean temperature of the month ...... 560.2
-Mean temperature of July 1844 ...... 56 · 9
+
+Chiswick.—July 1. Rain and boisterous, with heavy rain in forenoon: overcast. 2. Overcast: rain. 3. Sultry: thunder and rain: clear at night. 4, 5. Very fine. 6. Sultry, with slight dry haze: lightning at night. 7, 8. Very fine. 9. Cloudy: rain. 10. Rain: overcast. 11. Rain: cloudy: 1 p.m. thunder and excessively heavy rain commenced. 12. Fine. 13. Slight rain: overcast. 14. Very fine: rain. 15. Showery: fine. 16. Very fine: rain. 17. Showery. 18, 19. Very fine. 20. Cloudy: rain. 21. Fine. 22. Very fine: rain. 23. Drizzly. 24. Overcast. 25, 26. Foggy: overcast. 27, 28. Cloudy: rain. 29. Heavy clouds: clear. 30. Densely clouded: rain. 31. Heavy showers.—Mean temperature of the month  \( 1\frac{1}{2} \) ° below the average.
+
+Boston.—July 1. Cloudy: rain early A.M.: rain A.M. and stormy P.M. 2. Cloudy. 3. Cloudy: rain early A.M.: rain with thunder and lightning A.M. 4. Cloudy: rain, with lightning P.M. 5. Fine. 6. Fine: lightning at night. 7. Fine: 3 o'clock P.M. thermometer 81°. 8. Fine. 9. Fine: rain P.M. 10. Cloudy. 11. Rain. 12, 13. Cloudy. 14. Cloudy: rain early A.M.: rain P.M. 15, 16. Fine. 17. Rain. 18. Fine. 19. Cloudy. 20. Cloudy: rain P.M. 21—27. Cloudy. 28. Fine: rain P.M., with thunder and lightning. 29. Rain: rain early A.M.: rain P.M. 30. Fine: rain P.M. 31. Fine: rain, with thunder and lightning P.M.
+
+Sandwick Manse, Orkney.—July 1. Cloudy: rain. 2. Damp: clear. 3. Clear: drizzle. 4. Clear: showers. 5, 6. Clear. 7. Rain: fog. 8. Clear. 9. Cloudy: showers. 10. Showers: clear: damp. 11. Bright: showers. 12. Showers. 13. Showers: clear. 14, 15. Cloudy: showers. 16. Cloudy. 17. Clear. 18, 19. Bright: hot. 20. Damp: fog. 21. Fog. 22, 23. Cloudy. 24. Cloudy: damp. 25. Cloudy: drops. 26. Drops: cloudy. 27. Clear: showers. 28. Clear: rain: clear. 29. Fine. 30. Cloudy: fine. 31. Bright: drops.
+
+Applegarth Manse, Dumfries-shire.—July 1. Very heavy rain. 2. Very beautiful day. 3. Showers: thunder. 4. Fine. 5. Very fine. 6. Showers: thunder. 7. Showers A.M.: fine P.M. 8, 9. Showers. 10. Fair and fine. 11. Showers. 12. Fair and clear. 13. Wet. 14. Heavy showers. 15. Fair and fine. 16. Heavy showers. 17. Fair and fine. 18, 19. Fair, but cloudy. 20, 21. Fair, but clear. 22, 23. Fair, but cloudy. 24, 25. Fair and fine. 26. Showers. 27. Fair A.M.: showers P.M. 28. Fine: thunder. 29. Showers P.M. 30, 31. Showers.
+
+Mean temperature of the month 56°·2
+
+Mean temperature of July 1844 56·9
+
 Mean temperature of July for twenty-three years . 58 ·1
-Rain in July ..... 2 ·18 inches.
-Mean rain in July for eighteen years ...... 3 '91
-99
+
+Rain in July 2·18 inches.
+
+Mean rain in July for eighteen years 3'91,,
 
 ## PDF page 254
 
@@ -17287,107 +16640,40 @@ agent which destroys the animal texture, and the black stain
 
 ## PDF page 294
 
-Mr. Hunt on Actino-Chemistry.
 280
-is owing to the separation of oxide of silver*;" and this opi-
-nion has been very generally entertained. I am satisfied, however, that something more than this takes place, and that
-an actual combination of the organic body with the silver en-
-sues; and I hope to have an opportunity of examining some
-of the very complicated phænomena which have presented
-themselves to my notice, during investigations which have
-been made incidentally to the present inquiry, into the influ-
-ence of organic matter upon the salts of silver and gold, during
-exposure to light and heat, only on the bull of the
-16. Count Rumford appears to have been the first who no-
-ticed that carbon had the property of reducing the salts of
-gold and silver from their solutions, at a temperature below
-that of boiling water in the dark; and that the same precipi-
-tate of pure metal took place by exposure to the sun's rays.
-He inferred from this, that the "chemical properties attributed
-to light" were due alone to the heating powers of the sun's
-rays. The error of this has long been known, as experiments
-with the prismatic spectrum have shown that the rays in which
-the calorific power exists at its maximum have little effect in
-producing any such reduction. The precipitation of the silver
-from the nitrate in solution takes place very speedily under
-the influence of the solar rays which have been deprived of
-their heat by being passed through plates of alum or rock-
-salt, and when the temperature of the solution is kept at
-32°. F. . The families of the second
-17. Nitrate of silver dissolved in distilled water was spread
-on paper; it was allowed to darken to a chocolate-brown:
-ammonia now dissolved off the darkened surface, proving it
-to be in the condition of an oxide. The exposure being con-
-tinued for some hours during very bright sunshine, a surface
-of a peculiar russet colour, and of a dirty appearance, resulted.
-Ammonia did not now possess the power of altering the co-
-lour; it removed some oxide from the paper, which arose
-from undecomposed nitrate of silver, protected by the super-
-ficial film from the action of the rays of the sun. But if the
-darkened paper was previously soaked in distilled water,
-until all the free nitrate was dissolved out of it, neither am-
-monia nor dilute nitric acid separated any oxide, clearly
-showing that the darkened surface was metallic silver.
-18. Some nitrate of silver in distilled water was boiled with
-a grain or two of animal gelatine for some hours in the dark;
-the solution became coloured a fine brown, but even after
-standing for many hours no precipitation took place. Potash
-precipitated the oxide of a black colour, which ammonia dis-
+
+Mr. Hunt on Actino-Chemistry.
+
+is owing to the separation of oxide of silver*;" and this opinion has been very generally entertained. I am satisfied, however, that something more than this takes place, and that an actual combination of the organic body with the silver ensues; and I hope to have an opportunity of examining some of the very complicated phaenomena which have presented themselves to my notice, during investigations which have been made incidentally to the present inquiry, into the influence of organic matter upon the salts of silver and gold, during exposure to light and heat.
+
+16. Count Rumford appears to have been the first who noticed that carbon had the property of reducing the salts of gold and silver from their solutions, at a temperature below that of boiling water in the dark; and that the same precipitate of pure metal took place by exposure to the sun's rays. He inferred from this, that the "chemical properties attributed to light" were due alone to the heating powers of the sun's rays. The error of this has long been known, as experiments with the prismatic spectrum have shown that the rays in which the calorific power exists at its maximum have little effect in producing any such reduction. The precipitation of the silver from the nitrate in solution takes place very speedily under the influence of the solar rays which have been deprived of their heat by being passed through plates of alum or rock-salt, and when the temperature of the solution is kept at 32°F.
+
+17. Nitrate of silver dissolved in distilled water was spread on paper; it was allowed to darken to a chocolate-brown: ammonia now dissolved off the darkened surface, proving it to be in the condition of an oxide. The exposure being continued for some hours during very bright sunshine, a surface of a peculiar russet colour, and of a dirty appearance, resulted. Ammonia did not now possess the power of altering the colour; it removed some oxide from the paper, which arose from undecomposed nitrate of silver, protected by the superficial film from the action of the rays of the sun. But if the darkened paper was previously soaked in distilled water, until all the free nitrate was dissolved out of it, neither ammonia nor dilute nitric acid separated any oxide, clearly showing that the darkened surface was metallic silver.
+
+18. Some nitrate of silver in distilled water was boiled with a grain or two of animal gelatine for some hours in the dark; the solution became coloured a fine brown, but even after standing for many hours no precipitation took place. Potash precipitated the oxide of a black colour, which ammonia dis-
+
 * Turner's Elements of Chemistry.
-A Oug street of the formal angles of the light of the street of the street of the street of the street of the street of the street of the street of the street of the street of the street of the street of the street of the
 
 ## PDF page 295
 
 Mr. Hunt on Actino-Chemistry.
+
 281
-solved. The solution being of a brown colour, I am led to
-infer that this is a suboxide of silver (7.).
-19. A similar solution of nitrate of silver and gelatine was
-put into a stoppered bottle and exposed to sunshine; it speed-
-ily darkened, and in about two hours the solution was so
-opake that the sun could scarcely be seen through it. Its
-colour was a grayish-green, which it retained during an ex-
-posure to very bright sunshine for five days. It was ex-
-pected that an increase in the acid reaction of the solution
-might be detected during the progress of the precipitation.
-Such can hardly be said to have been the case: the solution
-was repeatedly tested with litmus paper, but the change of co-
-lour was very nearly as decided at first as after the entire
-length of the exposure. Does the nitric acid enter into com-
-bination with the organic compound, or is it itself decomposed
-by the combined action of the solar rays and the organic
-matter?
-20. It was with great difficulty that the precipitated matter
-could be separated from the solution; this was at length ef-
-fected by subsidence, and it was found to be entirely soluble
-in ammonia, giving a reddish-brown solution. The bottle in
-which the solution had been placed was coated with a thin film
-of an olive-coloured matter, transmitting green light, upon
-which neither ammonia nor very diluted nitric acid acted.
-By nitric acid diluted with an equal quantity of water it was
-very speedily dissolved, the bottle becoming filled with nitrous
-acid fumes. It is apparent from this experiment, that the first
-action of the light is to liberate the protoxide of silver from its
-combined acid, then to set free another proportional of oxy-
-gen, and that eventually the suboxide is entirely reduced to
-metallic silver. The nitric acid and the organic compound
-are evidently thrown into some new conditions by the agency
-of the sun's rays, the examination of which I reserve for the
-to the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the
-present.
-K was a second
+
+solved. The solution being of a brown colour, I am led to infer that this is a suboxide of silver (7.).
+
+19. A similar solution of nitrate of silver and gelatine was put into a stoppered bottle and exposed to sunshine; it speedily darkened, and in about two hours the solution was so opake that the sun could scarcely be seen through it. Its colour was a grayish-green, which it retained during an exposure to very bright sunshine for five days. It was expected that an increase in the acid reaction of the solution might be detected during the progress of the precipitation. Such can hardly be said to have been the case: the solution was repeatedly tested with litmus paper, but the change of colour was very nearly as decided at first as after the entire length of the exposure. Does the nitric acid enter into combination with the organic compound, or is it itself decomposed by the combined action of the solar rays and the organic matter?
+
+20. It was with great difficulty that the precipitated matter could be separated from the solution; this was at length effected by subsidence, and it was found to be entirely soluble in ammonia, giving a reddish-brown solution. The bottle in which the solution had been placed was coated with a thin film of an olive-coloured matter, transmitting green light, upon which neither ammonia nor very diluted nitric acid acted. By nitric acid diluted with an equal quantity of water it was very speedily dissolved, the bottle becoming filled with nitrous acid fumes. It is apparent from this experiment, that the first action of the light is to liberate the protoxide of silver from its combined acid, then to set free another proportional of oxygen, and that eventually the suboxide is entirely reduced to metallic silver. The nitric acid and the organic compound are evidently thrown into some new conditions by the agency of the sun's rays, the examination of which I reserve for the present.
+
 Chloride of Silver.
-21. Perfectly pure chloride of silver was prepared by dis-
-solving crystallized nitrate of silver in distilled water which
-had been boiled with a little nitric acid, to ensure the absence
-of any organic matter: it was then precipitated by pure mu-
-riatic acid, well-washed with distilled water, separated by sub-
-sidence, and dried on glass in a sand bath. In diffused light
-this chloride changes colour very slowly, and eventually as-
-sumes only a light lead colour. In bright sunshine it darkens
-much more rapidly, and becomes brown by about one hour's
-exposure.
+
+21. Perfectly pure chloride of silver was prepared by dissolving crystallized nitrate of silver in distilled water which had been boiled with a little nitric acid, to ensure the absence of any organic matter: it was then precipitated by pure muriatic acid, well-washed with distilled water, separated by subsidence, and dried on glass in a sand bath. In diffused light this chloride changes colour very slowly, and eventually assumes only a light lead colour. In bright sunshine it darkens much more rapidly, and becomes brown by about one hour's exposure.
+
 22. Under the influence of the prismatic spectrum, two very
+
+BUTHAMPTON BULM
+LOVIA
 
 ## PDF page 296
 
@@ -17443,54 +16729,17 @@ bility to solar action, that the chloride of silver should have
 
 ## PDF page 297
 
-Mr. Hunt on Actino-Chemistry.
+Mr. Hunt on Actino-Chemistry!
+
 283
-some free nitrate of silver in mixture with it. It was import-
-ant to ascertain, if possible, the cause of this. Three pieces
-of glass covered with films of chloride of silver, by subsidence,
-in the manner recommended by Sir John Herschel, were se-
-lected; one was exposed quite dry, another moistened with
-distilled water, and the third with a solution of nitrate of silver.
-The action was most rapid on that wetted with the nitrated
-solution, the next in order was the moist one. In an hour
-they were however darkened to as nearly as possible the same
-covered by the ordinary and the extreme red Iruoloo fo bails
--125. The glass plate over which the wash of nitrate of silver
-had been applied, was soaked in distilled water to remove any
-of that salt that might remain undecomposed . The three
-pieces of glass with their darkened films were then boiled se-
-parately in nitric acid diluted with double its quantity of water.
-The colours of the plates were buts very slightly changed.
-The liquids were then examined for silver, and in that alone
-in which the plate on which the nitrate had been spread had
-been, was any detected. It was evident that the nitric acid
-had either dissolved off oxide of silver, or oxidized metallic
-silver and then dissolved it. The films on the other plates
-were not changed in colour by the application of either am-
-23. As it appeared probable abor of infollowing the arms of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the seco
-26. Three similar plates of glass covered with films of chlo-
-ride of silver were placed in jars of pure hydrogen and nitro-
-gen gases and in atmospheric air, and then exposed to bright
-diffused daylight. The object of this was to ascertain if the
-nitrogen of the acid, or the hydrogen of the water, were likely
-to assist the change in any way. The chloride in the nitro-
-gen and the atmospheric air darkened equally in equal times.
-The first action of the hydrogen on the chloride of silver was
-to reduce it to the state of metal over the surface. But as soon
-as the chloride began to darken, this bright metallic film was
-removed, and the whole darkened equally, but to a deeper
-tint than either of the others. These plates, as in the former
-case, were boiled in diluted acid, from which experiment I as-
-certained that the hydrogen plate alone gave any evidence of
-the presence of oxide of silver or revived metal. it settlem if
-27. It may appear that this metal was produced by the hy-
-drogen independent of the actinic power, but I find when
-chloride of silver is plunged into hydrogen gas in bright sun-
-shine, that no reduction of the chloride due directly to the
-liydrogen takes place, yet most distinct evidence of the pre-
-sence of metallic silver after darkening has been obtained.
-We thus learn that the advantage of the nitrate of silver over
-the chloride is, that it is more readily reduced to the metallic
+
+some free nitrate of silver in mixture with it. It was important to ascertain, if possible, the cause of this. Three pieces of glass covered with films of chloride of silver, by subsidence, in the manner recommended by Sir John Herschel, were selected; one was exposed quite dry, another moistened with distilled water, and the third with a solution of nitrate of silver. The action was most rapid on that wetted with the nitrated solution, the next in order was the moist one. In an hour they were however darkened to as nearly as possible the same shade of colour.
+
+25. The glass plate over which the wash of nitrate of silver had been applied, was soaked in distilled water to remove any of that salt that might remain undecomposed. The three pieces of glass with their darkened films were then boiled separately in nitric acid diluted with double its quantity of water. The colours of the plates were but very slightly changed. The liquids were then examined for silver, and in that alone in which the plate on which the nitrate had been spread had been, was any detected. It was evident that the nitric acid had either dissolved off oxide of silver, or oxidized metallic silver and then dissolved it. The films on the other plates were not changed in colour by the application of either ammonia or hyposulphite of soda.
+
+26. Three similar plates of glass covered with films of chloride of silver were placed in jars of pure hydrogen and nitrogen gases and in atmospheric air, and then exposed to bright diffused daylight. The object of this was to ascertain if the nitrogen of the acid, or the hydrogen of the water, were likely to assist the change in any way. The chloride in the nitrogen and the atmospheric air darkened equally in equal times. The first action of the hydrogen on the chloride of silver was to reduce it to the state of metal over the surface. But as soon as the chloride began to darken, this bright metallic film was removed, and the whole darkened equally, but to a deeper tint than either of the others. These plates, as in the former case, were boiled in diluted acid, from which experiment I ascertained that the hydrogen plate alone gave any evidence of the presence of oxide of silver or revived metal.
+
+27. It may appear that this metal was produced by the hydrogen independent of the actinic power, but I find when chloride of silver is plunged into hydrogen gas in bright sunshine, that no reduction of the chloride due directly to the hydrogen takes place, yet most distinct evidence of the presence of metallic silver after darkening has been obtained. We thus learn that the advantage of the nitrate of silver over the chloride is, that it is more readily reduced to the metallic
 
 ## PDF page 298
 
@@ -17596,84 +16845,96 @@ it does with the nitrate of that metal when under the influence
 
 ## PDF page 300
 
-286 Mr. Drach on Fermat's Undemonstrated Theorem.
-of that mysterious power which appears to emanate from the
-solar orb.
-1 2 2 01
-33. Admitting the imperfect character of the results which
-I have endeavoured to record as faithfully as possible, I can-
-not but regard them as important, and they appear to point to
-some general law, which is probably applicable to those phæ-
-nomena which Moser has described, and which are in all pro-
-bability acting a grand part in the mutations of the universe.
-The same power which we detect changing the film of chloride
-of silver on the photographic paper, has been in action for
-countless ages on the earth's surface; and by pursuing with
-due care the investigation, we may be enabled to proceed,
-step by step, into the great laboratory of nature, and discover
-the various causes which have been in operation on the con-
-solidated masses of this globe, and which are producing mul-
-tifarious chemical changes, to the excitation of which are due
-the great magnetic phænomena which are exciting so much
-dra 2 - 6 - 6 - 6
-the attention of philosophers.
-the different of these quantities is thereighest 11,784,711 admitting the conficient of the 2th term in the broadly developed
-Justiled 7 s. Cd - , s Hill
-XLIII. Proof of Fermat's Undemonstrated Theorem, that
-<math>x^n + y^n = z^n</math> is only possible in whole numbers when <math>n = 1</math>
-or 2. By S. M. DRACH, Esq., F.R.A.S.
+286
+
+Mr. Drach on Fermat's Undemonstrated Theorem.
+
+of that mysterious power which appears to emanate from the solar orb.
+
+33. Admitting the imperfect character of the results which I have endeavoured to record as faithfully as possible, I cannot but regard them as important, and they appear to point to some general law, which is probably applicable to those phenomena which Moser has described, and which are in all probability acting a grand part in the mutations of the universe. The same power which we detect changing the film of chloride of silver on the photographic paper, has been in action for countless ages on the earth's surface; and by pursuing with due care the investigation, we may be enabled to proceed, step by step, into the great laboratory of nature, and discover the various causes which have been in operation on the consolidated masses of this globe, and which are producing multifarious chemical changes, to the excitation of which are due the great magnetic phenomena which are exciting so much the attention of philosophers.
+
+September 11, 1845.
+
+XLIII. Proof of Fermat's- Undemonstrated Theorem, that \( x^n + y^n = z^n \) is only possible in whole numbers when \( n = 1 \) or 2. By S. M. DRACH, Esq., F.R.A.S.
+
 To the Editors of the Philosophical Magazine and Journal.
 GENTLEMEN,
-the difference is expressible by
-WE may evidently regard <math>x</math>, <math>y</math> and <math>z</math> as mutually prime,
-for a divisor common to two must enter the third, if
-an integer solution be possible, ... two are odd and one even. The point of the possible of <math>p = q</math> and <math>p = q</math> and <math>p = q</math> and <math>p = q</math> and <math>p = q</math> and <math>p = q</math> and <math>p = q</math> and <math>p = q</math> and <math>p = q</math> and <math>p = q</math> and <math>p = q</math> a
-In the case of the case 1. If <math>n = 2m + 1</math>. If we will express the case 1. If <math>n = 2m + 1</math>.
-By the rules of this analysis (Euler's Algebra, pt. 2. ch. xii.),
-fractions, and is car equently of the same di has a had a
-<math display="block">Z = a^{m} p^{n} + \sum_{i=1}^{n} {n \cdot (n-1) \cdot n - 2i + 1 \choose n} = A_{i} p^{n-2i} q^{2i} a^{m-i} c^{i},</math>
-and <math>a = 1 \cdot 2i \cdot 2i \cdot 2i \cdot 2i \cdot 2i \cdot 2i \cdot 2i \cdot </math>
-endis 0 , and <math>Y = c^m q^m + \sum A_i q^{n-2i} p^{2i} c^{m-i} a^i</math>, and quarters
-<math>a Z^2 - c Y^2 = (a p^2 - c q^2)^n</math>.
-that
-Put therefore <math>a=z</math>, <math>Z=z^m</math>, <math>c=y</math>, <math>Y=y^m</math>. <math>x=zp^2-cq^2</math>,
-and <math>z^m = z^m p^m + \sum A_i p^{n-2i} q^{2i} z^{m-i} y^i</math>, or we add a
-od. We then the property of the second state of the second state of the second state of the second state of the second state of the second state of the second state of the second state of the second state of the second st
+
+WE may evidently regard \( x, y \) and \( z \) as mutually prime, for a divisor common to two must enter the third, if an integer solution be possible, \( \therefore \) two are odd and one even.
+
+\[
+\text {Case 1.} n = 2 m + 1.
+\]
+
+By the rules of this analysis (Euler's Algebra, pt. 2. ch. xii.), it appears that if
+
+\[
+\begin{array}{l} \mathrm{Z} = a ^ {m} f ^ {n} + \Sigma \left(\frac {n . (n - 1) . . n - 2 i + 1}{1 . 2 . . 2 i} = \mathrm{A} _ {i}\right) p ^ {n - 2 i} q ^ {2 i} a ^ {m - i} c ^ {i}, \\ \text {and} \end{array}
+\]
+
+\[
+\begin{array}{l} \text {Y} = c ^ {m} q ^ {m} + \Sigma \mathrm{A} _ {i} q ^ {n - 2 i} p ^ {2 i} c ^ {m - i} a ^ {i}, \\ \text {that} \quad a \mathrm{Z} ^ {2} - c \mathrm{Y} ^ {2} = (a p ^ {2} - c q ^ {2}) ^ {n}. \end{array}
+\]
+
+Put therefore \(a = z, \mathbf{Z} = z^m, c = y, \mathbf{Y} = y^m \therefore x = zp^2 - cq^2\), and \(x = z^m p^m + \Sigma A_i p^{n-2i} q^{2i} z^{m-i} y^i\), or the set \(\mathbf{A}\)
+
+\[
+\mathbf {1} = p ^ {n} \left(\mathbf {1} +.. \Sigma \mathrm{A} _ {i} \left(\frac {q ^ {2} y}{p ^ {2} z}\right) ^ {i}\right);
+\]
 
 ## PDF page 301
 
-Mr. Drach on Fermat's Undemonstrated Theorem. 287
-of that mysterious power wleavigy of mirnoitaupaint, that mysterious power wleavigy of mirnoitaupaints
-solar orb.
-solar orb.
+Mr. Drach on Fermat's Undemonstrated Theorem.
 
-88. Admitting the <math>(i(\frac{p^2z}{\sqrt{z_1}})^i) A \mathbf{Z}_{\mathbf{A}} + i\mathbf{I}_{\mathbf{A}} \mathbf{P} = 1</math> results which see the avoured to recent as faithfully as possible. I can be a partial <math>\mathbf{Z}_{\mathbf{A}} = \mathbf{Z}_{\mathbf{A}} = \mathbf{Z}_{\mathbf{A}} =</math>
-terms <math>= \sum A_i \times a</math> quantity less than unity; whilst the factor of <math>q^n</math> is similar, but <math>= \sum A_i \times \text{quantity} \ge 1, \dots, p^n \ge q^n</math>, in order that the respective products shall <math>= 1</math>, doing a superscript <math>= 1</math>. Combining t
-due care the investign we may be enabled to proceed, step by step to the or a law at the law at the law at the law at the law at the law at the law at the law at the law at the law at the law at the law at the law at the l
--nos entre <math>y^{\frac{n}{2}}</math> in <math>y^{\frac{n}{2}}</math> in <math>y^{\frac{n}{2}}</math> in <math>y^{\frac{n}{2}}</math> in <math>y^{\frac{n}{2}}</math> in <math>y^{\frac{n}{2}}</math> in <math>y^{\frac{n}{2}}</math> in <math>y^{\frac{n}{2}}</math> in <math>y^{\frac{n}{2}}</math> in <math>y^{\frac{n}{2}}</math> in <math>y^{\frac{n}{2}}</math> in <math>y^{\frac{n}{2}}</math> in <math>y^{\frac{</math>
-the difference of these quantities is therefore zero. But put-
-ting the coefficient of the ith term in the binomial develop-
-<math>ment = B_i</math>, so that
-<math display="block">B_{i} = \left(\frac{1}{n} \cdot \frac{1-n}{2n} \cdot \frac{1-2n}{3n} \cdot \frac{1+4n-2in}{2in-3n} \cdot \frac{1+3n-2in}{2in-2n} = B_{i-1}\right)</math>
-<math display="block">\frac{1-2i-2\cdot n}{2\cdot n-n} \cdot \frac{1-2i-1\cdot n}{2\cdot i-1} = 1 \cdot 11 \cdot 11 \cdot 11 \cdot 11 \cdot 11 \cdot 11 \cdot 1</math>
-GLINETE II.
+287
+
+similarly, the equation in Y gives
+
+\[
+1 = q ^ {n} \left(1 + \Sigma A _ {0} \left(\frac {p ^ {2} z}{q ^ {2} y}\right) ^ {i}\right).
+\]
+
+If \( n = 1 \), \( p = 1 = q \); if \( n > 1 \), \( A_i > 1 \), and as \( x \) is positive, \( p^2 z > q^2 y \); therefore \( p^n \) is multiplied by a series of positive terms \( = \sum A_i \times \) a quantity less than unity; whilst the factor of \( q^n \) is similar, but \( = \sum A_i \times \) quantity \( > 1 \), \( \therefore p^n > q^n \), in order that the respective products shall \( = 1 \).
+
+Combining the last found equations, we obtain by the binomial expansion,
+
+\[
+2 z ^ {\frac {n}{2}} = (p \sqrt {z} + q \sqrt {y}) ^ {n} + (p \sqrt {z} - q \sqrt {y}) ^ {n},
+\]
+
+\[
+2 y ^ {\frac {n}{2}} = (p \sqrt {z} + q \sqrt {y}) ^ {n} - (p \sqrt {z} - q \sqrt {y}) ^ {n};
+\]
+
+whence
+
+\[
+\frac {p \sqrt {z}}{q \sqrt {y}} \left(\overline {{z ^ {\frac {n}{2}} + y ^ {\frac {n}{2}}}} \right\rvert^ {\frac {1}{n}} - \left. z ^ {\frac {n}{2}} - y ^ {\frac {n}{2}} \right| ^ {\frac {1}{n}}) = \overline {{z ^ {\frac {n}{2}} + y ^ {\frac {n}{2}}}} \left| \frac {1}{n} + \overline {{z ^ {\frac {n}{2}} + y ^ {\frac {n}{2}}}} \right| ^ {\frac {1}{n};}
+\]
+
+the difference of these quantities is therefore zero. But putting the coefficient of the \(i\)th term in the binomial development \(= \mathbf{B}_i\), so that
+
+\[
+\mathrm{B} _ {i} = \left(\frac {1}{n} \cdot \frac {1 - n}{2 n} \cdot \frac {1 - 2 n}{3 n} \cdot \frac {1 + 4 n - 2 i n}{2 i n - 3 n} \cdot \frac {1 + 3 n - 2 i n}{2 i n - 2 n} = \mathrm{B} _ {i - 1}\right)
+\]
+
+\[
+\times \frac {1 - \overline {{2 i - 2}} . n}{2 i n - n} \cdot \frac {1 - \overline {{2 i - 1}} . n}{2 i n},
+\]
+
 the difference is expressible by
-when <math>n=1</math>, <math>p=q</math>, <math>n-1=0</math>, the equation is satisfied; when
-<math>n</math> exceeds unity, we have <math>1-2in=a</math> negative quantity, and
-consequently the factor within ( ) is positive, as is also
-<math>(y+z)^{in}</math>; but then <math>B_i = B_{i-1} \times</math> the product of two negative
-fractions, and is consequently of the same sign as Bill or
-<math>B_{i-2}</math> ... or <math>B_1</math>, but <math>B_1</math> is negative, <math>\therefore 0 = a</math> series of exclusively
-negative quantities, which is impossible, unless a factor com-
-mon to all = 0, which is here <math>1 - n</math>, as the case of <math>y = 0</math> is of
-course excepted. Consequently <math>n=1</math> is the only odd possible
-value of this exponent. <math>(n \circ - q \circ ) = (1 \circ - q \circ ) = (1 \circ - q \circ )</math>
-11.11
-Case 2. <math>n = 2m</math>, or <math>x^{2m} = z^{2m} - y^{2m}</math>. The same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the 
-As the sum of two squares is never of the form <math>4i + 2</math> or
-<math>4i + 3</math>, it follows that x must be even and y odd; also z is
-odd. Moreover, m must be odd, as we know that the sum of
-two biquadrates cannot be a square, much less a biquadrate
+
+\[
+0 = \Sigma \left(1 - \frac {p}{q} \left(\frac {y}{z}\right) \frac {n - 1}{2} \cdot \frac {1 - 2 i n}{2 i n + n}\right) \mathrm{B} _ {i} \left(\frac {y}{z}\right) ^ {i n}.
+\]
+
+When \(n=1\), \(p=q\), \(n-1=0\), the equation is satisfied; when \(n\) exceeds unity, we have \(1-2\) \(i\) \(n\) = a negative quantity, and consequently the factor within ( ) is positive, as is also \((y\div z)^{in}\); but then \(\mathrm{B}_{i}=\mathrm{B}_{i-1}\times\) the product of two negative fractions, and is consequently of the same sign as \(\mathrm{B}_{i-1}\) or \(\mathrm{B}_{i-2}\ldots\) or \(\mathrm{B}_{1}\), but \(\mathrm{B}_{1}\) is negative, \(\therefore 0=\) a series of exclusively negative quantities, which is impossible, unless a factor common to all \(=0\), which is here \(1-n\), as the case of \(y=0\) is of course excepted. Consequently \(n=1\) is the only odd possible value of this exponent.
+
+\[
+\text {Case 2.} n = 2 m, \text {or} x ^ {2 m} = z ^ {2 m} - y ^ {2 m}.
+\]
+
+As the sum of two squares is never of the form  \( 4i + 2 \)  or  \( 4i + 3 \) , it follows that x must be even and y odd; also z is odd. Moreover, m must be odd, as we know that the sum of two biquadrates cannot be a square, much less a biquadrate
 
 ## PDF page 302
 
@@ -17998,46 +17259,30 @@ cand it will be borne in mind that a want of symmetry in the
 
 ## PDF page 308
 
-294 and has Mr. Crum on the Action of guidantal
-as a cation and a continuous continuous and a continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous 
-which has one root symmetric with respect to yet and reseaso
-Birchington, near Margare, bom of the vessel into motod and of
-readily be separated from the soluble n. 1845, 29 taugus
-mixing with cold lime-water and drawing off the clear bound
-with a syphon. The precipitate thus obtained is, as I have with a syphon. The precipitate thus obtained is, as I LVIX.
-Copper and Lead. By WALTER CRUM, Esq., F.R.S.*
-N February 1843 I read to the Philosophical Society of
-Glasgow an account of a rose-coloured oxide of copper
-which I had obtained by the action of bleaching powder and
-lime upon nitrate of copper. Although I had then made
-numerous analyses of this substance, prepared under a variety
-of circumstances, I had been unable to obtain from it the full
-amount of oxygen which a definite compound must contain,
-and delayed therefore to make it further known until I should
-have the opportunity of producing it in a purer form. In
-the mean time the rose-coloured substance was observed, and
-correctly described, by Kriiger of Berlin, as a combination of
-the oxide of copper, or, as he calls it, cupric acid, with lime.
-Having completed my experiments on this subject as far as my leisure will permit, I shall now state the results I have
-70 grs. of nitric acid, specific gravity 1°35. Fifty beniatdo
-When the hydrated oxide of copper is added to a solution
-of bleaching powder it changes colour and becomes brown.
-Oxygen gas is then plentifully disengaged, and the efferves-
-cence continues till the whole of the hypochlorite of lime is
-decomposed. The brown precipitate suffers no change during
-this decomposition. When separated from the soluble mat-
-ters, it is found to contain no chlorine and no excess of
-oxygen. It is anhydrous oxide of copper. Hypochlorite of soda produces the same effect.
-If we add nitrate of copper to a solution of bleaching pow-
-der containing a considerable quantity of lime, and previously
-cooled to below the freezing-point of water, a bluish-green
-precipitate is formed. When the precipitate subsides, we
-find the solution of a fine blue colour and containing copper;
-but in what state I have not examined. As the heat advances
-to the ordinary temperature, the copper in solution, as well as
-* Communicated by the Chemical Society; having been read April 21,
-1845.
-1.82 1. 1.82 L. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+294
+
+Mr. Crum on the Action of
+
+coefficients of an equation sometimes disappears in its roots, as is the case with the equation
+
+\[
+w ^ {2} + y _ {1} w + \frac {1}{4} \left\{y _ {1} ^ {2} - \left(y _ {2} + y _ {3}\right) ^ {2} \right\} = 0,
+\]
+
+which has one root symmetric with respect to y.
+
+Birchington, near Margate,
+August 29, 1845.
+
+XLVI. On the Action of Bleaching Powder on the Salts of Copper and Lead. By WALTER CRUM, Esq., F.R.S.*
+
+IN February 1843 I read to the Philosophical Society of Glasgow an account of a rose-coloured oxide of copper which I had obtained by the action of bleaching powder and lime upon nitrate of copper. Although I had then made numerous analyses of this substance, prepared under a variety of circumstances, I had been unable to obtain from it the full amount of oxygen which a definite compound must contain, and delayed therefore to make it further known until I should have the opportunity of producing it in a purer form. In the mean time the rose-coloured substance was observed, and correctly described, by Krüger of Berlin, as a combination of the oxide of copper, or, as he calls it, cupric acid, with lime. Having completed my experiments on this subject as far as my leisure will permit, I shall now state the results I have obtained.
+
+When the hydrated oxide of copper is added to a solution of bleaching powder it changes colour and becomes brown. Oxygen gas is then plentifully disengaged, and the effervescence continues till the whole of the hypochlorite of lime is decomposed. The brown precipitate suffers no change during this decomposition. When separated from the soluble matters, it is found to contain no chlorine and no excess of oxygen. It is anhydrous oxide of copper. Hypochlorite of soda produces the same effect.
+
+If we add nitrate of copper to a solution of bleaching powder containing a considerable quantity of lime, and previously cooled to below the freezing-point of water, a bluish-green precipitate is formed. When the precipitate subsides, we find the solution of a fine blue colour and containing copper; but in what state I have not examined. As the heat advances to the ordinary temperature, the copper in solution, as well as
+
+* Communicated by the Chemical Society; having been read April 21, 1845.
 
 ## PDF page 309
 
@@ -18420,56 +17665,34 @@ numbers could be found for the distances and focal lengths which
 ## PDF page 317
 
 Royal Astronomical Society.
+
 303
-are very favourable as regards the breadth of the pencil of rays where
-it meets each lens, and which leave the focal length of the first lens
-perfectly arbitrary, so that the power of the eye-piece may be changed,
-preserving all its properties undisturbed, by merely changing the first
-lens. This is the "new construction" proposed as the object of the
-The algebraic investigation is then given in detail; and the author,
-after the reading of the paper was concluded, gave an oral explana-
-tion, illustrated by diagrams, of the construction and the theory upon
-which it depends. The the region of section of section of section of section of section of section of section of section of section of section of section of section of section of section of section of section of section of
-June 13.—The following communications were read:
-I. On the Ephemerides of Jarchi, the Chaldean Months, and the
-derivation of Orion and his Dogs. By S. M. Drach, Esq. at 299 (
-The author suggests, on the authority of Weidler's Historia As-
-tronomiæ, that the first astronomical tables and ephemerides published
-in Europe are those of Rabbi Solomon Jarchi, although still inedited.
-Jarchi is supposed by Dr. Jost to have lived from the years 1040 to
-1105 (Gesch. der Israel., vol. vi. p. 243). all h buil if to themres
-. The author then proceeds to the consideration of the passage of
-the book of Job, contained in the thirty-first and thirty-second verses
-of the thirty-eighth chapter: "Canst thou bind the sweet influences
-of Pleiades, or loose the bands of Orion? Canst thou bring forth
-Mazzaroth in his season? or canst thou guide Arcturus with his
-sons?" And he cites the opinion of the Rabbinical commentators
-for the meaning of each of the astronomical words contained in it.
-He then gives from Buxtorf's Lexicon the meanings of the names
-of the Jewish months, and concludes that their calendar is founded
-on the agricultural occupations of the Chaldean shepherds, who were
-employed during winter in preparing the fleeces of their flocks for
-He thinks it not impossible that the numerical values of the names
-of the months indicate the number of days wherein celestial phæno-
-mena recur, mystically decomposed for priestly purposes; and he
-gives instances in which certain combinations of their values repre-
-sent pretty nearly the synodical periods of some of the planets.
-There is some reason for supposing that Orion, Sirius, and Pro-
-cyon, may be regarded as Hellenized Egyptian names by dropping
-the final syllables, and that they may thus be referred to the Chal-
-dean dialect. The many the state of
-II. Extracts from a Letter to the President, dated Picket Berg,
-Cape of Good Hope, January 1, 1845, from C. Piazzi Smyth, Esq.
-Communicated by Captain Smyth. 1, 19 1 1 115 1107 1 1107
-to such the forms
+
+are very favourable as regards the breadth of the pencil of rays where it meets each lens, and which leave the focal length of the first lens perfectly arbitrary, so that the power of the eye-piece may be changed, preserving all its properties undisturbed, by merely changing the first lens. This is the "new construction" proposed as the object of the paper.
+
+The algebraic investigation is then given in detail; and the author, after the reading of the paper was concluded, gave an oral explanation, illustrated by diagrams, of the construction and the theory upon which it depends.
+
+June 13.—The following communications were read :—
+
+I. On the Ephemerides of Jarchi, the Chaldean Months, and the derivation of Orion and his Dogs. By S. M. Drach, Esq.
+
+The author suggests, on the authority of Weidler's Historia Astronomica, that the first astronomical tables and ephemerides published in Europe are those of Rabbi Solomon Jarchi, although still inedited. Jarchi is supposed by Dr. Jost to have lived from the years 1040 to 1105 (Gesch. der Israel., vol. vi. p. 243).
+
+The author then proceeds to the consideration of the passage of the book of Job, contained in the thirty-first and thirty-second verses of the thirty-eighth chapter: “Canst thou bind the sweet influences of Pleiades, or loose the bands of Orion? Canst thou bring forth Mazzaroth in his season? or canst thou guide Arcturus with his sons?” And he cites the opinion of the Rabbinical commentators for the meaning of each of the astronomical words contained in it.
+
+He then gives from Buxtorf's Lexicon the meanings of the names of the Jewish months, and concludes that their calendar is founded on the agricultural occupations of the Chaldean shepherds, who were employed during winter in preparing the fleeces of their flocks for clothing, &c.
+
+He thinks it not impossible that the numerical values of the names of the months indicate the number of days wherein celestial phenomena recur, mystically decomposed for priestly purposes; and he gives instances in which certain combinations of their values represent pretty nearly the synodical periods of some of the planets.
+
+There is some reason for supposing that Orion, Sirius, and Procyon, may be regarded as Hellenized Egyptian names by dropping the final syllables, and that they may thus be referred to the Chaldean dialect.
+
+II. Extracts from a Letter to the President, dated Picket Berg, Cape of Good Hope, January 1, 1845, from C. Piazzi Smyth, Esq. Communicated by Captain Smyth.
+
 Great Comet of 1844-45.
-agettr a O sing
-"Another splendid comet is at this moment astounding the south-
-ern hemisphere and displaying the most interesting series of phæno-
-mena, which are passing away unrecorded, because the Institution is
-still without sufficient means.
-"The apparition of this comet, 1844-45, is just such an opportu-
-nity, such a crucial test of his theory, as Bessel is so ardently desi-
+
+"Another splendid comet is at this moment astounding the southern hemisphere and displaying the most interesting series of phaenomena, which are passing away unrecorded, because the Institution is still without sufficient means.
+
+"The apparition of this comet, 1844-45, is just such an opportunity, such a crucial test of his theory, as Bessel is so ardently desi-
 
 ## PDF page 318
 
@@ -19375,119 +18598,63 @@ bind a state of the horse of the hear, when dred in the hear, when dred in the
 
 ## PDF page 332
 
-Intelligence and Miscellaneous Articles.
 318
-rendered acid by muriatic acid, and containing soda as well as phos-
-phoric acid, was digested for a considerable time with a mixture of
-chloride of calcium and ammonia in excess, for the purpose of pre-
-cipitating the phosphoric acid. The precipitate was heated to red-
-ness, dissolved in hydrochloric acid, and decomposed by sulphuric
-acid and alcohol. The phosphoric acid in an average of fourteen ex-
-periments amounted to 45.71 per cent., consequently the compound
-consisted of 3CaO, PoO5. If, however, a pure solution of 2NaO,
-P<sub>2</sub>O<sub>5</sub> be precipitated by a mixture of chloride of calcium and ammo-
-nia, we obtain 2CaO, PoO. According to Berzelius, the same pre-
-cipitate is formed by adding the salt of soda to the solution of chlo-
-ride of calcium by drops. If, however, the method of proceeding be
-reversed, and the addition of the precipitant be continued as long as
-the liquid has an alkaline reaction, or the lime salt be added to a so-
-lution of phosphate of ammonia containing free ammonia, 8CaO,
-3P<sub>2</sub>O<sub>5</sub> is formed. 2CaO, P<sub>2</sub>O<sub>5</sub> is crystalline, both the basic salts
-are gelatinous, and 5CaO, Po O, is mucous, resembling in this respect
-precipitated fluoride of calcium.—Poggend. Annal., vol. lxiv. p. 251-
-271, and 405-425. The confirmation of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of th
-bot to time to the rest to the contract to the contract to the contract to the contract to the contract to the contract to the contract to the contract to the contract to the contract to the contract to the contract to the
+
+Intelligence and Miscellaneous Articles.
+
+rendered acid by muriatic acid, and containing soda as well as phosphoric acid, was digested for a considerable time with a mixture of chloride of calcium and ammonia in excess, for the purpose of precipitating the phosphoric acid. The precipitate was heated to redness, dissolved in hydrochloric acid, and decomposed by sulphuric acid and alcohol. The phosphoric acid in an average of fourteen experiments amounted to 45·71 per cent., consequently the compound consisted of 3CaO, P₂O₅. If, however, a pure solution of 2NaO, P₂O₅ be precipitated by a mixture of chloride of calcium and ammonia, we obtain 2CaO, P₂O₅. According to Berzelius, the same precipitate is formed by adding the salt of soda to the solution of chloride of calcium by drops. If, however, the method of proceeding be reversed, and the addition of the precipitant be continued as long as the liquid has an alkaline reaction, or the lime salt be added to a solution of phosphate of ammonia containing free ammonia, 8CaO, 3P₂O₅ is formed. 2CaO, P₂O₅ is crystalline, both the basic salts are gelatinous, and 5CaO, P₂O₅ is mucous, resembling in this respect precipitated fluoride of calcium.—Poggend. Annal., vol. lxiv. p. 251–271, and 405–425.
+
 ANALYSIS OF TAURINE.
-Professor Redtenbacher of Vienna, formerly a pupil of Liebig,
-has subjected taurine (the asparagine biliaire of Gmelin) to a new
-analysis, and has found it to contain 26 per cent. of sulphur; this
-substance, on account of the regularity of its crystalline form, is
-one of the most beautiful presented by organic chemistry. The
-chemists who have analysed taurine, overlooked the presence of
-sulphur, and gave as its formula, C<sup>4</sup>H<sup>7</sup>NO<sup>10</sup>.—Journ. de Pharm. et de
-Ch., Juin 1845.
-DOUBLE SALT OF [BI] CHLORIDE OF MERCURY AND ACETATE OF
-Laux /h
-COPPER.
-M. Wöhler formed this double salt by mixing cold saturated so-
-lutions of its component salts.
-The compound is gradually deposited in concentric hemispheric
-crystals of a deep blue colour and great beauty. It is nearly inso-
-luble in cold water; in boiling water it is converted into a bright
-green powder, and bichloride of mercury remains in solution.
-According to repeated analyses performed by M. Hütteroth, and
-which agreed satisfactorily, the blue compound is formed of two
-equivalents of chloride and one equivalent of anhydrous basic acetate
-of copper, or in 100 parts, of—
-[Bi]chloride of mercury .... 67:65
-- 1 DIE
-Acetate of copper ..... 32:35
-the second section of the
-10
-100.
+
+Professor Redtenbacher of Vienna, formerly a pupil of Liebig, has subjected taurine (the asparagine biliaire of Gmelin) to a new analysis, and has found it to contain 26 per cent. of sulphur; this substance, on account of the regularity of its crystalline form, is one of the most beautiful presented by organic chemistry. The chemists who have analysed taurine, overlooked the presence of sulphur, and gave as its formula, C\( ^{4} \)H\( ^{7} \)NO\( ^{10} \).—Journ. de Pharm. et de Ch., Juin 1845.
+
+DOUBLE SALT OF [BI]CHLORIDE OF MERCURY AND ACETATE OF COPPER.
+
+M. Wöhler formed this double salt by mixing cold saturated solutions of its component salts.
+
+The compound is gradually deposited in concentric hemispheric crystals of a deep blue colour and great beauty. It is nearly insoluble in cold water; in boiling water it is converted into a bright green powder, and bichloride of mercury remains in solution.
+
+According to repeated analyses performed by M. Hütteroth, and which agreed satisfactorily, the blue compound is formed of two equivalents of chloride and one equivalent of anhydrous basic acetate of copper, or in 100 parts, of—
+
+[Bi]chloride of mercury .... 67·65
+
+Acetate of copper ..... 32·35
+
+100·
+
 Journ. de Pharm. et de Ch., Juin 1845.
-in the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state o
 
 ## PDF page 333
 
 Meteorological Observations.
-319
--edig as How RAIN DURING THE PRESENT YEAR. The brobes
-lo Mr. Luke Howard has furnished us with the following monthly
-amounts of rain for this year up to the end of August inclusive:
-ber o legal January true of 0.83 and of the first four months. The office of the office of the office of the office of the office of the office of the office of the office of the office of the office of the office of the o
-1.36 4.69 first four months. 11.36 11.36 11.36 11.36 11.36 11.36
-June ....................................
-the usual average of a year being 26 inches.
-between of phosphate of some
-n fre a ann nia, SCO
-METEOROLOGICAL OBSERVATIONS FOR AUG. 1845.
-Chiswick.—August 1. Fine: cloudy: overcast. 2. Very heavy rain. 3. Cloudy:
-showery : partially overcast. 4. Cloudy: fine: clear. 5. Showery. 6. Very
-7. Rain: thunder-showers in afternoon: clear. 8. Fine. 9. Rain:
-fine.
-boisterous, with rain. 10. Overcast. 11. Heavy showers: thunder. 12. Over-
-cast. 13. Slight rain: cloudy: showers. 14. Densely clouded. 15. Cloudy:
-clear and fine. 16, 17. Cloudy. 118. Very fine : rain. 19. Foggy : heavy rain.
-20. Very clear: cloudy. 21. Very fine. 22. Cloudless and very fine. 23. Over-
-cast: rain at night. 24. Very fine. 25. Foggy: very fine: rain at night. 26,
-27. Fine. 28. Clear: cloudy. 29, 30. Bright sun and very fine. 31. Slight
-haze: very fine: overcast.-Mean temperature of the month 2° below the
-average.
-erage.
 
-Boston.—Aug. 1. Windy: rain yesterday (rain P. M.). 2. Fine: rain A.M. and
-r. M. 3. Cloudy. 4. Rain. 5. Cloudy: rain A.M. and P.M. 6. Cloudy. 7.
-Cloudy: hail and rain, with thunder. 8. Cloudy. 9. Cloudy: rain early A.M.
-10. Cloudy: rain early A.M.: rain A.M. 11. Cloudy: rain P.M. 12. Cloudy:
-rain early A.M. 13. Cloudy. 14. Cloudy: rain A.M. and P.M. 215. Cloudy:
-rain early A.M.: rain P.M. 16-18. Cloudy. 19. Rain: stormy P.M.: rain A.M.
-and P.M. 20. Stormy. 21. Fine: rain P.M. 22. Fine. 23. Fine: rain P.M.
-24. Fine. 25. Fine: rain P.M. , 26. Fine: rain P.M., with thunder and light-
-ning. 27. Fine. 28. Cloudy. 29, 30. Foggy. 31. Fine.-Not so much rain
-in one month since August 1831, nor so cold an August since August 1833.
-Sandwick Manse, Orkney .- Aug. 1. Bright: clear. 2. Bright: cloudy. 3.
-Rain: rain and cloudy. 4. Rain: showers. 5. Cloudy: fine. 6. Bright:
-cloudy. 7. Damp: rain. 8. Much rain: rain. 9. Bright: clear. 10. Bright: damp. 11. Cloudy: drizzle. 12. Cloudy: 13. Cloudy: drizzle. 14, 15.
-Showers. 116. Showers: cloudy. 17. Bright: damp. 18, 19. Showers: cloudy.
-20. Rain: showers. 21. Bright: cloudy. 22. Cloudy: rain. 23. Bright:
-showers, 24. Clear. 25. Rain: clear. 26. Much rain: rain. 27. Bright:
-clear. 28. Cloudy: clear. 29. Cloudy: damp. 30. Showers: drizzle. 31.
-Fog : drizzle.
-Applegarth Manse, Dumfries-shire. Aug. 1-3. Showery. 4. Rain heavy A.M.
-5, 6. Slight showers. 7. Fine and fair: a few drops. 8. Fine and fair. 9. Rain
-all day. 10. Slight shower. 11. Fine: a few drops: 12-16. Fine. 17. Rain
-18. Shower. 19. Showers. 20. Fair, but cloudy. 21. Fair
-from 11 A.M.
-22. Fair, but cloudy: stormy and rain P.M. 23. Heavy showers.
-and fine.
-24. Fine after one shower A.M. 25. Heavy rain: thunder. 26. Fine: one
-27. Fair and fine. 28. Very fine and clear. 29. Fine, but cloudy.
-shower.
-30, 31. Very fine.
-Mean temperature of the month ....................................
-Mean temperature of Aug. 1844 ...... 54 6
-Mean temperature for 23 years ...... 57 'O
+319
+
+RAIN DURING THE PRESENT YEAR.
+
+to Mr. Luke Howard has furnished us with the following monthly amounts of rain for this year up to the end of August inclusive:—
+
+<table><tr><td>January</td><td>0·83</td></tr><tr><td>February</td><td>0·65</td></tr><tr><td>March</td><td>1·85</td></tr><tr><td>April</td><td>1·36</td></tr><tr><td>May</td><td>2·00</td></tr><tr><td>June</td><td>3·09</td></tr><tr><td>July</td><td>3·95</td></tr><tr><td>August</td><td>4·36</td></tr></table>
+
+18·09 in the eight months,
+
+the usual average of a year being 26 inches.
+
+METEOROLOGICAL OBSERVATIONS FOR AUG. 1845.
+
+Chiswick.—August 1. Fine: cloudy: overcast. 2. Very heavy rain. 3. Cloudy: showery: partially overcast. 4. Cloudy: fine: clear. 5. Showery. 6. Very fine. 7. Rain: thunder-showers in afternoon: clear. 8. Fine. 9. Rain: boisterous, with rain. 10. Overcast. 11. Heavy showers: thunder. 12. Overcast. 13. Slight rain: cloudy: showers. 14. Densely clouded. 15. Cloudy: clear and fine. 16, 17. Cloudy. 18. Very fine: rain. 19. Foggy: heavy rain. 20. Very clear: cloudy. 21. Very fine. 22. Cloudless and very fine. 23. Overcast: rain at night. 24. Very fine. 25. Foggy: very fine: rain at night. 26, 27. Fine. 28. Clear: cloudy. 29, 30. Bright sun and very fine. 31. Slight haze: very fine: overcast.—Mean temperature of the month 2° below the average.
+
+Boston.—Aug. 1. Windy: rain yesterday (rain P.M.). 2. Fine: rain A.M. and P.M. 3. Cloudy. 4. Rain. 5. Cloudy: rain A.M. and P.M. 6. Cloudy. 7. Cloudy: hail and rain, with thunder. 8. Cloudy. 9. Cloudy: rain early A.M. 10. Cloudy: rain early A.M.: rain A.M. 11. Cloudy: rain P.M. 12. Cloudy: rain early A.M. 13. Cloudy. 14. Cloudy: rain A.M. and P.M. 15. Cloudy: rain early A.M.: rain P.M. 16—18. Cloudy. 19. Rain: stormy P.M.: rain A.M. and P.M. 20. Stormy. 21. Fine: rain P.M. 22. Fine. 23. Fine: rain P.M. 24. Fine. 25. Fine: rain P.M. 26. Fine: rain P.M., with thunder and lightning. 27. Fine. 28. Cloudy. 29, 30. Foggy. 31. Fine.—Not so much rain in one month since August 1831, nor so cold an August since August 1833.
+
+Sandwick Manse, Orkney.—Aug. 1. Bright: clear. 2. Bright: cloudy. 3. Rain: rain and cloudy. 4. Rain: showers. 5. Cloudy: fine. 6. Bright: cloudy. 7. Damp: rain. 8. Much rain: rain. 9. Bright: clear. 10. Bright: damp. 11. Cloudy: drizzle. 12. Cloudy: 13. Cloudy: drizzle. 14, 15. Showers. 16. Showers: cloudy. 17. Bright: damp. 18, 19. Showers: cloudy. 20. Rain: showers. 21. Bright: cloudy. 22. Cloudy: rain. 23. Bright: showers. 24. Clear. 25. Rain: clear. 26. Much rain: rain. 27. Bright: clear. 28. Cloudy: clear. 29. Cloudy: damp. 30. Showers: drizzle. 31. Fog: drizzle.
+
+Applegarth Manse, Dumfries-shire.— Aug. 1—3. Showery. 4. Rain heavy A.M. 5, 6. Slight showers. 7. Fine and fair: a few drops. 8. Fine and fair. 9. Rain all day. 10. Slight shower. 11. Fine: a few drops. 12—16. Fine. 17. Rain from 11 A.M. 18. Shower. 19. Showers. 20. Fair, but cloudy. 21. Fair and fine. 22. Fair, but cloudy: stormy and rain P.M. 23. Heavy showers. 24. Fine after one shower A.M. 25. Heavy rain: thunder. 26. Fine: one shower. 27. Fair and fine. 28. Very fine and clear. 29. Fine, but cloudy. 30, 31. Very fine.
+
+Mean temperature of the month 56°·4
+
+Mean temperature of Aug. 1844 54·6
+
+Mean temperature for 23 years 57·0
 
 ## PDF page 334
 
@@ -21336,53 +20503,25 @@ cof the phanomena involved. is at some power and a legicon
 
 ## PDF page 360
 
-Mr. T. S. Thomson on the Diffusion of Gases.
 346
-and especially on several of our modern theories, by their re-
-ception. The long-established idea of the immutability of the
-properties of elementary bodies would to a certain extent be
-sacrificed; and it is probable that before these results are
-conceded, more cogent evidence of the main principle will be
-required. In the mean time, however, it is plain that the ad-
-mission of these doctrines throws much light on theories now
-extensively attracting the attention of men of science, and for
-that reason they commend themselves to our consideration.
-I have offered no opinion here on the atomic mechanism which
-is involved in these changes from an active to a passive state,
-though it is impossible to deal with these things without the
-reflection arising in our minds, that here we are on the brink
-of an extensive system of evidence connected with the polarity
-of atoms,—an idea, which, under a variety of forms, is now
-occurring in every department of natural philosophy.
+
+Mr. T. S. Thomson on the Diffusion of Gases.
+
+and especially on several of our modern theories, by their reception. The long-established idea of the immutability of the properties of elementary bodies would to a certain extent be sacrificed; and it is probable that before these results are conceded, more cogent evidence of the main principle will be required. In the mean time, however, it is plain that the admission of these doctrines throws much light on theories now extensively attracting the attention of men of science, and for that reason they commend themselves to our consideration. I have offered no opinion here on the atomic mechanism which is involved in these changes from an active to a passive state, though it is impossible to deal with these things without the reflection arising in our minds, that here we are on the brink of an extensive system of evidence connected with the polarity of atoms,—an idea, which, under a variety of forms, is now occurring in every department of natural philosophy.
+
 University of New York, July 29, 1845.
+
 LI. On the Diffusion of Gases.
-By Thomas Starkie Thomson, Esq.
+By THOMAS STARKIE THOMSON, Esq.
 To Richard Taylor, Esq.
+
 DEAR SIR,
-N perusing lately the highly interesting volume on Natu-
-ral Magic by your distinguished co-editor, Sir David
-Brewster, I was much struck by his description of natural
-phænomena which had for many years past occupied my con-
-sideration.
-As one fact which was new to me bears directly upon the
-subject of my previous communications to you on the Diffu-
-sion of Gases, and will, I think, tend further to elucidate the
-matter, I may be allowed to offer some observations upon it,
-and shall introduce them by the following quotation from the
-learned author.
-"The great audibility of sounds during the night is a phæ-
-nomenon of considerable interest, and one which had been
-observed even by the ancients. In crowded cities, or in their
-vicinity, the effect was generally ascribed to the rest of ani-
-mated beings, while in localities where such an explanation
-was inapplicable, it was supposed to arise from a favourable
-direction of the prevailing wind. Baron Humboldt was par-
-ticularly struck with this phænomenon when he first heard
-the rushing of the great cataracts of the Orinoco in the plain
-which surrounds the Mission of the Apures. These sounds
-he regarded as three times louder during the night than du-
-ring the day.
-a figure part of a first part of the first part of the first part of the first part of the first part of the first part of the first part of the first part of the first part of the first part of the first part of the first
+
+ON perusing lately the highly interesting volume on Natural Magic by your distinguished co-editor, Sir David Brewster, I was much struck by his description of natural phenomena which had for many years past occupied my consideration.
+
+As one fact which was new to me bears directly upon the subject of my previous communications to you on the Diffusion of Gases, and will, I think, tend further to elucidate the matter, I may be allowed to offer some observations upon it, and shall introduce them by the following quotation from the learned author.
+
+"The great audibility of sounds during the night is a phænomenon of considerable interest, and one which had been observed even by the ancients. In crowded cities, or in their vicinity, the effect was generally ascribed to the rest of animated beings, while in localities where such an explanation was inapplicable, it was supposed to arise from a favourable direction of the prevailing wind. Baron Humboldt was particularly struck with this phænomenon when he first heard the rushing of the great cataracts of the Orinoco in the plain which surrounds the Mission of the Apures. These sounds he regarded as three times louder during the night than during the day.
 
 ## PDF page 361
 
@@ -21483,53 +20622,17 @@ tervening liquid, is accounted for, as you are well aware, by
 
 ## PDF page 363
 
-Molecular Decomposition and Recomposition.
+Molecular Decomposition and Decomposition.
+
 349
-Grotthus, on the supposition of a series of molecular decom-
-positions and recompositions. This theory has become almost
-universally adopted by electro-chemists; I have frequently
-availed myself of it in my lectures, and, though with some
-doubt and hesitation, have applied it to explain the action of
-the gas battery. I have ever been anxious, if possible, to ac-
-count for new phænomena by generally received theories, one
-main object of a theory being to collate facts in a manner
-which may render them conventionally intelligible, while plu-
-rality of theories introduces anarchy into science.
-It has lately, however, struck me very forcibly that the gas
-battery presents a strong objection to the theory of Grotthus,
-or in other words, that it places us in a dilemma in which we
-must either abandon this theory or the generally received
-views (I think I may say established laws) of chemical affinity.
-My difficulty is this. In a single pair of the gas battery, we
-must, according to the theory of Grotthus, suppose that oxy-
-gen and hydrogen tear asunder oxygen and hydrogen already
-united; for whether we suppose the action to begin at the hy-
-drogen extremity of the electrolyte, or at the oxygen, or at
-both simultaneously, the force which produces the composition
-of water is regarded by the theory sufficiently strong to over-
-come the force by which its constituents are already united,
-i. c. a force is equal and unequal at the same time.
-The gas battery also presents cases where, according to this
-theory, a more feeble affinity overcomes a more powerful one,
-as when water is the electrolyte and deutoxide of nitrogen and
-oxygen the gases: we have indeed some instances in chemistry
-where the order of affinities is reversed, as in the decomposi-
-tion of water by iron, and of oxide of iron by hydrogen, sup-
-posing the oxide to be the same in each case, which is much
-doubted; but we have no instance, as far as I am aware, of
-the divellent and quiescent affinities being identical, as for in-
-stance, the affinity of oxygen for hydrogen decomposing water,
-that of oxygen for iron decomposing oxide of iron. Where water is decomposed at the electrodes by a series of the gas
-battery, the same difficulty does not arise; as, abandoning all
-theory as to the transfer in the cells of the battery, there is
-nothing inconsistent in the fact, that the reduplicated force of
-a series of affinities should overcome an equal or stronger af-
-finity taken singly, just as we decompose potash by a series of
-affinities of zinc for oxygen; but in the single cell there is no
-such exaltation of intensity. The state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state 
-It may be said that the pulverulent platinum exalts the che-
-mical energies of the gases, but this I think is inconsistent
-with all we know of the catalytic action of platinum; all the
+
+Grotthus, on the supposition of a series of molecular decompositions and recompositions. This theory has become almost universally adopted by electro-chemists; I have frequently availed myself of it in my lectures, and, though with some doubt and hesitation, have applied it to explain the action of the gas battery. I have ever been anxious, if possible, to account for new phenomena by generally received theories, one main object of a theory being to collate facts in a manner which may render them conventionally intelligible, while plurality of theories introduces anarchy into science.
+
+It has lately, however, struck me very forcibly that the gas battery presents a strong objection to the theory of Grotthus, or in other words, that it places us in a dilemma in which we must either abandon this theory or the generally received views (I think I may say established laws) of chemical affinity. My difficulty is this. In a single pair of the gas battery, we must, according to the theory of Grotthus, suppose that oxygen and hydrogen tear asunder oxygen and hydrogen already united; for whether we suppose the action to begin at the hydrogen extremity of the electrolyte, or at the oxygen, or at both simultaneously, the force which produces the composition of water is regarded by the theory sufficiently strong to overcome the force by which its constituents are already united, i.e. a force is equal and unequal at the same time.
+
+The gas battery also presents cases where, according to this theory, a more feeble affinity overcomes a more powerful one, as when water is the electrolyte and deutoxide of nitrogen and oxygen the gases: we have indeed some instances in chemistry where the order of affinities is reversed, as in the decomposition of water by iron, and of oxide of iron by hydrogen, supposing the oxide to be the same in each case, which is much doubted; but we have no instance, as far as I am aware, of the divellent and quiescent affinities being identical, as for instance, the affinity of oxygen for hydrogen decomposing water, that of oxygen for iron decomposing oxide of iron. Where water is decomposed at the electrodes by a series of the gas battery, the same difficulty does not arise; as, abandoning all theory as to the transfer in the cells of the battery, there is nothing inconsistent in the fact, that the reduplicated force of a series of affinities should overcome an equal or stronger affinity taken singly, just as we decompose potash by a series of affinities of zinc for oxygen; but in the single cell there is no such exaltation of intensity.
+
+It may be said that the pulverulent platinum exalts the chemical energies of the gases, but this I think is inconsistent with all we know of the catalytic action of platinum; all the
 
 ## PDF page 364
 
@@ -21582,54 +20685,15 @@ tion of the substances comprised under the vague designation
 
 ## PDF page 365
 
-Nitrogen contained in Alimentary Substances. 351
-of alimentary bodies, has in an equal degree represented the
-essential differences in their chemical composition and their
-physiological effects, or has presented to the eye of the mind
-the important part which these substances perform, as the
-above-mentioned distinction, which is also identical with that
-of azotised and non-azotised bodies.
-In order to give some indication of the state of confusion
-which existed, even in this most elementary proposition of
-dietetics, previous to that distinction being made, it may not
-be more than necessary to mention the idea of that classical
-author, Dr. Prout*, that the nutritive power is in direct pro-
-portion to the quantity of carbon. At the present day not a
-single fact is known which can support the idea of the animal
-body being able to form azotised from non-azotised substances,
--possibly, under the influence of ammonia or of nitrogen
-from the atmosphere; on the contrary, all experiments, as
-well as daily observation, seem to prove the absolute neces-
-sity of azotised food for the preservation of the individual.
-Chemistry has likewise demonstrated the presence of a more
-or less high, but constant proportion of nitrogen in all the
-tissues and fluids of the animal body, while in all those sub-
-stances which, according to our modern ideas, are the most
-nutritive, namely, the proteine compounds, the carbon is pre-
-sent in medium quantity. Those substances esteemed by
-Prout the most nourishing, because richest in carbon, as the
-fats and oils, must be altogether excluded from the list of re-
-productive bodies, except in so far as fatty matter is necessary
-to the formation of animal cells. The chemical physiologist
-could make use of the theory of Prout, in measuring the
-fitness of the bodies necessary to respiration, if along with
-the carbon could be taken into account the quantity of com-
-bustible or unoxidized hydrogen contained in them; but for
-those substances, which in the strict sense of the word are ca-
-pable of being transformed into blood and animal tissue, ac-
-cording to our present knowledge, the capability for these
-purposes may be estimated relatively by the amount of nitro-
-This has been already done to a certain extent by the
-gen.
-researches of several chemists and physiologists, but, so far as
-we are aware, it has been confined to vegetables; and it there-
-fore appeared to us not to be without interest to make use of
-the same principle in extending the investigation to the various
-alimentary substances taken from the animal kingdom, and so
-to give to the physiologist a basis founded on facts in a de-
-* See Mayo's Outlines of Human Physiology, p. 206, second edition.
-London, 1829.
-the transfer of the total and the terms of the terms of the terms of the terms of the terms of the terms of the terms of the terms of the terms of the terms of the terms of the terms of the terms of the terms of the terms
+Nitrogen contained in Alimentary Substances.
+
+351
+
+of alimentary bodies, has in an equal degree represented the essential differences in their chemical composition and their physiological effects, or has presented to the eye of the mind the important part which these substances perform, as the above-mentioned distinction, which is also identical with that of azotised and non-azotised bodies.
+
+In order to give some indication of the state of confusion which existed, even in this most elementary proposition of dietetics, previous to that distinction being made, it may not be more than necessary to mention the idea of that classical author, Dr. Prout*, that the nutritive power is in direct proportion to the quantity of carbon. At the present day not a single fact is known which can support the idea of the animal body being able to form azotised from non-azotised substances,—possibly, under the influence of ammonia or of nitrogen from the atmosphere; on the contrary, all experiments, as well as daily observation, seem to prove the absolute necessity of azotised food for the preservation of the individual. Chemistry has likewise demonstrated the presence of a more or less high, but constant proportion of nitrogen in all the tissues and fluids of the animal body, while in all those substances which, according to our modern ideas, are the most nutritive, namely, the proteine compounds, the carbon is present in medium quantity. Those substances esteemed by Prout the most nourishing, because richest in carbon, as the fats and oils, must be altogether excluded from the list of reproductive bodies, except in so far as fatty matter is necessary to the formation of animal cells. The chemical physiologist could make use of the theory of Prout, in measuring the fitness of the bodies necessary to respiration, if along with the carbon could be taken into account the quantity of combustible or unoxidized hydrogen contained in them; but for those substances, which in the strict sense of the word are capable of being transformed into blood and animal tissue, according to our present knowledge, the capability for these purposes may be estimated relatively by the amount of nitrogen. This has been already done to a certain extent by the researches of several chemists and physiologists, but, so far as we are aware, it has been confined to vegetables; and it therefore appeared to us not to be without interest to make use of the same principle in extending the investigation to the various alimentary substances taken from the animal kingdom, and so to give to the physiologist a basis founded on facts in a de-
+
+* See Mayo's Outlines of Human Physiology, p. 206, second edition. London, 1829.
 
 ## PDF page 366
 
@@ -21897,59 +20961,35 @@ Common eel, Anguilla vulgaris.—The flesh of this fish is
 
 ## PDF page 370
 
-356 Messrs. Schlossberger and Kemp on the Proportion of
-poorer in nitrogen than any of the others which we have exa-
-mined, in consequence of the large quantity of fat or wil it
-contains; indeed, during the whole desiccation it was floating
-of facts, anising probably from accolonic and find a ni
-XVI. 0.345 grm. of raw eel's flesh gave 0.379 grm. of
-ammonio-chloride of platinum, equal to 6:91 per cent. of ni-
-trogen.
-proved the formation of uside or concer-
-XVII. 0.306 grm. of boiled eel's flesh gave 0.329 grm. of
-ammonio-chloride of platinum, equal to 6.82 per cent, of ini-
-trogen.
-Jugar
-XVIII. 0.293 grm. of eel's flesh, which had been previ-
-ously washed with distilled water and afterwards boiled in al-
-cohol as long as any matter separated, yielded 0:667 grm.
-of ammonio-chloride of platinum, equal to 14:45 per cent.
-of nitrogen, a quantity as great as that from the higher ani-
-mals.
-equal to 14.28 per cent, of introven.
-XIX. 0.274 grm. of the flesh of the salmon, Salmo Fario,
-gave 0.533 grm. of ammonio-chloride of platinum, equal to
-12.35 per cent. of nitrogen.
-trogen.
-XX. 0.286 grm. of boiled salmon gave 0.437 grm. of am-
-monio-chloride of platinum, equal to 9:70 per cent. of nitro-
-per cent, of introgen.
-gen.
-XXI. 0.319 grm. of the purified muscular fibre of the sal-
-mon gave 0.785 grm. of ammonio-chloride of platinum, equal
-to 15.62 per cent. of nitrogen, to the dum 211.0 .112 XX.
-XXII. 0.271 grm. of the raw herring, Clupea Harengus,
-gave 0.590 grm. of ammonio-chloride of platinum, equal to
-14.48 per cent. of nitrogen.
-XXIII. 0.314 grm. of boiled herring gave 0.636 grm. of
-ammonio-chloride of platinum, equal to 12.85 per cent, of ni-
-XXXII. 0.407 grm of the from 1 to
-trogen.
-XXIV. 0.350 grm. of purified muscle of the herring gave
-0.802 grm. of ammonio-chloride of platinum, equal to 14:54
-per cent. of nitrogen. I that a saled at hel gre ew and land
-XXV. 0.4065 grm. of the milt of the herring gave 0.940
-grm. of ammonio-chloride of platinum, equal to 14:69 per
-cent. of nitrogen. This substance is therefore as nutritive as
-the muscular parts of the fish, containing the same amount of
-nitrogen. Lust a ser a college of the first of the series of the series of the series of the series of the series of the series of the series of the series of the series of the series of the series of the series of the ser
-XXVI. 0.316 grm. of the flesh of the haddock, Æglefinus
-communis, gave 0.729 grm. of ammonio-chloride of platinum,
-equal to 14.64 per cent. of nitrogen. the to the rolling our or notion.
-XXVII. 0.331 grm. of boiled haddock gave 0.677 grm. of
-ammonio-chloride of platinum, equal to 12.98 per cent. of nitro-
-gen. Whereas in the case of the herring, salmon, haddock, and
-eel, the proportion of nitrogen was considerably diminished
+356
+
+Messrs. Schlossberger and Kemp on the Proportion of
+
+poorer in nitrogen than any of the others which we have examined, in consequence of the large quantity of fat or oil it contains; indeed, during the whole desiccation it was floating in a liquid fat.
+
+XVI. 0·345 grm. of raw eel's flesh gave 0·379 grm. of ammonio-chloride of platinum, equal to 6:91 per cent. of nitrogen.
+
+XVII. 0·306 grm. of boiled eel's flesh gave 0·329 grm. of ammonio-chloride of platinum, equal to 6·82 per cent. of nitrogen.
+
+XVIII. 0·293 grm. of eel's flesh, which had been previously washed with distilled water and afterwards boiled in alcohol as long as any matter separated, yielded 0·667 grm. of ammonio-chloride of platinum, equal to 14·45 per cent. of nitrogen, a quantity as great as that from the higher animals.
+
+XIX. 0·274 grm. of the flesh of the salmon, Salmo Fario, gave 0·533 grm. of ammonio-chloride of platinum, equal to 12·35 per cent. of nitrogen.
+
+XX. 0·286 grm. of boiled salmon gave 0·437 grm. of ammonio-chloride of platinum, equal to 9·70 per cent. of nitrogen.
+
+XXI. 0·319 grm. of the purified muscular fibre of the salmon gave 0·785 grm. of ammonio-chloride of platinum, equal to 15·62 per cent. of nitrogen.
+
+XXII. 0·271 grm. of the raw herring, Clupea Harengus, gave 0·590 grm. of ammonio-chloride of platinum, equal to 14·48 per cent. of nitrogen.
+
+XXIII. 0·314 grm. of boiled herring gave 0·636 grm. of ammonio-chloride of platinum, equal to 12·85 per cent. of nitrogen.
+
+XXIV. 0·350 grm. of purified muscle of the herring gave 0·802 grm. of ammonio-chloride of platinum, equal to 14·54 per cent. of nitrogen.
+
+XXV. 0·4065 grm. of the milt of the herring gave 0·940 grm. of ammonio-chloride of platinum, equal to 14·69 per cent. of nitrogen. This substance is therefore as nutritive as the muscular parts of the fish, containing the same amount of nitrogen.
+
+XXVI. 0·316 grm. of the flesh of the haddock, Æglefinus communis, gave 0·729 grm. of ammonio-chloride of platinum, equal to 14·64 per cent. of nitrogen.
+
+XXVII. 0·331 grm. of boiled haddock gave 0·677 grm. of ammonio-chloride of platinum, equal to 12·98 per cent. of nitrogen. Whereas in the case of the herring, salmon, haddock, and eel, the proportion of nitrogen was considerably diminished
 
 ## PDF page 371
 
@@ -22329,65 +21369,47 @@ and the second of the Author. All the second of the Author.
 
 ## PDF page 377
 
-To musthe Sums of Neutral Series. Jord
+the Sums of Neutral Series.
+
 363
-Animal (continued).
-<math>+x^2-x^3+8c</math> isda to endil
-Yeal, ran
-<math>1^{n+1}</math>
-100
-.. .. .. ..
-bohoc .1.
-985
-<math>\frac{1}{1+x}</math>
-<math>1+x</math>
-Beek, raw
-the accuracy of which expression, under all circumstances as
-to the values of x and n, this latter being a whole number, is)
-universally admitted. It is also allowed, when <math>n</math> is infinite,
-that all the convergent cases of the series, short of the extreme
-case <math>x = 1</math>, are comprised in the single fraction <math>\frac{2n^{1}}{1+x}</math>.
-Now
-X 10 37011
-although I hold it to be an axiom, that if the expression suf-
-fice for all cases, short of the extreme case, it must of necessity
-suffice for that too, yet it may be well to show the entire con-
-sistency of this truth with the general expression [1.] for <math>n =</math>
-infinite.
-chordrine
-0.0
-In order to this, let <math>1 - \frac{1}{k}</math> be put for x; then it is plain
-that we shall commit no error if for <math>n+1</math> we write <math>k \cdot \infty'</math>; so that the sum of the infinite series
-J. K. 101 N . Professor in
-<math display="block">1 - \left(1 - \frac{1}{k}\right) + \left(1 - \frac{1}{k}\right)^2 - \frac{1}{k}</math>
-<math display="block">1 - \left(1 - \frac{1}{k}\right) + \left(1 - \frac{1}{k}\right)^2 - \frac{1}{k}</math>
-<math display="block">1 - \left(1 - \frac{1}{k}\right) + \left(1 - \frac{1}{k}\right)^2 - \frac{1}{k}</math>
-<math display="block">1 - \left(1 - \frac{1}{k}\right) + \left(1 - \frac{1}{k}\right)^2 - \frac{1}{k}</math>
-<math display="block">1 - \left(1 - \frac{</math>
-<math>\left(1-\frac{1}{k}\right)</math>
-will be correctly expressed by + 1 - 1 + 1 - 1 zarras att
-and electrist of this serve to infinite is neces-
-it ak last d
-overnound and the work charac-
-VIII :
-er of it is be ready + 1 here if the er of mis-
-take ansure in another direction, for the been affirmed that whatever be the value of k.
-Take now the extreme case, <math>k=\infty</math>, which in fact is that of
-<math>x=1</math>, and we have
-the cer verging enges of the congrul at
-00 00 /
-1-1
-it communication to point out the
-the et the w. in a lotice the licennstarges which
-The old of ( The old of the ories
-111 / 111/
-But it is well known that <math>\left(1 + \frac{1}{1 + \infty}\right)^{\infty} = \frac{1}{e}</math>, and that <math>\left(\frac{1}{e}\right)^{\infty}</math>
-00 /
-= 0, consequently on the visit of the sound grite that the sound sound the sound sound that the sound sound that the sound sound that the sound sound that the sound sound that the sound sound that the sound sound that the 
-terminate . •• <math>\frac{1}{2} = \frac{1}{2} \left( \frac{1}{2} \left( \frac{1}{2} \right)^{2} + \frac{1}{2} \left( \frac{1}{2} \left( \frac{1}{2} \right)^{2} \right) + \frac{1}{2} \left( \frac{1}{2} \left( \frac{1}{2} \right)^{2} \right) + \frac{1}{2} \left( \frac{1}{2} \left( \frac{1}{2} \right)^{2} \right) + \frac{1}{2} \left( \frac{1}{2} \left( \frac{1}{2} </math>
-The extreme case of the general series <math>1-x+x^2-x^3+\&c.</math>,
-which we have here been considering, the case namely of
-<math>x=1</math>, has been considered exclusively in reference to its con-
+
+\[
++ x ^ {2} - x ^ {3} + \& \mathrm{c,is}
+\]
+
+\[
+\frac {1}{1 + x} - \frac {(- x) ^ {n + 1}}{1 + x}, \dots \text {beh} ^ {d} [ 1. ]
+\]
+
+the accuracy of which expression, under all circumstances as to the values of \( x \) and \( n \), this latter being a whole number, is universally admitted. It is also allowed, when \( n \) is infinite, that all the convergent cases of the series, short of the extreme case \( x = 1 \), are comprised in the single fraction \( \frac{1}{1 + x} \). Now although I hold it to be an axiom, that if the expression suffice for all cases, short of the extreme case, it must of necessity suffice for that too, yet it may be well to show the entire consistency of this truth with the general expression [1.] for \( n = \) infinite.
+
+In order to this, let \( 1 - \frac{1}{k} \) be put for \( x \); then it is plain that we shall commit no error if for \( n + 1 \) we write \( k \cdot \infty' \); so that the sum of the infinite series
+
+\[
+1 - \left(1 - \frac {1}{k}\right) + \left(1 - \frac {1}{k}\right) ^ {2} - \left(1 - \frac {1}{k}\right) ^ {3} + \dots \dots \left(1 - \frac {1}{k}\right) ^ {\infty},
+\]
+
+will be correctly expressed by
+
+\[
+\mathrm{S} = \frac {1}{1 + \left(1 - \frac {1}{k}\right)} \left\{\frac {-}{1} \left(1 - \frac {1}{k}\right) \right\} k. \infty^ {\prime},
+\]
+
+whatever be the value of k.
+
+To Take now the extreme case, \( k = \infty \), which in fact is that of \( x = 1 \), and we have
+
+\[
+\mathrm{S} = \frac {1}{1 + \left(1 - \frac {1}{\infty}\right)} \frac {\left\{- \left(1 - \frac {1}{\infty}\right) \right\} ^ {\infty}}{1 + \left(1 - \frac {1}{\infty}\right)}.
+\]
+
+But it is well known that \(\left(1 - \frac{1}{\infty}\right)^{\infty} = \frac{1}{e}\), and that \(\left(\frac{1}{e}\right)^{\infty}\), \(= 0\), consequently
+
+\[
+\mathrm{S} = \frac {1}{1 + \left(1 - \frac {1}{\infty}\right)} - \frac {0}{1 + \left(1 - \frac {1}{\infty}\right)} = \frac {1}{2}.
+\]
+
+The extreme case of the general series  \( 1 - x + x^{2} - x^{3} + \&c. \) , which we have here been considering, the case namely of x = 1, has been considered exclusively in reference to its con-
 
 ## PDF page 378
 
@@ -22480,168 +21502,92 @@ the assumed connexion actually exists, that the unique value,
 ## PDF page 380
 
 366
+
 Dr. Stenhouse on the Oil produced by the
-usually attributed to the series, ought to be admitted, and then
-it may be admitted with perfect confidence. This I now pro-
-cooling. It quantity owever i extreme .yildques ot besc
+
+usually attributed to the series, ought to be admitted, and then it may be admitted with perfect confidence. This I now proceed to exemplify.
+
 [To be continued.]
-Per cent.
-file to the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the st
-LV. On the Oil produced by the Action of Chlorine on Cin-
-namic Acid. By John Stenhouse, Ph.D.*
-N a paper on the Action of Chloring on Cinnamic and Ben-
-zoic Acids, published in the August number of this Ma-
-gazine, I described the formation and some of the properties
-of a remarkable oily compound which is invariably formed
-whenever cinnamic acid is heated in contact with either chlo-
-rine or hypochlorous acid. I shall now proceed to detail
-some additional observations which I have been able subse-
-quently to make upon the oil; but as the mode of its forma-
-tion has been pretty fully described in the previous paper, I
-do not think it necessary to repeat it here. a zaw ho sit aA
-The oil is heavier than water and has a very peculiar aro-
-matic smell, which reminds one at once of the oil of bitter al-
-monds and of that of Spira Ulmaria, though it is not exactly
-like either of these bodies. When strongly heated, it readily
-catches fire, burns with a green-coloured flame, and emits
-fumes of muriatic acid gas. When boiled with potash lye, it
-is partially decomposed with the formation of chloride of po-
-tassium. When some bits of sodium are put into it, bubbles
-of a gas, apparently hydrogen, are given off, the oil becoming
-hot and inflaming with explosion. Ammonia does not appear
-to act upon it, either in the liquid or gaseous state. Sulphu-
-ric acid does not dissolve it in the cold, but with the assistance
-of heat first reddens and then chars it. A portion of the oil,
-which had been rendered anhydrous by being allowed to stand
-for some days over a mixture of quicklime and fused chloride
-of calcium, was then very cautiously distilled. The first por-
-tion which came over was colourless and neutral, but what
-followed became more and more acid, the last portions exceed-
-ingly so, evolving fumes of muriatic acid and assuming a deep
-yellow colour. The first portion of the oil which had been
-dried in this way was subjected to analysis. The chlorine con-
-tained in the oil was determined by passing it very slowly over
-a large quantity of red-hot quicklime in a very long tube.
-Unless great care is taken to conduct this operation very
-slowly, the oil passes over the hot lime without giving up all
-its chlorine. When a condensing apparatus is attached to the
-open end of the combustion-tube containing the lime, an agree-
-the Author. The Communicated by the Author.
+
+LV. On the Oil produced by the Action of Chlorine on Cinnamic Acid. By JOHN STENHOUSE, Ph.D.*
+
+IN a paper on the Action of Chlorine on Cinnamic and Benzoic Acids, published in the August number of this Magazine, I described the formation and some of the properties of a remarkable oily compound which is invariably formed whenever cinnamic acid is heated in contact with either chlorine or hypochlorous acid. I shall now proceed to detail some additional observations which I have been able subsequently to make upon the oil; but as the mode of its formation has been pretty fully described in the previous paper, I do not think it necessary to repeat it here.
+
+The oil is heavier than water and has a very peculiar aromatic smell, which reminds one at once of the oil of bitter almonds and of that of Spiraea Ulmaria, though it is not exactly like either of these bodies. When strongly heated, it readily catches fire, burns with a green-coloured flame, and emits fumes of muriatic acid gas. When boiled with potash lye, it is partially decomposed with the formation of chloride of potassium. When some bits of sodium are put into it, bubbles of a gas, apparently hydrogen, are given off, the oil becoming hot and inflaming with explosion. Ammonia does not appear to act upon it, either in the liquid or gaseous state. Sulphuric acid does not dissolve it in the cold, but with the assistance of heat first reddens and then chars it. A portion of the oil, which had been rendered anhydrous by being allowed to stand for some days over a mixture of quicklime and fused chloride of calcium, was then very cautiously distilled. The first portion which came over was colourless and neutral, but what followed became more and more acid, the last portions exceedingly so, evolving fumes of muriatic acid and assuming a deep yellow colour. The first portion of the oil which had been dried in this way was subjected to analysis. The chlorine contained in the oil was determined by passing it very slowly over a large quantity of red-hot quicklime in a very long tube. Unless great care is taken to conduct this operation very slowly, the oil passes over the hot lime without giving up all its chlorine. When a condensing apparatus is attached to the open end of the combustion-tube containing the lime, an agree-
+
+* Communicated by the Author.
 
 ## PDF page 381
 
-Action of Chlorine on Cinnamio Acid.
-367
-ably smelling oily liquid collects in it. Its smell resembles
-that of the other benzyle compounds, and it crystallizes on
-cooling. Its quantity however is extremely small.
-lo be continued
-Her cent.
-1. <math>0.5533</math> oil distilled over quicklime gave <math>0.5515</math> Cl Ag = <math>24.58</math> Cl
-2. 0.259 grm. gave 0.259 C[ Ag Mean ...... 24.62 C]
-4 (1 het
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
-37 1
-a. 0.3201 grm. burned with chromate of lead gave 0.1395 HO and 0.793 CO<sub>2</sub>.
-b. 0.2569 burned with chromate of lead gave 0.1145 HO
-and 0.632 carbonic acid.
-of a remarkable oily compound which
-<math>a</math>.
-67.09
-old? 19 11 Carbon 190 67.56
-1211 41
-4.84
-4.95 4.95
-Hydrogen.
-24.62
-Chlorine ..
-24.62
-quently to a
-96.66
-97:02
+Action of Chlorine on Cinnamic Acid.
 
-TOU
-As the oil was always partially decomposed when distilled
-off fused chloride of calcium, another portion of it was re-
-peatedly rectified with the vapour of water. The oil then
-came over quite colourless and neutral. This operation also
-freed it from a quantity of resinous matter which very readily
-forms in it. 11 The purified oil, when freed from water as well
-as possible, was still more completely dried by being kept for
-some weeks over sulphuric acid in vacuo. (The sulphuric acid
-on standing smelt strongly of oil of bitter almonds. ...................................
-0.2781 oil well-washed with water and dried under the air-
-pump, gave 0.702 carbonic acid and 0.134 HO. ishu bus od
--11 0:2602 oil gave 0:2245 Cl Ag = 24:17 Cl per cent. 11 10: 01
-onat a sa add the Carbon ... if, if 68.84 sent the as a tance
-ha edi to noi ron Hydrogen and 5.35 millioned to all' to stati to stati to stati to stati to stati to stati to stati della di con to stati della di con to stati della di con to stati della di con to stati della di con to s
-िर हताबुद्ध तीतुर तहा, या वा साथ वार
-A second quantity of the oil was prepared in a similar way,
-and also dried in vacuo over sulphuric acid.
-a. 0.4149 oil gave 0.3065 Cl Ag = 18.22 Cl per cent. Mean.
-b. 0.256 oil gave 0.192 Cl Ag = <math>18.50</math> Cl per cent. <math>\int 18.36</math>
-c. 0.4193 gave 0.202 HO and 1.0835 carbonic acid.
-d. 0.357 gave 0.1795 HO and 0.9242 carbonic acid.
-Carbon . . . 70.47 70.62 The part to
-Hydrogen 5.35 5.57 1 10 3
-When the chlorinated oil is treated with strong nitric acid,
-it is readily attacked with copious evolution of deutoxide of
-nitrogen; and at the same time a very pungent disagreeable
+367
+
+ably smelling oily liquid collects in it. Its smell resembles that of the other benzyle compounds, and it crystallizes on cooling. Its quantity however is extremely small.
+
+Per cent.
+
+1. 0·5533 oil distilled over quicklime gave 0·5515 Cl Ag = 24·58 Cl
+
+2. 0·259 grm. gave 0·259 Cl Ag =24·67 Cl
+
+Mean ..... 24·62 Cl
+
+a. 0·3201 grm. burned with chromate of lead gave 0·1395 HO and 0·793 CO₂.
+
+b. 0·2569 burned with chromate of lead gave 0·1145 HO and 0·632 carbonic acid.
+
+<table><tr><td></td><td>a.</td><td>b.</td></tr><tr><td>Carbon.</td><td>67·56</td><td>67·09</td></tr><tr><td>Hydrogen.</td><td>4·84</td><td>4·95</td></tr><tr><td>Chlorine.</td><td>24·62</td><td>24·62</td></tr><tr><td></td><td>97·02</td><td>96·66</td></tr></table>
+
+As the oil was always partially decomposed when distilled off fused chloride of calcium, another portion of it was repeatedly rectified with the vapour of water. The oil then came over quite colourless and neutral. This operation also freed it from a quantity of resinous matter which very readily forms in it. The purified oil, when freed from water as well as possible, was still more completely dried by being kept for some weeks over sulphuric acid in vacuo. The sulphuric acid on standing smelt strongly of oil of bitter almonds.
+
+0·2781 oil well-washed with water and dried under the air-pump, gave 0·702 carbonic acid and 0·134 HO.
+
+0·2602 oil gave 0·2245 Cl Ag = 24·17 Cl per cent.
+
+Carbon .68·84
+
+Hydrogen . 5·35
+
+Chlorine 24·17
+
+A second quantity of the oil was prepared in a similar way, and also dried in vacuo over sulphuric acid.
+
+a. 0·4149 oil gave 0·3065 Cl Ag=18·22 Cl per cent. ] Mean.
+
+b. 0·256 oil gave 0·192 Cl Ag = 18·50 Cl per cent. ∫18·36
+
+c. 0·4193 gave 0·202 HO and 1·0835 carbonic acid.
+
+d. 0·357 gave 0·1795 HO and 0·9242 carbonic acid.
+
+<table><tr><td></td><td>c.</td><td>d.</td></tr><tr><td>Carbon</td><td>70·47</td><td>70·62</td></tr><tr><td>Hydrogen</td><td>5·35</td><td>5·57</td></tr><tr><td>Chlorine</td><td>18·36</td><td>18·36</td></tr></table>
+
+When the chlorinated oil is treated with strong nitric acid, it is readily attacked with copious evolution of deutoxide of nitrogen; and at the same time a very pungent disagreeable
 
 ## PDF page 382
 
 368
+
 On the Action of Chlorine on Cinnamic Acid.
-vapour, which affects the eyes strongly, is given off. When the
-liquid is concentrated and allowed to cool, the oil is found to
-be converted into a crystalline mass. The crystals were purified by being repeatedly crystallized; they had a strong acid
-reaction and were very soluble, both in hot water and in al-
-cohol, out of which liquids they crystallized very readily.
-When dried at 212° F. and subjected to analysis, 0.2128 grm.
-substance gave 0.388 CO and 0.06 HO let not less the
-days of behard own Calculated numbers. The condition of the condition of the condition of the condition of the condition of the condition of the condition of the condition of the condition of the condition of the condition
-- Sankan Hydrogen of 5th u2.99 bombord od 13.18a banod
-tut; much muriatic acid 174.8 given pil and Nitrogen und Nitrogen Co. Mittogen Co. Oxygen Co. May Co. May Co. May Co. May Co. May Co. May Co. May Co. May Co. May Co. May Co. May Co. May Co. May Co. May Co. May Co. May Co. 
-100.00
-The silver salt was prepared by neutralizing the acid with
-ammonia and precipitating the solution with nitrate of silver.
-The salt formed a rather bulky precipitate.
-a. 0.2225 of the silver salt gave 0.0844 metallic silver
-= 38.83 per cent. oxide; the calculated quantity is 39.12 per
-b. 0.2985 of the silver salt gave 0.329 carbonic acid and
-0.041 water.
-12 1 1 2 2 2 2 2
-predomining of sod
-Calculated.
-Found.
-Carbon .
-30.06 30.60 1.45 1.45 20.12
-Hydrogen
-39.12 oll man
-114 2
-Oxide of silver .
-38.83
-selves) ter
-It is evident from the results of these analyses that the acid
-and the salt have precisely the composition of nitrobenzoic
-acid and its silver salt, with the character of which substances
-they exactly correspond. I am induced to believe, therefore,
-that the oil is essentially a carburetted hydrogen belonging to
-the benzoic acid series, in which variable quantities of the hy-
-drogen are replaced by chlorine; and that the small quantity
-of oxygen it contains, amounting in some instances to little
-more than two per cent., is the result of foreign admixture.
-The most probable source of this impurity is a little oil of
-bitter almonds, for, so far as we know, oil of bitter almonds is
-always generated whenever cinnamic acid is treated with an
-oxidizing agent; at least it is so when cinnamic acid is boiled
-with peroxide of lead, with chromic acid, or with sulphuric
-acid and peroxide of manganese, or any other hyperoxide.
-This view of the constitution of the chlorinated oil is strongly
-confirmed by the effect of nitric acid upon it, which, as we
-have seen, converts it into nitrobenzoic acid. Now nitric acid,
-as is well known, also converts oil of bitter almonds into nitro-
-Plane Mary Republican November 1988
+
+vapour, which affects the eyes strongly, is given off. When the liquid is concentrated and allowed to cool, the oil is found to be converted into a crystalline mass. The crystals were purified by being repeatedly crystallized; they had a strong acid reaction and were very soluble, both in hot water and in alcohol, out of which liquids they crystallized very readily.
+
+When dried at 212°F. and subjected to analysis, 0·2128 grm. substance gave 0·388 CO₂ and 0·061 HO.
+
+Calculated numbers.
+
+<table><tr><td></td><td>Atoms.</td><td>per cent.</td><td>Found.</td></tr><tr><td>Carbon</td><td>14</td><td>50·25</td><td>49·72</td></tr><tr><td>Hydrogen</td><td>5</td><td>2·99</td><td>3·18</td></tr><tr><td>Nitrogen</td><td>1</td><td>8·47</td><td></td></tr><tr><td>Oxygen</td><td>8</td><td>38·29</td><td></td></tr><tr><td></td><td></td><td>100·00</td><td></td></tr></table>
+
+The silver salt was prepared by neutralizing the acid with ammonia and precipitating the solution with nitrate of silver. The salt formed a rather bulky precipitate.
+
+a. 0·2225 of the silver salt gave 0·0844 metallic silver = 38·83 per cent. oxide; the calculated quantity is 39·12 per cent. oxide.
+
+b. 0·2985 of the silver salt gave 0·329 carbonic acid and 0·041 water.
+
+<table><tr><td></td><td>Found.</td><td>Calculated.</td></tr><tr><td>Carbon</td><td>30·06</td><td>30·60</td></tr><tr><td>Hydrogen</td><td>1·52</td><td>1·45</td></tr><tr><td>Oxide of silver</td><td>38·83</td><td>39·12</td></tr></table>
+
+It is evident from the results of these analyses that the acid and the salt have precisely the composition of nitrobenzoic acid and its silver salt, with the character of which substances they exactly correspond. I am induced to believe, therefore, that the oil is essentially a carburetted hydrogen belonging to the benzoic acid series, in which variable quantities of the hydrogen are replaced by chlorine; and that the small quantity of oxygen it contains, amounting in some instances to little more than two per cent., is the result of foreign admixture. The most probable source of this impurity is a little oil of bitter almonds, for, so far as we know, oil of bitter almonds is always generated whenever cinnamic acid is treated with an oxidizing agent; at least it is so when cinnamic acid is boiled with peroxide of lead, with chromic acid, or with sulphuric acid and peroxide of manganese, or any other hyperoxide. This view of the constitution of the chlorinated oil is strongly confirmed by the effect of nitric acid upon it, which, as we have seen, converts it into nitrobenzoic acid. Now nitric acid, as is well known, also converts oil of bitter almonds into nitro-
 
 ## PDF page 383
 
@@ -22927,55 +21873,23 @@ In subsequent experiments, oxygen prepared in the manner
 
 ## PDF page 388
 
-Mr. Williamson on Ozone.
 374
-just described was dried and passed through a small glass tube,
-heated to redness by a spirit-lamp; on coming out of which
-it had completely lost all odour. At the end of this tube a
-chloride of calcium tube was then fixed, which had been accu-
-rately weighed. It was not such as me ser them returned to the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the
-After the oxygen was conducted for a short time through
-the heated tube, the chloride of calcium tube was found to
-have increased perceptibly in weight. The distant hotlant
-Water through which oxygen, charged with ozone was al-
-lowed to pass assumed the odour of it. When this solution of
-ozone was added to a solution of iodide of potassium and
-starch, a pale blue colour was produced; ferro-cyanide of
-potassium containing ozone gave a blue precipitate with a
-proto-salt of iron. Lime water formed with the solution of
-ozone a heavy and apparently crystalline precipitate. Baryta
-water behaved in a similar manner. The liquid after the pre-
-cipitation gave no reaction with iodide of potassium and starch;
-but on an acid being added, a blue colour immediately ap-
-peared. The odour did not reappear.
-Oxygen charged with ozone was next passed through a tube
-surrounded by a frigoric mixture consisting of chloride of cal-
-cium and snow; but nothing perceptible was deposited.
-The following experiments were made for the purpose of
-ascertaining whether, as has been assumed, the substance
-causing the ozone odour is also produced by the action of
-phosphorus on atmospheric air.
-Through a glass tube filled with pieces of phosphorus a
-current of moist atmospheric air was driven by means of a
-gasometer; it assumed the peculiar odour so well known to
-accompany phosphorus. Water, through which this air was
-then allowed to pass for a considerable time, remained inodo-
-rous, gave not the slightest reaction with iodide of potassium
-and starch, left ferro-cyanide of potassium unchanged, and
-gave all the reactions of a dilute solution of phosphoric acid.
-On repeating this experiment it was performed in a some-
-what different manner. The air which had passed over phos-
-phorus was allowed to pass directly, into the iodide and
-starch, and a deep blue reaction soon ensued in that part of
-the liquid on which the bubbles in passing through first acted;
-and was increased, in a greater proportion to the air passing
-through, when a rapid current of air was driven over the
-phosphorus instead of a slow one. On again, as in the
-former instance, passing the air through water and then treat-
-ing the latter with iodide of potassium and starch, no reaction
-was obtained. We have here an evident difference between
-the reactions of the substance contained in the electrolytic
-2 41
+
+Mr. Williamson on Ozone.
+
+just described was dried and passed through a small glass tube, heated to redness by a spirit-lamp; on coming out of which it had completely lost all odour. At the end of this tube a chloride of calcium tube was then fixed, which had been accurately weighed.
+
+After the oxygen was conducted for a short time through the heated tube, the chloride of calcium tube was found to have increased perceptibly in weight.
+
+Water through which oxygen charged with ozone was allowed to pass assumed the odour of it. When this solution of ozone was added to a solution of iodide of potassium and starch, a pale blue colour was produced; ferro-cyanide of potassium containing ozone gave a blue precipitate with a proto-salt of iron. Lime water formed with the solution of ozone a heavy and apparently crystalline precipitate. Baryta water behaved in a similar manner. The liquid after the precipitation gave no reaction with iodide of potassium and starch; but on an acid being added, a blue colour immediately appeared. The odour did not reappear.
+
+Oxygen charged with ozone was next passed through a tube surrounded by a frigoric mixture consisting of chloride of calcium and snow; but nothing perceptible was deposited.
+
+The following experiments were made for the purpose of ascertaining whether, as has been assumed, the substance causing the ozone odour is also produced by the action of phosphorus on atmospheric air.
+
+Through a glass tube filled with pieces of phosphorus a current of moist atmospheric air was driven by means of a gasometer; it assumed the peculiar odour so well known to accompany phosphorus. Water, through which this air was then allowed to pass for a considerable time, remained inodorous, gave not the slightest reaction with iodide of potassium and starch, left ferro-cyanide of potassium unchanged, and gave all the reactions of a dilute solution of phosphoric acid.
+
+On repeating this experiment it was performed in a somewhat different manner. The air which had passed over phosphorus was allowed to pass directly into the iodide and starch, and a deep blue reaction soon ensued in that part of the liquid on which the bubbles in passing through first acted; and was increased, in a greater proportion to the air passing through, when a rapid current of air was driven over the phosphorus instead of a slow one. On again, as in the former instance, passing the air through water and then treating the latter with iodide of potassium and starch, no reaction was obtained. We have here an evident difference between the reactions of the substance contained in the electrolytic
 
 ## PDF page 389
 
@@ -23127,74 +22041,82 @@ distance from the point where the radius vector of the ring
 ## PDF page 392
 
 378 Mr. Hennessy on the Connexion between the Rotation of
-touches the axis be called A', then <math>x = A' (1 - \sin \Psi)</math>,
-<math>R = \sqrt{r^2 + a^2 \sin^2 \Psi}</math>. Thus, if <math>\rho</math> be given as a function of <math>a</math>
-or R, it can be expressed as a function of <math>r</math> and <math>\Psi</math>, or <math>\phi(r, \Psi)</math>.
-y, a function of x, can also be expressed as a function of <math>\Psi</math> or
-<math>F(\Psi)</math>, and (a) then becomes
-<math display="block">\Psi = \int_{\Psi_1}^{\Psi_1} \int_{0}^{\Psi_2} 2\pi \mathbf{A}' \phi(r, \Psi) r^3 \cos \Psi dr d\Psi. \quad (3.)</math>
-In the case of a spheroid, where A' is the semi-polar axis,
-and the plane of y, z coincides with the plane of the equator,
-<math>\Psi</math> is evidently the latitude of the ring, and <math>y = a(1+e)\cos\Psi</math>,
-e representing the ellipticity of the generating curve. If the
-earth be supposed to consist of an infinite number of sphe-
-roidal shells, it has been shown that the density of any shell
-which will agree best with the known ellipticity of the earth
-and its mean density, is represented by the formula*
-<math display="block">\rho = \frac{A \sin q \, a}{a},</math>
-where <math>\rho</math> represents the density of the shell, a its semi-polar
-axis, and A and <math>q</math> constants. The value assigned to <math>q</math> is ex-
-pressed by <math>q = \frac{5 \pi}{6 p}</math>, p representing the semi-polar axis of
-the entire spheroid. If I<sub>1</sub> represent the moment of inertia of
-the internal spheroid, then
-<math display="block">a = \frac{1}{(1+e)\cos\Psi}, \quad \vdots \quad \vdots \quad \vdots \quad \vdots \quad \vdots \quad \vdots \quad \vdots \quad \vdots \quad \vdots \quad </math>
-and the first three principles of the later than the same
-<math display="block">I_{1} = -\int_{\Psi_{0}}^{\Psi_{1}} \int_{0}^{b\cos\Psi} 2\pi A p r^{2} \cos^{2}\Psi \cdot (1+e) \sin\left(\frac{5\pi r}{6p(1+e)\cos\Psi}\right) dr d\Psi,</math>
-b representing the semi-equatorial axis of the entire spheroid.
-But†
-<math display="block">e = \frac{5m}{2} \left\{ \frac{\left(1 - \frac{qa}{\tan qa}\right)^{2}}{2 - \frac{qa}{\tan qa}} + \frac{qa}{\tan qa} - \frac{q^{2}a^{2}}{\tan^{2}qa} \right\} \left\{ \frac{1 - \frac{3}{q^{2}a^{2}} + \frac{3}{qa\tan qa}}{1 - \frac{qa}{\tan qa}} \right\}</math>
-To completely eliminate <math>e</math> and <math>a</math> between this equation and
-(4.), is a step which must be at present considered impossible.
-An approximate solution could be obtained, but the result-
-ing expression would be so long and complicated as to be
-entirely useless. To It is evident, however, that when e is small,
-its equality in every shell can be assumed without material
-error. Let e therefore be equal to the ellipticity of the exter-
-nal shell, so that
-Airy on the Figure of the Earth. It had all of Ibid. - 1 1 .
+
+touches the axis be called \( A' \), then \( x = A' (1 - \sin \Psi) \), \( R = \sqrt{r^2 + a^2 \sin^2 \Psi} \). Thus, if \( \rho \) be given as a function of \( a \) or \( R \), it can be expressed as a function of \( r \) and \( \Psi \), or \( \phi(r, \Psi) \). \( y \), a function of \( x \), can also be expressed as a function of \( \Psi \) or \( F(\Psi) \), and \( (a) \) then becomes
+
+\[
+- \int_ {\Psi_ {2}} ^ {\Psi_ {1}} \int_ {0} ^ {\mathrm{F} \Psi} 2 \pi \mathrm{A} ^ {\prime} \phi (r, \Psi) r ^ {3} \cos \Psi d r d \Psi . \tag {3.}
+\]
+
+In the case of a spheroid, where \( A' \) is the semi-polar axis, and the plane of \( y, z \) coincides with the plane of the equator, \( \Psi \) is evidently the latitude of the ring, and \( y = a(1 + e)\cos \Psi \), \( e \) representing the ellipticity of the generating curve. If the earth be supposed to consist of an infinite number of spheroidal shells, it has been shown that the density of any shell which will agree best with the known ellipticity of the earth and its mean density, is represented by the formula*
+
+\[
+\rho = \frac {\mathrm{A} \sin q a}{a},
+\]
+
+where \(\rho\) represents the density of the shell, \(a\) its semi-polar axis, and A and \(q\) constants. The value assigned to \(q\) is expressed by \(q = \frac{5\pi}{6p}\), \(p\) representing the semi-polar axis of the entire spheroid. If \(\mathbf{I}_1\) represent the moment of inertia of the internal spheroid, then
+
+\[
+a = \frac {r}{(1 + e) \cos \Psi}, \quad \therefore \quad \therefore \quad \therefore \quad \therefore \tag {4.}
+\]
+
+and
+
+\[
+\mathrm{I} _ {1} = - \int_ {\Psi_ {2}} ^ {\Psi_ {1}} \int_ {0} ^ {b \cos \Psi} 2 \pi A p r ^ {2} \cos^ {2} \Psi . (1 + e) \sin \left(\frac {5 \pi r}{6 p (1 + e) \cos \Psi}\right) d r d \Psi ,
+\]
+
+b representing the semi-equatorial axis of the entire spheroid. But†
+
+\[
+e = \frac {5 m}{2} \cdot \left\{\frac {\left(1 - \frac {q a}{\tan q a}\right) ^ {2}}{2 - q ^ {2} a ^ {2} - \frac {q a}{\tan q a} - \frac {q ^ {2} a ^ {2}}{\tan^ {2} q a}} \right\} \left\{\frac {1 - \frac {3}{q ^ {2} a ^ {2}} + \frac {3}{q a \tan q a}}{1 - \frac {q a}{\tan q a}} \right\}.
+\]
+
+To completely eliminate \( e \) and \( a \) between this equation and (4.), is a step which must be at present considered impossible.
+
+An approximate solution could be obtained, but the resulting expression would be so long and complicated as to be entirely useless. It is evident, however, that when \( e \) is small, its equality in every shell can be assumed without material error. Let \( e \) therefore be equal to the ellipticity of the external shell, so that
+
+* Airy on the Figure of the Earth. † Ibid.
 
 ## PDF page 393
 
 the Earth and the Geological Changes of its Surface. 379
-(5.) <math>\frac{1}{4} \cdot \frac{1}{4} \cdot \frac{1}{4} \cdot \frac{1}{4} \cdot \frac{1}{4} \cdot \frac{1}{4} \cdot \frac{1}{4} \cdot \frac{1}{4} \cdot \frac{1}{4} \cdot \frac{1}{4} \cdot \frac{1}{4} \cdot \frac{1}{4} \cdot \frac{1}{4} \cdot \frac{1}{4} \cdot \frac{1}{4} \cdot \frac{1}{4} \cdot \frac{1}{4} \cdot \frac{1}{4} \cdot \frac{1}{4} \cdot \frac{1}{4} \cdot \frac{1}{4} \cdot \frac{1}{</math>
-then then the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the
-<math>(2-2\pi\Lambda\left\{\frac{5}{3}\pi\sin\frac{5}{6}\pi-2-\left(\frac{25}{36}\pi^2-2\right)\cos\frac{5}{6}\pi\right\}\frac{216}{125\pi^3}\int_{\Psi}^{\Psi}b^4\cos^5\Psi d\Psi.</math>
-When <math>\Psi_1 \cong \frac{\pi}{2}</math> and <math>\Psi_2 \cong \frac{\pi}{2}</math> or when the above is integrable.
-grated throughout the whole mass of the spheroid, it becomes
-<math display="block">I_1 = \frac{6912 \text{A}}{1875 \pi^3} \left\{ \frac{(25)^2}{36} \pi^2 - 2 \right\} \cos \frac{5}{6} \pi + 2 \frac{5}{3} \pi \sin \frac{5}{6} \pi \right\} b^4 \pi \cdot \text{odd} (7.)</math>
-When <math>a</math> becomes <math>p</math> and <math>\rho</math> becomes <math>p</math>, the density at the
-and as mean density, is represented by and as mean density, is represented by
-<math display="block">\rho' = \frac{A}{p} \sin \frac{5}{6} \pi, \quad \text{with } A = \frac{\rho' p}{\sin \frac{5}{6} \pi}.</math>
-Substituting this value of A in (7.), and remembering that
-<math>M_1 = \frac{3}{3}\pi \rho / b^2 p</math>, <math>M_1</math> being the mass of the spheroid, we shall obtain
-<math display="block">I_{1} = \frac{864}{625\pi^{3}} \left\{ \left( \frac{25}{36} \pi^{2} - 2 \right) \cot \frac{5}{6} \pi + \frac{2}{\sin \frac{5}{6} \pi} - \frac{5}{3} \pi \right\} Mb^{2} \text{ interini (8.)}</math>
-If the spheroid were homogeneous, we should have, after
-making the necessary substitutions in (3.) or (6.), and inte-
-grating throughout the whole mass of the body,
-· bcos Y
-<math>I_2 = -\int_{-\frac{\pi}{2}}^{+\frac{\pi}{2}} \int_{-\frac{\pi}{2}}^{+\frac{\pi}{2}} \int_{-\frac{\pi}{2}}^{+\frac{\pi}{2}} \int_{-\frac{\pi}{2}}^{+\frac{\pi}{2}} \int_{-\frac{\pi}{2}}^{+\frac{\pi}{2}} \int_{-\frac{\pi}{2}}^{+\frac{\pi}{2}} \int_{-\frac{\pi}{2}}^{+\frac{\pi}{2}} \int_{-\frac{\pi}{2}}^{+\frac{\pi}{2}} \int_{-\frac{\pi}{2}}^{+\frac{\pi}{2</math>
+
+\[
+a = \frac {y r p _ {\text {ol}}}{b \cos \Psi}; \quad \text {od} \quad \text {e} \tag {5.}
+\]
+
+then
+
+\[
+\begin{array}{l} \mathrm{I} _ {1} = - \int_ {\Psi_ {2}} ^ {\Psi_ {1}} \int_ {0} ^ {b \cos \Psi} 2 \pi \mathrm{A} b r ^ {2} \sin \left(\frac {5 \pi r}{6 b \cos \Psi}\right) \cos^ {2} \Psi d r d \Psi ; \tag {6.} \\ \left(- 2 \pi \mathrm{A} \left\{\frac {5}{3} \pi \sin \frac {5}{6} \pi - 2 - \left(\frac {2 5}{3 6} \pi^ {2} - 2\right) \cos \frac {5}{6} \pi \right\} \frac {2 1 6}{1 2 5 \pi^ {3}} \int_ {\Psi_ {2}} ^ {\Psi_ {1}} b ^ {4} \cos^ {5} \Psi d \Psi . \right. \\ \end{array}
+\]
+
+When \(\Psi_{1}=\frac{\pi}{2}\), and \(\Psi_{2}=-\frac{\pi}{2}\), or when the above is integrated throughout the whole mass of the spheroid, it becomes \(I_{1}=\frac{6912A}{1875\pi^{3}}\left\{\left(\frac{25}{36}\pi^{2}-2\right)\cos\frac{5}{6}\pi+2-\frac{5}{3}\pi\sin\frac{5}{6}\pi\right\}\nu^{2}\pi\). (7.)
+
+When \(a\) becomes \(p\) and \(\rho\) becomes \(\rho'\), the density at the surface of the spheroid
+
+\[
+\rho^ {\prime} = \frac {\mathrm{A}}{p} \sin \frac {5}{6} \pi , \frac {\text {if} \text {if} 1}{\text {if}} = \rho^ {\prime} \frac {p}{\sin \frac {5}{6} \pi}.
+\]
+
+Substituting this value of A in (7.), and remembering that  \( M_{1}=\frac{8}{3}\pi\rho^{\prime}b^{2}p \) ,  \( M_{1} \)  being the mass of the spheroid, we shall obtain
+
+\[
+\mathrm{I} _ {1} = \frac {8 6 4}{6 2 5 \pi^ {3}} \left\{\left(\frac {2 5}{3 6} \pi^ {2} - 2\right) \cot \frac {5}{6} \pi + \frac {2}{\sin \frac {5}{6} \pi} - \frac {5}{3} \pi \right\} \mathrm{M} b ^ {2}. \tag {8.}
+\]
+
+If the spheroid were homogeneous, we should have, after making the necessary substitutions in (3.) or (6.), and integrating throughout the whole mass of the body,
+
+\[
+\mathrm{I} _ {2} = - \int_ {- \frac {\pi}{2}} ^ {+ \frac {\pi}{2}} \int_ {0} ^ {b \cos \Psi} 2 \pi p \rho r ^ {3} \cos \Psi d r d \Psi = \frac {8}{1 5} \pi \rho a b ^ {4} = \frac {2}{5} \mathrm{M} _ {2} b ^ {2}, (9.)
+\]
+
 a result easily obtained by the ordinary methods.
-In finding the moment of inertia of the external shell so as
-to be able to appreciate the changes which it may undergo,
-it should be remembered that as geological changes have not
-the same magnitude or importance at every latitude, a change
-in the moment of inertia of the whole shell can be found only
-by considering the changes of the moments of inertia of its
-different parts. In a lost of or of bloom non-sanger and let the shell be supposed therefore to consist of a series of
-zones, on each of which geological changes occur in a com-
-paratively uniform manner, whatever may be the nature or
-extent of the changes on any of the others. Let <math>\xi_1</math>, <math>\xi_2</math>, <math>\xi_3</math>, &c.
-represent the moments of inertia of the zones in the northern
+
+In finding the moment of inertia of the external shell so as to be able to appreciate the changes which it may undergo, it should be remembered that as geological changes have not the same magnitude or importance at every latitude, a change in the moment of inertia of the whole shell can be found only by considering the changes of the moments of inertia of its different parts.
+
+Let the shell be supposed therefore to consist of a series of zones, on each of which geological changes occur in a comparatively uniform manner, whatever may be the nature or extent of the changes on any of the others. Let \(\xi_{1}, \xi_{2}, \xi_{3}, \&c.\) represent the moments of inertia of the zones in the northern
 
 ## PDF page 394
 
@@ -23248,47 +22170,23 @@ e even y force on the unice of the earth it is midifferent
 
 ## PDF page 395
 
-of mointable at negative ways of the Earth and the Geological Changes of its Surface. 381
-
 the Earth and the Geological Changes of its Surface. 381
 
-employed the end of the cost of the cost of the cost of the cost of the 
-the equation;
-<math>\sqrt{(\alpha^2 \sin^2 \Theta + \beta^2 \cos^2 \Theta)}</math>
-A and B representing the general values of the polar and
-equatorial semi-axes of the shell corresponding to the zone of
-sity may be neglected, and its Tozi zenasidt ezodw, llede edt
-When investigating the moment of inertia of the shell for
-any zone, it will be found most convenient to consider the
-centres of gravity of the parts of the shell, or the surface pass-
-ing through the centres of gravity of all its parts, as equi-
-No matter how irregular any zone of the shell may be, its
-thickness can be considered without much chance of error, as
-the distance between two imaginary surfaces each of which
-is equidistant from the surface passing through the centres of
-gravity of all the parts of the shell. Let the internal surface
-of the shell be at the mean depth of the sea, the position of its
-external surface being determined by the distances of the cen-
-tres of gravity of its parts. Let the entire shell be supposed
-to consist of an infinite number of pyramidal frusta, which if
-prolonged would form pyramids meeting at the earth's centre.
-The height and dimensions of the base of each frustum being
-infinitely small compared to the height of its entire pyramid,
-we can without sensible error consider it as a parallelopiped.
-(12.)
-Let H represent the mean height of the land above the level
-of the sea, and D the mean depth of the ocean. The height
-of a parallelopiped whose external surface is on dry land is
-then H+D, and the distance of its centre of gravity from
-each of the surfaces of the shell <math>\frac{1}{2}</math> (H+D). Similarly, <math>\frac{1}{2}</math> D represents the distance of the centre of gravity of a parallelo-
-piped whose upper surface forms a part of the surface of the
-ocean, from the interior surface of the shell. Let <math>\Delta s</math> repre-
-sent an indefinitely small portion of the surface of the land,
-<math>\Delta s</math> a similar portion of the surface of the sea, <math>\delta_1</math> the density of
-the land, and <math>\delta_2</math> the density of the ocean. The equation for the value of <math>C_1</math>, the thickness of the shell, will be and larred
-<math display="block">\mathbf{C}_{1} = \underbrace{\frac{\mathbf{H} \, \Sigma \, (\mathbf{H} + \mathbf{D}) \, \Delta \, s \, \delta_{1}}{\{(\mathbf{H} + \mathbf{D}) \, \delta_{1} \, \Sigma \, \Delta \, s + \delta_{2} \, \mathbf{D} \, \Sigma \, \Delta \, s'\}}_{\{\mathbf{D} \, \Sigma \, \Delta \, s + \Sigma \, \Delta \, s\}} + \underbrace{\frac{\mathbf{D} \, (\delta_{2} \, \Sigma \, \Delta \, s' + \delta_{1} \, \Sigma \, \Delta \, s)}{2 \, (\Sigma \, \Delta</math>
-Let <math>\gamma</math> correspond to <math>\gamma</math> by <math>\gamma</math> as <math>\gamma</math> as <math>\gamma</math> and <math>\gamma</math> and <math>\gamma</math> as <math>\gamma</math> as <math>\gamma</math> as <math>\gamma</math> as <math>\gamma</math> as <math>\gamma</math> as <math>\gamma</math> as <math>\gamma</math> as <math>\gamma</math> as <math>\gamma</math> as <math>\gamma</math> as <math>\gamma</math> as <math>\gamma</math> as <math>\gamma</math> as <math>\gamma</math> as <math>\gamma</math> as <math>\gamma</math> as <math>\gamma</math> as <math>\gamma</math> as <math>\gamma</math> as <math>\gamma</math> as <math>\gamma</math> as <math>\gamma</math> as 
-elevatory forces on the surface of the earth, it is indifferent
+\[
+\begin{array}{l} \text {or,} \quad \mathrm{A} = \frac {\alpha (\sqrt {(\alpha^ {2} \sin^ {2} \Theta + \beta^ {2} \cos^ {2} \Theta) \pm G})}{\sqrt {(\alpha^ {2} \sin^ {2} \Theta + \beta^ {2} \cos^ {2} \Theta)}}, \\ \mathrm{B} = \frac {\beta (\sqrt {(\alpha^ {2} \sin^ {2} \Theta + \beta^ {2} \cos^ {2} \Theta) \pm G})}{\sqrt {(\alpha^ {2} \sin^ {2} \Theta + \beta^ {2} \cos^ {2} \Theta)}}; \end{array} . \tag {13.}
+\]
+
+A and B representing the general values of the polar and equatorial semi-axes of the shell corresponding to the zone of the shell whose thickness is T.
+
+When investigating the moment of inertia of the shell for any zone, it will be found most convenient to consider the centres of gravity of the parts of the shell, or the surface passing through the centres of gravity of all its parts, as equidistant from its interior surface.
+
+No matter how irregular any zone of the shell may be, its thickness can be considered without much chance of error, as the distance between two imaginary surfaces each of which is equidistant from the surface passing through the centres of gravity of all the parts of the shell. Let the internal surface of the shell be at the mean depth of the sea, the position of its external surface being determined by the distances of the centres of gravity of its parts. Let the entire shell be supposed to consist of an infinite number of pyramidal frusta, which if prolonged would form pyramids meeting at the earth's centre. The height and dimensions of the base of each frustum being infinitely small compared to the height of its entire pyramid, we can without sensible error consider it as a parallelopiped. Let H represent the mean height of the land above the level of the sea, and D the mean depth of the ocean. The height of a parallelopiped whose external surface is on dry land is then H + D, and the distance of its centre of gravity from each of the surfaces of the shell  \( \frac{1}{2} \) (H + D). Similarly,  \( \frac{1}{2} \) D represents the distance of the centre of gravity of a parallelopiped whose upper surface forms a part of the surface of the ocean, from the interior surface of the shell. Let  \( \Delta s \)  represent an indefinitely small portion of the surface of the land,  \( \Delta s \)  a similar portion of the surface of the sea,  \( \delta_{1} \)  the density of the land, and  \( \delta_{2} \)  the density of the ocean. The equation for the value of C, the thickness of the shell, will be—
+
+\[
+\begin{array}{l} \mathrm{C} _ {1} = \frac {\mathrm{H} \Sigma (\mathrm{H} + \mathrm{D}) \Delta s \delta_ {1}}{\left\{(\mathrm{H} + \mathrm{D}) \delta_ {1} \Sigma \Delta s + \delta_ {2} \mathrm{D} \Sigma \Delta s ^ {\prime} \right\}} + \frac {\mathrm{D} \left(\delta_ {2} \Sigma \Delta s ^ {\prime} + \delta_ {1} \Sigma \Delta s\right)}{2 (\Sigma \Delta s + \Sigma \Delta s)} \\ \frac {\mathrm{H} s (\mathrm{D} + \mathrm{H}) \delta_ {1} \mathrm{D} \delta_ {2} \mathrm{D} s ^ {\prime}}{\left\{\delta_ {1} (\mathrm{H} + \mathrm{D}) s + \delta_ {2} \mathrm{D} s ^ {\prime} \right\}} + \frac {\mathrm{D} \left(\delta_ {2} s ^ {\prime} + \delta_ {1} s\right)}{2 \left(s ^ {\prime} + s\right)} \cdot \dots \tag {14.} \\ \end{array}
+\]
+
+In an examination of the equilibrium of the degrading and elevatory forces on the surface of the earth, it is indifferent
 
 ## PDF page 396
 
@@ -23660,55 +22558,23 @@ when placed under electrical influence. 1845, 20, 1845, unt
 
 ## PDF page 404
 
-391
-Ray & Oction
-Jan'l rion LXII. Proceedings of Learned Societies ... Z and
-By Professor Carlo Mattevraisos TAVON ated by Michael Para-
-May, 29, "O'N the Ashes of Wheat," By William Sharp, Esq., 1845. He was an accorded in this paper were undertaken principality with the paper were undertaken principality with the paper were undertaken principality with th
-pally with the ultimate view of ascertaining with exactness what
-quantity of inorganic matter is removed from the soil by the seeds
-of a crop of wheat. The author first inquires what is the average
-amount of the inorganic or incombustible portion of a given quan-
-tity of wheat; a question to which no satisfactory answer has yet
-been given. The result of the author's experiments is, that wheat
-yields, by slow combustion, a residue of from <math>1\frac{1}{2}</math> to <math>1\frac{3}{4}</math> per cent. He
-then proceeds to determine by experiment the degree in which this
-result is influenced by previous drying at different temperatures,
-varying from 230° to 260° Fahr., and finds that a heat of 245° is
-not sufficient to expel all the moisture contained in wheat; for while
-the loss of weight is then about 8 per cent, by a heat of 260°, the
-amount of this loss is 10 per cent. When the heat is so great as to
-occasion decomposition, the saline matter contained in the wheat
-fuses, and a portion of the earbon becomes so entangled or firmly
-adherent to it; as to be incapable of separation by burning.
-Hence
-he recommends, in order to obtain greater uniformity in the results,
-that the wheat subjected to these experiments should be dried at a
-low temperature, such as that of a room in summer, and be allowed
-to remain a few days under its influence. The author tried the
-effect of the addition of nitric acid, with a view to save time by ac-
-celerating the combustion; but found that the results could not be
-relied upon when this plan was adopted, and he was therefore obliged
-to relinquish it. He next directed his inquiries to the ascertaining
-whether the quantity of inorganic matter was in proportion to the
-specific gravity of the grain, that is, to its weight per bushel; and
-this he found in general to be the case. The conclusion he deduces
-from this investigation is, that the mean amount of inorganic matter
-removed from the soil by the grain of a crop of wheat is exactly one
-pound per acres these and result to notificated from Oil of On Benzoline, a new organic Salt-base obtained from Oil of
-Bitter, Almonds," By George Fownes, Esq., F.R.S.
-Pure oil of bitter almonds is converted, by the action of a strong
-solution of ammonia, into a solid white substance having a crystalline
-form, and which was termed by M. Laurent hydrobenzamide. The
-author found that this substance, by the further action of alkalies,
-became harder and less fusible than before, and not differing in che-
-mical composition from the original substance, but exhibiting the properties of an organic salt-base. To this substance the author
-gives the name of benzoline. He finds that the salts which it forms
-by combination with acids are, in general, remarkable for their spa-
-ring solubility; and that many of them, as the hydrochlorate, the
-nitrate and the sulphate, are crystallizable. Of the properties of
-these salts the author gives a detailed account.
-e de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la comp
+108
+
+•[390]###
+
+LXII. Proceedings of Learned Societies.
+
+ROYAL SOCIETY.
+
+[Continued from p. 56.]
+
+May 29, "ON the Ashes of Wheat," By William Sharp, Esq., 1845. F.R.S.
+
+The experiments recorded in this paper were undertaken principally with the ultimate view of ascertaining with exactness what quantity of inorganic matter is removed from the soil by the seeds of a crop of wheat. The author first inquires what is the average amount of the inorganic or incombustible portion of a given quantity of wheat; a question to which no satisfactory answer has yet been given. The result of the author's experiments is, that wheat yields, by slow combustion, a residue of from \(1\frac{1}{2}\) to \(1\frac{3}{4}\) per cent. He then proceeds to determine by experiment the degree in which this result is influenced by previous drying at different temperatures, varying from \(230^{\circ}\) to \(260^{\circ}\) Fahr, and finds that a heat of \(245^{\circ}\) is not sufficient to expel all the moisture contained in wheat; for while the loss of weight is then about 8 per cent, by a heat of \(260^{\circ}\), the amount of this loss is 10 per cent. When the heat is so great as to occasion decomposition, the saline matter contained in the wheat fuses, and a portion of the carbon becomes so entangled or firmly adherent to it, as to be incapable of separation by burning. Hence he recommends, in order to obtain greater uniformity in the results, that the wheat subjected to these experiments should be dried at a low temperature, such as that of a room in summer, and be allowed to remain a few days under its influence. The author tried the effect of the addition of nitric acid, with a view to save time by accelerating the combustion; but found that the results could not be relied upon when this plan was adopted, and he was therefore obliged to relinquish it. He next directed his inquiries to the ascertaining whether the quantity of inorganic matter was in proportion to the specific gravity of the grain, that is, to its weight per bushel; and this he found in general to be the case. The conclusion he deduces from this investigation is, that the mean amount of inorganic matter removed from the soil by the grain of a crop of wheat is exactly one pound per acre.
+
+"On Benzoline, a new organic Salt-base obtained from Oil of Bitter Almonds." By George Fownes, Esq., F.R.S.
+
+Pure oil of bitter almonds is converted, by the action of a strong solution of ammonia, into a solid white substance having a crystalline form, and which was termed by M. Laurent hydrobenzamide. The author found that this substance, by the further action of alkalies, became harder and less fusible than before, and not differing in chemical composition from the original substance, but exhibiting the properties of an organic salt-base. To this substance the author gives the name of benzoline. He finds that the salts which it forms by combination with acids are, in general, remarkable for their sparing solubility; and that many of them, as the hydrochlorate, the nitrate and the sulphate, are crystallizable. Of the properties of these salts the author gives a detailed account.
 
 ## PDF page 405
 
@@ -25451,51 +24317,22 @@ I shall merely transcribe the elements.
 ## PDF page 427
 
 which have been discovered since July 1844.
+
 413
--92 9th T.1844. December 13.68294: Greenwich mean time.
-or to noon the result of 32 to 10 but grands or our result in the state of the result of the result of the result of the result of the result of the result of the result of the result of the result of the result of the res
-III our of was found by M. Collarst 168 164 on Restruary 5,
-and the Pete s and Mr. Cooper at 0521004: enp 20-1 mary 7.
-on with great lifticutonib, noitoMis, and Professor Challis
-When Mr. Mann's observations are finally reduced, a more
-complete investigation may be made, and perhaps we shall
-then learn something respecting the nature of the conic sec-
-tion described by the comet. 151 From some sextant observa-
-tions taken in Ceylon, and the positions furnished by later
-observations in Europe, I found an elliptical orbit, as pub-
-lished in the Astronomische Nachrichten of Prof. Schumacher,
-and also in the Comptes Rendus of the Royal Academy of
-Sciences at Paris. The period in this ellipse was about forty-
-eight years, but on receiving Mr. Caldecott's observations, it
-became evident that the earlier observation employed was
-much in error, and that the probable orbit would be hyper-
-bolic. It is somewhat singular, that about the same time M.
-Clausen, misled by an erroneous observation at Rome, found
-an ellipse of thirty-three years' period for De Vico's second
-comet; thus affording in a short time a double proof of the
-necessity of extreme accuracy in cometary observations, and
-likewise of the advantage arising from the publication of the ori-
-ginal measures, in cases where there is no check to be expected
-from corresponding observations: by original measures may be
-understood the mean differences in right ascension and decli-
-nation of the comet and comparison star, which affords the
-practical astronomer an important means of checking the de-
-duced place of the comet, and likewise the accuracy of the
-star's assumed position.
-or ) In the content most personage. M.
-Thugmis will bestion T Comet of d'Arrest.
-On the 28th of December 1844, M. d'Arrest perceived a
-nebulosity in Cygnus, which proved to be a telescopic comet.
-Cloudy weather prevented general observation until the second
-week in January, when it was seen at most of the observato-
-ries. About the middle of February the comet was within
-20,000,000 miles from the earth: at this time it was distinctly
-visible with the smallest optical aid; I saw it frequently with
-a telescope one foot in length and about one inch aperture.
-The exact determination of the elements was attended with
-more than usual difficulty, from the comet being so nearly in
-opposition. M. Sievers of Altona computed the orbit by
-Gauss's general method, and obtained hyperbolic elements:
+
+T. 1844. December 13·68294. Greenwich mean time.
+
+π.....296 0 32
+Ω ... 118 23 24} Mean eq. 1845·0.
+i.e.I..:o 45r36[34:allo),M. yd bu
+
+Log. q 9:4001230.
+
+When Mr. Mann's observations are finally reduced, a more complete investigation may be made, and perhaps we shall then learn something respecting the nature of the conic section described by the comet. From some sextant observations taken in Ceylon, and the positions furnished by later observations in Europe, I found an elliptical orbit, as published in the Astronomische Nachrichten of Prof. Schumacher, and also in the Comptes Rendus of the Royal Academy of Sciences at Paris. The period in this ellipse was about forty-eight years, but on receiving Mr. Caldecott's observations, it became evident that the earlier observation employed was much in error, and that the probable orbit would be hyperbolic. It is somewhat singular, that about the same time M. Clausen, misled by an erroneous observation at Rome, found an ellipse of thirty-three years' period for De Vico's second comet; thus affording in a short time a double proof of the necessity of extreme accuracy in cometary observations, and likewise of the advantage arising from the publication of the original measures, in cases where there is no check to be expected from corresponding observations: by original measures may be understood the mean differences in right ascension and declination of the comet and comparison star, which affords the practical astronomer an important means of checking the deduced place of the comet, and likewise the accuracy of the star's assumed position.
+
+Comet of d'Arrest.
+
+On the 28th of December 1844, M. d'Arrest perceived a nebulosity in Cygnus, which proved to be a telescopic comet. Cloudy weather prevented general observation until the second week in January, when it was seen at most of the observatories. About the middle of February the comet was within 20,000,000 miles from the earth: at this time it was distinctly visible with the smallest optical aid; I saw it frequently with a telescope one foot in length and about one inch aperture. The exact determination of the elements was attended with more than usual difficulty, from the comet being so nearly in opposition. M. Sievers of Altona computed the orbit by Gauss's general method, and obtained hyperbolic elements:
 
 ## PDF page 428
 
@@ -25883,50 +24720,16 @@ and Spirit," vol. i. p. 34, &c.—ED.]
 ## PDF page 435
 
 On Electric Conduction and the Nature of Matter.
+
 421
-plete with spaces, so all bodies, without exception, would be
-conductors, however much their natures might otherwise
-differ. This conclusion is manifestly inevitable, for to deny
-it would be to impute different qualities to different parts of
-space. Not so inevitable, however, is the next conclusion
-which I have to notice: "Metal is a conductor; but;" says
-Mr. Faraday, "how can this be except space be a conductor?
-for it is the only continuous part of the metal; space therefore
-(holding the theory of solid atoms) must be a conductor, or
-else the metals could not conduct." That gentleman there-
-fore sees no alternative but in believing that "the reasoning
-ends in a subversion of the theory (of solid atoms) alto-
-gether."mba givil to hib a of this of the control of the second conclusion would be as unavoidable as the pre-
-ceding one, provided we knew, as a fact, that absolute con-
-timuity is necessary to electrical conduction; Mr. Faraday
-has assumed this to be the case, but I am not aware that any-
-thing has ever been observed in the nature of matter from
-which it can be inferred. By the old maxim, that matter can-
-not act where it is not, absolute continuity is made necessary
-to conduction; but this maxim is itself an assumption needing
-the evidence of facts, and therefore it may not be adduced as
-a proof of any other assumption of a bound of and i seed?
-The chief cause why I have thought it necessary thus to
-attempt the vindication of the theory of atoms from a charge
-of inconsistency, is because I think there is a way of looking
-at that theory, by which the conducting and insulating pro-
-perties of bodies appear more intelligible than on other doc-
-trines; and this without involving any other assumption (be-
-yond the mere existence of the atoms) than the hypothesis
-that different sorts of atoms are naturally associated with un-
-equal quantities of electricity. The degree of probability
-attaching to this hypothesis may be estimated by reflecting
-that if we had to assume its untruthfulness, that is to say, that
-all atoms, however, unlike in their natures, had equal quan-
-tities of electricity naturally combined with them, the assump-
-tion might be deemed much more questionable. I will now
-beg permission to give an outline of the view I have taken of
-the theory of atoms, so far as it relates to electrical conduction
-and insulation; and as it is simple, it may be done in a few
-words. The traff of the serves of the most equipment and the serves of the serves of the serves of the serves of the serves of the serves of the serves of the serves of the serves of the serves of the serves of the serves 
-combined with matter is enormously great; after making every
-allowance for the difficulty of a correct estimation, we may
-safely infer the quantity to be great enough to apportion to
+
+plete with spaces, so all bodies, without exception, would be conductors, however much their natures might otherwise differ. This conclusion is manifestly inevitable, for to deny it would be to impute different qualities to different parts of space. Not so inevitable, however, is the next conclusion which I have to notice: "Metal is a conductor; but," says Mr. Faraday, "how can this be except space be a conductor? for it is the only continuous part of the metal; space therefore (holding the theory of solid atoms) must be a conductor, or else the metals could not conduct." That gentleman therefore sees no alternative but in believing that "the reasoning ends in a subversion of the theory (of solid atoms) altogether."
+
+This second conclusion would be as unavoidable as the preceding one, provided we knew, as a fact, that absolute continuity is necessary to electrical conduction; Mr. Faraday has assumed this to be the case, but I am not aware that anything has ever been observed in the nature of matter from which it can be inferred. By the old maxim, that matter cannot act where it is not, absolute continuity is made necessary to conduction; but this maxim is itself an assumption needing the evidence of facts, and therefore it may not be adduced as a proof of any other assumption.
+
+The chief cause why I have thought it necessary thus to attempt the vindication of the theory of atoms from a charge of inconsistency, is because I think there is a way of looking at that theory, by which the conducting and insulating properties of bodies appear more intelligible than on other doctrines; and this without involving any other assumption (beyond the mere existence of the atoms) than the hypothesis that different sorts of atoms are naturally associated with unequal quantities of electricity. The degree of probability attaching to this hypothesis may be estimated by reflecting that if we had to assume its untruthfulness, that is to say, that all atoms, however unlike in their natures, had equal quantities of electricity naturally combined with them, the assumption might be deemed much more questionable. I will now beg permission to give an outline of the view I have taken of the theory of atoms, so far as it relates to electrical conduction and insulation; and as it is simple, it may be done in a few words.
+
+In his "Researches," Mr. Faraday has adduced an experiment to prove that the quantity of electricity naturally combined with matter is enormously great; after making every allowance for the difficulty of a correct estimation, we may safely infer the quantity to be great enough to apportion to
 
 ## PDF page 436
 
@@ -25981,95 +24784,69 @@ many times as is requisite to convey the whole electrical
 
 ## PDF page 437
 
-and the Nuture of Matter.
+and the Nature of Matter.
+
 423
-charge of the plus body into that which was equally minus.
-According to this explanation of electrical conduction, that
-phænomenon essentially depends on the facility possessed by
-an ordinary atom to receive on the surface of its mass of elec-
-tricity a surplus of electrical atoms at an equal distance from
-the common centre, as are already some of its own. I consider
-od In the case of insulators, we have ordinary atoms with per-
-fect external spherical strata; a condition obviously incapable
-of conducting electricity, because no surplus number of elec-
-trical atoms, presented by a plus body, can possibly arrive so
-near to the first ordinary atom of a line as are already its own
-most distant electrical atoms.
-It is not my intention, Sir, to enlarge here on this view of
-matter and of electrical action, because to trace the branches
-of the subject would exceed the limits that could be allowed
-in your valuable periodical., I hope soon to lay before the
-public my electrical opinions in a detailed form; but, before
-concluding my letter, I will just allude to what appears to me
-to be an aptitude in the theory of atoms to meet, the exi-
-gences of electrical excitation and chemical affinity; which I
-think may both be shown to proceed from one and the same
-cause, the difference in result depending only upon unequal
-susceptibilities to locomotion. To have the most simple case,
-imagine two dissimilar ordinary atoms to be placed in con-
-tiguity; the atoms, being dissimilar, have unequal quantities
-of electricity around them, forming spheres of unequal radii.
-On the surface of each electrical sphere let there be one elec-
-trical atom, necessary to make up the complement of its
-mass of electricity. It is manifest that, on the reciprocal ap-
-proach of the electrical spheres, the two external electrical
-atoms will place themselves between them, both in a line at
-right angles to the common axis, and in this position one-half
-of each external electrical atom be attracted towards each or-
-dinary atom. If the ordinary atoms be now forcibly separated,
-both of the external electrical atoms will attach themselves.
-to the sphere of least radius; because the electrical attrac-
-tion acts with the greater force at the lesser distance, and be-
-cause also an atom is by its nature indivisible.
-demand ... I am, Sir, yours, &c., demand
-RICHARD LAMING, DO
-Clichy-la-Garenne, near Paris, Oct. 4, 1845.
-and an a more representation to the first of the the
-wirtually airs again to a property of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contract of the cont
-，此一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一
-a thirty off the the card after the one is a property of
-The state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
+
+charge of the plus body into that which was equally minus. According to this explanation of electrical conduction, that phaenomenon essentially depends on the facility possessed by an ordinary atom to receive on the surface of its mass of electricity a surplus of electrical atoms at an equal distance from the common centre, as are already some of its own.
+
+In the case of insulators, we have ordinary atoms with perfect external spherical strata; a condition obviously incapable of conducting electricity, because no surplus number of electrical atoms, presented by a plus body, can possibly arrive so near to the first ordinary atom of a line as are already its own most distant electrical atoms.
+
+It is not my intention, Sir, to enlarge here on this view of matter and of electrical action, because to trace the branches of the subject would exceed the limits that could be allowed in your valuable periodical. I hope soon to lay before the public my electrical opinions in a detailed form; but, before concluding my letter, I will just allude to what appears to me to be an aptitude in the theory of atoms to meet the exigences of electrical excitation and chemical affinity; which I think may both be shown to proceed from one and the same cause, the difference in result depending only upon unequal susceptibilities to locomotion. To have the most simple case, imagine two dissimilar ordinary atoms to be placed in contiguity; the atoms, being dissimilar, have unequal quantities of electricity around them, forming spheres of unequal radii. On the surface of each electrical sphere let there be one electrical atom, necessary to make up the complement of its mass of electricity. It is manifest that, on the reciprocal approach of the electrical spheres, the two external electrical atoms will place themselves between them, both in a line at right angles to the common axis, and in this position one-half of each external electrical atom be attracted towards each ordinary atom. If the ordinary atoms be now forcibly separated, both of the external electrical atoms will attach themselves to the sphere of least radius; because the electrical attraction acts with the greater force at the lesser distance, and because also an atom is by its nature indivisible.
+
+I am, Sir, yours, &c.,
+
+RICHARD LAMING.
+
+Clichý-la-Garenne, near Paris, Oct. 4, 1845.
 
 ## PDF page 438
 
-On the Transform [ 1424) I'll die L'unetions.
-954
-LXVII. On the Transformation of Elliptic Functions. By
-ARTHUR CAYLEY, Esq., M.A., F.C.P.S., Fellow of Trinity
-College, Cambridge*.
-<math>\mu \delta - r \alpha = l p_1</math>
-LN a former paper I gave a proof of Jacobi's theorem, which I suggested would lead to the resolution of the very im-
-portant problem of finding the relation between the complete
-functions. This is in fact effected by the formulæ there given,
-but there is an apparent indeterminateness in them, the cause
-of which it is necessary to explain, and which I shall now
-show to be inherent in the problem. For the sake of sup-
-plying an omission, for the detection of which I am indebted
-to Mr. Bronwin, I will first recapitulate the steps of the de-
-or the editations
-monstration.
-If <math>\frac{1}{2}\omega</math>, <math>\frac{1}{2}v</math> be the complete functions corresponding to
-ox, then this function is expressible in the form that orde but
-<math display="block">\varphi x = x \prod_{n=1}^{\infty} \left(1 + \frac{1}{m \omega + n \upsilon}\right) \div \prod_{n=1}^{\infty} \left(1 + \frac{1}{m \omega + n \upsilon}\right) \div \prod_{n=1}^{\infty} \left(1 + \frac{1}{2}\omega + n + \frac{1}{2}\upsilon\right)</math>
-Let <math>p</math> be any prime number, <math>\mu</math>, <math>\nu</math> integers not divisible by
-p, and
-<math display="block">\theta = \frac{\mu \omega + \nu \upsilon}{\nu} \cdot \frac{1}{\nu} + \nu \dot{\psi} \cdot \frac{1}{\nu} - \nu \dot{\psi}</math>
-The function who we are to to to the fine of the fire
-<math display="block">\varphi_1 x = \varphi x \cdot \frac{\varphi(x+2\theta)}{\varphi 2\theta} \frac{\varphi(x+4\theta)}{\varphi 4\theta} \dots \frac{\varphi(x+2(p-1)\theta)}{\varphi(2(p-1)\theta)}</math>
+[424]
+
+LXVII. On the Transformation of Elliptic Functions. By ARTHUR CAYLEY, Esq., M.A., F.C.P.S., Fellow of Trinity College, Cambridge*.
+
+IN a former paper I gave a proof of Jacobi's theorem, which I suggested would lead to the resolution of the very important problem of finding the relation between the complete functions. This is in fact effected by the formulae there given, but there is an apparent indeterminateness in them, the cause of which it is necessary to explain, and which I shall now show to be inherent in the problem. For the sake of supplying an omission, for the detection of which I am indebted to Mr. Bronwin, I will first recapitulate the steps of the demonstration.
+
+If  \( \frac{1}{2}\omega \) ,  \( \frac{1}{2}\nu \)  be the complete functions corresponding to  \( \varphi x \) , then this function is expressible in the form
+
+\[
+\phi x = x \Pi \left(1 + \frac {x}{m \omega + n v}\right) \div \Pi \left(1 + \frac {x}{m + \frac {1}{2} \omega + n + \frac {1}{2} v}\right).
+\]
+
+Let \( p \) be any prime number, \( \mu, \nu \) integers not divisible by \( p \), and
+
+\[
+\theta = \frac {\mu \omega + \nu \upsilon}{p}.
+\]
+
+The function
+
+\[
+\varphi_ {1} x = \varphi x \cdot \frac {\varphi (x + 2 \theta)}{\varphi 2 \theta} \frac {\varphi (x + 4 \theta)}{\varphi 4 \theta} \dots \frac {\varphi (x + 2 (p - 1) \theta)}{\varphi (2 (p - 1) \theta)}
+\]
+
 is always reducible to the form
-is always reduction to the form
-<math display="block">x \Pi \left( 1 + \frac{x}{m' \omega' + n' \upsilon'} \right) \div \Pi \left( 1 + \frac{x}{m' + \frac{1}{2} \omega' + n' + \frac{1}{2} \upsilon'} \right).</math>
-Or <math>\varphi_1 x</math> is an inverse function, the complete functions of
-which are <math>\frac{1}{Q}\omega'</math>, <math>\frac{1}{Q}\upsilon'</math>. And where <math>\omega'</math>, <math>\upsilon'</math> are connected with
-ω, v by the equations
-<math display="block">\omega' = \frac{1}{p} (\alpha \omega + 6 v),</math>
-<math display="block">v' = \frac{1}{p} (\alpha' \omega + 6' v),</math>
-1 1 1
-ALIM THE PLANT OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY
-<math>\alpha</math>, <math>\theta</math>, <math>\alpha'</math>, <math>\theta'</math> being any integers subject to the conditions that
-<math>\alpha</math>, <math>6'</math> are odd and <math>\alpha'</math>, <math>6</math> even; also
+
+\[
+x \Pi \left(1 + \frac {x}{m ^ {\prime} \omega^ {\prime} + n ^ {\prime} v ^ {\prime}}\right) \div \Pi \left(1 + \frac {x}{m ^ {\prime} + \frac {1}{2} \omega^ {\prime} + n ^ {\prime} + \frac {1}{2} v ^ {\prime}}\right).
+\]
+
+Or \(\varphi_{1}x\) is an inverse function, the complete functions of which are \(\frac{1}{2}\omega', \frac{1}{2}v'\). And where \(\omega', v'\) are connected with \(\omega, v\) by the equations
+
+\[
+\omega^ {\prime} = \frac {1}{p} (\alpha \omega + \beta v),
+\]
+
+\[
+v ^ {\prime} = \frac {1}{p} \left(\alpha^ {\prime} \omega + \theta^ {\prime} v\right),
+\]
+
+\( \alpha, \beta, \alpha', \beta' \) being any integers subject to the conditions that \( \alpha, \beta' \) are odd and \( \alpha', \beta \) even; also
+
 * Communicated by the Author.
-† Analogous to the K, K' of M. Jacobi.
+
+† Analogous to the K, K', of M. Jacobi.
 
 ## PDF page 439
 
@@ -26761,94 +25538,86 @@ which is Bernoulli's rule.
 ## PDF page 453
 
 the Sums of Neutral and Periodic Series.
-2439
-This rule cannot, as usually supposed, apply to series that
-are strictly neutral; that is, not connected with more general
-forms by the principle of continuity: nor can it apply even
-where such connexion exists, unless, in virtue of that con-
-nexion, the terms <math>t_{n+1}</math>, <math>t_{n+2}</math>, &c. become zero. It cannot
-apply therefore to the series and abide off enquarra
-<math>\cos x - \cos 2x + \cos 3x - \cos 4x + &c.</math>
-of Bernoull' rale.
+
+439
+
+This rule cannot, as usually supposed, apply to series that are strictly neutral; that is, not connected with more general forms by the principle of continuity: nor can it apply even where such connexion exists, unless, in virtue of that connexion, the terms \( t_{n+1}, t_{n+2} \), &c: become zero. It cannot apply therefore to the series
+
+\[
+\cos x - \cos 2 x + \cos 3 x - \cos 4 x + \& \mathrm{c}.
+\]
+
 when it passes into
-when it passes into
-<math display="block">1-1+1-1+1-8cc., \text{ and } t \text{ the original passes}</math>
+
+\[
+1 - 1 + 1 - 1 + 1 - \& \mathrm{c.},
+\]
+
 nor to
-<math display="block">a+b\cos x-c\cos 2x+a\cos 3x+b\cos 4x+c\cos 5x+8cc.,</math>
-in which <math>c=a+b</math>, when it passes into
-<math>a + b = c + a + b = c + &c</math>; much matro
-and this consideration alone is sufficient to show the fallacy
-of asserting the general value of the first of these series to
-without things in <math>\frac{1}{2}</math>, if <math>\alpha</math> is the same second to the second second second second second second second second second second second second second second second second second second second second second second secon
-Let us now examine the series & id boundary ad carra.
-<math display="block">\frac{1}{2} + A\cos\theta + A^2\cos2\theta + A^3\cos3\theta + \dots A^n\cos n\theta,</math>
-so intimately connected with Fourier's integral, and which
-has already been the subject of consideration in Mr. Moon's
-paper before adverted to. This series, as there shown, or
-much more simply, by common division, arises from the de-
-Now which were of the fraction had a large of the fraction had been a line of the fraction had been a line of the fraction had been a line of the fraction had been a line of the fraction had been a line of the fraction had
-സ്ത്രേൻ വര് വര് <math>\mathbf{A}^{\mathbf{k}}</math>വെ വര് വര് വിശവി<math>_{\mathrm{p}}</math>
-enologies <math>2(1-2A\cos\theta+A^2)^{\frac{1}{2}}</math> od ocean a 14.
-so that, taking account of the remainder of the division, the
-general equivalent of the series is this fraction minus to the series is this fraction minus to the series is this fraction minus to the series is this fraction minus to the series is this fraction minus to the series is t
-<math display="block">A^{n+1}\frac{\cos{(n+1)}\theta-A\cos{n}\theta}{1-2A\cos{\theta}+A^2}.</math> [2.]
-Now confining our attention to the continuous values of A, it
-is obvious, upon the principles laid down in the former part
-of this paper, that in the extreme case of <math>A = 1</math> and <math>n = \infty</math>,
-the fraction [2.] vanishes; and [1.] alone correctly represents
-the sum of the series in the limiting case. IF THE SOLIDS off if
-It may be proper to remark here that [1:] is affirmed to
-be the true value of the series in the case of A = 1, solely in
-consequence of that case coming under the control of the ge-
-neral law of continuity which governs all the cases furnished
-by the continuous variation of A, cos & being fixed. It is not
-allowable simultaneously with this continuous variation to in-
-troduce considerations connected with the variation of cos 8;
+
+\[
+a + b \cos x - c \cos 2 x + a \cos 3 x + b \cos 4 x - c \cos 5 x + \& \mathrm{c.},
+\]
+
+in which  \( c = a + b \) , when it passes into
+
+\[
+a + b - c + a + b - c + \& c.;
+\]
+
+and this consideration alone is sufficient to show the fallacy of asserting the general value of the first of these series to be  \( \frac{1}{2} \) .
+
+Let us now examine the series
+
+\[
+\frac {1}{2} + \mathrm{A} \cos \theta + \mathrm{A} ^ {2} \cos 2 \theta + \mathrm{A} ^ {3} \cos 3 \theta + \dots \mathrm{A} ^ {n} \cos n \theta ,
+\]
+
+so intimately connected with Fourier's integral, and which has already been the subject of consideration in Mr. Moon's paper before adverted to. This series, as there shown, or much more simply, by common division, arises from the development of the fraction
+
+\[
+\frac {1 - \mathrm{A} ^ {2}}{2 (1 - 2 \mathrm{A} \cos \theta + \mathrm{A} ^ {2})}; \text {当} \text {当} [ 1. ]
+\]
+
+so that, taking account of the remainder of the division, the general equivalent of the series is this fraction minus
+
+\[
+\mathrm{A} ^ {n + 1} \frac {\cos (n + 1) \theta - \mathrm{A} \cos n \theta}{1 - 2 \mathrm{A} \cos \theta + \mathrm{A} ^ {2}}. \tag {2.}
+\]
+
+Now confining our attention to the continuous values of A, it is obvious, upon the principles laid down in the former part of this paper, that in the extreme case of A = 1 and  \( n = \infty \) , the fraction [2.] vanishes; and [1.] alone correctly represents the sum of the series in the limiting case.
+
+It may be proper to remark here that [1:] is affirmed to be the true value of the series in the case of A = 1, solely in consequence of that case coming under the control of the general law of continuity which governs all the cases furnished by the continuous variation of A, cos θ being fixed. It is not allowable simultaneously with this continuous variation to introduce considerations connected with the variation of cos θ;
 
 ## PDF page 454
 
-Prof. J. R. Young on the Evaluation of
 440
-for the quantities themselves, and all their changes, are essentially independent of one another. Each value of <math>\cos \theta</math>, as A
-passes through its changes, gives rise to a distinct series of
-cases; and we are not to assume the law of continuity in pass-
-ing from one of these distinct series to another, through the
-variation of cos 0: if we wish to consider the continuous re-
-sults of this latter variation, A must be regarded as fixed.
-I make these observations in case it might be imagined that
-there was anything anomalous in the circumstance that [1.]
-gives 0 for the limiting value of the series in every case of
-<math>\cos \theta</math>, except the single case of <math>\cos \theta = 1</math>, when the value is
-<math display="block">\frac{1-A^2}{\lim_{M\to\infty} \frac{1}{2!}(1-A)^2_{\text{min}}} = \frac{1+(A-c)}{2!} = \infty^{\frac{1}{2}}, \text{ when } A=1.</math>
-It thus, I think, appears that Mr. De Morgan is not in
-error, as Mr. Moon supposes, in affirming [1.] to be the
-limit of the proposed series when A = 1.11 The real error, so
-frequently committed in analysis, consists in confounding it is
-of halluffing arise and only in the state of the least in solid and in the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the stat
-the sine and color of an infinite are were that to simil and this
-In some in the case of assumed to be i in tead of the
-<math>+ A\cos\theta + A^2\cos2\theta + A^3\cos3\theta + &c.</math> ad infinitum,
-and calling [1,], when A = 1, the sum of the former; and
-this belongs to the same class of errors as those discussed in
-the preceding part of this communication. I reserve a more
-detailed examination of the influence of them for a future oc-
-casion.
-Poisson, in the 12th volume of the Journal de l'Ecole Poly-
-technique, a source which I have not as yet been able to consult,
-has, I believe, entered upon an examination of the series which
-form the subject of the present paper; and I think he connects
-the extreme case of each with the continuous series of cases
-as I have here done. But, from all that I can collect respect-
-ing his memoir, he falls into the errors here noticed, and
-which it has been my principal purpose to point out and correct,
-by showing the essential distinction between an isolated series
-and a series connected to a chain of others by the bond of
-continuity. The symbol prevents the condition implied in
-this connexion from being obliterated in the extreme case;
-and I think that this symbol, together with the symbol <math>0 \sqrt{-1}</math>,
-employed for an analogous purpose in my former paper, in
-the August Number of this Journal, might, with propriety, be
-called symbols of continuity. By disregarding the influence
+
+Prof. J. R. Young on the Evaluation of
+
+for the quantities themselves, and all their changes, are essentially independent of one another. Each value of \(\cos \theta\), as A passes through its changes, gives rise to a distinct series of cases; and we are not to assume the law of continuity in passing from one of these distinct series to another, through the variation of \(\cos \theta\): if we wish to consider the continuous results of this latter variation, A must be regarded as fixed.
+
+I make these observations in case it might be imagined that there was anything anomalous in the circumstance that [1.] gives 0 for the limiting value of the series in every case of \(\cos \theta\), except the single case of \(\cos \theta = 1\), when the value is
+
+\[
+\frac {1 - \mathrm{A} ^ {2}}{2 (1 - \mathrm{A}) ^ {2}} = \frac {1 + (\mathrm{A} ^ {2 0 0}) ^ {2}}{2 (1 - \mathrm{A})} = \infty , \text {when} \mathrm{A} = 1.
+\]
+
+It thus, I think, appears that Mr. De Morgan is not in error, as Mr. Moon supposes, in affirming [1.] to be the limit of the proposed series when A = 1. The real error, so frequently committed in analysis, consists in confounding
+
+\[
+\frac {1}{2} + \cos \theta + \cos 2 \theta + \cos 3 \theta + \& c. a d \text {infinitum}
+\]
+
+with the limit of:
+
+\[
+\frac {1}{2} + \mathrm{A} \cos \theta + \mathrm{A} ^ {2} \cos 2 \theta + \mathrm{A} ^ {3} \cos 3 \theta + \& \text {c. ad infinitum},
+\]
+
+and calling [1.], when A = 1, the sum of the former; and this belongs to the same class of errors as those discussed in the preceding part of this communication. I reserve a more detailed examination of the influence of them for a future occasion.
+
+Poisson, in the 12th volume of the Journal de l'Ecole Polytechnique, a source which I have not as yet been able to consult, has, I believe, entered upon an examination of the series which form the subject of the present paper; and I think he connects the extreme case of each with the continuous series of cases as I have here done. But, from all that I can collect respecting his memoir, he falls into the errors here noticed, and which it has been my principal purpose to point out and correct, by showing the essential distinction between an isolated series and a series connected to a chain of others by the bond of continuity. The symbol \(\frac{1}{\infty}\) prevents the condition implied in this connexion from being obliterated in the extreme case; and I think that this symbol, together with the symbol \(0\sqrt{-1}\), employed for an analogous purpose in my former paper, in the August Number of this Journal, might, with propriety, be called symbols of continuity. By disregarding the influence
 
 ## PDF page 455
 
@@ -26899,51 +25668,21 @@ Phil. Mag. S. 3. Vol. 27. No. 182. Dec. 1845.
 
 ## PDF page 456
 
-Prof. Grove on the Application of
 442
-nic School. I am confirmed in this conjecture from the man-
-ner in which that distinguished analyst treats cases of the kind
-here discussed in his Théorie de la Chaleur: thus, in reference
-to the isolated case of the general series above, when <math>A = 1</math>,
-he says, "Elle est de l'espèce des séries périodiques qui ne
-sont ni convergentes ni divergentes, mais qu'on peut néan-
-moins employer en les considérant comme les limites de séries
-convergentes, c'est-à-dire en multipliant; leurs termes par les
-puissances ascendantes d'une quantité infiniment peu différ-
-ente de l'unité."—Théorie de la Chaleur, p. 119. And again,
-"L'intégrale d'une quantité périodique qui s'étend à l'infini,
-doit toujours être considérée comme la limite d'une autre in-
-tégral dont les élémens décroissent à mesure que la variable
-augmente, et sont nuls quand la variable est infinie; observa-
-tion semblable à celle que nous avons déjà fait rélativement
-aux séries infinies de quantités périodiques."-Ib., p. 207.
-And this is the erroneous principle to which the mistakes ani-
-madverted upon in Mr. Moon's paper are all to be traced,
-and which will be found to affect the accuracy of many other
-received results in the doctrine of series and of definite inte-
-grals. It we also by the man and the state
-It may perhaps seem that the principle here deprecated, and
-which consists in bringing an isolated and independent case
-under the control of a law which governs a continuous series
-of cases, with the view of effecting a particular purpose,—it
-may perhaps seem that this principle is virtually sanctioned by
-myself at p. 363 of the present paper, where I give to the in-
-finite exponent in the expression for S the peculiar form <math>k.\infty'</math>
--to the exclusion of other forms for infinity that may appear
-to be equally admissible-merely, it may seem, to effect a par-
-ticular purpose. But it is not so. Any form for the exponent
-in question, other than that I have given to it, would be erro-
-neous; as I shall show in a subsequent number of this Jour-
-nal, if I be indulged with a brief space for that purpose.
-out the first term of the call of the stabilities and the
-LXXI. On the Application of Voltaic Ignition to Lighting<br>Mines. By W. R. GROVE, Esq., M.A., F.R.S., Professor
-of Experimental Philosophy in the London Institution.
+
+Prof. Grove on the Application of
+
+nic School. I am confirmed in this conjecture from the manner in which that distinguished analyst treats cases of the kind here discussed in his Théorie de la Chaleur: thus, in reference to the isolated case of the general series above, when A = 1, he says, “Elle est de l'espèce des séries périodiques qui ne sont ni convergentes ni divergentes, mais qu'on peut néanmoins employer en les considérant comme les limites de séries convergentes, c'est-à-dire en multipliant leurs termes par les puissances ascendantes d'une quantité infiniment peu différente de l'unité.”—Théorie de la Chaleur, p. 119. And again, “L'intégrale d'une quantité périodique qui s'étend à l'infini, doit toujours être considérée comme la limite d'une autre intégral dont les éléments décroissent à mesure que la variable augmente, et sont nuls quand la variable est infinie; observation semblable à celle que nous avons déjà fait relativement aux séries infinies de quantités périodiques.”—Ib., p. 207. And this is the erroneous principle to which the mistakes animadverted upon in Mr. Moon's paper are all to be traced, and which will be found to affect the accuracy of many other received results in the doctrine of series and of definite integrals.
+
+It may perhaps seem that the principle here deprecated, and which consists in bringing an isolated and independent case under the control of a law which governs a continuous series of cases, with the view of effecting a particular purpose,—it may perhaps seem that this principle is virtually sanctioned by myself at p. 363 of the present paper, where I give to the infinite exponent in the expression for S the peculiar form \(k.\infty'\)—to the exclusion of other forms for infinity that may appear to be equally admissible—merely, it may seem, to effect a particular purpose. But it is not so. Any form for the exponent in question, other than that I have given to it, would be erroneous; as I shall show in a subsequent number of this Journal, if I be indulged with a brief space for that purpose.
+
+LXXI. On the Application of Voltaic Ignition to Lighting Mines. By W. R. GROVE, Esq., M.A., F.R.S., Professor of Experimental Philosophy in the London Institution.
+
 To Richard Phillips, Esq., F.R.S., &c.
+
 DEAR SIR,
-IN the Comptes Rendus of the Paris Academy of Sciences for the 1st and 15th of September last, are communications
-by M. Boussingault and M. De la Rive, on the employment
-of the voltaic disruptive discharge for the illumination of mines.
-A PLANTAGE OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF
+
+IN the Comptes Rendus of the Paris Academy of Sciences for the 1st and 15th of September last, are communications by M. Boussingault and M. De la Rive, on the employment of the voltaic disruptive discharge for the illumination of mines.
 
 ## PDF page 457
 
@@ -27314,52 +26053,26 @@ that was we stated distinctly.
 
 ## PDF page 464
 
-450 Prof. Scheenbein's Remarks on Mr. Williamson's
-In conclusion, we have only further to observe, that Sir
-David Brewster has found ground of offence in several phrases,
-which we beg to assure him were used most innocently, and
-contain no such covert insinuations as he seems to think are
-lurking within them. The passage which has given him so
-much offence was intended to express the following and no
-other truths :- "Sir David Brewster afterwards published on
-the subject, and tried to mediate between the contending par-
-ties, but ineffectually; for he discussed it as a question of na-
-tional honour affecting the claims of Cavendish the English-
-man and Watt the Scotchman, and in the adjudication of
-merit he placed his countryman highest.", I make by the
-We have not sought to reply to the charge of discourtesy
-preferred against us by Sir David Brewster, for naming him
-as the author of an unacknowledged Review article. We did
-it inconsiderately; but if we have satisfied Sir David, that it
-was with no unkindly intention we referred to him as the writer
-of a paper so notoriously and so evidently his, we trust he will
-forgive this transgression of the continuous of the same of the continuous of the continuous of the continuous of the continuous of the continuous of the continuous of the continuous of the continuous of the continuous of 
+450
+
+Prof. Schoenbein's Remarks on Mr. Williamson's
+
+In conclusion, we have only further to observe, that Sir David Brewster has found ground of offence in several phrases, which we beg to assure him were used most innocently, and contain no such covert-insinuations as he seems to think are lurking within them. The passage which has given him so much offence was intended to express the following and no other truths:—“Sir David Brewster afterwards published on the subject, and tried to mediate between the contending parties, but ineffectually; for he discussed it as a question of national honour affecting the claims of Cavendish the Englishman and Watt the Scotchman, and in the adjudication of merit he placed his countryman highest.”
+
+We have not sought to reply to the charge of discourtesy preferred against us by Sir David Brewster, for naming him as the author of an unacknowledged Review article. We did it inconsiderately; but if we have satisfied Sir David, that, it was with no unkindly intention we referred to him as the writer of a paper so notoriously and so evidently his, we trust he will forgive this transgression of
+
 A BRITISH QUARTERLY REVIEWER.
+
 November 1, 1845.
-iron to "Pollin O The desire of the property of the property of the property of the property of the property of the property of the property of the property of the property of the property of the property of the property o
-LXXIII. Remarks on Mr. Williamson's experiments regard-
-ing Ozone. By Prof. C. F. Schenbein of Basle*.
-T is rather amusing to see the variety of opinions which
-have been given out respecting the nature of the odori-
-ferous matter disengaged by phosphorus in moist atmospheric
-air. To some, that principle is either nitrous or nitric acid
-according to others, it must be considered as phosphorous or
-hypophosphorous acid. M. De la Rive and Marignac think
-it oxygen modified by the electricity which they suppose to
-be disengaged during the chemical action of phosphorus upon
-atmospheric air: oxide of arsenic, or arsenious acid resulting
-from an arseniferous phosphorus, was once mentioned as likely
-to be ozone, and some went so far as to déclare that substance
-to be nothing but organic matter changed by phosphorus
-into ozone. I myself was inclined for a time to consider
-ozone as a constituent part of hitrogen. Mr. Williamson +
-has lately augmented this list of opinions by one which
-has certainly the merit of being the most original of all;
+
+LXXIII. Remarks on Mr. Williamson's experiments regarding Ozone. By Prof. C. F. SCHENBEIN of Basle*.
+
+IT is rather amusing to see the variety of opinions which have been given out respecting the nature of the odoriferous matter disengaged by phosphorus in moist atmospheric air. To some, that principle is either nitrous or nitric acid according to others, it must be considered as phosphorous or hypophosphorous acid. M. De la Rive and Marignac think it oxygen modified by the electricity which they suppose to be disengaged during the chemical action of phosphorus upon atmospheric air: oxide of arsenic, or arsenious acid resulting from an arseniferous phosphorus, was once mentioned as likely to be ozone, and some went so far as to declare that substance to be nothing but organic matter changed by phosphorus into ozone. I myself was inclined for a time to consider ozone as a constituent part of nitrogen. Mr. Williamson† has lately augmented this list of opinions by one which has certainly the merit of being the most original of all;
+
 * Communicated by the Author.
-. Mr. Williamson's paper will be found at p. 372 of the present volume.
-—ЕD.
-and the all the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of th
-and the page of the contract of the page of the page.
+
+† Mr. Williamson's paper will be found at p. 372 of the present volume.
+—Ed.
 
 ## PDF page 465
 
@@ -27962,55 +26675,51 @@ of several experiments, came out to 119.5, whereas had this
 
 ## PDF page 476
 
-Messrs. Playfair and Joule on
 462
-eleventh atom of water been combined it should have been
-has ately a scribed this salt &- continuous B, a one of w .121
-Biborate of Soda, NaO, 2BO<sub>3</sub> + 10HO = 191.23.—On
-dissolving 40 grains of this salt in 1000 of water, the increase
-was 19.2 at a temperature of 55%. I was make in the man in
-NaO, 2BO<sub>3</sub> + 10HO, vol. in solution 91.7.1 as drive
-Half an equivalent, or 95.61 grains, on being placed in a
-saturated solution, occasioned an increase of 55.5; and 47.8
-grains caused an increase of 27.5; both experiments being made at a temperature of 55°.
-I. NaO, 2BO<sub>3</sub> + 10HO, vol. of salt 111 3... 1.722
-II. ... 1:738 Mean . . . 110 ... 1:738
-D17 1
-Chloride of Strontium, Sr, Cl + 6HO = 133.32.—There
-are two hydrates of chloride of strontium, the one with nine,
-and the other with six equivalents of water. To determine
-which of these hydrates was under examination, 4:324 grammes
-were heated to redness with a loss of 1.75 gramme = 40.47
-per cent., showing that the hydrate was that with six equiva-
-lents of water, which gives by calculation 40.50 per cent.
-On dissolving 40 grains of this salt in 1000 of water, the
-increase occasioned at a temperature of 56° was 16.0; a se-
-cond experiment, in which the same quantities were used,
-gave exactly the same resultable that the ration of the same resultable that the same resultable that the same resultable that the same resultable that the same resultable that the same resultable that the same resultable 
-I. II. Sr Cl'+'6HO, vol. in solution 53.3. Tolaw iii. The same quantity of salt (40 grains), immersed in a satu-
-rated solution, caused an increase of 20:0 at a temperature of
-rated solution, caused an increase of 19.7. sp. gr. small
-1. Sr Cl + 6HO, vol. of salt 66.6 ... 2.000 wolls 65.6 ... 2.030 m dd 65.6 ... 2.030 m dd 66.6 ... 2.030 m dd 66.6 ... 2.030 m dd 66.6 ... 2.030 m dd 66.6 ... 2.030 m dd 66.6 ... 2.030 m dd 66.6 ... 2.030 m dd 66.6 ... 2.0
-solving 55 grains, or the half of an equivalent of this salt, in
-1000 grains of water, an increase of 28.0 was obtained at the
-temperature of 70°; and in a second experiment 27.6 at 60°.
-I. Ca Cl.+ 6HO, yol. in solution
-56.0
-the sun 25.55 te true meam one are the volume i called the remains on the column is the column is called the remains one are the volume is called the remains one are the volume is called the remains one are the remains one
-The same quantity of salt thrown into turpentine caused an
-increase of 32:7 and 32:8 in two experiments.
-water in can
-Sp. gr.
-I. Ca Cl + 6HO, vol. of salt
-इ विकेश रह
-1.682
-65.4
-1.677
-65.6
-П.
-1.680
-65.5
-Mean
+
+Messrs.Playfair and Joule on
+
+eleventh atom of water been combined it should have been 121.
+
+Biborate of Soda, NaO, 2BO₃ + 10HO = 191·23.—On dissolving 40 grains of this salt in 1000 of water, the increase was 19·2 at a temperature of 55°.
+
+NaO, 2BO₃ + 10HO, vol. in solution 91·7.
+
+Half an equivalent, or 95·61 grains, on being placed in a saturated solution, occasioned an increase of 55·5; and 47·8 grains caused an increase of 27·5; both experiments being made at a temperature of 55°.
+
+\[
+\begin{array}{c} \text {I. NaO, 2BO} _ {3} + 1 0 \mathrm{HO}, \text {vol. of salt} \\ \text {II.} \end{array} \begin{array}{c} 1 1 1 \\ \dots \\ \dots \\ \text {Mean} \end{array} \begin{array}{c} \text {Sp. gr.} \\ \dots \\ 1 1 0 \\ \dots \\ \overline {{1 1 0 \cdot 5}} \dots \end{array} \begin{array}{c} 1 \cdot 7 2 2 \\ \dots \\ 1 \cdot 7 3 8 \\ \dots \\ 1 \cdot 7 3 0 \end{array}
+\]
+
+Chloride of Strontium, Sr, Cl + 6HO = 133·32.—There are two hydrates of chloride of strontium, the one with nine, and the other with six equivalents of water. To determine which of these hydrates was under examination, 4·324 grammes were heated to redness with a loss of 1·75 gramme = 40·47 per cent., showing that the hydrate was that with six equivalents of water, which gives by calculation 40·50 per cent.
+
+On dissolving 40 grains of this salt in 1000 of water, the increase occasioned at a temperature of \(56^{\circ}\) was 16.0; a second experiment, in which the same quantities were used, gave exactly the same result.
+
+I. II. Sr Cl + 6HO, vol. in solution 53·3.
+
+The same quantity of salt (40 grains), immersed in a saturated solution, caused an increase of 20·0 at a temperature of 57°; and on a second experiment of 19·7.
+
+I. Sr Cl + 6HO, vol. of salt 66·6 ... Sp. gr. 2·000
+
+II. 65·6 ... 2·030
+
+Mean: . . 66·1 ... 2·015
+
+Chloride of Calcium, Ca Cl + 6HO = 109·92.—On dissolving 55 grains, or the half of an equivalent of this salt, in 1000 grains of water, an increase of 28·0 was obtained at the temperature of 70°; and in a second experiment 27·6 at 60°.
+
+I. Ca Cl + 6HO, vol. in solution 56·0
+
+II. 55·2
+
+Mean 55·6
+
+The same quantity of salt thrown into turpentine caused an increase of 32·7 and 32·8 in two experiments.
+
+I. Ca Cl + 6HO, vol. of salt 65·4 ... 1·682
+
+II. ... ... 65·6 ... 1·677
+
+Mean . . 65·5 ... 1·680
 
 ## PDF page 477
 
@@ -28981,50 +27690,52 @@ being dissolved in 1000 grains of water, caused an increase of
 ## PDF page 489
 
 Atomic Volume and Specific Gravity.
+
 475
-9.0 at a temperature of 59°, and 33 grains dissolved in the same
-quantity of water occasioned a rise of 8:75 at 44°.
-I MO, SO, OR Continuor in the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of t
-the sold state of rearrand that the 12 atoms of carbon
-Half an equivalent (68.2 grains) of the salt, previously
-fused; immersed in a saturated solution, produced a rise, in
-the stem of 27.5; and a second experiment with the same
-quantity, but with salt which had not been fused, of 27.6, the
-temperature on both occasions being 55% off to easily the man
-ourg.qZ, melude the may be in chlorides uso. They possess
-elidl. KO, SO<sub>8</sub> + HO, SO<sub>8</sub>, vol. of salt 155.0 ... 2.479
-11. To summer of the meson to the 55:2, ... 2:470
-northee out in equory sources Mean ale : 155.1, d... 2.475
-Sulphate of Ammonia, NH<sub>4</sub>O, SO<sub>3</sub> + HO = 75.25.—In
-three separate experiments, in which 75.25 grains of this salt
-were dissolved in 1000 grains of water, the increase was ex-
-11 10 01 (LO 1150) L
-actly 36.0 at 60°. In consideration of the constant of the constant of the constant of the constant of the constant of the constant of the constant of the constant of the constant of the constant of the constant of the con
-. And I. III. NH O, SO HO, vol. in solution 36.0
-Half an equivalent (37.6 grains) being immersed in a satu-
-rated solution at 49°, caused, in two experiments, an increase
-of 21.5.
+
+9·0 at a temperature of 59°, and 33 grains dissolved in the same quantity of water occasioned a rise of 8·75 at 44°.
+
+I. KO, \(\mathrm{SO}_3 + \mathrm{HO}\), \(\mathrm{SO}_3\), vol. in solution 36·0
+
+11. 36·1
+
+Mean : , 36·05
+
+Half an equivalent (68·2 grains) of the salt, previously fused, immersed in a saturated solution, produced a rise in the stem of 27·5; and a second experiment with the same quantity, but with salt which had not been fused, of 27·6, the temperature on both occasions being 55°.
+
+I. KO, SO₃ + HO, SO₃, vol. of salt 55·0 ... 2·479 Sp. gr.
+
+II. to and ... 55·2 ... 2·470
+
+Mean: 155·1, 2·475
+
+Sulphate of Ammonia,  \( NH_{4}O \) ,  \( SO_{3} \)  + HO = 75·25.—In three separate experiments, in which 75·25 grains of this salt were dissolved in 1000 grains of water, the increase was exactly 36·0 at 60°.
+
+I. II. III.  \( NH_{4}O \) ,  \( SO_{3}HO \) , vol. in solution 36·0
+
+Half an equivalent (37·6 grains) being immersed in a saturated solution at 49°, caused, in two experiments, an increase of 21·5.
+
 Sp. gr.
-I. II. NH<sub>4</sub>O, SO<sub>3</sub> + HO, vol. of salt 43.0 ... 1.750
-Sulphate of Ammonia and Sulphate of Water, NH4 O, SO3
-+ HO, SO<sub>3</sub>=115.35. - Half an equivalent (57.7 grains) of
-this salt, dissolved in 1000 grains of water, gave a rise in the
-stem of 23.0 at 56°, in two separate experiments.
-I. II. NH<sub>4</sub>O, SO<sub>3</sub> + HO, SO<sub>3</sub>, vol. in solution 46.0
-The same quantity of salt being placed in its saturated solu-
-tion, caused an increase of 32.5 in one experiment and of
-33.0 in a second, the temperature in both cases being 58°.
-the of the outside of
+
+I. II. \(\mathrm{NH}_{4}\mathrm{O},\mathrm{SO}_{3}+\mathrm{HO},\) vol. of salt 43·0 ... 1·750
+
+Sulphate of Ammonia and Sulphate of Water,  \( NH_{4}O \) ,  \( SO_{3} \)  + HO,  \( SO_{3}=115\cdot35 \) . - Half an equivalent (57·7 grains) of this salt, dissolved in 1000 grains of water, gave a rise in the stem of 23·0 at 56°, in two separate experiments.
+
+I. II.  \( NH_{4}O \) ,  \( SO_{3}^{2-} \)  + HO,  \( SO_{3}^{2-} \)  vol. in solution 46·0
+
+The same quantity of salt being placed in its saturated solution, caused an increase of 32·5 in one experiment and of 33·0 in a second, the temperature in both cases being 58°.
+
 Sp. gr.
-I. NH<sub>4</sub>O, HO, 2SO<sub>3</sub>, vol. of salt 65.0 ... 1.775
-66.0 ... 1.747
-II.
-Mean 1. . . . 1.761
-Sulphate of Soda and Sulphate of Water, NaO, SO<sub>3</sub> + HO,
-SO<sub>3</sub> = 120.64.—The fourth of an equivalent (30.16 grains)
-dissolved in 1000 grains of water, in the first experiment with
-an increase of 4:6, in the second of 4.7, both at a tempera-
-ture of 56°.
+
+I. \(\mathrm{NH}_{4}\mathrm{O},\mathrm{HO},2\mathrm{SO}_{3}\) , vol. of salt 65·0 ... i·775
+
+II. ... ... ... 66·0 ... 1·747
+
+Mean 65·5 ... 1·761
+
+Sulphate of Soda and Sulphate of Water, NaO, SO₃ + HO, SO₃ = 120·64.—The fourth of an equivalent (30·16 grains) dissolved in 1000 grains of water, in the first experiment with an increase of 4·6, in the second of 4·7, both at a temperature of 56°.
+
+212
 
 ## PDF page 490
 
@@ -29192,208 +27903,14 @@ experimented upon salts which take up space quite inde-
 ## PDF page 493
 
 Atomic Volume and Specific Gravity.
+
 479
-pendent of their water of crystallization, even when they con-
-tain water, and yet the most interesting result follows, that the
-same divisor, 9, continues for the volumes ascertained by ex-
-periment. The volumes in solution of the salts examined,
-allowing for errors of observation, are therefore always mul-
-tiples of 9,—the atomic volume of water. The volumes of
-the solids are, like those of the previous section, multiples of
-one and the same number, that number being also, as in the
-former case, 11; but the ammonia salts do not arrange them-
-selves under this divisor for reasons which will be explained
-presently. The averages of the experiments on all the salts
-are thrown into the following table, into which is also in-
-troduced the exact numbers which would have resulted had
-there been a strict accordance with the law obviously indicated
-by experiment.
-the man and the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of th
-TABLE VI.—Showing the volumes of certain Sulphates with a small pro-
-portion of Water of Hydration, Anhydrous and Double Sulphates.
-Volume in
-Designation.
-Volume in state of salt.
-solution.
-or supposed vol.
-Volume in solution
-Volume by theory
-áa
-Specific gravity by<br>experiment.
-by
-by theory
-9, or volume of<br>water as unity.
-experiment.
-Volume of salt experiment.
-Specific gravity
-The O. Iv
-as unity.
-Atomic
-Formula.
-Name.
-weight.
-Volume
-TOOL DU
-by
-11,<br>of
-DOMESTIC STREET
-87.25 18.0
-2
-2.644 2.640
-18
-33.05
-33
-3
-KO, SO<sub>3</sub>
-Sulphate of potash...
-4
-2.479 2.475
-136.35 36.05
-55.1
-5
-<math>KO, SO_3 + HO, SO_3</math>
-36
-55
-Bisulphate of potash.
-4
-4
-NH40, SO3+HO
-43.0
-44
-1.710 1.750
-75.25 36.0
-36
-Sulphate of ammonia
-Bisulphate of am-
-6
-5
-65.5
-1.747 1.761
-<math>NH_4O</math>, <math>SO_3+HO</math>, <math>SO_3</math>
-115.35 46.0
-45
-66
-monia .....
-2.742 2.742
-NaO, SO<sub>3</sub>+HO, SO<sub>3</sub>
-120.64 18.6
-2
-18
-44.0
-4
-44
-Bisulphate of soda...
-Ammoniacal sul-
-CuO, SO<sub>3</sub>HO+2NH<sub>3</sub>
-123.00 52.6
-6
-68.7
-|1.790|
-54
-. . .
-...
-phate of copper
-<math>CuO_1 SO_3 + KOSO_3</math>
-Sulphate of copper
-2.235 2.244
-9
-221.31 72.0
-8
-72
-98.6
-99
-<math>+6HO</math>
-and potash.....
-0
-23
-<math>CuO</math>, <math>SO_3 + NH_4O</math>,
-Sulphate of copper
-2.019 1.891
-199.88 81.0
-9
-105.7
-9
-99
-81
-<math>SO_3 + 6HO</math>
-and ammonia ...
-<math>ZnO</math>, <math>SO_3+KO</math>, <math>SO_3</math>
-Sulphate of zinc ]
-2.241 2.245
-9
-221.86 72.0
-99
-8
-72
-98.8
-<math>+6H0</math>
-and potash.....
-<math>Z_{11}O,SO_3+NH_4O,SO_3</math>
-Sulphate of zinc ]
-9
-2.020 1.897
-200.00 80.0
-9
-81
-105.4
-99
-<math>+6HO</math>
-and ammonia...
-Sulphate of mag-
-<math>MgO, SO_3 + KO, SO_3</math>
-202.29 72.0
-2.043 2.076
-97.4
-9
-8
-72
-99
-<math>+6HO</math>
-nesia and potash
-Sulphate of mag- 1
-<math>MgO, SO_3 + NH_4O,</math>
-1.829 1.721
-181.12 80.2
-105.2
-9
-99
-9
-81
-nesia & ammonia
-<math>SO_3 + 6HO</math>
-FeO, <math>SO_3 + KO</math>, <math>SO_3</math>
-Sulphate of iron
-2.190 2.202
-216.73 72.0
-9
-98.4
-99
-8
-72
-and potash .....
-<math>+6HO</math>
-Sulphate of iron
-FeO,SO<sub>3</sub>+NH<sub>4</sub>O SO<sub>3</sub>
-1.975 1.848
-195.55 80.7
-9
-99
-9
-81
-105.8
-and ammonia...
-<math>+6HO</math>
-Sulphate of nickel
-NiO, SO3 + KO, SO3 1
-2.212 2.190
-218.99 71.5
-8
-9
-99
-72
-100.0
-and potash .....
-<math>+6HO</math>
+
+pendent of their water of crystallization, even when they contain water, and yet the most interesting result follows, that the same divisor, 9, continues for the volumes ascertained by experiment. The volumes in solution of the salts examined, allowing for errors of observation, are therefore always multiples of 9,—the atomic volume of water. The volumes of the solids are, like those of the previous section, multiples of one and the same number, that number being also, as in the former case, 11; but the ammonia salts do not arrange themselves under this divisor for reasons which will be explained presently. The averages of the experiments on all the salts are thrown into the following table, into which is also introduced the exact numbers which would have resulted had there been a strict accordance with the law obviously indicated by experiment.
+
+TABLE VI.—Showing the volumes of certain Sulphates with a small proportion of Water of Hydration, Anhydrous and Double Sulphates.
+
+<table><tr><td colspan="3">Designation.</td><td colspan="3">Volume in solution.</td><td colspan="5">Volume in state of salt.</td></tr><tr><td>Name.</td><td>Formula.</td><td>Atomic weight.</td><td>Volume in solution by experiment.</td><td>9, or volume of water as unity.</td><td>Volume by theory.</td><td>Volume of salt by experiment.</td><td>11, or supposed vol. of combined water as unity.</td><td>Volume by theory.</td><td>Specific gravity by theory.</td><td>Specific gravity by experiment.</td></tr><tr><td>Sulphate of potash..</td><td>KO, SO3</td><td>87·25</td><td>18·0</td><td>2</td><td>18</td><td>33·05</td><td>3</td><td>33</td><td>2·644</td><td>2·640</td></tr><tr><td>Bisulphate of potash.</td><td>KO, SO3+HO, SO3</td><td>136·35</td><td>36·05</td><td>4</td><td>36</td><td>55·1</td><td>5</td><td>55</td><td>2·479</td><td>2·475</td></tr><tr><td>Sulphate of ammonia</td><td>NH4O, SO3+HO</td><td>75·25</td><td>36·0</td><td>4</td><td>36</td><td>43·0</td><td>4</td><td>44</td><td>1·710</td><td>1·750</td></tr><tr><td>Bisulphate of ammonia......</td><td>NH4O, SO3+HO, SO3</td><td>115·35</td><td>46·0</td><td>5</td><td>45</td><td>65·5</td><td>6</td><td>66</td><td>1·747</td><td>1·761</td></tr><tr><td>Bisulphate of soda...</td><td>NaO, SO3+HO, SO3</td><td>120·64</td><td>18·6</td><td>2</td><td>18</td><td>44·0</td><td>4</td><td>44</td><td>2·742</td><td>2·742</td></tr><tr><td>Ammoniacal sulphate of copper</td><td>CuO, SO3HO+2NH3</td><td>123·00</td><td>52·6</td><td>6</td><td>54</td><td>68·7</td><td>...</td><td>...</td><td>......</td><td>1·790</td></tr><tr><td>Sulphate of copper and potash......</td><td>CuO, SO3+KOSO3+6HO</td><td>221·31</td><td>72·0</td><td>8</td><td>72</td><td>98·6</td><td>9</td><td>99</td><td>2·235</td><td>2·244</td></tr><tr><td>Sulphate of copper and ammonia...</td><td>CuO, SO3+NH4O, SO3+6HO</td><td>199·88</td><td>81·0</td><td>9</td><td>81</td><td>105·7</td><td>9</td><td>99</td><td>2·019</td><td>1·891</td></tr><tr><td>Sulphate of zinc and potash......</td><td>ZnO, SO3+KO, SO3+6HO</td><td>221·86</td><td>72·0</td><td>8</td><td>72</td><td>98·8</td><td>9</td><td>99</td><td>2·241</td><td>2·245</td></tr><tr><td>Sulphate of zinc and ammonia...</td><td>ZnO,SO3+NH4O,SO3+6HO</td><td>200·00</td><td>80·0</td><td>9</td><td>81</td><td>105·4</td><td>9</td><td>99</td><td>2·020</td><td>1·897</td></tr><tr><td>Sulphate of magnesia and potash</td><td>MgO, SO3+KO, SO3+6HO</td><td>202·29</td><td>72·0</td><td>8</td><td>72</td><td>97·4</td><td>9</td><td>99</td><td>2·043</td><td>2·076</td></tr><tr><td>Sulphate of magnesia &amp; ammonia</td><td>MgO, SO3+NH4O, SO3+6HO</td><td>181·12</td><td>80·2</td><td>9</td><td>81</td><td>105·2</td><td>9</td><td>99</td><td>1·829</td><td>1·721</td></tr><tr><td>Sulphate of iron and potash......</td><td>FeO, SO3+KO, SO3+6HO</td><td>216·73</td><td>72·0</td><td>8</td><td>72</td><td>98·4</td><td>9</td><td>99</td><td>2·190</td><td>2·202</td></tr><tr><td>Sulphate of iron and ammonia...</td><td>FeO,SO3+NH4O SO3+6HO</td><td>195·55</td><td>80·7</td><td>9</td><td>81</td><td>105·8</td><td>9</td><td>99</td><td>1·975</td><td>1·848</td></tr><tr><td>Sulphate of nickel and potash......</td><td>NiO, SO3+KO, SO3+6HO</td><td>218·99</td><td>71·5</td><td>8</td><td>72</td><td>100·0</td><td>9</td><td>99</td><td>2·212</td><td>2·190</td></tr></table>
 
 ## PDF page 494
 
@@ -30080,56 +28597,33 @@ water of hydration, and are therefore well-calculated to show
 
 ## PDF page 502
 
-Messrs. Playfair and Joule on
 488
+
+Messrs.Playfair and Joule on
+
 the volume occupied by anhydrous salts. It will be observed that they present some peculiarities.
-Nitrate of Potash, KO, NO<sub>5</sub>=101.3.—The half of an equi-
-valent of this salt, 50 65 grains, being dissolved in 1000 grs.
-of water, gave an increase of 18.05 at 45°.
-KO, NOs, vol. in solution 36:1 , to she live
-The same quantity of salt, 50.65 grains, thrown into tur-
-pentine, caused a rise in the stem of 24.5, 24.4, 24.5 in three
-successive experiments. The state of the control of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
-I. KO, NO<sub>5</sub>, vol. of salt 49.0 .... 2.067
-II. ... ... 48.8 ... 2.075
-III. ... 2.067
-Mean ... 49.0 ... 2.067
 
-Nitrate of Ammonia NH O NO
-Nitrate of Ammonia, NH<sub>4</sub>O, NO<sub>5</sub>=80·3.—The volume of
-nitrate of animonia in solution was determined by dissolving
-40.15 grains of this salt in 1000 grains of water. In one ex-
-periment the increase in the stem was 22.5, the temperature
-being 57°; in a second the rise was 23.0 at 63°.
-I. NH<sub>4</sub>O, NO<sub>5</sub>, vol. in solution 45.0
-II.
-15 1 46.0 O 1 1 1 1 1 1
-Mean ... . (45:5
-Half an equivalent of this salt, well-dried (40.15 grains),
-on being immersed in turpentine produced an increase in
-three experiments of 24.7, 24.5, 24.5.
-Sp. gr.
-I. NH<sub>4</sub>O, NO<sub>5</sub>, vol. of salt, 49.4 .... 1.625
-II.
-49.0
-... 1.639
-... 1.639
-III.
-...
-Mean . . 49·1 ... 1·635
-Nitrate of Soda, NaO, NO<sub>5</sub>=85.45.—On dissolving 85.45
-grains, or one equivalent, of this salt in 1000 grains of water,
-an increase of 27.1 was obtained, the temperature being 59°;
-but on repetition of the experiment at the same temperature the increase was only 26.0.
+Nitrate of Potash, KO, NO\(_{5}\)=101·3.—The half of an equivalent of this salt, 50·65 grains, being dissolved in 1000 grs. of water, gave an increase of 18·05 at 45°.
 
-I. NaO, NO<sub>5</sub>, vol. in solution 27·1
-H.
-26.0
-Mean
-. 26.5
-The half of an equivalent of this salt, 42.72 grains, well-
-dried, produced an increase on being thrown into turpentine
-of 19.6 in three experiments and 19.5 in a fourth trial.
+KO, NO₅, vol. in solution 36·1
+
+The same quantity of salt, 50·65 grains, thrown into turpentine, caused a rise in the stem of 24·5, 24·4, 24·5 in three successive experiments.
+
+<table><tr><td>I.</td><td>KO, NO\( _{5} \), vol. of salt</td><td>49·0</td><td>...</td><td>Sp. gr.</td></tr><tr><td>II.</td><td>...</td><td>48·8</td><td>...</td><td>2·067</td></tr><tr><td>III.</td><td>...</td><td>49·0</td><td>...</td><td>2·075</td></tr><tr><td></td><td>Mean</td><td>48·9</td><td>...</td><td>2·067</td></tr></table>
+
+Nitrate of Ammonia,  \( NH_{4}O \) ,  \( NO_{5}=80\cdot3 \) .—The volume of nitrate of ammonia in solution was determined by dissolving 40·15 grains of this salt in 1000 grains of water. In one experiment the increase in the stem was 22·5, the temperature being 57°; in a second the rise was 23·0 at 63°.
+
+<table><tr><td>I.</td><td>\( NH_{4}O \), \( NO_{5} \), vol. in solution</td><td>45·0</td></tr><tr><td>II.</td><td>...</td><td>46·0</td></tr><tr><td></td><td>Mean</td><td>45·5</td></tr></table>
+
+Half an equivalent of this salt, well-dried (40·15 grains), on being immersed in turpentine produced an increase in three experiments of 24·7, 24·5, 24·5.
+
+<table><tr><td>I.</td><td>\( NH_{4}O \), \( NO_{5} \), vol. of salt</td><td>49·4</td><td>...</td><td>Sp. gr.</td></tr><tr><td>II.</td><td>...</td><td>49·0</td><td>...</td><td>1·625</td></tr><tr><td>III.</td><td>...</td><td>49·0</td><td>...</td><td>1·639</td></tr><tr><td></td><td>Mean</td><td>49·1</td><td>...</td><td>1·639</td></tr></table>
+
+Nitrate of Soda, NaO,  \( NO_{5}=85\cdot45 \) .—On dissolving 85·45 grains, or one equivalent, of this salt in 1000 grains of water, an increase of 27·1 was obtained, the temperature being 59°; but on repetition of the experiment at the same temperature the increase was only 26·0.
+
+<table><tr><td>I.</td><td>NaO, NO\( _{5} \), vol. in solution</td><td>27·1</td></tr><tr><td>II.</td><td>...</td><td>26·0</td></tr><tr><td></td><td>Mean</td><td>26·5</td></tr></table>
+
+The half of an equivalent of this salt, 42·72 grains, well-dried, produced an increase on being thrown into turpentine of 19·6 in three experiments and 19·5 in a fourth trial.
 
 ## PDF page 503
 
@@ -30614,124 +29108,80 @@ gave an increase of 9.8.
 ## PDF page 509
 
 Atomic Volume and Specific Gravity.
+
 495
-Sp. gr.
-I. Ba <math>Cl + 2HO</math> vol. of salt 38.8
-3.166
-...
-II. ), ..... 1) 1... 39.2
-3.133
-...
-III. (/....
-...
-39.2
-3.133
-...
-- Mean . . 39.07
-...
-3.144
-Perchloride of Mercury, Hg Cl = 136.9.—The fourth of
-an equivalent, 34.2 grains, of corrosive sublimate, on being
-dissolved in 1000 grains of water, gave an increase of 4.6 at
-a temperature of 62°; a second experiment with the same
-quantity was attended with the same result.
-I. II. Hg Cl, vol. in solution 18.4
-Half an equivalent (68.45 grains), thrown into a saturated
-solution of the salt, caused an increase of 11.0 at a tempera-
-ture of 56°.
-300 100
-Sp. gr.
-157
-Lotto.
-I. Hg Cl. vol. of salt 22 ... 6.223
-Chloride of Hydrogen, HCl = 36.47.—It was of interest to
-ascertain the volume of hydrochloric acid, in order to com-
-pare it with the other chlorides of the magnesian metals when
-- dissolved in water. It was natural to expect that the volume
-of muriatic acid in dilute solutions would be different from that
-possessed by it in its concentrated state; and therefore the
-following experiments must be viewed in this light. Peligot's
-salt, the bichromate of the chloride of potassium, on dissol-
-ving in water, was decomposed into bichromate of potash and
-muriatic acid, and the volume of the latter was obtained by
-and deducting that due to the former salt and adding the volume
-of water. The fourth part of an equivalent of this salt, 44.75
-grains, dissolved in 1000 grains of water with an increase of
-13.5 at 65°; and of 13.6 in another experiment at 68°. This
-result gives for the whole volume of the salt when dissolved
-54.0 and 54.4, from which must be deducted 45.0 for the vo-
-lume of bichromate of potash, and 9 must be added on ac-
-count of the equivalent of water.
-A P
-Muriatic acid, in dilute solutions
-18.0
-... in section of the section of the section of the section of the section of the section of the section of the section of the section of the section of the section of the section of the section of the section of the secti
-18.4
-ort comen pro Mean .
-18.2
-Chloride of Copper, Cu Cl + 2HO = 85.18.—Half an equi-
-valent, 42.6 grains, was dissolved in 1000 grains of water with
-an increase of 13.4 at a temperature of 60°; on a second ex-
-periment, 47 grains occasioned an increase of 14.0 at a tem-
-perature of 58°.
-I. CuCl + 2HO, vol. in solution
-26.8
-A CONTRACT III. III. III. III. III. III. III. II
-25.4
-Mean
-26.1
-.
+
+<table><tr><td>I. Ba Cl + 2HO vol. of salt</td><td>38·8</td><td>...</td><td>Sp. gr.3·166</td></tr><tr><td>II. 01 ...</td><td>39·2</td><td>...</td><td>3·133</td></tr><tr><td>III. 00 ...</td><td>39·2</td><td>...</td><td>3·133</td></tr><tr><td>Mean</td><td>39·07</td><td>...</td><td>3·144</td></tr></table>
+
+Perchloride of Mercury, Hg Cl = 136·9.—The fourth of an equivalent, 34·2 grains, of corrosive sublimate, on being dissolved in 1000 grains of water, gave an increase of 4·6 at a temperature of 62°; a second experiment with the same quantity was attended with the same result.
+
+I. II. Hg Cl, vol. in solution 18·4
+
+Half an equivalent (68·45 grains), thrown into a saturated solution of the salt, caused an increase of 11·0 at a temperature of 56°.
+
+I. Hg Cl. vol. of salt 22 ... Sp. gr. 6·223
+
+Chloride of Hydrogen, HCl = 36·47.—It was of interest to ascertain the volume of hydrochloric acid, in order to compare it with the other chlorides of the magnesian metals when dissolved in water. It was natural to expect that the volume of muriatic acid in dilute solutions would be different from that possessed by it in its concentrated state; and therefore the following experiments must be viewed in this light. Peligot's salt, the bichromate of the chloride of potassium, on dissolving in water, was decomposed into bichromate of potash and muriatic acid, and the volume of the latter was obtained by deducting that due to the former salt and adding the volume of water. The fourth part of an equivalent of this salt, 44·75 grains, dissolved in 1000 grains of water with an increase of 13·5 at 65°; and of 13·6 in another experiment at 68°. This result gives for the whole volume of the salt when dissolved 54·0 and 54·4, from which must be deducted 45·0 for the volume of bichromate of potash, and 9 must be added on account of the equivalent of water.
+
+I. Muriatic acid, in dilute solutions 18·0
+
+II. ... ... ... 18·4
+Mean . . 18·2
+
+Chloride of Copper, Cu Cl + 2HO = 85·18.—Half an equivalent, 42·6 grains, was dissolved in 1000 grains of water with an increase of 13·4 at a temperature of 60°; on a second experiment, 47 grains occasioned an increase of 14·0 at a temperature of 58°.
+
+I. CuCl + 2HO, vol. in solution 26·8
+
+II. ... ... 25·4
+
+Mean . . 26·1
 
 ## PDF page 510
 
-Messrs. Playfair and Joule on moth
-4964
-Half an equivalent, 42:6 grains, being immersed in a satu-
-rated solution at 62°, caused an increase of 17:0; a second expe-
-riment with the same quantity of salt gave an increase of 16:6.
-Sp. gr.
-.11
-1.671. CuCl + 2HO, vol. of salt 33.2
-2.566
-eH.
-ulos betarutas a ni the Mean 33.6 the mar 2.535 in noit Chloride of Copper and Ammonium, CuCl+ NH<sub>4</sub>Cl+2HO
-= 138.84.—34.7 grains of this salt, being dissolved in 1000 c
-grains of water, gave an increase of 15.5 in the first experi-
-ment and of 15.4 in the second, both at a temperature of 68.
-48.5 g 6:16, dissolved in the same quantity of water, gire an
-Mean
-increas 8.16 15.5..
-32.46 grains, thrown into a saturated solution, caused an
-increase of 16·1 in two experiments at a temperature of 60°,
-and a repetition of the experiment confirmed this result.
-Chloride of copper and ammonium, vol. of salt 68.8 ... 2.018
-Chloride of Copper and Potassium, CuCl + KCl + 2HO
-= 159.88.—34.7 grains of this salt, being dissolved in 1000 s
-grains of water, caused an increase of (11:5, at 62%. + 10 nd
-10 H CuCl + KCl + 2HO, vol. in solution (53.0 of 1) .A
-The same quantity (34.7 grains), thrown into a saturated
-solution, caused an increase of 14.3.2 mins at to source 1001
-CuCl+KCl+2HO, vol of salt 65.9 ... 2:426
-Chloride of Tin, SnCl + 3HO = 121:39.—One-fourth of
-an equivalent (30.35 grains) was dissolved in 1000 grains of
-water, acidulated with muriatic acid, with an increase of 9.0
-at a temperature of 60°; a second experiment, with the same
-quantity of salt and at the same temperature, gave an increase of 9.2. mirages own m 0.71 to 2.5 mirages over the
-- or solution 36.0 and In SnCl + 3HO, vol. in solution 36.0
-citic gravity 8.98
-II.
-The same quantity, 30.35 grains, of the salt being immersed
-in a saturated solution, yielded an increase of 11.0, the tempe-
-rature being 60°; and exactly the same result attended the
-repetition of the experiment. Oh + 10 alie + 10 alie + 10 alie + 10 alie + 10 alie + 10 alie + 10 alie + 10 alie + 10 alie + 10 alie + 10 alie + 10 alie + 10 alie + 10 alie + 10 alie + 10 alie + 10 alie + 10 alie + 10 alie
-.111
-218
-Sp. gr.
-SnCl + 3HO, vol. of salt 44.0
-2.759
-Chloride of Tin and Ammonium, SnCl + NH<sub>4</sub>Cl + 3HO
-=175.05.—On dissolving 44 grains of this salt in 1000 grains
-of water, the increase was 18.3 at a temperature of 60°; a m
+496
+
+Messrs. Playfair and Joule on
+
+Half an equivalent, 42·6 grains, being immersed in a saturated solution at 62°, caused an increase of 17·0; a second experiment with the same quantity of salt gave an increase of 16·6.
+
+\[
+\begin{array}{l} \frac {\mathrm{c} \cdot \mathrm{t}}{\mathrm{c}} \mathrm{I}. \mathrm{CuCl} + 2 \mathrm{HO}, \text {vol. of salt} \quad 3 3 \cdot 2 \quad \dots \quad \begin{array}{l} \text {Sp. gr.} \\ 2 \cdot 5 6 6 \end{array} \\ \text {II.} \dots \dots \text {Mean} \frac {3 4 \cdot 0}{3 3 \cdot 6} \dots \frac {2 \cdot 5 0 5}{2 \cdot 5 3 5} \\ \end{array}
+\]
+
+Chloride of Copper and Ammonium,  \( CuCl + NH_{4}Cl + 2HO = 138\cdot84 \) . —34·7 grains of this salt, being dissolved in 1000 grains of water, gave an increase of 15·5 in the first experiment and of 15·4 in the second, both at a temperature of  \( 68^{\circ} \) .
+
+\[
+\begin{array}{l} \mathrm{I.CuCl} + \mathrm{NH} _ {4} \mathrm{Cl} + 2 \mathrm{HO}, \text {vol. in solution} 6 2 \cdot 0 \\ \begin{array}{c} \text {II.} \\ \text {sag} \end{array} \text {eotsw} \text {to} \dots \text {titsup} \dots \text {isa} \text {and} \text {mi} \dots \text {avlozib}, \begin{array}{c} \underline {{6 1 : 6}} \\ \text {Mean} \quad \text {..} \text {C}: \text {I} \quad \underline {{6 1 : 8}} \end{array} \\ \end{array}
+\]
+
+32·46 grains, thrown into a saturated solution, caused an increase of 16·1 in two experiments at a temperature of 60°, and a repetition of the experiment confirmed this result.
+
+Chloride of copper and ammonium, vol. of salt 68·8 cm. 2·018
+Chloride of Copper and Potassium, CuCl + KCl + 2HO = 159·88.—34·7 grains of this salt, being dissolved in 1000 grains of water, caused an increase of 11·5 at 62°.
+
+\[
+\mathrm{CuCl} + \mathrm{KCl} + 2 \mathrm{HO}, \text {vol. in solution} 5 3 \cdot 0
+\]
+
+The same quantity (34·7 grains), thrown into a saturated solution, caused an increase of 14·3.
+
+\[
+\mathrm{CuCl} + \mathrm{KCl} + 2 \mathrm{HO}, \text {vol of salt} 6 5 \cdot 9 \dots 2 \cdot 4 2 6
+\]
+
+Chloride of Tin, SnCl + 3HO = 121·39.—One-fourth of an equivalent (30·35 grains) was dissolved in 1000 grains of water, acidulated with muriatic acid, with an increase of 9·0 at a temperature of 60°; a second experiment, with the same quantity of salt and at the same temperature, gave an increase of 9·2.
+
+\[
+\begin{array}{l} \text {I. SnCl} + 3 \mathrm{HO}, \text {vol. in solution} 3 6 \cdot 0 \\ \text {II.} \quad \dots \quad \dots \quad \dots \quad 3 6 \cdot 8 \\ \text {Mean} \cdot \cdot 36 \cdot 4 \\ \end{array}
+\]
+
+The same quantity, 30·35 grains, of the salt being immersed in a saturated solution, yielded an increase of 11·0, the temperature being 60°; and exactly the same result attended the repetition of the experiment.
+
+\[
+\mathrm{SnCl} + 3 \mathrm{HO}, \text {vol. of salt} 4 4 \cdot 0 \dots 2 \cdot 7 5 9
+\]
+
+Chloride of Tin and Ammonium, \(\mathrm{SnCl} + \mathrm{NH}_4\mathrm{Cl} + 3\mathrm{HO} = 175\cdot 05\) On dissolving 44 grains of this salt in 1000 grains of water, the increase was \(18\cdot 3\) at a temperature of \(60^{\circ}\); a
 
 ## PDF page 511
 
@@ -31999,46 +30449,35 @@ will be explained in the next section.
 ## PDF page 526
 
 512
-Messrs: Playfair and Joule on M.
-peth mineral. On throning Frontigies of this salt thus prepared into water, an increase of 6.9 was obtained, which gives
-41.3 as the volstlag Salts of the specific as the specific as the specific as the specific as the specific as the specific as the specific as the specific as the specific as the specific as the specific as the specific as 
-The salts which we have hitherto examined have been those
-soluble in water, and having a constitution to a certain degree
-well-defined. We have now to consider the insoluble sub-
-salts, and, in some cases, their neutral insoluble types, and
-also to ascertain how far the results thus obtained serve to
-throw light on the constitution of ammoniacal salts. VILLETS.
-Subsulphate of Copper, CuO, SO<sub>3</sub>, 4HO + 3CuO = 234.9.
-This well-known salt was made by adding ammonia to a
-solution of sulphate of copper. The fourth part of an equi-
-valent, 58.7 grains, thrown into water, caused an increase of
-19.1 and 19.0 in two successive experiments. O 11 to occasion
-4 ling las the volume of the equivalent, and 6.266 as the spe-
-I. Subsulphate of copper, vol. of salt 76.410 ... 11/3.074
-000.8 benefit of the very 2 (PDO. Cros) + PIII =
-43280-8 ... e 2.77 ral, in mean at, is of the composition ex-
-Subsulphate of Zinc, ZnO, SO<sub>3</sub>, 3ZnO, 4HO = 237.3.
-This salt is apt to combine with more water than four atoms, but may be obtained with four by drying at 212°. On placing 29.66 grains, the eighth part of an equivalent, in turpentine,
-an increase of 9:5 was obtained; and on treating 22:8 in a
-similar manner, the rise in the stem was 7.3. Both of these
-experiments exactly agree in making—<br>00':2 ... 0'00 liss to lov Ou02 + OH 60'0 spign. I
-Subsulphate of zinc, vol. of salt 76.0 ... 3.122 .II
-Sulphate of Protoxide of Mercury, <math>Hg_2O</math>, <math>SO_3 = 251.0</math>.
-This salt was prepared in the usual way by digesting one part
-of mercury in 12 part of sulphuric acid. The fourth of an
-equivalent, 62.75 grains, thrown into turpentine, increased
-copper, vv Jg. de ating the mirate to 400° or 500°. The f. £.81 part of a sent 5.82 at the caused, in var of 5.87 miles 1.82 for a sent of the caused in var of 5.87 miles 1.82 for a sent of the caused in var of 5.87 miles 
-Sulphate of Peroxide of Mercury, HgO, SO<sub>3</sub> = 149.6.
-The salt used in the experiment was prepared by heating five
-parts of sulphuric acid mixed with a little nitric acid, with four
-parts of mercury until the whole became a dry saline mass.
-On immersing 37.5 grains of the salt thus prepared in tur-
-pentine, an increase of 5.8 was obtained, which gives 23:1 for
-the volume of the equivalent, and 6.466 for the specific gra-
-ther i'r the same selt as the one last cestritlis adtho vivi
-Subsulphate of Mercury, HgO, SO<sub>3</sub> + 2HgO = 368:46.—
-The last salt thrown into water and washed with warm water
-is converted into the beautiful yellow powder known as tur-
+
+Messrs: Playfair and Joule on
+
+SECTION VIII.
+
+Subsalts and Ammoniacal Salts.
+
+The salts which we have hitherto examined have been those soluble in water, and having a constitution to a certain degree well-defined. We have now to consider the insoluble sub-salts, and, in some cases, their neutral insoluble types, and also to ascertain how far the results thus obtained serve to throw light on the constitution of ammoniacal salts.
+
+Subsulphate of Copper, CuO, SO₃, 4HO + 3CuO = 234·9. —This well-known salt was made by adding ammonia to a solution of sulphate of copper. The fourth part of an equivalent, 58·7 grains, thrown into water, caused an increase of 19·1 and 19·0 in two successive experiments.
+
+Sp. gr.
+
+I. Subsulphate of copper, vol. of salt 76·4 ... 3·074
+II. Mean . 76·0 ... 3·090
+Subsulphate of Zinc, ZnO, SO₃, 3ZnO, 4HO = 237·3.—
+This salt is apt to combine with more water than four atoms, but may be obtained with four by drying at 212°. On placing 29·66 grains, the eighth part of an equivalent, in turpentine, an increase of 9·5 was obtained; and on treating 22·8 in a similar manner, the rise in the stem was 7·3. Both of these experiments exactly agree in making—
+
+Sp.gr.
+
+Subsulphate of zinc, vol. of salt 76·0 ... 3·122
+
+Sulphate of Protoxide of Mercury, \(\mathrm{Hg_2O}\), \(\mathrm{SO_3} = 251\cdot 0\). This salt was prepared in the usual way by digesting one part of mercury in \(1\frac{1}{2}\) part of sulphuric acid. The fourth of an equivalent, 62·75 grains, thrown into turpentine, increased \(8\cdot 3\).
+
+Hg₂O, SO₃, vol. of salt 33·2 ... Sp. gr. 7·560
+
+Sulphate of Peroxide of Mercury, HgO, SO₃ = 149·6.—The salt used in the experiment was prepared by heating five parts of sulphuric acid mixed with a little nitric acid, with four parts of mercury until the whole became a dry saline mass. On immersing 37·5 grains of the salt thus prepared in turpentine, an increase of 5·8 was obtained, which gives 23·1 for the volume of the equivalent, and 6·466 for the specific gravity of the salt.
+
+Subsulphate of Mercury, HgO, SO₃ + 2HgO = 368:46.—The last salt thrown into water and washed with warm water is converted into the beautiful yellow powder known as tur-
 
 ## PDF page 527
 
@@ -32637,77 +31076,28 @@ Promise Section and to the more suit (Fig. 1) (Fig.
 ## PDF page 533
 
 Atomic Volume and Specific Gravity.
-8519
-The important researches of Graham have shown that, water
-plays a most important part in the constitution of salts; and
-that salts with an excess of base may be viewed as hydrates,
-in which oxide of hydrogen becomes replaced by a metallic
-oxide. The previous experiments will be found to give this
-theory the fullest confirmation. Sulphate of zinc crystallizes
-A SOFT
-with seven atoms of water and affects a volume of 74.6; and
-sulphate of copper assumes the same state of hydration, when
-crystallized with the latter salt, although per se it assumes
-only five atoms. Placing together the subsulphates and hy-
-drated sulphates of these metals, we perceive not only a close
-similarity in their formulæ but also in their volumes, as ascer-
-tained by experiment.
-Ulf+
-ZnO >0. 37nO
-Difference, to standplasdud
-ZnO, SO<sub>3</sub>, 3HO, 4HO, vol. 174.6
-77 3 82 8412
-Protosul hate of m 4 1ry .
-7 60 F 7 500
-ZnO, SO<sub>3</sub>, 3ZnO, 4HO, ... 76.0
-Persulphate of an icary..
-20 F- 11/11 3- 4 (1)
-CuO, SO<sub>3</sub>, 3HO, 4HO, vol. 74.6 \\ CuO, SO<sub>3</sub>, 3CuO, 4HO, ... 76.2 \\\ \frac{74.6}{76.2} \\ \frac{1.6}{1.6} \\ \text{lad.} \\ \text{lad.} \\ \text{lad.} \\ \text{lad.} \\ \text{lad.} \\ \text{lad.} \\ \text{lad.} \\ \text{
-Disch =
-1,011G
-Melanchroit
-1157 60
-The difference between the two states of the sulphates is winduced in the sulphates is winduced in the sulphates is winduced in the sulphates is winduced in the sulphates is winduced in the sulphates is winduced in the sul
-2.7 5
-probably greater as stated than it actually is. We have al-due
-1.611.
-ready shown that the magnesian sulphates with seven atoms
-112.5
-of water do not possess a volume of 77.0, because two of the sandy?
-atoms possess a volume of 9.8 instead of 11:0; and perhaps
-T 7an
-a similar circumstance tends to reduce the volume of the sub-
-2-110
-sulphates. Similar instances of replacement of water by a aggoo
-metallic oxide are seen in other parts of the table. We have JEPHYH
-11.9.11
-already shown that nitrates of copper and bismuth possess a said
-2-47
-volume of 58.8 or 9.8 x 6. We have also seen instances
-in which 9.8, the volume of ice, in feeble compounds, be-
-came changed into the volume 11 when the salt entered into
-combination. In this point of view, the subsalts MO, NO 500 Black
-1 7 1
-+ HO + 2MO become assimilated to the hydrated nitrates
-MO, NO<sub>5</sub> + HO + 2HO, the number of volumes in both
-cases being the same, the only difference being, that, in the no nurA
-former case, the salts are multiples of 11, and in the latter ma
-411-
-of 9.8, or the volume of ice. The hydrated type affects six
-volumes, and so do the subnitrates, as will be seen by the ways
-The Form and am de eff
-following table.
-ng table. CuO, NO<sub>5</sub>, HO+2CuO, volume 65.9 or 11 × 6 bn od cold.
-1 121 161
-BiO, NO<sub>5</sub>, HO + 2BiO, ... <math>66.0</math> ... <math>11 \times 6</math> HgO, NO<sub>5</sub>, HO + 2HgO ... <math>165.6</math> ... <math>11 \times 6</math>
-MERC ITY
-3a ir chl ride
-3:1
-O me cury
-We have further evidence of the equivalency of water to the
-metallic oxide in anhydrous nitrate of bismuth, which has a
-volume of 55.0 or 66-11; the formula for the salt being
-BiO, NO<sub>5</sub>+2BiO. The conversion of the volume 9.8 into 11
+
+519
+
+The important researches of Graham have shown that water plays a most important part in the constitution of salts; and that salts with an excess of base may be viewed as hydrates, in which oxide of hydrogen becomes replaced by a metallic oxide. The previous experiments will be found to give this theory the fullest confirmation. — Sulphate of zinc crystallizes with seven atoms of water and affects a volume of 74·6; and sulphate of copper assumes the same state of hydration, when crystallized with the latter salt, although per se it assumes only five atoms. Placing together the subsulphates and hydrated sulphates of these metals, we perceive not only a close similarity in their formulae but also in their volumes, as ascertained by experiment.
+
+\[
+\begin{array}{l} \begin{array}{l} \mathrm{ZnO}, \mathrm{SO} _ {3}, 3 \mathrm{HO}, 4 \mathrm{HO}, \text {vol.} \quad 7 4 \cdot 6 \\ \mathrm{ZnO}, \mathrm{SO} _ {3}, 3 \mathrm{ZnO}, 4 \mathrm{HO}, \dots \quad 7 6 \cdot 0 \end{array} \\ \mathrm{CuO}, \mathrm{SO} _ {3}, 3 \mathrm{HO}, 4 \mathrm{HO}, \text {vol.} 7 4 \cdot 6 \\ \mathrm{CuO}, \mathrm{SO} _ {3}, 3 \mathrm{CuO}, 4 \mathrm{HO},.. 7 6 \cdot 2\left. \right) \\ \end{array}
+\]
+
+Difference.
+
+1·4
+
+1·6
+
+The difference between the two states of the sulphates is probably greater as stated than it actually is. We have already shown that the magnesian sulphates with seven atoms of water do not possess a volume of 77·0, because two of the atoms possess a volume of 9·8 instead of 11·0; and perhaps a similar circumstance tends to reduce the volume of the subsulphates. Similar instances of replacement of water by a metallic oxide are seen in other parts of the table. We have already shown that nitrates of copper and bismuth possess a volume of 58·8 or 9·8 × 6. We have also seen instances in which 9·8, the volume of ice, in feeble compounds, became changed into the volume 11 when the salt entered into combination. In this point of view, the subsalts MO, NO₅ + HO + 2MO become assimilated to the hydrated nitrates MO, NO₅ + HO + 2HO, the number of volumes in both cases being the same, the only difference being, that, in the former case, the salts are multiples of 11, and in the latter of 9·8, or the volume of ice. The hydrated type affects six volumes, and so do the subnitrates, as will be seen by the following table.
+
+\[
+\begin{array}{l} \mathrm{CuO}, \mathrm{NO} _ {5}, \mathrm{HO} + 2 \mathrm{CuO}, \text {volume} 6 5 \cdot 9 \text {or} 1 1 \times 6 \\ \mathrm{BiO}, \mathrm{NO} _ {5}, \mathrm{HO} + 2 \mathrm{BiO}, \dots 6 6 \cdot 0 \dots 1 1 \times 6 \\ \mathrm{HgO}, \mathrm{NO} _ {5}, \mathrm{HO} + 2 \mathrm{HgO} \dots 6 5 \cdot 6 \dots 1 1 \times 6 \\ \end{array}
+\]
+
+We have further evidence of the equivalency of water to the metallic oxide in anhydrous nitrate of bismuth, which has a volume of 55·0 or 66-11; the formula for the salt being BiO, NO₅ + 2BiO. The conversion of the volume 9·8 into 11
 
 ## PDF page 534
 
@@ -33218,78 +31608,23 @@ a. Certain salts, such as the magnesian sulphatespnilad
 ## PDF page 544
 
 530
+
 Messrs. Playfair and Joule on
-Theoretical. By Kopp's* By our Mean of
-sp. gr. experiments. experiments. experiments.
-Potash alum . 1:727 ... 1.724 ... 1.726
-1.725
-...
-Chrome alum 1.833 ... 1.848 ...
-1.826
-1.837
-...
-The number 11 must then be very near the truth, if it be
-not absolutely the truth. We now append an equally severe
-test for our view that the volumes of many salts are multiples
-of 9.8, the number representing the volume of ice. If there
-be an error in this number, it must become very notable in
-the phosphates and arseniates, when multiplied by 24, or in
-carbonate of soda when multiplied by 10. Perhaps sugar
-itself will form as severe a test as could be desired, for we pro-
-ceed on the extraordinary fact that the 12 atoms of carbon in
-sugar have ceased to occupy space, and that the bulk of an
-atom of sugar is just the bulk of H<sub>11</sub> O<sub>11</sub>, or its 11 atoms of
-hydrogen and oxygen, quasi water, frozen into ice.
-the let the
-are no continuo a la continuo a la continuo a la continuo a la continuo a la continuo a la continuo a la continuo a la continuo a la continuo a la continuo a la continuo a la continuo a la continuo a la continuo a la conti
-Theoretical Sp. gr. acsp. gr. gr. acsp. gr. cording to
-Other
-author-
-our experiments.
-ities.
-Carbonate of soda 1.463 1.454
-1.423 Haidinger.
-Phosphate of soda . 1.527 1.525
-1.514 Tünnerman.
-Subphosphate of soda 1.622
-1.622
-none
-Arseniate of soda . 1.713
-1.736
-1:759 Thomson.
-Subarseniate of soda 1.808
-1.804
-none
-Cane-sugar 1. . . . 1.591
-1.600 Schübler & Renz.
-1.596
-Thus even in salts so difficult to obtain in a proper degree
-of hydration free from mechanical water, as those given in the
-above table, the difference between the theoretical and experi-
-mental numbers is not greater than might have been expected.
-We give one other class of salts to illustrate position <math>c</math> in
-Prop. II., there being in these salts a certain number of vo-
-lumes represented by 11, and a certain number by 9.8, CuO,
-SO3 representing the number of volumes with the divisor 11.
-are simular de
-Theoretical Sp. gr. by our Sp. gr. by other sp. gr. experiments. authorities.
-. 2.270 2.254
-2.274 Kopp.
-Sulphate of copper
-21 I. ... 9 zinc . . 1.926 1.931 1.912 Hassenfratz.
-1.840 Idem.
-iron .
-. 1.854
-1.857
-1.660 Idem.
-... magnesia 1.660
-1.660
-nickel . 2.033
-2.037 Kopp.
-We have selected these three classes of salts as being the
-most severe tests which we could apply to our theory, and
-any chemist who has had experience in this subject will at
-once admit that the theoretical and experimental numbers are
+
+<table><tr><td></td><td>Theoretical. sp. gr.</td><td>By Kopp&#x27;s* experiments.</td><td>By our experiments.</td><td>Mean of experiments.</td></tr><tr><td>Potash alum</td><td>1·727</td><td>1·724</td><td>1·726</td><td>1·725</td></tr><tr><td>Chrome alum</td><td>1·833</td><td>1·848</td><td>1·826</td><td>1·837</td></tr></table>
+
+The number 11 must then be very near the truth, if it be not absolutely the truth. We now append an equally severe test for our view that the volumes of many salts are multiples of 9·8, the number representing the volume of ice. If there be an error in this number, it must become very notable in the phosphates and arseniates, when multiplied by 24, or in carbonate of soda when multiplied by 10. Perhaps sugar itself will form as severe a test as could be desired, for we proceed on the extraordinary fact that the 12 atoms of carbon in sugar have ceased to occupy space, and that the bulk of an atom of sugar is just the bulk of  \( H_{11}O_{11} \) , or its 11 atoms of hydrogen and oxygen, quasi water, frozen into ice.
+
+<table><tr><td></td><td>Theoretical sp. gr.</td><td>Sp. gr. according to our experiments.</td><td>Other authorities.</td><td></td></tr><tr><td>Carbonate of soda</td><td>1·463</td><td>1·454</td><td>1·423</td><td>Haidinger.</td></tr><tr><td>Phosphate of soda</td><td>1·527</td><td>1·525</td><td>1·514</td><td>Tünnerman.</td></tr><tr><td>Subphosphate of soda</td><td>1·622</td><td>1·622</td><td>none</td><td></td></tr><tr><td>Arseniate of soda</td><td>1·713</td><td>1·736</td><td>1·759</td><td>Thomson.</td></tr><tr><td>Subarseniate of soda</td><td>1·808</td><td>1·804</td><td>none</td><td></td></tr><tr><td>Cane-sugar</td><td>1·591</td><td>1·596</td><td>1·600</td><td>Schübler &amp; Renz.</td></tr></table>
+
+Thus even in salts so difficult to obtain in a proper degree of hydration free from mechanical water, as those given in the above table, the difference between the theoretical and experimental numbers is not greater than might have been expected.
+
+We give one other class of salts to illustrate position \(c\) in Prop. II., there being in these salts a certain number of volumes represented by 11, and a certain number by 9·8, CuO, SO\(_{3}\) representing the number of volumes with the divisor 11.
+
+<table><tr><td></td><td>Theoretical sp. gr.</td><td>Sp. gr. by our experiments.</td><td>Sp. gr. by other authorities.</td></tr><tr><td>Sulphate of copper</td><td>2·270</td><td>2·254</td><td>2·274 Kopp.</td></tr><tr><td>... zinc</td><td>1·926</td><td>1·931</td><td>1·912 Hassenfratz.</td></tr><tr><td>... iron</td><td>1·854</td><td>1·857</td><td>1·840 Idem.</td></tr><tr><td>... magnesia</td><td>1·660</td><td>1·660</td><td>1·660 Idem.</td></tr><tr><td>... nickel</td><td>2·033</td><td>...</td><td>2·037 Kopp.</td></tr></table>
+
+We have selected these three classes of salts as being the most severe tests which we could apply to our theory, and any chemist who has had experience in this subject will at once admit that the theoretical and experimental numbers are
+
 * Annalen der Pharmacie, Bd. xxxvi. S. 10.
 
 ## PDF page 545
@@ -34113,49 +32448,33 @@ passing through the point of contact, as the square of the di-
 
 ## PDF page 557
 
-of Curves and Curved Surfaces of the Second Order. 543
-stance of the major directrix from the centre is to the square
-of the abscissa a of the point of contact, slovio a segolevite f
-The is the minor axis <math>\frac{e^2}{e^2}</math>: <math>\frac{a^2}{e^2}</math>: <math>\frac{e^2}{e^2}</math>: <math>\frac{e^2}{e^2}</math>: <math>\frac{e^2}{e^2}</math>: <math>\frac{e^2}{e^2}</math>: <math>\frac{e^2}{e^2}</math>: <math>\frac{e^2}{e^2}</math>: <math>\frac{e^2}{e^2}</math>: <math>\frac{e^2}{e^2}</math>: <math>\frac{e^2}{e^2}</math>: <math>\frac{e^2}{e^2}</math>: <math>\frac{e^2}{e^2}</math>: <math>\frac{e</math>
-or
-X. Let the lines O.Q, O.Q' meet the same minor directrix
-in the points Q Q", then in the triangle O Q Q" we shall have
-the base <math>QQ'</math> to the sum of the sides <math>QQ + QQ''</math>, as the
-eccentricity of the conic section is to unity, or and of QQ' in the hyperbola QQ' in the hyperbola QQ Q' in the hyperbola QQ Q' in the hyperbola QQ Q Q' in the hyperbola QQ Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q Q 
-XI. On this tangent let perpendiculars be let fall from the
-minor foci C C', the ratio of these perpendiculars is equal to
-that of the distances of Q and Q' from the centre. Hence
-the ratio of those perpendiculars is also the same as that of the
-segments PQ, PQ; thus the perpendiculars from the minor
-foci on a tangent, the distances of the points Q Q' (where this
-tangent meets the minor directrices) to the centre, and the
-segments of this tangent between the point of contact and the
-minor directrices are all in the same ratio.
-XII. The product of the focal perpendiculars on a tangent
-to the curve, is to the square of the central perpendicular on
-the same tangent as the square of the semi-diameter passing
-through the point of contact is to the square of the semi-major
-axe,
-<math display="block">\frac{\boldsymbol{\varpi}\,\boldsymbol{\varpi}^l}{\mathbf{p}^2} = \frac{a^{l2}}{a^2}.</math>
-or
-Let <math>\lambda</math> be the angle which these perpendiculars make with the
-minor axe, and let <math>\rho \rho'</math> be the distances of the points Q Q' to
-the centre,
-<math display="block">\frac{\varpi \, \varpi'}{\varrho \, \varrho'} = e^2 \sin^2 \lambda.</math>
-then
-XIII. From any point G in one of the minor directrices
-let tangents be drawn to the curve, and let the cord of contact
-meet the same directrix in the point H, the line G H subtends
-a right angle at the centre O.
-XIV. Or more generally, if from any point G in the plane
-of the curve, two tangents are drawn to it meeting one of the
-minor directrices in the points m and n, the cord of con-
-tact meeting the same directrix in the point H, the line O H
-bisects the supplement of the angle m On; and if from C, the
-corresponding minor focus, we draw a line to the point G
-meeting the directrix in the point H', the line OH' bisects
-the angle mOn; hence the lines OH, OH are always at
-right angles to each other the hope at the other all and
+of Curves and Curved Surfaces of the Second Order.
+
+543
+
+stance of the major directrix from the centre is to the square of the abscissa \(\alpha\) of the point of contact,
+
+or OQ.OQ':O\( \overline{P^{2}} \) :: \( \frac{a^{2}}{e^{2}} \): \( \alpha^{2} \).
+
+X. Let the lines O Q, O Q' meet the same minor directrix in the points QQ'', then in the triangle O QQ'' we shall have the base QQ' to the sum of the sides O Q + O Q'', as the eccentricity of the conic section is to unity, or
+
+\[
+\frac {\mathrm{QQ} ^ {\prime \prime}}{\mathrm{OQ} + \mathrm{OQ} ^ {\prime \prime}} = e, \text {in the hyperbola} \frac {\mathrm{QQ} ^ {\prime \prime}}{\mathrm{OQ} - \mathrm{OQ} ^ {\prime \prime}} = e.
+\]
+
+XI. On this tangent let perpendiculars be let fall from the minor foci C C', the ratio of these perpendiculars is equal to that of the distances of Q and Q' from the centre. Hence the ratio of those perpendiculars is also the same as that of the segments P Q, P Q'; thus the perpendiculars from the minor foci on a tangent, the distances of the points Q Q' (where this tangent meets the minor directrices) to the centre, and the segments of this tangent between the point of contact and the minor directrices are all in the same ratio.
+
+XII. The product of the focal perpendiculars on a tangent to the curve, is to the square of the central perpendicular on the same tangent as the square of the semi-diameter passing through the point of contact is to the square of the semi-major axe,
+
+or  \( \frac{\varpi\varpi^{\prime}}{P^{2}}=\frac{a^{12}}{a^{2}}. \)
+
+Let \(\lambda\) be the angle which these perpendiculars make with the minor axe, and let \(\rho \rho'\) be the distances of the points \(Q Q'\) to the centre,
+
+then  \( \frac{\varpi \varpi'}{\rho \rho'} = e^{2} \sin^{2} \lambda. \)
+
+XIII. From any point G in one of the minor directrices let tangents be drawn to the curve, and let the cord of contact meet the same directrix in the point H, the line G H subtends a right angle at the centre O.
+
+XIV. Or more generally, if from any point G in the plane of the curve, two tangents are drawn to it meeting one of the minor directrices in the points m and n, the cord of contact meeting the same directrix in the point H, the line O H bisects the supplement of the angle m O n; and if from C, the corresponding minor focus, we draw a line to the point G meeting the directrix in the point H', the line O H' bisects the angle m O n; hence the lines O H, O H' are always at right angles to each other.
 
 ## PDF page 558
 
@@ -34246,48 +32565,43 @@ both ways by the directrices, the sum of the angles which any
 
 ## PDF page 560
 
-Dr. Booth on a New Class of Properties of Curves.
 546
-pair of these tangents drawn to the same conic subtends at
-the centre is constant and W and Am &
-XXVI. Let a right line Q Q', and a point O be assumed,
-and round the latter as pole let a constant angle revolve whose
-sides meet the given line in the variable points Q, Q'; let two
-other fixed points P P be assumed, the locus of the intersec-
-tion of the lines PQ, P'Q' is a conic section, which passes
-through the points P.P., and of which (when O is the centre) the given right line is a minor directrix.
-XXVII. Let a series of concentric conic sections, having
-the same minor directrices, be cut by a common diameter, the
-tangents drawn through the points where this diameter inter-
-sects the curves, envelope a concentric conic section. and done
-The solution of this question is so simply obtained by the
-method of tangential co-ordinates, that I am induced to give
-im conderable agents present
-Let
-it here.
-Are to electrical our <math>\pm a^2 \xi^2 = 1</math> on similar or the
-be the tangential equation of one of the series of ellipses or
-hyperbolas, and as they all have the same minor directrices,
-a Construction of the tile of the property of the property of the property of the property of the property of the property of the property of the property of the property of the property of the property of the property of 
-the mean second second second second second second second second second second second second second second second second second second second second second second second second second second second second second second se
-Eliminating <math>a</math> and <math>b</math> between the equations (1.), (2.), and (3.),
-menon in which the movements of the ather have a bnil sw
-remise the extra ration <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2</math>
+
+Dr. Booth on a New Class of Properties of Curves.
+
+pair of these tangents drawn to the same conic/subtends at the centre is constant.
+
+XXVI. Let a right line Q Q', and a point O be assumed, and round the latter as pole let a constant angle revolve whose sides meet the given line in the variable points Q, Q', let two other fixed points P P' be assumed, the locus of the intersection of the lines P Q, P' Q' is a conic section, which passes through the points P P', and of which (when O is the centre) the given right line is a minor directrix.
+
+XXVII. Let a series of concentric conic sections, having the same minor directrices, be cut by a common diameter, the tangents drawn through the points where this diameter intersects the curves, envelope a concentric conic section.
+
+The solution of this question is so simply obtained by the method of tangential co-ordinates, that I am induced to give it here. Let
+
+\[
+b ^ {2} v ^ {2} \pm a ^ {2} \xi^ {2} = 1, \text {if} \text {in} \text {to} \text {on} \text {J.A.} (1.)
+\]
+
+be the tangential equation of one of the series of ellipses or hyperbolas, and as they all have the same minor directrices,
+
+\[
+\frac {1}{a ^ {2}} + \frac {1}{k ^ {2}} = \frac {1}{b ^ {2}}; \dots \tag {2.}
+\]
+
+let \( y = nx \) be the projective equation of the diameter, then
+
+\[
+\frac {b ^ {2} v}{a ^ {2} \xi} = n. \tag {3.}
+\]
+
+Eliminating \(a\) and \(b\) between the equations (1.), (2.), and (3.), we find a set of sets set to existence and follow all numbers
+
+\[
+v ^ {2} \mp \xi^ {2} - \left(\frac {n ^ {2} - 1}{n}\right) v \xi = \frac {1}{k ^ {2}},
+\]
+
 the equation of a concentric equilateral hyperbola or ellipse.
-In an early number we hope to return to this subject, and
-apply this theory not only to oblate spheroids and central sur-
-faces of revolution generally, but to surfaces of the second
-order having three unequal axes, as also to systems of sur-
-faces having coincident circular sections, groups which bear a
-striking analogy in their relations to systems of conic sections
-having the same minor directrices; showing among other re-
-markable properties, that every surface of the second order
-has four directrix planes parallel two by two respectively to
-the circular sections of the surface, as also four foci situated
-two by two on the umbilical diameters.
-* Loud on 15, 1-1, the Soutil Loi e der Scences Na.
-tuelle, the first amin we existed in the Proceeding Magazine
-so . xiv. p. & b, nd 11 rie Arc wes & Llec ric te, val. iv. p. o2.
+
+In an early number we hope to return to this subject, and apply this theory not only to oblate spheroids and central surfaces of revolution generally, but to surfaces of the second order having three unequal axes, as also to systems of surfaces having coincident circular sections, groups which bear a striking analogy in their relations to systems of conic sections having the same minor directrices; showing among other remarkable properties, that every surface of the second order has four directrix planes parallel two by two respectively to the circular sections of the surface, as also four foci situated two by two on the umbilical diameters.
 
 ## PDF page 561
 
@@ -34653,45 +32967,38 @@ All coops and inside
 ## PDF page 568
 
 554 Mr. Moon on Fresnel's Theory of Double Refraction.
-vibrations is due to Young only or not, I pledge myself to
-prove that the researches of Fresnel have not advanced us
-one step beyond it. (Fresnel's first step in the mathematical part of his theory, is
-to prove the existence of the axes of elasticity: "a proposi-
-tion," says Mr. Smith (Cambridge Mathematical Journal, vol. i.
-p. 1), "on which the whole theory of double refraction de-
-pends, and which Fresnel has proved by a method which has
-the advantage of geometrical distinctness, but which is long
-and rather difficult to follow out on that account." On the
-same account I shall prefer to give Mr. Smith's elegant ana-
-lysis in preference to the cumbrous processes of Fresnel, trust-
-ing my readers will take my word for it, that whatever it may
-want in "geometrical distinctness," it gains in logical clear-
-d2 18
-ness.
-"The proposition is thus stated: In any system of parti-
-cles acting on each other with forces which are functions of
-their mutual distances, there are three directions at right an-
-gles to each other, along which if a particle be displaced, the
-forces of restitution will act in the same direction stitedue but
-"Let <math>x y z</math> be the co-ordinates of the attracted point <math>x_1 y_1 z_1</math>;
-<math>x_2y_2z_2</math>... be the co-ordinates of the attracting points; <math>r_1r_2r_3</math>
-... the distances between the attracted and attracting points;
-<math>\phi_1(r_1)</math> <math>\phi_2(r_2)</math> <math>\phi_3(r_3)</math> ... the attractions; XYZ the total resolved
-forces along the axes, then we shall have see it i doidy more
-correct, "that there are the extensions at right angles to each other, alore 28 <math>\pm i(r_1)</math> <math>\Phi</math> <math>= X</math> <math>\Phi</math> <math>= X</math> force of restitution acts in the same threeton."
-But the fact is, the altel woll co.Z bnatk rolly limit bna
-is meant to apply to the case of the motion of a particle of the orthereal meant by <math>b(\eta) \phi</math> (i.g. = Aduced. What is mant by the mysterious principle, that “supposing the distance of the manual by the manual by the manual
-placement to be very small the force of restitution manely
-tak an ... proportional to it." I prof s <math>\frac{R \, b}{V \, t \, v \, x \, b}</math> <math>\frac{1}{V} \, X \, b \, t \, b</math> or linates
-of the partie is insign of the particle is in a dered, vary from
-<math>z, y, z</math> to <math>x + \delta x, y</math> -ioridilipper, <math>z = \frac{dy}{dy} = 2Y</math> of the oth representation with any <math>z</math> and <math>z</math> and <math>z</math> and <math>z</math> and <math>z</math> and <math>z</math> and <math>z</math> and <math>z</math> and <math>z</math> and <math>z</math> and <math>z</math> and <math>z</math> and <math>z</math> and <math>z</math> and <math>z</math> and <math>z</math> 
-and that therefor the bove value (A.) (Sh the reolved parts
-"Let the particle receive a small displacement, the projec-
-tions of which on the co-ordinate axes are &x, &y, &z. Then
-supposing the displacement to be very small, the force of re-
-stitution may be taken as proportional to it, so that we have
-in the second in graph to
-7(15
+
+vibrations is due to Young only or not, I pledge myself to prove that the researches of Fresnel have not advanced us one step beyond it.
+
+Fresnel's first step in the mathematical part of his theory, is to prove the existence of the axes of elasticity: "a proposition," says Mr. Smith (Cambridge Mathematical Journal, vol.i. p. 1), "on which the whole theory of double refraction depends, and which Fresnel has proved by a method which has the advantage of geometrical distinctness, but which is long and rather difficult to follow out on that account." On the same account I shall prefer to give Mr. Smith's elegant analysis in preference to the cumbrous processes of Fresnel, trusting my readers will take my word for it, that whatever it may want in "geometrical distinctness," it gains in logical clearness.
+
+"The proposition is thus stated: — In any system of particles acting on each other with forces which are functions of their mutual distances, there are three directions at right angles to each other, along which if a particle be displaced, the forces of restitution will act in the same direction."
+
+"Let \( x y z \) be the co-ordinates of the attracted point \( x_1 y_1 z_1 \); \( x_2 y_2 z_2 \) ... be the co-ordinates of the attracting points; \( r_1 r_2 r_3 \) ... the distances between the attracted and attracting points; \( \phi_1(r_1) \phi_2(r_2) \phi_3(r_3) \) ... the attractions; XYZ the total resolved forces along the axes, then we shall have
+
+\[
+\mathrm{X} = \frac {x _ {1} - x}{r _ {1}} \phi_ {1} \left(r _ {1}\right) + \frac {x _ {2} - x}{r _ {2}} \phi_ {2} \left(r _ {2}\right) + \& \mathrm{c.};
+\]
+
+and similarly for Y and Z. Now let
+
+\[
+\mathrm{R} = - \Sigma \int \phi (r) d r,
+\]
+
+then
+
+\[
+\mathrm{X} = \frac {d \mathrm{R}}{d x} = 0,
+\]
+
+\[
+\left. \begin{array}{l} \mathrm{Y} = \frac {d \mathrm{R}}{d y} = 0, \\ \mathrm{Z} = \frac {d \mathrm{R}}{d z} = 0, \end{array} \right\}
+\]
+
+when the particle is in equilibrio.
+
+"Let the particle receive a small displacement, the projections of which on the co-ordinate axes are \(\delta x\), \(\delta y\), \(\delta z\). Then supposing the displacement to be very small, the force of restitution may be taken as proportional to it, so that we have
 
 ## PDF page 569
 
@@ -35296,56 +33603,32 @@ the concentrated sulphuric acid; the lime obtained after the sepa-
 ## PDF page 581
 
 Intelligence and Miscellaneous Articles.
+
 567
-ration of the titanic acid weighed 0:264. The result of this analysis:
-these three analyses, which have been made for a considerabilenent si
-are not entitled to 92:28 confilered . . . . . . . . . . . . that Fuch
-has recently given 82:14 naly . . . of the pipa sinait wartzenstein in
-Zillerthal, by a re 7014 genious oneshod anit of by hy
-drochloric acid no 16:62 secoling the first it is smill tash, and boiled
-the calcined mass 53.101 led water, in order to get rid of the excess
-of botash, and separated by the usual processes a small quantity of
-Sphene is very readily fused with bisulphate of potash, and the
-analysis; is easier than by sulphuric acid; but the results obtained
-are less certain. Ann. de Ch: et de Phys., Nov. 1845. of fiel asw ris
-moderate temperature. The eilice formed a jelly, whilst the titanic
-acid, reduced by the copper to the state of oxide of titanium, re-
-ANALYSIS OF CASCARILLA CASCARILLINE. BY M. DUVAL. BM
-The following principles were found by the author in cascarilla :-
-Albumen, Tanning of a peculiar kind, Crystallizable bitter matter
-(Cascarilline); Red colouring matter, Fatty matter having a nauseous
-smell, Wax, Gummy matter, Volatile oil of an agreeable odour, Resin,
-Starch, Pectic acid, Chloride of potassium, Salt of lime, Lighinada to
-Of these various principles, the bitter matter, or cascarilline, is the
-most interesting in the opinion of the author; it was extracted by
-the following process: The cascarilla reduced to a moderately fine
-powder was introduced into a percolating apparatus, and treated
-with water; the infusions being mixed, acetate of lead is to be added;
-filter and get rid of the excess of lead by sulphuretted hydrogen;
-filter again and evaporate the liquor to about 2, then add a little ani-
-mal charcoal and filter again; the evaporation is to be continued at
-a very low temperature; at a certain period a pellicle is formed, and
-the liquor, before it acquires the consistence of a syrup, is to be alie
-lowed to cool. Sometimes the matter does not crystallize; it then
-assumes a resinous appearance, and the greater part of it adheres to
-the vessel; this substance hardens on cooling. the dissolves in the second dissolves the second dissolves the second dissolves the second dissolves the second dissolves the second dissolves the second dissolves the second 
-In order to purify the product, whether crystalline or resinous in
-appearance, it is to be powdered, put into a tube, and alcohol of sp.
-gr. 0.8763 added cold, and rather more than is requisite to moisten
-it. it After sufficient digestion, the alcoholic liquid, which is highly
-coloured, is to be separated; by these means the greater part of the
-colour and fatty matter of the cascarilline are removed; and the re-
-sidue, which is evidently decolorized, is to be dissolved in boiling
-alcohol of sp. gr. 0.8439; a little animal charcoal is to be added,
-and after filtration the liquor is to be suffered to evaporate sponta-
-neously. The residue is to be dried on filtering paper, triturated
-with cold and dissolved in boiling alcohol, filtered and set aside to
-band of medical stiller. The filtered inquor entaned no utante to the pure.
-The properties of cascarilline are, that it is white and crystallized;
-the crystals, when examined by the microscope, have usually the
-form of prismatic needles, and sometimes that of hexagonal plates.
-Cascarilline is inodorous, bitter, but not immediately so, on account
-of its slight solubility in water; when heated in a glass tube, it fuses
+
+ration of the titanic acid weighed 0:264. The result of this analysis is then—strobianous to whom need even halfw, esaylsun seedt result
+
+Silica 32:29
+
+Titanic acid 41:58
+
+Oxide of iron!........ing 1:07
+
+Lime 26·61
+
+101·55
+
+Sphene is very readily fused with bisulphate of potash, and the analysis is easier than by sulphuric acid; but the results obtained are less certain.—Ann. de Ch. et de Phys., Nov. 1845.
+
+ANALYSIS OF CASCARILLA—CASCARILLINE. BY M. DUVAL.
+
+The following principles were found by the author in cascarilla:—Albumen, Tannin of a peculiar kind, Crystallizable bitter matter (Cascarilline), Red colouring matter, Fatty matter having a nauseous smell, Wax, Gummy matter, Volatile oil of an agreeable odour, Resin, Starch, Pectic acid, Chloride of potassium, Salt of lime, Lignin.
+
+Of these various principles, the bitter matter, or cascarilline, is the most interesting in the opinion of the author; it was extracted by the following process:—The cascarilla reduced to a moderately fine powder was introduced into a percolating apparatus, and treated with water; the infusions being mixed, acetate of lead is to be added; filter and get rid of the excess of lead by sulphuretted hydrogen; filter again and evaporate the liquor to about  \( \frac{1}{2} \) , then add a little animal charcoal and filter again; the evaporation is to be continued at a very low temperature; at a certain period a pellicle is formed, and the liquor, before it acquires the consistence of a syrup, is to be allowed to cool. Sometimes the matter does not crystallize; it then assumes a resinous appearance, and the greater part of it adheres to the vessel; this substance hardens on cooling.
+
+In order to purify the product, whether crystalline or resinous in appearance, it is to be powdered, put into a tube, and alcohol of sp. gr. 0·8763 added cold, and rather more than is requisite to moisten it. After sufficient digestion, the alcoholic liquid, which is highly coloured, is to be separated; by these means the greater part of the colour and fatty matter of the cascarilline are removed; and the residue, which is evidently decolorized, is to be dissolved in boiling alcohol of sp. gr. 0·8439; a little animal charcoal is to be added, and after filtration the liquor is to be suffered to evaporate spontaneously. The residue is to be dried on filtering-paper, triturated with cold and dissolved in boiling alcohol, filtered and set aside to evaporate spontaneously, and by this the cascarilline is obtained pure.
+
+The properties of cascarilline are, that it is white and crystallized, the crystals, when examined by the microscope, have usually the form of prismatic needles, and sometimes that of hexagonal plates. Cascarilline is inodorous, bitter, but not immediately so, on account of its slight solubility in water; when heated in a glass tube, it fuses
 
 ## PDF page 582
 
@@ -35409,67 +33692,39 @@ of the present volume.
 
 ## PDF page 583
 
-Meteorological Observations. Is sink
-569
-the temperature of the fluid at any point : " t must be previously determined. His guilboo no sufficies to full most refroi at fully guilbon
-We now see, on distinctly annunciating the question, that, in the
-vast difference between the maximum value of t and the temperature
-of the dish will be found a clue to the true explanation is guidest
-little potash and bedefo in a tribe satis to in the resimblesed, it does nut restere the real property of the second bedeen in the second bedeen the second bedeen the second bedeen the second bedeen the second bedeen the s
-strilles et smilltinsen ; offices fill guis Your obedient Servant, Munit
-October 14, 1845 and ald blue the first at the realist blin Ist X and
-flueless imparts sirong bitteiness to it; the solution does not alter
-P.S. I shall perhaps at a future time attempt a formal solution of
-the problem. It does not exclude M. Boutigny's views. to little at
-fresitivitie and versifies untificulated of a deep red colouf with a
-purple tint; with added to it vertainly inscriptation; the Allien
-then appears of a grass-given valout, which is mote of less al. on . c-
-METEOROLOGICAL OBSERVATIONS FOR OCT. 1845. Hilling Chiswick.—October 1. Very fine. 2, 3. Rain. 4. Cloudy and fine. 5. Cloudy
-and fine: clear. 6. Foggy: cloudy: rain. 7. Rain: cloudy: clear. 8. Foggy: fine. 9. Rain: clear. 10. Heavy rain. 11. Rain, with fog: showery: clear:
-slight frost. 12. Dense fog: cloudy: fine. 113-16. Very fine. 17-19. Over-
-cast and fine. 20. Densely overcast: clear and fine. 21, 22. Fine. 23. Fine
-clear and frosty at night. 24. Dense fog: very fine. 25, 26. Foggy: partially
-overcast. 27. Overcast: clear. 28-30. Very fine. 31. Overcast. Mean tem-
-perature of the month 10 below the average. It mak a lo fightly out that we want to with the long to the long to the long to the long to the long to the long to the long to the long to the long to the long to the long to t
-Boston. - Oct. 1. Fine. 2. Rain: rain early A.M. 3. Cloudy: rain A.M. and
-p.m. 4. Fine: rain p.m. 5. Fine. 6. Fine: rain p.m. 7. Rain: rain early a.m.: rain a.m. 8, 9. Fine: rain p.m. 10. Fine. 11. Rain: rain early a.m. 12. Fine. 13. Cloudy: rain early a.m. 14-16. Fine. 17, 18. Cloudy. 19.
-Cloudy: rain A.M. 20. Cloudy. 21. Fine. 22-24. Cloudy. 25, 26. Fine.
-27. Cloudy. 28. Fine. 29. Cloudy. 30, 31. Fine.
-· 医羊色科 为别分别
-Sandwick Manse, Orkney .- Oct. 1. Showers. 2. Bright : clear. 3. Cloudy :
-4. Showers: 5, 6. Bright: clear. 7. Rain. 8. Rain: damp. 9, 10. 11. Showers: rain. 12. Bright: cloudy: halo large. 13. Rain. 14.
-drops.
-Rain.
-Cloudy: rain. 15. Cloudy. 16. Showers. 17. Showers: sleet: cloudy. 18.
-Showers: clear. 19. Cloudy: rain. 20. Rain: showers. 21. Cloudy: damp.
-22. Damp: drizzle. 23. Damp: cloudy. 24. Bright: rain, 25. Bright:
-cloudy. 26. Showers rain. 27. Showers bright cloudy. 28. Rain. 29. Drizzle : cloudy. 30, 31. Showers : clear. in the control of the control of the control of the control of the control of the control of the control of the 
-Applegarth Manse, Dumfries-shire .- Oct. 1. Fair, but threatening. 2. Dull :
-rain. 3. Deluge of rain: flood. 4. Soft rain all day. 5, 6. Fair and clear:
-hoar-frost. 7. Fair, but cloudy. 8. Fair A.M.: rain P.M. 9. Rain early A.M.:
-cleared. 10. Slight showers P.M. 11. Fine: rain. 12. Fair, but cloudy: halo.
-13. Rain. 14. Fair and fine. 15. Wet A.M.: cleared. 16. Fair and clear.
+Meteorological Observations.
 
-17. Rain all day.
-18. Frequent showers.
-19. Rain.
-20. Bitter showers.
-21. Moist, but no fall.
-22. Fair and fine.
-23. Fair and fine: cloudy.
-24. Drizzl
-25. Beautiful day: one slight shower. 26. Fair, but chilly: rain r. M.
-P.M.
-27, 28. Wet. 29. Wet: very wet P.M. 30. Wet early A.M.: fine P.M. 31. Fair
-and fine.
-the after by the col Boson; Every first the self of the
-Mean temperature of the month .....
-490.6 181
-भविति महासि
-Mean temperature of Oct. 1844 .................................
-Phil. Mag. S. 3. No. 183. Suppl. Vol. 27.
-्रा कर्ण हुट है। यह र लग रहाता देशियाओं कर्ष स्थाता है। किरोसिक है।
-电扫刷 非洲洲 相 勒
+569
+
+the temperature of the fluid at any point?" t must be previously determined.
+
+We now see, on distinctly announcing the question, that, in the vast difference between the maximum value of \( t \) and the temperature of the dish will be found a clue to the true explanation.
+
+I remain, dear Sir, with great respect,
+
+Your obedient Servant,
+
+October 14, 1845.
+
+P.S. I shall perhaps at a future time attempt a formal solution of the problem. It does not exclude M. Boutigny's views.
+
+METEOROLOGICAL OBSERVATIONS FOR OCT. 1845.
+
+Chiswick.—October 1. Very fine. 2, 3. Rain. 4. Cloudy and fine. 5. Cloudy and fine: clear. 6. Foggy: cloudy: rain. 7. Rain: cloudy: clear. 8. Foggy: fine. 9. Rain: clear. 10. Heavy rain. 11. Rain, with fog: showery: clear: slight frost. 12. Dense fog: cloudy: fine. 13—16. Very fine. 17—19. Overcast and fine. 20. Densely overcast: clear and fine. 21, 22. Fine. 23. Fine: clear and frosty at night. 24. Dense fog: very fine. 25, 26. Foggy: partially overcast. 27. Overcast: clear. 28—30. Very fine. 31. Overcast—Mean temperature of the month  \( \frac{1}{2} \)  below the average.
+
+Boston.—Oct. 1. Fine. 2. Rain: rain early A.M. 3. Cloudy: rain A.M. and P.M. 4. Fine: rain P.M. 5. Fine. 6. Fine: rain P.M. 7. Rain: rain early A.M.: rain A.M. 8, 9. Fine: rain P.M. 10. Fine. 11. Rain: rain early A.M. 12. Fine. 13. Cloudy: rain early A.M. 14—16. Fine. 17, 18. Cloudy. 19. Cloudy: rain A.M. 20. Cloudy. 21. Fine. 22—24. Cloudy. 25, 26. Fine. 27. Cloudy. 28. Fine. 29. Cloudy. 30, 31. Fine.
+
+Sandwick Manse, Orkney.—Oct. 1. Showers. 2. Bright: clear. 3. Cloudy: drops. 4. Showers. 5, 6. Bright: clear. 7. Rain. 8. Rain: damp. 9, 10. Rain. 11. Showers: rain. 12. Bright: cloudy: halo large. 13. Rain. 14. Cloudy: rain. 15. Cloudy. 16. Showers. 17. Showers: sleet: cloudy. 18. Showers: clear. 19. Cloudy: rain. 20. Rain: showers. 21. Cloudy: damp. 22. Damp: drizzle. 23. Damp: cloudy. 24. Bright: rain. 25. Bright: cloudy. 26. Showers: rain. 27. Showers: bright: cloudy. 28. Rain. 29. Drizzle: cloudy. 30, 31. Showers: clear.
+
+Applegarth Manse, Dumfries-shire.—Oct. 1. Fair, but threatening. 2. Dull: rain. 3. Deluge of rain: flood. 4. Soft rain all day. 5, 6. Fair and clear: hoar-frost. 7. Fair, but cloudy. 8. Fair A.M.: rain P.M. 9. Rain early A.M.: cleared. 10. Slight showers P.M. 11. Fine: rain. 12. Fair, but cloudy: halo. 13. Rain. 14. Fair and fine. 15. Wet A.M.: cleared. 16. Fair and clear. 17. Rain all day. 18. Frequent showers. 19. Rain. 20. Bitter showers. 21. Moist, but no fall. 22. Fair and fine. 23. Fair and fine: cloudy. 24. Drizzling P.M. 25. Beautiful day: one slight shower. 26. Fair, but chilly: rain P.M. 27, 28. Wet. 29. Wet: very wet P.M. 30. Wet early A.M.: fine P.M. 31. Fair and fine.
+
+Mean temperature of the month 49°·6
+
+Mean temperature of Oct. 1844 47.2
+
+Mean temperature of Oct. for twenty-three years . 46 ·4
+
+Phil. Mag. S. 3. No. 183. Suppl. Vol. 27. 2 P
 
 ## PDF page 584
 
@@ -36493,45 +34748,8 @@ to the lighting of, 406, 442
 
 ## PDF page 590
 
-~~
-...
-1 .
-.
--11
 PRINTED BY RICHARD AND JOHN E. TAYLOR,
 RED LION COURT, FLEET STREET.
-FLAMMAM.
-ALERE
-1 -
-S.
-1 0.00
-- 1 4 1
-. .
-1
-The same of the
-
-- 1
-----
-the party of the last
-.
-. .
-7 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-I THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF
-30 1 3 1 1 1 1 1 1
-
-.
-1
-and the second second
-1. 3.
--1 -1 -1 -1
-. . . .
-0.000
----
-1. 1
-
-
-.
 
 ## PDF page 591
 
@@ -37060,16 +35278,7 @@ H
 
 ## PDF page 605
 
-0
-•
 
-- 0
-`
-A. Carrier and A. Carrier and A. Carrier and A. Carrier and A. Carrier and A. Carrier and A. Carrier and A. Carrier and A. Carrier and A. Carrier and A. Carrier and A. Carrier and A. Carrier and A. Carrier and A. Carrier a
-.
-8
-.
-.
 
 ## PDF page 606
 

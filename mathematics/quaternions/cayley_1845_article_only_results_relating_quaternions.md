@@ -10,6 +10,8 @@ Transcription of `cayley_1845_article_only_results_relating_quaternions.pdf` in 
 
 Method: pages 1-4 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
+Second engine: MinerU2.5-Pro 2605 read page 3, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+
 ## PDF page 1
 
 123
@@ -82,42 +84,64 @@ www.rcin.org.pl
 
 ## PDF page 3
 
-125
-20
+20]
+
 ON CERTAIN RESULTS RELATING TO QUATERNIONS.
-<math>|\varpi, \varpi| = \varpi \varpi' - \varpi' \varpi, = 0....(8),</math>
-<math>|\varpi', \varpi'|</math>
+
+125
+
 but
-that is, a quaternion determinant does not vanish when two vertical rows become
-identical. One is immediately led to inquire what the value of such determinants is.
-Suppose
-<math>\varpi = x + iy + jz + kw</math>, <math>\varpi' = x' + iy' + jz' + kw'</math>, &c.,
+
+\[
+\left| \begin{array}{l l} \varpi , & \varpi \\ \varpi^ {\prime}, & \varpi^ {\prime} \end{array} \right| = \varpi \varpi^ {\prime} - \varpi^ {\prime} \varpi , \neq 0. \dots \tag {8}
+\]
+
+that is, a quaternion determinant does not vanish when two vertical rows become identical. One is immediately led to inquire what the value of such determinants is. Suppose
+
+\[
+\varpi = x + i y + j z + k w, \quad \varpi^ {\prime} = x ^ {\prime} + i y ^ {\prime} + j z ^ {\prime} + k w ^ {\prime}, \& \mathrm{c.},
+\]
+
 it is easy to prove
-<math display="block">\begin{vmatrix} \boldsymbol{\varpi} & \boldsymbol{\varpi} \\ \boldsymbol{\varpi}' & \boldsymbol{\varpi}' \end{vmatrix} = -2 \begin{vmatrix} i, j, k \\ x, y, z \\ x', y', z' \end{vmatrix} \dots (9),</math>
-<math display="block"> \begin{vmatrix} \varpi, & \varpi, & \varpi \\ \varpi', & \varpi', & \varpi' \\ \varpi'', & \varpi'', & \varpi'' \end{vmatrix} = -2 \begin{vmatrix} 3, & i, & j, & k \\ x, & y, & z, & w \\ x', & y', & z', & w' \\ x'', & y'', & z'', & w'' \end{vmatrix} </math> (10),
-<math display="block">
-\begin{vmatrix}
-\varpi & , & \varpi & , & \varpi & | = 0 \\
-\varpi' & , & \varpi' & , & \varpi' \\
-\varpi'' & , & \varpi'' & , & \varpi'' \\
-\varpi''' & , & \varpi''' & , & \varpi'''
-\end{vmatrix} = 0 ..................................</math>
-or a quaternion determinant vanishes when four or more of its vertical rows become
-identical.
+
+\[
+\left| \begin{array}{c c} \varpi & \varpi \\ \varpi^ {\prime} & \varpi^ {\prime} \end{array} \right| = - 2 \left| \begin{array}{c c c} i, & j, & k \\ x, & y, & z \\ x ^ {\prime}, & y ^ {\prime}, & z ^ {\prime} \end{array} \right| \dots \tag {9},
+\]
+
+\[
+\left| \begin{array}{l l l} \varpi , & \varpi , & \varpi \\ \varpi^ {\prime}, & \varpi^ {\prime}, & \varpi^ {\prime} \\ \varpi^ {\prime \prime}, & \varpi^ {\prime \prime}, & \varpi^ {\prime \prime} \end{array} \right| = - 2 \left| \begin{array}{l l l l} 3, & i, & j, & k \\ x, & y, & z, & w \\ x ^ {\prime}, & y ^ {\prime}, & z ^ {\prime}, & w ^ {\prime} \\ x ^ {\prime \prime}, & y ^ {\prime \prime}, & z ^ {\prime \prime}, & w ^ {\prime \prime} \end{array} \right| \dots \tag {10}
+\]
+
+\[
+\left| \begin{array}{c c c c c} \varpi , & \varpi , & \varpi , & \varpi \\ \varpi^ {\prime}, & \varpi^ {\prime}, & \varpi^ {\prime}, & \varpi^ {\prime} \\ \varpi^ {\prime \prime}, & \varpi^ {\prime \prime}, & \varpi^ {\prime \prime}, & \varpi^ {\prime \prime} \\ \varpi^ {\prime \prime \prime}, & \varpi^ {\prime \prime \prime}, & \varpi^ {\prime \prime \prime}, & \varpi^ {\prime \prime \prime} \end{array} \right| = 0 \dots \tag {11}
+\]
+
+or a quaternion determinant vanishes when four or more of its vertical rows become identical.
+
 Again, it is immediately seen that
-<math display="block">\begin{vmatrix} \varpi, & \phi & | + | & \phi, & \varpi & | = | & \varpi, & \varpi & | - | & \varpi', & \varpi' & \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots </math>
-&c. for determinants of any order, whence the theorem, if any four (or more) adjacent
-vertical columns of a quaternion determinant be transposed in every possible manner,
-the sum of all these determinants vanishes, which is a much less simple property
-than the one which exists for the horizontal rows, viz. the same that in ordinary
-determinants exists for the horizontal or vertical rows indifferently. It is important to
-remark that the equations
-<math>\begin{vmatrix} \boldsymbol{\sigma}, & \boldsymbol{\phi} \\ \boldsymbol{\sigma}', & \boldsymbol{\phi}' \end{vmatrix} = 0 \text{ or } \begin{vmatrix} \boldsymbol{\sigma}, & \boldsymbol{\sigma}' \\ \boldsymbol{\phi}, & \boldsymbol{\phi}' \end{vmatrix} = 0, \&c.....(13)</math>
-<math>\varpi \phi' - \varpi' \phi = 0</math>, or <math>\varpi \phi' - \phi \varpi' = 0</math>, &c.
-1.e.
-are none of them the result of the elimination of <math>\Pi</math>, <math>\Phi</math>, from the two equations
-<math display="block">\varpi\Pi + \phi\Phi = 0, \quad \dots \tag{14}.</math>
-<math display="block">\varpi'\Pi + \phi'\Phi = 0,</math>
+
+\[
+\left| \begin{array}{l l} \varpi , & \phi \\ \varpi^ {\prime}, & \phi^ {\prime} \end{array} \right| + \left| \begin{array}{l l} \phi , & \varpi \\ \phi^ {\prime}, & \varpi^ {\prime} \end{array} \right| = \left| \begin{array}{l l} \varpi , & \varpi \\ \phi^ {\prime}, & \phi^ {\prime} \end{array} \right| - \left| \begin{array}{l l} \varpi^ {\prime}, & \varpi^ {\prime} \\ \phi , & \phi \end{array} \right| \dots \tag {12}
+\]
+
+&c. for determinants of any order, whence the theorem, if any four (or more) adjacent vertical columns of a quaternion determinant be transposed in every possible manner, the sum of all these determinants vanishes, which is a much less simple property than the one which exists for the horizontal rows, viz. the same that in ordinary determinants exists for the horizontal or vertical rows indifferently. It is important to remark that the equations
+
+\[
+\left| \begin{array}{l l} \varpi , & \phi \\ \varpi^ {\prime}, & \phi^ {\prime} \end{array} \right| = 0 \text {or} \left| \begin{array}{l l} \varpi , & \varpi^ {\prime} \\ \phi , & \phi^ {\prime} \end{array} \right| = 0, \& \mathrm{c}. \dots \tag {13}
+\]
+
+i.e. \(\varpi \phi' - \varpi' \phi = 0\), or \(\varpi \phi' - \phi \varpi' = 0\), &c.
+
+are none of them the result of the elimination of \(\Pi, \Phi\), from the two equations
+
+\[
+\varpi \Pi + \phi \Phi = 0, \dots \tag {14}
+\]
+
+\[
+\varpi^ {\prime} \Pi + \phi^ {\prime} \Phi = 0,
+\]
+
 www.rcin.org.pl
 
 ## PDF page 4

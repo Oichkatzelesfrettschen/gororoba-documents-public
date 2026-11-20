@@ -10,6 +10,8 @@ Transcription of `arman_2016_systems_methods_generating_coherent_matterwave_beam
 
 Method: pages 1-14 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
+Second engine: MinerU2.5-Pro 2605 read page 3, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+
 ## PDF page 1
 
 US009502202B2
@@ -239,79 +241,14 @@ University, Oct. 2005.
 ## PDF page 3
 
 U.S. Patent
-US 9,502,202 B2
+
 Nov. 22, 2016
+
 Sheet 1 of 5
 
-C3
+US 9,502,202 B2
 
-*
-apouy
-2
-
-int Cavities
-96606 P
-8
-
-O<br>L
-8
-0
-V 2000
-2000
-
-2101W 6 ......
-Coupled Resons
-3
-
-×
-#60000000
-Section 2
-10000
-100000
-1
-140
-
-<b>\</b>
-Ω
-į
-۰
-
-٧
-Ì
-2
-į
-e de la companya de la companya de la companya de la companya de la companya de la companya de la companya de
-1
-
-
-80
-<b>`</b>
-<b>A</b>
-* 33
-88
--
-200000
-45555
-200275
-*
-4
-1
-***
-
-. .
-èw.
-4
-.
-Cathode
-<u>                                     </u>
-* * *
-Ž
-×
->
-,------ no 13im 1-
-******
-.
-From some come come come come come come come c
+100
 
 ## PDF page 4
 

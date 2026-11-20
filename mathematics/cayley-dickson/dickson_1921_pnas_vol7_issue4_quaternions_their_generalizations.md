@@ -10,6 +10,8 @@ Transcription of `dickson_1921_pnas_vol7_issue4_quaternions_their_generalization
 
 Method: pages 1-25 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
+Second engine: MinerU2.5-Pro 2605 read page 24, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+
 ## PDF page 1
 
 <b>PROCEEDINGS</b>
@@ -1251,28 +1253,12 @@ published, though partial maps based on special work have been given (Amer. Nat.
 ## PDF page 24
 
 132
+
 GENETICS: C. B. BRIDGES
-PROC. N. A. S.
-<sup>8</sup> Since figure 1 was drawn (Oct. 15, 1920) a mutant (M-23) has been located at 101
-in chromosome III, and there has been found to be about 1% of crossing over between
-bent and eyeless in the fourth chromosome. (Scarlet is at 41.5, Chromosome III.)
-the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
 
+Proc. N. A. S.
 
-~
-Control of the Control of the Control of the Control of the Control of the Control of the Control of the Control of the Control of the Control of the Control of the Control of the Control of the Control of the Control of t
-Market Street Control of the Control of the Control of the Control of the Control of the Control of the Control of the Control of the Control of the Control of the Control of the Control of the Control of the Control of th
-
-PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF TH
-
-
-
-
-
-
-
-
-And the second second
+\( ^{1} \)  Since figure 1 was drawn (Oct. 15, 1920) a mutant (M-23) has been located at 101 in chromosome III, and there has been found to be about 1% of crossing over between bent and eyeless in the fourth chromosome. (Scarlet is at 41.5, Chromosome III.)
 
 ## PDF page 25
 

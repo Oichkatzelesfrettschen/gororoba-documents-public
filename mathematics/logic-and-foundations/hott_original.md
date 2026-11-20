@@ -10,36 +10,19 @@ Transcription of `hott_original.pdf` in this directory, 480 pages; each `## PDF 
 
 Method: pages 1-3, 11-12, 27-28, 114, 156, 184, 190, 226, 260-262, 344, 424-426, 444, 478-480 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 4-10, 13-26, 29-113, 115-155, 157-183, 185-189, 191-225, 227-259, 263-343, 345-423, 427-443, 445-477 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
+Second engine: MinerU2.5-Pro 2605 read page 1, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+
 ## PDF page 1
 
 Homotopy
 Type Theory
-Aug 2013
+
 Univalent Foundations of Mathematics
-3
-<math>\simeq \times \simeq \Sigma \simeq \times \simeq</math>
-<math>\sim \times \sim > \sim</math>
-<math>\sim</math>
-<math>\simeq</math> <math>\simeq</math> <math>\simeq</math> <math>\simeq</math> <math>\simeq</math> <math>\simeq</math> <math>\simeq</math> <math>\simeq</math> <math>\simeq</math> <math>\simeq</math> 
-<math>\Pi \Sigma = \Sigma \Pi \times \Pi \Sigma \Pi \Sigma \Pi \simeq \Pi \lambda \Sigma = \Pi \times \Pi \simeq</math>
-<math>\simeq \times \times \times \times \times \times \times \times \times \times \times \times \times \times \times \times \times \times \times</math>
-<math>\Sigma</math>: <math>\Pi \Sigma \lambda \Sigma = \Pi \Sigma \Pi \Sigma \Pi \Sigma \Pi \Sigma \Pi \times \Sigma \times = \Pi \lambda \Pi \simeq \Pi \simeq \lambda</math>
-<math>\simeq \lambda \simeq \lambda \simeq \lambda</math> <math>\Pi \simeq \Sigma</math> <math>\Sigma</math> <math>\lambda \Sigma \Pi</math>
-<math>\sim</math> <math>|</math> <math>\sim</math> <math>\lambda</math> <math>\sim</math>
-<math>\Sigma</math>FI<math>\Sigma \times \Sigma \times \Sigma \Pi \lambda \Pi \Sigma \Pi \Sigma \Pi \Sigma \Pi \Sigma \times \Sigma = \Pi \simeq \Pi \simeq \Pi \simeq \lambda \Sigma \Omega</math>
-<math>\simeq \times \simeq \Pi \simeq \Pi \simeq \times \Sigma \simeq \times \simeq \times \simeq \times \simeq \lambda \Pi \simeq \times \Sigma \lambda \Sigma \lambda \Sigma \times \Pi</math>
-<math>\Pi \Sigma \lambda \Sigma \lambda \Sigma \lambda \Pi \lambda \Pi \Sigma \Pi \Sigma \Pi \Sigma \Pi \Sigma \Sigma \Sigma \Pi \simeq \Pi \simeq \Pi \simeq \lambda</math>
-<math>\times \simeq |1 \simeq 11 \simeq \times \Sigma</math>
-<math>\times \Sigma \lambda \Sigma \times \Sigma = \Pi \Sigma</math>
-<math>\Pi \simeq \Pi \simeq \times \simeq</math>
-<math>\Sigma \lambda \Sigma \lambda \times \Sigma \Pi \Sigma \Pi</math>
-<math>\simeq \chi || \sim || \sim ||</math>
-<math>\Pi\Sigma = \Sigma \times \Sigma \simeq \times \Pi \Sigma \simeq \Sigma = \Sigma \Pi \Sigma \lambda \Pi \simeq \Pi \simeq \Pi = \simeq \times \simeq \lambda \Sigma</math>
-<math>\top \times \top \top</math> The Univalent Foundations Program <math>\top \top</math>
+
+THE UNIVALENT FOUNDATIONS PROGRAM
 INSTITUTE FOR ADVANCED STUDY
-<math>\prod \sum_{i}</math>
-<math>\simeq \Sigma \simeq \Pi \lambda \Pi \Sigma \simeq \Sigma \simeq \Sigma \lambda \Sigma \Pi \Sigma \Pi \times \Pi \simeq \simeq</math>
-<math>\sum</math>
+
+arXiv:1308.0729v1 [math.LO] 3 Aug 2013
 
 ## PDF page 2
 

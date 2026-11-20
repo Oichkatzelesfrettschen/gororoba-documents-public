@@ -10,7 +10,7 @@ Transcription of `arxiv_2111.03634_abbott_et_al_2021_gwtc3_population_properties
 
 Method: pages 50-51 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-49, 52-75 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
-Second engine: Surya OCR 0.17.0 alone read pages 2-3, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+Second engine: Surya OCR 0.17.0 alone read pages 2-3; MinerU2.5-Pro 2605 read page 50, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -6044,95 +6044,11 @@ FM
 ## PDF page 50
 
 R. ABBOTT et al.
+
 PHYS. REV. X 13, 011048 (2023)
-GW150914
-f
-GW151012
-GW151226
-Д
 
-GW170104
-GW170608
-- 15
-GW170729
-7-5
-GW170809
-/th
-GW170814
-A
-П
-GW170818
-ļŀ.
-GW170823
-阳
-ľ.
-GW190408_181802
-j,
-ъ
-GW190412
-M
+FIG. 28. Posterior distributions (black) for binary black hole events weighted by the population results from POWER LAW+PEAK (blue) and FLEXIBLE MIXTURES (orange).
 
-
-GW190413_134308
-الخار_
-ᄱᆉᄱ
-<math display="block">GW190413\_052954</math>
-CH.
-GW190421_213856
-낂
-GW190503_185404
-يهائر
-GW190512_180714
-
-<b>]</b>                                    
-GW190513_205428
-
-ᆔ
-GW190517_055101
-
-, dd
-باليالية
-Indiana de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de l
-GW190519_153544
-
-
-
-GW190521
-GW190521_074359
-
-<u>, 1</u>
-<math display="block">GW190527\_092055</math>
-Æ
-<math display="block">GW190602\_175927</math>
-
-<math display="block">GW190620\_030421</math>
-
-<math display="block">GW190630\_185205</math>
-
-, Ptq
-<math display="block">GW190701\_203306</math>
-Till P
-<math display="block">GW190706\_222641</math>
-
-GW190707_093326
-<math display="block">GW190708\_232457</math>
-75
-50
-100 0.00
-0.25
-<math>1.00 - 1.0</math>
-0.5
-25
-0.50
-0.75
-<math>-0.5</math>
-0.0
-1.0
-<math>m_1 \, (M_\odot)</math>
-q
-<math>\chi_{\rm eff}</math>
-FIG. 28. Posterior distributions (black) for binary black hole events weighted by the population results from Power Law+Peak (blue)
-and FLEXIBLE MIXTURES (orange).
 011048-50
 
 ## PDF page 51

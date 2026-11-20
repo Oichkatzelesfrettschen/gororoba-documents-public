@@ -10,7 +10,7 @@ Transcription of `cockle_1849_philosophical_magazine_vol34_containing_new_imagin
 
 Method: pages 1-574 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
-Second engine: Surya OCR 0.17.0 alone read pages 11, 142, 193, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+Second engine: MinerU2.5-Pro 2605 read pages 5, 9, 86, 116, 121, 147, 159, 211, 231, 247-248, 297, 347, 370, 529; Surya OCR 0.17.0 alone read pages 11, 142, 193, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -81,16 +81,7 @@ L. R. 1.
 
 ## PDF page 5
 
--
-.
 
-
-- 4
-.
-.
-.
-The second second second second second second second second second second second second second second second second second second second second second second second second second second second second second second second s
-.
 
 ## PDF page 6
 
@@ -147,60 +138,51 @@ investigatio inventionem."-Hugo de S. Victore.
 ## PDF page 9
 
 CONTENTS OF VOL. XXXIV.
+
 (THIRD SERIES.)
+
 NUMBER CCXXVI.—JANUARY 1849.
-Page,
-Mr. J. H. Alexander on a new Empirical Formula for ascertain-
-1
-ing the Tension of Vapour of Water at any Temperature ...
-15
-Mr. J. Brown on the Products of the Soda Manufacture ....
-37
-Mr. J. Cockle on a new Imaginary in Algebra .....
-48
-Mr. W. Pringle on the Continuance of a Solar Spot .....
-The Rev. J. M. Heath on a simple Rule for converting intervals
-of Sidereal into intervals of Mean Solar Time, and vice versa,
-51
-without the help of Tables .....
-Mr. G. G. Stokes on some Points in the received Theory of
-52
-Sound.....
-60
-The Rev. C. Graves on the Calculus of Operations.....
-63
-Proceedings of the Royal Astronomical Society .....
-73
-Royal Society
-78
-On a new Modification of Phosphorus, by M. Schroetter ....
-79
-Meteorological Observations for November 1848.....
-Meteorological Observations made by Mr. Thompson at the
-Garden of the Horticultural Society at Chiswick, near
-London; by Mr. Veall at Boston; by the Rev. W. Dunbar at
-Applegarth Manse, Dumfries-shire; and by the Rev. C.
-Clouston at Sandwick Manse, Orkney.....
-80
+
+Page
+
+Mr. J. H. Alexander on a new Empirical Formula for ascertaining the Tension of Vapour of Water at any Temperature .. 1
+
+Mr. J. Brown on the Products of the Soda Manufacture .... 15
+
+Mr.J.Cockle on a new Imaginary in Algebra 37
+
+Mr. W. Pringle on the Continuance of a Solar Spot 48
+
+The Rev. J. M. Heath on a simple Rule for converting intervals of Sidereal into intervals of Mean Solar Time, and vice versa, without the help of Tables 51
+
+Mr. G. G. Stokes on some Points in the received Theory of Sound. 52
+
+The Rev. C. Graves on the Calculus of Operations....60
+
+Proceedings of the Royal Astronomical Society 63
+——— Royal Society 73
+
+On a new Modification of Phosphorus, by M. Schroetter .... 78
+
+Meteorological Observations for November 1848....79
+
+Meteorological Observations made by Mr. Thompson at the Garden of the Horticultural Society at Chiswick, near London; by Mr. Veall at Boston; by the Rev. W. Dunbar at Applegarth Manse, Dumfries-shire; and by the Rev. C. Clouston at Sandwich Manse, Orkney....80
+
 NUMBER CCXXVII.—FEBRUARY.
-H. C. Œrsted's Experiments on Diamagnetism .....
-81
-The Rev. J. Challis's Continuation of Researches in the Ma-
-thematical Theory of Aërial Vibrations.....
-88
-Mr. J. H. Alexander on a new Empirical Formula for ascertain-
-ing the Tension of Vapour of Water at any Temperature
-<math>(concluded) \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots</math>
-98
-Prof. J. R. Young on the Remainder of the Series in the deve-
-lopment of <math>(1+x)^{-n}</math>, and on a Theorem respecting the pro-
-ducts of Squares.....
-113
-Dr. R. A. Smith on a Mode of rendering Substances incom-
-bustible .....
-116
+
+H. C. Čersted's Experiments on Diamagnetism 81
+
+The Rev. J. Challis's Continuation of Researches in the Mathematical Theory of Aérial Vibrations.... 88
+
+Mr. J. H. Alexander on a new Empirical Formula for ascertaining the Tension of Vapour of Water at any Temperature (concluded) 98
+
+Prof. J. R. Young on the Remainder of the Series in the development of \((1 + x)^{-n}\), and on a Theorem respecting the products of Squares.... 113
+
+Dr. R. A. Smith on a Mode of rendering Substances incombustible 116
+
 a 2
-18
+
+74
 
 ## PDF page 10
 
@@ -5690,56 +5672,22 @@ professor.
 ## PDF page 86
 
 72
+
 Royal Astronomical Society.
-municated to the Royal Astronomical Society and to foreign astro-
-nomers.
-The meridional observations of 1847 are completely reduced. The
-equatoreal observations are less forward.
-The volume for 1843 is nearly ready for publication. It does not
-contain the equatoreal observations, which are reserved for separate
-publication. Two appendices are added; one containing so many
-of the observations made in search of the planet Neptune as are re-
-quired to substantiate the statements given in the special report of
-Dec. 12, 1846; and the other a description of the Northumberland
-telescope and dome, drawn up by the Astronomer Royal.
+
+municated to the Royal Astronomical Society and to foreign astronomers.
+
+The meridional observations of 1847 are completely reduced. The equatoreal observations are less forward.
+
+The volume for 1843 is nearly ready for publication. It does not contain the equatoreal observations, which are reserved for separate publication. Two appendices are added; one containing so many of the observations made in search of the planet Neptune as are required to substantiate the statements given in the special report of Dec. 12, 1846; and the other a description of the Northumberland telescope and dome, drawn up by the Astronomer Royal.
+
 Liverpool.
-A very fine equatoreal has recently been erected at the Liverpool
-observatory. The general form of the instrument has been mentioned
-in former Notices; and it promises, so far as we have heard, to be
-the most accurate and most convenient instrument of its size now
-existing.
-The object-glass is by Merz of Munich, of eight inches
-aperture; and as it has been approved of by Messrs. Dawes and
-Lassell, most capable and somewhat fastidious judges, there can be
-no doubt of its superior excellence. In firmness and steadiness the
-equatoreal is reported to resemble a meridian instrument. The hour-
-circle is carried, as in the Northumberland telescope, by clock-work,
-and the right ascension is read off at once by the verniers.
-The
-Astronomer Royal, under whose direction the instrument was con-
-structed, has given a perpetual motion to this hour-circle by clock-
-work moved by a water-wheel, to which a regulator is applied. The
-variation of the clock does not exceed 1s per hour. The declination
-and hour-circles are sufficiently good to give excellent results when
-objects are compared beyond the limits of the micrometer, an im-
-mense advantage when time is wanting and the weather is uncer-
-tain, and in all cases a great comfort, as it secures perfect identifi-
-cation.
-We do not know certainly what line of astronomical research Mr.
-Hartnup will take up. He will do most wisely to follow his own
-inclination; but such an instrument would be very well employed in
-observing the planets, for instance, especially the smaller planets,
-when they cannot be observed on the meridian at Greenwich. This
-would not only complete the series of the Greenwich observations,
-but would greatly relieve the Cambridge observatory, on which this
-branch of observing has of late pressed heavily*.
-* It is desirable that a semi-public observatory like Liverpool should
-take a determinate line. We have every reason to admire the zeal and
-steadiness of our amateur observers, many of whom might be cited as mo-
-dels in these respects; but they ought not to be tied down to a strictness
-and continuity of research which must often be inconvenient and some-
-times impossible.
-The state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
+
+A very fine equatoreal has recently been erected at the Liverpool observatory. The general form of the instrument has been mentioned in former Notices; and it promises, so far as we have heard, to be the most accurate and most convenient instrument of its size now existing. The object-glass is by Merz of Munich, of eight inches aperture; and as it has been approved of by Messrs. Dawes and Lassell, most capable and somewhat fastidious judges, there can be no doubt of its superior excellence. In firmness and steadiness the equatoreal is reported to resemble a meridian instrument. The hour-circle is carried, as in the Northumberland telescope, by clock-work, and the right ascension is read off at once by the verniers. The Astronomer Royal, under whose direction the instrument was constructed, has given a perpetual motion to this hour-circle by clockwork moved by a water-wheel, to which a regulator is applied. The variation of the clock does not exceed 1\( ^{s} \) per hour. The declination and hour-circles are sufficiently good to give excellent results when objects are compared beyond the limits of the micrometer, an immense advantage when time is wanting and the weather is uncertain, and in all cases a great comfort, as it secures perfect identification.
+
+We do not know certainly what line of astronomical research Mr. Hartnup will take up. He will do most wisely to follow his own inclination; but such an instrument would be very well employed in observing the planets, for instance, especially the smaller planets, when they cannot be observed on the meridian at Greenwich. This would not only complete the series of the Greenwich observations, but would greatly relieve the Cambridge observatory, on which this branch of observing has of late pressed heavily*.
+
+* It is desirable that a semi-public observatory like Liverpool should take a determinate line. We have every reason to admire the zeal and steadiness of our amateur observers, many of whom might be cited as models in these respects; but they ought not to be tied down to a strictness and continuity of research which must often be inconvenient and sometimes impossible.
 
 ## PDF page 87
 
@@ -7648,66 +7596,20 @@ the greatest number of accordant observations, and may be
 ## PDF page 116
 
 102 Mr. J. H. Alexander on the Tension of Vapour of Water.
-considered, therefore, as offering an impartial, if not favour-
-able, term of comparison.
-The mean temperatures are given here, as in our former
-table, in degrees of Fahrenheit; the individual differences
-between the thermometer readings are, to save calculation,
-retained in Centigrade degrees.
-Differences of thermometer readings.
-Mean temperatures.
-Centigrade.
-Fahrenheit.
-0.52
-151:124
-0.30
-176.416
-0.13
-198.05
-0.09
-211.27
-0.08
-222.44
-0.16
-233.132
-0.22
-252:662
-0.14
-263.3
-0.50
-276:224
-0.19
-297:464
-Mean difference
-0.20
-corresponding with mean temperature 228° 2 F.; mean differ-
-ence 0°.36 F., which is equivalent to an absolute mean error
-of 0°.18 F.
-32° F.
-0.42
-We have, then, for the mean error at
-167
-0.33
-228
-0.18
-the average of which, or
-0.31
-is the probable amount of error, plus or minus, with which the
-various series of M. Regnault are still to be considered as
-affected.
-Such being the error of the experiments, I shall now show,
-by the following table, the comparative error of the formula.
-The quantities in the column of differences are considered as
-on the same side of the equation with the results from the for-
-mula; those marked + indicate, therefore, the default, while
-the sign - indicates the excess of the calculated temperatures.
-5 10 1
-47
-the second second
-Solid Jan
-The second second second second second second second second second second second second second second second second second second second second second second second second second second second second second second second s
-m - - - - - - - - - - - - - - - - - - -
-. 0 . 0
+
+considered, therefore, as offering an impartial, if not favourable, term of comparison.
+
+The mean temperatures are given here, as in our former table, in degrees of Fahrenheit; the individual differences between the thermometer readings are, to save calculation, retained in Centigrade degrees.
+
+<table><tr><td>Mean temperatures.Fahrenheit.</td><td>Differences of thermometer readings.Centigrade.</td></tr><tr><td>151·124</td><td>0·52</td></tr><tr><td>176·416</td><td>0·30</td></tr><tr><td>198·05</td><td>0·13</td></tr><tr><td>211·27</td><td>0·06</td></tr><tr><td>222·44</td><td>0·08</td></tr><tr><td>233·132</td><td>0·16</td></tr><tr><td>252·662</td><td>0·22</td></tr><tr><td>263·3</td><td>0·14</td></tr><tr><td>276·224</td><td>0·20</td></tr><tr><td>297·464</td><td>0·19</td></tr><tr><td>Mean difference</td><td>0·20</td></tr></table>
+
+corresponding with mean temperature 228°·2 F.; mean difference 0°·36 F., which is equivalent to an absolute mean error of 0°·18 F.
+
+<table><tr><td colspan="4">We have, then, for the mean error at 32° F.</td><td>\( \overset{\circ}{0} \cdot 42 \)</td></tr><tr><td>...</td><td>...</td><td>...</td><td>167</td><td>0·33</td></tr><tr><td>...</td><td>...</td><td>...</td><td>228</td><td>0·18</td></tr><tr><td colspan="4">the average of which, or</td><td>0·31</td></tr></table>
+
+is the probable amount of error, plus or minus, with which the various series of M. Regnault are still to be considered as affected.
+
+Such being the error of the experiments, I shall now show, by the following table, the comparative error of the formula. The quantities in the column of differences are considered as on the same side of the equation with the results from the formula; those marked + indicate, therefore, the default, while the sign — indicates the excess of the calculated temperatures.
 
 ## PDF page 117
 
@@ -8141,70 +8043,14 @@ give the general results and inferences, as under. The devi-
 ## PDF page 121
 
 Mr. J. H. Alexander on the Tension of Vapour of Water. 107
-ations are given in Centigrade degrees, and belong to the same
-side of the equation with the temperatures given by the re-
-spective formulæ.
-Formulæ proposed by
-Tredgold. Roche.
-Coriolis. | Dulong. J. H. A.
-0.69
-0.53
-0.80
-1.10
-0.40
-Maximum deviation in excess
-2.11
-0.75
-0.25
-1.20
-Maximum deviation in defect
-0.73
-0.79
-0.37
-0.44
-0.24
-Mean deviation without regard to signs
-0.60
-<math>-0.001</math>
-Mean deviation with regard to signs... +0.338
-<math>-0.363</math>
-<math>-0.007</math>
-<math>-0.20</math>
-The last formula, as is seen, although the sum of its devia-
-tions is greater than two or three of the others, lies yet more
-symmetrically with the curve of the experiments than any.
-The three first are given by M. Dulong, after a copious
-enumeration of different formulæ, as agreeing the best with
-observation. Of these, in that of Tredgold and of Coriolis,
-the elasticity is a function of the temperature; but M. Coriolis
-uses, instead of an integral, a mixed fractional index.
-His
-exponent, instead of 7 as Dr. Young took, or 6 as Creighton
-and Tredgold preferred, or 5:13 as Southern chose, or 5 as
-Dulong adopted, is 5.335; whose coincidence with the natural
-law is only empirical, and can be but accidental. In the for-
-mula of M. Roche (which he offers, not as a means of inter-
-polation, but as the expression of a general physical law), the
-temperature is itself an element of the index by which certain
-constant quantities are to be involved. The principles, how-
-ever, upon which he has founded the expression, are disap-
-proved both by M. Dulong and M. Regnault. The formula
-of M. Dulong presents a smaller aggregate deviation than any
-of the others; and it would be singular if it did not, seeing
-that it was derived from a constant furnished by his own ex-
-periments. But as might also be anticipated, this constant,
-taken (to four places of decimals) from the result of the high-
-est experimental temperature, fails to apply in the lower ones.
-The maximum deviation under his formula, given in the last
-table, occurs at the lowest experimental temperature; and in
-fact in his final table of atmospheric pressures and correspond-
-ing temperatures, he has preferred, below the limit of four
-atmospheres (145° 4 C. or 293° 72 F.), to abandon his own
-formula and use that of Tredgold. Below the ordinary atmo-
-spheric pressure his quantities are utterly inapplicable, as will
-be seen by the following statement:
-all the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the cont
-. mileting and the sound of the sound of the sound of the sound of the sound of the sound of the sound of the sound of the sound of the sound of the sound of the sound of the sound of the sound of the sound of the sound of
+
+ations are given in Centigrade degrees, and belong to the same side of the equation with the temperatures given by the respective formulae.
+
+<table><tr><td rowspan="2"></td><td colspan="5">Formula proposed by</td></tr><tr><td>Tredgold.</td><td>Roche.</td><td>Coriolis.</td><td>Dulong.</td><td>J. H. A.</td></tr><tr><td>Maximum deviation in excess ......</td><td>\( \mathring{0} \cdot 69 \)</td><td>\( \mathring{0} \cdot 53 \)</td><td>\( \mathring{0} \cdot 80 \)</td><td>\( \mathring{0} \cdot 40 \)</td><td>\( \mathring{1} \cdot 10 \)</td></tr><tr><td>Maximum deviation in defect ......</td><td>\( 2 \cdot 11 \)</td><td>\( 0 \cdot 75 \)</td><td>\( 0 \cdot 25 \)</td><td>\( 0 \cdot 73 \)</td><td>\( 1 \cdot 20 \)</td></tr><tr><td>Mean deviation without regard to signs</td><td>\( 0 \cdot 79 \)</td><td>\( 0 \cdot 37 \)</td><td>\( 0 \cdot 44 \)</td><td>\( 0 \cdot 24 \)</td><td>\( 0 \cdot 60 \)</td></tr><tr><td>Mean deviation with regard to signs...</td><td>\( +0 \cdot 338 \)</td><td>\( -0 \cdot 001 \)</td><td>\( -0 \cdot 363 \)</td><td>\( -0 \cdot 007 \)</td><td>\( -0 \cdot 20 \)</td></tr></table>
+
+The last formula, as is seen, although the sum of its deviations is greater than two or three of the others, lies yet more symmetrically with the curve of the experiments than any.
+
+The three first are given by M. Dulong, after a copious enumeration of different formulae, as agreeing the best with observation. Of these, in that of Tredgold and of Coriolis, the elasticity is a function of the temperature; but M. Coriolis uses, instead of an integral, a mixed fractional index. His exponent, instead of 7 as Dr. Young took, or 6 as Creighton and Tredgold preferred, or 5·13 as Southern chose, or 5 as Dulong adopted, is 5·335; whose coincidence with the natural law is only empirical, and can be but accidental. In the formula of M. Roche (which he offers, not as a means of interpolation, but as the expression of a general physical law), the temperature is itself an element of the index by which certain constant quantities are to be involved. The principles, however, upon which he has founded the expression, are disapproved both by M. Dulong and M. Regnault. The formula of M. Dulong presents a smaller aggregate deviation than any of the others; and it would be singular if it did not, seeing that it was derived from a constant furnished by his own experiments. But as might also be anticipated, this constant, taken (to four places of decimals) from the result of the highest experimental temperature, fails to apply in the lower ones. The maximum deviation under his formula, given in the last table, occurs at the lowest experimental temperature; and in fact in his final table of atmospheric pressures and corresponding temperatures, he has preferred, below the limit of four atmospheres (145°·4 C. or 293°·72 F.), to abandon his own formula and use that of Tredgold. Below the ordinary atmospheric pressure his quantities are utterly inapplicable, as will be seen by the following statement:—
 
 ## PDF page 122
 
@@ -9792,54 +9638,74 @@ and confessedly imperfect. And yet, perhaps, it will be found
 ## PDF page 147
 
 Mr. J. Cockle's Solution of two Geometrical Problems.
+
 133
+
 sufficient for my purpose,—which is, to show the interpretability of impossible quantity.
+
 DEFINITION. In the equation
-<math>v = A + iB + jC</math> . . .
-(1.)
-let <math>A^2 + B^2 + C^2 = a^2</math>;
+
+\[
+v = \mathrm{A} + i \mathrm{B} + j \mathrm{C} \quad \dots \tag {1.}
+\]
+
+let
+
+\[
+\mathrm{A} ^ {2} + \mathrm{B} ^ {2} + \mathrm{C} ^ {2} = a ^ {2};
+\]
+
 then I propose to call (1.) a virtual solution of the equation
-Limitalities - Lat
-<math>v=a</math>.
-Rule. To solve a problem by the imaginary geometry, let
-its conditions be expressed by the independent relations <math>U=0</math>,
-and V=0; form the equation
-<math>U + mV = 0</math> . . . . (2.)
-where <math>m</math> is a disposable multiplier: then, if a solution of <math>(2.)</math>
-is a virtual solution of
-<math>V=0</math>
-1 | 0 | 1 | 1 | 1 | 1 |
-the thing required is done *.
-- 1 - - - - - - - - - - - - - - - - - -
+
+\[
+v = a.
+\]
+
+RULE. To solve a problem by the imaginary geometry, let its conditions be expressed by the independent relations U=0, and V=0; form the equation
+
+\[
+\mathrm{U} + m \mathrm{V} = 0 \dots \tag {2.}
+\]
+
+where m is a disposable multiplier: then, if a solution of (2.) is a virtual solution of
+
+\[
+\mathrm{V} = 0,
+\]
+
+the thing required is done*.
+
 PROBLEM 1. Find three points equidistant from each other.
-Let A be one of the points. Draw AB equal to any quan-
-tity a, and in any direction, and let B be another of the points.
-Let C be the third point. Then, since C is equidistant from
-A and B, we have <math>AC \times CB = AC^2</math>; and also, since A is
-equidistant from B and C, we obtain AC2=AB2. These
-equations will, on putting <math>AC=x</math>, be expressed algebraically
-as follows:-
-<math>x(a-x)=x^2</math>, . . . .
-(3.)
-althur aomainme.
-171
-<math>x^2 = a^2</math>; . . . .
-(4.)
+
+Let A be one of the points. Draw AB equal to any quantity \(a\), and in any direction, and let B be another of the points. Let C be the third point. Then, since C is equidistant from A and B, we have \(\mathrm{AC} \times \mathrm{CB} = \mathrm{AC}^2\); and also, since A is equidistant from B and C, we obtain \(\mathrm{AC}^2 = \mathrm{AB}^2\). These equations will, on putting \(\mathrm{AC} = x\), be expressed algebraically as follows:—
+
+\[
+x (a - x) = x ^ {2}, \quad \dots \tag {3.}
+\]
+
+\[
+x ^ {2} = a ^ {2}; \quad \dots \dots \tag {4.}
+\]
+
 add (3.) and (4.) and we obtain
-<math>x(a-x)=a^2</math>, . . . . . . . . . . . . . . . . . . .
+
+\[
+x (a - x) = a ^ {2}, \quad \dots \tag {5.}
+\]
+
 and hence
-<math display="block">x = \frac{a}{2} \pm \frac{a\sqrt{-3}}{2},</math>
-THE RESERVE AND ADDRESS OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF 
-Three many
-<math display="block">=\frac{a}{2}\pm i\frac{a\sqrt{3}}{2};</math>
-and, the solution of (5.) being a virtual solution of (4.), the
-problem is solved. ABC is, of course, an equilateral triangle.
+
+\[
+\begin{array}{l} x = \frac {a}{2} \pm \frac {a \sqrt {- 3}}{2}, \\ = \frac {a}{2} \pm i \frac {a \sqrt {3}}{2}; \\ \end{array}
+\]
+
+and, the solution of (5.) being a virtual solution of (4.), the problem is solved. ABC is, of course, an equilateral triangle.
+
 PROBLEM II. Find four points equidistant from each other.
-Complete the rhombus ACDB. Then D is equidistant
-from B and C. And, by symbolical geometry, we have
-AD=AB+BD. But, we must also have, since A is equi-
-* Observations on this Rule and its grounds are reserved for another
-opportunity.
+
+Complete the rhombus ACDB. Then D is equidistant from B and C. And, by symbolical geometry, we have AD=AB+BD. But, we must also have, since A is equi-
+
+* Observations on this Rule and its grounds are reserved for another opportunity.
 
 ## PDF page 148
 
@@ -10423,62 +10289,25 @@ as closely as possible the evolutions of the hand, by which I had
 ## PDF page 159
 
 Royal Astronomical Society.
-145
-been accustomed to produce very satisfactory surfaces on smaller
-specula." to the specula specula specula specula specula specula specula specula specula specula specula specula specula specula specula specula specula specula specula specula specula specula specula specula specula specu
-11
 
-The machine invented by Mr. Lassell, and constructed by Mr.
-Nasmyth, for figuring and polishing specula, cannot be made intel-
-ligible without figures*. The speculum rests with its face uppermost
-in a horizontal position, and is carried slowly round by a vertical
-axis. The polisher rests, with its grinding and polishing surface,
-upon the speculum, and is moved by a pin which fits loosely into a
-hole in the centre, at the back of the polisher. The motion of the
-polisher is that of the driving-pin.
-Now this, by a very ingenious and very compact mechanism, re-
-ceives a compound motion which may be thus imagined. Conceive
-a circular motion given to a point round the centre of the speculum,
-and then conceive that the driving-pin has a circular motion round
-this point. The curve is an epitrochoid, and the adjustments of the
-mechanism enable the workman to give any radius to either circular
-motion, from 0 up to a certain number of inches. The proportions
-of these radii, in order to give a parabolic figure, are determined ex-
-perimentally, in which the relation of aperture to focal length must
-be considered. The size of the polisher, and even the hardness of
-the pitch, must also be proportioned to the figure and aperture re-
-quired. Mr. Lassell finds no difficulty in getting a true parabolic
-figure when the aperture is one-eighth of the focal length †. The
-speculum, while grinding and polishing, is supported in the same way
-as it is in the tube when in use. The principle of this mode of sup-
-port is mentioned by Lord Rosse, Philosophical Transactions, 1840,
-p. 524.
-"The polisher should possess as much stiffness as is compatible
-with the requisite lightness, and I have found these qualities best
-combined by making it of white American deal, in two strata, well-
-united by glue and a few screws, with the direction of the grain at
-right angles, the wood well-seasoned, and, if possible, cut out of
-the same board. The polisher for the 2-foot speculum is made out
-of <math>1\frac{1}{8}</math> inch board, and has, for symmetry, both the upper and under
-surfaces convex, to fit the speculum. It is about 2 inches thick at
-the circumference, <math>20\frac{1}{2}</math> inches diameter, and weighs about 12 lbs.
-with the pitch surface upon it."
-Mr. Lassell then enters very minutely into the mode of coating
-the polisher with pitch evenly and to a proper thickness, of dividing
-* A model to half the true size, and the drawing by Mr. Nasmyth, may
-all
-be seen at the Society's apartments. A model of Lord Rosse's engine, and
-of the mounting, &c. of the 6-foot reflector at Birr Castle, may also be
-seen. These were made by Mr. Airy, and presented by him to the Society.
-Mr. Williams will explain the action and details of all the models to any
-fellow who wishes for information.
-† Mr. Lassell has given so full an account of all his processes that we
-conceive any person of ordinary intelligence would be able to execute
-them; but they do not admit of compression, and extend beyond the limits
-of a Monthly Notice. It ought to be mentioned that the Earl of Rosse
-and Mr. Lassell have at all times freely communicated the steps of progress
-as soon as these became evident to themselves.
-Phil. Mag. S. 3. Vol. 34, No. 227. Feb. 1849.
+145
+
+been accustomed to produce very satisfactory surfaces on smaller specula."
+
+The machine invented by Mr. Lassell, and constructed by Mr. Nasmyth, for figuring and polishing specula, cannot be made intelligible without figures*. The speculum rests with its face uppermost in a horizontal position, and is carried slowly round by a vertical axis. The polisher rests, with its grinding and polishing surface, upon the speculum, and is moved by a pin which fits loosely into a hole in the centre, at the back of the polisher. The motion of the polisher is that of the driving-pin.
+
+Now this, by a very ingenious and very compact mechanism, receives a compound motion which may be thus imagined. Conceive a circular motion given to a point round the centre of the speculum, and then conceive that the driving-pin has a circular motion round this point. The curve is an epitrochoid, and the adjustments of the mechanism enable the workman to give any radius to either circular motion, from 0 up to a certain number of inches. The proportions of these radii, in order to give a parabolic figure, are determined experimentally, in which the relation of aperture to focal length must be considered. The size of the polisher, and even the hardness of the pitch, must also be proportioned to the figure and aperture required. Mr. Lassell finds no difficulty in getting a true parabolic figure when the aperture is one-eighth of the focal length†. The speculum, while grinding and polishing, is supported in the same way as it is in the tube when in use. The principle of this mode of support is mentioned by Lord Rosse, Philosophical Transactions, 1840, p. 524.
+
+"The polisher should possess as much stiffness as is compatible with the requisite lightness, and I have found these qualities best combined by making it of white American deal, in two strata, well-united by glue and a few screws, with the direction of the grain at right angles, the wood well-seasoned, and, if possible, cut out of the same board. The polisher for the 2-foot speculum is made out of \(1\frac{1}{2}\) inch board, and has, for symmetry, both the upper and under surfaces convex, to fit the speculum. It is about 2 inches thick at the circumference, \(20\frac{1}{2}\) inches diameter, and weighs about 12 lbs. with the pitch surface upon it."
+
+Mr. Lassell then enters very minutely into the mode of coating the polisher with pitch evenly and to a proper thickness, of dividing
+
+* A model to half the true size, and the drawing by Mr. Nasmyth, may be seen at the Society's apartments. A model of Lord Rosse's engine, and of the mounting, &c. of the 6-foot reflector at Birr Castle, may also be seen. These were made by Mr. Airy, and presented by him to the Society. Mr. Williams will explain the action and details of all the models to any fellow who wishes for information.
+
+† Mr. Lassell has given so full an account of all his processes that we conceive any person of ordinary intelligence would be able to execute them; but they do not admit of compression, and extend beyond the limits of a Monthly Notice. It ought to be mentioned that the Earl of Rosse and Mr. Lassell have at all times freely communicated the steps of progress as soon as these became evident to themselves.
+
+Phil. Mag. S. 3. Vol. 34. No. 227. Feb. 1849.
+
 L
 
 ## PDF page 160
@@ -14026,68 +13855,25 @@ triangle, ac milities at the action in
 
 ## PDF page 211
 
-and an Optical Illusion.
+and an Optical Illusion?
+
 197
-into one, when three images only were in view. The same
-experiment may be made with two letters, or any other figures
-or objects which are equal in size and form, as follows:-
-11. do A A Natural single vision.
-1 10001 11000
-A A A E COF BEE
+
+into one, when three images only were in view. The same experiment may be made with two letters, or any other figures or objects which are equal in size and form, as follows:—
+
+1. A A Natural single vision.
+
 2. AA AA View with axes slightly converged.
-View with greater convergence of the op-
-tical axes and the two intermediate
-3. A A A
-images coalesced into one.
-( IA - IN THE
-On suddenly closing either eye, this middle or superimposed
-image did not disappear, and it was evidently made of two
-images from two objects formed on corresponding parts of the
-retinæ. Hence we have the converse of the case of double
-vision of a single object, for two objects are made to produce
-a single impression. Thus far I had proceeded in 1816, when
-I read a paper on this subject to a club of my fellow-students
-in in the little of the little of the little of the little of the little of the little of the little of the little of the little of the little of the little of the little of the little of the little of the little of the li
-( ) ( )
-at Yale.
-Experiment III.—In 1843 I made the experiment of con-
-verging the optical axes upon two contiguous figures on the
-wall-paper of my office, in the same manner as I had done
-with the two images of the two candles in Exp. II. When I
-had thus succeeded in taking up optically the two figures and
-superimposing them one upon the other, suddenly the whole
-wall appeared to leap out from a distance of ten feet to within
-half a yard of my eyes, where it remained in miniature beauty
-as palpable to vision as it had been in its original place. To
-this image, suspended as it were between the observer and the
-object, I shall in the subsequent part of my paper apply the
-AUT THE P
-term illusive image.
-It then appeared that the right eye was directed to the left
-one of two contiguous figures, and the left eye to the right
-figure, which, being identical in form and size, gave the im-
-pression of a single object at the point of intersection of the
-optical axes. Here we have two triangles formed by the two
-optical axes intersecting each other and joined at their ex-
-tremes; on one part by a line from one eye
-to the other, and on the other part by a line
-1 182 x 12 1 1 12 1 4 1
-from one figure or object to the other. These
-11)12 6
-last lines being parallel (see figure), where A
-17/2
-and B represent the eyes, C and D the ob-
-1350 1
-Dirie
-jects, or two figures on the wall, AD the axis
-of the eye A, BC the axis of the eye B, and
-E the point of intersection of the axes at the
-E
-place of the illusive image. As these trian-
-gles are equiangular and similar, we can de-
-.10 143
-duce from them all of the equations of such
-triangles and apply them to the optical phæ-
+
+3. A A A  \( \left\{\begin{array}{l}\text { View with greater convergence of the optical axes and the two intermediate images coalesced into one. }\end{array}\right. \)
+
+On suddenly closing either eye, this middle or superimposed image did not disappear, and it was evidently made of two images from two objects formed on corresponding parts of the retina. Hence we have the converse of the case of double vision of a single object, for two objects are made to produce a single impression. Thus far I had proceeded in 1816, when I read a paper on this subject to a club of my fellow-students at Yale.
+
+Experiment III.—In 1843 I made the experiment of converging the optical axes upon two contiguous figures on the wall-paper of my office, in the same manner as I had done with the two images of the two candles in Exp. II. When I had thus succeeded in taking up optically the two figures and superimposing them one upon the other, suddenly the whole wall appeared to leap out from a distance of ten feet to within half a yard of my eyes, where it remained in miniature beauty as palpable to vision as it had been in its original place. To this image, suspended as it were between the observer and the object, I shall in the subsequent part of my paper apply the term illusive image.
+
+It then appeared that the right eye was directed to the left one of two contiguous figures, and the left eye to the right figure, which, being identical in form and size, gave the impression of a single object at the point of intersection of the optical axes. Here we have two triangles formed by the two optical axes intersecting each other and joined at their ex-
+
+tremes; on one part by a line from one eye to the other, and on the other part by a line from one figure or object to the other. These last lines being parallel (see figure), where A and B represent the eyes, C and D the objects, or two figures on the wall, AD the axis of the eye A, BC the axis of the eye B, and E the point of intersection of the axes at the place of the illusive image. As these triangles are equiangular and similar, we can deduce from them all of the equations of such triangles and apply them to the optical phae-
 
 ## PDF page 212
 
@@ -15109,57 +14895,18 @@ judge N.N.W.; but unfortunately I was not in a position to make
 ## PDF page 231
 
 Royal Astronomical Society.
+
 217
-any accurate observations. Several hundreds of meteors must have
-occurred during the three hours and a half to which I allude; the
-clouds then closing the sky, I gave up observation. The meteors
-were small and very white, and generally left long trains behind
-them: one meteor had a contrary direction, it was larger than the
-rest, and moved slowly across the zenith towards the S.E. I am
-most decidedly of opinion that this phænomenon is altogether atmo-
-spherical and connected with electrical changes; nor does their mo-
-tion, in the apparent direction of the magnetic poles, at all militate
-against this hypothesis of their electrical origin. A few occurred
-last 10th of August, during a disturbed state of the atmospheric
-electricity; and I saw three on the 20th of December."
-On the Variability of \( \lambda \) Tauri. By Mr. Baxendell.
-"On the night of the 6th instant I observed that the star A Tauri
-was decidedly less bright than usual, being barely equal to v, a little
-less bright than <math>\gamma</math>, and decidedly below o and <math>\xi</math>; whilst on the pre-
-vious night I had noted it down as being a little brighter than o and
-<math>\xi</math>, and decidedly above <math>\gamma</math> and <math>\nu</math>, and in all my former observations I
-had invariably placed it above <math>\gamma</math>. On the following night (the 7th)
-it had nearly recovered its usual lustre, being decidedly brighter
-than <math>\nu</math>, above <math>\gamma</math>, and equal to <math>\rho</math> and <math>\xi</math>. A short time previous to the
-6th instant I had remarked that my former observations of the stars
-o, ξ, and λ Tauri exhibited discordances which rendered it impossible
-to fix with certainty the order in which these stars ought to be
-placed. After the observations on the nights of the 6th and 7th
-instant, there could be no doubt that these discordances were mainly,
-if not wholly, due to the variability of <math>\lambda</math>; and on carefully re-ex-
-amining all my observations of this star, I was led to infer that its
-changes were accomplished in a period of only about four days. I
-therefore continued to watch it very closely, and on the night of the
-10th instant had the satisfaction of again observing it reduced to an
-equality with v. As, however, the presence of the moon on that
-night might be supposed to have interfered with the estimations, I
-have continued my observations regularly since; and having observed
-A decidedly reduced in brightness on the nights of the 14th, 18th,
-and 22nd instant, I can no longer have any hesitation in concluding
-that this star belongs to the list of variable stars of short period,
-being, in fact, the next in order after <math>\beta</math> Persei, the period of which
-is the shortest yet known."
-THE REQUIREMENT OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PART
-Dr. Gerling, of Marburg, published (Astron. Nach. 502) an ac-
-count of a method for determining the parallax of the sun by obser-
-vations on Venus and Mars when nearest the earth, and requested
-the co-operation of American astronomers. Lieut. Gilliss, having
-satisfied himself that the method was feasible, volunteered his ser-
-vices to the American government to carry Dr. Gerling's proposal
-into effect, and the expedition is now preparing.
-Lieut. Gilliss is to place himself in the most suitable station he can
-find on the coast of Chili, where he is to make meridian and extra-
-meridian observations of both planets, at the proper times, in cor-
+
+any accurate observations. Several hundreds of meteors must have occurred during the three hours and a half to which I allude; the clouds then closing the sky, I gave up observation. The meteors were small and very white, and generally left long trains behind them: one meteor had a contrary direction, it was larger than the rest, and moved slowly across the zenith towards the S.E. I am most decidedly of opinion that this phaenomenon is altogether atm-spherical and connected with electrical changes; nor does their motion, in the apparent direction of the magnetic poles, at all militate against this hypothesis of their electrical origin. A few occurred last 10th of August, during a disturbed state of the atmospheric electricity; and I saw three on the 20th of December."
+
+On the Variability of λ Tauri. By Mr. Baxendell.
+
+"On the night of the 6th instant I observed that the star λ Tauri was decidedly less bright than usual, being barely equal to ν, a little less bright than γ, and decidedly below o and ξ; whilst on the previous night I had noted it down as being a little brighter than o and ξ, and decidedly above γ and ν, and in all my former observations I had invariably placed it above γ. On the following night (the 7th) it had nearly recovered its usual lustre, being decidedly brighter than ν, above γ, and equal to o and ξ. A short time previous to the 6th instant I had remarked that my former observations of the stars o, ξ, and λ Tauri exhibited discordances which rendered it impossible to fix with certainty the order in which these stars ought to be placed. After the observations on the nights of the 6th and 7th instant, there could be no doubt that these discordances were mainly, if not wholly, due to the variability of λ; and on carefully re-examining all my observations of this star, I was led to infer that its changes were accomplished in a period of only about four days. I therefore continued to watch it very closely, and on the night of the 10th instant had the satisfaction of again observing it reduced to an equality with ν. As, however, the presence of the moon on that night might be supposed to have interfered with the estimations, I have continued my observations regularly since; and having observed λ decidedly reduced in brightness on the nights of the 14th, 18th, and 22nd instant, I can no longer have any hesitation in concluding that this star belongs to the list of variable stars of short period, being, in fact, the next in order after β Persei, the period of which is the shortest yet known."
+
+Dr. Gerling, of Marburg, published (Astron. Nach. 502) an account of a method for determining the parallax of the sun by observations on Venus and Mars when nearest the earth, and requested the co-operation of American astronomers. Lieut. Gilliss, having satisfied himself that the method was feasible, volunteered his services to the American government to carry Dr. Gerling's proposal into effect, and the expedition is now preparing.
+
+Lieut. Gilliss is to place himself in the most suitable station he can find on the coast of Chili, where he is to make meridian and extra-meridian observations of both planets, at the proper times, in cor-
 
 ## PDF page 232
 
@@ -16013,140 +15760,58 @@ from the above-described experiments, that in the preparation of
 ## PDF page 247
 
 Intelligence and Miscellaneous Articles.
-233
-iodide of lead the nitrate ought to be preferred to the acetate, on
-account of the greater quantity of product which it yields. Project,
-The process by iodide of calcium is the most advantageous both
-as to the quality and quantity of the product. wo eldersbrane non?
-The two processes by iodide of iron and iodide of zinc yielding
-equally fine and abundant products, it is nearly indifferent which
-is employed. 19 1                                 
-The process by iodide of sodium offers no advantage, and that by
-iodide of potassium is the least economical. ...................................
-There is a loss of nearly 10 per cent. in preparing iodide of lead
-on using iodide of potassium and acetate of lead; the greater part
-of which loss may, however, be avoided by substituting the nitrate,
-or by adding to the supernatant liquor a sufficient quantity of nitric
-acid to decompose the acetate of potash.—Journ. de Pharm. et de
-Chem, Janvier 1849. A STATE OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF
-of potassium continue () - - - - - - - - - - - - - - - - - - 
-reutral nortate of lar of years of the more larger
-ON THE PROTOGINE OF THE ALPS. BY M. DELESSE. OF
-The author observes that protogine usually contains five different
-minerals, which are, quartz, orthose, oligoclase, mica with a base of
-iron, and a variety of talc: these may be seen in the protogine of
-Mont Blanc. These minerals are not however equally distributed,
-and one or more of them are frequently wanting; but then the
-minerals which remain have so preserved the same characters as
-those which they possessed when the five elements are present in
-the rock, that it is impossible not to consider them as formed under
-the same circumstances; they constitute therefore varieties of the
-original rock, into which they pass insensibly, both by their mine-
-ralogical characters and their geological relations.
-Quartz.—Quartz forms one of the important elements of protogine as of all granitic rocks. When the rock has a well-character-
-ized granitic structure, the quartz of the paste is sometimes con-
-fusedly crystallized; generally, however, this does not occur, and it
-is hyaline, gray or violet; when it is in crystals of several centi-
-metres in thickness, as seen in some veins, instead of being reddish
-or violet, it generally has a deepish black colour, and is of the va-
-riety called smoky quartz.
 
-It may be stated generally that in fracturing pieces having the
-usual thickness of the grains of quartz or the paste of the rock, the
-difference of colour is derived rather from the greater thickness of
-the quartz in the veins than from the presence of a greater quantity.
-of colouring matter.
-This colour of quartz, which is observable in many granitic rocks,
-is derived from organic matter, which is volatile without leaving
-any residue, and disappears completely by slight calcination, the
-quartz losing only twelve thousandths, and becoming white and
-transparent. . . . . . . . . . . . . . . . . . . 
-This organic matter is not volatile in vacuo at common tempera-
-tures, for it does not disappear by exposing the quartz for several
-from the above-described expendite, that in the preparation of
+233
+
+iodide of lead the nitrate ought to be preferred to the acetate, on account of the greater quantity of product which it yields.
+
+The process by iodide of calcium is the most advantageous both as to the quality and quantity of the product.
+
+The two processes by iodide of iron and iodide of zinc yielding equally fine and abundant products, it is nearly indifferent which is employed.
+
+The process by iodide of sodium offers no advantage, and that by iodide of potassium is the least economical.
+
+There is a loss of nearly 10 per cent. in preparing iodide of lead on using iodide of potassium and acetate of lead; the greater part of which loss may, however, be avoided by substituting the nitrate, or by adding to the supernatant liquor a sufficient quantity of nitric acid to decompose the acetate of potash.—Journ. de Pharm. et de Chem, Janvier 1849.
+
+ON THE PROTOGINE OF THE ALPS. BY M. DELESSE.
+
+The author observes that protogine usually contains five different minerals, which are, quartz, orthose, oligoclase, mica with a base of iron, and a variety of talc: these may be seen in the protogine of Mont Blanc. These minerals are not however equally distributed, and one or more of them are frequently wanting; but then the minerals which remain have so preserved the same characters as those which they possessed when the five elements are present in the rock, that it is impossible not to consider them as formed under the same circumstances; they constitute therefore varieties of the original rock, into which they pass insensibly, both by their mineralogical characters and their geological relations.
+
+Quartz.—Quartz forms one of the important elements of protogine as of all granitic rocks. When the rock has a well-characterized granitic structure, the quartz of the paste is sometimes confusedly crystallized; generally, however, this does not occur, and it is hyaline, gray or violet; when it is in crystals of several centimetres in thickness, as seen in some veins, instead of being reddish or violet, it generally has a deepish black colour, and is of the variety called smoky quartz.
+
+It may be stated generally that in fracturing pieces having the usual thickness of the grains of quartz or the paste of the rock, the difference of colour is derived rather from the greater thickness of the quartz in the veins than from the presence of a greater quantity of colouring matter.
+
+This colour of quartz, which is observable in many granitic rocks, is derived from organic matter, which is volatile without leaving any residue, and disappears completely by slight calcination, the quartz losing only twelve thousandths, and becoming white and transparent.
+
+This organic matter is not volatile in vacuo at common temperatures, for it does not disappear by exposing the quartz for several
+
+to noisu, ng uis a, and, and, he bediu-ub-oyods ndt moi
 
 ## PDF page 248
 
 234
+
 Intelligence and Miscellaneous Articles.
-days over sulphuric acid in the exhausted receiver; nor is it de-
-stroyed when the quartz is digested, either hot or cold, in hydro-
-chloric acid or ammonia: this resistance to chemical and physical
-agents is probably derived, in part, from the intimate admixture of
-the organic matter in the pores of the quartz.
-Orthose.—The colour of this is generally white or grayish-white,
-sometimes, however, it is fawn- or rose-coloured, or pale scarlet.
-When it has a tendency to a brownish-yellow or red colour, the
-mineral is altered by incipient decomposition: it has a brilliant
-pearly lustre.
-According to Saussure, its density is 2.615. Its crystals are often
-several centimetres long, well-formed, and generally possess the
-characteristic macle which is common to them in granitic rocks.
-The crystals of orthose, oligoclase and mica analysed by M.
-Delesse, were taken from an enormous block, well-known at Cha-
-mouni, and which has fallen from the needles above the Mer de
-Glace.
-The following was found by the author to be the composition of
-the grayish-white orthose, with a tint of fawn colour:-
-Silica .....
-66.48
-Alumina .....
-19.06
-Lime .....
-0.63
-Peroxide of iron .....
-traces
-Magnesia .....
-traces
-Potash .....
-10.52
-2.30
-Soda .....
-98.99
-Oligoclase.—In protogine, as in the greater number of granites,
-there is besides orthose a second felspar, which in this case is oligo-
-clase. It is somewhat difficult to distinguish on account of its
-white colour, which is nearly the same as that of orthose: this
-however is translucent, whilst oligoclase is dull, or very slightly
-greenish; it is, moreover, characterized by parallel microscopic
-striæ, and the crystals are often complex and macled, like those of
-the albite of Carlsbad. Its density is 2.633.
-The analysis of very pure crystals from the needles of the Mer
-de Glace, made by carbonate of soda and hydrofluoric acid, gave-
-Silica . . . . . . . . . . . . 63.25
-COLUMN TO SECURE A PERSON NAMED IN COLUMN TWO
-Alumina.....
-THE RESERVE TO A RESERVE TO A RESERVE TO A RESERVE TO A RESERVE TO A RESERVE TO A RESERVE TO A RESERVE TO A RESERVE TO A RESERVE TO A RESERVE TO A RESERVE TO A RESERVE TO A RESERVE TO A RESERVE TO A RESERVE TO A RESERVE TO
-23.92
-Peroxide of iron
-traces
-or many factors in the
-MICHEL THREE CON
-Oxide of manganese . . . .
-traces
-T. - 13(44 ) 4 4 1)
-District of the last
-Lime .....
-3.23
-COLUMN TO SERVICE AND ADDRESS OF THE PARTY.
-Magnesia .....
-0.32
-COLUMN TWO IS NOT
-The state of the state of
-Soda ......
-6.88
-RENOMBY WAS
-Countries Co.
-Potash
-2.31
-. . . . . . . . . . .
-Am beams to
-(1)
-99.91
-. 10377
-attention to grade
+
+days over sulphuric acid in the exhausted receiver; nor is it destroyed when the quartz is digested, either hot or cold, in hydrochloric acid or ammonia: this resistance to chemical and physical agents is probably derived, in part, from the intimate admixture of the organic matter in the pores of the quartz.
+
+Orthose.—The colour of this is generally white or grayish-white, sometimes, however, it is fawn- or rose-coloured, or pale scarlet. When it has a tendency to a brownish-yellow or red colour, the mineral is altered by incipient decomposition: it has a brilliant pearly lustre.
+
+According to Saussure, its density is 2·615. Its crystals are often several centimetres long, well-formed, and generally possess the characteristic macle which is common to them in granitic rocks.
+
+The crystals of orthose, oligoclase and mica analysed by M. Delesse, were taken from an enormous block, well-known at Chamouni, and which has fallen from the needles above the Mer de Glace.
+
+The following was found by the author to be the composition of the grayish-white orthose, with a tint of fawn colour:—
+
+<table><tr><td>Silica</td><td>66·48</td></tr><tr><td>Alumina</td><td>19·06</td></tr><tr><td>Lime</td><td>0·63</td></tr><tr><td>Peroxide of iron</td><td>traces</td></tr><tr><td>Magnesia</td><td>traces</td></tr><tr><td>Potash</td><td>10·52</td></tr><tr><td>Soda</td><td>2·30</td></tr><tr><td></td><td>98·99</td></tr></table>
+
+Oligoclase.—In protogine, as in the greater number of granites, there is besides orthose a second felspar, which in this case is oligoclase. It is somewhat difficult to distinguish on account of its white colour, which is nearly the same as that of orthose: this however is translucent, whilst oligoclase is dull, or very slightly greenish; it is, moreover, characterized by parallel microscopic striae, and the crystals are often complex and macled, like those of the albite of Carlsbad. Its density is 2·633.
+
+The analysis of very pure crystals from the needles of the Mer de Glace, made by carbonate of soda and hydrofluoric acid, gave—
+
+<table><tr><td>Silica</td><td>63·25</td></tr><tr><td>Alumina</td><td>23·92</td></tr><tr><td>Peroxide of iron</td><td>traces</td></tr><tr><td>Oxide of manganese</td><td>traces</td></tr><tr><td>Lime</td><td>3·23</td></tr><tr><td>Magnesia</td><td>0·32</td></tr><tr><td>Soda</td><td>6·88</td></tr><tr><td>Potash</td><td>2·31</td></tr><tr><td></td><td>99·91</td></tr></table>
+
 This composition is almost identical with that of the oligoclase of
-14
 
 ## PDF page 249
 
@@ -19728,42 +19393,50 @@ simple equation.
 ## PDF page 297
 
 into Conjugate Factors.
+
 283
-Again: if a pair of conjugate roots of a biquadratic equa-
-tion be given in the form <math>\alpha \pm \sqrt{\beta}</math>, then it is plain, from the
-same expressions, that we must have
-<math display="block">\beta = \alpha^2 - fs : \frac{1}{f} = \frac{s}{\alpha^2 - \beta};</math>
+
+Again: if a pair of conjugate roots of a biquadratic equation be given in the form \(\alpha \pm \sqrt{\beta}\), then it is plain, from the same expressions, that we must have
+
+\[
+\beta = \alpha^ {2} - f s \therefore \frac {1}{f} = \frac {s}{\alpha^ {2} - \beta};
+\]
+
 and consequently the values of the two remaining roots will be
-<math>-\frac{2\alpha+p}{2}\pm\sqrt{\left\{\left(\frac{2\alpha+p}{2}\right)^2-\frac{s}{\alpha^2-\beta}\right\}},</math>
-which might indeed have been deduced from the form (1),
-though I believe that form has not hitherto been employed for
-this purpose. The same values, as furnished by the expres-
-sions previously given, take the somewhat more convenient
-forms
-<math display="block">-\frac{2\alpha+p}{2}\pm\sqrt{\left\{\left(\frac{2\alpha+p}{2}-4\alpha\right)\frac{2\alpha+p}{2}+\alpha^2-\beta-q\right\}}.</math>
-I shall merely add, in conclusion, that, as far as equations
-are concerned, the conjugate factors of <math>\varphi(x)</math> do little more than
-express the fact that the roots of every equation of an even
-degree,
-<math>(x^2+ax+b)(x^2+a_1x+b_1)\dots=0,</math>
+
+\[
+- \frac {2 \alpha + p}{2} \pm \sqrt {\left\{\left(\frac {2 \alpha + p}{2}\right) ^ {2} - \frac {s}{\alpha^ {2} - \beta} \right\}},
+\]
+
+which might indeed have been deduced from the form (1), though I believe that form has not hitherto been employed for this purpose. The same values, as furnished by the expressions previously given, take the somewhat more convenient forms
+
+\[
+\left. - \frac {2 \alpha + p}{2} \pm \sqrt {\left\{\left(\frac {2 \alpha + p}{2} - 4 \alpha\right) \frac {2 \alpha + p}{2} + \alpha^ {2} - \beta - q \right\}} \right\}.
+\]
+
+I shall merely add, in conclusion, that, as far as equations are concerned, the conjugate factors of \(\varphi(x)\) do little more than express the fact that the roots of every equation of an even degree,
+
+\[
+(x ^ {2} + a x + b) (x ^ {2} + a _ {1} x + b _ {1}) \dots = 0,
+\]
+
 may be exhibited under the forms
-<math>F + \sqrt{F^2 - b}</math>
-<math>F' \pm \sqrt{\{F'^2 - b_1\}}</math>
-&c. &c.:
-a truth which, however obvious from the theory of common
-quadratic equations, has never, I believe, been turned to any
-account elsewhere. The conjugate factors here referred to
-express obvious identities: they do not presuppose the solution
-of a quadratic, but actually supply that solution, by aid of the
-fundamental property that the coefficient of the second term is
-the sum of the roots with changed signs, and the third term
-the product.
-P.S. In my last paper (p. 194, line 18) for "quotient" read
-" product."
+
+\[
+\mathrm{F} \pm \checkmark \{\mathrm{F} ^ {2} - b \}
+\]
+
+\[
+\mathrm{F} ^ {\prime} \pm \sqrt {\{\mathrm{F} ^ {\prime 2} - b _ {1} \}}
+\]
+
+&c. &c.;
+
+a truth which, however obvious from the theory of common quadratic equations, has never, I believe, been turned to any account elsewhere. The conjugate factors here referred to express obvious identities: they do not presuppose the solution of a quadratic, but actually supply that solution, by aid of the fundamental property that the coefficient of the second term is the sum of the roots with changed signs, and the third term the product.
+
+P.S. In my last paper (p. 194, line 18) for "quotient" read "product."
+
 Belfast, March 8, 1849.
-T 1 0 1-
-un .
-the second second second second second second second second second second second second second second second second second second second second second second second second second second second second second second second s
 
 ## PDF page 298
 
@@ -22926,56 +22599,22 @@ cipitate, which is readily soluble in excess of the pyro-
 ## PDF page 347
 
 of Phosphoric Acid.
+
 333
-phosphate of soda. The solution is of a blue colour; on the
-addition of ammonia it becomes of a darker blue, sulphuret of
-ammonium immediately produces in it a brown precipitate of
-sulphuret of copper. The pyrophosphate of copper is also
-soluble in a very large excess of sulphate of copper. Heat
-produces a precipitate in the solution which does not dis-
-appear on cooling.
-Solution of acetate of lead causes a white gelatinous preci-
-pitate, readily soluble in the pyrophosphate of soda. Sulphuret
-of lead is immediately thrown down from this solution by
-sulphuretted hydrogen.
-Solution of protosulphate of manyanese produces a white
-precipitate, which is insoluble in excess of the protosalt of
-manganese, but is soluble in the pyrophosphate of soda.
-This
-solution is not troubled by ammonia; sulphuret of ammonium
-does not produce a precipitate of sulphuret of manganese in
-it (which certainly deserves special notice), even when set
-aside for a considerable time.
-of the representation of the second transfer of the second transfer of the second transfer of the second transfer of the second transfer of the second transfer of the second transfer of the second transfer of the second tr
-Solution of protosulphate of iron produces a white preci-
-pitate, soluble in excess of the pyrophosphate of soda. A
-black precipitate of sulphuret of iron is immediately formed
-in the solution on the addition of sulphuret of ammonium; the
-solution is not however rendered turbid by ammonia; it
-merely renders it of a dark colour. The pyrophosphate of
-iron is also soluble in excess of the solution of the proto-
-sulphate of iron.
-Solution of perchloride of iron causes a white precipitate,
-readily soluble in excess of the pyrophosphate of soda.
-Sul-
-phuret of ammonium immediately produces in the almost
-colourless solution, a black precipitate of sulphuret of iron,
-which deserves particular notice, because Persoz denies the
-production of sulphuret of iron in the solution by sulphuret of
-ammonium. Ammonia however does not render the solution
-turbid; it immediately turns it of a blood-red colour.
-Solution of sulphate of zinc produces a white precipitate,
-soluble in the pyrophosphate of soda. The solution is neither
-precipitated by ammonia nor by boiling, but sulphuret of am-
-monium throws down sulphuret of zinc. The precipitate is
-also soluble in excess of the solution of sulphate of zinc.
-On boiling, the solution becomes turbid; the turbidity does
-not disappear on cooling.
-Solution of sulphate of cadmium produces a precipitate
-which is soluble in pyrophosphate of soda. The solution be-
-comes turbid when heated, the turbidity not disappearing as
-the solution cools. Sulphuret of cadmium is immediately
-precipitated from it by sulphuret of ammonium.
+
+phosphate of soda. The solution is of a blue colour; on the addition of ammonia it becomes of a darker blue, sulphuret of ammonium immediately produces in it a brown precipitate of sulphuret of copper. The pyrophosphate of copper is also soluble in a very large excess of sulphate of copper. Heat produces a precipitate in the solution which does not disappear on cooling.
+
+Solution of acetate of lead causes a white gelatinous precipitate, readily soluble in the pyrophosphate of soda. Sulphuret of lead is immediately thrown down from this solution by sulphuretted hydrogen.
+
+Solution of protosulphate of manganese produces a white precipitate, which is insoluble in excess of the protosalt of manganese, but is soluble in the pyrophosphate of soda. This solution is not troubled by ammonia; sulphuret of ammonium does not produce a precipitate of sulphuret of manganese in it (which certainly deserves special notice), even when set aside for a considerable time.
+
+Solution of protosulphate of iron produces a white precipitate, soluble in excess of the pyrophosphate of soda. A black precipitate of sulphuret of iron is immediately formed in the solution on the addition of sulphuret of ammonium; the solution is not however rendered turbid by ammonia; it merely renders it of a dark colour. The pyrophosphate of iron is also soluble in excess of the solution of the protosulphate of iron.
+
+Solution of perchloride of iron causes a white precipitate, readily soluble in excess of the pyrophosphate of soda. Sulphuret of ammonium immediately produces in the almost colourless solution, a black precipitate of sulphuret of iron, which deserves particular notice, because Persoz denies the production of sulphuret of iron in the solution by sulphuret of ammonium. Ammonia however does not render the solution turbid; it immediately turns it of a blood-red colour.
+
+Solution of sulphate of zinc produces a white precipitate, soluble in the pyrophosphate of soda. The solution is neither precipitated by ammonia nor by boiling, but sulphuret of ammonium throws down sulphuret of zinc. The precipitate is also soluble in excess of the solution of sulphate of zinc. On boiling, the solution becomes turbid; the turbidity does not disappear on cooling.
+
+Solution of sulphate of cadmium produces a precipitate which is soluble in pyrophosphate of soda. The solution becomes turbid when heated, the turbidity not disappearing as the solution cools. Sulphuret of cadmium is immediately precipitated from it by sulphuret of ammonium.
 
 ## PDF page 348
 
@@ -24117,32 +23756,55 @@ Then
 
 ## PDF page 370
 
-Prof. Challis's Determination of the Velocity of Sound
 356
+
+Prof. Challis's Determination of the Velocity of Sound
+
 and
-<math display="block">udx + vdy + wdz = \varphi \left( \frac{df}{dx} dx + \frac{df}{dy} dy \right) + f \frac{d\varphi}{dz} dz.</math>
-It hence follows that the left-hand side of the last equality is an
-exact differential. We have now to trace the kind of motion resulting from this general hypothesis.
-For this purpose I shall assume, for the present, that the
-supposition by which <math>udx+vdy+wdz</math> was made integrable,
-holds good for exact values of u, v and w, although the proof
-of the integrability of that quantity extended only to terms of<br>the first order of approximation. Thus we shall have the
-following seven exact equations:-
-<math>u = \varphi \frac{df}{dx} \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots</math>
-<math>v = \varphi \frac{df}{dy}</math> . . . . . . . . . . . . . . . . . . .
-(2.)
-<math display="block">w = f \frac{d\varphi}{dz} \quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad </math>
-<math display="block">\frac{d\rho}{dt} + \frac{d \cdot \rho u}{dx} + \frac{d \cdot \rho v}{du} + \frac{d \cdot \rho v}{dz} = 0 \qquad (4.)</math>
-<math display="block">\frac{a^2d\rho}{\rho dx} + \left(\frac{du}{dt}\right) = 0 \quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad</math>
-<math display="block">\frac{a^2d\rho}{\rho du} + \left(\frac{dv}{dt}\right) = 0 \quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad</math>
-<math>\frac{a^2d\rho}{cdz} + \left(\frac{dw}{dt}\right) = 0, \quad \dots \quad \dots</math>
-(7.)
-with an eighth deducible from the first three and the last three
-by integration, viz.
-<math>a^2</math> Nap. <math>\log \rho + f \frac{d\varphi}{dt} + \frac{1}{2} \left( \varphi^2 \frac{df^2}{dx^2} + \varphi^2 \frac{df^2}{du^2} + f^2 \frac{d\varphi^2}{dz^2} \right) = F(t)</math>. (8.)
-By means of equations (1.), (2.), (3.) and (8.), u, v, w,
-<math>\frac{d\rho}{\rho dt}</math>, <math>\frac{d\rho}{\rho dx}</math>, <math>\frac{d\rho}{\rho dy}</math>, and <math>\frac{d\rho}{\rho dz}</math>, may be eliminated from (4.), and
-the resulting equation is
+
+\[
+u d x + v d y + w d z = \varphi \left(\frac {d f}{d x} d x + \frac {d f}{d y} d y\right) + f \frac {d \varphi}{d z} d z.
+\]
+
+It hence follows that the left-hand side of the last equality is an exact differential. We have now to trace the kind of motion resulting from this general hypothesis.
+
+For this purpose I shall assume, for the present, that the supposition by which \( udx + vdy + wdz \) was made integrable, holds good for exact values of \( u, v \) and \( w \), although the proof of the integrability of that quantity extended only to terms of the first order of approximation. Thus we shall have the following seven exact equations:—
+
+\[
+u = \varphi \frac {d f}{d x} \quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad . \tag {1.}
+\]
+
+\[
+v = \varphi \frac {d f}{d y} \dots \tag {2.}
+\]
+
+\[
+w = f \frac {d \phi}{d z} \quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad . \tag {3.}
+\]
+
+\[
+\frac {d \rho}{d t} + \frac {d . \rho u}{d x} + \frac {d . \rho v}{d y} + \frac {d . \rho w}{d z} = 0 \quad . \quad . \quad . \tag {4.}
+\]
+
+\[
+\frac {a ^ {2} d \rho}{\rho d x} + \left(\frac {d u}{d t}\right) = 0 \quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad . \tag {5.}
+\]
+
+\[
+\frac {a ^ {2} d \rho}{\rho d y} + \left(\frac {d v}{d t}\right) = 0 \quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad . \tag {6.}
+\]
+
+\[
+\frac {a ^ {2} d \rho}{\rho d z} + \left(\frac {d w}{d t}\right) = 0, \quad \dots \dots \tag {7.}
+\]
+
+with an eighth deducible from the first three and the last three by integration, viz.
+
+\[
+a ^ {2} \mathrm{Nap.} \log \rho + f \frac {d \varphi}{d t} + \frac {1}{2} \Big (\varphi^ {2} \frac {d f ^ {2}}{d x ^ {2}} + \varphi^ {2} \frac {d f ^ {2}}{d y ^ {2}} + f ^ {2} \frac {d \varphi^ {2}}{d z ^ {2}} \Big) = \mathrm{F} (t). \tag {8.}
+\]
+
+By means of equations (1.), (2.), (3.) and (8.), u, v, w,  \( \frac{d\rho}{\rho dt} \) ,  \( \frac{d\rho}{\rho dx} \) ,  \( \frac{d\rho}{\rho dy} \) , and  \( \frac{d\rho}{\rho dz} \) , may be eliminated from (4.), and the resulting equation is
 
 ## PDF page 371
 
@@ -34105,44 +33767,45 @@ radii of curvature <math>r</math> and <math>r^1</math>. An application of the eq
 ## PDF page 529
 
 the Theory of Fluid Motion.
+
 515
-will illustrate this remark. Suppose the fluid to be incom-
-pressible: then to go so a division in both to the me and a man in the pressible in the property of the property of the property of the property of the property of the property of the property of the property of the proper
-Hence, since <math>ds = dr = dr^{2}</math>, we have by integrating,
-<math>V = \frac{\varphi(t)}{rr^1}</math>.
-0,070
-This expression for the velocity is general, having been ob-
-tained prior to the consideration of any particular case of mo-
-tion. It establishes the general law, that the quantity of fluid
-which passes in a given small time a given small element of a
-surface of displacement, being proportional to Vrr1, is given
-for a given value of <math>\varphi(t)</math>, and consequently that the moment-
-ary trajectory of the surfaces of displacement to which a single
-disturbance gives rise is a straight line.
-If the motion take place in space of two dimensions, we
-have
-<math>V = \frac{\varphi(t)}{r}</math>.
-I formerly obtained this result for the case in which <math>udx +</math>
-vdy is an exact differential, by a process which Professor
-Tardy and M. Bertrand object to, and which I do not now
-insist upon, because the above reasoning is inclusive of the
-particular case, and the result is obtained in a more direct
-manner.
-To apply the above general value of V to a given instance:
-suppose a perfectly smooth sphere to move in any manner in
-an incompressible fluid of unlimited extent, its centre remain-
-ing on a given straight line. The general value of V applies
-to the velocity impressed on the fluid by the surface of the
-sphere. If <math>V^1</math> be the velocity of its centre, then the motion impressed at any point of the surface the radius to which makes an angle <math>\theta</math> with the direction of motion, is <math>V^1 \cos \theta</math>.
-Hence, R being the radius of the sphere,
-<math>V^1 \cos \theta = \frac{\varphi(t)}{R^2}</math>, or <math>\varphi(t) = R^2 V^1 \cos \theta</math>.
+
+will illustrate this remark. Suppose the fluid to be incompressible: then you want to be in compressible.
+
+\[
+\frac {d \mathrm{V}}{d s} + \mathrm{V} \left(\frac {1}{r} + \frac {1}{r ^ {1}}\right) = 0.
+\]
+
+Hence, since \(ds = dr = dr^1\), we have by integrating,
+
+\[
+\mathbf {V} = \frac {\varphi (t)}{r r ^ {1}}.
+\]
+
+This expression for the velocity is general, having been obtained prior to the consideration of any particular case of motion. It establishes the general law, that the quantity of fluid which passes in a given small time a given small element of a surface of displacement, being proportional to  \( Vrr^{1} \) , is given for a given value of  \( \varphi(t) \) , and consequently that the momentary trajectory of the surfaces of displacement to which a single disturbance gives rise is a straight line.
+
+If the motion take place in space of two dimensions, we have
+
+\[
+\mathrm{V} = \frac {\varphi (t)}{r}.
+\]
+
+I formerly obtained this result for the case in which \( udx + vdy \) is an exact differential, by a process which Professor Tardy and M. Bertrand object to, and which I do not now insist upon, because the above reasoning is inclusive of the particular case, and the result is obtained in a more direct manner.
+
+To apply the above general value of V to a given instance: suppose a perfectly smooth sphere to move in any manner in an incompressible fluid of unlimited extent, its centre remaining on a given straight line. The general value of V applies to the velocity impressed on the fluid by the surface of the sphere. If V¹ be the velocity of its centre, then the motion impressed at any point of the surface the radius to which makes an angle θ with the direction of motion, is V¹ cos θ. Hence, R being the radius of the sphere,
+
+\[
+\mathrm{V} ^ {1} \cos \theta = \frac {\varphi (t)}{\mathrm{R} ^ {2}}, \text {or} \varphi (t) = \mathrm{R} ^ {2} \mathrm{V} ^ {1} \cos \theta .
+\]
+
 Consequently, as there is no other arbitrary quantity to satisfy,
-THE BEST THEODIE
-<math display="block">V = \frac{R^2}{r^2} V^1 \cos \theta,</math>
-. 11 (1 )
-where <math>r^2</math> is substituted for <math>rr^1</math>, because as one surface of dis-
-placement is spherical, all are spherical, their momentary tra-
-jectory being rectilinear. This result does not agree with that
+
+\[
+\mathrm{V} = \frac {\mathrm{R} ^ {2}}{r ^ {2}} \mathrm{V} ^ {1} \cos \theta ,
+\]
+
+where \( r^2 \) is substituted for \( rr^1 \), because as one surface of displacement is spherical, all are spherical, their momentary trajectory being rectilinear. This result does not agree with that
+
 2 L 2
 
 ## PDF page 530

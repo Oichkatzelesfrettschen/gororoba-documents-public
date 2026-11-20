@@ -10,7 +10,7 @@ Transcription of `bachet_1621_diophanti_alexandrini_arithmeticorum_libri_sex.pdf
 
 Method: pages 1-554 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
-Second engine: Surya OCR 0.17.0 alone read pages 84, 86, 191, 201, 225, 238, 269, 276, 441, 460, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+Second engine: Surya OCR 0.17.0 alone read pages 84, 86, 191, 201, 225, 238, 269, 276, 441, 460; MinerU2.5-Pro 2605 read pages 157, 241, 244, 352, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -9678,62 +9678,45 @@ and the control of
 ## PDF page 157
 
 Arithmeticorum Liber II.
+
 121
-æquatur productis ex A in B C. & in C D; & productus ex A in C D æquatur ipsi
-A. Igitur productus ex Ain B C. addito ipío A. fit quadratus. Quod demonstran-
-dum crat.
-Hoc supposito statuatur maior 4 N. minor 1 N. -1. sic enim productus 4 Q. -
-4. N. adleito maiore facit quadratum 4 Q. restat vt idem productus adscito
-minore, faciar quadratum, cuius latus sit 6 - 2 N. facit autem 4 Q. - 3 N. - 1.
-Hocergo æquatur quadrato 4 Q. - 24 N. + 36. & fit 1 N. ! funt que quafiti
-numeri & & !. Hinc elicietur Canon alter.
-Quadratum quemlibet vnitate multatum aufer à duplo producti ex latere ipsius
-in summam laterum datam, per residuum divide quadratum summalaterum
-vnitate auctum, orietur minor quasitorum vnitate auctus, quem sic vnitate
-auctum si ducas in sumptum ab initio quadratum, siet maior quasitorum.
-Sit data summa laterum 7. vt prius. Sume quadratum 9. vnde ablata vnitate, re-
-siduum 8. auferà 42. qui sit ex ipso 7. bis in latus ipsius 9. relinquitur 34. per quem
-divide quadratum ipsius 7. vnitate auctum, nimirum 50. siet ; vnde ablata vnitate
-relinquitur ; minor quæsitorum ; At ducto ; in quadratum 9. sit maior ::
-Sed & multò vniuersalius proponi potest hæc quæstio, nimicum sic.
-Inuenire duos numeros, ve productus eorum multiplicatione, ad-
-scito quoliber alterutrius multiplice quadratum faciat, & quadrato-
-rum latera iun cta datum conficiant numerum.
-Soluetur autem eadem arre auxilio eorundem lemmatum, quæ & ipsa in vnum
-contracta sic proponentur vniuersalius.
-Datis duobus numeris quorum vni defint quotlibet vnitates, quo
-minus ad alium rationem habeat quadrati ad quadratum; productus ex
-datorum multiplicatione adsumpto alterius multiplice secundum vni-
-tates quà alteri desunt, sit quadratus.
-Quærantur ergo duo numeri, vt productus eorum multiplicatione adfeito alter-
-utrius duplo quadratum faciat, & latera quadratorum conficiant 6. Ponatur minor
-1 N. maior per lemma præcedens esto 4 N. - 2. sic enim productus 4 Q. - 2 N.
-adiciro minoris duplo facit quadratum 4. Q. Restat ve idem productus adiciro du-
-plo maioris faciat quadratum à latere 6 - 2 N. facit autem 4 Q + 6 N. - 4.
-Hoc ergo æquatur 4 Q.- 24 N. + 36. & fit 1 N. . Sunt ergo quæsiti numeri
-& 🖐 quorum productus 🐈 adícito figillatim vtriusque duplo quadratos facit 🐈 &
-quorum latera 1. & 1. quorum lumma 1 feu 6.
-Rursus. Quarantur duo numeri vt productus corum multiplicatione adscito pri-
-mi duplo, tum secundi triplo, quadratum faciat, & latera quadratorum conficiant 6.
-Ponatur primus 1 N. secundus 4 N. - 2. sic enim productus 4 Q. - 2 N. adscito
-primi duplo facit quadratum 4. Q. Restat vt idem productus adscito secundi triplo
-faciat quadratum à latere 6 - 2 N. facit autem 4 Q. + 10 N. -6. Hoc ergo
-æquatur 4 Q. - 24 N. + 36. & fit i N. \ funt ergo quæsiti numeri \ & \ quo-
-rura productus 1950 adscito primi duplo & secundi triplo, quadratos facit 1950 & 1650
-quorum latera 12 & 43 quorum summa 127 seu 6. Hinc etiam Canon elici potest.
-quod exercitationis gratia tibi faciendum relinquo.
+
+equatur productis ex A in B C. & in C D; & productus ex A in C D æquatur ipfi A. Igitur productus ex A in B C. addito ipfo A. fit quadratus. Quod demonstrandum erat.
+
+Hoc fuppofto ftatuatur maior 4 N. minor 1 N. - 1. fic enim productus 4 Q. - 4. N. adkito maiore facit quadratum 4 Q. restar vt idem productus adficito minore, faciar quadratum, cuius latus fir 6 - 2 N. facit autem 4 Q. - 3 N. - 1. Hoc ergo aquatur quadrato 4 Q. - 24 N. + 36. & fit 1 N. funtque quafiri numeri & Hinc elicietur Canon alter.
+
+Quadratum quemlibet vnitate multatum aufer à duplo produëti ex latere ipfus in summam laterum datam, per residuum diuide quadratum fummalaterum vnitate auëtum, orietur minor quasitorum vnitate anctus, quem sic vnitate auëtum fi ducas in fumptum ab initio quadratum, fier maior quasitorum.
+
+Sit data fumma laterum 7. vt prius. Sume quadratum 9. vnde ablata vnitate, re-fiduum 8. auferà 42. qui fit ex ipfo 7. bis in latus ipfius 9. relinquitur 34. per quem diuide quadratum ipfius 7. vnitate auditum, nimirum 50. fiet 11. vnde ablata vnitate relinquitur 11. minor quæfitorum; Ar dueto 12. in quadratum 9. fit maior 13.
+
+Sed & multò vniuerfalius proponi potet hæc quæftio , nimirum lic.
+
+Inuenire duos numeros, vt produçtus eorum multiplicatione, ad- fcito quoliber alterutrius multiplice quadratum faciat, & quadrato- rum latera iunetà datum conficiant numerum.
+
+Soluetur autem eadem arte auxilio corundem lemmatum, quæ & ipfa in vnum contrada fic proponentur vniuerfalius.
+
+Datis duobus numeris quorum vni defint quotlibet vnitates, quo minus ad alium rationem habcat quadrati ad quadratum; productus ex datorum multiplicatione adfumpto alterius multiplice fecundum vnitates quæ alteri defunt, fit quadratus.
+
+Querantur ergo duo numeri, vt productus eorum multiplicatione adfeito alterutrius duplo quadratum faciat, & latera quadratorum conficiant 6. Ponatur minor 1 N. maior per lemma precedens efto 4 N. - 2. fic enim productus 4 Q. - 2 N. adfcto minoris duplo facit quadratum 4 Q. Reftat vt idem productus adfcto duplo majoris faciat quadratum à latere 6 - 2 N. facit autem 4 Q. + 6 N. - 4. Hoc ergo xquatur 4 Q. - 24 N. + 36. & fit 1 N. †. Sunt ergo quæfiti numeri ‡ & quorum productus †; adfcto figillatim vtriufque duplo quadratos facit ‡; & quorum latera †. & quorum fumma † feu 6.
+
+Rurfus. Querantur duo numeri vt productus eorum multiplicazione adfícito primi duplo, tum fecundi triplo, quadratum faciat, & latera quadratorum conficiant 6. Ponatur primus 1 N. fecundus 4 N. - 2. fic enim productus 4 Q. - 2 N. adfícito primi duplo facit quadratum 4 Q. Reftat vt idem productus adfícito fecundi triplo faciat quadratum à latere 6 - 2 N. facit autem 4 Q. + 10 N. - 6. Hoc ergo xquatur 4 Q. - 24 N. + 36. & fit 1 N. || funt ergo quæfiti numeri || & quorum productus adfícito primi duplo & fecundi triplo, quadratos facit || & quorum latera || & quorum fumma || feu 6. Hinc etiam Canon elici poteft, quod exercitationis gratia tibi faciendum relinquo.
+
 QVÆSTIO XXVIII.
-ΓΥΡΕΙΝ δύο αριθμοις όπως
-INVENIRE duos nume-
-I ros, vt productus ex corum
-L'o o'n' au The Asi A Exampou
+
+INVBNIRE duos nume-
+ros, vt produætus ex corum
 multiplicatione detracto alter-
-พอเท ารโอสาเมอง. าามี สิร าราธุลาณ-
 utro quadratum faciat. At qua-
-१७४ में मारे कि वर्ष मध्य महिल्या महाराज्य महाराज्य
 dratorum latera coniuncta fa-
 ciant datum numerum. Faciant
-कंप ठिन्हें कि देशिष्ट के निया है के प्रमाणिय के प्रमाणिय के प्रमाणिय के प्रमाणिय के प्रमाणिय के प्रमाणिय के प्रमाणिय के प्रमाणिय के प्रमाणिय के प्रमाणिय के प्रमाणिय के प्रमाणिय के प्रमाणिय के प्रमाणिय के प्रमाणिय के प्रमा
+
+EYPEIN δύο ἀριθμοις ὅπως
+ούπ' αὐτῆ λαῖγα ἐκατέρου
+ποιῆ πῆδαῖγωνον. ἐγι δὲ πιτραχώ-
+νων αἱ πλθυραὶ συωτεξισαι ποιωσι
+τὸν δοσέντα δὲριθμόν. ὅπτεζέζω
+
+L
 
 ## PDF page 158
 
@@ -15320,70 +15303,38 @@ vrique
 
 ## PDF page 241
 
-Arithmeticorum Liber IIII.
+Arithmeticorum Liber III.
+
 205
-vtique fuissent internalla. Sed
-ใน ลบ ใจท ที่ บักรองที่. มหาส น หรื ch
-25. vnitates à secundo sunt, &
-में Soute eine, ai de pe i on में
-vnitates 10. à primo. Volumus
-ு ของ ค่อง Э€ xopy oui รับกรื่อ-
-ergo harum interuallum esse 5.
-ylu auth El µ E. aumij o new-
-Ipsi autem primus & secundus
-non sunt quiuis, sed coniuncti
-कड़ म्रा वं किर्धिक्व इस संवा मण्यू विषक,
-faciunt 35. vsuuenit ergo mihi ve
-λλα σωαμφορρος μ' λε. γέχονε
-35. diuidă in duos numeros, quo-
-οιώ μοι τ λε διελείν είς δύο δείθ-
-rum differentia sit 5. & est alter
-Mort, iva o Espos & Esper imepezn
-15. alter 20. Pono ergo primum
-🖟 secundum 🖟 & summa secun-
-με. 665 ο μορ ιε. ο ή π. τασω
-di & tertij in primum ducta facit
-में भीने महत्वाका हरें . . . कि रहे रिर्ध किंग
-15 - 15 equalia 27. At fumma pri-
-x ".a. zy owap porfos o sorfos
-mi & tertij in secundum facit
-20 + 10. æqualia 32. & si 15 + 10
-में वे नहीं मां के महत्व मा मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ मार्थ म
-æquem 27. sit i N. 5. Ad positio-
-ie & τ si.a loug μ° n l. σωαμφό-
-nes, erit primus 3. secundus 4.
-क्रिवड ने व महाधार भे व हिम्मड हमा रही-
-tertius 5.
-ร้อง พอเย์ น น หลุ ร งัง. แบล นั้
-λ6. και έπει μ' ιε και τ . ισώσω μ' κζ. γίνεται ο δριθμός μ' ε.
-તીના માડે માં માટે કાર્યા છે માટે માટે માટે માટે માટે માટે માટે માટ
-is retros u° 8.
-IN QUAESTIONEM XVI.
-TEXTV s alio morbo non laborat, nisi quod fractiones Numerica & Quadrati-<br>cæ ambiguè ex primuntur, vt iam semel atque iterum monuimus passim in hoc
-codice contingere. Sed ex nostra versione omnis tollitur ambiguitas. Operatio ar-
-tificiosa est, quam etsi totam ita tradat Xilander, veram tamen eius causam, & a-
-quationis resoluendæ rationem non intellexit, ait enim abiici debere vtrimque 300.
-& comparandos inuicem antecedentes 15. & 20. itemque consequentes 27. & 32.
-quorum idem interuallum 5. valor Numeri. In quo turpiter errat, si existimat id-
-circo 5. esse valorem Numeri. Quod sier manisestum si statuas secundum vel tertium
-1 N. quod fieri posse docebimusinfrà. Tunc enim simili prorsus logismo inuenies
-valorem Numeri longè diuersum ab interuallo similium antecedentium & conse-
-quentium. Itaque resoluitur æquatio via ordinaria. Comparando verbi gratia 15 Q.
--+ 300. cum 27 Q. auferendo scilicet vtrimque 15 Q. vnde tandem 12 Q. ma-
-nentæquales 300. & fit i Q. 25. ac proinde i N. 5. similiteræquando 20 Q. -1 300.
-& 32 Q. auferendo scilicet vtrimque 20 Q. manent vt prius 12 Q. æquales 300. vnde
-fit rursus idem valor Numeri 5. Cum autem vtraque æqualitas necessariò inferatur,
-necesse est viique eundem vtrobique reperiri valorem Numeri, in quo totum artisi-
-cium Diophanti consistit. Si enim auferendo 15 Q. à 27 Q. idem supersit quod su-
-perestauferendo 20 Q.à 32 Q. sumusin vado, nam illud residuum vtrobique xqua-
-bitur eidem numero 300. Id autem continget si inter 15. & 20. idem sit interuallum
-quodinter 27. & 32. Nam datis quatuor Numeris 15. 20. 27. 32. ita vt inter 15.
-& 20. primum & secundum idem sit internallum, quod inter 27. & 32. tertium
-& quartum, <sup>e</sup> erit & permutando idem interuallum, inter 15. & 27. primum & ter-
-7. 1. perif.
-tium, quod inter 20. & 32. secundum & quartum. Quod est intentum. Hinc pa-
-ret vera & germana causa totius operationis Diophanti, & cur cogatur diuidere
-35. in partes 15. & 20. codem distantes internallo, quo distant 27. & 32.
+
+vtique fuilient interualla. Sed 25. vnitates à fecundo funt, & vnitates 10. à primo. Volumus ergo harum interuallum effe 5. Ipli autem primus & fecundus non funt quiuis, fed coniunèti faciunt 35.vfuuenir ergo mihi ve 35.diuidá in duos numeros, quorum differentia fit 5. & eft alter 15. alter 20. Pono ergo primum fecundum & fumma fecundi & tertij in primum ducta facit 15 + 2. equalia 27. At fumma primi & tertij in fecundum facit 20 + 3. equalia 32. & fi 15 + 4. xquem 27. fit 1 N. 5. Ad poitia- ncs, erit primus 3. fecundus 4. tertius 5.
+
+λων αὐ ἴση ἡνπροχή. ἀλλαμὲ κὲ ἐκ
+τῆ δλυτρὲ εἰσιν, αἱ δὲ μὲ ἰ ἐκ τῆς
+ωεφότου εἰσι. ἐλομβυ οων Ἰν πνρο-
+χλων αὐτῆς ἐθμὲ ε. αὐτοιβ ὁ πεῶ-
+πος καὶ ὁ δλυτρος ἐκ εἰσι τυχόντες,
+ἀλλα σωαμφότρος μὲ λὲ. γέγονε
+οων μοι ἰ λὲ διελεῖν εἰς δύο δὲςθ-
+μοις, ἴνα ὁ ἐτρος ἤ ἐπρὲ διωερέχη
+μὲ ε. ἐθδιο μυμὶ ε. ὁ ἡν. τασω
+τὶ μυμὶ πεωτον εὲ . . . ἤ δὲ δλυτρον
+κὲ . κὴ σωαμφότρος ὁ δλυτρος
+κὴ ὁ τεῖτος ὅπὶ τὶ πεωτον ποιεῖ μὲ
+ιὲ ἐτ τὲ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+ιτας μὲ κ. σωαμφό-
+πος Ἀ ὁ πεωτος κὴ ὁ δῆτος ἐπὶ δλυ-
+πον ποιεῖ μὲ καὶ τὲ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+λ6. και ἐπει μον τε καγ τοῦ. ἰσοσον μον κ. γνεται ὁ δριθμος μον ε. ἐπι παγ ἰποσαίος. ἐσαγ ὁ μον πεωτος μον γ. ὁ δε δευτρος μον δ. ὁ δε τείτος μον ε.
+
+IN QVAESTIONEM XVI.
+
+Text vs alio morbo non laborat, nifi quod fractiones Numerica & Quadraticæ ambiguè ex primuntur, vt iam femel atque iterum monuimus palfim in hoc codice contingere. Sed ex noftra versione omnis tollitur ambiguitas. Operatio artificiofa eft, quam etfi totam ita tradat Xilander, veram tameneius caufam, & aquationis refoluendæ rationem non intellexit, ait enim abiici debere vtrimque 300. & comparandos inuicem antecedentes 15. & 20. itemque confequentes 27. & 32. quorum idem interuallum 5. valor Numeri. In quo turpiter errat, fi exiftimat idcirco 5. effe valorem Numeri. Quod fiet manifestum fi ftatuas fecundum vel tertium 1 N. quod fieri poffe docebimusinfrà. Tunc enim fimili prorfus logifmo inuenies valorem Numeri longè diuerfum ab interuallo fimilium antecedentium & confequentium. Itaque refoluitur æquatio via ordinaria. Comparando verbi gratia 15 Q. + 300. cum 27 Q. auferendo fcilicet vtrimque 15 Q. vnde tandem 12 Q. manentæquales 300. & fit 1 Q. 25. ac proinde 1 N. 5. fimiliter æquando 20 Q. + 300. & 32 Q. auferendo fcilicet vtrimque 20 Q. manent vt prius 12 Q. æquales 300. vnde fit rurfus idem valor Numeri 5. Cum autem vtraque æqualitas neceffariò inferatur, necelle eft vtique eundem vtrobique reperiri valorem Numeri, in quo torum artificium Diophanti confiltit. Si enim auferendo 15 Q. à 27 Q. idem fuperfit quod fupereft auferendo 20 Q. à 32 Q. fumus in vado, nam illud refiduum vtrobique æquabitur idem numero 300. Id autem continget fi inter 15. & 20. idem fit interuallum quod inter 27. & 32. Nam datis quatuor Numeris 15. 20. 27. 32. ita vt inter 15. & 20. primum & fecundum idem fit interuallum, quod inter 27. & 32. tertium & quartum, 1 erit & permutando idem interuallum, inter 15. & 27. primum & tertium, quod inter 20. & 32. fecundum & quartum. Quod eft intentum. Hinc paet vera & germana caufa totius operationis Diophanti, & cur cogatur diuidere 35. in partes 15. & 20. codem diflantes interuallo, quo diftant 27. & 32.
+
+7. I. porif.
+
+S
 
 ## PDF page 242
 
@@ -15527,61 +15478,35 @@ Sij
 
 ## PDF page 244
 
-Diophanti Alexandrini
 208
-Diophanto sit huiusmodi summa 13 N. Atqui vnitates quæ ponuntur in tertio
-numero semper quadratas esse manifestum est. Etenim tertius Numerus est
-pars cuiusdam quadrati, cuius latus constat ex Numeris qui ponuntur pro secundo
-_ quotliber vnitatibus. sic Diophantus posito secundo 4 N. vt inueniat tertium,
-fingit quadratum à latere 4 N + 1. qui est 16 Q. + 8 N. + 1. vnde ablatis 16 Q.
-statuit tertium 8 N. + 1. Quare manifestum est vnitates tertij Numeri semper esse
-quadratum vnitatum in latere dicti quadrati positarum. Vt ergo illis æquentur vni-
-tates primi numeri, illas oportet conficere quadratum eundem,
-Tertiò in prima operatione Diophantus æquare potuit 13 N. cuilibet numero
-quadratorum quadrato, puta 16 Q. 25 Q. 36 Q. &c. Sumpsit author 169 Q. ad
-vitandas fractiones. Voluit autem in hac operatione valorem Numeri exhiberi in
-Quadratis, quia per cam non inquiritur vltimus valor Numeri per quem proposita
-questio soluatur, sed tantum id agitur vt per eam hypostases trium quæsitorum nu-
-merorum ita constituantur, ve per cas tribus propositi partibus indefinite satisfiat,
-vt disertis verbis indicat Diophantus. Recle itaque concludit si 3 N. æquentur 169
-Q. sequi 1 N. æquari 13 Q. Quod ex sola proportionum regula perspicuum est.
-Deinde ad hanc Numeri æstimationem reducendo ante factas positiones, infert
-primum qui erat 1 N. - 1, fore iam 13 Q. - 1. secundum qui erat 4 N. fore iam 52 Q.
-Ac demum tertium qui erat 8 N. + 1. foreiam 104 Q. + 1. Quare patetalluci-
-nari Xilandrum cum putat 13 N. æquari 169 QQ. qua æquatione quid ad rem
-conducens consequi possit non video. Siue enim per regulam trium colligat 1 N. æ-
-quari 169 QQ. siue depressis characteribus 13. æquari 169 QC. vnde sit solutio ir rationalis, in manifestum absurdum eum incidere necesse est. Adde in Græco rece
-repeririad 169. adiectam notam Q. non autem QQ. vt verè dici possit corruptum
-hoc loco Diophantum à Xilandro.
-Quarto in vltima æquatione vbi fingitur latus numeri 10816 Q. + 221. qui fit ad-
-dendo primum numerum ad quadratum tertij, magna etiam cautio est adhibenda.
-Quia enim primus positus est 13 Q. - 1. oportet talem inueniri valorem Numeri, vt
-13 Q. excedant vnitatem. Hoc autem vt fiat, oportet 1 Q. maiorem esse quam 1.
-quare cum latus vero maius ipsius 1/3 sit 1/4. Oportet valoreiu Numeri excedere 1/4.
-Porro fit valor Numeri auferendo quadrarum aliquem à 221. & residuum dividendo
-per latus eiusdem quadrati ductum in 208. Quare posito illo quadrato 1 Q. sit va-
-Ior Numeri 111-102 qui debet excedere 11. quare 221-1 Q. debet excedere 111 N. &
-tandem 1 Q. debet esse maior quam 312 N. + 221. Qua æquatione per approxima-
-tionem resoluta sit i N. ... Quamobrem manisestum est singendum latus quadrati
-104N. - tor vnitatibus quæ non excedant ; Vnde si ponas latus illud 104 N. -
-4. incides in absurdum, nam fiet i N. 11 per quem resoluendo hypostases, primus
-numerus inuenitur minor nihilo, & sic de aliis.
-Denique ne nos ignauix arguat Xilander, examen quæstionis subiicere libet. Sum-
-ma trium numerorum est suita quadratus à latere 215. Quadratus autem primi nem-<br>pe 1341097441 adscito secundo quadratum facit 175043641 à latere 11019. Quadratus porrò
-secundi, nempe descrito quadratum facit de la latere de la latere de la latere de la latere de la latere de la latere de la latere de la latere de la latere de la latere de la latere de la latere de la latere de la latere 
-7311616 à latere 11746.
+
+Diophanti Alexandrini
+
+Diophanto fir huiufmodi fumma 13 N. Atqui vnitates quæ ponuntur in tertio numero femper quadratas effe manifestum eft. Etenim tertius Numerus eft pars cuiufdam quadrati, cuius latus confat ex Numeris qui ponuntur pro fecundo + quotlibet vnitatibus. fic Diophantus pofto fecundo 4 N. vt inueniat tertium, fingit quadratum à latere 4 N + 1. qui eft 16 Q. + 8 N. + 1. vndeablatis 16 Q. statuit tertium 8 N. + 1. Quare manifestum eft vnitates tertij Numeri femper effe quadratum vnitatum in latere dicti quadrati pofitarum. Vt ergo illis æquentur vnitates primi numeri, illas oportet conficere quadratum eundem.
+
+Tertiò in prima operatione Diophantus æquare potuit 13 N. cuilibet numero quadratorum quadrato, puta 16 Q. 25 Q. 36 Q. &c. Sumpfit author 169 Q. ad vitandas fra£tiones. Voluit autem in hac operatione valorem Numeri exhiben in Quadratis, quia per eam non inquiritur vltimus valor Numeri per quem propofita quæftio foluatur, fed tantùm id agitur vt per eam hypoftafes trium quæfitorum numerorum ita confituantur, vt per cas tribus propofiti partibus indefinite fatisfiat, vt difertis verbis indicat Diophantus. Reètè itaque concludit fi 13 N. æquentur 169 Q. fequi 1 N. æquari 13 Q. Quod ex fola proportionum regula perfpicuum eft. Deindead hanc Numeri æltimationem reducendo ante factas poitiones, infert primum qui erat 1 N. - 1. foreiam 13 Q. - 1. fecundum qui erat 4 N. foreiam 52 Q. Ac demum tertium qui erat 8 N. + 1. foreiam 104 Q. + 1. Quare patet allucinari Xilandrum cum putat 13 N. æquari 169 QQ. qua æquatione quid ad rem conducens confequi polfit non video. Siue enim per regulam trium colligati N. æquari 169 QQ. siue depreffis charæteribus 13. æquari 169 Q.C. vnde fit folutio irrationalis, in manifestum abfurdum eum incidere necelle eft. Addein Graco reètè repeririad 169. adiectam notam Q. non autem QQ. vt verè dici polfit corruptum hoc loco Diophantum à Xilandro.
+
+Quartò in vltima æquatione vbi fingitur latus numeri 10816 Q. + 221. qui fit addendo primum numerum ad quadratum tertij, magna etiam cautio eft adhibenda. Quia enim primus positus eft 13 Q. - 1. oporter talem inueniri valorem Numeri, vt 13 Q. excedant vnitatem. Hocautem vt hat, oporter 1 Q. maiorem effe quam quare cùm latus vero maius ipfius 13 fir 13. Oporter valorem Numeri excedere 13. Porro fit valor Numeri auferendo quadratum aliquem à 221. & refiduum diuidendo per latus ciufdem quadrati ductum in 208. Quare posito illo quadrato 1 Q. fit valor Numeri 13 N. qui debet excedere 13. quare 221 - 1 Q. debet excedere 13 N. & tandem 1 Q. debet effe maior quam 13 N. + 221. Qua æquatione per approximationem refoluta fit 1 N. 13. Quamobrem manifestum eft fingendum latus quadrati 104 N. + tot vnitatibus quæ non excedant 16. Vnde fi ponas latus illud 104 N. + 4. incides in abfurdum, nam fiet 1 N. 13 per quem refoluendo hypoftafes, primus numerus inuenitur minor nihilo, & fic de aliis.
+
+Denique nenos ignauix arguat Xilander, examen quæftionis fubiicere libet. Summa trium numerorum eft 51134 quadratus à latere 715. Quadratus autem primi nempe 1341097541 adfcto fecundo quadratum facit 776434241 à latere 42029. Quadratus porro fecundi, nempe 14763890400 adfcto tertio quadratum facit 3160018016 à latere 16004. Denique quadratus tertij, nempe 300671118416 adfumpto primo quadratum conficit 11746.
+
 QVÆSTIO XVIII.
-I hvenire tres numeros æqua-<br>les quadrato, vt cuiusuis ipso-
-ΕΥΡΕΙΝ βείς Σριθμους ίσους πεξαίωνω, όπως ο Σπο έκα 50υ
-rum quadratus dempro qui cum
-ordine sequirur, faciat quadratu.
-αυτήν τεξαίωνος γ 🖟 έξης ποιη
-Ponatur rursus medius 4. N. &
-περάσων (.). πεζαρω πάλιν ο μέ-
+
+EYPEINβεῖς ἀριθμοις ἴσοις
+πεξαίωνω, ὁπως ὁλπὸ ἐκαῖςον
+αὐτῆς πεξαίωνος ἠ ἡξῆς ποιῖν
+πεξαίωνω. πελαῖω παῖλιν ὁ μέ-
+σος ἀριθμῆς. καὶ ἐπεὶ ἐλω ἡ
+λπὸ τῷ πρώτου τετεξίωνον, λεῖψα
+
+I NVENIRE tres numerosæqua-
+les quadrato, vt cuiuluis ipfo-
+rum quadratus dempro qui eum
+ordine fequitur, faciat quadratú.
+Ponatur rurfus medius 4. N. &
 & quia volo primi quadratum
-σος δριθμήν δ. και έπει θελω 🚳
-dempto secudo facere quadratu,
-λπο τε πρώπου πετρά Γωνον, λεί 4 τε δωτρου ποιείν τε βα χων ...................................
+dempto fecúdo facere quadratú,
+τῆ δυπίου ποιεῖν τελραγων®.
 
 ## PDF page 245
 
@@ -23290,63 +23215,32 @@ Ddij
 
 ## PDF page 352
 
-Diophanti Alexandrini
 316
-quam 3 1. A quo item si detra-
-טונים לים ביל און אוע בעו לאום אונים אונים אונים אונים אונים אונים אונים אונים אונים אונים אונים אונים אונים אונים אונים אונים אונים אונים אונים אונים אונים אונים אונים אונים אונים אונים אונים אונים אונים אונים אונים אוני
+
+Diophanti Alexandrini
+
+Υ ΜΥ. Α. ΚΥ παλυν ἐαν ἀπο πουτχ
+ἀφέλωμεν μονάδας τρεῖς, διρήσο-
+μεν ἐνα τΨ ζητουμένων. ώδε Β ΦΙ
+πείτον ὁμοίως διρήσομεν.
+
+quàm 3 ½. A quo item fi detra-
 xero 3. inueniam alterum quæ-
-άφελωμεν μονάδας πρείς, δίρησο-
 fitorum. Eadem etiam ratione
-MEV CHA THE CHTOUMENON. WSE & TO
 inueniemus tertium.
-retrovopolos siphopus.
-IN QUAESTIONEM XV.
-To x adnotatis ad duodecimam & decimam tertiam pendet quæstionis huius eno-
-L datio, & verba Diophanti satis sunt perspicua, sed totam operationem, quam
-iple prætermisit, in tyronum gratiam subiicere non grauabor. Quoniam 10. diuiden-
-dus elt in tres quadratos, quorum primus sit maior quam 2. secundus quam 3. tertius
-quam 4. Divido primum 10. in duos quadratos quorum alter cadat inter 2. &3.id
-fier per ea quæ attulimus ad duodecimam, eruntque huiusmodi quadrati 🤐 & 📆
-quorum latera : & : Habeoque iam vnum ex tribus quadratis quæsitis, puta
-qui maior est quam 2.minor quam 3.vnde si auferatur 2.remanet vna ex quæsitis par-
-tibus vnitatis, puta 15. Restat ergo vt reliquum quadratum 150 diuidamus in duos
-quadratos quorum alter cadat inter 3. & 4. Id fiet per ipsam operationem decimæ
-tertiæ. Quæro primum duos quadratos qui cadant inter 3. & 4. quales sunt " & "
-quorum latera 3, & 3. Tum polito altero quadratorum 1 Q. altero (15) - 1 Q. po-
-sterioris latus ita singedum est, vt siat i N. maior quam minor quam . singiautem
-debet hoc latus à 🚼 minus aliquot Numeris quorum duplum ductum in 👯 & diuifum
-peripforum numerorum quadratum vnitate auctum fiet valor Numeri. Quare polito
-numero Numerorum IN. siet 3 N. diuisus per I Q. + I. maior quam 1 minor
-quam ". Et vtraque æquatione per approximationem resoluta siet's N. maior quam
-minor quam 44 Ponaturergo 2 1. & fingatur numeri 45 - 1 Q. latus, 11 - 2
-N. fiet 1 N. 2013. latus scilicet primi quadrati, eritque latus secundi 2013. sunt que ipsi
-quadrati 1974/19 & 21111913, à priore si auferas 3. A posseriore 4. remanent relique par-
-tes vnitatis 111197 & 1116199 quibus si addas primam iam inuentam 119 seu vt idem sit
-denominator 1/3/14/13 foluta erit quæstio.
-Posser etiam aliter institui operatio, singendo scilicet simul & semel tria latera qua-
-dratorum, codem artificio quo iam vsi sumus ad decimam tertiam. Quoniam enim
-10. diuidendus est in tres quadratos quorum primus superet 2. secundus 3. tertius 4.
-Divido vnitatem in tres trientes, & cuilibet datorum numerorum addo i. fiuntque
-2 1. 3 1. 4 1. Iam quero partes quadrati que singulis addite quadratum faciant,
-ex sunt in it & funt quadrati in it quorum latera is se is it is it it.
-idem denominator. Oportet igitur ita fingere latera quadratorum, vt primum ad-
-æquetur : fecundum adæquetur : retium adæquetur : Porrò numerus 10. di-
-uiditur in tres quadratos, quorum latera 3. 4 . quæ ve reducantur ad eandem deno-
-minationem cum lateribus adæqualitatis, erunt hæc 2 2 2 2 . Illa yerò 2 2 2 2 . Ita-
-que fingentur per adæqualitatem latera primum : + 167 N. secundum : + 186 N.
-tertium 3 - 165 N. fitque summa quadratorum 10 + 89710 Q. - 492 N. æqua-
-lis 10. vnde sit 1 N. 165 sunt igitur quæsita latera, primum 1850 secundum 1850. tertium 1850 sunt in sunt igitur quæsita latera, primum 1850 secundum 1850 sunt in sunt igitur quæsita latera, primum 1850 secundum 1850 sunt
-4. à tertio, remanent quæsitæ partes vnitatis **1975119 **1975119 **1975119 **1975119 **1975119 **1975119 **1975119 **1975119 **1975119 **1975119 **1975119 **1975119 **1975119 **1975119 **1975119 **1975119 **1975119 **1975
-. 1.1.
-Oportet autem datorum numerorum summam vnitate auctam conficere nume-
-rum qui in tres quadratos dividi possit.
-1 12 1 2 1 1
-* 1 .. . 15
-Paret etiam eodem artificio quemlibet numerum dividi posse in tres partes, ita ve
-cuilibet addendo alterum atque alterum numerum fiat quadratus. Et rurfustam vni-
-tatem quam numerum quemlibet diuidi posse in partes quotliber, quibus addendo
-datos quoscunque numeros, fiant quadrati. Qua omnia facile 'mihi esset exemplis
-commonstrare, sed huic labori, ne sim prolixior, supersedebo.
+
+IN QVAESTIONEM XV.
+
+Ex adnotatis ad duodecimam & decimam tertiam pendet quæftionis huius eno-datio, & verba Diophanti fatis funt perfpicua, fed totam operationem, quam iple prætermisit, in tyronum gratiam fubicere non grauabor. Quoniam 10. diuuden-dus eft in tres quadratos, quorum primus fit maior quam 2. fecundus quam 3. tertius quam 4. Diuido primum 10. in duos quadratos quorum alter cadat inter 2. & 3. id fiet per ea quæ attulimus ad duodecimam, eruntque huiufmodi quadrati quorum latera & Habeoque iam vnum ex tribus quadratis quæfitis, puta qui maior eft quam 2. minor quam 3. vnde fi auferatur 2. remanet vna ex quæfitis partibus vnitatis, puta Reftat ergo vt reliquum quadratum diuidamus in duos quadratos quorum alter cadat inter 3. & 4. Id fiet per ipfam operationem decima tertia. Quæro primum duos quadratos qui cadant inter 3. & 4. quales funt quæ & quorum latera & Tum pofto altero quadratorum 1 Q. altero - 1 Q. pofterioris latus ita fingédum eft, vt fiat 1 N. maior quam minor quam fingia autem debet hoc latusà minus aliquot Numeris quorum duplum duetum in & diuifum per ipforum numerorum quadratum vnitate auetum fiet valor Numeri. Quare pofto numero Numerorum 1 N. fiet N. diuifus per 1 Q. + 1. maior quam minor quam Et vtraque equatione per approximationem refoluta fiet 1 N. maior quam minor quam Ponaturergo 2 & fingatur numeri - 1 Q. latus, - 2 N. fiet 1 N. latus fcilicet primi quadrati, eritque latus fecundi, suntque ipfi quadrati & quibus fi addas primam iam inuentam feu vt idem fiet denominator foluta erit quæftio.
+
+Poßet etiam aliter institui operatio, fingendo fcilicet fimul & femel tria latera qua- dratorum, codem artificio quo iam vfi fumus ad decimam tertiam. Quoniam enim 10. diuidendus eft in tres quadratos quorum primus fuperet 2. fecundus 3. tertius 4. Diuido vnitatem in tres trientes, & cuilibet datorum numerorum addo 1/3. fiuntque 2 1/3. 3 1/3. 4 1/3. Iam quæro partes quadrati quæ fingulis additæ quadratum faciant, ex funt 1/1295 1/35 1/144 & fiunt quadrati 3015 111 615 1125 3/36 144. quorum latera 55 55 75 1/36 3/36 16. vt omnium fit idem denominator. Oportet igitur ita fingere latera quadratorum, vt primum adæquetur 55 fecundum adæquetur 64/36. tertium adæquetur 23/36. Porro numerus 10. diuiditur in tres quadratos, quorum latera 3. 1/3. quæ vt reducantur ad eandem deno- minationem cum lateribus adæqualitatis, erunt hæc 340 340 144 120 120 170. Illa yerò 275 510 575 1/30 120 120. Ita- que fingentur per adæqualitatem latera primum 1/5 + 167 N. fecundum 1 + 186 N. tertium 3 - 165 N. fitque fumma quadratorum 10 + 89710 Q. - 492 N. æqualis 10. vnde fit 1 N. 245 445 51 funt igitur quæfita latera, primum 35592 1 fecundum 15:20 1/30 11. tertium 4795 8791. Ipfi vero quadrati 21657261 26660314 31125105 1/477241 1/477241 1/247841. Et fi auferas 2. à primo, 3. à fecundo, 4. à tertio, remanent quæfita partes vnitatis 31977119 31947051 31935661 1/477221 1/477241 1/247841.
+
+Cæterùm non eft dubium, & hîc requiri huiulmodi conditionem.
+
+Oportet autrem datorum numerorum summans unitate au£tam conficere nume-
+rum qui in tres quadratos diuidi possit.
+
+Patet etiam codem artificio quemlibet numerum diuidi poffe in tres partes, ita vt cuilibet addendo alterum atque alterum numerum fiat quadratus. Et rurlus tam vnitatem quam numerum quemlibet diuidi poffe in partes quotliber, quibus addendo datos quofcunque numeros, fiant quadrati. Quæ omnia facile mihi effet exemplis commonitrare, fed huic labori, ne fim prolixior, fuperfedebo.
 
 ## PDF page 353
 

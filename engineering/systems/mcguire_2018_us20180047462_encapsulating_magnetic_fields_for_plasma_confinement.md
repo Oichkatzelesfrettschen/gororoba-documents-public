@@ -10,7 +10,7 @@ Transcription of `mcguire_2018_us20180047462_encapsulating_magnetic_fields_for_p
 
 Method: Marker 1.10.2 (surya-ocr 0.17.1 on CUDA) over the whole PDF; formulas are LaTeX between `$` signs. Display equations are machine output, so the PDF is the authority for every quotation. The earlier transcription is in this file's history.
 
-Second engine: Surya OCR 0.17.0 alone read pages 2, 4, 6, 9, 13, 15, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+Second engine: Surya OCR 0.17.0 alone read pages 2, 4, 6, 9, 13, 15; MinerU2.5-Pro 2605 read page 3, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -71,7 +71,11 @@ FIC.
 
 ## PDF page 3
 
+Patent Application Publication
 
+Feb. 15, 2018 Sheet 2 of 14
+
+US 2018/0047462 A1
 
 ## PDF page 4
 

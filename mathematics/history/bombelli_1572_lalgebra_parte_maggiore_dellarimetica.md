@@ -10,7 +10,7 @@ Transcription of `bombelli_1572_lalgebra_parte_maggiore_dellarimetica.pdf` in th
 
 Method: pages 1-360 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
-Second engine: Surya OCR 0.17.0 alone read pages 20, 66, 288, 356-357, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+Second engine: MinerU2.5-Pro 2605 read pages 13, 131, 168, 207, 230, 249, 324, 339, 345, 352; Surya OCR 0.17.0 alone read pages 20, 66, 288, 356-357, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -729,93 +729,83 @@ BECKER J. I. M. J. I. M.
 ## PDF page 13
 
 TAVOLA
-TAVOLA
-Capitolo di potenza potenza, cubi, e numero eguale a
-Capitolo di potenza potenza, e cubi eguale à potenze
-a c.390
-Tanti, e numero . . . . . . . . . . . . . . . . . . .
-potenze
-Capitolo di potenza potenza, e potéza, e numero egua
-Capitolo di potenza potenza, e potenze eguale à cubi
-le a cubi
-0:46-80.391
-Tanti, e numero
-Capitolo di potenza potenza, e cubi eguale à potenze,
-Capitolo di potenza potenza, e Tanti, eguale à cubi po
-tenze, e numero 138 at pal program 1 1. a c.406
-e numero
-a c.392
-Capitolo di potenza potenza, e potenze eguale a cubi,
-Capitolo di potenza potenza, e numero eguale à Cubi
-e numero
-potenze, e Tanti une in the ac.407
-ac. 392
-Capitolo di potenza potenza, e numero eguale a cubi,
-Capitolo di potenza potenza eguale à Cubi, potenze
-e potenze . . . . . . . . . . . . . . . . . . .
-Tanine numero to al s'ab of mile contra G. 407.
-Capitolo di potenza potenza eguale à cubi, potenze, è
-Del Terzo Libro.
-Trouzre un numero, che gionto con un dato numero
-numero ·
-ac.394
-Capitolo di potenza potenza, cubi, potéze, e Tanti egua
-faccia un terminato numero an accesa de accesa de accesa de accesa de la compansión de la compansión de la compansión de la compansión de la compansión de la compansión de la compansión de la compansión de la compansión de
-Diuidere un dato numero in due parti di una differen-
-le a numero
-.
-ac.395
-Capitolo di potenza potenza, cubi potenze, e numero
-tia data .................................
-eguale a Tanti
-Trouare un numero, che cauato di un dato numero; re
-a c.397
 
-Capitolo di potenza potenza, cubi, Tanti, e numero
-sti un terminato numero . . . . . . . . . . . . . . . . . . .
-eguale a potenze
-Trouare un numero, che moltiplicato per un dato nu-
-ac.398
-mero faccia un terminato numero ....................................
+Capitolo di potenza potenza, cubi, e numero eguale a potenze ac.390
+
+Capitolo di potenza potenza, e potéza, e numero egua le a cubi
+
+Capitolo di potenza potenza, e cubi eguale à potenze, e numero ac.392
+
+Capitolo di potenza potenza, e potenze eguale a cubi, e numero a c. 392
+
+Capitolo di potenza potenza, e numero eguale a cubi, e potenze . . . ac.393
+
+Capitolo di potenza potenza eguale à cubi, potenze, e numero a c.394
+
+Capitolo di potenza potenza, cubi, potéze, e Tanti egua le a numero a c.395
+
+Capitolo di potenza potenza, cubi potenze, e numero
+eguale a Tanti a c.397
+
+Capitolo di potenza potenza,cubi, Tanti, e numero
+eguale a potenze 26.398
+
 Capitolo di potenza potenza, potenze, Tanti, e numero
-eguale a cubi .a c. 399
-Trouare un numero, che partito per un dato numero
-Capitolo di potenza potenza, cubi, e Tanti eguale a po-
-faccia un terminato numero de la casa a casa 8
-Trouare un numero, che moltiplicato per un dato nu-
-tenza, e numero
-a c.400
-Capitolo di potenza potenza, cubi, e numero eguale a
-mero, e giontoli un'altro dato faccia un terminato
-potenze, e Tanti
-ac.418
-a C.40 I
-numero
-Capitolo di potenza potenza, potenze, e tanti, egualea
-Trouare dui numeri in una disserentia data, e gionti in-
-cubo, e numero
-sieme facciano un terminato numero
-ac.418
-a C.401
+eguale a cubi . a c. 399
+
+Capitolo di potenza potenza, cubi, e Tanti eguale a potenza, e numero a c.400
+
+Capitolo di potenza potenza, cubi, e numero eguale a potenze, e Tanti a c.40 I
+
+Capitolo di potenza potenza, potenze, e tanti, egualca cubo, e numero a c.401
+
 Capitolo di potenza potenza, potenza, e numero egua-
-Trouare dui numeri nella proportion data che gionti
-le a cubi, e Tanti
-insieme facciano un terminato numero a c.418
-ac.403
-Capitolo di potenza potenza, Tanti, e numero eguale a
-Trouare dui numeri in una proportione data, e che
-cubi, e potenze
-moltiplicati per dui dati numeri, facciano un termi-
-· a c.403
-Capitolo di potenza potenza cubi, e potenze eguali a
-a c.419
-nato numero
-tanti, e numero .
-Trouare dui numeri in una proportione data, e di una
-a C.404
-differentia
+le a cubi, e Tanti ac.402
+
+Capitolo di potenza potenza, Tanti, e numero eguale a cubi, e potenze a c.403
+
+Capitolo di potenza potenza cubi, e potenze eguali a tanti, e numero . a c.404
+
 Capitolo
-. . .
+
+TAVOLA
+
+Capitolo di potenza potenza, e cubi eguale à potenze
+Tanti, e numero a c.405
+
+Capitolo di potenza potenza, e potenze eguale a cubi
+Tanti, e numero
+
+Capitolo di potenza potenza, e Tanti, eguale a cubi po tenze, e numero a 2000. a €.406
+
+Capitolo di potenza potenza, e numero eguale a Cubi potenze, e Tanti 2c.407
+
+Capitolo di potenza potenza eguale a Cubi, potenze
+Tannje numero Del Terzo Libro.
+
+Trouare un numero, che gionto con un dato numero faccia un terminato numero a c.416
+
+Diuidere un dato numero in due parti di una differen-
+tia data a.c.416
+
+Trouare un numero, che cauato di un dato numero; re
+iti un terminato numero a c.417
+
+Trouare un numero, che moltiplicato per un dato numero faccia un terminato numero ... a c.418
+
+Trouare un numero, che partito per un dato numero faccia un terminato numero a c.418
+
+Trouare un numero, che moltiplicato per un dato numero, e giontoli un'altro dato faccia un terminato numero 26.418
+
+Trouare dui numeri in una differentia data, e gionti infieme facciano un terminato numero 26.418
+
+Trouare dui numeri nella proportion data che giorni infieme facciano un terminato numero a c.418
+
+Trouare dui numeri in una proportione data, e che
+moltiplicati per dui dati numeri, facciano un terminato numero a c.4!9
+
+Trouare dai numeri in una proportione data, e di una
+diferentia
 
 ## PDF page 14
 
@@ -9080,34 +9070,32 @@ A partire
 ## PDF page 131
 
 201
-, 1
-(:1
-الماد والماد والماد والماد والماد والماد والماد والماد والماد والماد والماد والماد والماد والماد والماد والماد والماد والماد والماد والماد والماد والماد والماد والماد والماد والماد والماد والماد والماد والماد والماد والماد
-RA TO RA TO RA TO RA
-ALGEBRA
+
+L'ALGEBRA
+
 PARTE MAGGIORE
+
 DELL'ARIMETICA
-AFAEL BOMBELLO
-BOLOGNESE.
+
+DI RAFAEL BOMBELLO
+
+BOLOGNESI.
+
 Libro Secondo.
-marauigliaranno forse alcu
-ni, che contra l'antico uso de
-Scrittori Italiani, i quali sino
-à questo giorno hanno scritto
-di questa scientia dell'Arime-
-tica, quando gli è occorso di
-trattare di quantità incognita:
-essi sempre l'hanno nominata
-sotto questa uoce di (Cosa) come voce commune à tut
-te le cose incognite, è d'io chiami hora queste quantità
-(Tanti)ma chi bene confiderarà il fatto, conoscerà, che
-riuse le conuiene questa uoce di (Tanto), che di (co-
-sa), perche se diremo (Tanto) è uoce appropriata à
-quantità di numeri, ilche non si può dire di (cosa) es-
-sendo quella uoce uniuersalissima, e comune ad ogni
-sostantia cosi ignota come nota. In oltre io trouo, che
-Diofante Auttor Greco cosi la noma, il ch'è di non pic
-ciolo
+
+I marauigliaranno forfe alcuni, che contra l'antico ufo de Scrittori Italiani, i quali fino à quello giorno hanno feritto di questa scientia dell'Arimetica, quando gli è occorfo di trattare di quantità incognita: efsi sempre l'hanno nominata
+
+Sotto quella uoce di (Cofa) come voce commune a tit
+te le cofe incognite, è d'io chiami hora quelle quantità
+(Tanti) ma chibene confiderarà il fatto, conofcerà, che
+piu fe le conuiene questa uoce di (Tanto), che di (co-
+fa), perche fe diremo (Tanto) è uoce appropriata à
+quantità di numeri, ilche non fi può dire di (cofa) ef-
+fendo quella uoce unuerfalilsima, e cômune ad ogni
+softantia cofi ignota come nota. In oltre io trouo, che
+Diofante Autor Greco cofi la noma, il ch'è di non pic
+
+o ciolo
 
 ## PDF page 132
 
@@ -11610,71 +11598,35 @@ mero
 
 ## PDF page 168
 
+i7i
+
+.CLIBRO
+
+parte, G hauerà 2.eguale à 1 2, che pigliato il lato di ciafcuno, fi hauerà R.q.2.eguale à 1 3, però il Tanto ualerà R.q.2.
+
+Capitolo di potenza cub a, e cubo eguale à numero.
+
+Quando accade agguagliare queste dignità grandi, per fapere in un tratto, fe fi poffono agguagliare, o nò (come hò detto nel capitolo di potenze di potenze.) Quadrifi la dignità mezzana, e fe fà tanto quàto la mag giore, tal Capitolo fi può agguagliare, per effere fra di loro continua proportione, e come farebbe ancora, fe fi haueffe da agguagliare 5, & 3 à 1, che fi uede, che à moltiplicare 5 uia 1 fa 6, & à moltiplicare 3 in fe, fa 6, fi che tal Capitolo anch'egli fi può agguagliare, leuando una dignità à ciafcuno (come fù moltrato nel fchifare) che leuando una dignità al 5, fi hauerà 4, & il 3, farà 2 & li 1 faranno numero, che com poite infieme fi hauerà 4 e 2, e numero, e tal Capitolo fi può agguagliare (come fi è detto, e moltrato ne i capitoli paffati.)
+
+Agguaglifi 6 p.4. 3 à 21. Piglifi il lato cubico del li cubi della dignità, ma non della quantità, e cofi della potenza cuba, e fi haue rà 2 p.4. 5 eguale à 21. (Seguitifi il Capitolo) che il Tanto valerà 3, e di quello fe ne piglia il lato cubico, che farà R.c.3, e quest'è la qualura del Tanto. Ma uolendo ridurre quello Capitolo à Tanti eguali à numero tengafi questa uia.
+
+Agguaglifi 1 ¢ p.8 3 à 20. Piglifi il mezo de i Cubi, ch'è 4, e fi gionga allato d'1 ¢, ch'è 1 3, fa 1 3 p. 4, che il fuo quadrato farà 1 ¢ p.8 3 p. 16, e noi uo-refsimo! ¢ p.8 3, che ci è 16. di più: però giongafi 16 ad ambedue le parti, farà 1 ¢ p.8 3 p.16. egualcà 36
+
+piglig
+
 SECONDO.
+
 273
-CLIBRO
-272 .
-1. p. 8.
-parte, si hauerà 2. eguale à 1 2, che pigliato il lato di
-Eguale à 20.
-ciascuno, si hauerà R.q.2. egualeà 1 3, però il Tanto
-ualerà R.q.2. The state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of 
-Eguale à 36.
-1. p. 8. p. 16.
-Capitolo di potenza cub a,e cubo eguale à numero.
-Eguale à 6.
-p. 4.
-Quando accade agguagliare queste dignità grandi,
-per sapere in un tratto, se si possono agguagliare, ò nò
-Eguale à 2.
-come hò detto nel capitolo di potenze di potenze.)
-Quadrisi la dignità mezzana, e se fa tanto quato la mag
-Eguale à R.c.2.
-giore, tal Capitolo si può agguagliare, per essere fra di
-piglisi il lato di ciascuno, si hauerà 1 3 p.4 eguale a 6, le
-loro continua proportione, e come sarebbe ancora, se si
-uisi il 4.da ogni parte, si hauerà 1 3 eguale a 2.Piglisi il
-hauesse da agguagliare 1, & 3 à 1, che si uede, che
-lato cubico di ciascuna delle parti, si hauerà t : egua
-à moltiplicare Juia I fa 6, & à moltiplicare 3 in se,
-le à R.c.2, che il Tanto valerà R.c. 2, e di questo Capi-
-fa 6, si che tal Capitolo anch'egli si può agguaglia-
-tolo se ne poneranno più essempij, per essere più neces
-re, leuando una dignità à ciascuno (come fù mostrato
-sarij nelli Capitoli di Cubi, Tanti, & numero.
-nel schisare) che leuando una dignità al 5, si hauerà
-Agguaglisi 1 6 p.6 3 a 112. Piglisi il mezo delli Cu
-4, & il 3, sarà 2 & li 1 saranno numero, che com
-bi, ch'è 3, che gionto con 1 3 lato d', 5, fa 1 3 p. 3.
-poste insieme si hauerà 4 e z e numero, e tal Capi-
-che il suo quadrato è 1 6 p.6 3 p.9, che supera di 9,il
-tolo si può agguagliare (come si è detto, e mostrato ne
-quale aggionto ad ambedue le parti, fa 1 & p. 6. 3 p.
-i capitoli passati.)
-9. eguale a 121. Piglisi il lato di ciascuno, si hauerà 1.3
-Agguaglisi 6 p.4. 3 à 21. Piglisi il lato cubico del
-p. 3. eguale a 11. leuisiil 3, da ogni parte, si haue-
-li cubi della dignità, ma non della quantità, e così della
-potenza cuba, e fi haue tà 2 p.4. eguale à 21. (Se-
-Eguale à 112.
-z. p. 6.
-guitifi il Capitolo)che il Tanto ualerà 3, e di questo se
-ne piglia il lato cubico, che sarà R.c.3, e quest'è la ualu
-Eguale à 121.
-ta del Tanto. Ma uolendo ridurre questo Capitolo à
-I. p. 6. p. 9.
-Tanti eguali à numero tengafi questa uia.
-Eguale à 11.
-Agguaglisi 1 6-p.8 3 à 20. Piglisi il mezo de i Cu
-I. p. 3.
-bi, ch'è 4, e si gionga al latod' 1 6, ch'è 1 3, fa 1 3 p.
-Eguale à 8.
-4, che il suo quadrato sarà 1 6 p.8 3 p. 16, e noi uo-
-ressimo! & p.8 3, che ci è 16. di più: però giongasi 16
-Eguale à 2.
-ad ambedue le parti, farà 1 6 p.8 3 p.16. eguale à 36
-13
-piglisi
+
+<table><tr><td>1. p. 8.</td><td>Eguale à 20.</td></tr><tr><td>1. p. 8. p. 16.</td><td>Eguale à 36.</td></tr><tr><td>1. p. 4.</td><td>Eguale à 6.</td></tr><tr><td>1.</td><td>Eguale à 2.</td></tr><tr><td>1.</td><td>Eguale à R.c</td></tr></table>
+
+piglifi il lato di ciafcuno, fi hauerà 1 3 p.4 eguale a 6, le uifi il 4. da ogni parte, fi hauerà 1 3 eguale a 2. Piglifi il lato cubico di ciafcuna delle parti, fi hauerà 1 egua le à R.c.2, che il Tanto valerà R.c. 2, e di quello Capitolo fe ne poneranno più effempij, per effere più necef farii nelli Capitoli di Cubi, Tanti, & numero.
+
+Agguagliñ i 6 p.6 3 a 112. Pigliñ il mezo dell' Cui bi, ch'è 3, che gionto con 1 3 lato d'1 6, fa 1 3 p. 3 che il fuo quadrato è 1 6 p.6 3 p.9, che fupera di 9, il quale aggionto ad ambedue le parti, fa 1 6 p.6 3 p. 9. eguale a 121. Pigliñ il lato di ciafcuno, fi hauerà 1 3 p. 3. eguale a 11. leuifi il 3, da ogni parte, fi haue-
+
+<table><tr><td>1. p. 6.</td><td>Eguale à 112.</td></tr><tr><td>1. p. 6. p. 9.</td><td>Eguale à 121.</td></tr><tr><td>1. p. 3.</td><td>Eguale à 11.</td></tr><tr><td>1.</td><td>Eguale à 8.</td></tr><tr><td>1.</td><td>Eguale à 2.</td></tr></table>
+
+[Unreadable]
 
 ## PDF page 169
 
@@ -14231,75 +14183,37 @@ Ponghili
 
 ## PDF page 207
 
-CLIBRO
-SECONDO.
 350
-3510 .6
-il medelmo posto di sopra, sopra questo, perciò non ne
-perche queste due R. c.hanno lato, ch'è 2.p.R.q. 2. e 2.
-m.R.q. 3, che aggionti insieme fanno 4. Però 4. ualeil
-diro altro.
-Bridge of the first of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the 
-Il nono dice. Aggusglist 3 p. 12 à 34 &, Leuisi il
-Tanto.
-12, da ogni parte si haueran 3 eguale à 34 2 m. 12, ho
-Il quarro dice. Agguaglisi 1 3 à 19. 1 p. 30. Aggio
-ra aggionghisi 216.à ciascuna delle parti, si hauerà 1 3
-ghisi 27.à ciascuna delle parti, si hauerà 1 3 p.27.egua
-p. 216. eguale à 34 1 p. 204, che partita ciascuna delle
-le à 19 1 p. 57, Partasi ciascuna delle parti per i 1 p.
-parti per 1 ! p.6.ne uerra 1 2 m.6 ! p. 36.eguale à
-3.ne ui ene 1 3 m.3 3 p.9. eguale à 19, che agguaglia
-34 (Seguitifiil Capitolo) che il Tanto ualerà 3. p. R.
-to, il Tanto ualera 7. 5
-q.7, ouero 3.m.R.q.7.
-Il quinto dice. Agguaglifi 1 3 à 7 ! p.90, Questo si
-Il decimo dice. Agguaglisi 1 3 p.21. à 16 1. Leuisi
-può agguagliare co la regola del taglio del Cubo, e ne
-il 21. da ogni parte si hauerà 1 3 eguale à 16 1 m. 21.
-uerra R.c. L 45.p.R.q. 2012 - J p.R.c. L 45.m.R.q.
-leuisi 27.da ogni parte, si hauerà 1 3 m. 27. eguale à
-2012 - 8 1, che pigliato il lato di ciascuna, si hauerà 2
-16 1 m. 48, partisi ciascuna delle parti per 1 1 m. 3.ne
-½ p.R.q. 3 11, e 2 1 p.R. q. 3 11, che aggionti insieme
-uiene 1 3 p-3 ! p.9. eguale à 16, che (seguendosiil Ca
-fanno 5, e 5. uale il Tanto.
-pitolo) il Tanto ualerà R.q.9 1/4 m. 1 1/2, e ancora il Tan-
-Il sesto dice. Agguaglisi 1 3 à 6 4 p. 21. Aggion-
-to di questo Capitolo ha un'altra ualuta, ch'è il 3, che
-ghist 27.à ciascuna delle parti, e si hauerà 1 3 p.27.egua
-fù partitore insieme con il Tanto, la qual regola mai fal
-leà 16 1 p.48, partificiascuna parte per 1 1 p. g. ne
-la (come si uedrà ne gl'altri.
-uiene 1 3 m.3 p.9. eguale à 16, cost agguagliatose
-L'undecimo dice. Agguaglisi 19 1 1 1 p.18.Le-
-condo il suo Capit il Tanto, ualerà R.q. 9 1/4 p.1 1/2; ilche
-uisiil 18.da ogni parte si hauerà i 3 eguale a 19 ! m.
-parimente dice il Cardano in questo medesimo Capita
-18. Leuisi. de ogni parte, si hauerà 13 m. 1. eguale à
-Agguagliss 1 3 à 4 1 p. 15, che questo pur si può 2g guagliare per la regola del taglio del Cubo, e ne uerrà
-19 ! m.19, che partita ciascuna delle parti per 1 ! m.1,
-ne uerra 1 3 p. 1. 11 p. 1. eguale à 19, (Seguitifi il Capi-
-R.c.L. 7 = p. R. q. 53 = 95 1. p. R. c. L. 7 = m. R. q. 53
-tolo) che il Tanto ualerà R.q. 18 1 m. 1 ouero 1. che fu
-75 1, che pigliato il lato di ciascuna, si hauerà 1 1 p.
-partitore con il Tanto.
-R.q. 1 11 & 1 1 m.R.q. 1 11 , che sommate insieme fan-
-Il duodecimo dice. Agguaglifi 18 . 2 1 3 p.8. Le-
-no 3,e 3.uale il Tanto.
-uisi l'8.da ogni parte si hauerà 1 3 eguale a 18 . m.8.
-Il settimo dice. Agguaglifi 1 3 à 14 1 p. 8, che ag-
-Leuisi 64. da ogni parte si hauerà 1 3 m. 64. eguale à
-guagliato co la regola del p.di m.ne uerra R.c. L. 4.p.di
-18 . m. 71, che partita ciascuna delle parti per 1 1 m.
-m.R.q.37 1.7 1.p.R.c. L4.m.dim. R.q.37 17 1, che tol
-4,ne uerrà 1 2 p.4 1 p.16. eguale à 18. (Seguitifiil Ca
-to il lato di ciascuna si hauerà 2.p.di m.R.q 3 e 2.m.di
-pitolo) che il Tanto ualerà R.q. 6.m. 2. ouero 4, che fù
-m.R.q. 3, che aggioti isseme fanno 4, che 4. uale il Tato.
-partitore insieme con il Tantos
-L'ottauo dice. Agguaglisi 1 3 à 14 p.8. Per escre
-H
+
+LIBRO
+
+perche queffe due R. c.hanno lato, ch'è 2.p.R.q. \( \frac{2}{3} \) . è 2. m.R.q. \( \frac{2}{3} \) , che aggioni infieme fanno 4. Però 4. uale il Tanto.
+
+Il quarto dice. Agguaglifi 1 3 à 19. 1 p. 30. Aggió ghifi 2 7.à ciafcuna delle parti, fi hauerà 1 3 p.27.egua le à 19 1 p.57. Partafi ciafcuna delle parti per 1 p. 3.ne u i ene 1 2 m.3 1 p.9.eguale à 19, che agguaglia to, il Tanto ualerà 5.
+
+Il quinto dice. Agguaglifi 1 3 à 7 p.90, Quefto fi può agguagliare có la regola del raglio del Cubo, e ne uerraà R.c. L 45. p.R. q. 2012 2 1/7 J p.R.c.L 45. m.R.q. 2012 8/27 J, che pigliato il lato di ciafcuna, fi hauerà 2 1/2 p.R.q. 3 1/12, e 2 1/2 p.R. q. 3 1/12, che aggionti infieme fanno 5, e 5. uale il Tanto.
+
+Il felto dice. Agguaglii 1 3 à 6 p. 21. Aggionghifi 27.à ciafcuna delle parti, e fi haucrà 1 3 p.27.egua le à 16 p.48, partifi ciafcuna parte per 1 p.3. ne uiene 1 m.3 p.9.eguale à 16, cofi agguagliato fe condo il fuo Capit:il Tanto,ualerà R.q.9 1/4 p.1 1/2; ilche parimente dice il Cardano in quello medefimo Capin
+
+Agguagli fi 1.3 à 4.1 p.15, che quello pur fi può ag guagliare per la regola del taglio del Cubo, e ne uerra R.c.I. 7 1/2 p. R. q. 53 9/108 I. p. R. c. L 7 1/2 m. R. q. 53 9/108 I, che pigliato il lato di ciafcuna, fi hauerà 1/2 p. R.q. 1 1/2 & 1 1/2 m. R.q. 1 1/2, che fommate infieme fanno 3, e 3.uale il Tanto.
+
+Il fettimo dice.Agguaglifi 3 à 14 p. 8, che agguagliato co la regola del p.di m.ne uerra R.c.L. 4.p.di m.R.q.37 1.7 1.p.R.c.L.4.m.di m.R.q.37 1.7 1, che tol to il lato di ciafcuna fi hauerà 2.p.di m.R.q.3/3 e 2.m.di m.R.q.3/3, che aggioti ifieme fanno 4, che 4.vale il Táto. L'ottauo dice.Agguaglifi 3 à 14 p.8. Per effere il
+
+SECONDO.
+
+351
+
+il medefmo pofto di fopra, fopra quello, perciò non ne dirò altro.
+
+Il nono dice. Agguaglifi 1 3 p.12.à 34 1, Leuifi il 13, da ogni parte fi hauerà 1 3 eguale à 34 1 m.1 2, ho ra aggionghifi 216.à ciafcuna delle parti, fi hauerà 1 3 p.216.eguale à 34 1 p.204, che partita ciafcuna delle parti per 1 1 p.6.ne uerra 1 2 m.6 1 p. 3.6.eguale à 34.(Seguitifi il Capitolo) che il Tanto valerà 3. p. R. q.7, ouero 3.m.R.q.7.
+
+Il decimo dice. Agguagli fi 1 3 p.21. à 16 1. Leuifi il 21.da ogni parte fi hauerà 1 1 eguale à 16 1 m. 21. leuifi 27.da ogni parte, fi hauerà 1 3 m. 27. eguale à 16 1 m.48,partifi ciafcuna delle parti per 1 1 m. 3.ne uiene 1 2 p.3 1 p.9.eguale à 16,che(feguendofi il Capitolo)il Tanto valerà R.q.9 1/4 m. 1 1/2, e ancora il Tanto di quello Capitolo ha un'altra ualuta, ch'è il 3, che fu partitore infieme con il Tanto, la qual regola mai fal la(come fi uedrà ne gl'altri.
+
+L'undecimo dice. Agguaglifi 19 à 1 p.18.Leuifil 18.da ogni parte fi hauerà 13 eguale à 19 m.18.Leuifì. da ogni parte, fi hauerà 13 m.1. eguale à 19 m.19, che partita ciafcuna delle parti per 1 m.1, ne uerrà 13 p.1. p.neguale à 19,(Seguitifi il Capitolo)che il Tanto valerà R.q.18 1/4 m.1/2 ouero 1. che fù partitore con il Tanto.
+
+Il duodecimo dice. Agguagli fi 18 à 1:3 p.8. Leui fi l'8.da ogni parte fi hauerà 1 3 eguale a 18 m.8. Leui fi 64. da ogni parte fi hauerà 1 3 m. 64. eguale à 18 m.72, che partita ciafcuna delle parti per 1 m. 4, ne uerraà 1 2 p.4 p.16.eguale à 18. (Seguiti fi il Ca pitolo) che il Tanto ualerà R.q. 6.m. 2. ouero 4, che fù partitore infieme con il Tanto.
+
+2 4 11
 
 ## PDF page 208
 
@@ -15844,74 +15758,26 @@ pigliare
 
 ## PDF page 230
 
-SECONDO
-397
-LIBRO
 396
-Capitolo di potenza potenza, Cubi, potenze, e numero : 12.
-pigliare 1 3 lato d'1 4, & aggiongerli a . metà de
-Cubi fa 1 3 p.2 1, e se gli aggionge 1 1 di nu. fa 1 3
-equale à Tanti.
-p. 2 1 p.1 1 di nu. che il suo quadrato è 1 4 p. 4.3 p.
-Questo Capitolo patisce l'eccettioni de passati, e
-4 2 p.21 2 di 2 p.4 3 di 1 p.1 2 di nu., e se ne caua
-ogni uolta, che à sommare tutti i numeri delle dignità
-1 4 p.4 3 p.15 3 p.4 3, refta 2 3 di 2 m. 11 3 p. 4 1
-cioè de Cubi, potenze, e potenze potenze saranno mag
-m.4 1 di 1 p. 1 3 di numero, e questa è la quatità, che
-giori del numero delli Tati,e che il nu. sarà pari, ò mag
-si deue giongere à ciascuna delle parti, accioche habbi
-giore del numero di essi Tanti è impossibile fare tale ag
-no lato, che aggionta à 1 4 p.4 3 p.15 2 p. 4 1, il suo
-guagliamento (come si uedrà nel primo essempio) uole
-lato sarà 1 2 p. 2 2 p. 1 di numero, & aggionta à 64.
-do per questo rispetto ponere due essempij del presen
-fa 2 1 di 2 m. 11 3 p. 4 1 di 1 m. 4 1 p. 64. p. 1 3
-te Capitolo. A character of a state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
-di numero. Hora bisogna nedere, se à moltiplicare il la-
-Agguaglifi : + p.8 3 p.8 2 p.10.28 . Piglifil
-to delle 2, ch'è R.q. L 2 m. 21 I con il lato del nu
-quarto del quadrato de Cubi, ch'è 18, e se ne caui il nu.
-mero, ch'è R.q. L64. p. 1 1 il produtto fa la metà del
-delle , eh'è 8, resta 8, ilquale si moltiplica uia 5. me-
-li 1, ch'è 2 1, m. 2, e moltiplicati detti lati l'uno uis
-tà del numero, fa 40, al quale si aggionge l'ottauo del...
-l'altro fanno R.q. L 2 3. p. 128 & matt & m. 704. J.
-quadrato delli b., ch'è 8; poi si moltiplica la metà delli
-eguale à 2 m.2, che leuara la R. q. legata, fi hauerà 2
-Tanti via la meta de Cubi, fa 16, e se li aggionge il nu.
-3 p. 128 . m. 11 2 m. 704. eguale à 4 3 m. 8 2 p. 4,
-cioè 10 fa 26, e sono Tanti, alli quali si aggionge la me
-che leuato il m.e ridutto à 1 3, si hauerà 1 3 p. 68 1
-tà delle 2 fa 26 & p.42, che si aggiongono al 40, 38
-eguale à 3 1/2 p.354, che agguaghato, il Tanto ualerà
-8. detti di sopra fanno 26, ... p. 4 3 p. 48, e questo per
-6,e questa è la ualuta del 1 dinu. che aggionto à 13
-regola è eguale à 1 3, che agguagliato, il Tanto uale
-p.2 1, fa 1 2 p.2 1 p. 6, che il suo quadrato è 1 4 p. 4
-rà 8, che aggionto à 1 2 p.4 , fa 1 2 p.4 p.8, che
-3 p.16 3 p.24 2 p.36, che cauatone 1 4 p. 4 3 p.15
-il suo quadrato è 1, 4 p.8 3 p.32 2 p.64 1 p.64, che
-3 p.4. 1 resta 1 3 p.20 1 p.36, e questa è la quantità
-cauatone 1 4 p.8 3 p.8 2 p. 10, resta 24 2 p. 64 5
-da aggiongere à ciascuna delle parti, che aggionta à 1
-P. 54, che aggiontià 8 1 fanno 24 2 p. 72 1 p. 54.
-1 p.4 1 p.15 2 p.4 1, & à 64. fa 1 1 p.4 3 p.16 3
-the il suo lato è R.q. 54. p. R.q. 24 . ch'è eguale à r
-p-24 1 p.36. eguale à 1 2 p.20 1 p.100, che pigliato
-2 p.4 1 p.8. detto di sopra, che ridutto alla equatione,
-il lato di ciascuna parte, si hauerà 1 3 p.2 1 p.6. eguale
-si hauerà 1 2 p.8.m.R.q.5 4.eguale à R.q. 241m.4, che
-à 1 1 p.10, che agguagliato, il Tanto ualerà R.q. 4 1 m.
-non si può agguagliare, perche non si può cauare il
-. Auertendosi, che quando il quadrato della metà de
-numero della metà quadrata delli Tanti; Il che auie-
-3 sarà maggiore del numero delle 2, all'hora si potrà
-ne perche, patisce le dissicultà dette di sopra, che
-fare la positione, che dica m., di numero, doue in que
-sommati i numeri delle dignità fanno 17, ch'è maggiore
-sto essempio dice p. 1 _ di numero.
+
+LIBRO
+
+pigliare i 3 lato d'1.4, & aggiongerli 3.1 metà de Cubi fa 1 2 p.2 1, e fe gli aggionge 1 di nu. fa 1 2 p.2 1 p.1 1 di nu. che il fuo quadrato è 1 4 p.4 3 p.4 2 p.2 1 di 2 p.4 1 di p.1 2 di nu., e fe ne caua 1 4 p.4 3 p.15 2 p.4 1, refta 2 1 di 2 m. 11 2 p.4 1 m.4 1 di 1 p.1 3 di numero, e questa è la qualità, che fi deue giongere à ciafcuna delle parti, accioche habbi no lato, che aggionta à 1 4 p.4 3 p.15 2 p.4 1, il fuo lato farà 1 2 p.2 1 p.1 1 di numero, & aggionta à 64. fa 1 1 di 2 m.11 2 p.4 1 di m.4 1 p.64. p.1 3 di numero. Hora bifogna tiedere, fe à moltiplicare il lato delle 2, ch'è R.q. L. 2 1 m.11 1 con il lato del numero, ch'è R.q. L64. p.1 1 il produtto fa la metà del li 1, ch'è 2 m. 2, e moltiplicati detti lati l'uno uia l'altro fanno R.q. L. 2 3 p.128 1 m.11 3 m.704 1. eguale à 1 1 m.2, che leuata la R.q. legata, fi hauerà 2 3 p.128 1 m.11 2 m.704.eguale à 4 2 m. 8 1 p.4, che leuato il m.e ridutto à 1 3, fi hauerà 1 3 p.68 1 eguale à 3 1/2 2 p.354, che agguagliato, il Tanto ualerà 6, e questa è la ualura del di nu. che aggionto à 1 2 p.2 1, fa 1 2 p.2 1 p.6, che il fuo quadrato è 1 1 p.4 3 p.16 3 p.24 1 p.36, che cauatone 1 4 p.4 3 p.15 3 p.4. 1 refta 1 2 p.20 1 p.36, e questa è la quantità da aggiongere à ciafcuna delle parti, che aggionta à 1 1 p.4 1 p.15 2 p.4 1, & à 64. fa 1 4 p.4 3 p.16 3 p.24 1 p.36.eguale à 1 2 p.20 1 p.100, che pigliato il lato di ciafcuna parte, fi hauerà 1 2 p.2 1 p.6.eguale à 1 1 p.10, che agguagliato, il Tanto ualerà R.q.4 1/2 m. 1/2, Auertendofi, che quando il quadrato della metà de 3 farà maggiore del numero delle 2, all'hora fi potrà fare la poitione, che dica m.1 di numero, doue in que fio effempio dice p.1 1 di numero.
+
 Capitolo
+
+SECONDO
+
+397:
+
+Capitolo di potenza potenza, Cubi, potenze, e numero
+eguale à Tanti.
+
+Quetto Capitolo patisce l'eccettioni de paffati, e ogni volta, che a fommare tutti i numeri delle dignità cioè de Cubi, potenze, e potenze potenze faranno maggiori del numero delli Tati, e che il nu. farà pari, o maggiore del numero di efsi Tanti è impolsibile fare tale ag guagliamento (come fi uedrà nel primo effempio) uolé do per quello rispetto ponere due effempij del prefe te Capitolo.
+
+Agguagli fi 1 + p.8 3 p.8 2 p.10.a 8 1 . Pigliti il quarto del quadrato de Cubi, ch'è 16, e fe ne caui il nu. delle 1 , ch'è 8, refta 8, il quale fi moltiplica uia 5. metà del numero , fa 40, al quale fi aggionge l'ottauo del quadrato delli 1 , ch'è 8; poi fi moltiplica la metà delli Tanti uia la metà de Cubi, 'fa 16, e fe li aggionge il nu. cioè 10, fa 26, e fono Tanti, alli quali fi aggionge la metà delle 2 fa 26 1 p.4 2, che fi aggiongono al 40, 3s 8. detti di fopra fanno 26, 1 p. 4 3 p. 48, e quello per regola è eguale à 1 3 , che agguagliato, il Tanto uale ra 8, che aggionto à 1 2 p.4 1 , fa 1 2 p.4 1 p.8, che il fuo quadrato è 1, 4 p.8 3 p.32 2 p.64 1 p.64, che cauatone 1 + p.8 3 p.8 2 p.10, refta 24 2 p.64 1 p.54, che aggionti à 8 1 fanno 24 2 p.72 1 p.54, che il fuo lato è R.q.54. p. R.q. 24 1 , ch'è eguale à 1 2 p.4 1 p.8. detto di fopra, che ridutto alla equatione, fi hauera 1 2 p.8.m.R.q.54.eguale à R.q. 24 m.4, che non fi può agguagliare, perche non fi può cauare il numero della metà quadrata delli Tanti; Il che auie- ne perche, patifice le difficoltà dette di fopra , che fommati i numeri delle dignità fanno 17, ch'è maggiore
+
+C C 3 di
 
 ## PDF page 231
 
@@ -17117,71 +16983,45 @@ il produtto del secondo per. 6. è 3 1, il suo quadrato 4
 
 ## PDF page 249
 
-TERZOJ
-LIBRO
-435
 434
-di j fi cauarà il terzo, restarà 3 1,e di 50. m. 1 1 caua
-il primo farà : v m.15, e il secondo e v m.20. Hor re-
-to,il quarto restarà 37 ½ m. 3 1, e perche li restanti de
-sta, che tutti tre insieme siano 2 , (come sù posto) ma
-nono essere pari però 3 1 sarà eguale à 37 1 m. 3 1
-fono 3 v. m. 45, però 3 v. m. 45. sono egualià 2 v,
-che leuato il meno, & agguagliato; il Tanto ualerà 16
-che agguagliato, il Tanto valerà 45, e però il primo,
-17, cosi la prima parte, che fu posta 1 1 farà 26: 18,
-ch'era i e m.15, sarà 30. Il seçondo, ch'era i e m
-tl'altra sarà 23 - 9, e ne nasce questa regola.
-20, sarà 25, e il terzo, ch'era 1 e m. 10, sarà 35. ouero
-Se si hauerà, à dividere un dato numero in due parti
-ponghifi, che il primo, e secondo siano 1 💽, e il terzo il
-intal modo, che di una cauatone una data parte, e dell'
-rà r z m.20; accioche il primo, e'l secondo siano 20.
-akra un'altra data parte: gli restanti siano pari. Aggion
-più del terzo, e tutti tre infieme faranno 2 🚬 m. 20,6
-ghisile due date parti insieme, e per regola si cauino di
-per trouare il primo canifi 30 di tutti tre: resta 2 Um
-Le lo restante si salui. Poi cauisi del dato numero una
-50, di cui la metà è 1 . m.25, e questo farà il primo, &
-delle parti date, e quello, che resta si parta per il nume+
-essendo il primo 1 . m.25, e il terzo 1 . m.20. ambi
-to serbato, che l'auenimento sarà una delle parti ad-
-dui saranno 2 m. 45, & essendo tutti tre 2 i m. 20.
-domandate.
-cauato il primo, e terzo di tutti tre: resta 125. per ilse-
-Faccisi d'1 p.6. due tal parti, che dell'una cauatone
-condo. Hor resta, che il primo, e rerzo siano 40 più del
-il mezzo, e dell'altra il terzo li restanti siano eguali.
-fecondo, mail primo, e terzo sono 2 1 m. 45, e sono
-Per la regola sopradetta se si aggiongera insieme :
-eguali al secondo, ch'è 25, con 40 più, che fa 65, il quale
-t fara 5, ilqual si caui di z resta I 6, e questo si salua;
-agguagliato, il l'anto uale 55, e il primo, ch'era 1 & m.
-poi cauisi d'1 p.6.la meta, ouero la terza parte (che
-25, sarà 30, e il terzo ch'era t & m. 20 sarà 35.
-pon importa) resta 1 1 p. 3, e questo si parta per 1 1
-(serbato disopra.) ne viene 3 1 p. 2 4, e tanto sarà una
-Problems XXXXII.
-parte, e l'altra sara 4 1 p.3 3, che fanno quanto si pro-
-pone.
-Faccisi di 50 due parti, che dell'una cauatone il ter-
-20,e dell'altra il quarto, li restanti fiano eguali.
-Problems XXXIII.
-Ponghifi, che l'una fia 3 1 che cauandosene il ter-
-zo, restarà : e, e questo conviene, che sia li 3 dell'akra
-Trouinsi due numeri quadrati, che il lato dell'uno
-parte, dunque essa farà 2 2 . resta, che ambedoe le
-sa.2. più del lato dell'altro, è che cauato l'uno dell'al-
-parti infiame fiano 50 ma esse sono 5 3 però 5 3 0 però 5 3 0 però 5 3 0 però 5 3 0 però 5 3 0 però 5 3 0 però 5 3 0 però 5 3 0 però 5 3 0 però 5 3 0 però 5 3 0 però 5 3 0 però 5 3 0 però 5 3 0 però 5 3 0 però 5 3 0 però 5
-tro resti 10.
-Ponghisi, che il lato dell'uno sia . 1 , e il lato dell'al-
-la prima parte, che fù posta 3 . sarà 26 - e la secon
-tro fara, 1 p. 2, il quadrato del primo fara 13, e il qua
-da, che su posta 3 3 farà 23 - ouero ponghis,
-drato del secondo sara 1 2 p. 4 2 . p. 4, che cauato il mi-
-che la prima parte sia 1 2, l'altrà sarà 50.m. t &, ele
-nore
-FF 4
+
+LIBRO
+
+il primo farà 1 m.15, e il secondo 1 m.20. Hor retta, che tutti tre infieme fiano 2 (come fù polto) ma fono 3 m. 45, però 3 m. 45. fono eguali à 2, che agguagliato, il Tanto valerà 45, e però il primo, ch'era 1 m.15, farà 30. Il secondo, ch'era 1 m. 20, farà 25, e il terzo, ch'era 1 m. 10, farà 35. ouero ponghià, che il primo, e secondo fiano 1, e il terzo fa rà 1 m.20; accioche il primo, e l secondo fiano 20. più del terzo, e tutti tre infieme faranno 2 m. 20, e per trouare il primo, cauifi 30. di tutti tre: retta 2 m. 50, di cui la metà è 1 m.25, e quello farà il primo, & effendo il primo 1 m.25, e il terzo 1 m.20. ambi duì faranno 2 m.45, & effendo tutti tre 2 m. 20. cauato il primo, e terzo di tutti tre: retta 125. per il secondo. Hor retta, che il primo, e terzo fiano 40 più del secondo, ma il primo, e terzo fono 2 m. 45, e fono eguali al secondo, ch'è 25, con 40 più, che fa 65, il quale agguagliato, il Tanto uale 55, e il primo, ch'era 1 m. 25, farà 30, e il terzo ch'era 1 m.20 farà 35.
+
+Problems XXXII.
+
+Faccifi di 5 o.due parti, che dell'una cautone il terzo, e dell'altra il quarto, li restanti gano eguali.
+
+Ponghifi, che l'una fia 3, che cauandofene il cer-
+zò, reftara 3, e quello conviene, che fia li 3/4 dell'akra
+parte, dunque ella farà 2 1/3, refta, che ambedne le
+partù inhame fiano 5 o ma effe fono 5 1/3, però 5 1/3
+è eguale à 5 o, che agguagliato; il Tanto uale 8 1/17 però
+la prima parte, che fù pofta 3, farà 16 1/7, e la fecon
+da, che fù pofta 3 1/3, farà 13 9/17. ouero ponghifi,
+che la prima parte fia 1, l'altra farà 5 o.m. 1, efe
+di
+
+TERZOJ
+
+435
+
+di i fi cauarà il terzo, reftarà  \( \frac{2}{3} \) , e di 50. m. 1 i causa, il quarto reftarà 37  \( \frac{1}{2} \)  m.  \( \frac{3}{4} \) , e perche li rettanti de uono effere pari però  \( \frac{2}{3} \) , farà eguale à 37  \( \frac{1}{2} \)  m.  \( \frac{3}{4} \) , che feuato il meno, & agguagliato; il Tanto valerà 26  \( \frac{1}{17} \) , coli la prima parte, che fu poita 1. farà 26  \( \frac{3}{17} \) , e l'altra farà 23  \( \frac{9}{17} \) , e ne nalce questa regola.
+
+Se fi hauerà,à diuidere un dato numero in due parti in tal modo, che di una cauatone una data parte, e dell'altra un'altra data parte: gli reftanti fiano pari. Aggion ghifi le due date parti infieme, e per regola fi cauino di e lo reftante fi falui. Poi caufi del dato numero una delle parti date; e quello, che retta fi parta per il numero ferbato, che l'auenimento farà una delle parti ad domandate.
+
+Faccifi d'i p.6.due tal parti, che dell'una cauatone il mezzo, e dell'altra il terzo li reflanti fiano eguali.
+
+Per la regola fopradetta fe li aggionigera inlieme \(\frac{1}{2}\). e \(\frac{1}{7}\) fara \(\frac{5}{6}\), il qual fi caui di 2.refta 1 \(\frac{5}{6}\), e quello fi falua; poi caui fi d'1 p.6.la meta, ouero la terza parte (che non importa) refta \(\frac{1}{2}\)1 p.3, e quello fi parta per 1 \(\frac{1}{6}\) (ferbato difopra.) ne uiene \(\frac{3}{7}\)1 p.2 \(\frac{5}{7}\), e canto farà una parte, e l'altra fara \(\frac{4}{7}\)1 p.3 \(\frac{3}{7}\), che fanno quanto fi propone.
+
+Problema XXXIII.
+
+Trouinfi due numeri quadrati, che il lato dell'uno fia.2. più del lato dell'altro, è che cauto l'uno dell'altro retti 10.
+
+Ponghifi, che il lato dell'uno fia, e il lato dell'altro fara, p.2, il quadrato del primo fara, e il quadrato del secondo fara p.4, che cauato il mi-
+
+FF 4 more
 
 ## PDF page 250
 
@@ -22273,72 +22113,29 @@ e .
 
 ## PDF page 324
 
-2584
-LIERO
-TERZO
-585
-oquesto è eguale alla minor quantità, cioè à 6 1/2 mita,
-101. & questo è eguale à un quadrato, il lato del quale
-che leuato il meno, & agguagliato, il Tanto ualerà 361, e però il primo numero, che su posto 1 3 sarà 1 0 8 1 6,
-fia r . m. 11, che il quadrato sarà 1 2 m. 22 . p. 121,
-che leuato simile da simile, il meno, e agguagliato, il
-il secondo, che su posto 6 1 6 sarà 4623, & il terzo sa
-Tanto ualerà 1. Però il lato del quadrato, che fù posto
-Tà 42 4 (come li polevi) 30m leed open i'e !
-9. p.t ! sarà 9 1/2, & il quadrato sarà 90 1/4. Hor tornan-
-The state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
-do al principio ponghisi l'un delli tre numeri essere.90
-Problema CC 111.
-4, il mezzano 9½ 1, e l'altro 12, che gionto 20, à 12,
-ST . . . . . . . . . . . . . . . . . . .
-& à 9 1/2 1 fa 1 2 p. 20, e 9 1/2 p. 20, che ciascun di loro
-Trouinsitre numeri in continua proportione tali;
-è eguale à un quadrato. Per o piglisi l'eccesso loro, ch'è
-che à ciascun di loro gionto 20. la somma sia qua-
-1 2 m.9 1 ! li dui numeri, che lo produchino sono 1 1,
-drata, et en 1919, et en 1919 et en 1919 et en 1919 et en 1919 et en 1919 et en 1919 et en 1919 et en 1919 et en 1919 et en 1919 et en 1919 et en 1919 et en 1919 et en 1919 et en 1919 et en 1919 et en 1919 et en 1919 et en
-& 1 ,m.9 1, la lor differenza è 9 1 il quadrato della me
-Prima si deuono trouare dui numeri quadrati tali;
-tà è 361 e quest'è eguale alla minor quantità cioè à 91
-che l'uno sia 20. più dell'altro che sono 16, e 36. Hor
-p.20, che leuato 20. da ogni parte, et agguagliato, il
-ponghisi, che il terzo numero sia 16, & il mezzano 4 ,
-Tanto ualerà 41.52. Però li numeri, che furno posti 1-
-& il primo 1 2, che cosi saranno in continua proporte
-2,9 1, & 90 1, saranno 1681, 379. & 901 che fan
-tione, & al terzo gionto 20. sa quadrato. Ci resta hora,
-no quanto si propone.
-che giongendo 20. à ciascun : delli altri dui faccia qua-
-drato, ma il primo fa 1 2 p. 20, & il secondo 4 1 p. 20,
-e ciascun di loro deue essere eguale à un quadrato, e ne
-Problema CC 1111.
-nasce doppia agguaglianza. L'eccessoloro è 1 2 m.4
-e, li dui numeri, che lo producono sono 1 1, & 1
-m. 4, l'eccesso loro è 4. il quadrato della sua metà è pur
-Faccisi di 30. quattro parti in continua proportione
-4. & questo è eguale al minore, cioè à 4 1 p. 20, che la
-zali, che li loro quadrati gionti insieme faccino 340.
-agguagliatione non si può fare, però bisogna mutar po
-Prima che si uenga alla operatione si deue sapere, che
-litione, e considerare, che il 4. numero è la quarta parte;
-di ogni quattro quantità in continua proportione tan-
-di 16, e v 6. non è numero determinato, ma è un quadra-1
-to fa à cubare il composto della seconda, e terza, e det-
-to tale, che giontoli 20, fa quadrato: però bilogna cer-
-to cubato partirlo per il triplo del composto della det-
-care un'altro quadrato tale, che la sua quarta parte sia
-te seconda, e terza aggionto con il composto della pri-
-maggior di 20; cioè che esso quadrato sia maggior di
-ma, e quarta; quanto à moltiplicare la prima nella quar
-80, e che giontoli 20, faccia quadrato, ponghisi che il
-ta, ouero la seconda nella terza (come per essempio)
-lato di tal quadrato sia 9. p. 1 &, il quadrato sarà 1 3
-siano le quattro quantità in continua proportione 4. 6.
-p.38 . p.81, & à questo gionto 20. fa 2 p. 18 . p.
-9.13 1, il composto della seconda, e terza è 15, che il suo
-Chello
-cubato
+£584
+
+-LIBRO
+
+cqueffio è eguale alla minor quantità, cioè à \(6\frac{1}{2}\), m. 12, che leuato il meno, & agguagliato, il Tanto malerà \(3\frac{61}{104}\), e però il primo numero, che fù poito 1, 2 farà \(1\frac{303}{108}\), & il fecondo, che fù poito \(6\frac{1}{2}\), farà \(4\frac{693}{108}\), & il terzo la rà \(42\frac{1}{4}\) (come fù pofev.) com ferde quèvìs
+
+Problema CC III.
+
+Trouinfitre numeri in continua proportione tali che a ciafcun di loro gionto 20. la fomma fia quadrata.
+
+Prima fi deuono trouare dai numeri quadrati talì, che l'uno fia 20. più dell'altro che fono 16, e 36. Hor ponghifi, che il terzo numero fia 16, & il mezzano 4, & il primo 1 2, che cofi faranno in continua proporpi cione, & al terzo gionto 20. fa quadrato. Ci retta hora, che giongendo 20. à ciafcun: delli altri dui faccia qua drato, ma il primo fa 1 2 p. 20, & il fecondo 4 1 p. 20, e ciafcun di loro deue effere eguale à un quadrato, e ne nafce doppia agguaglianza. L'ecceffoloro è 1 2 m. 4, li dui numeri, che lo producono fono 1 1, & 1 m. 4, l'ecceffo loro è 4. il quadrato della fua metà è pur 4. & quello è eguale al-minore, cioè à 4 1 p. 20, che la agguagliatione non fi può fare. però bìlogna mutar po l'ione, e confiderare, che il 4. numero è la quarta parte di 16, e 16. noh è numero determinato, ma è un quadra-to tale, che giontoli 20, fa quadrato, però bìlogna cer- care un'altro quadrato tale, che la fua quarta parte fia maggior di 20; cioè che effo quadrato fia maggior di 80, e che giontoli 20, faccia quadrato, ponghifi che il laro di tal quadrato fia 9. p. 1 1, il quadrato farà 1 2 p. 8 1 p. 81, & à questo gionto 20. fa 2 p. 18 1 p.
+
 101.
+
+TERZO.
+
+101. & quello è eguale à un quadrato, il lato del quale e sia i m.11, che il quadrato farà 12 m.22 p.121, che leuato fimile da fimile, il meno, e agguagliato, il Tanto valerà 1/2. Però il lato del quadrato, che fù pofto 9. p.1 farà 9 1/2, & il quadrato farà 90 1/4. Hor tornando al principio ponghifi l'un delli tre numeri effere 90 1/4, il mezzano 9 1/2, e l'altro 1, che gionto 20, à 1, & à 9 1/2, fa 12 p.20, e 9 1/2 p.20, che ciafcun di loro è eguale à un quadrato. Però piglifi l'ecceffo loro, ch'è 12 m.9 1/2 li dui numeri, che lo produchino sono 1, & 1, m.9 1/2, la lor differenza è 9 1/2 il quadrato della me tà è 36 1/16, e quest'è eguale alla minor quantità cioè à 9 1/2 p.20, che leuato 20. da ogni parte, et agguagliato, il Tanto valerà 4 1/152. Però li numeri, che furno pofti 1-2, 9 1/2, & 90 1/4, faranno 168 1/23 104, 379 304. & 90 1/4 che fan no quanto fi propone.
+
+Problema CC1111.
+
+Faccifi di 30. quattro parti in continua proportione tali, che li loro quadrati gionti infieme faccino 340.
+
+Prima che fi uenga alla operatione fi deue fapere, che di ogni quattro quantità in continua proportione tanto fa à cubare il compofto della feconda, e terza, e detto cubato partirlo per il triplo del compofto della dette feconda, e terza aggionto con il compofto della prima, e quarta; quanto à moltiplicare la prima nella quarta, ouero la feconda nella terza (come per effempio) fiano le quattro quantità in continua proportione 4. 6. 9.13 ½, il compofto della feconda, e terza è 15, che il fuo cubato
 
 ## PDF page 325
 
@@ -23298,65 +23095,24 @@ Problema
 
 ## PDF page 339
 
-617
-TERZO.
-LIBRO
 618
-bo è 1 3, ponghisi poi, che li tre numeri siano 23,93,
-che il suo cubo è 64. m. 27 1 p. <math>\frac{243}{64}</math> 2 m. <math>\frac{729}{4096}</math> 3, che gionto con kaltro cubo, fa 3 p.p. <math>\frac{3367}{4096}</math> 3 m. <math>\frac{333}{64}</math> 2,
-e 283, accioche di ciascun di loro cauato 13, resti cu-
-bo. Resta solo che tutti tre insieme siano 1 , ma sono
-e questo è eguale à 37, che leuato simile da timile, il me
-393, però 393 sono eguali à 1 1, che l'agguagliatio-
-no,e schisato, si hauerà <math>\frac{3367}{4096}</math> jeguale à <math>\frac{333}{64}</math>, che agguagliato, il Tanto ualera <math>\frac{21}{3367}</math>, cil lato d'uno delli
-ne non si può fare per numero rationale, per non essere
-il 39. numero quadrato, però bisogna trouar tre nume-
-cubi, che fù posto r 1 m.3, sara <math>\frac{1}{3}, \frac{1}{3}, \frac{1}{6}, \frac{1}{7}</math> e il lato dell'al tro, che fù posto 4.m. <math>\frac{1}{16}, \frac{1}{16}, \frac{1}{16}, \frac{1}{16}, \frac{1}{16}, \frac{1}{16}, \frac{1}{16}, \frac{1}{16}, \frac{1}{16}, \frac{1}{16}, \frac{1}{16},</math>
-ri cubi tali, che à ciascun di loro gionto l'unità, c som-
-mati poi insieme, faccino numero quadrato, e ponghisi,
-che il lato del primo cubo sia 1 , del secondo 3. m. 1-
-sieme, fanno 37, e questo gionto con l'altro cubo, ch'è
-per il qual 3.si potea ancor pigliare un altro nume-
-1 25. fa 162 (come fi unole) e questi tre cubi sono 216,
-ro, pur che fusse la terza parte d'un numero quadrato,
-esimi, che cauati di 3, resta 2 1/4, ch'è numero quadrato
-il lato dell'altro cubo sia un numero (come si uoglia) e
-come si cercaua, però perche essi cubi, sono 216, esimi;
-fia 1.li cubi faranno 1 3, e 27.m.27 1 p.9 2 m.1 3, e 1,
-partanfi per 2: 16, ne uiene <math>\frac{1409071586931}{8244856482408}</math>,
-che il composto loro insieme con tre unità è 9 2 m. 27
-<math>\frac{3241792000}{8244856482408}</math>, <math>\frac{e^{\frac{125}{216}}}{e^{\frac{125}{216}}}</math>, i quali cauatia uno a uno dell'unità, refta <math>\frac{8241614690408}{8244856482408}</math>, <math>\frac{6835784895477}{8244856482408}</math>, <math>\frac{91}{216}</math>. Hora tornando al princ
-p.31, e questo è eguale à un quadrato, il lato del qua
-le sia 3 1 m. 7, che il quadrato l'arà 9 2 m. 42 1 p. 49,
-che agguagliato con 9 2 m. 27 ! p. 31, leuando prima
-tre numeri, che si cercano, siano questi ultimaméte det
-simile da simile, e il meno, il Tanto ualerà &, però li lati
-ti,ma siano 3, che ciascun di loro cauato d'a 3, che si
-delli cubi, che si sono posti 1 1, 3. m. 1 1, e 1, saranno
-pone, che sia il cubo del composto loro, resta numero
-<math>\frac{6}{5}</math>, <math>e^{\frac{9}{5}}</math>, <math>e^{\frac{1}{5}}</math>, <math>e^{\frac{1}{5}}</math>, <math>e^{\frac{1}{5}}</math>, <math>e^{\frac{1}{5}}</math>, <math>e^{\frac{1}{5}}</math>, <math>e^{\frac{1}{5}}</math>, <math>e^{\frac{1}{5}}</math>, <math>e^{\frac{1}{5}}</math>, <math>e^{\frac{1}{5}}</math>, <math>e^{\frac{1}{5}}</math>, <math>e^{\frac{1}{5}}</math>, <math>e^{\frac{1}{5}}</math>, <math>e^{\frac{1}{5}}</math>, 
-cubo:ci resta hora, che il composto loro sia i 🕛 (come
-sieme con 3, fanno numero quadrato, pero ponghisi di
-si pone) ma è 2 4 3, però è eguale à 1 3, che aggua-
-nuouo, che li tre cubi siano <math>\frac{2}{1}</math> <math>\frac{1}{2}</math> <math>\frac{6}{3}</math>, <math>\frac{7}{12}</math> <math>\frac{2}{3}</math> <math>\frac{3}{12}</math>, e t <math>\frac{3}{3}</math>, a c12-
-gliato, il Tanto uale 3, e tanto sarà il composto delli nu
-seun delli quali gionto 1 3, e iommati insieme, fanno
-meri, che si cercano e il suo cubato satà 2 , e li tre nu-
-1445. 3, e questo è equale à 1 1, che schisato, si hauerà
-me. atano 278263911878127, 6 278263911878127
-289 2 eguale à 1, ouero 17 eguale à 1, che aggua-
-<math>e^{-\frac{9}{72}\frac{1}{9}}</math>, che canato qual fi noglia di loro d<math>\frac{8}{27}</math>, relta nu-
-gliato, il Tanto ualerà 17, e queito è il composto delli
-mero cubo (come si unole.)
-tre numeri cercati, e il suo cubo è <math>\frac{1}{49}</math> <math>\frac{2}{1}</math> <math>\frac{5}{3}</math>, e li lati delli tre
-cubi saranno <math>\frac{6}{17}</math>, <math>\frac{9}{17}</math>, <math>e_{\frac{1}{17}}</math>, che al cubo di ciascun di loro gionto il detto <math>\frac{1}{49}</math>, <math>\frac{1}{13}</math>, <math>\frac{1}{49}</math>, <math>\frac{1}{13}</math>, <math>\frac{1}{49}</math>, <math>\frac{1}{13}</math>, <math>\frac{1}{49}</math>, <math>\frac{1}{13}</math>, <math>\frac{1}{49}</math>, <math>\frac{1}{13}</math>, 
-Problema CCXXXIIII.
-sti sono li tre numeri cercati.
-Trouinsi tre numeritali, che di qual si uoglia di ioro
-cauato il cubo del composto loro, resti numero cubo.
-Ponghisi, che tutti tre insieme sano i , il suo cu-
+
+LIBRO
+
+che il fuo cubo è 64. m. 27 1 p. 243 2 m. 729 3, che gionto con l'altro cubo, fa 37 p. 367 3 m. 332 2, e quello è eguale à 37, che leuato fimile da fimile, il me no, e fchilato, fi hauerà 367 1 eguale à 333, che agguagliato, il Tanto ualera 21312 3, e il lato d'uno delli cubi, che fu pofto 1 m. 3, farà 1211 367, e il lato dell'al tro, che fu pofto 4. m. 9 1, farà 1480 367, e li cubi faranno 1409071586931 3, e 3241792000 3, che gionti in fieme, fanno 37, e quello gionto con l'altro cubo, ch'è 125. fa 162 (come fi uuole) e quefti tre cubi fono 216, efimi, che cauati di 3, refta 21/4, ch'è numero quadrato come fi cercaua, però perche e'si cubi, fono 216, efimi; partanfi per 216, ne uiene 1409071586931 8244856482408, e 3241792000 8244856482408, e 125 216, i qualt cauatta uno a uno dell'unità, refta 8241614690408, e 6835734895477 8244856482408, e 91 216. Hora tornando al principio ponghiti, che li tre numeri, che fi cercano, fano quefti ultimamète det ti, ma fiano 3, che cialcun di loro cauato d'3, che fi pone, che fia il cubo del compofto loro, refta numero cubo: ci refta hora, che il compofto loro fia 1 (come fi pone) ma è 21/4, però è eguale à 1, che aggua-gliato, il Tanto uale 3/3, e tanto farà il compofto delli nu meri, che fi cercano, e il fuo cubato farà 8/27, e litre nu-me, farano 8241614690408 278263911878127, e 6835784895477 278263911878127 e 91 21/2, che cauato qual fi uoglia di loro d 8/27, refta numero cubo (come fi uuole.)
+
+Problema CCXXX1111.
+
+Trouinfi tre numeritali, che di qual fi uoglia di loro cauato il cubo del composto loro, retti numero cubo.
+Ponghifi, che tuttitre infieme fiano i, il suo cubo è
+
+TERZO.
+
+617
+
+bo è 1 3, ponghifi poi, che li tre numeri fiano 2 3,9 3, e 28 3, accioche di ciafcun di loro cauato 1 3, refti cubo. Refta folo che tutti tre infieme fiano 1 , ma fono 39 3, però 39 3 fono eguali à 1 , che l'agguagliatione non fi può fare per numero rationale, per non effere il 39. numero quadrato, però bifogna trouar tre numeri cubi tal, che à ciafcun di loro gionto l'unità, e fommati poi infieme, faccino numero quadrato, e ponghifi, che il lato del primo cubo fia 1 , del fecondo 3. m. 1 , per il qual 3. fi potea ancor pigliare un'altro numero, pur che fuffe la terza parte d'un numero quadrato, il lato dell'altro cubo fia un numero (come fi uoglia) c fia 1. li cubi faranno 1 3, e 27. m. 27 , p. 9 2 m. 1 3, e 1, che il compofto loro infieme con tre unità è 9 2 m. 27 , p. 3 1, e quello è eguale à un quadrato, il lato del qua le fia 3 , m. 7, che il quadrato farà 9 2 m. 4 2 , p. 49, che agguagliato con 9 2 m. 27 , p. 3 1, leuando prima fimile da fimile, e il meno, il Tanto ualerà 6 5, però li lati delli cubi, che fi fono pofti 1 , 3. m. 1 , e 1, faranno 6 5, e 9 5, e 1, e li cubi fono 2 1 6 7 2 9 5, e 1, quali gionti infieme con 3, fanno numero quadrato, pero ponghifi di nuouo, che li tre cubi fiano 2 1 6 3, 7 2 9 3, e 1 3, à ciafcun delli quali gionto 1 3, e fommati infieme, fanno 1 4 4 5 3, e quello è eguale à 1 , che fchifato, fi hauerà 1 2 5 2, eguale à 1, ouero 1 7 5, eguale à 1, che agguagliato, il Tanto ualerà 5 1 7, e quello è il compofto delli tre numeri cercati, e il fuo cubo è 1 2 5 4 9 1 3, e li lati delli tre cubi faranno 6 1 7, 9 1 7, e 1 7, che al cubo di ciafcun di loro gionto il detto 1 2 5 4 9 1 3, fanno 3 4 1 4 9 1 3, 8 5 4 9 1 3, e 2 5 0 4 9 1 3, e que fli fono li tre numeri cercati.
+
 Problema
-boè
 
 ## PDF page 340
 
@@ -23690,69 +23446,39 @@ Problems
 
 ## PDF page 345
 
-TERZO.
-629
+6:8
+
 LIBRO
-628
-Forth Resident was to a surple see
-quadrato, &c. e effolato si caui sempre d'i, per regola,
-Probleman G.CX LV. 12 street money
-e col restante si parta il numero, che si caua la prima
-nolta, cioè il numero dato, e l'auenimento sarà il nume
-Trouinsi tre numeri in continua proportione tali,
-ro, che ficerca - care con del
-che la sommaidel secondo, e terzo, partita per il primo,
-e la somma del terzo, e primo partita per il secondo, e
+
+quadrato, &c. e effolato fi caui sempre d'i, per regola, e col restante fi parta il numero, che fi caua la prima volta, cioè il numero dato, e l'auenimento farà il numero, che si cerca
+
 Problema CCXLVI.
-la somma del primo, e secondo partita per il terzo, e li
-tre auenimenti gionti insieme saccino 27.
-Trouisi un numero ouer quantità, quale gionto 8, 61
-Perche la proposta non ci lega à numero alcuno de-
-alla somma gionta la medesima proportione, e anco al-
-terminato ponghisi, che il primo sa un numero à bene-
-la somma gionta la medesma proportione faccia 16.
-placito, e sia 1. il secondo sia 11, e il terzo di necessità sa
-uolte quanto detto numero.
-rà 12 che partito il secondo, e terzo per il primo ne
-Ponghisi, che il numero, che si cerca sia i de che
-uiene i'2,p. 1 1. Diuiso il primo, e terzo per il secon-
-giontoli 8, fa i . p. 8, per saper quanto sarà la seconda;
-do, ne uiene 1 2 p. 1. esimo d'1 1; Et diuiso il primo, e
-somma : Dichisise : torna 1 . p. 8; che tornarà 14
-secondo per il terzo ne uiene 1 1 p. 1. csimo d'1 2, e
-p. 8? che tornarà 1 3 p. 16 1 p. 64 esimo d'a 15
-questi auenimenti gionti insieme fanno 1 4 p. 2 3 p. 2 1
-per trouar l'altra somma. Dichisi se i torna i p.8,
-p. 1. esimo d'12, e questo è eguale à 22, che leuato il
-che tornarà 12 p. 16 p. 64 esimo d'i 12 che fi ue-
-rotto si hauerà 1 4 p. 2 3 p. 2 1 p. 1. esimo di 22 2 che
-drà, che torna 1 3 p. 24 2 p. 182 1 p. 512. esimo d't
-gionto à ciascuna parte 32, e tolto il lato di ciascuna si
-3, e questo e eguale à 161, che leuato il rotto, e tol-
-hauerà 12 p.1 p.1. eguale à 5 1, che leuato 11 da cia
-to il laro cubico di ciascuna parte, si hauerà 1 1 p. 8.
-scuna parte, si hauerà 12 p. 1. eguale à 41, che aggua-
-eguale à R. c. 16 1, che leuato 1 1 da ogni parte si ha-
-gliato, il Tauto ualerà 2.p.R.q. 3; & questo sarà il secon
-uerà R.c. 16 1 m. 1 1 eguale à 8, che per partire il nu
-'do numero, che si pose 1 1, il terzo, che si pose 1 2 sarà
-mero per li Tanti : bisogna trouare il binonio delli Tan
-7.p.R.q.48,e il primo sarà 1. (come si pose.)
-ti, chè 1. p. R. c. 16. p. R.e. 256, che moltiplicato per
-R. c. 16 m. 1, fair 5, e moltiplicato per 81 fa 8. p. R. c.
+
+Trouifi un numero ouer quantità, quale gionto 8, e alla fomma gionta la medefima proportione, e anco alla fomma gionta la medefima proportione faccia 16. volte quanto detto numero.
+
+Ponghifi, che il numero, che fi cerca fa i p. 8, che giontoli 8; fa i p. 8, per faper quanto farà la feconda; fomma: Dichifi fe i torna i p. 8; che tornarà i p. 8? che tornarà i p. 16 p. 64, efimo d'i e per trouar l'altra fomma. Dichifi fe i torna i p. 8, che tornarà i p. 16 p. 64, efimo d'i e che fi ue- drà, che torna i p. 24 p. 182 p. 512, efimo d'i 3, e quello e eguale à 16, che leuato il rotto, e tol- to il laro cubico di ciafeuna parte, fi hauerà i p. 8. eguale à R. c. 16, che leuato i da ogni parte fi ha- ueraà R. c. 16 m. i eguale à 8, che per partire il nu- mero per li Tanti: bifogna trouare il binonio delli Tan- ti, ch'è i. p. R. c. 16 p. R. c. 156, che moltiplicato per R. c. 16 m. i, fa i 5, e moltiplicato per 8, fa 8. p. R. c. 13072. p. R. c. 8192, il quale partito per 15, ne uiene 8. p. R. c. 38 2/3 8/3 2/5 p. R. c. 2 1/3 4/75, e quella è la uahu- ta del Tanto, & è il numero domandato, perche fù po fto effere i.
+
+Problems
+
+TEAZO.!
+
+629
+
+Problema: GCXLVII.
+
+Trouinfi tre numeri in continua proportione tal,
+che la fomma del secondo, e terzo, partita per il primo,
+e la fomma del terzo, e primo partita per il secondo, e
+la fomma del primo, e secondo partita per il terzo, e li
+tre auenimenti gionti infieme faccino 23.
+
+Perche la propofta non ci lega a numero alcuno determinato ponghifi, che il primo sia un numero à bene-placito, e sia i. il fecondo sia i, e il terzo di neceffità fa ra i, che partito il fecondo, e terzo per il primo ne uiene i, p. i. Diuifo il primo, e terzo per il fecondo, ne uiene i, p. i. cfimo d'i; Et diuifo il primo, e fecondo per il terzo ne uiene i, p. i. cfimo d'i, c quefti auenimenti gionti infieme fanno i, p.2, p.2, p.1. cfimo d'i, c quello è eguale à 22, che leuato il rotto fi hauerà i, p.2, p.2, p.1. cfimo di 22, che gionto à ciafcuna parte 3, e tolto il lato di ciafcuna fi hauerà i, p.1. eguale à 5, che leuato i, da cia fcuna parte, fi hauerà i, p.1. eguale à 4, che aggua-gliato, il Tauto ualerà 2, p.R.q.3; & quello farà il fecon do numero, che fi pofe i, il terzo, che fi pofe i, farà 7, p.R.q.48, e il primo farà i. (come fi pofe.)
+
 Problema CCXLVIII.
-1.3.072. p. R. c. 8,92, il quale partito per 15, ne uiene.
-<math>\frac{8}{15}</math>, p. R. c. <math>38\frac{2}{3}\frac{8}{3}\frac{21}{75}</math>, p. R. c. <math>2\frac{14}{3}\frac{42}{75}</math>, e questa è la uahu
-Faccisi di 25. tre parti in continua proportione tali,
-ta del Tanto, & è il numero domandato, perche fu po
-che la somma della prima, e seconda partita per la ter-
-za, la somma della seconda, e terza partita per la prima,
-sto essere 11.
-e la somma della prima, e terza partita per la seconda, e
-li tre auenimenti gionti insieme faccino 22.
-and the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the seco
-Problema
-. . . . . . . . . . . . . . . . . . . .
+
+Facciù di 25. tre parti in continua proportione tali, che la fomma della prima, e seconda partita per la terza, la fomma della seconda, e terza partita per la prima, e la fomma della prima, e terza partita per la seconda, e li tre auenimenti gionti in gieme faccino 22:
+
+SS 4 Pcr
 
 ## PDF page 346
 
@@ -24167,71 +23893,45 @@ Problema
 
 ## PDF page 352
 
-TER 2 0.
-1549
-LIBRO
 643
-The second is the second in the second as the second as the second as the second as the second as the second as the second as the second as the second as the second as the second as the second as the second as the second a
-che resta 15, e fare di 5. due parti, che li loro quadrati
-on o. Probleman CC LX Land a non-sib ib is
-gionti insieme, facciano 15, e la regola di questa pro-
-posta è di giongere 1 al numero dato, e della somma pi
-Trouinforte numeri, che il produtto del primo nel
-gliarne il lato, e à esso lato giongerli 1 per regola, e la
-secondo (giornoglial quadrato debterzo) e al produt-
-fomma è la fomma delli due numeri cercati 🚉 🤈 🔄 🗽
-to del secondo nel terzo (aggiontogli il quadrato del
-primo) e al produtto del terzo nel primo, (aggiontoli
-Problema CCLX 1111.
-il quadrato del secondo ) facciano tre numeri quadra-
-ti, delli quali pigliati li lati, e aggionti insieme faccia-
-Facciafi di 12. due parti, che li loro cubati giontiin-
-no numero quadrato & Sa polloqui nito, mongrant
-fieme, facciano 900.
-Per la 141 di questo porrò, che il primo sia 20 11
-Ben conviene, che il 900.sia maggiore di due volte
-e il secondo 4 10 , & il terzo t , che il pro.
-216. cubo di 6. mezzo di 12, altramente si trattaria del-
-dutto del primo nel secondo, col quadrato del terzo è
-lo impossibile.
-14641 2, & il produtto del secondo nel terzo, & ag-
-Ponghisi l'una delle parti essere 6. p. 1 1, e l'altra
-giontogli il quadrato del primo è 34734 3 & il pro-
-6.m.1 2, li loro cubati sono 21 6. p.108 2 p.18 2 p.
-dutto del terzo nel primo (aggiontogli il quadrato del
-1 3, c 216.m.108 5 p.108 3 m. 1 3, che aggiote insie
-secondo) è 164836 2, che li loro lati sono 1 40,2 17,
-me, fanno 43 2.p. 316 2, e douerebbono fare 900, però
-e 5 1 Tanti, che gionti insieme sanno 8 61 1, c
-432. p. 316 2 sono eguali à 900, che leuato simile da
-quetto sia eguale à un numero quadrato ( come si uo-
-36 2 sono eguale à 468, che il Tanto uale R.q. 13 1, il
-glia) e poniamo, che sia 4, che partito per 8 61 ne uie
-primo, che fù posto 6.p. s. , farà 6.p.R.q. 2 1, e l'al-
-ne 324 per la ualuta del Tanto, & il primo, che fù posto
-tro 6.m.R.q. 13 1/6, e fanno, quanto fu proposto, e ne na
-tanto sarà 709, & il secondo, ch'era 4 80 1 sa-
-sce la infrascritta regola.
-rà <math>2\frac{19}{709}</math>, & il terzo <math>\frac{314}{709}</math>, e fanno quanto fu pro-
-Se si hauerà, à dividere vn dato numero in due par-
-posto.
-ti tali, che li loro cubati aggionti insieme habbiano, à
-fare un terminato numero. Piglisi il mezzo del termi-
-Problems CCLXVI.
-nato numero, e fi cubi, e lo avenimento per regola fi ca
-ui della metà del termina to numero, e lo restante si di-
-Trouinsi tre numeri, che il produtto delli dui, col
-uida per tre uolte il dato numero, e dello auenimento
-quadrato dell'altro: facciano numero quadrato, e che
-si pigli il lato, e si aggionghi, e caui della metà del dato
-le differentie delli lati delli quadrati gionti insieme sac
-numero, e la somma e lo restante saranno le parti cer-
-ciano numero quadrato.
-cate.
-Ponghisi (come nell'altra) che il primo sia 10 0,
-& 1
+
+LIBRO
+
+che retta 15, e fare di 5. due parti, che li loro quadrati gionti infieme, facciano 15, e la regola di quella propofta è di giongere  \( \frac{1}{4} \)  al numero dato, e della fomma più gliarne il lato, e a effo lato giongerli  \( \frac{1}{2} \)  per regola, e la fomma è la fomma delli due numeri cercati,
+
+Problema CCLX1111.
+
+Facciafi di 12.due parti, che li loro cubati gionti infieme, facciano 900.
+
+Ben conuiene, che il 900.fia maggiore di due uolte 216.cubo di 6.mezzo di 12, altramente fi trattaria dello impolsibile.
+
+Ponghifi l'una delle parti effere 6.p.1 , e l'altra 6.m.1 , li loro cubati fono 216.p.108 , p.18 2 p.1 3 , e 216.m.108 p.108 2 m.1 3 , che aggiöre infie me, fanno 432.p.316 2 , e douerebbono fare 900, perù 432. p.316 2 fono eguali à 900, che leuato fimile da 36 2 fono eguale à 468, che il Tanto uale R.q.13 1/6 , il primo, che fù poßto 6.p.1 . , farà 6.p.R.q. 2 1/6 , e l'altro 6.m.R.q.13 1/6 , e fanno, quanto fù propoßto, e ne na sce la infracritta régola.
+
+Se fi hauerà, à diuidere vn dato numero in due parti tali, che li loro cubati aggionti infieme habbiano, à fare un terminato numero. Piglifi il mezzo del terminato numero, e fi cubi, e lo auenimento per regola fi caui della metà del terminato numero, e lo reflante fi diuida per tre uolte il dato numero, e dello auenimento fi pigli il lato, e fi aggionghi, e caui della metà del dato numero, e la fomma e lo reflante faranno le parti cercate.
 
 Problema
+
+TERZO.
+
+49
+
+Problema: CCLXK
+
+Trouinfere numeri, che il produtto del primo nel
+secondo (gibontogli il quadrato del terzo) e al produt-
+to del secondo nel terzo (aggiontogli il quadrato del
+primò) e al produtto del terzo nel primo, (aggiontoli
+il quadrato del secondo) facciano tre numeri quadra-
+ti, delli quali pigliati li lati, e aggionti infieme faccia-
+no numero quadrato,
+
+Per la 141 di quello porrò, che il primo fia 20 1, e il secondo 4 1/2, & il terzo 1, che il produtto del primo nel fecondo, col quadrato del terzo è 14641/6561, & il produtto del fecondo nel terzo, & aggiontogli il quadrato del primo è 34724/6361, & il produtto del terzo nel primo (aggiontogli il quadrato del fecondo) è 164836/6561, che li loro lati lono 1 40/81, 2 1/81, e 5 1/81 Tanti, che gionti infieme fanno 8 61/81, e quello fia eguale à un numero quadrato (come fi uoglia) e poniamo, che fia 4, che partito per 8 61/81 ne uie ne 324/709 per la ualuta del Tanto, & il primo, che fu pofto 30/81 tanto farà 80/709, & il fecondo, ch'era 4 80/81 farà 2 198/709, & il terzo 324/709, e fanno quanto fu pro-pofto.
+
+Problems CCLXVI.
+
+Trouinfi tre numeri, che il produtto dellidui, col quadrato dell'altro: facciano numero quadrato, e che le differentie delli lati delli quadrati gionti infieme facciano numero quadrato.
+
+Ponghifi (come nell'altra) che il primo fia 3 & il
 
 ## PDF page 353
 
