@@ -10,7 +10,7 @@ Transcription of `bombelli_1572_lalgebra_parte_maggiore_dellarimetica.pdf` in th
 
 Method: pages 1-360 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
-Second engine: MinerU2.5-Pro 2605 read pages 13, 131, 168, 207, 230, 249, 324, 339, 345, 352; Surya OCR 0.17.0 alone read pages 20, 66, 288, 356-357, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+Second engine: MinerU2.5-Pro 2605 read pages 13, 131, 168, 207, 230, 249, 324, 339, 345, 352; Surya OCR 0.17.0 alone read pages 20, 66, 288, 356-357; Codex gpt-6.2-sol (300 dpi page image) read pages 93, 100, 146, 226, 238, 243, 300, 303, 323, 331, 353, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -6401,72 +6401,38 @@ perche
 
 ## PDF page 93
 
-PRIMO.
-LIBRO
-à sufficienza per potersene seruire nelli Capiteli di po
-perche se si moltiplicarà per il suo Binomio, cioè A. q.
-tenze, tanti, e numero. E di potenze di potenze, e po-
-8.p.7.farà m. 41, e questo è il partitore. Hora propon
-tenze, e numero. Hora quello che seguirà sarà appar-
-gasi di hauere à partire 41. per R.q. 10. p.R.q. 2. p. 1, che
-tenente alli Capitoli di Cubi, potenze tanti, e numero
-se si moltiplica ciasquaa delle parti perR, q.2.p.1. m. R.
-agguagliati fra di loro in diuersi modi, laqual parte è
-q.10. fà per il partitore R.q. 8 m. 7, e per il 41 fà R. q.
-affai più difficile, e più laboriofa della passata, perciò
-3362-p.41m. R.q. 17840, e poi moltiplichisi ciascuna
-bisogna applicarui con ogni attentione intieramente
-delle parti per Riq. 8 por, Binamio di R. q. 8, m. 7, che
-l'animo.
-per il partitore farà m. 41. e per la quantità, che uà par
-(A) (A) (A) (A) (A)
-tita fà R.q. 13 448.p. 451.p.R.q. 164738.m.R.q. 8236-
+124                      LIBRO
+
+perche ſe ſi moltiplicarà per il ſuo Binomio, cioè $R.q.8.p.7.$ ſarà $m.41,$ e queſto è il partitore. Hora propon gaſi di hauere à partire $41.$ per $R.q.10.p.R.q.2.p.1,$ che ſe ſi moltiplica ciaſcuna delle parti per $R.q.2.p.1.$ m. $R.q.10.$ fà per il partitore $R.q.8.m.7,$ e per il 41 fà $R.q.3362.p.41.m.R.q.17840,$ e poi moltiplichiſi ciaſcuna delle parti per $R.q.8.p.7.$ Binomio di $R.q.8.m.7,$ che per il partitore ſarà $m.41.$ e per la quantità, che uà partita fà [illegible: four-term expression], che partito per $m.41.$ ne uiene $m.R.q.8.m.11.m.R.q.98.p.R.q.490.p.R.q.80,$ che poſti per ordine (ponendo prima li più) e riducendo quelle, che ſono ſimili à un nome, ſarà $R.q.490.p.R.q.80.m.R.q.162.m.11.$ per l’auenimento.
+
+E benchè io habbia detto, che il partire per meno non mi era accaduto, e hora quì dimoſtro accadere, però non è neceſſario, e ſi può fuggire. Ma per non eſſer taſſato da gioſſatori maleuoli, hò uoluto porre queſto caſo, e ancora dar la regola del partire.
+
+A partire più per più, ne uien più.  
+A partire meno per meno, ne uien più.  
+A partire men per più, ne uien meno.  
+A partire più per meno, ne uien meno.
+
+Ma caſo che il partitore foſſe $R.q.10.m.R.q.2.m.1.$ ſi potria moltiplicare il partitore, e quello che uà partire per $R.q.10.p.R.q.2.p.1.$ ouero per $R.q.10.p.R.q.2.m.1.$ ouero per $R.q.10.m.R.q.2.p.1.$ & ancora per $R.q.2.p.1.m.R.q.10,$ che tutte ſeruiranno, delle quali (per non eſſer più longo) non metterò gli eſſempij, parendomi eſſer ſuperfluo, perche chi intenderà bene li eſſempij paſſati, ancora intenderà queſti altri.
+
+Quello, che ſino ad hora ſi è detto, à me pare che ſia
+
+à ſuffi-
+
+PRIMO.                   125
+
+à ſufficienza per poterſene ſeruire nelli Capiteli di potenze, tanti, e numero. E di potenze di potenze, e potenze, e numero. Hora quello, che ſeguirà ſarà appartenente alli Capitoli di Cubi, potenze tanti, e numero agguagliati fra di loro in diuerſi modi, la qual parte è aſſai più difficile, e più laborioſa della paſſata, perciò biſogna applicarui con ogni attentione intieramente l’animo.
+
 Modo di Cubare un Binomio.
-90.m.R.q. 134480, che patrito per m. 41. ne uiene m.
-R.q.8.m.n.m.R.q.98.p.R.q. 490. p. R. q. 80, che posti
-Il Cubare un Binomio è come, à Cubare un nume-
-per ordine (ponendo prima li più) e riducendo quelle,
-ro, perche si moltiplica il suo quadrato uia lo istesso Bi-
-che sono simili à un nome, farà R.q. 490. p. R.q. 80.m.
-nomio, & il pro dutto sarà il suo Cubo (comesarebbe)
-R.q. 162. m. 11. per l'auenimento.
-se s haucesse à Cubare R.q.3.p.1. Moltiplichiss R.q.3.
-E benche io habbia detto, che il pareire per meno
-p. 1. uia R.q. 3. p. 1. fà 4. p. R.q. 12, e questo si moltiplica
-non mi era accaduto, e hora qui dimostro accadere,
-uia R.q.3.p.1.fà R.q.108.p.10, e questo è il Cubato di
-però non è necessario, e si può suggire. Ma per non
-R.q.3.p.t.però chi dicesse: dammi il lato Cubico di R.
-osser tassato da giossatori maleuoli, hò uoluto porte
-q. 108.p. 10. farà R. q. 3. p. 1. Il modo del quale por-
-questo caso, e ancora dar la regola del partire.
-t constitution and the second state of the second second second second second second second second second second second second second second second second second second second second second second second second second seco
-P.Ji m A partire più per più, ne then più.
-A partire meno per meno, ne uien più.
-Modo di moltiplicare un Biumio Cubo in fa.
-A partire men per più, ne uien meno.
-A partire pu per meno, ne uien meno.
-Il Moltiplicare de Binomij composti di R. cube non
-Ma caso che il partitore sosse R.q. to.m.R.q. 2. m.t.
-è differente dal moltiplicare delle quadre, solo bisogna
-fi potria moltiplicare il partitore, e quello che uà par-
-auertire nel sommare delle simili di ricordarsi, che sono
-tito per R. q. 10: p.R.q. 2.p. r. ouero per R. q. 10: p.R.q.
-R.cube, e non quadre, e cosi di pigliare il lato cubico
-2.m. 1. ouero per R.q. 10. m.R.q. 2:p. 1. & ancora per R.
-di quelle, che l'haueranno, e con questo uerrò alli
-q.2.p.1.m.R.q.10, che tutte seruiranno, delle quali (per
-effempija neiera anna men din
-non effer più longo) non metterò gli effempij, paren-
-Moltiplichisi R.c.4.p.R.c.2. uia R.c.4.p.R.c.2. Pon-
-domi esser supersuo, perche chi intenderà bene li es-
-gasi in regola (come si uede) poi moltiplichisi.R.c.2.di
-sempij passati, ancora intenderà questi altri.
-sotro uia R.c.2. disopra sà R.c. 4. poi moltiplichisi R. c.
-Quello, che sino ad hora si è detto, à me pare che sia
-2. disotto
-44.12
-à suffi-
+
+Il Cubare un Binomio è come, à Cubare un numero, perche ſi moltiplica il ſuo quadrato uia lo iſteſſo Binomio, & il produtto ſarà il ſuo Cubo (come ſarebbe) ſe ſi haueſſe à Cubare $R.q.3.p.1.$ Moltiplichiſi $R.q.3.p.1.$ uia $R.q.3.p.1.$ fà $4.p.R.q.12,$ e queſto ſi moltiplica uia $R.q.3.p.1.$ fà $R.q.108.p.10,$ e queſto è il Cubato di $R.q.3.p.1.$ però chi diceſſe: dammi il lato Cubico di $R.q.108.p.10.$ ſarà $R.q.3.p.1.$ Il modo del quale porrò auanti.
+
+Modo di moltiplicare un Binomio Cubo in ſe.
+
+Il Moltiplicare de Binomij compoſti di R. cube non è differente dal moltiplicare delle quadre, ſolo biſogna auertire nel ſommare delle ſimili di ricordarſi, che ſono R. cube, e non quadre, e coſì di pigliare il lato cubico di quelle, che l’haueranno, e con queſto uerrò alli eſſempij.
+
+Moltiplichiſi $R.c.4.p.R.c.2.$ uia $R.c.4.p.R.c.2.$ Pongaſi in regola (come ſi uede) poi moltiplichiſi $R.c.2.$ di ſotto uia $R.c.2.$ di ſopra fà $R.c.4.$ poi moltiplichiſi R. c.
+
+2. di ſotto
 
 ## PDF page 94
 
@@ -6908,72 +6874,24 @@ Molti-
 
 ## PDF page 100
 
-138
-I B R TO
-PRIMO.
-£39
-re il Residuo del partitore. Si quadrino cutte tre le R. c.
-tità, che si possono sommare, cioè R. c. 112917224.
-e aggiongansi insieme, facendo sempre, che dicano
-448co. R. c. 32920473600000. & R. c. 56886578.
-piu, fanno R.c. 16.p.R.c. 9. p. R. c. 4. Poi si moltiplichi
-280800. (che come si è insegnato al suo luogo) gion,
-R. c. 4.uia R.c. 3.m. Radice cuba 2. fa R.c. 12.m. R. c. 8.
-te insieme, fanno R. c. 802897430630400. E dalla
-medesima parce del più ci sono tre altre R. che si pos-
-e Radice cuba 3. mia m.R. c. 2. fà m. Radice c. 6, che
-sono similmente sommare, cioè R.c. 121425845990-
-aggionto con R. c. 12. m. Radice c. 8. fa R. c. 12. m.
-40. R. c. 35901111280000. & R. c. 6117313757.
+138    LIBRO
 
-1840, che sommate insieme, fanno R. c. 86339794
-R. c. 4. p. R. c. 3. m. R. c. 2.
-6897920, che unito insieme tutto il più fa 97556. p.
-, Residente p. R. Meligerine, Residente il goulon
-R. c. 802897430630400. p. R. c. 863397946897.
-R. c. 16. p. R. c. 9. p. R. c. 4. p. R. c. 8. p. R. c. 6. m.
-920. E dalla parte del meno sono tre quantità tutte
-tre eguali, che hanno lato, cioè R. é. 2765319782-
-Real Rec. 13. A least a miles
-4000, che il suo lato è 30240, ilqual triplicato per es-
-R.c.4.p.R.c.3.m.R.c.2.
-serne tre eguali, farà 90720, e dalla parte di detto me-
+tità, che [illegible: text] fommare, cioè R. c. [illegible: text] R. c. [illegible: text] infieme, fanno R. [illegible: text] medefima parte del più ci fono tre altre R. che [illegible: text] fimilmente fommare, cioè R. c. [illegible: text] R. c. [illegible: text] R. c. [illegible: text] che [illegible: text] infieme, fanno R. c. [illegible: text] 6897920, che unito infieme tutto il più, fa 97556. p. R. [illegible: text] E dalla parte del meno [illegible: text] quantità tutte tre eguali, che [illegible: text] lato, cioè R. [illegible: text] 4000, che il [illegible: text] e dalla parte di detto [illegible: text] per tre, [illegible: text] R. c. [illegible: text] R. c. [illegible: text] cioè [illegible: text] dalla parte del [illegible: text] le eguali, che fono dalla [illegible: text] del più, è [illegible: text] reftarà più [illegible: text] dalla parte del [illegible: text] infieme faranno 6836, il che è [illegible: text] che partito con [illegible: text] uiene 4. (come [illegible: text] è una rariffima operatione, [illegible: text] ra-re uolte occorrerà il feruirfene, [illegible: text] disfare [illegible: text]
 
-no ui sono tre quantità similmente eguali, cioè Rad. ci
-.. Più Isla la Meno stort on
-29776941875200. che moltiplicata per tre, fa R c.
-in the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the secon
-R. C. 24.
-8028)7430630400, & tre altre ce ne sono pur egua-
-R. c. 18. b R. c. 16.
-li, cioc R, c. 3 1977701736960, che moltiplicata per
-R. c. 24. R. c. 8.Lato 2
+À partire per un [illegible: text] Cubo, oue sia meno.
 
-a R. c. 12. c R. c. 18.
-R. c. 27. cioè 3. fà R. c. 863697946897920, etutte
-queste saranno dalla parte del meno, si che leuate tut-
-d R. c. 32,
-Lato 3. R. c. 27.
-te le eguali, che sono dalla parte del più, e meno,
-f R. c. 48. e R. c. 36.
-R. c. 24. f R. c. 48.
-restarà più 97556, & dalla parte del meno restarà so-
-lamente 90,720, chergionte insieme faranno 6836, il
-II R. c. 32.
-che è esimo di R. e. 4991443829, cioè di 1709, che
-b R. c. 16.
-partito con esso 6836, ne viene 4 (come si propo-<br>se) e questa è una rarissima operatione, ancor che ra-
-₹ R. c. 36.
-Lato 4. R. C. 64.
-re uolte occorrerà il seruirsene, ma io l'hò posta per so
-disfare i curiosi.
-Opla
-648
-A partire per un Trinomio Cubo, oue sia meno.
-5. p. R. c. 641.
-Partifi 1546.per R.c.4.p.R.c.3.m.R. c. 2.per trous-
-R.C.
-12 .
+[illegible: text] per R.c. [illegible: text]
+
+PRIMO.    139
+
+[illegible: text] il Refiduo del partitore. Si [illegible: text] infieme, facendo sempre, che [illegible: text] più, fanno R. c. [illegible: text] p. R. c. 9. p. R. c. [illegible: text] R. c. [illegible: text] m. Radice cuba [illegible: text] e Radice cuba [illegible: text] uia m. R. [illegible: text] fa m. Radice [illegible: text] 6, che aggionto con R. c. 12. m. [illegible: text]
+4. p. R. [illegible: text] R. c. 2.
+
+[illegible: text]
+
+R.c.16. [illegible: text]
+
+<table><tr><td>[?]</td><td>[?]</td></tr><tr><td>[?]</td><td>[?]</td></tr><tr><td>[?]</td><td>[?]</td></tr><tr><td>[?]</td><td>[?]</td></tr><tr><td>[?]</td><td>[?]</td></tr><tr><td>[?]</td><td>[?]</td></tr><tr><td>[?]</td><td>[?]</td></tr><tr><td>[?]</td><td>[?]</td></tr><tr><td>[?]</td><td></td></tr><tr><td>[?]</td><td></td></tr><tr><td>[?]</td><td></td></tr><tr><td>[?]</td><td></td></tr><tr><td>[?]</td><td></td></tr><tr><td>[?]</td><td></td></tr><tr><td>[?]</td><td></td></tr></table>
 
 ## PDF page 101
 
@@ -10097,81 +10015,46 @@ e questo
 
 ## PDF page 146
 
-231
-SECONDO.
-OLABBO
-230
-qualità, che ho eletto nel principio, cioè che li tanti sia-
-Del partire delle Dignità rotte per sane.
-no il lato de i cubi, & il numero sia il lato cubico del nu
-mero; poi si quadri ciascuna delle parti del partitore da
-Partafi 3 Up. 8. efimi d'
-se cioè 1 1, e 2. faranno 1 2, e 4, e questi sempre saran
-3. p. 8. p. 1. per 2 p. 4. Pon-
-no più, che gionti insieme fanno 1 2 p. 4; poi si moltipli
-2. p. 4.
-gafiin regola (come si fà nel
-ca 1 1 uia 2, fa 2 1; e perche 1 1, e 2. sono ambidui p.
-partir de rotti) ponendo il
-<u>.</u>
-& à moltiplicare l'una uia l'altra fanno p. se gli sa can-
-1. p. 1. partitore à man finistra, e po
-giar natura, e dirà meno, & se uno fusse m. e l'altro p.
-nendoli sotto 1. (come fiue
-che farebbe m.Si dirà p. (come fù insegnato nel parti-
-de) poi si moltiplica 1. incro
-re per un Binomio, & un Trinomio Cubo) si che gion-
-3. p. 8.
-ce uia 3 . p.8.fa 3 . p.8,il
-te m. 2 1 con 1 1 p.4, fa 1 2 p. 4. m. 2 1, e questo è
-qual si pone sopra la linea.b.
-l'auenimento à pareire 1 3 p.8.per 1 @ p.2. senza sa-
-poi si moltiplica 2 p.4 uia
-2. p. 6. p. 4.
-re altra danda.
-1 Up.1, fa 2 2 p. 6 Up. 4, il
-Partafi 1 3 m. 27. per 1 0 m. 3. Se il partitore dicel
-qual si ponga sotto la linea.b, e cosi si formara il rotto,
-se 1 p.3.tal partimento non si potrebbe fare, perche
-che dira 3 1 p.8.esimi di 2 2 p.6 1 p.4,e sarà l'aue-
-bisogna che il numero, ch'è con li Cubi sia della mede-
-nimento di detto partire.
-sima natura del numero, ch'è con li Tanti, (cioè se quel
-Partafi 6 & p. 2. esimo di
-lo, ch'è con li cubi è p. sia anco p. quello, ch'è con li Tan
-2 2 p.5 1 per 3 2 m.s. Fac
-ti, e se il numero, ch'è con li Tanti è meno, quello, ch'è
-6.p. 2. ciasi (com'è detto') ponendo
-3. m. 1.
-col cubo bilogna, che sa meno) ma per tornare al par-
-in regola le dignità (come si
-zimento detto uedali se il numero, ch'è con li Tanti è il
-uede)poi si moltiplicht 1,ch'è
-3 0
-1.
-lato cubico del numero, ch'è con li Cubi, e se li Tanti so
-2. p.5. fotto fa linea.b. uia 6 . p. 2.
-no il lato del cubo, cubando ciascuna da se, e questi pro
-ch'è sopra la linea. c. fara 6
-posti hanno tal proportione. però quadrisi i j fai 2,
-• p. v, qual si ponga sopra la
-6. p. 2.
-e. 3. fa 9, che gionti insieme fa 1. ¿ p. 9, poi si moltipli-
-linea.d, poi si moltiplichi 2 2
-ça 1 5 uia m.3, fa m.3 5, alle quali si fà cangiar natu-
-3 p.5 toch'e sotto la linea c.
-raje saranno p. 3. C, che gionte con 1 3 p. 9. fa 1 3 p.
-6. p. 13. m. 5. 1 uia 3 2 m. 1, ch'è sopra la li
-3 p.9, e quest'è l'auenimento, à partire 1 3 m. 27.
-nea. b. fa 6 3 p. 13 2 m. 5 2,
-per 1 m.3, e quanto à questo partire:questi essempij
-ilquale si ponga sotto la linea. d, e cosi sarà sormato il
-sono sufficientissimi al partire d'ogni quantità, col sa-
-totto, che sarà l'auenimento di tal partire.
-perli applicare doue bisognarà. Hor si uerrà al partire
-de rotti per sani . propin a propin de la contra a contra a contra a contra a contra a contra a contra a contra a contra a contra a contra a contra a contra a contra a contra a contra a contra a contra a contra a contra a 
-Partire
-Del
+230    LIBRO
+
+qualità, che ho [illegible: text] nel principio, cioè che li tanti [illegible: text] i cubi, & il numero fia il lato [illegible: text] quadri ciafcuna delle parti del partitore da [illegible: text] che gionti infieme fanno [illegible: text] p. [illegible: text] poi fi [illegible: text] a moltiplicare [illegible: text] l'altra fanno p. fe gli [illegible: text] natura, e dirà meno, & fe uno [illegible: text] l'altro p. che farebbe m. Si dirà p. (come [illegible: text] per un [illegible: text] un Trinomio Cubo) [illegible: text] che gion- [illegible: text] p. [illegible: text] per [illegible: text] danda,
+
+Partasi [illegible: text] m. [illegible: text] per [illegible: text]
+p. [illegible: text] tal partimento non [illegible: text] potrebbe [illegible: text] perche
+[illegible: text] il numero, ch'è con li Cubi fia della [illegible: text] natura del numero, ch'è [illegible: text] Tanti, (cioè fe quel
+lo, [illegible: text] li cubi è p.fia anco p. quello, ch'è con [illegible: text]
+Tanti è meno, quello, ch'è
+[illegible: text] meno) ma per [illegible: text] il numero, ch'è con li Tanti è il
+[illegible: text] cubico del numero, ch'è [illegible: text] li Tanti fo
+no [illegible: text] del cubo, cubando ciafcuna da fe, e [illegible: text]
+posti hanno [illegible: text] proportione, però quadrifi [illegible: text]
+e [illegible: text] fa 9, che [illegible: text] fa cangiar [illegible: text] faranno p. [illegible: text] che gionte con [illegible: text]
+à partire 1 [illegible: text]
+per [illegible: text] m. [illegible: text]
+al partire d'ogni quantità, col [illegible: text] applicare doue bifognarà. Hor fi uerrà al partire
+[illegible: text]
+
+SECONDO.    231
+
+[illegible: text] partire delle Dignità rotte per fane.
+
+Partafi 3 [illegible: text] regola (come [illegible: text] partir de rotti) ponendo il partitore à man [illegible: text] fotto 1. (come [illegible: text] de) poi fi moltiplica [illegible: text] fi pone sopra [illegible: text] linea.b. poi fi moltiplica [illegible: text]
+
+qual fi ponga [illegible: text] linea.b, [illegible: text] che dirà [illegible: text] di detto [illegible: text]
+
+Partafi 6 , p. [illegible: text] efimo di
+[illegible: text]
+com'è detto) ponendo
+[illegible: text] dignità (come [illegible: text]
+b.uia 6 [illegible: text]
+sopra [illegible: text] c. fara 6
+[illegible: text] qual fi ponga [illegible: text]
+b.fa 6 3 p. [illegible: text]
+
+ilquale fi ponga [illegible: text] il
+totto, che farà [illegible: text] di tal partire.
+
+[illegible: text]
 
 ## PDF page 147
 
@@ -15478,70 +15361,21 @@ p.K.c.
 
 ## PDF page 226
 
-SECONDO.
-388
-OLIBROS
-p.R.c. 120 p.6.p.R.c. 225, che tolto il lato dell'una,
-Capitolo di potenza potenza, e numero e guale à
-e dell'altra parte, si hauerà 1 2 p.1 0 p.R.c.15. eguale
-Cubi , a Tanti .
-with a single
-2 R.q. L R.c. 1 20.p.1 _ 1 p.R.q. L R.c. 225.p. 6.1; che
-Questo Capitolo è sempre generale, perche rarisi-
-agguagliato, il Tanto ualerà tutto questo composto
-me uolte uiene ad altro agguagliamento, che à 3 e 1
-R.q. L R.q. L 16. p. R. c. 225 1 p. 2 m. R. c. 1 3 1
-eguale à numero, e di esso sempre si fa una sola positio-
-m.R.q. L R.c. 1 7 p. 1 1 p. 12.
-ne, cioè p. r 💽 di numero Benche anco si potrebbe fa
-re m. r & di numero. Ma non enecessaria del quale
-Capitolo di potenza potenza, e Tanti eguale à
-ponerò folo un'essempio.
-Cubi, e numero.
-Agguaglisi 1 4 p. 15. à 6 3 p. 78 1. Moltiplichisi
-l'ottauo del quadrato de 3, ch'è 4 - uia il numero,
-Il presente Capitolo patisce le eccettioni del passa-
-fa 67 -, che siaggionge con l'ottauo del quadrato
-to, cioè de Capitoli di 3 eguale à le numero, e 3, &
-delli J, fa $28, che fi salus. Poi si moltiplica la me-
-numero equale à ., e si può fare la positione in due
-tà delli I nia la metà de 3, fa 117, del quale se ne ca-
-modi (come del passato). Ma di questo porrò solo
-ua il numero, resta 102, che sono E, alli quali per re-
-uno estempios de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la companya de la company
-gola si aggionge 1 3 fa 1 3 p. 102 5, & e eguale all'
-Agguaglisi 1 4 p.20 3 à 4 3 p.11. Moltiplichisi l'ot
-818. serbato di sopra, che agguagliato, il Tanto uale-
-tauo del quadrato de 3, ch'è . uia il numero fa 22, e si
-rà 6. il quale fraggionge a 1 2 m. 3 1, fa 1 2 m. 3 2
-eaua dell'ottauo del quadrato delli ;; ch'è 50, resta
-p. 6. e li m. 3 15 nascono (come su detto nel Capitolo
-28, e si salua, poi si moltiplica la metà de 3 uia la me-
-passato dalla metà de 3) che il suo quadrato sarà 1 [4
-tà delli 1, fa 20, e se ne caua il numero, cioè 11, resta 9,
-m.6 3 p.21 2 m.36 1 p.36, che leuatone 1 4 p. 15,
-e sono , che aggionti co'l numero serbato fanno 28.
-resta m. 6 3 p. 21 2 m. 36 p. 36, e questa quantità
-p.9 , e questo è eguale à 1 5, che agguagliato, il
-si aggionge à 6 3 p. 78 1 , fa 21 2 p. 42 1 p.21, che
-Tanto uale 4, che aggionto con 1 3 m. 212, fa 1 2 m.
-il suo lato è R. q. 21 p. R. q. 21, ch'è eguale à 1 2
-Ep. 4. & lim. a Unascono dalla metà de 3 e sono
-m. 3 1 p. 6, che agguagliato, il Tamo ualerà R. q.
-m. perche gli 3 sono dalla parte contraria del +, cho
-LR.q. 131 4 p. 1. 4 7 m. R.q. 5 4 mit 4.
-il suo quadrato è 1 4 m. 4 3 p. 12 2 m.16 3 p. 16, che
-cauatone 1 4 p. 20 1 restano 12 2 m. 4 3 m. 36 1 p.
-Capitolo di potenza potenza, Cubi, e Tanti, eguale à numero.
-16, e tutto questo si deue giongere à 4 3 p. 11, fa 12 3
-m. 36 . p. 27, che il suo lato è R. q. 27. m. R. q. 12 .
-Il presente Capit. patisce le eccettioni delli, Capitoli
-ch'è eguale à 1 3 m.2 1 p.4 detto di sopra, che aggua
-di 3 eguale a 5, e numero, e di 3, e numero egua
-gliato, il Tanto ualerà RR.q.3.p.t.m.R.q.3.
-le à 1, e massime, quando il numero delle potenze
-è grande
-Capitolo
+388    LIBRO
+
+p.R.c. [illegible: text] p. [illegible: text] p.R.c. [illegible: text] che tolto il [illegible: text] dell'altra parte, [illegible: text] hauerà [illegible: text] p. [illegible: text] p.R. [illegible: text] p. R.c. [illegible: text]
+di potenza potenza, e Tanti [illegible: text] à Cubi, e numero.
+
+Il prefente Capitolo [illegible: text] cioè de [illegible: text] 3 eguale à [illegible: text] e [illegible: text] e fi può fare la positione in due modi ( [illegible: text] del paffato). Ma di [illegible: text] porro solo [illegible: text]
+tauo del quadrato [illegible: text] la metà de 3 uia la [illegible: text] à delli 1, fa [illegible: text] e fono [illegible: text] fanno [illegible: text] che agguagliato, il Tanto uale [illegible: text] p. [illegible: text] nafcono dalla metà de 3 e [illegible: text] m.perche gli 3 fono dalla parte contraria del [illegible: text] m. [illegible: text] 3 p. [illegible: text] che cauatone 1 4 p. [illegible: text] 4 3 p. [illegible: text] m. [illegible: text] è R.q. [illegible: text] m. R.q.12 [illegible: text] che aggua gliato, il Tanto ualerà [illegible: text]
+
+SECONDO.    389
+
+[illegible: text]
+Capitolo è sempre generale, perche [illegible: text] uolte uiene ad altro agguagliamento, che a [illegible: text] e [illegible: text] e di [illegible: text] sempre fi fa una fola [illegible: text] cioè p. [illegible: text] Benche anco fi potrebbe fa [illegible: text] Ma non è [illegible: text] del quale [illegible: text]
+à 6 3 p. [illegible: text] l'ottauo del quadrato de 3, ch'è 4 uia [illegible: text] fa [illegible: text] l'ottauo del quadrato dellì, fa [illegible: text] Poi fi moltiplica la [illegible: text] dellì [illegible: text] la metà de 3, [illegible: text] del quale [illegible: text] che fono, alli quali per [illegible: text] fi aggionge 1 3 fa 1 [illegible: text] p.102 & [illegible: text] di fopra, che agguagliato, il [illegible: text] 6. il quale fiaggionge [illegible: text] 2 m. [illegible: text] nafcono (come fu [illegible: text] Capitolo paffato dalla metà de 3) che [illegible: text] quadrato farà 1 [illegible: text] 3 p.21 [illegible: text] m. [illegible: text] p. [illegible: text] che leuatone [illegible: text] 4 p.15, [illegible: text] p. [illegible: text] 2 [illegible: text] quantita [illegible: text] che il [illegible: text] è R. q. [illegible: text] p. R. q. 21, ch'è [illegible: text] m. 3 [illegible: text] p. 6, che agguagliato, il [illegible: text] ualerà R. q. [illegible: text]
+di potenza potenza, Cubi, e [illegible: text]
+Capit. patisce le [illegible: text] dellì, Capitoli di 3 [illegible: text] egua le à [illegible: text] quando il numero [illegible: text] potenze è grande
 
 ## PDF page 227
 
@@ -16247,60 +16081,23 @@ meno, cioè con 1 + è m. 16, e con li 12 + è p. 24, e le
 
 ## PDF page 238
 
-5 B C O B D C.
-118
-Commence of the second second
-CARTON CONTROL CONTROL CONTROL CONTROL CONTROL CONTROL CONTROL CONTROL CONTROL CONTROL CONTROL CONTROL CONTROL CONTROL CONTROL CONTROL CONTROL CONTROL CONTROL CONTROL CONTROL CONTROL CONTROL CONTROL CONTROL CONTROL CONTROL
+413
 
-the things are a second to the group of
-Notes 1 to 18 to 2 to 18 to 18 to 18 to 18 to 18 to 18 to 18 to 18 to 18 to 18 to 18 to 18 to 18 to 18 to 18 to
-the first of the first of the first of the first of the first of the first of the first of the first of the first of the first of the first of the first of the first of the first of the first of the first of the first of t
-ALGEBRA
-ACCOUNT COURSE SHARE THE SECOND SHARE SECOND
+L’ALGEBRA
+
 PARTE MAGGIORE
-<math>h_{-1}(A_{-1}^{-1} - Q_{-2\gamma_1} - B_{-1}^{-1}) = 0</math>
-DELL'ARIMETICA
-A. . . . . . . . . . . . . . . . . . . 
-And the first of the first of the first of the first of the first of the first of the first of the first of the first of the first of the first of the first of the first of the first of the first of the first of the first 
+
+DELL’ARIMETICA
+
 DI RAFAEL BOMBELLO
-es duot trating to the stronger
+
 BOLOGNESE.
-Blance are problems of
-man in the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the s
+
 Libro Terzo.
-tal of the stage
-Creminarpy and transfer and the
-all the same and previous account a wish
-<b>3</b>6 ( , 100, 20 th 6 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +
-SSENDOMI posto nell'a-
-that asked have a first of the second second
-nimo, quando io mi risolsi di
--in Linguista to the state of the state of
-coporre la presente opera: uo
-$ profession and
-lere ( ad immitatione de com-
-. . . . . . . . . . . . . . . . . . . . 
-mendati segittori cosi antichia
-引起身下气
-22 disease 3. 1 11 11 11 11 11 11 11 11 11 11 11 11 
-come maderni) co l'ordine di-ul
-stributino procedere nella sel!
-400 in .....
-100 mm
-situra di quella: nolsi diniderla
-11 . 1 . . . . . . . . . . . . . . . . 
-huc partin the libri fono flatis coti nel primo ragionai
-delle fimplici noci di questa disciplina, e loro diffinitio
-ne, e d'operationi; nel secondo trattai delle dignità di
-essage sucagguagliationi. Hora in questo terzo, & uhi-
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-mo libro con non picciolo mio cótento poiche son gió
-to al desiato fine di questa disciplina; il qual'è, potere
-col mezo delle regole insegnate nel primo, e secondo
-libro, sciogliere tutti gli dubbij de Problemi Aritmetici
-così di numeri Rationali, come itrationali, materia non
-- meno
-EE
+
+ESSENDOMI poſto nell’animo, quando io mi riſolſi di comporre la preſente opera: uolere (ad imitatione de commendati ſcrittori coſi antichi, come moderni) cõ l’ordine diſtributiuo procedere nella teſſitura di quella: uolſi diuiderla in tre parti, che libri ſono ſtati; coſi nel primo ragionai delle ſimplici uoci di queſta diſciplina, e loro diffinitio ne, e d’operationi, nel ſecondo trattai delle dignità di eſſa, e ſue agguagliationi. Hora in queſto terzo, & ultimo libro con non picciolo mio cõtento poiche ſon gionto al deſiato fine di queſta diſciplina; il qual’è, potere col mezo delle regole inſegnate nel primo, e ſecondo libro, ſciogliere tutti gli dubbii de Problemi Arimetici coſi di numeri Rationali, come irrationali, materia non
+
+E E                                      meno
 
 ## PDF page 239
 
@@ -16577,69 +16374,36 @@ Ta
 
 ## PDF page 243
 
-TERZOI
-LIBRO
-mattato dell'impossibile, perche non bisogna, che la
-Tia maggiore dell'altro un dato numero, e che li loro
-parte maggiore moltiplicata no bnumero dato: produ-
-quadrati cauato-l'uno dell'altro: resti un determinato
-chi un numero eguale, ò maggiore del numero da di-
-'edumero pareafi il cetminato numero per il doppio del
-dato numero je dell'adenimento de ne cavi la metà del
-uidersi .
-dato numero, e lo restante sarà il numero minore ima
-Problema X I I I I.
-auertiscafi, che se a partire il terminato numero peril
-11:02:05 16 0 15:01:02 2012; 27:20 017: 4 20.
-doppio del dato numero) l'auenimento sarà minore
-Trouifi un numero, che cauarone 90, e 30; li dui re-
-della metà del datonumero, fi tratterà dell'impossibile.
-famiil maggiore sia quattrouolte il minore.
-Trouinsi due numeri, che l'uno. sia. 6. più dell'akto, e
-Ponghifi, che il numero da trouarsi sia 11 , che ca-
-che cauato il quadrato del minore del quadrato del
-tandolene goje 30, refta t. 1 m. 90, et 5 m. 30, et 3
-maggiore resti.
-m.90. deue essere la parte minore: però quattro uolte.
-Per la regola data nella passata partasi. 1 J. per. 124
-1 m.90, ch'è 4 m.3 60. deue essere eguale alla par
-doppio di.6, nè uiene - 1 z, e di questo se nè caui 3. me
-temaggiore, ch'è i d mi30 però 4 e mi360 à egua-
-rà di-6; resta 1 0 m. 3, e questo è il minore e il mag-
-leà ti m. 30, che leuatoilmeno da ogni parte gion-
-giorethra 📑 😉 p. 3.
-gendo 360. à 1, 1 m. 30, e 30. à 4 m. 360, si hauer à
-Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo Carlo 
-4 . p.30. eguale à 1 . p.360, che cauato 30. da ogni
-Problems X 111.
-parte, si hauerà 4 eguale à 1 ep.330, e cauato 1 e
-da ogni parte, fi hangrà 3 egualeà 330, che aggua-
-Dividafi. 100/in due partische il quarto del primoli
-gliato, il Tanto valerà 110, e 110. sarà il numero, che si
-peri il setto del secondo di 18. 2 mino 14
-cerca, che cauatone 90. resta 20, e cauatone 30, resta
-Poghifi, che il fecondo fia. 6: pehe il fuo festo farà.
-80, ch'è quattro uolte tanto, quanto 20. (come fo
-1. 3, il quarto del primo di necessira sarà. 18. p. 1. 1,
-Ponglebrian it can it survey Tree ( . slout
-che cosi leuatone la testa parre, del fecondo; resta 18,0
-tutto il primo sarà 4 ... p. 7 ve resta, che ambidui gionu
+422    LIBRO
+
+[illegible: text] maggiore dell'altro un dato numero, e che li loro quadrati [illegible: text] determinato numero [illegible: text] doppio del dato [illegible: text] il numero minore, ma [illegible: text] numero) l'auenimento farà minore [illegible: text] metà del [illegible: text] tratterà [illegible: text]
+due numeri, [illegible: text] fia.6. più [illegible: text] che cauato il quadrato [illegible: text] quadrato del maggiore refti. [illegible: text]
+per. [illegible: text] doppio di.6, né uiene [illegible: text] e di [illegible: text] nè caui [illegible: text] di- [illegible: text] resta [illegible: text]
+due parti, che il quarto del primo fu
+peri il [illegible: text]
+fuo fefto farà.
+[illegible: text] il quarto [illegible: text] p. [illegible: text]
+il primo farà. 4 [illegible: text] refta; che ambidui gionti
+[illegible: text] 100, ma fanno. [illegible: text] p. 72, però [illegible: text] delle parti
+haueremo [illegible: text] Tanto
+uale [illegible: text]
+100, & il quarto del primo, [illegible: text]
+3, ch'è il [illegible: text] del fecondo; [illegible: text] 18. (come fu propofto.)
+[illegible: text]
+att ato
+
+[illegible: text]
+
+TERZO.    423
+
+[illegible: text] maggiore [illegible: text] numero eguale, [illegible: text]
+un numero, che [illegible: text] il minore.
+
+[illegible: text] m.90, deue effere [illegible: text] minore: però quattro uolte 1 m. [illegible: text] ch'è 4 m. [illegible: text] deue [illegible: text] p. [illegible: text] eguale à 1 [illegible: text] cauato [illegible: text] da ogni parte, fi [illegible: text] eguale à [illegible: text] da ogni parte, fi [illegible: text] 3 30, che aggua- gliato, il Tanto valerà 110, [illegible: text] farà il numero, che [illegible: text] cerca, che cauatone 90, [illegible: text] cauatone [illegible: text] ch'è quattro uolte tanto, quanto [illegible: text] come [illegible: text]
+
 Problema X V.
-infieme; faccinno 200, ma fanno 20 1 p.72, però que
-'sto è eguale à 400, che leuato. y 1, a ciascuna delle patti
-Trouis un numero, che giontoli 190, e 30, le som-
-haueremo 10 eguale a 18, che agguagliato; il Tanto
-me fiancin proportione dupla . Openion on the sect
-uale 2-4. però il primo, ch'era 4 p. 71. farà . 8 3 15, eil
-Ponghifi, che tal numero fia 1 , che giornoli 90,
-secondo, che era 6 1 farà vo 4; che gionti insieme tan-
-030.fa.1 & p.90,01 & p.30; resta, che I & p. 90. sia
-no 100, & il quarto del primo, ch è 20. 4. Cauatone. 1
-doppioà i p. 30, mail doppie d'i p. 30, e 2 ! p.
-4, ch'è il setto del secondo; resta 18-(come fu proposto.)
-60 però è eguale à 1. p.90, che agguagliato; il Tan-
-Auertendeli, che feil. 48. fulle ftato. 25, ò più, fi faria
-tr att ato
+
+[illegible: text] che giontoli [illegible: text] Ponghifi, che [illegible: text] fia 1, che [illegible: text] p. [illegible: text] pero è [illegible: text]
 
 ## PDF page 244
 
@@ -20452,73 +20216,26 @@ maggiore
 
 ## PDF page 300
 
-LIBRO
-TERZO.
-535:
-337
-en white on the standing of the standing
-che leuato il rotto, e ridutto à 1 3 fi hauerà 2 4 p.256
-eguale à 68 2, che agguagliato; il Tanto ualerà 2. pe+
-Problema C L 111 Ignations 1. . . . . .
-to il primo numero che fu posto i b sarà 2, & il secon
-do che su posto 16. esimo d'1 ¿ sarà 8; e ne nasce la se
-Trouinsi dui numeri ouer quatità tali, che il I oro pro
-dutto sia 16, e che partito l'un per l'altro ne uen ga 4.
-guente regola . . . . . . . . . . . . . . . . . . .
-Se si haueranno à trouare dui numeri tali, che il log
-Ponghih, che l'uno di dettinumeri fia 1 1 l'altro fa-
-produtto sia un terminato numero, e che partito il mag
-rà i d'enmo d' e jaccioche il lor produtto fia 16.Hor
-giore per il minore, & il minore per il maggiore, e gli
-wedafi, se à pattire l'un per l'altro ne nien 4 però partasi
-auenimenti gionti insieme faccino un dato numero;
-16.esimo d'i & per i , ne uiene e 6.esimo d'i 3, e que
-moltiplichisi il dato numero uia il terminato numero, e
-sto è eguale à 4, che leuaro il rotto; & agguagliato, il
-la metà del produtto fifalui, e l'altra si moltiplichi in
-il Tanto ualerà 2. però il primo numero farà 2/ & il fe-
-se stessa, e del produtto si caui il quadrato del termina-
-condo 8, e ne nasce la seguente regola.
-to numero, e del restante si piglia il lato, ilquale si caui
-Se fi haueranno à trouare dui numeri tali, che il lot
-della metà serbata di sopra, e del restante si pigli il lato,
-produtto fia un dato numero, e che partito l'un per l'al-
-ilquale farà uno delli numeri cercati, co'l quale si parta
-tro ne venghi un terminato numeros partali il dato nui
-il terminato numero, e ne uerrà l'altro.
-per il terminato numero, e dell'anenimento fi pigli d'a
-to, ilquale fara uno delli cercati numeri, coil quale il
-Problema CLVI.
-parta il dato numero, ò si moltiplichi il terminato nu-
-mero, e ne uerrà l'altro.
-Faccifi di to.dui parti tali, che il loro produtto fia
-eguale alla somma delli loro quadrati partita per es-
-Problema CLV.
+536    LIBRO
 
-Ponghi i, che à moltiplicare l'una uia l'altra, il pro-
-U10.
--Troulnst dui numeri, ouero quantirà tali eche il sor
-dutto habbia ad essere i 🚉 e saccisi di rocdue partitali,
-produtto fia i 6,e che partito il maggiore per il mino4
-the il lor produtto sia i , che per la 80, di que sto, l'una
-re, & il minore per il maggiore, e'gli auenimenti gionti
-Grasm.R.q. Lasimit J, el'altra s.p.R.q. Lasim,
-inteme faccino de la contrata de la contrata de la contrata de la contrata de la contrata de la contrata de la contrata de la contrata de la contrata de la contrata de la contrata de la contrata de la contrata de la contra
-J, che li lor quadrati sono so, m. t e m. R. q.
-Ponghistiche l'uno di detti dui numeri fia i 1, el'al-
-L 2500.m. 100 1,e 50.m. 2 p.R.q. L 2500. m. 109
-tro 16. cumo d' & accioche il loro produtto fia 16. Hot
-¿, che gionti insieme fanno 100. m. 2 , che partito
-partafite. esimo d'an per tot, ne uiene 16. esimo d't
-per tome uiene to. m. 2 ., e questo è eguale à 1 ...
-¿, e partito i e per 16 esimo d'a !!, ne viene i 2 cfi-
-che si pose essere il produtto delle due parti cercate,
-modi 167e questi suenimenti gionti infieme tanno 1
-the leuato il meno, & agguagliato; il Tanto ua-
-4 p. 256. elimo di 16 3, e questo e eguale à 4.
-lerà
-4 7.17.01
-che
+[illegible: text]
+pro
+dutto sia [illegible: text] che partito l'un per l'altro ne [illegible: text]
+efimo d' [illegible: text] che [illegible: text] agguagliato, il Tanto [illegible: text] però il primo [illegible: text] condo [illegible: text]
+un dato numero, [illegible: text] che partito [illegible: text] co'l quale [illegible: text] il dato numero, [illegible: text]
+e che partito il maggiore per il [illegible: text]
+l'uno di detti [illegible: text] il loro produtto fia [illegible: text] mo di [illegible: text] tanno [illegible: text] di [illegible: text]
+
+TERZO.    537
+
+[illegible: text] rotto, e ridutto à [illegible: text] à 68 2, che agguagliato; il Tanto ualerà [illegible: text] pe- [illegible: text] il primo numero che fu pofto [illegible: text] do, che fù pofto [illegible: text] farà 8; e [illegible: text] guente regola.
+
+[illegible: text] à trouare [illegible: text] un terminato numero, e che partito il [illegible: text] minore, & il minore per il maggiore, [illegible: text] infieme faccino un dato [illegible: text] il dato numero [illegible: text] il terminato numero, [illegible: text] del produtto [illegible: text] in fe [illegible: text] produtto fi caui il quadrato del [illegible: text] fi caui della metà ferbata di [illegible: text] quale [illegible: text] il terminato numero, e ne [illegible: text] l'altro.
+
+Problema [illegible: text]
+tali, che il loro produtto sia
+eguale alla [illegible: text] quadrati [illegible: text]
+che a moltiplicare [illegible: text] habbia ad [illegible: text] che il lor produtto sia [illegible: text] che per la 80.di [illegible: text] p.R.q.L [illegible: text] che li [illegible: text] quadrati [illegible: text] che gionti [illegible: text] uiene [illegible: text] e questo è eguale [illegible: text] che fi pofe effere il produtto delle [illegible: text]
 
 ## PDF page 301
 
@@ -20656,77 +20373,23 @@ NN
 
 ## PDF page 303
 
-TER ZOI
-ID I BIRHOT
-543
-547
-to sarà 4 p. 44 Il produtto ma del primo nel ter?
-Perche si uuole, che il produtto della prima nella se
-zo con l'unità è 9 g p. 12 g p.9, ch'è quadrato, e cust
-conda infieme con l'unità faccia quadrato. Però se da
-habbiamo trouate le tre quantità, che la prima è a 25
-qual si uoglia quadrato si cauarà l'unità, lo restate si po
-p.23la seconda 1 35 e la terza 4 1 p.4, che fanno quan
-trà ponero per il producto del prima nel secondo je sia
-to a propone , E is sent to & something to the propone it is to the propone it is to the propone it is to the propone it is to the propone it is to the propone it is to the propone it is to the propone it is to the propone
-il quadrato a de parte par, che caitatone l'unità resta t
-3.p.2 J. e questo poneremo per produtto del primo
-nel secondo, e per trouarli se paratamente pongo; che il
-Problema CLX 11.
-secondo san J. & il primo sarà 1 1 p.2, e perche il pro
-dutto del secondo nel terzo insieme con l'unità de ue fa
-Trouinsi quattro numeritali, che al produtto di dui
-qual si doglia gionto l'unità faccia quadrato. , Caos mb
-re un quadrato apongo, un'altro quadrato a qualifia 9
-Perche il produtto del primo nel secondo insieme?
-2 pi6 di p.i, che nauatone l'unità, resta 9 2 p. 6. di, é
-con l'unità deue fare un quadrato; se di qual si noglia
-questo pango per produtto del secodo nel terzo, e per
-quadrato si cauarà l'unità si hauerà il produtto del pri-
-che il secondo su posto i gil terzo sarà 9 1 p.6, testa,
-monel secondo. Hor sia il quadrato 1 3 p. 2 1 p. 1.
-che il produtto del terzo nel primo , qual'è 9 2 p. 24
-(che il suo lato è ; p. 1, ) se se de cauarà i, restarà 1 3
-3 p. 13 insteme con l'unità | ch'ein tutto 9 2 p. 24 1
-p.2 ., e questo si può ponere per produtto del primo
-pars dia eguale à un quadrato, e le fusie 9 2 p. 24 1 p.
-nel secondo, e ponendo il primo i 🚉, il secondo fara I
-16. sarebbe espedital'altra conditione, mail 15. nasce,
-Up.2. Hor per trouare il produtto del primo, e terzo
-dal produtto delle due unità, e del 6.accompagnato có
-m'immagino un quadrato fatto da 2 . p. 1. per la ra-
-l'unità, & il 2 uiene dal doppio d'1 🖰 uia 1, & il 6 nasce
-detra nella patfata, il quale quadrato farà 4 2 p.
-dal doppio fatto da 3 1 m. 1; bisogna dunque, the
-due nolte li Tanti infieme con l'unità faccino un qua-
-4 · p.s.del quale cauatone l'unità resta 4 2 ps 4 0, e
-q' ... fia il produtto del primo, e terzo, e perche il pri-
-drato, e perche habbino à fare tale effetto, bilogna che
-il numero delli Tanti delli lati delli dui quadrati si se-
-11 o . a posto 1 . ; il terzo sarà 4 ! p.4, e per trouar il
-guirino, cioè che se l'uno è 2,0 3; l'altro sia 3, 0 4; pon-
-quirto; m'immagino un quadrato fatto da 3 3 p. 1.
-gluss dunque, che il lato del primo quadrato sia 1 1 p.
-per la ragione detta nella paffata) il quale farà 9 3 p.
-6 p. 1, che cauatone l'unità sesta 9 2 p.6 1, e que-
-1, il quadrato sarà 1 2 p. 1 de p. 1, che leuatone l'unità,
-lio ponerò per produtto del primo nel quarto, che per
-resta 1 3 p. 2 5 e questo si ponghi per produtto del
-(Mere il primo 1 & , il quarco farà 9 c. p. 6, e perche
-primo, e secondo, ponghisi il secondo essere 1 1, &il
-il producto del secondo nel terzo infieme con l'unità
-primo sarà 1 1 p. 2, e per l'altro quadrato si pigli per
-suo lato 2 1 p. 1, che il quadrato sarà 4 3 p. 4 1 p.1,
-è quadrato; resta, che il produtto del secondo nel quat
-che cauatone l'unità, resta 4 2 p.4 9 per produtto del
-to insieme con l'unita sia quadrato; ma è 9 3, p. 24 1
-p. 13. però farà eguale a un quadrato inflquale fia;
-secondo nel terzo, & estendo il secondo i L, il ter-
-NN 2
-fatto
-15 1
-1 . 1
-. ZO
+542    LIBRO
+
+[illegible: text]
+
+Perche [illegible: text] che il produtto della prima nella [illegible: text] conda infieme con l'unità faccia quadrato. Però [illegible: text] da qual fi uoglia [illegible: text] fi cauarà l'unità, lo reftate [illegible: text] è fia il quadrato [illegible: text] nel secondo, e per trouarli [illegible: text] che il secondo [illegible: text] del secondo nel [illegible: text] deue fa re un quadrato [illegible: text] l'unità, refta [illegible: text] farà [illegible: text] p. [illegible: text] telta, che il produtto [illegible: text] p.24 p. [illegible: text] p.24 p. [illegible: text] dal produtto delle [illegible: text] e del [illegible: text] accompagnato có l'unità, & [illegible: text] uiene dal doppio [illegible: text] il 6.nafce dal doppio fatto da [illegible: text] m. [illegible: text] bifogna dunque, [illegible: text] li Tanti [illegible: text] con l'unità faccino un [illegible: text] e perche [illegible: text] che il numero delli Tanti delli lati delli dui quadrati fi [illegible: text] cioè che fe l'uno è 2,ò [illegible: text] l'altro fia [illegible: text] il lato del primo quadrato [illegible: text] p. [illegible: text] 12 [illegible: text] produtto [illegible: text] primo, e fecondo, [illegible: text] il fecondo [illegible: text] 1, & il primo farà 1 p. [illegible: text] fi pigli per suo lato 2 p. [illegible: text] quadrato farà 4 p. [illegible: text] l'unità, refta 4 p.4 per produtto [illegible: text] nel terzo, & [illegible: text]
+
+TERZO.    543
+
+[illegible: text] Il produtto ma del primo [illegible: text] l'unità [illegible: text] p. [illegible: text] ch'è quadrato, e [illegible: text]
+habbiamo [illegible: text] le tre [illegible: text] seconda [illegible: text] 4 p. [illegible: text] che fanno [illegible: text]
+che al produtto di dui [illegible: text] l'unità faccia quadrato.
+
+Perche [illegible: text] del primo [illegible: text] secondo infieme: con l'unità deue fare un quadrato; [illegible: text] di qual [illegible: text] quadrato fi cauarà l'unità fi hauerà il produtto del [illegible: text] secondo. Hor [illegible: text] quadrato [illegible: text] p. 2 p. [illegible: text] che il suo lato [illegible: text] p. [illegible: text] e [illegible: text] può ponere per produtto del primo [illegible: text] del primo, [illegible: text] per la [illegible: text] detra nella [illegible: text] il quale quadrato [illegible: text] p. [illegible: text] quale [illegible: text] e terzo, e [illegible: text] p. [illegible: text] e per trouar il quarto; [illegible: text] da [illegible: text] la ragione detta nella [illegible: text] il quale farà [illegible: text] p. 6 p. [illegible: text] che cauatone [illegible: text] p. [illegible: text] e [illegible: text] nel quarto, che per [illegible: text] farà [illegible: text] p. [illegible: text] e [illegible: text] il produtto [illegible: text] terzo infieme [illegible: text] che il produtto del secondo nel [illegible: text] è [illegible: text] p. [illegible: text] p. 13. però [illegible: text] eguale a un [illegible: text]
+
+NN 2 fatto
+
+[illegible: text]
 
 ## PDF page 304
 
@@ -22040,76 +21703,19 @@ do in
 
 ## PDF page 323
 
-1582
-P I B R O
-TERZO.
-4883
-mezzano che fù posto 1 1 p.2. sarà 239, & il maggiore,
-nede che le 64 2 nascono dal doppio di 32 doppio
-ch'era 7 1 p. 2. sarà 3669, e perche il 242. denomina-
-di 16. numero delle 2, che fù posto essere la somma
-sor di questi rotti moltiplicato per 2. fa quadrato, mol-
-del maggior, e mezzano, però bisogna trouar un nu-
-tiplichinsitutti tre detti rotti per 2, e se gli leui il denoi-
-mero, che moltiplicato per 32. facciaia r, chiè 31.
-minatore, che cossii tre numeri cercati si haueranno in
-ponghisi di nuouo che il maggior sia 8 2 p. 21, il mez-
-numerisani, e saranno 58. 1878, e 7338, che l'eccesso
-zano 8 2 m.<math>\frac{2}{3}</math> m.<math>\frac{2}{3}</math> % il minore 1 2 m.<math>\frac{2}{3}</math> . Ci resta, che
-del maggiore, e mezzano, ch'è 5460, è triplo all'eccesso
-il mezzano, e minore insieme siano quadrato, ma sono
-del mezzano, e minore, ch'è 1820, e la somma delli det-
-9 3 m.1 5, e questo è eguale à un quadrato qual sia
-titre numeri tolni à dui à dui ordinatamente sono 1936.
-9 3 m. 36 1 p. 36, che leuato il meno, simile da simile,
-9216, e 7396, che ciascuna di lor'è numero quadrato,
-& agguagliato, il Tanto valerà 1 77, e la potenza us-
-listative quali sono 44,96.8 86.00 menitore o , es , il
-lerà 3 9 60 1. però il maggiore delli tre numeri, che 6
-.
-cercano qual fu posto 8 1 p. 21 farà 34 1000 il mez-
-Enlargence of Problems CCT.
-zano, che fù posto 8 2 m. 21 sarà 299616; & il mino-
-re, che su posto 1 3 m. <math>\frac{21}{32}</math>, sarà <math>\frac{15}{36964}</math>, che fanno
-Trouinsi tre numeri tali, che la disserenza, ch'è dal
-Est prince of he coffilerings inflorence i analy
-quadrato del maggiore al quadrato del mezzano sia
-The following the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of 
-tre volte quanto la differenza, ch'è dal mezzano al mi-
-Problema CC11.
-pore, vehe essi numeri tolti à dui à dui faccino numero
-quadratos i hon roques que l'onne general cond
-Trouinsi tre numeri in continua proportione tali,
-Ponghisi, che il maggiore, e mezzano siano 162, ac
-che di cisscun di loro causto 12. lo restante sia qua-
-ciochessa quadrato, adunque il maggioressarà più d'&
-drato. The second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the s
-3, e sia 8 2 p. 2, e perche il maggiore, e mezzano sono
-Prima si deuono trouar dui numeri quadrati tali ;
-maggiori del mezzano, e minore; il mezzano, e minore
-che l'uno fia 12. più dell'akro, che saranno 30 1, e 42 14
-saranno minori di 162, e siano il maggiore e minore
-Hor pongo, che il primo numero sia 1 2, il secondo 6.
-912, & essendo il maggiore 8 2 p. 2; il minore sarà 1'
-1, & il terzo 42 1, che sono in continua proportional
-2 m.2, & il mezzano 8 2 m. 2, e perche la differenza del
-ne, e del terzo cauato 12. resta quadrato. Ci resta, che
-quadrato del maggiore al quadrato del mezzano deue
-del primo, e secondo sauato 12. resti quadrato, ma resta 1
-osser tre uolte quanto la disserenza del mezzano al mi-
-1:2 m.12,& 61 m. 12, che ciascuno deguale à un
-nore, mal'eccesso delli detti dui quadrati è 64 2, e l'ec
-quadrato, e ne nasce doppia agguaglianza, cosi si troui:
-cesso delli detti dui numeri è 7 2, e questo triplato de-
-l'eccessoloro, ch'è 1 2 m. 6 1 2, li dui numeri, il pros
-ue essere eguale à 64 2 ', ch'è impossibile, che 21 2 sia-
-dutto de quali sia detto eccesso sono 1 1, e 1 1 m. 6 1,
-no eguali à 64.2. però bisogna mutar positione. Si
-l'eccesso loro è 6 1, il quadrato della metà è 10 16 6 c.
-BILLEAND
-uede
-questo
-e .
+582    LIBRO
+
+[illegible: text] che fu [illegible: text] p.2.farà [illegible: text] e perche il [illegible: text] per [illegible: text] fa quadrato, [illegible: text] e 7338, [illegible: text] maggiore, e mezzano, ch'è [illegible: text] del mezzano, e minore, ch'è [illegible: text] e la [illegible: text] à dui à dui ordinatamente fono [illegible: text] che ciafcuna di [illegible: text] numero quadrato, [illegible: text]
+Trouinfi tre numeri tali, che la differenza, ch'è dal quadrato del maggiore al quadrato del [illegible: text] à dui à dui faccino numero [illegible: text] Ponghifi, che il maggiore, è mezzano fiano [illegible: text] adunque il [illegible: text] il maggiore, e mezzano fono [illegible: text] del mezzano, e minore; il mezzano, e minore [illegible: text] minori di [illegible: text] e fiano [illegible: text] maggiore e minore [illegible: text] il mezzano [illegible: text] e perche [illegible: text] del quadrato del [illegible: text] quadrato del mezzano deue [illegible: text] quanto [illegible: text] mezzano al [illegible: text] delli detti dui quadrati è [illegible: text] delli detti dui numeri è [illegible: text]
+
+TERZO.    583
+
+uede che le [illegible: text] nafcono dal [illegible: text] di 16. numero delle [illegible: text] la fomma del maggior, e mezzano, però [illegible: text] che moltiplicato per [illegible: text] di nuouo che il [illegible: text] 8 [illegible: text] m. [illegible: text] il minore [illegible: text] che il [illegible: text] e minore infieme [illegible: text] p.36, che leuato il meno, [illegible: text] il Tanto valerà 1 [illegible: text] la potenza [illegible: text] però il maggiore delli tre numeri, che [illegible: text] fu pofto [illegible: text] che fù pofto 8 [illegible: text] che fanno [illegible: text]
+
+Problema [illegible: text]
+
+Trouinfi tre numeri in continua proportione tali, che di ciascun di loro cauato [illegible: text]
+fideuono trouar [illegible: text] numeri [illegible: text] che l'uno fia [illegible: text] più [illegible: text] Hor pongo, che il primo numero fia 1 2, [illegible: text] che sono [illegible: text] quadrato. Ci [illegible: text] che del primo, e secondo [illegible: text] ne nafce doppia [illegible: text] ch'è 1 2 m. [illegible: text] de quali fia detto [illegible: text] loro è 6 [illegible: text] il quadrato della metà è [illegible: text]
 
 ## PDF page 324
 
@@ -22554,69 +22160,30 @@ P.1,
 
 ## PDF page 331
 
-TERZO
-399
-568
-LIBRO
-te sarà numero quadrato, però li tre quadrati, che si cer
-conda, che si pose 1 2 p.1.1, sarà 1, il quadrato della
-cano saranno lati di tre Triagoli oppositi all'angolo ret
-muzle parcito per la prima ne viene 1 5 p. R. q. 1 7 , &
-to. Adunque il composto delli tre numeri, che si cerca-
-canco è la terza, quali gionte insieme fanno 5, e cosi 5.è
-no, sarà quattro uolte la superficie de' Triangoli, auer-
-l'unodelli numeri cercati, co'l quale partito 12 1, ne
-tendo, ch'essi Triangoli habbiano una medesma super-
-uiene 2 1, e questo è l'altro numero, ilquale partito
-ficie, quali si sono trouati nella passata di questo, e li suoi
-per s.già trouato, ne mene de (come si propone.)
-lati sono 40.42.58,24.70.74,6 15.112.113. Hortos-
-manufications of the care
-nando al principio, pongo, che li numeri, che si cerca-
+598    LIBRO
+
+[illegible: text] fi pofè [illegible: text] il quadrato della [illegible: text] per la prima [illegible: text] p. R. q. [illegible: text] infieme fanno [illegible: text] ne viene [illegible: text] per [illegible: text] come [illegible: text]
 Problema CCXV.
-no, siano li lati più longhi delli tre Triangoli, e siano 58
-Charle May C to A Link
-1,74 1, e 113 1, la superficie de' Triangoli è 840, il
-Trouinsi tre triangoli rett'angoli eguali di supersi-
-quadruplo è 3360, però poneremo, che la somma delli
-cie, e tali, che i lati di ciascuno siano rationali.
-tre numeri sia 3360 2, ma essa è 245 1, però sarà egua
-. Per trouar li lati maggiori di questi Triangoli, pi-
-le à 3.360 2, che agguagliato, il Tanto ualerà 976, però
-glinsi dui numeri della qualità della proposta auanti la
-li tre numeri cercati, che furno posti 58 : 74 4, euz
-passata, e siano 3, e 5, il produtto loro insieme có li qua
-drati loro è 49, il lato del quale è 7, il quale si accompa-
-\(\frac{4\circ 6}{96}, \frac{5}{96}, \frac{791}{96}\).
-gni con li primi dui numeri, e fi haucrà 3.5.7, e questi
-Problema CCXVII.
-accompagnati con 8. somma di 3, e 5. fanno 3. 5. 7. 8,
-giongafihora il quadrato del 7 con li quadrati di 315,e
-Trouinsi tre numeri tali, che moltiplicati à dui à dui
-B. Ea 58.74, e 113, e questi sono i lati maggiori delli tre
-facciano 4.9, e 16. numeri quadrati.
-Triangoli, e per trouar i lati minori, piglisi la somma, &
-Ponghisi il primo t , il secondo 4, esimo d'i , e il
-eccesso di 7,e 3.7.e 5.e 7,e 8,che sono 10,e 4. 12,e 2,e
-terzo 16, esimo d'i e sodisfanno à due conditioni, che
-15, e 1, che il produtto di ciascun delli dui è 40. 24, e 15,
-il produtto del secondo nel primo fa 4, e nel terzo fa
-e quettisono i lati minori, li altri adunque saranno 42.
-16. resta, che il primo nel terzo faccia 9. ma sa 64. esimo
-170,516 # onp 5, 1.9 1.0 1.9 21.9 1.0 1.0 1.0 1.0 1.0
-d'i 3,& è eguale à 9, che leuato il rotto, e agguagliato,
-Problema CCXVI.1802
-il Tanto uale 8, però il primo numero sarà 3, il secondo
-The state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
-1 1, e il terzo 6, e ne nasce la regola, che il produtto delli
-Trouinsi trenumeri tali, che del quadrato di qual si
-dui partito per l'altro sa il quadrato d'un delli numeri.
-uoglia di loro, cauando ouer giongendo il composto lo
-ro, faccia quadrato.<br>In ognitriagolo rett'angolo, se del quadrato del sato
-Problema CCXVIII.
-opposito all'angolo retto, se ne cauarà il quadruplo del
-Trouinsi tre numeri talt, che al produtto di dui di lo
-la sua superficie, ouero se gli giógerà la sóma, ò lo resta
+
+[illegible: text]
+eguali di [illegible: text] tali, che i [illegible: text]
+li lati maggiori di [illegible: text] Triangoli, [illegible: text] il [illegible: text] infieme có li [illegible: text] è [illegible: text] lato del quale è 7, [illegible: text] numeri, e fi [illegible: text] accompagnati con [illegible: text] 5. fanno 3. 5. [illegible: text] hora il [illegible: text] quadrati di [illegible: text] fono [illegible: text] che il [illegible: text]
+che del [illegible: text] di loro, cauando ouer giongendo il [illegible: text] faccia quadrato.
+
+[illegible: text]
+fe ne [illegible: text] il quadruplo del
+[illegible: text] gli giógerà la [illegible: text]
+
+TERZO.    599
+
+[illegible: text] numero quadrato, però li tre [illegible: text] faranno lati [illegible: text] Triāgoli oppofiti [illegible: text] to. Adunque il compofto delli tre [illegible: text] uolte la superficie de Triangoli, [illegible: text] ch'effi Triangoli habbiano una [illegible: text] quali fi fono [illegible: text] nella paffara di questo, e [illegible: text] al principio, pongo, che li numeri, che fi [illegible: text] delli tre Triangoli, e [illegible: text] la superficie de Triangoli è 840, il quadruplo è [illegible: text] però poneremo, che la [illegible: text] tre numeri fia [illegible: text] è [illegible: text] però farà egua [illegible: text] che agguagliato, il Tanto [illegible: text] numeri cercati, che furno pofti 58, [illegible: text]
+
+Problema [illegible: text]
+facciano [illegible: text] e 16. [illegible: text]
+il primo [illegible: text] fecondo [illegible: text] efimo [illegible: text] e il terzo 16, [illegible: text] à due conditioni, che il produtto del fecondo nel primo fa 4, [illegible: text] fa [illegible: text] refta, che il primo nel terzo faccia 9, ma fa [illegible: text] è eguale à 9, che leuato il rotto, e agguagliato, il Tanto uale [illegible: text] numero farà [illegible: text] il fecondo [illegible: text] nafce la regola, che il produtto delli dui partito per l'altro [illegible: text] quadrato [illegible: text] numeri.
+
+[illegible: text]
+che al produtto di [illegible: text]
 
 ## PDF page 332
 
@@ -23935,71 +23502,24 @@ Ponghifi (come nell'altra) che il primo fia 3 & il
 
 ## PDF page 353
 
-TEREP.
-.DEBIRO
-644
-" Ponghisi (come nell'altro) che il minore sia 37 1, &
-& il secondo 4 10 2, & il terzo 1 , che li produt-
-il mezzano 1 1, & il maggiore 4 80 1, e sodistanno al
-ti di dui con il quadrato dell'altro (come nella passata)
-la conditione, che il produtto di dui qual si uoglia,con
-faranno <math>\frac{32724}{6561}</math> <math>\frac{2}{6561}</math> <math>\frac{164839}{6561}</math>, e <math>\frac{14641}{6561}</math>, che la latisono <math>\frac{122}{87}</math> <math>\frac{182}{87}</math> <math>\frac{1}{87}</math> <math>\frac{1}{87}</math> <math>\frac{1}{87}</math> <math>\frac{1}{87}</math> <math>\frac{1}{87}</math> <math>\frac{1}{87}</math> <math>\frac{1}{87}</math> <math>\frac{1}{87}</math> <math>\frac{1}{87}</math> <math>\frac{</math>
-il quadrato dell'altro fanno numero quadrato; resta,
-che la somma loro faccia 20, mà la somma loro fa 6 19
-nore al mezzano è & 1, e dalmezzano al maggiore è
-, & è eguale à 20, che agguagliato; il Tanto vale;
-124, che aggioti inseme fanno 91 e que so è egua
-21 il minore, che fù posto 20 1 sarà 101, & il mez
-le à un numero quadrato, e sia 25, che agguagliato il
-zano 3 101, & il maggiore 16.e fanno quanto fu pro-
-Tanto vale 7 12, il minore, che fu posto 20 larà 1
-posto.
-& il mezzano, che fu posto i Lara 7 12, & il
-onustrio & onto Problemso CCLIXILIA
-maggiore, che su posto 4 40 1 butà 351 fine sanno
-quanto su proposto.
-Trouinsi tre quantità, che al produtto della prima
-Comment of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the
-nella seconda, e nella terza; & al proutto della seconda
-Problema CCLXVII.
-hella terza aggionto à ciascaduno produtto 2; e della
-. . . . . . . . . . . . . . . . . . . . 
-formma di ciascumo pigliato il lato, & aggionto insieme
-Trouinsitre numeri, che il mezzano sia 2 più del
-faccinó 10.
-minore, e che il produtto di dui qual si uoglia col qua-
-· Piglili un quadrato fatto da quati Tanti li uoglia più
-drato dell'altro faccia numero quadrato.
-R.q. 2. lato del 2, che si deue giongere, e sia i _ p.R.q.
-Ponghisi (come nella passata) che il minore sia 30
-2. che il quadrato è 1 2 p.R.q. & j p.2, del quale ca-
-and mezzano 1 by & il maggiore 4 $7, es sodisfanno
-vacone 2, resta t 2 p.R.q. 8 1, e questo porrò per il
-alle conditioni del produtto di qual si uoglia, aggion-
-produtto del primo nel secondo, e pongo, che il secodo
-soli il quadrato dell'altro: fanno quadrato; Resta,che
-fia 1 1, & il primo sarà 1 1 p.R.q. 8; Hor per trouare il
-al minore giontoli 2 sia parial mezzano, ma sarà 20
-terzo (per la regola della 162) piglifiil quadrato fat-
-p. 2 eguale à 1 2, che leuato simile da simile; & 1
-to da 2 1 p.R.q.2, ch'è 4 2 p.R.q.32 1 p. 2, del quale
-sono eguali à 2, che agguagliato, il Tanto vale 2 40,
-se ne caua 2; resta 4 3 p.R.q. 32 1, e questo ponghis
-& il minore, che su posto 10 sarà 40 & il mezzano,
-per il produtto del secondo nel terzo, & essendo il seco
-ch'erà 1 2 farà 2 40, & il maggiore farà 3 1277 , e so
-do 1 , il terzo sarà 4 ! p. R.q. 32, e ritornando al
-disfanno à tutte le conditioni proposte.
-principio, dico, che il produtto del primo nel secondo
-con 2 più è 1 2 p.R.q.8 p. 2. & il produtto del se-
-Problems CCLXV 111
-códo nel terzo, con 2.p.è 4 2 p. R. q.32 1 p.2. & il pro
-dutto del primo, e terzo con 2 più è 4 2 p.R.q.288 1
-Faccisi di 20, tre parti tali, che il produtto di dui qual
-p. 18, che li loro lati sono 1 2 p. R.q. 2,2 2 p. R.q. 2, e
-si voglia giongendoli il quadrato de l'altro faccia nu-
-2 L P.
-mero quadrato.
+642    LIBRO
+
+L E [illegible: text]
+numero quadrato, e [illegible: text] che [illegible: text] vale [illegible: text] il minore, che fu [illegible: text] il mezzano, che fu [illegible: text] maggiore, che fu [illegible: text]
+
+Problema [illegible: text]
+sia 2 più del [illegible: text] che il produtto di [illegible: text] fi uoglia col [illegible: text] faccia numero quadrato.
+
+[illegible: text] come nella [illegible: text] che il minore fia [illegible: text] il mezzano [illegible: text] il maggiore 4, [illegible: text] di qual [illegible: text] uoglia, aggion-toli il [illegible: text] fanno [illegible: text] Relta, che al minore giontoli 2 fia parial mezzano, [illegible: text] à 2, che agguagliato, il Tanto vale [illegible: text] il minore, che fu [illegible: text] ch'erà [illegible: text] farà [illegible: text] fo disfanno à tutte [illegible: text] conditioni [illegible: text]
+CCLXVIII
+
+Faccifi di [illegible: text] tre [illegible: text] che il produtto di dui qual [illegible: text] giongendoli il quadrato [illegible: text]
+
+TERZO.    643
+
+Ponghifi (come nell'altro) che [illegible: text] il maggiore 4 [illegible: text] conditione, che il produtto di dui qual fi uoglia, con il quadrato dell'altro fanno [illegible: text] loro fa 6 [illegible: text] è eguale à 20, che agguagliato; il [illegible: text] il minore, che [illegible: text] quanto fù [illegible: text]
+tre quantità, che al [illegible: text] della prima nella seconda, e [illegible: text] al proutto della [illegible: text] produtto [illegible: text] della [illegible: text] pigliato il lato, & aggionto infieme [illegible: text]
+fatto da quati [illegible: text] fi uoglia più R.q. [illegible: text] che fi deue [illegible: text] fia 1 p.R. [illegible: text] p.2, del quale ca- [illegible: text] porro per il [illegible: text] del primo nel secondo, e pongo, che il fecodo fia 1, & [illegible: text] farà 1 p.R.q.8; Hor per trouare il terzo (per la regola della 162) piglifi il quadrato [illegible: text] ch'è 4 [illegible: text] p.2, del quale se ne [illegible: text] refta 4 [illegible: text] ritornando al principio, dico, che il [illegible: text] del primo nel [illegible: text] p.R.q. [illegible: text] p.2. & il [illegible: text] nel terzo, con [illegible: text] p.è 4 [illegible: text] terzo con 2 più è 4 [illegible: text]
 
 ## PDF page 354
 

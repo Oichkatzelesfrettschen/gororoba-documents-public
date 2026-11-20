@@ -10,7 +10,7 @@ Transcription of `agazie_2023_nanograv_15yr_observations_timing_68_millisecond_p
 
 Method: pages 12, 27, 29, 31-33, 37, 41-43, 45-47, 50-54, 56-60, 63-66, 69-70, 72 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-11, 13-26, 28, 30, 34-36, 38-40, 44, 48-49, 55, 61-62, 67-68, 71, 73-78 from the PDF's own text layer (pdftotext version 26.01.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
-Second engine: Surya OCR 0.17.0 alone read pages 21, 33, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+Second engine: Surya OCR 0.17.0 alone read pages 21, 33; Codex gpt-6.2-sol (300 dpi page image) read pages 37, 43, 52, 70, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -6879,61 +6879,32 @@ Figure 22. Narrowband and wideband timing residuals and DMX time series for J093
 
 ## PDF page 37
 
-The Astrophysical Journal Letters, 951:L9 (78pp), 2023 July 1
-Agazie et al.
-J1012+5307
-GASP
-GUPPI
-2
-NB DMX
-NB & WB DMX<br>[10<sup>-3</sup> pc cm<sup>-3</sup>]
-A STATE OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE
-WB DMX
-Jane 1 200 a san and a san a san a san a san a san a san a san a san a san a san a san a san a san a san a san
-hand wast forth,
-0
-* * ****
-4444
-*****
-<math>-2</math>
-100
-All NB TOA<br>Residual [<math>\mu</math>s]
-0
-<math>-100</math>
-20
-Avg. NB TOA<br>Residual <math>[\mu s]</math>
-10
-0
-<math>-10</math>
-<math>^{-20}_{\ 20}</math>
-Whitened Avg.<br>NB TOA<br>Residual [μs]
-10
-0
-XT
-*
-<math>-10</math>
-<math>-20</math>
-10
-All WB TOA<br>Residual [<math>\mu</math>s]
-0
-SXI.
-<math>-10</math>
-All Whitened WB
-TOA Residual [µs]
-Жľ
-GASP 820 MHz 🕴 GUPPI 820 MHz
-GASP L 🕴 GUPPI L 🔻
-2004
-2006
-2008
-2010
-2012
-2014
-2016
-2018
-2020
+THE ASTROPHYSICAL JOURNAL LETTERS, 951:L9 (78pp), 2023 July 1    Agazie et al.
+
+J1012+5307    GASP    GUPPI
+
+NB & WB DMX [$10^{-3}$ pc cm$^{-3}$]    2, 1, 0, −1, −2
+
+NB DMX    WB DMX
+
+All NB TOA Residual [$\mu$s]    100, 0, −100
+
+Avg. NB TOA Residual [$\mu$s]    20, 10, 0, −10, −20
+
+Whitened Avg. NB TOA Residual [$\mu$s]    20, 10, 0, −10, −20
+
+All WB TOA Residual [$\mu$s]    10, 0, −10
+
+All Whitened WB TOA Residual [$\mu$s]    10, 0, −10
+
+GASP L, GUPPI L, GASP 820 MHz, GUPPI 820 MHz
+
+2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2020
+
 Year
-Figure 23. Narrowband and wideband timing residuals and DMX time series for J1012+5307. See Figure 8 for details.
+
+**Figure 23.** Narrowband and wideband timing residuals and DMX time series for J1012+5307. See Figure 8 for details.
+
 37
 
 ## PDF page 38
@@ -7076,62 +7047,32 @@ Figure 31. Narrowband and wideband timing residuals and DMX time series for J160
 
 ## PDF page 43
 
-The Astrophysical Journal Letters, <math>951:L9</math> (78pp), <math>2023</math> July <math>1</math>
-Agazie et al.
-<math>J1614 - 2230</math>
-GASP
-<b>GUPPI</b>
-6
-NB DMX
-NB & WB DMX <math>[10^{-3} \text{ pc cm}^{-3}]</math>
-WB DMX
-*
-4
-2
-٠
-炔
-and the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state 
-0
-<math>-2</math>
-50
-All NB TOA<br>Residual [<math>\mu</math>s]
-25
-0
--25
-<math>-50</math>
-2
-Avg. NB TOA<br>Residual <math>[\mu s]</math>
-A HARMAN
-0
-HAMILIAN DE
-<math>-2</math>
-2
-Whitened Avg.<br>NB TOA<br>Residual [μs]
-<del>ՠՠֈՠ֍ՠֈՠֈՠֈՠֈՠֈՠֈֈֈֈֈֈֈֈֈֈֈֈֈֈֈֈֈֈֈֈֈֈ</del>
-<math>-2</math>
-All WB TOA Residual <math>[\mu s]</math>
-2
-Chieften Coberts of Company
-Marketon by Salahariti
-<math>-2</math>
-All Whitened WB<br>TOA Residual [µs]
-2
-<del>onto-in-2nd, In-1-a-njah-jah | 15-a-2-la-b-2n-j</del>-1-<del>a-2-1-a-1-a-1-a-1-a-1-a-1-a-1-a-1-a-1-a-</del>
-0
-GASP L 🕴 GUPPI L 🕴
-GASP 820 MHz 🕴
-GUPPI 820 MHz
-2008
-2012
-2014
-2018
-2006
-2010
-2016
-2020
-2004
+THE ASTROPHYSICAL JOURNAL LETTERS, 951:L9 (78pp), 2023 July 1    Agazie et al.
+
+J1614−2230    GASP    GUPPI
+
+NB & WB DMX [$10^{-3}$ pc cm$^{-3}$]    6, 4, 2, 0, −2
+
+NB DMX    WB DMX
+
+All NB TOA Residual [$\mu$s]    50, 25, 0, −25, −50
+
+Avg. NB TOA Residual [$\mu$s]    2, 0, −2
+
+Whitened Avg. NB TOA Residual [$\mu$s]    2, 0, −2
+
+All WB TOA Residual [$\mu$s]    2, 0, −2
+
+All Whitened WB TOA Residual [$\mu$s]    2, 0, −2
+
+GASP L, GUPPI L, GASP 820 MHz, GUPPI 820 MHz
+
+2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2020
+
 Year
-Figure 32. Narrowband and wideband timing residuals and DMX time series for J1614-2230. See Figure 8 for details.
+
+**Figure 32.** Narrowband and wideband timing residuals and DMX time series for J1614–2230. See Figure 8 for details.
+
 43
 
 ## PDF page 44
@@ -7454,64 +7395,32 @@ Figure 43. Narrowband and wideband timing residuals and DMX time series for J174
 
 ## PDF page 52
 
-The Astrophysical Journal Letters, 951:L9 (78pp), 2023 July <math>1</math>
-Agazie et al.
-J1747-4036
-<b>GUPPI</b>
-**************************************
-NB DMX
-NB & WB DMX [10<sup>-3</sup> pc cm<sup>-3</sup>]
-10
-WB DMX
-The said of the said of the said of the said of the said of the said of the said of the said of the said of the said of the said of the said of the said of the said of the said of the said of the said of the said of the sa
-0
-<math>-10</math>
-50
-All NB TOA<br>Residual [μs]
-LH.
-0
-<math>-50</math>
-Avg. NB TOA Residual <math>[\mu s]</math>
-10
-0
-<math>-10</math>
-20
-Whitened Avg.<br>NB TOA<br>Residual [µs]
-10
-MANAGE.
-0
-**
-MALE WALKER
-<math>-10</math>
-<math>-\frac{20}{10}</math>
-All WB TOA<br>Residual [<math>\mu</math>s]
-5
-₩
-0
-<math>-5</math>
-<math>-10</math>
-All Whitened WB<br>TOA Residual [µs]
-5 -
-***
-AND SHAME AND AND AND AND AND AND AND AND AND AND
-الأمرين طفأ للبليدم
-0
-The last the last the last the last the last the last the last the last the last the last the last the last the last the last the last the last the last the last the last the last the last the last the last the last the la
-A PARTITION OF
-<math>-5</math>
-GUPPI L 🕴 GUPPI 820 MHz
-<math>-10</math>
-2018
-2008
-2010
-2012
-2014
-2016
-2006
-2004
-2020
+THE ASTROPHYSICAL JOURNAL LETTERS, 951:L9 (78pp), 2023 July 1    Agazie et al.
+
+J1747−4036    GUPPI
+
+NB & WB DMX [$10^{-3}$ pc cm$^{-3}$]    10, 0, −10
+
+NB DMX    WB DMX
+
+All NB TOA Residual [$\mu$s]    50, 0, −50
+
+Avg. NB TOA Residual [$\mu$s]    10, 0, −10
+
+Whitened Avg. NB TOA Residual [$\mu$s]    20, 10, 0, −10, −20
+
+All WB TOA Residual [$\mu$s]    10, 5, 0, −5, −10
+
+All Whitened WB TOA Residual [$\mu$s]    5, 0, −5, −10
+
+GUPPI L, GUPPI 820 MHz
+
+2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2020
+
 Year
-Figure 44. Narrowband and wideband timing residuals and DMX time series for J1747–4036. See Figure 8 for details.
+
+**Figure 44.** Narrowband and wideband timing residuals and DMX time series for J1747–4036. See Figure 8 for details.
+
 52
 
 ## PDF page 53
@@ -8212,70 +8121,32 @@ Figure 66. Narrowband and wideband timing residuals and DMX time series for J212
 
 ## PDF page 70
 
-The Astrophysical Journal Letters, <math>951:L9</math> (78pp), <math>2023</math> July <math>1</math>
-Agazie et al.
-J2145-0750
-GASP
-<b>GUPPI</b>
-2
-NB & WB DMX <math>[10^{-3} \text{ pc cm}^{-3}]</math>
-to market be and so progress and product of the
-š
-desetting their
-Steromethology 25 pag
-Ĭ#
-Ť
-No.
-Ħ
-<math>-2</math>
-NB DMX
-ź
-WB DMX
-<math>-4</math>
-100
-All NB TOA Residual [<math>\mu</math>s]
-0
-<math>-100</math>
-20
-Avg. NB TOA<br>Residual [µs]
-10
-0
-¥.
-<math>-10</math>
-<math>-30</math>
-Whitened Avg.<br>NB TOA<br>Residual [μs]
-10
-0
-#
-44
-<math>-10</math>
-<math>-20</math>
-10
-All WB TOA<br>Residual [<math>\mu</math>s]
-¥ħ
-0
-<b>神经索拉拉 推进邮件</b>
-×
-<math>-10</math>
-All Whitened WB
-TOA Residual [μs]
-ene principal de la company de la company de la company de la company de la company de la company de la company de la company de la company de la company de la company de la company de la company de la company de la compan
-*
-PLANT N<br>X
-*
-GASP 820 MHz 🕴 GUPPI 820 MHz
-GASP L 🕴 GUPPI L 🕴
-2006
-2008
-2010
-2012
-2014
-2016
-2018
-2004
-2020
+THE ASTROPHYSICAL JOURNAL LETTERS, 951:L9 (78pp), 2023 July 1    Agazie et al.
+
+J2145−0750    GASP    GUPPI
+
+NB & WB DMX [$10^{-3}$ pc cm$^{-3}$]    2, 0, −2, −4
+
+NB DMX    WB DMX
+
+All NB TOA Residual [$\mu$s]    100, 0, −100
+
+Avg. NB TOA Residual [$\mu$s]    20, 10, 0, −10, −20
+
+Whitened Avg. NB TOA Residual [$\mu$s]    20, 10, 0, −10, −20
+
+All WB TOA Residual [$\mu$s]    10, 0, −10
+
+All Whitened WB TOA Residual [$\mu$s]    10, 0, −10
+
+GASP L, GUPPI L, GASP 820 MHz, GUPPI 820 MHz
+
+2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2020
+
 Year
-Figure 67. Narrowband and wideband timing residuals and DMX time series for J2145-0750. See Figure 8 for details.
+
+**Figure 67.** Narrowband and wideband timing residuals and DMX time series for J2145–0750. See Figure 8 for details.
+
 70
 
 ## PDF page 71

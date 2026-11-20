@@ -10,7 +10,7 @@ Transcription of `cockle_1849_philosophical_magazine_vol34_containing_new_imagin
 
 Method: pages 1-574 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
-Second engine: MinerU2.5-Pro 2605 read pages 5, 9, 86, 116, 121, 147, 159, 211, 231, 247-248, 297, 347, 370, 529; Surya OCR 0.17.0 alone read pages 11, 142, 193, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+Second engine: MinerU2.5-Pro 2605 read pages 5, 9, 86, 116, 121, 147, 159, 211, 231, 247-248, 297, 347, 370, 529; Surya OCR 0.17.0 alone read pages 11, 142, 193; Codex gpt-6.2-sol (300 dpi page image) read pages 94, 174, 206, 334, 386, 414, 494, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -6088,447 +6088,48 @@ Cloudy: showers. 30. Showers.
 
 ## PDF page 94
 
-6.23
-Meteorological Observations made by Mr. Thompson at the Garden of the Horticultural Society at CHISWICK, near London; by Mr. Veall, at
-.02
-.39
-02
-02
-.50
-•18
-30
-.17
-.24
-60.
-.25
-1.04
-.31
-.32
-.26
-255
-.27
-Sandwick,
-÷
-Orkney
-Dunbar, at Applegarth Manse, DUMFRIES-SHIRE; and by the Rev. C. Clouston, at Sandwick Manse, ORKNEY.
-2.73
-0.40
-0.10
-1.53
-0.40
-....
-.....
-.....
-.....
-shire.
-....
-....
-.....
-Dumfries.
-Rain.
-0.90 1.05
-....
-.04
-01.
-02
-90.
-.14
-.10
-14
-.12
-.20
-.03
-0.07
-Boston.
-:::
-....
-.03
-.03
-.38
-.03
-0.
-÷0.
-....
-90
-0.
-.04
-.12
-ċ
-.04
-0
-.01
-Chiswick.
-wnw.
-calm
-nnw.
-nnw.
-nnw.
-nnw.
-nnw.
-nw.
-nnw
-nw.
-nw.
-WILW
-Sandwick,
-nw.
-nw.
-SW.
-nw.
-nnw.
-SW.
-SSW
-ne.
-sse.
-ne.
-nw,
-ä
-×.
-ü
-ŝ
-ŝ
-å
-ď
-Orkney
-WSW.
-WSW.
-nnw.
-nnw.
-SW-W
-nw.
-WnW
-nne.
-nnw.
-shire.
-nw.
-nw.
-nw.
-ne.
-W.
-W
-ese.
-ü
-W.
-W
-W
-W.
-₩.
-ü
-SW.
-W.
-W.
-SW
-ü
-ė
-å
-Wind.
-Dumfries-
-calm
-nnw.
-WSW.
-SSW.
-nw.
-nw.
-SW.
-SW.
-SSW.
-SW.
-nw.
-nw.
-nnw
-nw.
-SW.
-nw.
-nw.
-W.
-nw.
-SW.
-W.W
-Boston,
-SW.
-W.
-W.
-ä
-ŝ
-ŝ
-ŝ
-ŝ
-.m.q I
-nw.
-SW.
-nw.
-nw.
-SW.
-S.W.
-×.
-ne.
-ne.
-SW.
-SW.
-SW.
-SW.
-nw.
-nw
-SW.
-n W
-SW.
-SW.
-SW
-ä
-ä
-W.
-ė
-å
-ġ
-¥
-ņ
-ŝ
-ŝ
-Chiswick,
-29.695 29.687 29.623 29.627 49.00 33.03 40.7 45.7 35.1 41.96 41.48
-·m·q
-339 339 336 336 336 337 337 337 337 337 338 338 338 338 338
-477±<br>475±<br>478<br>478<br>478<br>478<br>478<br>478<br>478<br>478<br>478<br>478
-461<br>33<br>33<br>44
-Orkney,<br>Sandwick,
-Ŷ8
-a.m.
-443
-39½<br>41½<br>39<br>45½
-38<sup>1</sup>/<sub>2</sub> 38<sup>1</sup>/<sub>2</sub> 40<sup>4</sup>/<sub>2</sub>
-45<br>32<br>46<br>46
-44½<br>42
-46½
-4033
-44
-49
-46
-<b>76</b>
-44
-41
-45
-Dumfries.
-29
-31 3
-<math>32\frac{1}{2}</math>
-261<br>372<br>39
-43±<br>42±<br>39<br>38±<br>31
-43½
-<math>39\frac{1}{2}</math>
-Thermometer
-.nila
-25
-30
-39
-32
-24
-44
-41
-35<br>36<br>36<br>28
-31
-45 ½
-43<br>45<br>46
-46±<br>48±<br>41<br>36
-44444444444444444444444444444444444444
-43 2
-Max.
-50g
-20
-38
-39
-20
-45
-53
-42.5
-31.5
-37.5
-31.5
-.m.s &8
-32
-34
-35
-36
-Boston.
-37
-40
-44
-44
-37
-49
-43
-48
-38
-52 46
-45
-48
-44
-31
-233<br>
-233<br>
-233<br>
-233<br>
-233<br>
-233<br>
-233<br>
-233<br>
-Min.
-46<br>38<br>30
-Chiswick.
-46
-45<br>50<br>50<br>50<br>50
-45
-44
-46
-5444
-55<br>55<br>55<br>55<br>55<br>55
-48
-554 554 555
-Max
-29.14
-30.20
-29.69
-29.78
-29-72
-29.33
-30.15
-30.45
-30.04
-29.82
-29.25
-29.20
-29.81
-30.45
-30.17
-29.35
-29.38
-28.73
-29.43
-28-95
-29.18
-90.62
-30.41
-30.31
-29.81
-29.38
-28.90
-29.40
-29.46
-29.57
-84<br>p.m.q
-Orkney,<br>Sandwick,
-29.50
-29.72
-29.18
-29.97
-30-28
-30.44
-29.49
-29.76
-29.49
-30.48
-30-25
-30-25
-30-25
-29.18
-29.64
-29.50
-30-37
-30.07
-29.00
-28.87
-29.46
-29-37
-29.58
-29.56
-28-77
-29.71
-29.47
-29.44
-29.51
-9<del>}</del>
-30.30
-30.40
-30.46
-29.48
-29.51
-59.66
-29.38
-29.70
-29.99
-30.40
-30.28
-30-20
-29.10
-29.50
-29.24
-30-21
-30.03
-29.50
-29.33
-28.87
-29.18
-29.80
-29.50
-29.45
-Dumfries-shire.
-29.78
-29.39
-29.48
-.57
-6 m.d
-Barometer
-29.58
-29.40
-29.60
-29.48
-29.38
-29.40
-29.94
-30.24
-30.28
-30.39
-30.46
-30.38
-30.24
-29.48
-30.35
-29.69
-29.30
-30.05
-29.71
-29.00
-29.56
-29-23
-29.48
-29.60
-29.54
-a,m
-9
-10 10 10 10 10 10 10 10 10 10 10 10 10 1
-247 26 06 25 25 26 25 26 26 26 26 26 26 26 26 26 26 26 26 26 
-.
-30.02<br>30.00<br>30.04
-30.07<br>29.88<br>29.86<br>29.86<br>29.20<br>29.20<br>29.20<br>29.20<br>29.30<br>29.30<br>29.30<br>29.30<br>29.30<br>29.30<br>29.30<br>29.30<br>29.30<br>29.30<br>29.30<br>29.30<br>29.30<br>29.30<br>29.30<br>20.30<br>20.30<br>20.30<br>20.30<br>20.30<br>20.30<br>20.30<br>20.30<br>20.30<br>20.30<br>20.30<br>20.30<br>20.30<br>20.30<br>
-s $ 3.m.
-Boston; by the Rev. W
-Mean. 29.954 29.800 29.4
-29.62
-6666666
-Boston.
-29.505<br>29.697<br>29.697<br>29.589<br>29.538<br>29.538<br>30.169
-30.305<br>30.295<br>30.357<br>30.323<br>30.421<br>30.421<br>30.235<br>29.808<br>29.513<br>29.581
-29.523<br>29.168<br>29.151<br>29.391<br>29.925
-29.826<br>29.772<br>29.962<br>29.742<br>29.713
-Min.
-Chiswick,
-29-765<br>29-783<br>29-648<br>29-648<br>29-648<br>30-319<br>30-319<br>30-319<br>30-319<br>30-319<br>30-319<br>30-319<br>30-319<br>30-319<br>30-319<br>30-319<br>30-319<br>30-319<br>30-319<br>30-319<br>30-319<br>30-319<br>30-319<br>30-319<br>30-319<br>30-319<br>30-319<br>30-319<br>30-319<br>30-319<br>30-319<br>30-31
-29.602
-30.090<br>29.919<br>29.893
-Max.
-Month.
-1848.<br>Nov.
-- 4 4 4 4 4 4 6 6 6 6 6 6 6 6 6 6 6 6 6 
-Days of
+Meteorological Observations made by Mr. Thompson at the Garden of the Horticultural Society at CHISWICK, near London; by Mr. Veall, at BOSTON; by the Rev. W. Dunbar, at Applegarth Manse, DUMFRIES-SHIRE; and by the Rev. C. Clouston, at Sandwick Manse, ORKNEY.
+
+<table>
+<thead>
+<tr><th rowspan="2">Days of Month.</th><th colspan="7">Barometer.</th><th colspan="7">Thermometer.</th><th colspan="4">Wind.</th><th colspan="4">Rain.</th></tr>
+<tr><th colspan="2">Chiswick.</th><th rowspan="2">Boston. 8½ a.m.</th><th colspan="2">Dumfries-shire.</th><th colspan="2">Orkney, Sandwick.</th><th colspan="2">Chiswick.</th><th rowspan="2">Boston. 8½ a.m.</th><th colspan="2">Dumfries-shire.</th><th colspan="2">Orkney, Sandwick.</th><th rowspan="2">Chiswick. 1 p.m.</th><th rowspan="2">Boston.</th><th rowspan="2">Dumfries-shire.</th><th rowspan="2">Orkney, Sandwick.</th><th rowspan="2">Chiswick.</th><th rowspan="2">Boston.</th><th rowspan="2">Dumfries-shire.</th><th rowspan="2">Orkney, Sandwick.</th></tr>
+<tr><th>1848. Nov.</th><th>Max.</th><th>Min.</th><th>9 a.m.</th><th>9 p.m.</th><th>9½ a.m.</th><th>8½ p.m.</th><th>Max.</th><th>Min.</th><th>Max.</th><th>Min.</th><th>9½ a.m.</th><th>8½ p.m.</th></tr>
+</thead>
+<tbody>
+<tr><td>1.</td><td>[?]</td><td>29·505</td><td>29·15</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>49</td><td>32</td><td>45</td><td>[?]</td><td>37</td><td>42</td><td>[?]</td><td>e.</td><td>calm</td><td>wsw.</td><td>ne.</td><td>·03</td><td>.....</td><td>.....</td><td>·05</td></tr>
+<tr><td>2.</td><td>29·765</td><td>29·697</td><td>[?]</td><td>29·58</td><td>29·51</td><td>29·63</td><td>29·69</td><td>54</td><td>33</td><td>44</td><td>[?]</td><td>35</td><td>41</td><td>36</td><td>[?]</td><td>ssw.</td><td>wsw.</td><td>ne.</td><td>....</td><td>.....</td><td>.....</td><td>·30</td></tr>
+<tr><td>3.</td><td>[?]</td><td>29·446</td><td>29·16</td><td>[?]</td><td>29·56</td><td>29·76</td><td>29·78</td><td>55</td><td>32</td><td>44</td><td>41</td><td>36</td><td>36</td><td>33</td><td>sw.</td><td>sw.</td><td>n.</td><td>n.</td><td>....</td><td>·07</td><td>.....</td><td>·17</td></tr>
+<tr><td>☽ 4.</td><td>[?]</td><td>29·496</td><td>29·16</td><td>29·60</td><td>29·66</td><td>29·72</td><td>29·72</td><td>39</td><td>23</td><td>37</td><td>36</td><td>28</td><td>[?]</td><td>33</td><td>n.</td><td>nw.</td><td>[?]</td><td>calm</td><td>....</td><td>·20</td><td>.....</td><td>.....</td></tr>
+<tr><td>5.</td><td>29·808</td><td>29·589</td><td>29·43</td><td>29·48</td><td>29·38</td><td>29·20</td><td>29·33</td><td>47</td><td>39</td><td>31·5</td><td>[?]</td><td>24</td><td>46</td><td>44</td><td>sw.</td><td>sw.</td><td>nw.</td><td>nw.</td><td>·01</td><td>·06</td><td>.....</td><td>·24</td></tr>
+<tr><td>6.</td><td>29·645</td><td>29·538</td><td>29·27</td><td>29·38</td><td>29·24</td><td>29·18</td><td>29·14</td><td>50</td><td>38</td><td>42·5</td><td>50</td><td>39</td><td>44</td><td>39</td><td>w.</td><td>[?]</td><td>[?]</td><td>nnw.</td><td>....</td><td>·03</td><td>.....</td><td>·02</td></tr>
+<tr><td>7.</td><td>[?]</td><td>29·518</td><td>29·14</td><td>29·40</td><td>29·70</td><td>29·49</td><td>29·81</td><td>46</td><td>22</td><td>37</td><td>45</td><td>32</td><td>40</td><td>[?]</td><td>nw.</td><td>w.</td><td>nw.</td><td>[?]</td><td>....</td><td>·04</td><td>.....</td><td>·39</td></tr>
+<tr><td>8.</td><td>30·084</td><td>29·983</td><td>29·12</td><td>29·94</td><td>29·99</td><td>29·97</td><td>[?]</td><td>45</td><td>22</td><td>32</td><td>40</td><td>29</td><td>33</td><td>36</td><td>[?]</td><td>nw.</td><td>[?]</td><td>[?]</td><td>....</td><td>.....</td><td>0·40</td><td>·17</td></tr>
+<tr><td>9.</td><td>[?]</td><td>30·169</td><td>29·90</td><td>30·24</td><td>30·30</td><td>30·28</td><td>30·20</td><td>43</td><td>28</td><td>31·5</td><td>38</td><td>[?]</td><td>40</td><td>45</td><td>[?]</td><td>[?]</td><td>n.</td><td>[?]</td><td>....</td><td>.....</td><td>.....</td><td>.....</td></tr>
+<tr><td>10.</td><td>30·357</td><td>30·306</td><td>[?]</td><td>30·28</td><td>30·40</td><td>30·37</td><td>30·41</td><td>44</td><td>30</td><td>34</td><td>39</td><td>25</td><td>44</td><td>42</td><td>n.</td><td>[?]</td><td>n.</td><td>[?]</td><td>[?]</td><td>·10</td><td>.....</td><td>·09</td></tr>
+<tr><td>○ 11.</td><td>30·334</td><td>30·295</td><td>[?]</td><td>[?]</td><td>30·40</td><td>30·44</td><td>30·45</td><td>46</td><td>39</td><td>40</td><td>[?]</td><td>[?]</td><td>[?]</td><td>45</td><td>ne.</td><td>nw.</td><td>[?]</td><td>[?]</td><td>·01</td><td>.....</td><td>.....</td><td>·07</td></tr>
+<tr><td>12.</td><td>30·419</td><td>30·357</td><td>30·04</td><td>30·46</td><td>30·46</td><td>30·48</td><td>30·45</td><td>46</td><td>35</td><td>43</td><td>47</td><td>[?]</td><td>46</td><td>[?]</td><td>ne.</td><td>n.</td><td>nne.</td><td>[?]</td><td>·04</td><td>.....</td><td>.....</td><td>·02</td></tr>
+<tr><td>13.</td><td>[?]</td><td>30·323</td><td>[?]</td><td>30·38</td><td>30·21</td><td>30·25</td><td>30·17</td><td>49</td><td>27</td><td>35</td><td>46</td><td>24</td><td>49</td><td>44</td><td>[?]</td><td>[?]</td><td>ne.</td><td>nnw.</td><td>....</td><td>.....</td><td>.....</td><td>·01</td></tr>
+<tr><td>14.</td><td>30·351</td><td>30·281</td><td>29·88</td><td>30·24</td><td>30·28</td><td>30·25</td><td>30·31</td><td>48</td><td>24</td><td>39</td><td>[?]</td><td>[?]</td><td>[?]</td><td>37</td><td>n.</td><td>[?]</td><td>[?]</td><td>[?]</td><td>.....</td><td>.....</td><td>.....</td><td>[?]</td></tr>
+<tr><td>15.</td><td>[?]</td><td>30·421</td><td>30·04</td><td>30·35</td><td>30·20</td><td>30·25</td><td>[?]</td><td>43</td><td>18</td><td>36</td><td>42</td><td>[?]</td><td>[?]</td><td>45</td><td>n.</td><td>nw.</td><td>w.</td><td>nw.</td><td>....</td><td>.....</td><td>.....</td><td>·02</td></tr>
+<tr><td>16.</td><td>30·316</td><td>30·235</td><td>29·86</td><td>[?]</td><td>30·03</td><td>30·07</td><td>29·82</td><td>45</td><td>38</td><td>37·5</td><td>46</td><td>[?]</td><td>39</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>.....</td><td>0·10</td><td>·25</td></tr>
+<tr><td>☾ 17.</td><td>30·073</td><td>29·808</td><td>29·55</td><td>29·69</td><td>29·50</td><td>29·37</td><td>29·25</td><td>49</td><td>38</td><td>44</td><td>[?]</td><td>39</td><td>[?]</td><td>40</td><td>sw.</td><td>[?]</td><td>nw.</td><td>[?]</td><td>·04</td><td>.....</td><td>.....</td><td>·50</td></tr>
+<tr><td>18.</td><td>[?]</td><td>29·513</td><td>29·20</td><td>29·30</td><td>29·33</td><td>29·18</td><td>29·35</td><td>50</td><td>34</td><td>44</td><td>47</td><td>41</td><td>39</td><td>38</td><td>[?]</td><td>[?]</td><td>w.</td><td>n.</td><td>·03</td><td>·02</td><td>.....</td><td>·26</td></tr>
+<tr><td>19.</td><td>30·050</td><td>29·793</td><td>29·46</td><td>29·71</td><td>29·68</td><td>29·64</td><td>29·38</td><td>50</td><td>24</td><td>37</td><td>45</td><td>30</td><td>37</td><td>41</td><td>nw.</td><td>[?]</td><td>[?]</td><td>[?]</td><td>....</td><td>.....</td><td>.....</td><td>.....</td></tr>
+<tr><td>20.</td><td>29·874</td><td>29·581</td><td>29·34</td><td>29·25</td><td>29·10</td><td>28·77</td><td>28·73</td><td>55</td><td>40</td><td>49</td><td>[?]</td><td>[?]</td><td>47</td><td>46</td><td>sw.</td><td>[?]</td><td>[?]</td><td>[?]</td><td>·09</td><td>.....</td><td>.....</td><td>1·04</td></tr>
+<tr><td>21.</td><td>[?]</td><td>29·523</td><td>29·20</td><td>[?]</td><td>29·20</td><td>29·00</td><td>29·43</td><td>54</td><td>33</td><td>43</td><td>[?]</td><td>[?]</td><td>[?]</td><td>35</td><td>sw.</td><td>sw.</td><td>w.</td><td>[?]</td><td>·03</td><td>·14</td><td>......</td><td>·65</td></tr>
+<tr><td>22.</td><td>29·258</td><td>29·168</td><td>28·93</td><td>29·00</td><td>28·87</td><td>29·20</td><td>28·95</td><td>[?]</td><td>43</td><td>48</td><td>[?]</td><td>39</td><td>40</td><td>45</td><td>sw.</td><td>s.</td><td>e.</td><td>[?]</td><td>·01</td><td>·10</td><td>.....</td><td>·31</td></tr>
+<tr><td>23.</td><td>29·207</td><td>29·151</td><td>28·80</td><td>28·95</td><td>[?]</td><td>28·87</td><td>29·18</td><td>52</td><td>39</td><td>45</td><td>47</td><td>[?]</td><td>[?]</td><td>[?]</td><td>s.</td><td>s.</td><td>e.</td><td>[?]</td><td>·04</td><td>.....</td><td>1·53</td><td>·32</td></tr>
+<tr><td>24.</td><td>29·763</td><td>29·391</td><td>29·33</td><td>29·56</td><td>29·80</td><td>29·46</td><td>29·81</td><td>45</td><td>22</td><td>38</td><td>43</td><td>31</td><td>42</td><td>39</td><td>n.</td><td>nw.</td><td>w.</td><td>nnw.</td><td>....</td><td>.....</td><td>.....</td><td>·05</td></tr>
+<tr><td>● 25.</td><td>30·084</td><td>29·925</td><td>29·70</td><td>29·78</td><td>29·50</td><td>29·71</td><td>29·38</td><td>48</td><td>40</td><td>31</td><td>47</td><td>31</td><td>41</td><td>43</td><td>s.</td><td>[?]</td><td>[?]</td><td>[?]</td><td>·05</td><td>.....</td><td>.....</td><td>.....</td></tr>
+<tr><td>26.</td><td>29·869</td><td>29·826</td><td>29·40</td><td>[?]</td><td>29·45</td><td>29·21</td><td>29·06</td><td>55</td><td>43</td><td>48</td><td>50</td><td>44</td><td>45</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>sw.</td><td>·38</td><td>·14</td><td>.....</td><td>·18</td></tr>
+<tr><td>27.</td><td>30·078</td><td>29·772</td><td>29·38</td><td>29·56</td><td>29·78</td><td>29·47</td><td>29·57</td><td>51</td><td>41</td><td>44</td><td>[?]</td><td>43</td><td>46</td><td>[?]</td><td>w.</td><td>[?]</td><td>[?]</td><td>[?]</td><td>.....</td><td>.....</td><td>.....</td><td>·26</td></tr>
+<tr><td>28.</td><td>[?]</td><td>29·962</td><td>[?]</td><td>29·60</td><td>29·39</td><td>29·28</td><td>28·90</td><td>54</td><td>46</td><td>46</td><td>53</td><td>[?]</td><td>[?]</td><td>47</td><td>sw.</td><td>[?]</td><td>[?]</td><td>[?]</td><td>....</td><td>.....</td><td>.....</td><td>·27</td></tr>
+<tr><td>29.</td><td>29·919</td><td>29·742</td><td>29·40</td><td>29·54</td><td>29·48</td><td>29·26</td><td>29·40</td><td>55</td><td>38</td><td>52</td><td>[?]</td><td>45</td><td>45</td><td>43</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>.....</td><td>.....</td><td>[?]</td></tr>
+<tr><td>30.</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>48</td><td>30</td><td>[?]</td><td>[?]</td><td>[?]</td><td>44</td><td>41</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Mean.</td><td>29·954</td><td>29·800</td><td>29·46</td><td>29·695</td><td>29·687</td><td>29·623</td><td>29·627</td><td>49·00</td><td>33·03</td><td>40·7</td><td>45·7</td><td>35·1</td><td>41·96</td><td>41·48</td><td></td><td></td><td></td><td></td><td>0·90</td><td>1·02</td><td>2·73</td><td>6·23</td></tr>
+</tbody>
+</table>
 
 ## PDF page 95
 
@@ -11154,519 +10755,49 @@ Rain: cloudy. 27. Showers: clear. 28, 29. Clear: frost: clear. 30, 31. Cloudy,
 
 ## PDF page 174
 
-Meteorological Observations made by Mr. Thompson at the Garden of the Horticultural Society at CHISWICK, near London; by Mr. Veall, at
-91.
-.05<br>.55<br>.61
-Orkney,<br>Sandwick,
-.30
-.20
-•19
-:35
-.<br>0.
-.05
-.03
-8
-3.87
--25
-W. Dunbar, at Applegarth Manse, Duneries-shire; and by the Rev. C. Clouston, at Sandwick Manse, Obenex.
-2.50
-....
-....
-....
-shire.
-0.12
-0.20
-3.89
-....
-*****
-0.77
-....
-Rain.
-Dumfries.
-1.33
-.....
-.18
-....
-.<br>2<br>2<br>2<br>2
-.04
-242
-.22
-17
-.03
-•05
-:12
-80.
-.07
-Boston.
-****
-2.03
-****
-•19
-.05
-.15
-....
-58
-:
-.14
-.22
-99
-30
-0
-.01
-÷
-0.0
-Chiswick.
-0.
-ö
-Ö
-ó
-Sandwick,
-nw.
-S. SW.
-se.
-sse.
-ese.
-ne.
-SW.
-SSW
-sse.
-sse.
-sse.
-sse.
-se.
-NU
-sse.
-se.
-ä
-¥.
-se.
-se.
-se.
-ġ
-ŝ
-se.
-υż
-ŝ
-ŝ
-ŝ
-<b>V</b>2
-vi
-Orkney
-S-SW.
-SW-W.
-S-SW.
-SSW.
-SW.
-shire.
-SW.
-SW.
-W.
-nw.
-se.
-sse.
-sse.
-Se.
-W.
-ŝ
-ne.
-nw.
-ŝ
-ŝ
-ese'
-¥.
-ŉ
-ŝ
-å
-ů
-ů
-ů
-ڻ
-ů
-ė
-Wind.
-ů
-Dumfries.
-calm
-calm
-calm
-calm
-SSW.
-calm
-calm
-calm
-WSW
-WSW
-SSW
-S.W.
-SW.
-Boston,
-K
-ese.
-se.
-SW.
-×.
-ŝ
-X.
-ŝ
-ŝ
-ŝ
-ŝ
-ė,
-å
-ŝ
-ŝ
-ڻ
-ŝ
-÷
-.m.q 1
-SW.
-SW.
-SW.
-SW.
-SW.
-SW.
-SW.
-SW.
-SW
-SW
-SW
-ne,
-ne.
-ne.
-ne.
-ne.
-ne
-ŝ
-ŝ
-W.
-ne.
-တိ
-ė,
-å
-e,
-ï.
-ne.
-ŝ
-ŝ
-e,
-ŝ
-Chiswick,
-41.40
-•uu•d
-46½<br>47<br>45
-381
-44<br>43
-Orkney,<br>Sandwick.
-36
-39 39
-40
-38
-49
-43
-44
-47
-47
-41
-36
-41
-41
-41
-339
-₹8
-41.35
-a.m.
-48½<br>49
-493
-43 2
-41½<br>45
-45
-42
-43
-40
-38
-38
-42
-49
-76
-40
-38
-41
-37
-39
-40
-37
-42
-45
-36
-39
-36.3
-341<br>361<br>31
-<math>32\frac{1}{2}</math>
-477 2012 45
-42½ 37
-23½<br>282½
-Dumfries-<br>shire.
-333
-26½
-<math>29\frac{1}{3}</math>
-Thermometer
-.niM
-36
-32
-30
-40
-49
-50
-35
-37
-32
-34
-43
-0.77
-44<br>44<br>43<br>43<br>43<br>44
-<math>40\frac{1}{3}</math>
-41 3
-<math>52\frac{1}{2}</math>
-49 1
-<math>50\frac{1}{2}</math>
-<math>53\frac{1}{2}</math>
-43±<br>333±<br>38
-483
-<math>36\frac{1}{2}</math>
-Max.
-53
-52
-54
-46
-43
-44
-44
-42
-49
-35
-37
-37
-37.5
-33.5
-45.2
-48.5
-41.4
-.m.s $8
-40
-45
-40
-94
-50
-42
-40
-42
-43
-45
-35
-55
-51
-44
-35
-Boston.
-47
-42
-29
-37
-34.83
-3628
-38<br>39<br>50<br>50
-338 33 37 37
-45 45 45 45 45 45 45 45 45 45 45 45 45 4
-240
-223
-35
-39
-30 30
-Min.
-Chiswick.
-29.620 29.584 48.67
-48
-09
-09
-53
-53
-557
-55
-52
-42
-48
-40
-51
-47
-52
-48
-33
-40
-49
-49
-4444
-51
-Max.
-28.94
-29.16
-28.93
-29.56
-29.76
-28.82
-28-72
-28.73
-29.53
-29.59
-29.33
-29.52
-29.55
-30.05
-30.19
-30-20
-30-39
-28.51
-29.54
-30.32
-30.03
-29.90
-29.42
-30.00
-30.13
-30.13
-29.61
-30.13
-30.50
-84<br>p.m.q
-Orkney,<br>Sandwick,
-28.69
-29.45
-29.09
-28-74
-28.70
-28.70
-29.26
-29-33
-59.62
-29.55
-29.80
-29.55
-30.18
-30.56
-30.42
-29.90
-29.51
-29.41
-29-23
-29.47
-29.81
-30.15
-30.18
-30.10
-30.15
-29.77
-29.47
-29.64
-30.11
-30.13
-29.51
-9<del>5</del>
-29.646 29.643
-29.12
-28.58
-29.70
-28-93
-29.03
-29.39
-29.90
-29.18
-29.60
-29.48
-30.50
-30-23
-30.35
-28.87
-29.63
-30.18
-29.78
-29.80
-29.38
-28.97
-29.61
-29.77
-29.62
-29.41
-29.97
-29.97
-30.09
-30.09
-30.02
-30.10
-Dumfries-shire.
-6<br>p.m.
-Barometer
-28.60
-29.56
-29.39
-29.25
-59.66
-29.88
-29.76
-29.90
-29.48
-29.48
-29.58
-29.75
-30.10
-30.30
-30.34
-29.70
-29.45
-28.87
-29.31
-29.57
-30.54
-30.00
-29.24
-30.10
-30.08
-28.91
-29.61
-29.74
-30.04
-30.05
-28.81
-9<br>a.m.
-96.
-36
-98
-28.50 28.84 29.17 29.30 29.58 29.70 29.55 29.49 29.38 29.54 29.54 29.55 29.56 29.56 29.50 29.50
-29-93
-30.14<br>30.13<br>30.13<br>29.83<br>29.76<br>29.92<br>29.92<br>29.90
-52
-.m.s $8
-286288
-Roston.
-29
-Boston; by the Rev.
-29.978<br>29.732<br>29.731<br>29.771<br>29.872<br>30.172
-30-204<br>29-706<br>29-836<br>29-975<br>29-985<br>29-985<br>30-149
-29.352<br>29.362<br>29.579<br>29.116<br>28.986
-29-215<br>29-505<br>29-775<br>30-130<br>30-155
-30.315
-30.038
-30.211
-29.968 29.824
-Min.
-Chiswick.
-29-644<br>29-612<br>29-612<br>29-26<br>29-215<br>29-215<br>30-273<br>30-273<br>30-273<br>30-273<br>30-273<br>30-273<br>30-273<br>30-273<br>30-273<br>30-273<br>30-374<br>30-374<br>30-374<br>30-374<br>30-374<br>30-374<br>30-374<br>30-374<br>30-374<br>30-374<br>30-374<br>30-374<br>30-374<br>30-374<br>30-374<br>30-374
-30-170
-Max.
-Mean.
-Month.
-1848.<br>Dec.
-- 1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
-Days of
-0
+Meteorological Observations made by Mr. Thompson at the Garden of the Horticultural Society at CHISWICK, near London; by Mr. Veall, at BOSTON; by the Rev. W. Dunbar, at Applegarth Manse, DUMFRIES-SHIRE; and by the Rev. C. Clouston, at Sandwick Manse, ORKNEY.
+
+<table>
+<thead>
+<tr><th rowspan="2">Days of Month.</th><th colspan="7">Barometer.</th><th colspan="7">Thermometer.</th><th colspan="4">Wind.</th><th colspan="4">Rain.</th></tr>
+<tr><th colspan="2">Chiswick.</th><th rowspan="2">Boston. 8½ a.m.</th><th colspan="2">Dumfries-shire.</th><th colspan="2">Orkney, Sandwick.</th><th colspan="2">Chiswick.</th><th rowspan="2">Boston. 8½ a.m.</th><th colspan="2">Dumfries-shire.</th><th colspan="2">Orkney, Sandwick.</th><th rowspan="2">Chiswick. 1 p.m.</th><th rowspan="2">Boston.</th><th rowspan="2">Dumfries-shire.</th><th rowspan="2">Orkney, Sandwick.</th><th rowspan="2">Chiswick.</th><th rowspan="2">Boston.</th><th rowspan="2">Dumfries-shire.</th><th rowspan="2">Orkney, Sandwick.</th></tr>
+<tr><th>1848. Dec.</th><th>Max.</th><th>Min.</th><th>9 a.m.</th><th>9 p.m.</th><th>9½ a.m.</th><th>8½ p.m.</th><th>Max.</th><th>Min.</th><th>Max.</th><th>Min.</th><th>9½ a.m.</th><th>8½ p.m.</th></tr>
+</thead>
+<tbody>
+<tr><td>1.</td><td>[?]</td><td>29·355</td><td>29·36</td><td>29·42</td><td>28·93</td><td>29·42</td><td>28·82</td><td>48</td><td>34</td><td>[?]</td><td>43</td><td>[?]</td><td>34</td><td>39</td><td>[?]</td><td>s.</td><td>[?]</td><td>[?]</td><td>·19</td><td>·02</td><td>.....</td><td>·05</td></tr>
+<tr><td>2.</td><td>29·612</td><td>29·362</td><td>28·96</td><td>28·87</td><td>29·12</td><td>28·69</td><td>28·94</td><td>45</td><td>29</td><td>37</td><td>[?]</td><td>[?]</td><td>37</td><td>37</td><td>sw.</td><td>[?]</td><td>[?]</td><td>sw.</td><td>·02</td><td>·22</td><td>.....</td><td>·50</td></tr>
+<tr><td>☽ 3.</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>51</td><td>36</td><td>33</td><td>[?]</td><td>[?]</td><td>40</td><td>39</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>....</td><td>.....</td><td>[?]</td></tr>
+<tr><td>4.</td><td>29·268</td><td>[?]</td><td>28·80</td><td>[?]</td><td>28·58</td><td>28·74</td><td>28·72</td><td>53</td><td>38</td><td>50</td><td>[?]</td><td>40</td><td>45</td><td>39</td><td>sw.</td><td>s.</td><td>[?]</td><td>[?]</td><td>·19</td><td>·04</td><td>.....</td><td>·55</td></tr>
+<tr><td>5.</td><td>[?]</td><td>[?]</td><td>28·50</td><td>28·60</td><td>28·87</td><td>28·70</td><td>28·73</td><td>53</td><td>39</td><td>42</td><td>[?]</td><td>36</td><td>38</td><td>40</td><td>sw.</td><td>wsw.</td><td>[?]</td><td>nw.</td><td>·01</td><td>·04</td><td>.....</td><td>·61</td></tr>
+<tr><td>6.</td><td>[?]</td><td>29·215</td><td>28·84</td><td>28·91</td><td>28·97</td><td>28·70</td><td>28·93</td><td>47</td><td>40</td><td>40</td><td>41</td><td>32</td><td>40</td><td>38</td><td>[?]</td><td>[?]</td><td>se.</td><td>ne.</td><td>·05</td><td>·12</td><td>.....</td><td>·30</td></tr>
+<tr><td>7.</td><td>[?]</td><td>[?]</td><td>29·17</td><td>29·25</td><td>29·39</td><td>29·33</td><td>28·51</td><td>55</td><td>50</td><td>42</td><td>[?]</td><td>30</td><td>38</td><td>35</td><td>s.</td><td>[?]</td><td>w.</td><td>n.</td><td>·15</td><td>·22</td><td>.....</td><td>·07</td></tr>
+<tr><td>8.</td><td>[?]</td><td>[?]</td><td>29·30</td><td>29·31</td><td>29·61</td><td>29·51</td><td>29·56</td><td>57</td><td>48</td><td>55</td><td>[?]</td><td>[?]</td><td>38</td><td>41</td><td>[?]</td><td>[?]</td><td>s.</td><td>w.</td><td>·01</td><td>·18</td><td>[?]</td><td>·01</td></tr>
+<tr><td>9.</td><td>[?]</td><td>[?]</td><td>29·58</td><td>29·69</td><td>29·77</td><td>29·69</td><td>29·53</td><td>57</td><td>33</td><td>51</td><td>[?]</td><td>46</td><td>42</td><td>47</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>.....</td><td>·14</td><td>.....</td><td>·20</td></tr>
+<tr><td>○ 10.</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>29·84</td><td>29·77</td><td>29·61</td><td>60</td><td>29</td><td>47</td><td>[?]</td><td>[?]</td><td>[?]</td><td>51</td><td>sw.</td><td>s.</td><td>[?]</td><td>[?]</td><td>·01</td><td>....</td><td>.....</td><td>.....</td></tr>
+<tr><td>11.</td><td>[?]</td><td>[?]</td><td>29·64</td><td>29·76</td><td>29·90</td><td>29·55</td><td>29·76</td><td>60</td><td>38</td><td>43</td><td>53</td><td>[?]</td><td>49</td><td>47</td><td>sw.</td><td>[?]</td><td>[?]</td><td>sw.</td><td>.....</td><td>....</td><td>.....</td><td>·16</td></tr>
+<tr><td>12.</td><td>[?]</td><td>[?]</td><td>29·70</td><td>29·90</td><td>29·70</td><td>29·80</td><td>29·56</td><td>55</td><td>37</td><td>51</td><td>51</td><td>43</td><td>45</td><td>49</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>.....</td><td>....</td><td>....</td><td>......</td></tr>
+<tr><td>13.</td><td>[?]</td><td>[?]</td><td>29·55</td><td>29·57</td><td>29·67</td><td>[?]</td><td>29·59</td><td>58</td><td>34</td><td>45</td><td>52</td><td>49</td><td>[?]</td><td>[?]</td><td>s.</td><td>s.</td><td>[?]</td><td>se.</td><td>......</td><td>.....</td><td>.....</td><td>·19</td></tr>
+<tr><td>14.</td><td>29·831</td><td>29·732</td><td>29·37</td><td>29·48</td><td>29·41</td><td>29·47</td><td>29·33</td><td>52</td><td>40</td><td>44</td><td>54</td><td>50</td><td>49</td><td>47</td><td>s.</td><td>[?]</td><td>s.</td><td>sse.</td><td>·14</td><td>.....</td><td>....</td><td>.....</td></tr>
+<tr><td>15.</td><td>[?]</td><td>[?]</td><td>29·49</td><td>29·48</td><td>[?]</td><td>29·56</td><td>28·68</td><td>55</td><td>43</td><td>45·5</td><td>[?]</td><td>[?]</td><td>41</td><td>45</td><td>[?]</td><td>calm</td><td>[?]</td><td>s</td><td>·22</td><td>·05</td><td>....</td><td>.....</td></tr>
+<tr><td>16.</td><td>[?]</td><td>29·731</td><td>29·38</td><td>29·56</td><td>[?]</td><td>29·23</td><td>[?]</td><td>42</td><td>38</td><td>45</td><td>46</td><td>37</td><td>[?]</td><td>41</td><td>[?]</td><td>s.</td><td>s.</td><td>[?]</td><td>·68</td><td>·03</td><td>0·77</td><td>·35</td></tr>
+<tr><td>☾ 17.</td><td>29·937</td><td>29·872</td><td>29·54</td><td>29·61</td><td>29·63</td><td>29·47</td><td>[?]</td><td>48</td><td>33</td><td>37</td><td>43</td><td>32</td><td>42</td><td>43</td><td>ne.</td><td>calm</td><td>[?]</td><td>se.</td><td>·01</td><td>·07</td><td>....</td><td>·05</td></tr>
+<tr><td>18.</td><td>[?]</td><td>29·771</td><td>[?]</td><td>29·58</td><td>[?]</td><td>29·55</td><td>29·55</td><td>52</td><td>43</td><td>40</td><td>44</td><td>37</td><td>43</td><td>44</td><td>s.</td><td>calm</td><td>[?]</td><td>se.</td><td>·01</td><td>.....</td><td>....</td><td>·03</td></tr>
+<tr><td>19.</td><td>[?]</td><td>[?]</td><td>29·50</td><td>29·75</td><td>29·97</td><td>29·81</td><td>[?]</td><td>48</td><td>40</td><td>46</td><td>44</td><td>37</td><td>[?]</td><td>41</td><td>[?]</td><td>calm</td><td>[?]</td><td>[?]</td><td>·01</td><td>·12</td><td>....</td><td>.....</td></tr>
+<tr><td>20.</td><td>30·301</td><td>[?]</td><td>29·93</td><td>30·10</td><td>30·20</td><td>30·15</td><td>30·19</td><td>40</td><td>24</td><td>40</td><td>[?]</td><td>32</td><td>45</td><td>41</td><td>ne.</td><td>sw.</td><td>[?]</td><td>[?]</td><td>......</td><td>.....</td><td>....</td><td>.....</td></tr>
+<tr><td>21.</td><td>30·334</td><td>30·315</td><td>30·06</td><td>30·24</td><td>30·23</td><td>30·18</td><td>30·20</td><td>34</td><td>23</td><td>33·5</td><td>33</td><td>27</td><td>37</td><td>36</td><td>e.</td><td>[?]</td><td>e.</td><td>sse.</td><td>......</td><td>.....</td><td>.....</td><td>.....</td></tr>
+<tr><td>22.</td><td>30·345</td><td>30·211</td><td>30·14</td><td>30·30</td><td>30·35</td><td>30·26</td><td>30·39</td><td>39</td><td>22</td><td>32</td><td>38</td><td>[?]</td><td>37</td><td>35</td><td>[?]</td><td>[?]</td><td>[?]</td><td>s.</td><td>......</td><td>.....</td><td>.....</td><td>.....</td></tr>
+<tr><td>23.</td><td>[?]</td><td>30·204</td><td>30·13</td><td>30·34</td><td>30·18</td><td>30·42</td><td>[?]</td><td>33</td><td>21</td><td>35</td><td>37</td><td>28</td><td>39</td><td>[?]</td><td>e.</td><td>e.</td><td>[?]</td><td>se.</td><td>......</td><td>.....</td><td>0·12</td><td>.....</td></tr>
+<tr><td>24.</td><td>[?]</td><td>[?]</td><td>29·83</td><td>30·00</td><td>29·78</td><td>30·18</td><td>30·03</td><td>40</td><td>26</td><td>35</td><td>37</td><td>[?]</td><td>40</td><td>[?]</td><td>e.</td><td>ese.</td><td>e.</td><td>[?]</td><td>·02</td><td>.....</td><td>.....</td><td>.....</td></tr>
+<tr><td>● 25.</td><td>[?]</td><td>[?]</td><td>29·60</td><td>29·70</td><td>[?]</td><td>29·90</td><td>29·90</td><td>49</td><td>35</td><td>37</td><td>42</td><td>34</td><td>42</td><td>44</td><td>[?]</td><td>se.</td><td>e.</td><td>se.</td><td>.....</td><td>.....</td><td>.....</td><td>.....</td></tr>
+<tr><td>26.</td><td>[?]</td><td>29·975</td><td>29·70</td><td>[?]</td><td>29·38</td><td>29·51</td><td>[?]</td><td>51</td><td>40</td><td>42</td><td>49</td><td>39</td><td>45</td><td>43</td><td>s.</td><td>e.</td><td>[?]</td><td>se.</td><td>.....</td><td>·08</td><td>.....</td><td>·08</td></tr>
+<tr><td>27.</td><td>30·103</td><td>29·985</td><td>29·15</td><td>29·74</td><td>29·97</td><td>29·64</td><td>30·00</td><td>49</td><td>39</td><td>48·5</td><td>[?]</td><td>43</td><td>42</td><td>44</td><td>w.</td><td>[?]</td><td>[?]</td><td>[?]</td><td>·30</td><td>.....</td><td>.....</td><td>·25</td></tr>
+<tr><td>28.</td><td>[?]</td><td>29·985</td><td>29·76</td><td>30·04</td><td>30·09</td><td>30·10</td><td>30·13</td><td>44</td><td>39</td><td>48</td><td>[?]</td><td>[?]</td><td>36</td><td>36</td><td>ne.</td><td>[?]</td><td>nw.</td><td>[?]</td><td>.....</td><td>.....</td><td>.....</td><td>.....</td></tr>
+<tr><td>29.</td><td>30·180</td><td>[?]</td><td>29·92</td><td>30·10</td><td>30·09</td><td>30·11</td><td>30·13</td><td>44</td><td>30</td><td>29</td><td>35</td><td>25</td><td>37</td><td>40</td><td>n.</td><td>calm</td><td>[?]</td><td>[?]</td><td>.....</td><td>.....</td><td>.....</td><td>.....</td></tr>
+<tr><td>30.</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>40</td><td>29</td><td>37</td><td>[?]</td><td>[?]</td><td>39</td><td>39</td><td>[?]</td><td>calm</td><td>[?]</td><td>[?]</td><td>.....</td><td>.....</td><td>[?]</td><td>.....</td></tr>
+<tr><td>31.</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>30</td><td>37</td><td>35</td><td>[?]</td><td>39</td><td>[?]</td><td>[?]</td><td>calm</td><td>[?]</td><td>[?]</td><td>.....</td><td>.....</td><td>.....</td><td>.....</td></tr>
+<tr><td>Mean.</td><td>29·968</td><td>29·824</td><td>29·52</td><td>29·646</td><td>29·643</td><td>29·620</td><td>29·584</td><td>48·67</td><td>34·83</td><td>41·4</td><td>44·0</td><td>36·3</td><td>41·35</td><td>41·40</td><td></td><td></td><td></td><td></td><td>2·03</td><td>1·33</td><td>3·89</td><td>3·87</td></tr>
+</tbody>
+</table>
 
 ## PDF page 175
 
@@ -13363,299 +12494,49 @@ was 63. It fell on the least number of days at Aylesbury,
 
 ## PDF page 206
 
-the level of the sea.
-feet.<br>123<br>106
-120<br>140
-265<br>1159<br>107<br>40<br>40<br>335<br>335<br>300<br>300
-39<br>156<br>39<br>103<br>103<br>113<br>148<br>50
-340<br>121<br>18
-the barometer above
-Height of cistern of
-cubic foot of air.
-537
-540<br>538<br>538<br>539
-5555
-543<br>543
-0445<br>0445<br>0445<br>0445<br>0445<br>0445
-541<br>541
-541<br>542<br>17
-2
-Mean weight of a
-sphere,
-of water in a vertical
-484888884
-00000000000000000000000000000000000000
-4.4
-400
-3.0
-3.8
-ï.
-Mean whole amount
-898-0
-0.792
-0.935<br>0.858<br>0.881<br>0.900
-0.933<br>0.836<br>0.881<br>0.910
-0.930<br>0.867<br>0.890<br>0.854<br>0.860<br>0.860
-0.847<br>0.864<br>0.907<br>15
-0.914
-humidity.
-Mean degree of
-of air.
-saturate a cubic foot
-0.5
-9.0
-000000000000000000000000000000000000000
-000000 0001<br>00000 0001
-B
-weight required to
 Meteorological Table for the Quarter ending December 31, 1848.
-Mean additional
-of air.
-3.7
-3.50
-00000000000000000000000000000000000000
-မာ မာ<br>မာ မာ
-000000000000000000000000000000000000000
-. . . . . . . . . . . . . . . . . . . 
-grs.
-pour in a cubic foot
-Mean weight of va-
-155<br>155<br>150<br>150<br>150
-11.8
-7.11
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
-10:1<br>
 
-9.4
-lected.
--los tanomA
-Rain.
-on which it fell.
-553 550 500 500 500 500 500 500 500 500 
-50 20 20 20 20 20 20 20 20 20 20 20 20 20
-045254<br>6664<br>6674<br>6674<br>6674<br>6674<br>6774<br>6774<br>67
-552<br>56<br>50<br>41
-44
-Number of days
-00000000000000000000000000000000000000
-2.9
-cloud 0-10.
-6.6
-6.3
-67.57
-5.1
-6.1
-10
-Mean amount of
-Š
-ariable
-& S.W.
-rariable.
-1) 4
-& n.
-S.S. W.
-S.W.
-S.W.<br>S.W.
-S.W.
-S.W.
-S.W.
-tion
-S.W.
-S.e.<br>S.W.
-S.W.
-S.W.
-8
-S.W
-S.W
-.₩.8<br>.₩.9
-S.W
-တို့
-ŝ
-ø
-i.
-General direc-
-Wind.
-E
-ú
-5 4 4
-1.4
-etrength 0-6.
-0.0
-31333
-1.0
-1.7<br>1.4<br>0.9
-0.0
-3.0
-00
-Mean estimated
-42.5
-42.3
-41.1<br>42.1<br>42.9<br>42.9<br>39.1<br>39.0<br>42.3
-42.0
-40.4<br>39.6<br>39.5
-38.8
-45.3
-42.9
-43.6
-42.3
-40·6<br>38·2<br>41·1
-the dew-point.
-41-4
-Mean temperature of
-44.8
-42.0<br>43.0
-54.0<br>45.0
-48.3<br>38.4<br>53.5
-466<br>666<br>666<br>666<br>666<br>666<br>666<br>666<br>666<br>666
-40.0
-34.0
-34.0
-5250<br>5250<br>5250<br>5250<br>5250<br>5469<br>5469
-48.5
-mometer.
-Range of the ther-
-8.8<br>0.11<br>0.11
-7:3<br>111-2<br>10-6<br>10-6<br>66<br>66<br>88<br>88<br>11-0
-9
-10:3<br>10:7<br>11:9<br>14:9<br>14:9
-13.0
-9.0<br>10.7<br>10.7<br>12.1<br>12.1
-10-1
-temperature.
-Mean daily range of
-22.0
-22.0
-2223<br>2224<br>2225<br>220<br>220<br>220<br>4<br>250<br>4<br>50<br>4
-27.0<br>21.0
-21.8<br>24.7<br>21.0
-32·0
-24.2
-25.0
-21.5
-0.93
-30.0<br>31.0
-30.0
-thermometer.
-Lowest reading of the
-68.0<br>67.3<br>67.3<br>67.3<br>68.0<br>68.0<br>68.0
-73.0<br>72.5<br>74.0
-700<br>720<br>740<br>700
-67.0
-6.69<br>0.92
-0.97
-70.5<br>65.0
-0.99
-0.99
-0.69
-50.2
-71.0
-the thermometer.
-0.69
-Highest reading of
-12.8
-44.3
-14.2
-34444444444444444444444444444444444444
-14.5
-7.9
-45.59<br>45.59<br>45.59
-13.3
-44.0
-14.5
-14.7
-13.6
-9.9
-51.4<br>48.3<br>47.7<br>48.4
-the air.
-Mean temperature of
-29.634<br>29.552
-29.531<br>29.608<br>29.711<br>29.589<br>29.595<br>29.626<br>29.639<br>29.639
-29-648<br>29-629<br>29-625<br>29-672
-.......
-29.641<br>29.653<br>29.669<br>29.669
-of the sea.
-in.<br>29-701
-36
-.......
-.......
-level off to the level
-.....
-.....
-29.7
-atmosphere of dry air
-..................
-Number of columns .....
-.............
-Pool Cottage, Hereford.....
-Wakefield .....
-Royal Observatory, Greenwich
-Maidenstone Hill, Greenwich
-.......................................
-Saffron Walden .....
-Stonyhurst Observatory
-Highfield House, Notts
-Names of the places.
-Liverpool Observatory
-Beckington
-Stone Observatory
-Aylesbury .....
-Hartwell House ...
-Southampton ....
-Lewisham .....
-Durham .....
-Latimer Rectory
-Derby .....
-Norwich ....
-Exeter....
-Cardington ....
-Chichester ....
-Leicester.....
-Whitehaven
-137
-Leeds .....
-Newcastle
-Truro ....
-Falmouth
-Guernsey
-Torquay
-Helston
-York
-3
+<table>
+<thead>
+<tr><th rowspan="2">Names of the places.</th><th rowspan="2">Mean pressure of the atmosphere of dry air reduced to the level of the sea.</th><th rowspan="2">Mean temperature of the air.</th><th rowspan="2">Highest reading of the thermometer.</th><th rowspan="2">Lowest reading of the thermometer.</th><th rowspan="2">Mean daily range of temperature.</th><th rowspan="2">Range of the thermometer.</th><th rowspan="2">Mean temperature of the dew-point.</th><th colspan="2">Wind.</th><th rowspan="2">Mean amount of cloud 0—10.</th><th colspan="2">Rain.</th><th rowspan="2">Mean weight of vapour in a cubic foot of air.</th><th rowspan="2">Mean additional weight required to saturate a cubic foot of air.</th><th rowspan="2">Mean degree of humidity.</th><th rowspan="2">Mean whole amount of water in a vertical column of atmosphere.</th><th rowspan="2">Mean weight of a cubic foot of air.</th><th rowspan="2">Height of cistern of the barometer above the level of the sea.</th></tr>
+<tr><th>Mean estimated strength 0—6.</th><th>General direction.</th><th>Number of days on which it fell.</th><th>Amount collected.</th></tr>
+</thead>
+<tbody>
+<tr><td></td><td>in.</td><td>°</td><td>°</td><td>°</td><td>°</td><td>°</td><td>°</td><td></td><td></td><td></td><td></td><td>in.</td><td>grs.</td><td>gr.</td><td></td><td>in.</td><td>grs.</td><td>feet.</td></tr>
+<tr><td>Guernsey</td><td>[?]</td><td>51·4</td><td>70·5</td><td>30·0</td><td>7·0</td><td>40·0</td><td>42·5</td><td>.....</td><td>[?]</td><td>.....</td><td>59</td><td>15·7</td><td>......</td><td>[?]</td><td>........</td><td>[?]</td><td>......</td><td>123</td></tr>
+<tr><td>Helston</td><td>[?]</td><td>48·3</td><td>65·0</td><td>31·0</td><td>9·7</td><td>34·0</td><td>45·3</td><td>1·7</td><td>[?]</td><td>6·6</td><td>61</td><td>12·5</td><td>3·7</td><td>0·5</td><td>0·868</td><td>4·4</td><td>537</td><td>106</td></tr>
+<tr><td>Falmouth</td><td>.....</td><td>48·7</td><td>69·0</td><td>30·0</td><td>10·7</td><td>39·0</td><td>......</td><td>1·4</td><td>[?]</td><td>7·4</td><td>58</td><td>13·1</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Truro</td><td>[?]</td><td>47·7</td><td>66·0</td><td>32·0</td><td>8·7</td><td>34·0</td><td>[?]</td><td>0·9</td><td>s.w.</td><td>7·2</td><td>53</td><td>15·0</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Torquay</td><td>......</td><td>48·4</td><td>66·0</td><td>33·0</td><td>7·1</td><td>33·0</td><td>42·3</td><td>[?]</td><td>[?]</td><td>[?]</td><td>53</td><td>11·4</td><td>3·3</td><td>0·8</td><td>[?]</td><td>4·0</td><td>[?]</td><td>120</td></tr>
+<tr><td>Exeter</td><td>29·736</td><td>46·6</td><td>69·0</td><td>24·2</td><td>12·1</td><td>44·8</td><td>42·9</td><td>.....</td><td>[?]</td><td>5·1</td><td>50</td><td>9·4</td><td>3·4</td><td>0·6</td><td>0·857</td><td>4·0</td><td>[?]</td><td>140</td></tr>
+<tr><td>Chichester</td><td>.........</td><td>44·2</td><td>67·0</td><td>25·0</td><td>10·3</td><td>42·0</td><td>......</td><td>.....</td><td>[?]</td><td>.....</td><td>....</td><td>8·9</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Southampton</td><td>29·641</td><td>46·2</td><td>70·0</td><td>27·0</td><td>10·7</td><td>43·0</td><td>43·6</td><td>0·9</td><td>Variable</td><td>6·5</td><td>52</td><td>11·8</td><td>3·4</td><td>0·3</td><td>0·935</td><td>4·1</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Beckington</td><td>29·635</td><td>43·2</td><td>72·0</td><td>21·0</td><td>11·9</td><td>51·0</td><td>[?]</td><td>1·2</td><td>s.w.</td><td>6·3</td><td>[?]</td><td>[?]</td><td>3·2</td><td>0·3</td><td>0·858</td><td>3·8</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Royal Observatory, Greenwich</td><td>29·653</td><td>45·9</td><td>74·0</td><td>21·8</td><td>14·9</td><td>52·2</td><td>42·1</td><td>.....</td><td>s.w.</td><td>6·9</td><td>50</td><td>[?]</td><td>3·3</td><td>0·6</td><td>0·881</td><td>4·0</td><td>[?]</td><td>159</td></tr>
+<tr><td>Maidenstone Hill, Greenwich</td><td>29·669</td><td>45·5</td><td>70·0</td><td>24·7</td><td>9·4</td><td>45·3</td><td>41·6</td><td>.....</td><td>[?]</td><td>6·6</td><td>41</td><td>7·0</td><td>3·3</td><td>0·5</td><td>0·900</td><td>[?]</td><td>[?]</td><td>107</td></tr>
+<tr><td>Lewisham</td><td>.........</td><td>45·4</td><td>73·0</td><td>21·0</td><td>13·0</td><td>52·0</td><td>42·9</td><td>.....</td><td>[?]</td><td>6·5</td><td>....</td><td>......</td><td>3·4</td><td>0·4</td><td>........</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Latimer Rectory</td><td>29·648</td><td>[?]</td><td>72·5</td><td>22·0</td><td>13·3</td><td>[?]</td><td>42·0</td><td>1·2</td><td>[?]</td><td>7·2</td><td>60</td><td>10·1</td><td>3·3</td><td>0·2</td><td>0·933</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Aylesbury</td><td>29·629</td><td>43·9</td><td>74·0</td><td>[?]</td><td>13·2</td><td>52·0</td><td>39·1</td><td>1·1</td><td>[?]</td><td>6·8</td><td>39</td><td>7·6</td><td>3·1</td><td>[?]</td><td>0·836</td><td>3·6</td><td>[?]</td><td>280</td></tr>
+<tr><td>Stone Observatory</td><td>29·625</td><td>44·0</td><td>69·9</td><td>23·0</td><td>10·1</td><td>46·9</td><td>39·0</td><td>1·2</td><td>[?]</td><td>6·4</td><td>51</td><td>6·3</td><td>3·2</td><td>0·4</td><td>0·881</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Hartwell House</td><td>[?]</td><td>45·0</td><td>[?]</td><td>22·0</td><td>14·5</td><td>54·0</td><td>42·3</td><td>1·2</td><td>[?]</td><td>7·3</td><td>50</td><td>6·4</td><td>3·4</td><td>0·6</td><td>0·910</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Saffron Walden</td><td>[?]</td><td>[?]</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td><td>2·8</td><td>[?]</td><td>5·5</td><td>44</td><td>6·3</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Pool Cottage, Hereford</td><td>.........</td><td>45·8</td><td>......</td><td>......</td><td>......</td><td>......</td><td>[?]</td><td>[?]</td><td>[?]</td><td>.....</td><td>40</td><td>12·1</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Cardington</td><td>[?]</td><td>44·3</td><td>70·0</td><td>21·5</td><td>10·2</td><td>48·5</td><td>42·3</td><td>.....</td><td>s.w.</td><td>6·4</td><td>52</td><td>7·3</td><td>[?]</td><td>0·3</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Norwich</td><td>29·608</td><td>44·7</td><td>71·0</td><td>26·0</td><td>8·8</td><td>45·0</td><td>41·4</td><td>[?]</td><td>..............</td><td>.....</td><td>[?]</td><td>9·4</td><td>3·3</td><td>0·4</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Leicester</td><td>29·711</td><td>44·2</td><td>[?]</td><td>22·0</td><td>11·0</td><td>54·0</td><td>......</td><td>[?]</td><td>[?]</td><td>6·3</td><td>59</td><td>[?]</td><td>......</td><td>[?]</td><td>........</td><td>......</td><td>......</td><td>[?]</td></tr>
+<tr><td>Derby</td><td>29·589</td><td>[?]</td><td>68·0</td><td>23·0</td><td>11·0</td><td>45·0</td><td>42·0</td><td>.....</td><td>[?]</td><td>[?]</td><td>64</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Highfield House, Notts</td><td>29·595</td><td>44·6</td><td>71·0</td><td>[?]</td><td>9·0</td><td>48·3</td><td>40·4</td><td>[?]</td><td>[?]</td><td>6·7</td><td>66</td><td>7·8</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Liverpool Observatory</td><td>29·597</td><td>[?]</td><td>67·8</td><td>29·4</td><td>7·3</td><td>38·4</td><td>39·6</td><td>0·9</td><td>[?]</td><td>7·0</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Wakefield</td><td>[?]</td><td>43·5</td><td>72·5</td><td>19·0</td><td>11·7</td><td>53·5</td><td>39·5</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Stonyhurst Observatory</td><td>29·639</td><td>[?]</td><td>67·1</td><td>20·5</td><td>11·2</td><td>46·6</td><td>38·8</td><td>1·0</td><td>[?]</td><td>7·2</td><td>64</td><td>14·1</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Leeds</td><td>29·602</td><td>[?]</td><td>[?]</td><td>19·0</td><td>10·6</td><td>48·5</td><td>38·5</td><td>1·4</td><td>[?]</td><td>8·2</td><td>63</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>York</td><td>.........</td><td>[?]</td><td>[?]</td><td>22·0</td><td>9·9</td><td>48·0</td><td>......</td><td>.....</td><td>[?]</td><td>.....</td><td>[?]</td><td>7·7</td><td>......</td><td>......</td><td>.......</td><td>......</td><td>......</td><td>[?]</td></tr>
+<tr><td>Whitehaven</td><td>.........</td><td>[?]</td><td>62·5</td><td>27·0</td><td>6·6</td><td>35·5</td><td>40·6</td><td>3·0</td><td>[?]</td><td>.....</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Durham</td><td>[?]</td><td>[?]</td><td>69·6</td><td>21·4</td><td>8·8</td><td>48·2</td><td>38·2</td><td>1·7</td><td>w.</td><td>6·1</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Newcastle</td><td>[?]</td><td>[?]</td><td>[?]</td><td>95·0</td><td>11·0</td><td>43·0</td><td>41·1</td><td>.....</td><td>[?]</td><td>.....</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Number of columns</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td></tr>
+</tbody>
+</table>
 
 ## PDF page 207
 
@@ -21437,521 +20318,46 @@ showers. 25. Snow-showers: clear: frost. 26. Snow-showers: clear: aurora,
 
 ## PDF page 334
 
-made by Mr. Thompson at the Garden of the Horticultural Society at Chiswick, near London; by Mr. Veall, at
-4.6.5
-.05
-****
-:
-34
-.05
-60
-35
-.05
-38
-30
-90.
-.05
-.10
-7
-.36
-62
-01.
-.03
-01.
-Orkney,<br>Sandwick,
-÷
-.13
-.33
-•08
-.18
-.07
-Junbar, at Applegarth Manse, Dumeries-Shire; and by the Rev. C. Clouston, at Sandwick Manse, Orkner.
-0.22 1.53
-.....
-0.30
-0.13
-shire.
-.....
-.....
-1.00
-....
-....
-.....
-0.10
-.....
-.....
-.....
-....
-....
-....
-....
-....
-....
-Dumfries.
-Rain.
-....
-.....
-::::
-....
-9
-.05
-90
-.07
-Boston
-2.52
-....
-....
-....
-****
-....
-90.
-9
-.04
-.28
-90.
-.01
-.28
-.92
-·84
-Chiswick.
-.01
-WSW.
-SSW.
-SW.
-nne.
-SW.
-S.W.
-WNW
-Sandwick.
-SW.
-W.
-WSW
-nw.
-SW.
-W.
-SW.
-nw.
-SW.
-SW.
-W.
-ė
-ŝ
-¥.
-Ř
-se.
-ï.
-ï.
-ė
-Ė
-ė
-Orkney
-WSW.
-WSW.
-WSW.
-nne.
-SW.
-Wnw
-shire.
-S.W.
-SW.
-nw.
-sse.
-nw.
-S.W.
-SW.
-¥.
-S.W.
-ene.
-SW.
-W.
-S.W.
-ř
-W.
-W.
-S.W.
-se.
-₩.
-W.
-ŝ
-W
-Wind.
-Dumfries.
-wnw.
-WSW.
-WSW.
-SSW.
-WSW.
-SW.
-SW.
-SW.
-W.
-SW.
-nw.
-W
-W.
-W.
-W
-14
-W.
-W
-Boston,
-W.
-š
-W.
-W.
-Ä
-Ä
-se.
-ŝ
-i.
-ŝ
-Chiswick.
-SW.
-SW.
-SW.
-SW.
-SW.
-SW.
-SW.
-SW
-SW.
-SW.
-SW.
-SW.
-nw.
-W.
-SW.
-SW.
-SW.
-nw.
-Ė.
-W.
-₩.
-W.
-W
-SW.
-ä
-×
-ä
-υž
-36.8 41.46 40.85
-•m•q
-474<br>474<br>474<br>484
-333 34 444<br>333 333 333 34 464<br>35 35 35 35 35 35 35 35 35 35 35 35 35 3
-45<br>45<br>45<br>43<br>48
-Orkney,<br>Sandwick,
-43
-47
-₹8
-a.m.
-42143
-<math>43\frac{1}{2}</math>
-45½
-<math>42\frac{1}{2}</math>
-46½<br>47<br>45<br>46
-<math>35\frac{1}{2}</math>
-43
-44
-44
-44
-34
-43
-3833
-76
-36
-33
-4337<br>27<br>27<br>27<br>27<br>27<br>27<br>27<br>27<br>27
-442<br>36<br>19<br>19<br>19<br>19<br>19<br>19
-300<br>350<br>450<br>450<br>450<br>450<br>450<br>450<br>450<br>450<br>450<br>4
-41½<br>34
-36 4 4 5 4 5 4 5 4 5 4 5 4 5 4 5 4 5 4 5 
-2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-Dumfries-<br>shire.
-Thermometer.
-niin.
-44
-43
-35
-43
-46.3
-473
-463
-<math>46\frac{1}{2}</math>
-47<sup>1</sup>/<sub>2</sub>
-<math>47\frac{1}{2}</math>
-48<br>48<br>48<br>48<br>48
-<math>36\frac{1}{2}</math>
-<math>45\frac{1}{2}</math>
-4224<br>4224<br>1424<br>1424<br>1434
-<math>41\frac{1}{2}</math>
-Max.
-45
-20
-48
-49
-50
-49
-533
-44
-32.5
-41.5
-40.0
-32.5
-Boston.<br>8å a.m.
-40
-45
-45
-46
-44
-41
-49
-333
-36
-38
-39
-50
-31
-43
-37
-41
-42
-35
-41
-29.622 29.560 29.763 29.740 49.50 33.21
-2234423333446044253
-3362474533
-.niM
-Chiswick.
-50 50
-52<br>45
-48
-49
-52
-44
-42
-52 52
-52
-52
-52
-51
-51
-50
-50
-47
-51
-Max.
-30.14
-30.05
-29.99
-29.95
-29.54
-29.20
-29.60
-29.79
-29.85
-30.45
-30.23
-30.08
-29.82
-29.36
-29.46
-29.73
-29.33
-29.38
-29.52
-29.43
-29.97
-29.54
-29.75
-30.07
-29.69
-29.91
-85<br>p.m.
-Orkney,<br>Sandwick.
-29.96
-30.08
-30.08
-29.88
-30.05
-30.03
-29.40
-29.50
-30.38
-29.87
-30.42
-30.09
-30.00
-29.92
-29.80
-29.06
-29.87
-29-32
-29.65
-29.12
-29.36
-29.50
-29.91
-29.68
-30.01
-19.67
-29.84
-29.04
-9<del>5</del>
-30.06
-30.06
-30.19
-30.15
-29.88
-29.90
-29.96
-30.22
-30.24
-30.38
-30.40
-Dumfries.shire.
-30.04
-30-22
-30.33
-30.20
-30.20
-29.66
-29.50
-30.04
-29.39
-30.61
-29.31
-29.59
-29.40
-29.74<br>29.67<br>28.88
-29.47
-6<br>p.m.
-rometer.
-30.54
-30.09
-30.10
-30-22
-30.20
-30.09
-29.62
-30-10
-<math>29.94</math>
-<math>30.57</math>
-30-35
-30.10
-29.59
-30.09
-29.58<br>29.75<br>29.35<br>29.70
-29.51<br>29.38<br>29.56
-30.07
-30.37
-30.31
-29.82
-28.94
-a.m.
-Ban
-Boston; by the Rev. W. I
-Meteorological Observations
-29.60
-30.00
-29.93
-29.92
-29.66
-30.34
-30.12
-30-22
-30.08
-30.10
-29.95
-29.93
-29.93
-29.93
-29.94
-29.97
-29.62
-29.58
-29.52
-29.50
-29.94
-30.31
-29.23
-29.47
-29.27
-29.52
-29.10
-29.75
-29.57
-sф а.т.
-Boston.
-Mean. 30.236 30.146
-30-286
-30.358
-30-428
-30.388
-30.308
-30.085
-30.528
-30-230
-30.424
-30.380
-30.343
-30.510
-30-773
-30.575
-29.642<br>29.786
-29.693
-29.326
-29-435
-29.978
-30.491
-30.464
-30.396
-29.613
-30.487
-30.007
-Min.
-Chiswick,
-30.755
-30.456
-30.396
-30-299
-30.880
-30.348
-30.408
-30.412
-30.463
-30.572
-30.530
-30.519
-30.552
-30.459
-30.182
-29.998
-29.828
-29.996
-30.454
-30.521
-30.671
-29.657
-29.493
-30-294
-29.957
-29.853
-30.034
-29.624
-Max.
-Month.
-1849.
-4.7.0<br>0.09.0<br>1.1.1<br>1.2.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1<br>1.3.1
-16.
-17.<br>18.<br>19.<br>20.
-23.
-–ં લં લં
-24.
-25.25.25.28.28.
-Feb.
-22.
-Days of
-0
+Meteorological Observations made by Mr. Thompson at the Garden of the Horticultural Society at CHISWICK, near London; by Mr. Veall, at BOSTON; by the Rev. W. Dunbar, at Applegarth Manse, DUMFRIES-SHIRE; and by the Rev. C. Clouston, at Sandwick Manse, ORKNEY.
+
+<table>
+<thead>
+<tr><th rowspan="2">Days of Month.</th><th colspan="7">Barometer.</th><th colspan="7">Thermometer.</th><th colspan="4">Wind.</th><th colspan="4">Rain.</th></tr>
+<tr><th colspan="2">Chiswick.</th><th rowspan="2">Boston. 8½ a.m.</th><th colspan="2">Dumfries-shire.</th><th colspan="2">Orkney, Sandwick.</th><th colspan="2">Chiswick.</th><th rowspan="2">Boston. 8½ a.m.</th><th colspan="2">Dumfries-shire.</th><th colspan="2">Orkney, Sandwick.</th><th rowspan="2">Chiswick. 1 p.m.</th><th rowspan="2">Boston.</th><th rowspan="2">Dumfries-shire.</th><th rowspan="2">Orkney, Sandwick.</th><th rowspan="2">Chiswick.</th><th rowspan="2">Boston.</th><th rowspan="2">Dumfries-shire.</th><th rowspan="2">Orkney, Sandwick.</th></tr>
+<tr><th>1849. Feb.</th><th>Max.</th><th>Min.</th><th>9 a.m.</th><th>9 p.m.</th><th>9½ a.m.</th><th>8½ p.m.</th><th>Max.</th><th>Min.</th><th>Max.</th><th>Min.</th><th>9½ a.m.</th><th>8½ p.m.</th></tr>
+</thead>
+<tbody>
+<tr><td>1.</td><td>30·294</td><td>30·230</td><td>29·94</td><td>30·09</td><td>30·04</td><td>30·08</td><td>29·97</td><td>44</td><td>35</td><td>[?]</td><td>[?]</td><td>[?]</td><td>37</td><td>40</td><td>sw.</td><td>w.</td><td>[?]</td><td>se.</td><td>·02</td><td>.....</td><td>....</td><td>·05</td></tr>
+<tr><td>2.</td><td>30·348</td><td>[?]</td><td>29·93</td><td>30·07</td><td>30·06</td><td>29·88</td><td>29·79</td><td>49</td><td>42</td><td>41</td><td>45</td><td>[?]</td><td>[?]</td><td>48</td><td>sw.</td><td>s.</td><td>[?]</td><td>[?]</td><td>·04</td><td>.....</td><td>....</td><td>.....</td></tr>
+<tr><td>3.</td><td>30·408</td><td>30·358</td><td>29·93</td><td>30·09</td><td>[?]</td><td>[?]</td><td>29·99</td><td>50</td><td>44</td><td>45</td><td>[?]</td><td>[?]</td><td>43</td><td>42</td><td>sw.</td><td>[?]</td><td>se.</td><td>[?]</td><td>·01</td><td>.....</td><td>....</td><td>·05</td></tr>
+<tr><td>4.</td><td>30·456</td><td>30·424</td><td>29·93</td><td>30·10</td><td>[?]</td><td>30·06</td><td>30·14</td><td>52</td><td>37</td><td>47</td><td>50</td><td>44</td><td>43</td><td>37</td><td>[?]</td><td>w.</td><td>[?]</td><td>[?]</td><td>.....</td><td>.....</td><td>....</td><td>·09</td></tr>
+<tr><td>5.</td><td>30·454</td><td>[?]</td><td>[?]</td><td>[?]</td><td>30·22</td><td>[?]</td><td>[?]</td><td>52</td><td>40</td><td>45</td><td>49</td><td>43</td><td>47</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>sw.</td><td>.....</td><td>.....</td><td>....</td><td>·14</td></tr>
+<tr><td>6.</td><td>30·412</td><td>30·388</td><td>29·93</td><td>30·20</td><td>[?]</td><td>30·03</td><td>29·95</td><td>45</td><td>41</td><td>46</td><td>[?]</td><td>[?]</td><td>[?]</td><td>47</td><td>[?]</td><td>wsw.</td><td>[?]</td><td>sw.</td><td>.....</td><td>......</td><td>.....</td><td>·35</td></tr>
+<tr><td>○ 7.</td><td>30·396</td><td>30·308</td><td>29·92</td><td>30·09</td><td>[?]</td><td>29·91</td><td>[?]</td><td>48</td><td>38</td><td>44</td><td>48</td><td>[?]</td><td>43</td><td>48</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>.....</td><td>.....</td><td>....</td><td>·05</td></tr>
+<tr><td>8.</td><td>30·299</td><td>30·085</td><td>29·66</td><td>29·65</td><td>29·90</td><td>29·40</td><td>29·50</td><td>51</td><td>32</td><td>41·5</td><td>[?]</td><td>[?]</td><td>44</td><td>43</td><td>[?]</td><td>[?]</td><td>w.</td><td>[?]</td><td>·06</td><td>......</td><td>0·13</td><td>·38</td></tr>
+<tr><td>9.</td><td>30·463</td><td>30·380</td><td>29·97</td><td>30·10</td><td>29·96</td><td>[?]</td><td>29·60</td><td>49</td><td>33</td><td>40</td><td>[?]</td><td>[?]</td><td>44</td><td>49</td><td>sw.</td><td>[?]</td><td>[?]</td><td>ssw.</td><td>.....</td><td>·02</td><td>.....</td><td>·30</td></tr>
+<tr><td>10.</td><td>30·572</td><td>30·343</td><td>29·60</td><td>[?]</td><td>30·24</td><td>29·50</td><td>29·82</td><td>52</td><td>25</td><td>49</td><td>49</td><td>44</td><td>[?]</td><td>46</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>.....</td><td>......</td><td>....</td><td>·11</td></tr>
+<tr><td>11.</td><td>30·880</td><td>[?]</td><td>30·34</td><td>30·57</td><td>30·61</td><td>[?]</td><td>30·45</td><td>51</td><td>22</td><td>43</td><td>[?]</td><td>35</td><td>44</td><td>[?]</td><td>[?]</td><td>w.</td><td>[?]</td><td>w.</td><td>.....</td><td>......</td><td>....</td><td>·08</td></tr>
+<tr><td>12.</td><td>30·755</td><td>30·575</td><td>[?]</td><td>30·54</td><td>30·38</td><td>30·42</td><td>30·23</td><td>44</td><td>21</td><td>33</td><td>43</td><td>[?]</td><td>43</td><td>35</td><td>[?]</td><td>w.</td><td>[?]</td><td>[?]</td><td>.....</td><td>......</td><td>.....</td><td>.....</td></tr>
+<tr><td>13.</td><td>[?]</td><td>30·510</td><td>30·12</td><td>30·26</td><td>30·40</td><td>30·09</td><td>30·08</td><td>42</td><td>24</td><td>31</td><td>50</td><td>[?]</td><td>43</td><td>43</td><td>w.</td><td>w.</td><td>[?]</td><td>[?]</td><td>.....</td><td>......</td><td>....</td><td>·05</td></tr>
+<tr><td>14.</td><td>30·671</td><td>30·528</td><td>30·22</td><td>30·37</td><td>30·22</td><td>29·87</td><td>29·82</td><td>51</td><td>41</td><td>36</td><td>[?]</td><td>[?]</td><td>[?]</td><td>48</td><td>sw.</td><td>[?]</td><td>[?]</td><td>[?]</td><td>.....</td><td>......</td><td>....</td><td>·34</td></tr>
+<tr><td>☾ 15.</td><td>30·519</td><td>30·491</td><td>30·00</td><td>30·31</td><td>30·33</td><td>30·00</td><td>30·07</td><td>57</td><td>32</td><td>46</td><td>52</td><td>45</td><td>47</td><td>47</td><td>[?]</td><td>w.</td><td>[?]</td><td>wsw.</td><td>.....</td><td>......</td><td>....</td><td>·45</td></tr>
+<tr><td>16.</td><td>30·521</td><td>30·464</td><td>30·08</td><td>30·31</td><td>30·20</td><td>30·01</td><td>29·91</td><td>45</td><td>23</td><td>38</td><td>48</td><td>411</td><td>45</td><td>44</td><td>[?]</td><td>[?]</td><td>sw.</td><td>w.</td><td>......</td><td>......</td><td>[?]</td><td>·10</td></tr>
+<tr><td>17.</td><td>30·552</td><td>30·487</td><td>30·10</td><td>30·35</td><td>30·20</td><td>29·92</td><td>29·73</td><td>52</td><td>28</td><td>39</td><td>49</td><td>34</td><td>46</td><td>[?]</td><td>[?]</td><td>[?]</td><td>sw.</td><td>[?]</td><td>......</td><td>......</td><td>....</td><td>·11</td></tr>
+<tr><td>18.</td><td>30·459</td><td>30·396</td><td>29·95</td><td>30·10</td><td>30·04</td><td>29·80</td><td>29·54</td><td>52</td><td>35</td><td>43</td><td>53</td><td>43</td><td>[?]</td><td>47</td><td>sw.</td><td>[?]</td><td>w.</td><td>[?]</td><td>.....</td><td>.....</td><td>.....</td><td>·36</td></tr>
+<tr><td>19.</td><td>30·182</td><td>30·007</td><td>29·62</td><td>[?]</td><td>29·66</td><td>29·06</td><td>29·36</td><td>50</td><td>38</td><td>46</td><td>51</td><td>[?]</td><td>45</td><td>[?]</td><td>[?]</td><td>sw.</td><td>[?]</td><td>[?]</td><td>.....</td><td>......</td><td>.....</td><td>·62</td></tr>
+<tr><td>20.</td><td>29·957</td><td>[?]</td><td>29·58</td><td>29·58</td><td>29·50</td><td>29·32</td><td>29·46</td><td>52</td><td>33</td><td>37</td><td>43</td><td>[?]</td><td>34</td><td>33</td><td>[?]</td><td>w.</td><td>sw.</td><td>[?]</td><td>·28</td><td>·08</td><td>.....</td><td>[?]</td></tr>
+<tr><td>21.</td><td>29·998</td><td>[?]</td><td>29·23</td><td>29·75</td><td>29·39</td><td>29·62</td><td>29·33</td><td>51</td><td>43</td><td>50</td><td>[?]</td><td>[?]</td><td>37</td><td>33</td><td>w.</td><td>[?]</td><td>[?]</td><td>[?]</td><td>·06</td><td>·07</td><td>.....</td><td>·03</td></tr>
+<tr><td>22.</td><td>[?]</td><td>29·693</td><td>29·47</td><td>29·35</td><td>29·31</td><td>29·12</td><td>29·38</td><td>52</td><td>35</td><td>41</td><td>48</td><td>411</td><td>35</td><td>[?]</td><td>w.</td><td>[?]</td><td>[?]</td><td>n.</td><td>·01</td><td>.....</td><td>0·10</td><td>·27</td></tr>
+<tr><td>● 23.</td><td>[?]</td><td>29·839</td><td>29·57</td><td>[?]</td><td>29·59</td><td>[?]</td><td>[?]</td><td>50</td><td>34</td><td>41</td><td>44</td><td>[?]</td><td>38</td><td>[?]</td><td>w.</td><td>[?]</td><td>[?]</td><td>w.</td><td>......</td><td>.....</td><td>.....</td><td>·13</td></tr>
+<tr><td>24.</td><td>29·657</td><td>29·613</td><td>29·22</td><td>29·51</td><td>29·47</td><td>[?]</td><td>29·43</td><td>47</td><td>37</td><td>42</td><td>[?]</td><td>[?]</td><td>[?]</td><td>34</td><td>nw.</td><td>[?]</td><td>[?]</td><td>[?]</td><td>·28</td><td>.....</td><td>.....</td><td>·33</td></tr>
+<tr><td>25.</td><td>29·493</td><td>29·326</td><td>29·27</td><td>[?]</td><td>29·40</td><td>29·50</td><td>29·58</td><td>51</td><td>34</td><td>35</td><td>[?]</td><td>[?]</td><td>35</td><td>32</td><td>nw.</td><td>se.</td><td>ene.</td><td>n.</td><td>·92</td><td>.....</td><td>.....</td><td>·10</td></tr>
+<tr><td>26.</td><td>29·853</td><td>29·435</td><td>29·22</td><td>29·56</td><td>29·74</td><td>29·68</td><td>29·75</td><td>47</td><td>22</td><td>38</td><td>41</td><td>281</td><td>36</td><td>33</td><td>[?]</td><td>n.</td><td>[?]</td><td>n.</td><td>.....</td><td>.....</td><td>.....</td><td>·08</td></tr>
+<tr><td>27.</td><td>[?]</td><td>29·978</td><td>29·20</td><td>29·82</td><td>[?]</td><td>29·84</td><td>29·69</td><td>50</td><td>30</td><td>32·5</td><td>[?]</td><td>[?]</td><td>39</td><td>32</td><td>s.</td><td>nw.</td><td>[?]</td><td>e.</td><td>.....</td><td>.....</td><td>.....</td><td>·07</td></tr>
+<tr><td>28.</td><td>29·624</td><td>29·331</td><td>[?]</td><td>28·94</td><td>28·88</td><td>[?]</td><td>29·05</td><td>50</td><td>31</td><td>44</td><td>42</td><td>33</td><td>37</td><td>35</td><td>sw.</td><td>[?]</td><td>[?]</td><td>nne.</td><td>·84</td><td>·05</td><td>1·00</td><td>·18</td></tr>
+<tr><td>Mean.</td><td>30·236</td><td>30·146</td><td>29·75</td><td>29·622</td><td>29·560</td><td>29·763</td><td>29·740</td><td>49·50</td><td>33·21</td><td>40·9</td><td>46·3</td><td>36·8</td><td>41·46</td><td>40·85</td><td></td><td></td><td></td><td></td><td>2·52</td><td>0·22</td><td>1·53</td><td>4·92</td></tr>
+</tbody>
+</table>
 
 ## PDF page 335
 
@@ -24501,280 +22907,52 @@ Devonshire, is 45°.2; for those places situated south of latitude
 
 ## PDF page 386
 
-the level of the sea.
-leet.<br>123<br>106
-140
-335<br>280<br>280<br>260
-250
-20<br>33<br>31<br>33<br>35<br>37<br>37<br>37<br>37<br>37<br>37<br>37<br>37<br>37<br>37<br>37<br>37<br>37<br>
-180<br>55<br>265<br>265<br>107<br>40
-340<br>121<br>19
-the barometer above
-Height of cistern of
-cubic foot of air.
-545
-549<br>545
-545<br>545<br>545<br>546<br>546
-5550<br>5550<br>5550<br>5550<br>5550<br>5550<br>5550<br>555
-551<br>549<br>542<br>551<br>549
-Mean weight of a
-.919fiqs
-column of atmo-
-$ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ 
-......................................
-3.7
-3.7
-3.4
-of water in a vertical
-Mean whole amount
-948-0
-<math>0.854</math>
-<math>0.926</math>
-0.895<br>0.849<br>0.885
-0.854
-0.883<br>0.847<br>0.866<br>0.842<br>0.842<br>0.834<br>0.863<br>0.863<br>0.863<br>0.863<br>0.863<br>0.863
-0.783<br>0.865<br>0.865<br>0.883<br>0.836<br>0.876
-Mean degree of<br>humidity.
-cubic foot of air.
-required to saturate a
-......................................
-4 6 4 6 4 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
-0.5
-444664
-0.5
-9.4
-weight of vapour
-Mean additional
-.Tis lo
-2.9
+Meteorological Table for the Quarter ending March 31, 1849.
 
-                                    
-000000000000000000000000000000000000000
-8 6 6 6
-3.1
-3. c. c.
-31, 1849.
-pour in a cubic foot
-Mean weight of va-
-7:7<br>7:7<br>8:6<br>8:0
-5.50
-5.3
-1.4.4.4.4.6.6.6.6.6.6.6.6.6.6.6.6.6.6.6.
-4.9
-3.4
-lected.
-Amount col-
-Rain.
-on which it fell.
-March
-54<br>54<br>51<br>39
-88 88 88<br>85 48 88
-50000000000000000000000000000000000000
-<math>\frac{38}{4}</math>
-Number of days
-6.7<br>7.3<br>7.6<br>5.9
-2.00 A 10 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 
-8 8 6 7 7 8 7 8 8 8 8 9 9 9 9 9 9 9 9 9 9 9 9
-6.52
-cloud.
-7.0
-7.1
-1.1
-5.7
-==
-Mean amount of
-Quarter ending
-Ħ
-S.W.
-s. & w
-W.S.W.<br>S.W.
-S.S.W.
-n.w.
-n.w.<br>w.s.w.<br>w.s.w.<br>s.w.<br>s.w.<br>10
-W.S.W.
-S.W.
-'uon
-W. &
-S.W.
-S.W.
-S.W.
-X.
-W.
-S.W
-W.
-×
-E
-General direc-
-Wind.
-90119
-strength.
-9.0
-0.00
-<math>\frac{2.5}{1.9}</math>
-1.4
-1.4
-6
-Mean estimated
-35.4<br>38.9<br>38.1<br>38.1<br>38.7<br>38.7<br>38.7<br>38.7<br>38.7<br>38.7<br>37.3<br>37.3
-37.5<br>8.6<br>8.6<br>8.6<br>8.6<br>8.6<br>8.7<br>8.6<br>8.7<br>8.6<br>8.7<br>8.7<br>8.7<br>8.7<br>8.7<br>8.7<br>8.7<br>8.7<br>8.7<br>8.7
-36.3
-36·3
-40.2
-the dew-point.
-40.
-Mean temperature of
-Table for the
-28.5<br>28.5<br>28.5<br>28.0<br>28.0<br>33.0<br>33.0<br>35.1<br>36.5<br>36.5<br>39.5<br>39.5
-40.2<br>39.0<br>2.0<br>2.0<br>2.0<br>2.0<br>2.0<br>2.0<br>2.0<br>2.0<br>2.0<br>2
-14.0
-51.7
-in the quarter.
-Range of temperature
-2000<br>2000<br>2000<br>2000<br>2000<br>2000<br>2000<br>200
-6 22 33 4 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 
-33.9<br>32.0
-Mean monthly range.
-$\frac{\pi}{2} \frac{\pi}{2} \frac{\pi}{2} \frac{\pi}{2} \frac{\pi}{2} \frac{\pi}{2} \frac{\pi}{2} \frac{\pi}{2} \frac{\pi}{2} \frac{\pi}{2} \frac{\pi}{2} \frac{\pi}{2} \frac{\pi}{2} \frac{\pi}{2} \frac{\pi}{2} \frac{\pi}{
-12·5<br>11·5
-1255<br>1255<br>1255<br>1255<br>1251<br>1251<br>1254<br>1254<br>
-temperature.
-Mean daily range of
-Meteorological
-29.55<br>33.00<br>33.00<br>33.00<br>33.00<br>33.00<br>22.00<br>10.00<br>10.00<br>10.00<br>10.00
-16.8<br>16.9<br>16.9<br>16.9<br>10.0<br>10.0<br>10.0<br>10.0<br>10.0<br>10.0<br>10.0<br>10
-thermometer.
-Lowest reading of the
-58.0<br>
-58.0<br>
-50.0<br>
-50.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-60.0<br>
-
-550<br>550<br>550<br>550<br>550<br>550<br>550<br>550<br>550<br>550
-the thermometer.
-Highest reading of
-45°6<br>445°7<br>445°7<br>445°7<br>445°7<br>445°7<br>445°7<br>445°7<br>440°7<br>440°7<br>440°7
-410<br>
-40<br>
-40<br>
-40<br>
-40<br>
-40<br>
-40<br>
-40<br>
-40<br>
-40<br>
-4
-41.4
-the air.
-Mean temperature of
-in.<br>29-937<br>29-863
-atmosphere of dry air<br>reduced to the level<br>the sea.
-.....
-29.934
-29.885
-......
-398-67
-29.735
-......
-.....
-29.815
-29.797
-29.718
-29.904
-29.831
-29-863
-29.830
-29-908
-29.826
-29.778
-29-752
-29.718
-29.888
-29.830
-.....
-29.868
-.....
-29.84]
-29.87
-29.81
-......
-Mean pressure of the
-............
-Oxford.....
-...........
-Saffron Walden .....
-Latimer Rectory.....
-Number of columns
-Royal Observatory, Greenwich
-.........
-*****************
-Hartwell House .....
-Derby.....
-Maidenstone Hill, Greenwich
-Leeds .....
-Stonyhurst Observatory.....
-Leicester.....
-.................
-Durham .....
-Southampton .....
-Beckington
-Names of the places.
-Highfield House, Notts
-************
-Liverpool Observatory
-Wakefield Prison
-Lewisham .....
-St. John's Wood
-Chichester .....
-Uckfield .....
-Guernsey
-Norwich .....
-.......
-Holkham....
-Cardington .....
-Truro .....
-Exeter.....
-Whitehaven
-Aylesbury
-Newcastle
-Walworth
-Falmouth
-Hereford
-Hclston
-York
+<table>
+<thead>
+<tr><th rowspan="2">Names of the places.</th><th rowspan="2">Mean pressure of the atmosphere of dry air reduced to the level of the sea.</th><th rowspan="2">Mean temperature of the air.</th><th rowspan="2">Highest reading of the thermometer.</th><th rowspan="2">Lowest reading of the thermometer.</th><th rowspan="2">Mean daily range of temperature.</th><th rowspan="2">Mean monthly range.</th><th rowspan="2">Range of temperature in the quarter.</th><th rowspan="2">Mean temperature of the dew-point.</th><th colspan="2">Wind.</th><th rowspan="2">Mean amount of cloud.</th><th colspan="2">Rain.</th><th rowspan="2">Mean weight of vapour in a cubic foot of air.</th><th rowspan="2">Mean additional weight required to saturate a cubic foot of air.</th><th rowspan="2">Mean degree of humidity.</th><th rowspan="2">Mean whole amount of water in a vertical column of atmosphere.</th><th rowspan="2">Mean weight of a cubic foot of air.</th><th rowspan="2">Height of cistern of the barometer above the level of the sea.</th></tr>
+<tr><th>Mean estimated strength.</th><th>General direction.</th><th>Number of days on which it fell.</th><th>Amount collected.</th></tr>
+</thead>
+<tbody>
+<tr><td></td><td>in.</td><td>°</td><td>°</td><td>°</td><td>°</td><td>°</td><td>°</td><td>°</td><td></td><td></td><td></td><td></td><td>in.</td><td>grs.</td><td>gr.</td><td></td><td>in.</td><td>grs.</td><td>feet.</td></tr>
+<tr><td>Guernsey</td><td>29·937</td><td>45·6</td><td>58·0</td><td>29·5</td><td>[?]</td><td>20·0</td><td>28·5</td><td>40·1</td><td>[?]</td><td>[?]</td><td>[?]</td><td>41</td><td>7·2</td><td>3·1</td><td>0·5</td><td>0·854</td><td>3·7</td><td>549</td><td>123</td></tr>
+<tr><td>Helston</td><td>29·863</td><td>45·7</td><td>58·0</td><td>30·0</td><td>10·5</td><td>24·3</td><td>[?]</td><td>43·0</td><td>1·6</td><td>[?]</td><td>6·7</td><td>48</td><td>7·7</td><td>3·4</td><td>0·4</td><td>0·926</td><td>4·1</td><td>545</td><td>106</td></tr>
+<tr><td>Falmouth</td><td>.........</td><td>46·0</td><td>60·0</td><td>31·0</td><td>11·0</td><td>25·3</td><td>29·0</td><td>......</td><td>1·4</td><td>[?]</td><td>7·3</td><td>54</td><td>8·6</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Truro</td><td>.........</td><td>44·7</td><td>55·0</td><td>33·0</td><td>9·1</td><td>19·7</td><td>22·0</td><td>......</td><td>0·7</td><td>w.</td><td>7·6</td><td>51</td><td>8·0</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Exeter</td><td>29·868</td><td>43·9</td><td>58·0</td><td>25·0</td><td>13·2</td><td>29·8</td><td>33·0</td><td>40·2</td><td>1·7</td><td>w.</td><td>5·9</td><td>39</td><td>4·6</td><td>3·1</td><td>0·5</td><td>0·854</td><td>3·7</td><td>545</td><td>140</td></tr>
+<tr><td>Chichester</td><td>.........</td><td>41·0</td><td>59·0</td><td>26·0</td><td>10·2</td><td>26·7</td><td>33·0</td><td>......</td><td>[?]</td><td>s.w.</td><td>[?]</td><td>[?]</td><td>5·6</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Uckfield</td><td>29·875</td><td>41·2</td><td>61·0</td><td>21·0</td><td>13·0</td><td>33·3</td><td>40·0</td><td>35·4</td><td>[?]</td><td>[?]</td><td>[?]</td><td>39</td><td>5·3</td><td>2·6</td><td>0·4</td><td>0·783</td><td>3·1</td><td>[?]</td><td>180</td></tr>
+<tr><td>Southampton</td><td>29·814</td><td>42·8</td><td>61·6</td><td>27·5</td><td>11·2</td><td>30·1</td><td>35·1</td><td>38·4</td><td>0·6</td><td>w.</td><td>7·3</td><td>36</td><td>5·9</td><td>2·9</td><td>0·4</td><td>0·869</td><td>3·5</td><td>549</td><td>55</td></tr>
+<tr><td>Beckington</td><td>29·934</td><td>40·3</td><td>61·0</td><td>18·0</td><td>12·9</td><td>33·7</td><td>43·0</td><td>35·9</td><td>1·1</td><td>w.</td><td>6·5</td><td>37</td><td>4·8</td><td>2·7</td><td>0·4</td><td>0·865</td><td>3·2</td><td>542</td><td>265</td></tr>
+<tr><td>Maidenstone Hill, Greenwich</td><td>29·885</td><td>41·7</td><td>57·0</td><td>20·6</td><td>9·6</td><td>30·3</td><td>36·5</td><td>38·1</td><td>[?]</td><td>[?]</td><td>7·4</td><td>34</td><td>4·4</td><td>2·9</td><td>0·6</td><td>0·883</td><td>3·4</td><td>551</td><td>107</td></tr>
+<tr><td>Royal Observatory, Greenwich</td><td>29·888</td><td>42·0</td><td>60·0</td><td>19·9</td><td>12·5</td><td>34·4</td><td>40·1</td><td>37·1</td><td>[?]</td><td>[?]</td><td>7·5</td><td>35</td><td>4·2</td><td>2·8</td><td>0·5</td><td>0·836</td><td>3·3</td><td>549</td><td>159</td></tr>
+<tr><td>Lewisham</td><td>.........</td><td>42·0</td><td>60·0</td><td>20·0</td><td>13·2</td><td>34·0</td><td>40·0</td><td>38·2</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>2·9</td><td>0·4</td><td>0·876</td><td>3·4</td><td>[?]</td><td>40</td></tr>
+<tr><td>St. John’s Wood</td><td>.........</td><td>42·2</td><td>58·0</td><td>21·0</td><td>13·2</td><td>32·3</td><td>37·0</td><td>38·7</td><td>2·8</td><td>s.w.</td><td>7·3</td><td>38</td><td>5·3</td><td>2·9</td><td>[?]</td><td>0·875</td><td>3·5</td><td>548</td><td>[?]</td></tr>
+<tr><td>Walworth</td><td>.........</td><td>41·5</td><td>61·5</td><td>22·0</td><td>13·3</td><td>33·8</td><td>39·5</td><td>40·6</td><td>1·5</td><td>[?]</td><td>[?]</td><td>41</td><td>5·5</td><td>[?]</td><td>[?]</td><td>[?]</td><td>3·5</td><td>545</td><td>32</td></tr>
+<tr><td>Latimer Rectory</td><td>29·868</td><td>40·7</td><td>63·5</td><td>19·5</td><td>13·4</td><td>34·7</td><td>44·0</td><td>37·3</td><td>1·6</td><td>[?]</td><td>[?]</td><td>36</td><td>[?]</td><td>2·8</td><td>0·3</td><td>0·895</td><td>3·4</td><td>543</td><td>335</td></tr>
+<tr><td>Aylesbury</td><td>29·735</td><td>40·9</td><td>63·0</td><td>19·0</td><td>13·8</td><td>35·7</td><td>44·0</td><td>36·4</td><td>0·7</td><td>[?]</td><td>7·0</td><td>31</td><td>4·9</td><td>2·7</td><td>0·5</td><td>0·849</td><td>3·2</td><td>546</td><td>280</td></tr>
+<tr><td>Hartwell House</td><td>29·841</td><td>41·1</td><td>63·7</td><td>12·0</td><td>15·8</td><td>39·9</td><td>51·7</td><td>37·7</td><td>0·5</td><td>[?]</td><td>[?]</td><td>46</td><td>[?]</td><td>2·9</td><td>0·4</td><td>0·885</td><td>3·4</td><td>546</td><td>260</td></tr>
+<tr><td>Saffron Walden</td><td>.........</td><td>[?]</td><td>59·0</td><td>10·0</td><td>11·3</td><td>37·0</td><td>49·0</td><td>......</td><td>[?]</td><td>[?]</td><td>5·7</td><td>32</td><td>3·4</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Oxford</td><td>........</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>......</td><td>1·9</td><td>[?]</td><td>7·8</td><td>24</td><td>[?]</td><td>2·9</td><td>0·4</td><td>0·876</td><td>3·4</td><td>[?]</td><td>250</td></tr>
+<tr><td>Hereford</td><td>........</td><td>41·5</td><td>....</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>20</td><td>4·9</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>Cardington</td><td>29·815</td><td>40·8</td><td>57·0</td><td>16·8</td><td>12·5</td><td>[?]</td><td>40·2</td><td>[?]</td><td>[?]</td><td>[?]</td><td>7·1</td><td>39</td><td>4·2</td><td>2·8</td><td>0·4</td><td>0·883</td><td>3·4</td><td>550</td><td>70</td></tr>
+<tr><td>Norwich</td><td>29·797</td><td>40·9</td><td>59·0</td><td>20·0</td><td>[?]</td><td>32·0</td><td>39·0</td><td>36·3</td><td>1·0</td><td>[?]</td><td>[?]</td><td>37</td><td>4·1</td><td>2·7</td><td>0·6</td><td>0·847</td><td>3·2</td><td>551</td><td>39</td></tr>
+<tr><td>Holkham</td><td>29·718</td><td>40·3</td><td>57·5</td><td>16·2</td><td>11·5</td><td>31·6</td><td>41·3</td><td>36·3</td><td>1·0</td><td>[?]</td><td>7·0</td><td>37</td><td>3·3</td><td>2·8</td><td>0·4</td><td>0·866</td><td>3·2</td><td>550</td><td>[?]</td></tr>
+<tr><td>Leicester</td><td>29·904</td><td>40·2</td><td>62·0</td><td>17·0</td><td>12·5</td><td>35·7</td><td>45·0</td><td>36·1</td><td>1·8</td><td>w.</td><td>6·1</td><td>30</td><td>4·8</td><td>2·7</td><td>0·5</td><td>0·842</td><td>3·2</td><td>550</td><td>156</td></tr>
+<tr><td>Derby</td><td>29·831</td><td>40·3</td><td>58·0</td><td>[?]</td><td>12·2</td><td>34·7</td><td>38·0</td><td>37·1</td><td>2·7</td><td>[?]</td><td>[?]</td><td>39</td><td>4·3</td><td>2·8</td><td>0·4</td><td>0·864</td><td>3·3</td><td>548</td><td>39</td></tr>
+<tr><td>Highfield House, Notts</td><td>29·863</td><td>40·3</td><td>65·0</td><td>20·5</td><td>9·5</td><td>36·5</td><td>44·5</td><td>36·9</td><td>0·9</td><td>s.w.</td><td>7·2</td><td>38</td><td>4·0</td><td>2·8</td><td>0·3</td><td>0·724</td><td>3·3</td><td>549</td><td>103</td></tr>
+<tr><td>Liverpool Observatory</td><td>29·830</td><td>41·9</td><td>55·5</td><td>23·8</td><td>[?]</td><td>25·9</td><td>31·7</td><td>35·3</td><td>1·6</td><td>n.w.</td><td>6·8</td><td>45</td><td>3·9</td><td>2·6</td><td>0·6</td><td>0·834</td><td>3·1</td><td>542</td><td>37</td></tr>
+<tr><td>Leeds</td><td>29·908</td><td>39·8</td><td>59·0</td><td>11·0</td><td>11·6</td><td>35·0</td><td>48·0</td><td>36·8</td><td>[?]</td><td>[?]</td><td>6·2</td><td>42</td><td>8·2</td><td>2·7</td><td>0·4</td><td>0·889</td><td>3·3</td><td>541</td><td>148</td></tr>
+<tr><td>Wakefield Prison</td><td>29·826</td><td>40·2</td><td>63·0</td><td>14·5</td><td>11·3</td><td>36·8</td><td>48·5</td><td>37·2</td><td>[?]</td><td>[?]</td><td>[?]</td><td>46</td><td>3·7</td><td>2·8</td><td>0·5</td><td>0·865</td><td>3·3</td><td>550</td><td>113</td></tr>
+<tr><td>Stonyhurst Observatory</td><td>29·830</td><td>39·7</td><td>54·8</td><td>20·1</td><td>10·1</td><td>28·8</td><td>34·7</td><td>36·1</td><td>1·4</td><td>[?]</td><td>7·7</td><td>60</td><td>11·5</td><td>2·7</td><td>0·4</td><td>0·875</td><td>3·2</td><td>547</td><td>381</td></tr>
+<tr><td>York</td><td>29·778</td><td>39·3</td><td>59·0</td><td>18·0</td><td>12·1</td><td>33·0</td><td>41·0</td><td>40·9</td><td>[?]</td><td>[?]</td><td>[?]</td><td>34</td><td>3·2</td><td>3·2</td><td>0·5</td><td>0·861</td><td>3·8</td><td>546</td><td>50</td></tr>
+<tr><td>Whitehaven</td><td>.........</td><td>40·5</td><td>54·0</td><td>18·7</td><td>6·3</td><td>26·3</td><td>35·3</td><td>37·9</td><td>2·5</td><td>[?]</td><td>[?]</td><td>45</td><td>8·5</td><td>2·9</td><td>0·2</td><td>0·940</td><td>3·4</td><td>549</td><td>[?]</td></tr>
+<tr><td>Durham</td><td>29·752</td><td>40·0</td><td>56·0</td><td>[?]</td><td>10·5</td><td>33·9</td><td>41·0</td><td>35·5</td><td>1·9</td><td>s.w.</td><td>5·7</td><td>25</td><td>1·5</td><td>2·7</td><td>0·5</td><td>0·848</td><td>3·1</td><td>544</td><td>340</td></tr>
+<tr><td>Newcastle</td><td>29·718</td><td>41·0</td><td>56·5</td><td>[?]</td><td>12·4</td><td>32·0</td><td>37·5</td><td>37·5</td><td>[?]</td><td>[?]</td><td>[?]</td><td>30</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>547</td><td>121</td></tr>
+<tr><td>Number of columns</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td></tr>
+</tbody>
+</table>
 
 ## PDF page 387
 
@@ -26332,386 +24510,50 @@ showers. 31. Damp: clear.
 
 ## PDF page 414
 
-91.
-.15
-.13<br>.54<br>.05
-.18
-.12
-.15
-9
-.04
-.10
--12
-90.
-:13
-.12
-14.
-.02
-01.
-.12
-0.7
-Orkney,<br>Sandwick,
-Applegarth Manse, Dumeries-shire; and by the Rev. C. Clouston, at Sandwick Manse, Orkney
-0.18
-00.0
-00.0
-0.00
-• • • • •
-shire.
-Dumfries-
-Rain,
-.26
-.12
-.20
-ş
-9
-90
-.14
-:51
-Boston.
-90.
-0.00
-.30
-.14
-14
-Ö
-Chiswick.
-ċ
-calm
-WIL
-nnw.
-WUM
-Sandwick.
-WSW.
-ese.
-SW.
-ese.
-sse.
-nw.
-SW
-SW
-sse.
-nw.
-š
-×
-ese.
-¥.
-se.
-W.
-ä
-W.
-se.
-ne.
-se.
-ġ
-ŝ
-ŝ
-ů
-မံ
-Orkney
-nnw.
-....
-....
-....
-....
-.....
-WSW.
-nw.
-WSW
-shire.
-ese.
-W.
-ne.
-W
-se.
-ese.
-Š
-se.
-se.
-W.
-¥,
-se.
-se,
-se.
-å
-ن ن
-Wind.
-Dumfries.
-calm
-calm
-calm
-Wnw.
-calm
-....
-calm
-calm
-calm
-calm
-calm
-calm
-e.<br>calm
-W
-¥
-WSW
-nw.
-nw.
-se.
-¥.
-ċ
-Boston,
-ċ
-ပံ
-ė
-ŝ
-.m.q I
-SW.
-S.W.
-SW.
-SW.
-W.
-NW.
-nw.
-NW.
-ne.
-W.
-ne.
-SW.
-SW
-SW
-ů,
-W.
-i
-ċ
-ne.
-ċ
-ne.
-se.
-MU
-SW
-ů
-ė
-ů
-se.
-SW
-ė
-ŝ
-Chiswick.
-333<br>37<br>46<br>44<br>41<br>41
-44444444468888888888888888888888888888
-.m.q
-35 44 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
-Orkney,<br>Sandwick.
-41
-30
-33
-₹8
-a.m.
-4440 1 2 3 3 3 3 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4
-44444444444444444444444444444444444444
-<b>76</b>
-34 25 25 25 25 25 25 25 25 25 25 25 25 25 
-432
-3722
-<math>32\frac{1}{2}</math>
-361<br>34<br>38
-Dumfries.
-Thermometer
-Min.
-338 38 37 33
-39
-8888
-41
-44444444444444444444444444444444444444
-553<br>57<br>56<br>50
-43½
-Max.
-44528
-45
-55
-:
-:
-39.5<br>47<br>52
-41.5
-38.5
-43<br>47<br>48:5
-41.5
-45.5<br>44<br>47
-Boston.<br>84 a.m.
-46
-32
-33
-48<br>50
-42
-43
-58889
-35
-47
-41
-41
-41
-28 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5
-562
-30<br>27<br>26<br>27<br>26
-39
-988888888888888888888888888888888888888
-Min.
-Chiswick,
-440<br>440<br>440<br>440<br>440<br>440<br>440<br>440<br>440<br>440
-53
-42
-444
-43
-55<br>52<br>53<br>59
-Max.
-29.96
-29.92
-30-22
-30.04
-30.14
-30.10
-29.20<br>29.58<br>29.74
-30.04
-29.64
-30.09
-30.14
-30.15
-30.09<br>29.98<br>29.96
-29.67<br>29.86<br>29.48
-29:31<br>29:65<br>29:93<br>29:81
-30.15
-30-21
-29.79
-29.42<br>29.42
-30.01
-85<br>p.m.d
-Orkney,<br>Sandwick.
-29.46
-29.96
-29.93
-30.04
-30.12
-30.04
-30.12
-30.18
-29.90
-30-15
-29.83
-29.56
-29.85
-29.40
-29.62
-29-29
-29.63
-29.63
-29.97
-30.15
-29.99
-30.12
-29.87
-29.66
-29.46<br>29.35
-29.92
-29-99
-30.14
-9<del>$</del>
-30.32<br>29.80<br>29.64<br>29.76
-30-22 29-85
-29.50<br>29.24<br>29.21<br>29.35
-29.58<br>29.93<br>30.15
-30.03
-30.00
-29.90
-29.85
-30.09
-30-13
-30.12
-30.00
-29.93
-30-11
-29.35
-Dumfries-shire.
-.....
-.....
-.....
-6 m.d
-. Dunbar, at
-Barometer
-29.85
-29.40<br>29.40<br>29.40
-29.73
-30.18
-30.15<br>30.31<br>29.55<br>29.69<br>29.82
-30·10<br>29·95<br>29·90
-30.00
-30.15
-30.13
-30·13<br>29·94<br>30·05
-29.18
-29.43
-30-23
-29.89
-.....
-....
-....
-.....
-....
-a.m.s
-9:50<br>9:50<br>9:50<br>9:50
-9.00
-99999999999999999999999999999999999999
-01:
-9
-25.85
-98
-9.50
-⋛
-.m.s $8
-Boston
-99999999999999999999999999999999999999
-BOSTON; by the Kev.
-29,426
-30,126
-30,126
-30,126
-30,126
-30,126
-30,280
-30,280
-30,276
-30,276
-30,276
-30,276
-30,276
-30,276
-30,276
-30,276
-30,276
-30,276
-30,276
-30,276
-30,276
-30,276
-30,276
-30,276
-30,276
-30,276
-30,276
-30,276
-30,276
-30,276
-30,276
-30,27
-Min.
-Chiswick.
-30.026<br>30.283<br>30.283<br>30.486<br>30.665<br>30.605<br>30.605<br>30.424<br>30.424<br>30.307<br>30.307<br>30.307<br>30.307<br>30.307<br>30.307<br>30.307<br>30.307<br>30.307<br>30.307<br>30.307<br>30.307<br>30.307<br>30.307<br>30.307<br>30.307<br>30.307<br>30.307<br>30.307<br>30.307<br>30.307<br>30.307<br>30.30
-Max.
-March.
-Month.
-1849.
--4.6.4.6.6.6.9.9.9.9.9.9.9.9.9.9.9.9.9.9.
-Days of
-0
-A
+[illegible: first line of heading]
+
+BOSTON; by the Rev. W. Dunbar, at Applegarth Manse, DUMFRIES-SHIRE; and by the Rev. C. Clouston, at Sandwick Manse, ORKNEY.
+
+<table>
+<thead>
+<tr><th rowspan="2">Days of Month.</th><th colspan="7">Barometer.</th><th colspan="7">Thermometer.</th><th colspan="4">Wind.</th><th colspan="4">Rain.</th></tr>
+<tr><th colspan="2">Chiswick.</th><th rowspan="2">Boston. 8½ a.m.</th><th colspan="2">Dumfries-shire.</th><th colspan="2">Orkney, Sandwick.</th><th colspan="2">Chiswick.</th><th rowspan="2">Boston. 8½ a.m.</th><th colspan="2">Dumfries-shire.</th><th colspan="2">Orkney, Sandwick.</th><th rowspan="2">Chiswick. 1 p.m.</th><th rowspan="2">Boston.</th><th rowspan="2">Dumfries-shire.</th><th rowspan="2">Orkney, Sandwick.</th><th rowspan="2">Chiswick.</th><th rowspan="2">Boston.</th><th rowspan="2">Dumfries-shire.</th><th rowspan="2">Orkney, Sandwick.</th></tr>
+<tr><th>1849. March.</th><th>Max.</th><th>Min.</th><th>9 a.m.</th><th>9 p.m.</th><th>9½ a.m.</th><th>8½ p.m.</th><th>Max.</th><th>Min.</th><th>Max.</th><th>Min.</th><th>9½ a.m.</th><th>8½ p.m.</th></tr>
+</thead>
+<tbody>
+<tr><td>1.</td><td>30·026</td><td>[?]</td><td>29·02</td><td>29·43</td><td>29·58</td><td>29·46</td><td>29·31</td><td>49</td><td>39</td><td>38·5</td><td>[?]</td><td>33</td><td>[?]</td><td>42</td><td>nw.</td><td>nw.</td><td>w.</td><td>[?]</td><td>.....</td><td>.....</td><td>.....</td><td>·13</td></tr>
+<tr><td>☽ 2.</td><td>30·283</td><td>30·126</td><td>29·70</td><td>29·73</td><td>29·93</td><td>[?]</td><td>29·65</td><td>51</td><td>34</td><td>35</td><td>48</td><td>39</td><td>41</td><td>46</td><td>sw.</td><td>[?]</td><td>[?]</td><td>w.</td><td>.....</td><td>·51</td><td>.....</td><td>·24</td></tr>
+<tr><td>3.</td><td>30·461</td><td>30·366</td><td>29·95</td><td>30·10</td><td>30·15</td><td>29·92</td><td>29·93</td><td>53</td><td>41</td><td>43</td><td>[?]</td><td>39</td><td>47</td><td>[?]</td><td>[?]</td><td>calm</td><td>w.</td><td>[?]</td><td>.....</td><td>.....</td><td>.....</td><td>·05</td></tr>
+<tr><td>4.</td><td>30·459</td><td>[?]</td><td>30·00</td><td>30·18</td><td>[?]</td><td>29·92</td><td>29·81</td><td>58</td><td>29</td><td>47</td><td>[?]</td><td>43</td><td>50</td><td>47</td><td>[?]</td><td>calm</td><td>w.</td><td>[?]</td><td>.....</td><td>.....</td><td>.....</td><td>.....</td></tr>
+<tr><td>5.</td><td>30·605</td><td>[?]</td><td>29·98</td><td>30·15</td><td>30·32</td><td>29·96</td><td>30·01</td><td>54</td><td>26</td><td>48·5</td><td>48</td><td>[?]</td><td>42</td><td>42</td><td>sw.</td><td>calm</td><td>w.</td><td>wsw.</td><td>.....</td><td>.....</td><td>.....</td><td>·18</td></tr>
+<tr><td>6.</td><td>30·618</td><td>30·280</td><td>30·14</td><td>30·31</td><td>29·80</td><td>29·76</td><td>29·20</td><td>55</td><td>41</td><td>41</td><td>47</td><td>[?]</td><td>47</td><td>48</td><td>[?]</td><td>calm</td><td>[?]</td><td>[?]</td><td>.....</td><td>.....</td><td>.....</td><td>·12</td></tr>
+<tr><td>7.</td><td>30·062</td><td>29·879</td><td>29·50</td><td>29·55</td><td>29·64</td><td>29·29</td><td>29·58</td><td>54</td><td>38</td><td>47</td><td>46</td><td>[?]</td><td>[?]</td><td>35</td><td>[?]</td><td>w.</td><td>[?]</td><td>n.</td><td>·06</td><td>.....</td><td>.....</td><td>·16</td></tr>
+<tr><td>8.</td><td>[?]</td><td>[?]</td><td>29·46</td><td>29·69</td><td>29·76</td><td>29·63</td><td>[?]</td><td>49</td><td>23</td><td>41</td><td>[?]</td><td>29</td><td>32</td><td>30</td><td>nw.</td><td>calm</td><td>[?]</td><td>[?]</td><td>·02</td><td>·26</td><td>0·18</td><td>·04</td></tr>
+<tr><td>○ 9.</td><td>29·949</td><td>29·917</td><td>29·50</td><td>29·82</td><td>30·03</td><td>29·93</td><td>30·15</td><td>43</td><td>29</td><td>32</td><td>42</td><td>[?]</td><td>[?]</td><td>33</td><td>nw.</td><td>n.</td><td>[?]</td><td>n.</td><td>·01</td><td>·20</td><td>.....</td><td>·15</td></tr>
+<tr><td>10.</td><td>30·432</td><td>[?]</td><td>29·95</td><td>30·23</td><td>[?]</td><td>30·04</td><td>30·04</td><td>43</td><td>24</td><td>33</td><td>42</td><td>[?]</td><td>41</td><td>41</td><td>n.</td><td>n.</td><td>[?]</td><td>[?]</td><td>.....</td><td>.....</td><td>.....</td><td>·09</td></tr>
+<tr><td>11.</td><td>[?]</td><td>30·271</td><td>30·05</td><td>30·10</td><td>29·85</td><td>29·63</td><td>29·64</td><td>46</td><td>36</td><td>39·5</td><td>[?]</td><td>34</td><td>44</td><td>46</td><td>w.</td><td>calm</td><td>wsw.</td><td>[?]</td><td>.....</td><td>.....</td><td>.....</td><td>·15</td></tr>
+<tr><td>12.</td><td>30·164</td><td>30·128</td><td>29·70</td><td>29·95</td><td>30·00</td><td>29·97</td><td>29·92</td><td>56</td><td>43</td><td>47</td><td>52</td><td>[?]</td><td>[?]</td><td>[?]</td><td>n.</td><td>w.</td><td>wsw.</td><td>calm</td><td>.....</td><td>.....</td><td>......</td><td>·04</td></tr>
+<tr><td>13.</td><td>30·302</td><td>30·030</td><td>29·60</td><td>29·90</td><td>......</td><td>30·12</td><td>30·22</td><td>59</td><td>36</td><td>52</td><td>[?]</td><td>45</td><td>[?]</td><td>37</td><td>sw.</td><td>[?]</td><td>......</td><td>[?]</td><td>.....</td><td>·09</td><td>.....</td><td>·41</td></tr>
+<tr><td>14.</td><td>30·308</td><td>30·268</td><td>29·90</td><td>......</td><td>......</td><td>30·04</td><td>30·04</td><td>50</td><td>40</td><td>41</td><td>[?]</td><td>[?]</td><td>[?]</td><td>46</td><td>sw.</td><td>w.</td><td>......</td><td>[?]</td><td>.....</td><td>.....</td><td>....</td><td>·14</td></tr>
+<tr><td>15.</td><td>30·312</td><td>30·292</td><td>29·93</td><td>......</td><td>......</td><td>[?]</td><td>30·14</td><td>53</td><td>45</td><td>48</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>nw.</td><td>calm</td><td>......</td><td>[?]</td><td>.....</td><td>.....</td><td>.....</td><td>·10</td></tr>
+<tr><td>16.</td><td>30·337</td><td>30·309</td><td>29·88</td><td>......</td><td>......</td><td>30·18</td><td>30·21</td><td>57</td><td>28</td><td>50</td><td>[?]</td><td>[?]</td><td>461</td><td>[?]</td><td>ne.</td><td>calm</td><td>......</td><td>[?]</td><td>.....</td><td>.....</td><td>0·00</td><td>·02</td></tr>
+<tr><td>☾ 17.</td><td>[?]</td><td>30·201</td><td>29·93</td><td>......</td><td>......</td><td>30·15</td><td>30·09</td><td>59</td><td>30</td><td>42</td><td>[?]</td><td>[?]</td><td>46</td><td>41</td><td>n.</td><td>calm</td><td>......</td><td>ese.</td><td>.....</td><td>.....</td><td>.....</td><td>[?]</td></tr>
+<tr><td>18.</td><td>30·159</td><td>30·057</td><td>29·71</td><td>......</td><td>[?]</td><td>29·99</td><td>29·96</td><td>49</td><td>38</td><td>43</td><td>45</td><td>[?]</td><td>44</td><td>[?]</td><td>w.</td><td>......</td><td>......</td><td>ese.</td><td>·01</td><td>.....</td><td>.....</td><td>......</td></tr>
+<tr><td>19.</td><td>[?]</td><td>30·025</td><td>29·67</td><td>29·85</td><td>29·85</td><td>29·90</td><td>29·90</td><td>51</td><td>26</td><td>41·5</td><td>51</td><td>[?]</td><td>43</td><td>42</td><td>e.</td><td>......</td><td>......</td><td>se.</td><td>[?]</td><td>....</td><td>.....</td><td>.....</td></tr>
+<tr><td>20.</td><td>30·242</td><td>30·108</td><td>29·80</td><td>30·00</td><td>30·09</td><td>29·99</td><td>30·10</td><td>46</td><td>27</td><td>[?]</td><td>[?]</td><td>[?]</td><td>47</td><td>44</td><td>e.</td><td>......</td><td>[?]</td><td>[?]</td><td>[?]</td><td>....</td><td>......</td><td>....</td></tr>
+<tr><td>21.</td><td>[?]</td><td>30·231</td><td>29·90</td><td>30·15</td><td>[?]</td><td>30·14</td><td>30·14</td><td>53</td><td>26</td><td>46</td><td>57</td><td>41</td><td>48</td><td>[?]</td><td>sw.</td><td>......</td><td>se.</td><td>[?]</td><td>.....</td><td>.....</td><td>.....</td><td>.....</td></tr>
+<tr><td>22.</td><td>30·197</td><td>30·086</td><td>29·82</td><td>30·13</td><td>30·12</td><td>30·12</td><td>30·15</td><td>42</td><td>39</td><td>41·5</td><td>[?]</td><td>[?]</td><td>43</td><td>[?]</td><td>[?]</td><td>.....</td><td>se.</td><td>[?]</td><td>[?]</td><td>....</td><td>......</td><td>.....</td></tr>
+<tr><td>23.</td><td>30·037</td><td>29·979</td><td>29·70</td><td>30·13</td><td>30·00</td><td>30·15</td><td>30·09</td><td>44</td><td>30</td><td>43</td><td>50</td><td>[?]</td><td>45</td><td>[?]</td><td>[?]</td><td>......</td><td>se.</td><td>[?]</td><td>[?]</td><td>[?]</td><td>0·00</td><td>·12</td></tr>
+<tr><td>● 24.</td><td>[?]</td><td>[?]</td><td>29·65</td><td>29·94</td><td>30·04</td><td>[?]</td><td>[?]</td><td>44</td><td>27</td><td>38</td><td>44</td><td>[?]</td><td>44</td><td>42</td><td>n.</td><td>e.</td><td>se.</td><td>s.</td><td>[?]</td><td>·10</td><td>......</td><td>·06</td></tr>
+<tr><td>25.</td><td>29·914</td><td>29·907</td><td>29·67</td><td>30·05</td><td>29·93</td><td>29·87</td><td>29·96</td><td>40</td><td>33</td><td>38</td><td>[?]</td><td>[?]</td><td>[?]</td><td>43</td><td>ne.</td><td>e.</td><td>se.</td><td>nw.</td><td>·01</td><td>[?]</td><td>.....</td><td>·10</td></tr>
+<tr><td>26.</td><td>[?]</td><td>29·842</td><td>29·60</td><td>29·89</td><td>[?]</td><td>29·83</td><td>[?]</td><td>43</td><td>32</td><td>40</td><td>52</td><td>[?]</td><td>[?]</td><td>[?]</td><td>ne.</td><td>nw.</td><td>ese.</td><td>se.</td><td>[?]</td><td>[?]</td><td>......</td><td>·12</td></tr>
+<tr><td>27.</td><td>[?]</td><td>[?]</td><td>29·21</td><td>29·40</td><td>[?]</td><td>29·56</td><td>[?]</td><td>45</td><td>34</td><td>[?]</td><td>48</td><td>26</td><td>[?]</td><td>[?]</td><td>se.</td><td>calm</td><td>ese.</td><td>e.</td><td>·14</td><td>....</td><td>[?]</td><td>.....</td></tr>
+<tr><td>28.</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>.....</td><td>[?]</td></tr>
+<tr><td>29.</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>calm</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>.....</td></tr>
+<tr><td>30.</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>49</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>☽ 31.</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+</tbody>
+</table>
 
 ## PDF page 415
 
@@ -30784,491 +28626,48 @@ clear; aurora. 21. Bright: clear; aurora. 22. Cloudy. 23. Drops: cloudy. 24. Bri
 
 ## PDF page 494
 
-Meteorological Observations made by Mr. Thompson at the Garden of the Horticultural Society at Chiswick, near London; by Mr. Veall, at Boston; by the Rev. W. Dunbar, at Applegarth Manse, Dunkries-Shire; and by the Rev. C. 
-1:91
-.42<br>.03
-.05
-<b>7</b>0,
-90.
-.10
-.15
-9
-90
-.19
-.05
-952
-•04
-....
--
-Orkney,<br>Sandwick,
-....
-Ö
-....
-2.52
-1.00
-9.0
-:
-*****
-....
-.....
-....
-.....
-*****
-.....
-....
-....
-.....
-0.50
-29.0
-*****
-....
-.....
-shire.
-...
-....
-Dumfries.
-Rain.
-2.83
-30
-30
-.15
-90
-97.
-.24
-0.0
-.25
-.<br>0
-0.0
-.22
--14
-.04
-9
-Ö
-57
-•28
-0.0
-Roston.
-2.21
-....
-:
-...
-.12
-.10
-90
-.05
-9
-.58
-÷
-.04
-12
-000
-.45
-ö
-ġ
-.22
-.03
-28
-.21
-0
-Ö
-Chiswick.
-nnw.
-nne.
-ese.
-Wnw.
-Orkney,<br>Sandwick,
-sse.
-ese,
-se.
-se.
-ne.
-ese.
-SSW
-ese.
-se.
-ė,
-W.
-nw.
-nw.
-sse.
-se.
-se.
-e
-H.
-n;
-se.
-ė
-Ÿ.
-ŝ
-ė
-se.
-e
-nW.SW
-nw.
-ene.
-nne.
-SW.
-shire.
-ne,
-ne.
-sse.
-ese,
-ese.
-se.
-se.
-ne.
-sse.
-SW.
-se.
-SW.
-Se.
-å
-SW.
-SW.
-SW
-SW
-မံ
-မံ
-ĳ
-တို့ တို
-ė
-ė
-Wind.
-Dumfries-
-nne.
-calm
-nnw
-WSW,
-nnw
-nw.
-nw.
-sse.
-ne.
-nw.
-se.
-sse,
-· n.
-n.
-SW
-W.
-Boston.
-e,
-W.
-še.
-se.
-å
-ŝ
-ä
-ŝ
-e,
-ŝ
-e<br>.
-ŝ
-ŝ
-ပံ
-SW.
-SW.
-SW.
-ne.
-nw.
-SW.
-nw.
-nw.
-SW.
-· .m.q I
-SW.
-ne.
-S.W.
-e.
-SW.
-ne.
-S.W.
-se.
-W,
-ņ
-ne.
-W.
-SW.
-W.
-ŝ
-ņ,
-Ė
-ŝ
-¥.
-ŝ
-å
-Chiswick.
-40.21
-<math>39\frac{1}{2}</math>
-39½
-•uu•d
-45 45 45 45 45 45 45 45 45 45 45 45 45 4
-Orkney,<br>Sandwick,
-40
-40
-42
-4343
-38 38
-43
-333333
-43
-43
-43
-45
-£8
-49.6 35.5 43.50
-a.m.
-41<sup>1</sup>/<sub>2</sub>4245<sup>4</sup>/<sub>2</sub>45<sup>4</sup>/<sub>2</sub>45<sup>4</sup>/<sub>2</sub>404
-40<br>40<br>45<br>45<br>45
-42±<br>45<br>48
-443
-44
-4333324
-43
-44
-49
-47
-53
-76
-<math>\frac{32}{36}</math>
-37 2
-38 4 2 36 4 2 36 4 4 2 36 4 4 2 36 4 4 2 36 4 4 5 4 5 4 5 4 5 4 6 4 6 4 6 4 6 4 6 
-<math>\frac{32\frac{1}{2}}{34}</math>
-30%
-<math>\frac{31}{29}</math>
-252<br>352
-37½ 32½ 32½
-39½
-39½<br>35<br>46
-Dumfries-<br>shire.
-Thermometer.
-36
-28
-29
-39
-Min.
-38
-36
-39
-41
-474<br>474<br>474<br>46<br>474<br>50<br>50<br>50<br>50
-4646<br>4646<br>512<br>512
-503<br>513<br>453
-443<br>47<br>49
-55<br>53<br>53
-<math>55\frac{1}{2}</math>
-59½<br>64½
-Max.
-46
-26
-52
-44
-52
-29.612 29.640 54.76 33.83 45.7
-39.5
-41.5
-38-5
-.ա.բ է8
-44
-50
-36
-38
-39
-46
-49
-45
-51
-42
-41
-45
-49
-50
-45
-77
-52
-53
-Boston.
-51
-56
-58
-54
-42
-232234623585
-40<br>26<br>26
-38 34 34 31
-42
-27
-38
-43
-44
-32
-35
-Min.
-Chiswick.
-55<br>56<br>57<br>57<br>57<br>57<br>57
-52<br>50<br>51<br>51
-555<br>50<br>50<br>50<br>50<br>50<br>50<br>50<br>50<br>60<br>60<br>60<br>60<br>60<br>60<br>60<br>60<br>60<br>60<br>60<br>60<br>60
-61<br>59<br>68<br>66
-Max,
-29.96
-29.98
-29.46
-29.92
-29.26
-29.78
-29.73
-29.29
-29.54
-29.84
-29.92
-29.84
-29.23
-29.53
-29.76
-29.86
-29.77
-29.87
-29.74
-29.62
-29-47
-29.54
-29.25
-29.19
-29.74
-29.96
-29.41
-29.71
-29.49
-29.21
-84<br>p.m.
-Orkney,<br>Sandwick,
-29.45
-29.62
-29.78
-29.48
-29.72
-29.82
-29.62
-29.99
-29.34
-29.55
-29.76
-59.66
-29.68
-29.76
-29.80
-29.56
-29.62
-29.93
-89.67
-29.62
-29.35
-29.47
-29.15
-29.25
-29.53
-29.50
-29.91
-29.77
-29.66
-9½<br>a.m.
-29.561
-29.70
-29.80
-29.76
-29.30
-29.70
-29.50
-29.45
-29.13
-29.54
-29.56
-29.60
-29.38
-29.39
-29.32
-29.48
-29.64
-29.72
-29.26
-29.53
-29.52
-29.55
-Dumfries-shire.
-29-22
-29.41
-29.77
-29.59
-30-10
-30.16
-29.74
-9<br>p.m.
-Barometer.
-29.564
-29.60
-29.74
-29.15
-29.25
-29.75
-29.69
-29.43
-29.40
-29.38
-29.40
-29.72
-29.68
-29.50
-29.70
-29.70
-29.76
-29.34
-29.58
-29.31
-29.51
-29-77
-29.52
-30.16
-29.57
-29.51
-29.53
-29.46<br>29.98
-a.m.
-29.12<br>29.12<br>29.13<br>29.14<br>29.16<br>29.40<br>29.40<br>29.40<br>29.40<br>29.40<br>29.40<br>29.40<br>29.40<br>29.40<br>29.40<br>29.40<br>29.60
-10
-29.40<br>29.30<br>29.30<br>29.37<br>29.20<br>29.20
-.m.s $8
-29.3
-Boston.
-29.448
-29.410
-29.381
-29.382
-29.340
-29.340
-29.538
-29.538
-29.538
-29.538
-29.538
-29.538
-29.584<br>29.719<br>29.718<br>29.861<br>29.864<br>29.762<br>29.762<br>29.764<br>29.728<br>29.728<br>29.728<br>29.728
-29.594
-30.176
-Min.
-Chiswick.
-29,524<br>29,437<br>29,684<br>29,656<br>29,556<br>29,514<br>29,534<br>29,534<br>29,534<br>29,736<br>29,736<br>29,736<br>29,736<br>29,736<br>29,736<br>29,736<br>29,736<br>29,736<br>29,736<br>29,736<br>20,736<br>20,736
-29.731
-29.926<br>29.930<br>29.833<br>29.834<br>29.836<br>29.836<br>29.838
-30.000
-30-260
-Max.
-Mean.
-Days of Month.
-1849.<br>April.
-O O O O O O O O O O O O O O O O O O O 
-21.
-2222222
-A
+Meteorological Observations made by Mr. Thompson at the Garden of the Horticultural Society at CHISWICK, near London; by Mr. Veall, at BOSTON; by the Rev. W. Dunbar, at Applegarth Manse, DUMFRIES-SHIRE; and by the Rev. C. Clouston, at Sandwick Manse, ORKNEY.
+
+<table>
+<thead>
+<tr><th rowspan="2">Days of Month.</th><th colspan="7">Barometer.</th><th colspan="7">Thermometer.</th><th colspan="4">Wind.</th><th colspan="4">Rain.</th></tr>
+<tr><th colspan="2">Chiswick.</th><th rowspan="2">Boston. 8½ a.m.</th><th colspan="2">Dumfries-shire.</th><th colspan="2">Orkney, Sandwick.</th><th colspan="2">Chiswick.</th><th rowspan="2">Boston. 8½ a.m.</th><th colspan="2">Dumfries-shire.</th><th colspan="2">Orkney, Sandwick.</th><th rowspan="2">Chiswick. 1 p.m.</th><th rowspan="2">Boston.</th><th rowspan="2">Dumfries-shire.</th><th rowspan="2">Orkney, Sandwick.</th><th rowspan="2">Chiswick.</th><th rowspan="2">Boston.</th><th rowspan="2">Dumfries-shire.</th><th rowspan="2">Orkney, Sandwick.</th></tr>
+<tr><th>1849. April.</th><th>Max.</th><th>Min.</th><th>9 a.m.</th><th>9 p.m.</th><th>9½ a.m.</th><th>8½ p.m.</th><th>Max.</th><th>Min.</th><th>Max.</th><th>Min.</th><th>9½ a.m.</th><th>8½ p.m.</th></tr>
+</thead>
+<tbody>
+<tr><td>1.</td><td>29·524</td><td>29·448</td><td>29·20</td><td>29·34</td><td>29·22</td><td>29·47</td><td>29·41</td><td>55</td><td>40</td><td>45</td><td>52</td><td>[?]</td><td>47</td><td>43</td><td>sw.</td><td>se.</td><td>sse.</td><td>[?]</td><td>·12</td><td>[?]</td><td>.....</td><td>.....</td></tr>
+<tr><td>2.</td><td>[?]</td><td>[?]</td><td>29·12</td><td>29·28</td><td>[?]</td><td>29·45</td><td>29·56</td><td>56</td><td>26</td><td>49</td><td>53</td><td>41</td><td>43</td><td>43</td><td>s.</td><td>[?]</td><td>sse.</td><td>[?]</td><td>·10</td><td>.....</td><td>.....</td><td>·42</td></tr>
+<tr><td>3.</td><td>[?]</td><td>29·526</td><td>29·17</td><td>29·43</td><td>29·50</td><td>29·67</td><td>29·78</td><td>58</td><td>26</td><td>43</td><td>[?]</td><td>[?]</td><td>[?]</td><td>43</td><td>[?]</td><td>[?]</td><td>[?]</td><td>se.</td><td>.....</td><td>[?]</td><td>.....</td><td>[?]</td></tr>
+<tr><td>4.</td><td>29·656</td><td>[?]</td><td>29·27</td><td>29·51</td><td>29·42</td><td>29·65</td><td>29·73</td><td>56</td><td>42</td><td>45</td><td>[?]</td><td>[?]</td><td>44</td><td>42</td><td>[?]</td><td>s.</td><td>[?]</td><td>se.</td><td>·08</td><td>.....</td><td>[?]</td><td>·13</td></tr>
+<tr><td>5.</td><td>29·556</td><td>29·381</td><td>29·11</td><td>29·40</td><td>29·39</td><td>29·78</td><td>29·59</td><td>57</td><td>25</td><td>46</td><td>[?]</td><td>[?]</td><td>44</td><td>42</td><td>sw.</td><td>se.</td><td>[?]</td><td>[?]</td><td>·01</td><td>[?]</td><td>.....</td><td>.....</td></tr>
+<tr><td>6.</td><td>29·609</td><td>29·440</td><td>29·16</td><td>29·38</td><td>29·32</td><td>[?]</td><td>29·54</td><td>63</td><td>38</td><td>51</td><td>56</td><td>[?]</td><td>46</td><td>43</td><td>[?]</td><td>s.</td><td>se.</td><td>se.</td><td>.....</td><td>[?]</td><td>......</td><td>[?]</td></tr>
+<tr><td>○ 7.</td><td>29·514</td><td>29·364</td><td>29·06</td><td>[?]</td><td>[?]</td><td>29·72</td><td>[?]</td><td>55</td><td>34</td><td>50</td><td>52</td><td>[?]</td><td>[?]</td><td>40</td><td>sw.</td><td>e.</td><td>e.</td><td>e.</td><td>·05</td><td>.....</td><td>.....</td><td>......</td></tr>
+<tr><td>8.</td><td>29·429</td><td>29·346</td><td>29·00</td><td>29·40</td><td>29·48</td><td>29·85</td><td>29·92</td><td>61</td><td>31</td><td>47</td><td>46</td><td>[?]</td><td>42</td><td>[?]</td><td>sw.</td><td>ne.</td><td>ene.</td><td>e.</td><td>·02</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>9.</td><td>29·536</td><td>29·459</td><td>29·20</td><td>29·60</td><td>29·70</td><td>29·95</td><td>29·98</td><td>52</td><td>42</td><td>44</td><td>[?]</td><td>39</td><td>43</td><td>41</td><td>ne.</td><td>e.</td><td>e.</td><td>nne.</td><td>.....</td><td>[?]</td><td>....</td><td>.....</td></tr>
+<tr><td>10.</td><td>29·664</td><td>29·538</td><td>29·28</td><td>[?]</td><td>29·80</td><td>29·99</td><td>[?]</td><td>50</td><td>34</td><td>42</td><td>47</td><td>36</td><td>[?]</td><td>40</td><td>ne.</td><td>nne.</td><td>e.</td><td>[?]</td><td>·04</td><td>[?]</td><td>.....</td><td>.....</td></tr>
+<tr><td>11.</td><td>29·800</td><td>29·691</td><td>29·40</td><td>29·74</td><td>29·76</td><td>29·91</td><td>29·84</td><td>47</td><td>25</td><td>41</td><td>49</td><td>[?]</td><td>40</td><td>[?]</td><td>ne.</td><td>[?]</td><td>[?]</td><td>[?]</td><td>.....</td><td>[?]</td><td>.....</td><td>[?]</td></tr>
+<tr><td>12.</td><td>29·819</td><td>[?]</td><td>29·47</td><td>29·65</td><td>29·30</td><td>29·34</td><td>29·23</td><td>51</td><td>38</td><td>41</td><td>[?]</td><td>34</td><td>[?]</td><td>36</td><td>nw.</td><td>[?]</td><td>sw.</td><td>w.</td><td>·01</td><td>.....</td><td>.....</td><td>·09</td></tr>
+<tr><td>13.</td><td>29·341</td><td>29·218</td><td>28·97</td><td>29·15</td><td>29·13</td><td>29·22</td><td>[?]</td><td>51</td><td>25</td><td>41</td><td>[?]</td><td>28</td><td>[?]</td><td>38</td><td>sw.</td><td>s.</td><td>[?]</td><td>e.</td><td>·12</td><td>[?]</td><td>.....</td><td>.....</td></tr>
+<tr><td>14.</td><td>29·533</td><td>[?]</td><td>29·02</td><td>29·25</td><td>29·54</td><td>29·76</td><td>29·92</td><td>55</td><td>32</td><td>39·5</td><td>[?]</td><td>[?]</td><td>45</td><td>38</td><td>[?]</td><td>[?]</td><td>[?]</td><td>e.</td><td>·03</td><td>[?]</td><td>....</td><td>[?]</td></tr>
+<tr><td>☾ 15.</td><td>29·719</td><td>29·584</td><td>29·38</td><td>29·75</td><td>[?]</td><td>29·93</td><td>29·77</td><td>50</td><td>36</td><td>44</td><td>[?]</td><td>36</td><td>45</td><td>43</td><td>[?]</td><td>s.</td><td>ne.</td><td>w.</td><td>·08</td><td>[?]</td><td>....</td><td>.....</td></tr>
+<tr><td>16.</td><td>29·785</td><td>29·719</td><td>29·96</td><td>29·69</td><td>[?]</td><td>[?]</td><td>[?]</td><td>50</td><td>34</td><td>41·5</td><td>50</td><td>[?]</td><td>34</td><td>29</td><td>n.</td><td>[?]</td><td>ne.</td><td>n.</td><td>.....</td><td>.....</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>17.</td><td>29·776</td><td>29·718</td><td>29·40</td><td>29·68</td><td>29·70</td><td>[?]</td><td>29·87</td><td>47</td><td>25</td><td>36</td><td>38</td><td>23</td><td>32</td><td>33</td><td>[?]</td><td>nw.</td><td>[?]</td><td>[?]</td><td>·02</td><td>.....</td><td>.....</td><td>·19</td></tr>
+<tr><td>18.</td><td>[?]</td><td>29·861</td><td>29·55</td><td>29·77</td><td>29·26</td><td>29·68</td><td>29·53</td><td>50</td><td>32</td><td>38</td><td>[?]</td><td>29</td><td>37</td><td>33</td><td>w.</td><td>nw.</td><td>nw.sw</td><td>ne.</td><td>·28</td><td>[?]</td><td>......</td><td>[?]</td></tr>
+<tr><td>19.</td><td>29·484</td><td>[?]</td><td>29·15</td><td>[?]</td><td>29·60</td><td>[?]</td><td>[?]</td><td>39</td><td>32</td><td>39</td><td>[?]</td><td>[?]</td><td>33</td><td>33</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>·45</td><td>[?]</td><td>....</td><td>[?]</td></tr>
+<tr><td>20.</td><td>29·806</td><td>29·564</td><td>29·32</td><td>[?]</td><td>29·72</td><td>29·76</td><td>29·76</td><td>47</td><td>26</td><td>38·5</td><td>[?]</td><td>29</td><td>38</td><td>33</td><td>n.</td><td>[?]</td><td>n.</td><td>e.</td><td>·01</td><td>.....</td><td>.....</td><td>·05</td></tr>
+<tr><td>21.</td><td>29·926</td><td>29·864</td><td>29·02</td><td>29·70</td><td>29·77</td><td>29·80</td><td>29·86</td><td>48</td><td>27</td><td>41</td><td>51</td><td>[?]</td><td>43</td><td>37</td><td>w.</td><td>nnw.</td><td>se.</td><td>ese.</td><td>......</td><td>.....</td><td>.....</td><td>·01</td></tr>
+<tr><td>● 22.</td><td>29·930</td><td>[?]</td><td>[?]</td><td>29·76</td><td>29·56</td><td>29·77</td><td>29·65</td><td>48</td><td>39</td><td>45</td><td>44</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>sse.</td><td>·22</td><td>.....</td><td>.....</td><td>.....</td></tr>
+<tr><td>23.</td><td>29·633</td><td>29·561</td><td>29·26</td><td>29·49</td><td>[?]</td><td>[?]</td><td>29·47</td><td>50</td><td>38</td><td>49</td><td>[?]</td><td>39</td><td>45</td><td>43</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>·21</td><td>[?]</td><td>[?]</td><td>[?]</td></tr>
+<tr><td>24.</td><td>29·894</td><td>[?]</td><td>29·40</td><td>[?]</td><td>29·52</td><td>[?]</td><td>29·24</td><td>56</td><td>43</td><td>50</td><td>53</td><td>38</td><td>48</td><td>[?]</td><td>n.</td><td>e.</td><td>[?]</td><td>se.</td><td>.....</td><td>[?]</td><td>.....</td><td>.....</td></tr>
+<tr><td>25.</td><td>29·745</td><td>29·728</td><td>[?]</td><td>[?]</td><td>29·55</td><td>29·15</td><td>29·25</td><td>62</td><td>44</td><td>52</td><td>55</td><td>[?]</td><td>44</td><td>43</td><td>[?]</td><td>[?]</td><td>sw.</td><td>[?]</td><td>·03</td><td>......</td><td>.....</td><td>·15</td></tr>
+<tr><td>26.</td><td>29·836</td><td>[?]</td><td>29·30</td><td>29·52</td><td>29·57</td><td>29·25</td><td>29·21</td><td>60</td><td>29</td><td>51</td><td>53</td><td>43</td><td>49</td><td>[?]</td><td>nw.</td><td>sw.</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>.....</td><td>.....</td></tr>
+<tr><td>27.</td><td>29·838</td><td>29·650</td><td>29·37</td><td>29·53</td><td>29·29</td><td>29·23</td><td>[?]</td><td>61</td><td>40</td><td>53</td><td>[?]</td><td>36</td><td>49</td><td>45</td><td>[?]</td><td>[?]</td><td>[?]</td><td>ssw.</td><td>·04</td><td>.....</td><td>.....</td><td>·04</td></tr>
+<tr><td>28.</td><td>30·000</td><td>[?]</td><td>29·20</td><td>29·46</td><td>29·74</td><td>29·20</td><td>29·49</td><td>59</td><td>32</td><td>54</td><td>56</td><td>[?]</td><td>49</td><td>44</td><td>[?]</td><td>[?]</td><td>[?]</td><td>se.</td><td>·28</td><td>[?]</td><td>.....</td><td>.....</td></tr>
+<tr><td>☽ 29.</td><td>30·260</td><td>30·176</td><td>[?]</td><td>[?]</td><td>30·10</td><td>29·66</td><td>29·74</td><td>68</td><td>45</td><td>56</td><td>[?]</td><td>35</td><td>53</td><td>49</td><td>sw.</td><td>calm</td><td>s.</td><td>[?]</td><td>.....</td><td>[?]</td><td>.....</td><td>.....</td></tr>
+<tr><td>30.</td><td>30·284</td><td>30·208</td><td>29·90</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>35</td><td>58</td><td>[?]</td><td>46</td><td>57</td><td>47</td><td>[?]</td><td>[?]</td><td>[?]</td><td>[?]</td><td>....</td><td>.....</td><td>[?]</td><td>.....</td></tr>
+<tr><td>Mean.</td><td>29·731</td><td>29·594</td><td>29·31</td><td>29·564</td><td>29·561</td><td>29·612</td><td>29·640</td><td>54·76</td><td>33·83</td><td>45·7</td><td>49·6</td><td>35·5</td><td>43·50</td><td>40·21</td><td></td><td></td><td></td><td></td><td>2·21</td><td>2·83</td><td>2·52</td><td>1·91</td></tr>
+</tbody>
+</table>
 
 ## PDF page 495
 

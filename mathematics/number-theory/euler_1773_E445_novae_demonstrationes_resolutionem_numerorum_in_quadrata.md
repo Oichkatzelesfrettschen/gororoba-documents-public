@@ -10,7 +10,7 @@ Transcription of `euler_1773_E445_novae_demonstrationes_resolutionem_numerorum_i
 
 Method: pages 1-22 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
-Second engine: MinerU2.5-Pro 2605 read pages 6, 12, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+Second engine: Codex gpt-6.2-sol (300 dpi page image) read pages 2, 5, 8, 11, 20, 22; MinerU2.5-Pro 2605 read pages 6, 12, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -48,38 +48,39 @@ netur ratiociniis.
 
 ## PDF page 2
 
-•<b>?</b>$\\ \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \
-Posso quoto ex illa divisione oriundo = a.
-THE AVERY OF REPORT OF REPORT OF THE REPORT OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF
-formulas P + Q let R + S liabeant communem diviso-
-remains a guein leigo netiam numerus a continébit, ponit <math>a=\frac{p^2+q^2}{2}+\frac{R^2+s^2}{2}</math>, quae formulae chumas leinna praemisum sint summae duorum qua-
-aliacogyodic da abebitimi do institutio di acquatio : ni mile que in come
-10 10 10 10 10 10 10 10 10 10 10 10 10 1
-of formulaes p. Padp. Advectivel - or unon camplius habebunt
-a compared the state of the second second second second second second second second second second second second second second second second second second second second second second second second second second second secon
-Tum vero ponit <math>pp+qq=t</math> et <math>rr+ss=u</math>, quam aequationem ducit in <math>t</math>, fa-
-cuo a diadiatorum, puta x x + yy, fumendo scilicet
-<math>py + qs</math> er <math>y = ps - qm</math>, thet <math>aAbt = tt + xx + yy</math>.
-word primits and best x, et y ita exprimi posse öbseruat, vt sit
-The zon hand every property by voingum litterae a, <math>\beta</math>, <math>\gamma</math>, <math>\delta</math>
-and in the politice, accipieque antique negative five politice,
-mer fearum inaloges trales certe dabutitur, vt fit e
-a million with district the transfer where
-Trans. The list iam valoribus producet y libstitutis resul-
-1CM
-Tablication of the little distribution of the contraction of the contraction of the contraction of the contraction of the contraction of the contraction of the contraction of the contraction of the contraction of the contr
-per
-Ouac expredite count confibilis effe, debeat per banneque
-ifo>
-fore
-the difference of the prime in the difference admittat,
-aceclle eff vt ibi formula <math>1+a+β</math> factorem habeat b;
-1e0
-um.
-em en en en en en en en en en en en en en 
-lua Facta ergo divisione per b, erit
-<math display="block">A = a + 2t(\alpha \gamma + \beta \delta) + b(\gamma \gamma + \delta \delta).</math>
-Acta Acad. Imp. Sc. Tom. I. P. II.
+) 49 (
+
+1ᵒ. Poſito quoto ex illa diuiſione oriundo $=a$, vt ſit $\mathrm Aa=\mathrm P^2+\mathrm Q^2+\mathrm R^2+\mathrm S^2$, ſi forte eueniat, vt binae formulae $\mathrm P^2+\mathrm Q^2$ et $\mathrm R^2+\mathrm S^2$ habeant communem diuiſorem [illegible: divisor], quem ergo etiam numerus $a$ continebit, ponit [illegible: equation], vt fiat
+
+$$
+\mathrm Ab=\frac{\mathrm P^2+\mathrm Q^2}{[?]}+\frac{\mathrm R^2+\mathrm S^2}{[?]},
+$$
+
+quae formulae quum per Lemma praemiſſum ſint ſummae duorum quadratorum, habebitur huiusmodi aequatio:
+
+$$
+\mathrm Ab=pp+qq+rr+ss
+$$
+
+vbi formulae $pp+qq$ et $rr+ss$ non amplius habebunt factorem communem.
+
+2ᵒ. Tum vero ponit $pp+qq=t$ et $rr+ss=u$, vt ſit $\mathrm Ab=t+u$, quam aequationem ducit in $t$, faciendo $\mathrm Abt=tt+tu$, et quia $tu$ etiam eſt ſumma duorum quadratorum, puta $xx+yy$, ſumendo ſcilicet $x=pr+qs$ et $y=ps-qr$, fiet $\mathrm Abt=tt+xx+yy$.
+
+3ᵒ. Nunc per numeros $t$ et $b$, quippe qui inter ſe ſunt primi, ambos $x$ et $y$ ita exprimi poſſe obſeruat, vt ſit $x=\alpha t+\gamma b$ et $y=\beta t+\delta b$; vbi quum litterae $\alpha$, $\beta$, $\gamma$, $\delta$ [illegible: opening of line] modis accipi queant, ſiue negatiue ſiue poſitiue, inter earum valores tales certe dabuntur, vt ſit $\alpha<\frac12 b$ et $\beta<\frac12 b$.
+
+4ᵒ. His iam valoribus pro $x$ et $y$ ſubſtitutis reſultabit iſta aequatio:
+
+$$
+\mathrm Abt=tt(1+\alpha^2+\beta^2)+2bt(\alpha\gamma+\beta\delta)+bb(\gamma\gamma+\delta\delta).
+$$
+
+Quae expreſſio quum diuiſibilis eſſe debeat per $bt$, neque tamen in primo membro $tt$ hanc diuiſionem admittat, neceſſe eſt vt ibi formula $1+\alpha^2+\beta^2$ factorem habeat $b$; eodem modo vltimum membrum $\gamma\gamma+\delta\delta$ diuiſibile per $t$ eſſe, neceſſe eſt. Ponatur ergo $1+\alpha^2+\beta^2=ba'$, et quia vterque numerus $\alpha$ et $\beta$ minor eſt quam $\frac12 b$, manifeſtum eſt fore $a'<[?]$. Facta ergo diuiſione per $b$, erit
+
+$$
+\mathrm At=a'tt+2t(\alpha\gamma+\beta\delta)+b(\gamma\gamma+\delta\delta).
+$$
+
+Acta Acad. Imp. Sc. Tom. I. P. II.            G             5ᵗᵒ.
 
 ## PDF page 3
 
@@ -155,37 +156,47 @@ Lem-
 
 ## PDF page 5
 
-3 352 33
-en maken in Le man abed. here's
-1. S. 6. Productum ex duabus fummis binorum quadra-
-torum itidem est summa duorum quadratorum:
-Nam si illud productum suerit <math>(aa+bb)(\alpha\alpha+\beta\beta)</math>
-ef capiatur.
-A = <math>a\alpha + b\beta</math> et B = <math>a\beta - b\alpha</math>,
-Vique erit
+) 52 (
 
-(aa + bb) (aa + \bb) = AA + BB.
-more estimated theorems In the many the
-Si numerus N faerit divisor summae duorum quadra-
-iorum P+Q inter se primorum, tum ipse ille numerus N<br>erit summa duorum quadratorum.
--realisation report Demonstration reducing the support
-- Quo hanc demonstrationem facilius etiam in nume-
-ris exsequi liceat, cui sorte libuerit, obseruo, quantum nis
-magni fierint numeri P et Q; ex iis femper aliam sum-
-mam duorum quadratorum pp + 4 q formai posse; quo-
-rum radices pret q semissem numeri propositi N non superent. Nam si ponatur
-**************************************
-大規模な数
-notissimum est, numeros p et q ita sumi poste, ve semis-
-fem Ninon superent. Qunm igitur iam sit
-P+Q=N*(<math>ff+gg</math>)+<math>zN</math>(<math>\pm fp\pm gq</math>)+<math>pp+qq</math>
-haecque expressio per N sit divisibilis, euidens est etiam
-hanc binorum quadratorum summam per N divisibilem sore. Hoc praemisso ipsam demonstrationem sequentibus
-momentis complectar summa a comment many more transfer and the complectar and the complex transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transfer transf
-Quum igitur ista formula pp+qq diniforem ha-
-beat N, peneado quorum <math>= n</math> habitimus <math>N n = pp + qq</math>,
-vbi ergo z minor erit quam Ny quia p ZN et q ZN
-- Part | 1
+Lemma I.
+
+§. 6. Productum ex duabus ſummis binorum quadratorum itidem eſt ſumma duorum quadratorum.
+
+Nam ſi illud productum fuerit $(aa+bb)(\alpha\alpha+\beta\beta)$ et capiatur
+
+$$
+\mathrm A=a\alpha+b\beta\quad\text{et}\quad\mathrm B=a\beta-b\alpha,
+$$
+
+vtique erit
+
+$$
+(aa+bb)(\alpha\alpha+\beta\beta)=\mathrm{AA}+\mathrm{BB}.
+$$
+
+Theorema I.
+
+Si numerus $\mathrm N$ fuerit diuiſor ſummae duorum quadratorum $\mathrm P^2+\mathrm Q^2$ inter ſe primorum, tum ipſe ille numerus $\mathrm N$ erit ſumma duorum quadratorum.
+
+Demonſtratio.
+
+Quo hanc demonſtrationem facilius etiam in numeris exſequi liceat, cui forte libuerit, obſeruo, quantumuis magni fuerint numeri $\mathrm P$ et $\mathrm Q$, ex iis ſemper aliam ſummam duorum quadratorum $pp+qq$ formari poſſe, quorum radices $p$ et $q$ ſemiſſem numeri propoſiti $\mathrm N$ non ſuperent. Nam ſi ponatur
+
+$$
+\mathrm P=f\mathrm N\pm p\quad\text{et}\quad\mathrm Q=g\mathrm N\pm q
+$$
+
+notiſſimum eſt, numeros $p$ et $q$ ita ſumi poſſe, vt ſemiſſem $\frac12\mathrm N$ non ſuperent. Quum igitur iam ſit
+
+$$
+\mathrm P^2+\mathrm Q^2=\mathrm N^2(ff+gg)+2\mathrm N(\pm fp\pm gq)+pp+qq
+$$
+
+haecque expreſſio per $\mathrm N$ ſit diuiſibilis, euidens eſt etiam hanc binorum quadratorum ſummam per $\mathrm N$ diuiſibilem fore. Hoc praemiſſo ipſam demonſtrationem ſequentibus momentis complectar.
+
+1ᵒ. Quum igitur iſta formula $pp+qq$ diuiſorem habeat $\mathrm N$, ponendo quotum $=n$ habebimus $\mathrm Nn=pp+qq$, vbi ergo $n$ minor erit quam $\frac12\mathrm N$, quia $p<\frac12\mathrm N$ et $q<\frac12\mathrm N$.
+
+2ᵒ.
 
 ## PDF page 6
 
@@ -263,36 +274,56 @@ Demon-
 
 ## PDF page 8
 
-Demonstratio.
-The sterum numeros p et q infra semissem numeri N
-de numero licebir et nostra demonstratio sequenti modo
-Sit <math>N_n = pp + 2qq</math>, et quia <math>p < \frac{1}{2}N</math> et <math>q < \frac{1}{2}N</math> et <math>q < \frac{1}{2}N</math> et <math>q < \frac{1}{2}N</math> et <math>q < \frac{1}{2}N</math> et <math>q < \frac{1}{2}N</math> et <math>q < \frac{1}{2}N</math> et <math>q < \frac{1}{2}N</math> et <math>q < \frac{1}{2}N</math> et <math>q = p + \alpha n</math> et <math>q = p + \alpha n</math>
-To weet A capi poternut minores quam en hineque ha-
-, babitun
-The same with the same
-<math display="block">Nn = aa + 2bb + 2n(aa + 2b\beta) + nn(\alpha\alpha + 2\beta\beta)</math>
-quae forma per Lemma praemisium reducitur ad
-<math>N_n = aa + 2bb + 2nA + nn(\alpha\alpha + 2\beta\beta).</math>
-1 2 Hic igitui primum membrum an +12 bb factorem
-paleons new node posito a a + 2 b b = n n; erit vtique n' < in:
-Hoe am valore Jubilibuto et per n diviso fiet
-<math>N=n+2\Lambda+n(\alpha,\alpha+2\beta\beta).</math>
-32: Militiplicetur per n'atque per Lemma prac-
-tramina dadebitur-
-<math display="block">(aa+2bb)(aa+2\beta\beta)=(aa+2bb)(aa+2\beta\beta)=AA+2BB;</math>
-la w hunc habeatur
-<math>Nn = n^2 + 2nA + AA + 2BB</math>
-quae forma manifello ad hanc reducitur:
-<math>n = n + A^2 + 2B^2</math>
-ideogne itidem numerus formae <math>pp+2qq</math>.
-Productation of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control
-lequentia peruenire licebit Null; Null-etc.; ital vt numeri
-v. v. v., v. etc. continuo decrescant. Tandem ergo perue-
-matur necesse est ad formam N. 1, ita vt ipse numerus
-Negroque in eadem forma <math>pp+2qq</math> contineatur.
+) 55 (
+
+Demonſtratio.
+
+Hic iterum numeros $p$ et $q$ infra ſemiſſem numeri $\mathrm N$ deprimere licebit, et noſtra demonſtratio ſequenti modo procedet.
+
+1ᵒ. Sit $\mathrm Nn=pp+2qq$, et quia $p<\frac12\mathrm N$ et $q<\frac12\mathrm N$ erit $n<\mathrm N$. Iam ponatur vt ante $p=a+\alpha n$ et $q=b+\beta n$, vbi $a$ et $b$ capi poterunt minores quam $\frac12 n$, hincque habebitur
+
+$$
+\mathrm Nn=aa+2bb+2n(a\alpha+2b\beta)+nn(\alpha\alpha+2\beta\beta)
+$$
+
+quae forma per Lemma praemiſſum reducitur ad
+
+$$
+\mathrm Nn=aa+2bb+2n\mathrm A+nn(\alpha\alpha+2\beta\beta).
+$$
+
+2ᵒ. Hic igitur primum membrum $aa+2bb$ factorem habebit $n$, vnde poſito $aa+2bb=nn'$ erit vtique $n'<\frac34 n$. Hoc iam valore ſubſtituto et per $n$ diuiſo fiet
+
+$$
+\mathrm N=n'+2\mathrm A+n(\alpha\alpha+2\beta\beta).
+$$
+
+3ᵒ. Multiplicetur per $n'$ atque per Lemma praemiſſum habebitur
+
+$$
+nn'(\alpha\alpha+2\beta\beta)=(aa+2bb)(\alpha\alpha+2\beta\beta)=\mathrm{AA}+2\mathrm{BB};
+$$
+
+ita vt nunc habeatur
+
+$$
+\mathrm Nn'=n'^2+2n'\mathrm A+\mathrm{AA}+2\mathrm{BB},
+$$
+
+quae forma manifeſto ad hanc reducitur:
+
+$$
+\mathrm Nn'=(n'+\mathrm A)^2+2\mathrm B^2;
+$$
+
+ideoque itidem numerus formae $pp+2qq$.
+
+4ᵒ. Quum ergo ſit $n'<n$, ſimili modo ad producta ſequentia peruenire licebit $\mathrm Nn''$; $\mathrm Nn'''$ etc., ita vt numeri $n$, $n'$, $n''$, $n'''$ etc. continuo decreſcant. Tandem ergo perueniatur neceſſe eſt ad formam $\mathrm N.1$, ita vt ipſe numerus $\mathrm N$ quoque in eadem forma $pp+2qq$ contineatur.
+
 Lemma III.
-S. 9. Production ex-duobus-numeris formae pp+399
-Jemper ad similem formam reduci potest.
+
+§. 9. Productum ex duobus numeris formae $pp+3qq$ ſemper ad ſimilem formam reduci poteſt.
+
 Sit
 
 ## PDF page 9
@@ -373,38 +404,31 @@ pares
 ## PDF page 11
 
 ) 58 (
-pares, non folum esse parem sed etiam per quatuor divisit
-bilem, neque adeo impariter parem vnquam esse posse for-
-mae pp 4-3 99. Quoties ergo, vti his calibus viu venit,
-numerus 2 N in forma pp+3 qq contineatur, tum N fem
-per erit numerus par, einsque semissis N, seu pars quarta
-Ouoties:
-ipsius 2N in hac forma pp + 3qq continebitur.
-enim vterque numerus p et q est impar, tum etiam put san
-semper est numerus eiusdem formae, idque adeo in in-
-tegris, quod quidem non tam facile perspicitur. Posito
-enim <math>p = 2r + 1</math> et <math>q = 2f + 1</math>, prodit forma
-pp+349 __ I -+ r -+ 35 + 3.55
-quam generation neutiquam in integris ad quadratum cum
-triplo quadrato reducere licet. Sequenti autein modo haet
-resolutio in genere institui poterit. Observo enim om-
-nia quadrata imparia in hac forma (4 m + 1) contineri,
-si quidem pro m etiam numeri negatiui admittantur; nam-
-que him sit positium, quadrata numerorum 1, 5, 9, 18,
-quorum forma est 414-1 resultant; sin autem m sit mi-
-merus negatiuus, tum quadrata numerorum 3, 7, 11, 15 etc.
-quorum forma est 4 i - 1, oriuntur. Iam ponamus
-<math>pp = (4r + 1)^{2}</math> et <math>qq = (4s + 1)^{2}</math>, eritque
-PP+399 = 1 + 2r+4 fr+65+1255
-quae manifesto ad hanc for mam redigitur: <math>(1+r+3s)^2+3(r-s)^2</math>
+
+pares, non ſolum eſſe parem ſed etiam per quatuor diuiſibilem, neque adeo impariter parem vnquam eſſe poſſe formae $pp+3qq$. Quoties ergo, vti his caſibus vſu venit, numerus $2\mathrm N$ in forma $pp+3qq$ contineatur, tum $\mathrm N$ ſemper erit numerus par, eiusque ſemiſſis $\frac12\mathrm N$, ſeu pars quarta ipſius $2\mathrm N$ in hac forma $pp+3qq$ continebitur. Quoties enim vterque numerus $p$ et $q$ eſt impar, tum etiam $\frac{pp+3qq}{4}$ ſemper eſt numerus eiusdem formae, idque adeo in integris, quod quidem non tam facile perſpicitur. Poſito enim $p=2r+1$ et $q=2s+1$, prodit forma
+
+$$
+\frac{pp+3qq}{4}=1+r+rr+3s+3ss
+$$
+
+quam generatim neutiquam in integris ad quadratum cum triplo quadrato reducere licet. Sequenti autem modo haec reſolutio in genere inſtitui poterit. Obſeruo enim omnia quadrata imparia in hac forma $(4m+1)^2$ contineri, ſi quidem pro $m$ etiam numeri negatiui admittantur; namque ſi $m$ ſit poſitiuum, quadrata numerorum 1, 5, 9, 13, quorum forma eſt $4i+1$ reſultant; ſin autem $m$ ſit numerus negatiuus, tum quadrata numerorum 3, 7, 11, 15 etc. quorum forma eſt $4i-1$, oriuntur. Iam ponamus
+
+$$
+pp=(4r+1)^2\quad\text{et}\quad qq=(4s+1)^2,
+$$
+
+eritque
+
+$$
+\frac{pp+3qq}{4}=1+2r+4rr+6s+12ss
+$$
+
+quae manifeſto ad hanc formam redigitur: $(1+r+3s)^2+3(r-s)^2$.
+
 Scholion.
-His Theorematibus praemissis id quod nobis maxime
-est propositum adgrediamur, demonstraturi, quod summae
-quatuor quadratorum nullos alios divisores admittant, mis
-qui ipfi quoque sint summae quatuor quadratorum. Ad
-fimilitudinem autem praecedentium Theorematum Lemma
-quoque praemitti oportet.
-25th and the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the second of the
+
+His Theorematibus praemiſſis id quod nobis maxime eſt propoſitum adgrediamur, demonſtraturi, quod ſummae quatuor quadratorum nullos alios diuiſores admittant, niſi qui ipſi quoque ſint ſummae quatuor quadratorum. Ad ſimilitudinem autem praecedentium Theorematum Lemma quoque praemitti oportet.
+
 Lemma
 
 ## PDF page 12
@@ -722,41 +746,31 @@ Hoc
 
 ## PDF page 20
 
-) 67 ( See-
-Hoe discriment ponatur brevitatis gratia <math>\equiv \omega</math> , quod vti-
-greeze psimi dinisorem N erit primum, si modo pro d
-non, affame ut vintas, quia <math>d-{\rm r}</math> est <math>{<\!\!\!<\!\!\!\!<\!\!\!\!<\!\!\!\!\!<\!\!\!\!>}\, N</math>, atque etiam
-primeas w primus ad N.
-Quodsi igitur in classe non-residorum conti-
-neathr numerus <math>\alpha</math>, ibidem quoque occurret <math>\alpha + \omega</math>, atque
-objeandem rationem hic numerus, iterum incrementum w ac-
-quoiens, scilicet <math>a + 2 \omega</math> ibi reperiatur necesse est; atque ob
-eandem rationem, etiam numeri <math>\alpha + 3 \omega</math>, <math>\alpha + 4 \omega</math>. Omnes
-constitution de la constitution de la constitution de la constitution de la constitution de la constitution de la constitution de la constitution de la constitution de la constitution de la constitution de la constitution 
-<math>\alpha</math>; <math>\alpha + \omega</math>; <math>\alpha + 2 \omega</math>; <math>\alpha + 3 \omega</math> etc.
-gyarenus scilicet per N divisae insra N deprimuntur, inter
-non-nendun-soccurrere debebunt.
-Quia differentia huius progressionis est ω, nu-
-ments scilicet ad N primus, in hac progressione occur-
-termini non folum per N divisibiles, sed etiam insu-
-per omnes, qui per N divisi pro residuis praebent omnes
-plane numeros 1, 2, 3, 4 etc. nullo excluso. Quocirca
-lecundum mentem aduerfarii in classe non - residuorum
-omnes plane occurrerent numeri, 1, 2, 3, 4 etc. quod
-quine dit absurdum, opinio aduersarii certe est falsa: scili-
-cer fallum est, mullos dari numeros formae
-<math>\lambda x x \rightarrow \mu y y + \nu z z</math>,
-qui fint per N divisibiles. Vtique igitur tales numeri da-
-buntur; arque hoc ipfum est, quod-praestare suscepimus.
+) 67 (
+
+Hoc diſcrimen ponatur breuitatis gratia $=\omega$, quod vtique ad ipſum diuiſorem $\mathrm N$ erit primum, ſi modo pro $d$ non aſſumatur vnitas, quia $d-1$ eſt $<\mathrm N$, atque etiam numerus [illegible: variable] primus ad $\mathrm N$.
+
+Quodſi igitur in claſſe non-reſiduorum contineatur numerus $\alpha$, ibidem quoque occurret $\alpha+\omega$, atque ob eandem rationem hic numerus, iterum incrementum $\omega$ accipiens, ſcilicet $\alpha+2\omega$ ibi reperiatur neceſſe eſt; atque ob eandem rationem, etiam numeri $\alpha+3\omega$, $\alpha+4\omega$. Omnes igitur termini huius progreſſionis Arithmeticae:
+
+$$
+\alpha;\quad \alpha+\omega;\quad \alpha+2\omega;\quad \alpha+3\omega\ \text{etc.}
+$$
+
+quatenus ſcilicet per $\mathrm N$ diuiſae infra $\mathrm N$ deprimuntur, inter non-reſidua occurrere debebunt.
+
+6ᵒ. Quia differentia huius progreſſionis eſt $\omega$, numerus ſcilicet ad $\mathrm N$ primus, in hac progreſſione occurrunt termini non ſolum per $\mathrm N$ diuiſibiles, ſed etiam inſuper omnes, qui per $\mathrm N$ diuiſi pro reſiduis praebent omnes plane numeros 1, 2, 3, 4 etc. nullo excluſo. Quocirca ſecundum mentem aduerſarii in claſſe non-reſiduorum omnes plane occurrerent numeri, 1, 2, 3, 4 etc. quod quum ſit abſurdum, opinio aduerſarii certe eſt falſa: ſcilicet falſum eſt, nullos dari numeros formae
+
+$$
+\lambda xx+\mu yy+\nu zz,
+$$
+
+qui ſint per $\mathrm N$ diuiſibiles. Vtique igitur tales numeri dabuntur, atque hoc ipſum eſt, quod praeſtare ſuſcepimus.
+
 Corollarium I.
-Non folum autem semper tria huiusmodi quadrata
-er yy et zz reperire licet, sed etiam vnum eorum, ve-
-lou zz, pro lubitu assumere licet, dum ne sit per N di-
-Thought <math>f</math> denotes numerum pro lubitu datum non di-
-vilibilem per N, semper aslignare licebit bina quadrata
-<math>x</math> et <math>yy</math>, vt formula <math>\lambda xx + \mu yy + vff</math> fiat per N
-diuisi-
-2.
+
+Non ſolum autem ſemper tria huiusmodi quadrata $xx$, $yy$ et $zz$ reperire licet, ſed etiam vnum eorum, veluti $zz$, pro lubitu aſſumere licet, dum ne ſit per $\mathrm N$ diuiſibile. Ita ſi $f$ denotet numerum pro lubitu datum non diuiſibilem per $\mathrm N$, ſemper aſſignare licebit bina quadrata $xx$ et $yy$, vt formula $\lambda xx+\mu yy+\nu ff$ fiat per $\mathrm N$
+
+I 2                                     diuiſi-
 
 ## PDF page 21
 
@@ -796,30 +810,21 @@ aspexe-
 
 ## PDF page 22
 
-Gekerunt. Quantum enim ex eius monimentis fuspicari
-sessifie widerin; quandoquidem se asseuerat ex eodem sonte
-deinontame: quod omnes plane numei fint summae nu-
-me on my well drium thigonalium vel pauciorum; aum etiam
-pinamae quinque pentagonalium aut pauciorum; nec non
-minae lex hexangonalium et ita porro, a qua generali-
-tale nostra determinatio longissime abest. Atque etiamnunc
-computationem ignoramus, quod omnis numerus fit fum-
-ma trium vel pauciorum trigonalium. Interim tamen circa
-hoe Theorema observari convenit, id tantum in numeris
-mregis esse verum, dum, alterum, quod hic demonstraui-
-naus etiam numeros fractos complectitur: omnes enim istae inaciones 2, 2, 2, 2, 2 etc. nullo modo in ternos numeros onales resolui se patiuntur, sine nullos valores rationa-
-les loco x, y, z inuenire licet, vt fiat
+) 69 (
 
-remaie, quod maxime mirandum videtur, haec acquatio:
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-est mpossibilis, quicunque etiam numeri fracti pro x,
-Light Maring 19
-The course of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of 
-The state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
+[illegible: opening word] Quantum enim ex eius monimentis ſuſpicari licet, ex principiis longe diuerſis demonſtrationem ſuam petiiſſe videtur, quandoquidem ſe aſſeuerat ex eodem fonte demonſtraſſe: quod omnes plane numeri ſint ſummae numerorum vel trium trigonalium vel pauciorum; tum etiam ſummae quinque pentagonalium aut pauciorum; nec non ſummae ſex hexangonalium et ita porro, a qua generalitate noſtra determinatio longiſſime abeſt. Atque etiamnunc demonſtrationem ignoramus, quod omnis numerus ſit ſumma trium vel pauciorum trigonalium. Interim tamen circa hoc Theorema obſeruari conuenit, id tantum in numeris integris eſſe verum, dum alterum, quod hic demonſtrauimus etiam numeros fractos complectitur: omnes enim iſtae fractiones [illegible: list of fractions] etc. nullo modo in ternos numeros trigonales reſolui ſe patiuntur, ſiue nullos valores rationales loco $x$, $y$, $z$ inuenire licet, vt fiat
 
-constitutions of the constitution of the constitution of the constitution of the constitution of the constitution of the constitution of the constitution of the constitution of the constitution of the constitution of the c
+$$
+\frac12=\frac{xx+x}{2}+\frac{yy+y}{2}+\frac{zz+z}{2},
+$$
 
+adeoque, quod maxime mirandum videtur, haec aequatio:
 
+$$
+1=xx+x+yy+y+zz+z
+$$
 
+eſt impoſſibilis, quicunque etiam numeri fracti pro $x$, $y$, $z$ accipiantur.
 
-CON-
+I 3                                    CON-
+

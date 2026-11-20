@@ -10,7 +10,7 @@ Transcription of `cayley_1845_philosophical_magazine_vol27_containing_results_re
 
 Method: pages 1-608 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
-Second engine: Surya OCR 0.17.0 alone read pages 8, 72, 76, 150, 172, 417, 468, 483, 490, 515, 556, 588; MinerU2.5-Pro 2605 read pages 54, 58, 65, 74, 102, 104-105, 111, 113, 115, 118, 125, 130, 141, 148, 151, 154, 157, 163, 208, 217, 219-221, 223, 238, 242, 247, 251, 253, 294-295, 297, 300-301, 308, 317, 332-333, 360, 363, 365, 370, 377, 380-382, 388, 392-393, 395, 404, 427, 435, 437-438, 453-454, 456, 464, 476, 489, 493, 502, 509-510, 526, 533, 544, 557, 560, 568, 581, 583, 590, 605, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+Second engine: Surya OCR 0.17.0 alone read pages 8, 72, 76, 150, 172, 417, 468, 483, 490, 515, 556, 588; Codex gpt-6.2-sol (300 dpi page image) read pages 10-11, 13, 139-140, 147, 227, 302, 307, 314, 323, 331, 334, 378, 394, 398, 401, 406, 410, 413, 416, 422, 439, 459-460, 553-554, 558-559, 562-563, 569-572, 574-575, 578-579, 584-585, 587, 589, 598; MinerU2.5-Pro 2605 read pages 54, 58, 65, 74, 102, 104-105, 111, 113, 115, 118, 125, 130, 141, 148, 151, 154, 157, 163, 208, 217, 219-221, 223, 238, 242, 247, 251, 253, 294-295, 297, 300-301, 308, 317, 332-333, 360, 363, 365, 370, 377, 380-382, 388, 392-393, 395, 404, 427, 435, 437-438, 453-454, 456, 464, 476, 489, 493, 502, 509-510, 526, 533, 544, 557, 560, 568, 581, 583, 590, 605, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -247,114 +247,77 @@ a 2
 
 ## PDF page 10
 
-CONTENTS OF VOLUXXVII. THIRD SERIES.
-iv
-Page
-Page
-Prof. J. R. Young on Imaginary Zeros, and the Theory of or 91 Conjugate Points vision Issumonorità Isron 91 Drs. J. Blyth and A. W. Hormann on Styrole, and some of
-91
-the Products of its decomposition aculifications of the Refuse N. T. Graham's Note on the useful applications of the Refuse N.
-Lime of Gas-works ..... sarow Metal Ruthenium.
-Dr. R. D. Thomson's Examination of Ballingtonitebus muine 123
-Mr. J. Cockle on the Resolution of Equations of the Fifthes O Degree 10 shounding land the Arthur of the Pifthes O Degree 10 shounding land the Resolution of Equations of the Prescripting Bylq
-Diagrams the Results of Observational leaving of the Results of Observational Barrand of Cherine on the Activities of Cherine on the Activities of Cherine on the Activities of Cherine on the Cherine of Cherine of Cherine o
-Benzoic Acids ....................................
-Proceedings of the Royal Society...... 137
-- Royal Astronomical Society...... 144
-Researches on Shooting Stars, by M. Coulvier-Gravier.....
-153
-On the supposed occurrence of Phosphoric Acid in Rocks of
-Igneous Origin, by Prof. C. Kersten
-155
-Examination of some Native and Artificial Compounds of Phos-
-phoric Acid, by C. Rammelsberg . . . . . . . . . . . . . . . . . . .
-156
-On the Structure and Relations off Corhulites and other Silves 1/
-861sil. Trees found at St. Helenralak hww. I'M or listos
-Colesses. D. Maclegan and T. G. Tilley on theurwes V to roitfur
-Meteorological Observations for June 1845..... . . . . . . . . . . . . . . . . 
-00tr. W. G. Armstrong on the Spheroidal Consider of Liquids 257
-Mr. W. Sullivan on Currents of Electricity produced by the
-195
-Vibration of Wires and Metallic Rods.....
-264
-Lieut. Col. P. I. Yorke on Brown Iron Ore .......
-Mr. R. Warington's Observations on the Action of Animal
-269
-Charcoal.....
-Mr. H. Henrasamarrasanixixxan Radamun to Registering the Thermometer and Barometer .....
-273
-Mr. W. Sullivan of Presente of Phosphorization Rocks and 181 mical Changes produced by the Solar Rays on Salarania Range.
-F. C. Henrici's Observations on the Theory and Application of Electricity between the transfer of the control of the control of the control of the control of the control of the control of the control of the control of the 
-Dr. H. Kolbe's Contributions to the Knowledge of Conjugate
-Organic Base 10 and Months as a most of the man on Toluidine as new 10 Organic Base 10 and mort also man but amil to atted 178 Sir D. Brewster's Observations connected with the Discovery
-of the Composition of Water A vratuemelque e'elloo . I. 195 Prof. Schonbein's Observations on Ozone as compared to
-7017. W. Crum on the Action of Bleaching Powder on thenring
-Mr. J. P. Joule on the Existence of an Equivalent Relation be-
-tween Heat and the ordinary Forms of Mechanical Power 205
-Mr. S. Holker's Examination of Dr. Dalton's New Method of nO
-Measuring the Water of Crystallization contained in differ que
-308
-ent varieties of Salts tlushould M. Boudault atlas do shingy 207
+iv             CONTENTS OF VOL. XXVII.—THIRD SERIES.
+
+| | Page |
+|---|---:|
+| Prof. J. R. Young on Imaginary Zeros, and the Theory of Conjugate Points | 91 |
+| Drs. J. Blyth and A. W. Hofmann on Styrole, and some of the Products of its decomposition | 97 |
+| Mr. T. Graham’s Note on the useful applications of the Refuse Lime of Gas-works | 121 |
+| Dr. R. D. Thomson’s Examination of Babingtonite | 123 |
+| Mr. J. Cockle on the Resolution of Equations of the Fifth Degree | 125 |
+| The Rev. S. Earnshaw on a certain Method of representing by Diagrams the Results of Observations | 127 |
+| Dr. J. Stenhouse on the Action of Chlorine on Cinnamic and Benzoic Acids | 129 |
+| Proceedings of the Royal Society | 137 |
+| ————— Royal Astronomical Society | 144 |
+| Researches on Shooting Stars, by M. Coulvier-Gravier | 153 |
+| On the supposed occurrence of Phosphoric Acid in Rocks of Igneous Origin, by Prof. C. Kersten | 155 |
+| Examination of some Native and Artificial Compounds of Phosphoric Acid, by C. Rammelsberg | 156 |
+| On the Structure and Relations of Cornulites and other Silurian Fossils, by Mr. J. W. Salter | 158 |
+| Eruption of Vesuvius | 159 |
+| Meteorological Observations for June 1845 | 159 |
+| ————— Table | 160 |
+
+NUMBER CLXXIX.—SEPTEMBER.
+
+| | |
+|---|---:|
+| Mr. W. Sullivan on the Presence of Phosphoric Acid in Rocks and Minerals | 161 |
+| F. C. Henrici’s Observations on the Theory and Application of Electricity | 164 |
+| Dr. H. Kolbe’s Contributions to the Knowledge of Conjugate Compounds | 171 |
+| Drs. J. S. Muspratt and A. W. Hofmann on Toluidine, a new Organic Base | 178 |
+| Sir D. Brewster’s Observations connected with the Discovery of the Composition of Water | 195 |
+| Prof. Schœnbein’s Observations on Ozone as compared to Chlorine | 197 |
+| Mr. J. P. Joule on the Existence of an Equivalent Relation between Heat and the ordinary Forms of Mechanical Power | 205 |
+| Mr. S. Holker’s Examination of Dr. Dalton’s New Method of Measuring the Water of Crystallization contained in different varieties of Salts | 207 |
 
 ## PDF page 11
 
-vY
-CONTENTISTOR VOLUMENTAL STATE OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY 
-Page
-Page
-Proceedings of the Geological Society and no snoot A: 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 
-T. Graham's Note on the useful applications of the RedmyN
-On the New Metal Ruthenium. ... extrow-est to sime
-R. D. Thomson's Examination shrugamed stichns muine O no
-Mr. J. Housen's rearmant of the recommendation of the recommendation of the recommendation of the recommendation of the recommendation of the recommendation of the recommendation of the recommendation of the recommendation
-Proceedings of the Royal Society......137
-Royal Astronomical Society..... 144
-Researches on Shooting Stars, by Mr. Coulvier-Gravier. . . . . 153
-On the supposed occurrence of Phosphoric Acid in Rocks of
-Igneous Origin by Prof. C. Kersten
-Examination of Solle Native and XXXIII is TEMMUZads of Phos-
-phoric Acid, by C. Rammelsberg.
+CONTENTS OF VOL. XXVII.—THIRD SERIES.              v
 
-155
-Messesi Ero Wo Binney and RO Harknessis Account of the Fost no
-82 Isil. Trees found at .St. Helen's (with Wwo Plates), 241307 nein241
-Messrs. D. Maclagan and T. G. Tilley on the Constitution of und
-852 teorological Observations for June 1845 .....
-OMr. W. G. Armstrong on the Spheroidal Condition of Liquids 257
-Mr. W. Sullivan on Currents of Electricity produced by the
-261
-Vibration of Wires and Metallic Rods.....
-264
-Lieut. Col. P. I. Yorke on Brown Iron Ore .....
-Mr. R. Warington's Observations on the Action of Animal
-269
-Charcoal.....
-Mr. H. Hennessy on the Application of Photography to Regis-
-tering the Thermometer and Barometer 27.
+| | Page |
+|---|---:|
+| Proceedings of the Geological Society | 217 |
+| ————— Royal Astronomical Society | 220 |
+| ————— Cambridge Philosophical Society | 226 |
+| Additional Note to Mr. Sullivan’s paper at p. 161 of the present Number | 229 |
+| On the New Metal Ruthenium | 230 |
+| On Osmium and its Compounds | 232 |
+| Observations on the foregoing Memoirs, by M. Fremy | 233 |
+| Examination of some Native and Artificial Compounds of Phosphoric Acid, by C. Rammelsberg | 233 |
+| The great Symmetrical Barometric Wave | 237 |
+| Meteorological Observations for July 1845 | 239 |
+| ————— Table | 240 |
 
-Mr. R. Hunt's Contributions to Actino Chemistry The Che-114.
-273
-13 Imical Changes produced by the Solar Rays on some Photografic
-graphic Preparations examined, no engitavioud a ining Property 276
+NUMBER CLXXX.—OCTOBER.
 
-Mr. S. M. Drach's Proof of Fermat's Undemonstrated Theorem A
-that an at y" = This only possible in whole numbers when
-171n = 1 or 2.
-
-Dr. J. Stenhouse on an Occonomical Method of procuring Phosography of Lime and Magnesia from Urine for Agricultural
-Drs
-289
-Purposes Co. At with the connections connected with the Discourage Purposes Co. A. A. Cockle's Supplementary Remarks on Elimination and connected the connected the connected the connected the connected the connected the co
-ontthe Theory of Equations of enigroup of Equations of Equations of Equations of Equations of Equations of Equations of Equations of Equations of Equations of Equations of Equations of Equations of Equations of Equations o
-Mr. W. Crum on the Action of Bleaching Powder on the Salts
-294
-P. Joule on the Existence of an Equiberal bnal rango Deto
-deroceedings of the Reyal Astronomical Bosisty bus tree H reew 298
-On Oxidation by means of Gyanogen, by M. Bondault lott 2 307
-Superoxidizement of Metallic Oxides by means of the Ferrid
-808 ent varieties of Salts
-702 cyanide of Potassium, by M. Boudault
+| | |
+|---|---:|
+| Messrs. E. W. Binney and R. Harkness’s Account of the Fossil Trees found at St. Helen’s (with Two Plates) | 241 |
+| Messrs. D. Maclagan and T. G. Tilley on the Constitution of Bebeerine | 253 |
+| Mr. W. G. Armstrong on the Spheroidal Condition of Liquids | 257 |
+| Mr. W. Sullivan on Currents of Electricity produced by the Vibration of Wires and Metallic Rods | 261 |
+| Lieut.-Col. P. I. Yorke on Brown Iron Ore | 264 |
+| Mr. R. Warington’s Observations on the Action of Animal Charcoal | 269 |
+| Mr. H. Hennessy on the Application of Photography to Registering the Thermometer and Barometer | 273 |
+| Mr. R. Hunt’s Contributions to Actino-Chemistry.—The Chemical Changes produced by the Solar Rays on some Photographic Preparations examined | 276 |
+| Mr. S. M. Drach’s Proof of Fermat’s Undemonstrated Theorem, that $x^n+y^n=z^n$ is only possible in whole numbers when $n=1$ or $2$ | 286 |
+| Dr. J. Stenhouse on an Economical Method of procuring Phosphate of Lime and Magnesia from Urine for Agricultural Purposes | 289 |
+| Mr. J. Cockle’s Supplementary Remarks on Elimination, and on the Theory of Equations | 292 |
+| Mr. W. Crum on the Action of Bleaching Powder on the Salts of Copper and Lead | 294 |
+| Proceedings of the Royal Astronomical Society | 298 |
+| On Oxidation by means of Cyanogen, by M. Boudault | 307 |
+| Superoxidizement of Metallic Oxides by means of the Ferridcyanide of Potassium, by M. Boudault | 308 |
 
 ## PDF page 12
 
@@ -423,50 +386,38 @@ Rob E. Wartmann's Second Memoir variational in streamsvorium
 
 ## PDF page 13
 
-VII
-CONTENTS OF TVOLLIXXXIII OVTHIRD SERIES.
-Page
-Page
-On the Lighting of Mines by Means to the Electric Lamp (Letter of 9
-304 mination of some Nativ(thus gaiseined). Mantonial laboration of some Nativ(thus gaiseined).
-Algteorological Observations for Septembers 1845 yet, his A. sixed 407
-818 Table ..... Table .... oninus T. to sievli408
-Double Salt of [Bi]chloride of Mercury and Acetate of Copper 318
-Rain during the Present Year ..... 319
-Meteorological Observations for August 1845..... 319
-- Table
-. . . . . . . . . . . . . . . . . . . . 
-320
+CONTENTS OF VOL. XXVII.—THIRD SERIES.    vii
+
+| | Page |
+|---|---:|
+| On the Lighting of Mines by means of the Electric Lamp (Letter of M. De la Rive to M. Boussingault) | 406 |
+| Meteorological Observations for September 1845 | 407 |
+| ——— Table | 408 |
+
 NUMBER CLXXXII.—DECEMBER.
-Mr. J. R. Hind on the Comets which have been discovered since
-409
-July 1844. HERR. (LXXX). NOVEMBER. 4481 vlul
-Mr. J. R. Hind on the Elements of several Comets not previ-
-will computed only of matter and Experience of Testifical Alfant, R. Laming's Observations on a paper by Prof. Faraday con-
-cerning Electric Conduction and the Nature of Matter 1/1 420 Mr. A. Cayley on the Transformation of Elliptic Functions 424
-420
-Mr. T. Hopkins on the Diurnal Changes of the Aqueous Por-
-tion of the Atmosphere, and their Effects on the Barometer 427
-Prof. J. W. Draper's Account of a remarkable difference be-
-tween the Rays of Incandescent Lime and those emitted by
-435
-an Electrical Barks exampled of the Sums of Neutral of Application of William Countries of the Sums of Meyers of the Sums of Meyers of the Sums of Meyers of the Sums of Meyers of the Sums of Meyers of the Sums of Meyers of
-A British Quarterly Reviewer's Reply to Sir David Brewster's Observations on the Discovery of the Composition of
-.7()
-Water in a construction of the sunstance of Phosphorical Prof. C. F. Schenbein's expension of the Williamson's expension of the construction of the construction of the construction of the construction of the construction o
-riments regarding Ozone IIA bezillatzano nato outle al of w 450 Messrs. L. Playfair and J. P. Joule on Atomic Volume and Sperman caffic Gravity ... onozo no shound and sperman and sperman and sperman and sperman and sperma
-Mr. H. Hennessy's Researches upon the Connexion between
-the Rotation of the Earth and the Geological Changes of its
-Surface .....
-376
-Prof. C. F. Schoenbein on a Peculiar Method of obtaining the
-NUMBER CLXXXIII. SUPPLEMENT TO ADDRESS XXVII. 19
-Proceedings of the Royal Society Jupiter and July and Jupiter and Society On the Payland Are amulo Visimot Are slipely and the Royal Royal Royal Royal Royal Royal Royal Royal Royal Royal Royal Royal Royal Royal Royal Royal
-cific Gravity (concluded) assurante of Managinese (Concluded)
-Dr. J. Stenhouse's Analyses of the Ashes of Sugar-Canes from
-the West Indies O second quitted the moisterboard described to the 1533 The Rev. J. Booth on a New Class of Properties of Lines and described the results of Lines and described the results of the Rev. J. Booth on a New Cla
-& Surfaces of the Second Order Dy H. do rois about daishit A. of 538)
-Prof. E. Wartmann's Second Memoir on Induction of Street vo 5471
+
+| | |
+|---|---:|
+| Mr. J. R. Hind on the Comets which have been discovered since July 1844 | 409 |
+| Mr. J. R. Hind on the Elements of several Comets not previously computed | 416 |
+| Mr. R. Laming’s Observations on a paper by Prof. Faraday concerning Electric Conduction and the Nature of Matter | 420 |
+| Mr. A. Cayley on the Transformation of Elliptic Functions | 424 |
+| Mr. T. Hopkins on the Diurnal Changes of the Aqueous Portion of the Atmosphere, and their Effects on the Barometer | 427 |
+| Prof. J. W. Draper’s Account of a remarkable difference between the Rays of Incandescent Lime and those emitted by an Electric Spark | 435 |
+| Prof. J. R. Young on the Evaluation of the Sums of Neutral and Periodic Series | 437 |
+| Prof. W. R. Grove on the Application of Voltaic Ignition to Lighting Mines | 442 |
+| A British Quarterly Reviewer’s Reply to Sir David Brewster’s “Observations on the Discovery of the Composition of Water” | 446 |
+| Prof. C. F. Schœnbein’s Remarks on Mr. Williamson’s experiments regarding Ozone | 450 |
+| Messrs. L. Playfair and J. P. Joule on Atomic Volume and Specific Gravity | 453 |
+
+NUMBER CLXXXIII.—SUPPLEMENT TO VOL. XXVII.
+
+| | |
+|---|---:|
+| Messrs. L. Playfair and J. P. Joule on Atomic Volume and Specific Gravity (concluded) | 489 |
+| Dr. J. Stenhouse’s Analyses of the Ashes of Sugar-Canes from the West Indies | 533 |
+| The Rev. J. Booth on a New Class of Properties of Lines and Surfaces of the Second Order | 538 |
+| Prof. E. Wartmann’s Second Memoir on Induction | 547 |
 
 ## PDF page 14
 
@@ -7606,93 +7557,142 @@ The following Table expresses the theoretical composition
 
 ## PDF page 139
 
-On the Resolution of Equations of the Fifth Degree.
-125
-of the mineral as deduced from the third and fourth columns
-of the preceding table:-
-ity is not mentioned.
-Anald a omi he raq 92 By calculation of Notofatoms. Atomic weight.
-Silica .
-47.24
-.
-23
-46mans
-We carhonath of soda the 184.81c into a norifo phixotory
-Protoxide of manganese 9.24 ... ... ... ... ... ... ... ... ... 
-Aluminad head willer pale 940 a cleves a claiminad head beaimulA
-violet 1 Ind with a 4 crocosmic 68:41 excess : clear, pale a mil
-beac'sre formed, I These resection in lar. to the eaisenge Magnesiae.
-Water on I had bis conditions respecting the variate
-tererestituents gethe mineral our testing, are corroborated
-The formula to express the composition of babingtonite,
-as deduced from these calculations, is as follows:
-<math>MgO SiO_{1} + 4CaO SiO_{2} + 4FeO_{2} (SiO_{2} + 2MnO_{2} (SiO_{2} + 3AlO_{2} (SiO_{2} + HO_{2}))</math>
+On the Resolution of Equations of the Fifth Degree.    125
+
+of the mineral as deduced from the third and fourth columns of the preceding table:—
+
+| | By calculation. | No. of atoms. | Atomic weight. |
+|---|---:|---:|---:|
+| Silica | 47·24 | 23 | 46 |
+| Protoxide of iron | 18·45 | 4 | 18 |
+| Protoxide of manganese | 9·24 | 2 | 9 |
+| Alumina | 6·94 | 3 | 6·75 |
+| Lime | 14·39 | 4 | 14· |
+| Magnesia | 2·59 | 1 | 2·5 |
+| Water | 1·15 | 1 | 1·125 |
+| | 100· | 38 | 97·375 |
+
+The formula to express the composition of babingtonite, as deduced from these calculations, is as follows:—
+
+$mathrm{MgO,SiO} + 4mathrm{CaO,SiO} + 4mathrm{FeO,(SiO)_2} + 2mathrm{MnO,(SiO)_2} + 3mathrm{AlO,(SiO)_2} + mathrm{HO};$
+
 or it consists of two simple silicates and three bisilicates.
-Babingtonite agrees with the amphibole class in possessing a complicated constitution. It contains nearly the same
-amount of silica, but much less magnesia and a greater amount
-of manganese. Its specific gravity is also much higher than
-that of amphibole. My analysis approaches one by Bonsdorff,
-of a black hornblende from Nordmark and Pargas, the mag-
-nesia being replaced by manganese in babingtonite.
-XX. On the Resolution of Equations of the Fifth Degree.
-By JAMES COCKLE, Master of Arts, of Trinity College,
-Cambridge; of the Middle Temple, Special Pleader Froquios
-1. IN the equation of the fifth degree in y,
-<math display="block">y^5 + p_1 y^4 + p_2 y^3 + p_3 y^2 + p_4 y + p_5 = 0. 	(1.)</math>
-Let <math>p_3 = \frac{p_1}{5} \left( \frac{2p_1^2}{5} + \frac{3}{3} \right)</math>. non to object <math>p_3 = \frac{p_1}{5} \left( \frac{2p_1^2}{5} + \frac{3}{3} \right)</math>.
-Protoxide of main mese 10.16 <math>p_1</math> <math>p_2</math> <math>p_3</math> <math>p_4</math> <math>p_1</math> <math>p_2</math> <math>p_3</math> <math>p_4</math> <math>p_1</math> <math>p_2</math> <math>p_3</math> <math>p_4</math> <math>p_4</math> <math>p_2</math> <math>p_3</math> <math>p_4</math> <math>p_4</math> <math>p_5</math> <math>p_5</math> <math>p_5</math> <math>p_5</math> <math>p_5</math> <math>p_6</math> <math>p_6</math> <math>p_6</math> <math>p_6</math> <math>p_6</math> <math>p_6</math> <math>p_6</math> <math>p_6</math> <math>p_6</math> <math>p_6</math> 
-and 8
+
+Babingtonite agrees with the amphibole class in possessing a complicated constitution. It contains nearly the same amount of silica, but much less magnesia and a greater amount of manganese. Its specific gravity is also much higher than that of amphibole. My analysis approaches one by Bonsdorff, of a black hornblende from Nordmark and Pargas, the magnesia being replaced by manganese in babingtonite.
+
+XX. On the Resolution of Equations of the Fifth Degree. By JAMES COCKLE, Master of Arts, of Trinity College, Cambridge; of the Middle Temple, Special Pleader\*.
+
+1. IN the equation of the fifth degree in $y$,
+
+$$
+y^5+p_1y^4+p_2y^3+p_3y^2+p_4y+p_5=0. \qquad (1.)
+$$
+
+Let
+
+$$
+p_3=\frac{p_1}{5}\left(\frac{2p_1^2}{5}+3\mathrm A\right); \qquad (2.)
+$$
+
+and
+
+$$
+p_4=\frac{p_1}{5^2}\left(\frac{p_1^3}{5}+3p_1\mathrm A+\mathrm A^2\right), \qquad (3.)
+$$
+
 where
-then, if <math>v = \frac{p_1}{5}</math> be substituted for <math>y</math> in (1.), we obtain an equation in <math>v</math> of the form of De Moivre. Denoting by <math>v</math> the root.
-of the general equation of the fifth degree, let wood Jan adT
-<math display="block">y = \sum_{2} (\Lambda' x^{\lambda'}) + \sum_{4} (M' x^{\mu'}) + N' x^{\mu'} + P' x^{\mu'} + Q' x^{\lambda'} + \sum_{5} (R' x^{5}), (5.)</math>
-the suffixes denoting the number of quantities included under
-each <math>\Sigma</math>, and the expression for y consisting, consequently, of
-noilison Communicated by T.S. Davies, Esq., F.R.S., F.S.A.of oil T
+
+$$
+\mathrm A=p_2-\frac{2p_1^2}{5}; \qquad (4.)
+$$
+
+then, if $v-\frac{p_1}{5}$ be substituted for $y$ in (1.), we obtain an equation in $v$ of the form of De Moivre. Denoting by $x$ the root of the general equation of the fifth degree, let
+
+[illegible: exponents in equation (5.)]
+
+the suffixes denoting the number of quantities included under each $\Sigma$, and the expression for $y$ consisting, consequently, of
+
+\* Communicated by T. S. Davies, Esq., F.R.S., F.S.A.
 
 ## PDF page 140
 
-126 On the Resolution of Equations of the Fifth Degree.
-eleven terms, so that, by the notation of p. 114 of vol. 1. * of
-the Mathematician, (21) and (31), respectively, become lade
-<math>f^3(10) = 0</math> (6.) and <math>f^4(10) = 0</math> (1.) Now I have shown, at paragraph 6 of that page, how, by means of a quadratic, which we shall here represent by muloy
-<math>\theta_{10}^{\circ 2}(z_{10})=0</math>, . . . . . . . . . . . . . . . . . . .
-and four base+ quadratics which may, respectively, be denoted
-by
-<math>\mathbf{J}_{\mathbf{S}}^{(2)} = 0</math> . (c.) . (d.) . (d.) . (d.) . (d.) . (e.)
-Cambindge*.
-(6.) may be reduced to
-(8) attending the proces 0 = (4) M.H. sical Section of the
-and also, how, by means of a quadratic staisure Assista
-struck on more than, our (3) 2 m with a detect in the
-ar base quadratic some file of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control
-(8.) is ultimately reduced to the base cubic, out at each saw
-whence, by eliminating <math>z_2</math> between this last equation and (7.)
-(which we may now reduce to <math>f^4(2) = 0</math>), we arrive at a final
-biquadratic,
-payer from a fixed point several lines
-to represent as m.
-Detions of the wind, and this delig
-for determining z<sub>1</sub>; and z<sub>2</sub>, c<sub>1</sub>; can be found by means of
-the other equations distinguished by letters; and, consequently,
-A', A'', &c. are known. has a direction and that particular direction. In this investigation, if we suggest that ... In this investigation if we suggest that ...
-<math>x = Q x^q + \psi(x)</math>, where <math>C</math> more <math>(9.)</math>
-then our object is not to satisfy (6.) independently of Q, so as
-to have that quantity at our disposal for the purpose of satist
-fying (7.) ‡, but to reduce (6.) to a linear form, and then eli-
-placed at their extremities. I rom. (.7) bns (.6) newbed estimate
-3. In general, after effecting our fundamental reduction
-<math>f^a(b) = \Sigma(h^a)</math>, let which rear to vit(10)
-we may group any two of the quantities ha together, as in the above instance, and make their sum equal to zero; or should
-it in any case be necessary, we may increase the number of
-disposable quantities, and, possibly, obtain a (transcendental?)
-result, by grouping two or more terms of the right-hand side
-of (10.) together, and making their sums equal to arbitrary.
+126    *On the Resolution of Equations of the Fifth Degree.*
 
-* The 2nd page of No. iii. (July 1844).
-† The word "base" is used to indicate that they degenerate to linear
-t A notice of M ravier: researches on shooting & wir.snoitsup
-‡ See Phil. Mag., S. 3. vol. viii. p. 538, and vol. ix. p. 28. n and gnome
+eleven terms, so that, by the notation of p. 114 of vol. i.* of the Mathematician, (2.) and (3.), respectively, become
+
+$$
+f^3(10)=0\quad\ldots\ (6.),\quad\text{and }f^4(10)=0\quad\ldots\ (7.)
+$$
+
+Now I have shown, at paragraph 6 of that page, how, by means of a quadratic, which we shall here represent by
+
+$$
+\theta_{10}^2(z_{10})=0,\quad\ldots\ (a.)
+$$
+
+and four *base*† quadratics which may, respectively, be denoted by
+
+$$
+J_9^{(2)}=0\ .\ (b.),\quad J_8^{(2)}=0\ .\ (c.),\quad J_7^{(2)}=0\ .\ (d.),\quad J_6^{(2)}=0\ .\ (e.)
+$$
+
+(6.) may be reduced to
+
+$$
+h_1^3+f^3(4)=0;\quad\ldots\ (8.)
+$$
+
+and also, how, by means of a quadratic,
+
+$$
+\theta_3^2(z_5)=0,\quad\ldots\ (f.)
+$$
+
+a ‘base’ quadratic,
+
+$$
+J_4^{(2)}=0,\quad\ldots\ (g.)
+$$
+
+and a cubic,
+
+$$
+\theta^3(z_3)=0,\quad\ldots\ (h.)
+$$
+
+(8.) is ultimately reduced to the base cubic,
+
+$$
+h_1^3+h_2^3=J_2^{(3)}=0;\quad\ldots\ (i.)
+$$
+
+whence, by eliminating $z_2$ between this last equation and (7.) (which we may now reduce to $f^4(2)=0$), we arrive at a final biquadratic,
+
+$$
+C=0,\quad\ldots\ (j.)
+$$
+
+for determining $z_1$; and $z_2$, &c. can be found by means of the other equations distinguished by letters; and, consequently, $\Lambda'$, $\Lambda''$, &c. are known.
+
+2. In this investigation, if we suppose that
+
+$$
+x=Qx^q+\psi(x),\quad\ldots\ (9.)
+$$
+
+then our object is *not* to satisfy (6.) *independently* of Q, so as to have that quantity at our disposal for the purpose of satisfying (7.)‡, but to reduce (6.) to a linear form, and then eliminate between (6.) and (7.).
+
+3. In general, after effecting our fundamental reduction
+
+$$
+f^a(b)=\Sigma(h^a),\quad\ldots\ (10.)
+$$
+
+we may group any two of the quantities $h^a$ together, as in the above instance, and make their sum equal to zero; or should it in any case be necessary, we may increase the number of disposable quantities, and, possibly, obtain a (transcendental?) result, by grouping two or more terms of the right-hand side of (10.) together, and making their sums equal to arbitrary
+
+\* The 2nd page of No. iii. (July 1844).  
+† The word “base” is used to indicate that they degenerate to linear equations.  
+‡ See Phil. Mag., S. 3. vol. viii. p. 538, and vol. ix. p. 28.
 
 ## PDF page 141
 
@@ -7972,84 +7972,57 @@ precipitate with acetate of lead, but a pretty dense precipitate
 
 ## PDF page 147
 
-onirol on Cinnamic and Benzoic Acids. .. II
-133
-with the subacetate de Several portions of the purified acid
-prepared at idifferent atimes by breating acinnamic racid with
-hypochlorite of dime, overe dried at 12128d and usubjected to
-plete decomposition of the cinnamic acid. The bolisylangs
-A (11) 0:2011 grm substance burned with chromate of lead
-sediment slowly retained 0.0905 water ylwolz themibes
-ate of lime and resinous matter united to lime; the liquid u. batalustes bias josnas to senarate this prediction to senarate this prediction.
-on John State of lime unbod to an order of the liquid carbon.
+*on Cinnamic and Benzoic Acids.*    133
 
-The liquid carbon of lime unbod to an order of the liquid carbon.
-1050
-68:85
-4.91
-e zeld. Volle lime-salt
-Oxygen . 26.05
-26.24
-400
-100:00
-SILLI
-transpice of the lice on the surface of the lice
-decomposed by an excess of muriatic bird, and sound
-precipitated in white volumings gA'6300' by gashed washed with cold water to remove adhering muriation
-. esinous John Little church a little church resinous
-Carbon . 63:65. 140 they may be easily pur 63:63. 140 then Hydrogen . 4:29 heated 25. 141 Carbon . 1050:0 53:70 Chlorine . . . . . . . . . . . . . . . . . . .
-53.70
-negorlbyH aplete solution, at 90.95 ... enirold?
-62.5
-3.19
-Oxygen 22:97red most stellib
-i Chlorine
-442.6
-22.63
-0.004 michagyxO 4 d water dissolve 00:001 ittle of it,
-20.48
-Acid between benzoic acid av guillod in sing
-1.5.6. Linued for some time
-100.00
-and the acid with one equi-
-than benzoic acid. however, and a good deal of a semant, the
-(3.) 0.2495 gave 0.471 CO2 and 0.067 HO. od ni boy oz
-dily. both m alcohol and in ather. Water precipitates spirit 2 or spontant 2 or spontant 2 or spontant 3 or spirit 2 or spontant 3 or spirit 3 or spirit 3 or spirit 3 or spirit 3 or spirit 3 or spirit 3 or spirit 3 or spir
-Carbon
-Hydrogen
-valie 814/Carbon . 1050.0710144.02
-llustr
-45.54
-Cl and O
-ed 2.09 de 2007 de 1918 de 1918 de 1918 de 1918 de 1918 de 1918 de 1918 de 1918 de 1918 de 1918 de 1918 de 1918 de 1918 de 1918 de 1918 de 1918 de 1918 de 1918 de 1918 de 1918 de 1918 de 1918 de 1918 de 1918 de 1918 de 191
-10.78 en but 100.00 grows grows Office at at as a start at last
-Acid with between one and has quade 4 Oxygen . 400.0 116.88
-100.001 like benzoie acid. When entity here et il mees awit
-sublimes in crystals; when very highly heated it catches fire
-in (4.) I. 0.3293 gave 0.5423 CO2 and 0.0667 HO. and both
-110 II. 0.2892 gave 0.477 CO2 and 0.062 HO as of am had
-neutralizing a little of it with potash, treating The salt destruc-
-Formula of acid by two equiv. of chloring.
+with the subacetate. Several portions of the purified acid prepared at different times by treating cinnamic acid with hypochlorite of lime, were dried at 212° and subjected to analysis.
 
-with two equiv. of chloring.
+(1.) 0·2011 grm. substance burned with chromate of lead gave 0·5085 carbonic acid and 0·0905 water.
 
-Calculated.
-II.
-44.98
-44.91
-2·38<br>52·64
-2.28
-OH 2914 CH 1050.0 DE 44.02
-52.81
-and O
-eo. Physia o.05 whi H is neutralized
-100.00
-100.00
-liis.
-.2 tB9 2 Cl 11 885.27 137.01
-Corresponding to the acid with two form dy 4 O 4000 11 16.88
-00.001 with muble to obtain in crystals. samold to stralsvinps
-precipitate with acetate of ledd, but a pretty dense precipitate
+<table>
+<tr><td colspan="2">Found.</td><td colspan="4">Benzoic acid calculated.</td></tr>
+<tr><td>Carbon</td><td>68·96</td><td>14</td><td>Carbon</td><td>1050</td><td>68·85</td></tr>
+<tr><td>Hydrogen</td><td>4·99</td><td>6</td><td>Hydrogen</td><td>75</td><td>4·91</td></tr>
+<tr><td>Oxygen</td><td>26·05</td><td>4</td><td>Oxygen</td><td>400</td><td>26·24</td></tr>
+<tr><td></td><td>100·00</td><td></td><td></td><td>1525</td><td></td></tr>
+<tr><td colspan="2">Almost pure benzoic acid.</td><td colspan="4"></td></tr>
+</table>
+
+(2.) *a.* 0·2455 gave 0·573 $\mathrm{CO_2}$ and 0·095 $\mathrm{HO}$.  
+*b.* 0·2332 gave 0·086 $\mathrm{Ag\,Cl}$.
+
+<table>
+<tr><td colspan="2">Found.</td><td colspan="4">Formula of acid with 1 equiv. of chlorine.<br>$\mathrm{C}_{14}\genfrac{}{}{0pt}{}{\mathrm{H}_4}{\mathrm{Cl}}\mathrm{O}_3,\mathrm{HO}$.</td></tr>
+<tr><td>Carbon</td><td>63·65</td><td>14</td><td>Carbon</td><td>1050·0</td><td>53·70</td></tr>
+<tr><td>Hydrogen</td><td>4·29</td><td>5</td><td>Hydrogen</td><td>62·5</td><td>3·19</td></tr>
+<tr><td>Chlorine</td><td>9·09</td><td>1</td><td>Chlorine</td><td>442·6</td><td>22·63</td></tr>
+<tr><td>Oxygen</td><td>22·97</td><td>4</td><td>Oxygen</td><td>400·0</td><td>20·48</td></tr>
+<tr><td></td><td>100·00</td><td></td><td></td><td>1955·1</td><td>100·00</td></tr>
+<tr><td colspan="2">Acid between benzoic acid and the acid with one equivalent of chlorine.</td><td colspan="4"></td></tr>
+</table>
+
+(3.) 0·2495 gave 0·471 $\mathrm{CO_2}$ and 0·067 $\mathrm{HO}$.
+
+<table>
+<tr><td colspan="2">Found.</td><td colspan="4">Formula of acid with 2 equiv. of chlorine.<br>$\mathrm{C}_{14}\genfrac{}{}{0pt}{}{\mathrm{H}_3}{\mathrm{Cl}_2}\mathrm{O}_3,\mathrm{HO}$.</td></tr>
+<tr><td>Carbon</td><td>51·48</td><td>14</td><td>Carbon</td><td>1050·0</td><td>44·02</td></tr>
+<tr><td>Hydrogen</td><td>2·98</td><td>4</td><td>Hydrogen</td><td>50·0</td><td>2·09</td></tr>
+<tr><td>Cl and O</td><td>45·54</td><td>2</td><td>Chlorine</td><td>885·2</td><td>37·01</td></tr>
+<tr><td></td><td>100·00</td><td>4</td><td>Oxygen</td><td>400·0</td><td>16·88</td></tr>
+<tr><td colspan="2">Acid with between one and two equivalents of chlorine.</td><td></td><td></td><td></td><td>100·00</td></tr>
+</table>
+
+(4.) I. 0·3293 gave 0·5423 $\mathrm{CO_2}$ and 0·0667 $\mathrm{HO}$.  
+II. 0·2892 gave 0·477 $\mathrm{CO_2}$ and 0·062 $\mathrm{HO}$.
+
+<table>
+<tr><td></td><td>I.</td><td>II.</td><td colspan="4">Formula of acid with two equiv. of chlorine.</td></tr>
+<tr><td></td><td></td><td></td><td colspan="3"></td><td>Calculated.</td></tr>
+<tr><td>C</td><td>44·91</td><td>44·98</td><td>14</td><td>C</td><td>1050·0</td><td>44·02</td></tr>
+<tr><td>H</td><td>2·28</td><td>2·38</td><td>4</td><td>H</td><td>50·0</td><td>2·09</td></tr>
+<tr><td>Cl and O</td><td>52·81</td><td>52·64</td><td>2</td><td>Cl</td><td>885·2</td><td>37·01</td></tr>
+<tr><td></td><td>100·00</td><td>100·00</td><td>4</td><td>O</td><td>400·0</td><td>16·88</td></tr>
+<tr><td colspan="3">Corresponding to the acid with two equivalents of chlorine.</td><td></td><td></td><td></td><td>100·00</td></tr>
+</table>
 
 ## PDF page 148
 
@@ -12461,129 +12434,33 @@ have been equal to 478.21 grains measure, according to the
 
 ## PDF page 227
 
-Measuring the Water of Crystallization of Salts.
-213
-specific gravity, therefore there must have been 6.22 grains,
-by measure, decrease of volume.
-There is here inserted a table showing the results of most
-of the experiments on the salts both hydrous and anhydrous,
-together with the specific gravities as determined by the above
-method.
-It may perhaps not be out of place to state, that I have
-carefully repeated most of the experiments since this paper
-was first read, and have inserted those which appear to be
-most accurate; so that a slight difference will exist in the re-
-sults as then copied by Dr. Playfair and several other gentle-
-men, and those of the experiments more recently conducted.
-Thus if 100 grains. stlad suodynomosl specific gravity 2.0.4.
-Dissolved in 430 grains of water at the temperature of 60° F.
-fill William,
-maintained throughout the experiment.
-si et il roll grant de la la la la la la la la la la la la la 
-Atom, 1911
-Classiles 11
-grs. measure. () sation. (1) gravity. (0 2.675)
-Desirity of 100 Chromate of potash { 26.00 } 26.25 11.09 { 2.680 } = 2.678
-26.25
-2.680
-sterif (076-2) at as [87.02] leulated specific graf 00.7 108 is
-<math>30 = 7.00</math> 88 | Sulphate of potash | <math>20.53</math> | <math>20.85</math> | <math>12.03</math> | <math>2.680</math> | <math>=2.676</math>
-1.30 ± 7.33 jam i = 2.50 jam (2.50 jamen 2.687 ± 30 km² (2.680 jamen 2.680 jamen 2.680 jamen 2.680 jamen 2.680 jamen 2.680 jamen 2.680 jamen 2.680 jamen 2.680 jamen 2.680 jamen 2.680 jamen 2.680 jamen 2.680 jamen 2.680 ja
-2/10
-43.00
-2.075
--119 Date of Potash ... \ 42.50 \ 42.83 \ \( 6.35 \ \ 2.073
-<math>=2.074</math>
-reason while the solves, though not in the
-2.073
-21.01 (2.250.)
-. [32.00]
-31.75
->31.91
-6.38
-2.240
-Moisingx9 86 | Nitrate of soda..
-2137 1 11
-32.00
-2.250
-the group that is electronical
-pm. 1 ()+
-37
-[ 19·00 ]
-(2.155)
-Of Chloride of sodium.
-2.156
-19.50 > 19.33
-(8.21
-19.50
-<math>\lfloor 2.155 \rfloor</math>
-wived in the wider contained in
-dimin to
-1.910
-(32.00)
-1 411 : 1. 1 1/1 0
-et milit
-7.46 \ 1.945
-32.50 } 32.16
-Chlor. of potassium
-32.00
-तह है है है। सि, सिए (४१ में 00 0E 0E
-(68.00)
-1 1
-67.00 \ 67.00 6.87 \ 1.665
-<math>= 1.665</math>
-10 and 10 123 C Sulph. of magnesia.
-66.00
-[1.666]
-rate. I lints il 19 grans of
-711 8
-[65.00]
-<math>7.10 \left\{ \begin{array}{l} 1.980 \\ 1.970 \end{array} \right\} = 1.976</math>
-<math display="block"> \begin{array}{c} 100 = 45.5 \\ 100 = 46.0 \\ 100 = 45.5 \end{array} \right\} 143 \left\{ \begin{array}{c} \text{Sulphate of zinc} \dots \left\{ \begin{array}{c} 65.00 \\ 65.78 \\ 65.00 \end{array} \right\} 65.26 \\ 1.980 \end{array} \right\} = 1.976 </math>
-the server of the server server server server server server server server server server server server server server server server server server server server server server server server server server server server server s
-18.51
-1160 Anhyd. sulph. magn. 4
-4:00 \ 4:16 62.84
-4.00
-on the colone
-UII
-311
-THE THUL A
-16, 118 . . .
-2.50
-1 1 . "11 2 . . . . . . . . . . . . . . . . . .
-to alti
-110 6 (1111)
-2.83 62.43
-3.00
-80 (Anhyd. sulph. zinc .
-3.00 1000
-tore of the state of the
-[43.00]
-14.
-42.50 \ 42.83 \ 6.35 \ 2.075
-MIE 102 Nitrate of potash ...
-<math>=2.074</math>
-2.073
-43.00
-the many of the second
-14
-236
-11-511-37
-61
-49.60
-2.320
-<math>25 = 10.00</math>
-124 Chlorate of potash
-50.01
-3.36
-₹ 2.320
-<math>=2.323</math>
-49.60
-<math>25 = 10.00</math>
-50.84
-2.330
-<math>25 = 10.25</math>
+*Measuring the Water of Crystallization of Salts.*    213
+
+specific gravity, therefore there must have been 6·22 grains, by measure, decrease of volume.
+
+There is here inserted a table showing the results of most of the experiments on the salts both hydrous and anhydrous, together with the specific gravities as determined by the above method.
+
+It may perhaps not be out of place to state, that I have carefully repeated most of the experiments since this paper was first read, and have inserted those which appear to be most accurate; so that a slight difference will exist in the results as then copied by Dr. Playfair and several other gentlemen, and those of the experiments more recently conducted.
+
+*Isomorphous Salts.*
+
+Dissolved in 430 grains of water at the temperature of 60° F. maintained throughout the experiment.
+
+<table>
+<tr><td colspan="2">Atom.</td><td>Class.</td><td colspan="2">Increase of volume, grs. measure.</td><td>Condensation.</td><td colspan="2">Specific gravity.</td></tr>
+<tr><td></td><td>100</td><td>Chromate of potash</td><td>26·50<br>26·00<br>26·25</td><td>26·25</td><td>11·09</td><td>2·675<br>2·680<br>2·680</td><td>=2·678</td></tr>
+<tr><td>30=7·00<br>30=7·00<br>30=7·33</td><td>88</td><td>Sulphate of potash</td><td>20·53<br>20·53<br>21·50</td><td>20·85</td><td>12·03</td><td>2·670<br>2·680<br>2·680</td><td>=2·676</td></tr>
+<tr><td></td><td>102</td><td>Nitrate of potash</td><td>43·00<br>42·50<br>43·00</td><td>42·83</td><td>6·35</td><td>2·075<br>2·073<br>2·073</td><td>=2·074</td></tr>
+<tr><td></td><td>86</td><td>Nitrate of soda</td><td>32·00<br>31·75<br>32·00</td><td>31·91</td><td>6·38</td><td>2·250<br>2·240<br>2·250</td><td>=2·246</td></tr>
+<tr><td></td><td>60</td><td>Chloride of sodium</td><td>19·00<br>19·50<br>19·50</td><td>19·33</td><td>8·51</td><td>2·155<br>2·156<br>2·155</td><td>=2·155</td></tr>
+<tr><td></td><td>76</td><td>Chlor. of potassium</td><td>32·00<br>32·50<br>32·00</td><td>32·16</td><td>7·46</td><td>1·910<br>1·945<br>1·900</td><td>=1·918</td></tr>
+<tr><td></td><td>123</td><td>Sulph. of magnesia</td><td>68·00<br>67·00<br>66·00</td><td>67·00</td><td>6·87</td><td>1·664<br>1·665<br>1·666</td><td>=1·665</td></tr>
+<tr><td>100=45·5<br>100=46·0<br>100=45·5</td><td>143</td><td>Sulphate of zinc</td><td>65·00<br>65·78<br>65·00</td><td>65·26</td><td>7·10</td><td>1·980<br>1·970<br>1·980</td><td>=1·976</td></tr>
+<tr><td></td><td>60</td><td>Anhyd. sulph. magn.</td><td>4·50<br>4·00<br>4·00</td><td>4·16</td><td>62·84</td><td></td><td></td></tr>
+<tr><td></td><td>80</td><td>Anhyd. sulph. zinc</td><td>2·50<br>3·00<br>3·00</td><td>2·83</td><td>62·43</td><td></td><td></td></tr>
+<tr><td></td><td>102</td><td>Nitrate of potash</td><td>43·00<br>42·50<br>43·00</td><td>42·83</td><td>6·35</td><td>2·073<br>2·075<br>2·073</td><td>=2·074</td></tr>
+<tr><td>25=10·00<br>25=10·00<br>25=10·25</td><td>124</td><td>Chlorate of potash</td><td>49·60<br>49·60<br>50·84</td><td>50·01</td><td>3·36</td><td>2·320<br>2·320<br>2·330</td><td>=2·323</td></tr>
+</table>
 
 ## PDF page 228
 
@@ -16938,35 +16815,56 @@ As the sum of two squares is never of the form  \( 4i + 2 \)  or  \( 4i + 3 \) ,
 
 ## PDF page 302
 
-288 Mr. Drach on Farmat's Undemonstrated Theorem.
-(unless in the excepted case of <math>y = 0</math>). Rut therefore by the ordinary rule, <math>x = 2p_1q</math>, <math>z = p^2 + q^2</math>, <math>y = p^2 - q^2</math>. Hence <math>p</math> and <math>q</math> are prime to each other, and <math>\frac{1 + i - m}{2}</math> but
-Now <math>m</math> equals or exceeds <math>2^{\frac{m}{2}} = \frac{1}{2^{\frac{m}{2}}} + 1 = \frac{m}{m} + \frac{m}{2} = \frac{1}{2^{\frac{m}{2}}} = \frac{1}{2^{\frac{m}{2}}}</math>. the for her faction is to
-the (emiral bloom) it were not the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state
-the sum of positive multiples of real squares, a series wheen
-Piv (2+y) 202 m 12-2y 2 m 13+ 10+1 m -1 y m 22+ (my m-1-2+4)
-<math>q^2 \equiv (z-y)</math> if <math>z^{m-2} + 2yz^{m-3} + m - 1y^{m-2} + (2-m)y^{m-1} + z-y^{m-2}</math> and as <math>z+y</math> is even whilst <math>m</math> and <math>m-2</math> are odd, there would still remain a fractional <math>\frac{1}{2}</math>. Further, if <math>z+y=4i</math>, <math>z+y</math> is of the fo
-for a remainder. Hence, as <math>p^2q^{-2} = a</math> quantity <math>\div</math> by <math>(z+y) \div (z-y)</math> to the
-first power only, it follows that <math>(z+y) \div (z-y)</math>, or their pro-
-duct <math>z_1^2 - y_1^2</math>, must be a square. Putting therefore <math>z = r_1^2 + 1s^2</math>,
-by a hope that, even should it be found unsatisfactory, the Rethorn = y
-<math display="block">\therefore \left(\frac{z}{y}\right)^m = \left(\frac{r^2 + s^2}{r^2 - s^2}\right)^m = \frac{r^2 + q^2}{p^2 - q^2}.</math>
-But p, q are real and prime to each other, so are r and s,
-.. as we cannot suppose <math>p_1^2 - q^2 = (n^2 + s^2) - n^2</math> without introdu-
-cing the imaginary sign of Alin the factorial result, va
-<math>P_{2}^2 = q^2 = (r + s)^m</math> is in <math>P_1 + q_2 = (r + s)^m</math> and <math>P_2 = q = (r + s)^m</math>.
-at present believed to be so fully established, as theorem.
-earthy and alkaline phosphatestare indispensable to the perfect development on the perfect development on the perfect sets to be consisted the
-food of man and of the inferior animals. This consideration
-has led to many attempts to procure more abuning t supplies of phosphoric acid, as a deficiency of inat elegient, as tever to the contract of the contract of the contract of the contract of the contract of the contract of 
-dent, must ever present a serious impediment to the progress of a serious in the progress of a serious is the progress of a serious is the progress of a serious serious from which phosphoric acid has been hither to obtaine
-guar me and the ist is min factor of complete it directly to the
-Setting out from either end, the extreme quantities are
-equal, and have the same coefficient, unity; but the upper co-
-efficient afterwards more and more exceeds the corresponding
-under one, for at the ith term they equal their immediate pre-
-* Communicated by the Anydopsilopina erosessors
-Phil. Mag. S. 3. Vol. 27. No. 180. October 1845.
-H
+288    Mr. Drach *on* Fermat’s *Undemonstrated Theorem.*
+
+(unless in the excepted case of $y=0$). Put therefore by the ordinary rule, $x=2pq$, $z=p^2+q^2$, $y=p^2-q^2$. Hence $p$ and $q$ are prime to each other, and
+
+$$
+\begin{aligned}
+\frac{p^2}{q^2}&=\frac{z^m+y^m}{z^m-y^m}=1+\frac{2y^m}{z^m-y^m}\\
+&=\frac{z+y\,\overline{z^{m-1}-yz^{m-2}+\ldots y^{m-1}}\ (m\text{ odd terms})}{z-y\,\overline{z^{m-1}+yz^{m-2}+\ldots y^{m-1}}\ (m\text{ odd terms})}.
+\end{aligned}
+$$
+
+The second fraction is not divisible by $(z-y)\div(z+y)$, for the remains $y^{m-1}\div(z\mp y)$, which is not an integer. Likewise
+
+$$
+\frac{p^2}{q^2}=\left(\frac{z+y}{z-y}\right)^2
+\frac{z^{m-2}-2yz^{m-3}+\ldots+\overline{m-1}y^{m-2}+(my^{m-1}\div z+y)}
+{z^{m-2}+2yz^{m-3}+\ldots+\overline{m-1}y^{m-2}+(\overline{2-m}\,y^{m-1}\div z-y)},
+$$
+
+and as $z\pm y$ is even whilst $m$ and $m-2$ are odd, there would still remain a fractional $\frac12$. Further, if $z+y=4i$, $z\pm y$ is of the form $4j+2$, so that one term will have $\frac14$ and the other $\frac24$ for a remainder.
+
+Hence, as $p^2q^{-2}=$ a quantity $\div$ by $(z+y)\div(z-y)$ to the first power only, it follows that $(z+y)\div(z-y)$, or their product $z^2-y^2$, must be a square. Putting therefore $z=r^2+s^2$, $y=r^2-s^2$,
+
+$$
+\therefore\left(\frac zy\right)^m=\left(\frac{r^2+s^2}{r^2-s^2}\right)^m=\frac{p^2+q^2}{p^2-q^2}.
+$$
+
+But $p$, $q$ are real and prime to each other, so are $r$ and $s$, $\therefore$ as we cannot suppose $p^2-q^2=(r^2+s^2)^m$ without introducing the imaginary sign of $\sqrt{-1}$ in the factorial result,
+
+$$
+p^2-q^2=(r^2-s^2)^m\ ;\ p+q=(r\pm s)^m,\ \text{and }p-q=(r\mp s)^m.
+$$
+
+Hence
+
+$$
+p^2+q^2=\tfrac12(r+s)^{2m}+\tfrac12(r-s)^{2m}=(r^2+s^2)^m,
+$$
+
+or
+
+$$
+\begin{aligned}
+&r^{2m}+2m\cdot\frac{2m-1}{2}\,r^{2m-2}s^2\\
+&\qquad+\frac{2m\cdot 2m-1\ldots 2m-2i+1}{1\cdot 2\ldots 2i}\,r^{2m-2i}s^{2i}\ldots+s^{2m}\\
+&=r^{2m}+m\cdot r^{2m-2}s^2+\frac{m\cdot m-1\ldots m-i+1}{1\cdot 2\ldots i}\,r^{2m-2i}s^{2i}\ldots+s^{2m}.
+\end{aligned}
+$$
+
+Setting out from either end, the extreme quantities are equal, and have the same coefficient, *unity*; but the upper coefficient afterwards more and more exceeds the corresponding under one, for at the $i$th term they equal their immediate predecessors multiplied by
 
 ## PDF page 303
 
@@ -17162,100 +17060,51 @@ become equal, the last terms of (11.) and (12.) are to be divided by <math>m(m-1
 
 ## PDF page 307
 
-Mr. J. Cockle on the Theory of Equations.
-293
-(184) shallow ve (189) stort (189) stort of dry or hot air. When dry it forms a friable mass, which will shall shall shall shall shall shall shall shall shall shall shall shall shall shall shall shall shall shall shall sha
-(hightly rubbed, crumble sinto apy Cy from wher. The quantity of lime required to precipitate the phosphoric acid from liftle is by no means great, wax het?) on the liftle is by no means great, wax het?
-do 6. Next, suppose J, no be free from z; 201, zol, then it
-is allowable at line 9 of p. 126 of my last paper, to change
-the suffixes of J from 9, 8, 7, 6, into 2, 4, 6, 8, respectively,
-for we may group as we please the squares into which f? (9.)
-is decomposed. This gives us after reduction Jally = ogention
-(.61) S. Since the Vatto & exat without & inter sylete Quined that
-(141) lifficulty in filtering and trying the precipitate, to which reference has more than once been made, hasy be greatly obvi-
-of by intimifest nixing a mall gerantity of finely-powdered
-(181)
+Mr. J. Cockle *on the Theory of Equations.*    293
 
-(181)
+$$
+a_1^2f^3(10.)=h_1^3+a_1^2z_1 f^2(9.)+f^3(9.),\tag{13.}
+$$
 
-(181)
+we have
 
-(181)
+$$
+f^2(9.)=\Sigma(\tau_{p,q}z_pz_q),\tag{14.}
+$$
 
-(181)
+and
 
-(181)
+$$
+f^3(9.)=\Sigma(\tau_{r,s,t}z_rz_sz_t).\tag{15.}
+$$
 
-(181)
+6. Next, suppose $J_r$, to be free from $z_1$, $z_2$, … $z_{r-1}$, then it is allowable, at line 9 of p. 126 of my last paper, to change the suffixes of $J$ from 9, 8, 7, 6, into 2, 4, 6, 8, respectively; for we may group as we please the squares into which $f^2(9.)$ is decomposed. This gives us after reduction $J_2^{(2)}=$
 
-(181)
+$$
+0=\gamma_2 z_2+\gamma_3 z_3+\ldots+\gamma_9 z_9+\gamma_0,\tag{16.}
+$$
 
-(181)
+where
 
-(181)
+$$
+\gamma_2=\pm\sqrt{\tau_{2^2}},\tag{17.}
+$$
 
-(181)
+and
 
-(181)
+$$
+\gamma_3=\tfrac12\frac{\tau_{2,3}}{\gamma_2}\pm\sqrt{\tau_{3^2}-\tfrac14\frac{\tau_{2,3}^2}{\gamma_2^2}},\tag{18.}
+$$
 
-(181)
+and if $\delta$, $\epsilon$, $\zeta$, $\eta$ be the coefficients, taken in the usual order, of the terms which (after substituting for $z_3$ in $f^3(9.)$ its value derived from (16.)) contain $z_2^3$, then, $a_2$ being the coefficient of $z_2^3$ in the result,
 
-(181)
+$$
+a_2=\delta-\epsilon\frac{\gamma_2}{\gamma_3}+\zeta\left(\frac{\gamma_2}{\gamma_3}\right)^2-\eta\left(\frac{\gamma_2}{\gamma_3}\right)^3.\tag{19.}
+$$
 
-(181)
+The above is general, whatever be the value or form of $f^3(10.)$, and is applicable to the annihilation of the 2nd, 4th and 6th terms of the equation of the 6th degree; but, in case the order in which the squares into which $f^2(9.)$ is decomposed are to be grouped should in any instance become material, the last paragraph will have to be modified accordingly.
 
-(181)
-
-(181)
-
-(181)
-
-(181)
-
-(181)
-
-(181)
-
-(181)
-
-(181)
-
-(181)
-
-(181)
-
-(181)
-
-(181)
-
-(181)
-
-(181)
-
-(181)
-
-(181)
-
-(181)
-The above is general, whatever be the value or form of for (10.), and is applicable to the annihilation of the 2nd, 4th
-and 6th terms of the equation of the 6th degree; but, in case
-the order in which the squares into which f2 (9.) is decom-
-posed are to be grouped should in any instance become mate-
-rial, the last paragraph will have to be modified accordingly.
-7. (Supplement to p. 384 of the last volume.) Let n = 4,
-and add a term, N \( \phi(x')\), to the right-hand side of (3:); then
-a product similar to (4.) may be obtained by means of the prin-
-ciple, that " $\phi_1 \phi_2 \quad \phi_1 \phi_1 \phi_1 \phi_1 \phi_1 \phi_1 \phi_1 \phi_1 \phi_1 \phi_1 \phi_1 \phi_1 \phi_1 \phi_1 \phi_1 \phi_1 \phi_1 \phi_1 \phi_1 \phi_1 \phi_1 \phi_1 \phi_1 \phi_1 \phi_1 \phi_1 \phi_
-functions of <math>x_1, x_2, x_n</math>, and <math>\varphi^{(r)}</math> denoting the result of substituting <math>x^{(r)}</math> for <math>x</math> in <math>\varphi</math>; then, when <math>\pi</math> is composed of symmetric functions of <math>x</math>, &c., <math>\pi^{\vee} (= \sum \{ \varphi_1 \varphi_2 \dots \varphi'_{n-2} \varphi''_{n-1} \})</math> consi
-symmetric functions of <math>x_1 \cdot x_1 \cdot x_1 \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot x_n \cdot</math>
-<math>\pi'' = \pi''</math>. By means of the obvious extensions of this principle,
-which is a branch of one of numerous classes of the same kind
-as that used in paragraph 3, we may add to (3.) as many terms
-as we please, for any values of n. These remarks are made
-with reference to paragraphs 5 and 6. It is possible that
-in all these investigations we may be able to derive some aid
-from the quaternion theory, a different distribution of a, &c.;
-cand it will be borne in mind that a want of symmetry in the
+7. (*Supplement to p. 384 of the last volume.*)—Let $n=4$, and add a term, $\mathrm N\phi(x')$, to the right-hand side of (3.); then a product similar to (4.) may be obtained by means of the principle, that “$\phi_1$, $\phi_2$, … $\phi_{n-1}$ being linear and homogeneous functions of $x_1$, $x_2$, $x_n$, and $\phi^{(r)}$ denoting the result of substituting $x^{(r)}$ for $x$ in $\phi$; then, when $\pi$ is composed of symmetric functions of $x$, &c., $\pi''\ (=\Sigma\{\phi_1\phi_2\ldots\phi'_{n-2}\phi''_{n-1}\})$ consists of symmetric functions of $x_1\ldots x'_1\ldots x''_n$;” so that, when $x''=x'$, $\pi''=\pi'''$. By means of the obvious extensions of this principle, which is a branch of one of numerous classes of the same kind as that used in paragraph 3, we may add to (3.) as many terms as we please, for any values of $n$. These remarks are made with reference to paragraphs 5 and 6. It is possible that in all these investigations we may be able to derive some aid from the quaternion theory, a different distribution of $\alpha$, &c.; and it will be borne in mind that a want of symmetry in the
 
 ## PDF page 308
 
@@ -17512,47 +17361,35 @@ N 337
 
 ## PDF page 314
 
-300
-Royal Astronomical Society.
-view, in such a manner as to turn round the centre in every direct
-tion, and to make with the declination circle any given angle of The
-author then proceeds to sligw, that if 79, 74, and T, be the times of
-passage across the wire of three stars (the first two being known,
-and the third being unknown or its position required), whose right
-ascensions are a, a, and A, and declinations 30, 8, and D, for any
-given position of the wire; and if to be the correspond-
-ing times of transit of the same three objects for any other position
-transverse to the former, then solver observations and the transverse to the former, then solver the transverse to the former, then solver the transverse to the former, then solver the transverse to the former, then solver
-Hartwell Hayse of ith my former instruments, which are aways obliging the former instruments, which are aways obliging the former instruments, which are aways
-me(rital That he store 174° 36' 6 for the position, which, cor-
-rected t <math>(\theta + \Theta) + (\theta - T)</math> brough to proportional parts afford rosition <math>(\theta - \theta) + (\theta - T)</math> Distance <math>2^{n} \cdot 10</math> (w. 4); Epoch 1845-34.
-"The measur ( True T) In ( 10 - 10) and 30 1 - 10 Int consider bins
-confidence, for, Kericury tohry Dacing the micrometer on the ob-
-jects, it was stead by viewed in an un (%+%) 1/2 leosld with a negative every find the companion of the companion of the companion of the companion of the companion of the companion of the companion of the companion of the
-mined by observations made at two different times, T and O, a cor-
-rection will be necessary for its motion during the interval of time
-0-T; and the author determines the corrections to be applied to
-the times O and T, to reduce them to the same epoch.
-The author considers this micrometer, both from its simplicity
-and from the precision of its results, to be exceedingly well adapted
-for observations of Mars and neighbouring stars, for the purpose of
-determining its parallax; and he gives the following formulæ for
-the value of the parallax: I do be volume and a doing it must be the latitudes of two observatories favourably
-situated for determining the parallax by observations of right ascen-
-sions, or differing considerably in longitude, <math>\psi_w</math> being the latitude
-of the western and <math>\psi_{\kappa}</math> of the eastern station. Let also <math>h_{\rm w}</math> and
-h, be the corresponding hour-angles of Mars; Aw and A, the
-observed right ascensions, reduced to the same instant; and D the
-length of the first lens. When the rest incitation at a standard and the first lens.
-perfectly made, and when also the arm of Mars and when and perfectly made, and when also the care in the contract of the contract of the contract of the contract of the contract of the contract of the contract of the contr
-the equal division of lig cos (wAth AA) segments for one pencil
-(and therefore for a hista $\psi \cos \frac{\psi}{\psi} h \rightarrow \frac{\psi}{\psi} h \rightarrow \frac{\psi}{\psi} h \rightarrow \frac{\psi}{\psi} h \rightarrow \frac{\psi}{\psi} h \rightarrow \frac{\psi}{\psi} h \rig
-Again, if D, and D, denote the declinations observed at two
-stations differing very considerably in latitude (N denoting the
-northerly and S the southerly station, and the rest of the northerly fine most important detect of the interest being station and the most important detect of the image than sold the field of view except the centre. It has
-engisin <math>\psi_N + \sin \psi_s + \tan D \cos \psi_s \cos h_s</math> tan <math>D \cos \psi_N \cos h_N</math> to
-This communication is accompanied by a list of stars selected by
-the author as favourably situated for observation at the ensuing op-
+300    *Royal Astronomical Society.*
+
+view, in such a manner as to turn round the centre in every direction, and to make with the declination circle any given angle. The author then proceeds to show, that if $\tau^\circ, \tau'$, and T, be the times of passage across the wire of three stars (the first two being known, and the third being unknown or its position required), whose right ascensions are $\alpha^\circ, \alpha'$, and A, and declinations $\delta^\circ, \delta'$, and D, for any given position of the wire; and if $\theta^\circ, \theta'$, and $\Theta$, be the corresponding times of transit of the same three objects for any other position transverse to the former, then
+
+$$A-\alpha^\circ=T-\tau^\circ+[(\alpha'-\alpha^\circ)-(\tau'-\tau^\circ).]\frac{(\Theta-\theta^\circ)-(\mathrm T-\tau^\circ)}{(\theta'-\theta^\circ)-(\tau'-\tau^\circ)};$$
+
+$$\text{or}\qquad=\Theta-\theta^\circ+[(\alpha'-\alpha^\circ)-(\theta'-\theta^\circ).]\frac{(\mathrm T-\tau^\circ)-(\Theta-\theta^\circ)}{(\tau'-\tau^\circ)-(\theta'-\theta^\circ)},$$
+
+$$\text{and}\qquad \mathrm D-\delta^\circ=\frac{\delta'-\delta^\circ}{e}\frac{(\Theta-\theta^\circ)-(\mathrm T-\tau^\circ)}{(\theta'-\theta^\circ)-(\tau'-\tau^\circ)},$$
+
+$$\text{where}\qquad e=\frac{\cos\cdot \frac12(\delta'+\delta^\circ)}{\cos\cdot\frac12(\mathrm D+\delta^\circ)},\quad\text{and is very nearly equal to 1.}$$
+
+When the unknown object is a planet, since its position is determined by observations made at two different times, T and Θ, a correction will be necessary for its motion during the interval of time Θ-T; and the author determines the corrections to be applied to the times Θ and T, to reduce them to the same epoch.
+
+The author considers this micrometer, both from its simplicity and from the precision of its results, to be exceedingly well adapted for observations of Mars and neighbouring stars, for the purpose of determining its parallax, and he gives the following formulæ for the value of the parallax:—
+
+Let $\psi_{\mathrm{W}}$ and $\psi_{\mathrm{E}}$ be the latitudes of two observatories favourably situated for determining the parallax by observations of right ascensions, or differing considerably in longitude, $\psi_{\mathrm{W}}$ being the latitude of the western and $\psi_{\mathrm{E}}$ of the eastern station. Let also $h_{\mathrm{W}}$ and $h_{\mathrm{E}}$ be the corresponding hour-angles of Mars; $\mathrm{A}_{\mathrm{W}}$ and $\mathrm{A}_{\mathrm{E}}$ the observed right ascensions, reduced to the same instant; and D the approximate declination; then
+
+The horizontal parallax of Mars
+
+$$=\frac{(\mathrm A_{\mathrm E}-\mathrm A_{\mathrm W})\cos\mathrm D}{\cos\psi_{\mathrm W}\sin h_{\mathrm W}-\cos\psi_{\mathrm E}\sin h_{\mathrm E}}.$$
+
+Again, if  $ D_{N} $  and  $ D_{S} $  denote the declinations observed at two stations differing very considerably in latitude (N denoting the northerly and S the southerly station, and the rest of the notation being suitably changed),
+
+The horizontal parallax
+
+$$=\frac{(\mathrm D_{\mathrm S}-\mathrm D_{\mathrm N})\ \mathrm{Sec.}\,\mathrm D}{\sin\psi_{\mathrm N}-\sin\psi_{\mathrm S}+\tan\mathrm D\cos\psi_{\mathrm S}\cos h_{\mathrm S}-\tan\mathrm D\cos\psi_{\mathrm N}\cos h_{\mathrm N}}.$$
+
+This communication is accompanied by a list of stars selected by the author as favourably situated for observation at the ensuing op-
 
 ## PDF page 315
 
@@ -18006,57 +17843,38 @@ could not ascertain the nature of the oxide which is precipitated.
 
 ## PDF page 323
 
-Intelligence and Miscellaneous Articles.
-309
-This oxide may probably be the stannate of protoxide of tin, disco-
-vered by M. Fremy (SnO, Sn3 Q3) course brotts blue w binsverrer
-Oxide of Chromium, when dissolved in potash and heated with the
-ferridgyanide to the boiling point, is converted into chromate of pot-
-ash; and if sufficient oxide be used, all the ferridcyanide is reduced
-to ferrogyanide; this is evidently an example of very energetic oxi-
-dation, for hitherto chromate of potash has not been procured in the
-dizement of various oxides, - Journ. de Pharm, et de Ch. . . vew triom
-Oxides of Gold and Silver are not superoxidized by the ferridcya-
-nide; in a cold solution no effect is produced, but at a temperature
-near that of ebullition, peroxide of iron is precipitated; and the so-
-lution contains ferrocyanide of potassium, and cyanide of gold dis-
-solved in the cyanide of potassium.
-The salts of silver exhibit similar phænomena, viz. the formation
-of ferrocyanide precipitation of peroxide of iron; and the solution
-contains ferrocyanide of potassium, which being precipitated by al-
-cohol, cyanide of silver and cyanide of potassium were obtained.
-These facts are not included in simple oxidizement, they are true
-Oxide of Manganese - When protoxide of mange znoitisoquiosb
-Sulphur may also be exidized by this same influence; it becomes
-over e, a added to a mixed solution of cold ferrideyabis sirudqlus
--n Acids and Salts.—Certain mineral acids may be oxidized, whether
-free or combined; phosphorous acid and the soluble hypophosplites
-are converted into phosphates; sulphurous acid yields sulphuric acid,
-the sulphites are converted into sulphates. Di Oxalic acid, and oxalates
-added to the alkaline solution, yield carbonates almost instantane-
-agat. ce may be obtained, which is probably the manganoso ylauo
-M. Boudault gives the following explanation of the phænomena
-which he has described -- the ferridcyanide of potassium is consi-
-dered by him as a double salt, that is to say, as a compound of per-
-cyanide of iron and cyanide of potassium; this percyanide of iron,
-therefore, does not exist in a free state, and being a very unstable
-salt, it is retained in the red prussiate by the cyanide of potassium.
-As soon as a reaction takes place in the presence of this salt, it has
-a tendency to be decomposed, and the author gives the following as
-.1231 1
-explanatory of his views:--
-ы п те Суз Fe2 + Суз K3 = Суз Fe2 + Суз K3 + Суд 10 . 10
-On adding potash and oxide of lead, we have the state of lead of lead of lead of lead of lead of lead of lead of lead of lead of lead of lead of lead of lead of lead of lead of lead of lead of lead of lead of lead of lead 
-= Cy2Fe2Cy3K3+CyK+PbO2up and noque harage
-to its of = 2CyFeCy2K2+PbO2 ruinim benisido rodtu; edi
-By this formula we find two equivalents of ferrocyanide of potassium
-and binoxide of lead, which is what we obtain by the reaction which
-euperox . z . by the m. solution of terrice and to the tismfex ti
-The author considers the ferridcyanide of potassium, under the
-circumstances described, as ferrocyanide, minus potassium, and con-
-sequently as possessing an equivalent of free cyanogen, capable of
-replacing eyanogen. "It is therefore demonstrated," M. Boudault
-044
+*Intelligence and Miscellaneous Articles.*    309
+
+This oxide may probably be the stannate of protoxide of tin, discovered by M. Fremy ($\mathrm{SnO},\mathrm{Sn}^3\mathrm{O}^6$).
+
+*Oxide of Chromium*, when dissolved in potash and heated with the ferridcyanide to the boiling point, is converted into chromate of potash; and if sufficient oxide be used, all the ferridcyanide is reduced to ferrocyanide; this is evidently an example of very energetic oxidation, for hitherto chromate of potash has not been procured in the moist way.
+
+*Oxides of Gold and Silver* are not superoxidized by the ferridcyanide; in a cold solution no effect is produced, but at a temperature near that of ebullition, peroxide of iron is precipitated; and the solution contains ferrocyanide of potassium, and cyanide of gold dissolved in the cyanide of potassium.
+
+The salts of silver exhibit similar phænomena, viz. the formation of ferrocyanide, precipitation of peroxide of iron; and the solution contains ferrocyanide of potassium, which being precipitated by alcohol, cyanide of silver and cyanide of potassium were obtained. These facts are not included in simple oxidizement, they are true decompositions.
+
+*Sulphur* may also be oxidized by this same influence; it becomes sulphuric acid.
+
+*Acids and Salts.*—Certain mineral acids may be oxidized, whether free or combined; phosphorous acid and the soluble hypophosphites are converted into phosphates; sulphurous acid yields sulphuric acid, the sulphites are converted into sulphates. Oxalic acid, and oxalates added to the alkaline solution, yield carbonates almost instantaneously.
+
+M. Boudault gives the following explanation of the phænomena which he has described:—the ferridcyanide of potassium is considered by him as a double salt, that is to say, as a compound of percyanide of iron and cyanide of potassium; this percyanide of iron, therefore, does not exist in a free state, and being a very unstable salt, it is retained in the red prussiate by the cyanide of potassium. As soon as a reaction takes place in the presence of this salt, it has a tendency to be decomposed, and the author gives the following as explanatory of his views:—
+
+$$
+\mathrm{Cy} ^ {3} \mathrm{Fe} ^ {2} + \mathrm{Cy} ^ {3} \mathrm{K} ^ {3} = \mathrm{Cy} ^ {2} \mathrm{Fe} ^ {2} + \mathrm{Cy} ^ {3} \mathrm{K} ^ {3} + \mathrm{Cy}.
+$$
+
+On adding potash and oxide of lead, we have
+
+$$
+\begin{array}{l} \mathrm{Cy} ^ {2} \mathrm{Fe} ^ {2} \mathrm{Cy} ^ {3} \mathrm{K} ^ {3} + \mathrm{Cy} + \mathrm{KO} + \mathrm{PbO} \\ = \mathrm{Cy} ^ {2} \mathrm{Fe} ^ {2} \mathrm{Cy} ^ {3} \mathrm{K} ^ {3} + \mathrm{CyK} + \mathrm{PbO} ^ {2} \\ = 2 \mathrm{CyFeCy} ^ {2} \mathrm{K} ^ {2} + \mathrm{PbO} ^ {2}. \\ \end{array}
+$$
+
+By this formula we find two equivalents of ferrocyanide of potassium and binoxide of lead, which is what we obtain by the reaction which it explains:
+
+The author considers the ferridcyanide of potassium, under the circumstances described, as ferrocyanide, minus potassium, and consequently as possessing an equivalent of free cyanogen, capable of replacing ~~cyano~~gen. It is therefore demonstrated, M. Boudault
+
+oxy
+
 oncludes, that cyanogen possesses the additional analogy with chlo-
 
 ## PDF page 324
@@ -18549,52 +18367,49 @@ The precipitate quickly becomes blue on the filter; when dried in the
 
 ## PDF page 331
 
-Intelligence and Miscellaneous Articles.
-317
-air it forms a bright blue powder, which is perfectly undistinguish:
-able from blue iron core of In the water bath it loses a portion of
-its water and becomes green. In its analysis, a methodiexactly
-similar to that used for vivia hite was adopted, and gave the follow-
-which, according to Kersten, is = 3CO, 2AsO, + 8HO: stlüsengni
-is likewise in its origin 3FcO, PO. II 8HO; Ilit we ordinarily find
-it only 88 920 # Anorph 05:18 ystal $ 192;55 1 doi:29:85 18:20 Agroup 18:08 all
-the chate 22:25 = 10 count 22:15 stals, 30;12 stan 63:02 heir Oak ot clea-
-vage. 30:32=18n of th82:32 oxid. 83:32 econ 83:52 e be 25:06
-and thi 66:22 Hit Lecolou 80:12: mineral is produced, which origin-
-This compound may be expressed by the formulada as as a shifty villa
-same tak OH840 0 92 to 0 936) + OH84 OF POO 160 mhich passes more rapidly into the double salt of the protoxide from its
-aggregated condition, an norh to standard gray composition of vivianite,
-If a neutral solution of a persalt of iron, as ammonio sulphate of
-iron, be precipitated with phosphate of soda (2NaO, HO) P. O. the
-filtered solution has an acid reaction, although it contains an excess
-of phosphate of soda; hence the precipitate does not correspond in
-composition to the phosphate of soda, but must be a basic com-
-in both phosphates, and agrees exectlevilar io belief thed binoq
-<math>P_2O_5</math> .... <math>36.50</math> <math>1 = 38.10</math> .tl. <math>F_{e_2}O_3</math> .... <math>a_1 = 38.10</math> .tl. <math>a_2 = 38.10</math> .tl. <math>a_3 = 38.10</math> .tl. <math>a_4 = 38.10</math> .tl. <math>a_4 = 38.10</math> .tl. <math>a_4 = 38.10</math> .tl. <math>a_4 = 38.10</math> .tl. <math>a_4 = 38.10</math> .tl. <math>a_4 = 38.10</math>
-(OHO+. (). 99 20.30) + (OH4 = (19.21) 948) 0
--97A compound possessing the same composition is obtained by
-adding phosphate of soda by drops to a solution of protosulphate of
-iron, until the precipitate ceases to be redissolved. The solution when
-filtered becomes turbid by exposure to the air and deposits a yellow-
-ish-white granular precipitate, which when washed is identical with
-also exists in vivianite, its formula may be constructe, ilas evoda ent
-[2(Fc3 O, P Gnorl Role gland geold green of the HO)]
-By the action of alkalies a portion of the acid is removed from
-the perphosphate of iron, and two basic salts are formed at A. If the
-salt be dissolved in a small quantity of muriatic acid, excess of am-
-monia be then added and heat applied, a bright brown basic salt is
-formed. Its formula is 3Fe<sub>2</sub>O<sub>3</sub>, 2P<sub>2</sub>O<sub>5</sub> + 16HO, or 2(Fe<sub>2</sub>O<sub>3</sub>, P<sub>2</sub>O<sub>5</sub>
-+ 5HO) + Fe<sub>2</sub>O<sub>3</sub> 6HO. B. If the perphosphate of iron formed in
-this manner, or by precipitation, be digested for a considerable time
-with dilute solution of potash, the whole of the phosphoric acid is
-not removed from the oxide of iron. This substance is a very basic
-salt of definite composition, which suffers no further decomposition
-from an excess of alkali. It consists of the basilists of of lose
-from the preci<math>86:6</math>e<math>=4</math>olourless, <math>17:6</math> (ron: <math>1:\dots,0</math> <math>_{2}</math> <math>_{3}</math> <math>_{4}</math> <math>_{1}</math> lie salt
-of iron has a s 28 40 = 10 eaction, este c . . t. of Og at teelf is pow-
-criully alkaline. It contains a 10 9 16 2 2761 ylinappearos is bus acid, as well as a small quantity of protoxide of from home the pre-
-cipitate cannot, as has . smil for standard dered consist of 2heO.
-bind a state of the horse of the hear, when dred in the hear, when dred in the
+*Intelligence and Miscellaneous Articles.*    317
+
+air it forms a bright blue powder, which is perfectly undistinguishable from blue iron ore. In the water-bath it loses a portion of its water and becomes green. In its analysis, a method exactly similar to that used for vivianite was adopted, and gave the following results:—
+
+| | I. | II. | | |
+|---|---|---|---|---|
+| $\mathrm{P_2O_5}$ | 32·55 | 29·85 | 31·20 | 4 = 29·83 |
+| $\mathrm{FeO}$ | 20·63 | 21·95 | 21·29 | 6 = 22·55 |
+| $\mathrm{Fe_2O_3}$ | 25·58 | 25·58 | 25·28 | 3 = 25·06 |
+| $\mathrm{HO}$ | | | 21·93 | 24 = 22·56 |
+
+This compound may be expressed by the formula
+
+$$
+2(3\mathrm{FeO},\mathrm{P_2O_5}+8\mathrm{HO})+(3\mathrm{Fe_2O_3},2\mathrm{P_2O_5}+8\mathrm{HO}).
+$$
+
+*Perphosphate of Iron.*
+
+If a neutral solution of a persalt of iron, as ammonio-sulphate of iron, be precipitated with phosphate of soda $(2\mathrm{NaO},\mathrm{HO})\mathrm{P_2O_5}$, the filtered solution has an acid reaction, although it contains an excess of phosphate of soda; hence the precipitate does not correspond in composition to the phosphate of soda, but must be a basic compound. It yielded on analysis,—
+
+| | | |
+|---|---|---|
+| $\mathrm{P_2O_5}$ | 36·50 | 1 = 38·10 |
+| $\mathrm{Fe_2O_3}$ | 41·90 | 1 = 42·69 |
+| $\mathrm{HO}$ | 20·30 | 4 = 19·21 |
+
+A compound possessing the same composition is obtained by adding phosphate of soda by drops to a solution of protosulphate of iron, until the precipitate ceases to be redissolved. The solution when filtered becomes turbid by exposure to the air and deposits a yellowish-white granular precipitate, which when washed is identical with the above salt.
+
+*Basic Perphosphate of Iron.*
+
+By the action of alkalies a portion of the acid is removed from the perphosphate of iron, and two basic salts are formed. A. If the salt be dissolved in a small quantity of muriatic acid, excess of ammonia be then added and heat applied, a bright brown basic salt is formed. Its formula is $3\mathrm{Fe}_2\mathrm{O}_3$, $2\mathrm{P}_2\mathrm{O}_5 + 16\mathrm{HO}$, or $2(\mathrm{Fe}_2\mathrm{O}_3, \mathrm{P}_2\mathrm{O}_5 + 5\mathrm{HO}) + \mathrm{Fe}_2\mathrm{O}_36\mathrm{HO}$. B. If the perphosphate of iron formed in this manner, or by precipitation, be digested for a considerable time with dilute solution of potash, the whole of the phosphoric acid is not removed from the oxide of iron. This substance is a very basic salt of definite composition, which suffers no further decomposition from an excess of alkali. It consists of—
+
+| | | |
+|---|---|---|
+| $\mathrm{P_2O_5}$ | 5·71 | 1 = 5·68 |
+| $\mathrm{Fe_2O_3}$ | 94·29 | 19 = 94·32 |
+
+and is consequently  $ 15Fe_{2}O_{3}, P_{2}O_{5} $ .
+
+*Phosphate of Lime.*
+
+In the above experiments it very frequently happened that a liquid
 
 ## PDF page 332
 
@@ -18658,586 +18473,45 @@ Mean temperature for 23 years 57·0
 
 ## PDF page 334
 
-Meteorological Observations made by Mr. Thompson at the Garden of the Horlicultural Society at CHISWICK, near London; by Mr. Veall, at
-80.
-•18
-4.13
-90.
-.38
-.05
-7.4
-.35
-·14
-.45
-.30
-.13
-.62
-22
-=
-Orkney,<br>Sandwick,
-DUMFRIES-SHIRE; and by the Rev. C. Clouston, at Sandwick Manse, ORKNEY
-3.09
-1.33
-1.10
-0.38
-0.28
-....
-.....
-shire.
-Rain.
-Dumfries
-4.85
-90.
-<u>6</u>
-07.
-600
-.50
-02
-9
-90
-738
-.35
-.17
-.84
-.58
-.03
-9
-.37
-Boston.
-2.79
-.....
-•58
-.42
-.26
-•04
-01.
-.12
-.05
-36
-90.
-.05
-.24
-.01
-0.
-•
-.07
-.07
-19.
-Chiswick,
-WnW.
-WSW.
-nnw.
-WUW
-nne.
-WSW
-nw.
-nne.
-nw.
-nw.
-ese.
-SW.
-SW.
-Orkney,<br>Sandwick,
-W.
-ne.
-W.
-se.
-i.
-se.
-ı,
-ı.
-ċ
-မံ
-Ë
-ŝ
-×
-မံ
-ပံ
-ď
-ŝ
-e&s.
-SSW.
-wnw.
-Wnw.
-WILW
-SSW.
-nne.
-nw.
-SW.
-SW.
-nne.
-SW.
-shire.
-sse.
-W.
-W.
-SW.
-W.
-W.
-W.
-W.
-NU
-se.
-W.
-se,
-W
-ı,
-ä
-se.
-se.
-ĳ
-ŝ
-Dumfries-
-Wind.
-calm
-calm
-calm
-calm
-calm
-calm
-calm
-calm
-calm
-nw.
-nw.
-nw.
-nw.
-nw.
-×
-E
-W
-×
-SW.
-W.
-Ņ.
-3
-SW.
-Ä
-V.
-W
-¥.
-¥,
-SW.
-×
-Boston.
-×
-·m.q 1
-SW.
-nw.
-N.U.
-SW
-SW.
-nw.
-ne.
-ne.
-SW.
-nw.
-nW.
-NW.
-SW
-SW
-SW
-W.
-SW.
-W.
-×
-ne.
-ne.
-SW.
-SW.
-W.
-SW.
-W
-SW.
-SW.
-SW.
-SW
-ŝ
-Chiswick,
-51.96
-°uı•d
-<math>52\frac{1}{2}</math>
-53½<br>52
-47<br>52½<br>53
-52<br>55<br>51<br>53
-<math>50\frac{1}{2}</math>
-48½<br>48¾
-50 2 52
-55<br>53½<br>54
-523<br>523
-Orkney,<br>Sandwick.
-50
-50
-49
-50
-53
-55
-55
-18
-54.37
-<math display="block">53\frac{1}{2}</math>
-51½<br>52½
-52½<br>51½<br>53
-55<br>55<br>58<br>51
-a.m.
-53½<br>61
-56½ 57
-52
-54
-53
-54
-52
-58
-52
-49
-54
-57
-19
-57
-76
-50.1
-462
-532 522
-503
-513<br>483
-<math display="block">53\frac{1}{2}</math>
-49 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 46 PP 
-<math>46\frac{1}{2}</math>
-<math>51\frac{1}{2}</math>
-<math>49</math>
-47號 55號
-513
-Dumfries.
-Thermometer.
-56
-Min.
-54
-52
-52
-48
-49
-54
-44
-51
-41
-খ
-63.2
-673
-<math>62\frac{1}{2}</math>
-683
-70½
-<math>63\frac{1}{2}</math>
-59<br>563<br>593
-591
-<math>62\frac{1}{2}</math>
-64½<br>67
-64<br>58½
-<math display="block">56\frac{1}{2}</math>
-Max.
-62
-09
-64
-58
-99
-65
-63
-62
-63
-64
-67
-58.7
-57.5
-61.5
-54.5
-59.5
-52.5
-.m.s $8
-56
-56
-99
-28
-59
-58
-56
-56
-57
-28
-58
-28
-58
-9
-59
-00
-61
-64<br>59
-63
-57
-Boston.
-5
-49.19
-46
-42
-39
-49
-50
-50
-47
-47
-52<br>48
-55<br>55<br>50<br>55<br>55<br>55
-52
-52
-484
-52
-49
-45
-44
-51
-53
-.niM
-Chiswick.
-69.42
-99
-525
-89
-72
-2
-72
-99
-533
-9
-99
-62
-62
-6
-68
-69
-98
-89
-63
-71
-61
-Max
-Boston; by the Rev. W. Dunbar, at Applegarth Manse,
-29.620 29.776 29.800
-29.79
-30.22
-30.25
-30.25
-30.34
-29.76
-29.85
-29.20
-29.76
-30.00
-29.95
-29.85
-29.62
-29.89
-29.62
-29.53
-29.53
-29.63
-30-27
-29.56
-29.78
-29.72
-29.74
-29.60
-29.93
-29.73
-29.57
-29.53<br>29.47
-29.64
-8<del>$</del>
-Orkney,<br>Sandwick.
-30.32
-29.80
-29.49
-29.42
-29.60
-30.12
-30-27
-29.72
-29.68
-29.48
-29.73
-29.84
-29.66
-29.98
-29.88
-29.90
-29.93
-29.80
-29.66
-29.60
-29-73
-29.95
-29.69
-30-21
-30.21
-29.56
-29.75
-29.59
-29.63
-29.51
-29.67
-95<br>a.m.
-29.89
-29.50
-29.86
-29.88
-29.70
-29.50
-29.80
-30.16
-30-22
-30-29
-29.72
-29.73
-29.80
-29-28
-29.44
-29.81
-30-27
-29.29
-29.32
-29.52
-29.62
-29.60
-29.62
-29.35
-29.48
-29.57
-Dumfries-shire.
-29.38
-29.61
-29.91
-g<br>p.m.
-29.696
-Barometer.
-30.30
-30.20
-30.28
-29.59
-29.66
-29.50
-29.68
-29.78
-30.03
-30-25
-29.58
-29.40
-29.35
-29.80
-29-92
-29.83
-29.82
-29.98
-29.62
-29.35
-29.35
-29.21
-29.42
-29.58
-29.72
-29.75
-29.39
-29.67
-29.51
-29.71
-9 m.s
-29.34
-29.10
-29.48
-29.44
-29.45
-29.30
-29.60
-29.90
-28.92
-29.35
-29.50
-29.40
-29-26
-29.44
-29.55
-28.90
-29.30
-29.62
-29.90
-29.50
-29.17
-29:29
-28.94
-29.81
-29.00
-29.17
-29.27
-29.14
-29.07
-28.97
-8è a.m.
-Boston.
-Mean. 29.902 29.797
-30-020 29-850
-29.824 29.778 29.786 29.728
-29.831 29.820<br>29.628 29.427
-29-979 29-975
-30-004|29-824
-30-182 30-080
-30-217
-30.262
-30-266
-29.518 29.340
-29.764 29.630
-29.952 29.819
-29.800 29.728
-30.004
-29.278
-29.577 29.526
-29-929-29-826 30-03
-29.672,29.597
-29-760 29-623
-29.765 29.524
-30.060 29.894
-30-207 30-184
-30-271
-29.694 29.681
-29.911 29.837
-29-762 29-594
-29-901 29-72
-29.371 29.11
-Min.
-Chiswick.
-30-296
-30.139
-30-303
-30-295
-29.732
-Max.
-25.<br>26.
-27.
-14.<br>15.
-017.
-19.
-20.
-21.
-22.
-C 24.
-28.<br>29.<br>30.
-4.6.01
-°∞'⊙
-≥ 10.
-11.
-5.5
-<b>⊢</b> ⇔
-က်
-18
-1845.
-Month.
-Aug.
-Days of
+*Meteorological Observations made* by Mr. Thompson *at the Garden of the Horticultural Society at* CHISWICK, *near London; by* Mr. Veall, *at* BOSTON; *by the* Rev. W. Dunbar, *at Applegarth Manse,* DUMFRIES-SHIRE; *and by the* Rev. C. Clouston, *at Sandwick Manse,* ORKNEY.
+
+<table>
+<tr><td rowspan="2">Days of Month.</td><td colspan="7">Barometer.</td><td colspan="7">Thermometer.</td><td colspan="4">Wind.</td><td colspan="4">Rain.</td></tr>
+<tr><td colspan="2">Chiswick.</td><td rowspan="2">Boston. 8½ a.m.</td><td colspan="2">Dumfries-shire.</td><td colspan="2">Orkney, Sandwick.</td><td colspan="2">Chiswick.</td><td rowspan="2">Boston. 8½ a.m.</td><td colspan="2">Dumfries-shire.</td><td colspan="2">Orkney, Sandwick.</td><td rowspan="2">Chiswick. 1 p.m.</td><td rowspan="2">Boston.</td><td rowspan="2">Dumfries-shire.</td><td rowspan="2">Orkney, Sandwick.</td><td rowspan="2">Chiswick.</td><td rowspan="2">Boston.</td><td rowspan="2">Dumfries-shire.</td><td rowspan="2">Orkney, Sandwick.</td></tr>
+<tr><td>1845. Aug.</td><td>Max.</td><td>Min.</td><td>9 a.m.</td><td>9 p.m.</td><td>9½ a.m.</td><td>8½ p.m.</td><td>Max.</td><td>Min.</td><td>Max.</td><td>Min.</td><td>9½ a.m.</td><td>8½ p.m.</td></tr>
+<tr><td>1.</td><td>29·732</td><td>29·578</td><td>29·14</td><td>29·35</td><td>29·38</td><td>29·63</td><td>29·53</td><td>68</td><td>52</td><td>61</td><td>64</td><td>51½</td><td>59</td><td>52</td><td>sw.</td><td>sw.</td><td>se.</td><td>e.</td><td>·06</td><td>·08</td><td>......</td><td>......</td></tr>
+<tr><td>2.</td><td>29·518</td><td>29·340</td><td>29·00</td><td>29·35</td><td>29·29</td><td>29·51</td><td>29·47</td><td>64</td><td>48</td><td>64</td><td>63</td><td>49</td><td>57</td><td>55</td><td>sw.</td><td>calm</td><td>se.</td><td>e.</td><td>·61</td><td>·03</td><td>......</td><td>......</td></tr>
+<tr><td>● 3.</td><td>29·764</td><td>29·630</td><td>29·07</td><td>29·21</td><td>29·32</td><td>29·29</td><td>29·26</td><td>69</td><td>54</td><td>59</td><td>58</td><td>51</td><td>53</td><td>51½</td><td>sw.</td><td>w.</td><td>se.</td><td>s.</td><td>·10</td><td>·37</td><td>......</td><td>·42</td></tr>
+<tr><td>4.</td><td>29·694</td><td>29·681</td><td>29·17</td><td>29·42</td><td>29·52</td><td>29·26</td><td>29·50</td><td>71</td><td>55</td><td>60</td><td>63</td><td>54</td><td>54</td><td>53</td><td>sw.</td><td>w.</td><td>se.</td><td>w.</td><td>......</td><td>·02</td><td>......</td><td>·30</td></tr>
+<tr><td>5.</td><td>29·672</td><td>29·597</td><td>29·20</td><td>29·58</td><td>29·65</td><td>29·67</td><td>29·78</td><td>75</td><td>55</td><td>63</td><td>66</td><td>46½</td><td>54</td><td>55</td><td>s.</td><td>calm</td><td>s.</td><td>......</td><td>·05</td><td>·38</td><td>......</td><td>·13</td></tr>
+<tr><td>6.</td><td>29·824</td><td>29·778</td><td>29·27</td><td>29·66</td><td>29·60</td><td>29·75</td><td>29·72</td><td>73</td><td>50</td><td>59</td><td>64½</td><td>48½</td><td>56½</td><td>53½</td><td>w.</td><td>w.</td><td>ssw.</td><td>e.</td><td>·12</td><td>·77</td><td>......</td><td>......</td></tr>
+<tr><td>7.</td><td>29·786</td><td>29·728</td><td>29·17</td><td>29·59</td><td>29·62</td><td>29·72</td><td>29·74</td><td>69</td><td>47</td><td>64</td><td>67</td><td>52</td><td>57</td><td>54</td><td>sw.</td><td>w.</td><td>wnw.</td><td>n.</td><td>·24</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>8.</td><td>29·831</td><td>29·820</td><td>29·29</td><td>29·66</td><td>29·61</td><td>29·68</td><td>29·60</td><td>71</td><td>55</td><td>61·5</td><td>64</td><td>53½</td><td>52</td><td>52½</td><td>sw.</td><td>w.</td><td>wnw.</td><td>nnw.</td><td>·26</td><td>·20</td><td>1·10</td><td>·62</td></tr>
+<tr><td>9.</td><td>29·628</td><td>29·427</td><td>28·97</td><td>29·40</td><td>29·35</td><td>29·48</td><td>29·64</td><td>68</td><td>52</td><td>61·5</td><td>58½</td><td>52½</td><td>58</td><td>52½</td><td>sw.</td><td>sw.</td><td>w.</td><td>e.</td><td>·01</td><td>·35</td><td>......</td><td>·35</td></tr>
+<tr><td>☽ 10.</td><td>29·577</td><td>29·526</td><td>28·92</td><td>29·35</td><td>29·48</td><td>29·73</td><td>29·76</td><td>68</td><td>53</td><td>57</td><td>63</td><td>52</td><td>57</td><td>53</td><td>sw.</td><td>sw.</td><td>n.</td><td>nne.</td><td>·05</td><td>·58</td><td>......</td><td>......</td></tr>
+<tr><td>11.</td><td>29·760</td><td>29·623</td><td>29·10</td><td>29·58</td><td>29·72</td><td>29·84</td><td>29·93</td><td>70</td><td>53</td><td>60</td><td>67</td><td>50½</td><td>53½</td><td>50½</td><td>sw.</td><td>nw.</td><td>nne.</td><td>n.</td><td>·36</td><td>·17</td><td>......</td><td>·11</td></tr>
+<tr><td>12.</td><td>29·929</td><td>29·826</td><td>29·35</td><td>29·80</td><td>29·89</td><td>29·96</td><td>30·00</td><td>63</td><td>49</td><td>56</td><td>62</td><td>53½</td><td>51½</td><td>50</td><td>nw.</td><td>nw.</td><td>nne.</td><td>nw.</td><td>·01</td><td>·53</td><td>......</td><td>......</td></tr>
+<tr><td>13.</td><td>30·036</td><td>30·003</td><td>29·50</td><td>29·92</td><td>29·91</td><td>29·98</td><td>29·95</td><td>66</td><td>50</td><td>56</td><td>63</td><td>48</td><td>52½</td><td>52½</td><td>nw.</td><td>nw.</td><td>nw.</td><td>wnw.</td><td>·07</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>14.</td><td>29·952</td><td>29·819</td><td>29·40</td><td>29·83</td><td>29·73</td><td>29·88</td><td>29·85</td><td>62</td><td>52</td><td>56</td><td>63½</td><td>51½</td><td>49</td><td>49</td><td>nw.</td><td>calm</td><td>wnw.</td><td>wnw.</td><td>......</td><td>......</td><td>......</td><td>·14</td></tr>
+<tr><td>15.</td><td>29·800</td><td>29·728</td><td>29·26</td><td>29·72</td><td>29·80</td><td>29·90</td><td>29·95</td><td>62</td><td>44</td><td>56</td><td>62</td><td>48½</td><td>52</td><td>48½</td><td>nw.</td><td>nw.</td><td>n.</td><td>n.</td><td>......</td><td>·10</td><td>......</td><td>·06</td></tr>
+<tr><td>16.</td><td>29·911</td><td>29·837</td><td>29·48</td><td>29·82</td><td>29·80</td><td>29·93</td><td>29·89</td><td>61</td><td>48</td><td>54·5</td><td>60</td><td>44</td><td>49</td><td>48</td><td>nw.</td><td>nw.</td><td>n.</td><td>nw.</td><td>......</td><td>·06</td><td>0·28</td><td>......</td></tr>
+<tr><td>○ 17.</td><td>29·901</td><td>29·727</td><td>29·44</td><td>29·75</td><td>29·57</td><td>29·80</td><td>29·73</td><td>69</td><td>43</td><td>57</td><td>56½</td><td>41</td><td>52</td><td>50½</td><td>sw.</td><td>calm</td><td>sw.</td><td>nne.</td><td>......</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>18.</td><td>29·762</td><td>29·594</td><td>29·22</td><td>29·51</td><td>29·50</td><td>29·66</td><td>29·65</td><td>71</td><td>52</td><td>57·5</td><td>64</td><td>53½</td><td>52½</td><td>52</td><td>sw.</td><td>w.</td><td>sw.</td><td>ese.</td><td>·28</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>19.</td><td>29·371</td><td>29·111</td><td>28·94</td><td>29·39</td><td>29·28</td><td>29·60</td><td>29·53</td><td>67</td><td>49</td><td>58</td><td>59</td><td>49½</td><td>51½</td><td>51</td><td>sw.</td><td>calm</td><td>sse.</td><td>ne.</td><td>·42</td><td>·02</td><td>......</td><td>......</td></tr>
+<tr><td>20.</td><td>29·765</td><td>29·524</td><td>28·90</td><td>29·20</td><td>29·44</td><td>29·42</td><td>29·53</td><td>66</td><td>45</td><td>58</td><td>56½</td><td>50½</td><td>53</td><td>50</td><td>sw.</td><td>w.</td><td>w.</td><td>n.</td><td>......</td><td>·84</td><td>......</td><td>·38</td></tr>
+<tr><td>21.</td><td>30·060</td><td>29·894</td><td>29·30</td><td>29·68</td><td>29·86</td><td>29·73</td><td>29·88</td><td>68</td><td>39</td><td>58</td><td>59½</td><td>46½</td><td>50½</td><td>49</td><td>w.</td><td>w.</td><td>w.</td><td>nw.</td><td>·04</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>22.</td><td>30·207</td><td>30·184</td><td>29·65</td><td>29·98</td><td>29·88</td><td>29·95</td><td>29·76</td><td>72</td><td>49</td><td>58</td><td>62</td><td>41</td><td>55</td><td>53½</td><td>w.</td><td>w.</td><td>sw.</td><td>se.</td><td>......</td><td>·09</td><td>......</td><td>......</td></tr>
+<tr><td>23.</td><td>30·139</td><td>30·004</td><td>29·62</td><td>29·71</td><td>29·70</td><td>29·60</td><td>29·63</td><td>70</td><td>50</td><td>58</td><td>64</td><td>54</td><td>58½</td><td>52</td><td>sw.</td><td>w.</td><td>ssw.</td><td>wsw.</td><td>·07</td><td>......</td><td>......</td><td>·21</td></tr>
+<tr><td>☾ 24.</td><td>29·979</td><td>29·975</td><td>29·44</td><td>29·78</td><td>29·81</td><td>29·80</td><td>29·85</td><td>72</td><td>44</td><td>61</td><td>62½</td><td>46½</td><td>51</td><td>47</td><td>w.</td><td>w.</td><td>sw.</td><td>se.</td><td>......</td><td>·09</td><td>0·38</td><td>·05</td></tr>
+<tr><td>25.</td><td>30·004</td><td>29·824</td><td>29·45</td><td>29·67</td><td>29·50</td><td>29·69</td><td>29·57</td><td>73</td><td>50</td><td>59·5</td><td>59½</td><td>53</td><td>54</td><td>52½</td><td>sw.</td><td>w.</td><td>e & s.</td><td>sw.</td><td>·04</td><td>......</td><td>......</td><td>·08</td></tr>
+<tr><td>26.</td><td>30·020</td><td>29·850</td><td>29·30</td><td>29·62</td><td>29·80</td><td>29·49</td><td>29·79</td><td>71</td><td>46</td><td>59</td><td>62½</td><td>51½</td><td>53</td><td>53</td><td>w.</td><td>w.</td><td>w.</td><td>n.</td><td>......</td><td>·09</td><td>......</td><td>·74</td></tr>
+<tr><td>27.</td><td>30·182</td><td>30·080</td><td>29·60</td><td>30·03</td><td>30·16</td><td>30·12</td><td>30·22</td><td>71</td><td>51</td><td>59</td><td>65</td><td>49</td><td>53½</td><td>50</td><td>nw.</td><td>w.</td><td>w.</td><td>s.</td><td>......</td><td>·08</td><td>......</td><td>·36</td></tr>
+<tr><td>28.</td><td>30·296</td><td>30·217</td><td>29·81</td><td>30·20</td><td>30·22</td><td>30·21</td><td>30·25</td><td>66</td><td>47</td><td>58</td><td>67½</td><td>47½</td><td>61</td><td>55</td><td>ne.</td><td>calm</td><td>nw.</td><td>wsw.</td><td>......</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>29.</td><td>30·303</td><td>30·271</td><td>29·90</td><td>30·25</td><td>30·27</td><td>30·27</td><td>30·27</td><td>69</td><td>42</td><td>52·5</td><td>68½</td><td>55½</td><td>61</td><td>57</td><td>ne.</td><td>calm</td><td>w.</td><td>sw.</td><td>......</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>30.</td><td>30·295</td><td>30·262</td><td>29·90</td><td>30·30</td><td>30·29</td><td>30·21</td><td>30·25</td><td>72</td><td>47</td><td>56</td><td>70½</td><td>56</td><td>57</td><td>55</td><td>ne.</td><td>calm</td><td>w.</td><td>w.</td><td>......</td><td>......</td><td>1·33</td><td>·18</td></tr>
+<tr><td>31.</td><td>30·288</td><td>30·266</td><td>29·83</td><td>30·28</td><td>30·28</td><td>30·32</td><td>30·34</td><td>75</td><td>54</td><td>63</td><td>73</td><td>54</td><td>57</td><td>53</td><td>ne.</td><td>calm</td><td>w.</td><td>w.</td><td>......</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>Mean.</td><td>29·902</td><td>29·797</td><td>29·34</td><td>29·696</td><td>29·620</td><td>29·776</td><td>29·800</td><td>69·42</td><td>49·19</td><td>58·7</td><td>63·2</td><td>50·1</td><td>54·37</td><td>51·96</td><td></td><td></td><td></td><td></td><td>2·79</td><td>4·85</td><td>3·09</td><td>4·13</td></tr>
+</table>
 
 ## PDF page 335
 
@@ -21413,43 +20687,40 @@ The extreme case of the general series  \( 1 - x + x^{2} - x^{3} + \&c. \) , whi
 
 ## PDF page 378
 
-365
-Prof. J. R. Young on the Evaluation of
-364
-nexion with the convergent cases of that series; but the same
-extreme case may be regarded as dimiting the divergent cases,
-and therefore—its connexion exclusively with these cases the part of suntained like being symbolized—as identical with
-1 - <math>\left(1 + \frac{1}{\omega}\right) + \left(1 + \frac{1}{\omega}\right)^2 - \left(1 + \frac{1}{\omega}\right)^3 + \dots + \left(1 + \frac{1}{\omega}\right)^{\frac{1}{2}} \frac{1}{\xi}</math>
-so that reasoning as before, and recollecting that (1421) we have a substitute of the substitute of the substitute of the substitute of the substitute of the substitute of the substitute of the substitute of the substitute
-the series of divergent cases is like every one of the cases
-which precedes it, infinite.
-general algebraic series.
-But the series 1-1+1-1+&c. is frequently met with in
-analysis uncontrolled by any law binding it in connexion with
-a continuous series of either convergent or divergent cases,
-and where, in consequence, it would be unwarrantable to re-
-place it by either of the forms employed above, since in these
-the fact of such connexion is, as an essential condition, im-
-pressed upon zeach; and it is from overlooking this circum-
-stance that the series 1 - 1 + 1 - 1 + &c. is so often errone-
-ously assumed to be the representative of 1. As an illustra-
-as strictly and exclusives the first of the infinite series the con-
-verging cases of 1 + 2 11: 9-2 9.7 c. 7.13 11 2: 8 1 add fur-
-were required: the true value would be obtained by subtract-
-ing the lower of the following series from the upper, and then
-dividing the remainder by 2 100ss A start and before the
-1844, a short abstract of which algoears in the volume of
-published report 28 + 6 - 15 - 15 - 15 - 15 or 1 the Reyal Irish Academy in January 1345, and is published at
-3
-length in the Property <math>\frac{4}{9}</math> cess <math>\frac{2}{7}</math> y to <math>\frac{2}{3}</math> that although in the
-The remainder adverted to is evidently 3 minus the series
--1100 11 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-n kion with 1 - & + 1 - e + &c., or in general with 1 - 1"
-<math>\pm \frac{1}{2} + \frac{1}{2}</math>, seeing that the lower series must always project
-one term to the right beyond the upper. Now if we replace the series [2.] by <math>\frac{1}{2}</math>, twice the sum of the proposed series
-will be ambiguously <math>\frac{2}{3} - \frac{1}{2} \pm \frac{1}{2}</math>; which is absurd, much and a decay of <math>\frac{1}{3}</math>, <math>\frac{1}{2}</math>, <math>\frac{1}{2}</math>; which is absurd, much and <math>\frac{1}{3}</math>, <math>\frac{1}{3}</math>, <math>\frac{1}{3}</math>, <math>\frac{1}{3}</math>, <math>\frac{1}{3}</math>, <math>\frac{1}{3}</math>, <math>\frac{1}{3}</math>
-It is plain that the sum of the series [2,] is to a certain ex-
-tent indeterminate, being indifferently 1 or 0; and on the
+364    Prof. J. R. Young *on the Evaluation of*
+
+nexion with the *convergent* cases of that series; but the same extreme case may be regarded as limiting the *divergent* cases, and therefore—its connexion exclusively with these cases being symbolized—as identical with
+
+$$
+1-\left(1+\frac1\infty\right)+\left(1+\frac1\infty\right)^2-\left(1+\frac1\infty\right)^3+\ldots\left(1+\frac1\infty\right)^{\infty'};
+$$
+
+so that reasoning as before, and recollecting that $\left(1+\frac1\infty\right)^\infty=e$, and that $e^{\infty'}$ is infinite, we infer that the limiting case of the series of divergent cases is, like every one of the cases which precedes it, infinite.
+
+But the series $1-1+1-1+\&\mathrm{c.}$ is frequently met with in analysis uncontrolled by any law binding it in connexion with a continuous series of either convergent or divergent cases, and where, in consequence, it would be unwarrantable to replace it by either of the forms employed above, since in these the fact of such connexion is, as an essential condition, impressed upon each; and it is from overlooking this circumstance that the series $1-1+1-1+\&\mathrm{c.}$ is so often erroneously assumed to be the representative of $\frac12$. As an illustration, suppose the summation of the infinite series
+
+$$
+\frac{2}{3\cdot5}-\frac{3}{5\cdot7}+\frac{4}{7\cdot9}-\frac{5}{9\cdot11}+\&\mathrm{c.}
+$$
+
+were required: the true value would be obtained by subtracting the lower of the following series from the upper, and then dividing the remainder by 2:
+
+$$
+\begin{aligned}
+\frac23-\frac35+\frac47-\frac59+\&\mathrm{c.}\\
+\frac25-\frac37+\frac49-\&\mathrm{c.}
+\end{aligned}
+$$
+
+The remainder adverted to is evidently $\frac23$ *minus* the series
+
+$$
+1-1+1-1+1-1+\&\mathrm{c.}\text{ to infinity}\quad\ldots\quad [2.]
+$$
+
+$\pm\frac{\infty}{2\infty+1}$, seeing that the lower series must always project one term to the right beyond the upper. Now if we replace the series [2.] by $\frac12$, twice the sum of the proposed series will be ambiguously $\frac23-\frac12\pm\frac12$; which is absurd.
+
+It is plain that the sum of the series [2.] is to a certain extent indeterminate, being indifferently 1 or 0; and on the
 
 ## PDF page 379
 
@@ -22120,53 +21391,47 @@ Let the shell be supposed therefore to consist of a series of zones, on each of 
 
 ## PDF page 394
 
-380 Mr. Hennessy on the Connexion between the Rotation of 188 . and we sty to sagnad Inaugology and have all and the hemisphere, and <math>\zeta_1</math>, <math>\zeta_2</math>, <math>\zeta_3</math>, &c. the moments of inertia of the
-zones of the southern hemisphere, $1 and $1 being those of
-the zones in the immediate vicinity of the equator. Then J
-the moment of inertia of the entire shell will be obtained by
-the equation
-<math>\sqrt{(\alpha^2 \sin^2 \Theta + \beta^2 \cos^2 \Theta)}</math>
-bne नारेन्द्रिक्त हैं के देश में देश के देश के देश के देश के किए के किए के किए के किए के किए के किए के किए के किए के किए के किए किए किए किए किए किए किए किए किए किए
-the external shellibeing so thin that the variation in its den-
-sity may be neglected, and its moment of inertial found as if
-it were homogeneous ni Let the zone & be included between
-the latitude wo and the equator, the zone & between wand
-<math>\psi_{n}</math>, and so on to the zone <math>\xi_{n}</math>, included between <math>\psi_{n-1}</math> and <math>\psi_{n}</math>
-or 2. Similarly, let ζ<sub>1</sub>, ζ<sub>2</sub> and ζ<sub>1,21</sub>be included; respectively,
-between the equator and <math>\theta_{10}</math>, <math>\theta</math> and <math>\theta_{20}</math>, <math>\theta_{m-1}</math> and <math>\theta_{m}</math>.
-The values of the moments of inertia of the zones will be
-then found by the equations which follow, where A1, B1, A2,
-B, &c. represent the semi-polar and semi-equatorial axes of
-the imaginary spheroidal shells which correspond to each
-zone of the northern hemisphere; and A1, B1, A2, B2 have
-a similar meaning with respect to the zones of the southern
-tres of gravity of its parts. Let the entire shell bereidelmen
-to consist of an infinite number of pyramidal frusta, which if
-<math display="block">\xi_1 = \int_{0}^{\Psi_1} \frac{\pi}{4} \rho \Lambda_1 B_1^4 \cos^5 \Psi d\Psi</math>
-<math display="block">= \int_{0}^{\Psi_1} \frac{\pi}{4} \rho \Lambda_1 B_1^4 \cos^5 \Psi d\Psi</math>
-<math display="block">= \int_{0}^{\Psi_1} \frac{\pi}{4} \rho \Lambda_1 B_1^4 \cos^5 \Psi d\Psi</math>
-<math display="block">= \int_{0}^{\Psi_1} \frac{\pi}{4} \rho \Lambda_1 B_1^4 \cos^5 \Psi d\Psi</math>
-<math display="block">= \int_{0}^{\Psi_1} \frac{\pi}{4} \rho \Lambda_1 B_1^4 \cos^</math>
-infinitely small <math>cc_{\pi_2}V_2</math> d to the height <math>c_{\pi_2}V_2</math> and <math>cc_{\pi_2}V_2</math> <math>cc_{\pi_2}V_3</math> <math>cc_{\pi_2}V_4</math> <math>cc_{\pi_2}V_4</math> <math>cc_{\pi_2}V_4</math> <math>cc_{\pi_2}V_4</math> <math>cc_{\pi_2}V_4</math> <math>cc_{\pi_2}V_4</math> <math>cc_{\pi_2}V_4</math> <math>cc_{\pi_2}V_4</math> <math>cc_{\pi_2}V_4</math> <math>cc</math>
->(12.)
-of the standard D the near depth of the ocean. The height
-<math>\xi_n = \int_{-\infty}^{\frac{\pi}{2}} \pi^{th} \cos \theta \sin \theta \sin \theta \cos \theta \cos \theta \cos \theta \cos \theta \cos \theta \cos \theta \cos \theta</math>
-each of the surfacetor the shell <math>\frac{1}{2}(H+D)</math>. Similarly, D
-The values of A<sub>1</sub>, B<sub>1</sub>, &c.; A'<sub>1</sub>, B'<sub>1</sub>, &c., must be found for
-each zone by the following method.
-Let T represent the thickness in feet or miles of a zone of
-the external shell, O the mean latitude of the zone, a the polar
-semi-axis of the earth, <math>\beta</math> its equatorial semi-axis, D the depth
-of the lower surface of the shell below the surface of the sea,
-R, the radius of the earth at O, and R the radius of the in-
-ternal spheroid at the same latitude. Then
-<math display="block">R_{\theta} = \sqrt{(\alpha^2 \sin^2 \Theta + \beta^2 \cos^2 \Theta)}.</math>
-<math display="block">\mathbf{R} \stackrel{\text{def}}{=} \mathbf{R} \stackrel{\text{def}}{\longrightarrow} (\mathbf{D} \stackrel{\delta}{\longrightarrow} \mathbf{T}),</math>
-Let <math>\gamma</math> correspond to <math>\alpha</math>, <math>\eta</math> to <math>\beta</math>, as D – T, or G does to R<sub><math>\theta</math></sub>.
-(11) . .
-Then <math>\alpha \pm \gamma = \frac{\alpha (R_{\theta} \pm G)}{R_{\theta}}</math>, <math>\beta \pm \eta = \beta \frac{(R_{\theta} \pm G)}{R_{\theta}}</math>
-<math>(R_{\theta} \pm G)</math>
-e even y force on the unice of the earth it is midifferent
+380    Mr. Hennessy *on the Connexion between the Rotation of*
+
+hemisphere, and $\zeta_1$, $\zeta_2$, $\zeta_3$, &c. the moments of inertia of the zones of the southern hemisphere, $\xi_1$ and $\zeta_1$ being those of the zones in the immediate vicinity of the equator. Then J the moment of inertia of the entire shell will be obtained by the equation:
+
+$$
+\mathrm J=\xi_1+\xi_2+\xi_3+\&\mathrm{c.}+\zeta_1+\zeta_2+\zeta_3+\&\mathrm{c.}=\mathrm I_4;\tag{10.}
+$$
+
+the external shell being so thin that the variation in its density may be neglected, and its moment of inertia found as if it were homogeneous. Let the zone $\xi_1$ be included between the latitude $\psi_1$ and the equator, the zone $\xi_2$ between $\psi_1$ and $\psi_2$, and so on to the zone $\xi_n$, included between $\psi_{n-1}$ and $\psi_n$, or $\frac\pi2$. Similarly, let $\zeta_1$, $\zeta_2$ and $\zeta_m$ be included respectively between the equator and $\theta_1$, $\theta$ and $\theta_2$, $\theta_{m-1}$ and $\theta_m$.
+
+The values of the moments of inertia of the zones will be then found by the equations which follow, where $\mathrm A_1$, $\mathrm B_1$, $\mathrm A_2$, $\mathrm B_2$, &c. represent the semi-polar and semi-equatorial axes of the imaginary spheroidal shells which correspond to each zone of the northern hemisphere; and $\mathrm A'_1$, $\mathrm B'_1$, $\mathrm A'_2$, $\mathrm B'_2$ have a similar meaning with respect to the zones of the southern hemisphere.
+
+$$
+\left.\begin{aligned}
+\xi_1&=\int_0^{\psi_1}\frac\pi4\rho\mathrm A_1\mathrm B_1^4\cos^5\Psi\,d\Psi\\
+\xi_2&=\int_{\psi_1}^{\psi_2}\frac\pi4\rho\mathrm A_2\mathrm B_2^4\cos^5\Psi\,d\Psi\\
+&\ldots\\
+\xi_n&=\int_{\psi_{n-1}}^{\pi/2}\frac\pi4\rho\mathrm A_n\mathrm B_n^4\cos^5\Psi\,d\Psi.
+\end{aligned}\right\}\tag{11.}
+$$
+
+$$
+\left.\begin{aligned}
+\zeta_1&=\int_0^{\theta_1}\frac\pi4\rho\mathrm A'_1{\mathrm B'_1}^4\cos^5\Psi\,d\Psi\\
+\zeta_2&=\int_{\psi_1}^{\psi_2}\frac\pi4\rho\mathrm A'_2{\mathrm B'_2}^4\cos^5\Psi\,d\Psi\\
+&\ldots\\
+\zeta_m&=\int_{\psi_{m-1}}^{\pi/2}\frac\pi4\rho\mathrm A'_m{\mathrm B'_m}^4\cos^5\Psi\,d\Psi
+\end{aligned}\right\}\tag{12.}
+$$
+
+The values of $\mathrm A_1$, $\mathrm B_1$, &c.; $\mathrm A'_1$, $\mathrm B'_1$, &c., must be found for each zone by the following method.
+
+Let T represent the thickness in feet or miles of a zone of the external shell, $\Theta$ the mean latitude of the zone, $\alpha$ the polar semi-axis of the earth, $\beta$ its equatorial semi-axis, D the depth of the lower surface of the shell below the surface of the sea, $\mathrm R_\theta$ the radius of the earth at $\Theta$, and R the radius of the internal spheroid at the same latitude. Then
+
+$$
+\mathrm R=\mathrm R_\theta-(\mathrm D-\mathrm T),\qquad \mathrm R_\theta=\sqrt{(\alpha^2\sin^2\Theta+\beta^2\cos^2\Theta)}.
+$$
+
+Let $\gamma$ correspond to $\alpha$, $\eta$ to $\beta$, as $\mathrm D-\mathrm T$, or G does to $\mathrm R_\theta$.
+
+Then $\alpha\pm\gamma=\frac{\alpha(\mathrm R_\theta\pm\mathrm G)}{\mathrm R_\theta}$, $\beta\pm\eta=\beta\frac{(\mathrm R_\theta\pm\mathrm G)}{\mathrm R_\theta}$;
 
 ## PDF page 395
 
@@ -22281,44 +21546,37 @@ the last two equations, and we shall obtain
 
 ## PDF page 398
 
-384<sup>8</sup>
-Prof. Scheenbein on a Peculiar Method of
-The decrease of the groperty with the view of preparing SC and the preparity of the cach of twelve large balladas hilled with a this entity of the cach of twelve large balladas hilled with the cach of twelve large balladas
-in such a heart the ing (is the median) of the pieces of photos in
-substituting for the its value SIG, Sibeing the surface of the
-to the action of the ambient air. I left the whole to itselfbral
-In the above formula, and the first of the two equations ex-
-pressing the value of Co, we have used for brevity the letters
-k, ki and Ky for the following expressions:
-rine; passe of starch containing some is like of the start which are the companied of the start of the start of the start of the start of the start of the start of the start of the start of the start of the start of the st
-b.K. = 1875 \( \frac{25}{36} \pi \) 2 \( \cot \frac{5}{36} \pi \) 2 \( \cot \frac{5}{36} \pi \) 2 \( \cot \frac{5}{36} \pi \) 2 \( \cot \frac{5}{36} \pi \) 2 \( \cot \frac{5}{36} \pi \) 2 \( \cot \frac{5}{36} \pi \) 2 \( \
-level of the sea is equal to the mean depth of the ocean, and
-for the value of the latter two miles, the surface of the sea<br>twice that of the dry land, and the density of the water half
-that of the land, the value of C1 will evidently be two miles.
-A value of V not very inconsistent with observation would
-be half a mile; those of a and B are obtained from Mr.
-We have made
-Airy's treatise on the Figure of the Earth.
-τ = 1000 of a second, as it has been shown that if the length
-gictued most beautiful crystals of the red evanua.0001t, is
-of the day had varied since the time of Hipparchus by the
-one-three-thousandth part of a second, the value of the secular
-equation of the moon would be changed by more than 4".
-The sidereal day being represented by t, it follows that -
-The value of Picalculated from these data
-will be less than five feet multiplied into the area of all the
-an not yet prepared to say, but I have reasons whichiaffyrb
-The amount of denudation of the earth's surface repre-
-sented by the above quantity appears to be within the limits
-which can be assigned by geological observations dulos latter Dublin, July 9, 1845 for the can agree agreement and the can be assigned by geological observations dulos latter by geological observations dulos latter by geol
-having been decupposed by a one
-LX. On a Peculiar Method of obtaining the Sesqui-ferro-
-cyanide of Potassium. By Prof. SCHENBEIN, of Basle*.
-Y experiments on ozone have shown that this substance,
-like chlorine, is capable of transforming the yellow
-ferrocyanide of potassium into the red one. The other day
-* Communicated by the Author.
-Policia Life of a 120 m
+384    Prof. Schœnbein *on a Peculiar Method of*
+
+$$
+\mathrm P=\frac{\mathrm{SC}_1}{\mathrm V}\left\{\beta-\mathrm D+\mathrm C_1+\sqrt{(\beta-\mathrm D+\mathrm C_1)^2-\frac{\tau}{t}\left[\frac{\mathrm K}{k_1}(\alpha-\mathrm D)(\beta-\mathrm D)^4+(\beta-\mathrm D+\mathrm C_1)^2\mathbin{\text{[?]}}\frac{(\alpha-\mathrm D)(\beta-\mathrm D)^4}{(\alpha-\mathrm D+\mathrm C_1)(\beta-\mathrm D+\mathrm C_1)^2}\right]}\right\},\tag{19.}
+$$
+
+substituting for $\mu$ its value $\mathrm{SC}_1$, S being the surface of the land.
+
+In the above formula, and the first of the two equations expressing the value of $\mathrm C_2$, we have used for brevity the letters $k$, $k_1$ and K for the following expressions:—
+
+$$
+k=\frac8{15}\pi,\quad k_1=\frac8{15}\pi(\alpha-\mathrm D+\mathrm C_1)(\beta-\mathrm D+\mathrm C_1)^2,
+$$
+
+$$
+\mathrm K=\frac{6912}{1875\pi^2}\left\{\left(\frac{25}{36}\pi^2-2\right)\cot\frac56\pi+\frac2{\sin\frac56\pi}-\frac53\pi^2\right\}.
+$$
+
+If we assume that the mean height of the land above the level of the sea is equal to the mean depth of the ocean, and for the value of the latter two miles, the surface of the sea twice that of the dry land, and the density of the water half that of the land, the value of $\mathrm C_1$ will evidently be two miles. A value of V not very inconsistent with observation would be half a mile; those of $\alpha$ and $\beta$ are obtained from Mr. Airy’s treatise on the Figure of the Earth. We have made $\tau=\frac1{1000}$ of a second, as it has been shown that if the length of the day had varied since the time of Hipparchus by the one-three-thousandth part of a second, the value of the secular equation of the moon would be changed by more than $4''$. The sidereal day being represented by $t$, it follows that $\frac\tau t=\frac1{86400000}$. The value of P calculated from these data will be less than five feet multiplied into the area of all the dry land.
+
+The amount of denudation of the earth’s surface represented by the above quantity appears to be within the limits which can be assigned by geological observations.
+
+Dublin, July 9, 1845.
+
+---
+
+LX. *On a Peculiar Method of obtaining the Sesqui-ferrocyanide of Potassium. By* Prof. SCHŒNBEIN, *of Basle*.*
+
+MY experiments on ozone have shown that this substance, like chlorine, is capable of transforming the yellow ferrocyanide of potassium into the red one. The other day
+
+\* Communicated by the Author.
 
 ## PDF page 399
 
@@ -22425,51 +21683,18 @@ Communicated by the Author, and in I
 
 ## PDF page 401
 
-Prof. Scheenbein on the Nature of Ozone.
-387
-the present state of science renders it rather more than pro-
-hable, that that agent, powerful as it is in other respects, is in-
-capable of causing in a direct manner any material change in
-before concludies body with the character of the character of the character of the character of the character of the character of the character of the character of the character of the character of the character of the cha
-If the conclusion drawn by the distinguished philosophers of
-Geneva should happen to be correct, the transformation of
-common oxygen into ozone by electrical action would be a
-case quite unique, and on that very account of the utmost
-scientific importance. Such a fact would indeed almost imply
-the possibility of transforming one elementary body into an-
-other by the agency of electricity, for in many respects ozone
-differs as materially from oxygen as any two heterogeneous
-bodies can possibly do. I It is true, modern chemistry has made
-is acquainted with a number of facts which prove that under
-given circumstances the same elementary substance may exist
-in different conditions of Those peculiar states have, however,
-as fair as I know, not yet been observed in any gaseous ele-
-mentary body*; and it is further known that the allotropical
-modifications of simple bodies have as yet been brought about
-by the agency of heat only, and in no case by that of electri-
-city. It is said that chlorine, after having been exposed to
-the action of solar light, enjoys the power of combining with
-hydrogen in the dark, and at the common temperature. Sup-
-posing Dr. Draper's observation fully correct, the elementary
-nature of chlorine is not half so certain as that of oxygen; and
-then we must bear in mind that the modification which chlo-
-rine undergoes under the influence of light is insignificant if
-compared to that which oxygen is said to suffer when exposed to the action of electricity 9 van even of creation of electricity 9 van even of the oxygen is said to suffer when exposed to the oxygen is said to suffer when e
-to the action of electricity.
-If ozone be nothing but oxygen modified by electrical influ-
-ence, it follows that a given volume of absolutely pure, i.e.
-anhydrous oxygen, when sufficiently long acted upon by elec-
-trical sparks, must be entirely transformed into ozone, i. e.
-changed in such a way as to be readily and completely taken
-up by a solution of iodide of potassium or of the yellow ferro-
-cyanide of potassium. An experiment of that kind has not yet been made; but if any chemist succeeds in transforming
-one cubic inch only of what is called completely dry oxygen into ozone, we must admit the correctness of the conclusion
-of the philosophers of Geneva, extraordinary as it may appear
-to us. Before such a decisive result is obtained, I continue
-to consider ozone as a peculiar peroxide of hydrogen; and
-the principal reasons which determine me to maintain that view are the following in the state of the following in the state of the state of the state of the state of the state of the state of the state of the state of the 
+Prof. Schœnbein *on the Nature of Ozone.*    387
+
+the present state of science renders it rather more than probable, that that agent, powerful as it is in other respects, is incapable of causing in a direct manner any material change in the chemical bearings of elementary bodies.
+
+If the conclusion drawn by the distinguished philosophers of Geneva should happen to be correct, the transformation of common oxygen into ozone by electrical action would be a case quite unique, and on that very account of the utmost scientific importance. Such a fact would indeed almost imply the possibility of transforming one elementary body into another by the agency of electricity, for in many respects ozone differs as materially from oxygen as any two heterogeneous bodies can possibly do. It is true, modern chemistry has made us acquainted with a number of facts which prove that under given circumstances the same elementary substance may exist in different conditions. Those peculiar states have, however, as far as I know, not yet been observed in any gaseous elementary body*; and it is further known that the allotropical modifications of simple bodies have as yet been brought about by the agency of heat only, and in no case by that of electricity. It is said that chlorine, after having been exposed to the action of solar light, enjoys the power of combining with hydrogen in the dark, and at the common temperature. Supposing Dr. Draper’s observation fully correct, the elementary nature of chlorine is not half so certain as that of oxygen; and then we must bear in mind that the modification which chlorine undergoes under the influence of light is insignificant if compared to that which oxygen is said to suffer when exposed to the action of electricity.
+
+If ozone be nothing but oxygen modified by electrical influence, it follows that a given volume of absolutely pure, *i. e.* anhydrous oxygen, when sufficiently long acted upon by electrical sparks, must be entirely transformed into ozone, *i. e.* changed in such a way as to be readily and completely taken up by a solution of iodide of potassium or of the yellow ferrocyanide of potassium. An experiment of that kind has not yet been made; but if any chemist succeeds in transforming one cubic inch only of what is called completely dry oxygen into ozone, we must admit the correctness of the conclusion of the philosophers of Geneva, extraordinary as it may appear to us. Before such a decisive result is obtained, I continue to consider ozone as a peculiar peroxide of hydrogen; and the principal reasons which determine me to maintain that view are the following:—
+
 1. Ozone is such a powerfully-smelling substance, that in-
-* See Prof. Draper's paper in the present Number, p. 327.-ED.
+
+\* See Prof. Draper’s paper in the present Number, p. 327.—Ed.
+
 2 C 2
 
 ## PDF page 402
@@ -22632,46 +21857,19 @@ The author adduces a great number of observations which are in
 
 ## PDF page 406
 
-Royal Society.
-868392
-opposition to the generally received opinion, that the mercury in the
-debatometer has always a tendency to tall when the wind is strong.
-During a period of fifteen years passed in the Gulf and River St.
-Lawrence, he found that the barometer as frequently rises as falls
-under the prevalence of a strong wind; and that the winds; often
-blow with greater force with a rising than with a falling harometer.
-of the gives a ercumstantial account of the progress and course of va-
-rious gales which fell under his observation during that period, and
-from which he infers the existence of a steady connexion between
-the prevailing winds of this region and the movements of the baro-<br>necter, and enters into an inquiry into the mode in which that in-
-strument is affected by them. The extensive valley of the St. Law-<br>rence is bounded at its lower part, for a distance of nearly 500<br>miles, by ranges of hills, rising on each side to a considerable eleva-
--tion. Within this space, the ordinary winds follow the course of the river; and in almost every instance when they approach from wind-
-ward, the barometer rises with them; and when, on the other hand,
-the wind approaches from legyard, the barometer not only falls be-<br>solver the arrival of the wind, but continues to fall until it has sub-
-sided.
-suled.
+392    *Royal Society.*
 
-Solve of the phosphorus being thus burned by oxygen at a distance of hosphorus and sulfate of the control of the control of the control of the control of the control of the control of the control of the control of 
-gister of the barometer and winds at various points in the valley of
-the River St. Lawrence, during the years 1834 and 1835, accompa-
-inted by remarks on different points deserving notice in particular
-cases.
-Cases. Other volatile electro-positive fusion of the Editor Policy of the Editor Policy of Light by reflection of the Editor Policy of Light by reflection from Metallic Surfaces. By the Rev Bades Powell, M.A., F.R.S., Savi
-In a former paper, published in the Philosophical Transactions
-for 1843, the author gave an account of the observations he had made on the phenomena of elliptic polarization by reflexion from
-certain metallic surfaces, but with reference only to one class of
-comparative results. He has since pursued the inquiry into other
-relations besides those at first contemplated, and the present paper
-is devoted to the details of these new observations, obtained by va-
-rying the inclination of the incident rays, and the position of the
-plane of analysation, and by employing different metals as the re-
-flecting surfaces. By the application of the undulatory theory of
-light to the circumstances of the experiments and the resulting phæ-
-nomena, the law of metallic retardation is made the subject of ana-
-Tytic investigation. A polariscope of peculiar construction, of which
-of description is given at the conclusion of the paper, was employed
-in the experiments; and tables are subjoined of the numerical results of the observations, and interest of the observations, and interest of the observations, and interest of the Gas Voltaic Battery. Voltaic Action of Phos
-only his action in the control of the London Institution, manual bases of the London Institution, manual bases of the published in the Philoso-the author, referring to a paper of this published in the Philoso-the author, r
+opposition to the generally received opinion, that the mercury in the barometer has always a tendency to fall when the wind is strong. During a period of fifteen years passed in the Gulf and River St. Lawrence, he found that the barometer as frequently rises, as falls under the prevalence of a strong wind; and that the winds often blow with greater force with a rising than with a falling barometer. He gives a circumstantial account of the progress and course of various gales which fell under his observation during that period, and from which he infers the existence of a steady connexion between the prevailing winds of this region and the movements of the barometer, and enters into an inquiry into the mode in which that instrument is affected by them. The extensive valley of the St. Lawrence is bounded at its lower part, for a distance of nearly 500 miles, by ranges of hills, rising on each side to a considerable elevation. Within this space, the ordinary winds follow the course of the river; and in almost every instance when they approach from windward, the barometer rises with them; and when, on the other hand, the wind approaches from leeward, the barometer not only falls before the arrival of the wind, but continues to fall until it has subsided.
+
+An appendix is subjoined containing extracts from the tabular register of the barometer and winds at various points in the valley of the River St. Lawrence, during the years 1834 and 1835, accompanied by remarks on different points deserving notice in particular cases.
+
+“On the Elliptic Polarization of Light by reflexion from Metallic Surfaces.” By the Rev. Baden Powell, M.A., F.R.S., Savilian Professor of Geometry in the University of Oxford.
+
+In a former paper, published in the Philosophical Transactions for 1843, the author gave an account of the observations he had made on the phenomena of elliptic polarization by reflexion from certain metallic surfaces, but with reference only to one class of comparative results. He has since pursued the inquiry into other relations besides those at first contemplated, and the present paper is devoted to the details of these new observations, obtained by varying the inclination of the incident rays, and the position of the plane of analysation, and by employing different metals as the reflecting surfaces. By the application of the undulatory theory of light to the circumstances of the experiments and the resulting phænomena, the law of metallic retardation is made the subject of analytic investigation. A polariscope of peculiar construction, of which a description is given at the conclusion of the paper, was employed in the experiments; and tables are subjoined of the numerical results of the observations.
+
+“On the Gas Voltaic Battery. Voltaic Action of Phosphorus, Sulphur, and Hydrocarbons.” By William Robert Grove, Esq., M.A., F.R.S., V.P.R.I., Professor of Experimental Philosophy at the London Institution.
+
+The author, referring to a paper of his published in the Philosophical Transactions for 1843, states, that in repeating and verifying
 
 ## PDF page 407
 
@@ -22828,58 +22026,15 @@ hands of the Royal Society, for the purpose of being made the basis
 
 ## PDF page 410
 
-Royal Society.
-7396
--of Buturd tinquity, in what he terms dithe brase entistignee of Meteo-
-phate of soda exist together in solution; and by varying they golor-
-end if Clautibutions to the Chemistry of the Urine to an the variations
-eilt the Akaline and Eafthy Phosphytes in the healthy state and on
-ather Alkalescence of the Diring from fixed Alkali. Bd By Henry Boilce
-i Dottes, MaAd Cantaln; Toicentiate of the Royal College of Physicians.
-The author, having observed that in some states of disease there
-occurs in the urineal great excess of the learthy phosphates, was in-
-duced to investigates the isubject; sand as a preliminary inquiry, to
-easebrtain the evariations in the amount of these phosphates at differ-
-entrimes and the same person in a state of chealth, and it of trade the
-ecauses which determine an excess of a deficiency of these salts in the
-vurinei; moting, edf the asamentime; the wariations; in the quantity of
-otheralkaline phosphates contained in lit, with a view of discovering
--wliether these variations are influenced by the same nor by different
-Leauses de The principal cresults to which his experiments thave con-
-rducted him are the following tall The equantity of the Earthy phos-
-lphates) ingthe drine woided doon after taking food is eon iderably
-egreater than in that voided at other times; and this happens whether
-the meal consists of animal food or of bread only tu Afterslong fast-
-ringiothe proportion of earthy phosphates is considerably diminished.
-On the other hand, the dalkaline phosphates are present in greatest
-Equantity when the food consists of breadcalone towhen meat alone is
-ofakens the deficiency in those salts is still more marked than the
-excess anothe former case. Exercise occasions, ildadhange in the
-riquantity of the earthy phosphates, but causes and increase of nearly
-done-third in the amount of alkaline phosphates 3 but its influence is,
-Lonithe whole, iless than that of dietite. The earthy phosphates are in-
-creased in quantity by chloride of calcium, sulphate of inagnesia,
-"On a Peculiar Shamote of the chiral and a Peculiar Shamote of the chiral and chiral and chiral and chiral and chiral and chiral and chiral and chiral and chiral and chiral and chiral and chiral and chiral and chiral and c
-yd The author dext examines the conditions in which the unine is
-alkalescent, and which he considers to be of two kinds; the one, long
-known as ammoniacal; and arising from the presence of carbonate of
-ammonia; and the other, which has not hitherto been distinctly re-
-cognised, arising from fixed alkali, and appearing most frequently
-infuring secreted during a period of from two to four diours after
--breakfast, in persons suffering only from defective digestion ... Under
-nthese circumstances, hit may be, when woided so either turbid from
-amorphous sediment, or clear and alkaline when tested, or free from
-deposit and slightly acid and If in either of these last eases it be lieated,
-an amorphous precipitate falls down, which is soluble in dilute by-
--drochloric acid, ornin alsolution of biphosphate of soda; Healthy
-eurine may at any time be made to yield a precipitate of earthy phos-
-phates by heat, even though it be acid, by having a portion of this
-lacid neutralised by any alkali, or by phosphate of soda, the fluid
-becoming more heid when boiled Asolution of earthy phosphates
-in biphosphate of soda also gives a precipitate on boiling, if some of
-gits acid reactionlis removed by any alkali. The fluid when boiled
-becomes more acid to test-paper, indicating the formation of a more
-abasic earthy phosphate. A result precisely similar is obtained when
+396    *Royal Society.*
+
+of future inquiry, in what he terms the nascent science of Meteorology.
+
+“Contributions to the Chemistry of the Urine; on the variations in the Alkaline and Earthy Phosphates in the healthy state, and on the Alkalescence of the Urine from fixed Alkali.” By Henry Bence Jones, M.A. Cantab., Licentiate of the Royal College of Physicians.
+
+The author, having observed that in some states of disease there occurs in the urine a great excess of the earthy phosphates, was induced to investigate the subject; and as a preliminary inquiry, to ascertain the variations in the amount of these phosphates at different times in the same person in a state of health, and to trace the causes which determine an excess or a deficiency of these salts in the urine; noting, at the same time, the variations in the quantity of the alkaline phosphates contained in it, with a view of discovering whether these variations are influenced by the same, or by different causes. The principal results to which his experiments have conducted him are the following: The quantity of the earthy phosphates in the urine voided soon after taking food is considerably greater than in that voided at other times; and this happens whether the meal consists of animal food or of bread only. After long fasting, the proportion of earthy phosphates is considerably diminished. On the other hand, the alkaline phosphates are present in greatest quantity when the food consists of bread alone: when meat alone is taken, the deficiency in those salts is still more marked than the excess in the former case. Exercise occasions no change in the quantity of the earthy phosphates, but causes an increase of nearly one-third in the amount of alkaline phosphates; but its influence is, on the whole, less than that of diet. The earthy phosphates are increased in quantity by chloride of calcium, sulphate of magnesia, and calcined magnesia taken into the stomach.
+
+The author next examines the conditions in which the urine is alkalescent, and which he considers to be of two kinds; the one, long known as *ammoniacal*, and arising from the presence of carbonate of ammonia; and the other, which has not hitherto been distinctly recognised, arising from fixed alkali, and appearing most frequently in urine secreted during a period of from two to four hours after breakfast, in persons suffering only from defective digestion. Under these circumstances, it may be, when voided, either turbid from amorphous sediment, or clear and alkaline when tested, or free from deposit and slightly acid. If in either of these last cases it be heated, an amorphous precipitate falls down, which is soluble in dilute hydrochloric acid, or in a solution of biphosphate of soda. Healthy urine may at any time be made to yield a precipitate of earthy phosphates by heat, even though it be acid, by having a portion of this acid neutralised by any alkali, or by phosphate of soda, the fluid becoming more acid when boiled. A solution of earthy phosphates in biphosphate of soda also gives a precipitate on boiling, if some of its acid reaction is removed by any alkali. The fluid when boiled becomes more acid to test-paper, indicating the formation of a more basic earthy phosphate. A result precisely similar is obtained when
 
 ## PDF page 411
 
@@ -22993,58 +22148,31 @@ the eye, and in those of the skin of the negro.
 
 ## PDF page 413
 
-399
-Royal Society.
-off Qn the Temperatures of Man." By John Davy M.D. F.R.S.
-scription referring to a diagram is given of this portable sexted & . L
--I Having in a former paper shown that, contrary to a commonly
-received topinion, the temperature of the human body, as mea-
-sured by a thermometer placed; junder the tongue, is not a constant
-one, other author, has are sumed, the inquiry, and gives, sin, the present
-paper, the results of numerous observations made with a particular
-instrument constructed for the purpose, admitting of minute accu-
-racy (each degree of the scale being divided into ten parts), and
-when used with the precautions pointed out affording satisfactory
-indications in many problems which may be proposed relative to the
-temperature of man, &c., and confines himself to at small number,
-offering the information the brings forward lonly as a preliminary
-aid of the microscope, he finds noitules right to bismi moitudirting
-clements, arranged in succeeding sections, are in paper is divided into seven sections as in bourse, arranged in succeeding seven sections.
-at The first treats of variations of temperature during the twenty-four
-hours. The author finds from his observations, that the temperature;
-is highest in the morning, on rising lafter sleep;; that it continues
-high, but fluctuating, till the evening ; and that it is lowest about
-midnight, ranging on an average from 98:7, to 19719 nob mode enived
-tu The second, of variations during the different seasons. 25 These, he
-finds, bear some relation to the temperature of the air, but less than
-might be expected; which he attributes to the majority of the ob-
-servations having been made within doors, under circumstances pe-
-nucleus, enveloped by a single layertimrofinur of eldaruored, virginia
-The third, of the influence of active exercise on the temperature.
-The effect of this, when not carried to the length of exhausting fac-
-tigue, he finds to be elevating; and that the augmentation is, within
-a certain limit, proportional to the degree of muscular exertion itall
-The fourth, of passive such as carriage exercise ... The effect of
-this in a cool air, contrary to that of quick walking or riding, would
-3000th to the 2500th part of an inch. These gairswal ed ot rasqqa
-The fifth, of abstinence from all exercise in a cold atmosphere.
-This he finds to be depressing in a still greater degree; sitting in a
-cold church has occasioned a reduction of temperature from 10 to
-201 the air of the church being from 42% to 32% on the benfish-flow
-he The sixth, of sustained attention or exertion of mind of his would
-appear to have the effect of raising the temperature, but in a much
-author is of opinion that the nuclei, esigney ylibod nant sergeb, seal
-The seventh, of taking food in It would appear that a light meal,
-such as breakfast, alters very little, the temperature, whilst a heavy
-meal, such as dinner with wine, tends to lower it and the latter and the
-The conclusion drawn by the author from his observations, con-
-sidered in their greatest generality, is, that the temperature of inan-
-is constantly fluctuating within a certain limit; regularly during
-the twenty four hours; and irregularly according to the operation;
-of certain disturbing circumstances the cold in the wolld ai disturbing circumstances the cold in the cold in the cold in the cold in the cold in the cold in the cold in the cold in the cold in the cold in the cold in the 
-Should multiplied observations give similar results, he infers that,
-they will admit of many applications, both as regards the regulation
-the eye, and in those of the skin of the negro.
+*Royal Society.*    399
+
+“On the Temperature of Man.” By John Davy, M.D., F.R.S. L. & E.
+
+Having in a former paper shown that, contrary to a commonly received opinion, the temperature of the human body, as measured by a thermometer placed under the tongue, is not a constant one, the author has resumed the inquiry, and gives, in the present paper, the results of numerous observations made with a particular instrument constructed for the purpose, admitting of minute accuracy (each degree of the scale being divided into ten parts), and when used with the precautions pointed out, affording satisfactory indications in many problems which may be proposed relative to the temperature of man, &c., and confines himself to a small number, offering the information he brings forward only as a preliminary contribution in aid of their solution.
+
+The paper is divided into seven sections.
+
+The first treats of variations of temperature during the twenty-four hours. The author finds from his observations, that the temperature is highest in the morning, on rising after sleep; that it continues high, but fluctuating, till the evening; and that it is lowest about midnight, ranging on an average from 98·7 to 97·9.
+
+The second, of variations during the different seasons. These, he finds, bear some relation to the temperature of the air, but less than might be expected; which he attributes to the majority of the observations having been made within doors, under circumstances peculiarly favourable to uniformity.
+
+The third, of the influence of active exercise on the temperature. The effect of this, when not carried to the length of exhausting fatigue, he finds to be elevating; and that the augmentation is, within a certain limit, proportional to the degree of muscular exertion.
+
+The fourth, of passive, such as carriage exercise. The effect of this in a cool air, contrary to that of quick walking or riding, would appear to be lowering.
+
+The fifth, of abstinence from all exercise in a cold atmosphere. This he finds to be depressing in a still greater degree; sitting in a cold church has occasioned a reduction of temperature from $1^{\circ}$ to $2^{\circ}$, the air of the church being from $42^{\circ}$ to $32^{\circ}$.
+
+The sixth, of sustained attention or exertion of mind. This would appear to have the effect of raising the temperature, but in a much less degree than bodily exercise.
+
+The seventh, of taking food. It would appear that a light meal, such as breakfast, alters very little the temperature, whilst a heavy meal, such as dinner with wine, tends to lower it.
+
+The conclusion drawn by the author from his observations, considered in their greatest generality, is, that the temperature of man is constantly fluctuating within a certain limit; regularly during the twenty-four hours; and irregularly according to the operation of certain disturbing circumstances.
+
+Should multiplied observations give similar results, he infers that they will admit of many applications, both as regards the regulation
 
 ## PDF page 414
 
@@ -23155,64 +22283,30 @@ Phil. Mag. S. 3. Vol. 27. No. 181. Nov. 1845. 2 D
 
 ## PDF page 416
 
-402
-Intelligence and Miscellaneous Articles.
-virons of Algiers, and it accompanies an ore of manganese which is
-now worked. It consists of two distinct portions, one clamellated
-in three directions and of a rose colours the other, on the surface
-exposed to the air, is black and earthy, and about one third of an
-inch thick pit is, however, easy to ascertain the junction of these
-two substances; it is very evident that the black portion is the
-rose-coloured mineral altered.
-found.
-ba Red Mineral. The density of this is 3.559 bit scratches glass its
-texture is sometimes laminated and sometimes granular; lit fuses
-before the blowpipe, but not very readily; it does not efferyesce
-with acid; boiling hydrochloric acid acts slowly and with difficulty
-upon it, and deposits silica; the solution was found to contain pro-
-toxide of iron and of manganese, with lime and magnesia qu guitos
-a Inforder to analyse this substance, a portion of it was fused with
-carbonate of soda pethe fused mass was treated with hydrochloric
-acid; and the silica separated by the usual process; this was entirely
-dissolved, after being weighed, in solution of potash; the iron and
-manganese were precipitated together from the solution by means of
-hydrosulphate of ammonia; the sulphurets were dissolved in con-
-centrated hydrochloric acid, to which was added a small quantity of
-nitric acid to peroxidize the iron; the peroxide of iron was then se-
-parated from the oxide of manganese by succinate of ammonia idw
-and The liquor from which the iron and manganese were separated
-was saturated with an acid, boiled and filtered to separate the sul-
-phur, then saturated with ammonia, and precipitated successively by
-oxalate and phosphate of ammonia; the lime was estimated in the
-state of sulphate. The results of the analyses were as follows:-
-43.00
-Protoxid epiganese......
-09.9
-Protoxide of manganese: 139.46 ebixore
-1.32
-Protoxide of iron 6.42 omid<br>Lime Solite about 10 ob 4.66 ldulosal<br>Magnesia 2.60
-2.40
-27.20
-99.66
-When it is considered that the rose-coloured silicate is acted upon
-This rose-coloured substance is therefore bisilicate of manganese
-(rhodonite of Beudant), as indicated by its external characters. A
-very considerable portion of protoxide of manganese is replaced by
-isomorphous bases; the formula of this mineral is (Mn. Fe. Ca Mg.)
-that which corresponds to the gelatinous silica, and which is 2.28, as estatus silved silved silved silved silved silved silved silved silved silved silved silved silved silved silved silved silved silved silved silved sil
-friable; heated in a tube it yields water. WHydrochloric acid attacks
-it readily, with disengagement of chlorine, and leaves a rose-red re-
-sidue.
-and iron, with a certain proportion of unaltered bisilicate.
-To analyse this substance, it was acted upon by hydrochloric acid,
-and the chlorine evolved was received in a very clear solution of sul-
-phurous acid mixed with chloride of barium; the boiling was dis-
-continued soonafter the decoloration of the substance, and the com-
-plete expulsion of the chlorine from the receiver, in order that the
-red matter should be as little acted upon as possible of The solution
-of sulphurous acid boiled and filtered yielded sulphate of barytes,
-2 11 2
-÷
+402    *Intelligence and Miscellaneous Articles.*
+
+virons of Algiers, and it accompanies an ore of manganese which is now worked. It consists of two distinct portions, one lamellated in three directions and of a rose colour; the other, on the surface exposed to the air, is black and earthy, and about one-third of an inch thick; it is, however, easy to ascertain the junction of these two substances; it is very evident that the black portion is the rose-coloured mineral altered.
+
+*Red Mineral.*—The density of this is 3·559; it scratches glass; its texture is sometimes laminated and sometimes granular; it fuses before the blowpipe, but not very readily; it does not effervesce with acid; boiling hydrochloric acid acts slowly and with difficulty upon it, and deposits silica; the solution was found to contain protoxide of iron and of manganese, with lime and magnesia.
+
+In order to analyse this substance, a portion of it was fused with carbonate of soda; the fused mass was treated with hydrochloric acid; and the silica separated by the usual process; this was entirely dissolved, after being weighed, in solution of potash; the iron and manganese were precipitated together from the solution by means of hydrosulphate of ammonia; the sulphurets were dissolved in concentrated hydrochloric acid, to which was added a small quantity of nitric acid to peroxidize the iron; the peroxide of iron was then separated from the oxide of manganese by succinate of ammonia.
+
+The liquor from which the iron and manganese were separated was saturated with an acid, boiled and filtered to separate the sulphur, then saturated with ammonia, and precipitated successively by oxalate and phosphate of ammonia; the lime was estimated in the state of sulphate. The results of the analyses were as follows:—
+
+| | |
+|---|---|
+| Silica | 45·49 |
+| Protoxide of manganese | 39·46 |
+| Protoxide of iron | 6·42 |
+| Lime | 4·66 |
+| Magnesia | 2·60 |
+| | 98·63 |
+
+This rose-coloured substance is therefore bisilicate of manganese (rhodonite of Beudant), as indicated by its external characters. A very considerable portion of protoxide of manganese is replaced by isomorphous bases; the formula of this mineral is $(\mathrm{Mn.\,Fe.\,Ca\,Mg.})\mathrm{S}^2$.
+
+*Black Substance on the Surface of the Silicate.*—This substance is friable; heated in a tube it yields water. Hydrochloric acid attacks it readily, with disengagement of chlorine, and leaves a rose-red residue.
+
+To analyse this substance, it was acted upon by hydrochloric acid, and the chlorine evolved was received in a very clear solution of sulphurous acid mixed with chloride of barium; the boiling was discontinued soon after the decoloration of the substance, and the complete expulsion of the chlorine from the receiver, in order that the red matter should be as little acted upon as possible. The solution of sulphurous acid boiled and filtered yielded sulphate of barytes,
 
 ## PDF page 417
 
@@ -23489,595 +22583,44 @@ and supposed to be wafted from Iceland.
 
 ## PDF page 422
 
-2.82
-at
-.05
-.12
-•26
-.26
-***
-....
-.12
-•08
-.46<br>.35
-....
-90
-****
-Sandwick,<br>Orkney,
-....
-.21
-. . . . .
-•31
-C. Clouston, at Sandwick Manse, ORKNEY.
-Meteorological Observations made by Mr. Thompson at the Garden of the Horticultural Society at Chiswick, near London; by Mr. Veall, Boston; by the Rev. C. Clouston, at Sandwick Manse, Orkney.
-2.75
-0.10
-....
-1.58
-.....
-.....
-0.15
-....
-......
-.....
-.....
-0.92
-.....
-.....
-.....
-shire.
-....
-Dumfries.
-Rain.
-1.26
-.....
-90.
-....
-60
-•24
-.39
-93
-.07
-:34
-.04
-Boston.
-.....
-.....
-....
-.02
-.45
-•29
-.12
-•19
-90.
-1.77
-•0<u>4</u>
-.47
-•02
-0.
-0.
-Ö
-.07
-÷
-Chiswick,
-.....
-nnw.
-....
-SSW.
-SSW.
-nw.
-nne.
-nw.
-ese,
-WUW
-Sandwick,
-SW.
-nw.
-SW.
-nw.
-nw.
-se.
-SW.
-II W
-se.
-se.
-W.
-W
-ŝ
-W.
-¥.
-ġ
-ŝ
-မံ
-Orkney
-wnw.
-wnw.
-to s.
-s to se.
-WUW
-WSW
-nw.
-shire.
-SW.
-ne.
-ne.
-ne.
-ne.
-ne.
-×
-×
-SW.
-ů
-SW.
-မံ
-ś
-se.
-×
-ŝ
-ŝ
-ŝ
-SW
-SW
-ê
-ŝ
-ŝ
-Dumfries.
-Wind.
-calm
-calm
-calm
-calm
-calm
-calm
-calm
-calm
-calm
-calm
-calm
-calm
-calm
-calm
-calm
-calm
-calm
-calm
-calm
-calm
-calm
-calm
-calm
-calm
-ne.
-ne.
-W
-ů
-W.
-စံ
-Boston,
-l p.m.
-ne,
-ne.
-ne.
-ne
-ne.
-ne.
-ne.
-ne,
-SW.
-ne.
-SW
-ne.
-×
-ne,
-ne.
-ne.
-se
-SW
-¥,
-SW.
-SW
-SW
-Ŋ,
-SW
-se.
-SW
-ŝ
-ŝ
-ê
-ŝ
-Chiswick,
-49.41
-<b>–</b>1⁄3
-493
-.m.q
-<math>51\frac{1}{2}</math>
-444 44 44 44 44 44 44 44 44 44 44 44 44
-44½<br>44
-50½<br>50
-Orkney,<br>Sandwick.
-52
-49
-50
-50
-50
-52
-56
-48
-49
-48
-48
-50
-54
-46
-47
-45
-. 78
-51.78
-543<br>523
-552125<br>562125<br>562125<br>562125
-a.m.s
-563
-513<br>533
-483<br>453<br>453<br>453
-50½<br>53½<br>52
-483
-<math>46\frac{1}{2}</math>
-493
-52
-53
-53
-53
-54
-52
-47
-44
-19
-51
-76
-46.0
-43 3
-4021<br>4221<br>4821<br>51
-Dumfries.
-54½<br>56½
-473
-513<br>47
-51½<br>53
-52½ 47
-<math>\frac{37\frac{1}{2}}{51}</math>
-433
-474<br>444<br>454<br>454
-<math>\frac{31_{\frac{1}{2}}}{32}</math>
-443
-443
-Thermometer.
-.niM
-50
-49
-40
-36
-52
-shire.
-59.4
-65<br>58½<br>57
-53 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
-69<sup>1</sup>/<sub>2</sub>
-<math>58\frac{1}{2}</math>
-58½<br>59½<br>56
-543
-56½
-603
-. XRM
-5699
-09
-62
-58
-28
-69
-64
-62
-19
-54.5
-42.2
-54.7
-52.5
-48.5
-.m.s &8
-57
-56
-55
-49
-56
-52 53
-58
-56
-52
-54
-00
-48
-51
-50
-Boston.
-40.63
-37
-43
-38
-53
-53
-35<br>45<br>48<br>48<br>48<br>48
-52
-49
-3823
-40
-48
-54
-34
-48
-Min.
-Chiswick.
-64.57
-20
-20
-64<br>64<br>60<br>60
-63
-27 82 28
-71
-57
-65
-65
-62
-65
-62
-65
-63
-19
-71
-64
-64
-54
-09
-62
-Mak
-29.762
-29.40
-30.56
-30.22
-30-22
-30.28
-30-13
-29.88
-30.00
-30.08
-30.03
-29.36
-29.56
-30.24
-29.25
-89.68
-29.62
-29.85
-30.15
-29.68
-29.39
-30.24
-29.61
-29.41
-29.58
-29.08
-29-32
-30-27
-29.77
-29.37
-85<br>p.m.
-Orkney,<br>Sandwick.
-29.737, 29.758
-30.56
-29.85
-30.24
-30-23
-29.93
-29.74
-30.13
-30.08
-29.38
-29.40
-89.67
-30.08
-29.99
-30.24
-30-23
-29.44
-29.34
-29.14
-29.46
-29.78
-29.43
-29.38
-29.12
-29.43
-30-27
-30-27
-29.24
-29.47
-95<br>a.m.
-Dumfries-shire.
-30.16
-30.19
-30.14
-30.10
-29.85
-29.95
-29.55
-30.19
-30.18
-30.01
-29.38
-29.32
-29.49
-29.30
-29.88
-30.18
-29.48
-29.68
-29.45
-29.60
-29.45
-29.42
-30.17
-30.11
-16.62
-28.97
-29.72
-29.83
-29.31
-29.04
-p.m.
-Barometer
-29.751
-30-20
-30.16
-30.19
-30.50
-29.90
-30.10
-29.80
-30-17
-30.04
-30.05
-29.93
-29.38
-30.16
-29.35
-29.14
-29.58
-30.08
-30.10
-29.53
-29.40
-29.20
-29.60
-29.44
-28.94
-29.74
-29.34
-29.49
-29.40
-29.37
-30-27
-9<br>a.m.
-29.45
-.79
-.80
--78
-575
-.63
-.55
-.45
-.50
-0.05
-.93
-29.19
-96.
-00.
-.50
-9
-65
-.85
-.57
-43
-.30
-.45
-33
-84 a.m.
-Roston
-888
-29
-28
-28
-28
-52
-29
-29
-29
-29
-29
-29
-29
-29
-29
-2222
-29.750 29
-29.470 29
-2
-29-971 29<br>29-966 29
-200
-22
-Ö
-29.353
-29.690
-30·185<br>30·180<br>30·103
-29.934
-30-131
-30.08
-30.002
-29.315
-30.016
-29.740
-30.200
-30.168
-30-122
-29.68
-30.011
-29.692
-29.790
-29.823
-29.854
-29.753
-29.397
-29.271
-29.681
-Min.
-Chiswick.
-29.955
-30.201
-30.278
-30-179
-30-205
-30-115
-30.102
-29.599
-29.476
-29.498
-30.149
-30.038
-59.66
-29.996
-29.538
-29.946
-29.645
-29.957
-30.223
-30.242
-30-137
-29.852
-29.914
-29.949
-29-937
-Max.
-Mean.
-Month.
-1845.
--: 4446670000
-11.
-0 15.<br>0 15.<br>17.
-13.
-19.<br>20.<br>21.
-25.54.59
-Sept.
-27.
-30.
-Days of
-y
-A
+*Meteorological Observations made* by Mr. Thompson *at the Garden of the Horticultural Society at* CHISWICK, *near London; by* Mr. Veall, *at* BOSTON; *by the* Rev. W. Dunbar, *at Applegarth Manse,* DUMFRIES-SHIRE; *and by the* Rev. C. Clouston, *at Sandwick Manse,* ORKNEY.
+
+<table>
+<tr><td rowspan="2">Days of Month.</td><td colspan="7">Barometer.</td><td colspan="7">Thermometer.</td><td colspan="4">Wind.</td><td colspan="4">Rain.</td></tr>
+<tr><td colspan="2">Chiswick.</td><td rowspan="2">Boston. 8½ a.m.</td><td colspan="2">Dumfries-shire.</td><td colspan="2">Orkney, Sandwick.</td><td colspan="2">Chiswick.</td><td rowspan="2">Boston. 8½ a.m.</td><td colspan="2">Dumfries-shire.</td><td colspan="2">Orkney, Sandwick.</td><td rowspan="2">Chiswick. 1 p.m.</td><td rowspan="2">Boston.</td><td rowspan="2">Dumfries-shire.</td><td rowspan="2">Orkney, Sandwick.</td><td rowspan="2">Chiswick.</td><td rowspan="2">Boston.</td><td rowspan="2">Dumfries-shire.</td><td rowspan="2">Orkney, Sandwick.</td></tr>
+<tr><td>1845. Sept.</td><td>Max.</td><td>Min.</td><td>9 a.m.</td><td>9 p.m.</td><td>9½ a.m.</td><td>8½ p.m.</td><td>Max.</td><td>Min.</td><td>Max.</td><td>Min.</td><td>9½ a.m.</td><td>8½ p.m.</td></tr>
+<tr><td>● 1.</td><td>30·278</td><td>30·200</td><td>29·79</td><td>30·27</td><td>30·19</td><td>30·27</td><td>30·27</td><td>66</td><td>50</td><td>59</td><td>69½</td><td>54½</td><td>54½</td><td>51½</td><td>ne.</td><td>ne.</td><td>w.</td><td>nw.</td><td>......</td><td>......</td><td>......</td><td>·05</td></tr>
+<tr><td>2.</td><td>30·179</td><td>30·168</td><td>29·79</td><td>30·16</td><td>30·18</td><td>30·27</td><td>30·26</td><td>64</td><td>47</td><td>59</td><td>66</td><td>56½</td><td>52½</td><td>52</td><td>ne.</td><td>calm</td><td>ne.</td><td>nw.</td><td>......</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>3.</td><td>30·201</td><td>30·185</td><td>29·79</td><td>30·20</td><td>30·14</td><td>30·27</td><td>30·22</td><td>63</td><td>41</td><td>57</td><td>64</td><td>43½</td><td>53</td><td>51½</td><td>ne.</td><td>calm</td><td>ne.</td><td>nw.</td><td>......</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>4.</td><td>30·205</td><td>30·180</td><td>29·80</td><td>30·17</td><td>30·17</td><td>30·26</td><td>30·22</td><td>64</td><td>43</td><td>54</td><td>61</td><td>50</td><td>54</td><td>52</td><td>ne.</td><td>calm</td><td>ne.</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>5.</td><td>30·140</td><td>30·103</td><td>29·78</td><td>30·16</td><td>30·16</td><td>30·24</td><td>30·24</td><td>60</td><td>50</td><td>54·5</td><td>62</td><td>47½</td><td>53</td><td>49</td><td>ne.</td><td>calm</td><td>e.</td><td>......</td><td>·01</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>6.</td><td>30·149</td><td>30·131</td><td>29·75</td><td>30·19</td><td>30·19</td><td>30·24</td><td>30·28</td><td>63</td><td>38</td><td>59</td><td>58½</td><td>40½</td><td>52</td><td>51</td><td>ne.</td><td>e.</td><td>sw.</td><td>s.</td><td>......</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>7.</td><td>30·137</td><td>30·122</td><td>29·75</td><td>30·20</td><td>30·10</td><td>30·23</td><td>30·13</td><td>69</td><td>40</td><td>60</td><td>62</td><td>42½</td><td>56½</td><td>50</td><td>ne.</td><td>e.</td><td>e.</td><td>......</td><td>......</td><td>......</td><td>0·10</td><td>......</td></tr>
+<tr><td>8.</td><td>30·115</td><td>30·098</td><td>29·70</td><td>30·04</td><td>30·01</td><td>29·93</td><td>29·88</td><td>71</td><td>37</td><td>57</td><td>62</td><td>48½</td><td>52</td><td>56</td><td>ne.</td><td>calm</td><td>s.</td><td>sw.</td><td>......</td><td>......</td><td>......</td><td>·12</td></tr>
+<tr><td>☽ 9.</td><td>30·102</td><td>30·002</td><td>29·63</td><td>29·90</td><td>29·85</td><td>29·74</td><td>30·00</td><td>78</td><td>40</td><td>58</td><td>59</td><td>51</td><td>61</td><td>51</td><td>sw.</td><td>calm</td><td>s.</td><td>n.</td><td>......</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>10.</td><td>30·085</td><td>29·971</td><td>29·57</td><td>30·10</td><td>30·11</td><td>30·23</td><td>30·24</td><td>70</td><td>53</td><td>62</td><td>59</td><td>51½</td><td>53</td><td>48</td><td>ne.</td><td>ne.</td><td>ne.</td><td>ese.</td><td>·01</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>11.</td><td>30·038</td><td>29·966</td><td>29·55</td><td>30·05</td><td>29·95</td><td>30·13</td><td>30·08</td><td>61</td><td>54</td><td>56</td><td>60</td><td>47</td><td>51½</td><td>50</td><td>ne.</td><td>calm</td><td>ne.</td><td>se.</td><td>......</td><td>......</td><td>......</td><td>·26</td></tr>
+<tr><td>12.</td><td>29·955</td><td>29·934</td><td>29·45</td><td>29·93</td><td>29·91</td><td>30·08</td><td>30·03</td><td>70</td><td>42</td><td>61</td><td>65</td><td>49</td><td>53½</td><td>49</td><td>ne.</td><td>calm</td><td>nw.</td><td>se.</td><td>......</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>13.</td><td>29·930</td><td>29·750</td><td>29·50</td><td>29·80</td><td>29·55</td><td>29·85</td><td>29·61</td><td>71</td><td>53</td><td>52·5</td><td>58½</td><td>51½</td><td>53</td><td>54</td><td>se.</td><td>calm</td><td>s.</td><td>se.</td><td>·04</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>14.</td><td>29·599</td><td>29·470</td><td>29·05</td><td>29·38</td><td>29·31</td><td>29·38</td><td>29·36</td><td>71</td><td>39</td><td>57</td><td>57</td><td>53</td><td>55½</td><td>51</td><td>sw.</td><td>calm</td><td>wsw.</td><td>nw.</td><td>·02</td><td>·06</td><td>0·15</td><td>......</td></tr>
+<tr><td>○ 15.</td><td>29·611</td><td>29·353</td><td>28·93</td><td>29·35</td><td>29·38</td><td>29·40</td><td>29·40</td><td>57</td><td>43</td><td>52</td><td>61</td><td>36</td><td>52½</td><td>50</td><td>ne.</td><td>calm</td><td>s.</td><td>sw.</td><td>·45</td><td>·07</td><td>......</td><td>......</td></tr>
+<tr><td>16.</td><td>29·699</td><td>29·487</td><td>29·19</td><td>29·44</td><td>29·32</td><td>29·44</td><td>29·41</td><td>64</td><td>54</td><td>54</td><td>60½</td><td>40</td><td>56½</td><td>49½</td><td>se.</td><td>calm</td><td>w.</td><td>......</td><td>·47</td><td>·24</td><td>......</td><td>·21</td></tr>
+<tr><td>17.</td><td>29·476</td><td>29·397</td><td>28·90</td><td>29·14</td><td>28·97</td><td>29·34</td><td>29·26</td><td>64</td><td>55</td><td>60</td><td>60</td><td>52</td><td>56</td><td>52</td><td>sw.</td><td>calm</td><td>e to s.</td><td>e.</td><td>·19</td><td>·34</td><td>......</td><td>......</td></tr>
+<tr><td>18.</td><td>29·498</td><td>29·271</td><td>28·78</td><td>28·94</td><td>29·04</td><td>29·14</td><td>29·25</td><td>65</td><td>48</td><td>60</td><td>58</td><td>52½</td><td>52</td><td>49½</td><td>sw.</td><td>calm</td><td>e.</td><td>nne.</td><td>·07</td><td>·04</td><td>......</td><td>·26</td></tr>
+<tr><td>19.</td><td>29·996</td><td>29·681</td><td>29·00</td><td>29·37</td><td>29·72</td><td>29·46</td><td>29·77</td><td>65</td><td>34</td><td>56</td><td>58</td><td>47</td><td>47</td><td>44½</td><td>sw.</td><td>w.</td><td>wnw.</td><td>wnw.</td><td>......</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>20.</td><td>29·982</td><td>29·690</td><td>29·50</td><td>29·74</td><td>29·49</td><td>29·78</td><td>29·68</td><td>62</td><td>52</td><td>52</td><td>58½</td><td>37½</td><td>48½</td><td>48</td><td>s.</td><td>calm</td><td>s to se.</td><td>nw.</td><td>·29</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>21.</td><td>29·538</td><td>29·315</td><td>29·09</td><td>29·34</td><td>29·30</td><td>29·43</td><td>29·62</td><td>65</td><td>49</td><td>55</td><td>59½</td><td>51</td><td>45½</td><td>44½</td><td>s.</td><td>calm</td><td>wnw.</td><td>nnw.</td><td>·12</td><td>·09</td><td>1·58</td><td>·12</td></tr>
+<tr><td>22.</td><td>29·946</td><td>29·682</td><td>29·65</td><td>29·58</td><td>29·88</td><td>29·68</td><td>29·85</td><td>64</td><td>42</td><td>51</td><td>56</td><td>43½</td><td>45</td><td>44</td><td>w.</td><td>w.</td><td>wnw.</td><td>nw.</td><td>......</td><td>·39</td><td>......</td><td>·08</td></tr>
+<tr><td>☾ 23.</td><td>30·223</td><td>30·011</td><td>29·66</td><td>30·08</td><td>30·18</td><td>30·06</td><td>30·15</td><td>54</td><td>30</td><td>48</td><td>53½</td><td>31½</td><td>44</td><td>50½</td><td>ne.</td><td>calm</td><td>se.</td><td>w.</td><td>......</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>24.</td><td>30·242</td><td>30·016</td><td>29·85</td><td>30·10</td><td>29·83</td><td>29·99</td><td>29·68</td><td>62</td><td>37</td><td>42·5</td><td>55</td><td>32</td><td>51</td><td>50</td><td>e.</td><td>calm</td><td>sw.</td><td>s.</td><td>......</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>25.</td><td>29·852</td><td>29·692</td><td>29·43</td><td>29·49</td><td>29·48</td><td>29·38</td><td>29·39</td><td>62</td><td>38</td><td>51</td><td>58½</td><td>47½</td><td>50½</td><td>48</td><td>s.</td><td>calm</td><td>w.</td><td>ssw.</td><td>·01</td><td>......</td><td>......</td><td>·31</td></tr>
+<tr><td>26.</td><td>29·945</td><td>29·740</td><td>29·30</td><td>29·53</td><td>29·68</td><td>29·47</td><td>29·58</td><td>65</td><td>40</td><td>49</td><td>56½</td><td>44½</td><td>53½</td><td>48</td><td>w.</td><td>calm</td><td>s.</td><td>w.</td><td>......</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>27.</td><td>29·914</td><td>29·790</td><td>29·45</td><td>29·40</td><td>29·45</td><td>29·12</td><td>29·08</td><td>60</td><td>48</td><td>50</td><td>60</td><td>45½</td><td>52</td><td>50</td><td>sw.</td><td>calm</td><td>s.</td><td>w.</td><td>·02</td><td>......</td><td>......</td><td>·08</td></tr>
+<tr><td>28.</td><td>29·937</td><td>29·854</td><td>29·33</td><td>29·50</td><td>29·60</td><td>29·24</td><td>29·37</td><td>63</td><td>36</td><td>56</td><td>54½</td><td>44½</td><td>48½</td><td>47</td><td>w.</td><td>calm</td><td>sw.</td><td>w.</td><td>......</td><td>·03</td><td>......</td><td>·46</td></tr>
+<tr><td>29.</td><td>29·949</td><td>29·753</td><td>29·47</td><td>29·60</td><td>29·45</td><td>29·43</td><td>29·32</td><td>62</td><td>48</td><td>48·5</td><td>56½</td><td>44½</td><td>46½</td><td>46</td><td>sw.</td><td>calm</td><td>sw.</td><td>ssw.</td><td>·06</td><td>......</td><td>0·92</td><td>·35</td></tr>
+<tr><td>30.</td><td>29·800</td><td>29·704</td><td>29·22</td><td>29·40</td><td>29·42</td><td>29·27</td><td>29·23</td><td>62</td><td>41</td><td>50</td><td>55</td><td>46</td><td>49½</td><td>45</td><td>sw.</td><td>calm</td><td>sw.</td><td>sw.</td><td>·01</td><td>......</td><td>......</td><td>·52</td></tr>
+<tr><td>Mean.</td><td>29·957</td><td>29·823</td><td>29·45</td><td>29·751</td><td>29·737</td><td>29·758</td><td>29·762</td><td>64·57</td><td>40·63</td><td>54·7</td><td>59·4</td><td>46·0</td><td>51·78</td><td>49·41</td><td></td><td></td><td></td><td></td><td>1·77</td><td>1·26</td><td>2·75</td><td>2·82</td></tr>
+</table>
 
 ## PDF page 423
 
@@ -24850,45 +23393,62 @@ v ^ {\prime} = \frac {1}{p} \left(\alpha^ {\prime} \omega + \theta^ {\prime} v\r
 
 ## PDF page 439
 
-On the Transformation of Elliptic Functions.
-425
-LXVII. On the Transf, q = 8 to - 18 Willie Functions. By
-Arrium Cavers, <math>l, q, q \perp l, p_q \perp l</math> And College, Cambridge*, <math>q = p_q - g_q</math>
-l, l' being any integers whatever. In fact, to prove this, we
-have only to consider the general form of a factor in the numerator of a x. Omitting a constant factor, this is a manual of the standard of the standard of the standard of the standard of the standard of the standard of th
-but there is <math>\inf_{v \in S_0} \sup_{v \in S_0} \left( \inf_{v \in S_0} \inf_{v \in S_0} \inf_{v \in S_0} \inf_{v \in S_0} \inf_{v \in S_0} \inf_{v \in S_0} \inf_{v \in S_0} \inf_{v \in S_0} \inf_{v \in S_0} \inf_{v \in S_0} \inf_{v \in S_0} \inf_{v \in S_0} \inf_{v \in S_0} \inf_{v \in S_0} \inf_{v \in S_0} </math>
+*On the Transformation of Elliptic Functions.*    425
+
+$$
+\begin{aligned}
+\alpha\beta'-\alpha'\beta&=p,\\
+\mu\beta'-\nu\alpha'&=l'p,\\
+\mu\beta-\nu\alpha&=lp,
+\end{aligned}
+$$
+
+$l, l'$ being any integers whatever. In fact, to prove this, we have only to consider the general form of a factor in the numerator of $\varphi_1 x$. Omitting a constant factor, this is
+
+$$
+\left(1 + \frac {x}{m \omega+n\upsilon + 2 r \theta}\right) [ r <   p ];
+$$
+
 and it is to be shown that we can always satisfy the equation
-plying an omission, for the detection of which I am indebted to Mr. Bronwing I will wise texapiting the de-
+
+$$
+m \omega+n\upsilon + 2 r \theta = m ^ {\prime} \omega^ {\prime} + n'\upsilon',
+$$
+
 or the equations
-MICHELLIUM.
-or guildness and <math>p = \frac{p m}{m + 2r \nu} = \frac{m' \alpha + n' \alpha'}{m + 2r \nu} = \frac{m' \alpha + n' \alpha'}{m + 2r \nu} = \frac{1}{m' \alpha + n' \alpha'}</math>
-and also that to each set of values of m, n, r, there is a unique
-set of values of m', n', and vice versa. This is done in the
-paper referred to. Moreover, with the suppositions just made
-as to the numbers <math>\alpha</math>, <math>\theta'</math> being odd and <math>\alpha'</math>, <math>\theta</math> even, it is obvious
-that m' is odd or even, according as m is, and n' according as
-n is, which shows that we can likewise satisfy
-門此地 明
-<math>\overline{m + \frac{1}{9}}\omega + \overline{n + \frac{1}{9}}\upsilon + 2r\theta = \overline{m' + \frac{1}{9}}\omega' + \overline{n' + \frac{1}{9}}\upsilon';</math>
-and thus the denominator of <math>\varphi_1 x</math> is also reducible to the required form.
-quired form. "
-Now proceeding to the immediate object of this paper, a, 6,
-<math>\alpha'</math>, <math>\theta'</math>, and consequently <math>\omega'</math>, <math>v'</math> are to a certain extent indeter-
-minate. Let A, B, A', B' be a particular set of values of a,
-6, α', 6', and O, P the corresponding values of ω', v'. We
-have evidently A, B' odd and A', B even. Also
-A B' - A' B = <math>p</math>,
-<math display="block">\mu B' - \nu A' = L' p</math>
-If we have all the B <math>-\nu</math> A <math>=</math> L <math>p</math>,
-<math display="block">O = \frac{1}{\pi} (A \omega + B \upsilon),</math>
-P 4 2 4
-<math display="block">U = \frac{1}{p} (A' \omega + B' \upsilon).</math>
-By eliminating w, v from these equations and the former
-system, it is easy to obtain the state of the cold it is a second
-<math>\omega' = a O' + b U,</math>
-<math>v'=a'O+b'U,</math>
-2 F
-Phil. Mag. S. 3. Vol. 27. No. 182. Dec. 1845.
+
+$$
+\begin{aligned}
+pm+2r\mu&=m'\alpha+n'\alpha',\\
+pn+2r\nu&=m'\beta+n'\beta';
+\end{aligned}
+$$
+
+and also that to each set of values of $ m, n, r $, there is a unique set of values of $ m' $, $ n' $, and *vice versâ*. This is done in the paper referred to. Moreover, with the suppositions just made as to the numbers $ \alpha, \beta' $ being odd and $ \alpha', \beta $ even, it is obvious that $ m' $ is odd or even, according as $ m $ is, and $ n' $ according as $ n $ is, which shows that we can likewise satisfy
+
+$$
+\overline {{m + \frac {1}{2}}} \omega + \overline{{n+\frac12}}\upsilon + 2 r \theta = \overline {{m ^ {\prime} + \frac {1}{2}}} \omega^ {\prime} + \overline {{n ^ {\prime} + \frac {1}{2}}} v ^ {\prime};
+$$
+
+and thus the denominator of $\varphi_{1}x$ is also reducible to the required form.
+
+Now proceeding to the immediate object of this paper, $\alpha$, $\beta$, $\alpha'$, $\beta'$, and consequently $\omega'$, $\upsilon'$ are to a certain extent indeterminate. Let A, B, A', B' be a particular set of values of $\alpha$, $\beta$, $\alpha'$, $\beta'$, and O, P the corresponding values of $\omega'$, $\upsilon'$. We have evidently A, B' odd and A', B even. Also
+
+$$
+\begin{array}{l} \mathrm{AB} ^ {\prime} - \mathrm{A} ^ {\prime} \mathrm{B} = p, \\ \mu \mathrm{B} ^ {\prime} - \nu \mathrm{A} ^ {\prime} = \mathrm{L} ^ {\prime} p, \\ \mu \mathrm{B} - \nu \mathrm{A} = \mathrm{L} p, \\ \mathrm{O} = \frac {1}{p} (\mathrm{A} \omega + \mathrm{B} \upsilon), \\ \mathrm{U} = \frac {1}{p} \left(\mathrm{A} ^ {\prime} \omega + \mathrm B'\upsilon\right). \\ \end{array}
+$$
+
+By eliminating $\omega,\upsilon$ from these equations and the former system, it is easy to obtain
+
+$$
+\omega^ {\prime} = a \mathrm{O} + b \mathrm{U},
+$$
+
+$$
+\upsilon'=a ^ {\prime} \mathrm{O} + b ^ {\prime} \mathrm{U},
+$$
+
+Phil. Mag. S. 3. Vol. 27. No. 182. Dec. 1845. 2 F
 
 ## PDF page 440
 
@@ -25783,121 +24343,49 @@ sumption still further diminished, so that, contrary to the
 
 ## PDF page 459
 
-Voltaic Ignition to Lighting Mines.
-145
-exaltation of effect produced. The very necessity of inclosing
-the coil in a glass recipient also augments the heat, the light,
-and the resistance; if I remember rightly, Mr. Faraday first
-proposed inclosing wire in a tube for the purpose of being able to ignite a longer portion of it. Lastly, only two or three cells are required (one indeed might be sometimes sufficient),
-and the whole apparatus thus becomes portable and econo-
-mical. The light is perfectly constant, subject to no fluctua-
-tion or interruption, and the heat is not so excessive as to
-destroy the apparatus and rot training the bar strong management of the above. It was the effect of different gases on radiant heat is an im-
-portant element in the practical application of the above, I
-had commenced some experiments on this subject, and the
-following I find in my note-book as the effect of four differ-
-ent gases. A voltameter was interposed in the circuit in or-
-der to furnish a better test of the amount of ignition than the
-eye, as, according to the position of Davy, that a wire be-
-comes a worse conductor in proportion to its increase of tem-
-perature, the amount of gas in the voltameter should be, as
-indeed in these experiments it turned out to be, in inverse
-proportion to the degree of ignition. As a further test, the increased volume of the gas by expansion was noted, though
-the apparatus was not constructed for showing this increase
-steady light, which continues without variable ation distributes
-Platina wire ignited
+*Voltaic Ignition to Lighting Mines.*    445
 
-Platina wire ignited
+exaltation of effect produced. The very necessity of inclosing the coil in a glass recipient also augments the heat, the light, and the resistance; if I remember rightly, Mr. Faraday first proposed inclosing wire in a tube for the purpose of being able to ignite a longer portion of it. Lastly, only two or three cells are required (one indeed might be sometimes sufficient), and the whole apparatus thus becomes portable and œconomical. The light is perfectly constant, subject to no fluctuation or interruption, and the heat is not so excessive as to destroy the apparatus.
 
-Only pagiven odd
+As the effect of different gases on radiant heat is an important element in the practical application of the above, I had commenced some experiments on this subject, and the following I find in my note-book as the effect of four different gases. A voltameter was interposed in the circuit in order to furnish a better test of the amount of ignition than the eye, as, according to the position of Davy, that a wire becomes a worse conductor in proportion to its increase of temperature, the amount of gas in the voltameter should be, as indeed in these experiments it turned out to be, in inverse proportion to the degree of ignition. As a further test, the increased volume of the gas by expansion was noted, though the apparatus was not constructed for showing this increase with delicate accuracy.
 
-constant voltaic
+| Platina wire ignited by a given constant voltaic battery in | Effects to the eye. | Voltameter gave at the rate of one cub. in. in | Expansion of volume. |
+| --- | --- | --- | --- |
+| Hydrogen | Not visible even in the dark | 19 | 35 to 43 |
+| Carbonic acid... | Cherry-red in daylight | 21·5 | 35 ... 43 |
+| Oxygen | Incandescent by daylight | 23·5 | 35 ... 45 |
+| Nitrogen | Same | 24 | 35 ... 45 |
+| Atmospheric air | Same | 24 | 35 ... 45 |
 
-enstant in in de
-continues
-nce as lon resemblov battery
-Expansion of volume.
-gave at the
-110 Effects to the eye. D
-Instead
-cells.
-electrolyte in thailmidus y
-metallic caps well-
-may be fixed
-through water,
-on the dark ... | A constant of the help of the help of the help of the help of the help of the help of the help of the help of the help of the help of the help of the help of the help of the help of the help of the help o
-. Jutec
-betam Hydrogen,
-Cherry red by
-Carbonic acid
-Die21 5 60 35 A. d43 pq 28
-rather diminishes the coclinic of theilysb, b
-aseous atmosphier
-[Incandescent by]
-SiiioodiOxygen last
-9(23:5)
-35 ... 45
-Todaylight of
-Nitrogen 310 1 Same 1. 1. 1. . . . . . . . . . . . . . . .
-1 (24) 10 (35) .... (45)
-110 Atmospheric fair Same 1. ...... 00 24 100 35 1. 45 1 steles
-(illi)
-Dilling
-I had intended to have carried these experiments further
-with other gases*, and also with condensed and rarefied air,
-but was interrupted; and as it may be some time before I may
-be able to renew them, I think I cannot do better than sub-
-mit these experiments, with your permission, to the readers
-I have some doubt whether the different gases do not exercise a spe-
-cific action on the ignited wire, somewhat in the nature of catalysis; if a
-wire be brought by the voltaic current to a white heat in atmospheric air,
-and a vessel of hydrogen inverted over it, the light is as suddenly extin-
-guished as the flame of a candle would be.
+I had intended to have carried these experiments further with other gases*, and also with condensed and rarefied air, but was interrupted; and as it may be some time before I may be able to renew them, I think I cannot do better than submit these experiments, with your permission, to the readers
+
+* I have some doubt whether the different gases do not exercise a specific action on the ignited wire, somewhat in the nature of catalysis; if a wire be brought by the voltaic current to a white heat in atmospheric air, and a vessel of hydrogen inverted over it, the light is as suddenly extinguished as the flame of a candle would be.
 
 ## PDF page 460
 
-Reply to Sir David Brewster's "Observations
-446
-of the Philosophical Magazine, while the attention of sci-
-entific men is directed to this subject; actual practice can alone test their efficacy. The subject is actual practice can alone test their efficacy. The subject is actual practice can alone test their efficacy. The subjec
-stille-hourds which are conceded to
-LXXII. Reply to Sir David Brewster's "Observations on the
-Discovery of the Composition of Water." By A BRITISH QUARTERLY REVIEWER. DIVINE THE STATE OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF T
-to conicoquo To Richard Taylor, Esquesas bas Mall
+446    *Reply to* Sir David Brewster’s “*Observations*
+
+of the Philosophical Magazine, while the attention of scientific men is directed to this subject; actual practice can alone test their efficacy.
+
+I remain, dear Sir, yours truly,
+
+W. R. GROVE.
+
+---
+
+LXXII. *Reply to* Sir David Brewster’s “*Observations on the Discovery of the Composition of Water.*” *By* A BRITISH QUARTERLY REVIEWER.
+
+*To Richard Taylor, Esq.*
+
 SIR,
-WILL you allow us space enough in your excellent Jour-
-nal to reply to a strongly-worded complaint by Sir
-David Brewster, which appeared in your Number for Sep-
-tember last, against a passage concerning himself in the British
-Quarterly Review for August 1845? The passage offensive
-to Sir David is quoted below. Dielt occurs in a brief discussion
-of the relative merits of Watt and Cavendish as discoverers of
-the composition of water, in an article on "Lord Brougham's
-Lives of Men of Letters and Science who flourished in the
-reign of George III." was the string all a course to embland "Sir David Brewster afterwards took up the subject (Edin-
-burgh Review, No. 142), and endeavoured to mediate between
-the contending parties, but to little purpose. For he chose
-to consider it a question of national honour, involving the rival
-claims of Cavendish the Englishman and Watt the Scotch-
-man; and whilst he was willing to divide the merit between
-them, assigned to his countryman the lion's share." alguations
-Sir David declares, in reference to the paragraph we have
-quoted, that it contains "very unfounded and unjust asser-
-tions;" that our object was to injure his character and wound
-his feelings; that it manifestly was "the reviewer's desire to
-infuse into his statements a bitter personality;" and he further
-speaks of our having occasioned him "the annoyance of re-
-butting the calumnies of the British Quarterly reviewer."
-The special charges which Sir David Brewster brings
-against us we shall allude to immediately. In reference to
-the general one, of our remarks having been pervaded by an
-animus against him, we beg to assure Sir David that we had
-not, in the passage he complains of, the remotest intention of
-injuring his character or wounding his feelings: that we were
-actuated by no animosity towards him, and were guiltless of
-the slightest desire to vex or annoy him by aspersion, calumny,
-Sir David Brewster we know only as the
-or insinuation.
+
+WILL you allow us space enough in your excellent Journal to reply to a strongly-worded complaint by Sir David Brewster, which appeared in your Number for September last, against a passage concerning himself in the British Quarterly Review for August 1845? The passage offensive to Sir David is quoted below. It occurs in a brief discussion of the relative merits of Watt and Cavendish as discoverers of the composition of water, in an article on “Lord Brougham’s Lives of Men of Letters and Science who flourished in the reign of George III.”
+
+“Sir David Brewster afterwards took up the subject (Edinburgh Review, No. 142), and endeavoured to mediate between the contending parties, but to little purpose. For he chose to consider it a question of national honour, involving the rival claims of Cavendish the Englishman and Watt the Scotchman; and whilst he was willing to divide the merit between them, assigned to his countryman the lion’s share.”
+
+Sir David declares, in reference to the paragraph we have quoted, that it contains “very unfounded and unjust assertions;” that our object was to injure his character and wound his feelings; that it manifestly was “the reviewer’s desire to infuse into his statements a bitter personality;” and he further speaks of our having occasioned him “the annoyance of rebutting the calumnies of the British Quarterly reviewer.”
+
+The special charges which Sir David Brewster brings against us we shall allude to immediately. In reference to the general one, of our remarks having been pervaded by an *animus* against him, we beg to assure Sir David that we had not, in the passage he complains of, the remotest intention of injuring his character or wounding his feelings: that we were actuated by no animosity towards him, and were guiltless of the slightest desire to vex or annoy him by aspersion, calumny, or insinuation. Sir David Brewster we know only as the
 
 ## PDF page 461
 
@@ -32245,102 +30733,37 @@ published in the number of the Philosophical Magazine for
 
 ## PDF page 553
 
-Dr. Booth on a New Class of Properties of Curves.
-539
-January, 1843, Mr. Davies treats the question of directrices
-and foci in a manner perfectly general, and arrives at the con-
-clusion, that there are but two foci and two directrices in a
-conic section, a result arising from the arbitrary nature of the
-definition which he had assumed as the basis of his investiga-
-tion; a definition to which it would appear there lie two ob-
-jections; first, that it is merely an analytical condition having
-no geometrical representation, at least such a one as would
-show that these points should occupy the important position
-they do in the theory of conic sections, a fact which becomes
-at once manifest, when these points are defined as the points
-of contact of a plane touching two spheres inscribed in a right
-cone, and which cuts it in a conic section; and again, because
-the distance of the focus to any point of the common direc-
-trix, or of the centre to any point of the minor directrix, is a
-linear function of the co-ordinates of the point of contact of a
-tangent drawn through this point of the directrix to the curve,
-so that other points may be found which are not on the curve
-whose distances to the focus are linear functions of the co-or-
-dinates of certain corresponding points upon the curve.
-"It is true, that so long as a conic section is defined as a
-plane section of a right cone, the minor directrices cannot be
-exhibited by any construction at all comparable in elegance
-with the geometrical method of defining the common foci and
-directrices above alluded to; but if we define a conic section
-as a central plane section of any surface of the second order,
-the difficulty at once vanishes, and we can exhibit the minor
-directrices with as much ease as we may the ordinary foci and
-directrices: "to give some of the leading properties of the former is the object of the following paper."
-Let a and b be the semiaxes of a central conic section, a the semiates of a central conic section, a the section of the section of the section of the section of the section of the section of the section of the section of 
--pendicular to the minor axe, at the distance of the cen-
-tre, these lines may be termed the minor directrices; and on
-the same axe detitwo points be assumed at the distance be
-from the centre, these points may be called the minor focial
-In the hyperbola, as the minor axed is imaginary, the new
-directrices must be drawn in a somewhat different manner,
-Let 2 w be the angle between the asymptots of the hyperbola,
-and on the transverse axe let two points be assumed at the
-distance a sin w from the centre; through these points let per-
-pendiculars to the transverse axe be drawn, these lines are the
+Dr. Booth *on a New Class of Properties of Curves.*    539
+
+January 1843, Mr. Davies treats the question of directrices and foci in a manner perfectly general, and arrives at the conclusion, that there are but two foci and two directrices in a conic section, a result arising from the arbitrary nature of the definition which he had assumed as the basis of his investigation; a definition to which it would appear there lie two objections; first, that it is merely an analytical condition having no geometrical representation, at least such a one as would show that these points should occupy the important position they do in the theory of conic sections, a fact which becomes at once manifest, when these points are defined as the points of contact of a plane touching two spheres inscribed in a right cone, and which cuts it in a conic section; and again, because the distance of the focus to any point of the common directrix, or of the centre to any point of the minor directrix, is a linear function of the co-ordinates of the point of contact of a tangent drawn through this point of the directrix to the curve, so that other points may be found which are not on the curve whose distances to the focus are linear functions of the co-ordinates of certain *corresponding* points upon the curve.
+
+It is true, that so long as a conic section is defined as a plane section of a right cone, the minor directrices cannot be exhibited by any construction at all comparable in elegance with the geometrical method of defining the common foci and directrices above alluded to; but if we define a conic section as a central plane section of any surface of the second order, the difficulty at once vanishes, and we can exhibit the minor directrices with as much ease as we may the ordinary foci and directrices: to give some of the leading properties of the former is the object of the following paper.
+
+Let $a$ and $b$ be the semiaxes of a central conic section, $e$ the eccentricity $= \left( \frac{a^2 - b^2}{a^2} \right)^{\frac{1}{2}}$; and, guided by the analogy of the ordinary directrices and foci, let us draw two right lines perpendicular to the minor axe, at the distance $\frac{b}{e}$ from the centre, these lines may be termed the *minor directrices*; and on the same axe let two points be assumed at the distance $b\,e$ from the centre, these points may be called the *minor foci*.
+
+In the hyperbola, as the minor axe is imaginary, the new directrices must be drawn in a somewhat different manner. Let $2\omega$ be the angle between the asymptots of the hyperbola, and on the transverse axe let two points be assumed at the distance $a\sin \omega$ from the centre; through these points let perpendiculars to the transverse axe be drawn, these lines are the
+
+2 N 2
 
 ## PDF page 554
 
-of Cursignand Rockett Charles and House of Properties of
-minor directnices of the hyperbola, and if two other points be
-stribot sent sent before the solution of the section of the section of the section of the section of the section of the section of the section of the section of the section of the section of the section of the section of 
-distances of the common directrices and foci from the centre
-in When the setion becomes a circle, the minor directifies in the minor directifies in the constant of the constant of the constant of the constant of the constant of the constant of the constant of the constant of the con
-Do are parallel respectively to the sides a, b, c, d of the quators yields and anticipated and the factors and the factors and the factors and the factors and the factors and the factors are the factors and the factors are
-minor directrices coincide; as do also the common and minor
-children inscribed in a circle are togethathing the disched
-The common directrices and foci of the equilateral hyperbola
-possess two distinct classes of properties, those which belong to
-them as being the common or ordinary directrices and foci, as
-also that other new and equally extensive class, to which they
-for of a central conic section at the minor directrices and for of a central conic section at the pass the manufactured section.
-meln the circle the minor directrices are infinitely distant, and
-the minor foci coincide with the centre, as is also the case with
-infer, as in the last propositicisof bristesirissiribrishing and
-Of the following theorems, most of which are, it is believed,
-new, the demonstrations have been suppressed, as to any who
-are moderately versed in analysis, and who take an interest in
-the subject, it will give but little trouble to supply them.
-may, however, be remarked, that the solutions of many of the
-theorems may be effected with great brevity and simplicity by
-the application of a new method in analytic geometry, -the
-theory of tangential co-ordinates, an outline of which was pub-
-lished some years ago by the author *.
-0
+540    Dr. Booth *on a New Class of Properties*
+
+*minor directrices* of the hyperbola; and if two other points be assumed at the distance $\frac{a}{\sin \omega}$ from the centre, these points are the *minor foci*. It is almost needless to mention that the distances of the common directrices and foci from the centre of the hyperbola are $a \cos \omega$ and $\frac{a}{\cos \omega}$ respectively; hence, in the equilateral hyperbola, where $\omega = \frac{\pi}{4}$, the ordinary and minor directrices coincide, as do also the common and minor foci; whence we may deduce the very general and remarkable conclusion that,
+
+*The common directrices and foci of the* equilateral hyperbola * possess two distinct classes of properties, those which belong to them as being the common or ordinary directrices and foci, as also that other new and equally extensive class, to which they are in like manner related, as being the minor directrices and foci of a central conic section.*
+
+In the circle the minor directrices are infinitely distant, and the minor foci coincide with the centre, as is also the case with the ordinary directrices and foci.
+
+Of the following theorems, most of which are, it is believed, new, the demonstrations have been suppressed, as to any who are moderately versed in analysis, and who take an interest in the subject, it will give but little trouble to supply them. It may, however, be remarked, that the solutions of many of the theorems may be effected with great brevity and simplicity by the application of a new method in analytic geometry,—the *theory of tangential co-ordinates*, an outline of which was published some years ago by the author*.
+
 Fig. 1.
-Q
-u
-7 +
-B
-δ
-C
-ma
-1CE
-the minor
-III. Through the
-0 8913
-ansverse axe in the hyperbola,
-axe in the ellipse, of of the
-and any other point & on the carve,
-let Anere
-e drawn two
-directi
-cords meeting one of
-the points <math>\pi \pi'</math>,
-the
-the segment <math>\pi \pi'</math> subtends a right angle at the centre; hence
-* On the Application of a new Analytic Method, to the Theory of
-Curves and Curved Surfaces. London, Simpkin and Marshall : Cam-
-lines be drawn at right angles to each other, carothgiad tagbirds
+
+$D,\ \delta,\ B,\ Q,\ \gamma^*,\ \alpha$
+
+$d,\ c,\ a,\ b,\ O$
+
+\* On the Application of a new Analytic Method to the Theory of Curves and Curved Surfaces. London, Simpkin and Marshall: Cambridge, Deightons.
 
 ## PDF page 555
 
@@ -32478,90 +30901,57 @@ XIV. Or more generally, if from any point G in the plane of the curve, two tange
 
 ## PDF page 558
 
-5442 ... Pr. Roothou & New Class of Properties and to
-B XIV of from any point Grin a minor directrix two targents
-are drawn to the curve meeting the parallel axe in the points
-rolling the minor of and the said the said that the said that the said that the said that the said that the said that the said that the said that the said that the said that the said that the said that the said that the sa
-20
-= 1 as, the minor, axis, 2 h is to h the distance between the
-XX. We shall find that paintage romin bus supply romin
-The very same relation holds when the point is assumed
-on the common directrix; for if from any point G on the comes
-mon directrix two tangents are drawn meeting the parallelis
-axis, in the points yy, the segment yy has to the line of Fit
-(drawn to the corresponding focus F) a constant ratio corre
-<math>GF = \frac{a}{h'}</math>, as the major axis 2 a is to h' the distance between
-the common directrix and corresponding focus.
-XVI. From any point P in a conic section, perpendiculars
-are let fall on the minor directrices, the rectangle under these
-requires a control section of the scale of the scale of the scale of the scale of the scale of the scale of the scale of the scale of the scale of the scale of the scale of the scale of the scale of the scale of the scale 
-the points where the central son vectoos Intersect them, the
-k being the distance between the centre and the minor di-
-tion, having the same centre and minor directrices axirbser
-This theorem is analogous to that from which the ordinary
-definition of a conic section is usually derived; for let pp be
-the focal radiovectores of any point on the curve p p, the peroit
-pendiculars from this point on the common directrices, then
-XXIII. From any point is one of the minor directrices let a series of pairs of tagget the letter of the minor directions, all the cords of contact will meet in a point on this directrix; or mexity roism bas straps and resw
-a result perfectly analogous to the former im bus ertnes ame
-XVII. From any point P in a conic section, let two cords
-be drawn through the extremities B B of the minor axe, the
-conic section of which the point O is focus, and which touches 10
-the cords PB, PB', will also touch the minor directrices of
-the curve, and the ordinate to the transverse axe through the
-point P will be the major directrix of this curve bionico owt yns
-XVIII. Let \( \phi \) be the angle between a pair of tangents to a di
-conic section, pp' the distances of the point of intersection of
-the tangents to the ordinary foci on the transverse axe, and
-w the perpendicular from the intersection of the tangents on it
-the focal cord passing through one of the points of contact,
-line intersects the sections, tangents mercent, and available aw
-both ways by the directric, as 2 = 20 nis 9 19: angles which any
+544    Dr. Booth *on a New Class of Properties*
+
+XV. If from any point G in a minor directrix two tangents are drawn to the curve meeting the parallel axe in the points $\mu\mu'$, the line $\mu\mu'$ has to the line O G a constant ratio or $\frac{\mu\mu'}{\mathrm{GO}}=\frac{2b}{h}$, as the minor axis $2b$ is to $h$ the distance between the minor focus and minor directrix.
+
+The very same relation holds when the point is assumed on the common directrix; for if from any point G on the common directrix, two tangents are drawn meeting the parallel axis in the points $\nu\nu'$, the segment $\nu\nu'$ has to the line G F (drawn to the corresponding focus F) a constant ratio, or $ \frac{\nu\nu'}{\mathrm{GF}} = \frac{2a}{h'} $, as the major axis $ 2a $ is to $ h' $ the distance between the common directrix and corresponding focus.
+
+XVI. From any point P in a conic section, perpendiculars are let fall on the minor directrices, the rectangle under these perpendiculars is to the square of the semi-diameter passing through the point P in a constant ratio, or
+
+$$
+\frac {\mathrm{PT} . \mathrm{PT} ^ {\prime}}{\mathrm{PO} ^ {2}} = \frac {b ^ {2}}{a ^ {2} e ^ {2}} = \frac {k ^ {2}}{a ^ {2}},
+$$
+
+k being the distance between the centre and the minor directrix.
+
+This theorem is analogous to that from which the ordinary definition of a conic section is usually derived; for let $ p p' $ be the focal radii vectores of any point on the curve $ p p' $, the perpendiculars from this point on the common directrices, then
+
+$$
+\frac {p p ^ {\prime}}{\rho \rho^ {\prime}} = \frac {1}{e ^ {2}} = \frac {a ^ {2}}{e ^ {2} a ^ {2}} = \frac {{k'} ^ {2}}{a ^ {2}},
+$$
+
+$k'$ being the distance between the centre and major directrix, a result perfectly analogous to the former.
+
+XVII. From any point P in a conic section, let two cords be drawn through the extremities B B' of the minor axe, the conic section of which the point O is focus, and which touches the cords P B, P B', will also touch the minor directrices of the curve, and the ordinate to the transverse axe through the point P will be the major directrix of this curve.
+
+XVIII. Let $\varphi$ be the angle between a pair of tangents to a conic section, $\rho \rho'$ the distances of the point of intersection of the tangents to the ordinary foci on the transverse axe, and $\varpi$ the perpendicular from the intersection of the tangents on the focal cord passing through one of the points of contact, we shall have the theorem
+
+$$
+\rho \rho^{\prime}\sin\varphi = 2 a \varpi.
+$$
 
 ## PDF page 559
 
-of Curves and Curved Surfaces of the Second Order. 545
-atXIXet If from any point Quin a given right line meeting a
-affil by Wilder our enwarding the Pathage laix in the minor direction with the minor direction and the minor direction and the minor direction and the minor direction and the minor direction and the minor direction and the
-curve, meeting the minor directrix in the points <math>\mu</math> and <math>\mu</math>, the product of the tangents of <math>\frac{1}{2} P O \mu</math> and <math>\frac{1}{2} P O \nu</math> is constant.
-On Systems of Conic Sections having the same minor directrices.
-XX. We shall find that peculiar relations exist betweehn
-conic sections having the same minor directrices, vsomewhat
-analogous to those of conforal conic sections; we cannot one
-the present occasion give more than a few of them. The Let k be
-the distance between the common centre and bile of the direct
-trices, then the axes are connected by the relation to awarb)
-<math>\frac{2a}{F} = \frac{2a}{h'}</math>, as the major axis <math>\frac{2}{5} \frac{a^{\text{Lis}}}{a^{\text{S}}} \frac{1}{2a} \frac{d}{a^{\text{Lis}}}</math> the distance between
-the common directrix and corresponding from the
-common centre of two conic sections having the same minor directrices, one to each section; the sum of the squares of the
-reciprocals of those semi-diameters is constant, and the line
-which joins their points of intersection with the curves enve-
-lopes a circle; and if tangents are drawn to the curves through
-the points where the central radii vectores intersect them, the
-locus of the intersection of those tangents will be a conic sec-
-tion, having the same centre and minor directrices as the
-This theorem is analogous to that from which the ordinamion
-XXII. Let a common tangent be drawn to two conicised-b
-tions having the same minor directrices, the line bonnecting to
-the two points of contact subtends a right angle at the centre of
-XXIII. From any point in one of the minor directrices let
-a series of pairs of tangents be drawn to the conic sections, all
-the cords of contact will meet in a point on this directrix; or
-more generally, let there be a series of sections having the
-same centre and minor directrices, and from a point in the
-external one, let pairs of tangents be drawn to each of the in-
-ternal sections; the cords of contact will all meet in a point
-on the tangent to the external section drawn through the
-the cords PB, PB, will also touch the minor diretinoq navig
-XXIV. The difference of the squares of the reciprocals of
-any two coincident semi-diameters of two conic sections having
-the same minor directrices is constants and a jet. Ill.
-XXV. Let a series of conic sections, all having the same
-minor directrices, be cut by a transversal; the segments of
-this line between any pair of sections subtend equal angles at
-the centre, and if through every pair of points in which this di
-line intersects the sections, tangents are drawn intercepted
-both ways by the directrices, the sum of the angles which any
+*of Curves and Curved Surfaces of the Second Order.*    545
+
+XIX. If from any point Q in a given right line meeting a minor directrix in P there are drawn two tangents to the curve, meeting the minor directrix in the points $\mu$ and $\nu$, the product of the tangents of $\frac12\mathrm{PO}\mu$ and $\frac12\mathrm{PO}\nu$ is constant.
+
+*On Systems of Conic Sections having the same minor directrices.*
+
+XX. We shall find that peculiar relations exist between conic sections having the same minor directrices, somewhat analogous to those of confocal conic sections; we cannot on the present occasion give more than a few of them. Let $ k $ be the distance between the common centre and one of the directrices, then the axes are connected by the relation
+
+$$\frac1{b^2}=\frac1{a^2}+\frac1{k^2}.$$
+
+XXI. Two rectangular radii vectores being drawn from the common centre of two conic sections having the same minor directrices, one to each section; the sum of the squares of the reciprocals of those semi-diameters is constant, and the line which joins their points of intersection with the curves envelopes a circle; and if tangents are drawn to the curves through the points where the central radii vectores intersect them, the locus of the intersection of those tangents will be a conic section, having the same centre and minor directrices as the former.
+
+XXII. Let a common tangent be drawn to two conic sections having the same minor directrices, the line connecting the two points of contact subtends a right angle at the centre.
+
+XXIII. From any point in one of the minor directrices let a series of pairs of tangents be drawn to the conic sections, all the cords of contact will meet in a point on this directrix; or more generally, let there be a series of sections having the same centre and minor directrices, and from a point in the external one, let pairs of tangents be drawn to each of the internal sections; the cords of contact will all meet in a point on the tangent to the external section drawn through the given point.
+
+XXIV. The difference of the squares of the reciprocals of any two coincident semi-diameters of two conic sections having the same minor directrices is constant.
+
+XXV. Let a series of conic sections, all having the same minor directrices, be cut by a transversal; the segments of this line between any pair of sections subtend equal angles at the centre, and if through every pair of points in which this line intersects the sections, tangents are drawn intercepted both ways by the directrices, the sum of the angles which any
 
 ## PDF page 560
 
@@ -32654,111 +31044,59 @@ vol. xxv. p. 266, and in the Archives de l'Electricité, vol. iv. p. 34.
 
 ## PDF page 562
 
-Prof. Wartmann on Electric Induction.
-548
-annealed with core in the circuit of the included with a chief of the included with a chief of the included with a chief of the chief of the chief of the chief of the chief of the chief of the chief of the chief of the chi
-61. Two cases might present themselves between the limits
-of induction, which correspond to zero and to an infinite length
-of the additional wire, applying the word infinite to that which
-compels the current to discharge itself wholly by the constant
-If for constantly increasing lengths we should find the
-wire.
-values of the induced current constantly increasing, or inter-
-mittent values, one while greater, at another less, then only
-there involved be interference lingthe induced circuitis whow, a
-multitude of experiments made with the apparatus and wires
-previously described in & I and in which the lengthening of
-the inductor wire is effected by infinitely slow degrees, have
-shown that the angles of deviation increase without any alter-
-nation, and have led to the logarithmical laws laid down in
-§ III. ................................
-Platinum wire, N.ti Duborq of the Book of the Wish wire and The Standard of the Standard of the Standard of the Standard of the Standard of the Standard of the Standard of the Standard of the Standard of the Standard of th
-62. This result was obtained in November 1841, and com-
-municated to the students attending my lectures at the com-
-mencement of the following year. It might perhaps be ob-
-jected, that if the induction, whose characteristic it is to be in-
-stantaneous, is produced by a single wave, it is not certain
-that the phænomena of interference are manifested in its de-
-velopment. This objection would be analogous to that which
-has been raised against the explanation by electric undula-
-tions of the remarkable intermittence discovered by Professor
-De la Rive*, in the conductibility of certain lengths of one and
-the same metallic wire for magneto-electrical currents sub-
-mitted to alternative and rapid changes of direction +.
-With
-a view to remove all doubt in this respect, I have endeayoured
-to cause two continuous currents, launched simultaneously in
-the same wire to interfere, either in a contrary or in the
-ble, and of a perfect constancy, I employed to moitosib sines
-m noit B. Method of Direct and Continuous Currents, isq air
-63. The wires which I have used are noted in the follow-
-ing Table. They have been chosen quite cylindrical, and avoided all foreign metal, by rejecting the use of solder.
-Mémoires de la Société de Physique et d'Histoire Naturelle de Genève;
-vol. ix. See the sequel of these researches in the Archives de l'Etectricité,
-vol, i. p. 75, where will be found the explanation of this apparent inter-
-to main
-ference.
-† Lame, Cours de Physique de l'Ecole Polytechnique, § 860. 10811100 10
-M. Peltier has applied the same means, without employing it for the
-same object, as I have, to graduate thermo-electric rheometers by his method
-of the sum of the united currents, § XXII. of his memoir in the Annales de Chimie et de Physique, vol. lxxi. p. 225.
+548    Prof. Wartmann *on Electric Induction.*
+
+ter, which is in the circuit of the induced wire, indicates an instantaneous current equal to the difference which that lengthening has produced.
+
+61. Two cases might present themselves between the limits of induction, which correspond to zero and to an infinite length of the additional wire, applying the word infinite to that which compels the current to discharge itself wholly by the constant wire. If for constantly increasing lengths we should find the values of the induced current constantly increasing, or *intermittent* values, one while greater, at another less, then only there would be interference in the induced circuit. Now, a multitude of experiments made with the apparatus and wires previously described in § I., and in which the lengthening of the inductor wire is effected by infinitely slow degrees, have shown that the angles of deviation increase without any alternation, and have led to the logarithmical laws laid down in § III. There is therefore no interference under the circumstances in which I have sought to produce it.
+
+62. This result was obtained in November 1841, and communicated to the students attending my lectures at the commencement of the following year. It might perhaps be objected, that if the induction, whose characteristic it is to be instantaneous, is produced by a single wave, it is not certain that the phænomena of interference are manifested in its development. This objection would be analogous to that which has been raised against the explanation by electric undulations of the remarkable intermittence discovered by Professor De la Rive*, in the conductivity of certain lengths of one and the same metallic wire for magneto-electrical currents submitted to alternative and rapid changes of direction†. With a view to remove all doubt in this respect, I have endeavoured to cause two continuous currents, launched simultaneously in the same wire, to interfere, either in a contrary or in the same direction‡.
+
+B. *Method of Direct and Continuous Currents.*
+
+63. The wires which I have used are noted in the following Table. They have been chosen quite cylindrical, and
+
+\* *Mémoires de la Société de Physique et d’Histoire Naturelle de Genève*; vol. ix. See the sequel of these researches in the *Archives de l’Electricité*, vol. i. p. 75, where will be found the explanation of this apparent interference.
+
+† Lamé, *Cours de Physique de l’Ecole Polytechnique*, § 860.
+
+‡ M. Peltier has applied the same means, without employing it for the same object, as I have, to graduate thermo-electric rheometers by his *method of the sum of the united currents*, § XXII. of his memoir in the *Annales de Chimie et de Physique*, vol. lxxi. p. 225.
 
 ## PDF page 563
 
-Prof. Wartmann on Electric Induction.
-549
+Prof. Wartmann *on Electric Induction.*    549
+
 annealed with care. Their lengths not being capable of being directly ascertained with sufficient accuracy, as they were not geometrically rectilinear, have been calculated by the formula
-61. Two cases might resents being between the limits of induction, which correspond to zero and to an infinite length
-of the additional wire, applying the word infinite to thandwent
-compels the estiminility the worth and lei die constant
-wire. If for ,eammarginin, ariwind the wire the land the
-values of the induced current constanytising etii a, or inter-
-mittent values, one while greater, at rauibar atig then only
-a The weighings were made by Borda's method, and with an
-excellent balance constructed by Forting The radii were esti-
-mated by the method of enrollement. The densities are taken
-the inductor wire is effected by infiwork seldent deed and morn
-that the angles of deviation increase without any alter-
-Weights |
-bo Lengths its
-eresimminger torsaish interference under the circum-
-1 metres.
-Platinum wire, Not 200 1 22:0 of
-t.0.002000 van 59.700 v 0.8641111
-1404.16 Was 04100.00 pd 052 very 6.04 11. and com-
-0.927720
-1.067160
-Copper wite, No. 2 st. km 8.9 ibne 0.00300 but 65.7050 do 3.00 logo 1.00 do 3.00 logo 2.50 do 3.00 logo 2.50 do 3.00 logo 2.50 logo 2.50 logo 2.50 logo 2.50 logo 2.50 logo 2.50 logo 2.50 logo 2.50 logo 2.50 logo 2.50 logo 
-1 046243
-11134184726
-of 020:25 duction of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the st
-<math>-0.828810</math>
-Brass wire, No. 3 .... 8.411 0.00050 Jub 21:593
-11:576000
-4.216216
-Steel wire, No. 4 ...... 7.8 .........................
-3.599
-9.405405
-64. I constructed a rheometer with the copper-wire No. 5.
-This wire makes only four revolutions, and is not covered
-with silk. The two needles (selected from fifty) are very light,
-magnetized to saturation, and make an entire oscillation in
-The point of the upper needle carries a small strip of
-10".4.
-blackened paper, which allows the deviations to be read upon me common to be read upon me common to be read upon me common to be read upon to be read upon to be read upon to be read upon to be read upon to be read upon to 
-a frame of 0m.9 diameter.
-65. In order to have sources of electricity always compara-
-ble, and of a perfect constancy, I employed two thermo-elec-
-tric pairs formed of metals which undergo no alteration in
-the conditions in which they were to be placed. These metals
-are platinum and copper, pure and perfectly annealed. I avoided all foreign metal, by rejecting the use of solder. The
-wires of platinum No. 2 and of copper No. 3, those of plati-
-num No. 3 and of copper No. 2, were stretched in a vice to a
-length of om 010; then, after having connected these surfaces
-of contact by a copper wire finer and better annealed, they
-were plunged into equal quantities of pure mercury, intended
-to equalize promptly the temperature throughout their whole
-extent." This mercury was inclosed in two German class test-
+
+$$
+\mathrm{L} = 318{\cdot}47 \frac {\mathrm{P}}{\Delta \mathrm{R} ^ {2}},
+$$
+
+in which
+
+L is the length sought, in millimetres,
+P the weight of the wire, in grammes,
+Δ its density,
+R its radius.
+
+The weighings were made by Borda's method, and with an excellent balance constructed by Fortin. The radii were estimated by the method of *enroulement*. The densities are taken from the best tables known.
+
+| Name of the wires. | Densities. | Diameters. | Weights. | Lengths. |
+|---|---|---|---|---|
+| | | metre. | grammes. | metres. |
+| Platinum wire, No. 2 | 22·0 | 0·00200 | 59·700 | 0·864111 |
+| ... ... No. 3 | 22·0 | 0·00140 | 31·404 | 0·927720 |
+| Copper wire, No. 2 | 8·9 | 0·00300 | 66·892 | 1·067160 |
+| ... ... No. 3 | 8·9 | 0·00300 | 65·705 | 1·046243 |
+| ... ... No. 4 | 8·9 | 0·00300 | 200·255 | 3·184726 |
+| ... ... No. 5 | 8·9 | 0·00300 | 52·050 | 0·828810 |
+| Brass wire, No. 3 | 8·4 | 0·00050 | 21·593 | 11·576000 |
+| ... ... No. 4 | 8·4 | 0·00100 | 28·116 | 4·216216 |
+| Steel wire, No. ...... | 7·8 | 0·00025 | 3·399 | 9·405405 |
+
+64. I constructed a rheometer with the copper-wire No. 5. This wire makes only four revolutions, and is not covered with silk. The two needles (selected from fifty) are very light, magnetized to saturation, and make an entire oscillation in $10^{\prime\prime}{\cdot}4$. The point of the upper needle carries a small strip of blackened paper, which allows the deviations to be read upon a frame of $0^{\mathrm m}{\cdot}9$ diameter.
+
+65. In order to have sources of electricity always comparable, and of a perfect constancy, I employed two thermo-electric pairs formed of metals which undergo no alteration in the conditions in which they were to be placed. These metals are platinum and copper, pure and perfectly annealed. I avoided all foreign metal, by rejecting the use of solder. The wires of platinum No. 2 and of copper No. 3, those of platinum No. 3 and of copper No. 2, were stretched in a vice to a length of $0^{\mathrm m}{\cdot}010$; then, after having connected these surfaces of contact by a copper wire finer and better annealed, they were plunged into equal quantities of pure mercury, intended to equalize promptly the temperature throughout their whole extent. This mercury was inclosed in two German glass test-
 
 ## PDF page 564
 
@@ -33002,167 +31340,167 @@ when the particle is in equilibrio.
 
 ## PDF page 569
 
-Mr. Moon on Fresnel's Theory of Double Refraction. 555
-vibrations is due to Ring on Both not, I Righte myself to prove that the sector by the contract the sector by the contract the sector by the contract the sector by the contract the sector by the contract the sector by the 
-one step beyond it. <math>R \stackrel{d}{\circ} R</math> <math>\stackrel{d}{\circ} R</math> <math>\stackrel{d}{\circ} R</math> <math>\stackrel{d}{\circ} R</math> <math>\stackrel{d}{\circ} R</math> <math>\stackrel{d}{\circ} R</math> <math>\stackrel{d}{\circ} R</math> <math>\stackrel{d}{\circ} R</math> <math>\stackrel{d}{\circ} R</math> <math>\stackrel{d}{\circ} R</math> <math>\stackrel{d}{\circ} R</math> <math>\stackrel{d}{\circ} R</math> <math>\stackrel{d}{\circ} R</math> <math>\stackrel{d}{\circ} R</math> <math>\stackrel{d}{\circ} R</math> <math>\stackrel{d}{\circ} R</math> <math>\stackrel{d}{\circ}</math>
-tion," says Mr. Smis A Chmbrid A Mathem Ach Journal, vol. i. p. 1), "on which He blow a was a way of the blow of the blow of the blow of the blow of the blow of the blow of the blow of the blow of the blow of the blow of t
-Now the force of restitution will be in the direction of the
-displacement, if X Y Z be proportional to & x, & y, & x.
-same account I shall prefer to give Mr. Smith's elegant medt lysis in preference to the cumulations from sess of Freshel, trusting my readers will take my bord for it, that whatever it may
-want in "geometrical distinctness," it gains in Ignittuq Inalt
-ss. B. <math>\frac{d^2 R}{dx^2} = \frac{R}{dx} \frac{d^2 R}{dx^2} = \frac{R^2 R}{dx^2} \frac{R}{dx^2} = \frac{R}{dx} \frac{R}{dx} = \frac{R}{dx} \frac{R}{dx} = \frac{R}{dx} \frac{R}{dx} = \frac{R}{dx} = \frac{R}{dx} = \frac{R}{dx} = \frac{R}{dx} = \frac{R}{dx} = \frac{R}{dx} = \frac{R}{dx} = \frac{R}{</math>
-ness.
-cles acting on eagles ther with grees which are functions of their mutt, <math>O = times</math>, <math>tlBr = art times Are times at right angles to each oth <math>vb</math> along which has particle <math>vb</math> applaced, the</math>
-and substituting in the former equations, they become 29010
-"Let <math>xyz</math> be the eccordinates of the attraction points; <math>r_1r_2r_3</math> be the co-ordinates of the attraction points; <math>r_1r_2r_3</math> be the distances between the wildcred at a tracting points; <math>r_1r_2r_3</math> be the distances betwe
-<math>\phi_1(r_1)</math> <math>\phi_2(r_2)</math> <math>\phi_3(r_3)</math> <math>\phi_3(r_4)</math> <math>\phi_3(r_4)</math> <math>\phi_3(r_4)</math> <math>\phi_3(r_4)</math> <math>\phi_3(r_4)</math> <math>\phi_3(r_4)</math> <math>\phi_3(r_4)</math>
-from which it is easy to prove, supposing the above process
-correct, "that there are three directions at right angles to each
-other, along which, if a particle be displaced, the force of
-restitution acts in the same direction."
-But the fact is, the above process is entirely fallacious if it
-is meant to apply to the case of the motion of a particle of
-the æthereal medium by which light is produced. What is
-meant by the mysterious principle, that "supposing the dis-
-placement to be very small, the force of restitution may be
-taken as proportional to it," I profess myself unable to com-
-prehend; but this I do understand, that when the co-ordinates
-of the particle, whose motion is being considered, vary from
-<math>x, y, z</math> to <math>x + \delta x, y + \delta y, z + \delta z</math>, the co-ordinates of the other
-particles of the medium will vary from <math>x_1, y_1, z_1, x_2, y_2, z_2, &c.</math> to
-<math>x_1 + \delta x_1, y_1 + \delta y_1, z_1 + \delta z_1, x_2 + \delta x_2, y_2 + \delta y_2, z_2 + \delta z_2, &c.;</math>
-and that therefore the above values (A.) for the resolved parts
-of the force on the particle whose motion is being considered,
-are entirely fallacious.
-are entirely fallacious.
+Mr. Moon *on* Fresnel’s *Theory of Double Refraction.*    555
 
-The true value of X in this case is not displaced in the true value of X in this case is not displaced in the true value of X in this case is not displaced in the true value of X in this case is n
-evenl sw the <math>\frac{d^2 R}{dx^2} \delta_x^{11} + \frac{\partial^2 R}{\partial x \partial y} \delta_y^{12} + \frac{\partial^2 R}{\partial x \partial z} \delta_z^{12}</math> such that is,
-202
+$$
+\left.\begin{aligned}
+\mathrm X&=\frac{d^2\mathrm R}{dx^2}\delta x+\frac{d^2\mathrm R}{dx\,dy}\delta y+\frac{d^2\mathrm R}{dx\,dz}\delta z,\\
+\mathrm Y&=\frac{d^2\mathrm R}{dx\,dy}\delta x+\frac{d^2\mathrm R}{dy^2}\delta y+\frac{d^2\mathrm R}{dx\,dz}dz,\\
+\mathrm Z&=\frac{d^2\mathrm R}{dx\,dz}\delta x+\frac{d^2\mathrm R}{dy\,dz}\delta y+\frac{d^2\mathrm R}{dz^2}\delta z.
+\end{aligned}\right\}\tag{A.}
+$$
+
+"Now the force of restitution will be in the direction of the displacement, if $\mathbf{X}\mathbf{Y}\mathbf{Z}$ be proportional to $\delta x, \delta y, \delta z$. Let then
+
+$$
+s=\frac{\mathrm X}{\delta x}=\frac{\mathrm Y}{\delta y}=\frac{\mathrm Z}{\delta z};
+$$
+
+then putting
+
+$$
+\frac {d ^ {2} \mathrm{R}}{d x ^ {2}} = \mathrm{A}, \frac {d ^ {2} \mathrm{R}}{d y ^ {2}} = \mathrm{B}, \frac {d ^ {2} \mathrm{R}}{d z ^ {2}} = \mathrm{C},
+$$
+
+$$
+\frac {d ^ {2} \mathrm{R}}{d z d y} = \mathrm{A} ^ {\prime}, \frac {d ^ {2} \mathrm{R}}{d z d x} = \mathrm{B} ^ {\prime}, \frac {d ^ {2} \mathrm{R}}{d x d y} = \mathrm{C} ^ {\prime},
+$$
+
+and substituting in the former equations, they become
+
+$$
+(\mathrm{A} - s) \delta x + \mathrm{C} ^ {\prime} \delta y + \mathrm{B} ^ {\prime} \delta z = 0,
+$$
+
+$$
+\mathrm{C} ^ {\prime} \delta x + (\mathrm{B} - s) \delta y + \mathrm{A} ^ {\prime} \delta z = 0,
+$$
+
+$$\mathrm B^\prime\delta x+\mathrm A^\prime\delta y+(\mathrm C^\prime-s)dz=0;\text{”}$$
+
+from which it is easy to prove, supposing the above process correct, "that there are three directions at right angles to each other, along which, if a particle be displaced, the force of restitution acts in the same direction."
+
+But the fact is, the above process is entirely fallacious if it is meant to apply to the case of the motion of a particle of the æthereal medium by which light is produced. What is meant by the mysterious principle, that “supposing the displacement to be very small, the force of restitution may be taken as proportional to it,” I profess myself unable to comprehend; but this I do understand, that when the co-ordinates of the particle, whose motion is being considered, vary from $x$, $y$, $z$ to  $ x + \delta x $ ,  $ y + \delta y $ ,  $ z + \delta z $ , the co-ordinates of the other particles of the medium will vary from  $ x_{1}y_{1}z_{1} $ ,  $ x_{2}y_{2}z_{2} $ , &c. to  $ x_{1} + \delta x_{1} $ ,  $ y_{1} + \delta y_{1} $ ,  $ z_{1} + \delta z_{1} $ ,  $ x_{2} + \delta x_{2} $ ,  $ y_{2} + \delta y_{2} $ ,  $ z_{2} + \delta z_{2} $ , &c.; and that therefore the above values (A.) for the resolved parts of the force on the particle whose motion is being considered, are entirely fallacious.
+
+The true value of X in this case is,
+
+$$
+\frac {d ^ {2} \mathrm{R}}{d x ^ {2}} \delta x + \frac {d ^ {2} \mathrm{R}}{d x d y} \delta y + \frac {d ^ {2} \mathrm{R}}{d x d z} \delta z
+$$
+
+2 O 2
 
 ## PDF page 570
 
-556 Mr. Moon on Freshel's Theory of Double Refraction.
-the direction of the thius, or us by F; thengisme call R this length, or the lasticity, we length, or the lasticity, we
-shall have
-all have <math display="block">\mathbb{R}^2 = \{a \overset{d^2}{x_0} \overset{\mathbf{R}}{x_0} \overset{d^2}{x_0} \overset{\mathbf{R}}{x_0} + \frac{d^2}{dx} \overset{\mathbf{R}}{y_2} \overset{\mathbf{R}}{x_0} \overset{\mathbf{R}}{x_0} \overset{\mathbf{R}}{x_0} \overset{\mathbf{R}}{x_0} \overset{\mathbf{R}}{x_0} \overset{\mathbf{R}}{x_0} \overset{\mathbf{R}}{x_0} \overset{\mathbf{R}}{x_0} \overset{\mathbf{R}}{x_0} \overset{\mathbf{R}</math>
-the values of R parallel to the axes are then jack by the equa-
-and similarly for Y and Z; from which it is evident, that to
-talk of the existence of axes of elasticity in every system of
--particles acting on each other is mere absurdity and hence
-it appears, that the "proposition on which the whole theory
-of double refraction depends" is altogether untrue.
-Will it be urged, however, that although the general pro-
-position does not hold, there still may be particular systems
-of particles for which it does hold? I do not hesitate to state my belief, that the existence of such a system is <i>impossible</i>; and at any rate would challenge any analyst whatever to suggest any such.
-gest any such.
+556    Mr. Moon *on* Fresnel’s *Theory of Double Refraction.*
 
-The case then stands thus: A writer states a proposition, as the basis of a theory; he offers a proof of the proposition, which turns out to be fallacious; and not only is the proof itself erroneous, but du
-degree of evidence approaching to certainty, that the proposition itself, after modifying it in every conceivable way con-
-sistent with the case to which it is meant to apply, is untrue; and there is moreover a perfect certainty that it is incapable of proof. Thus we have a fundamental proposition of which a false proof is given, a certainty t
-remain a mere assumption incapable of independent proof;
-and this in the face of the fact that there is every reason to
-suppose it untrue. Such a combination of circumstances would have decided the fate of any other theory; why is this to be made an exception to the rule? But to return.
-Assuming the existence of the axes of elasticity, we are next
-introduced to the surface of elasticity. Referring the co-or-
-dinates to the axes of elasticity, we have
-ged regularly in square order, <math>d = x \delta a = x \delta a = X</math>
-1)
-<math>Y = b \delta y = b r \cos \beta_1</math> where a, b, c are constants.
-Suppose all the particle <math>\dot{\gamma} \cos z = z \delta z = Z</math>
-next.
-The rest I shall give in the words of Sir John Herschel (vide
-Encyclopædia Metropol., art. Light, 1004) 1249 M. Fresnel
-next conceives a surface, which he terms the surface of elas-
-ticity,' constructed according to the following law: On each
-of the axes of elasticity, and on every radius or drawn in all
-directions, take a length proportional to the square root of the
-elasticity exerted on the displaced molecule by the medium in
+$$
+\begin{aligned}
+&+\frac{d^2\mathrm R}{dx\,dx_1}\delta x_1+\frac{d^2\mathrm R}{dx\,dy_1}\delta y_1+\frac{d^2\mathrm R}{dx\,dz_1}\delta z_1\\
+&+\frac{d^2\mathrm R}{dx\,dx_2}\delta x_2+\frac{d^2\mathrm R}{dx\,dy_2}\delta y_2+\frac{d^2\mathrm R}{dx\,dz_2}\delta z_2\\
+&+\&\mathrm{c.},
+\end{aligned}
+$$
+
+and similarly for Y and Z; from which it is evident, that to talk of the existence of axes of elasticity in every system of particles acting on each other is mere absurdity. And hence it appears, that the “proposition on which the whole theory of double refraction depends” is altogether untrue.
+
+Will it be urged, however, that although the general proposition does not hold, there still may be particular systems of particles for which it does hold? I do not hesitate to state my belief, that the existence of such a system is *impossible*; and at any rate would challenge any analyst whatever to suggest any such.
+
+The case then stands thus:—A writer states a proposition as the basis of a theory; he offers a proof of the proposition, which turns out to be fallacious; and not only is the proof itself erroneous, but during the investigation there appears a degree of evidence approaching to certainty, that the proposition itself, after modifying it in every conceivable way consistent with the case to which it is meant to apply, is untrue; and there is moreover a *perfect certainty* that it is incapable of proof. Thus we have a fundamental proposition of which a false proof is given, a certainty that if true, it must always remain a mere assumption incapable of independent proof; and this in the face of the fact that there is every reason to suppose it untrue. Such a combination of circumstances would have decided the fate of any other theory; why is this to be made an exception to the rule? But to return.
+
+Assuming the existence of the axes of elasticity, we are next introduced to the surface of elasticity. Referring the co-ordinates to the axes of elasticity, we have
+
+$$
+\left.\begin{aligned}
+\mathrm X&=a\delta x=ar\cos\alpha\\
+\mathrm Y&=b\delta y=br\cos\beta\\
+\mathrm Z&=c\delta z=cr\cos\gamma
+\end{aligned}\right\}\text{where }a,b,c\text{ are constants.}
+$$
+
+The rest I shall give in the words of Sir John Herschel (vide Encyclopædia Metropol., art. Light, 1004): “M. Fresnel next conceives a surface, which he terms the ‘surface of elasticity,’ constructed according to the following law:—On each of the axes of elasticity, and on every radius $r$ drawn in all directions, take a length proportional to the square root of the elasticity exerted on the displaced molecule by the medium in
 
 ## PDF page 571
 
-Mr. Moon on Frespel's Theory of Double Refraction. 557
-the direction of the fadius, or to VF; then if we call R this
-length, or the radius vector of the surface of elasticity, we
-shall have
-<math display="block">R^{2} = \{a \stackrel{\sim}{r} \cdot \cos a^{2} + b \stackrel{\sim}{r} \cdot \cos \beta + c \stackrel{\sim}{r} \cdot \cos \gamma^{2} \} \times \text{const.};</math>
-the values of R parallel to the axes are then had by the equa-
-and similarly for Y and Z; from which it is evident, the with the case of the case of the case of the case of the case of the case of the case of the case of the case of the case of the case of the case of the case of the 
-which we shall express simply as a be constant the equa-
-tion of the surface of elasticity will be of the form, susages it
-Rantulascos Xote 95 cos si Act pessos Si Zion elquop jo
-where XYZ now stand for a $7, the angles made by R with position does not hold, there sail may be particular system.
-the axes of co-ordinates. Thou sall in land you housed the axes of co-ordinates. Thou sall is laid, not a sall translate the axes of co-ordinates. The co-ordinates of the co-ordinates of the co-ordinates of the co-ordinate
-vibrate in the direction of the radius R, and retained in that
-line, or at least let us neglect all that portion of its motion
-which takes place at right angles to the radius vector. Then the force of elasticity by which its vibrations are governed will
-be proportional to R2, and the velocity of the fuminous wave
-propagated by means of them, in a direction transverse to
-them (or at right angles to R), will be proportional to R.
-Of this extraordinary proposition the accomplished author
-does not offer one syllable of proof or explanation. Whether
-Fresnel's writings are equally deficient, I am not aware; but
-another eminent mathematical writer, the present Astronomer
-Royal, after bestowing, as we may reasonably suppose, some
-degree of diligence on the study of Fresner's papers, appears to have found nothing better in the way of a demonstration than the following (vide Airy's Tracts, 2nd edition, p. 341):—
-"To explain on mechanical principles the transmission of
-a wave in which the vibrations are transverse to the direction
-Assuming the existence of the execution of its motion.
+Mr. Moon *on* Fresnel’s *Theory of Double Refraction.*    557
 
-Assuming the existence of the execution of the existence of the existence of the existence of the existence of the existence of the existence of the existence of the 
-of the particles of a medium, arran-
-ged regularly in square order, each <math>a = a \delta a = X</math>
+the direction of the radius, or to $\sqrt{F}$; then if we call R this length, or the radius vector of the surface of elasticity, we shall have
+
+$$\mathrm R^2=\{ar\cdot\overline{\cos\alpha}^2+br\cdot\overline{\cos\beta}^2+cr\cdot\overline{\cos\gamma}^2\}\times\mathrm{const.};$$
+
+the values of R parallel to the axes are then had by the equation
+
+$$\mathrm R^2=\mathrm{const.}\times ar,\quad\mathrm R^2=\mathrm{const.}\times br,\quad\mathrm R^2=\mathrm{const.}\times cr,$$
+
+ which we shall express simply as $ a^{2}, b^{2}, c^{2} $, so that the equation of the surface of elasticity will be of the form
+
+$$
+\mathrm{R} ^ {2} = a ^ {2} \cos^ {2} \mathrm{X} + b ^ {2} \cos^ {2} \mathrm{Y} + c ^ {2} \cos^ {2} \mathrm{Z};
+$$
+
+where X Y Z now stand for $\alpha\beta\gamma$, the angles made by R with the axes of co-ordinates.
+
+"Let us now imagine a molecule displaced and allowed to vibrate in the direction of the radius R, and retained in that line, or at least let us neglect all that portion of its motion which takes place at right angles to the radius vector. Then the force of elasticity by which its vibrations are governed will be proportional to $\mathbf{R}^2$, and the velocity of the luminous wave propagated by means of them, in a direction transverse to them (or at right angles to R), will be proportional to R."
+
+Of this extraordinary proposition the accomplished author does not offer one syllable of proof or explanation. Whether Fresnel's writings are equally deficient, I am not aware; but another eminent mathematical writer, the present Astronomer Royal, after bestowing, as we may reasonably suppose, some degree of diligence on the study of Fresnel's papers, appears to have found nothing better in the way of a demonstration than the following (vide Airy's Tracts, 2nd edition, p. 341):—
+
+"To explain on mechanical principles the transmission of a wave in which the vibrations are transverse to the direction of its motion.
+
+"In figure adjoined let the faint dots represent the original situations of the particles of a medium, arranged regularly in square order, each line being at the distance $h$ from the next. Suppose all the particles in each vertical line disturbed vertically by the same quantity, the disturbances of different vertical lines being different. Let $ x $ be the horizontal abscissa of the second row, $x-h$ that of the first, and $x+h$ that of the third; let $u$, $u_1$, and $u^\prime$ be the corresponding disturb-
+
 G
-line being at the distance h from the op d = y & d = Y
-Suppose all the particles in <math>00.75 = 3.60 = X</math>
-next.
-The rest I hall give in theirseydbedrutsibonil lasitrevi daiso
-Cally by the same quantity, the dis- 16 its M sibe golovoul
-next conceives a surface, senillapitrey transfill to seonadrut-
-theing different net ed according adject and adject the being different net according to the land the second to the second to the second to the second to the second to the second to the second to the second to the second t
-of the axes of elasticity, wer brosse of the axes of elasticity,
-directions, take a length whom bull, isrift, adjoint adto his druke in the druke bright ad whom where the control is the state of the control is the state of the control is the state of the control is the control is the co
+
+D
+
+A    F
+
+C
+
+E
+
+B
 
 ## PDF page 572
 
-558 Mr. Moon on Fresnel's Theory of Double Refraction.
-ances. The motions will depend upon the extent to which we
-suppose the forces are sensible. Suppose the only particles
-whose forces on A are sensible, to be B, C, D, E, F, G (omit-
-ting those in the same line, as their attractions are equal and
-in opposite directions); and suppose them to be attractive, and
-as the inverse square of the distance; and the absolute force
-The strain of the default, but in the face of evidence, so we are (thin u) me to as ume t(u to u th) me mode of
-calculating <math>\mathbb{E}\{\mathcal{E}(\mathbf{i}^n \in \mathbf{u}) \leftrightarrow \mathcal{E}_{\mathbf{u}}\}</math> are <math>\mathbb{E}\{\mathcal{E}(\mathbf{i}^n \in \mathbf{u} + \mathbf{u}) + \mathbf{u}\}</math>
-the most striking difference from that under consideration, namely that of unt is transferred when
-the visit (home + u, 12) incore [12] when the war with she are
-not only compe ( w + w = w) m the existen ( w - w) m wind at ions consisting of w + w - w - w - w - w - w - w - w - w -
-Expanding these fractions and neglecting powers of u-u
-and u + u'above the first, the force tending to diminish u is
-quainted with an exact law to which they are subject ...
-the worth of such (<math>\frac{1}{2}</math>) <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> <math>\frac{1}{2}</math> 
-Putting for <math>u_1</math>,
-other opportunity.
-<math>u - \frac{du}{dx}h + \frac{d^2u}{dx^2}\frac{h^2}{2}</math>. Liverpool, November 8, 18, 28, 18, 28, 18, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20
-* It is easy to conceive of transversal as the consequence of w rol bna
-tion, but I confess myself unw <math>^2h</math> <math>u</math> <math>^2b</math> once <math>n</math> <math>h</math> he possibility of there being
-a surface of transversal vibra <math>(2n + \frac{1}{2} \frac{1}{2} \frac{1}{2} \frac{1}{2} \frac{1}{2} \frac{1}{2} \frac{1}{2} \frac{1}{2} \frac{1}{2} \frac{1}{2} \frac{1}{2} \frac{1}{2} \frac{1}{2} \frac{1}{2} \frac{1}{2} \frac{1}{2} \frac{1}{2} \frac{1}{2} \frac{1}{2} \frac{1}{2} \frac{1}{2} \frac{1}{2} \frac{1}{2}</math>
-there the wave is in the direction of the motion. At all events, if bnil jaw
-thesis of transversal vibra is to more dits ground is shust have much more
-thought bestowed upon exit it steet in the nost painful circumstance connected with the date story of the the ulatory theory, is the
-an equation of exactly the same form as that for the transmis-
-sion of sound on The solution therefore has the same form;
-and therefore the transversal motion of particles supposed here
-follows the same law, that is, it follows the law of undula-<br>tion," And moreover, if the above were correct, the velocity
-of the luminous wave would be proportional to the square
-root of the force of elasticity in a direction transverse to the
-direction of the course of the waveponent and with any the to enter with any change of the waveponent
-Whether the above illustration—for at best it would be nothing more—is due to Fresnel or Mr. Airy himself, I am not
-aware: but the whole is erroneous from beginning to end.
-The mathematics not only fail to meet the case under con-
-sideration, but there is a palpable mathematical error in the
-process, which, even admitting the data, completely vitiates
-the result. I need but advert to the circumstance, that in the
+558    Mr. Moon *on* Fresnel’s *Theory of Double Refraction.*
+
+ances. The motions will depend upon the extent to which we suppose the forces are sensible. Suppose the only particles whose forces on A are sensible, to be B, C, D, E, F, G (omitting those in the same line, as their attractions are equal and in opposite directions); and suppose them to be attractive, and as the inverse square of the distance; and the absolute force of each = m. The whole force to pull A downwards is
+
+$$
+\begin{aligned}
+&\frac{m(h+u-u_1)}{\{h^2+(h+u-u_1)^2\}^{3/2}}+\frac{m(u-u_1)}{\{h^2+(u-u_1)^2\}^{3/2}}\\
+&-\frac{m(h-u+u_1)}{\{h^2+(h-u+u_1)^2\}^{3/2}}+\frac{m(h+u-u')}{\{h^2+(h+u-u')^2\}^{3/2}}\\
+&+\frac{m(u-u')}{\{h^2+(u-u')^2\}^{3/2}}-\frac{m(h-u+u')}{\{h^2+(h-u+u')^2\}^{3/2}}.
+\end{aligned}
+$$
+
+"Expanding these fractions and neglecting powers of $ u - u_1 $ and $ u - u' $ above the first, the force tending to diminish $ u $ is
+
+$$
+\left(1-\frac1{2^{3/2}}\right)\cdot\frac{m}{h^3}(2u-u_1-u').
+$$
+
+Putting for $ u_1 $,
+
+$$
+u - \frac {d u}{d x} h + \frac {d ^ {2} u}{d x ^ {2}} \frac {h ^ {2}}{2},
+$$
+
+and for u',
+
+$$
+u + \frac {d u}{d x} h + \frac {d ^ {2} u}{d x ^ {2}} \frac {h ^ {2}}{2},
+$$
+
+we find
+
+$$
+\frac {d ^ {2} u}{d t ^ {2}} = \left(1 - \frac {1}{2 ^ {\frac {3}{2}}}\right) \frac {m}{h} \frac {d ^ {2} u}{d x ^ {2}},
+$$
+
+an equation of exactly the same form as that for the transmission of sound. The solution therefore has the same form; and therefore the transversal motion of particles supposed here follows the same law, that is, it follows the law of undulation." And moreover, if the above were correct, the velocity of the luminous wave would be proportional to the square root of the force of elasticity in a direction transverse to the direction of the course of the wave.
+
+Whether the above illustration—for at best it would be nothing more—is due to Fresnel or Mr. Airy himself, I am not aware: but the whole is erroneous from beginning to end. The mathematics not only fail to meet the case under consideration, but there is a palpable mathematical error in the process, which, even admitting the data, completely vitiates the result. I need but advert to the circumstance, that in the
 
 ## PDF page 573
 
@@ -33220,91 +31558,99 @@ the result. I need but advert to the circumstance, that in the
 
 ## PDF page 574
 
-Intelligence and [AQ35] Illuneous Articles.
-561
-LXXIX. Addenda to Mr. Drach's asserted Proof of Fermat's
-maining terms; but we managed k as great as we please,
-DORTIONS of the above paper (vide Phil. Mags, p. 286,
-efor October last) possibly requiring further elucidation,
-it may be observed that the conclusion in the odd case is better
-negative real quantities; the absurdity cerswolldizarbayorq
-As the binomial theorem for whole powers extends to frac-
-derived from division, and by <math>(e,g,\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac</math>
-the equations between a, c, Z, Y, exist if even these quanti-
-ties are fractional. Let k be any whole number, and make
-... the bracketed factor my=Withty = or, 1-mx=X 2 stars = a
+[ 560 ]
 
-multiplying by 2 sizkmin and then by kit 2,32 of 32 enil
-Page 289, Trising add respectively.
-Page 289, Jae 8 Mer PosAr Cut of Sing 2 Lenk-gnetry of
-the binomial expansion, string out from either extreme.
-P.S. The tisky is somediately leducible from the first, by
-considering 22, to an A thistof the no 2 = 18 5 2 wer.
-the fermat’s papers a reserved in no château or biblio-
-<math display="block"> (pz^{k+\frac{1}{2}} + qy^{k+\frac{1}{2}}) + (pz^{k+\frac{1}{2}} - qy^{k+\frac{1}{2}}) = </math>
-n S. M. D.
-<math display="block">\therefore 2y^{\frac{n}{2}} = \left(pz^{k+\frac{1}{2}} + qy^{k+\frac{1}{2}}\right)^n - \left(pz^{k+\frac{1}{2}} - qy^{k+\frac{1}{2}}\right)^n</math>
-<math display="block">
-\begin{array}{c|ccccccccccccccccccccccccccccccccccc</math>
-The foot indexes of B ought to have been doubled, and the
-N a paper read before the Royal Acadeotyzmrolenarthoitaups
-this enumerated the different views on the poure of respiration which had <math>\sqrt{\frac{1}{2}} + \frac{1}{n!} \frac{\mathcal{U}_{\text{poss}}}{\mathcal{U}_{\text{poss}}} = \frac{1}{n!} \frac{\mathcal{U}_{\text{poss}}}{\mathcal{U}_{\text{poss}}} + \frac{1}{n!} \frac{\mathcal{U}_{\text{poss}}}{\mathcal{U}_{\text{poss}}} </math>
-the lungs betwiff the oxyn wardnthe ployd, that they do not ex-
-plain how ite see again the see of a noright red by oxygen or with carbonic ace. is again to leave of a noright red by oxygen or
-she can be supposed by the supposed by the supposed by the supposed by the supposed by the supposed by the supposed by the supposed by the supposed by the supposed by the supposed by the supposed by the supposed by the su
-in this case. If <math>k = 0</math>, z and y are indeterminate; for any
-other value of <math>k</math>, <math>z=y</math>, and therefore <math>x=0</math>, an excepted case.
-When <math>n \ge 1</math>, and <math>i \ge 0</math>, all the terms are negative, whatever
-He then <math>\frac{1}{2} \left( \frac{v}{v} \right)^{\frac{1}{2}} \frac{1}{\sqrt{n}} \frac{1}{\sqrt{n}} \frac{1}{\sqrt{n}} \frac{1}{\sqrt{n}} \frac{1}{\sqrt{n}} \frac{1}{\sqrt{n}} \frac{1}{\sqrt{n}} \frac{1}{\sqrt{n}} \frac{1}{\sqrt{n}} \frac{1}{\sqrt{n}} \frac{1}{\sqrt{n}} \frac{1}{\sqrt{n}} \frac{1}{\sqrt{n}} \frac{1}{\sqrt{n}} \frac{1}{\sqrt{n}} \frac{1}{\sqrt{n}} \frac{1}</math>
-capillary vessels, a rotter by the Author. a closed william
+LXXIX. *Addenda to* Mr. Drach’s *asserted Proof of* Fermat’s *Theorem*.*
+
+PORTIONS of the above paper (vide Phil. Mag., p. 286, for October last) possibly requiring further elucidation, it may be observed that the conclusion in the odd case is better proved as follows:—
+
+As the binomial theorem for whole powers extends to fractional subdivisions of the root (*e. g.* $\frac13+\frac23=1,\ \frac45+\frac{31}5=7$), the equations between $a$, $c$, Z, Y, exist if even these quantities are fractional. Let $k$ be any whole number, and make $a=z^{2k+1}$, $\mathrm Z=z^{m-k}$, $c=y^{2k+1}$, $\mathrm Y=y^{m-k}$,
+
+$$
+\therefore\ \mathrm Z=z^{m-k}=z^{2km+m}p^n+\Sigma\mathrm A_i z^{(2k+1)(m-i)} y^{2ki+i}p^{n-2i}q^{2i},
+$$
+
+multiplying by $2z^{-2km-m}$ and then by $z^{kn+n/2}$,
+
+$$
+2z^{-kn}=2p^n\left\{1+\Sigma\mathrm A_i\overline{\frac qn}^{2i}\cdot\overline{\frac yz}^{2ki+i}\right\},
+$$
+
+$$
+\begin{aligned}
+2z^{n/2}&=2p^nz^{kn+n/2}\left\{1+\Sigma\mathrm A_i\overline{\frac qn}^{2i}\cdot\overline{\frac yz}^{2ki+i}\right\}=\\
+&=\left(pz^{k+1/2}+qy^{k+1/2}\right)^n+\left(pz^{k+1/2}-qy^{k+1/2}\right)^n,
+\end{aligned}
+$$
+
+$$
+\therefore\ 2y^{n/2}=\left(pz^{k+1/2}+qy^{k+1/2}\right)^n-\left(pz^{k+1/2}-qy^{k+1/2}\right)^n
+$$
+
+$$
+\therefore\ \frac pq\left(\frac zy\right)^{k+1/2}
+\left\{\left(z^{n/2}+y^{n/2}\right)^{1/n}-\left(z^{n/2}-y^{n/2}\right)^{1/n}\right\}
+=\left\{\left(z^{n/2}+y^{n/2}\right)^{1/n}+\left(z^{n/2}-y^{n/2}\right)^{1/n}\right\}.
+$$
+
+The foot indexes of B ought to have been doubled, and the equation transforms to
+
+$$
+2z^{1/2}\cdot\frac pq\cdot\left(\frac zy\right)^{k+1/2}
+\left\{\overline{\frac1n\cdot\frac yz}^{n/2}+\mathrm B_{2i+\text{[?]}}\left(\frac yz\right)^{in+n/2}\right\}
+$$
+
+$$
+=2z^{1/2}\left\{1+\frac1n\cdot\frac{1-n}{2n}\left(\frac yz\right)^n+\mathrm B_{2i}\overline{\frac yz}^{in}\right\},
+$$
+
+$$
+\therefore\ 0=\left\{1+\frac pq\cdot\left(\frac yz\right)^{m-k}\frac{2in-1}{(2i+1)n}\right\}\mathrm B_{2i}\cdot\left(\frac yz\right)^{in}.
+$$
+
+$\mathrm A_i$ being independent of $k$, $n=1$ gives $p=1=q$; $n-1$ enters all $\mathrm B_i$ except $\mathrm B_0=1$, $\therefore\ 0=1-(z\div y)^k$ is the equation in this case. If $k=0$, $z$ and $y$ are indeterminate; for any other value of $k$, $z=y$, and therefore $x=0$, an excepted case. When $n>1$, and $i>0$, all the terms are negative, whatever $k$ may be; of the term $i=0$, or of $1-\frac p{nq}\cdot\left(\frac yz\right)^{m-k}$, it can-
+
+\* Communicated by the Author.
 
 ## PDF page 575
 
-Intelligence and Miscellaneous Articles.
-561
-not be immediately shown if this is +ve and less than the re-
-maining terms; but we may make k as great as we please,
-and z y will always ipossibly render this factor negative,
-without restricting the generality of the original equations, ...
-we may always assume when no 1,10 mishm of exclusively
-negative real quantities; the absurdity of-which proposition
-As the binomial theorem sytiminbegaxestonnest mathtravola
-Nine <math>12</math>: <math>+\frac{2}{3}</math>: <math>+\frac{2}{3}</math>: <math>+\frac{2}{3}</math>: <math>+\frac{2}{3}</math>: <math>+\frac{2}{3}</math>: <math>+\frac{2}{3}</math>: <math>+\frac{2}{3}</math>: <math>+\frac{2}{3}</math>: <math>+\frac{2}{3}</math>: <math>+\frac{2}{3}</math>: <math>+\frac{2}{3}</math>: <math>+\frac{2}{3}</math>: <math>+\frac{2}{3}</math>: <math>+\frac{2}{3}</math>: <math>+\frac{2}{3}</math>: <math>+\frac{2}{3}</math>: <math>+\frac{2}{3}</math>: <math>+\frac{2}</math>
-the equations but <math>\frac{2}{2} + \frac{1}{2} + \frac{1}{2} + \frac{1}{2} + \frac{1}{2} + \frac{1}{2} + \frac{1}{2} + \frac{1}{2} + \frac{1}{2} + \frac{1}{2} + \frac{1}{2} + \frac{1}{2} + \frac{1}{2} + \frac{1}{2} + \frac{1}{2} + \frac{1}{2} + \frac{1}{2} + \frac{1}{2} + \frac{1}{2} + \frac{1}{2} + \frac{</math>
-.. the bracketed factor can evidently never become a square.
-Line 21 The introduction of 1 follows from Euler,
-ch. xii.
-Line 26 to 28, deduced from the binomial theorem laislum
+*Intelligence and Miscellaneous Articles.*    561
+
+not be immediately shown if this is +ve and less than the remaining terms; but we may make $k$ as great as we please, and $z>y$ will always possibly render this factor negative, without restricting the generality of the original equations, $\therefore$ we may always assume when $n>1$, $0=$ sum of exclusively *negative real quantities*; the absurdity of which proposition shows that $n$ cannot exceed unity.
+
+*Case 2.*—Page 288, line 9, is derived from division, and by line 12,
+
+$$
+\frac{p^2}{q^2}=\left(\frac{z+y}{z-y}\right)^2\left\{\frac{4g+1}{4h+2}\text{ or }\frac{4g+2}{4h+1}\right\},
+$$
+
+$\therefore$ the bracketed factor can evidently never become a square.
+
+Line 21.—The introduction of $\sqrt{-1}$ follows from Euler, ch. xii.
+
+Line 26 to 28, deduced from the binomial theorem.
+
 Page 289, line 2, add respectively.
-Page 289, line 8 (after magnitude), from the symmetry of
-the binomial expansion, setting out from either extreme.
-P.S. This case is immediately deducible from the first, by
-considering <math>x^2</math>, <math>y^2</math> and <math>z^2</math> as raised to the odd mth power.
-Are Fermat's papers preserved in no château or biblio-
-theque? <math>(pz^{k+\frac{1}{2}} + qy^{k+\frac{1}{2}}) + (pz^{k+\frac{1}{2}} - qy^{2}) =</math>
-„ S. M. D.
-November 21, <math>\frac{\pi}{2}</math>845. <math>q</math> <math>-\frac{\pi}{2}</math> <math>-\frac{\pi}{2}</math> <math>+\frac{\pi}{2}</math> <math>+\frac{\pi}{2}</math> <math>+\frac{\pi}{2}</math> <math>+\frac{\pi}{2}</math> <math>+\frac{\pi}{2}</math> <math>+\frac{\pi}{2}</math> <math>+\frac{\pi}{2}</math> <math>+\frac{\pi}{2}</math> <math>+\frac{\pi}{2}</math> <math>+\frac{\pi}{2}</math> <math>+\frac{\pi}{2}</math> <math>+\frac{\pi}{2}</math> <math>+\frac{\pi}{2}</math> <math>+\frac{\pi}{2}</math> <math>+\frac{\pi}{2}</math> <math>+\frac</math>
-" LXXX. Intelligence and Miscellaneous Articles."
-The foot in sungam Hong Ya to NOITABLEST NOed, and the
-N a paper read before the Royal Academy at Berlin, the author
-first enumerated the different views on the nature of respiration
-which had been proposed, and especially urged against all those
-theories which suppose that a chemical combination takes place in
-the lungs between the oxygen and the blood, that they do not ex-
-plain how it is that blood, after having been darkened by agitation
-with carbonic acid, is again rendered of a bright red by oxygen or
-atmospheric air, and is capable of again assuming its former arterial
-colour, if its arterial tint depends upon exidation; for carbonic
-acid cannot deoxidize the blood, and how can it be conceived that
-blood which has once been exidized can be again exidized a second
-or third time, and so on, without having been deoxidized? This
-objection appears to the author so conclusive, that he considers it
-sufficient to refute any theory which supposes chemical combination
-When <math>n \ge 1</math>, and <math>z \ge 0</math>, all thruso of boold add which appears of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state 
-He then alluded to the theory which he had proposed in 1837,
-according to which the inspired oxygen does not combine chemi-
-cally with the blood, but is only absorbed, and thus arrives in the
-capillary vessels, where it is applied to the exidation of certain sub-
+
+Page 289, line 8 (after magnitude), from the symmetry of the binomial expansion, setting out from either extreme.
+
+P.S. This case is immediately deducible from the first, by considering $x^2$, $y^2$ and $z^2$ as raised to the odd $m$th power.
+
+Are Fermat’s papers preserved in no *château* or *bibliothèque*?
+
+S. M. D.
+
+November 21, 1845.
+
+---
+
+LXXX. *Intelligence and Miscellaneous Articles.*
+
+ON RESPIRATION. BY PROF. MAGNUS.
+
+IN a paper read before the Royal Academy at Berlin, the author first enumerated the different views on the nature of respiration which had been proposed, and especially urged against all those theories which suppose that a chemical combination takes place in the lungs between the oxygen and the blood, that they do not explain how it is that blood, after having been darkened by agitation with carbonic acid, is again rendered of a bright red by oxygen or atmospheric air, and is capable of again assuming its former arterial colour, if its arterial tint depends upon oxidation; for carbonic acid cannot deoxidize the blood, and how can it be conceived that blood which has once been oxidized can be again oxidized a second or third time, and so on, without having been deoxidized? This objection appears to the author so conclusive, that he considers it sufficient to refute any theory which supposes chemical combination of oxygen with the blood to occur.
+
+He then alluded to the theory which he had proposed in 1837, according to which the inspired oxygen does not combine chemically with the blood, but is only absorbed, and thus arrives in the capillary vessels, where it is applied to the oxidation of certain sub-
 
 ## PDF page 576
 
@@ -33418,132 +31764,98 @@ mically combined with the blood, but exists in it merely as absorbed.
 
 ## PDF page 578
 
-564
-Intelligence and Miscellaneous Articles.
-These experiments show that the blood is capable of absorbing
-1½ times its volume of carbonic acid, a result which has also been
-obtained by other observers. They moreover show that it is capable
-of absorbing from 10 to 12.5 per cent of its volume of oxygen
-from the atmosphere, consequently 10 to 12 times more than water
-under the same circumstances and that the absorption of nitrogen
-amounts to 6.5 per cent.
-Moreover, experiments similar to those above described were in-
-stituted on the real arterial blood of horses which were of advanced
-age. By agitation with carbonic acid there was obtained .M
-silica and titanic acid recasions the few analyses of sphehe which have been made to other.
-Klaproth first anglesed the sphene of Passon by fusing it with hy-
-drate of potash; the mass dissolved in water, supersaturated with
-whence it is evident that the oxygen exists in at least as great quan-
-tion was precipitated by solutiosesrodate boold dairatra adtinicaitit
-ne The author then shows, that from some observations upon the
-quantity of the inspired air and of the blood which flows into the
-dungs in a given time, we may conclude that the blood does not
-absorb more than half the oxygen which the experiments above de-
-tailed have shown to exist in it. This portion is each time consumed
-in the capillary vessels, and the remainder, amounting to the other
-half, remains in the venous blood .- Chemical Gazette, No. 71.
-saturated with hydrochloric acid; the hydrochloric solutions were
-mixed and pre. on revolution of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the contro
-are discordant, on account of the imperfect separation of the titanic
-acid and oxide of iron. The titaniferous iron of Egersund in Norway
-has been analysed by M. Mosander, M. Kobell and M. H. Rose; the
-results obtained by the two first agree pretty well, but differ con-
-siderably from those of M. Rose.
-In three operations on the above-named mineral M. Mosander ob-
-tained the following results:
-amil
-III.
-Mag. His
-. . . . . . . . . . . . . . . . . . . . 
-trace
-41.08
-39.04
-Titanić acid . . . . . . . . . . . . . . . . . . .
-42:59 V
-29.16
-25.95
-23.21
-Peroxide of iron . 101 . . . . . .
-27.23
-29.27
-29.04
-Protoxide of iron ......
-These results differ gr12:0 from each esembland of shixotof 101-01-
-wi40 In accession throat employed: the second and Marganga Mtter
-ad 8 ? Ol than the first to give an arrainty to bar mirror of the
-Oxide of chromium . . . . . . . . . . . . . . . . . . .
-70:0 ier foico Lhe sphre of Saint Gothard to consist of soilis
-28.0
-.....98.37...
-$:98:27
-98.66
-33.3
-The results of M. Kobell's analysis are, — emil
-Lime
-Titanic acid .....
-43.24
-He acted up 10.82 by hydrochloric action of the acted up 10.82 by hydrochloric action of the transfer to dryness, collected the silicated his precipitated the transcatid by annuonia,
+564    *Intelligence and Miscellaneous Articles.*
+
+These experiments show that the blood is capable of absorbing $1\frac{1}{2}$ times its volume of carbonic acid, a result which has also been obtained by other observers. They moreover show that it is capable of absorbing from 10 to 12·5 per cent. of its volume of oxygen from the atmosphere, consequently 10 to 12 times more than water under the same circumstances, and that the absorption of nitrogen amounts to 6·5 per cent.
+
+Moreover, experiments similar to those above described were instituted on the real arterial blood of horses which were of advanced age. By agitation with carbonic acid there was obtained—
+
+| Oxygen. | Nitrogen. |
+|---|---|
+| 10·5 | 2·0 |
+| 10·0 | 3·3 |
+
+whence it is evident that the oxygen exists in at least as great quantities in the arterial blood of horses.
+
+The author then shows, that from some observations upon the quantity of the inspired air and of the blood which flows into the lungs in a given time, we may conclude that the blood does not absorb more than half the oxygen which the experiments above detailed have shown to exist in it. This portion is each time consumed in the capillary vessels, and the remainder, amounting to the other half, remains in the venous blood.—*Chemical Gazette*, No. 71.
+
+---
+
+ANALYSIS OF TITANIFEROUS IRON.
+
+M. H. Rose remarks, that the earlier analyses of this substance are discordant, on account of the imperfect separation of the titanic acid and oxide of iron. The titaniferous iron of Egersund in Norway has been analysed by M. Mosander, M. Kobell and M. H. Rose; the results obtained by the two first agree pretty well, but differ considerably from those of M. Rose.
+
+In three operations on the above-named mineral M. Mosander obtained the following results:—
+
+|  | I. | II. | III. |
+| --- | --- | --- | --- |
+| Titanic acid | 39·04 | 42·59 | 41·08 |
+| Peroxide of iron | 29·16 | 23·21 | 25·95 |
+| Protoxide of iron | 27·23 | 29·27 | 29·04 |
+| Protoxide of manganese | 0·21 |  |  |
+| Magnesia | 2·30 | 1·22 | 1·94 |
+| Oxide of cerium and of yttria |  |  | 0·58 |
+| Oxide of chromium | 0·12 | 0·33 |  |
+| Silica | 0·31 | 1·65 | 0·07 |
+|  | 98·37 | 98·27 | 98·66 |
+
+The results of M. Kobell's analysis are,—
+
+| | |
+|---|---|
+| Titanic acid | 43·24 |
+| Peroxide of iron | 28·66 |
+| Protoxide of iron | 27·91 |
+| | 99·81 |
 
 ## PDF page 579
 
-Intelligence and Miscellaneous Articles.
-565
-These experiments show that the dibertland amanage of Ing
-12 times its volling of combonic acid, a bisalsinatil has also been
-obtained by ot 95 i 4 bservers. They marioto phixores at it is capable
-of absorbing No. 10. to 125. per nori to sbixotor Inne of oxygen
-from the atmc 00:001, consequently 10 to 12 times more than water
-under the same circumstance 1846 de de Physical Saninasen
-amounts to 6.5 per cent.
-Moreover, experiments similar to those above described were instituted on the real arterial blood of horses which were of advanced garbarages miggistra, daddw.ythuaffibi.adt.tadt.eshmareacon .M
-silica and titanic acid occasions the few analyses of sphene which
-have been made to differ considerably from each other.
-Klaproth first analysed the sphene of Passau by fusing it with hy-
-drate of potash; the mass dissolved in water, supersaturated with
-hydrochloric acid, left the silica as a residue, and the filtered solu-
-tion was precipitated by solution of carbonate of potash the pre-
-cipitate after drying was digested in hydrochloric acid and left an
-additional residue of silica; ammonia poured into the filtered liquor
-precipitated the titanic acid, and after its separation the lime was
-absorb more than half the oxygen Washboth of blandoris vd bankatdo
-Klaproth afterwards analysed the sphene of Salzbourg by digest-
-ing with heat in hydrochloric acid; the insoluble residue was fused
-with carbonate of potash, treated with water, and the solution was
-saturated with hydrochloric acid; the hydrochloric solutions were
-mixed and precipitated, by ammonia, and the filtered liquor was freed from lime by carbonate of potash. The mixture of silica and
-titanic acid, precipitated by ammonia, was moderately dried and
-treated with hydrochloric acid, which dissolving the titanic acid, left
-acid and oxide of iron. The titaniferous iron of bylozibnu aile aft
-has been analysed wolld as orewished selling as the selling of the selling by the selling by the selling by the selling by the selling by the selling by the selling by the selling by the selling by the selling by the selli
-siderably 3cm those 3cm. Rose.
+*Intelligence and Miscellaneous Articles.*    565
 
-In threat preations ce the above-named initial sander obtained the following regults:
+The same mineral analysed by M. Rose gave,—
 
-In threat pollowing regults:
+| | |
+|---|---|
+| Titanic acid | 43·73 |
+| Peroxide of iron | 42·70 |
+| Protoxide of iron | 13·57 |
+| | 100·00 |
 
-Image: Lime Lime Lime Lime Lime Lime Lime Lime
-.111
-TitaniI acid ... ... ... ... ... ... ... ... ... .
-Perox eq of iron 101 .....
-27.23 29.27
-29.04
-Protoxide of iron ....................................
-wise, on account of the methods employed: the second was better
-adapted than the first to give approximative results; but yet the
-quantity of lime obtained was too small. . . . muimordo do abixO
-Cordier found the sphene of Saint Gothard to consist of
-28.0
-r Silica . 78.30. . . . . . . . . . . . . . . . . . .
-39.86
-33.3
-Titanic acid.....
-The results 2.21. Kobell's analysis are,—
-Lime
-43.24
-..... bios oingglis
-28.66
-He acted upon it by hydrochloric acid, evaporated to dryness, col-
-lected the silica on a filter, precipitated the titanic acid by ammonia,
+*Ann. de Ch. et de Phys.*, Nov. 1845.
+
+---
+
+ANALYSIS OF SPHENE.
+
+M. Rose remarks, that the difficulty which exists in separating silica and titanic acid occasions the few analyses of sphene which have been made to differ considerably from each other.
+
+Klaproth first analysed the sphène of Passau by fusing it with hydrate of potash; the mass dissolved in water, supersaturated with hydrochloric acid, left the silica as a residue, and the filtered solution was precipitated by solution of carbonate of potash; the precipitate after drying was digested in hydrochloric acid and left an additional residue of silica; ammonia poured into the filtered liquor precipitated the titanic acid, and after its separation the lime was obtained by carbonate of potash.
+
+Klaproth afterwards analysed the sphène of Salzbourg by digesting with heat in hydrochloric acid; the insoluble residue was fused with carbonate of potash, treated with water, and the solution was saturated with hydrochloric acid; the hydrochloric solutions were mixed and precipitated by ammonia, and the filtered liquor was freed from lime by carbonate of potash. The mixture of silica and titanic acid, precipitated by ammonia, was moderately dried and treated with hydrochloric acid, which dissolving the titanic acid, left the silica undissolved.
+
+The results of these analyses were as follows:—
+
+| | Passau. | Salzbourg. |
+|---|---|---|
+| Silica | 35 | 36 |
+| Titanic acid | 33 | 46 |
+| Lime | 33 | 16 |
+| Magnesia | trace | |
+| Water | | 1 |
+| | 101 | 99 |
+
+These results differ greatly from each other; it could not be otherwise, on account of the methods employed: the second was better adapted than the first to give approximative results; but yet the quantity of lime obtained was too small.
+
+Cordier found the sphène of Saint Gothard to consist of,—
+
+| | |
+|---|---|
+| Silica | 28·0 |
+| Titanic acid | 33·3 |
+| Lime | 32·2 |
+| | 93·5 |
+
+He acted upon it by hydrochloric acid, evaporated to dryness, collected the silica on a filter, precipitated the titanic acid by ammonia,
 
 ## PDF page 580
 
@@ -33728,546 +32040,95 @@ Phil. Mag. S. 3. No. 183. Suppl. Vol. 27. 2 P
 
 ## PDF page 584
 
-7.82
-02485488
-63
-.20
-91.
-92
-21
-.28
-0.
-70.
-.12
-53
-8
-53
-22
-.24
--29
-:31
-Sandwick
-.
-Orkney
-W. Dunbar, at Applegarth Manse, Dumeries-shire; and by the Rev. C. Clouston, at Sandwich Manse, Orkney.
-Meteorological Observations made by Mr. Thompson at the Garden of the Horliculiural Society at Chiswick, near London; by Mr. Veall,
-4.19
-2.10
-0.53
-0.83
-0.73
-shire.
-•
-Rain.
-Dumfries.
-1.39
-.....
-.36
-80.
-90.
-533
-90.
-90
-0.0
-0,
-=
-.17
-Boston.
-1.39
-,
+*Meteorological Observations made* by Mr. Thompson *at the Garden of the Horticultural Society at* CHISWICK, *near London; by* Mr. Veall, *at* BOSTON; *by the* Rev. W. Dunbar, *at Applegarth Manse,* DUMFRIES-SHIRE; *and by the* Rev. C. Clouston, *at Sandwick Manse,* ORKNEY.
 
-22
-35
-$
-GI
-03
-Chiswick,
-WSW.
-....
-SW.
-nw.
-Sandwick.
-SW.
-WSW
-nw.
-W
-SW.
-se.
-se.
-se.
-š
-se.
-¥.
-W.
-SW.
-¥.
-MU
-ne
-se.
-ŝ
-se,
-ė
-ė,
-ů
-ė
-Otkney
-Wnw.
-easw
-WILW
-swe sw. calmawsw.
-calm wnw
-shire.
-SW.
-SW.
-sse.
-×
-sse.
-¥.
-ne.
-SW.
-SW
-Š
-W.
-SW.
-×
-SW.
-SW.
-e e
-×
-SW
-SW.
-SW
-ŝ
-ŝ
-ŝ
-Dumfries-
-Wind.
-66
-calm
-Culm9
-calma
-calmy
-caling
-calm
-acioga<br>acioga
-calm
-calm
-calm
-Ean
-calm
-calm
-calm
-calm
-ealm
-calm.
-Swill Sala
-ealm
-¥684
-Boston.
-91110
-по
-ntions to a serious agained again
-Actino-chemistry
-Contrib
-Chiswick.
-Wear
-eingogiti<br>tile us
-on Se
-s sreduce of its d
-S.W.
-W.
-SO SW.
-×
-S.W.
-WS/
-s
-i
-15°
-ne.
-90
-eculiar
-no
-me
-299.
-njeronjeter,<br>SEESOF<br>ties of curv
-47.59
-.Silt
-cohesion,
-of
-Surce
-altoit
-[ 48 s
-Sandwick.
-888
-849
-Beidadanteling
-888
-53
-pakili<br>18
-2
-4
-53
-47
-42
-5040
-S
-SILLIS
-979
-44.7 48.38
-4658
-the second order,
-.m.8
-45
-474.2<br>70.07.2<br>10.07.2
-493
-25 84<br>20 5 84<br>20 5 84<br>20 5 84
-10 10<br>10 10
-55
-53
-550
-6
-20
-19683
-lation
-
-  
-    Received to the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control o
-Dunffries.
-MILL
-Thermometer
-25
-re.
-55.9
-sh
-. XBM.
-99
-54
-8.67
-of Witer, 195
-.m.s $8
-and Postener
-39.90
-nion of, 269. ties of, 108.
-noire
-Animal charcoal, on the ac
-n Jac
-torms of & i
-Charles of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of t
-a'id
-ni w
-the four
-395
-bodies
-carthy
-has enlistle
-29.697 29.713 60.03
-Sid
-elli
-Sand of the sol
-765
-000 000 000 000 000 000 000 000 000 00
-59
-30
-19
-29
-63
-61
-64
-6
-Max.
-Carbbridge
-Isurui 5
-29-70<br>29-45<br>29-54<br>8-54<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5-56<br>8-5
-ũΰ
-45000<br>45000<br>45000
-29.54<br>29.85
-29.32
-29.45<br>29.55<br>69.55<br>69.55
-29.94
-29:53
-39.08
-69.62
-29.90
-29.25
-29.55
-30.03
-30.00
-29.59
-29.81
-30:11
-87
-53 8+<br>m.m.
-Orkmey,<br>Sandwick.
-29
-a.m.c.tun
-29.32
-29.6F
-₹9.67
-29.84
-10
-7.60<br>2.00<br>2.00<br>2.00<br>2.00<br>2.00<br>2.00<br>2.00<br>2
-20 20 50 50 50 50 50 50 50 50 50 50 50 50 50
-29.95
-29-82
-28.79
-30.00
-29-96
-29.29
-30:00
-30.08
-30.03
-29.65
-29-53
-29.7
-light,
-ion ci
-29.750,29.750
-29:17<br>29:55
-2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-Charles 3; cem-
-29.20
-29.45
-29:80
-29.63
-29.24
-29:07
-30.06
-29.87<br>29.78<br>29.78
-29-93
-29554
-2932
-29.89
-29.55
-30.00
-seof.
-29.0
-Barometer
-# 2 # 8 # 8 # 8 # 8 # 8 # 8 # 8 # 8 # 8 
-29.82<br>30-14
-60000000000000000000000000000000000000
-29.90
-29:73
-cur
-30.00
-Dang
-Seyrole
-COLLIBOR
-525
-900
-29.51
-29.90
-Ranly stages the
-25 50 de 10 00 00 00 00 00 00 00 00 00 00 00 00 
-ම් යු යු යු දුරු මු යු ප ප ප ප ප ප ප ප ප ප ප ප ප ප ප ප ප ප
-29.77<br>29.93<br>30.00
-29.95
-29479
-2940
-izgoscontion
-888
-29
-Boston; by the Rev.
-CHARACTER
-30-25330-123<br>30-148 30-020<br>30-34130-254
-30.477.30.405<br>30.40230.134<br>30.318.30.176
-30.32130-230
-30-21830-111
-Mean. 30.039 29.917
-20,230,000 mm mm mm mm mm mm mm mm mm mm mm mm 
-30-213 30-083<br>20-419 30-282<br>30-435 30-394<br>30-242 30-030<br>30-196 30-099<br>30-126 30-091
-30.06930.060
-29.97029.859
-29-96629-884<br>30-15930-118
-measuring the water of extallestion processes of the compounds, S. C. C. C. C. C. C. C. C. C. C. C. C. C.
-24.20.7.8 0.0 1.9.9.8.8.8.8.8.8.8.9.0.E.
-12.
-0
-harometric wate, 237.
-109
-253; action of animal charcoal, 253;
-Bleaching powder, action of, on saits of
-action of bleaching powder on salts of
-copper and lead, 294.
-2 P 2
+<table>
+<tr><td rowspan="2">Days of Month.</td><td colspan="7">Barometer.</td><td colspan="7">Thermometer.</td><td colspan="4">Wind.</td><td colspan="4">Rain.</td></tr>
+<tr><td colspan="2">Chiswick.</td><td rowspan="2">Boston. 8½ a.m.</td><td colspan="2">Dumfries-shire.</td><td colspan="2">Orkney, Sandwick.</td><td colspan="2">Chiswick.</td><td rowspan="2">Boston. 8½ a.m.</td><td colspan="2">Dumfries-shire.</td><td colspan="2">Orkney, Sandwick.</td><td rowspan="2">Chiswick. 1 p.m.</td><td rowspan="2">Boston.</td><td rowspan="2">Dumfries-shire.</td><td rowspan="2">Orkney, Sandwick.</td><td rowspan="2">Chiswick.</td><td rowspan="2">Boston.</td><td rowspan="2">Dumfries-shire.</td><td rowspan="2">Orkney, Sandwick.</td></tr>
+<tr><td>1845. Oct.</td><td>Max.</td><td>Min.</td><td>9 a.m.</td><td>9 p.m.</td><td>9½ a.m.</td><td>8½ p.m.</td><td>Max.</td><td>Min.</td><td>Max.</td><td>Min.</td><td>9½ a.m.</td><td>8½ p.m.</td></tr>
+<tr><td>● 1.</td><td>29·946</td><td>29·844</td><td>29·50</td><td>29·60</td><td>29·54</td><td>29·35</td><td>29·45</td><td>61</td><td>46</td><td>50</td><td>56½</td><td>43</td><td>51</td><td>48</td><td>sw.</td><td>calm</td><td>sw.</td><td>w.</td><td>·03</td><td>......</td><td>......</td><td>·53</td></tr>
+<tr><td>2.</td><td>29·744</td><td>29·680</td><td>29·23</td><td>29·52</td><td>29·52</td><td>29·61</td><td>29·75</td><td>64</td><td>58</td><td>53</td><td>55½</td><td>48</td><td>48</td><td>43</td><td>sw.</td><td>calm</td><td>sw.</td><td>n.</td><td>·07</td><td>·08</td><td>......</td><td>·31</td></tr>
+<tr><td>3.</td><td>29·594</td><td>29·510</td><td>29·08</td><td>29·40</td><td>29·35</td><td>29·83</td><td>29·72</td><td>67</td><td>45</td><td>61</td><td>49½</td><td>43½</td><td>46½</td><td>45</td><td>s.</td><td>calm</td><td>e.</td><td>ne.</td><td>·17</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>4.</td><td>29·568</td><td>29·528</td><td>29·03</td><td>29·40</td><td>29·45</td><td>29·64</td><td>29·59</td><td>65</td><td>47</td><td>56·5</td><td>49½</td><td>45½</td><td>44</td><td>42</td><td>sw.</td><td>w.</td><td>ne.</td><td>nw.</td><td>......</td><td>·33</td><td>......</td><td>......</td></tr>
+<tr><td>5.</td><td>29·969</td><td>29·891</td><td>29·39</td><td>29·74</td><td>29·80</td><td>29·76</td><td>29·87</td><td>60</td><td>29</td><td>50</td><td>52</td><td>32</td><td>47</td><td>39</td><td>w.</td><td>calm</td><td>w.</td><td>se.</td><td>......</td><td>·03</td><td>......</td><td>·22</td></tr>
+<tr><td>6.</td><td>29·871</td><td>29·404</td><td>29·50</td><td>29·76</td><td>29·63</td><td>29·84</td><td>29·79</td><td>52</td><td>46</td><td>44</td><td>55</td><td>34</td><td>50</td><td>48</td><td>e.</td><td>calm</td><td>e & sw.</td><td>se.</td><td>·22</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>7.</td><td>29·491</td><td>29·453</td><td>28·93</td><td>29·38</td><td>29·24</td><td>29·73</td><td>29·32</td><td>65</td><td>47</td><td>53</td><td>53½</td><td>44½</td><td>46</td><td>48</td><td>sw.</td><td>calm</td><td>sse.</td><td>e.</td><td>·01</td><td>·36</td><td>2·10</td><td>......</td></tr>
+<tr><td>☽ 8.</td><td>29·450</td><td>29·339</td><td>29·04</td><td>29·23</td><td>29·07</td><td>29·35</td><td>29·39</td><td>61</td><td>34</td><td>45</td><td>55</td><td>38</td><td>39</td><td>48½</td><td>sw.</td><td>calm</td><td>sse.</td><td>e.</td><td>·01</td><td>·08</td><td>......</td><td>·92</td></tr>
+<tr><td>9.</td><td>29·394</td><td>29·295</td><td>28·92</td><td>29·15</td><td>29·20</td><td>29·38</td><td>29·43</td><td>52</td><td>33</td><td>48·5</td><td>55</td><td>43</td><td>47</td><td>49</td><td>w.</td><td>calm</td><td>s.</td><td>e.</td><td>·35</td><td>·08</td><td>......</td><td>·63</td></tr>
+<tr><td>10.</td><td>29·431</td><td>29·389</td><td>29·02</td><td>29·19</td><td>29·17</td><td>29·48</td><td>29·52</td><td>58</td><td>38</td><td>45</td><td>53½</td><td>41</td><td>48</td><td>48</td><td>sw.</td><td>calm</td><td>s.</td><td>e.</td><td>·43</td><td>·11</td><td>......</td><td>·20</td></tr>
+<tr><td>11.</td><td>29·851</td><td>29·399</td><td>29·06</td><td>29·26</td><td>29·55</td><td>29·57</td><td>29·69</td><td>58</td><td>29</td><td>50·5</td><td>54</td><td>45</td><td>49</td><td>46</td><td>w.</td><td>calm</td><td>sw.</td><td>ese.</td><td>·09</td><td>·06</td><td>......</td><td>·21</td></tr>
+<tr><td>12.</td><td>30·213</td><td>30·083</td><td>29·72</td><td>29·82</td><td>29·97</td><td>29·87</td><td>30·03</td><td>61</td><td>39</td><td>47</td><td>55</td><td>40</td><td>48</td><td>47</td><td>sw.</td><td>calm</td><td>sw.</td><td>e.</td><td>......</td><td>·17</td><td>......</td><td>·50</td></tr>
+<tr><td>13.</td><td>30·419</td><td>30·282</td><td>29·86</td><td>29·94</td><td>30·06</td><td>29·95</td><td>29·94</td><td>67</td><td>38</td><td>50</td><td>57½</td><td>46½</td><td>49½</td><td>53</td><td>sw.</td><td>calm</td><td>s.</td><td>ese.</td><td>......</td><td>·02</td><td>......</td><td>·12</td></tr>
+<tr><td>14.</td><td>30·435</td><td>30·364</td><td>29·90</td><td>30·14</td><td>30·02</td><td>30·03</td><td>29·87</td><td>76</td><td>36</td><td>54½</td><td>63½</td><td>54</td><td>55</td><td>55</td><td>s.</td><td>w.</td><td>sw.</td><td>s.</td><td>......</td><td>......</td><td>0·53</td><td>·52</td></tr>
+<tr><td>○ 15.</td><td>30·242</td><td>30·030</td><td>29·72</td><td>29·90</td><td>29·89</td><td>29·82</td><td>29·70</td><td>66</td><td>51</td><td>51½</td><td>60</td><td>53½</td><td>53</td><td>50</td><td>s.</td><td>sw.</td><td>wsw.</td><td>ssw.</td><td>·01</td><td>......</td><td>......</td><td>·19</td></tr>
+<tr><td>16.</td><td>30·196</td><td>30·099</td><td>29·59</td><td>29·88</td><td>29·84</td><td>29·61</td><td>29·45</td><td>62</td><td>37</td><td>51½</td><td>55</td><td>46½</td><td>49</td><td>49</td><td>w.</td><td>calm</td><td>wsw.</td><td>sw.</td><td>......</td><td>......</td><td>......</td><td>·25</td></tr>
+<tr><td>17.</td><td>30·126</td><td>30·031</td><td>29·69</td><td>29·73</td><td>29·65</td><td>29·54</td><td>29·54</td><td>58</td><td>48</td><td>48·5</td><td>58</td><td>50</td><td>48</td><td>48</td><td>sw.</td><td>calm</td><td>sw.</td><td>w.</td><td>......</td><td>......</td><td>......</td><td>·24</td></tr>
+<tr><td>18.</td><td>30·218</td><td>30·111</td><td>29·55</td><td>29·76</td><td>29·93</td><td>29·38</td><td>29·85</td><td>60</td><td>48</td><td>56·5</td><td>60</td><td>53½</td><td>50½</td><td>48</td><td>w.</td><td>w.</td><td>wsw.</td><td>nw.</td><td>......</td><td>......</td><td>......</td><td>·28</td></tr>
+<tr><td>19.</td><td>30·253</td><td>30·123</td><td>29·68</td><td>29·96</td><td>29·80</td><td>29·95</td><td>29·53</td><td>61</td><td>51</td><td>56</td><td>56½</td><td>46½</td><td>48</td><td>48½</td><td>w.</td><td>w.</td><td>w.</td><td>se.</td><td>......</td><td>......</td><td>......</td><td>·20</td></tr>
+<tr><td>20.</td><td>30·148</td><td>30·020</td><td>29·39</td><td>29·66</td><td>29·91</td><td>28·79</td><td>29·78</td><td>61</td><td>38</td><td>54</td><td>56</td><td>46½</td><td>49</td><td>45</td><td>w.</td><td>w.</td><td>wnw.</td><td>nw.</td><td>......</td><td>·07</td><td>......</td><td>·28</td></tr>
+<tr><td>21.</td><td>30·341</td><td>30·254</td><td>29·77</td><td>30·13</td><td>30·18</td><td>30·00</td><td>30·08</td><td>57</td><td>34</td><td>46</td><td>52</td><td>41½</td><td>49</td><td>50</td><td>w.</td><td>w.</td><td>w.</td><td>w.</td><td>......</td><td>......</td><td>0·73</td><td>·07</td></tr>
+<tr><td>22.</td><td>30·477</td><td>30·405</td><td>29·93</td><td>30·24</td><td>30·30</td><td>30·09</td><td>30·11</td><td>57</td><td>44</td><td>50</td><td>54½</td><td>45</td><td>50</td><td>50</td><td>w.</td><td>calm</td><td>w.</td><td>w.</td><td>......</td><td>......</td><td>......</td><td>·04</td></tr>
+<tr><td>☾ 23.</td><td>30·510</td><td>30·477</td><td>30·00</td><td>30·28</td><td>30·25</td><td>30·08</td><td>30·00</td><td>55</td><td>27</td><td>50</td><td>58</td><td>46</td><td>51½</td><td>51</td><td>w.</td><td>calm</td><td>w.</td><td>sw.</td><td>......</td><td>......</td><td>......</td><td>·24</td></tr>
+<tr><td>24.</td><td>30·402</td><td>30·144</td><td>29·95</td><td>30·13</td><td>29·94</td><td>29·96</td><td>29·69</td><td>59</td><td>29</td><td>48</td><td>53½</td><td>48½</td><td>51½</td><td>47½</td><td>s.</td><td>calm</td><td>sw.</td><td>w.</td><td>......</td><td>......</td><td>......</td><td>......</td></tr>
+<tr><td>25.</td><td>30·318</td><td>30·176</td><td>29·79</td><td>30·13</td><td>30·18</td><td>30·03</td><td>29·90</td><td>57</td><td>29</td><td>44</td><td>52</td><td>38½</td><td>45</td><td>47½</td><td>n.</td><td>calm</td><td>w.</td><td>wsw.</td><td>......</td><td>......</td><td>......</td><td>·12</td></tr>
+<tr><td>26.</td><td>30·321</td><td>30·230</td><td>29·90</td><td>30·03</td><td>29·87</td><td>29·74</td><td>29·52</td><td>50</td><td>35</td><td>38</td><td>50½</td><td>37½</td><td>45½</td><td>42</td><td>sw.</td><td>calm</td><td>sw.</td><td>......</td><td>......</td><td>......</td><td>......</td><td>·16</td></tr>
+<tr><td>27.</td><td>30·113</td><td>30·060</td><td>29·60</td><td>29·75</td><td>29·76</td><td>29·70</td><td>29·79</td><td>54</td><td>40</td><td>47</td><td>53½</td><td>48</td><td>43</td><td>37½</td><td>w.</td><td>w.</td><td>sw.</td><td>......</td><td>......</td><td>......</td><td>......</td><td>·53</td></tr>
+<tr><td>28.</td><td>30·069</td><td>30·036</td><td>29·57</td><td>29·78</td><td>29·78</td><td>29·59</td><td>29·55</td><td>60</td><td>48</td><td>52</td><td>56</td><td>52</td><td>47</td><td>52½</td><td>sw.</td><td>calm</td><td>sw.</td><td>sw.</td><td>......</td><td>......</td><td>......</td><td>·48</td></tr>
+<tr><td>29.</td><td>29·970</td><td>29·859</td><td>29·52</td><td>29·71</td><td>29·55</td><td>29·65</td><td>29·59</td><td>59</td><td>36</td><td>51·5</td><td>53½</td><td>50</td><td>52</td><td>50</td><td>s.</td><td>calm</td><td>sw.</td><td>se.</td><td>......</td><td>......</td><td>......</td><td>·29</td></tr>
+<tr><td>● 30.</td><td>29·966</td><td>29·884</td><td>29·40</td><td>29·65</td><td>29·93</td><td>29·53</td><td>29·81</td><td>63</td><td>43</td><td>50</td><td>54½</td><td>50</td><td>50</td><td>49</td><td>sw.</td><td>calm</td><td>wnw.</td><td>wsw.</td><td>......</td><td>......</td><td>0·83</td><td>·13</td></tr>
+<tr><td>31.</td><td>30·159</td><td>30·118</td><td>29·74</td><td>30·00</td><td>30·00</td><td>29·77</td><td>29·87</td><td>55</td><td>34</td><td>43</td><td>54½</td><td>35</td><td>50</td><td>49½</td><td>ne.</td><td>calm</td><td>wnw.</td><td>w.</td><td>......</td><td>......</td><td>......</td><td>·16</td></tr>
+<tr><td>Mean.</td><td>30·039</td><td>29·917</td><td>29·51</td><td>29·750</td><td>29·750</td><td>29·697</td><td>29·713</td><td>60·03</td><td>39·90</td><td>49·8</td><td>55·9</td><td>44·7</td><td>48·38</td><td>47·59</td><td></td><td></td><td></td><td></td><td>1·39</td><td>1·39</td><td>4·19</td><td>7·82</td></tr>
+</table>
 
 ## PDF page 585
 
-285
-Sandwick,
-ñ
-3
-Orkney
-OKKNEY
-Mr. Veall,
-4.13
-Bhire.
-ŉ
-Dumfries.
-Rain
-.33
-90
-90
-BOSTOR.
-Clouston, at Sandwick Manse,
-60
-.33
-TO:
-Chiswick,
-Lowdon:
-Sandwick.
-MPA
-Wa
-35
-ů
-É
-Orkney
-at CHISWICK, Mear
-M.S.M.
-shire.
-MEAN
-MEM
-SAL
-988
-922
-SA
-WA
-SW
-€
-this
-WILL.
-R
-ne
-2 ×
-8
-â
-21A
-×
-₹
-Dumfries.
-Mind.
-Blood-corpuscie, on the development of
-ACIDS: benzoic, 105, 129; nitroben-
-8 the 393.3 3 3 3 . 3 8 8
-zoig. 106; cinnamic, 129; chloroben-
-Blue Byar examination of 234. Boston.
-EN
-Szoic, 135. S 5 5 5
-Blyth (Dr.) on styrole, and some of the
-Actino-chemistry, contributions to, 25,
-products of its decomposition, 197."
-$270; $\frac{3}{2} \tag{2} \tag{2} \tag{3} \tag{4} \tag{5} \tag{5} \tag{6} \tag{6} \tag{6} \tag{6} \tag{6} \tag{6} \tag{6} \tag{6} \tag{6} \tag{6} \tag{6} \tag{6} \tag{6} \tag{6} \tag{6} \tag{6} \tag{6} \tag{6} \tag{6} \ta
-Boguslawski (M.) on the use of a new
-DUMFRIES-SHIRE; and by the Rev. C.
-micrometer, 299.
-41.29
-tions of the force of cohesion, 395.
-the Horticultural Society
-Sary (G.B.) on a new construction of the S. Booth (Rev. L.) on a new class of proper-
-ties of curves and curved surfaces of
-divided eye-glass double-image micro-
-48.38
-the second order, 538.
-A.III.
-meter, 301.
-9500
-Algebra, on the foundation of 226. 2 2 Bondault M. fon the products of distil-
-lation of dragon's blood, 119; on oxi-
-Algebraical couples, on, 38.
-7.77
-andation by means of cyanogen 307. 3
-Alimentary substances, on the proportion
-Boutigny (M.) on the spheroidal condition
-of nitrogen contained in, 350.
-6.65
-or of liquids 257, 5000 Nav.
-Allend W. Fnotice of the date, 1420
-Amplygonite, examination of, 236.
-Brewster (Sir D.) on the discovery of the
-60.03 33.30 43.8
-composition of water, 195.
-84 a.m.
-Angle, infinite, on the values of the sine
-and cosine of an, 228 a a a a a a a a Bromostyrole; preparation and proper-
-Garden of
-ties of, 108.
-Animal charcoal, on the action of, 269.
-Animals, on the formation or secretion of Bronwin (Rev. B.) on the reduction of
-the four forms of w in Jacobi's general
-alkaline and earthy bodies by, 395.
-transformation of an elliptic function
-Armstrong (W. G.) on the spheroidal
-octoone form only, 422 o max
-condition of liquids, 257, 568, 20000
-Thompson at the
-at Applegantle Manse,
-Cambridge Philosophical Society, pro
-Atmosphere, on the diurnal changes of
-33.213
-Creedings of the, 56,226.
-the aqueous portion of the 4272 9
-Cascarilla, analysis of, 567.
-Atomic volume and specific gravity re-
-Cayley (A.) on algebraic couples, 38; on
-the transformation of elliptic functions,
-50.60
-Babingtonite, examination of 123- 00
-421000000000000000000000000000000000000
-130
-Bainbridge (Col.) on a protracting pocket
-Chaffis (Rev. J.) on the aberration of light,
-50-120
-43210-1400000 pt
-Barometer, on the application of photo-
-Mr.
-graphy to registering the, 273; on the Chemistry on the products of the di-<br>connexion between the winds of the St. Stillation of benzoate of copper, 3; com-
-sous made by
-Dunbar
-position of chlorindatmit, 20; analyses
-120
-Lawrence, and the movements of the,
-of manure and coal gas, 23; actino-
-391; effects of the diurnal changes of
-20
-the aqueous portion of the atmospheres & Schemistry, 23, 276; on styrole and
-the products of its decomposition, 97,
-on the, 427.
-·W
-CI
-Barometrical variation, observations on,
-264; draconyle, 119; analysis of the
-SC 395.388888888888888888888889Jingof gasworks, 121 emotion
-10
-BOSTON; by the Rev.
-Meleorological Observa
-of chlorine on benzoic and cinnamic
-Bebeerine, on the constitution of, 253.
-Mesu" 30.030 | 50.013
-00
-acids, 129, 366; occurrence of phos-
-Beck (T. S.) on the nerves of the uterus,
-phoric acid in rocks, 155, 161, 229,
-397.0000000
-310; on some phosphates, 156, 233,
-Benzoate of copper, on the products of
-312; on the conjugate compounds, 171;
-a the distillation of 3. - 2 - 2 - 2 - 2
-on toluidine, 178; ozone, 197, 372,
-Benzoline, researches on, 390.
-384, 386, 400, 450; new method of
-63
-Binney (W.) on the fossil trees found at
-measuring the water of cystallization
-St. Helen's, 241,
-2001000
-of salts, 207; ruthenium, 230; osmium
-Birt (W.R.) on the great symmetrical-
-and its compounds, 232; bebeerine,
-0
-barometric wave, 237.
-253; action of animal charcoal, 269;
-Bleaching powder, action of, on salts of
-action of bleaching powder on salts of
-copper and lead, 294.
+571
+
+INDEX TO VOL. XXVII.
+
+ACIDS:—benzoic, 105, 129; nitrobenzoic, 106; cinnamic, 129; chlorobenzoic, 135.  
+Actino-chemistry, contributions to, 25, 276.  
+Addison (W.) on some peculiar modifications of the force of cohesion, 395.  
+Airy (G. B.) on a new construction of the divided eye-glass double-image micrometer, 301.  
+Algebra, on the foundation of, 226.  
+Algebraical couples, on, 38.  
+Alimentary substances, on the proportion of nitrogen contained in, 350.  
+Allen (W.) notice of the late, 142.  
+Amblygonite, examination of, 236.  
+Angle, infinite, on the values of the sine and cosine of an, 228.  
+Animal charcoal, on the action of, 269.  
+Animals, on the formation or secretion of alkaline and earthy bodies by, 395.  
+Armstrong (W. G.), on the spheroidal condition of liquids, 257, 568.  
+Atmosphere, on the diurnal changes of the aqueous portion of the, 427.  
+Atomic volume and specific gravity, researches on, 453.  
+Babingtonite, examination of, 123.  
+Bainbridge (Col.) on a protracting pocket sextant, 397.  
+Barometer, on the application of photography to registering the, 273; on the connexion between the winds of the St. Lawrence, and the movements of the, 391; effects of the diurnal changes of the aqueous portion of the atmosphere on the, 427.  
+Barometrical variation, observations on, 395.  
+Bebeerine, on the constitution of, 253.  
+Beck (T. S.) on the nerves of the uterus, 397.  
+Benzoate of copper, on the products of the distillation of, 3.  
+Benzoline, researches on, 390.  
+Binney (W.) on the fossil trees found at St. Helen’s, 241.  
+Birt (W. R.) on the great symmetrical barometric wave, 237.  
+Bleaching powder, action of, on salts of copper and lead, 294.
+
+Blood-corpuscle, on the development of the, 393.  
+Blue spar, examination of, 234.  
+Blyth (Dr.) on styrole, and some of the products of its decomposition, 97.  
+Boguslawski (M.) on the use of a new micrometer, 299.  
+Booth (Rev. J.) on a new class of properties of curves and curved surfaces of the second order, 538.  
+Boudault (M.) on the products of distillation of dragon’s blood, 119; on oxidation by means of cyanogen, 307.  
+Boutigny (M.) on the spheroidal condition of liquids, 257.  
+Brewster (Sir D.) on the discovery of the composition of water, 195.  
+Bromostyrole, preparation and properties of, 108.  
+Bronwin (Rev. B.) on the reduction of the four forms of $\omega$ in Jacobi’s general transformation of an elliptic function to one form only, 42.  
+Cambridge Philosophical Society, proceedings of the, 56, 226.  
+Cascarilla, analysis of, 567.  
+Cayley (A.) on algebraic couples, 38; on the transformation of elliptic functions, 424.  
+Challis (Rev. J.) on the aberration of light, 321.  
+Chemistry:—on the products of the distillation of benzoate of copper, 3; composition of chlorindatmit, 20; analyses of manure and coal-gas, 23; actino-chemistry, 25, 276; on styrole and the products of its decomposition, 97, 264; draconyle, 119; analysis of the refuse lime of gas-works, 121; action of chlorine on benzoic and cinnamic acids, 129, 366; occurrence of phosphoric acid in rocks, 155, 161, 229, 310; on some phosphates, 156, 233, 312; on the conjugate compounds, 171; on toluidine, 178; ozone, 197, 372, 384, 386, 400, 450; new method of measuring the water of crystallization of salts, 207; ruthenium, 230; osmium and its compounds, 232; bebeerine, 253; action of animal charcoal, 269; action of bleaching powder on salts of
+
 2 P 2
 
 ## PDF page 586
@@ -34406,138 +32267,62 @@ Electro-physiological researches, 391 anno H
 
 ## PDF page 587
 
-I N.D. ELX. 1
-573 C
-tography to registering thes thermo-
-Cyanogen 202 (no enoite resconnocent 202)
-meter and barometer, 273 s on the con-
-Elliptic function, longilacobis generaled
-hexian between the rotation of the
-Daubeny (142) (241) and and and and or of the daubent of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of the control of 
-earth and the geological changes of its
-Epidermis, on the growth and develop-
-chlorine, 327; proportion, 678 quantities
-ters abstracted from 1868q antiquition
-Henrici (FVC.) on the theory and appli-
-.KC
-Equations, on the theory of, 292.
-cation of electricity, 164 volla bezillata
--10 of the fifth degree, on the resolut
-man, 399.
-Henry (Te Ho) on the compounds of tin
-tion of, 125.
-wheat, 390; benzolinc001 ; onibor bine
-Erratic blocks, on the transport of, 560 90
-Hewett (Wulle); improvements in pho-
-Ettling (Dr.) on the products of the di-
-compounds of tin and iceost, which
-stillation of the benzoate of copper, 494
-Hind (Jak:) oh the comets which have
-Faraday (Prof.) on the magnetic relat
-been discovered since July 1844, 409;
-tions and characters of the metals, it 3
-on the elements of several comets not
-copper, 3022, and the nature of matter, 420%
-previously computed, 416. officer bus
-Fermat's undemonstrated problem pobsers (
-algebra, 226.
-Hofmann (Dig APWI) Touther true comi
-vations on, 286, 560.
-position of chlorindatmit, 20; on sty-
-Formers (Prof. E.) bont thes geology tof. (
-Lycia, 219! , yd anoitsvreado to atluser
-role and some of the products of its
-Fownes (G.), researches on benzoline, 390. (
-decomposition, 97; on toluiding, 1782
-Holker (S:) on Dr. Dalton's new niethod!
-Fremy (M.) on osmium and its compounds,
-of measuring the water of crystallicad
-strated theorem, 286, 560; on the e1882
-Chlorostyrole, 702 istlas therefore different salts 207, elory to cold
-Fresnel's theory of diffraction, observa-
-Hope (Dr. T. C.), notice of the late,
-Orion and his Dogs, 303. .64 no enoit
-Cinnamic and benzoic acids, on the acest
-Gases, coloured, on some cases of lines in
-Hopkins (W:) on the transport of erratic
-the prismatic spectrum produced by
-Cinnamole, observations on, 1.36, expold
-the passage of light through $1.) regard
-Hopkins (T.) on the diurnal changes of
-chloring as . 346, 76 (noisuffib father of the ory
-the atmosphere, and their effects on
-Gas-works, one the useful applications of
-.252
-theorefuse timesof, 121 wind some and
-the barometer, 427.
-Howard (E) on the amount of rain duo!
-Geologicabehanges of the earth's surface,
-electric spark, 435.
-ring the present year 319 on the base
-on the, 376.
-rometrical variation as affected by the
-Geological Society, proceedings of the
-of cascarilla, and on cascarilline, 5.712
-Cockie (1.) on thices choitanile she was
-Hant (R.) contributions to actino che
-Geometry, on the connexion between mesa
-of equations, 292. .276, 272 equations, 292.
-of representing by dia 822, bits estimates
-Hydrogen, relations of chlorine and, 334.00
-Glenard (M.) son the products of distil-
-Hydrophane, on the artificial production
-the sine at Lechoold's mogarhito noital
-great comet of 1844, 1845, 30101116
-Goodwin (Rev. H.) on the connexion be-
-Imaginary zeros, on, 91erra of to temos
-tween's the sciences of geometry and a
-Jacobi's transformation of antelliptic
-tation of the, and the ger822 residence
-414.
-Graham (Prof. T.) on the useful applica-
-function, observations on, 42.
-Comets. 808 Ross biremender of the find Lines
-tions of the refuse dime of gas-works,
-Jones (F: W) on the development of the
-manganese from Algiers, 401; on 121
-not previously coregeralsurfood
-- acid
-Jones (HVB.) on the alkalescence of the
-in the deep-well-water of the London
-same directrices, 545.
-Electric conduction, observatice 08 misse
-urine, 396.
-Joule (InParon the existence of an equi-00
-Grotthus's theory of molecular decompo-
-valent relation between heat and the
-sition and recomposition, observations
-· induction, on various phas 848; cao
-ordinary forms of mechanical power;
-Continuo antinio solidate in properties of 294. Continuo properties of 294. Continuo principal der on salts of 294.
-Grove (W. R.) on Grotthus's theory of
-molecular decomposition and Trecom-
-gravity, 453.
-Kelly (Da Wilson the connexion between O
-position 348 soon the gas voltaio bat-
-tery, 392 30 nathe application of woll
-the winds of the St. Lawrence and the
-movements of the barometer, 3919 ivideo
-taic ignition to lighting mines, 4420 as
-Kemp (A.) on the proportion of aitrogen
-Harkness (IL) on some fossil trees found
-at:St::Helen's, 241, to sucitating bus
-gontained in alimentary substances, 350170
-Heat, on the existence of an equivalent
-Kersten (Profile:) on the occurrence of
-relation between the ordinary forms of
-phosphoric acid in rocks of igneous
-Curves and curved surfaces of 854 snigind
-mechanical power and 205 que quotal
-Kolbe (Dr. H.) on conjugate compounds,
-Henderson (Prof.), memois of the late, 60.12
-.8EG
-Hennessy (H:) on the application of phosis
-171.
+INDEX.    573
+
+Elimination, observations on, 292.  
+Elliptic function, on Jacobi’s general transformation of an, 142, 424.  
+Epidermis, on the growth and development of the, 398.  
+Equations, on the theory of, 292.  
+— of the fifth degree, on the resolution of, 125.  
+Erratic blocks, on the transport of, 56.  
+Ettling (Dr.) on the products of the distillation of the benzoate of copper, 1.  
+Faraday (Prof.) on the magnetic relations and characters of the metals, 1; on the nature of matter, 420.  
+Fermat’s undemonstrated problem, observations on, 286, 560.  
+Forbes (Prof. E.) on the geology of Lycia, 219.  
+Fownes (G.) researches on benzoline, 390.  
+Fremy (M.) on osmium and its compounds, 233.  
+Fresnel’s theory of diffraction, observations on, 46.  
+Gases, coloured, on some cases of lines in the prismatic spectrum produced by the passage of light through, 81.  
+—, on the diffusion of, 346.  
+Gas-works, on the useful applications of the refuse lime of, 121.  
+Geological changes of the earth’s surface, on the, 376.  
+Geological Society, proceedings of the, 217.  
+Geometry, on the connexion between mechanics and, 228.  
+Glenard (M.) on the products of distillation of dragon’s blood, 119.  
+Goodwin (Rev. H.) on the connexion between the sciences of geometry and mechanics, 228.  
+Graham (Prof. T.) on the useful applications of the refuse lime of gas-works, 121.  
+— on the existence of phosphoric acid in the deep-well water of the London basin, 369.  
+Grotthus’s theory of molecular decomposition and recomposition, observations on, 348.  
+Grove (W. R.) on Grotthus’s theory of molecular decomposition and recomposition, 348; on the gas voltaic battery, 392; on the application of voltaic ignition to lighting mines, 442.  
+Harkness (R.) on some fossil trees found at St. Helen’s, 241.  
+Heat, on the existence of an equivalent relation between the ordinary forms of mechanical power and, 205.  
+Henderson (Prof.), memoir of the late, 60.  
+Hennessy (H.) on the application of photography
+
+to registering the thermometer and barometer, 273; on the connexion between the rotation of the earth and the geological changes of its surface, 376.  
+Henrici (F. C.) on the theory and application of electricity, 164.  
+Henry (T. H.) on the compounds of tin and iodine, 400.  
+Hewett (W. H.) improvements in photography, 405.  
+Hind (J. R.) on the comets which have been discovered since July 1844, 409; on the elements of several comets not previously computed, 416.  
+Hofmann (Dr. A. W.) on the true composition of chlorindatmit, 20; on styrole and some of the products of its decomposition, 97; on toluidine, 178.  
+Holker (S.) on Dr. Dalton’s new method of measuring the water of crystallization in different salts, 207.  
+Hope (Dr. T. C.), notice of the late, 138.  
+Hopkins (W.) on the transport of erratic blocks, 56.  
+Hopkins (T.) on the diurnal changes of the atmosphere, and their effects on the barometer, 427.  
+Howard (L.) on the amount of rain during the present year, 319; on the barometrical variation as affected by the moon’s declination, 395.  
+Hunt (R.) contributions to actino-chemistry, 25, 276.  
+Hydrogen, relations of chlorine and, 334.  
+Hydrophane, on the artificial production of, 404.  
+Imaginary zeros, on, 91.  
+Jacobi’s transformation of an elliptic function, observations on, 42.  
+Jarchi, on the ephemerides of, 303.  
+Jones (T. W.) on the development of the blood-corpuscle, 393.  
+Jones (H. B.) on the alkalescence of urine, 396.  
+Joule (J. P.) on the existence of an equivalent relation between heat and the ordinary forms of mechanical power, 205; on atomic volume and specific gravity, 453.  
+Kelly (Dr. W.) on the connexion between the winds of the St. Lawrence and the movements of the barometer, 391.  
+Kemp (A.) on the proportion of nitrogen contained in alimentary substances, 350.  
+Kersten (Prof. C.) on the occurrence of phosphoric acid in rocks of igneous origin, 155.  
+Kolbe (Dr. H.) on conjugate compounds, 171.
 
 ## PDF page 588
 
@@ -34641,110 +32426,65 @@ to the lighting of, 406, 442.
 
 ## PDF page 589
 
-INDEX
-575
-Substitutions, on the theory of, 327.
-Royal Society, proceedings of the 52,
-Sugar-canes, analyses of the aslies of, 533.
-Rumker (C.) on the longitude of Para-
-Sullivan (W.) on the presence of phos-<br>phoric acid in rocks and minerals, 161,<br>229; on currents of electricity pro-
-matta, 298, and go (I A) gozidorill Ruthenium, account of the new metal,
-230.
-duced by the vibration of wires and
-Salter (J. W.) on the structure and re-
-metallic rods, 261.
-S. X., on the spheroidal condition of li-
-lations of Cornulites and other Silarian
-fossils, 158.
-dide 568. noitexizeled citylile adt aurille and Taurine, analysis of 13187 for treaty and the corrections of the corrections of the corrections of the corrections of the corrections of the corrections of the corrections of
-Salts, on Dr. Dalton's method of mea-
-Thermometer, on the application of photography to registering the 273
-suring the water of crystallization con-
-tained in 207; on the specific gravities of certain, 453.
-Thomson (Dr. R. D.) on babingtonite,
-Schlossberger (Dr.) on the proportion of
-123; on the occurrence of phosphoric
-acid in almost all rocks, 310.
-nitrogen contained in alimentary sub-
-Thomson (T.S.) on the diffusion of gases,
-stances, 350. Schoubein (Prof.), observations on ozone
-346.
-Tilley (T. G.) ber the constitution of bc1 the crime 2531 and the book of the compounds of,
-as compared to chlorine, 197; on a pe-
-culiar method of obtaining the sesqui-
-ferrocyanide of potassium, 384; on the
-nature of ozone, 386, 400, 450, 350, Sedgwick Prof.) on the fossiliferons slates of North Wales, 218
-Transferous iron, analysis of 562 slash Transferous iron, analysis of 562 slash Toluidine, researches on 178 slash Transferous on the aeres of the 37 slash Transferous of the 37 slash Transferous of the 37 slash Transferou
-Sesqui-chromate of potash, preparation
-Vapours, coloured, on some cases of lines
-of, 501.
-Sharp (W.) on the ashes of wheat, 390.
-in the prismatic spectrum produced
-by the passage of light through, 81. Wesuvius, eruption of, 159 June 1997 and 1997 and 1997 and 1997 and 1997 and 1997 and 1997 and 1997 and 1997 and 1997 and 1997 and 1997 and 1997 and 1997 and 1997 and 1997 and 1997 and 
-Shooting stars, researches on, 153,
-Sigillaria, on the connexion between Stig-
-Vibration, effects of on chemical con-
-maria and, 214.
-Silicate of manganesc, analysis of, 401.
-bination, 261,
-Vision, on the theory of 400, isomers. Vivianite, examination of 315, paragraphs.
-Silver, suboxides of, 277.
-Smyth (C.P.), meteorological notices by,
-Volumenometer, description of the 457.<br>Wagnerite, examination of, 156.
-303.
-Spectrum, prismatic, on some cases of
-Warington (R.) on the action of animal
-lines in the, 81.
-Sphene, analysis of, 565.
-charcoal, 269.
-Charcoal, 269,<br>Wartmann (Prof.) on electric induction,
-Spratt (Lieut.) on the geology of Lycia,
-219.
-Water, on the discovery of the composi-
-Stars, on the magnitudes of 305, 2191
-tion of, 195, 446; phænomena of the
-Stenhouse (Dr. J.) on the products of the
-distillation of benzoate of copper, 3;
-decomposition of, by chlorine, 329.
-on the action of chlorine on cinnamic
-Wheat, on the ashes of, 390. Williamson (A. W.) on ozone, 372.
-and benzoic acids, 129, 366; on an
--63
-Wilson (E.) on the growth and develop-
-economical method of procuring phos-
-phate of lime and magnesia from urine
-ment of the epidermis, 398.
--01
-Wöhler (M.) on a double salt of [bi]-
-for agricultural purposes, 289; ana-
-lyses of the ashes of sugar-canes, 533.
-echloride of mercury and acetate of
-Stevenson (W. F.) on the theory of vision,
-copper, 315,
-Yorke (Licut Col. P. 1.) on brown from
-400.0
-Stokes (G. G.) on the aberration of light,
-yd ore 261 sees since ho (.A. w) tshing yd young (Prof. J. R.) on imaginary zeros,
-Sturgeon (W.) on a source of deteriora-
-and the theory of conjugate points, 91;
-tion of the magnetic powers of steel
-on the evaluation of the sums of neu-
-bars, 397.
-tral series, 362, 437
-bars, 397.
+INDEX.    575
+
+Royal Society, proceedings of the, 52, 137, 390.  
+Rumker (C.) on the longitude of Paramatta, 298.  
+Ruthenium, account of the new metal, 230.  
+Salter (J. W.) on the structure and relations of Cornulites and other Silurian fossils, 158.  
+Salts, on Dr. Dalton’s method of measuring the water of crystallization contained in, 207; on the specific gravities of certain, 453.  
+Schlossberger (Dr.) on the proportion of nitrogen contained in alimentary substances, 350.  
+Schœnbein (Prof.) observations on ozone as compared to chlorine, 197; on a peculiar method of obtaining the sesquiferrocyanide of potassium, 384; on the nature of ozone, 386, 400, 450.  
+Sedgwick (Prof.) on the fossiliferous slates of North Wales, 218.  
+Sesqui-chromate of potash, preparation of, 501.  
+Sharp (W.) on the ashes of wheat, 390.  
+Shooting stars, researches on, 153.  
+Sigillaria, on the connexion between Stigmaria and, 244.  
+Silicate of manganese, analysis of, 401.  
+Silver, suboxides of, 277.  
+Smyth (C. P.), meteorological notices by, 303.  
+Spectrum, prismatic, on some cases of lines in the, 81.  
+Sphene, analysis of, 565.  
+Spratt (Lieut.) on the geology of Lycia, 219.  
+Stars, on the magnitudes of, 305.  
+Stenhouse (Dr. J.) on the products of the distillation of benzoate of copper, 3; on the action of chlorine on cinnamic and benzoic acids, 129, 366; on an œconomical method of procuring phosphate of lime and magnesia from urine for agricultural purposes, 289; analyses of the ashes of sugar-canes, 533.  
+Stevenson (W. F.) on the theory of vision, 400.  
+Stokes (G. G.) on the aberration of light, 9.  
+Sturgeon (W.) on a source of deterioration of the magnetic powers of steel bars, 397.  
 Styrole, and products of its decomposition, researches on, 97; effect of vibratory motion on, 261.
-blue spar, 234; 076, 30 volla basil
-mals, 395.
-brown iron-ore, 264; vivianite, 314;
-Rose (Prof. H.) on the chemical compo-
-silicate of manganese, 401; hydro-
-sition of titaniferous iron and sphene,
-phane, 404; titaniferous iron, 564;
-FOG
-sphene, 565.
-Mines, on the samudov office YTKayaTA 3HTo To adraiety, proceedings
-of the, 60, 114, 220, 298.
-to the lighting of, 406, 442
+
+Substitutions, on the theory of, 327.  
+Sugar-canes, analyses of the ashes of, 533.  
+Sullivan (W.) on the presence of phosphoric acid in rocks and minerals, 161, 229; on currents of electricity produced by the vibration of wires and metallic rods, 261.  
+S. X., on the spheroidal condition of liquids, 568.  
+Taurine, analysis of, 318.  
+Thermometer, on the application of photography to registering the, 273.  
+Thomson (Dr. R. D.) on babingtonite, 123; on the occurrence of phosphoric acid in almost all rocks, 310.  
+Thomson (T. S.) on the diffusion of gases, 346.  
+Tilley (T. G.) on the constitution of bebeerine, 253.  
+Tin and iodine, on the compounds of, 400.  
+Titaniferous iron, analysis of, 564.  
+Toluidine, researches on, 178.  
+Uterus, on the nerves of the, 397.  
+Vapours, coloured, on some cases of lines in the prismatic spectrum produced by the passage of light through, 81.  
+Vesuvius, eruption of, 159.  
+Vibration, effects of, on chemical combination, 264.  
+Vision, on the theory of, 400.  
+Vivianite, examination of, 315.  
+Volumenometer, description of the, 457.  
+Wagnerite, examination of, 156.  
+Warington (R.) on the action of animal charcoal, 269.  
+Wartmann (Prof.) on electric induction, 547.  
+Water, on the discovery of the composition of, 195, 446; phænomena of the decomposition of, by chlorine, 329.  
+Wheat, on the ashes of, 390.  
+Williamson (A. W.) on ozone, 372.  
+Wilson (E.) on the growth and development of the epidermis, 398.  
+Wöhler (M.) on a double salt of [bi]chloride of mercury and acetate of copper, 318.  
+Yorke (Lieut.-Col. P. L.) on brown iron ore, 264.  
+Young (Prof. J. R.) on imaginary zeros, and the theory of conjugate points, 91; on the evaluation of the sums of neutral series, 362, 437.  
+Zinc, iron, lead and copper, on a crystallized alloy of, 370.
+
+END OF THE TWENTY-SEVENTH VOLUME.
 
 ## PDF page 590
 
@@ -35078,47 +32818,11 @@ ANTO POOTING
 
 ## PDF page 598
 
-3114
-LONDON, RHINBURGH . VO D'B J.
-PHILOSOPHICAL ALGAZIAN
-57 % A
-MORE TO LEAVE OF HOLE
-TO AN HOUSE IN A MARKET
-WELL THE WAR
+BRITISH MUSEUM
 
-VEHAL TO THE ME OF
-There is an item to the second
-18V 18V 1
-The state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
-may be a second of the second of the second
-The half to the state of the
-THE RESERVE OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF
-SH MUS
-Mis will Cook the sail
-THEO OF THE
+M    D
 
-a transfer and
-A Par I The
-TURAL HIS 101 (A) 1.1. III
-The state of the bearing the state of
-1.0141
-.
-100 Y
-10 F 2 20 20 11 11 12 30 15
-the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
-The second of the second of
-The section of the section of the section of the section of the section of the section of the section of the section of the section of the section of the section of the section of the section of the section of the section 
-1 30 A 2 Live
-a La San Time and Time a
-THE ST OF THE 199
-0.0 S 0.0 S 0.0 S
-The state of the state of the
-or being a better to be
-le le son de la plimate
-A ....................................
-2 - - - - - - - - - - - - - - - - - - -
-The second second second second second second second second second second second second second second second second second second second second second second second second second second second second second second second s
-- ---
+NATURAL HISTORY
 
 ## PDF page 599
 

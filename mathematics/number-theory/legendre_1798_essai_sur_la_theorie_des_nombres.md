@@ -10,7 +10,7 @@ Transcription of `legendre_1798_essai_sur_la_theorie_des_nombres.pdf` in this di
 
 Method: pages 3-544 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-2 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
-Second engine: MinerU2.5-Pro 2605 read pages 75, 115, 134, 146, 166, 168, 220-221, 228, 237, 309, 375, 396, 417, 424, 430, 447, 455, 462, 465, 476, 480, 498, 526, 530-531; Surya OCR 0.17.0 alone read pages 226, 281, 423, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+Second engine: MinerU2.5-Pro 2605 read pages 75, 115, 134, 146, 166, 168, 220-221, 228, 237, 309, 375, 396, 417, 424, 430, 447, 455, 462, 465, 476, 480, 498, 526, 530-531; Surya OCR 0.17.0 alone read pages 226, 281, 423; Codex gpt-6.2-sol (300 dpi page image) read page 351, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -12983,41 +12983,59 @@ forme trinaire de I, en changeunt simplement le signe de e, ce qui
 
 ## PDF page 351
 
-Troisième partie. 🗆
-sold and all the tends to notice to
-donnera
-<math display="block">F = \left(y - \frac{g + h}{2} x\right)^2 + \left(y + \frac{g - h}{2} y\right)^2 + \left(y + \frac{h}{2} y\right)^2 + \left(y + \frac{h}{2} y\right)^2 + \left(y + \frac{h}{2} y\right)^2 + \left(y + \frac{h}{2} y\right)^2 + \left(y + \frac{h}{2} y\right)^2 + \left(y + \frac{h}{2} y\right)^2 + \left(y + \frac{h}{2} y\right)^2 + \left(y + \frac{h}</math>
-et la valeur trinaire des N qui répend à ces deux formes est uou.
-the of the grown major by the relativity area
-<math>N=f^*+(f+g)+g^*</math>
-Maintenant puisqu'il y a 2'- valours semblables: de. N , et-que chas:
-cune produit deux formes trinaires de I, il est clair que le nombre
-total des formes trinaires de I sera 2<sup>i-1</sup>, lesquelles correspondront à
-setant de formes trinaires de N égales deux à deux.
-Soit 2°. b=1, N=3a-1; alors N. aura 2 valeurs de la strinte
-<math>N = 2f^2 + 2fg + 2g^2</math>, chacume desquelles dennera
-<math display="block">a = \frac{b^2 + 2f^2 + 2fg + 2g^2}{3} = \frac{2b^2 + (2f + g)^2 + 3g^2}{2 \cdot 3}</math>
-in programme in a
-Cette valeur fait voir que <math>2b^2 + (2f + g)^2</math> doit être divisible par 3, et
-alors le quotient ne pourra être que de la forme m<sup>2</sup>+2n<sup>2</sup>, de sorte
-to them in a min at 1 to
-qu'on pourra faire
-(2f+g)+2b=5(m+2m),
-ce qui donnera <math>2f+g=m+2n</math>, <math>b=m-n</math>, d'où
-<math display="block">a = \frac{m^2 + 2n^2 + g^2}{2} = \left(\frac{m + g}{2}\right)^2 + \left(\frac{m - g}{2}\right)^2 + n^2.</math>
-Comme on a d'ailleurs <math>b = 1 = m - n</math>, la décomposition du diviseur
-<math>\Gamma = 5y^2 + 2yz + az^2</math> est indiquée assez clairement de cette maillere?
-<math>\Gamma = (y + \frac{m+g}{2}z)^2 + (y + \frac{m-g}{2}z)^2 + (y - nz)^2</math>
-et la valeur trinaire correspondante de <math>N</math> est
-<math display="block">N = g^{2} + \left(\frac{m+g}{2} + n\right)^{2} + \left(\frac{m-g}{2} + n\right)^{2},</math>
-ce qui revient à la valeur <math>N \Longrightarrow g^* + (f + g)^* + f^*</math>.
+TROISIÈME PARTIE.    [?]27
 
-Donc, comme on a 2<sup>t-1</sup> valeurs semblables de N , il y il aussi 2<sup>t-1</sup>
-formes trinaires du diviseur I, conformément à la proposition générale.
-(310) Sait c=5 et le diviseur proposé l'=57°+ 2072 + 22°, on aura
-<math>N=5a-b^2</math>, et b ne pourra avoir que l'une des valeurs o, i, 2.
-Quelle que soit cette valeur, comme le diviseur I est supposé réci-
-proque et que 5 y est contenu, il faudra que N sont diviseur de ru-5a,
+donnera
+
+$$
+\Gamma=\left(y-\frac{g+h}{2}z\right)^2+\left(y+\frac{g-h}{2}z\right)^2+(y+hz)^2,
+$$
+
+et la valeur trinaire de $N$ qui répond à ces deux formes est
+
+$$
+N=f^2+(f+g)^2+g^2.
+$$
+
+Maintenant puisqu’il y a $2^{i-2}$ valeurs semblables de $N$, et que chacune produit deux formes trinaires de $\Gamma$, il est clair que le nombre total des formes trinaires de $\Gamma$ sera $2^{i-1}$, lesquelles correspondront à autant de formes trinaires de $N$ égales deux à deux.
+
+Soit 2°. $b=1$, $N=3a-1$; alors $N$ aura $2^{[?]}$ valeurs de la forme $N=2f^2+2fg+2g^2$, chacune desquelles donnera
+
+$$
+a=\frac{b^2+2f^2+2fg+2g^2}{3}=\frac{2b^2+(2f+g)^2+3g^2}{2\mathbin{.}3}.
+$$
+
+Cette valeur fait voir que $2b^2+(2f+g)^2$ doit être divisible par 3, et alors le quotient ne pourra être que de la forme $m^2+2n^2$, de sorte qu’on pourra faire
+
+$$
+(2f+g)^2+2b^2=3(m^2+2n^2),
+$$
+
+ce qui donnera $2f+g=m+2n$, $b=m-n$; d’où
+
+$$
+a=\frac{m^2+2n^2+g^2}{2}=\left(\frac{m+g}{2}\right)^2+\left(\frac{m-g}{2}\right)^2+n^2.
+$$
+
+Comme on a d’ailleurs $b=1=m-n$, la décomposition du diviseur $\Gamma=3y^2+2yz+az^2$ est indiquée assez clairement de cette manière:
+
+$$
+\Gamma=\left(y+\frac{m+g}{2}z\right)^2+\left(y+\frac{m-g}{2}z\right)^2+(y-nz)^2,
+$$
+
+et la valeur trinaire correspondante de $N$ est
+
+$$
+N=g^2+\left(\frac{m+g}{2}+n\right)^2+\left(\frac{m-g}{2}+n\right)^2,
+$$
+
+ce qui revient à la valeur $N=g^2+(f+g)^2+f^2$.
+
+Donc, comme on a $2^{i-1}$ valeurs semblables de $N$, il y a aussi $2^{[?]}$ formes trinaires du diviseur $\Gamma$, conformément à la proposition générale.
+
+(318) Soit $c=5$ et le diviseur proposé $\Gamma=5y^2+2byz+az^2$, on aura $N=5a-b^2$, et $b$ ne pourra avoir que l’une des valeurs 0, 1, 2.
+
+Quelle que soit cette valeur, comme le diviseur $\Gamma$ est supposé réciproque et que 5 y est contenu, il faudra que $N$ soit diviseur de $t^2+5u^2$;
 
 ## PDF page 352
 

@@ -10,6 +10,8 @@ Transcription of `kagan_2022_in_vitro_neurons_learn_sentience_simulated_game_wor
 
 Method: pages 4, 6, 8, 10-11, 13, 15 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-3, 5, 7, 9, 12, 14, 16-27 from the PDF's own text layer (pdftotext version 26.01.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
+Second engine: Codex gpt-6.2-sol (300 dpi page image) read pages 8, 11, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+
 ## PDF page 1
 
 Article
@@ -572,174 +574,91 @@ Neuron 110, 3952–3969, December 7, 2022 3957
 
 ## PDF page 8
 
-<b>Neuron</b>
-<b>CellPress</b>
-<b>OPEN ACCESS</b>
-<b>Article</b>
-<b>Electrode Layout Schematic</b>
-D
-Α
-0
-electrode row
-<b>hiPSC</b>
-×
-×
-×
-X
-×
-×
-×
-×
-<b>Neurons</b>
-In vitro
-50
-neurons on
-silicon chip
-<b>HD-MEA Chip</b>
-1
-1
-T
-100
-OR
-100
-200
-0
-<b>→</b> →
-electrode column
-motor region action 1
-motor region action 2
-Data In/Out
-Simulated
-sensory area (4x4 sparse)
-<b>Environment:</b>
-E15 Mouse
-<b>Pong</b>
-motor region (3x3 sparse)
-<b>Neurons</b>
-stimulation electrode
-X
-В
-Ε
-***
-MaxWell
-MaxWell
-Worker
-DishServer
-*
-Legend:
-Rally Length<br>6.0
-Software
-<b>Process</b>
-Hardware
-Internals
-Spike
-Replay
-**
-Recording
-Recording
-'Raw'
-<b>MXW</b>
-Recording
-Server
-Spike Timing
+CellPress  
+OPEN ACCESS
+
+Neuron  
+Article
+
+A
+
+hiPSC Neurons  
+OR  
+E15 Mouse Neurons  
+HD-MEA Chip  
+In vitro neurons on silicon chip  
+Data In/Out  
+2 1 0  
+Simulated Environment: Pong
+
+B
+
+Legend: MaxWell Software | Worker Process | DishServer Internals | MaxWell Hardware
+
+MXW Server  
+'Raw' Recording  
+Spike Recording  
+Replay Recording
+
+Configuration  
+Voltages  
+Spike Timing  
 Game Events
-Average
-Voltages
-Spike
-8.0
-Seike
-Configuration
-Voltages
-Detection
-Recalibration<br>Commands
-MaxOne
-LAN
-Pong
-Hub
-Interface
-0.7
-Envrionment
-Stimulation<br>Commands
-: Place<br>* Rate<br>Coding
-2
-3
-Stimulation
-1
-MaxOne
-Sequencer
-MEA Well
-<b>Experiment Number</b>
-Cell Type
-MCC
-HCC
-С
-X Distance to wall (%)
-1007
-Phase
-Phase
-Stimulation
-Type:
-Summed
-Activity
-Predictable
-50
-Random
-0-
-1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 1000<br>1 100
-十二年 金田田 田田田田田田田田田田田田田田田田田田田田田田田田田田田田田田田田田
-1000
 
-機能にない
-I the real as
-in<br>T
-100 mm
-AND THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPERTY OF THE PROPER
-8
-Sensory
-T.
-1
+MaxOne Hub  
+LAN Interface  
+Voltages  
+Recalibration Commands  
+Spike Detection  
+Spike Count  
+Pong Environment
 
-0
-Electrode Number
-20
-80
-Ó
-40 60<br>Time (s)
-100
-Y Distance to paddle (%)
-1007
-.
-2:
-ALTERNATION OF THE PERSON OF THE PERSON OF THE PERSON OF THE PERSON OF THE PERSON OF THE PERSON OF THE PERSON OF THE PERSON OF THE PERSON OF THE PERSON OF THE PERSON OF THE PERSON OF THE PERSON OF THE PERSON OF THE PERSON 
-editor.
-50
-43
+MaxOne MEA Well  
+Stimulation Commands  
+Stimulation Sequencer  
+Place + Rate Coding
 
-1024-
-70
-30
-90
-10
-20
-50
-40
-60
-80
-100
-20
-60
-80
-100
-40
-Ó
-Ò
-Time (s)
-Time (s)
-Figure 4. Schematics and pilot testing with increasing informational density
-(A) Diagrammatic overview of DishBrain setup.
-(B) Software components and data flow in the DishBrain closed-loop system. Voltage samples flow from the MEA to the "Pong" environment, and sensory
-information flows back to the MEA, forming a closed loop. Full caption in Figure S2.
-(legend continued on next page)
+C
+
+Phase  
+Summed Activity  
+Electrode Number: 0, 1024  
+Time (s): 0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100  
+Phase Stimulation Type: Predictable, Random, Sensory
+
+D
+
+Electrode Layout Schematic  
+electrode row: 0, 50, 100  
+electrode column: 0, 100, 200
+
+↑ motor region action 1  
+↓ motor region action 2  
+sensory area (4x4 sparse)  
+motor region (3x3 sparse)  
+× stimulation electrode
+
+E
+
+Average Rally Length: 0.7, 0.8, 0.9, 1.0  
+Experiment Number: 1, 2, 3  
+`***`, `*`, `***`  
+Cell Type: MCC, HCC
+
+X Distance to wall (%): 0, 50, 100  
+Time (s): 0, 20, 40, 60, 80, 100
+
+Y Distance to paddle (%): 0, 50, 100  
+Time (s): 0, 20, 40, 60, 80, 100
+
+**Figure 4. Schematics and pilot testing with increasing informational density**
+
+(A) Diagrammatic overview of *DishBrain* setup.
+
+(B) Software components and data flow in the *DishBrain* closed-loop system. Voltage samples flow from the MEA to the “Pong” environment, and sensory information flows back to the MEA, forming a closed loop. Full caption in Figure S2.
+
+*(legend continued on next page)*
+
 3958 Neuron 110, 3952–3969, December 7, 2022
 
 ## PDF page 9
@@ -957,190 +876,72 @@ given minute under that condition.
 
 ## PDF page 11
 
-<b>Neuron</b>
-<b>CellPress</b>
-<b>OPEN ACCESS</b>
-<b>Article</b>
-No-feedback
-Stimulus
-Silent
-Α
-1
--100
-2
-Frequency (Hz)
-40
-Electrode
--30
--20
-- 10
-8
-0
-10 15 20 25 30 35 40 0
-10 15 20 25 30 35 40
-25
-30
-35
-5
-15
-20
-40 0
-5
-0
-10
-Seconds
-Predictable
-Phase Stimulation Type:
-Random
-Sensory
-С
-В
+Neuron  
+Article
+
+CellPress  
+OPEN ACCESS
+
+A
+
+Stimulus | Silent | No-feedback
+
+Electrode: 1, 2, 3, 4, 5, 6, 7, 8  
+Seconds (each panel): 0, 5, 10, 15, 20, 25, 30, 35, 40  
+Frequency (Hz): 0, 10, 20, 30, 40, 100  
+Phase Stimulation Type: Predictable, Random, Sensory
+
+B
+
+Hits in Minute: 0, 1, 2, 3, 4, 5+  
+Minute of Gameplay (each panel): 1, 3, 5, 7, 9, 11, 13, 15, 17, 19  
+Stimulus | Silent | No-feedback | Rest  
+50%, 10%, 1%
+
+C
+
+Δ Rally Length vs Rest (%): −50, 0, 50, 100, 150, 200  
+`****` | `###` | `###` `%`  
+Group: Stimulus, Silent, No-feedback  
+Minutes: 0-5, 6-20
+
 D
-Hits in Minute<br>0 1 2 3 4 5+
-200
-Rally Length vs Rest (%)
-<math>\Delta</math> Rally Length vs Rest (%) <math>\Delta</math> <math>\Delta</math> <math>\Delta</math> <math>\Delta</math> <math>\Delta</math> <math>\Delta</math> <math>\Delta</math>
-****
-###
-###
-0
-%
-150
-1
-3
-5<br>7
-100
-Stimulus
-50
-9
-###
-11
-0
-%
-13
-###
-<math>-50</math>
-15
-◁
-17
-Stimulus Silent
-No-
-3
-1
-2
-19
-feedback
-Day of Testing
-Minutes
-Group
-Condition
-0-5
-1
 
-3<br>5<br>7<br>9
-6-20
-Stimulus
-— No-feedback
-Silent
+Δ Rally Length vs Rest (%): 10, 20, 30, 40, 50  
+`###`, `%`, `###`  
+Day of Testing: 1, 2, 3  
+Condition: Stimulus, Silent, No-feedback
+
+E
+
+Aces vs Rest (%): −40, −20, 0, 20, 40  
+`**` | `###` | `###`  
+Group: Stimulus, Silent, No-feedback  
+Minutes: 0-5, 6-20
+
 F
-Ε
-**
-###
-Silent
-40
-2.5
-###
-11<br>13
-Aces vs Rest (%)
-Rest (%)
-0.0
-20
-###
-Minute of Gameplay<br>6 2 2 2 1<br>6 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
-<math>-2.5</math>
-###
-n
-Aces vs
-<math>-5.0</math>
-<math>-20</math>
-<math>-7.5</math>
-<math>-40</math>
-<math>-10.0</math>
-G<br>No-feedback
-Stimulus Silent
-No-
-3
-1
-2
-feedback
-Day of Testing
-Minutes
-Group
-Condition
-0-5
-11
-6-20
-No-feedback
 
-    Stimulus
+Aces vs Rest (%): −10.0, −7.5, −5.0, −2.5, 0.0, 2.5  
+`###`, `###`  
+Day of Testing: 1, 2, 3  
+Condition: Stimulus, Silent, No-feedback
 
-13
-— Silent
-15
-Н
-17
-10.0
-****
-19
-30
-Long-Rally vs Rest (%)
+G
 
-10
+Long-Rally vs Rest (%): −20, −10, 0, 10, 20, 30  
+`****` | `###` | `#` `#`  
+Group: Stimulus, Silent, No-feedback  
+Minutes: 0-5, 6-20
 
-0
+H
 
--10
+Long-Rally vs Rest (%): −5.0, −2.5, 0.0, 2.5, 5.0, 7.5, 10.0  
+Day of Testing: 1, 2, 3  
+Condition: Stimulus, Silent, No-feedback
 
--20
-Long-Rally vs Rest (%)
-###
-7.5
-1
-5.0
-3<br>5<br>7
-2.5
-0.0
-9
-Rest
-11
--2.5
-13
--20
-15
-<math>-5.0</math>
-Stimulus Silent
-2
-3
-No-
-1
-17
-feedback
-Day of Testing
-19
-Minutes
-Group
-Condition
-0-5
-6-20
-Stimulus
---- No-feedback
+*(legend on next page)*
 
-50%
-10%
-1%
-— Silent
-(legend on next page)
-Neuron 110, 3952-3969, December 7, 2022 3961
+Neuron 110, 3952–3969, December 7, 2022 3961
 
 ## PDF page 12
 

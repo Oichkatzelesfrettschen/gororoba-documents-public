@@ -10,6 +10,8 @@ Transcription of `viete_1591_in_artem_analyticem_isagoge.pdf` in this directory,
 
 Method: pages 1-38 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
+Second engine: Codex gpt-6.2-sol (300 dpi page image) read pages 7, 24, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+
 ## PDF page 1
 
 FRANCISCI VIETAE
@@ -53,34 +55,28 @@ Dightzed by Google
 
 ## PDF page 7
 
-FRANCISCI VIETA
+1
+
+FRANCISCI VIETÆ
+
 IN ARTEM ANALYTICEM
+
 ISAGOGE
-ADITAM BATTITAN ATHINATION
-AN KETSED SON EN
-dening the state of the state of
-Scorsim excussa ab Opere restituta Mathematica
-Analyseos, Seu, Algebra noua.
-The artem adualytican I
-er a Logisticena special and a otal priores
-Leichternen Labra aufmitte
-De nomeron gorefielun es
-THE SPECIAL PRINCES OF SERVICE
-Ad borificen honolans
-THE PROPERTY OF STREET
-Analysica appularium (consonus is tres partes troula-
-axiorum da rebus Alas Lenastelis selfon forcer Labri festena
-Open augen prepolici eleft quens Epittella!
-condition per supersigned the subsequent the supersigned
-TO A STANDARD BY A STANDARD BY
-of fon: Some resu.
-THE RESIDENCE OF THE PROPERTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PAR
-to be our page to a cultivate Application to the Atlanta to prince of
-and the second little black of the
-OF THE REAL PROPERTY.
+
+Seorſim excuſſa ab Opere reſtitutæ Mathematicæ  
+Analyſeos, Seu, Algebrâ nouâ.
+
+Coll. [illegible: handwritten inscription]
+
 TVRONIS,
+
 Apud IAMETIVM METTAYER Typographum Regium.
-Anno 2 5 9 10
+
+Anno 1591.
+
+BIBLIOTECA NAZ.  
+ROMA  
+VITTORIO EMANUELE
 
 ## PDF page 8
 
@@ -776,29 +772,18 @@ NVLLVM NON PROBLEMA SOLVERE.
 
 ## PDF page 24
 
-Errata in Isagoge.
-Folio 1. verso Nemausensi ] Scribe Nemorensi.
-Folio 5. ex serie Scalarum | scribe Scalarium.
-Folio 6. Solidum in Planosolidum facit Solido-solidum. ] seribe facis
-Plano-folsdo-folsdum..
-Bodem verso Plano solido solidum adplicatum solido restituit solido-
-solidum ] scribe Solida Solida Solidum adplicatum, &cc.
-Folio 7. propositione 11. communis multiplicatio] Scribe communis adplicatio.
-Folio 8. verso in parte equationis incerta designare ] sembe designari.
-Eodem Ipsas etiam dari magnitudines subgraduales ] senbe, dari ad-
-scitutias subgraduales.
-UNB RUNGS
-יורפרב על היווי בדורה. ה !
-i maabing anii m
-THE PERSON OF THE PROPERTY OF THE
-. It for the beautiful to the terminal to the terminal to the terminal terminal terminal terminal terminal terminal terminal terminal terminal terminal terminal terminal terminal terminal terminal terminal terminal termina
-But the server of the server server
-. . .
-SHOW THE RESERVE OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PARTY OF THE PAR
-une libi adrocat, Onos
-T & PRESIDENT
-F7 2 /
-a G a q M V ;
+Errata in Iſagoge.
+
+Folio 1. verſo Nemauſenſi ] ſcribe Nemorenſi.  
+Folio 5. ex ſerie Scalarum ] ſcribe Scalarium.  
+Folio 6. Solidum in Planoſolidum facit Solido-ſolidum. ] ſcribe facit  
+Plano-ſolido-ſolidum..  
+Eodem verſo Plano ſolido ſolidum adplicatum ſolido reſtituit ſolido-  
+ſolidum ] ſcribe Solido Solido ſolidum adplicatum, &c.  
+Folio 7. propoſitione 11. communis multiplicatio ] Scribe communis adplicatio.  
+Folio 8. verſo in parte æquationis incerta deſignare ] ſcribe deſignari.  
+Eodem Ipſas etiam dari magnitudines ſubgraduales ] ſcribe, dari ad-  
+ſcititias ſubgraduales.
 
 ## PDF page 25
 
