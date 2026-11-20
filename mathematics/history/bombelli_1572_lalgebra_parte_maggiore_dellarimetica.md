@@ -10,7 +10,7 @@ Transcription of `bombelli_1572_lalgebra_parte_maggiore_dellarimetica.pdf` in th
 
 Method: pages 1-360 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
-Second engine: MinerU2.5-Pro 2605 read pages 13, 131, 168, 207, 230, 249, 324, 339, 345, 352; Surya OCR 0.17.0 alone read pages 20, 66, 288, 356-357; Codex gpt-6.2-sol (300 dpi page image) read pages 93, 100, 146, 226, 238, 243, 300, 303, 323, 331, 353, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
+Second engine: MinerU2.5-Pro 2605 read pages 13, 131, 168, 207, 230, 249, 324, 339, 345, 352; Surya OCR 0.17.0 alone read pages 20, 66, 288, 356-357; Codex gpt-6.2-sol (300 dpi page image) read pages 93, 238; Codex gpt-6.2-sol (400 dpi upright page image) read pages 100, 146, 226, 243, 300, 303, 323, 331, 353, replacing a first OCR reading that looped or came back empty. These pages are machine output and were not compared against their page images.
 
 ## PDF page 1
 
@@ -6874,24 +6874,51 @@ Molti-
 
 ## PDF page 100
 
-138    LIBRO
+138　LIBRO
 
-tità, che [illegible: text] fommare, cioè R. c. [illegible: text] R. c. [illegible: text] infieme, fanno R. [illegible: text] medefima parte del più ci fono tre altre R. che [illegible: text] fimilmente fommare, cioè R. c. [illegible: text] R. c. [illegible: text] R. c. [illegible: text] che [illegible: text] infieme, fanno R. c. [illegible: text] 6897920, che unito infieme tutto il più, fa 97556. p. R. [illegible: text] E dalla parte del meno [illegible: text] quantità tutte tre eguali, che [illegible: text] lato, cioè R. [illegible: text] 4000, che il [illegible: text] e dalla parte di detto [illegible: text] per tre, [illegible: text] R. c. [illegible: text] R. c. [illegible: text] cioè [illegible: text] dalla parte del [illegible: text] le eguali, che fono dalla [illegible: text] del più, è [illegible: text] reftarà più [illegible: text] dalla parte del [illegible: text] infieme faranno 6836, il che è [illegible: text] che partito con [illegible: text] uiene 4. (come [illegible: text] è una rariffima operatione, [illegible: text] ra-re uolte occorrerà il feruirfene, [illegible: text] disfare [illegible: text]
+tità, che si possono sommare, cioè $\mathrm{R.c.}\,11291722444800$. $\mathrm{R.c.}\,32920473600000$. & $\mathrm{R.c.}\,56886578380800$. (che come si è insegnato al suo luogo) gionte insieme, fanno $\mathrm{R.c.}\,802897430630400$. E dalla medesima parte del più ci sono tre altre R. che si possono similmente sommare, cioè $\mathrm{R.c.}\,12142584599040$. $\mathrm{R.c.}\,35901112800000$. & $\mathrm{R.c.}\,61173137571840$, che sommate insieme, fanno $\mathrm{R.c.}\,863397946897920$, che unito insieme tutto il più, fà $97556.\mathrm{p.R.c.}\,802897430630400.\mathrm{p.R.c.}\,863397946897920$. E dalla parte del meno sono tre quantità tutte tre eguali, che hanno lato, cioè $\mathrm{R.c.}\,27653197824000$, che il suo lato è $30240$, il qual triplicato per esserne tre eguali, farà $90720$, e dalla parte di detto meno ui sono tre quantità similmente eguali, cioè $\mathrm{Rad.c.}\,29736941875200$. che moltiplicata per tre, fà $\mathrm{R.c.}\,802897430630400$, & tre altre ce ne sono pur eguali, cioè $\mathrm{R.c.}\,31977701736960$, che moltiplicata per $\mathrm{R.c.}\,27$. cioè $3$. fà $\mathrm{R.c.}\,863697946897920$, e tutte queste saranno dalla parte del meno, sì che leuate tutte le eguali, che sono dalla parte del più, e meno, restarà più $97556$, & dalla parte del meno restarà solamente $90720$, che gionti insieme faranno $6836$, il che è esimo di $\mathrm{R.c.}\,4991443829$, cioè di $1709$, che partito con esso $6836$, ne uiene $4$. (come si propose) e questa è una rarissima operatione, ancor che rare uolte occorrerà il seruirsene, ma io l’hò posta per sodisfare i curiosi.
 
-À partire per un [illegible: text] Cubo, oue sia meno.
+*A partire per un Trinomio Cubo, oue sia meno.*
 
-[illegible: text] per R.c. [illegible: text]
+Partisi $1546$. per $\mathrm{R.c.}\,4.\mathrm{p.R.c.}\,3.\mathrm{m.R.c.}\,2$. per troua-
 
-PRIMO.    139
+re
 
-[illegible: text] il Refiduo del partitore. Si [illegible: text] infieme, facendo sempre, che [illegible: text] più, fanno R. c. [illegible: text] p. R. c. 9. p. R. c. [illegible: text] R. c. [illegible: text] m. Radice cuba [illegible: text] e Radice cuba [illegible: text] uia m. R. [illegible: text] fa m. Radice [illegible: text] 6, che aggionto con R. c. 12. m. [illegible: text]
-4. p. R. [illegible: text] R. c. 2.
+PRIMO.　139
 
-[illegible: text]
+re il Residuo del partitore. Si quadrino tutte tre le R. c. e aggiongansi insieme, facendo sempre, che dicano più, fanno $\mathrm{R.c.}\,16.\mathrm{p.R.c.}\,9.\mathrm{p.R.c.}\,4$. Poi si moltiplichi $\mathrm{R.c.}\,4$. uia $\mathrm{R.c.}\,3.\mathrm{m.}$ Radice cuba $2$. fà $\mathrm{R.c.}\,12.\mathrm{m.R.c.}\,8$. e Radice cuba $3$. uia $\mathrm{m.R.c.}\,2$. fà $\mathrm{m.}$ Radice c. $6$, che aggionto con $\mathrm{R.c.}\,12.\mathrm{m.}$ Radice c. $8$. fà $\mathrm{R.c.}\,12.\mathrm{m.}$
 
-R.c.16. [illegible: text]
+$\mathrm{R.c.}\,4.\mathrm{p.R.c.}\,3.\mathrm{m.R.c.}\,2$  
+$\mathrm{R.c.}\,4.\mathrm{p.R.c.}\,3.\mathrm{m.R.c.}\,2$
 
-<table><tr><td>[?]</td><td>[?]</td></tr><tr><td>[?]</td><td>[?]</td></tr><tr><td>[?]</td><td>[?]</td></tr><tr><td>[?]</td><td>[?]</td></tr><tr><td>[?]</td><td>[?]</td></tr><tr><td>[?]</td><td>[?]</td></tr><tr><td>[?]</td><td>[?]</td></tr><tr><td>[?]</td><td>[?]</td></tr><tr><td>[?]</td><td></td></tr><tr><td>[?]</td><td></td></tr><tr><td>[?]</td><td></td></tr><tr><td>[?]</td><td></td></tr><tr><td>[?]</td><td></td></tr><tr><td>[?]</td><td></td></tr><tr><td>[?]</td><td></td></tr></table>
+---
+
+$\mathrm{R.c.}\,16.\mathrm{p.R.c.}\,9.\mathrm{p.R.c.}\,4.\mathrm{p.R.c.}\,8.\mathrm{p.R.c.}\,6.\mathrm{m.}$  
+$\mathrm{R.c.}\,12$  
+$\mathrm{R.c.}\,4.\mathrm{p.R.c.}\,3.\mathrm{m.R.c.}\,2$
+
+| Più | Meno |
+| --- | --- |
+| $\mathrm{R.c.}\,24$. | a $\mathrm{R.c.}\,12$. |
+| [?] $\mathrm{R.c.}\,18$. | b $\mathrm{R.c.}\,16$. |
+| $\mathrm{R.c.}\,24$. | $\mathrm{R.c.}\,8$. Lato 2 |
+| a $\mathrm{R.c.}\,12$. | c $\mathrm{R.c.}\,18$. |
+| Lato 3. $\mathrm{R.c.}\,27$. | d $\mathrm{R.c.}\,32$. |
+| f $\mathrm{R.c.}\,48$. | e $\mathrm{R.c.}\,36$. |
+| $\mathrm{R.c.}\,24$. | f $\mathrm{R.c.}\,48$. |
+| [?] $\mathrm{R.c.}\,32$. | |
+| b $\mathrm{R.c.}\,16$. | |
+| [?] $\mathrm{R.c.}\,36$. | |
+| Lato 4. $\mathrm{R.c.}\,64$. | |
+
+$7.\mathrm{p.R.c.}\,648$.  
+$2$.
+
+---
+
+$5.\mathrm{p.R.c.}\,648$.
+
+R. c.
 
 ## PDF page 101
 
@@ -10015,46 +10042,33 @@ e questo
 
 ## PDF page 146
 
-230    LIBRO
+230　LIBRO
 
-qualità, che ho [illegible: text] nel principio, cioè che li tanti [illegible: text] i cubi, & il numero fia il lato [illegible: text] quadri ciafcuna delle parti del partitore da [illegible: text] che gionti infieme fanno [illegible: text] p. [illegible: text] poi fi [illegible: text] a moltiplicare [illegible: text] l'altra fanno p. fe gli [illegible: text] natura, e dirà meno, & fe uno [illegible: text] l'altro p. che farebbe m. Si dirà p. (come [illegible: text] per un [illegible: text] un Trinomio Cubo) [illegible: text] che gion- [illegible: text] p. [illegible: text] per [illegible: text] danda,
+qualità, che ho detto nel principio, cioè che li tanti siano il lato de i cubi, & il numero sia il lato cubico del numero; poi si quadri ciascuna delle parti del partitore da se cioè $1\overset{1}{\smile}$, e $2$. faranno $1\overset{2}{\smile}$, e $4$, e questi sempre saranno più, che gionti insieme fanno $1\overset{2}{\smile}\mathrm{p.}4$; poi si moltiplica $1\overset{1}{\smile}$ uia $2$, fa $2\overset{1}{\smile}$; e perche $1\overset{1}{\smile}$, e $2$. sono ambidui \mathrm{p.} & à moltiplicare l’una uia l’altra fanno \mathrm{p.} se gli fà cangiar natura, e dirà meno, & se uno fusse \mathrm{m.} e l’altro \mathrm{p.} che farebbe \mathrm{m.} Si dirà \mathrm{p.} (come fù insegnato nel partire per un Binomio, & un Trinomio Cubo) sì che gionte $\mathrm{m.}2\overset{1}{\smile}$ con $1\overset{2}{\smile}\mathrm{p.}4$, fa $1\overset{2}{\smile}\mathrm{p.}4\mathrm{m.}2\overset{1}{\smile}$, e questo è l’auenimento à partire $1\overset{3}{\smile}\mathrm{p.}8$. per $1\overset{1}{\smile}\mathrm{p.}2$. senza fare altra danda.
 
-Partasi [illegible: text] m. [illegible: text] per [illegible: text]
-p. [illegible: text] tal partimento non [illegible: text] potrebbe [illegible: text] perche
-[illegible: text] il numero, ch'è con li Cubi fia della [illegible: text] natura del numero, ch'è [illegible: text] Tanti, (cioè fe quel
-lo, [illegible: text] li cubi è p.fia anco p. quello, ch'è con [illegible: text]
-Tanti è meno, quello, ch'è
-[illegible: text] meno) ma per [illegible: text] il numero, ch'è con li Tanti è il
-[illegible: text] cubico del numero, ch'è [illegible: text] li Tanti fo
-no [illegible: text] del cubo, cubando ciafcuna da fe, e [illegible: text]
-posti hanno [illegible: text] proportione, però quadrifi [illegible: text]
-e [illegible: text] fa 9, che [illegible: text] fa cangiar [illegible: text] faranno p. [illegible: text] che gionte con [illegible: text]
-à partire 1 [illegible: text]
-per [illegible: text] m. [illegible: text]
-al partire d'ogni quantità, col [illegible: text] applicare doue bifognarà. Hor fi uerrà al partire
-[illegible: text]
+Partasi $1\overset{3}{\smile}\mathrm{m.}27$. per $1\overset{1}{\smile}\mathrm{m.}3$. Se il partitore dicesse $1\overset{1}{\smile}\mathrm{p.}3$. tal partimento non si potrebbe fare, perche bisogna che il numero, ch’è con li Cubi sia della medesima natura del numero, ch’è con li Tanti, (cioè se quello, ch’è con li cubi è \mathrm{p.} sia anco \mathrm{p.} quello, ch’è con li Tanti, e se il numero, ch’è con li Tanti è meno, quello, ch’è col cubo bisogna, che sia meno) ma per tornare al partimento detto uedasi se il numero, ch’è con li Tanti è il lato cubico del numero, ch’è con li Cubi, e se li Tanti sono il lato del cubo, cubando ciascuna da se, e questi proposti hanno tal proportione. però quadrisi $1\overset{1}{\smile}$ fa $1\overset{2}{\smile}$, e $3$. fa $9$, che gionti insieme fa $1\overset{2}{\smile}\mathrm{p.}9$, poi si moltiplica $1\overset{1}{\smile}$ uia $\mathrm{m.}3$, fa $\mathrm{m.}3\overset{1}{\smile}$, alle quali si fà cangiar natura, e saranno $\mathrm{p.}3\overset{1}{\smile}$, che gionte con $1\overset{2}{\smile}\mathrm{p.}9$. fa $1\overset{2}{\smile}\mathrm{p.}3\overset{1}{\smile}\mathrm{p.}9$, e quest’è l’auenimento, à partire $1\overset{3}{\smile}\mathrm{m.}27$. per $1\overset{1}{\smile}\mathrm{m.}3$, e quanto à questo partire: questi essempij sono sufficientissimi al partire d’ogni quantità, col saperli applicare doue bisognarà. Hor si uerrà al partire de rotti per sani.
 
-SECONDO.    231
+Del
 
-[illegible: text] partire delle Dignità rotte per fane.
+SECONDO.　231
 
-Partafi 3 [illegible: text] regola (come [illegible: text] partir de rotti) ponendo il partitore à man [illegible: text] fotto 1. (come [illegible: text] de) poi fi moltiplica [illegible: text] fi pone sopra [illegible: text] linea.b. poi fi moltiplica [illegible: text]
+*Del partire delle Dignità rotte per sane.*
 
-qual fi ponga [illegible: text] linea.b, [illegible: text] che dirà [illegible: text] di detto [illegible: text]
+| | |
+| --- | --- |
+| $\frac{2\overset{1}{\smile}\mathrm{p.}4}{1}$ | $\frac{3\overset{1}{\smile}\mathrm{p.}8}{1\overset{1}{\smile}\mathrm{p.}1}$ |
+| $\frac{3\overset{1}{\smile}\mathrm{p.}8}{2\overset{2}{\smile}\mathrm{p.}6\overset{1}{\smile}\mathrm{p.}4}$ | |
 
-Partafi 6 , p. [illegible: text] efimo di
-[illegible: text]
-com'è detto) ponendo
-[illegible: text] dignità (come [illegible: text]
-b.uia 6 [illegible: text]
-sopra [illegible: text] c. fara 6
-[illegible: text] qual fi ponga [illegible: text]
-b.fa 6 3 p. [illegible: text]
+Partasi $3\overset{1}{\smile}\mathrm{p.}8$. esimi di $1\overset{1}{\smile}\mathrm{p.}1$. per $2\overset{1}{\smile}\mathrm{p.}4$. Pongasi in regola (come si fà nel partir de rotti) ponendo il partitore à man sinistra, e ponendoli sotto $1$. (come si uede) poi si moltiplica $1$. in croce uia $3\overset{1}{\smile}\mathrm{p.}8$. fa $3\overset{1}{\smile}\mathrm{p.}8$, il qual si pone sopra la linea. b. poi si moltiplica $2\overset{1}{\smile}\mathrm{p.}4$ uia $1\overset{1}{\smile}\mathrm{p.}1$, fa $2\overset{2}{\smile}\mathrm{p.}6\overset{1}{\smile}\mathrm{p.}4$, il qual si ponga sotto la linea. b, e così si formarà il rotto che dirà $3\overset{1}{\smile}\mathrm{p.}8$. esimi di $2\overset{2}{\smile}\mathrm{p.}6\overset{1}{\smile}\mathrm{p.}4$, e sarà l’auenimento di detto partire.
 
-ilquale fi ponga [illegible: text] il
-totto, che farà [illegible: text] di tal partire.
+| | |
+| --- | --- |
+| b $\frac{3\overset{1}{\smile}\mathrm{m.}1}{1}$ | $\frac{6\overset{1}{\smile}\mathrm{p.}2}{2\overset{2}{\smile}\mathrm{p.}5\overset{1}{\smile}}$ c |
+| d $\frac{6\overset{1}{\smile}\mathrm{p.}2}{6\overset{3}{\smile}\mathrm{p.}13\overset{2}{\smile}\mathrm{m.}5\overset{1}{\smile}}$ | |
 
-[illegible: text]
+Partasi $6\overset{1}{\smile}\mathrm{p.}2$. esimo di $2\overset{2}{\smile}\mathrm{p.}5\overset{1}{\smile}$ per $3\overset{1}{\smile}\mathrm{m.}1$. Faciasi (com’è detto) ponendo in regola le dignità (come si uede) poi si moltiplichi $1$, ch’è sotto la linea. b. uia $6\overset{1}{\smile}\mathrm{p.}2$. ch’è sopra la linea. c. farà $6\overset{1}{\smile}\mathrm{p.}2$, qual si ponga sopra la linea. d, poi si moltiplichi $2\overset{2}{\smile}\mathrm{p.}5\overset{1}{\smile}$, ch’è sotto la linea. c. uia $3\overset{1}{\smile}\mathrm{m.}1$, ch’è sopra la linea. b. fa $6\overset{3}{\smile}\mathrm{p.}13\overset{2}{\smile}\mathrm{m.}5\overset{1}{\smile}$, il quale si ponga sotto la linea. d, e così sarà formato il rotto, che sarà l’auenimento di tal partire.
+
+Partire
 
 ## PDF page 147
 
@@ -15361,21 +15375,31 @@ p.K.c.
 
 ## PDF page 226
 
-388    LIBRO
+388　LIBRO
 
-p.R.c. [illegible: text] p. [illegible: text] p.R.c. [illegible: text] che tolto il [illegible: text] dell'altra parte, [illegible: text] hauerà [illegible: text] p. [illegible: text] p.R. [illegible: text] p. R.c. [illegible: text]
-di potenza potenza, e Tanti [illegible: text] à Cubi, e numero.
+$\mathrm{p.R.c.}120\overset{1}{\smile}\mathrm{p.}6\mathrm{p.R.c.}225$, che tolto il lato dell’una, e dell’altra parte, si hauerà $1\overset{2}{\smile}\mathrm{p.}1\overset{1}{\smile}\mathrm{p.R.c.}15$. eguale à $\mathrm{R.q.}\lfloor\mathrm{R.c.}120\mathrm{p.}1\overset{1}{\smile}\rfloor\mathrm{p.R.q.}\lfloor\mathrm{R.c.}225\mathrm{p.}6\rfloor$; che agguagliato, il Tanto ualerà tutto questo composto $\mathrm{R.q.}\lfloor\mathrm{R.q.}\lfloor16\mathrm{p.R.c.}225\rfloor\mathrm{p.}\frac{2}{8}\mathrm{m.R.c.}1\frac{7}{8}\rfloor\mathrm{m.R.q.}\lfloor\mathrm{R.c.}1\frac{7}{8}\mathrm{p.}\frac{1}{8}\rfloor\mathrm{p.}\frac{1}{2}$.
 
-Il prefente Capitolo [illegible: text] cioè de [illegible: text] 3 eguale à [illegible: text] e [illegible: text] e fi può fare la positione in due modi ( [illegible: text] del paffato). Ma di [illegible: text] porro solo [illegible: text]
-tauo del quadrato [illegible: text] la metà de 3 uia la [illegible: text] à delli 1, fa [illegible: text] e fono [illegible: text] fanno [illegible: text] che agguagliato, il Tanto uale [illegible: text] p. [illegible: text] nafcono dalla metà de 3 e [illegible: text] m.perche gli 3 fono dalla parte contraria del [illegible: text] m. [illegible: text] 3 p. [illegible: text] che cauatone 1 4 p. [illegible: text] 4 3 p. [illegible: text] m. [illegible: text] è R.q. [illegible: text] m. R.q.12 [illegible: text] che aggua gliato, il Tanto ualerà [illegible: text]
+*Capitolo di potenza potenza, e Tanti eguale à Cubi, e numero.*
 
-SECONDO.    389
+Il presente Capitolo patisce le eccettioni del passato, cioè de Capitoli di $\overset{3}{\smile}$ eguale à $\overset{1}{\smile}$ e numero; e $\overset{3}{\smile}$, & numero eguale à $\overset{1}{\smile}$, e si può fare la positione in due modi (come del passato). Ma di questo porrò solo uno essempio.
 
-[illegible: text]
-Capitolo è sempre generale, perche [illegible: text] uolte uiene ad altro agguagliamento, che a [illegible: text] e [illegible: text] e di [illegible: text] sempre fi fa una fola [illegible: text] cioè p. [illegible: text] Benche anco fi potrebbe fa [illegible: text] Ma non è [illegible: text] del quale [illegible: text]
-à 6 3 p. [illegible: text] l'ottauo del quadrato de 3, ch'è 4 uia [illegible: text] fa [illegible: text] l'ottauo del quadrato dellì, fa [illegible: text] Poi fi moltiplica la [illegible: text] dellì [illegible: text] la metà de 3, [illegible: text] del quale [illegible: text] che fono, alli quali per [illegible: text] fi aggionge 1 3 fa 1 [illegible: text] p.102 & [illegible: text] di fopra, che agguagliato, il [illegible: text] 6. il quale fiaggionge [illegible: text] 2 m. [illegible: text] nafcono (come fu [illegible: text] Capitolo paffato dalla metà de 3) che [illegible: text] quadrato farà 1 [illegible: text] 3 p.21 [illegible: text] m. [illegible: text] p. [illegible: text] che leuatone [illegible: text] 4 p.15, [illegible: text] p. [illegible: text] 2 [illegible: text] quantita [illegible: text] che il [illegible: text] è R. q. [illegible: text] p. R. q. 21, ch'è [illegible: text] m. 3 [illegible: text] p. 6, che agguagliato, il [illegible: text] ualerà R. q. [illegible: text]
-di potenza potenza, Cubi, e [illegible: text]
-Capit. patisce le [illegible: text] dellì, Capitoli di 3 [illegible: text] egua le à [illegible: text] quando il numero [illegible: text] potenze è grande
+Agguaglisi $1\overset{4}{\smile}\mathrm{p.}20\overset{1}{\smile}$ à $4\overset{3}{\smile}\mathrm{p.}11$. Moltiplichisi l’ottauo del quadrato de $\overset{3}{\smile}$, ch’è $2$. uia il numero fa $22$, e si caua dell’ottauo del quadrato delli $\overset{1}{\smile}$, ch’è $50$, resta $28$, e si salua, poi si moltiplica la metà de $\overset{3}{\smile}$ uia la metà delli $\overset{1}{\smile}$, fa $20$, e se ne caua il numero, cioè $11$, resta $9$, e sono $\overset{1}{\smile}$, che aggionti co’l numero serbato fanno $28.\mathrm{p.}9\overset{1}{\smile}$, e questo è eguale à $1\overset{3}{\smile}$, che agguagliato, il Tanto uale $4$, che aggionto con $1\overset{2}{\smile}\mathrm{m.}2\overset{1}{\smile}$, fa $1\overset{2}{\smile}\mathrm{m.}2\overset{1}{\smile}\mathrm{p.}4$. & li $\mathrm{m.}2\overset{1}{\smile}$ nascono dalla metà de $\overset{3}{\smile}$ e sono \mathrm{m.} perche gli $\overset{3}{\smile}$ sono dalla parte contraria del $\overset{4}{\smile}$, che il suo quadrato è $1\overset{4}{\smile}\mathrm{m.}4\overset{3}{\smile}\mathrm{p.}12\overset{2}{\smile}\mathrm{m.}16\overset{1}{\smile}\mathrm{p.}16$, che cauatone $1\overset{4}{\smile}\mathrm{p.}20\overset{1}{\smile}$ restano $12\overset{2}{\smile}\mathrm{m.}4\overset{3}{\smile}\mathrm{m.}36\overset{1}{\smile}\mathrm{p.}16$, e tutto questo si deue giongere à $4\overset{3}{\smile}\mathrm{p.}11$, fa $12\overset{2}{\smile}\mathrm{m.}36\overset{1}{\smile}\mathrm{p.}27$, che il suo lato è $\mathrm{R.q.}27\mathrm{m.R.q.}12\overset{1}{\smile}$, ch’è eguale à $1\overset{2}{\smile}\mathrm{m.}2\overset{1}{\smile}\mathrm{p.}4$ detto di sopra, che agguagliato, il Tanto ualerà $\mathrm{RR.q.}3\mathrm{p.}1\mathrm{m.R.q.}3$.
+
+Capitolo
+
+SECONDO.　389
+
+*Capitolo di potenza potenza, e numero eguale à Cubi, e Tanti.*
+
+Questo Capitolo è sempre generale, perche rarissime uolte uiene ad altro agguagliamento, che à $\overset{3}{\smile}$ e $\overset{1}{\smile}$ eguale à numero, e di esso sempre si fa una sola positione, cioè $\mathrm{p.}1\overset{1}{\smile}$ di numero. Benche anco si potrebbe fare $\mathrm{m.}1\overset{1}{\smile}$ di numero. Ma non è necessaria del quale ponerò solo un’essempio.
+
+Agguaglisi $1\overset{4}{\smile}\mathrm{p.}15$. à $6\overset{3}{\smile}\mathrm{p.}78\overset{1}{\smile}$. Moltiplichisi l’ottauo del quadrato de $\overset{3}{\smile}$, ch’è $4\frac{1}{2}$ uia il numero, fa $67\frac{1}{2}$, che si aggionge con l’ottauo del quadrato delli $\overset{1}{\smile}$, fa $828$, che si salua. Poi si moltiplica la metà delli $\overset{1}{\smile}$ uia la metà de $\overset{3}{\smile}$, fa $117$, del quale se ne caua il numero, resta $102$, che sono $\overset{1}{\smile}$, alli quali per regola si aggionge $1\overset{3}{\smile}$ fa $1\overset{3}{\smile}\mathrm{p.}102\overset{1}{\smile}$, & è eguale all’$828$. serbato di sopra, che agguagliato, il Tanto ualerà $6$. il quale si aggionge a $1\overset{2}{\smile}\mathrm{m.}3\overset{1}{\smile}$, fa $1\overset{2}{\smile}\mathrm{m.}3\overset{1}{\smile}\mathrm{p.}6$. e li $\mathrm{m.}3\overset{1}{\smile}$ nascono (come fù detto nel Capitolo passato dalla metà de $\overset{3}{\smile}$) che il suo quadrato sarà $1\overset{4}{\smile}\mathrm{m.}6\overset{3}{\smile}\mathrm{p.}21\overset{2}{\smile}\mathrm{m.}36\overset{1}{\smile}\mathrm{p.}36$, che leuatone $1\overset{4}{\smile}\mathrm{p.}15$, resta $\mathrm{m.}6\overset{3}{\smile}\mathrm{p.}21\overset{2}{\smile}\mathrm{m.}36\overset{1}{\smile}\mathrm{p.}36$, e questa quantità si aggionge à $6\overset{3}{\smile}\mathrm{p.}78\overset{1}{\smile}$, fa $21\overset{2}{\smile}\mathrm{p.}42\overset{1}{\smile}\mathrm{p.}21$, che il suo lato è $\mathrm{R.q.}21\overset{1}{\smile}\mathrm{p.R.q.}21$, ch’è eguale à $1\overset{2}{\smile}\mathrm{m.}3\overset{1}{\smile}\mathrm{p.}6$, che agguagliato, il Tanto ualerà $\mathrm{R.q.}\lfloor\mathrm{R.q.}131\frac{1}{4}\mathrm{p.}1\frac{1}{2}\rfloor\mathrm{m.R.q.}5\frac{1}{4}\mathrm{m.}1\frac{1}{2}$.
+
+*Capitolo di potenza potenza, Cubi, e Tanti, eguale à numero.*
+
+Il presente Capit. patisce le eccettioni delli Capitoli di $\overset{3}{\smile}$ eguale à $\overset{1}{\smile}$, e numero, e di $\overset{3}{\smile}$, e numero eguale à $\overset{1}{\smile}$, e massime, quando il numero delle potenze
+
+è grande
 
 ## PDF page 227
 
@@ -16374,36 +16398,39 @@ Ta
 
 ## PDF page 243
 
-422    LIBRO
+422　LIBRO
 
-[illegible: text] maggiore dell'altro un dato numero, e che li loro quadrati [illegible: text] determinato numero [illegible: text] doppio del dato [illegible: text] il numero minore, ma [illegible: text] numero) l'auenimento farà minore [illegible: text] metà del [illegible: text] tratterà [illegible: text]
-due numeri, [illegible: text] fia.6. più [illegible: text] che cauato il quadrato [illegible: text] quadrato del maggiore refti. [illegible: text]
-per. [illegible: text] doppio di.6, né uiene [illegible: text] e di [illegible: text] nè caui [illegible: text] di- [illegible: text] resta [illegible: text]
-due parti, che il quarto del primo fu
-peri il [illegible: text]
-fuo fefto farà.
-[illegible: text] il quarto [illegible: text] p. [illegible: text]
-il primo farà. 4 [illegible: text] refta; che ambidui gionti
-[illegible: text] 100, ma fanno. [illegible: text] p. 72, però [illegible: text] delle parti
-haueremo [illegible: text] Tanto
-uale [illegible: text]
-100, & il quarto del primo, [illegible: text]
-3, ch'è il [illegible: text] del fecondo; [illegible: text] 18. (come fu propofto.)
-[illegible: text]
-att ato
+sia maggiore dell’altro un dato numero, e che li loro quadrati cauato l’uno dell’altro: resti un determinato numero: partasi il terminato numero per il doppio del dato numero, e dell’auenimento se nè caui la metà del dato numero, e lo restante sarà il numero minore; ma auertiscasi, che se (à partire il terminato numero per il doppio del dato numero) l’auenimento sarà minore della metà del dato numero, si tratterà dell’impossibile.
 
-[illegible: text]
+Trouinsi due numeri, che l’uno sia $6$. più dell’altro, e che cauato il quadrato del minore del quadrato del maggiore resti $1\overset{1}{\smile}$.
 
-TERZO.    423
+Per la regola data nella passata partasi $1\overset{1}{\smile}$ per $12$. doppio di $6$, nè uiene $\frac{1}{12}\overset{1}{\smile}$, e di questo se nè caui $3$. metà di $6$, resta $\frac{1}{12}\overset{1}{\smile}\mathrm{m.}3$, e questo è il minore e il maggiore sarà $\frac{1}{12}\overset{1}{\smile}\mathrm{p.}3$.
 
-[illegible: text] maggiore [illegible: text] numero eguale, [illegible: text]
-un numero, che [illegible: text] il minore.
+*Problema XIII.*
 
-[illegible: text] m.90, deue effere [illegible: text] minore: però quattro uolte 1 m. [illegible: text] ch'è 4 m. [illegible: text] deue [illegible: text] p. [illegible: text] eguale à 1 [illegible: text] cauato [illegible: text] da ogni parte, fi [illegible: text] eguale à [illegible: text] da ogni parte, fi [illegible: text] 3 30, che aggua- gliato, il Tanto valerà 110, [illegible: text] farà il numero, che [illegible: text] cerca, che cauatone 90, [illegible: text] cauatone [illegible: text] ch'è quattro uolte tanto, quanto [illegible: text] come [illegible: text]
+Diuidasi $100$. in due parti, che il quarto del primo superi il sesto del secondo di $18$.
 
-Problema X V.
+Ponghisi, che il secondo sia $6\overset{1}{\smile}$, che il suo sesto sarà $1\overset{1}{\smile}$, il quarto del primo di necessità sarà $18.\mathrm{p.}1\overset{1}{\smile}$, che così leuatone la sesta parte, del secondo; resta $18$, e tutto il primo sarà $4\overset{1}{\smile}\mathrm{p.}72$. resta, che ambidui gionti insieme; faccino $100$, ma fanno $10\overset{1}{\smile}\mathrm{p.}72$, però questo è eguale à $100$, che leuato $72$. a ciascuna delle parti haueremo $10\overset{1}{\smile}$ eguale à $28$, che agguagliato; il Tanto uale $2\frac{4}{5}$. però il primo, ch’era $4\overset{1}{\smile}\mathrm{p.}72$. sarà $83\frac{1}{5}$, e il secondo, che era $6\overset{1}{\smile}$, sarà $16\frac{4}{5}$, che gionti insieme fanno $100$, & il quarto del primo, ch’è $20\frac{4}{5}$. Cauatone $2\frac{4}{5}$, ch’è il sesto del secondo; resta $18$. (come fu proposto.) Auertendosi, che se il $18$. fusse stato $25$, ò più, si saria
 
-[illegible: text] che giontoli [illegible: text] Ponghifi, che [illegible: text] fia 1, che [illegible: text] p. [illegible: text] pero è [illegible: text]
+trattato
+
+TERZO.　423
+
+trattato dell’impossibile, perche non bisogna, che la parte maggiore moltiplicata nel numero dato: produchi un numero eguale, ò maggiore del numero da diuidersi.
+
+*Problema XIIII.*
+
+Trouisi un numero, che cauatone $90$, e $30$, li dui restanti il maggiore sia quattro uolte il minore.
+
+Ponghisi, che il numero da trouarsi sia $1\overset{1}{\smile}$, che cauandosene $90$, e $30$, resta $1\overset{1}{\smile}\mathrm{m.}90$, e $1\overset{1}{\smile}\mathrm{m.}30$, e $1\overset{1}{\smile}\mathrm{m.}90$. deue essere la parte minore: però quattro uolte $1\overset{1}{\smile}\mathrm{m.}90$, ch’è $4\overset{1}{\smile}\mathrm{m.}360$. deue essere eguale alla parte maggiore, ch’è $1\overset{1}{\smile}\mathrm{m.}30$. però $4\overset{1}{\smile}\mathrm{m.}360$. è eguale à $1\overset{1}{\smile}\mathrm{m.}30$, che leuato il meno da ogni parte giongendo $360$. à $1\overset{1}{\smile}\mathrm{m.}30$, e $30$. à $4\overset{1}{\smile}\mathrm{m.}360$, si hauerà $4\overset{1}{\smile}\mathrm{p.}30$. eguale à $1\overset{1}{\smile}\mathrm{p.}360$, che cauato $30$. da ogni parte, si hauerà $4\overset{1}{\smile}$ eguale à $1\overset{1}{\smile}\mathrm{p.}330$, e cauato $1\overset{1}{\smile}$ da ogni parte, si hauerà $3\overset{1}{\smile}$ eguale à $330$, che agguagliato, il Tanto ualerà $110$, e $110$. sarà il numero, che si cerca, che cauatone $90$. resta $20$, e cauatone $30$, resta $80$, ch’è quattro uolte tanto, quanto $20$. (come si uuole.)
+
+*Problema XV.*
+
+Trouisi un numero, che giontoli $190$, e $30$, le somme siano in proportione dupla.
+
+Ponghisi, che tal numero sia $1\overset{1}{\smile}$, che giontoli $90$, e $30$. fa $1\overset{1}{\smile}\mathrm{p.}90$, e $1\overset{1}{\smile}\mathrm{p.}30$; resta, che $1\overset{1}{\smile}\mathrm{p.}90$. sia doppio à $1\overset{1}{\smile}\mathrm{p.}30$, ma il doppio d’$1\overset{1}{\smile}\mathrm{p.}30$, e $2\overset{1}{\smile}\mathrm{p.}60$. però è eguale à $1\overset{1}{\smile}\mathrm{p.}90$, che agguagliato; il Tan-
+
+to
 
 ## PDF page 244
 
@@ -20216,26 +20243,37 @@ maggiore
 
 ## PDF page 300
 
-536    LIBRO
+536　LIBRO
 
-[illegible: text]
-pro
-dutto sia [illegible: text] che partito l'un per l'altro ne [illegible: text]
-efimo d' [illegible: text] che [illegible: text] agguagliato, il Tanto [illegible: text] però il primo [illegible: text] condo [illegible: text]
-un dato numero, [illegible: text] che partito [illegible: text] co'l quale [illegible: text] il dato numero, [illegible: text]
-e che partito il maggiore per il [illegible: text]
-l'uno di detti [illegible: text] il loro produtto fia [illegible: text] mo di [illegible: text] tanno [illegible: text] di [illegible: text]
+*Problema CLIIII.*
 
-TERZO.    537
+Trouinsi dui numeri ouer quãtità tali, che il loro prodotto sia $16$, e che partito l’un per l’altro ne uenga $4$.
 
-[illegible: text] rotto, e ridutto à [illegible: text] à 68 2, che agguagliato; il Tanto ualerà [illegible: text] pe- [illegible: text] il primo numero che fu pofto [illegible: text] do, che fù pofto [illegible: text] farà 8; e [illegible: text] guente regola.
+Ponghisi, che l’uno di detti numeri sia $1\overset{1}{\smile}$ l’altro sarà $16$. esimo d’$1\overset{1}{\smile}$, acciò che il lor prodotto sia $16$. Hor uedasi, se à partire l’un per l’altro ne uien $4$. però partasi $16$. esimo d’$1\overset{1}{\smile}$ per $1\overset{1}{\smile}$, ne uiene $16$. esimo d’$1\overset{2}{\smile}$, e questo è eguale à $4$, che leuato il rotto, & agguagliato, il il Tanto ualerà $2$. però il primo numero sarà $2$, & il secondo $8$, e ne nasce la seguente regola.
 
-[illegible: text] à trouare [illegible: text] un terminato numero, e che partito il [illegible: text] minore, & il minore per il maggiore, [illegible: text] infieme faccino un dato [illegible: text] il dato numero [illegible: text] il terminato numero, [illegible: text] del produtto [illegible: text] in fe [illegible: text] produtto fi caui il quadrato del [illegible: text] fi caui della metà ferbata di [illegible: text] quale [illegible: text] il terminato numero, e ne [illegible: text] l'altro.
+Se si haueranno à trouare dui numeri tali, che il lor prodotto sia un dato numero, e che partito l’un per l’altro ne uenghi un terminato numero; partasi il dato numero per il terminato numero, e dell’auenimento si pigli il lato, il quale sarà uno delli cercati numeri, co’l quale si parta il dato numero, ò si moltiplichi il terminato numero, e ne uerrà l’altro.
 
-Problema [illegible: text]
-tali, che il loro produtto sia
-eguale alla [illegible: text] quadrati [illegible: text]
-che a moltiplicare [illegible: text] habbia ad [illegible: text] che il lor produtto sia [illegible: text] che per la 80.di [illegible: text] p.R.q.L [illegible: text] che li [illegible: text] quadrati [illegible: text] che gionti [illegible: text] uiene [illegible: text] e questo è eguale [illegible: text] che fi pofe effere il produtto delle [illegible: text]
+*Problema CLV.*
+
+Trouinsi dui numeri, ouero quantità tali, che il lor prodotto sia $16$, e che partito il maggiore per il minore, & il minore per il maggiore, e gli auenimenti gionti insieme faccino $4\frac{1}{4}$.
+
+Ponghisi, che l’uno di detti dui numeri sia $1\overset{1}{\smile}$, e l’altro $16$. esimo d’$1\overset{1}{\smile}$, acciochè il loro prodotto sia $16$. Hor partasi $16$. esimo d’$1\overset{1}{\smile}$ per $1\overset{1}{\smile}$, ne uiene $16$. esimo d’$1\overset{2}{\smile}$, e partito $1\overset{1}{\smile}$ per $16$. esimo d’$1\overset{1}{\smile}$, ne uiene $1\overset{2}{\smile}$ esimo di $16$, e questi auenimenti gionti insieme fanno $1\overset{4}{\smile}\mathrm{p.}256$. esimo di $16\overset{2}{\smile}$, e questo è eguale à $4\frac{1}{4}$.
+
+che
+
+TERZO.　537
+
+che leuato il rotto, e ridutto à $1\overset{4}{\smile}$ si hauerà $1\overset{4}{\smile}\mathrm{p.}256$ eguale à $68\overset{2}{\smile}$, che agguagliato; il Tanto ualerà $2$. però il primo numero che fu posto $1\overset{1}{\smile}$ sarà $2$, & il secondo, che fù posto $16$. esimo d’$1\overset{1}{\smile}$ sarà $8$; e ne nasce la seguente regola.
+
+Se si haueranno à trouare dui numeri tali, che il lor prodotto sia un terminato numero, e che partito il maggiore per il minore, & il minore per il maggiore, e gli auenimenti gionti insieme faccino un dato numero; moltiplichisi il dato numero uia il terminato numero, e la metà del prodotto si salui, e l’altra si moltiplichi in se stessa, e del prodotto si caui il quadrato del terminato numero, e del restante si piglia il lato, il quale si caui della metà serbata di sopra, e del restante si pigli il lato, il quale sarà uno delli numeri cercati, co’l quale si parta il terminato numero, e ne uerrà l’altro.
+
+*Problema CLVI.*
+
+Faccisi di $10$. dui parti tali, che il loro prodotto sia eguale alla somma delli loro quadrati partita per esso $10$.
+
+Ponghisi, che à moltiplicare l’una uia l’altra, il prodotto habbia ad essere $1\overset{1}{\smile}$, e faccisi di $10$. due parti tali, che il lor prodotto sia $1\overset{1}{\smile}$, che per la $80$. di questa, l’una sarà $5.\mathrm{m.R.q.}\lfloor25\mathrm{m.}1\overset{1}{\smile}\rfloor$, e l’altra $5.\mathrm{p.R.q.}\lfloor25\mathrm{m.}1\overset{1}{\smile}\rfloor$, che li lor quadrati sono $50.\mathrm{m.}1\overset{1}{\smile}\mathrm{m.R.q.}\lfloor2500\mathrm{m.}100\overset{1}{\smile}\rfloor$, e $50.\mathrm{m.}1\overset{1}{\smile}\mathrm{p.R.q.}\lfloor2500\mathrm{m.}100\overset{1}{\smile}\rfloor$, che gionti insieme fanno $100.\mathrm{m.}2\overset{1}{\smile}$, che partito per $10$. ne uiene $10.\mathrm{m.}\frac{1}{5}\overset{1}{\smile}$, e questo è eguale à $1\overset{1}{\smile}$. che si pose essere il prodotto delle due parti cercate, che leuato il meno, & agguagliato; il Tanto ua-
+
+lerà
 
 ## PDF page 301
 
@@ -20373,23 +20411,23 @@ NN
 
 ## PDF page 303
 
-542    LIBRO
+542　LIBRO
 
-[illegible: text]
+Perche si uuole, che il prodotto della prima nella seconda insieme con l’unità faccia quadrato. Però se da qual si uoglia quadrato si cauarà l’unità, lo restãte si potrà ponere per il prodotto del primo nel secondo; e sia il quadrato $1\overset{2}{\smile}\mathrm{p.}2\overset{1}{\smile}\mathrm{p.}1$, che cauatone l’unità resta $1\overset{2}{\smile}\mathrm{p.}2\overset{1}{\smile}$, e questo poneremo per prodotto del primo nel secondo, e per trouarli separatamente pongo; che il secondo sia $1\overset{1}{\smile}$, & il primo sarà $1\overset{1}{\smile}\mathrm{p.}2$, e perche il prodotto del secondo nel terzo insieme con l’unità deue fare un quadrato: pongo un’altro quadrato; qual sia $9\overset{2}{\smile}\mathrm{p.}6\overset{1}{\smile}\mathrm{p.}1$, che cauatone l’unità, resta $9\overset{2}{\smile}\mathrm{p.}6\overset{1}{\smile}$, e questo pongo per prodotto del secõdo nel terzo, e perche il secondo fù posto $1\overset{1}{\smile}$, il terzo sarà $9\overset{1}{\smile}\mathrm{p.}6$, resta, che il prodotto del terzo nel primo, qual’è $9\overset{2}{\smile}\mathrm{p.}24\overset{1}{\smile}\mathrm{p.}12$. insieme con l’unità, ch’è in tutto $9\overset{2}{\smile}\mathrm{p.}24\overset{1}{\smile}\mathrm{p.}13$ sia eguale à un quadrato, e se fusse $9\overset{2}{\smile}\mathrm{p.}24\overset{1}{\smile}\mathrm{p.}16$. sarebbe espedita l’altra conditione, ma il $15$. nasce, dal prodotto delle due unità, e del $6$. accompagnato cõ l’unità; & il $2$. uiene dal doppio d’$1\overset{1}{\smile}$ uia $1$, & il $6$. nasce dal doppio fatto da $3\overset{1}{\smile}\mathrm{m.}1$; bisogna dunque, che due uolte li Tanti insieme con l’unità faccino un quadrato, e perche habbino à fare tale effetto, bisogna che il numero delli Tanti delli lati delli dui quadrati si seguino, cioè che se l’uno è $2$, ò $3$; l’altro sia $3$, ò $4$; ponghisi dunque, che il lato del primo quadrato sia $1\overset{1}{\smile}\mathrm{p.}1$, il quadrato sarà $1\overset{2}{\smile}\mathrm{p.}2\overset{1}{\smile}\mathrm{p.}1$; che leuatone l’unità, resta $1\overset{2}{\smile}\mathrm{p.}2\overset{1}{\smile}$, e questo si ponghi per prodotto del primo, e secondo, ponghisi il secondo essere $1\overset{1}{\smile}$, & il primo sarà $1\overset{1}{\smile}\mathrm{p.}2$, e per l’altro quadrato si pigli per suo lato $2\overset{1}{\smile}\mathrm{p.}1$, che il quadrato sarà $4\overset{2}{\smile}\mathrm{p.}4\overset{1}{\smile}\mathrm{p.}1$, che cauatone l’unità, resta $4\overset{2}{\smile}\mathrm{p.}4\overset{1}{\smile}$ per prodotto del secondo nel terzo, & essendo il secondo $1\overset{1}{\smile}$, il ter-
 
-Perche [illegible: text] che il produtto della prima nella [illegible: text] conda infieme con l'unità faccia quadrato. Però [illegible: text] da qual fi uoglia [illegible: text] fi cauarà l'unità, lo reftate [illegible: text] è fia il quadrato [illegible: text] nel secondo, e per trouarli [illegible: text] che il secondo [illegible: text] del secondo nel [illegible: text] deue fa re un quadrato [illegible: text] l'unità, refta [illegible: text] farà [illegible: text] p. [illegible: text] telta, che il produtto [illegible: text] p.24 p. [illegible: text] p.24 p. [illegible: text] dal produtto delle [illegible: text] e del [illegible: text] accompagnato có l'unità, & [illegible: text] uiene dal doppio [illegible: text] il 6.nafce dal doppio fatto da [illegible: text] m. [illegible: text] bifogna dunque, [illegible: text] li Tanti [illegible: text] con l'unità faccino un [illegible: text] e perche [illegible: text] che il numero delli Tanti delli lati delli dui quadrati fi [illegible: text] cioè che fe l'uno è 2,ò [illegible: text] l'altro fia [illegible: text] il lato del primo quadrato [illegible: text] p. [illegible: text] 12 [illegible: text] produtto [illegible: text] primo, e fecondo, [illegible: text] il fecondo [illegible: text] 1, & il primo farà 1 p. [illegible: text] fi pigli per suo lato 2 p. [illegible: text] quadrato farà 4 p. [illegible: text] l'unità, refta 4 p.4 per produtto [illegible: text] nel terzo, & [illegible: text]
+zo
 
-TERZO.    543
+TERZO.　543
 
-[illegible: text] Il produtto ma del primo [illegible: text] l'unità [illegible: text] p. [illegible: text] ch'è quadrato, e [illegible: text]
-habbiamo [illegible: text] le tre [illegible: text] seconda [illegible: text] 4 p. [illegible: text] che fanno [illegible: text]
-che al produtto di dui [illegible: text] l'unità faccia quadrato.
+zo sarà $4\overset{1}{\smile}\mathrm{p.}4$. Il prodotto ma del primo nel terzo con l’unità è $9\overset{2}{\smile}\mathrm{p.}12\overset{1}{\smile}\mathrm{p.}9$, ch’è quadrato, e così habbiamo trouate le tre quantità, che la prima è $1\overset{1}{\smile}\mathrm{p.}2$, la seconda $1\overset{1}{\smile}$; e la terza $4\overset{1}{\smile}\mathrm{p.}4$, che fanno quanto si propone.
 
-Perche [illegible: text] del primo [illegible: text] secondo infieme: con l'unità deue fare un quadrato; [illegible: text] di qual [illegible: text] quadrato fi cauarà l'unità fi hauerà il produtto del [illegible: text] secondo. Hor [illegible: text] quadrato [illegible: text] p. 2 p. [illegible: text] che il suo lato [illegible: text] p. [illegible: text] e [illegible: text] può ponere per produtto del primo [illegible: text] del primo, [illegible: text] per la [illegible: text] detra nella [illegible: text] il quale quadrato [illegible: text] p. [illegible: text] quale [illegible: text] e terzo, e [illegible: text] p. [illegible: text] e per trouar il quarto; [illegible: text] da [illegible: text] la ragione detta nella [illegible: text] il quale farà [illegible: text] p. 6 p. [illegible: text] che cauatone [illegible: text] p. [illegible: text] e [illegible: text] nel quarto, che per [illegible: text] farà [illegible: text] p. [illegible: text] e [illegible: text] il produtto [illegible: text] terzo infieme [illegible: text] che il produtto del secondo nel [illegible: text] è [illegible: text] p. [illegible: text] p. 13. però [illegible: text] eguale a un [illegible: text]
+*Problema CLXII.*
 
-NN 2 fatto
+Trouinsi quattro numeri tali, che al prodotto di dui qual si uoglia gionto l’unità faccia quadrato.
 
-[illegible: text]
+Perche il prodotto del primo nel secondo insieme con l’unità deue fare un quadrato; se di qual si uoglia quadrato si cauarà l’unità si hauerà il prodotto del primo nel secondo. Hor sia il quadrato $1\overset{2}{\smile}\mathrm{p.}2\overset{1}{\smile}\mathrm{p.}1$. (che il suo lato è $1\overset{1}{\smile}\mathrm{p.}1$,) se se ne cauarà $1$, restarà $1\overset{2}{\smile}\mathrm{p.}2\overset{1}{\smile}$, e questo si può ponere per prodotto del primo nel secondo, e ponendo il primo $1\overset{1}{\smile}$, il secondo sarà $1\overset{1}{\smile}\mathrm{p.}2$. Hor per trouare il prodotto del primo, e terzo m’immagino un quadrato fatto da $2\overset{1}{\smile}\mathrm{p.}1$. per la ragione detta nella passata, il quale quadrato sarà $4\overset{2}{\smile}\mathrm{p.}4\overset{1}{\smile}\mathrm{p.}1$, del quale cauatone l’unità resta $4\overset{2}{\smile}\mathrm{p.}4\overset{1}{\smile}$, e questo sia il prodotto del primo, e terzo, e perche il primo fu posto $1\overset{1}{\smile}$; il terzo sarà $4\overset{1}{\smile}\mathrm{p.}4$, e per trouar il quarto; m’immagino un quadrato fatto da $3\overset{1}{\smile}\mathrm{p.}1$. (per la ragione detta nella passata) il quale sarà $9\overset{2}{\smile}\mathrm{p.}6\overset{1}{\smile}\mathrm{p.}1$, che cauatone l’unità resta $9\overset{2}{\smile}\mathrm{p.}6\overset{1}{\smile}$, e quello ponerò per prodotto del primo nel quarto, che per essere il primo $1\overset{1}{\smile}$, il quarto sarà $9\overset{1}{\smile}\mathrm{p.}6$, e perche il prodotto del secondo nel terzo insieme con l’unità è quadrato; resta, che il prodotto del secondo nel quarto insieme con l’unità sia quadrato; ma è $9\overset{2}{\smile}\mathrm{p.}24\overset{1}{\smile}\mathrm{p.}13$. però sarà eguale a un quadrato, il quale sia;
+
+NN 2　fatto
 
 ## PDF page 304
 
@@ -21703,19 +21741,29 @@ do in
 
 ## PDF page 323
 
-582    LIBRO
+582　LIBRO
 
-[illegible: text] che fu [illegible: text] p.2.farà [illegible: text] e perche il [illegible: text] per [illegible: text] fa quadrato, [illegible: text] e 7338, [illegible: text] maggiore, e mezzano, ch'è [illegible: text] del mezzano, e minore, ch'è [illegible: text] e la [illegible: text] à dui à dui ordinatamente fono [illegible: text] che ciafcuna di [illegible: text] numero quadrato, [illegible: text]
-Trouinfi tre numeri tali, che la differenza, ch'è dal quadrato del maggiore al quadrato del [illegible: text] à dui à dui faccino numero [illegible: text] Ponghifi, che il maggiore, è mezzano fiano [illegible: text] adunque il [illegible: text] il maggiore, e mezzano fono [illegible: text] del mezzano, e minore; il mezzano, e minore [illegible: text] minori di [illegible: text] e fiano [illegible: text] maggiore e minore [illegible: text] il mezzano [illegible: text] e perche [illegible: text] del quadrato del [illegible: text] quadrato del mezzano deue [illegible: text] quanto [illegible: text] mezzano al [illegible: text] delli detti dui quadrati è [illegible: text] delli detti dui numeri è [illegible: text]
+mezzano che fù posto $1\overset{1}{\smile}\mathrm{p.}2$. sarà $\frac{939}{242}$, & il maggiore, ch’era $7\overset{1}{\smile}\mathrm{p.}2$. sarà $\frac{3669}{242}$, e perche il $242$. denominator di questi rotti moltiplicato per $2$. fa quadrato, moltiplichinsi tutti tre detti rotti per $2$, e se gli leui il denominatore, che così li tre numeri cercati si haueranno in numeri sani, e saranno $58$. $1878$, e $7338$, che l’eccesso del maggiore, e mezzano, ch’è $5460$, è triplo all’eccesso del mezzano, e minore, ch’è $1820$, e la somma delli detti tre numeri tolti à dui à dui ordinatamente sono $1936$. $9216$, e $7396$, che ciascuna di lor’è numero quadrato, li lati de quali sono $44$, $96$. & $86$.
 
-TERZO.    583
+*Problema CCI.*
 
-uede che le [illegible: text] nafcono dal [illegible: text] di 16. numero delle [illegible: text] la fomma del maggior, e mezzano, però [illegible: text] che moltiplicato per [illegible: text] di nuouo che il [illegible: text] 8 [illegible: text] m. [illegible: text] il minore [illegible: text] che il [illegible: text] e minore infieme [illegible: text] p.36, che leuato il meno, [illegible: text] il Tanto valerà 1 [illegible: text] la potenza [illegible: text] però il maggiore delli tre numeri, che [illegible: text] fu pofto [illegible: text] che fù pofto 8 [illegible: text] che fanno [illegible: text]
+Trouinsi tre numeri tali, che la differenza, ch’è dal quadrato del maggiore al quadrato del mezzano sia tre uolte quanto la differenza, ch’è dal mezzano al minore, e che essi numeri tolti à dui à dui faccino numero quadrato.
 
-Problema [illegible: text]
+Ponghisi, che il maggiore, e mezzano siano $16\overset{2}{\smile}$, accioche sia quadrato, adunque il maggiore sarà più d’$8\overset{2}{\smile}$, e sia $8\overset{2}{\smile}\mathrm{p.}2$, e perche il maggiore, e mezzano sono maggiori del mezzano, e minore; il mezzano, e minore saranno minori di $16\overset{2}{\smile}$, e siano il maggiore e minore $9\overset{2}{\smile}$, & essendo il maggiore $8\overset{2}{\smile}\mathrm{p.}2$; il minore sarà $1\overset{2}{\smile}\mathrm{m.}2$, & il mezzano $8\overset{2}{\smile}\mathrm{m.}2$, e perche la differenza del quadrato del maggiore al quadrato del mezzano deue esser tre uolte quanto la differenza del mezzano al minore, ma l’eccesso delli detti dui quadrati è $64\overset{2}{\smile}$, e l’eccesso delli detti dui numeri è $7\overset{2}{\smile}$, e questo triplato deue essere eguale à $64\overset{2}{\smile}$, ch’è impossibile, che $21\overset{2}{\smile}$ siano eguali à $64\overset{2}{\smile}$. però bisogna mutar positione. Si
 
-Trouinfi tre numeri in continua proportione tali, che di ciascun di loro cauato [illegible: text]
-fideuono trouar [illegible: text] numeri [illegible: text] che l'uno fia [illegible: text] più [illegible: text] Hor pongo, che il primo numero fia 1 2, [illegible: text] che sono [illegible: text] quadrato. Ci [illegible: text] che del primo, e secondo [illegible: text] ne nafce doppia [illegible: text] ch'è 1 2 m. [illegible: text] de quali fia detto [illegible: text] loro è 6 [illegible: text] il quadrato della metà è [illegible: text]
+uede
+
+TERZO.　583
+
+uede che le $64\overset{2}{\smile}$ nascono dal doppio di $32$. doppio di $16$. numero delle $\overset{2}{\smile}$, che fù posto esser la somma del maggior, e mezzano, però bisogna trouar un numero, che moltiplicato per $32$. faccia $21$, ch’è $\frac{21}{32}$. ponghisi di nuouo che il maggior sia $8\overset{2}{\smile}\mathrm{p.}\frac{21}{32}$, il mezzano $8\overset{2}{\smile}\mathrm{m.}\frac{21}{32}$, & il minore $1\overset{2}{\smile}\mathrm{m.}\frac{21}{32}$. Ci resta, che il mezzano, e minore insieme siano quadrato, ma sono $9\overset{2}{\smile}\mathrm{m.}1\frac{5}{16}$, e questo è eguale à un quadrato qual sia $9\overset{2}{\smile}\mathrm{m.}36\overset{1}{\smile}\mathrm{p.}36$, che leuato il meno, simile da simile, & agguagliato, il Tanto ualerà $1\frac{7}{192}$, e la potenza ualerà $\frac{39601}{36864}$. però il maggiore delli tre numeri, che si cercano qual fu posto $8\overset{2}{\smile}\mathrm{p.}\frac{21}{32}$ sarà $\frac{341000}{36864}$, il mezzano, che fù posto $8\overset{2}{\smile}\mathrm{m.}\frac{21}{32}$ sarà $\frac{292616}{36864}$; & il minore, che fù posto $1\overset{2}{\smile}\mathrm{m.}\frac{21}{32}$, sarà $\frac{15409}{36964}$, che fanno quanto si è proposto.
+
+*Problema CCII.*
+
+Trouinsi tre numeri in continua proportione tali, che di ciascun di loro cauato $12$. lo restante sia quadrato.
+
+Prima si deuono trouar dui numeri quadrati tali, che l’uno sia $12$. più dell’altro, che saranno $30\frac{1}{4}$, e $42\frac{1}{4}$. Hor pongo, che il primo numero sia $1\overset{2}{\smile}$, il secondo $6\frac{1}{2}\overset{1}{\smile}$, & il terzo $42\frac{1}{4}$, che sono in continua proportione, e del terzo cauato $12$, resta quadrato. Ci resta, che del primo, e secondo cauato $12$. resti quadrato, ma resta $1\overset{2}{\smile}\mathrm{m.}12$, & $6\frac{1}{2}\overset{1}{\smile}\mathrm{m.}12$, che ciascuno è eguale à un quadrato, e ne nasce doppia agguaglianza, così si troui l’eccesso loro, ch’è $1\overset{2}{\smile}\mathrm{m.}6\frac{1}{2}\overset{1}{\smile}$, li dui numeri, il prodotto de quali sia detto eccesso sono $1\overset{1}{\smile}$, e $1\overset{1}{\smile}\mathrm{m.}6\frac{1}{2}$, l’eccesso loro è $6\frac{1}{2}$, il quadrato della metà è $10\frac{9}{16}$ e
+
+questo
 
 ## PDF page 324
 
@@ -22160,30 +22208,39 @@ P.1,
 
 ## PDF page 331
 
-598    LIBRO
+598　LIBRO
 
-[illegible: text] fi pofè [illegible: text] il quadrato della [illegible: text] per la prima [illegible: text] p. R. q. [illegible: text] infieme fanno [illegible: text] ne viene [illegible: text] per [illegible: text] come [illegible: text]
-Problema CCXV.
+conda, che si pose $1\overset{2}{\smile}\mathrm{p.}1\overset{1}{\smile}$, sarà $1\frac{1}{3}$, il quadrato della quale partito per la prima ne uiene $1\frac{5}{6}\mathrm{p.R.q.}1\frac{7}{12}$, & tanto è la terza, quali gionte insieme fanno $5$, e così $5$. è l’uno delli numeri cercati, co’l quale partito $12\frac{1}{2}$, ne uiene $2\frac{1}{2}$, e questo è l’altro numero, il quale partito per $5$. già trouato, ne uiene $\frac{1}{2}$ (come si propone.)
 
-[illegible: text]
-eguali di [illegible: text] tali, che i [illegible: text]
-li lati maggiori di [illegible: text] Triangoli, [illegible: text] il [illegible: text] infieme có li [illegible: text] è [illegible: text] lato del quale è 7, [illegible: text] numeri, e fi [illegible: text] accompagnati con [illegible: text] 5. fanno 3. 5. [illegible: text] hora il [illegible: text] quadrati di [illegible: text] fono [illegible: text] che il [illegible: text]
-che del [illegible: text] di loro, cauando ouer giongendo il [illegible: text] faccia quadrato.
+*Problema CCXV.*
 
-[illegible: text]
-fe ne [illegible: text] il quadruplo del
-[illegible: text] gli giógerà la [illegible: text]
+Trouinsi tre triangoli rett’angoli eguali di superficie, e tali, che i lati di ciascuno siano rationali.
 
-TERZO.    599
+Per trouar li lati maggiori di questi Triangoli, piglinsi dui numeri della qualità della proposta auanti la passata, e siano $3$, e $5$, il prodotto loro insieme cõ li quadrati loro è $49$, il lato del quale è $7$, il quale si accompagni con li primi dui numeri, e si hauerà $3$. $5$. $7$, e questi accompagnati con $8$. somma di $3$, e $5$. fanno $3$. $5$. $7$. $8$, giongasi hora il quadrato del $7$. con li quadrati di $3$, $5$, e $8$. fa $58$. $74$, e $113$. e questi sono i lati maggiori delli tre Triangoli, e per trouar i lati minori, piglisi la somma, & eccesso di $7$, e $3$. $7$. e $5$. e $7$, e $8$, che sono $10$, e $4$. $12$, e $2$, e $15$, e $1$, che il prodotto di ciascun delli dui è $40$. $24$, e $15$, e questi sono i lati minori, li altri adunque saranno $42$. $70$, e $112$.
 
-[illegible: text] numero quadrato, però li tre [illegible: text] faranno lati [illegible: text] Triāgoli oppofiti [illegible: text] to. Adunque il compofto delli tre [illegible: text] uolte la superficie de Triangoli, [illegible: text] ch'effi Triangoli habbiano una [illegible: text] quali fi fono [illegible: text] nella paffara di questo, e [illegible: text] al principio, pongo, che li numeri, che fi [illegible: text] delli tre Triangoli, e [illegible: text] la superficie de Triangoli è 840, il quadruplo è [illegible: text] però poneremo, che la [illegible: text] tre numeri fia [illegible: text] è [illegible: text] però farà egua [illegible: text] che agguagliato, il Tanto [illegible: text] numeri cercati, che furno pofti 58, [illegible: text]
+*Problema CCXVI.*
 
-Problema [illegible: text]
-facciano [illegible: text] e 16. [illegible: text]
-il primo [illegible: text] fecondo [illegible: text] efimo [illegible: text] e il terzo 16, [illegible: text] à due conditioni, che il produtto del fecondo nel primo fa 4, [illegible: text] fa [illegible: text] refta, che il primo nel terzo faccia 9, ma fa [illegible: text] è eguale à 9, che leuato il rotto, e agguagliato, il Tanto uale [illegible: text] numero farà [illegible: text] il fecondo [illegible: text] nafce la regola, che il produtto delli dui partito per l'altro [illegible: text] quadrato [illegible: text] numeri.
+Trouinsi tre numeri tali, che del quadrato di qual si uoglia di loro, cauando ouer giongendo il composto loro, faccia quadrato.
 
-[illegible: text]
-che al produtto di [illegible: text]
+In ogni triãgolo rett’angolo, se del quadrato del lato opposito all’angolo retto, se ne cauarà il quadruplo della sua superficie, ouero se gli giõgerà la sõma, ò lo restã-
+
+te
+
+TERZO.　599
+
+te sarà numero quadrato, però li tre quadrati, che si cercano saranno lati di tre Triãgoli oppositi all’angolo retto. Adunque il composto delli tre numeri, che si cercano, sarà quattro uolte la superficie de’ Triangoli, auertendo, ch’essi Triangoli habbiano una medesima superficie, quali si sono trouati nella passata di questo, e li suoi lati sono $40$. $42$. $58$, $24$. $70$. $74$, e $15$. $112$. $113$. Hor tornando al principio, pongo, che li numeri, che si cercano, siano li lati più longhi delli tre Triangoli, e siano $58\overset{1}{\smile}$, $74\overset{1}{\smile}$, e $113\overset{1}{\smile}$, la superficie de’ Triangoli è $840$, il quadruplo è $3360$, però poneremo, che la somma delli tre numeri sia $3360\overset{2}{\smile}$, ma essa è $245\overset{1}{\smile}$, però sarà eguale à $3360\overset{2}{\smile}$, che agguagliato, il Tanto ualerà $\frac{7}{96}$, però li tre numeri cercati, che furno posti $58\overset{1}{\smile}$, $74\overset{1}{\smile}$, e $113\overset{1}{\smile}$ saranno $\frac{406}{96}$, $\frac{518}{96}$, e $\frac{791}{96}$.
+
+*Problema CCXVII.*
+
+Trouinsi tre numeri tali, che moltiplicati à dui à dui facciano $4$, $9$, e $16$. numeri quadrati.
+
+Ponghisi il primo $1\overset{1}{\smile}$, il secondo $4$, esimo d’$1\overset{1}{\smile}$, e il terzo $16$, esimo d’$1\overset{1}{\smile}$ e sodisfanno à due conditioni, che il prodotto del secondo nel primo fa $4$, e nel terzo fa $16$. resta, che il primo nel terzo faccia $9$. ma fa $64$. esimo d’$1\overset{2}{\smile}$, & è eguale à $9$, che leuato il rotto, e agguagliato, il Tanto uale $\frac{8}{3}$, però il primo numero sarà $\frac{8}{3}$, il secondo $1\frac{1}{2}$, e il terzo $6$, e ne nasce la regola, che il prodotto delli dui partito per l’altro fa il quadrato d’un delli numeri.
+
+*Problema CCXVIII.*
+
+Trouinsi tre numeri tali, che al prodotto di dui di lo
+
+ro
 
 ## PDF page 332
 
@@ -23502,24 +23559,31 @@ Ponghifi (come nell'altra) che il primo fia 3 & il
 
 ## PDF page 353
 
-642    LIBRO
+644　LIBRO
 
-L E [illegible: text]
-numero quadrato, e [illegible: text] che [illegible: text] vale [illegible: text] il minore, che fu [illegible: text] il mezzano, che fu [illegible: text] maggiore, che fu [illegible: text]
+& il secondo $4\frac{80}{81}\overset{1}{\smile}$, & il terzo $1\overset{1}{\smile}$, che li prodotti di dui con il quadrato dell’altro (come nella passata) saranno $\frac{32724}{6561}\overset{2}{\smile}$ $\frac{164839}{6561}$, e $\frac{14641}{6561}$, che li lati sono $\frac{121}{81}\overset{1}{\smile}$, $\frac{182}{81}\overset{1}{\smile}$, e $\frac{406}{81}\overset{1}{\smile}$, che la differentia dal minore al mezzano è $\frac{61}{81}$, e dal mezzano al maggiore è $\frac{224}{81}$, che aggiõti insieme fanno $\frac{95}{27}\overset{1}{\smile}$, e questo è eguale à un numero quadrato, e sia $25$, che agguagliato il Tanto uale $7\frac{2}{19}$, il minore, che fù posto $\frac{20}{81}\overset{1}{\smile}$ sarà $1\frac{43}{57}$, & il mezzano, che fù posto $1\overset{1}{\smile}$ sarà $7\frac{2}{19}$. & il maggiore, che fù posto $4\frac{40}{81}\overset{1}{\smile}$ sarà $35\frac{25}{57}$, e fanno quanto fù proposto.
 
-Problema [illegible: text]
-sia 2 più del [illegible: text] che il produtto di [illegible: text] fi uoglia col [illegible: text] faccia numero quadrato.
+*Problema CCLXVII.*
 
-[illegible: text] come nella [illegible: text] che il minore fia [illegible: text] il mezzano [illegible: text] il maggiore 4, [illegible: text] di qual [illegible: text] uoglia, aggion-toli il [illegible: text] fanno [illegible: text] Relta, che al minore giontoli 2 fia parial mezzano, [illegible: text] à 2, che agguagliato, il Tanto vale [illegible: text] il minore, che fu [illegible: text] ch'erà [illegible: text] farà [illegible: text] fo disfanno à tutte [illegible: text] conditioni [illegible: text]
-CCLXVIII
+Trouinsi tre numeri, che il mezzano sia $2$ più del minore, e che il prodotto di dui qual si uoglia col quadrato dell’altro faccia numero quadrato.
 
-Faccifi di [illegible: text] tre [illegible: text] che il produtto di dui qual [illegible: text] giongendoli il quadrato [illegible: text]
+Ponghisi (come nella passata) che il minore sia $\frac{20}{81}\overset{1}{\smile}$, il mezzano $1\overset{1}{\smile}$, & il maggiore $4\frac{80}{81}$, e sodisfanno alle conditioni del prodotto di qual si uoglia, aggiontoli il quadrato dell’altro: fanno quadrato; Resta, che al minore giontoli $2$ sia pari al mezzano, ma sarà $\frac{20}{81}\overset{1}{\smile}\mathrm{p.}2$. eguale à $1\overset{1}{\smile}$, che leuato simile da simile; $\frac{61}{81}\overset{1}{\smile}$ sono eguali à $2$, che agguagliato, il Tanto uale $2\frac{40}{61}$, & il minore, che fù posto $\frac{20}{81}$ sarà $\frac{40}{61}$. & il mezzano, ch’era $1\overset{1}{\smile}$ sarà $2\frac{40}{61}$, & il maggiore sarà $3\frac{1277}{4961}$, e sodisfanno à tutte le conditioni proposte.
 
-TERZO.    643
+*Problema CCLXVIII.*
 
-Ponghifi (come nell'altro) che [illegible: text] il maggiore 4 [illegible: text] conditione, che il produtto di dui qual fi uoglia, con il quadrato dell'altro fanno [illegible: text] loro fa 6 [illegible: text] è eguale à 20, che agguagliato; il [illegible: text] il minore, che [illegible: text] quanto fù [illegible: text]
-tre quantità, che al [illegible: text] della prima nella seconda, e [illegible: text] al proutto della [illegible: text] produtto [illegible: text] della [illegible: text] pigliato il lato, & aggionto infieme [illegible: text]
-fatto da quati [illegible: text] fi uoglia più R.q. [illegible: text] che fi deue [illegible: text] fia 1 p.R. [illegible: text] p.2, del quale ca- [illegible: text] porro per il [illegible: text] del primo nel secondo, e pongo, che il fecodo fia 1, & [illegible: text] farà 1 p.R.q.8; Hor per trouare il terzo (per la regola della 162) piglifi il quadrato [illegible: text] ch'è 4 [illegible: text] p.2, del quale se ne [illegible: text] refta 4 [illegible: text] ritornando al principio, dico, che il [illegible: text] del primo nel [illegible: text] p.R.q. [illegible: text] p.2. & il [illegible: text] nel terzo, con [illegible: text] p.è 4 [illegible: text] terzo con 2 più è 4 [illegible: text]
+Faccisi di $20$, tre parti tali, che il prodotto di dui qual si uoglia giongendoli il quadrato de l’altro faccia numero quadrato.
+
+TERZO.　645
+
+Ponghisi (come nell’altro) che il minore sia $\frac{20}{81}\overset{1}{\smile}$, & il mezzano $1\overset{1}{\smile}$, & il maggiore $4\frac{80}{81}\overset{1}{\smile}$, e sodisfanno alla conditione, che il prodotto di dui qual si uoglia, con il quadrato dell’altro fanno numero quadrato; resta, che la somma loro faccia $20$, mà la somma loro fa $6\frac{19}{81}\overset{1}{\smile}$, & è eguale à $20$, che agguagliato; il Tanto uale $3\frac{21}{101}$, il minore, che fù posto $\frac{20}{81}\overset{1}{\smile}$ sarà $\frac{80}{101}$, & il mezzano $3\frac{21}{101}$, & il maggiore $16$. e fanno quanto fù proposto.
+
+*Problema CCLXIX.*
+
+Trouinsi tre quantità, che al prodotto della prima nella seconda, e nella terza; & al proutto della seconda nella terza aggionto à ciascaduno prodotto $2$; e della somma di ciascuno pigliato il lato, & aggionto insieme faccino $10$.
+
+Piglisi un quadrato fatto da quãti Tanti si uoglia più R. q. $2$. lato del $2$, che si deue giongere, e sia $1\overset{1}{\smile}\mathrm{p.R.q.}2$. che il quadrato è $1\overset{2}{\smile}\mathrm{p.R.q.}8\overset{1}{\smile}\mathrm{p.}2$, del quale cauatone $2$, resta $1\overset{2}{\smile}\mathrm{p.R.q.}8\overset{1}{\smile}$, e questo porrò per il prodotto del primo nel secondo, e pongo, che il secõdo sia $1\overset{1}{\smile}$, & il primo sarà $1\overset{1}{\smile}\mathrm{p.R.q.}8$; Hor per trouare il terzo (per la regola della $162$) piglisi il quadrato fatto da $2\overset{1}{\smile}\mathrm{p.R.q.}2$, ch’è $4\overset{2}{\smile}\mathrm{p.R.q.}32\overset{1}{\smile}\mathrm{p.}2$, del quale se ne caua $2$; resta $4\overset{2}{\smile}\mathrm{p.R.q.}32\overset{1}{\smile}$, e questo ponghisi per il prodotto del secondo nel terzo, & essendo il secõdo $1\overset{1}{\smile}$, il terzo sarà $4\overset{1}{\smile}\mathrm{p.R.q.}32$, e ritornando al principio, dico, che il prodotto del primo nel secondo con $2$ più è $1\overset{2}{\smile}\mathrm{p.R.q.}8\overset{1}{\smile}\mathrm{p.}2$. & il prodotto del secõdo nel terzo, con $2$. \mathrm{p.} è $4\overset{2}{\smile}\mathrm{p.R.q.}32\overset{1}{\smile}\mathrm{p.}2$. & il prodotto del primo, e terzo con $2$ più è $4\overset{2}{\smile}\mathrm{p.R.q.}288\overset{1}{\smile}\mathrm{p.}18$, che li loro lati sono $1\overset{1}{\smile}\mathrm{p.R.q.}2$, $2\overset{1}{\smile}\mathrm{p.R.q.}2$, e
+
+$2\overset{1}{\smile}\mathrm{p.}$
 
 ## PDF page 354
 
