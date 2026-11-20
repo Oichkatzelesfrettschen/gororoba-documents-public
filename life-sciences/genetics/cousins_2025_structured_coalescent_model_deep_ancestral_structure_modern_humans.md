@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 02a7ef3703737739b40ac5defdbd4476c68fb990eaa9569617d0d898dbc7f9c5
 License: CC-BY-4.0
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine (failed: text-layer)
 
 # Transcription of cousins_2025_structured_coalescent_model_deep_ancestral_structure_modern_humans.pdf
 

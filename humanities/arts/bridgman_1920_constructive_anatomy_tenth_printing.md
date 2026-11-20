@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 1e6eec2375c8658ae25ca5a1c08f5681ae00f2145e56da42c6211adc257869f7
 License: public-domain
 Language: eng
-Fidelity: machine (failed: second-reader, repetition, empty-pages)
+Fidelity: machine-gated
 
 # Transcription of bridgman_1920_constructive_anatomy_tenth_printing.pdf
 

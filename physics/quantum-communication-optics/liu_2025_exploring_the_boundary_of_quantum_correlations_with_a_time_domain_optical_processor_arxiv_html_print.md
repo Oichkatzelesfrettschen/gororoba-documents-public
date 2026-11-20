@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 9afbc77bb0966c817a2354f7eb99e3a9cde9a561cf36df506c698313f5efd1aa
 License: CC-BY-4.0
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine (failed: text-layer)
 
 # Transcription of liu_2025_exploring_the_boundary_of_quantum_correlations_with_a_time_domain_optical_processor_arxiv_html_print.pdf
 

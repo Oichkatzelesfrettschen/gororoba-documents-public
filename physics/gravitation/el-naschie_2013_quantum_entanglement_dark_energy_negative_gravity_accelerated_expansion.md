@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 11adaf1ba03e31b54e8ddc85c0c339df2e58586d8a766d5d3e9bde3483cc7448
 License: CC-BY
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine (failed: text-layer)
 
 # Transcription of el-naschie_2013_quantum_entanglement_dark_energy_negative_gravity_accelerated_expansion.pdf
 

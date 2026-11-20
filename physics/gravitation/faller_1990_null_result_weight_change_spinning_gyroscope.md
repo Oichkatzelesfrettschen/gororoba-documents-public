@@ -2,7 +2,7 @@ Source: https://zenodo.org/records/1233872
 PDF sha256: 4eccc1ef77cf5aab226d392c383a98619afcf321918aea18fbee7d11f5492d7f
 License: cc-zero
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine (failed: text-layer)
 
 # Transcription of faller_1990_null_result_weight_change_spinning_gyroscope.pdf
 

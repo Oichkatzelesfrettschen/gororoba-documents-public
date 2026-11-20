@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 10dded977f3dd9af607b818f8cb43f7461a2b5aae4dd02fb6e565ef8d53b97af
 License: US-patent-public-domain
 Language: eng
-Fidelity: machine (failed: second-reader, repetition)
+Fidelity: machine (failed: text-layer)
 
 # Transcription of arman_2016_systems_methods_generating_coherent_matterwave_beams.pdf
 

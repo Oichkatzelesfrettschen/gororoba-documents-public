@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 49aa7b334ff8d50188983149d9943287d5f9d23a7ec63bcc74042e8016f2a409
 License: CC-BY-4.0
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine-gated
 
 # Transcription of khan_2024_epothilone_b_delays_anesthetic_induced_unconsciousness_rats.pdf
 

@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: e265f66ad5a5d21836f3745038c5c268ada7fc8649bb4413c0ee61593c1c4449
 License: US-patent-public-domain
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine (failed: text-layer)
 
 # Transcription of beasley_2000_computer_interconnection_system.pdf
 

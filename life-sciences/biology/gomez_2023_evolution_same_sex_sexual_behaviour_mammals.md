@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: bac24f940ec2f85b36a2b9505335d0f09b7e8aea75c5821e27200ebd4a01518d
 License: CC-BY-4.0
 Language: eng
-Fidelity: machine (failed: characters, second-reader)
+Fidelity: machine (failed: characters, text-layer)
 
 # Transcription of gomez_2023_evolution_same_sex_sexual_behaviour_mammals.pdf
 

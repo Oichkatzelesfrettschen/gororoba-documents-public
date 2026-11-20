@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: dd227456dc1ee038145cded67ba386434f56d4f982875fcee421b07128c1defc
 License: CC-BY-4.0
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine (failed: text-layer)
 
 # Transcription of rahrig_2022_mindfulness_training_default_mode_network_connectivity_meta_analysis.pdf
 

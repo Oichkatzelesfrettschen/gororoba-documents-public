@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 29dd2a3b8d952eb0a30cff7a50bfa1f30893268a974038206027e20b517a3bd2
 License: CC-BY-4.0
 Language: eng
-Fidelity: machine (failed: characters, second-reader)
+Fidelity: machine (failed: characters, text-layer)
 
 # Transcription of beaubois_2024_biomus_neurological_disorders_real_time_emulation_spiking_neural_network.pdf
 

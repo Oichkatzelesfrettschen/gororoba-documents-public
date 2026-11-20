@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: b33d21b0836a5366c58ff7b0f153fc97e2007b30fb5416b97ed9321e48e9d4b7
 License: CC-BY-NC-SA-2.0
 Language: eng
-Fidelity: machine (failed: repetition)
+Fidelity: machine-gated
 
 # Transcription of keisler_2000_elementary_calculus_infinitesimal_approach.pdf
 

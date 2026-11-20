@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: e987c54facf2f04826b9dfe6b24813a990416399d025c07f29b567a4f98e21c0
 License: CC-BY-4.0
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine-gated
 
 # Transcription of biondi_2022_synthetic_aperture_radar_doppler_tomography_reveals_internal_structure_of_the_great_pyramid_of_giza.pdf
 

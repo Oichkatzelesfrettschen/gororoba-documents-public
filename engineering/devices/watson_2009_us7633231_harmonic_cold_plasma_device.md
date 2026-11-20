@@ -2,7 +2,7 @@ Source: https://patents.google.com/patent/US7633231B2
 PDF sha256: 8d04d2f79220d083418a226405a9afc92ddfa6c796518f92fb6d223d1b10f7c6
 License: US-patent-public-domain
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine (failed: second-reader, empty-pages)
 
 # Transcription of watson_2009_us7633231_harmonic_cold_plasma_device.pdf
 

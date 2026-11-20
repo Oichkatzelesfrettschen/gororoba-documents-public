@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 32401f43ad0baaf38604a070c7800bb798d2fed4ef40197075c31567b743fb82
 License: CC-BY-4.0
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine-gated
 
 # Transcription of khan_2024_microtubule_stabilizer_epothilone_b_delays_anesthetic_induced_unconsciousness_in_rats.pdf
 

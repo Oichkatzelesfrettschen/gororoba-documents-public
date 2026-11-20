@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 8404be93e1b4d5b67fe486c2cb6165ff02143911790958c1f13b945a12049de9
 License: CC-BY-NC-SA-4.0
 Language: eng
-Fidelity: machine (failed: second-reader, empty-pages)
+Fidelity: machine-gated
 
 # Transcription of kurtz_2023_quarter_of_haskell.pdf
 

@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: b6a75cb0ab12d5d436440fe22e119e952d0cbd7d8deaaad4a91cc02ca51c1628
 License: CC-BY-4.0
 Language: eng
-Fidelity: machine (failed: characters, second-reader)
+Fidelity: machine (failed: characters, text-layer)
 
 # Transcription of amin_2024_nanoscale_imaging_control_altermagnetism_mnte.pdf
 

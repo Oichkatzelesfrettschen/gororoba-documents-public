@@ -2,7 +2,7 @@ Source: https://patents.google.com/patent/US20180047462A1
 PDF sha256: 597370d8b246f23a650722b9a8bc0ddc86232dbf72ea5c9f8c7b96d1780507fd
 License: US-patent-public-domain
 Language: eng
-Fidelity: machine (failed: text-layer, empty-pages)
+Fidelity: machine (failed: second-reader, empty-pages)
 
 # Transcription of mcguire_2018_us20180047462_encapsulating_magnetic_fields_for_plasma_confinement.pdf
 

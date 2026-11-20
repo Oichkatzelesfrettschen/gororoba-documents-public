@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: c82760c34cb0546ec8afe8cf78563e3d5c1e1c4ce1ee6a3b25eb4ce6e4b5a1d2
 License: US-DoD-distribution-A
 Language: eng
-Fidelity: machine (failed: text-layer, second-reader)
+Fidelity: machine (failed: text-layer, second-reader, empty-pages)
 
 # Transcription of davis_2004_advanced_propulsion_study_afrl_pr_ed_tr_2004_0024.pdf
 

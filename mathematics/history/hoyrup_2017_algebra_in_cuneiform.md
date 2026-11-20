@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: dac655e5af2b94ab5c48090e843363017db343b37e912e39b5c719f8463dae02
 License: CC-BY-NC-SA-3.0-DE
 Language: eng
-Fidelity: machine (failed: second-reader, empty-pages)
+Fidelity: machine-gated
 
 # Transcription of hoyrup_2017_algebra_in_cuneiform.pdf
 

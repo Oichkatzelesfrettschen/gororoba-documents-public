@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: ad7bc10461d66dfbf02150d9f2637f8c0fbfb7f7135b45160b2c6381e94c3ada
 License: CC-BY-NC-SA-3.0-IGO
 Language: eng
-Fidelity: machine (failed: second-reader, empty-pages)
+Fidelity: machine-gated
 
 # Transcription of who_2024_faq_sexual_and_gender_diversity_health_and_human_rights_2nd_ed.pdf
 

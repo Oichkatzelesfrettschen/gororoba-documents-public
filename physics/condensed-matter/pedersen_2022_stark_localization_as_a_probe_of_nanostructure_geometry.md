@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 8a91c1c966342f3381bd0d54dd7f5729e55e91552c7de0ad0dad4a42d05e5420
 License: CC-BY-4.0
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine (failed: text-layer)
 
 # Transcription of pedersen_2022_stark_localization_as_a_probe_of_nanostructure_geometry.pdf
 

@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 9a591e08f81ff9d885147eb9e00528c57c01120197636b0f50a8aaf564ee34bb
 License: CC-BY-SA-3.0
 Language: eng
-Fidelity: machine (failed: characters, second-reader, empty-pages)
+Fidelity: machine (failed: characters)
 
 # Transcription of ufp_2013_homotopy_type_theory_univalent_foundations_of_mathematics.pdf
 

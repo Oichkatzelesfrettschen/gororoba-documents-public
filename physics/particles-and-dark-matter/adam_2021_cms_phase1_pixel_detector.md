@@ -2,7 +2,7 @@ Source: https://doi.org/10.1088/1748-0221/16/02/P02027
 PDF sha256: e56f470bfdef7daefb06b7f29e0c60ed565d2cb30aa42ae3436d7a1cae4709a1
 License: cc-by
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine-gated
 
 # Transcription of adam_2021_cms_phase1_pixel_detector.pdf
 

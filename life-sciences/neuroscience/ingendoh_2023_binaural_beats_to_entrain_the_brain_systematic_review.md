@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 2c265a34c5ecc64ac859a404ac7b69d28788e62e1089da7c7f5224106a032575
 License: CC-BY
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine (failed: text-layer)
 
 # Transcription of ingendoh_2023_binaural_beats_to_entrain_the_brain_systematic_review.pdf
 

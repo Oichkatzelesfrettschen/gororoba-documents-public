@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 4812c408e5a152d8783acf17844e3ab80ec9e02f59e4d68d690e348a3ff19ce4
 License: CC-BY-4.0
 Language: eng
-Fidelity: machine (failed: characters, second-reader)
+Fidelity: machine (failed: characters)
 
 # Transcription of lopez-bezanilla_2024_quantum_fluctuations_drive_nonmonotonic_correlations_qubit_lattice.pdf
 

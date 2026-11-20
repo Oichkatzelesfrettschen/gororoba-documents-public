@@ -2,7 +2,7 @@ Source: https://www.nature.com/articles/s41586-025-09599-3.pdf
 PDF sha256: aec0700965aa6dcab20ca3fa3b59789298a5da26529d4254c39789e39368c089
 License: CC-BY
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine (failed: text-layer)
 
 # Transcription of abubakar_2025_joint_neutrino_oscillation_analysis_t2k.pdf
 

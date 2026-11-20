@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 9ef1fb99857c80dc058c291a8c282cebc124eadd3e843a0d26b30d94e1446d54
 License: CC-BY-4.0
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine-gated
 
 # Transcription of kaya_2018_large_eeg_motor_imagery_dataset_brain_computer_interfaces.pdf
 

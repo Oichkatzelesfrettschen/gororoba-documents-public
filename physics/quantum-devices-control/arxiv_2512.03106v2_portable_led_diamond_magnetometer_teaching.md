@@ -2,7 +2,7 @@ Source: https://arxiv.org/abs/2512.03106v2
 PDF sha256: b53e2d6acff23252eb6a285b270f59e530576bf81d787ee51533a5ff6db8e39e
 License: http://creativecommons.org/licenses/by/4.0/
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine-gated
 
 # Transcription of arxiv_2512.03106v2_portable_led_diamond_magnetometer_teaching.pdf
 

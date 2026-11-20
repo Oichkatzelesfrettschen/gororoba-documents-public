@@ -2,7 +2,7 @@ Source: https://patents.google.com/patent/US6784591B2
 PDF sha256: 6a10cf0a32c51ab73f2abee0e567f093bee69c29b8d76cd91b3f3a210c8a8a4b
 License: US-patent-public-domain
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine (failed: second-reader, empty-pages)
 
 # Transcription of baker_2004_us6784591_gravitational_wave_generator.pdf
 

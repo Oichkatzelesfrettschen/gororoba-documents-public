@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 76f223be1d47035e9c4df5d295a6285afc0c5bec4490ce81c2ed8b59511570ec
 License: CC-BY-4.0
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine (failed: text-layer)
 
 # Transcription of hofmann_2025_neural_correlates_suppressing_imagining_future_threat.pdf
 

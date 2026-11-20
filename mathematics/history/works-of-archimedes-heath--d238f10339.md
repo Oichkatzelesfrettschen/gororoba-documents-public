@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: d238f10339b4995ac88c3f3d5b4bdd23d3ec1df0fc0de75e43f37b64aef43447
 License: public-domain
 Language: eng
-Fidelity: machine (failed: second-reader, repetition, empty-pages)
+Fidelity: machine-gated
 
 # Transcription of works-of-archimedes-heath--d238f10339.pdf
 

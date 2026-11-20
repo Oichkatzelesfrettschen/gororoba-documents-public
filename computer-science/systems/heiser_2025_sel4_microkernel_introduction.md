@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 0fd0ac5c969a1b8feff4be6f88466123abd7c17b9732a5b08abbdeab2e6535b6
 License: CC-BY-SA-4.0
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine-gated
 
 # Transcription of heiser_2025_sel4_microkernel_introduction.pdf
 

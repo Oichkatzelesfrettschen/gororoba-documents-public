@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 2d46297f5211959e1634eb962495e66f46409d14c1aec0608bfcacb07a6bce42
 License: public-domain
 Language: eng
-Fidelity: machine (failed: second-reader, empty-pages)
+Fidelity: machine-gated
 
 # Transcription of st_denis_2007_libtommath_user_manual_v0-41.pdf
 

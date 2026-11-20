@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: a50652a9868b97f3d8219472adc4dc4b30ea0bb22668cc4161c086d4cf997b84
 License: CC-BY-4.0
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine-gated
 
 # Transcription of neven_2024_testing_conjecture_quantum_processes_create_conscious_experience.pdf
 

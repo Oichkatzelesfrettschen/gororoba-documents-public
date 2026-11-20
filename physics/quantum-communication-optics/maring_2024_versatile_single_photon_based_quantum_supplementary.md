@@ -2,7 +2,7 @@ Source: https://static-content.springer.com/esm/art%3A10.1038%2Fs41566-024-01403
 PDF sha256: fae50beaa6e8960ad8f8d56f085d3e17fccebd8fdef2c0e0e5ef39115fc981d5
 License: CC-BY-4.0
 Language: eng
-Fidelity: machine (failed: second-reader)
+Fidelity: machine-gated
 
 # Transcription of maring_2024_versatile_single_photon_based_quantum_supplementary.pdf
 

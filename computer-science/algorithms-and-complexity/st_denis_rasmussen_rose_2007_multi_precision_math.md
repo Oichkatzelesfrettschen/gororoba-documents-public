@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: c648096afc667b96af55a84f40f85a677b58246ce027920ed8848119e6777a7f
 License: public-domain
 Language: eng
-Fidelity: machine (failed: second-reader, empty-pages)
+Fidelity: machine-gated
 
 # Transcription of st_denis_rasmussen_rose_2007_multi_precision_math.pdf
 

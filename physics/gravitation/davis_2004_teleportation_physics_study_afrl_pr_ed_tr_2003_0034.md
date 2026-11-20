@@ -2,7 +2,7 @@ Source: see manifest row of the PDF
 PDF sha256: 38a5727313375096275379b84909db6f3468c7f30973817b7cb71cb701c06e1b
 License: US-DoD-distribution-A
 Language: eng
-Fidelity: machine (failed: text-layer, second-reader, display-math)
+Fidelity: machine (failed: text-layer, second-reader, display-math, empty-pages)
 
 # Transcription of davis_2004_teleportation_physics_study_afrl_pr_ed_tr_2003_0034.pdf
 
