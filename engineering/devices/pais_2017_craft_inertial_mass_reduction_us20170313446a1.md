@@ -1,0 +1,695 @@
+Source: see manifest row of the PDF
+PDF sha256: 4d16dc97f3355ac4b7386f77e53bc40f3f71d183c4829f6d2e9e109d2d150f8d
+License: no copyright restriction: United States patent document without a 37 CFR 1.71(d) copyright or mask-work notice
+Language: eng
+Fidelity: machine (failed: text-layer)
+
+# Transcription of pais_2017_craft_inertial_mass_reduction_us20170313446a1.pdf
+
+Transcription of `pais_2017_craft_inertial_mass_reduction_us20170313446a1.pdf` in this directory, 7 pages; each `## PDF page` heading marks a page of the PDF.
+
+Method: pages 1-7 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories. No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
+
+## PDF page 1
+
+US 20170313446A1
+(19) United States
+(12) Patent Application Publication (10) Pub. No.: US 2017/0313446 A1
+Nov. 2, 2017
+(43) <b>Pub. Date:</b>
+<b>Pais</b>
+CRAFT USING AN INERTIAL MASS
+<b>Publication Classification</b>
+(54)
+REDUCTION DEVICE
+(51) Int. Cl.
+B64G 1/40
+(2006.01)
+Applicant: Salvatore Pais, Leonardtown, MD (US)
+(71)
+(52) U.S. Cl.
+CPC ...... <b>B64G 1/409</b> (2013.01)
+Inventor: Salvatore Pais, Leonardtown, MD (US)
+(72)
+<b>ABSTRACT</b>
+(57)
+A craft using an inertial mass reduction device comprises of
+(73) Assignee: United States of America as
+an inner resonant cavity wall, an outer resonant cavity, and
+represented by the Secretary of the
+microwave emitters. The electrically charged outer resonant
+Navy, Patuxent River, MD (US)
+cavity wall and the electrically insulated inner resonant
+cavity wall form a resonant cavity. The microwave emitters
+create high frequency electromagnetic waves throughout the
+Appl. No.: 15/141,270
+(21)
+resonant cavity causing the resonant cavity to vibrate in an
+accelerated mode and create a local polarized vacuum
+(22) Filed:
+Apr. 28, 2016
+outside the outer resonant cavity all.
+10
+156
+25
+155
+150
+222
+156
+50
+155
+21
+22
+121
+200
+100
+60
+100
+55
+300
+300
+56
+58
+26
+26
+25
+25
+57
+300
+300
+60
+58
+123
+100
+21
+60
+200
+22
+223
+155
+150
+25
+
+## PDF page 2
+
+<b>Patent Application Publication</b>
+Nov. 2, 2017
+US 2017/0313446 A1
+150
+100
+10
+60
+155
+21
+58
+50
+200
+26
+300
+58
+25
+56
+57
+55
+22
+300
+60
+200
+50
+150
+20
+100
+FIG-1
+10
+156
+25
+155
+150
+222
+156
+50
+155
+21
+22
+121
+200
+100
+60
+100
+55
+300
+300
+56
+58
+26
+26
+25
+
+25
+57
+300
+300
+60
+123
+58
+100
+21
+60
+200
+22
+223
+155
+150
+25
+FIG-2
+
+## PDF page 3
+
+US 2017/0313446 A1
+Nov. 2, 2017
+1
+CRAFT USING AN INERTIAL MASS
+[0007] It is important to note that in region(s) where the
+REDUCTION DEVICE
+electromagnetic fields are strongest, the more potent the
+interactions with the QVP, therefore, the higher the induced
+STATEMENT OF GOVERNMENT INTEREST
+energy density of the QVP particles which spring into
+existence (the Dirac Sea of electrons and positrons). These
+[0001] The invention described herein may be manufac-
+QVP particles may augment the obtained energy levels of
+tured and used by or for the Government of the United States
+the HEEMFG system, in that energy flux amplification may
+of America for governmental purposes without payment of
+be induced.
+any royalties thereon or therefor.
+[0008] It is possible to reduce the inertial mass and hence
+<b>BACKGROUND</b>
+the gravitational mass, of a system/object in motion, by an
+abrupt perturbation of the non-linear background of local
+[0002] There are four known fundamental forces which
+spacetime (the local vacuum energy state), equivalent to an
+control matter and, therefore, control energy. The four
+accelerated excursion far from thermodynamic equilibrium
+known forces are strong nuclear forces, weak nuclear forces,
+(analogous with symmetry-breaking induced by abrupt
+electromagnetic force, and gravitational force. In this hier-
+changes of state/phase transitions). The physical mechanism
+archy of forces, the electromagnetic force is perfectly posi-
+which drives this diminution in inertial mass is based on the
+tioned to be able to manipulate the other three. A stationary
+negative pressure (hence repulsive gravity) exhibited by the
+electric charge gives rise to an electric (electrostatic) field,
+polarized local vacuum energy state (local vacuum polar-
+while a moving charge generates both an electric and a
+ization being achieved by a coupling of accelerated high
+magnetic field (hence the electromagnetic field). Addition-
+frequency vibration with accelerated high frequency axial
+ally, an accelerating charge induces electromagnetic radia-
+rotation of an electrically charged system/object) in the close
+tion in the form of transverse waves, namely light. Math-
+proximity of the system/object in question. In other words,
+ematically, as well as physically, electromagnetic: field
+inertial mass reduction can be achieved via manipulation of
+intensity can be represented as the product of electric field
+quantum field fluctuations in the local vacuum energy state,
+strength and magnetic field strength. Electromagnetic fields
+in the immediate proximity of the object/system. Therefore
+act as carriers for both energy and momentum, thus inter-
+it is possible to reduce a craft's inertia, that is, its resistance
+acting with physical entities at he most fundamental level.
+to motion/acceleration by polarizing the vacuum in the close
+[0003] Artificially generated high energy electromagnetic
+proximity of the moving craft.
+fields, such as those generated with a high energy electro-
+magnetic field generator (HEEMEG), interact strongly with
+[0009] Polarization of the local vacuum is analogous to
+the vacuum energy state. The vacuum energy state can be
+manipulation/modification of the local space tie topological
+described as an aggregate/collective state, comprised of the
+lattice energy density. As a result, extreme speeds can be
+superposition of all quantum fields' fluctuations permeating
+achieved.
+the entire fabric of spacetime. High energy interaction with
+[0010] If we can engineer the structure of the local quan-
+the vacuum energy state can give rise to emergent physical
+tum vacuum state, we can engineer the fabric of our reality
+phenomena, such as force and matter fields' unification.
+at the most fundamental level (thus affecting a physical
+According to quantum field theory, this strong interaction
+system's inertial and gravitational properties). This realiza-
+between the fields is based on the mechanism of transfer of
+tion would greatly advance the fields of aerospace propul-
+vibrational energy between the fields. The transfer of vibra-
+sion and power generation.
+tional energy further induces local fluctuations in adjacent
+[0011] The physical equation which describes the maxi-
+quantum fields which permeate spacetime (these fields may
+mum intensity achieved by the high energy electromagnetic
+or may not be electromagnetic in nature). Matter, energy,
+field generator (HEEMFG) system is described by the
+and spacetime are all emergent constructs which arise out of
+magnitude of the Poynting vector, which in non-relativistic
+the fundamental framework that is the vacuum energy state.
+for (accounting for all three modes of motion) can be written
+[0004] Everything that surrounds us, ourselves included,
+as:
+can be described as macroscopic collections of fluctuations,
+vibrations, and oscillations in quantum mechanical fields.
+<math>S_{max} = f_G(\sigma^2/\epsilon_0) [R_r\omega + R_v\nu + v_{R}]</math>
+(Equation 1),
+Matter is confined energy, bound within fields, frozen in a
+where <math>f_G</math> is the HEEMFG system geometric shape factor
+quantum of time. Therefore, under certain conditions (such
+(equal to 1 for a disc configuration), <math>\sigma</math> is the surface charge
+as the coupling of hyper-frequency axial spin h hyper-
+density (total electric charge divided by surface area of the
+frequency vibrations of electrically charged systems) the
+HEEMFG system), <math>\epsilon_0</math> is the electrical permittivity of free
+rules and special effects of quantum field behavior also apply
+space, <math>R_r</math> is the radius of rotation (disc radius), <math>\omega</math> is the
+to macroscopic physical entities (macroscopic quantum phe-
+angular frequency of rotation in rad/s, R<sub>v</sub> is the vibration
+nomena).
+(harmonic oscillation) amplitude, v is the angular frequency
+[0005] Moreover, the coupling of hyper-frequency gyra-
+of vibration in Hertz, and the term <math>v_R</math> is the curvilinear
+tional (axial rotation) and hyper-frequency vibrational elec-
+translation speed (acquired via a propulsive unit of either
+trodynamics is conducive to a possible physical break-
+chemical, nuclear or magneto-plasma-dynamic (VASIMR)
+through in the utilization of the macroscopic quantum
+type attached to the HEEMFG system—the integrated unit
+fluctuations vacuum plasma field (quantum vacuum plasma)
+being the craft).
+as an energy source (or sink), which is an induced physical
+[0012] Therefore, if we consider only rotation, given a
+phenomenon.
+disc configuration, with <math>\sigma</math>=50,000 Coulombs/m<sup>2</sup> a disc
+[0006] The quantum vacuum plasma (QVP) is the electric
+glue of our plasma universe. The Casimir Effect, the Lamb
+(spinning/axially rotating) radius of 2 m and an angular
+Shift, and Spontaneous Emission, are specific confirmations
+speed of 30,000 RPM, an generate an electromagnetic (EM)
+of the existence of QVP.
+field intensity <math>(S_{max}</math> is the rate of energy flow per unit area,
+
+## PDF page 4
+
+US 2017/0313446 A1
+Nov. 2, 2017
+2
+or energy flux) value on the order of 10<sup>24</sup> Watts/m<sup>2</sup> (this
+10<sup>-15</sup> Joules/cm<sup>3</sup> and in part by the artificial EM field
+value does not account for any QVP interactions).
+interacting with the local vacuum energy state) we can write
+[0013] Furthermore, if we couple the high frequency of
+the approximate equivalence:
+rotation with high vibration (harmonic oscillation) frequen-
+<math>(S_{max}/c)=[(h*v_v^4)/8\pi^2c^3]</math>
+(Equation 4),
+cies in the range of 109 to 1018 Hertz (and above) we can
+obtain <math>S_{max}</math> intensity values in the range <math>10^{24}</math> to <math>10^{28}</math> Watts/m<sup>2</sup> (and beyond). These extremely high EM field
+where c is the speed of light in free space, (h*) is Planck's
+constant divided by <math>(2\pi)</math> and <math>(v_v)</math> is the frequency of
+quantum fluctuations in the vacuum (modeled as harmonic
+intensity values emphasize the novelty of this concept,
+oscillators). Furthermore, given that the left side of Equation
+especially suited for the design of energy generation
+4 is on the order of <math>(\epsilon_0 E^2)</math> where E is the artificially
+machinery with power output levels much higher than those
+generated electric field (strength), considering the
+currently achievable.
+Schwinger value of (E) for the onset of spontaneous pair
+[0014] For the case of an accelerating angular frequency
+production, we obtain a <math>(v_v)</math> value on the order of <math>10^{22}</math> Hertz,
+of vibration (<math>a_{max}=R_v v^2</math>), neglecting rotation and curvilinear
+which matches our expectations, since the Dirac virtual pair
+translation, Equation 1 becomes (note intrinsic significance
+production, results in total annihilation, yielding gamma
+of acceleration):
+rays, which occupy the electromagnetic frequency spectrum
+<math>S_{max} = f_G(\sigma^2/\epsilon_0) [(R_v v^2) t_{op}]</math>
+(Equation 2),
+of 10<sup>19</sup> Hertz and above.
+where <math>t_{op}</math> is the operational time for which the charged
+[0020] A recent paper, by the inventor, published in the
+electrical system s accelerating in its vibration.
+International Journal of Space Science and Engineering
+[0015] Close inspection of Equation 2 results in an impor-
+(Pais, S. C., Vol. 3, No. 1, 2015) considers the conditional
+tant realization, namely: strong local interaction with the
+possibility of superluminal craft propulsion in a Special
+high energetics of the quantum vacuum fields' fluctuations
+Relativity framework. It is observed that under certain
+superposition (macroscopic vacuum energy state) is possible
+physical conditions, the singularity expressed by the rela-
+in a laboratory environment, by application of high fre-
+tivistic stretch factor 'gamma' as the craft's speed (v)
+quency gyration (axial spin) and/or high frequency vibration
+approaches the speed of light (c), is no longer present in the
+of minimally charged objects (order of unity surface charge
+physical picture. This involves the instantaneous removal of
+density), in an acceleration mode. In this manner, a high
+energy-mass from the system (craft) when the craft's speed
+degree of local vacuum energy polarization can be achieved.
+reaches (<math>v=c/2</math>). The author discusses the possibility of using
+[0016] To illustrate this fact, considering a high end micro-
+exotic matter (negative mass/negative energy density) to
+wave frequency on the order of 10<sup>11</sup> Hertz, a surface charge
+bring about this effect. This may not have to be the only
+density on the order of 1 C/m<sup>2</sup> and an operational time on the
+alternative. The artificial generation of gravity waves in the
+order of the inverse of the vibrational amplitude, we obtain
+locality of the craft, can result in energy-mass removal
+an energy flux value of <math>10^{33}</math> W/m<sup>2</sup>. This exceptionally high
+(gravity waves are propagating fluctuations in gravitational
+power intensity induces a pair production avalanche, thereby
+fields, whose amplitude and frequency are a function of the
+ensuring complete polarization of the local vacuum state.
+motion of the masses involved).
+[0017] Local polarization of the vacuum in the close
+[0021] Moreover, it is feasible to remove energy-mass
+proximity of a craft equipped with an HEEMFG system
+from the system by enabling vacuum polarization, as dis-
+would have the effect of cohering the highly energetic and
+cussed by Harold Puthoff; in that diminution of inertial (and
+random quantum vacuum fields' fluctuations, which virtu-
+thus gravitational) mass can be achieved via manipulation of
+ally block the path of an accelerating craft, in such a manner
+quantum field fluctuations in the vacuum. In other words, it
+that the resulting negative pressure of the polarized vacuum
+is possible to reduce a craft's inertia, that is, its resistance to
+allows less labored motion through it (as noted by H. David
+motion/acceleration by polarizing the vacuum in the close
+Froning).
+proximity of the moving craft. As a result, extreme speeds
+[0018] Spontaneous electron-positron pair production out
+can be achieved.
+of the vacuum is a strong indicator of vacuum polarization
+[0022] Vacuum energy state can be thought of as a chaotic
+being achieved. Julian Schwinger (Nobel prize winning
+system comprised of random, highly energetic fluctuations
+physicist) gives a value of the electric field (E) on the order
+in the collective quantum fields which define it. Considering
+of <math>10^{18}</math> V/m, for this phenomenon to take place. The mass
+Ilya Prigogine's Nobel Prize work on far from equilibrium
+production rate <math>(dm/dt)_{pp}</math> of particle/anti-particle pairs can be expressed in terms of <math>S_{max}</math> (energy flux), namely:
+thermodynamics (the Prigogine effect), a chaotic system can
+self-organize if subjected to three conditions, namely: the
+<math>2\gamma (dm/dt)_{pp}c^2 = S_{max}A_S</math>
+(Equation 3),
+system must be non-linear, it must experience an abrupt
+excursion far from thermodynamic equilibrium, and it must
+where <math>A_S</math> is the surface area from which the energy flux
+be subjected to an energy flux (order from chaos).
+emanates, c is the speed of light in free space, and <math>\gamma</math> is the
+relativistic stretch factor <math>[1(v^2/c^2)]^{-1/2}</math>. Note that the pair
+[0023] An artificially generated high energy/high fre-
+production rate increases with increasing energy flux from
+quency electromagnetic field (such as the fields an
+the craft's generated electromagnetic field. Therefore, the
+HEEMFG can produce) can fulfill all three conditions
+level, to which the vacuum is polarized, thus allowing less
+simultaneously (especially in an accelerated vibration/rota-
+labored motion through it, strictly depends on the artificially
+tion mode), when strongly interacting with the local vacuum
+generated electromagnetic energy flux.
+energy state. These interactions are induced by the coupling
+[0019] If we consider the boundary condition in the close
+of hyper-frequency axial rotation (spin) and hyper-fre-
+proximity of the craft where the energy density of the
+quency vibration (harmonic oscillations/abrupt pulsations)
+artificially generated electromagnetic (EM) field equals the
+of electrically charged systems (high energy electromagnetic
+local energy density of the polarized vacuum (caused in part
+field generators), placed on the outside of the craft in
+by the local zero-point vacuum fluctuations on the order of
+strategic locations.
+
+## PDF page 5
+
+US 2017/0313446 A1
+Nov. 2, 2017
+3
+[0024] In this manner, local vacuum polarization, namely
+ics would be similar to that describing the rotational accel-
+the coherence of vacuum fluctuations within the immediate
+eration, thus we may write (using a simple dimensional
+proximity of the craft's surface (outside vacuum boundary)
+analysis):
+is achieved, allowing for 'smooth sailing' through the nega-
+<math>\Delta W_R(v) = -f_{ep} \text{ M A}_v v \text{ kg m s}^{-2}</math>
+(Equation 6),
+tive pressure (repulsive gravity) of the 'void' (the void
+where <math>f_{ep}</math> is the Fokker-Planck electron-proton thermal
+within the vacuum). It may be stated that the void 'sucks in'
+equilibration rate, <math>A_{\nu}</math> is the vibration amplitude and v is
+the craft.
+frequency of vibration (in 1/s).
+[0025] It is of extreme importance that the craft has the
+ability to control the accelerated modes of vibration and spin
+SUMMA R Y
+of the electrically charged surfaces, in particular the rapid
+rates of change of accelerated-decelerated-accelerated vibra-
+The present invention is directed to a craft using an
+[0031]
+tion and/or accelerated-decelerated-accelerated gyration
+inertial mass reduction device. The craft includes an inner
+(axial spin) of the electrified surfaces. In this manner we can
+resonant cavity wall, an outer resonant cavity, and micro-
+delay the onset of relaxation to thermodynamic equilibrium,
+wave emitters. The outer resonant cavity wall and the inner
+thus generating a physical mechanism which may induce
+resonant cavity wall form a resonant cavity. The microwave
+anomalous effects (such as inertial or gravitational mass
+emitters create high frequency electromagnetic waves
+reduction). Furthermore, it is possible to enable the Gert-
+throughout the resonant cavity causing the outer resonant
+senshtein Effect, namely the production of high frequency
+cavity wall to vibrate in an accelerated mode and create a
+gravitational waves by high frequency electromagnetic
+local polarized vacuum outside the outer resonant cavity
+radiation, in this manner modifying the gravitational fields
+wall.
+in close proximity to the craft, resulting in its propulsion.
+[0032] It is a feature of the present invention to provide a
+craft, using an inertial mass reduction device, that can travel
+[0026] For the mathematical formalism of inertial (and
+at extreme speeds.
+thus gravitational) mass reduction consider that in a pub-
+lished Physical Review Letter (December 1989), Hayasaka
+<b>DRAWINGS</b>
+and Takeuchi report the anomalous weight reduction of
+gyroscopes for right rotations only. At the time, the authors
+[0033] These and other features, aspects and advantages of
+could not elucidate the physics behind these anomalous
+the present invention will become better understood with
+results. Several null result experiments followed (a recent
+reference to the following description and appended claims,
+one as well) which declared the Hayasaka et al. results null
+and accompanying drawings wherein:
+and void, or at least questionable—however all these experi-
+[0034] FIG. 1 is an embodiment of the craft using an
+ments were flawed in their ability to entirely duplicate the
+inertial mass reduction device; and
+Hayasaka et al. experimental procedure and set-up (espe-
+[0035] FIG. 2 is another embodiment of the craft using an
+cially the high vacuum chamber the test section was
+inertial mass reduction device.
+mounted inside).
+[0027] Closer attention to the non-zero intercept of the
+DESCRIPTION
+Hayasaka et al. expression relating the gyro's weight dimi-
+nution with respect to its mass, its angular rotational fre-
+[0036] The preferred embodiments of the present inven-
+quency and its effective rotor radius, yields the possibility of
+tion are illustrated by way of example below and in FIGS.
+a local quantum vacuum effect, namely a negative pressure
+1-2. As shown in FIG. 1, the craft 10 using an inertial mass
+(repulsive gravity) condition being present. This is due to the
+reduction device comprises of an outer resonant cavity wall
+non-zero intercept being of the same order of magnitude
+100, an inner resonant cavity 200, and microwave emitters
+with the Fokker-Planck electron-proton thermal equilibra-
+300. The outer resonant cavity wall 100 and the inner
+tion rate <math>(f_{ep})</math>, given an approximate Hydrogen atom number
+resonant cavity wall 200 form a resonant cavity 150. The
+density of 40 atoms/m<sup>3</sup>, commensurate with the local quan-
+microwave emitters 300 create high frequency electromag-
+tum vacuum state.
+netic waves 50 throughout the resonant cavity 150 causing
+the outer resonant cavity wall 100 to vibrate in an acceler-
+[0028] Consider the Hayasaka et al. expression for gyro-
+ated mode and create a local polarized vacuum 60 outside
+weight reduction, written in SI units as:
+the outer resonant cavity wall 100.
+<math>\Delta W_R(\omega) = -2 \times 10^{-10} \text{ M } r_{eq} \omega \text{ kg m s}^{-2}</math>
+(Equation 5),
+[0037] In the description of the present invention, the
+invention will be discussed in a space, sea, air, or terrestrial
+where <math>\Delta W_R</math> is the reduction in weight, M is the mass of the
+environment; however, this invention can be utilized for any
+rotor (in kg), <math>\omega</math> is the angular frequency of rotation (in rad/s),
+type of application that requires use of an inertial mass
+and <math>r_{eq}</math> is the equivalent gyro-radius (in m).
+reduction device or use of a craft.
+[0029] From this relationship we see that the units of the
+[0038] In the preferred embodiment, the resonant cavity
+non-zero intercept <math>(2\times10^{-10})</math> are <math>(1/s)</math>. This non-zero inter-
+150 is filled with a noble gas 155. The gas xenon may be
+cept is endemic of the physics of gyro-rotational accelera-
+used; however, any noble gas 155 or the equivalent can be
+tion, in particular, the physical mechanism of abrupt excur-
+utilized. The gas is used for the plasma phase transition
+sion far from thermodynamic equilibrium.
+aspect of symmetry-breaking for amplification of the
+[0030] We can further hypothesize that if the gyro-rotor
+Prigogine effect. In addition, the resonant cavity 150 may be
+was to vibrate uniformly (instead of rotating), and its vibra-
+an annular duct. As shown in FIG. 1, the resonant cavity 150
+tion (harmonic oscillation) was to accelerate in frequency
+may also surround a crew compartment 55, a power plant
+(thus inducing a state of abrupt departure far from thermo-
+system 56, a cargo bay 57, or any other type of compartment.
+dynamic equilibrium), it is possible that the resulting phys-
+The crew compartment 55, power plant system 56, cargo bay
+
+## PDF page 6
+
+US 2017/0313446 A1
+Nov. 2, 2017
+4
+57, and the like can be guarded in a Faraday-type cage 58,
+plasma bubble/sheath, due to the coupled effects of EM
+field-induced air/water particles repulsion and vacuum
+against all EM radiation effects.
+energy polarization.
+[0039] The craft 10, particularly the outer resonant cavity
+[0044] As shown in FIG. 2, in another embodiment of the
+wall 100, may be electrically charged. In addition, the inner
+invention, the trailing portion 22 of the craft 10 is a mirror
+resonant cavity wall 200 may be electrically insulated, in
+age of the leading portion 21. This includes all working
+order for the inner resonant cavity wall 200 not to vibrate.
+components internal to the craft. As shown in FIG. 2, the
+The craft 10 includes a main body 20 with a leading portion
+leading portion 21 includes a top leading edge portion 121
+21 and a trailing portion 22. Additionally, the craft 10 may
+and a bottom leading edge portion 123, while the trailing
+include a frustum 25 or cone on its leading portion 21 of its
+portion 22 includes top trailing edge portion 222 and a
+main body 20. In one of the embodiments, the frustum 25 is
+bottom trailing edge portion 223. Both the trailing portions
+rotatable about its own axis 26 or has the ability to rotate.
+22 and leading portions 21 include an outer resonant cavity
+[0040] The microwave emitter(s) 300 may be an electro-
+wall 100 and an inner resonant cavity wall 200 forming a
+magnetic field generator. The preferred electromagnetic gen-
+resonant cavity 150, such the resonant cavity 150 shrouds,
+erator is the one described in U.S. patent application Ser. No.
+envelopes, or encapsulates the craft 10. The outer resonant
+14/807,943, entitled "Electromagnetic Field Generator and
+cavity wall 100, inner resonant cavity wall 200, and resonant
+Method to Generate an Electromagnetic Field," filed on Jul.
+cavity 150 that completely surrounds the craft 10 can be
+24, 2015. The application is herein incorporated by refer-
+referred to as a resonant cavity shroud 156. The microwave
+ence, and has the same inventor. However, the microwave
+emitters 300 create high frequency electromagnetic waves
+emitters 300 may be any type of microwave emitter or radio
+throughout the entire resonant cavity shroud 156 causing the
+frequency emitter that is practicable.
+outer resonant cavity wall 100 (or a portion of the outer
+resonant cavity wall 100) to vibrate and create a local
+[0041] As shown in FIGS. 1 and 2, the craft 10 has a
+polarized vacuum 60 outside the outer resonant cavity wall
+plurality of microwave emitters 300. The microwave emit-
+100.
+ters 300 are arranged within the resonant cavity 150, and
+may be antennas (high radio frequency emitter sources) in
+[0045] In operation, in the preferred embodiment, the craft
+the electromagnetic (EM) spectrum range of 300 Megahertz
+10 may be powered to move in different directions by
+to 300 Gigahertz. The plurality of microwave emitters 300
+causing different sections of the resonant cavity shroud 156
+are arranged within the resonant cavity 150 such that the
+to vibrate. For instance, to move upwards the top portion 156
+required electrical charge is present through the resonant
+(top leading edge portion 121 and top trailing edge portion
+cavity 150 in order to cause the outer resonant cavity wall
+222) of the resonant cavity shroud 156 is vibrated, thereby,
+100 to vibrate in an accelerated mode.
+causing the polarized vacuum field 60 to move the craft
+upward.
+[0042] As described, in one of its embodiments, the craft
+10 utilizes microwave-induced vibration within a resonant
+[0046] When introducing elements of the present inven-
+annular cavity (the resonant cavity 150). The manner and
+tion or the preferred embodiment(s) thereof, the articles "a,"
+effectiveness with which the microwave energy couples with
+"an," "the," and "said" are intended to mean there are one or
+the outer resonant cavity wall 100 is called the cavity
+more of the elements. The terms "comprising," "including,"
+Q-factor (the inner resonant cavity wail 200 is electrically
+and "having" are intended to be inclusive and mean that
+insulated and does not vibrate). This parameter can be
+there may be additional elements other than the listed
+written as the (energy stored/energy lost) ratio and is in the
+elements.
+range of 10<sup>4</sup> to 10<sup>9</sup> (and beyond), depending on whether
+[0047] Although the present invention has been described
+ordinary metal (Aluminum or Copper at room temperature)
+in considerable detail with reference to certain preferred
+or cryogenically cooled superconducting material (Yttrium
+embodiments thereof, other embodiments are possible.
+Barium Copper Oxide or Niobium) is used for the outer
+Therefore, the spirit and scope of the appended claims
+resonant cavity wall 100 and outside mold line skin of the
+should not be limited to the description of the preferred
+craft. One must realize that the high energy/high frequency
+embodiment(s) contained herein.
+electromagnetic field generator responsible for the inertial
+mass diminution effect would generate a repulsive EM
+What is claimed is:
+energy field while in earth's atmosphere, thereby repelling
+1. A craft using an inertial mass reduction device com-
+air molecules in its path of ascent/flight. Consequently, once
+prising:
+in orbital space, by local vacuum polarization (quantum field
+fluctuations' modification/coherence), a repulsive gravity
+an inner resonant cavity wall;
+effect (recall the negative pressure of the polarized vacuum)
+an outer resonant cavity wall, the inner resonant cavity
+would permit swift movement of the craft 10 (which can be,
+wall and the outer resonant cavity wall forming a
+but without limitation, a cone or lenticular triangle/delta
+resonant cavity; and,
+wing configuration).
+microwave emitters such that the microwave emitters
+[0043] It is possible to envision a hybrid aerospace/under-
+create high frequency electromagnetic waves through-
+sea craft (HAUC), which due to the physical mechanisms
+out the resonant cavity causing the outer resonant
+enabled with the inertial mass reduction device, can function
+cavity wall to vibrate in an accelerated mode and create
+as a submersible craft capable of extreme underwater speeds
+a local polarized vacuum outside the outer resonant
+(lack of water-skin friction) and enhanced stealth capabili-
+cavity wall.
+ties (non-linear scattering of RF and sonar signals). This
+hybrid craft would move with great ease through the air/
+2. The craft of claim 1, wherein the resonant cavity is
+space/water mediums, by being enclosed in a vacuum
+filled with a noble gas.
+
+## PDF page 7
+
+US 2017/0313446 A1
+Nov. 2, 2017
+5
+3. The craft of claim 1, wherein the outer resonant cavity
+wall is electrically charged.
+
+4. The craft of claim 1, wherein the resonant cavity is axially rotated in an accelerated mode.
+* * * * *
