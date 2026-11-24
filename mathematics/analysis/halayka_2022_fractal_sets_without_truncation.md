@@ -4,9 +4,9 @@ License: https://creativecommons.org/licenses/by/4.0/
 Language: eng
 Fidelity: machine-gated
 
-# Transcription of Pathions1.pdf
+# Transcription of halayka_2022_fractal_sets_without_truncation.pdf
 
-Transcription of `Pathions1.pdf` in this directory, 24 pages; each `## PDF page` heading marks a page of the PDF.
+Transcription of `halayka_2022_fractal_sets_without_truncation.pdf` in this directory, 24 pages; each `## PDF page` heading marks a page of the PDF.
 
 Method: pages 12-13, 20-23 by Surya OCR 0.17.0 at 200 dpi (layout-ordered text, formulas as LaTeX between `<math>` tags), read from the page-image OCR pass of the documents repositories; pages 1-11, 14-19, 24 from the PDF's own text layer (pdftotext version 26.10.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 

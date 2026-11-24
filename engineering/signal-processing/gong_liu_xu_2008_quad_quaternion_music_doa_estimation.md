@@ -4,9 +4,9 @@ License: https://creativecommons.org/licenses/by/
 Language: eng
 Fidelity: machine-gated
 
-# Transcription of RI-005.pdf
+# Transcription of gong_liu_xu_2008_quad_quaternion_music_doa_estimation.pdf
 
-Transcription of `RI-005.pdf` in this directory, 14 pages; each `## PDF page` heading marks a page of the PDF.
+Transcription of `gong_liu_xu_2008_quad_quaternion_music_doa_estimation.pdf` in this directory, 14 pages; each `## PDF page` heading marks a page of the PDF.
 
 Method: no page was sent to OCR; pages 1-14 from the PDF's own text layer (pdftotext version 26.01.0 with the TeX glyph-name table sha256 964f0780f6b9, one page at a time). No page was compared against its rendered image; OCR errors remain where a scan is unclear, so the PDF is the authority for every quotation.
 
