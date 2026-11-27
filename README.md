@@ -3,7 +3,10 @@
 Research papers used across the gororoba workspace (gororoba-quantum,
 gororoba-open, math) whose license permits redistribution: a Creative
 Commons license, CC0, the Apache License 2.0, the OSA Open Access License,
-the Project Gutenberg License, or public-domain status (including works of
+the Project Gutenberg License, a free-software or free-documentation
+license (the GNU General Public License, the GNU Lesser General Public
+License, the GNU Free Documentation License, the Open Publication License),
+or public-domain status (including works of
 the United States Government under 17 U.S.C. 105 and United States patent
 documents that carry no copyright notice). Each file keeps its own
 license; this repository adds no license of its own to any paper, and every
@@ -26,8 +29,10 @@ That command checks the bytes of every listed file; it does not check sizes, unl
 
 The evidence column names the metadata record (an exact-version arXiv abstract page, or a Crossref
 version-of-record license entry with its URL, start date and record digest), the repository license and file path
-that cover the file, or the license statement and its page inside the PDF. `LICENSES/Apache-2.0.txt` carries the
-Apache License 2.0 text that the Apache-licensed files require.
+that cover the file, or the license statement and its page inside the PDF. `LICENSES/` carries the license texts that the
+files under those licenses require: `Apache-2.0.txt`, `GPL-2.0.txt`, `GPL-3.0.txt`, `LGPL-3.0.txt`, `GFDL-1.3.txt`,
+`linux-COPYING-v6.12.txt` with `linux-syscall-note-v6.12.txt` (the Linux kernel documentation files), and
+`rocq-doc-LICENSE-V9.3.0.txt` (the Rocq reference manual, which holds the Open Publication License v1.0).
 
 ## Resolving a document
 
