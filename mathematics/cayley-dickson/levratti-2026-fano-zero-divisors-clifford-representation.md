@@ -1,6 +1,8 @@
 Source: https://zenodo.org/records/20445208/files/A%20CLIFFORD%20REPRESENTATION%20OF%20THE%20FANO%20ZERO-DIVISORS_v1.pdf
 PDF sha256: ad1fcadd82fcd3b3b3924d8f06a440c525e7bd8eed9a4ab4128b748546b368d5
 License: https://creativecommons.org/licenses/by/4.0/
+Language: eng
+Fidelity: machine-gated
 
 # Transcription of levratti-2026-fano-zero-divisors-clifford-representation.pdf
 

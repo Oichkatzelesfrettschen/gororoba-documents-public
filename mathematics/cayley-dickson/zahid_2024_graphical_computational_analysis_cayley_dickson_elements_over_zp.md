@@ -1,6 +1,8 @@
 Source: https://jcbi.org/index.php/Main/article/download/617/526
 PDF sha256: 5e83a7ad9e0f0a673c04bfe57bcc1747209561df1bd47b9fd204b5e65ddb2bed
 License: https://creativecommons.org/licenses/by/4.0/
+Language: eng
+Fidelity: machine (failed: text-layer, repetition)
 
 # Transcription of zahid_2024_graphical_computational_analysis_cayley_dickson_elements_over_zp.pdf
 

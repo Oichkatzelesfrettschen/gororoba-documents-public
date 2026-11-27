@@ -1,6 +1,8 @@
 Source: https://zenodo.org/records/23966061/files/AWC%20Conjecture%20L;%20Wedderburn%20Classification%20of%20Left%20Multiplication%20Enveloping%20Algebras%20of%20Cayley.pdf
 PDF sha256: 137b7109a1c38a9a35e5ba45f44b049f36cb0bf4a1b5673559faa729fd05a06f
 License: https://creativecommons.org/licenses/by/4.0/
+Language: eng
+Fidelity: machine (failed: text-layer)
 
 # Transcription of zhou_zhou_2026_awc_conjecture_l_wedderburn_left_multiplication_enveloping_algebras_cayley_dickson.pdf
 
