@@ -190,7 +190,7 @@ The above equations have $p^3 - 1$ possible solutions. In this case total possib
 
 **Figure 1.** Line Graph 1
 
-<!-- Transcriber's note: page rewritten from the page image. The rings $\frac{H}{Z_p}$, $\frac{H_s}{Z_p}$, $\frac{O}{Z_p}$ and $\frac{M_{2\times 2}}{Z_p}$, the prime $p$, the vectors $\vec{v}$ and $\vec{w}$, the entries $a$ and $d$ and the counts $p^2 + p + 2$, $p^3 - 1$, $p^3 - 2$ and $p^6 + p^3 + 2$ were missing from the machine reading; equation (1) reads "(Mod p)" as printed, where the machine reading had a fraktur p; the numbers (i) to (iv) are tags of their displays; the figure is described in brackets. "where $x$ is an odd prime", "for a and d" and the missing equals sign in (3) are as printed. -->
+<!-- Transcriber's note: page rewritten from the page image. The rings $\frac{H}{Z_p}$, $\frac{H_s}{Z_p}$, $\frac{O}{Z_p}$ and $\frac{M_{2\times 2}}{Z_p}$, the prime $p$, the vectors $\vec{v}$ and $\vec{w}$, the entries $a$ and $d$ and the counts $p^2 + p + 2$, $p^3 - 1$, $p^3 - 2$ and $p^6 + p^3 + 2$ were missing from the machine reading; equation (1) reads "(Mod p)" as printed, where the machine reading had a fraktur p; the numbers (i) to (iv) are tags of their displays; the figure is described in brackets. "where $x$ is an odd prime", "for a and d" the missing equals sign in (3) and $O$ in both rings of Theorem 1 are as printed (checked at 200 dpi). -->
 
 ## PDF page 5
 
@@ -266,7 +266,7 @@ Where  $\alpha = 2^n \ n = 2,3,4, \dots$ .
 
 Following graph *represent* the number of zero divisors of  $\frac{H}{Z_p}$  for p = 3, 5, 7, 11
 
-<!-- Transcriber's note: page rewritten from the page image. The machine reading wrote $Z_n$ for $Z_p$, lower-case $o$, $o_s$ and $z_p$ for $O$, $O_s$ and $Z_p$, and runs of bars for the empty glyph box the PDF prints before each $q_i^2$ (kept as $\square$); the figure is described in brackets. -->
+<!-- Transcriber's note: page rewritten from the page image. The machine reading wrote $Z_n$ for $Z_p$, lower-case $o$, $o_s$ and $z_p$ for $O$, $O_s$ and $Z_p$, and runs of bars for the empty glyph box the PDF prints before each $q_i^2$ (kept as $\square$); the second sum of the first display runs from $i = 4$ to $4$ as printed (checked at 200 dpi); the figure is described in brackets. -->
 
 ## PDF page 7
 

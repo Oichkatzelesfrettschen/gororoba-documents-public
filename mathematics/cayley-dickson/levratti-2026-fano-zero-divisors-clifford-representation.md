@@ -58,7 +58,7 @@ Key words and phrases. Cayley–Dickson algebras, zero-divisors, octonions, Clif
 
 ## PDF page 2
 
-The answer is yes, and the construction is unexpectedly clean: it uses nothing beyond the octonion left-multiplication operators L O ek , which are the standard generators of Cliff(0, 7).
+The answer is yes, and the construction is unexpectedly clean: it uses nothing beyond the octonion left-multiplication operators $L^{\mathcal{O}}_{e_k}$, which are the standard generators of Cliff(0, 7).
 
 Notation. We write $A_n$ for the Cayley–Dickson algebra of dimension $2^n$ over $\mathbb{R}$, with $A_3 = \mathcal{O}$ (octonions) and $A_4 = \mathbb{S}$ (sedenions). Basis elements are $e_0 = 1, e_1, \dots, e_{2^n-1}$, with
 
@@ -102,13 +102,13 @@ Step 3 (Contradiction). For A · B = 0 both coefficients must vanish:
 
 These two conditions contradict each other, so $A \cdot B \neq 0$ whenever $p = r$.
 
-All 42 pairs appear. Given any ordered pair (p, r) with p ≠ r and p, r ∈ {1, . . . , 7}, set t := p ⊕ r ∈ {1, . . . , 7} (nonzero since p ≠ r). By the {0, 4, 8} Trichotomy, any ZD pair with ε-indices (p, r) satisfies k ⊕ l = t; pick any k ∈ {1, . . . , 7} with k ≠ t and set l := k ⊕ t ∈ {1, . . . , 7}. By the Sign-Parity Criterion([\[1\]](#page-7-3), Theorem 7.16), among the four (σA, σB) ∈ {+1, −1} 2 choices for the flat {p, N + k, r, N + l}, at least one
+All 42 pairs appear. Given any ordered pair (p, r) with p ≠ r and p, r ∈ {1, . . . , 7}, set t := p ⊕ r ∈ {1, . . . , 7} (nonzero since p ≠ r). By the {0, 4, 8} Trichotomy, any ZD pair with ε-indices (p, r) satisfies k ⊕ l = t; pick any k ∈ {1, . . . , 7} with k ≠ t and set l := k ⊕ t ∈ {1, . . . , 7}. By the Sign-Parity Criterion([\[1\]](#page-7-3), Theorem 7.16), among the four $(\sigma_A, \sigma_B) \in \{+1, -1\}^2$ choices for the flat {p, N + k, r, N + l}, at least one
 
-<!-- Transcriber's note: page rewritten from the page image. The machine reading set the subscripts of $A_n$, $e_p$, $e_{8+k}$, $e_{N+k}$, $\sigma_A$, $\sigma_B$ and $\mathrm{ZD}^*(4)$ as superscripts or ran them into the text, wrote $2^{n-1}$ as `2<sup>n</sup>−<sup>1</sup>` and $e_p^2$ as `e 2 <sup>p</sup>`; those sentences are set in mathematics as printed, and every not-equal sign is $\neq$. -->
+<!-- Transcriber's note: page rewritten from the page image. The machine reading set the subscripts of $A_n$, $e_p$, $e_{8+k}$, $e_{N+k}$, $\sigma_A$, $\sigma_B$ and $\mathrm{ZD}^*(4)$ as superscripts or ran them into the text, wrote $L^{\mathcal{O}}_{e_k}$ as `L O ek` and $\{+1, -1\}^2$ as `{+1, −1} 2`, wrote $2^{n-1}$ as `2<sup>n</sup>−<sup>1</sup>` and $e_p^2$ as `e 2 <sup>p</sup>`; those sentences are set in mathematics as printed, and every not-equal sign is $\neq$. -->
 
 ## PDF page 3
 
-has sign-parity +1, yielding a ZD pair  $(e_p + \sigma_A e_{N+k}, e_r + \sigma_B e_{N+l})$  with  $\varepsilon$ -indices exactly (p, r).
+has sign-parity +1, yielding a ZD pair  $(e_p + \sigma_A e_{N+k}, e_r + \sigma_B e_{N+l})$  with  $\varepsilon$ -indices exactly (p, r).  $\square$
 
 Remark 2.3. The map  $A \mapsto \varepsilon(A) = p$  separates every ZD pair: ZD adjacency implies  $\varepsilon(A) \neq \varepsilon(B)$ .
 
@@ -176,7 +176,7 @@ Proof. Since  $r \oplus t = p$ :  $e_r \cdot e_t = \varepsilon_{rt} \cdot e_p$ .
 
 **Lemma 5.5** (Line sign consistency). For every Fano line  $\{p, r, t\}$ , let  $\alpha := \varepsilon_{rt}$ . Then  $\varepsilon_{pr} = \varepsilon_{tp} = \alpha$ .
 
-Proof. WRAP(p, r) with  $p \oplus r = t$ :  $\varepsilon_{pr} \cdot \varepsilon_{t,r} = -1$ . Since  $\varepsilon_{t,r} = -\varepsilon_{rt} = -\alpha$ :  $\varepsilon_{pr}(-\alpha) = -1$ , so  $\varepsilon_{pr} = \alpha$ . WRAP(r, p) with  $r \oplus p = t$ :  $\varepsilon_{rp} \cdot \varepsilon_{t,p} = -1$ . Since  $\varepsilon_{rp} = -\varepsilon_{pr} = -\alpha$ :  $(-\alpha)\varepsilon_{tp} = -1$ , so  $\varepsilon_{tp} = \alpha$ .
+Proof. WRAP(p, r) with  $p \oplus r = t$ :  $\varepsilon_{pr} \cdot \varepsilon_{t,r} = -1$ . Since  $\varepsilon_{t,r} = -\varepsilon_{rt} = -\alpha$ :  $\varepsilon_{pr}(-\alpha) = -1$ , so  $\varepsilon_{pr} = \alpha$ . WRAP(r, p) with  $r \oplus p = t$ :  $\varepsilon_{rp} \cdot \varepsilon_{t,p} = -1$ . Since  $\varepsilon_{rp} = -\varepsilon_{pr} = -\alpha$ :  $(-\alpha)\varepsilon_{tp} = -1$ , so  $\varepsilon_{tp} = \alpha$ .  $\square$
 
 **Theorem 5.6** (Fano Reflection Identity). For every Fano line  $\{p, r, t\}$ :
 
@@ -196,16 +196,16 @@ Step 2 ( $j \in F$ , four sub-cases). Write  $\alpha = \varepsilon_{pr} = \varep
 
 - j = 0:  $\lambda_0 = \varepsilon_{t,0} \cdot \varepsilon_{r,t} \cdot \varepsilon_{p,p} = 1 \cdot \alpha \cdot (-1) = -\alpha . \checkmark$
 - j = p:  $t \oplus p = r$  and  $r \oplus t \oplus p = 0$  (Fano), so  $\lambda_p = \varepsilon_{tp} \cdot \varepsilon_{r,r} \cdot \varepsilon_{p,0} = \alpha \cdot (-1) \cdot 1 = -\alpha . \checkmark$
-- j = r:  $t \oplus r = p$  and  $r \oplus t \oplus r = t$  (Fano), so  $\lambda_r = \varepsilon_{tr} \cdot \varepsilon_{r,p} \cdot \varepsilon_{p,t}$ . Now  $\varepsilon_{tr} = -\alpha$ ,  $\varepsilon_{rp} = -\alpha$  (anti-commutativity), and WRAP(p, t) with  $p \oplus t = r$  gives  $\varepsilon_{pt} \cdot \varepsilon_{rt} = -1$ , so  $\varepsilon_{pt} = -\alpha$ . Hence  $\lambda_r = (-\alpha)(-\alpha)(-\alpha) = -\alpha^3 = -\alpha$ .
-- j = t:  $t \oplus t = 0$  and  $r \oplus t \oplus t = r$ , so  $\lambda_t = \varepsilon_{tt} \cdot \varepsilon_{r,0} \cdot \varepsilon_{p,r} = (-1) \cdot 1 \cdot \alpha = -\alpha.$
+- j = r:  $t \oplus r = p$  and  $r \oplus t \oplus r = t$  (Fano), so  $\lambda_r = \varepsilon_{tr} \cdot \varepsilon_{r,p} \cdot \varepsilon_{p,t}$ . Now  $\varepsilon_{tr} = -\alpha$ ,  $\varepsilon_{rp} = -\alpha$  (anti-commutativity), and WRAP(p, t) with  $p \oplus t = r$  gives  $\varepsilon_{pt} \cdot \varepsilon_{rt} = -1$ , so  $\varepsilon_{pt} = -\alpha$ . Hence  $\lambda_r = (-\alpha)(-\alpha)(-\alpha) = -\alpha^3 = -\alpha. \checkmark$
+- j = t:  $t \oplus t = 0$  and  $r \oplus t \oplus t = r$ , so  $\lambda_t = \varepsilon_{tt} \cdot \varepsilon_{r,0} \cdot \varepsilon_{p,r} = (-1) \cdot 1 \cdot \alpha = -\alpha. \checkmark$
 
-Thus  $\lambda_i = -\alpha = \varepsilon_{p,r,t}$  for all  $j \in F$ .
+Thus  $\lambda_j = -\alpha = \varepsilon_{p,r,t}$  for all  $j \in F$ .
 
 Step 3 (Lo-flat:  $j \notin F$ ). For  $j \in \{1, ..., 7\} \setminus \{p, r, t\}$ , the indices j, p, r, t are all distinct and all lie in  $\{1, ..., 7\}$ , so  $L_j$  anti-commutes with each of  $L_p, L_r, L_t$ :
 
 $$L_j G = L_j L_p L_r L_t = (-L_p L_j) L_r L_t = L_p L_r L_j L_t = -L_p L_r L_t L_j = -G L_j.$$
 
-Hence  $\{L_j, G\} = 0$ . Since  $G = \operatorname{diag}(\lambda_0, \dots, \lambda_7)$ , this gives  $\lambda_{j \oplus l} = -\lambda_l$  for every l. Setting l = 0:  $\lambda_i = -\lambda_0 = -(-\alpha) = \alpha = -\varepsilon_{p,r,t}$ .
+Hence  $\{L_j, G\} = 0$ . Since  $G = \operatorname{diag}(\lambda_0, \dots, \lambda_7)$ , this gives  $\lambda_{j \oplus l} = -\lambda_l$  for every l. Setting l = 0:  $\lambda_j = -\lambda_0 = -(-\alpha) = \alpha = -\varepsilon_{p,r,t}. \checkmark$
 
 **Conclusion.** G has eigenvalue  $-\alpha = \varepsilon_{p,r,t}$  on span(F) and eigenvalue  $+\alpha = -\varepsilon_{p,r,t}$  on the lo-flat, so  $G = \varepsilon_{p,r,t} R_F$ .
 
@@ -213,7 +213,7 @@ Corollary 5.7.  $\Gamma_{prt} := L_{e_p} L_{e_r} L_{e_t}$  is an involution:  $\
 
 *Proof.* $\Gamma_{prt}^2 = \varepsilon_{p,r,t}^2 R_F^2 = I_8$. $\square$
 
-<!-- Transcriber's note: page compared with the page image. The formula of the proof of Corollary 5.7 is inline as printed; the rest matches the image. -->
+<!-- Transcriber's note: page rewritten from the page image. The machine reading wrote lambda_i for lambda_j twice (Step 2 and Step 3 of Theorem 5.6), dropped three check marks and the end-of-proof mark of Lemma 5.5, and set the formula of the proof of Corollary 5.7 as a display; those are set as printed. -->
 
 ## PDF page 5
 
