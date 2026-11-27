@@ -10,6 +10,8 @@ Transcription of `levratti-2026-fano-zero-divisors-clifford-representation.pdf` 
 
 Method: Marker 1.10.2 (surya-ocr 0.17.1 on CUDA) over the whole PDF; formulas are LaTeX between `$` signs. Display equations are machine output, so the PDF is the authority for every quotation. The earlier transcription is in this file's history.
 
+Display check: each display equation was cropped at 300 dpi and read by MinerU2.5-Pro, GLM-OCR and PaddleOCR-VL-1.6. Marker's reading stays where an engine matches it symbol for symbol (5); the engines' common reading replaced it where all agree and Marker differs (0, each marked); 0 displays are marked for a page-image check; 14 on image-checked pages were left as checked.
+
 Image check: pages 2-4 were compared against their rendered page images; pages 2-4 were rewritten from the image, with figure contents described in brackets and every change named in a transcriber's note on its page.
 
 ## PDF page 1
