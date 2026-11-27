@@ -29,8 +29,8 @@ That command checks the bytes of every listed file; it does not check sizes, unl
 
 The evidence column names the metadata record (an exact-version arXiv abstract page, or a Crossref
 version-of-record license entry with its URL, start date and record digest), the repository license and file path
-that cover the file, or the license statement and its page inside the PDF. `LICENSES/` carries the license texts that the
-files under those licenses require: `Apache-2.0.txt`, `GPL-2.0.txt`, `GPL-3.0.txt`, `LGPL-3.0.txt`, `GFDL-1.3.txt`,
+that cover the file, or the license statement and its page inside the PDF. `LICENSES/` carries the texts of the
+licenses that manifest rows name: `Apache-2.0.txt`, `GPL-2.0.txt`, `GPL-3.0.txt`, `LGPL-3.0.txt`, `GFDL-1.3.txt`,
 `linux-COPYING-v6.12.txt` with `linux-syscall-note-v6.12.txt` (the Linux kernel documentation files), and
 `rocq-doc-LICENSE-V9.3.0.txt` (the Rocq reference manual, which holds the Open Publication License v1.0).
 
