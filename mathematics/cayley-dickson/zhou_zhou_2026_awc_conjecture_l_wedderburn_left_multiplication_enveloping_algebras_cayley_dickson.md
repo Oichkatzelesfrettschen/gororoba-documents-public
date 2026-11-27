@@ -10,6 +10,8 @@ Transcription of `zhou_zhou_2026_awc_conjecture_l_wedderburn_left_multiplication
 
 Method: Marker 1.10.2 (surya-ocr 0.17.1 on CUDA) over the whole PDF; formulas are LaTeX between `$` signs. Display equations are machine output, so the PDF is the authority for every quotation. The earlier transcription is in this file's history.
 
+Image check: pages 1, 4, 6-7, 9-10, 14 were compared against their rendered page images; pages 1, 4, 6-7, 9-10, 14 were rewritten from the image, with figure contents described in brackets and every change named in a transcriber's note on its page.
+
 ## PDF page 1
 
 # AWC Conjecture L: Wedderburn Classification of Left Multiplication Enveloping Algebras of Cayley–Dickson Algebras in Characteristic p and a Refutation of the Cartan Doubling Recursion
@@ -20,13 +22,15 @@ November 4, 2026
 
 #### Abstract
 
-Let  $\mathbb{F}_p$  be the prime field, and let  $A_n$  be the n-th Cayley-Dickson doubling algebra, of dimension  $2^n$ . This paper studies the Wedderburn structure over  $\mathbb{F}_p$  of the left multiplication enveloping algebra  $\operatorname{Env}_L(A_n)$  of  $A_n$ , and examines the feasibility of a Cartan-matrix recursion along the doubling tower. The classification result falls into four branches: when p=2,  $A_n$  is commutative and associative,  $\operatorname{Env}_L(A_n)\cong A_n$  is a local algebra, and the Cartan matrix is  $[2^n]$ ; when p is odd and n=1,  $\operatorname{Env}_L(A_1)$  is isomorphic to  $A_1$ , which either splits as  $\mathbb{F}_p \times \mathbb{F}_p$  or is the field  $\mathbb{F}_{p^2}$ , with Cartan matrices  $I_2$  and [1], respectively; when p is odd and n=2, the left regular representation gives  $\operatorname{Env}_L(A_2)\cong A_2\cong M_2(\mathbb{F}_p)$ , of dimension 4; when p is odd and  $n\geq 3$ ,  $\operatorname{Env}_L(A_n)=\operatorname{End}_{\mathbb{F}_p}(A_n)\cong M_{2^n}(\mathbb{F}_p)$ , and the Cartan matrix is [1]. Along with the classification is a basis-product closure fact: for every prime p and every p, the ordered product of standard basis elements is still a signed multiple of some standard basis element and is nonzero; hence statistics supported on zero basis pairs with positive density are empty at the object level. On this basis, a Cartan doubling recursion of the form
+Let  $\mathbb{F}_p$  be the prime field, and let  $A_n$  be the n-th Cayley-Dickson doubling algebra, of dimension  $2^n$ . This paper studies the Wedderburn structure over  $\mathbb{F}_p$  of the left multiplication enveloping algebra  $\operatorname{Env}_L(A_n)$  of  $A_n$ , and examines the feasibility of a Cartan-matrix recursion along the doubling tower. The classification result falls into four branches: when p=2,  $A_n$  is commutative and associative,  $\operatorname{Env}_L(A_n)\cong A_n$  is a local algebra, and the Cartan matrix is  $[2^n]$ ; when p is odd and n=1,  $\operatorname{Env}_L(A_1)$  is isomorphic to  $A_1$ , which either splits as  $\mathbb{F}_p \times \mathbb{F}_p$  or is the field  $\mathbb{F}_{p^2}$ , with Cartan matrices  $I_2$  and [1], respectively; when p is odd and n=2, the left regular representation gives  $\operatorname{Env}_L(A_2)\cong A_2\cong M_2(\mathbb{F}_p)$ , of dimension 4; when p is odd and  $n\geq 3$ ,  $\operatorname{Env}_L(A_n)=\operatorname{End}_{\mathbb{F}_p}(A_n)\cong M_{2^n}(\mathbb{F}_p)$ , and the Cartan matrix is [1]. Along with the classification is a basis-product closure fact: for every prime p and every n, the ordered product of standard basis elements is still a signed multiple of some standard basis element and is nonzero; hence statistics supported on zero basis pairs with positive density are empty at the object level. On this basis, a Cartan doubling recursion of the form
 
 $$C_{n+1} = \begin{pmatrix} C_n & X \\ X^\mathsf{T} & C_n \end{pmatrix} + \Delta_n$$
 
 cannot hold at the matrix-size level: for every  $n \geq 1$ , the size of  $C_{n+1}$  is always 1, whereas the right-hand side of the recursion is assembled from two copies of  $C_n$  and hence has size at least 2; at the same time, permuting rows and columns does not change matrix size, so this excludes dependence on the specific values of the cross blocks and correction terms. Exact integer and modular-arithmetic enumerations over finite ranges provide consistency checks for structure constants, block formulas, closure dimensions, and centralizers; the general conclusions are independently supported by the classification proof and the size inequality.
 
 **Keywords**: Cayley–Dickson algebras; left multiplication enveloping algebras; Wedderburn classification; Cartan matrices; finite fields; doubling recursion.
+
+<!-- Transcriber's note: page compared with the page image. "every n" in the closure sentence of the abstract was read as "every p"; the rest, including the displayed recursion, matches the image. -->
 
 ## PDF page 2
 
@@ -78,8 +82,7 @@ These block formulas follow directly from the doubled multiplication formula and
 
 *Proof.* Let  $(a,b) \in A_{n+1}$  belong to the center. First commute it with all elements (c,0), and compute
 
-$$(a,b)(c,0) = (ac, b\bar{c}),$$
-  $(c,0)(a,b) = (ca,bc).$ 
+$$(a,b)(c,0) = (ac, b\bar{c}), \qquad (c,0)(a,b) = (ca,bc).$$
 
 Comparing the two components gives ac = ca and  $b\bar{c} = bc$  for all c. Taking  $c = e_1$ , we obtain  $b(-e_1) = be_1$ , that is,  $2be_1 = 0$ ; since p is odd and  $e_1$  is invertible  $(e_1^2 = -1)$ , it follows that b = 0. Thus central elements have the form (a, 0), with  $a \in Z(A_n)$ . Commuting next with (0, c) gives  $ca = c\bar{a}$  for all c; taking c = 1 yields  $a = \bar{a}$ . Therefore
 
@@ -92,6 +95,8 @@ When n = 1,  $A_1 = \mathbb{F}_p[x]/(x^2 + 1)$ , conjugation is  $x \mapsto -x$ 
 $$F = \{(X, \sigma(X)) : X \in M_N(\mathbb{F}_p)\}.$$
 
 Proof. Let  $\pi_1, \pi_2$  be the two coordinate projections, and set  $I_1 = F \cap (M_N \oplus 0)$ ,  $I_2 = F \cap (0 \oplus M_N)$ . First prove that  $I_1$  is a two-sided ideal of  $M_N$ :  $I_1$  is an ideal of F; for any  $X \in M_N$  and  $t \in I_1$ , since  $\pi_1|_F$  is surjective, there exists  $f \in F$  with  $\pi_1(f) = X$ , so  $Xt = \pi_1(ft) \in I_1$ , and similarly  $tX = \pi_1(tf) \in I_1$ . By simplicity of  $M_N(\mathbb{F}_p)$ ,  $I_1$  is either zero or the whole algebra; the same holds for  $I_2$ . If  $I_1$  is the whole algebra, then for any  $Y \in M_N$ , by surjectivity of  $\pi_2|_F$  there exists  $(X,Y) \in F$ , while  $(X,0) \in F$ , hence  $(0,Y) = (X,Y) - (X,0) \in F$ , so  $I_2$  is also the whole algebra. Therefore, after excluding the mixed case in which one of  $I_1, I_2$  is the whole algebra and the other is zero, only two possibilities remain: either both  $I_1$  and  $I_2$  are the whole algebra, in which case  $F = M_N \oplus M_N$ ; or both  $I_1$  and  $I_2$  are zero, in which case the kernels of  $\pi_1|_F$  and  $\pi_2|_F$  are
+
+<!-- Transcriber's note: page compared with the page image. The display $(a,b)(c,0) = (ac, b\bar{c}), \ (c,0)(a,b) = (ca,bc)$ is one display line as printed, which the machine reading split into a display and an inline formula; the rest matches the image. -->
 
 ## PDF page 5
 
@@ -120,7 +125,9 @@ This chapter gives a complete Wedderburn classification of the left-multiplicati
 
 ## PDF page 6
 
-Classification roadmap for EnvL(An) over F<sup>p</sup>
+Classification roadmap for $\mathrm{Env}_L(A_n)$ over $\mathbb{F}_p$
+
+[Figure: Input: prime $p$ and level $n$ → $p = 2$ → $A_n$ commutative and associative; $\mathrm{Env}_L(A_n) \cong A_n$ local; Cartan $[2^n]$ | $p$ odd → $n = 1$ → $\mathrm{Env}_L(A_1) \cong A_1$; split $\mathbb{F}_p \times \mathbb{F}_p$ gives Cartan $I_2$, nonsplit $\mathbb{F}_{p^2}$ gives Cartan $[1]$ → $n = 2$ → $A_2 \cong M_2(\mathbb{F}_p)$; $\mathrm{Env}_L(A_2) \cong M_2(\mathbb{F}_p)$; Cartan $[1]$ → $n \geq 3$ → $\mathrm{Env}_L(A_n) = \mathrm{End}(A_n) \cong M_{2^n}(\mathbb{F}_p)$; Cartan $[1]$]
 
 Legend: blue nodes describe the characteristic 2 branch; green nodes are case splits for odd characteristic; yellow nodes are the resulting Wedderburn types and Cartan matrices.
 
@@ -130,9 +137,11 @@ Figure 1: Case split of Theorem 3.1.
 
 This chapter uses four preliminary facts. Noncommutativity is newly proved in this chapter; centrality, the subdirect product dichotomy, and diagonalization of doubled blocks have already been proved as Lemmas 2.1, 2.2, and 2.3 in Chapter 2, and are restated here in the notation of this chapter so that internal references in this chapter are self-contained.
 
-Fact 3.1 (Noncommutativity). Let p be odd and n ≥ 2. Then A<sup>n</sup> is noncommutative. In particular, L<sup>e</sup><sup>1</sup> ̸= R<sup>e</sup><sup>1</sup> .
+**Fact 3.1 (Noncommutativity).** Let $p$ be odd and $n \geq 2$. Then $A_n$ is noncommutative. In particular, $L_{e_1} \neq R_{e_1}$.
 
-Proof. In the Cayley–Dickson basis, e1e<sup>2</sup> = −e2e1, and e1e<sup>2</sup> is some ±ek, hence nonzero. If e1e<sup>2</sup> = e2e1, then 2e1e<sup>2</sup> = 0; since p is odd and e1e<sup>2</sup> ̸= 0, this is a contradiction. Hence A<sup>n</sup> is noncommutative. Taking x = e2, we get L<sup>e</sup><sup>1</sup> (e2) = e1e<sup>2</sup> ̸= e2e<sup>1</sup> = R<sup>e</sup><sup>1</sup> (e2), so
+*Proof.* In the Cayley–Dickson basis, $e_1 e_2 = -e_2 e_1$, and $e_1 e_2$ is some $\pm e_k$, hence nonzero. If $e_1 e_2 = e_2 e_1$, then $2 e_1 e_2 = 0$; since $p$ is odd and $e_1 e_2 \neq 0$, this is a contradiction. Hence $A_n$ is noncommutative. Taking $x = e_2$, we get $L_{e_1}(e_2) = e_1 e_2 \neq e_2 e_1 = R_{e_1}(e_2)$, so
+
+<!-- Transcriber's note: page rewritten from the page image. The machine reading set the subscripts of $\mathrm{Env}_L(A_n)$, $\mathbb{F}_p$, $A_n$, $L_{e_1}$, $R_{e_1}$ and $e_1 e_2$ as superscripts and dropped the text of every box of the flow chart, which is described in brackets. -->
 
 ## PDF page 7
 
@@ -142,8 +151,7 @@ Fact 3.2 (Centrality). Let p be odd and  $n \geq 2$ . Then  $Z(A_n) = \mathbb{F}
 
 *Proof.* Let  $(a,b) \in A_{n+1}$  belong to the center. First commute it with all (c,0), and compute
 
-$$(a,b)(c,0) = (ac, b\bar{c}),$$
-  $(c,0)(a,b) = (ca,bc).$ 
+$$(a,b)(c,0) = (ac, b\bar{c}), \qquad (c,0)(a,b) = (ca,bc).$$
 
 Comparing the two components gives ac = ca and  $b\bar{c} = bc$  for all c. Taking  $c = e_1$ , we obtain  $b(-e_1) = be_1$ , that is,  $2be_1 = 0$ ; since p is odd and  $e_1$  is invertible  $(e_1^2 = -1)$ , it follows that b = 0. Thus central elements have the form (a, 0), with  $a \in Z(A_n)$ . Commuting next with (0, c) gives  $ca = c\bar{a}$  for all c; taking c = 1 yields  $a = \bar{a}$ . Therefore
 
@@ -169,6 +177,8 @@ $$L_{(0,b)} = \begin{pmatrix} 0 & -R_b C \\ L_b C & 0 \end{pmatrix}$$
 
 and use  $CL_xC = R_{\bar{x}}$ ,  $CR_xC = L_{\bar{x}}$ . Taking b = b' = 1, we have  $R_1 = L_1 = \mathrm{id}$ , so the square is  $-\mathrm{id}$ . When p is odd,  $-1 \neq 0$ , so the operator is invertible. This completes the proof.
 
+<!-- Transcriber's note: page compared with the page image. The display $(a,b)(c,0) = (ac, b\bar{c}), \ (c,0)(a,b) = (ca,bc)$ is one display line as printed, which the machine reading split into a display and an inline formula; the rest matches the image. -->
+
 ## PDF page 8
 
 #### **3.3** The Case p = 2
@@ -193,7 +203,7 @@ The norm form of the quaternion algebra  $A_2$  is a nondegenerate quadratic for
 
  $A_2$  is associative and central simple, with center  $\mathbb{F}_p$ . The natural map
 
-$$A_2 \otimes_{\mathbb{F}_n} A_2^{\mathrm{op}} \to \mathrm{End}_{\mathbb{F}_n}(A_2), \qquad a \otimes c \mapsto L_a R_c$$
+$$A_2 \otimes_{\mathbb{F}_p} A_2^{\mathrm{op}} \to \mathrm{End}_{\mathbb{F}_p}(A_2), \qquad a \otimes c \mapsto L_a R_c$$
 
 is the structural isomorphism for central simple algebras; hence
 
@@ -207,7 +217,7 @@ $$Q_b Q_{b'} = \operatorname{diag}(-R_b R_{\bar{b}'}, -L_b L_{\bar{b}'}).$$
 
 Thus the two diagonal blocks of  $P_aQ_bQ_{b'}$  are of the form  $L_aR_c$  and  $R_cL_a$ , respectively. Since span $\{L_aR_c\}=M_4$  and associativity of  $A_2$  makes left and right multiplication commute, the projections of F onto both  $M_4$ -factors are surjective. By Fact 3.3, either  $F=M_4\oplus M_4$ , or F is the graph of some automorphism  $\sigma$ .
 
-If F is the graph of  $\sigma$ , then from  $\operatorname{diag}(L_a, R_a) \in F$  we obtain  $\sigma(L_a) = R_a$  for all  $a \in A_2$ . By Skolem-Noether,  $\sigma = \operatorname{Ad}_G$  for some invertible G. Evaluating the relation  $GL_aG^{-1} = R_a$  at  $1 \in A_2$  gives G(ag) = a, where  $g = G^{-1}(1)$ . Hence  $A_2g = A_2$ , so g is invertible, and  $G = R_{g^{-1}}$ . Substituting back gives  $R_{g^{-1}}L_aR_g = R_a$ ; here, by associativity of  $A_2$ ,  $A_3$  commutes with  $A_3$ , so  $A_3 = A_3$  for all  $A_3 = A_3$ . But by Fact 3.1,  $A_3 = A_3$  contradiction. Therefore  $A_3 = A_3$  for all  $A_3 = A_3$ .
+If F is the graph of  $\sigma$ , then from  $\operatorname{diag}(L_a, R_a) \in F$  we obtain  $\sigma(L_a) = R_a$  for all  $a \in A_2$ . By Skolem-Noether,  $\sigma = \operatorname{Ad}_G$  for some invertible G. Evaluating the relation  $GL_aG^{-1} = R_a$  at  $1 \in A_2$  gives G(ag) = a, where  $g = G^{-1}(1)$ . Hence  $A_2g = A_2$ , so g is invertible, and  $G = R_{g^{-1}}$ . Substituting back gives  $R_{g^{-1}}L_aR_g = R_a$ ; here, by associativity of  $A_2$ ,  $L_a$  commutes with  $R_g$ , so  $L_a = R_a$  for all  $a$ . But by Fact 3.1,  $L_{e_1} \neq R_{e_1}$ , a contradiction. Therefore  $F = M_4 \oplus M_4$ .
 
 Finally, by Fact 3.4,  $Z = L_{(0,1)}$  satisfies  $Z^2 = -\operatorname{id}$ , so Z is invertible. Multiplication by Z sends F onto all off-diagonal blocks; hence  $E = M_8(\mathbb{F}_p) = \operatorname{End}(A_3)$ . The first step is established.
 
@@ -217,9 +227,7 @@ Assume that  $\operatorname{Env}_L(A_n) = \operatorname{End}(A_n) = M_N(\mathbb{
 
 $$\operatorname{Env}_R(A_n) = C \operatorname{Env}_L(A_n)C = \operatorname{End}(A_n) = M_N.$$
 
-Let 
-$$E = \operatorname{Env}_L(A_{n+1}) \subseteq \operatorname{End}(A_{n+1}) = M_{2N}(\mathbb{F}_p)$$
-, and  $F = E \cap (M_N \oplus M_N)$ .
+Let  $E = \operatorname{Env}_L(A_{n+1}) \subseteq \operatorname{End}(A_{n+1}) = M_{2N}(\mathbb{F}_p)$ , and  $F = E \cap (M_N \oplus M_N)$ .
 
 The subalgebra F contains all even words  $P_{a_1} \cdots P_{a_k}$  involving only P-factors. Its first projection is  $L_{a_1} \cdots L_{a_k}$ , and all such left-multiplication words span  $\operatorname{Env}_L(A_n) = M_N$ ; its second projection is  $R_{a_1} \cdots R_{a_k}$ , and all such right-multiplication words span  $\operatorname{Env}_R(A_n) = M_N$ . Hence the projections of F onto both  $M_N$ -factors are surjective. By Fact 3.3, either  $F = M_N \oplus M_N$ , or F is the graph of some automorphism  $\sigma$ .
 
@@ -227,47 +235,45 @@ If F is the graph of  $\sigma$ , then from  $\operatorname{diag}(L_a, R_a) \in F
 
 $$(xy)z + (zy)x = x(yz) + z(yx);$$
 
+<!-- Transcriber's note: page rewritten from the page image. The machine reading wrote $\mathbb{F}_n$ for $\mathbb{F}_p$ in the first display, replaced the end of the Skolem-Noether argument of Section 3.6.1 with repetitions of $A_3 = A_3$ (the page reads: $L_a$ commutes with $R_g$, so $L_a = R_a$ for all $a$; by Fact 3.1, $L_{e_1} \neq R_{e_1}$, a contradiction; therefore $F = M_4 \oplus M_4$), and set the inline definition of $E$ in Section 3.6.2 as a display. -->
+
 ## PDF page 10
 
 the second is the operator identity obtained from  $GL_aG^{-1}=R_a$  by composition and evaluation. To make the argument valid at every level of the tower, this step uses only the facts stated above, which hold at every level; the argument does not use alternativity or any of its consequences (such as cancellation properties of invertible elements in alternative algebras). All cancellation needed is supplied by the operator fact that G and  $R_g$  are mutually inverse maps, a fact involving only composition of operators, not the associativity of multiplication.
 
 Evaluating the relation  $GL_aG^{-1}=R_a$  at  $1 \in A_n$  gives
 
-$$G(ag) = a$$
- for all  $a \in A_n$ ,
+$$G(ag) = a \qquad \text{for all } a \in A_n,$$
 
 where  $g = G^{-1}(1)$ . Write h = G(1).
 
 Since G(ag) = a for all a, the composite map  $G \circ R_g$  is the identity; hence  $R_g$  is injective and G is surjective. Conversely, for any x, take a = G(x); from G(ag) = a and injectivity of G, we get ag = x, that is,  $R_g(G(x)) = x$ , so  $R_g \circ G$  is also the identity. Thus G and  $R_g$  are mutually inverse maps, and both are bijections. In particular, taking a = h in G(ag) = a gives G(hg) = h = G(1); by injectivity of G,
 
-$$hq = 1$$
-.
+$$hg = 1.$$
 
 Multiplying  $GL_aG^{-1}=R_a$  on the left by G gives  $GL_a=R_aG$ , that is,
 
-$$G(ay) = G(y)a$$
- for all  $a, y \in A_n$ .
+$$G(ay) = G(y)a \qquad \text{for all } a, y \in A_n.$$
 
 Taking y = 1 gives  $G = L_h$ , that is, G is the left multiplication operator  $L_h$ , and  $L_h$  is a bijection. Taking a = g in this identity gives
 
-$$h(gy) = (hy)g$$
- for all  $y \in A_n$ ;
+$$h(gy) = (hy)g \qquad \text{for all } y \in A_n;$$
 
 the right-hand side is  $R_g(L_h(y)) = y$ , so h(gy) = y for all y, that is,  $L_hL_g$  is the identity. Since  $L_h$  is a bijection,  $L_g = L_h^{-1}$ , and hence  $L_gL_h$  is also the identity, that is,
 
-$$g(ha) = a$$
- for all  $a \in A_n$ .
+$$g(ha) = a \qquad \text{for all } a \in A_n.$$
 
-Taking a = 1 gives qh = 1.
+Taking a = 1 gives gh = 1.
 
 Now take the triple (x, y, z) = (a, h, g) in the linearization of the flexible identity. The two terms on the left are (ah)g and (gh)a, and the two terms on the right are a(hg) and g(ha). Substituting hg = 1, gh = 1, and g(ha) = a, we obtain
 
-$$(ah)q + a = a + a$$
-, that is,  $(ah)q = a$ .
+$$(ah)g + a = a + a, \qquad \text{that is,} \qquad (ah)g = a.$$
 
 Comparing this with the previously obtained (ha)g = a, injectivity of  $R_g$  gives ah = ha for all  $a \in A_n$ , that is,  $h \in Z(A_n)$ . By Fact 3.2,  $Z(A_n) = \mathbb{F}_p$ , so  $h = \lambda \cdot 1$ , with  $\lambda \neq 0$ . From  $\lambda g = hg = 1$  (scalar multiplication being given by bilinearity), we get  $g = \lambda^{-1} \cdot 1$ . Therefore  $G = L_h$  is a scalar operator, and  $\sigma = \operatorname{Ad}_G$  is the identity automorphism. But  $\sigma(L_{e_1}) = R_{e_1}$ , while by Fact 3.1,  $L_{e_1} \neq R_{e_1}$ , a contradiction. Therefore  $F = M_N \oplus M_N$ .
 
 Again by Fact 3.4,  $Z = L_{(0,1)}$  satisfies  $Z^2 = -\operatorname{id}$ , so it is invertible; multiplication by Z sends F onto all off-diagonal blocks, so  $E = M_{2N}(\mathbb{F}_p) = \operatorname{End}(A_{n+1})$ . The induction is complete.
+
+<!-- Transcriber's note: page rewritten from the page image. The machine reading read $g$ as $q$ in $hg = 1$, $gh = 1$ and $(ah)g = a$, and cut the qualifiers ("for all $a \in A_n$", "that is") of five displays out of them; each display is one line as printed. -->
 
 ## PDF page 11
 
@@ -335,11 +341,11 @@ This chapter discusses the multiplicative closure property of the standard basis
 
 ## PDF page 14
 
-is the n-th Cayley–Dickson doubled algebra of dimension N = 2<sup>n</sup> ; the standard basis is denoted by e<sup>0</sup> = 1, e1, . . . , eN−1; the conjugation map is denoted by C(x) = ¯x, satisfying C(e0) = e<sup>0</sup> and C(ei) = −e<sup>i</sup> for i ≥ 1. The doubling formula is
+is the $n$-th Cayley–Dickson doubled algebra of dimension $N = 2^n$; the standard basis is denoted by $e_0 = 1, e_1, \dots, e_{N-1}$; the conjugation map is denoted by $C(x) = \bar{x}$, satisfying $C(e_0) = e_0$ and $C(e_i) = -e_i$ for $i \geq 1$. The doubling formula is
 
-$$(a,b)(c,d) = (ac - C(d)b, da + bC(c)),$$
+$$(a,b)(c,d) = (ac - C(d)b,\ da + bC(c)),$$
 
-where a, b, c, d ∈ An. The standard basis of An+1 consists of two groups: the first group P<sup>i</sup> = (e<sup>i</sup> , 0), and the second group Q<sup>i</sup> = (0, ei), i = 0, . . . , N − 1.
+where $a, b, c, d \in A_n$. The standard basis of $A_{n+1}$ consists of two groups: the first group $P_i = (e_i, 0)$, and the second group $Q_i = (0, e_i)$, $i = 0, \dots, N-1$.
 
 The proposition to be proved in this chapter has two levels. The first is closure: the product of any two standard basis elements is again a signed multiple of some standard basis element. The second is nonvanishing: this signed multiple is nonzero. Both must be proved simultaneously and cannot replace each other. Nonvanishing has another independent route, for example, some basis elements are invertible; but invertibility can only exclude zero products and cannot imply that the product is still a single basis element. Therefore, the inductive proof of closure cannot be omitted.
 
@@ -347,31 +353,27 @@ This chapter does not rely on experimental data sets; the subsequent verificatio
 
 # 4.2 Conjugation Action and Multiplication Table of the Doubled Basis
 
-In the standard basis, conjugation only changes signs and does not change basis indices. Specifically, there exist δ<sup>j</sup> ∈ {1, −1} such that
+In the standard basis, conjugation only changes signs and does not change basis indices. Specifically, there exist $\delta_j \in \{1, -1\}$ such that
 
 $$C(e_j) = \delta_j e_j,$$
 
-where δ<sup>0</sup> = 1 and δ<sup>j</sup> = −1 for j ≥ 1. In Fp, the values of δ<sup>j</sup> vary with p: when p is odd, δj is as above; when p = 2, −1 = 1, so all δ<sup>j</sup> equal 1. In either case, δ<sup>j</sup> is a nonzero constant.
+where $\delta_0 = 1$ and $\delta_j = -1$ for $j \geq 1$. In $\mathbb{F}_p$, the values of $\delta_j$ vary with $p$: when $p$ is odd, $\delta_j$ is as above; when $p = 2$, $-1 = 1$, so all $\delta_j$ equal 1. In either case, $\delta_j$ is a nonzero constant.
 
 From the doubling formula one directly obtains the four types of basis-pair multiplications:
 
-$$P_{i}P_{j} = (e_{i}e_{j}, 0);$$
+$$\begin{gathered} P_i P_j = (e_i e_j, 0); \\ P_i Q_j = (0, e_j e_i); \\ Q_i P_j = (0, e_i C(e_j)); \\ Q_i Q_j = (-C(e_j) e_i, 0). \end{gathered}$$
 
-$$P_{i}Q_{j} = (0, e_{j}e_{i});$$
-
-$$Q_{i}P_{j} = (0, e_{i}C(e_{j}));$$
-
-$$Q_{i}Q_{j} = (-C(e_{j})e_{i}, 0).$$
-
-These four types cover all standard basis pairs of An+1. The subsequent induction uses only these four formulas and C(e<sup>j</sup> ) = δje<sup>j</sup> .
+These four types cover all standard basis pairs of $A_{n+1}$. The subsequent induction uses only these four formulas and $C(e_j) = \delta_j e_j$.
 
 #### 4.3 Basis Product Closure Theorem
 
-Theorem 4.1. Let p be any prime and n ≥ 0. For any i, j ∈ {0, . . . , 2 <sup>n</sup> − 1}, there exist k ∈ {0, . . . , 2 <sup>n</sup> − 1} and ε ∈ {1, −1} such that
+**Theorem 4.1.** Let $p$ be any prime and $n \geq 0$. For any $i, j \in \{0, \dots, 2^n - 1\}$, there exist $k \in \{0, \dots, 2^n - 1\}$ and $\varepsilon \in \{1, -1\}$ such that
 
 $$e_i e_j = \varepsilon e_k,$$
 
-and εe<sup>k</sup> ̸= 0. In particular, there are no zero basis pairs in the standard basis of An, that is, eie<sup>j</sup> = 0 never holds for any i, j.
+and $\varepsilon e_k \neq 0$. In particular, there are no zero basis pairs in the standard basis of $A_n$, that is, $e_i e_j = 0$ never holds for any $i, j$.
+
+<!-- Transcriber's note: page rewritten from the page image. The machine reading set the subscripts of $Q_i$, $\delta_j$, $\delta_0$, $e_j$ and $e_k$ as superscripts, wrote $2^n$ as `2 <sup>n</sup>`, and split the four basis-pair products, printed as one centered block, into four displays. -->
 
 ## PDF page 15
 

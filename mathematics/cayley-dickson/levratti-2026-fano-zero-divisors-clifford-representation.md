@@ -10,6 +10,8 @@ Transcription of `levratti-2026-fano-zero-divisors-clifford-representation.pdf` 
 
 Method: Marker 1.10.2 (surya-ocr 0.17.1 on CUDA) over the whole PDF; formulas are LaTeX between `$` signs. Display equations are machine output, so the PDF is the authority for every quotation. The earlier transcription is in this file's history.
 
+Image check: pages 2-4 were compared against their rendered page images; pages 2-4 were rewritten from the image, with figure contents described in brackets and every change named in a transcriber's note on its page.
+
 ## PDF page 1
 
 ### A CLIFFORD REPRESENTATION OF THE FANO ZERO-DIVISORS
@@ -56,25 +58,25 @@ Key words and phrases. Cayley–Dickson algebras, zero-divisors, octonions, Clif
 
 The answer is yes, and the construction is unexpectedly clean: it uses nothing beyond the octonion left-multiplication operators L O ek , which are the standard generators of Cliff(0, 7).
 
-Notation. We write A<sup>n</sup> for the Cayley–Dickson algebra of dimension 2<sup>n</sup> over R, with A<sup>3</sup> = O (octonions) and A<sup>4</sup> = S (sedenions). Basis elements are e<sup>0</sup> = 1, e1, . . . , e2n−1, with
+Notation. We write $A_n$ for the Cayley–Dickson algebra of dimension $2^n$ over $\mathbb{R}$, with $A_3 = \mathcal{O}$ (octonions) and $A_4 = \mathbb{S}$ (sedenions). Basis elements are $e_0 = 1, e_1, \dots, e_{2^n-1}$, with
 
 $$e_i \cdot e_j = \varepsilon_{ij} \, e_{i \oplus j}, \quad \varepsilon_{ij} \in \{+1, -1\},$$
 
-where ⊕ denotes bitwise XOR; see [\[6\]](#page-7-4) for the general theory of non-associative algebras. The Fano plane PG(2, F2) is identified with F 3 <sup>2</sup> \ {0} = {1, . . . , 7}; its seven lines are {p, r, t} with p ⊕ r ⊕ t = 0.
+where ⊕ denotes bitwise XOR; see [\[6\]](#page-7-4) for the general theory of non-associative algebras. The Fano plane PG(2, $\mathbb{F}_2$) is identified with $\mathbb{F}_2^3 \setminus \{0\} = \{1, \dots, 7\}$; its seven lines are $\{p, r, t\}$ with $p \oplus r \oplus t = 0$.
 
-The ε-index of an active element A = e<sup>p</sup> + σe8+<sup>k</sup> is p ∈ {1, . . . , 7}, i.e. the index of its octonion component.
+The ε-index of an active element $A = e_p + \sigma e_{8+k}$ is $p \in \{1, \dots, 7\}$, i.e. the index of its octonion component.
 
 # 2. Structural Preliminaries
 
 # 2.1. Active zero-divisors.
 
-Definition 2.1. An element A ∈ A<sup>4</sup> is active if A = e<sup>p</sup> + σe8+<sup>k</sup> for some p ∈ {1, . . . , 7}, k ∈ {1, . . . , 7}, σ ∈ {+1, −1}, and there exists B ̸= 0 with AB = 0. Write ZD<sup>∗</sup> (4) for the set of active elements.
+Definition 2.1. An element $A \in A_4$ is active if $A = e_p + \sigma e_{8+k}$ for some $p \in \{1, \dots, 7\}$, $k \in \{1, \dots, 7\}$, $\sigma \in \{+1, -1\}$, and there exists $B \neq 0$ with $AB = 0$. Write $\mathrm{ZD}^*(4)$ for the set of active elements.
 
-From [\[1\]](#page-7-3): |ZD<sup>∗</sup> (4)| = 84 and |ZD(4)| = 336 ordered ZD pairs.
+From [\[1\]](#page-7-3): $|\mathrm{ZD}^*(4)| = 84$ and $|\mathrm{ZD}(4)| = 336$ ordered ZD pairs.
 
 2.2. The distinct ε-index theorem. The following theorem is the structural core of the construction.
 
-Theorem 2.2 (Distinct ε-indices). Let (A, B) ∈ ZD(n) with A = e<sup>p</sup> + σAeN+<sup>k</sup> and B = e<sup>r</sup> + σBeN+<sup>l</sup> , where N = 2<sup>n</sup>−<sup>1</sup> . Then p ̸= r. Moreover, every ordered pair (p, r) with p ̸= r and p, r ∈ {1, . . . , N − 1} arises as the ε-indices of some ZD pair.
+Theorem 2.2 (Distinct ε-indices). Let $(A, B) \in \mathrm{ZD}(n)$ with $A = e_p + \sigma_A e_{N+k}$ and $B = e_r + \sigma_B e_{N+l}$, where $N = 2^{n-1}$. Then $p \neq r$. Moreover, every ordered pair $(p, r)$ with $p \neq r$ and $p, r \in \{1, \dots, N-1\}$ arises as the ε-indices of some ZD pair.
 
 Proof. We prove both assertions algebraically.
 
@@ -84,21 +86,23 @@ Step 1 (XOR forces k = l). By the {0, 4, 8} Trichotomy([\[1\]](#page-7-3), Theor
 
 $$p \oplus (N+k) \oplus r \oplus (N+l) = 0.$$
 
-Since (N + k) ⊕ (N + l) = k ⊕ l (the leading bits 2<sup>n</sup>−<sup>1</sup> cancel), this gives p ⊕ r = k ⊕ l. With p = r: k ⊕ l = 0, hence k = l.
+Since $(N + k) \oplus (N + l) = k \oplus l$ (the leading bits $2^{n-1}$ cancel), this gives $p \oplus r = k \oplus l$. With $p = r$: $k \oplus l = 0$, hence $k = l$.
 
-Step 2 (Direct product). With p = r and k = l, using e 2 <sup>p</sup> = e 2 <sup>N</sup>+<sup>k</sup> = −e<sup>0</sup> and anticommutativity εN+k, p = −εp, N+k:
+Step 2 (Direct product). With $p = r$ and $k = l$, using $e_p^2 = e_{N+k}^2 = -e_0$ and anticommutativity $\varepsilon_{N+k,p} = -\varepsilon_{p,N+k}$:
 
 $$A \cdot B = e_p^2 + \sigma_B \,\varepsilon_{p,N+k} \,e_{p \oplus (N+k)} + \sigma_A \,\varepsilon_{N+k,p} \,e_{p \oplus (N+k)} + \sigma_A \sigma_B \,e_{N+k}^2$$
 $$= -(1 + \sigma_A \sigma_B) \,e_0 + (\sigma_B - \sigma_A) \,\varepsilon_{p,N+k} \,e_{p \oplus (N+k)}.$$
 
 Step 3 (Contradiction). For A · B = 0 both coefficients must vanish:
 
-- e<sup>0</sup> coefficient: 1 + σAσ<sup>B</sup> = 0 ⇒ σAσ<sup>B</sup> = −1 ⇒ σ<sup>A</sup> ̸= σB.
-- ep⊕(N+k) coefficient: (σ<sup>B</sup> − σA) εp,N+<sup>k</sup> = 0. Since εp,N+<sup>k</sup> ̸= 0: σ<sup>B</sup> = σA.
+- $e_0$ coefficient: $1 + \sigma_A \sigma_B = 0 \Rightarrow \sigma_A \sigma_B = -1 \Rightarrow \sigma_A \neq \sigma_B$.
+- $e_{p \oplus (N+k)}$ coefficient: $(\sigma_B - \sigma_A)\, \varepsilon_{p,N+k} = 0$. Since $\varepsilon_{p,N+k} \neq 0$: $\sigma_B = \sigma_A$.
 
-These two conditions contradict each other, so A · B ̸= 0 whenever p = r.
+These two conditions contradict each other, so $A \cdot B \neq 0$ whenever $p = r$.
 
-All 42 pairs appear. Given any ordered pair (p, r) with p ̸= r and p, r ∈ {1, . . . , 7}, set t := p ⊕ r ∈ {1, . . . , 7} (nonzero since p ̸= r). By the {0, 4, 8} Trichotomy, any ZD pair with ε-indices (p, r) satisfies k ⊕ l = t; pick any k ∈ {1, . . . , 7} with k ̸= t and set l := k ⊕ t ∈ {1, . . . , 7}. By the Sign-Parity Criterion([\[1\]](#page-7-3), Theorem 7.16), among the four (σA, σB) ∈ {+1, −1} 2 choices for the flat {p, N + k, r, N + l}, at least one
+All 42 pairs appear. Given any ordered pair (p, r) with p ≠ r and p, r ∈ {1, . . . , 7}, set t := p ⊕ r ∈ {1, . . . , 7} (nonzero since p ≠ r). By the {0, 4, 8} Trichotomy, any ZD pair with ε-indices (p, r) satisfies k ⊕ l = t; pick any k ∈ {1, . . . , 7} with k ≠ t and set l := k ⊕ t ∈ {1, . . . , 7}. By the Sign-Parity Criterion([\[1\]](#page-7-3), Theorem 7.16), among the four (σA, σB) ∈ {+1, −1} 2 choices for the flat {p, N + k, r, N + l}, at least one
+
+<!-- Transcriber's note: page rewritten from the page image. The machine reading set the subscripts of $A_n$, $e_p$, $e_{8+k}$, $e_{N+k}$, $\sigma_A$, $\sigma_B$ and $\mathrm{ZD}^*(4)$ as superscripts or ran them into the text, wrote $2^{n-1}$ as `2<sup>n</sup>−<sup>1</sup>` and $e_p^2$ as `e 2 <sup>p</sup>`; those sentences are set in mathematics as printed, and every not-equal sign is $\neq$. -->
 
 ## PDF page 3
 
@@ -114,13 +118,11 @@ $$L_{e_k}^{\mathcal{O}} \colon \mathcal{O} \to \mathcal{O}, \quad x \mapsto e_k 
 
 As  $8 \times 8$  real matrices they satisfy  $\{L_{e_i}^{\mathcal{O}}, L_{e_j}^{\mathcal{O}}\} = -2\delta_{ij}I_8$  for all  $i, j \in \{1, \dots, 7\}$ , making them the seven generators of  $\text{Cliff}(0,7) \cong M_8(\mathbb{R})$ ; see [7] for the general theory of Clifford algebras.
 
-**Lemma 3.1.** For every  $i, j \in \{1, ..., 7\}$  with  $i \neq j$ :  $L_{e_i}^{\mathcal{O}} L_{e_i}^{\mathcal{O}} + L_{e_i}^{\mathcal{O}} L_{e_i}^{\mathcal{O}} = 0$ .
+**Lemma 3.1.** For every  $i, j \in \{1, ..., 7\}$  with  $i \neq j$ :  $L_{e_i}^{\mathcal{O}} L_{e_j}^{\mathcal{O}} + L_{e_j}^{\mathcal{O}} L_{e_i}^{\mathcal{O}} = 0$ .
 
-*Proof.* Immediate from 
-$$\{L_{e_i}, L_{e_j}\} = -2\delta_{ij}I_8$$
-.
+*Proof.* Immediate from $\{L_{e_i}, L_{e_j}\} = -2\delta_{ij}I_8$. $\square$
 
-Remark 3.2 (Non-associativity warning). Because the octonions are not associative,  $L_{e_i}^{\mathcal{O}} \circ L_{e_i}^{\mathcal{O}} \neq L_{e_i \cdot e_j}^{\mathcal{O}}$  in general as matrix composition. The product  $L_i L_j$  is a Clifford bivector of grade 2, not a grade-1 generator.
+Remark 3.2 (Non-associativity warning). Because the octonions are not associative,  $L_{e_i}^{\mathcal{O}} \circ L_{e_j}^{\mathcal{O}} \neq L_{e_i \cdot e_j}^{\mathcal{O}}$  in general as matrix composition. The product  $L_i L_j$  is a Clifford bivector of grade 2, not a grade-1 generator.
 
 #### 4. The Representation
 
@@ -151,6 +153,8 @@ $$\rho(g \cdot A) = g \cdot \rho(A),$$
 where the right-hand action permutes the generators  $\{L_{e_1}, \ldots, L_{e_7}\}$  by index.
 
 Proof. The  $\varepsilon$ -index satisfies  $\varepsilon(g \cdot A) = g(\varepsilon(A))$  since g acts on the octonion component. Since  $GL(3, \mathbb{F}_2) \cong PSL(2,7)$  is a subgroup of  $G_2 = Aut(\mathcal{O})$  (see [5], §4.1), every  $g \in GL(3, \mathbb{F}_2)$  acts on  $\{e_1, \ldots, e_7\}$  as an octonion automorphism. The induced map  $\varphi(g) \colon L_{e_i} \mapsto L_{e_{g(i)}}$  satisfies  $\{L_{e_{g(i)}}, L_{e_{g(j)}}\} = -2\delta_{g(i),g(j)}I_8 = -2\delta_{ij}I_8$ , hence is an automorphism of Cliff(0,7). The automorphism group  $GL(3,\mathbb{F}_2) \cong PSL(2,7)$  and its action on the Fano geometry are studied in detail in [2].
+
+<!-- Transcriber's note: page rewritten from the page image. In Lemma 3.1 and Remark 3.2 the machine reading wrote $e_i$ where the page prints $e_j$; the formula of the proof of Lemma 3.1 is inline as printed. -->
 
 ## PDF page 4
 
@@ -205,8 +209,9 @@ Hence  $\{L_j, G\} = 0$ . Since  $G = \operatorname{diag}(\lambda_0, \dots, \lam
 
 Corollary 5.7.  $\Gamma_{prt} := L_{e_p} L_{e_r} L_{e_t}$  is an involution:  $\Gamma_{prt}^2 = I_8$ .
 
-Proof. 
-$$\Gamma^2_{prt} = \varepsilon^2_{p,r,t} R_F^2 = I_8.$$
+*Proof.* $\Gamma_{prt}^2 = \varepsilon_{p,r,t}^2 R_F^2 = I_8$. $\square$
+
+<!-- Transcriber's note: page compared with the page image. The formula of the proof of Corollary 5.7 is inline as printed; the rest matches the image. -->
 
 ## PDF page 5
 
