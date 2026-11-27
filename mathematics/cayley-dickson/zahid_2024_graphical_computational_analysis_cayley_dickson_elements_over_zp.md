@@ -123,8 +123,7 @@ $$M^2 = M \pmod{\mathfrak{p}} \tag{1}$$
 
 $$M(M-1) = 0 \pmod{p} \tag{2}$$
 
-$$(a\vec{v}\vec{w}b)(a-1\vec{v}\vec{w}b-1)(0000)$$
- (3)
+$$(a\vec{v}\vec{w}b)(a-1\vec{v}\vec{w}b-1)(0000) \tag{3}$$
 
 $$(a(a-1) + \vec{v} \odot \vec{w} \, a\vec{v} + (b-1)\vec{v} \, (a-1)\vec{w} + b\vec{w} \, b(b-1) + \vec{v} \odot \vec{w}) = (0 \, 0 \, 0 \, 0) \tag{4}$$
 
